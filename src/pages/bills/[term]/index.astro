@@ -1,0 +1,31 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import BillsTable from '../../../components/BillsTable.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allBills = await getCollection('bills');
+  const terms = [...new Set(allBills.map(bill => String(bill.data.congress)))];
+  return terms.map(term => ({ params: { term } }));
+}
+
+const { term } = Astro.params;
+const congressionalTerm = parseInt(term);
+
+const allBills = await getCollection('bills');
+const bills = allBills.filter(bill => bill.data.congress === congressionalTerm);
+
+const pageTitle = `${congressionalTerm}th Congress - Bills with Votes`;
+---
+
+<Layout title={pageTitle}>
+  <h1>{congressionalTerm}th Congress - Bills with Votes</h1>
+  
+  <p>Total bills: {bills.length}</p>
+  
+  {bills.length > 0 ? (
+    <BillsTable bills={bills} />
+  ) : (
+    <p>No bills found for the {congressionalTerm}th Congress.</p>
+  )}
+</Layout>

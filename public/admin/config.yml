@@ -1,0 +1,77 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: VotedForUs/working-init
+  branch: main
+
+media_folder: packages/site/src/content/media
+public_folder: /content/media
+site_url: https://localhost:4321
+local_backend: true
+
+slug:
+  lowercase: false
+
+singletons:
+  - name: acronyms
+    label: Acronym Dictionary
+    file: packages/site/src/content/editorial/acronyms.json
+    extension: json
+    format: json
+    fields:
+      - name: acronyms
+        label: Acronyms
+        widget: list
+        summary: "{{acronym}} — {{name}}"
+        fields:
+          - { label: Acronym, name: acronym, widget: string }
+          - { label: Organization, name: name, widget: string }
+
+collections:
+  # Source bills - READ ONLY reference (browse existing bills)
+  - name: voteactions
+    label: "Vote Actions"
+    label_singular: "Vote Action"
+    folder: packages/site/src/content/editorial/vote-actions
+    extension: json
+    format: json
+    create: true
+    delete: false
+    slug: '{{voteId}}'
+    identifier_field: voteId
+    summary: "{{voteId}} - {{action}}"
+    fields:
+      - { label: Vote ID, name: voteId, widget: string }
+      - { label: Action, name: action, widget: string }
+
+  - name: titles
+    label: "Titles"
+    label_singular: "Title"
+    folder: packages/site/src/content/editorial/bills
+    path: '{{congress}}/{{type}}/{{number}}'
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: id
+    summary: "{{id}} - {{title}}"
+    fields:
+      - { label: Title, name: title, widget: string, required: false }
+      - name: billTitles
+        label: Bill Titles
+        widget: list
+        summary: "{{billTitle}}"
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        collapsed: true
+        minimize_collapsed: true
+        readonly: true
+        field:
+          name: billTitle
+          label: Bill Title
+          widget: string
+          readonly: true
+
+  

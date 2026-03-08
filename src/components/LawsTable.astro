@@ -1,0 +1,55 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getBestBillTitle } from '../content.config';
+import { formatDate } from '../utils/formatDate';
+import EditorialTitleLink from './EditorialTitleLink.astro';
+
+type BillEntry = CollectionEntry<'bills'>;
+
+export interface Props {
+  bills: BillEntry[];
+}
+
+const { bills } = Astro.props;
+---
+
+<action-table class="tbl" sort="Latest" direction="descending" store="bills-table-becamelaw">
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th no-sort>Number</th>
+          <th no-sort>Title</th>
+          <th>Latest</th>
+        </tr>
+      </thead>
+      <tbody>
+        {bills.map((bill) => {
+          const typeSort = `${bill.data.type ?? ''}-${String(bill.data.number ?? '').padStart(5, '0')}`;
+          const latestDate = bill.data.lastActionDate ?? bill.data.latestAction?.actionDate ?? bill.data.actions?.actions?.[0]?.actionDate ?? '';
+          const latestText = bill.data.latestAction?.text || 'N/A';
+          return (
+            <tr>
+              <td data-sort={typeSort}>
+                <a href={`${import.meta.env.BASE_URL}bills/${bill.data.congress}/${bill.data.type?.toLowerCase()}`}>{bill.data.type}</a>
+              </td>
+              <td>
+                {bill.data.number}
+                <EditorialTitleLink congress={bill.data.congress ?? ''} type={bill.data.type ?? ''} number={bill.data.number ?? ''} />
+              </td>
+              <td>
+                <a href={`${import.meta.env.BASE_URL}bills/${bill.data.congress}/${bill.data.type?.toLowerCase()}/${bill.data.number}`} class="bill-title-link">
+                  {getBestBillTitle(bill.data)}
+                </a>
+              </td>
+              <td class="latest-cell" data-sort={latestDate}>
+                <span class="law-date">{formatDate(latestDate)}</span>
+                <br />
+                <span class="law-text">{latestText}</span>
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </action-table>

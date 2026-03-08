@@ -1,0 +1,14 @@
+{
+  "defaultTitle": "Department of Defense Appropriations Act, 2026",
+  "billTitles": [
+    "Department of Defense Appropriations Act, 2026",
+    "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2026, and for other purposes."
+  ],
+  "defaultQuestions": {
+    "119-HR-4016-3": "On Cloture on the Motion to Proceed H.R. 4016",
+    "119-HR-4016-2": "On Passage",
+    "119-HR-4016-1": "On Motion to Recommit"
+  },
+  "id": "119-HR-4016",
+  "bill": "119-HR-4016"
+}

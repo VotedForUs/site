@@ -1,0 +1,60 @@
+{
+  "acronyms": [
+    {
+      "acronym": "U.S.C.",
+      "name": "United States Code"
+    },
+    {
+      "acronym": "BLM",
+      "name": "Bureau of Land Management"
+    },
+    {
+      "acronym": "EPA",
+      "name": "Environmental Protection Agency"
+    },
+    {
+      "acronym": "DoE",
+      "name": "Department of Energy"
+    },
+    {
+      "acronym": "IRS",
+      "name": "Internal Revenue Service"
+    },
+    {
+      "acronym": "EERE",
+      "name": "Office of Energy Efficiency and Renewable Energy"
+    },
+    {
+      "acronym": "NPS",
+      "name": "National Park Service"
+    },
+    {
+      "acronym": "FWS",
+      "name": "United States Fish and Wildlife Service"
+    },
+    {
+      "acronym": "CFPB",
+      "name": "Bureau of Consumer Financial Protection"
+    },
+    {
+      "acronym": "CFPB",
+      "name": "Consumer Financial Protection Bureau"
+    },
+    {
+      "acronym": "OCC",
+      "name": "Office of the Comptroller of the Currency"
+    },
+    {
+      "acronym": "BOEM",
+      "name": "Bureau of Ocean Energy Management"
+    },
+    {
+      "acronym": "SEC",
+      "name": "Securities and Exchange Commission"
+    },
+    {
+      "acronym": "FDA",
+      "name": "Food and Drug Administration"
+    }
+  ]
+}

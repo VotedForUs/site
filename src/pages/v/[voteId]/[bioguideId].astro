@@ -1,0 +1,48 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Voted from '../../../components/Voted.astro';
+import { getEntry, getCollection } from 'astro:content';
+import { getBestBillTitle } from '../../../content.config';
+
+export async function getStaticPaths() {
+  const allVotes = await getCollection('recordedVotes');
+  const paths: { params: { voteId: string; bioguideId: string } }[] = [];
+  for (const vote of allVotes) {
+    for (const bioguideId of Object.keys(vote.data.votes ?? {})) {
+      paths.push({ params: { voteId: vote.id, bioguideId } });
+    }
+  }
+  return paths;
+}
+
+const { voteId, bioguideId } = Astro.params;
+// vote.id is already normalized (TYPE uppercase) from the collection
+const normalizedVoteId = voteId;
+const voteEntry = await getEntry('recordedVotes', normalizedVoteId);
+if (!voteEntry) {
+  throw new Error(`Vote not found: ${normalizedVoteId}`);
+}
+
+const vote = voteEntry.data;
+const billEntry = await getEntry('bills', vote.billId);
+const legEntry = await getEntry('legislators', bioguideId);
+
+if (!billEntry || !legEntry) {
+  throw new Error('Bill or legislator not found');
+}
+
+const bill = billEntry.data;
+const legislator = legEntry.data;
+const voteCast = vote.votes?.[bioguideId] ?? '';
+
+const billTitle = getBestBillTitle(bill);
+const trailingText = vote.finalChamberVote ? billTitle : `${vote.actionText ?? `roll call #${vote.rollNumber}`} on ${billTitle}`;
+const pageTitle = `${legislator.nameTitle} - ${bill.type} ${bill.number}`;
+---
+
+<Layout
+  title={pageTitle}
+  socialCardPath={`/social-cards/v/${normalizedVoteId}/${bioguideId}.png`}
+>
+  <Voted nameTitle={legislator.nameTitle} voteCast={voteCast} trailingText={trailingText} />
+</Layout>

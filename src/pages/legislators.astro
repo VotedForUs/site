@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Legislators - Congressional Vote Analysis" description="Browse current members of Congress by chamber">
+  <h2>Legislators</h2>
+  <p>View current members of Congress by chamber.</p>
+  <ul>
+    <li><a href={`${base}legislators/senate`}>Senate</a> - Current senators</li>
+    <li><a href={`${base}legislators/house`}>House of Representatives</a> - Current representatives</li>
+  </ul>
+</Layout>

@@ -1,0 +1,262 @@
+---
+import { SEO } from 'astro-seo';
+import { getBreadcrumbsFromPath } from '../utils/breadcrumbs';
+import { seoConfig } from '../../utils/seoConfig';
+import PageError from '../components/PageError.astro';
+
+export interface Props {
+  title: string;
+  description?: string;
+  ogTitle?: string;
+  image?: { url: string; alt: string };
+  disableIndexing?: boolean;
+  /** Path to social card image (e.g. /social-cards/v/119-HR-4405-1/B000944.png). When set, used as og:image with 1200×628. */
+  socialCardPath?: string;
+  /** When set (e.g. in dev after a caught error), main content shows this instead of the slot. */
+  error?: Error | null;
+  /** Optional heading for the error view (e.g. "Bill page error"). Default: "Page error" */
+  errorTitle?: string;
+}
+
+const {
+  title,
+  description,
+  ogTitle,
+  image,
+  disableIndexing = false,
+  socialCardPath,
+  error = null,
+  errorTitle,
+} = Astro.props;
+
+const descriptionResolved = description ?? seoConfig.description;
+const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, { pageTitle: title });
+
+const ogImageUrl = socialCardPath
+  ? `${seoConfig.baseURL}${socialCardPath}`
+  : image?.url ?? seoConfig.image.url;
+const ogImageWidth = socialCardPath ? 1200 : seoConfig.image.width;
+const ogImageHeight = socialCardPath ? 628 : seoConfig.image.height;
+const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoConfig.image.alt);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <SEO
+      title={title.replace('"', '')}
+      description={descriptionResolved}
+      noindex={disableIndexing}
+      nofollow={disableIndexing}
+      openGraph={{
+        basic: {
+          title: ogTitle ?? title,
+          type: 'website',
+          image: ogImageUrl,
+        },
+        image: {
+          width: ogImageWidth,
+          height: ogImageHeight,
+          alt: ogImageAlt,
+        },
+        optional: {
+          siteName: seoConfig.siteName,
+          description: descriptionResolved,
+        },
+      }}
+      twitter={{
+        card: seoConfig.twitter.card,
+      }}
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <script type="module" defer src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@colinaut/action-table/dist/action-table.css" />
+    <style is:global>
+      /* action-table overrides (single place). If overrides don't apply, use a linked CSS file after the library link instead. */
+      action-table { --td-options-bg: transparent; }
+      action-table td span {
+        padding: 0 !important;
+        margin: 0 !important;
+        background-color: transparent !important;
+        border: none !important;
+      }
+      .bill-title-link {
+        text-wrap: balance;
+        display: inline-block;
+        width: 90%;
+      }
+    </style>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fafafa;
+        color: #1a1a1a;
+        line-height: 1.6;
+      }
+      
+      header {
+        background: #1C89D1;
+        color: white;
+        padding: 1rem;
+      }
+      
+      .header-title {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .header-logo {
+        height: 2.5rem;
+        width: auto;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+      }
+      
+      header p {
+        margin: 0 0 1rem 0;
+        opacity: 0.9;
+        font-size: 0.9rem;
+      }
+      
+      header nav {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      
+      header nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+      }
+      
+      header nav a:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+      
+      .breadcrumbs {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+      }
+
+      .breadcrumbs a {
+        color: #1a5fb4;
+        text-decoration: none;
+      }
+
+      .breadcrumbs a:hover {
+        text-decoration: underline;
+      }
+
+      .breadcrumbs span {
+        color: #5e5c64;
+      }
+
+      footer {
+        background: #1C89D1;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      
+      footer p {
+        margin: 0;
+        opacity: 0.9;
+        font-size: 0.875rem;
+      }
+      
+      /* Global link styles */
+      a {
+        color: #1a5fb4;
+      }
+      
+      a:hover {
+        color: #0d3a7a;
+      }
+      
+      /* Table styles */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 1rem 0;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 0.5rem;
+        border: 1px solid #ddd;
+      }
+      
+      th {
+        background: #f5f5f5;
+        font-weight: 600;
+      }
+      
+      tr:hover {
+        background: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <img src={`${import.meta.env.BASE_URL}VFU-3-6-2026.png`} alt="VotedFor.Us logo" class="header-logo" />
+        <h1>VotedFor.Us</h1>
+      </div>
+      <p>{descriptionResolved}</p>
+      <nav>
+        <a href={import.meta.env.BASE_URL}>Home</a>
+        <a href={`${import.meta.env.BASE_URL}bills/119`}>Bills</a>
+        <a href={`${import.meta.env.BASE_URL}legislators`}>Legislators</a>
+        <a href={`${import.meta.env.BASE_URL}about`}>About</a>
+      </nav>
+    </header>
+
+    <main>
+      {!error && breadcrumbs.length > 0 && (
+        <nav class="breadcrumbs" aria-label="breadcrumbs">
+          {breadcrumbs.map((crumb, i) => (
+            <>
+              {i > 0 && <span> / </span>}
+              {i === breadcrumbs.length - 1 ? (
+                <span>{crumb.label}</span>
+              ) : (
+                <a href={crumb.href}>{crumb.label}</a>
+              )}
+            </>
+          ))}
+        </nav>
+      )}
+      {error ? <PageError error={error} title={errorTitle} /> : <slot />}
+    </main>
+
+    <footer>
+      <p>VotedFor.Us - Data from Congress.gov</p>
+    </footer>
+  </body>
+</html>

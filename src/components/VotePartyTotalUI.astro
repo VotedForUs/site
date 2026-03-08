@@ -1,0 +1,23 @@
+---
+export interface Props {
+  votePartyTotal?: Array<{ voteParty?: string; yeaTotal?: number; nayTotal?: number; presentTotal?: number; notVotingTotal?: number }>;
+}
+
+const { votePartyTotal } = Astro.props;
+---
+
+{votePartyTotal && votePartyTotal.length > 0 ? (
+  <span class="vote-party-totals">
+    {votePartyTotal.map((p) => {
+      const extra = (p.presentTotal ?? 0) + (p.notVotingTotal ?? 0) > 0
+        ? ` (${p.presentTotal ?? 0}P, ${p.notVotingTotal ?? 0}NV)`
+        : '';
+      return `${p.voteParty ?? '?'}: ${p.yeaTotal ?? 0}Y–${p.nayTotal ?? 0}N${extra}`;
+    }).join(' | ')}
+  </span>
+) : null}
+
+<style>
+  .vote-party-totals { font-size: 0.9em; color: var(--color-fg-muted, #666); }
+  .party-total { white-space: nowrap; }
+</style>

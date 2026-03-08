@@ -1,0 +1,118 @@
+---
+import Layout from '../../../../../layouts/Layout.astro';
+import { getEntry, getCollection } from 'astro:content';
+import { getBestBillTitle, getBillSourceTitle } from '../../../../../content.config';
+import EditorialTitleLink from '../../../../../components/EditorialTitleLink.astro';
+import VoteTable from '../../../../../components/VoteTable.astro';
+import ActionsTable from '../../../../../components/ActionsTable.astro';
+import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
+
+export async function getStaticPaths() {
+  const allBills = await getCollection('bills');
+  return allBills.map(bill => ({
+    params: {
+      term: String(bill.data.congress),
+      billType: String(bill.data.type).toLowerCase(),
+      billNumber: String(bill.data.number),
+    },
+  }));
+}
+
+const { term, billType, billNumber } = Astro.params;
+
+let pageError: Error | null = null;
+let bill: { type: string; number: string; congress: number; title?: string; updateDate?: string; latestAction?: { text: string; actionDate: string }; actions?: { actions?: BillActionWithVotes[] }; [key: string]: unknown } | null = null;
+let actions: BillActionWithVotes[] = [];
+let actionsWithFinalChamberVote: BillActionWithVotes[] = [];
+let voteIds: string[] = [];
+let pageTitle = 'Bill';
+let displayTitle = '';
+let billSourceTitle: string | undefined;
+
+try {
+  const congressionalTerm = parseInt(term);
+  const normalizedBillType = billType.toUpperCase();
+
+  const billId = `${congressionalTerm}-${normalizedBillType}-${billNumber}`;
+  let billEntry = await getEntry('bills', billId);
+  if (!billEntry) {
+    const allBills = await getCollection('bills');
+    billEntry = allBills.find(
+      (e) =>
+        e.data.congress === congressionalTerm &&
+        String(e.data.type).toUpperCase() === normalizedBillType &&
+        String(e.data.number) === String(billNumber)
+    );
+  }
+  if (!billEntry) {
+    throw new Error(`Bill not found: ${normalizedBillType} ${billNumber} in Congress ${congressionalTerm}`);
+  }
+
+  bill = billEntry.data;
+  const resolvedBillId = billEntry.id ?? billId;
+  displayTitle = getBestBillTitle(bill);
+  billSourceTitle = getBillSourceTitle(congressionalTerm, normalizedBillType, billNumber);
+  actions = bill.actions?.actions || [];
+
+  const billVoteEntries = (await getCollection('recordedVotes'))
+    .filter((e) => e.data.billId === resolvedBillId)
+    .sort((a, b) => a.data.voteNumber - b.data.voteNumber);
+  voteIds = billVoteEntries.map((e) => e.id);
+  const voteMetaByVoteId = new Map(
+    billVoteEntries.map((e) => [e.id, { finalChamberVote: !!e.data.finalChamberVote, voteNumber: e.data.voteNumber }])
+  );
+  function enrichVoteWithMeta(
+    vote: RecordedVoteWithVotes,
+    meta: { finalChamberVote: boolean; voteNumber: number } | undefined
+  ) {
+    const idNum = vote.id ? Number(vote.id.split('-').pop()) : NaN;
+    return {
+      ...vote,
+      finalChamberVote: meta?.finalChamberVote ?? false,
+      voteNumber: meta?.voteNumber ?? (Number.isNaN(idNum) ? undefined : idNum),
+    };
+  }
+  actionsWithFinalChamberVote = (bill.actions?.actions ?? []).map((action) => {
+    const recordedVotes = action.recordedVotes?.map((vote) =>
+      enrichVoteWithMeta(vote, voteMetaByVoteId.get(vote.id ?? ''))
+    );
+    return { ...action, recordedVotes };
+  });
+
+  pageTitle = `${bill.type} ${bill.number} - ${congressionalTerm}th Congress`;
+} catch (err) {
+  pageError = err instanceof Error ? err : new Error(String(err));
+  pageTitle = 'Error';
+}
+---
+
+<Layout title={pageTitle} error={pageError} errorTitle="Bill page error">
+  {bill && (
+    <>
+      <h1>{bill.type} {bill.number}<EditorialTitleLink congress={bill.congress} type={bill.type} number={bill.number} /></h1>
+      <p><strong>Congress:</strong> {bill.congress}th</p>
+      <p>
+        <strong>Title:</strong> {displayTitle}
+        {billSourceTitle && displayTitle !== billSourceTitle && (
+          <small class="original-title">Original title: {billSourceTitle}</small>
+        )}
+      </p>
+      {bill.updateDate && <p><strong>Updated:</strong> {bill.updateDate}</p>}
+      {bill.latestAction && (
+        <p><strong>Latest Action:</strong> {bill.latestAction.text} ({bill.latestAction.actionDate})</p>
+      )}
+
+      <VoteTable actions={actionsWithFinalChamberVote} term={term} billType={billType} billNumber={billNumber} voteIds={voteIds} />
+      <ActionsTable actions={actions} term={term} billType={billType} billNumber={billNumber} />
+    </>
+  )}
+</Layout>
+
+<style>
+  .original-title {
+    display: block;
+    font-size: 0.8em;
+    color: var(--color-fg-muted, #666);
+    margin-top: 0.2em;
+  }
+</style>

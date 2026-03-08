@@ -1,0 +1,16 @@
+{
+  "defaultTitle": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Highway Traffic Safety Administration relating to \"Federal Motor Vehicle Safety Standards; Fuel System Integrity of Hydrogen Vehicles; Compressed Hydrogen Storage System Integrity; Incorporation by Reference\".",
+  "billTitles": [
+    "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Highway Traffic Safety Administration relating to \"Federal Motor Vehicle Safety Standards; Fuel System Integrity of Hydrogen Vehicles; Compressed Hydrogen Storage System Integrity; Incorporation by Reference\"."
+  ],
+  "defaultQuestions": {
+    "119-SJRES-55-6": "On the Joint Resolution S.J.Res. 55",
+    "119-SJRES-55-5": "On the Point of Order S.J.Res. 55",
+    "119-SJRES-55-4": "On the Point of Order S.J.Res. 55",
+    "119-SJRES-55-3": "On the Motion to Table S.J.Res. 55",
+    "119-SJRES-55-2": "On the Motion to Table S.J.Res. 55",
+    "119-SJRES-55-1": "On the Motion to Proceed S.J.Res. 55"
+  },
+  "id": "119-SJRES-55",
+  "bill": "119-SJRES-55"
+}

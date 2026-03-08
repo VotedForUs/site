@@ -1,0 +1,25 @@
+---
+export interface Props {
+  error: Error;
+  /** Optional heading (e.g. "Bill page error"). Default: "Page error" */
+  title?: string;
+}
+
+const { error, title = 'Page error' } = Astro.props;
+---
+
+<h1>{title}</h1>
+<pre class="page-error-message">{error.message}</pre>
+{error.stack && <pre class="page-error-stack">{error.stack}</pre>}
+
+<style>
+  .page-error-message {
+    white-space: pre-wrap;
+    font-size: 0.9em;
+  }
+  .page-error-stack {
+    white-space: pre-wrap;
+    font-size: 0.75em;
+    color: #666;
+  }
+</style>

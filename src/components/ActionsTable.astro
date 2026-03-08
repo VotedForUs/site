@@ -1,0 +1,96 @@
+---
+import { isVotePassed } from '@votedforus/votes';
+import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
+import { formatVoteForAgainst } from '../utils/formatVoteForAgainst';
+
+export interface Props {
+  actions: BillActionWithVotes[];
+  term: string;
+  billType: string;
+  billNumber: string;
+}
+
+const { actions, term, billType, billNumber } = Astro.props;
+
+/** Derive House / Senate / President from sourceSystem and action type. Prefer sourceSystem when it indicates a chamber so API misclassification (e.g. type "President" on House floor votes) does not show wrong chamber. */
+function actionSourceLabel(action: BillActionWithVotes): string {
+  const name = (action as { sourceSystem?: { name?: string } }).sourceSystem?.name ?? '';
+  if (/house/i.test(name)) return 'House';
+  if (/senate/i.test(name)) return 'Senate';
+  const t = (action.type ?? '').toLowerCase();
+  if (t === 'president') return 'President';
+  return name || '—';
+}
+
+const visibleActions = actions.filter((action) => actionSourceLabel(action) !== 'Library of Congress');
+---
+
+{visibleActions.length > 0 ? (
+  <>
+    <h2>Actions ({visibleActions.length})</h2>
+    <action-table class="tbl" sort="Date" direction="descending" store="actions-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th no-sort>Chamber</th>
+          <th no-sort>Action</th>
+          <th no-sort>Type</th>
+          <th no-sort>Recorded Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        {visibleActions.map((action: BillActionWithVotes) => (
+          <tr>
+            <td>
+              {action.actionDate}
+              {action.actionTime && <span> {action.actionTime}</span>}
+            </td>
+            <td>{actionSourceLabel(action)}</td>
+            <td>{action.text}</td>
+            <td>{action.type || 'N/A'}</td>
+            <td>
+              {action.recordedVotes && action.recordedVotes.length > 0 ? (
+                <div class="actions-recorded-votes">
+                  {action.recordedVotes.map((vote: RecordedVoteWithVotes) => {
+                    const segment = vote.id?.toString().split('-').pop();
+                    const forAgainst = formatVoteForAgainst(vote);
+                    const passed = isVotePassed(vote.result);
+                    const href = segment ? `/bills/${term}/${billType}/${billNumber}/${segment}` : null;
+                    const content = (
+                      <>
+                        <span class="result">{vote.result}</span>
+                        {forAgainst && (
+                          <>
+                            <br />
+                            <span class="vote">{forAgainst}</span>
+                          </>
+                        )}
+                      </>
+                    );
+                    return (
+                      <div class:list={['vote-cell', passed ? 'vote-passed' : 'vote-not-passed']}>
+                        {href ? <a href={href}>{content}</a> : content}
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                'N/A'
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    </action-table>
+    <style>
+      .actions-recorded-votes .vote-cell { display: block; margin-bottom: 0.25em; }
+      .actions-recorded-votes .vote-cell:last-child { margin-bottom: 0; }
+      .actions-recorded-votes .vote-passed a, .actions-recorded-votes .vote-passed { background-color: #d4edda; }
+      .actions-recorded-votes .vote-not-passed a, .actions-recorded-votes .vote-not-passed { background-color: #f8d7da; }
+    </style>
+  </>
+) : (
+  <p>No actions found for this bill.</p>
+)}

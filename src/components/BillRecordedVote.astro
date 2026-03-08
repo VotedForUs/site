@@ -1,0 +1,33 @@
+---
+// import type { ExtendedBillAction } from '@votedforus/votes';
+const { recordedVote } = Astro.props;
+const voteId = (recordedVote as { id?: string }).id;
+import { getEntry } from 'astro:content';
+import EditorialVoteActionLink from './EditorialVoteActionLink.astro';
+import { getEditorialVoteAction } from '../content.config';
+
+const question = voteId ? (getEditorialVoteAction(voteId) ?? recordedVote.question) : recordedVote.question;
+---
+
+<section itemscope itemtype="https://schema.org/VoteAction">
+    <meta itemprop="actionStatus" content="CompletedAction">
+    <time itemprop="startTime" datetime={recordedVote.date}>{recordedVote.date}</time>
+    <h3 itemprop="name">{recordedVote.chamber}: {question}{voteId && <EditorialVoteActionLink voteId={voteId} action={recordedVote.question} />}</h3>
+    <p itemprop="result">{recordedVote.result}</p>
+    <details>
+        <summary>Votes</summary>
+        <ul>
+            {await Promise.all(Object.keys(recordedVote.votes || {}).map(async (key) => {
+                let legislator = null;
+                const vote = recordedVote.votes[key];;
+                if (recordedVote.chamber.toLowerCase() === 'house') {
+                    legislator = await getEntry('representatives', key);
+                } else if (recordedVote.chamber.toLowerCase() === 'senate') {
+                    legislator = await getEntry('senators', key);
+                }
+                return <li>{legislator?.data.nameTitle}: {vote}</li>
+            }))}
+        </ul>
+    </details>
+    <p><a href={recordedVote.url} target="_blank">.gov vote detail page</a></p>
+</section>

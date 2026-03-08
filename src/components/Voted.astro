@@ -1,0 +1,19 @@
+---
+interface Props {
+  nameTitle: string;
+  voteCast: string;
+  trailingText: string;
+}
+const { nameTitle, voteCast, trailingText } = Astro.props;
+const isUC = voteCast === 'UC';
+---
+<p>
+  {nameTitle}
+  {isUC ? (
+    <strong>joined Unanimous Consent</strong>
+  ) : (
+    <> voted <strong>{voteCast || '—'}</strong></>
+  )}
+  {' on the '}
+  {trailingText}.
+</p>

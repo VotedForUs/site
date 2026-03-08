@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Congressional Vote Analysis">
+  <h2>Welcome to Congressional Vote Analysis</h2>
+  <p>Explore voting patterns, track legislator positions, and analyze congressional behavior across House and Senate sessions.</p>
+  
+  <section>
+    <h3>Available Analysis</h3>
+    <ul>
+      <li><a href={`${base}bills/119`}>119th Congress Bills</a> - View bills with recorded votes and detailed member breakdowns</li>
+      <li><a href={`${base}legislators`}>Legislators</a> - Browse current members of Congress by chamber (Senate, House)</li>
+    </ul>
+  </section>
+</Layout>

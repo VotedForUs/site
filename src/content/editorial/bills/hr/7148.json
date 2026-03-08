@@ -1,0 +1,24 @@
+{
+  "defaultTitle": "Department of the Treasury Appropriations Act, 2026",
+  "billTitles": [
+    "Department of the Treasury Appropriations Act, 2026",
+    "Financial Services and General Government Appropriations Act, 2026",
+    "Department of Homeland Security Appropriations Act, 2026",
+    "Executive Office of the President Appropriations Act, 2026",
+    "Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2026",
+    "Judiciary Appropriations Act, 2026",
+    "Department of Transportation Appropriations Act, 2026",
+    "Department of Defense Appropriations Act, 2026",
+    "District of Columbia Appropriations Act, 2026",
+    "Consolidated Appropriations Act, 2026"
+  ],
+  "defaultQuestions": {
+    "119-HR-7148-5": "On Motion to Concur in the Senate Amendments",
+    "119-HR-7148-4": "On Passage of the Bill H.R. 7148",
+    "119-HR-7148-3": "On Cloture on the Motion to Proceed H.R. 7148",
+    "119-HR-7148-2": "On Passage",
+    "119-HR-7148-1": "Voice Vote"
+  },
+  "id": "119-HR-7148",
+  "bill": "119-HR-7148"
+}

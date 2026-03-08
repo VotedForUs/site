@@ -1,0 +1,32 @@
+{
+  "name": "@votedforus/site",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Static website for VotedFor.Us using AstroJS",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "clean": "rm -rf dist/ ../../dist/site ../../.astro",
+    "test": "node --test --import tsx src/**/*.test.ts",
+    "test:types": "astro check",
+    "social-cards": "tsx utils/generate-social-cards.ts",
+    "analyze-bill-titles": "tsx scripts/analyze-bill-titles.ts"
+  },
+  "dependencies": {
+    "@votedforus/votes": "^1.0.0",
+    "astro": "^5.15.1",
+    "astro-seo": "^0.8.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "@types/node": "^24.9.1",
+    "puppeteer": "^24.35.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

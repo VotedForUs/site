@@ -1,0 +1,15 @@
+{
+  "defaultTitle": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+  "billTitles": [
+    "Full-Year Continuing Appropriations and Extensions Act, 2025",
+    "Making further continuing appropriations and other extensions for the fiscal year ending September 30, 2025, and for other purposes."
+  ],
+  "defaultQuestions": {
+    "119-HR-1968-4": "On Passage of the Bill H.R. 1968",
+    "119-HR-1968-3": "On the Cloture Motion H.R. 1968",
+    "119-HR-1968-2": "On Passage",
+    "119-HR-1968-1": "On Motion to Recommit"
+  },
+  "id": "119-HR-1968",
+  "bill": "119-HR-1968"
+}

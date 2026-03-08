@@ -1,0 +1,16 @@
+{
+  "defaultTitle": "Laken Riley Act",
+  "billTitles": [
+    "Laken Riley Act",
+    "A bill to require the Secretary of Homeland Security to take into custody aliens who have been charged in the United States with theft, and for other purposes."
+  ],
+  "defaultQuestions": {
+    "119-S-5-5": "On Passage",
+    "119-S-5-4": "On Passage of the Bill S. 5",
+    "119-S-5-3": "On the Cloture Motion S. 5",
+    "119-S-5-2": "On the Motion to Proceed S. 5",
+    "119-S-5-1": "On Cloture on the Motion to Proceed S. 5"
+  },
+  "id": "119-S-5",
+  "bill": "119-S-5"
+}

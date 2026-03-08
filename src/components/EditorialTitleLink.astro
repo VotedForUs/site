@@ -1,0 +1,22 @@
+---
+/**
+ * Edit link to the titles editorial entry for a bill. Renders only in development (hidden in production).
+ */
+export interface Props {
+  congress: string | number;
+  type: string;
+  number: string | number;
+}
+
+const { congress, type, number } = Astro.props;
+
+const href = `/admin/index.html#/collections/titles/entries/${congress}/${String(type).toLowerCase()}/${number}`;
+const show = !import.meta.env.PROD;
+---
+
+{show && (
+  <>
+    {' '}
+    <a href={href} target="_blank" rel="noopener noreferrer">Edit</a>
+  </>
+)}

@@ -1,0 +1,33 @@
+---
+/**
+ * Edit/Add link for a vote-action editorial entry. Visible only in development.
+ * - Entry exists  → opens the edit page for that voteId
+ * - No entry      → opens the new-entry form with _slug and action pre-filled
+ */
+import { voteActionEntryExists } from '../content.config';
+
+export interface Props {
+  /** Full vote id (e.g. 119-SJRES-104-1), used as the filename/slug. */
+  voteId: string;
+  /** Optional: pre-fill the action field (recordedVote.question) when creating. */
+  action?: string;
+}
+
+const { voteId, action } = Astro.props;
+const show = !import.meta.env.PROD;
+
+const exists = show ? voteActionEntryExists(voteId) : false;
+
+const href = exists
+  ? `/admin/index.html#/collections/voteactions/entries/${encodeURIComponent(voteId)}`
+  : `/admin/index.html#/collections/voteactions/new?voteId=${encodeURIComponent(voteId)}${action ? `&action=${encodeURIComponent(action)}` : ''}`;
+
+const label = exists ? 'Edit' : 'Add';
+---
+
+{show && (
+  <>
+    {' '}
+    <a href={href} target="_blank" rel="noopener noreferrer">{label}</a>
+  </>
+)}

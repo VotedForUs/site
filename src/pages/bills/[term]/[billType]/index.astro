@@ -1,0 +1,45 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import BillsTable from '../../../../components/BillsTable.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allBills = await getCollection('bills');
+  const seen = new Set<string>();
+  const paths: { params: { term: string; billType: string } }[] = [];
+  for (const bill of allBills) {
+    if (!bill.data.congress || !bill.data.type) continue;
+    const key = `${bill.data.congress}:::${bill.data.type.toLowerCase()}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    paths.push({ params: { term: String(bill.data.congress), billType: bill.data.type.toLowerCase() } });
+  }
+  return paths;
+}
+
+const { term, billType } = Astro.params;
+const normalizedBillType = billType.toUpperCase();
+const congressionalTerm = parseInt(term);
+
+const fetchedBills = await getCollection('bills');
+const allBills = fetchedBills.filter(
+  (bill) =>
+    bill.data.congress === congressionalTerm &&
+    bill.data.type?.toUpperCase() === normalizedBillType &&
+    (bill.data.actions?.actions?.length ?? 0) > 0
+);
+
+const pageTitle = `${normalizedBillType} Bills - ${congressionalTerm}th Congress`;
+---
+
+<Layout title={pageTitle}>
+  <h1>{normalizedBillType} Bills - {congressionalTerm}th Congress</h1>
+  
+  <p>Total bills with votes: {allBills.length}</p>
+  
+  {allBills.length > 0 ? (
+    <BillsTable bills={allBills} />
+  ) : (
+    <p>No bills found for the {congressionalTerm}th Congress.</p>
+  )}
+</Layout>

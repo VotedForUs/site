@@ -1,0 +1,106 @@
+---
+import VotePartyTotalUI from './VotePartyTotalUI.astro';
+import EditorialVoteActionLink from './EditorialVoteActionLink.astro';
+import { isVotePassed } from '@votedforus/votes';
+import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
+import { formatVoteForAgainst } from '../utils/formatVoteForAgainst';
+import { getEditorialVoteAction } from '../content.config';
+
+export interface Props {
+  actions: BillActionWithVotes[];
+  term: string;
+  billType: string;
+  billNumber: string;
+  /** Ordered vote entry ids from recordedVotes collection (date-sorted). When set, links use this for correct segment. */
+  voteIds?: string[];
+}
+
+const { actions, term, billType, billNumber, voteIds } = Astro.props;
+
+const voteRows: { vote: RecordedVoteWithVotes; actionDate: string; actionText?: string }[] = [];
+for (const action of actions) {
+  if (!action.recordedVotes) continue;
+  for (const vote of action.recordedVotes) {
+    voteRows.push({
+      vote,
+      actionDate: action.actionDate,
+      actionText: action.text,
+    });
+  }
+}
+// Same order as content loader: recordedVotes collection uses date-sorted voteNumber (1-based)
+voteRows.sort((a, b) =>
+  new Date(a.vote.date || a.actionDate).getTime() - new Date(b.vote.date || b.actionDate).getTime()
+);
+
+function votePageSegment(vote: RecordedVoteWithVotes, index: number): string {
+  if (voteIds && voteIds[index]) return String(voteIds[index].split('-').pop());
+  if (vote.id) return String(vote.id.split('-').pop());
+  return String(index + 1);
+}
+---
+
+{voteRows.length > 0 && (
+  <>
+    <h2>Recorded Votes ({voteRows.length})</h2>
+    <action-table class="tbl vote-table" sort="Vote Number" direction="ascending" store="vote-table">
+    <table class="vote-table">
+      <thead>
+        <tr>
+          <th>Vote Number</th>
+          <th>Date</th>
+          <th no-sort>Action</th>
+          <th no-sort>Vote</th>
+          <th no-sort>Final chamber vote</th>
+        </tr>
+      </thead>
+      <tbody>
+        {voteRows.map(({ vote, actionDate, actionText }, index) => {
+          const segment = votePageSegment(vote, index);
+          const voteHref = `/bills/${term}/${billType}/${billNumber}/${segment}`;
+          const passed = isVotePassed(vote.result);
+          const voteNumber = vote.voteNumber ?? index + 1;
+          const isFinalChamberVote = (vote as { finalChamberVote?: boolean }).finalChamberVote ?? false;
+          const forAgainst = formatVoteForAgainst(vote);
+          const fullVoteId = voteIds?.[index] ?? (vote as { id?: string }).id ?? `${term}-${billType.toUpperCase()}-${billNumber}-${segment}`;
+          const question = getEditorialVoteAction(fullVoteId) ?? vote.question;
+          return (
+            <tr>
+              <td class="nowrap" data-sort={voteNumber}>{voteNumber}<EditorialVoteActionLink voteId={fullVoteId} action={vote.question} /></td>
+              <td class="nowrap">{actionDate}</td>
+              <td>
+                {question && <span class="vote-question">{question}</span>}
+                {actionText && <span class="action-text">{actionText}</span>}
+                <VotePartyTotalUI votePartyTotal={vote.votePartyTotal} />
+              </td>
+              <td class:list={['nowrap', passed ? 'vote-passed' : 'vote-not-passed']}>
+                <a href={voteHref}>
+                  <span class="result">{vote.result}</span>
+                  {forAgainst && (
+                    <>
+                      <br />
+                      <span class="vote">{forAgainst}</span>
+                    </>
+                  )}
+                </a>
+              </td>
+              <td class="nowrap final-chamber-vote-cell">
+                {isFinalChamberVote ? 'Yes' : '—'}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+    </action-table>
+    <style>
+      .vote-table .nowrap { white-space: nowrap; }
+      .vote-table .vote-passed { background-color: #d4edda; }
+      .vote-table .vote-not-passed { background-color: #f8d7da; }
+      .vote-table td:nth-child(3) .vote-party-totals { display: block; margin-top: 0.25em; }
+      .vote-table .vote { font-size: 0.9em; color: var(--color-fg-muted, #666); }
+      .vote-table .vote-question { display: block; font-weight: 600; }
+      .vote-table .action-text { display: block; font-size: 0.85em; color: var(--color-fg-muted, #666); margin-top: 0.15em; }
+    </style>
+  </>
+)}

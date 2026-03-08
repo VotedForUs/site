@@ -1,0 +1,6 @@
+
+---
+const { legislator, vote, bill } = Astro.props;
+const title = 'billTitle' in bill && typeof bill.billTitle === 'string' ? bill.billTitle : bill.title;
+---
+<h1>{legislator.data.nameTitle} voted {vote} on {title}</h1>

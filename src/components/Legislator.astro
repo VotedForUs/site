@@ -1,0 +1,529 @@
+---
+/**
+ * Legislator component - displays information about a legislator and their voting record
+ */
+import { formatDate } from '../utils/formatDate';
+
+export interface LegislatorVoteRecord {
+  voteId: string;
+  voteNumber: number;
+  billId: string;
+  billType: string;
+  billNumber: string;
+  congress: number;
+  billTitle: string;
+  vote: string;
+  actionDate: string;
+  rollNumber: number;
+  chamber: string;
+  question?: string;
+}
+
+interface LegislatorData {
+  id: string;
+  bioguide: string;
+  name?: string;
+  lastName?: string;
+  state?: string;
+  party?: string;
+  district?: number;
+  nameTitle: string;
+  attribution?: string;
+  imageUrl?: string;
+  stateRank?: string;
+  type?: string;
+}
+
+export interface Props {
+  legislator: {
+    id: string;
+    data: LegislatorData;
+  };
+  votes: LegislatorVoteRecord[];
+}
+
+const { legislator: legislatorEntry, votes } = Astro.props;
+const legislator = legislatorEntry.data;
+
+// Group votes by bill
+const votesByBill = votes.reduce((acc, vote) => {
+  if (!acc[vote.billId]) {
+    acc[vote.billId] = [];
+  }
+  acc[vote.billId].push(vote);
+  return acc;
+}, {} as Record<string, LegislatorVoteRecord[]>);
+
+// Sort bills by most recent vote date
+const sortedBillIds = Object.keys(votesByBill).sort((a, b) => {
+  const latestA = Math.max(...votesByBill[a].map(v => new Date(v.actionDate).getTime()));
+  const latestB = Math.max(...votesByBill[b].map(v => new Date(v.actionDate).getTime()));
+  return latestB - latestA;
+});
+
+// Sort votes within each bill by date (most recent first)
+for (const billId of sortedBillIds) {
+  votesByBill[billId].sort((a, b) => 
+    new Date(b.actionDate).getTime() - new Date(a.actionDate).getTime()
+  );
+}
+
+// Calculate vote statistics
+const voteStats = {
+  total: votes.length,
+  yea: votes.filter(v => v.vote.toLowerCase() === 'yea' || v.vote.toLowerCase() === 'aye').length,
+  nay: votes.filter(v => v.vote.toLowerCase() === 'nay' || v.vote.toLowerCase() === 'no').length,
+  present: votes.filter(v => v.vote.toLowerCase() === 'present').length,
+  notVoting: votes.filter(v => v.vote.toLowerCase() === 'not voting').length,
+};
+
+const getVoteClass = (vote: string) => {
+  const v = vote.toLowerCase();
+  if (v === 'yea' || v === 'aye') return 'vote-yea';
+  if (v === 'nay' || v === 'no') return 'vote-nay';
+  if (v === 'present') return 'vote-present';
+  return 'vote-not-voting';
+};
+
+const partyClass = legislator.party?.toLowerCase() === 'democrat' ? 'party-democrat' 
+  : legislator.party?.toLowerCase() === 'republican' ? 'party-republican' 
+  : 'party-independent';
+---
+
+<article class="legislator">
+  <header class="legislator-header" id={`person-${legislator.bioguide}`} itemscope itemtype="https://schema.org/Person" itemid={`#person-${legislator.bioguide}`}>
+    <meta itemprop="identifier" content={legislator.bioguide} />
+    <meta itemprop="jobTitle" content={legislator.type === 'sen' ? 'United States Senator' : 'United States Representative'} />
+    <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+      <meta itemprop="name" content={legislator.party} />
+    </span>
+    <div class="legislator-image">
+      {legislator.imageUrl && (
+        <img 
+          src={legislator.imageUrl} 
+          alt={`Photo of ${legislator.name || legislator.nameTitle}`}
+          loading="lazy"
+          itemprop="image"
+        />
+      )}
+    </div>
+    <div class="legislator-info">
+        <link itemprop="sameAs" href={`https://bioguide.congress.gov/search/bio/${legislator.bioguide}`} />
+      <h1 class={partyClass} itemprop="name">{legislator.nameTitle}</h1>
+      <div class="legislator-details">
+        <span class={`party-badge ${partyClass}`}>{legislator.party}</span>
+        <span class="state">{legislator.state}</span>
+        {legislator.type === 'rep' && legislator.district && (
+          <span class="district">District {legislator.district}</span>
+        )}
+        {legislator.type === 'sen' && legislator.stateRank && (
+          <span class="rank">{legislator.stateRank} Senator</span>
+        )}
+      </div>
+    </div>
+  </header>
+
+  <section class="vote-summary">
+    <h2>Voting Summary</h2>
+    <div class="vote-stats">
+      <div class="stat">
+        <span class="stat-value">{voteStats.total}</span>
+        <span class="stat-label">Total Votes</span>
+      </div>
+      <div class="stat vote-yea">
+        <span class="stat-value">{voteStats.yea}</span>
+        <span class="stat-label">Yea</span>
+      </div>
+      <div class="stat vote-nay">
+        <span class="stat-value">{voteStats.nay}</span>
+        <span class="stat-label">Nay</span>
+      </div>
+      <div class="stat vote-present">
+        <span class="stat-value">{voteStats.present}</span>
+        <span class="stat-label">Present</span>
+      </div>
+      <div class="stat vote-not-voting">
+        <span class="stat-value">{voteStats.notVoting}</span>
+        <span class="stat-label">Not Voting</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="vote-history">
+    <h2>Voting History</h2>
+    {votes.length === 0 ? (
+      <p class="no-votes">No recorded votes found for this legislator.</p>
+    ) : (
+      <dl class="votes-list">
+        {sortedBillIds.map(billId => {
+          const billVotes = votesByBill[billId];
+          const firstVote = billVotes[0];
+          const billUrl = `/bills/${firstVote.congress}/${firstVote.billType.toLowerCase()}/${firstVote.billNumber}`;
+          
+          return (
+            <div class="bill-votes" id={`legislation-${billId}`} itemscope itemtype="https://schema.org/Legislation" itemid={`#legislation-${billId}`}>
+              <dt class="bill-header">
+                <a href={billUrl} itemprop="url">
+                  <span class="bill-id" itemprop="legislationIdentifier">
+                    {firstVote.billType} {firstVote.billNumber}
+                  </span>
+                  <span class="bill-title" itemprop="name">{firstVote.billTitle}</span>
+                </a>
+                <meta itemprop="legislationDate" content={firstVote.actionDate} />
+              </dt>
+              {billVotes.map(vote => (
+                <dd class="vote-action" itemscope itemtype="https://schema.org/VoteAction">
+                  <link itemprop="agent" href={`#person-${legislator.bioguide}`} />
+                  <link itemprop="object" href={`#legislation-${billId}`} />
+                  <div class="vote-info">
+                    {vote.question && (
+                      <span class="vote-question" itemprop="description">{vote.question}</span>
+                    )}
+                    <div class="vote-details">
+                      <time datetime={vote.actionDate} itemprop="startTime" class="vote-date">
+                        {formatDate(vote.actionDate)}
+                      </time>
+                      <span class="vote-chamber">{vote.chamber}</span>
+                      <span class="vote-roll">Roll #{vote.rollNumber}</span>
+                    </div>
+                  </div>
+                  <span 
+                    class={`vote-result ${getVoteClass(vote.vote)}`}
+                    itemprop="actionOption"
+                  >
+                    {vote.vote}
+                  </span>
+                  <meta itemprop="name" content={vote.question || `Vote on ${firstVote.billType} ${firstVote.billNumber}`} />
+                </dd>
+              ))}
+            </div>
+          );
+        })}
+      </dl>
+    )}
+  </section>
+
+  {legislator.attribution && (
+    <footer class="attribution">
+      <small set:html={legislator.attribution} />
+    </footer>
+  )}
+</article>
+
+<style>
+  .legislator {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .legislator-header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .legislator-image {
+    flex-shrink: 0;
+  }
+
+  .legislator-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .legislator-info h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.75rem;
+  }
+
+  .legislator-details {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .party-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .party-democrat {
+    color: #1a5fb4;
+  }
+
+  .party-democrat.party-badge {
+    background-color: #d4e4f7;
+  }
+
+  .party-republican {
+    color: #c01c28;
+  }
+
+  .party-republican.party-badge {
+    background-color: #f7d4d7;
+  }
+
+  .party-independent {
+    color: #5e5c64;
+  }
+
+  .party-independent.party-badge {
+    background-color: #e8e8e8;
+  }
+
+  .state, .district, .rank {
+    color: #5e5c64;
+    font-size: 0.9rem;
+  }
+
+  .vote-summary {
+    margin-bottom: 2rem;
+  }
+
+  .vote-summary h2 {
+    margin-bottom: 1rem;
+  }
+
+  .vote-stats {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: #f6f5f4;
+    border-radius: 8px;
+    min-width: 80px;
+  }
+
+  .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #5e5c64;
+  }
+
+  .stat.vote-yea {
+    background: #d3f9d8;
+  }
+
+  .stat.vote-yea .stat-value {
+    color: #2b8a3e;
+  }
+
+  .stat.vote-nay {
+    background: #ffe3e3;
+  }
+
+  .stat.vote-nay .stat-value {
+    color: #c92a2a;
+  }
+
+  .stat.vote-present {
+    background: #fff3bf;
+  }
+
+  .stat.vote-present .stat-value {
+    color: #e67700;
+  }
+
+  .stat.vote-not-voting {
+    background: #e9ecef;
+  }
+
+  .stat.vote-not-voting .stat-value {
+    color: #868e96;
+  }
+
+  .vote-history h2 {
+    margin-bottom: 1rem;
+  }
+
+  .votes-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bill-votes {
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .bill-header {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bill-header a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+    background: #f6f5f4;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid #e5e5e5;
+    transition: background-color 0.15s ease;
+  }
+
+  .bill-header a:hover {
+    background: #eaeaea;
+  }
+
+  .bill-header .bill-id {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #1a5fb4;
+  }
+
+  .bill-header .bill-title {
+    font-size: 0.9rem;
+    color: #3d3846;
+    line-height: 1.4;
+  }
+
+  .vote-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin: 0;
+    border-bottom: 1px solid #f0f0f0;
+    gap: 1rem;
+  }
+
+  .vote-action:last-child {
+    border-bottom: none;
+  }
+
+  .vote-action:hover {
+    background: #fafafa;
+  }
+
+  .vote-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+  }
+
+  .vote-question {
+    font-weight: 500;
+    color: #3d3846;
+    font-size: 0.9rem;
+  }
+
+  .vote-details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    color: #5e5c64;
+  }
+
+  .vote-date {
+    font-weight: 500;
+    color: #3d3846;
+  }
+
+  .vote-chamber {
+    text-transform: capitalize;
+  }
+
+  .vote-roll {
+    font-family: monospace;
+    font-size: 0.8rem;
+    background: #e9ecef;
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  .vote-result {
+    font-weight: 600;
+    padding: 0.375rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  .vote-yea {
+    color: #2b8a3e;
+    background: #d3f9d8;
+  }
+
+  .vote-nay {
+    color: #c92a2a;
+    background: #ffe3e3;
+  }
+
+  .vote-present {
+    color: #e67700;
+    background: #fff3bf;
+  }
+
+  .vote-not-voting {
+    color: #868e96;
+    background: #e9ecef;
+  }
+
+  .no-votes {
+    color: #5e5c64;
+    font-style: italic;
+  }
+
+  .attribution {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e5e5;
+    color: #5e5c64;
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+    .legislator-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .legislator-details {
+      justify-content: center;
+    }
+
+    .vote-action {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .vote-details {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .vote-result {
+      align-self: flex-end;
+    }
+  }
+</style>

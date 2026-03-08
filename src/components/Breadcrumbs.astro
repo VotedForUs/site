@@ -1,0 +1,12 @@
+---
+import type { RecordedVoteWithVotes } from '@votedforus/votes/types';
+import BillRecordedVote from './BillRecordedVote.astro';
+
+const { billAction } = Astro.props; 
+---
+
+{billAction.recordedVotes?.length && await Promise.all(billAction.recordedVotes?.map(async (recordedVote: RecordedVoteWithVotes) => (
+<BillRecordedVote recordedVote={recordedVote} />
+)) || <section>
+    <p>{billAction.text}</p>
+</section>)}

@@ -1,0 +1,118 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getBillState } from '@votedforus/votes';
+import { getBestBillTitle } from '../content.config';
+import { formatDate } from '../utils/formatDate';
+import { getVoteCount } from '../utils/getVoteCount';
+import EditorialTitleLink from './EditorialTitleLink.astro';
+import LawsTable from './LawsTable.astro';
+
+type BillEntry = CollectionEntry<'bills'>;
+
+export interface Props {
+  bills: BillEntry[];
+}
+
+const { bills } = Astro.props;
+
+const billsBecameLaw = bills.filter((b) => getBillState(b.data) === 'becameLaw');
+const billsDead = bills.filter((b) => getBillState(b.data) === 'rejected');
+const billsInProcess = bills.filter((b) => getBillState(b.data) === 'inProgress');
+---
+
+{billsBecameLaw.length > 0 && (
+  <details open class="bills-section">
+    <summary>Bills that became law ({billsBecameLaw.length})</summary>
+    <LawsTable bills={billsBecameLaw} />
+  </details>
+)}
+
+{billsDead.length > 0 && (
+  <details class="bills-section">
+    <summary>Bills rejected or no longer in progress ({billsDead.length})</summary>
+    <action-table class="tbl" sort="Updated" direction="descending" store="bills-table-dead">
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th no-sort>Number</th>
+            <th no-sort>Title</th>
+            <th no-sort>Votes</th>
+            <th no-sort>Latest Action</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          {billsDead.map((bill) => {
+            const typeSort = `${bill.data.type ?? ''}-${String(bill.data.number ?? '').padStart(5, '0')}`;
+            const updatedRaw = bill.data.lastActionDate ?? bill.data.latestAction?.actionDate ?? bill.data.actions?.actions?.[0]?.actionDate ?? '';
+            return (
+              <tr>
+                <td data-sort={typeSort}>
+                  <a href={`${import.meta.env.BASE_URL}bills/${bill.data.congress}/${bill.data.type?.toLowerCase()}`}>{bill.data.type}</a>
+                </td>
+                <td>
+                  {bill.data.number}
+                  <EditorialTitleLink congress={bill.data.congress ?? ''} type={bill.data.type ?? ''} number={bill.data.number ?? ''} />
+                </td>
+                <td>
+                  <a href={`${import.meta.env.BASE_URL}bills/${bill.data.congress}/${bill.data.type?.toLowerCase()}/${bill.data.number}`} class="bill-title-link">
+                    {getBestBillTitle(bill.data)}
+                  </a>
+                </td>
+                <td>{getVoteCount(bill)}</td>
+                <td>{bill.data.latestAction?.text || 'N/A'}</td>
+                <td data-sort={updatedRaw}>{formatDate(bill.data.lastActionDate ?? bill.data.latestAction?.actionDate ?? bill.data.actions?.actions?.[0]?.actionDate)}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </action-table>
+  </details>
+)}
+
+{billsInProcess.length > 0 && (
+  <details open class="bills-section">
+    <summary>Bills in process ({billsInProcess.length})</summary>
+    <action-table class="tbl" sort="Updated" direction="descending" store="bills-table-inprocess">
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th no-sort>Number</th>
+            <th no-sort>Title</th>
+            <th no-sort>Votes</th>
+            <th no-sort>Latest Action</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          {billsInProcess.map((bill) => {
+            const typeSort = `${bill.data.type ?? ''}-${String(bill.data.number ?? '').padStart(5, '0')}`;
+            const updatedRaw = bill.data.lastActionDate ?? bill.data.latestAction?.actionDate ?? bill.data.actions?.actions?.[0]?.actionDate ?? '';
+            return (
+              <tr>
+                <td data-sort={typeSort}>
+                  <a href={`${import.meta.env.BASE_URL}bills/${bill.data.congress}/${bill.data.type?.toLowerCase()}`}>{bill.data.type}</a>
+                </td>
+                <td>
+                  {bill.data.number}
+                  <EditorialTitleLink congress={bill.data.congress ?? ''} type={bill.data.type ?? ''} number={bill.data.number ?? ''} />
+                </td>
+                <td>
+                  <a href={`${import.meta.env.BASE_URL}bills/${bill.data.congress}/${bill.data.type?.toLowerCase()}/${bill.data.number}`} class="bill-title-link">
+                    {getBestBillTitle(bill.data)}
+                  </a>
+                </td>
+                <td>{getVoteCount(bill)}</td>
+                <td>{bill.data.latestAction?.text || 'N/A'}</td>
+                <td data-sort={updatedRaw}>{formatDate(bill.data.lastActionDate ?? bill.data.latestAction?.actionDate ?? bill.data.actions?.actions?.[0]?.actionDate)}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </action-table>
+  </details>
+)}

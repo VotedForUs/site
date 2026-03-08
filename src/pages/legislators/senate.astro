@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import LegislatorList from '../../components/LegislatorList.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+let senators: CollectionEntry<'senators'>[] = [];
+
+try {
+  senators = await getCollection('senators');
+} catch (error) {
+  console.error('Error loading senators:', error);
+}
+---
+
+<Layout title="Senate - Congressional Vote Analysis" description="Current members of the United States Senate">
+  <h2>United States Senate</h2>
+  <p>Current members of the United States Senate ({senators.length} members)</p>
+
+  <LegislatorList legislators={senators} />
+</Layout>

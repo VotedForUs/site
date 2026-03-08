@@ -1,0 +1,50 @@
+---
+/**
+ * Dynamic route for individual legislator pages
+ * URL: /legislators/[bioguideid]
+ */
+export const prerender = true;
+
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import Legislator from '../../components/Legislator.astro';
+import type { LegislatorVoteRecord } from '../../components/Legislator.astro';
+
+export async function getStaticPaths() {
+  const legislators = await getCollection('legislators');
+  
+  return legislators.map((legislator) => ({
+    params: { bioguideid: legislator.data.bioguide },
+    props: { legislator },
+  }));
+}
+
+const { bioguideid } = Astro.params;
+const { legislator } = Astro.props;
+
+// Get all votes for this legislator from the legislatorVotes collection
+const allLegislatorVotes = await getCollection('legislatorVotes');
+const votes: LegislatorVoteRecord[] = allLegislatorVotes
+  .filter(entry => entry.data.bioguideId === bioguideid)
+  .map(entry => ({
+    voteId: entry.data.voteId,
+    voteNumber: entry.data.voteNumber,
+    billId: entry.data.billId,
+    billType: entry.data.billType,
+    billNumber: entry.data.billNumber,
+    congress: entry.data.congress,
+    billTitle: entry.data.billTitle,
+    vote: entry.data.vote,
+    actionDate: entry.data.actionDate,
+    rollNumber: entry.data.rollNumber,
+    chamber: entry.data.chamber,
+    question: entry.data.question,
+  }));
+
+const pageTitle = `${legislator.data.nameTitle} - Voting Record`;
+const pageDescription = `View the voting record and information for ${legislator.data.nameTitle}`;
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <Legislator legislator={legislator} votes={votes} />
+</Layout>

@@ -1,0 +1,23 @@
+{
+  "defaultTitle": "Science Appropriations Act, 2026",
+  "billTitles": [
+    "Science Appropriations Act, 2026",
+    "Commerce, Justice, Science, and Related Agencies Appropriations Act, 2026",
+    "Department of Commerce Appropriations Act, 2026",
+    "Department of Justice Appropriations Act, 2026",
+    "Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026",
+    "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+    "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2026"
+  ],
+  "defaultQuestions": {
+    "119-HR-6938-7": "On Passage of the Bill H.R. 6938",
+    "119-HR-6938-6": "On the Cloture Motion H.R. 6938",
+    "119-HR-6938-5": "Voice Vote",
+    "119-HR-6938-4": "On Cloture on the Motion to Proceed H.R. 6938",
+    "119-HR-6938-3": "On Passage",
+    "119-HR-6938-2": "On Retaining Divisions B and C",
+    "119-HR-6938-1": "On Retaining Division A"
+  },
+  "id": "119-HR-6938",
+  "bill": "119-HR-6938"
+}
