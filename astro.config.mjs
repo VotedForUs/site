@@ -5,8 +5,8 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://votedforus.github.io',
   base: '/site',
-  outDir: '../../dist/site',
-  cacheDir: '../../.astro',
+  outDir: './dist',
+  cacheDir: './.astro',
   output: 'static',
   devToolbar: {
     enabled: false,
