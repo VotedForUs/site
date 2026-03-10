@@ -15,7 +15,7 @@
     "analyze-bill-titles": "tsx scripts/analyze-bill-titles.ts"
   },
   "dependencies": {
-    "@votedforus/votes": "^1.0.0",
+    "@votedforus/votes": "1.0.1",
     "astro": "^5.15.1",
     "astro-seo": "^0.8.4"
   },
