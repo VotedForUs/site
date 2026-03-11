@@ -33,7 +33,6 @@ jobs:
       - name: Build site
         run: npm run build
         env:
-          BASE_URL: /site
           BILLS_PER_TYPE_LIMIT: 2
           LEGISLATORS_LIMIT: 20
 
@@ -46,3 +45,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
+          cname: votedfor.us

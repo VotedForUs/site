@@ -7,7 +7,7 @@ const base = process.env.BASE_URL ?? '/';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://votedforus.github.io',
+  site: 'https://votedfor.us',
   base,
   outDir: './dist',
   cacheDir: './.astro',
