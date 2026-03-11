@@ -1,0 +1,399 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: VotedForUs/working-init
+  branch: main
+
+media_folder: packages/site/src/content/media
+public_folder: /content/media
+site_url: https://localhost:4321
+local_backend: true
+
+collections:
+  # Source bills - READ ONLY reference (browse existing bills)
+  - name: bills_hr
+    label: "House Bills (HR)"
+    label_singular: "House Bill"
+    folder: packages/site/src/data/hr
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "HR {{number}} - {{title | truncate(60, '...')}}"
+    sortable_fields:
+      fields: [number]
+      default:
+        field: number
+        direction: descending
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  - name: bills_s
+    label: "Senate Bills (S)"
+    label_singular: "Senate Bill"
+    folder: packages/site/src/data/s
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "S {{number}} - {{title | truncate(60, '...')}}"
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  - name: bills_hjres
+    label: "House Joint Resolutions (HJRES)"
+    folder: packages/site/src/data/hjres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "HJRES {{number}} - {{title | truncate(60, '...')}}"
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  - name: bills_sjres
+    label: "Senate Joint Resolutions (SJRES)"
+    folder: packages/site/src/data/sjres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "SJRES {{number}} - {{title | truncate(60, '...')}}"
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  - name: bills_hres
+    label: "House Resolutions (HRES)"
+    folder: packages/site/src/data/hres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "HRES {{number}} - {{title | truncate(60, '...')}}"
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  - name: bills_sres
+    label: "Senate Resolutions (SRES)"
+    folder: packages/site/src/data/sres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "SRES {{number}} - {{title | truncate(60, '...')}}"
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  - name: bills_hconres
+    label: "House Concurrent Resolutions (HCONRES)"
+    folder: packages/site/src/data/hconres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "HCONRES {{number}} - {{title | truncate(60, '...')}}"
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  - name: bills_sconres
+    label: "Senate Concurrent Resolutions (SCONRES)"
+    folder: packages/site/src/data/sconres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: number
+    summary: "SCONRES {{number}} - {{title | truncate(60, '...')}}"
+    fields:
+      - { label: Number, name: number, widget: string }
+      - { label: Type, name: type, widget: string }
+      - { label: Congress, name: congress, widget: number }
+      - { label: Title, name: title, widget: string }
+
+  # Editorial collections - EDITABLE (one per bill type)
+  - name: editorial_hr
+    label: "Editorial: House Bills"
+    label_singular: "HR Editorial"
+    folder: packages/site/src/content/editorial/bills/hr
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - label: "Custom Title"
+        name: title
+        widget: string
+        required: false
+        hint: "Leave empty to use the default title"
+      - label: "Default Title (from source)"
+        name: defaultTitle
+        widget: string
+        readonly: true
+        required: false
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field:
+          label: Title
+          name: title
+          widget: string
+      - label: "Custom Questions (vote ID → question text)"
+        name: questions
+        widget: keyvalue
+        required: false
+        key_label: "Vote ID"
+        value_label: "Question Text"
+        hint: "Override specific vote questions by ID"
+      - label: "Default Questions (reference only)"
+        name: defaultQuestions
+        widget: keyvalue
+        readonly: true
+        required: false
+        key_label: "Vote ID"
+        value_label: "Question Text"
+
+  - name: editorial_s
+    label: "Editorial: Senate Bills"
+    label_singular: "S Editorial"
+    folder: packages/site/src/content/editorial/bills/s
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - { label: "Custom Title", name: title, widget: string, required: false }
+      - { label: "Bill", name: "bill", widget: relation, collection: "bills_s", value_field: }
+      - { label: "Default Title", name: defaultTitle, widget: string, readonly: true, required: false }
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field: { label: Title, name: title, widget: string }
+      - { label: "Custom Questions", name: questions, widget: keyvalue, required: false, key_label: "Vote ID", value_label: "Question" }
+      - { label: "Default Questions", name: defaultQuestions, widget: keyvalue, readonly: true, required: false, key_label: "Vote ID", value_label: "Question" }
+
+  - name: editorial_hjres
+    label: "Editorial: House Joint Resolutions"
+    folder: packages/site/src/content/editorial/bills/hjres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - { label: "Custom Title", name: title, widget: string, required: false }
+      - { label: "Default Title", name: defaultTitle, widget: string, readonly: true, required: false }
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field: { label: Title, name: title, widget: string }
+      - { label: "Custom Questions", name: questions, widget: keyvalue, required: false, key_label: "Vote ID", value_label: "Question" }
+      - { label: "Default Questions", name: defaultQuestions, widget: keyvalue, readonly: true, required: false, key_label: "Vote ID", value_label: "Question" }
+
+  - name: editorial_sjres
+    label: "Editorial: Senate Joint Resolutions"
+    folder: packages/site/src/content/editorial/bills/sjres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - { label: "Custom Title", name: title, widget: string, required: false }
+      - { label: "Default Title", name: defaultTitle, widget: string, readonly: true, required: false }
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field: { label: Title, name: title, widget: string }
+      - { label: "Custom Questions", name: questions, widget: keyvalue, required: false, key_label: "Vote ID", value_label: "Question" }
+      - { label: "Default Questions", name: defaultQuestions, widget: keyvalue, readonly: true, required: false, key_label: "Vote ID", value_label: "Question" }
+
+  - name: editorial_hres
+    label: "Editorial: House Resolutions"
+    folder: packages/site/src/content/editorial/bills/hres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - { label: "Custom Title", name: title, widget: string, required: false }
+      - { label: "Default Title", name: defaultTitle, widget: string, readonly: true, required: false }
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field: { label: Title, name: title, widget: string }
+      - { label: "Custom Questions", name: questions, widget: keyvalue, required: false, key_label: "Vote ID", value_label: "Question" }
+      - { label: "Default Questions", name: defaultQuestions, widget: keyvalue, readonly: true, required: false, key_label: "Vote ID", value_label: "Question" }
+
+  - name: editorial_sres
+    label: "Editorial: Senate Resolutions"
+    folder: packages/site/src/content/editorial/bills/sres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - { label: "Custom Title", name: title, widget: string, required: false }
+      - { label: "Default Title", name: defaultTitle, widget: string, readonly: true, required: false }
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field: { label: Title, name: title, widget: string }
+      - { label: "Custom Questions", name: questions, widget: keyvalue, required: false, key_label: "Vote ID", value_label: "Question" }
+      - { label: "Default Questions", name: defaultQuestions, widget: keyvalue, readonly: true, required: false, key_label: "Vote ID", value_label: "Question" }
+
+  - name: editorial_hconres
+    label: "Editorial: House Concurrent Resolutions"
+    folder: packages/site/src/content/editorial/bills/hconres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - { label: "Custom Title", name: title, widget: string, required: false }
+      - { label: "Default Title", name: defaultTitle, widget: string, readonly: true, required: false }
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field: { label: Title, name: title, widget: string }
+      - { label: "Custom Questions", name: questions, widget: keyvalue, required: false, key_label: "Vote ID", value_label: "Question" }
+      - { label: "Default Questions", name: defaultQuestions, widget: keyvalue, readonly: true, required: false, key_label: "Vote ID", value_label: "Question" }
+
+  - name: editorial_sconres
+    label: "Editorial: Senate Concurrent Resolutions"
+    folder: packages/site/src/content/editorial/bills/sconres
+    extension: json
+    format: json
+    create: false
+    delete: false
+    summary: "{{title | default('')}}{{title | ternary(' ✓ | ', '')}}{{defaultTitle | truncate(50, '...')}}"
+    sortable_fields:
+      fields: [title, defaultTitle]
+      default:
+        field: title
+        direction: descending
+    fields:
+      - { label: "Custom Title", name: title, widget: string, required: false }
+      - { label: "Default Title", name: defaultTitle, widget: string, readonly: true, required: false }
+      - label: "Available Titles (reference only)"
+        name: billTitles
+        widget: list
+        readonly: true
+        required: false
+        collapsed: false
+        allow_add: false
+        allow_remove: false
+        allow_reorder: false
+        field: { label: Title, name: title, widget: string }
+      - { label: "Custom Questions", name: questions, widget: keyvalue, required: false, key_label: "Vote ID", value_label: "Question" }
+      - { label: "Default Questions", name: defaultQuestions, widget: keyvalue, readonly: true, required: false, key_label: "Vote ID", value_label: "Question" }
