@@ -2,15 +2,8 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "moduleResolution": "bundler",
-    "baseUrl": ".",
-    "outDir": "../../dist/site",
-    "paths": {
-      "@votedforus/votes": ["../votes"]
-    }
+    "baseUrl": "."
   },
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"],
-  "references": [
-    { "path": "../votes/tsconfig.json" }
-  ]
+  "exclude": ["dist"]
 }

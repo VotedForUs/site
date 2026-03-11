@@ -30,6 +30,10 @@ jobs:
 
       - name: Typecheck (astro check)
         run: npm run test:types
+        env:
+          BASE_URL: /site
+          BILLS_PER_TYPE_LIMIT: 2
+          LEGISLATORS_LIMIT: 20
 
       - name: Run tests
         run: npm test

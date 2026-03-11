@@ -9,11 +9,13 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import Legislator from '../../components/Legislator.astro';
 import type { LegislatorVoteRecord } from '../../components/Legislator.astro';
+import { LEGISLATORS_LIMIT } from '../../buildConfig';
 
 export async function getStaticPaths() {
   const legislators = await getCollection('legislators');
+  const limited = LEGISLATORS_LIMIT ? legislators.slice(0, LEGISLATORS_LIMIT) : legislators;
   
-  return legislators.map((legislator) => ({
+  return limited.map((legislator) => ({
     params: { bioguideid: legislator.data.bioguide },
     props: { legislator },
   }));

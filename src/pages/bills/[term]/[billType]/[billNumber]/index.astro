@@ -6,10 +6,11 @@ import EditorialTitleLink from '../../../../../components/EditorialTitleLink.ast
 import VoteTable from '../../../../../components/VoteTable.astro';
 import ActionsTable from '../../../../../components/ActionsTable.astro';
 import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
+import { applyBillsPerTypeLimit } from '../../../../../buildConfig';
 
 export async function getStaticPaths() {
   const allBills = await getCollection('bills');
-  return allBills.map(bill => ({
+  return applyBillsPerTypeLimit(allBills).map(bill => ({
     params: {
       term: String(bill.data.congress),
       billType: String(bill.data.type).toLowerCase(),

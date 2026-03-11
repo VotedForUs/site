@@ -3,21 +3,25 @@ import Layout from '../../../../../../layouts/Layout.astro';
 import EditorialVoteActionLink from '../../../../../../components/EditorialVoteActionLink.astro';
 import { getEntry, getCollection } from 'astro:content';
 import { getBestBillTitle, getEditorialVoteAction } from '../../../../../../content.config';
+import { getLimitedBillIds } from '../../../../../../buildConfig';
 
 export async function getStaticPaths() {
+  const limitedBillIds = await getLimitedBillIds();
   const allVotes = await getCollection('recordedVotes');
-  return allVotes.map(vote => {
-    // vote.id format: {congress}-{TYPE}-{number}-{voteNumber}
-    const parts = vote.id.split('-');
-    return {
-      params: {
-        term: parts[0],
-        billType: parts[1].toLowerCase(),
-        billNumber: parts[2],
-        voteId: parts[3],
-      },
-    };
-  });
+  return allVotes
+    .filter(vote => limitedBillIds.has(vote.data.billId))
+    .map(vote => {
+      // vote.id format: {congress}-{TYPE}-{number}-{voteNumber}
+      const parts = vote.id.split('-');
+      return {
+        params: {
+          term: parts[0],
+          billType: parts[1].toLowerCase(),
+          billNumber: parts[2],
+          voteId: parts[3],
+        },
+      };
+    });
 }
 
 const { term, billType, billNumber, voteId } = Astro.params;

@@ -3,11 +3,13 @@ import Layout from '../../../../../../layouts/Layout.astro';
 import Voted from '../../../../../../components/Voted.astro';
 import { getEntry, getCollection } from 'astro:content';
 import { getBestBillTitle } from '../../../../../../content.config';
+import { getLimitedBillIds } from '../../../../../../buildConfig';
 
 export async function getStaticPaths() {
+  const limitedBillIds = await getLimitedBillIds();
   const allVotes = await getCollection('recordedVotes');
   const paths: { params: { term: string; billType: string; billNumber: string; voteId: string; bioguideid: string } }[] = [];
-  for (const vote of allVotes) {
+  for (const vote of allVotes.filter(v => limitedBillIds.has(v.data.billId))) {
     const parts = vote.id.split('-');
     const term = parts[0];
     const billType = parts[1].toLowerCase();
