@@ -1,3 +1,8 @@
+# [v1.0.2](https://github.com/VotedForUs/site/compare/v1.0.1...v1.0.2) (2026-03-13)
+
+## 🐛 Bug Fixes
+- [`dd3e7f16`](https://github.com/VotedForUs/site/commit/dd3e7f16)  too many legislators
+
 # [v1.0.1](https://github.com/VotedForUs/site/compare/v1.0.0...v1.0.1) (2026-03-13)
 
 # v1.0.0 (2026-03-12)
