@@ -2,10 +2,10 @@
 
 backend:
   name: github
-  repo: VotedForUs/working-init
+  repo: VotedForUs/site
   branch: main
 
-media_folder: packages/site/src/content/media
+media_folder: src/content/media
 public_folder: /content/media
 site_url: https://localhost:4321
 local_backend: true
@@ -16,7 +16,7 @@ slug:
 singletons:
   - name: acronyms
     label: Acronym Dictionary
-    file: packages/site/src/content/editorial/acronyms.json
+    file: src/content/editorial/acronyms.json
     extension: json
     format: json
     fields:
@@ -29,11 +29,10 @@ singletons:
           - { label: Organization, name: name, widget: string }
 
 collections:
-  # Source bills - READ ONLY reference (browse existing bills)
   - name: voteactions
     label: "Vote Actions"
     label_singular: "Vote Action"
-    folder: packages/site/src/content/editorial/vote-actions
+    folder: src/content/editorial/vote-actions
     extension: json
     format: json
     create: true
@@ -48,30 +47,14 @@ collections:
   - name: titles
     label: "Titles"
     label_singular: "Title"
-    folder: packages/site/src/content/editorial/bills
-    path: '{{congress}}/{{type}}/{{number}}'
+    folder: src/content/editorial/bill-titles
     extension: json
     format: json
-    create: false
+    create: true
     delete: false
-    identifier_field: id
-    summary: "{{id}} - {{title}}"
+    slug: '{{billId}}'
+    identifier_field: billId
+    summary: "{{billId}} - {{title}}"
     fields:
+      - { label: Bill ID, name: billId, widget: string }
       - { label: Title, name: title, widget: string, required: false }
-      - name: billTitles
-        label: Bill Titles
-        widget: list
-        summary: "{{billTitle}}"
-        allow_add: false
-        allow_remove: false
-        allow_reorder: false
-        collapsed: true
-        minimize_collapsed: true
-        readonly: true
-        field:
-          name: billTitle
-          label: Bill Title
-          widget: string
-          readonly: true
-
-  

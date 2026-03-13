@@ -1,0 +1,84 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: daily-data-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          registry-url: https://npm.pkg.github.com
+          scope: '@votedforus'
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Restore API cache
+        uses: actions/cache/restore@v5
+        with:
+          path: .cache/
+          key: congress-cache-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            congress-cache-${{ runner.os }}
+
+      - name: Generate legislators
+        run: npm run legislators:generate
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+
+      - name: Generate bills
+        run: npm run voted-bills-sync:generate
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+
+      - name: Generate change summary
+        run: npm run generate-change-summary
+
+      - name: Save API cache
+        uses: actions/cache/save@v5
+        with:
+          path: .cache/
+          key: congress-cache-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Check for data changes
+        id: check-changes
+        run: |
+          if [ -z "$(git status --porcelain -- src/data/ .github/pr-body.md)" ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create pull request
+        if: steps.check-changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "📦 data: update congressional data ${{ github.run_id }}"
+          branch: data/update-${{ github.run_id }}
+          title: "📦 Data update: ${{ github.run_id }}"
+          body-path: .github/pr-body.md
+          add-paths: |
+            src/data/**
+            .github/pr-body.md
+          labels: data-update

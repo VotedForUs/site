@@ -1,0 +1,222 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import type { z } from 'astro/zod';
+import type { billChangeItemSchema, legislatorChangeItemSchema } from '../../types.zod';
+
+type BillChangeItem = z.infer<typeof billChangeItemSchema>;
+type LegislatorChangeItem = z.infer<typeof legislatorChangeItemSchema>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('changelog');
+  return entries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+type Props = { entry: CollectionEntry<'changelog'> };
+const { entry } = Astro.props;
+const { date, runId, legislators, bills } = entry.data;
+
+const base = import.meta.env.BASE_URL;
+
+const hasLegislatorChanges =
+  legislators.added.length > 0 ||
+  legislators.updated.length > 0 ||
+  legislators.removed.length > 0;
+
+const hasBillChanges =
+  bills.added.length > 0 ||
+  bills.updated.length > 0 ||
+  bills.newLaws.length > 0 ||
+  bills.withNewVotes.length > 0;
+---
+
+<Layout
+  title={`Data Update ${date} — Changelog`}
+  description={`Congressional data update on ${date}: legislator and bill changes`}
+>
+  <div class="changelog-detail">
+    <div class="detail-header">
+      <h2>Data Update — {date}</h2>
+      <span class="run-id">Run ID: {runId}</span>
+    </div>
+
+    <p class="back-link"><a href={`${base}changelog`}>&larr; Back to Changelog</a></p>
+
+    {!hasLegislatorChanges && !hasBillChanges && (
+      <p><em>No changes recorded in this update.</em></p>
+    )}
+
+    {legislators.added.length > 0 && (
+      <section>
+        <h3>New Legislators ({legislators.added.length})</h3>
+        <ul class="change-list">
+          {legislators.added.map((leg: LegislatorChangeItem) => (
+            <li>
+              <a href={leg.url}>{leg.nameTitle}</a>
+              <span class="meta">{leg.party} · {leg.state}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {legislators.updated.length > 0 && (
+      <section>
+        <h3>Updated Legislators ({legislators.updated.length})</h3>
+        <ul class="change-list">
+          {legislators.updated.map((leg: LegislatorChangeItem) => (
+            <li>
+              <a href={leg.url}>{leg.nameTitle}</a>
+              <span class="meta">{leg.party} · {leg.state}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {legislators.removed.length > 0 && (
+      <section>
+        <h3>Removed Legislators ({legislators.removed.length})</h3>
+        <ul class="change-list">
+          {legislators.removed.map((leg: LegislatorChangeItem) => (
+            <li>
+              <span>{leg.nameTitle}</span>
+              <span class="meta">{leg.party} · {leg.state}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {bills.newLaws.length > 0 && (
+      <section>
+        <h3>Bills That Became Law ({bills.newLaws.length})</h3>
+        <ul class="change-list">
+          {bills.newLaws.map((bill: BillChangeItem) => (
+            <li>
+              <a href={bill.url}>{bill.title}</a>
+              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {bills.withNewVotes.length > 0 && (
+      <section>
+        <h3>Bills With New Recorded Votes ({bills.withNewVotes.length})</h3>
+        <ul class="change-list">
+          {bills.withNewVotes.map((bill: BillChangeItem) => (
+            <li>
+              <a href={bill.url}>{bill.title}</a>
+              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {bills.added.length > 0 && (
+      <section>
+        <h3>Newly Voted-on Bills ({bills.added.length})</h3>
+        <ul class="change-list">
+          {bills.added.map((bill: BillChangeItem) => (
+            <li>
+              <a href={bill.url}>{bill.title}</a>
+              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {bills.updated.length > 0 && (
+      <section>
+        <h3>Updated Bills ({bills.updated.length})</h3>
+        <ul class="change-list">
+          {bills.updated.map((bill: BillChangeItem) => (
+            <li>
+              <a href={bill.url}>{bill.title}</a>
+              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <p class="back-link back-link-bottom"><a href={`${base}changelog`}>&larr; Back to Changelog</a></p>
+  </div>
+</Layout>
+
+<style>
+  .changelog-detail {
+    max-width: 860px;
+  }
+
+  .detail-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .detail-header h2 {
+    margin: 0;
+  }
+
+  .run-id {
+    font-size: 0.8rem;
+    color: #888;
+    font-family: monospace;
+  }
+
+  .back-link {
+    margin: 0.5rem 0 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .back-link-bottom {
+    margin-top: 2rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  section h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.25rem;
+  }
+
+  .change-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .change-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    padding: 0.35rem 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .change-list li:last-child {
+    border-bottom: none;
+  }
+
+  .meta {
+    font-size: 0.8rem;
+    color: #666;
+  }
+</style>

@@ -1,0 +1,163 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const allEntries = await getCollection('changelog');
+
+const entries = allEntries.sort((a, b) => {
+  const dateA = a.data.date + '-' + a.data.runId;
+  const dateB = b.data.date + '-' + b.data.runId;
+  return dateB.localeCompare(dateA);
+});
+
+function totalBillChanges(entry: typeof entries[0]) {
+  return (
+    entry.data.bills.added.length +
+    entry.data.bills.updated.length +
+    entry.data.bills.newLaws.length +
+    entry.data.bills.withNewVotes.length
+  );
+}
+
+function totalLegislatorChanges(entry: typeof entries[0]) {
+  return (
+    entry.data.legislators.added.length +
+    entry.data.legislators.updated.length +
+    entry.data.legislators.removed.length
+  );
+}
+---
+
+<Layout
+  title="Changelog - Congressional Data Updates"
+  description="History of congressional data updates to VotedFor.Us"
+>
+  <h2>Data Changelog</h2>
+  <p>Each entry reflects one data update from the votes repository.</p>
+
+  {entries.length === 0 && (
+    <p><em>No changelog entries yet. Check back after the next data update.</em></p>
+  )}
+
+  {entries.length > 0 && (
+    <ul class="changelog-list">
+      {entries.map((entry) => {
+        const { date, runId, legislators, bills } = entry.data;
+        const detailUrl = `${base}changelog/${entry.id}`;
+        const legTotal = totalLegislatorChanges(entry);
+        const billTotal = totalBillChanges(entry);
+        return (
+          <li class="changelog-entry">
+            <div class="entry-header">
+              <a href={detailUrl} class="entry-date">{date}</a>
+              <span class="entry-run-id">run {runId}</span>
+            </div>
+            <ul class="badge-list">
+              {bills.added.length > 0 && (
+                <li class="badge badge-new">{bills.added.length} new bill{bills.added.length !== 1 ? 's' : ''}</li>
+              )}
+              {bills.newLaws.length > 0 && (
+                <li class="badge badge-law">{bills.newLaws.length} new law{bills.newLaws.length !== 1 ? 's' : ''}</li>
+              )}
+              {bills.withNewVotes.length > 0 && (
+                <li class="badge badge-vote">{bills.withNewVotes.length} bill{bills.withNewVotes.length !== 1 ? 's' : ''} with new votes</li>
+              )}
+              {bills.updated.length > 0 && (
+                <li class="badge badge-updated">{bills.updated.length} bill{bills.updated.length !== 1 ? 's' : ''} updated</li>
+              )}
+              {legislators.added.length > 0 && (
+                <li class="badge badge-new">{legislators.added.length} legislator{legislators.added.length !== 1 ? 's' : ''} added</li>
+              )}
+              {legislators.updated.length > 0 && (
+                <li class="badge badge-updated">{legislators.updated.length} legislator{legislators.updated.length !== 1 ? 's' : ''} updated</li>
+              )}
+              {legislators.removed.length > 0 && (
+                <li class="badge badge-removed">{legislators.removed.length} legislator{legislators.removed.length !== 1 ? 's' : ''} removed</li>
+              )}
+              {billTotal === 0 && legTotal === 0 && (
+                <li class="badge badge-none">no changes</li>
+              )}
+            </ul>
+            <a href={detailUrl} class="view-details">View details &rarr;</a>
+          </li>
+        );
+      })}
+    </ul>
+  )}
+</Layout>
+
+<style>
+  .changelog-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .changelog-entry {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    background: #fff;
+  }
+
+  .entry-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .entry-date {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a5fb4;
+    text-decoration: none;
+  }
+
+  .entry-date:hover {
+    text-decoration: underline;
+  }
+
+  .entry-run-id {
+    font-size: 0.8rem;
+    color: #888;
+    font-family: monospace;
+  }
+
+  .badge-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0 0 0.75rem 0;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+
+  .badge-new { background: #d4edda; color: #155724; }
+  .badge-law { background: #fff3cd; color: #856404; }
+  .badge-vote { background: #cce5ff; color: #004085; }
+  .badge-updated { background: #e2e3e5; color: #383d41; }
+  .badge-removed { background: #f8d7da; color: #721c24; }
+  .badge-none { background: #f0f0f0; color: #6c757d; }
+
+  .view-details {
+    font-size: 0.875rem;
+    color: #1a5fb4;
+    text-decoration: none;
+  }
+
+  .view-details:hover {
+    text-decoration: underline;
+  }
+</style>

@@ -1,7 +1,11 @@
 ---
 /**
- * Edit link to the titles editorial entry for a bill. Renders only in development (hidden in production).
+ * Add/Edit link to the bill-titles editorial entry for a bill. Renders only in development (hidden in production).
+ * - Entry exists  → opens the edit page for that billId
+ * - No entry      → opens the new-entry form with billId pre-filled
  */
+import { editorialBillTitleExists } from '../content.config';
+
 export interface Props {
   congress: string | number;
   type: string;
@@ -9,14 +13,21 @@ export interface Props {
 }
 
 const { congress, type, number } = Astro.props;
-
-const href = `/admin/index.html#/collections/titles/entries/${congress}/${String(type).toLowerCase()}/${number}`;
 const show = !import.meta.env.PROD;
+
+const billId = `${congress}-${String(type).toUpperCase()}-${number}`;
+const exists = show ? editorialBillTitleExists(billId) : false;
+
+const href = exists
+  ? `/admin/index.html#/collections/titles/entries/${encodeURIComponent(billId)}`
+  : `/admin/index.html#/collections/titles/new?billId=${encodeURIComponent(billId)}`;
+
+const label = exists ? 'Edit' : 'Add';
 ---
 
 {show && (
   <>
     {' '}
-    <a href={href} target="_blank" rel="noopener noreferrer">Edit</a>
+    <a href={href} target="_blank" rel="noopener noreferrer">{label}</a>
   </>
 )}

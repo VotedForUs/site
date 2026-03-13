@@ -7,7 +7,7 @@ import { z } from 'astro/zod';
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { legislatorSmallSchema, billWithActionsSchema, recordedVoteWithVotesSchema, recordedVoteSchema } from './types.zod';
+import { legislatorSmallSchema, billWithActionsSchema, recordedVoteWithVotesSchema, recordedVoteSchema, changelogEntrySchema } from './types.zod';
 
 /**
  * Resolve site src directory so paths work regardless of process.cwd() (e.g. run from repo root or packages/site).
@@ -153,18 +153,27 @@ export function getBillSourceTitle(congress: string | number, billType: string, 
   }
 }
 
+const BILL_TITLES_DIR = () => path.join(SITE_SRC_DIR, 'content', 'editorial', 'bill-titles');
+
 /**
- * Read the editorial title for a bill if the editorial entry exists.
- * Path mirrors src/data/bills: editorial/bills/{congress}/{billType}/{number}.json
+ * Returns true if a bill-title editorial entry exists for the given billId.
+ * File: content/editorial/bill-titles/{billId}.json
+ */
+export function editorialBillTitleExists(billId: string): boolean {
+  return fs.existsSync(path.join(BILL_TITLES_DIR(), `${billId}.json`));
+}
+
+/**
+ * Read the editorial title for a bill if the entry exists.
+ * File: content/editorial/bill-titles/{congress}-{billType}-{number}.json → field: title
  */
 function getEditorialBillTitle(congress: string, billType: string, billNumber: string | number): string | undefined {
-  const num = String(billNumber);
-  const editorialPath = path.join(SITE_SRC_DIR, 'content', 'editorial', 'bills', congress, billType, `${num}.json`);
-  if (!fs.existsSync(editorialPath)) return undefined;
+  const billId = `${congress}-${billType.toUpperCase()}-${billNumber}`;
+  const p = path.join(BILL_TITLES_DIR(), `${billId}.json`);
+  if (!fs.existsSync(p)) return undefined;
   try {
-    const data = JSON.parse(fs.readFileSync(editorialPath, 'utf8'));
-    const t = data.title;
-    return typeof t === 'string' ? t : undefined;
+    const data = JSON.parse(fs.readFileSync(p, 'utf8')) as { title?: string };
+    return typeof data.title === 'string' && data.title.trim() ? data.title.trim() : undefined;
   } catch {
     return undefined;
   }
@@ -464,6 +473,36 @@ function loadLegislatorsFromDir(): LegislatorSmall[] {
   return entries;
 }
 
+/**
+ * Load all per-run changelog entries from src/data/changelog/.
+ * Excludes the accumulated changelog.json (exact filename match).
+ * ID is derived from the filename: {date}-{runId}
+ */
+function loadChangelogEntries(): Array<{ id: string } & Record<string, unknown>> {
+  const dir = path.join(SITE_SRC_DIR, 'data', 'changelog');
+  if (!fs.existsSync(dir)) return [];
+  const files = fs
+    .readdirSync(dir)
+    .filter((f: string) => f.endsWith('.json') && f !== 'changelog.json');
+  const entries: Array<{ id: string } & Record<string, unknown>> = [];
+  for (const file of files) {
+    try {
+      const content = fs.readFileSync(path.join(dir, file), 'utf8');
+      const entry = JSON.parse(content) as Record<string, unknown>;
+      const id = path.basename(file, '.json');
+      entries.push({ id, ...entry });
+    } catch (e) {
+      console.warn(`Warning: Could not parse changelog entry ${file}:`, e);
+    }
+  }
+  return entries;
+}
+
+const changelog = defineCollection({
+  loader: () => loadChangelogEntries(),
+  schema: changelogEntrySchema,
+});
+
 const legislators = defineCollection({
   loader: () => loadLegislatorsFromDir(),
   schema: legislatorSmallSchema,
@@ -495,6 +534,7 @@ const representatives = defineCollection({
 
 // 5. Export a single `collections` object to register your collection(s)
 export const collections = {
+  changelog,
   legislators,
   senators,
   representatives,

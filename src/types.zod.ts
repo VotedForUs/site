@@ -841,3 +841,38 @@ export const rawSenateMemberDataSchema = z.object({
 });
 
 export const rawLegislatorsDataSchema = z.array(rawLegislatorSchema);
+
+// ===== CHANGELOG SCHEMAS =====
+
+export const legislatorChangeItemSchema = z.object({
+  bioguideId: z.string(),
+  nameTitle: z.string(),
+  state: z.string(),
+  party: z.string(),
+  url: z.string(),
+});
+
+export const billChangeItemSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  congress: z.number(),
+  billType: z.string(),
+  number: z.string(),
+  url: z.string(),
+});
+
+export const changelogEntrySchema = z.object({
+  date: z.string(),
+  runId: z.string(),
+  legislators: z.object({
+    added: z.array(legislatorChangeItemSchema),
+    updated: z.array(legislatorChangeItemSchema),
+    removed: z.array(legislatorChangeItemSchema),
+  }),
+  bills: z.object({
+    added: z.array(billChangeItemSchema),
+    updated: z.array(billChangeItemSchema),
+    newLaws: z.array(billChangeItemSchema),
+    withNewVotes: z.array(billChangeItemSchema),
+  }),
+});

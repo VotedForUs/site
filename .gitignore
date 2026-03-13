@@ -23,6 +23,8 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
+# API cache — raw responses, not for version control
+.cache/
+
 # TEMP
 src/content/*
-src/data/*
