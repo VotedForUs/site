@@ -7,6 +7,12 @@ on:
       - 'src/**'
       - 'public/**'
       - 'astro.config.*'
+  workflow_dispatch:
+    inputs:
+      force_full_rebuild:
+        description: 'Rebuild all pages (use after layout/component changes)'
+        type: boolean
+        default: false
 
 concurrency:
   group: pages
@@ -37,14 +43,59 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
+      # Tier 1: Restore Astro data-store cache.
+      # Uses run-ID key + prefix restore so we always get the most recent warm cache.
+      # The digest comparison inside loaders handles entry-level freshness.
+      - name: Restore Astro data-store cache
+        uses: actions/cache@v4
+        with:
+          path: .astro/
+          key: astro-data-prod-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            astro-data-prod-${{ runner.os }}-
+
+      # Tier 2: Restore dist cache (production only — isolated from CI test builds).
+      # Contains the previous build's HTML output + .astro-manifest.json for
+      # the incremental-check script to diff against.
+      - name: Restore dist cache
+        uses: actions/cache@v4
+        with:
+          path: dist-cache/
+          key: astro-dist-prod-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            astro-dist-prod-${{ runner.os }}-
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Compute source-file hashes, diff against dist-cache/.astro-manifest.json,
+      # write src/data/.build-manifest.json for getStaticPaths to consume.
+      # Also writes .current-digests.json for post-build to save as next run's manifest.
+      - name: Run incremental build check
+        env:
+          FORCE_FULL_REBUILD: ${{ inputs.force_full_rebuild || 'false' }}
+        run: npx tsx scripts/incremental-check.ts
+
       - name: Build site
         run: npm run build
-        env:
-          BILLS_PER_TYPE_LIMIT: 2
-          LEGISLATORS_LIMIT: 20
+
+      # Merge pages from the previous build that were NOT regenerated this build.
+      # --ignore-existing ensures we never overwrite freshly-built pages.
+      - name: Merge cached pages into dist
+        run: |
+          if [ -d dist-cache ] && [ "${{ inputs.force_full_rebuild }}" != "true" ]; then
+            rsync -a --ignore-existing dist-cache/ dist/
+          fi
+
+      # Update dist-cache with the new build output and save the source-file
+      # manifest so the NEXT run's incremental-check can diff against it.
+      - name: Update dist-cache and save manifest
+        run: |
+          mkdir -p dist-cache
+          cp -r dist/. dist-cache/
+          if [ -f .current-digests.json ]; then
+            cp .current-digests.json dist-cache/.astro-manifest.json
+          fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

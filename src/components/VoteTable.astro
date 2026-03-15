@@ -4,7 +4,7 @@ import EditorialVoteActionLink from './EditorialVoteActionLink.astro';
 import { isVotePassed } from '@votedforus/votes';
 import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
 import { formatVoteForAgainst } from '../utils/formatVoteForAgainst';
-import { getEditorialVoteAction } from '../content.config';
+import { getEditorialVoteAction } from '../utils/editorial.js';
 
 export interface Props {
   actions: BillActionWithVotes[];

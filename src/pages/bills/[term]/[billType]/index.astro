@@ -2,32 +2,35 @@
 import Layout from '../../../../layouts/Layout.astro';
 import BillsTable from '../../../../components/BillsTable.astro';
 import { getCollection } from 'astro:content';
+import { getBuildManifest } from '../../../../utils/buildManifest.js';
 
 export async function getStaticPaths() {
   const allBills = await getCollection('bills');
-  const seen = new Set<string>();
-  const paths: { params: { term: string; billType: string } }[] = [];
+  const manifest = getBuildManifest();
+  const changedBillIds = manifest?.changedIds['bills-loader'];
+  const pathMap = new Map<string, typeof allBills>();
   for (const bill of allBills) {
     if (!bill.data.congress || !bill.data.type) continue;
     const key = `${bill.data.congress}:::${bill.data.type.toLowerCase()}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    paths.push({ params: { term: String(bill.data.congress), billType: bill.data.type.toLowerCase() } });
+    const existing = pathMap.get(key) ?? [];
+    existing.push(bill);
+    pathMap.set(key, existing);
   }
-  return paths;
+  return [...pathMap.entries()]
+    .filter(([key, bills]) => !changedBillIds || bills.some(b => changedBillIds.has(b.id)))
+    .map(([key, bills]) => {
+      const [congress, billType] = key.split(':::');
+      return {
+        params: { term: congress, billType },
+        props: { bills: bills.filter(b => (b.data.actions?.actions?.length ?? 0) > 0) },
+      };
+    });
 }
 
 const { term, billType } = Astro.params;
+const { bills } = Astro.props;
 const normalizedBillType = billType.toUpperCase();
 const congressionalTerm = parseInt(term);
-
-const fetchedBills = await getCollection('bills');
-const allBills = fetchedBills.filter(
-  (bill) =>
-    bill.data.congress === congressionalTerm &&
-    bill.data.type?.toUpperCase() === normalizedBillType &&
-    (bill.data.actions?.actions?.length ?? 0) > 0
-);
 
 const pageTitle = `${normalizedBillType} Bills - ${congressionalTerm}th Congress`;
 ---
@@ -35,10 +38,10 @@ const pageTitle = `${normalizedBillType} Bills - ${congressionalTerm}th Congress
 <Layout title={pageTitle}>
   <h1>{normalizedBillType} Bills - {congressionalTerm}th Congress</h1>
   
-  <p>Total bills with votes: {allBills.length}</p>
+  <p>Total bills with votes: {bills.length}</p>
   
-  {allBills.length > 0 ? (
-    <BillsTable bills={allBills} />
+  {bills.length > 0 ? (
+    <BillsTable bills={bills} />
   ) : (
     <p>No bills found for the {congressionalTerm}th Congress.</p>
   )}

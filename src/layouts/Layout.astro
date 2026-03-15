@@ -12,6 +12,8 @@ export interface Props {
   disableIndexing?: boolean;
   /** Path to social card image (e.g. /social-cards/v/119-HR-4405-1/B000944.png). When set, used as og:image with 1200×628. */
   socialCardPath?: string;
+  /** When set, adds a meta-refresh redirect to this URL. Use with disableIndexing=true. */
+  redirect?: string;
   /** When set (e.g. in dev after a caught error), main content shows this instead of the slot. */
   error?: Error | null;
   /** Optional heading for the error view (e.g. "Bill page error"). Default: "Page error" */
@@ -25,6 +27,7 @@ const {
   image,
   disableIndexing = false,
   socialCardPath,
+  redirect,
   error = null,
   errorTitle,
 } = Astro.props;
@@ -73,6 +76,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    {redirect && <meta http-equiv="refresh" content={`0; url=${redirect}`} />}
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     <script type="module" defer src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/@colinaut/action-table/dist/action-table.css" />

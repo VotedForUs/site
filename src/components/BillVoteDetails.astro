@@ -4,37 +4,40 @@ import { getEntry } from 'astro:content';
 
 const votes = recordedVote?.votes || {};
 const voteEntries = Object.entries(votes);
-// voteId is the URL segment for this recorded vote (e.g. "2" for 119-HR-1-2)
 const segment = voteId ?? recordedVote?.id?.toString().split('-').pop() ?? '';
+
+const legislators = await Promise.all(
+  voteEntries.map(async ([bioguideId, vote]) => {
+    let legislator = null;
+    if (recordedVote.chamber?.toLowerCase() === 'house') {
+      legislator = await getEntry('representatives', bioguideId);
+    } else if (recordedVote.chamber?.toLowerCase() === 'senate') {
+      legislator = await getEntry('senators', bioguideId);
+    }
+    const name = legislator?.data?.nameTitle || bioguideId;
+    return { bioguideId, vote, name };
+  })
+);
 ---
 
 {voteEntries.length > 0 && segment && (
 <details>
     <summary>Votes ({voteEntries.length})</summary>
     <ul class="column-container">
-        {await Promise.all(voteEntries.map(async ([bioguideId, vote]) => {
-            let legislator = null;
-            if (recordedVote.chamber?.toLowerCase() === 'house') {
-                legislator = await getEntry('representatives', bioguideId);
-            } else if (recordedVote.chamber?.toLowerCase() === 'senate') {
-                legislator = await getEntry('senators', bioguideId);
-            }
-            const name = legislator?.data?.nameTitle || bioguideId;
-            return (
-                <li>
-                    <a href={`${import.meta.env.BASE_URL}bills/${term}/${billType}/${billNumber}/${segment}/${bioguideId}`}>
-                        {name}: {vote}
-                    </a>
-                </li>
-            );
-        }))}
+        {legislators.map(({ bioguideId, vote, name }) => (
+            <li>
+                <a href={`${import.meta.env.BASE_URL}bills/${term}/${billType}/${billNumber}/${segment}/${bioguideId}`}>
+                    {name}: {vote}
+                </a>
+            </li>
+        ))}
     </ul>
 </details>
 )}
 
 <style>
     .column-container {
-        columns: 150px auto; /* Suggests 150px wide columns, browser determines count */
+        columns: 150px auto;
     column-gap: 30px;
     column-rule: 2px dashed blue;
     list-style-type: none;

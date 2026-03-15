@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { getBillState } from '@votedforus/votes';
-import { getBestBillTitle } from '../content.config';
+import { getBestBillTitle } from '../utils/billTitle.js';
 import { formatDate } from '../utils/formatDate';
 import { getVoteCount } from '../utils/getVoteCount';
 import EditorialTitleLink from './EditorialTitleLink.astro';

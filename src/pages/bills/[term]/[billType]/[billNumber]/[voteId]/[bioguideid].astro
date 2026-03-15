@@ -1,51 +1,57 @@
 ---
+/**
+ * Redirect page: alias for /v/[voteId]/[bioguideId].
+ *
+ * - meta refresh redirects browsers to the canonical short URL
+ * - disableIndexing=true prevents search engines from indexing this duplicate
+ * - socialCardPath mirrors the canonical page so social crawlers that don't
+ *   follow meta refresh still get the correct OG image
+ */
 import Layout from '../../../../../../layouts/Layout.astro';
-import Voted from '../../../../../../components/Voted.astro';
-import { getEntry, getCollection } from 'astro:content';
-import { getBestBillTitle } from '../../../../../../content.config';
+import { getCollection } from 'astro:content';
 import { getLimitedBillIds } from '../../../../../../buildConfig';
+import { shouldBuildPage } from '../../../../../../utils/buildManifest.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
   const allVotes = await getCollection('recordedVotes');
-  const paths: { params: { term: string; billType: string; billNumber: string; voteId: string; bioguideid: string } }[] = [];
+  const paths: {
+    params: {
+      term: string;
+      billType: string;
+      billNumber: string;
+      voteId: string;
+      bioguideid: string;
+    };
+    props: { canonicalVoteId: string };
+  }[] = [];
+
   for (const vote of allVotes.filter(v => limitedBillIds.has(v.data.billId))) {
-    const parts = vote.id.split('-');
-    const term = parts[0];
-    const billType = parts[1].toLowerCase();
-    const billNumber = parts[2];
-    const voteId = parts[3];
+    const [term, billType, billNumber, voteSegment] = vote.id.split('-');
     for (const bioguideid of Object.keys(vote.data.votes ?? {})) {
-      paths.push({ params: { term, billType, billNumber, voteId, bioguideid } });
+      if (shouldBuildPage('legislator-votes-loader', `${bioguideid}-${vote.id}`)) {
+        paths.push({
+          params: { term, billType: billType.toLowerCase(), billNumber, voteId: voteSegment, bioguideid },
+          props: { canonicalVoteId: vote.id },
+        });
+      }
     }
   }
   return paths;
 }
 
-const { term, billType, billNumber, voteId, bioguideid } = Astro.params;
+const { bioguideid } = Astro.params;
+const { canonicalVoteId } = Astro.props;
 
-const normalizedBillType = billType.toUpperCase();
-const fullVoteId = `${term}-${normalizedBillType}-${billNumber}-${voteId}`;
-const billId = `${term}-${normalizedBillType}-${billNumber}`;
-
-const voteEntry = await getEntry('recordedVotes', fullVoteId);
-const billEntry = await getEntry('bills', billId);
-const legEntry = await getEntry('legislators', bioguideid);
-
-if (!voteEntry || !billEntry || !legEntry) {
-  throw new Error('Vote, bill, or legislator not found');
-}
-
-const vote = voteEntry.data;
-const bill = billEntry.data;
-const legislator = legEntry.data;
-const voteCast = vote.votes?.[bioguideid] ?? '';
-
-const billTitle = getBestBillTitle(bill);
-const trailingText = vote.finalChamberVote ? billTitle : `${vote.actionText ?? `roll call #${vote.rollNumber}`} on ${billTitle}`;
-const pageTitle = `${legislator.nameTitle} - ${bill.type} ${bill.number}`;
+const canonicalUrl = `${import.meta.env.BASE_URL}v/${canonicalVoteId}/${bioguideid}`;
+const socialCardPath = `/social-cards/v/${canonicalVoteId}/${bioguideid}.png`;
 ---
 
-<Layout title={pageTitle}>
-  <Voted nameTitle={legislator.nameTitle} voteCast={voteCast} trailingText={trailingText} />
+<Layout
+  title={`${canonicalVoteId}/${bioguideid}`}
+  socialCardPath={socialCardPath}
+  disableIndexing={true}
+  redirect={canonicalUrl}
+>
+  <p>Redirecting to <a href={canonicalUrl}>{canonicalUrl}</a>…</p>
 </Layout>

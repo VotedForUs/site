@@ -2,14 +2,16 @@
 import Layout from '../../../../../../layouts/Layout.astro';
 import EditorialVoteActionLink from '../../../../../../components/EditorialVoteActionLink.astro';
 import { getEntry, getCollection } from 'astro:content';
-import { getBestBillTitle, getEditorialVoteAction } from '../../../../../../content.config';
+import { getBestBillTitle } from '../../../../../../utils/billTitle.js';
+import { getEditorialVoteAction } from '../../../../../../utils/editorial.js';
 import { getLimitedBillIds } from '../../../../../../buildConfig';
+import { shouldBuildPage } from '../../../../../../utils/buildManifest.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
   const allVotes = await getCollection('recordedVotes');
   return allVotes
-    .filter(vote => limitedBillIds.has(vote.data.billId))
+    .filter(vote => limitedBillIds.has(vote.data.billId) && shouldBuildPage('recorded-votes-loader', vote.id))
     .map(vote => {
       // vote.id format: {congress}-{TYPE}-{number}-{voteNumber}
       const parts = vote.id.split('-');

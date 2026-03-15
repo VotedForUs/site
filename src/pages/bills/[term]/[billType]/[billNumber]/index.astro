@@ -1,22 +1,25 @@
 ---
 import Layout from '../../../../../layouts/Layout.astro';
 import { getEntry, getCollection } from 'astro:content';
-import { getBestBillTitle, getBillSourceTitle } from '../../../../../content.config';
+import { getBestBillTitle, getBillSourceTitle } from '../../../../../utils/billTitle.js';
 import EditorialTitleLink from '../../../../../components/EditorialTitleLink.astro';
 import VoteTable from '../../../../../components/VoteTable.astro';
 import ActionsTable from '../../../../../components/ActionsTable.astro';
 import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
 import { applyBillsPerTypeLimit } from '../../../../../buildConfig';
+import { shouldBuildPage } from '../../../../../utils/buildManifest.js';
 
 export async function getStaticPaths() {
   const allBills = await getCollection('bills');
-  return applyBillsPerTypeLimit(allBills).map(bill => ({
-    params: {
-      term: String(bill.data.congress),
-      billType: String(bill.data.type).toLowerCase(),
-      billNumber: String(bill.data.number),
-    },
-  }));
+  return applyBillsPerTypeLimit(allBills)
+    .filter(bill => shouldBuildPage('bills-loader', bill.id))
+    .map(bill => ({
+      params: {
+        term: String(bill.data.congress),
+        billType: String(bill.data.type).toLowerCase(),
+        billNumber: String(bill.data.number),
+      },
+    }));
 }
 
 const { term, billType, billNumber } = Astro.params;

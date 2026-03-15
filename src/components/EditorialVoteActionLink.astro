@@ -4,7 +4,7 @@
  * - Entry exists  → opens the edit page for that voteId
  * - No entry      → opens the new-entry form with _slug and action pre-filled
  */
-import { voteActionEntryExists } from '../content.config';
+import { voteActionEntryExists } from '../utils/editorial.js';
 
 export interface Props {
   /** Full vote id (e.g. 119-SJRES-104-1), used as the filename/slug. */

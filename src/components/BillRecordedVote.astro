@@ -1,12 +1,25 @@
 ---
-// import type { ExtendedBillAction } from '@votedforus/votes';
 const { recordedVote } = Astro.props;
 const voteId = (recordedVote as { id?: string }).id;
 import { getEntry } from 'astro:content';
 import EditorialVoteActionLink from './EditorialVoteActionLink.astro';
-import { getEditorialVoteAction } from '../content.config';
+import { getEditorialVoteAction } from '../utils/editorial.js';
 
 const question = voteId ? (getEditorialVoteAction(voteId) ?? recordedVote.question) : recordedVote.question;
+
+const voteKeys = Object.keys(recordedVote.votes || {});
+const legislators = await Promise.all(
+  voteKeys.map(async (key) => {
+    const vote = recordedVote.votes[key];
+    let legislator = null;
+    if (recordedVote.chamber.toLowerCase() === 'house') {
+      legislator = await getEntry('representatives', key);
+    } else if (recordedVote.chamber.toLowerCase() === 'senate') {
+      legislator = await getEntry('senators', key);
+    }
+    return { key, vote, legislator };
+  })
+);
 ---
 
 <section itemscope itemtype="https://schema.org/VoteAction">
@@ -17,16 +30,9 @@ const question = voteId ? (getEditorialVoteAction(voteId) ?? recordedVote.questi
     <details>
         <summary>Votes</summary>
         <ul>
-            {await Promise.all(Object.keys(recordedVote.votes || {}).map(async (key) => {
-                let legislator = null;
-                const vote = recordedVote.votes[key];;
-                if (recordedVote.chamber.toLowerCase() === 'house') {
-                    legislator = await getEntry('representatives', key);
-                } else if (recordedVote.chamber.toLowerCase() === 'senate') {
-                    legislator = await getEntry('senators', key);
-                }
-                return <li>{legislator?.data.nameTitle}: {vote}</li>
-            }))}
+            {legislators.map(({ key, vote, legislator }) => (
+                <li>{legislator?.data.nameTitle}: {vote}</li>
+            ))}
         </ul>
     </details>
     <p><a href={recordedVote.url} target="_blank">.gov vote detail page</a></p>

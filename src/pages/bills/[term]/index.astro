@@ -2,18 +2,25 @@
 import Layout from '../../../layouts/Layout.astro';
 import BillsTable from '../../../components/BillsTable.astro';
 import { getCollection } from 'astro:content';
+import { getBuildManifest } from '../../../utils/buildManifest.js';
 
 export async function getStaticPaths() {
   const allBills = await getCollection('bills');
+  const manifest = getBuildManifest();
+  // Rebuild term index if no manifest (full build) or any bill in that term changed
+  const changedBillIds = manifest?.changedIds['bills-loader'];
   const terms = [...new Set(allBills.map(bill => String(bill.data.congress)))];
-  return terms.map(term => ({ params: { term } }));
+  return terms
+    .filter(term => !changedBillIds || allBills.some(b => String(b.data.congress) === term && changedBillIds.has(b.id)))
+    .map(term => ({
+      params: { term },
+      props: { bills: allBills.filter(b => String(b.data.congress) === term) },
+    }));
 }
 
 const { term } = Astro.params;
+const { bills } = Astro.props;
 const congressionalTerm = parseInt(term);
-
-const allBills = await getCollection('bills');
-const bills = allBills.filter(bill => bill.data.congress === congressionalTerm);
 
 const pageTitle = `${congressionalTerm}th Congress - Bills with Votes`;
 ---

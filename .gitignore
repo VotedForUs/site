@@ -28,3 +28,12 @@ pnpm-debug.log*
 
 # TEMP
 src/content/*
+
+# benchmark results — local only
+benchmark-results/
+dist-cache/
+
+# incremental build artifacts — generated, not for version control
+.current-digests.json
+.loader-digests.json
+src/data/.build-manifest.json

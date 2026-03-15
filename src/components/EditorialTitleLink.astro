@@ -4,7 +4,7 @@
  * - Entry exists  → opens the edit page for that billId
  * - No entry      → opens the new-entry form with billId pre-filled
  */
-import { editorialBillTitleExists } from '../content.config';
+import { editorialBillTitleExists } from '../utils/billTitle.js';
 
 export interface Props {
   congress: string | number;
