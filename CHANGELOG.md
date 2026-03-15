@@ -1,3 +1,5 @@
+# [v1.1.1](https://github.com/VotedForUs/site/compare/v1.1.0...v1.1.1) (2026-03-15)
+
 # [v1.1.0](https://github.com/VotedForUs/site/compare/v1.0.3...v1.1.0) (2026-03-15)
 
 ## ✨ New Features
