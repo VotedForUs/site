@@ -17,7 +17,7 @@ export async function getStaticPaths() {
     pathMap.set(key, existing);
   }
   return [...pathMap.entries()]
-    .filter(([key, bills]) => !changedBillIds || bills.some(b => changedBillIds.has(b.id)))
+    .filter(([, bills]) => !changedBillIds || bills.some(b => changedBillIds.has(b.id)))
     .map(([key, bills]) => {
       const [congress, billType] = key.split(':::');
       return {

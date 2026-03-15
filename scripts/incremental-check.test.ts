@@ -2,7 +2,6 @@ import { describe, it, before, after, beforeEach } from 'node:test';
 import { strict as assert } from 'node:assert';
 import { mkdirSync, writeFileSync, rmSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { mkdtemp } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 
 import {

@@ -38,9 +38,6 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC_DATA_DIR = path.join(ROOT, 'src', 'data');
 const DIST_CACHE_DIR = path.join(ROOT, 'dist-cache');
-const PREVIOUS_MANIFEST_PATH = path.join(DIST_CACHE_DIR, '.astro-manifest.json');
-const CURRENT_DIGESTS_PATH = path.join(ROOT, '.current-digests.json');
-const BUILD_MANIFEST_PATH = path.join(ROOT, 'src', 'data', '.build-manifest.json');
 
 /**
  * A map from an entry ID (e.g. bill ID or bioguide ID) to its SHA-256 hash.

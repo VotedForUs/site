@@ -9,8 +9,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 import { legislatorSmallSchema, billWithActionsSchema, recordedVoteWithVotesSchema, recordedVoteSchema, changelogEntrySchema } from './types.zod';
-import { getBestBillTitle, getBillSourceTitle, editorialBillTitleExists } from './utils/billTitle.js';
-import { voteActionEntryExists, getEditorialVoteAction } from './utils/editorial.js';
+import { getBestBillTitle } from './utils/billTitle.js';
+
 
 // Re-export utility functions so existing imports from content.config continue to work
 export { getBestBillTitle, getBillSourceTitle, editorialBillTitleExists } from './utils/billTitle.js';
@@ -18,7 +18,6 @@ export type { BillForTitle } from './utils/billTitle.js';
 export { voteActionEntryExists, getEditorialVoteAction } from './utils/editorial.js';
 export { cleanDisapprovalTitle } from './utils/cleanDisapprovalTitle.js';
 
-import { BILL_TYPES } from '@votedforus/votes/types';
 import type { BillTitle, BillType, LegislatorSmall, RecordedVoteWithVotes } from '@votedforus/votes/types';
 
 /**
@@ -75,9 +74,9 @@ function writeDigestsToManifest(collectionName: string, digests: Record<string, 
  * - Writes a custom digest manifest for the incremental build system
  * - Hot-reloads on file changes in dev mode
  */
-function makeFileLoader(
+function makeFileLoader<T extends { id: string }>(
   name: string,
-  loadEntries: () => Array<{ id: string; [key: string]: unknown }>,
+  loadEntries: () => T[],
 ): Loader {
   return {
     name,

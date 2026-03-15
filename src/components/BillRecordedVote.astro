@@ -30,7 +30,7 @@ const legislators = await Promise.all(
     <details>
         <summary>Votes</summary>
         <ul>
-            {legislators.map(({ key, vote, legislator }) => (
+            {legislators.map(({ vote, legislator }) => (
                 <li>{legislator?.data.nameTitle}: {vote}</li>
             ))}
         </ul>
