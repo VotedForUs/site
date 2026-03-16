@@ -189,7 +189,7 @@ function runAnalysis(titles: string[]): {
   };
 }
 
-function writeReport(titles: string[], analysis: ReturnType<typeof runAnalysis>, reportPath: string): void {
+function writeReport(_: string[], analysis: ReturnType<typeof runAnalysis>, reportPath: string): void {
   const lines: string[] = [
     '# Bill title shortening analysis',
     '',

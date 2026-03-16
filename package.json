@@ -7,7 +7,7 @@
     "start": "npm run dev",
     "dev": "astro dev",
     "build": "tsx scripts/incremental-check.ts && astro build && npm run _cache:merge && npm run _cache:save",
-    "build:test": "BILLS_PER_TYPE_LIMIT=5 LEGISLATORS_LIMIT=40 npm run build",
+    "build:test": "BILLS_PER_TYPE_LIMIT=40 npm run build",
     "build:full": "FORCE_FULL_REBUILD=true astro build && npm run _cache:save",
     "_cache:merge": "[ -d dist-cache ] && rsync -a --ignore-existing dist-cache/ dist/ || true",
     "_cache:save": "mkdir -p dist-cache && cp -r dist/. dist-cache/ && [ -f .current-digests.json ] && cp .current-digests.json dist-cache/.astro-manifest.json || true",
