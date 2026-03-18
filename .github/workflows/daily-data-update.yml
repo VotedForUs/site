@@ -28,6 +28,20 @@ jobs:
           registry-url: https://npm.pkg.github.com
           scope: '@votedforus'
 
+      - name: Validate secrets
+        run: |
+          if [ -z "$CONGRESS_API_KEY" ]; then
+            echo "::error::CONGRESS_API_KEY secret is required"
+            exit 1
+          fi
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "::error::PERSONAL_TOKEN secret is required for npm install (@votedforus packages)"
+            exit 1
+          fi
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
       - name: Install dependencies
         run: npm install
         env:
@@ -73,7 +87,7 @@ jobs:
         if: steps.check-changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
           commit-message: "📦 data: update congressional data ${{ github.run_id }}"
           branch: data/update-${{ github.run_id }}
           title: "📦 Data update: ${{ github.run_id }}"
