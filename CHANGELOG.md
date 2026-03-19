@@ -1,3 +1,8 @@
+# [v1.1.3](https://github.com/VotedForUs/site/compare/v1.1.2...v1.1.3) (2026-03-19)
+
+## 🐛 Bug Fixes
+- [`1cd45324`](https://github.com/VotedForUs/site/commit/1cd45324)  config for daily update
+
 # [v1.1.2](https://github.com/VotedForUs/site/compare/v1.1.1...v1.1.2) (2026-03-16)
 
 ## 🐛 Bug Fixes
