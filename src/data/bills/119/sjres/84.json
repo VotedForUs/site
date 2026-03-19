@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 2,
+    "count": 7,
     "url": "https://api.congress.gov/v3/bill/119/sjres/84/actions?format=json",
     "actions": [
       {
@@ -214,7 +214,11 @@
   "number": "84",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Centers for Medicare & Medicaid Services relating to \"Patient Protection and Affordable Care Act; Market Integrity and Affordability\".",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/84/summaries?format=json"
+  },
+  "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Centers for Medicare & Medicaid Services relating to \"Patient Protection and Affordable Care Act; Marketplace Integrity and Affordability\".",
   "titles": {
     "titles": [
       {
@@ -234,8 +238,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2025-10-10T10:56:19Z",
-  "updateDateIncludingText": "2025-10-10T10:56:19Z",
+  "updateDate": "2026-01-15T16:06:27Z",
+  "updateDateIncludingText": "2026-01-15T16:06:27Z",
   "id": "119-SJRES-84",
   "lastActionDate": "2026-01-13",
   "lastRecordedVoteDate": "2026-01-13T19:52:27Z"

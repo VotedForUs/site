@@ -1,13 +1,128 @@
 {
-  "id": "M001217",
-  "bioguide": "M001217",
-  "name": "Jared Moskowitz",
-  "lastName": "Moskowitz",
-  "state": "FL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "242 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3001",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001217",
+  "birthYear": "1980",
+  "cosponsoredLegislation": {
+    "count": 753,
+    "url": "https://api.congress.gov/v3/member/M001217/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001217.jpg"
+  },
+  "directOrderName": "Jared Moskowitz",
   "district": 23,
-  "nameTitle": "Rep. Jared Moskowitz (FL-23)",
-  "imageUrl": "https://www.congress.gov/img/member/m001217_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jared",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Moskowitz, Jared",
+  "lastName": "Moskowitz",
+  "officialWebsiteUrl": "https://moskowitz.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jared Moskowitz",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jared",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moskowitz, Jared",
+      "lastName": "Moskowitz",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Jared Moskowitz",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Jared",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moskowitz, Jared",
+      "lastName": "Moskowitz",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jared Moskowitz",
+      "firstName": "Jared",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moskowitz, Jared",
+      "lastName": "Moskowitz",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 34,
+    "url": "https://api.congress.gov/v3/member/M001217/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 23,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 23,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "M001217",
+    "fec": [
+      "H2FL22171"
+    ],
+    "govtrack": 456893,
+    "opensecrets": "N00050596",
+    "wikidata": "Q16221073",
+    "wikipedia": "Jared Moskowitz",
+    "votesmart": 138155,
+    "pictorial": 13004,
+    "twitter": "RepMoskowitz",
+    "twitter_id": 1610009027743830000,
+    "facebook": "RepMoskowitz",
+    "instagram": "repmoskowitz",
+    "youtube": "@RepMoskowitz"
+  },
+  "name": {
+    "first": "Jared",
+    "middle": "Evan",
+    "last": "Moskowitz",
+    "official_full": "Jared Moskowitz"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-12-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 23,
+    "party": "Democrat",
+    "url": "https://moskowitz.house.gov",
+    "address": "242 Cannon House Office Building Washington DC 20515-0923",
+    "office": "242 Cannon House Office Building",
+    "phone": "202-225-3001"
+  }
 }

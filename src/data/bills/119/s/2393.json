@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 3,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/2393/actions?format=json",
     "actions": [
       {
@@ -246,17 +246,62 @@
   "latestAction": {
     "actionDate": "2025-12-18",
     "actionTime": "10:04:23",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2393",
   "number": "2393",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-19T12:03:16Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-18T05:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-12-04T03:38:20Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-07-29T12:38:22Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to authorize a major medical facility project for the Department of Veterans Affairs for fiscal year 2026 in St. Louis, Missouri, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-07-29T12:33:21Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-09-10T19:05:17Z",
-  "updateDateIncludingText": "2025-09-10T19:05:17Z",
+  "updateDate": "2025-12-19T16:47:44Z",
+  "updateDateIncludingText": "2025-12-19T16:47:44Z",
   "id": "119-S-2393",
   "lastActionDate": "2025-12-18",
   "lastRecordedVoteDate": "2025-12-17"

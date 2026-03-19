@@ -1,13 +1,148 @@
 {
-  "id": "C001121",
-  "bioguide": "C001121",
-  "name": "Jason Crow",
-  "lastName": "Crow",
-  "state": "CO",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1323 Longworth House Office Building",
+    "phoneNumber": "(202) 225-7882",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001121",
+  "birthYear": "1979",
+  "cosponsoredLegislation": {
+    "count": 1573,
+    "url": "https://api.congress.gov/v3/member/C001121/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001121.jpg"
+  },
+  "directOrderName": "Jason Crow",
   "district": 6,
-  "nameTitle": "Rep. Jason Crow (CO-6)",
-  "imageUrl": "https://www.congress.gov/img/member/c001121_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jason",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Crow, Jason",
+  "lastName": "Crow",
+  "officialWebsiteUrl": "https://crow.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jason Crow",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jason",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crow, Jason",
+      "lastName": "Crow",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jason Crow",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Jason",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crow, Jason",
+      "lastName": "Crow",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jason Crow",
+      "firstName": "Jason",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crow, Jason",
+      "lastName": "Crow",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 155,
+    "url": "https://api.congress.gov/v3/member/C001121/sponsored-legislation"
+  },
+  "state": "Colorado",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "C001121",
+    "fec": [
+      "H8CO06229"
+    ],
+    "govtrack": 412762,
+    "wikipedia": "Jason Crow",
+    "opensecrets": "N00040876",
+    "wikidata": "Q58323071",
+    "votesmart": 180218,
+    "icpsr": 21912,
+    "ballotpedia": "Jason Crow",
+    "google_entity_id": "kg:/g/11gzqdw_wg",
+    "pictorial": 12972,
+    "twitter": "RepJasonCrow",
+    "twitter_id": 1080191866509901800,
+    "facebook": "RepJasonCrow"
+  },
+  "name": {
+    "first": "Jason",
+    "last": "Crow",
+    "official_full": "Jason Crow"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1979-03-15"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CO",
+    "district": 6,
+    "party": "Democrat",
+    "url": "https://crow.house.gov",
+    "address": "1323 Longworth House Office Building Washington DC 20515-0606",
+    "office": "1323 Longworth House Office Building",
+    "phone": "202-225-7882"
+  }
 }

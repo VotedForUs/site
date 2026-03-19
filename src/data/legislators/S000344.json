@@ -1,13 +1,274 @@
 {
-  "id": "S000344",
-  "bioguide": "S000344",
-  "name": "Brad Sherman",
-  "lastName": "Sherman",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2365 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5911",
+    "zipCode": 20515
+  },
+  "bioguideId": "S000344",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 5334,
+    "url": "https://api.congress.gov/v3/member/S000344/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image, Congressional Pictorial Directory, 109th.",
+    "imageUrl": "/images/legislators/S000344.jpg"
+  },
+  "directOrderName": "Brad Sherman",
   "district": 32,
-  "nameTitle": "Rep. Brad Sherman (CA-32)",
-  "imageUrl": "https://www.congress.gov/img/member/s000344_200.jpg",
-  "attribution": "Image, Congressional Pictorial Directory, 109th.",
-  "type": "rep"
+  "firstName": "Brad",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Sherman, Brad",
+  "lastName": "Sherman",
+  "officialWebsiteUrl": "https://sherman.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 1997
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brad Sherman",
+      "endDate": "2024-02-27T13:20:47Z",
+      "firstName": "BRAD",
+      "invertedOrderName": "Sherman, Brad",
+      "lastName": "SHERMAN",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Brad Sherman",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "BRAD",
+      "invertedOrderName": "Sherman, Brad",
+      "lastName": "SHERMAN",
+      "startDate": "1997-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Brad Sherman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Brad",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Sherman, Brad",
+      "lastName": "Sherman",
+      "startDate": "2024-02-27T13:20:48Z"
+    },
+    {
+      "directOrderName": "Brad Sherman",
+      "firstName": "Brad",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Sherman, Brad",
+      "lastName": "Sherman",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 227,
+    "url": "https://api.congress.gov/v3/member/S000344/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 24,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 24,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 24,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 27,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 27,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 27,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 27,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 27,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 30,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 30,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 30,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 30,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 30,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 32,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 32,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "S000344",
+    "thomas": "01526",
+    "govtrack": 400371,
+    "opensecrets": "N00006897",
+    "votesmart": 142,
+    "fec": [
+      "H6CA24113"
+    ],
+    "cspan": 45124,
+    "wikipedia": "Brad Sherman",
+    "maplight": 462,
+    "icpsr": 29707,
+    "house_history": 21565,
+    "wikidata": "Q672919",
+    "google_entity_id": "kg:/m/024tkr",
+    "ballotpedia": "Brad Sherman",
+    "pictorial": 12946,
+    "twitter": "BradSherman",
+    "facebook": "63158229861",
+    "youtube": "shermanca27",
+    "youtube_id": "UCPisrz6-SLwVy2l9Mcy8kug",
+    "twitter_id": 30216513,
+    "instagram": "congressmansherman"
+  },
+  "name": {
+    "first": "Brad",
+    "middle": "J.",
+    "last": "Sherman",
+    "official_full": "Brad Sherman"
+  },
+  "bio": {
+    "birthday": "1954-10-24",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 32,
+    "party": "Democrat",
+    "url": "https://sherman.house.gov",
+    "rss_url": "http://bradsherman.house.gov/press-releases-and-columns/rss.shtml",
+    "address": "2365 Rayburn House Office Building Washington DC 20515-0532",
+    "office": "2365 Rayburn House Office Building",
+    "phone": "202-225-5911"
+  }
 }

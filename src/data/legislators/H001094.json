@@ -1,13 +1,131 @@
 {
-  "id": "H001094",
-  "bioguide": "H001094",
-  "name": "Val T. Hoyle",
-  "lastName": "Hoyle",
-  "state": "OR",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1620 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6416",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001094",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 567,
+    "url": "https://api.congress.gov/v3/member/H001094/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001094.jpg"
+  },
+  "directOrderName": "Val T. Hoyle",
   "district": 4,
-  "nameTitle": "Rep. Val T. Hoyle (OR-4)",
-  "imageUrl": "https://www.congress.gov/img/member/h001094_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Val",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Hoyle, Val T.",
+  "lastName": "Hoyle",
+  "middleName": "T.",
+  "officialWebsiteUrl": "https://hoyle.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Val T. Hoyle",
+      "endDate": "2024-02-27T13:20:56Z",
+      "firstName": "Val",
+      "invertedOrderName": "Hoyle, Val T.",
+      "lastName": "Hoyle",
+      "middleName": "T.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Val T. Hoyle",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Val",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Hoyle, Val T.",
+      "lastName": "Hoyle",
+      "middleName": "T.",
+      "startDate": "2024-02-27T13:20:57Z"
+    },
+    {
+      "directOrderName": "Val T. Hoyle",
+      "firstName": "Val",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Hoyle, Val T.",
+      "lastName": "Hoyle",
+      "middleName": "T.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 21,
+    "url": "https://api.congress.gov/v3/member/H001094/sponsored-legislation"
+  },
+  "state": "Oregon",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "H001094",
+    "fec": [
+      "H2OR04095"
+    ],
+    "govtrack": 456932,
+    "opensecrets": "N00049734",
+    "wikidata": "Q7909103",
+    "wikipedia": "Val Hoyle",
+    "votesmart": 116336,
+    "ballotpedia": "Val Hoyle",
+    "pictorial": 13218,
+    "twitter": "repvalhoyle",
+    "twitter_id": 1612865196489412600,
+    "facebook": "repvalhoyle",
+    "instagram": "RepHoyle"
+  },
+  "name": {
+    "first": "Valerie",
+    "middle": "Anne",
+    "last": "Hoyle",
+    "official_full": "Val T. Hoyle"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1964-02-14"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OR",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://hoyle.house.gov",
+    "address": "1620 Longworth House Office Building Washington DC 20515-3704",
+    "office": "1620 Longworth House Office Building",
+    "phone": "202-225-6416"
+  }
 }

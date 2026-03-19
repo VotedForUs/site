@@ -513,7 +513,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 218 - 211 (Roll no. 274). (text of amendment in the nature of a substitute: CR H4375: 5)",
+        "text": "On passage Passed by the Yeas and Nays: 218 - 211 (Roll no. 274). (text of amendment in the nature of a substitute: CR H4375)",
         "type": "Floor"
       },
       {
@@ -607,7 +607,7 @@
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported by the Yeas and Nays: 25 - 20.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 20.",
         "type": "Committee"
       },
       {

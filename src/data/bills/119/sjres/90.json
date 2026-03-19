@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 2,
+    "count": 4,
     "url": "https://api.congress.gov/v3/bill/119/sjres/90/actions?format=json",
     "actions": [
       {
@@ -225,8 +225,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2025-10-18T03:18:15Z",
-  "updateDateIncludingText": "2025-10-18T03:18:15Z",
+  "updateDate": "2026-01-08T16:20:29Z",
+  "updateDateIncludingText": "2026-01-08T16:20:29Z",
   "id": "119-SJRES-90",
   "lastActionDate": "2025-11-06",
   "lastRecordedVoteDate": "2025-11-06T22:56:56Z"

@@ -1,13 +1,157 @@
 {
-  "id": "M001199",
-  "bioguide": "M001199",
-  "name": "Brian J. Mast",
-  "lastName": "Mast",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2182 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3026",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001199",
+  "birthYear": "1980",
+  "cosponsoredLegislation": {
+    "count": 1195,
+    "url": "https://api.congress.gov/v3/member/M001199/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/M001199.jpg"
+  },
+  "directOrderName": "Brian J. Mast",
   "district": 21,
-  "nameTitle": "Rep. Brian J. Mast (FL-21)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_fl_18_mast_brian_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Brian",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Mast, Brian J.",
+  "lastName": "Mast",
+  "middleName": "J.",
+  "officialWebsiteUrl": "https://mast.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brian J. Mast",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mast, Brian J.",
+      "lastName": "Mast",
+      "middleName": "J.",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Brian J. Mast",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mast, Brian J.",
+      "lastName": "Mast",
+      "middleName": "J.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 149,
+    "url": "https://api.congress.gov/v3/member/M001199/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 18,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 18,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 18,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 21,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 21,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "M001199",
+    "govtrack": 412698,
+    "wikipedia": "Brian Mast",
+    "wikidata": "Q27733854",
+    "votesmart": 166245,
+    "fec": [
+      "H6FL18097"
+    ],
+    "opensecrets": "N00037269",
+    "maplight": 2210,
+    "google_entity_id": "kg:/g/11cs5xxx_f",
+    "ballotpedia": "Brian Mast",
+    "cspan": 104540,
+    "icpsr": 21735,
+    "pictorial": 13002,
+    "facebook": "repbrianmast",
+    "twitter": "RepBrianMast",
+    "twitter_id": 814103950404239400,
+    "youtube": "repbrianmast",
+    "instagram": "RepBrianMast"
+  },
+  "name": {
+    "first": "Brian",
+    "middle": "J.",
+    "last": "Mast",
+    "official_full": "Brian J. Mast"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-07-10"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 21,
+    "party": "Republican",
+    "url": "https://mast.house.gov",
+    "address": "2182 Rayburn House Office Building Washington DC 20515-0921",
+    "office": "2182 Rayburn House Office Building",
+    "phone": "202-225-3026"
+  }
 }

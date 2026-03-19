@@ -1,13 +1,152 @@
 {
-  "id": "G000596",
-  "bioguide": "G000596",
-  "name": "Marjorie Taylor Greene",
-  "lastName": "Greene",
-  "state": "GA",
-  "party": "Republican",
+  "bioguideId": "G000596",
+  "birthYear": "1974",
+  "cosponsoredLegislation": {
+    "count": 433,
+    "url": "https://api.congress.gov/v3/member/G000596/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000596.jpg"
+  },
+  "directOrderName": "Marjorie Taylor Greene",
   "district": 14,
-  "nameTitle": "Rep. Marjorie Taylor Greene (GA-14)",
-  "imageUrl": "https://www.congress.gov/img/member/g000596_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Marjorie",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Greene, Marjorie Taylor",
+  "lastName": "Greene",
+  "middleName": "Taylor",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Marjorie Taylor Greene",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Marjorie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Greene, Marjorie Taylor",
+      "lastName": "Greene",
+      "middleName": "Taylor",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Marjorie Taylor Greene",
+      "endDate": "2024-02-27T13:20:50Z",
+      "firstName": "Marjorie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Greene, Marjorie Taylor",
+      "lastName": "Greene",
+      "middleName": "Taylor",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Marjorie Taylor Greene",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Marjorie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Greene, Marjorie Taylor",
+      "lastName": "Greene",
+      "middleName": "Taylor",
+      "startDate": "2024-02-27T13:20:51Z"
+    },
+    {
+      "directOrderName": "Marjorie Taylor Greene",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Marjorie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Greene, Marjorie Taylor",
+      "lastName": "Greene",
+      "middleName": "Taylor",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Marjorie Taylor Greene",
+      "firstName": "Marjorie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Greene, Marjorie Taylor",
+      "lastName": "Greene",
+      "middleName": "Taylor",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 111,
+    "url": "https://api.congress.gov/v3/member/G000596/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 14,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 14,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 14,
+      "endYear": 2026,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2026-01-06T12:37:11Z",
+  "id": {
+    "bioguide": "G000596",
+    "fec": [
+      "H0GA06192"
+    ],
+    "opensecrets": "N00044701",
+    "govtrack": 456814,
+    "wikidata": "Q98380406",
+    "wikipedia": "Marjorie Taylor Greene",
+    "google_entity_id": "kg:/g/11fscs046n",
+    "ballotpedia": "Marjorie Taylor Greene",
+    "votesmart": 189785,
+    "pictorial": 13023
+  },
+  "name": {
+    "first": "Marjorie",
+    "middle": "Taylor",
+    "last": "Greene",
+    "official_full": "Marjorie Taylor Greene"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1974-05-27"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2026-01-05",
+    "state": "GA",
+    "district": 14,
+    "party": "Republican",
+    "url": "https://greene.house.gov",
+    "address": "2201 Rayburn House Office Building Washington DC 20515-1014",
+    "office": "2201 Rayburn House Office Building",
+    "phone": "202-225-5211"
+  }
 }

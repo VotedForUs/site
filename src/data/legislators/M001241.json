@@ -1,13 +1,111 @@
 {
-  "id": "M001241",
-  "bioguide": "M001241",
-  "name": "Dave Min",
-  "lastName": "Min",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1034 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5611",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001241",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 304,
+    "url": "https://api.congress.gov/v3/member/M001241/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001241.jpg"
+  },
+  "directOrderName": "Dave Min",
   "district": 47,
-  "nameTitle": "Rep. Dave Min (CA-47)",
-  "imageUrl": "https://www.congress.gov/img/member/67744ed90b34857ecc909155_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Dave",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Min, Dave",
+  "lastName": "Min",
+  "officialWebsiteUrl": "https://min.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Dave Min",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Dave",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Min, Dave",
+      "lastName": "Min",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Dave Min",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Dave",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Min, Dave",
+      "lastName": "Min",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Dave Min",
+      "firstName": "Dave",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Min, Dave",
+      "lastName": "Min",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 18,
+    "url": "https://api.congress.gov/v3/member/M001241/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 47,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "M001241",
+    "fec": [
+      "H4CA47085"
+    ],
+    "govtrack": 456981,
+    "opensecrets": "N00040866",
+    "wikipedia": "Dave Min",
+    "wikidata": "Q31213321"
+  },
+  "name": {
+    "first": "Dave",
+    "middle": "Kunnghee",
+    "last": "Min",
+    "official_full": "Dave Min"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1976-03-05"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 47,
+    "party": "Democrat",
+    "address": "1034 Longworth House Office Building Washington DC 20515-0547",
+    "office": "1034 Longworth House Office Building",
+    "phone": "202-225-5611",
+    "url": "https://min.house.gov"
+  }
 }

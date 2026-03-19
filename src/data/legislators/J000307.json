@@ -1,13 +1,129 @@
 {
-  "id": "J000307",
-  "bioguide": "J000307",
-  "name": "John James",
-  "lastName": "James",
-  "state": "MI",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1519 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4961",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000307",
+  "birthYear": "1981",
+  "cosponsoredLegislation": {
+    "count": 260,
+    "url": "https://api.congress.gov/v3/member/J000307/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000307.jpg"
+  },
+  "directOrderName": "John James",
   "district": 10,
-  "nameTitle": "Rep. John James (MI-10)",
-  "imageUrl": "https://www.congress.gov/img/member/j000307_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "James, John",
+  "lastName": "James",
+  "officialWebsiteUrl": "https://james.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John James",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "James, John",
+      "lastName": "James",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "John James",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "James, John",
+      "lastName": "James",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "John James",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "James, John",
+      "lastName": "James",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 59,
+    "url": "https://api.congress.gov/v3/member/J000307/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 10,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 10,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "J000307",
+    "fec": [
+      "H2MI10150"
+    ],
+    "govtrack": 456907,
+    "opensecrets": "N00041550",
+    "wikidata": "Q56027187",
+    "wikipedia": "John James (Michigan politician)",
+    "google_entity_id": "kg:/g/11f7r6ft_j",
+    "ballotpedia": "John James (Michigan)",
+    "votesmart": 181062,
+    "pictorial": 13103,
+    "twitter": "RepJames",
+    "facebook": "RepJohnJames",
+    "instagram": "RepJohnJames",
+    "youtube": "@RepJohnJames"
+  },
+  "name": {
+    "first": "John",
+    "middle": "Edwards",
+    "last": "James",
+    "official_full": "John James"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1981-06-08"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 10,
+    "party": "Republican",
+    "url": "https://james.house.gov",
+    "address": "1519 Longworth House Office Building Washington DC 20515-2210",
+    "office": "1519 Longworth House Office Building",
+    "phone": "202-225-4961"
+  }
 }

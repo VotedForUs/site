@@ -1,13 +1,206 @@
 {
-  "id": "G000558",
-  "bioguide": "G000558",
-  "name": "Brett Guthrie",
-  "lastName": "Guthrie",
-  "state": "KY",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2161 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3501",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000558",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 1763,
+    "url": "https://api.congress.gov/v3/member/G000558/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000558.jpg"
+  },
+  "directOrderName": "Brett Guthrie",
   "district": 2,
-  "nameTitle": "Rep. Brett Guthrie (KY-2)",
-  "imageUrl": "https://www.congress.gov/img/member/g000558_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Brett",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Guthrie, Brett",
+  "lastName": "Guthrie",
+  "officialWebsiteUrl": "https://guthrie.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brett Guthrie",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Brett",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Guthrie, Brett",
+      "lastName": "Guthrie",
+      "startDate": "2009-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Brett Guthrie",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Brett",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Guthrie, Brett",
+      "lastName": "Guthrie",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Brett Guthrie",
+      "firstName": "Brett",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Guthrie, Brett",
+      "lastName": "Guthrie",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 137,
+    "url": "https://api.congress.gov/v3/member/G000558/sponsored-legislation"
+  },
+  "state": "Kentucky",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 2,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 2,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "G000558",
+    "thomas": "01922",
+    "govtrack": 412278,
+    "opensecrets": "N00029675",
+    "votesmart": 18829,
+    "fec": [
+      "H8KY02031"
+    ],
+    "cspan": 1031343,
+    "wikipedia": "Brett Guthrie",
+    "house_history": 14275,
+    "ballotpedia": "Brett Guthrie",
+    "maplight": 760,
+    "icpsr": 20916,
+    "wikidata": "Q910794",
+    "google_entity_id": "kg:/m/0411qqt",
+    "pictorial": 13064,
+    "youtube": "BrettGuthrie",
+    "facebook": "CongressmanGuthrie",
+    "twitter": "RepGuthrie",
+    "youtube_id": "UCdJhDw-YbdH0RHfWK0sIfiw",
+    "twitter_id": 1908143071,
+    "instagram": "repguthrie"
+  },
+  "name": {
+    "first": "Brett",
+    "last": "Guthrie",
+    "official_full": "Brett Guthrie"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1964-02-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "KY",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://guthrie.house.gov",
+    "rss_url": "http://guthrie.house.gov/common/rss/?rss=24",
+    "address": "2161 Rayburn House Office Building Washington DC 20515-1702",
+    "office": "2161 Rayburn House Office Building",
+    "phone": "202-225-3501"
+  }
 }

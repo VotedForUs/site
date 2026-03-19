@@ -1,13 +1,182 @@
 {
-  "id": "G000574",
-  "bioguide": "G000574",
-  "name": "Ruben Gallego",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "302 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4521",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000574",
+  "birthYear": "1979",
+  "cosponsoredLegislation": {
+    "count": 2688,
+    "url": "https://api.congress.gov/v3/member/G000574/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000574.jpg"
+  },
+  "directOrderName": "Ruben Gallego",
+  "firstName": "Ruben",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Gallego, Ruben",
   "lastName": "Gallego",
-  "state": "AZ",
-  "party": "Democrat",
-  "nameTitle": "Sen. Ruben Gallego (AZ)",
-  "imageUrl": "https://www.congress.gov/img/member/c6870f487cf4bc9a568d8afbe61d754b_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.gallego.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ruben Gallego",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ruben",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gallego, Ruben",
+      "lastName": "Gallego",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ruben Gallego",
+      "endDate": "2025-02-19T09:44:59Z",
+      "firstName": "Ruben",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gallego, Ruben",
+      "lastName": "Gallego",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ruben Gallego",
+      "endDate": "2025-03-08T09:44:59Z",
+      "firstName": "Ruben",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gallego, Ruben",
+      "lastName": "Gallego",
+      "startDate": "2025-02-19T09:45:00Z"
+    },
+    {
+      "directOrderName": "Ruben Gallego",
+      "firstName": "Ruben",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gallego, Ruben",
+      "lastName": "Gallego",
+      "startDate": "2025-03-08T09:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 226,
+    "url": "https://api.congress.gov/v3/member/G000574/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 7,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 7,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 7,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 7,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:14Z",
+  "id": {
+    "bioguide": "G000574",
+    "lis": "S432",
+    "fec": [
+      "H4AZ07043",
+      "S4AZ00139"
+    ],
+    "govtrack": 412612,
+    "opensecrets": "N00036097",
+    "thomas": "02226",
+    "maplight": 2068,
+    "wikidata": "Q16218474",
+    "wikipedia": "Ruben Gallego",
+    "google_entity_id": "kg:/m/0wy0mz5",
+    "cspan": 77233,
+    "icpsr": 21502,
+    "votesmart": 123732,
+    "ballotpedia": "Ruben Gallego",
+    "pictorial": 12908,
+    "twitter": "RepRubenGallego",
+    "facebook": "RepRubenGallego",
+    "twitter_id": 2966570782,
+    "instagram": "reprubengallego"
+  },
+  "name": {
+    "first": "Ruben",
+    "last": "Gallego",
+    "official_full": "Ruben Gallego"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1979-11-20"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "AZ",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.gallego.senate.gov",
+    "address": "302 Hart Senate Office Building Washington DC 20510",
+    "office": "302 Hart Senate Office Building",
+    "phone": "202-224-4521"
+  }
 }

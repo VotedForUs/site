@@ -1,13 +1,128 @@
 {
-  "id": "B001323",
-  "bioguide": "B001323",
-  "name": "Nicholas J. Begich III",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "153 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5765",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001323",
+  "birthYear": "1977",
+  "cosponsoredLegislation": {
+    "count": 166,
+    "url": "https://api.congress.gov/v3/member/B001323/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001323.jpg"
+  },
+  "directOrderName": "Nicholas J. Begich III",
+  "firstName": "Nicholas",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Begich, Nicholas J.",
   "lastName": "Begich",
-  "state": "AK",
-  "party": "Republican",
-  "district": 0,
-  "nameTitle": "Rep. Nicholas J. Begich III (AK-0)",
-  "imageUrl": "https://www.congress.gov/img/member/6774217e0b34857ecc909040_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "middleName": "J.",
+  "officialWebsiteUrl": "https://begich.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Nicholas Begich",
+      "endDate": "2025-04-28T13:04:12Z",
+      "firstName": "Nicholas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Begich, Nicholas",
+      "lastName": "Begich",
+      "middleName": "J.",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Nicholas Begich",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Nicholas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Begich, Nicholas",
+      "lastName": "Begich",
+      "middleName": "J.",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Nicholas Begich",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Nicholas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Begich, Nicholas",
+      "lastName": "Begich",
+      "middleName": "J.",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Nicholas J. Begich III",
+      "firstName": "Nicholas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Begich, Nicholas J.",
+      "lastName": "Begich",
+      "middleName": "J.",
+      "startDate": "2025-04-28T13:04:13Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 26,
+    "url": "https://api.congress.gov/v3/member/B001323/sponsored-legislation"
+  },
+  "state": "Alaska",
+  "suffixName": "III",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "B001323",
+    "fec": [
+      "H2AK01083"
+    ],
+    "govtrack": 456970,
+    "opensecrets": "N00049408",
+    "wikipedia": "Nick Begich III",
+    "wikidata": "Q113676482",
+    "twitter": "repnickbegich",
+    "facebook": "RepNickBegich",
+    "instagram": "RepNickBegich"
+  },
+  "name": {
+    "first": "Nicholas",
+    "middle": "Joseph",
+    "last": "Begich",
+    "suffix": "III",
+    "official_full": "Nicholas J. Begich III"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1977-10-21"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AK",
+    "district": 0,
+    "party": "Republican",
+    "address": "153 Cannon House Office Building Washington DC 20515-0200",
+    "office": "153 Cannon House Office Building",
+    "phone": "202-225-5765",
+    "url": "https://begich.house.gov"
+  }
 }

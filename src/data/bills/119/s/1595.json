@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4796: 1; text: CR S4797: 1)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4796; text: CR S4797)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -253,9 +253,83 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Improving Police CARE Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Improving Police CARE Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-08-02T11:03:18Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Improving Police CARE Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-07-30T06:38:23Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Improving Police Critical Aid for Responding to Emergencies Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-07-30T06:38:23Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Improving Police Critical Aid for Responding to Emergencies Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-05-22T02:23:18Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Improving Police CARE Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-05-22T02:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Improving Police CARE Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-13T14:23:23Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Improving Police Critical Aid for Responding to Emergencies Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-13T14:23:23Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to establish standards for trauma kits purchased using funds provided under the Edward Byrne Memorial Justice Assistance Grant Program.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-05-13T14:18:20Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-08-02T11:24:20Z",
-  "updateDateIncludingText": "2025-08-02T11:24:20Z",
+  "updateDate": "2026-01-05T22:00:57Z",
+  "updateDateIncludingText": "2026-01-05T22:00:57Z",
   "id": "119-S-1595",
   "lastActionDate": "2025-08-01",
   "lastRecordedVoteDate": "2025-07-29"

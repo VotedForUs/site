@@ -1,13 +1,244 @@
 {
-  "id": "I000056",
-  "bioguide": "I000056",
-  "name": "Darrell Issa",
-  "lastName": "Issa",
-  "state": "CA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2108 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5672",
+    "zipCode": 20515
+  },
+  "bioguideId": "I000056",
+  "birthYear": "1953",
+  "cosponsoredLegislation": {
+    "count": 2467,
+    "url": "https://api.congress.gov/v3/member/I000056/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Collection of the U.S. House of Representatives <a href=\"http://history.house.gov/Collection/Detail/15032430738?ret=True\">About this object</a>",
+    "imageUrl": "/images/legislators/I000056.jpg"
+  },
+  "directOrderName": "Darrell Issa",
   "district": 48,
-  "nameTitle": "Rep. Darrell Issa (CA-48)",
-  "imageUrl": "https://www.congress.gov/img/member/i000056_200.jpg",
-  "attribution": "Collection of the U.S. House of Representatives <a href=\"http://history.house.gov/Collection/Detail/15032430738?ret=True\">About this object</a>",
-  "type": "rep"
+  "firstName": "Darrell",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Issa, Darrell",
+  "lastName": "Issa",
+  "officialWebsiteUrl": "https://issa.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2001
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Darrell E. Issa",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "DARRELL",
+      "invertedOrderName": "Issa, Darrell E.",
+      "lastName": "ISSA",
+      "middleName": "E.",
+      "startDate": "2001-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Darrell E. Issa",
+      "endDate": "2024-02-27T13:20:48Z",
+      "firstName": "DARRELL",
+      "invertedOrderName": "Issa, Darrell E.",
+      "lastName": "ISSA",
+      "middleName": "E.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Darrell Issa",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Darrell",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Issa, Darrell",
+      "lastName": "Issa",
+      "startDate": "2024-02-27T13:20:49Z"
+    },
+    {
+      "directOrderName": "Darrell Issa",
+      "firstName": "Darrell",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Issa, Darrell",
+      "lastName": "Issa",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 389,
+    "url": "https://api.congress.gov/v3/member/I000056/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 48,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 49,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 49,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 49,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 49,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 49,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 49,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 49,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 49,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 50,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 48,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 48,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "I000056",
+    "thomas": "01640",
+    "govtrack": 400196,
+    "opensecrets": "N00007017",
+    "votesmart": 16553,
+    "fec": [
+      "H0CA48024",
+      "S8CA00135"
+    ],
+    "cspan": 90066,
+    "wikipedia": "Darrell Issa",
+    "house_history": 15689,
+    "ballotpedia": "Darrell Issa",
+    "maplight": 300,
+    "icpsr": 20107,
+    "wikidata": "Q1166592",
+    "google_entity_id": "kg:/m/01r7wc",
+    "pictorial": 12962,
+    "twitter": "repdarrellissa",
+    "twitter_id": 63650107,
+    "facebook": "congressmandarrellissa"
+  },
+  "name": {
+    "first": "Darrell",
+    "last": "Issa",
+    "official_full": "Darrell Issa",
+    "middle": "E."
+  },
+  "bio": {
+    "birthday": "1953-11-01",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 48,
+    "party": "Republican",
+    "url": "https://issa.house.gov",
+    "rss_url": "http://issa.house.gov/feed/",
+    "address": "2108 Rayburn House Office Building Washington DC 20515-0548",
+    "office": "2108 Rayburn House Office Building",
+    "phone": "202-225-5672"
+  }
 }

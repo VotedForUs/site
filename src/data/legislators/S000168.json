@@ -1,13 +1,142 @@
 {
-  "id": "S000168",
-  "bioguide": "S000168",
-  "name": "Maria Elvira Salazar",
-  "lastName": "Salazar",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2162 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3931",
+    "zipCode": 20515
+  },
+  "bioguideId": "S000168",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 1271,
+    "url": "https://api.congress.gov/v3/member/S000168/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S000168.jpg"
+  },
+  "directOrderName": "Maria Elvira Salazar",
   "district": 27,
-  "nameTitle": "Rep. Maria Elvira Salazar (FL-27)",
-  "imageUrl": "https://www.congress.gov/img/member/s000168_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Maria",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Salazar, Maria Elvira",
+  "lastName": "Salazar",
+  "middleName": "Elvira",
+  "officialWebsiteUrl": "https://salazar.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Maria Elvira Salazar",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Maria",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Salazar, Maria Elvira",
+      "lastName": "Salazar",
+      "middleName": "Elvira",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Maria Elvira Salazar",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Maria",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Salazar, Maria Elvira",
+      "lastName": "Salazar",
+      "middleName": "Elvira",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Maria Elvira Salazar",
+      "firstName": "Maria",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Salazar, Maria Elvira",
+      "lastName": "Salazar",
+      "middleName": "Elvira",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 70,
+    "url": "https://api.congress.gov/v3/member/S000168/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 27,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 27,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 27,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "S000168",
+    "fec": [
+      "H8FL27185"
+    ],
+    "opensecrets": "N00042810",
+    "govtrack": 456810,
+    "wikidata": "Q6003715",
+    "wikipedia": "María Elvira Salazar",
+    "google_entity_id": "kg:/g/1hb_g7r18",
+    "votesmart": 182300,
+    "pictorial": 13008,
+    "twitter": "RepMariaSalazar",
+    "twitter_id": 1325928411689349000,
+    "facebook": "RepMariaSalazar",
+    "instagram": "repmariasalazar"
+  },
+  "name": {
+    "first": "Maria",
+    "middle": "Elvira",
+    "last": "Salazar",
+    "official_full": "Maria Elvira Salazar"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1961-11-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 27,
+    "party": "Republican",
+    "url": "https://salazar.house.gov",
+    "address": "2162 Rayburn House Office Building Washington DC 20515-0927",
+    "office": "2162 Rayburn House Office Building",
+    "phone": "202-225-3931"
+  }
 }

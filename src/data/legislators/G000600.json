@@ -1,13 +1,132 @@
 {
-  "id": "G000600",
-  "bioguide": "G000600",
-  "name": "Marie Gluesenkamp Perez",
-  "lastName": "Gluesenkamp Perez",
-  "state": "WA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1431 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3536",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000600",
+  "birthYear": "1988",
+  "cosponsoredLegislation": {
+    "count": 512,
+    "url": "https://api.congress.gov/v3/member/G000600/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000600.jpg"
+  },
+  "directOrderName": "Marie Gluesenkamp Perez",
   "district": 3,
-  "nameTitle": "Rep. Marie Gluesenkamp Perez (WA-3)",
-  "imageUrl": "https://www.congress.gov/img/member/g000600_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Marie",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Perez, Marie Gluesenkamp",
+  "lastName": "Perez",
+  "middleName": "Gluesenkamp",
+  "officialWebsiteUrl": "https://gluesenkampperez.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Marie Gluesenkamp Perez",
+      "endDate": "2024-02-27T13:20:59Z",
+      "firstName": "Marie",
+      "invertedOrderName": "Perez, Marie Gluesenkamp",
+      "lastName": "Perez",
+      "middleName": "Gluesenkamp",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Marie Gluesenkamp Perez",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Marie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Perez, Marie Gluesenkamp",
+      "lastName": "Perez",
+      "middleName": "Gluesenkamp",
+      "startDate": "2024-02-27T13:21:00Z"
+    },
+    {
+      "directOrderName": "Marie Gluesenkamp Perez",
+      "firstName": "Marie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Perez, Marie Gluesenkamp",
+      "lastName": "Perez",
+      "middleName": "Gluesenkamp",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 54,
+    "url": "https://api.congress.gov/v3/member/G000600/sponsored-legislation"
+  },
+  "state": "Washington",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "G000600",
+    "fec": [
+      "H2WA03217"
+    ],
+    "govtrack": 456949,
+    "opensecrets": "N00050490",
+    "wikidata": "Q113686944",
+    "wikipedia": "Marie Gluesenkamp Perez",
+    "google_entity_id": "kg:/g/11rts0yhzk",
+    "ballotpedia": "Marie Gluesenkamp Perez",
+    "votesmart": 207307,
+    "pictorial": 13314,
+    "twitter": "RepMGP",
+    "twitter_id": 1603127874512453600,
+    "facebook": "RepMGP",
+    "instagram": "repmgp",
+    "youtube": "@repmgp"
+  },
+  "name": {
+    "first": "Marie",
+    "last": "Gluesenkamp Perez",
+    "official_full": "Marie Gluesenkamp Perez"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1988-06-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WA",
+    "district": 3,
+    "party": "Democrat",
+    "url": "https://gluesenkampperez.house.gov",
+    "address": "1431 Longworth House Office Building Washington DC 20515-4703",
+    "office": "1431 Longworth House Office Building",
+    "phone": "202-225-3536"
+  }
 }

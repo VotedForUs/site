@@ -1,13 +1,151 @@
 {
-  "id": "R000608",
-  "bioguide": "R000608",
-  "name": "Jacky Rosen",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "713 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-6244",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000608",
+  "birthYear": "1957",
+  "cosponsoredLegislation": {
+    "count": 2503,
+    "url": "https://api.congress.gov/v3/member/R000608/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000608.jpg"
+  },
+  "directOrderName": "Jacky Rosen",
+  "firstName": "Jacky",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Rosen, Jacky",
   "lastName": "Rosen",
-  "state": "NV",
-  "party": "Democrat",
-  "nameTitle": "Sen. Jacky Rosen (NV)",
-  "imageUrl": "https://www.congress.gov/img/member/r000608_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.rosen.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jacky Rosen",
+      "endDate": "2025-02-15T09:44:59Z",
+      "firstName": "Jacklyn",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Rosen, Jacky",
+      "lastName": "Rosen",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jacky Rosen",
+      "firstName": "Jacky",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Rosen, Jacky",
+      "lastName": "Rosen",
+      "startDate": "2025-02-15T09:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 453,
+    "url": "https://api.congress.gov/v3/member/R000608/sponsored-legislation"
+  },
+  "state": "Nevada",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:27Z",
+  "id": {
+    "bioguide": "R000608",
+    "lis": "S402",
+    "govtrack": 412715,
+    "wikipedia": "Jacky Rosen",
+    "wikidata": "Q27825033",
+    "votesmart": 169471,
+    "fec": [
+      "H6NV03139",
+      "S8NV00156"
+    ],
+    "opensecrets": "N00038734",
+    "maplight": 2227,
+    "google_entity_id": "kg:/g/11cntnvwkg",
+    "cspan": 104738,
+    "icpsr": 21743,
+    "pictorial": 13386,
+    "ballotpedia": "Jacky Rosen",
+    "twitter": "SenJackyRosen",
+    "twitter_id": 818554054309716000,
+    "facebook": "RepJackyRosen",
+    "instagram": "repjackyrosen"
+  },
+  "name": {
+    "first": "Jacky",
+    "last": "Rosen",
+    "official_full": "Jacky Rosen"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1957-08-02"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "NV",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.rosen.senate.gov",
+    "contact_form": "https://www.rosen.senate.gov/contact_jacky",
+    "address": "713 Hart Senate Office Building Washington DC 20510",
+    "office": "713 Hart Senate Office Building",
+    "phone": "202-224-6244"
+  }
 }

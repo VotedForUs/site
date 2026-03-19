@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 3,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/856/actions?format=json",
     "actions": [
       {
@@ -246,17 +246,62 @@
   "latestAction": {
     "actionDate": "2025-12-17",
     "actionTime": "10:21:51",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/856",
   "number": "856",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Disclosing Foreign Influence in Lobbying Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Disclosing Foreign Influence in Lobbying Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-18T12:03:18Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Disclosing Foreign Influence in Lobbying Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-17T06:23:19Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Disclosing Foreign Influence in Lobbying Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-11-05T03:53:13Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Disclosing Foreign Influence in Lobbying Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-07T16:38:23Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend the Lobbying Disclosure Act of 1995 to clarify a provision relating to certain contents of registrations under that Act.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-07T16:33:24Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-29T02:06:49Z",
-  "updateDateIncludingText": "2025-10-29T02:06:49Z",
+  "updateDate": "2025-12-18T12:50:00Z",
+  "updateDateIncludingText": "2025-12-18T12:50:00Z",
   "id": "119-S-856",
   "lastActionDate": "2025-12-17",
   "lastRecordedVoteDate": "2025-12-16"

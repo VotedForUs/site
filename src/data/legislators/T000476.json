@@ -1,13 +1,154 @@
 {
-  "id": "T000476",
-  "bioguide": "T000476",
-  "name": "Thom Tillis",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "113 Dirksen Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-6342",
+    "zipCode": 20510
+  },
+  "bioguideId": "T000476",
+  "birthYear": "1960",
+  "cosponsoredLegislation": {
+    "count": 2574,
+    "url": "https://api.congress.gov/v3/member/T000476/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/T000476.jpg"
+  },
+  "directOrderName": "Thom Tillis",
+  "firstName": "Thomas",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Tillis, Thomas",
   "lastName": "Tillis",
-  "state": "NC",
-  "party": "Republican",
-  "nameTitle": "Sen. Thom Tillis (NC)",
-  "imageUrl": "https://www.congress.gov/img/member/t000476_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "middleName": "Roland",
+  "officialWebsiteUrl": "https://www.tillis.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Thom Tillis",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Tillis, Thomas",
+      "lastName": "Tillis",
+      "middleName": "Roland",
+      "startDate": "2015-01-06T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 672,
+    "url": "https://api.congress.gov/v3/member/T000476/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:51Z",
+  "id": {
+    "bioguide": "T000476",
+    "thomas": "02291",
+    "fec": [
+      "S4NC00162"
+    ],
+    "govtrack": 412668,
+    "opensecrets": "N00035492",
+    "lis": "S384",
+    "maplight": 2124,
+    "wikidata": "Q7786750",
+    "wikipedia": "Thom Tillis",
+    "google_entity_id": "kg:/m/0fq0395",
+    "votesmart": 57717,
+    "cspan": 77055,
+    "icpsr": 41504,
+    "ballotpedia": "Thom Tillis (North Carolina)",
+    "pictorial": 13369,
+    "twitter": "SenThomTillis",
+    "facebook": "SenatorThomTillis",
+    "youtube_id": "UCUD9VGV4SSGWjGdbn37Ea2w",
+    "twitter_id": 2964174789,
+    "instagram": "senthomtillis"
+  },
+  "name": {
+    "first": "Thom",
+    "last": "Tillis",
+    "official_full": "Thom Tillis"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1960-08-30"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "class": 2,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.tillis.senate.gov",
+    "contact_form": "https://www.tillis.senate.gov/public/index.cfm/email-me",
+    "address": "113 Dirksen Senate Office Building Washington DC 20510",
+    "office": "113 Dirksen Senate Office Building",
+    "phone": "202-224-6342",
+    "fax": "202-228-2563"
+  }
 }

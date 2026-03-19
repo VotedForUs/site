@@ -1,13 +1,137 @@
 {
-  "id": "H001096",
-  "bioguide": "H001096",
-  "name": "Harriet M. Hageman",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1227 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2311",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001096",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 505,
+    "url": "https://api.congress.gov/v3/member/H001096/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001096.jpg"
+  },
+  "directOrderName": "Harriet M. Hageman",
+  "firstName": "Harriet",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Hageman, Harriet M.",
   "lastName": "Hageman",
-  "state": "WY",
-  "party": "Republican",
-  "district": 0,
-  "nameTitle": "Rep. Harriet M. Hageman (WY-0)",
-  "imageUrl": "https://www.congress.gov/img/member/h001096_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "middleName": "M.",
+  "officialWebsiteUrl": "https://hageman.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Harriet M. Hageman",
+      "endDate": "2024-02-27T13:21:00Z",
+      "firstName": "Harriet",
+      "invertedOrderName": "Hageman, Harriet M.",
+      "lastName": "Hageman",
+      "middleName": "M.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Harriet M. Hageman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Harriet",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Hageman, Harriet M.",
+      "lastName": "Hageman",
+      "middleName": "M.",
+      "startDate": "2024-02-27T13:21:01Z"
+    },
+    {
+      "directOrderName": "Harriet M. Hageman",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Harriet",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Hageman, Harriet M.",
+      "lastName": "Hageman",
+      "middleName": "M.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Harriet M. Hageman",
+      "firstName": "Harriet",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Hageman, Harriet M.",
+      "lastName": "Hageman",
+      "middleName": "M.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 124,
+    "url": "https://api.congress.gov/v3/member/H001096/sponsored-legislation"
+  },
+  "state": "Wyoming",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "H001096",
+    "fec": [
+      "H2WY00166"
+    ],
+    "govtrack": 456951,
+    "opensecrets": "N00049197",
+    "wikidata": "Q110815967",
+    "wikipedia": "Harriet Hageman",
+    "google_entity_id": "kg:/g/11f77yffzm",
+    "ballotpedia": "Harriet Hageman",
+    "votesmart": 182961,
+    "pictorial": 13332,
+    "twitter": "RepHageman",
+    "youtube": "@rephageman"
+  },
+  "name": {
+    "first": "Harriet",
+    "middle": "Maxine",
+    "last": "Hageman",
+    "official_full": "Harriet M. Hageman"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1962-10-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WY",
+    "district": 0,
+    "party": "Republican",
+    "url": "https://hageman.house.gov",
+    "address": "1227 Longworth House Office Building Washington DC 20515-5000",
+    "office": "1227 Longworth House Office Building",
+    "phone": "202-225-2311"
+  }
 }

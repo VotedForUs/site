@@ -1,13 +1,141 @@
 {
-  "id": "L000597",
-  "bioguide": "L000597",
-  "name": "Laurel M. Lee",
-  "lastName": "Lee",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2464 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5626",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000597",
+  "birthYear": "1974",
+  "cosponsoredLegislation": {
+    "count": 329,
+    "url": "https://api.congress.gov/v3/member/L000597/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000597.jpg"
+  },
+  "directOrderName": "Laurel M. Lee",
   "district": 15,
-  "nameTitle": "Rep. Laurel M. Lee (FL-15)",
-  "imageUrl": "https://www.congress.gov/img/member/l000597_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Laurel",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Lee, Laurel M.",
+  "lastName": "Lee",
+  "middleName": "M.",
+  "officialWebsiteUrl": "https://laurellee.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Laurel M. Lee",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Laurel",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lee, Laurel M.",
+      "lastName": "Lee",
+      "middleName": "M.",
+      "startDate": "2024-02-27T13:20:50Z"
+    },
+    {
+      "directOrderName": "Laurel M. Lee",
+      "endDate": "2024-02-27T13:20:49Z",
+      "firstName": "Laurel",
+      "invertedOrderName": "Lee, Laurel M.",
+      "lastName": "Lee",
+      "middleName": "M.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Laurel M. Lee",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Laurel",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lee, Laurel M.",
+      "lastName": "Lee",
+      "middleName": "M.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Laurel M. Lee",
+      "firstName": "Laurel",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lee, Laurel M.",
+      "lastName": "Lee",
+      "middleName": "M.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 42,
+    "url": "https://api.congress.gov/v3/member/L000597/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 15,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 15,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "L000597",
+    "fec": [
+      "H2FL15241"
+    ],
+    "govtrack": 456892,
+    "opensecrets": "N00051178",
+    "wikidata": "Q61483038",
+    "wikipedia": "Laurel Lee",
+    "google_entity_id": "kg:/g/11h3cbjvc3",
+    "votesmart": 186114,
+    "pictorial": 12996,
+    "twitter": "RepLaurelLee",
+    "twitter_id": 1608230657796227000,
+    "facebook": "RepLaurelLee",
+    "instagram": "replaurellee"
+  },
+  "name": {
+    "first": "Laurel",
+    "middle": "Frances",
+    "last": "Lee",
+    "official_full": "Laurel M. Lee"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1974-03-26"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 15,
+    "party": "Republican",
+    "url": "https://laurellee.house.gov",
+    "address": "2464 Rayburn House Office Building Washington DC 20515-0915",
+    "office": "2464 Rayburn House Office Building",
+    "phone": "202-225-5626"
+  }
 }

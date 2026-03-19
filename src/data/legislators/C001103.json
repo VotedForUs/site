@@ -1,13 +1,169 @@
 {
-  "id": "C001103",
-  "bioguide": "C001103",
-  "name": "Earl L. \"Buddy\" Carter",
-  "lastName": "Carter",
-  "state": "GA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2432 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5831",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001103",
+  "birthYear": "1957",
+  "cosponsoredLegislation": {
+    "count": 1850,
+    "url": "https://api.congress.gov/v3/member/C001103/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001103.jpg"
+  },
+  "directOrderName": "Earl L. \"Buddy\" Carter",
   "district": 1,
-  "nameTitle": "Rep. Earl L. \"Buddy\" Carter (GA-1)",
-  "imageUrl": "https://www.congress.gov/img/member/c001103_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Earl",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Carter, Earl L. \"Buddy\"",
+  "lastName": "Carter",
+  "middleName": "L. \"Buddy\"",
+  "officialWebsiteUrl": "https://buddycarter.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Earl L. \"Buddy\" Carter",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Earl",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carter, Earl L. \"Buddy\"",
+      "lastName": "Carter",
+      "middleName": "L. \"Buddy\"",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Earl L. \"Buddy\" Carter",
+      "firstName": "Earl",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carter, Earl L. \"Buddy\"",
+      "lastName": "Carter",
+      "middleName": "L. \"Buddy\"",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 208,
+    "url": "https://api.congress.gov/v3/member/C001103/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "C001103",
+    "fec": [
+      "H4GA01039"
+    ],
+    "govtrack": 412622,
+    "opensecrets": "N00035346",
+    "thomas": "02236",
+    "maplight": 2078,
+    "wikidata": "Q16240994",
+    "wikipedia": "Buddy Carter",
+    "google_entity_id": "kg:/m/0w32xj9",
+    "votesmart": 32085,
+    "cspan": 76158,
+    "icpsr": 21513,
+    "ballotpedia": "Earl \"Buddy\" Carter",
+    "pictorial": 13010,
+    "twitter": "RepBuddyCarter",
+    "facebook": "congressmanbuddycarter",
+    "twitter_id": 2973870195,
+    "youtube_id": "UCHQm49T6ikD_ioMAt50AwKQ",
+    "instagram": "repbuddycarter"
+  },
+  "name": {
+    "first": "Earl",
+    "middle": "L.",
+    "nickname": "Buddy",
+    "last": "Carter",
+    "official_full": "Earl L. \"Buddy\" Carter"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1957-09-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://buddycarter.house.gov",
+    "address": "2432 Rayburn House Office Building Washington DC 20515-1001",
+    "office": "2432 Rayburn House Office Building",
+    "phone": "202-225-5831"
+  }
 }

@@ -1,13 +1,140 @@
 {
-  "id": "K000397",
-  "bioguide": "K000397",
-  "name": "Young Kim",
-  "lastName": "Kim",
-  "state": "CA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2439 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4111",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000397",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 1019,
+    "url": "https://api.congress.gov/v3/member/K000397/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000397.jpg"
+  },
+  "directOrderName": "Young Kim",
   "district": 40,
-  "nameTitle": "Rep. Young Kim (CA-40)",
-  "imageUrl": "https://www.congress.gov/img/member/k000397_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Young",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Kim, Young",
+  "lastName": "Kim",
+  "officialWebsiteUrl": "https://youngkim.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Young Kim",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Young",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Kim, Young",
+      "lastName": "Kim",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Young Kim",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Young",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Kim, Young",
+      "lastName": "Kim",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Young Kim",
+      "firstName": "Young",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Kim, Young",
+      "lastName": "Kim",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 100,
+    "url": "https://api.congress.gov/v3/member/K000397/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 39,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 40,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 40,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "K000397",
+    "fec": [
+      "H8CA39240"
+    ],
+    "opensecrets": "N00042386",
+    "govtrack": 456802,
+    "wikidata": "Q19662859",
+    "wikipedia": "Young Kim",
+    "google_entity_id": "kg:/m/012c98r4",
+    "votesmart": 151787,
+    "pictorial": 12954,
+    "ballotpedia": "Young Kim (California)",
+    "twitter": "RepYoungKim",
+    "twitter_id": 1344677401465397200,
+    "facebook": "RepYoungKim",
+    "instagram": "repyoungkim",
+    "youtube": "@RepYoungKim"
+  },
+  "name": {
+    "first": "Young",
+    "middle": "Oak",
+    "last": "Kim",
+    "official_full": "Young Kim"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1962-10-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 40,
+    "party": "Republican",
+    "url": "https://youngkim.house.gov",
+    "address": "2439 Rayburn House Office Building Washington DC 20515-0540",
+    "office": "2439 Rayburn House Office Building",
+    "phone": "202-225-4111"
+  }
 }

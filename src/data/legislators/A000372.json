@@ -1,13 +1,179 @@
 {
-  "id": "A000372",
-  "bioguide": "A000372",
-  "name": "Rick W. Allen",
-  "lastName": "Allen",
-  "state": "GA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "462 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2823",
+    "zipCode": 20515
+  },
+  "bioguideId": "A000372",
+  "birthYear": "1951",
+  "cosponsoredLegislation": {
+    "count": 1360,
+    "url": "https://api.congress.gov/v3/member/A000372/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/A000372.jpg"
+  },
+  "directOrderName": "Rick W. Allen",
   "district": 12,
-  "nameTitle": "Rep. Rick W. Allen (GA-12)",
-  "imageUrl": "https://www.congress.gov/img/member/a000372_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Rick",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Allen, Rick W.",
+  "lastName": "Allen",
+  "middleName": "W.",
+  "officialWebsiteUrl": "https://allen.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Rick W. Allen",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Rick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Allen, Rick W.",
+      "lastName": "Allen",
+      "middleName": "W.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Rick W. Allen",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Rick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Allen, Rick W.",
+      "lastName": "Allen",
+      "middleName": "W.",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Rick W. Allen",
+      "firstName": "Rick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Allen, Rick W.",
+      "lastName": "Allen",
+      "middleName": "W.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 71,
+    "url": "https://api.congress.gov/v3/member/A000372/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 12,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 12,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 12,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 12,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 12,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 12,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "A000372",
+    "fec": [
+      "H2GA12121"
+    ],
+    "govtrack": 412625,
+    "opensecrets": "N00033720",
+    "thomas": "02239",
+    "maplight": 2081,
+    "wikidata": "Q18683976",
+    "wikipedia": "Rick Allen (politician)",
+    "google_entity_id": "kg:/m/0127y9dk",
+    "votesmart": 136062,
+    "cspan": 62545,
+    "icpsr": 21516,
+    "ballotpedia": "Rick Allen",
+    "pictorial": 13021,
+    "twitter": "RepRickAllen",
+    "instagram": "Rep_RickAllen",
+    "instagram_id": 1666787116,
+    "facebook": "CongressmanRickAllen",
+    "twitter_id": 2964287128,
+    "youtube_id": "UCZPoYXHFDAV17BGLMzGAmpg"
+  },
+  "name": {
+    "first": "Rick",
+    "middle": "W.",
+    "last": "Allen",
+    "official_full": "Rick W. Allen"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1951-11-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 12,
+    "party": "Republican",
+    "url": "https://allen.house.gov",
+    "address": "462 Cannon House Office Building Washington DC 20515-1012",
+    "office": "462 Cannon House Office Building",
+    "phone": "202-225-2823"
+  }
 }

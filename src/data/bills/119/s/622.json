@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/622/actions?format=json",
     "actions": [
       {
@@ -246,8 +246,7 @@
   "latestAction": {
     "actionDate": "2025-12-15",
     "actionTime": "16:18:43",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/622",
   "number": "622",
@@ -258,9 +257,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/622/summaries?format=json"
   },
   "title": "Leech Lake Reservation Restoration Amendments Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Leech Lake Reservation Restoration Amendments Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-16T12:03:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Leech Lake Reservation Restoration Amendments Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-12T06:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Leech Lake Reservation Restoration Amendments Act of 2025",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-16T02:53:12Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Leech Lake Reservation Restoration Amendments Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-04T15:23:22Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend the Leech Lake Band of Ojibwe Reservation Restoration Act to provide for the transfer of additional Federal land to the Leech Lake Band of Ojibwe, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-04T15:18:39Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-16T17:26:12Z",
-  "updateDateIncludingText": "2025-10-16T17:26:12Z",
+  "updateDate": "2026-02-04T05:06:21Z",
+  "updateDateIncludingText": "2026-02-04T05:06:21Z",
   "id": "119-S-622",
   "lastActionDate": "2025-12-15",
   "lastRecordedVoteDate": "2025-12-11"

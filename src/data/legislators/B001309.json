@@ -1,13 +1,138 @@
 {
-  "id": "B001309",
-  "bioguide": "B001309",
-  "name": "Tim Burchett",
-  "lastName": "Burchett",
-  "state": "TN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1122 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5435",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001309",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 758,
+    "url": "https://api.congress.gov/v3/member/B001309/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001309.jpg"
+  },
+  "directOrderName": "Tim Burchett",
   "district": 2,
-  "nameTitle": "Rep. Tim Burchett (TN-2)",
-  "imageUrl": "https://www.congress.gov/img/member/b001309_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Tim",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Burchett, Tim",
+  "lastName": "Burchett",
+  "officialWebsiteUrl": "https://burchett.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tim Burchett",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Tim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Burchett, Tim",
+      "lastName": "Burchett",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Tim Burchett",
+      "firstName": "Tim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Burchett, Tim",
+      "lastName": "Burchett",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 133,
+    "url": "https://api.congress.gov/v3/member/B001309/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "B001309",
+    "fec": [
+      "H8TN02119"
+    ],
+    "govtrack": 412817,
+    "opensecrets": "N00041594",
+    "wikipedia": "Tim Burchett",
+    "wikidata": "Q7803244",
+    "google_entity_id": "kg:/m/03yt07",
+    "votesmart": 24379,
+    "icpsr": 21905,
+    "ballotpedia": "Tim Burchett",
+    "pictorial": 13250,
+    "twitter": "RepTimBurchett",
+    "twitter_id": 1028854804087492600
+  },
+  "name": {
+    "first": "Tim",
+    "last": "Burchett",
+    "official_full": "Tim Burchett"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1964-08-25"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TN",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://burchett.house.gov",
+    "address": "1122 Longworth House Office Building Washington DC 20515-4202",
+    "office": "1122 Longworth House Office Building",
+    "phone": "202-225-5435"
+  }
 }

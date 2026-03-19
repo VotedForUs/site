@@ -1,13 +1,195 @@
 {
-  "id": "S001189",
-  "bioguide": "S001189",
-  "name": "Austin Scott",
-  "lastName": "Scott",
-  "state": "GA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2185 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6531",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001189",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 1611,
+    "url": "https://api.congress.gov/v3/member/S001189/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001189.jpg"
+  },
+  "directOrderName": "Austin Scott",
   "district": 8,
-  "nameTitle": "Rep. Austin Scott (GA-8)",
-  "imageUrl": "https://www.congress.gov/img/member/s001189_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Austin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Scott, Austin",
+  "lastName": "Scott",
+  "officialWebsiteUrl": "https://austinscott.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Austin Scott",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Austin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Scott, Austin",
+      "lastName": "Scott",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Austin Scott",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Austin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Scott, Austin",
+      "lastName": "Scott",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Austin Scott",
+      "firstName": "Austin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Scott, Austin",
+      "lastName": "Scott",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 80,
+    "url": "https://api.congress.gov/v3/member/S001189/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 8,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 8,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 8,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 8,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 8,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "S001189",
+    "thomas": "02009",
+    "govtrack": 412417,
+    "opensecrets": "N00032457",
+    "votesmart": 11812,
+    "fec": [
+      "H0GA08099"
+    ],
+    "cspan": 623344,
+    "wikipedia": "Austin Scott (politician)",
+    "ballotpedia": "Austin Scott",
+    "maplight": 1429,
+    "icpsr": 21123,
+    "house_history": 22631,
+    "wikidata": "Q781167",
+    "google_entity_id": "kg:/m/076zn3y",
+    "pictorial": 13017,
+    "twitter": "AustinScottGA08",
+    "facebook": "RepAustinScott",
+    "youtube": "RepAustinScott",
+    "youtube_id": "UC5M7eKHKQStktMyjieiHYZQ",
+    "twitter_id": 234797704
+  },
+  "name": {
+    "first": "Austin",
+    "last": "Scott",
+    "official_full": "Austin Scott"
+  },
+  "bio": {
+    "birthday": "1969-12-10",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 8,
+    "party": "Republican",
+    "url": "https://austinscott.house.gov",
+    "rss_url": "http://austinscott.house.gov/index.php?format=feed&amp;type=rss",
+    "address": "2185 Rayburn House Office Building Washington DC 20515-1008",
+    "office": "2185 Rayburn House Office Building",
+    "phone": "202-225-6531"
+  }
 }

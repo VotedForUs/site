@@ -1,13 +1,181 @@
 {
-  "id": "M001176",
-  "bioguide": "M001176",
-  "name": "Jeff Merkley",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "531 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-3753",
+    "zipCode": 20510
+  },
+  "bioguideId": "M001176",
+  "birthYear": "1956",
+  "cosponsoredLegislation": {
+    "count": 4825,
+    "url": "https://api.congress.gov/v3/member/M001176/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/M001176.jpg"
+  },
+  "directOrderName": "Jeff Merkley",
+  "firstName": "Jeff",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Merkley, Jeff",
   "lastName": "Merkley",
-  "state": "OR",
-  "party": "Democrat",
-  "nameTitle": "Sen. Jeff Merkley (OR)",
-  "imageUrl": "https://www.congress.gov/img/member/m001176_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.merkley.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jeff Merkley",
+      "firstName": "Jeff",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Merkley, Jeff",
+      "lastName": "Merkley",
+      "startDate": "2009-01-06T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 1201,
+    "url": "https://api.congress.gov/v3/member/M001176/sponsored-legislation"
+  },
+  "state": "Oregon",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:00Z",
+  "id": {
+    "bioguide": "M001176",
+    "thomas": "01900",
+    "lis": "S322",
+    "govtrack": 412325,
+    "opensecrets": "N00029303",
+    "votesmart": 23644,
+    "fec": [
+      "S8OR00207"
+    ],
+    "cspan": 1029842,
+    "wikipedia": "Jeff Merkley",
+    "ballotpedia": "Jeff Merkley",
+    "maplight": 807,
+    "icpsr": 40908,
+    "wikidata": "Q1368405",
+    "google_entity_id": "kg:/m/026k60f",
+    "pictorial": 13359,
+    "twitter": "SenJeffMerkley",
+    "facebook": "jeffmerkley",
+    "youtube": "SenatorJeffMerkley",
+    "youtube_id": "UCRoXttCJhMnLVCxCaa6VnNQ",
+    "instagram": "senjeffmerkley",
+    "instagram_id": 501463589,
+    "twitter_id": 29201047
+  },
+  "name": {
+    "first": "Jeff",
+    "last": "Merkley",
+    "official_full": "Jeff Merkley"
+  },
+  "bio": {
+    "birthday": "1956-10-24",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "OR",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.merkley.senate.gov",
+    "rss_url": "http://www.merkley.senate.gov/rss/",
+    "contact_form": "https://www.merkley.senate.gov/contact/",
+    "address": "531 Hart Senate Office Building Washington DC 20510",
+    "office": "531 Hart Senate Office Building",
+    "phone": "202-224-3753"
+  }
 }

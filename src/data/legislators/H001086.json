@@ -1,13 +1,128 @@
 {
-  "id": "H001086",
-  "bioguide": "H001086",
-  "name": "Diana Harshbarger",
-  "lastName": "Harshbarger",
-  "state": "TN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "167 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6356",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001086",
+  "birthYear": "1960",
+  "cosponsoredLegislation": {
+    "count": 815,
+    "url": "https://api.congress.gov/v3/member/H001086/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001086.jpg"
+  },
+  "directOrderName": "Diana Harshbarger",
   "district": 1,
-  "nameTitle": "Rep. Diana Harshbarger (TN-1)",
-  "imageUrl": "https://www.congress.gov/img/member/h001086_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Diana",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Harshbarger, Diana",
+  "lastName": "Harshbarger",
+  "officialWebsiteUrl": "https://harshbarger.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Diana Harshbarger",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Diana",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Harshbarger, Diana",
+      "lastName": "Harshbarger",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Diana Harshbarger",
+      "firstName": "Diana",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Harshbarger, Diana",
+      "lastName": "Harshbarger",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 69,
+    "url": "https://api.congress.gov/v3/member/H001086/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "H001086",
+    "fec": [
+      "H0TN01118"
+    ],
+    "opensecrets": "N00046688",
+    "govtrack": 456844,
+    "wikidata": "Q101197341",
+    "wikipedia": "Diana Harshbarger",
+    "google_entity_id": "kg:/g/11f67z977k",
+    "pictorial": 13249,
+    "votesmart": 190524,
+    "ballotpedia": "Diana Harshbarger",
+    "twitter": "RepHarshbarger",
+    "twitter_id": 1345787285179162600,
+    "facebook": "RepDianaHarshbarger"
+  },
+  "name": {
+    "first": "Diana",
+    "last": "Harshbarger",
+    "official_full": "Diana Harshbarger"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1960-01-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TN",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://harshbarger.house.gov",
+    "address": "167 Cannon House Office Building Washington DC 20515-4201",
+    "office": "167 Cannon House Office Building",
+    "phone": "202-225-6356"
+  }
 }

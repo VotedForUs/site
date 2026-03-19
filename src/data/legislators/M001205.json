@@ -1,13 +1,143 @@
 {
-  "id": "M001205",
-  "bioguide": "M001205",
-  "name": "Carol D. Miller",
-  "lastName": "Miller",
-  "state": "WV",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "465 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3452",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001205",
+  "birthYear": "1950",
+  "cosponsoredLegislation": {
+    "count": 918,
+    "url": "https://api.congress.gov/v3/member/M001205/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001205.jpg"
+  },
+  "directOrderName": "Carol D. Miller",
   "district": 1,
-  "nameTitle": "Rep. Carol D. Miller (WV-1)",
-  "imageUrl": "https://www.congress.gov/img/member/m001205_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Carol",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Miller, Carol D.",
+  "lastName": "Miller",
+  "middleName": "D.",
+  "officialWebsiteUrl": "https://miller.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Carol D. Miller",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Carol",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Miller, Carol D.",
+      "lastName": "Miller",
+      "middleName": "D.",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Carol D. Miller",
+      "firstName": "Carol",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Miller, Carol D.",
+      "lastName": "Miller",
+      "middleName": "D.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 95,
+    "url": "https://api.congress.gov/v3/member/M001205/sponsored-legislation"
+  },
+  "state": "West Virginia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "WV",
+      "stateName": "West Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "WV",
+      "stateName": "West Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WV",
+      "stateName": "West Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WV",
+      "stateName": "West Virginia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "M001205",
+    "fec": [
+      "H8WV03097"
+    ],
+    "govtrack": 412837,
+    "wikipedia": "Carol Miller (politician)",
+    "wikidata": "Q16145531",
+    "opensecrets": "N00041542",
+    "google_entity_id": "kg:/m/0102fnyn",
+    "votesmart": 52123,
+    "icpsr": 21946,
+    "ballotpedia": "Carol Miller (West Virginia)",
+    "pictorial": 13330,
+    "twitter": "RepCarolMiller",
+    "twitter_id": 1081318716573470700,
+    "facebook": "RepCarolMiller"
+  },
+  "name": {
+    "first": "Carol",
+    "middle": "D.",
+    "last": "Miller",
+    "official_full": "Carol D. Miller"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1950-11-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WV",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://miller.house.gov",
+    "address": "465 Cannon House Office Building Washington DC 20515-4801",
+    "office": "465 Cannon House Office Building",
+    "phone": "202-225-3452"
+  }
 }

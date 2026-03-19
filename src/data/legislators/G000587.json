@@ -1,13 +1,153 @@
 {
-  "id": "G000587",
-  "bioguide": "G000587",
-  "name": "Sylvia R. Garcia",
-  "lastName": "Garcia",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2419 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1688",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000587",
+  "birthYear": "1950",
+  "cosponsoredLegislation": {
+    "count": 1739,
+    "url": "https://api.congress.gov/v3/member/G000587/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000587.jpg"
+  },
+  "directOrderName": "Sylvia R. Garcia",
   "district": 29,
-  "nameTitle": "Rep. Sylvia R. Garcia (TX-29)",
-  "imageUrl": "https://www.congress.gov/img/member/g000587_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Sylvia",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Garcia, Sylvia R.",
+  "lastName": "Garcia",
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://sylviagarcia.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sylvia R. Garcia",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Sylvia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Garcia, Sylvia R.",
+      "lastName": "Garcia",
+      "middleName": "R.",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Sylvia R. Garcia",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Sylvia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Garcia, Sylvia R.",
+      "lastName": "Garcia",
+      "middleName": "R.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Sylvia R. Garcia",
+      "firstName": "Sylvia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Garcia, Sylvia R.",
+      "lastName": "Garcia",
+      "middleName": "R.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 81,
+    "url": "https://api.congress.gov/v3/member/G000587/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 29,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 29,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 29,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 29,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "G000587",
+    "fec": [
+      "H8TX29052"
+    ],
+    "govtrack": 412827,
+    "wikipedia": "Sylvia Garcia",
+    "wikidata": "Q13562489",
+    "opensecrets": "N00042282",
+    "google_entity_id": "kg:/m/0ryt4bt",
+    "votesmart": 49734,
+    "icpsr": 21922,
+    "ballotpedia": "Sylvia Garcia",
+    "pictorial": 13286,
+    "twitter": "RepSylviaGarcia",
+    "twitter_id": 1080587263132733400,
+    "facebook": "RepSylviaGarcia"
+  },
+  "name": {
+    "first": "Sylvia",
+    "middle": "R.",
+    "last": "Garcia",
+    "official_full": "Sylvia R. Garcia"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1950-09-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 29,
+    "party": "Democrat",
+    "url": "https://sylviagarcia.house.gov",
+    "address": "2419 Rayburn House Office Building Washington DC 20515-4329",
+    "office": "2419 Rayburn House Office Building",
+    "phone": "202-225-1688"
+  }
 }

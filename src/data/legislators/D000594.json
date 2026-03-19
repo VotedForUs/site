@@ -1,13 +1,119 @@
 {
-  "id": "D000594",
-  "bioguide": "D000594",
-  "name": "Monica De La Cruz",
-  "lastName": "De La Cruz",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1415 Longworth House Office Building",
+    "phoneNumber": "(202) 225-9901",
+    "zipCode": 20515
+  },
+  "bioguideId": "D000594",
+  "birthYear": "1974",
+  "cosponsoredLegislation": {
+    "count": 451,
+    "url": "https://api.congress.gov/v3/member/D000594/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/D000594.jpg"
+  },
+  "directOrderName": "Monica De La Cruz",
   "district": 15,
-  "nameTitle": "Rep. Monica De La Cruz (TX-15)",
-  "imageUrl": "https://www.congress.gov/img/member/66d9fd54f440bf1dc174fbf6_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Monica",
+  "honorificName": "Ms.",
+  "invertedOrderName": "De La Cruz, Monica",
+  "lastName": "De La Cruz",
+  "officialWebsiteUrl": "https://delacruz.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Monica De La Cruz",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Monica",
+      "honorificName": "Ms.",
+      "invertedOrderName": "De La Cruz, Monica",
+      "lastName": "De La Cruz",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Monica De La Cruz",
+      "firstName": "Monica",
+      "honorificName": "Ms.",
+      "invertedOrderName": "De La Cruz, Monica",
+      "lastName": "De La Cruz",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 58,
+    "url": "https://api.congress.gov/v3/member/D000594/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 15,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 15,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "D000594",
+    "fec": [
+      "H0TX15124"
+    ],
+    "govtrack": 456943,
+    "opensecrets": "N00045793",
+    "wikidata": "Q115496109",
+    "wikipedia": "Monica De La Cruz",
+    "votesmart": 188292,
+    "pictorial": 13272,
+    "ballotpedia": "Monica De La Cruz",
+    "google_entity_id": "kg:/g/11j2j0jd0z",
+    "twitter": "RepMonicaDLC",
+    "facebook": "RepMonicaDLC",
+    "instagram": "RepMonicaDLC",
+    "youtube": "@RepMonicaDLC"
+  },
+  "name": {
+    "first": "Mónica",
+    "last": "De La Cruz",
+    "official_full": "Monica De La Cruz"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1974-11-11"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 15,
+    "party": "Republican",
+    "url": "https://delacruz.house.gov",
+    "address": "1415 Longworth House Office Building Washington DC 20515-4315",
+    "office": "1415 Longworth House Office Building",
+    "phone": "202-225-9901"
+  }
 }

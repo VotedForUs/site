@@ -1,13 +1,153 @@
 {
-  "id": "S001200",
-  "bioguide": "S001200",
-  "name": "Darren Soto",
-  "lastName": "Soto",
-  "state": "FL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2353 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-9889",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001200",
+  "birthYear": "1978",
+  "cosponsoredLegislation": {
+    "count": 3519,
+    "url": "https://api.congress.gov/v3/member/S001200/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/S001200.jpg"
+  },
+  "directOrderName": "Darren Soto",
   "district": 9,
-  "nameTitle": "Rep. Darren Soto (FL-9)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_fl_9_soto_darren_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Darren",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Soto, Darren",
+  "lastName": "Soto",
+  "officialWebsiteUrl": "https://soto.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Darren Soto",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Darren",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Soto, Darren",
+      "lastName": "Soto",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Darren Soto",
+      "firstName": "Darren",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Soto, Darren",
+      "lastName": "Soto",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 151,
+    "url": "https://api.congress.gov/v3/member/S001200/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 9,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 9,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 9,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 9,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 9,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "S001200",
+    "govtrack": 412695,
+    "wikipedia": "Darren Soto",
+    "wikidata": "Q5225162",
+    "votesmart": 67618,
+    "fec": [
+      "H6FL09179"
+    ],
+    "opensecrets": "N00037422",
+    "maplight": 2207,
+    "google_entity_id": "kg:/m/05b_1xw",
+    "cspan": 104534,
+    "icpsr": 21746,
+    "ballotpedia": "Darren Soto",
+    "pictorial": 12990,
+    "twitter": "RepDarrenSoto",
+    "facebook": "CongressmanDarrenSoto",
+    "twitter_id": 818713465653051400,
+    "youtube": "repdarrensoto",
+    "instagram": "RepDarrenSoto"
+  },
+  "name": {
+    "first": "Darren",
+    "last": "Soto",
+    "official_full": "Darren Soto"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1978-02-25"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 9,
+    "party": "Democrat",
+    "url": "https://soto.house.gov",
+    "address": "2353 Rayburn House Office Building Washington DC 20515-0909",
+    "office": "2353 Rayburn House Office Building",
+    "phone": "202-225-9889"
+  }
 }

@@ -1,13 +1,224 @@
 {
-  "id": "J000288",
-  "bioguide": "J000288",
-  "name": "Henry C. \"Hank\" Johnson, Jr.",
-  "lastName": "Johnson",
-  "state": "GA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2240 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1605",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000288",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 5903,
+    "url": "https://api.congress.gov/v3/member/J000288/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000288.jpg"
+  },
+  "directOrderName": "Henry C. \"Hank\" Johnson, Jr.",
   "district": 4,
-  "nameTitle": "Rep. Henry C. \"Hank\" Johnson, Jr. (GA-4)",
-  "imageUrl": "https://www.congress.gov/img/member/j000288_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Henry",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Johnson, Henry C. \"Hank\"",
+  "lastName": "Johnson",
+  "middleName": "C. \"Hank\"",
+  "officialWebsiteUrl": "https://hankjohnson.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Henry C. \"Hank\" Johnson, Jr.",
+      "endDate": "2024-02-27T13:20:49Z",
+      "firstName": "Henry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Henry C. \"Hank,\" Jr.",
+      "lastName": "Johnson",
+      "middleName": "C. \"Hank\"",
+      "startDate": "2007-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Henry C. \"Hank\" Johnson, Jr.",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Henry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Henry C. \"Hank\"",
+      "lastName": "Johnson",
+      "middleName": "C. \"Hank\"",
+      "startDate": "2024-02-27T13:20:50Z"
+    },
+    {
+      "directOrderName": "Henry C. \"Hank\" Johnson, Jr.",
+      "firstName": "Henry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Henry C. \"Hank\"",
+      "lastName": "Johnson",
+      "middleName": "C. \"Hank\"",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 255,
+    "url": "https://api.congress.gov/v3/member/J000288/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "suffixName": "Jr.",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 4,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 4,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 4,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "J000288",
+    "thomas": "01843",
+    "govtrack": 412199,
+    "opensecrets": "N00027848",
+    "votesmart": 68070,
+    "fec": [
+      "H6GA04129"
+    ],
+    "cspan": 1020576,
+    "wikipedia": "Hank Johnson",
+    "house_history": 16065,
+    "ballotpedia": "Henry C. Johnson, Jr.",
+    "maplight": 686,
+    "icpsr": 20712,
+    "wikidata": "Q983537",
+    "google_entity_id": "kg:/m/0flgyy",
+    "pictorial": 13013,
+    "twitter": "RepHankJohnson",
+    "facebook": "115356957005",
+    "youtube": "RepHankJohnson",
+    "youtube_id": "UCqMici9I7nz_i-PN7eSYjwQ",
+    "twitter_id": 24745957,
+    "instagram": "rephankjohnson"
+  },
+  "name": {
+    "first": "Henry",
+    "middle": "C.",
+    "last": "Johnson",
+    "suffix": "Jr.",
+    "nickname": "Hank",
+    "official_full": "Henry C. \"Hank\" Johnson, Jr."
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1954-10-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://hankjohnson.house.gov",
+    "rss_url": "http://hankjohnson.house.gov/rss.xml",
+    "address": "2240 Rayburn House Office Building Washington DC 20515-1004",
+    "office": "2240 Rayburn House Office Building",
+    "phone": "202-225-1605"
+  }
 }

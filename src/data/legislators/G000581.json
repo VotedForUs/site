@@ -1,13 +1,162 @@
 {
-  "id": "G000581",
-  "bioguide": "G000581",
-  "name": "Vicente Gonzalez",
-  "lastName": "Gonzalez",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1201 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2531",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000581",
+  "birthYear": "1967",
+  "cosponsoredLegislation": {
+    "count": 1564,
+    "url": "https://api.congress.gov/v3/member/G000581/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/G000581.jpg"
+  },
+  "directOrderName": "Vicente Gonzalez",
   "district": 34,
-  "nameTitle": "Rep. Vicente Gonzalez (TX-34)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_tx_15_gonzalez_vicente_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Vicente",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Gonzalez, Vicente",
+  "lastName": "Gonzalez",
+  "officialWebsiteUrl": "https://gonzalez.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Vicente Gonzalez",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Vicente",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gonzalez, Vicente",
+      "lastName": "Gonzalez",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Vicente Gonzalez",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Vicente",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gonzalez, Vicente",
+      "lastName": "Gonzalez",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Vicente Gonzalez",
+      "firstName": "Vicente",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gonzalez, Vicente",
+      "lastName": "Gonzalez",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 50,
+    "url": "https://api.congress.gov/v3/member/G000581/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 15,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 15,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 15,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 34,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 34,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "G000581",
+    "govtrack": 412725,
+    "wikipedia": "Vicente Gonzalez (politician)",
+    "wikidata": "Q27924921",
+    "votesmart": 166483,
+    "fec": [
+      "H6TX15162"
+    ],
+    "opensecrets": "N00038809",
+    "maplight": 2237,
+    "google_entity_id": "kg:/g/11c266m1z7",
+    "cspan": 103568,
+    "icpsr": 21722,
+    "ballotpedia": "Vicente Gonzalez Jr.",
+    "pictorial": 13291,
+    "facebook": "USCongressmanVicenteGonzalez",
+    "twitter": "RepGonzalez",
+    "twitter_id": 818536152588238800,
+    "instagram": "repvicentegonzaleztx",
+    "youtube_id": "UC5H6oYLKQ_xIXO5CG7fh4hw"
+  },
+  "name": {
+    "first": "Vicente",
+    "last": "Gonzalez",
+    "official_full": "Vicente Gonzalez"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1967-09-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 34,
+    "party": "Democrat",
+    "url": "https://gonzalez.house.gov",
+    "address": "1201 Longworth House Office Building Washington DC 20515-4334",
+    "office": "1201 Longworth House Office Building",
+    "phone": "202-225-2531"
+  }
 }

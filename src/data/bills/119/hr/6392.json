@@ -1,8 +1,24 @@
 {
   "actions": {
-    "count": 15,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/6392/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 358.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-03-09",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H8D000",
         "actionDate": "2026-03-05",
@@ -625,9 +641,8 @@
   "congress": 119,
   "introducedDate": "2025-12-03",
   "latestAction": {
-    "actionDate": "2026-03-05",
-    "actionTime": "16:51:21",
-    "text": "Mr. Walberg asked unanimous consent that the Clerk be directed to make the correction to the engrossment of H.R. 6392 that has been placed at the desk. Agreed to without objection."
+    "actionDate": "2026-03-17",
+    "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 358."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6392",
   "number": "6392",
@@ -641,14 +656,14 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Higher Education Act of 1965 to recognize students who have completed secondary school education in a home school setting as high school graduates, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-03-06T06:23:23Z"
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Home School Graduation Recognition Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-03-19T03:23:25Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -658,6 +673,16 @@
         "title": "Home School Graduation Recognition Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
+        "updateDate": "2026-03-06T06:23:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Higher Education Act of 1965 to recognize students who have completed secondary school education in a home school setting as high school graduates, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-06T06:23:23Z"
       },
       {
@@ -671,17 +696,17 @@
         "updateDate": "2026-02-12T04:08:23Z"
       },
       {
-        "title": "Home School Graduation Recognition Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-06T04:23:20Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Home School Graduation Recognition Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
+        "updateDate": "2025-12-06T04:23:20Z"
+      },
+      {
+        "title": "Home School Graduation Recognition Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
         "updateDate": "2025-12-06T04:23:20Z"
       },
       {
@@ -695,9 +720,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-06T09:07:00Z",
-  "updateDateIncludingText": "2026-03-06T09:07:00Z",
+  "updateDate": "2026-03-19T03:23:25Z",
+  "updateDateIncludingText": "2026-03-19T03:23:25Z",
   "id": "119-HR-6392",
-  "lastActionDate": "2026-03-05",
+  "lastActionDate": "2026-03-17",
   "lastRecordedVoteDate": "2026-03-03"
 }

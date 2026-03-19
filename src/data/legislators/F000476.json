@@ -1,13 +1,127 @@
 {
-  "id": "F000476",
-  "bioguide": "F000476",
-  "name": "Maxwell Frost",
-  "lastName": "Frost",
-  "state": "FL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1224 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2176",
+    "zipCode": 20515
+  },
+  "bioguideId": "F000476",
+  "birthYear": "1997",
+  "cosponsoredLegislation": {
+    "count": 875,
+    "url": "https://api.congress.gov/v3/member/F000476/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/F000476.jpg"
+  },
+  "directOrderName": "Maxwell Frost",
   "district": 10,
-  "nameTitle": "Rep. Maxwell Frost (FL-10)",
-  "imageUrl": "https://www.congress.gov/img/member/f000476_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Maxwell",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Frost, Maxwell",
+  "lastName": "Frost",
+  "officialWebsiteUrl": "https://frost.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Maxwell Frost",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Maxwell",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Frost, Maxwell",
+      "lastName": "Frost",
+      "startDate": "2024-02-27T13:20:50Z"
+    },
+    {
+      "directOrderName": "Maxwell Frost",
+      "endDate": "2024-02-27T13:20:49Z",
+      "firstName": "Maxwell",
+      "invertedOrderName": "Frost, Maxwell",
+      "lastName": "Frost",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Maxwell Frost",
+      "firstName": "Maxwell",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Frost, Maxwell",
+      "lastName": "Frost",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 39,
+    "url": "https://api.congress.gov/v3/member/F000476/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 10,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 10,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2026-03-03T17:54:08Z",
+  "id": {
+    "bioguide": "F000476",
+    "fec": [
+      "H2FL10259"
+    ],
+    "govtrack": 456890,
+    "opensecrets": "N00049075",
+    "wikidata": "Q113587724",
+    "wikipedia": "Maxwell Frost",
+    "google_entity_id": "kg:/g/11p01k7h4b",
+    "votesmart": 209096,
+    "pictorial": 12991,
+    "twitter": "RepMaxwellFrost",
+    "twitter_id": 1608494113174823000,
+    "facebook": "RepMaxwellFrost",
+    "instagram": "RepMaxwellFrost"
+  },
+  "name": {
+    "first": "Maxwell",
+    "middle": "Alejandro",
+    "last": "Frost",
+    "official_full": "Maxwell Frost"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1997-01-17"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 10,
+    "party": "Democrat",
+    "url": "https://frost.house.gov",
+    "address": "1224 Longworth House Office Building Washington DC 20515-0910",
+    "office": "1224 Longworth House Office Building",
+    "phone": "202-225-2176"
+  }
 }

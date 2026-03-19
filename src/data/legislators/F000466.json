@@ -1,13 +1,157 @@
 {
-  "id": "F000466",
-  "bioguide": "F000466",
-  "name": "Brian K. Fitzpatrick",
-  "lastName": "Fitzpatrick",
-  "state": "PA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "271 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4276",
+    "zipCode": 20515
+  },
+  "bioguideId": "F000466",
+  "birthYear": "1973",
+  "cosponsoredLegislation": {
+    "count": 5441,
+    "url": "https://api.congress.gov/v3/member/F000466/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/F000466.jpg"
+  },
+  "directOrderName": "Brian K. Fitzpatrick",
   "district": 1,
-  "nameTitle": "Rep. Brian K. Fitzpatrick (PA-1)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_pa_1_fitzpatrick_brian_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Brian",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Fitzpatrick, Brian K.",
+  "lastName": "Fitzpatrick",
+  "middleName": "K.",
+  "officialWebsiteUrl": "https://fitzpatrick.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brian K. Fitzpatrick",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fitzpatrick, Brian K.",
+      "lastName": "Fitzpatrick",
+      "middleName": "K.",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Brian K. Fitzpatrick",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fitzpatrick, Brian K.",
+      "lastName": "Fitzpatrick",
+      "middleName": "K.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 239,
+    "url": "https://api.congress.gov/v3/member/F000466/sponsored-legislation"
+  },
+  "state": "Pennsylvania",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 8,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "F000466",
+    "govtrack": 412721,
+    "wikipedia": "Brian Fitzpatrick (American politician)",
+    "wikidata": "Q27831059",
+    "votesmart": 167708,
+    "fec": [
+      "H6PA08277"
+    ],
+    "opensecrets": "N00038779",
+    "maplight": 2233,
+    "google_entity_id": "kg:/g/11c2l6lhlm",
+    "cspan": 103537,
+    "icpsr": 21718,
+    "ballotpedia": "Brian Fitzpatrick",
+    "pictorial": 13221,
+    "facebook": "repbrianfitzpatrick",
+    "twitter": "RepBrianFitz",
+    "twitter_id": 816303263586914300,
+    "instagram": "repbrianfitz",
+    "youtube_id": "UCYMNcgHss4_Q5JY2vSvMpgw"
+  },
+  "name": {
+    "first": "Brian",
+    "middle": "K.",
+    "last": "Fitzpatrick",
+    "official_full": "Brian K. Fitzpatrick"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1973-12-17"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PA",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://fitzpatrick.house.gov",
+    "address": "271 Cannon House Office Building Washington DC 20515-3801",
+    "office": "271 Cannon House Office Building",
+    "phone": "202-225-4276"
+  }
 }

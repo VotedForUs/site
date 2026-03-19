@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 6,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/2074/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-03-16",
+        "actionTime": "15:06:10",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-03-16",
+        "actionTime": "15:00:33",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-05",
         "sourceSystem": {
@@ -191,8 +221,9 @@
   "congress": 119,
   "introducedDate": "2025-06-12",
   "latestAction": {
-    "actionDate": "2026-03-05",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S877-878; text: CR S877-878)"
+    "actionDate": "2026-03-16",
+    "actionTime": "15:06:10",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2074",
   "number": "2074",
@@ -205,7 +236,7 @@
         "title": "Servicemembers’ Credit Monitoring Enhancement Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-03-06T11:58:22Z"
+        "updateDate": "2026-03-17T11:03:20Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -236,9 +267,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-06T20:52:28Z",
-  "updateDateIncludingText": "2026-03-06T20:52:28Z",
+  "updateDate": "2026-03-17T11:29:12Z",
+  "updateDateIncludingText": "2026-03-17T11:29:12Z",
   "id": "119-S-2074",
-  "lastActionDate": "2026-03-05",
+  "lastActionDate": "2026-03-16",
   "lastRecordedVoteDate": "2026-03-05"
 }

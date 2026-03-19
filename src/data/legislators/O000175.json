@@ -1,13 +1,127 @@
 {
-  "id": "O000175",
-  "bioguide": "O000175",
-  "name": "Andrew Ogles",
-  "lastName": "Ogles",
-  "state": "TN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "151 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4311",
+    "zipCode": 20515
+  },
+  "bioguideId": "O000175",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 656,
+    "url": "https://api.congress.gov/v3/member/O000175/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/O000175.jpg"
+  },
+  "directOrderName": "Andrew Ogles",
   "district": 5,
-  "nameTitle": "Rep. Andrew Ogles (TN-5)",
-  "imageUrl": "https://www.congress.gov/img/member/o000175_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Andrew",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Ogles, Andrew",
+  "lastName": "Ogles",
+  "officialWebsiteUrl": "https://ogles.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Andrew Ogles",
+      "endDate": "2024-02-27T13:20:57Z",
+      "firstName": "Andrew",
+      "invertedOrderName": "Ogles, Andrew",
+      "lastName": "Ogles",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Andrew Ogles",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Andrew",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Ogles, Andrew",
+      "lastName": "Ogles",
+      "startDate": "2024-02-27T13:20:58Z"
+    },
+    {
+      "directOrderName": "Andrew Ogles",
+      "firstName": "Andrew",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Ogles, Andrew",
+      "lastName": "Ogles",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 198,
+    "url": "https://api.congress.gov/v3/member/O000175/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "O000175",
+    "fec": [
+      "H2TN05446"
+    ],
+    "govtrack": 456939,
+    "opensecrets": "N00050943",
+    "wikidata": "Q111623114",
+    "wikipedia": "Andy Ogles",
+    "votesmart": 48673,
+    "ballotpedia": "Andy Ogles",
+    "pictorial": 13253,
+    "google_entity_id": "kg:/g/11sw_sm6s3",
+    "twitter": "repogles",
+    "facebook": "RepAndyOgles",
+    "instagram": "repandyogles"
+  },
+  "name": {
+    "first": "Andrew",
+    "last": "Ogles",
+    "suffix": "IV",
+    "official_full": "Andrew Ogles"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1971-06-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TN",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://ogles.house.gov",
+    "address": "151 Cannon House Office Building Washington DC 20515-4205",
+    "office": "151 Cannon House Office Building",
+    "phone": "202-225-4311"
+  }
 }

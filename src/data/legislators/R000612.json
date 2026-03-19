@@ -1,13 +1,153 @@
 {
-  "id": "R000612",
-  "bioguide": "R000612",
-  "name": "John W. Rose",
-  "lastName": "Rose",
-  "state": "TN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2238 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4231",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000612",
+  "birthYear": "1965",
+  "cosponsoredLegislation": {
+    "count": 734,
+    "url": "https://api.congress.gov/v3/member/R000612/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000612.jpg"
+  },
+  "directOrderName": "John W. Rose",
   "district": 6,
-  "nameTitle": "Rep. John W. Rose (TN-6)",
-  "imageUrl": "https://www.congress.gov/img/member/r000612_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Rose, John W.",
+  "lastName": "Rose",
+  "middleName": "W.",
+  "officialWebsiteUrl": "https://johnrose.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John W. Rose",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rose, John W.",
+      "lastName": "Rose",
+      "middleName": "W.",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "John W. Rose",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rose, John W.",
+      "lastName": "Rose",
+      "middleName": "W.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "John W. Rose",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rose, John W.",
+      "lastName": "Rose",
+      "middleName": "W.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 43,
+    "url": "https://api.congress.gov/v3/member/R000612/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "R000612",
+    "fec": [
+      "H8TN06094"
+    ],
+    "govtrack": 412818,
+    "wikipedia": "John Rose (Tennessee politician)",
+    "wikidata": "Q33044040",
+    "opensecrets": "N00041599",
+    "votesmart": 180452,
+    "icpsr": 21959,
+    "ballotpedia": "John Rose (Tennessee)",
+    "google_entity_id": "kg:/g/11g8xhg1mz",
+    "pictorial": 13254,
+    "twitter": "RepJohnRose",
+    "twitter_id": 1081312310059253800,
+    "facebook": "repjohnrose"
+  },
+  "name": {
+    "first": "John",
+    "middle": "W.",
+    "last": "Rose",
+    "official_full": "John W. Rose"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1965-02-23"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TN",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://johnrose.house.gov",
+    "address": "2238 Rayburn House Office Building Washington DC 20515-4206",
+    "office": "2238 Rayburn House Office Building",
+    "phone": "202-225-4231"
+  }
 }

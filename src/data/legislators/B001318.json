@@ -1,13 +1,127 @@
 {
-  "id": "B001318",
-  "bioguide": "B001318",
-  "name": "Becca Balint",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1510 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4115",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001318",
+  "birthYear": "1968",
+  "cosponsoredLegislation": {
+    "count": 747,
+    "url": "https://api.congress.gov/v3/member/B001318/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001318.jpg"
+  },
+  "directOrderName": "Becca Balint",
+  "firstName": "Becca",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Balint, Becca",
   "lastName": "Balint",
-  "state": "VT",
-  "party": "Democrat",
-  "district": 0,
-  "nameTitle": "Rep. Becca Balint (VT-0)",
-  "imageUrl": "https://www.congress.gov/img/member/b001318_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "officialWebsiteUrl": "https://balint.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Becca Balint",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Becca",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Balint, Becca",
+      "lastName": "Balint",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Becca Balint",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Becca",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Balint, Becca",
+      "lastName": "Balint",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Becca Balint",
+      "firstName": "Becca",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Balint, Becca",
+      "lastName": "Balint",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 40,
+    "url": "https://api.congress.gov/v3/member/B001318/sponsored-legislation"
+  },
+  "state": "Vermont",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "B001318",
+    "fec": [
+      "H2VT01076"
+    ],
+    "govtrack": 456948,
+    "opensecrets": "N00049900",
+    "wikidata": "Q28137193",
+    "wikipedia": "Becca Balint",
+    "google_entity_id": "kg:/g/11c1pdt17l",
+    "votesmart": 154056,
+    "pictorial": 13311,
+    "ballotpedia": "Becca Balint",
+    "twitter": "RepBeccaB",
+    "twitter_id": 1606115178210365400,
+    "facebook": "repbeccab",
+    "instagram": "repbeccab",
+    "youtube": "YouTubeChannelID"
+  },
+  "name": {
+    "first": "Becca",
+    "middle": "A.",
+    "last": "Balint",
+    "official_full": "Becca Balint"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1968-05-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "VT",
+    "district": 0,
+    "party": "Democrat",
+    "url": "https://balint.house.gov",
+    "address": "1510 Longworth House Office Building Washington DC 20515-4500",
+    "office": "1510 Longworth House Office Building",
+    "phone": "202-225-4115"
+  }
 }

@@ -1,13 +1,165 @@
 {
-  "id": "L000578",
-  "bioguide": "L000578",
-  "name": "Doug LaMalfa",
-  "lastName": "LaMalfa",
-  "state": "CA",
-  "party": "Republican",
+  "bioguideId": "L000578",
+  "birthYear": "1960",
+  "cosponsoredLegislation": {
+    "count": 2468,
+    "url": "https://api.congress.gov/v3/member/L000578/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "deathYear": "2026",
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000578.jpg"
+  },
+  "directOrderName": "Doug LaMalfa",
   "district": 1,
-  "nameTitle": "Rep. Doug LaMalfa (CA-1)",
-  "imageUrl": "https://www.congress.gov/img/member/l000578_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Doug",
+  "honorificName": "Mr.",
+  "invertedOrderName": "LaMalfa, Doug",
+  "lastName": "LaMalfa",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Doug LaMalfa",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Doug",
+      "honorificName": "Mr.",
+      "invertedOrderName": "LaMalfa, Doug",
+      "lastName": "LaMalfa",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Doug LaMalfa",
+      "firstName": "Doug",
+      "honorificName": "Mr.",
+      "invertedOrderName": "LaMalfa, Doug",
+      "lastName": "LaMalfa",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 131,
+    "url": "https://api.congress.gov/v3/member/L000578/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 1,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "endYear": 2026,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2026-01-06T15:36:36Z",
+  "id": {
+    "govtrack": 412510,
+    "bioguide": "L000578",
+    "thomas": "02100",
+    "cspan": 68493,
+    "votesmart": 29713,
+    "wikipedia": "Doug LaMalfa",
+    "fec": [
+      "H2CA02142",
+      "H2CA01144"
+    ],
+    "opensecrets": "N00033987",
+    "ballotpedia": "Doug LaMalfa",
+    "maplight": 1734,
+    "icpsr": 21302,
+    "wikidata": "Q1703840",
+    "google_entity_id": "kg:/m/0288tnx",
+    "pictorial": 12915
+  },
+  "name": {
+    "first": "Doug",
+    "last": "LaMalfa",
+    "official_full": "Doug LaMalfa"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1960-07-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2026-01-05",
+    "state": "CA",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://lamalfa.house.gov",
+    "rss_url": "http://lamalfa.house.gov/rss.xml",
+    "address": "408 Cannon House Office Building Washington DC 20515-0501",
+    "office": "408 Cannon House Office Building",
+    "phone": "202-225-3076"
+  }
 }

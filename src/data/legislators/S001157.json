@@ -1,13 +1,227 @@
 {
-  "id": "S001157",
-  "bioguide": "S001157",
-  "name": "David Scott",
-  "lastName": "Scott",
-  "state": "GA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "468 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2939",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001157",
+  "birthYear": "1945",
+  "cosponsoredLegislation": {
+    "count": 3538,
+    "url": "https://api.congress.gov/v3/member/S001157/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/S001157.jpg"
+  },
+  "directOrderName": "David Scott",
   "district": 13,
-  "nameTitle": "Rep. David Scott (GA-13)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_ga_13_scott_david_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "David",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Scott, David",
+  "lastName": "Scott",
+  "officialWebsiteUrl": "https://davidscott.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2003
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "David Scott",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Scott, David",
+      "lastName": "Scott",
+      "startDate": "2003-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "David Scott",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Scott, David",
+      "lastName": "Scott",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 115,
+    "url": "https://api.congress.gov/v3/member/S001157/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 13,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 13,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 13,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 13,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 13,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 13,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 13,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 13,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 13,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 13,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 13,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 13,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "S001157",
+    "thomas": "01722",
+    "govtrack": 400363,
+    "opensecrets": "N00024871",
+    "votesmart": 7826,
+    "fec": [
+      "H2GA13012"
+    ],
+    "cspan": 1003567,
+    "wikipedia": "David Scott (Georgia politician)",
+    "ballotpedia": "David Scott (Georgia)",
+    "maplight": 454,
+    "icpsr": 20321,
+    "house_history": 22574,
+    "wikidata": "Q132071",
+    "google_entity_id": "kg:/m/0255r4",
+    "pictorial": 13022,
+    "twitter": "RepDavidScott",
+    "facebook": "113303673339",
+    "youtube": "RepDavidScott",
+    "youtube_id": "UCgf28zRkLSqAUiPuJhGdF0w",
+    "twitter_id": 168673083,
+    "instagram": "RepDavidScott"
+  },
+  "name": {
+    "first": "David",
+    "last": "Scott",
+    "official_full": "David Scott"
+  },
+  "bio": {
+    "birthday": "1945-06-27",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 13,
+    "party": "Democrat",
+    "url": "https://davidscott.house.gov",
+    "rss_url": "http://davidscott.house.gov/news/rss.aspx",
+    "address": "468 Cannon House Office Building Washington DC 20515-1013",
+    "office": "468 Cannon House Office Building",
+    "phone": "202-225-2939"
+  }
 }

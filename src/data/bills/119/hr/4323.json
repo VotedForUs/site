@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 8,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/hr/4323/actions?format=json",
     "actions": [
       {
@@ -844,9 +844,14 @@
   "introducedDate": "2025-07-10",
   "latestAction": {
     "actionDate": "2026-01-23",
-    "text": "Became Public Law No: 119-73.",
-    "actionCode": "E40000"
+    "text": "Became Public Law No: 119-73."
   },
+  "laws": [
+    {
+      "number": "119-73",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4323",
   "number": "4323",
   "originChamber": "House",
@@ -856,9 +861,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/4323/summaries?format=json"
   },
   "title": "Trafficking Survivors Relief Act",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Trafficking Survivors Relief Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2025-12-20T06:23:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for the vacating of certain convictions and expungement of certain arrests of victims of human trafficking.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2025-12-03T04:38:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Trafficking Survivors Relief Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-12-03T04:38:19Z"
+      },
+      {
+        "title": "Trafficking Survivors Relief Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-10-18T03:23:14Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Trafficking Survivors Relief Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-10-18T03:23:13Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Trafficking Survivors Relief Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-07-24T02:08:22Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To provide for the vacating of certain convictions and expungement of certain arrests of victims of human trafficking.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-07-24T02:03:49Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-29T01:54:12Z",
-  "updateDateIncludingText": "2025-10-29T01:54:12Z",
+  "updateDate": "2026-02-04T05:06:14Z",
+  "updateDateIncludingText": "2026-02-04T05:06:14Z",
   "id": "119-HR-4323",
   "lastActionDate": "2026-01-23",
   "lastRecordedVoteDate": "2025-12-18"

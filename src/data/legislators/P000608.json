@@ -1,13 +1,189 @@
 {
-  "id": "P000608",
-  "bioguide": "P000608",
-  "name": "Scott H. Peters",
-  "lastName": "Peters",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2369 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-0508",
+    "zipCode": 20515
+  },
+  "bioguideId": "P000608",
+  "birthYear": "1958",
+  "cosponsoredLegislation": {
+    "count": 3411,
+    "url": "https://api.congress.gov/v3/member/P000608/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/P000608.jpg"
+  },
+  "directOrderName": "Scott H. Peters",
   "district": 50,
-  "nameTitle": "Rep. Scott H. Peters (CA-50)",
-  "imageUrl": "https://www.congress.gov/img/member/p000608_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Scott",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Peters, Scott H.",
+  "lastName": "Peters",
+  "middleName": "H.",
+  "officialWebsiteUrl": "https://scottpeters.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Scott H. Peters",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Scott",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Peters, Scott H.",
+      "lastName": "Peters",
+      "middleName": "H.",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Scott H. Peters",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Scott",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Peters, Scott H.",
+      "lastName": "Peters",
+      "middleName": "H.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Scott H. Peters",
+      "firstName": "Scott",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Peters, Scott H.",
+      "lastName": "Peters",
+      "middleName": "H.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 234,
+    "url": "https://api.congress.gov/v3/member/P000608/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 52,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 52,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 52,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 52,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 52,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 50,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 50,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "govtrack": 412523,
+    "bioguide": "P000608",
+    "thomas": "02113",
+    "cspan": 79661,
+    "votesmart": 70351,
+    "wikipedia": "Scott Peters (politician)",
+    "fec": [
+      "H2CA52089"
+    ],
+    "opensecrets": "N00033591",
+    "ballotpedia": "Scott Peters",
+    "maplight": 1747,
+    "icpsr": 21315,
+    "wikidata": "Q3791514",
+    "google_entity_id": "kg:/m/02rymxd",
+    "pictorial": 12964,
+    "twitter": "RepScottPeters",
+    "facebook": "RepScottPeters",
+    "youtube_id": "UCQK77QJxW7Xr-S3zqeMd-0g",
+    "twitter_id": 1135486501,
+    "instagram": "repscottpeters"
+  },
+  "name": {
+    "first": "Scott",
+    "last": "Peters",
+    "middle": "H.",
+    "official_full": "Scott H. Peters"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1958-06-17"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 50,
+    "party": "Democrat",
+    "url": "https://scottpeters.house.gov",
+    "rss_url": "http://scottpeters.house.gov/rss.xml",
+    "address": "2369 Rayburn House Office Building Washington DC 20515-0550",
+    "office": "2369 Rayburn House Office Building",
+    "phone": "202-225-0508"
+  }
 }

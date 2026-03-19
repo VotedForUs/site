@@ -4,6 +4,66 @@
     "url": "https://api.congress.gov/v3/bill/119/hjres/104/actions?format=json",
     "actions": [
       {
+        "actionCode": "E40000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-48.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-48.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2025-12-01",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2025-12-01",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
+      {
         "actionDate": "2025-10-08",
         "sourceSystem": {
           "name": "Senate"
@@ -169,7 +229,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S6995-7003)",
         "type": "Floor"
       },
       {
@@ -842,7 +902,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 211 - 208 (Roll no. 224). (text: CR H3782: 1)",
+        "text": "On passage Passed by the Yeas and Nays: 211 - 208 (Roll no. 224). (text: CR H3782)",
         "type": "Floor"
       },
       {
@@ -853,7 +913,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3819: 1)",
+        "text": "Considered as unfinished business. (consideration: CR H3819)",
         "type": "Floor"
       },
       {
@@ -984,6 +1044,6 @@
   "updateDate": "2026-02-05T01:06:13Z",
   "updateDateIncludingText": "2026-02-05T01:06:13Z",
   "id": "119-HJRES-104",
-  "lastActionDate": "2025-10-08",
+  "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-10-08T16:11:22Z"
 }

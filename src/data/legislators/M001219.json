@@ -1,13 +1,137 @@
 {
-  "id": "M001219",
-  "bioguide": "M001219",
-  "name": "James C. Moylan",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "228 Cannon House Office Building",
+    "phoneNumber": "(202) 225-1188",
+    "zipCode": 20510
+  },
+  "bioguideId": "M001219",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 560,
+    "url": "https://api.congress.gov/v3/member/M001219/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001219.jpg"
+  },
+  "directOrderName": "James C. Moylan",
+  "firstName": "James",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Moylan, James C.",
   "lastName": "Moylan",
-  "state": "GU",
-  "party": "Republican",
-  "district": 0,
-  "nameTitle": "Rep. James C. Moylan (GU-0)",
-  "imageUrl": "https://www.congress.gov/img/member/m001219_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "middleName": "C.",
+  "officialWebsiteUrl": "https://moylan.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "James C. Moylan",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moylan, James C.",
+      "lastName": "Moylan",
+      "middleName": "C.",
+      "startDate": "2024-02-27T13:20:51Z"
+    },
+    {
+      "directOrderName": "James C. Moylan",
+      "endDate": "2024-02-27T13:20:50Z",
+      "firstName": "James",
+      "invertedOrderName": "Moylan, James C.",
+      "lastName": "Moylan",
+      "middleName": "C.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "James C. Moylan",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moylan, James C.",
+      "lastName": "Moylan",
+      "middleName": "C.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "James C. Moylan",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moylan, James C.",
+      "lastName": "Moylan",
+      "middleName": "C.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 54,
+    "url": "https://api.congress.gov/v3/member/M001219/sponsored-legislation"
+  },
+  "state": "Guam",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Delegate",
+      "startYear": 2023,
+      "stateCode": "GU",
+      "stateName": "Guam"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Delegate",
+      "startYear": 2025,
+      "stateCode": "GU",
+      "stateName": "Guam"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "M001219",
+    "fec": [
+      "H2GU01031"
+    ],
+    "govtrack": 456896,
+    "opensecrets": "N00050604",
+    "wikidata": "Q114108969",
+    "wikipedia": "James Moylan",
+    "ballotpedia": "James Moylan",
+    "pictorial": 13024,
+    "google_entity_id": "kg:/g/11kl4fdd3q",
+    "twitter": "JMoylanforGuam",
+    "facebook": "100089324793869",
+    "instagram": "repjamesmoylan"
+  },
+  "name": {
+    "first": "James (Jim)",
+    "middle": "Camacho",
+    "last": "Moylan",
+    "official_full": "James C. Moylan"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1962-07-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GU",
+    "district": 0,
+    "party": "Republican",
+    "url": "https://moylan.house.gov",
+    "address": "228 Cannon House Office Building Washington DC 20515-5301",
+    "office": "228 Cannon House Office Building",
+    "phone": "202-225-1188"
+  }
 }

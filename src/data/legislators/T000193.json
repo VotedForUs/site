@@ -1,13 +1,290 @@
 {
-  "id": "T000193",
-  "bioguide": "T000193",
-  "name": "Bennie G. Thompson",
-  "lastName": "Thompson",
-  "state": "MS",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2466 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5876",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000193",
+  "birthYear": "1948",
+  "cosponsoredLegislation": {
+    "count": 5505,
+    "url": "https://api.congress.gov/v3/member/T000193/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image, Congressional Pictorial Directory, 109th.",
+    "imageUrl": "/images/legislators/T000193.jpg"
+  },
+  "directOrderName": "Bennie G. Thompson",
   "district": 2,
-  "nameTitle": "Rep. Bennie G. Thompson (MS-2)",
-  "imageUrl": "https://www.congress.gov/img/member/t000193_200.jpg",
-  "attribution": "Image, Congressional Pictorial Directory, 109th.",
-  "type": "rep"
+  "firstName": "Bennie",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Thompson, Bennie G.",
+  "lastName": "Thompson",
+  "middleName": "G.",
+  "officialWebsiteUrl": "https://benniethompson.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 1993
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Bennie G. Thompson",
+      "endDate": "2024-02-27T13:20:53Z",
+      "firstName": "BENNIE",
+      "invertedOrderName": "Thompson, Bennie G.",
+      "lastName": "THOMPSON",
+      "startDate": "1993-01-05T05:00:00Z"
+    },
+    {
+      "directOrderName": "Bennie G. Thompson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Bennie",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Thompson, Bennie G.",
+      "lastName": "Thompson",
+      "middleName": "G.",
+      "startDate": "2024-02-27T13:20:54Z"
+    },
+    {
+      "directOrderName": "Bennie G. Thompson",
+      "firstName": "Bennie",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Thompson, Bennie G.",
+      "lastName": "Thompson",
+      "middleName": "G.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 255,
+    "url": "https://api.congress.gov/v3/member/T000193/sponsored-legislation"
+  },
+  "state": "Mississippi",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 103,
+      "district": 2,
+      "endYear": 1995,
+      "memberType": "Representative",
+      "startYear": 1993,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 104,
+      "district": 2,
+      "endYear": 1997,
+      "memberType": "Representative",
+      "startYear": 1995,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 2,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 2,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 2,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 2,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 2,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 2,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 2,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 2,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "T000193",
+    "thomas": "01151",
+    "govtrack": 400402,
+    "opensecrets": "N00003288",
+    "votesmart": 26929,
+    "fec": [
+      "H4MS02068"
+    ],
+    "cspan": 7304,
+    "wikipedia": "Bennie Thompson",
+    "maplight": 490,
+    "icpsr": 29368,
+    "house_history": 22870,
+    "wikidata": "Q817877",
+    "google_entity_id": "kg:/m/033tc5",
+    "ballotpedia": "Bennie Thompson",
+    "pictorial": 13125,
+    "twitter": "BennieGThompson",
+    "facebook": "CongressmanBennieGThompson",
+    "youtube": "RepBennieThompson",
+    "youtube_id": "UCzt2pBxh0dI24kYrWretXRw",
+    "instagram": "benniegthompson",
+    "instagram_id": 347410575,
+    "twitter_id": 82453460
+  },
+  "name": {
+    "first": "Bennie",
+    "middle": "G.",
+    "last": "Thompson",
+    "official_full": "Bennie G. Thompson"
+  },
+  "bio": {
+    "birthday": "1948-01-28",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MS",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://benniethompson.house.gov",
+    "rss_url": "http://benniethompson.house.gov/index.php?format=feed&amp;type=rss",
+    "address": "2466 Rayburn House Office Building Washington DC 20515-2402",
+    "office": "2466 Rayburn House Office Building",
+    "phone": "202-225-5876"
+  }
 }

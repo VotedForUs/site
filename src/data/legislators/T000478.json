@@ -1,13 +1,159 @@
 {
-  "id": "T000478",
-  "bioguide": "T000478",
-  "name": "Claudia Tenney",
-  "lastName": "Tenney",
-  "state": "NY",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2230 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3665",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000478",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 1772,
+    "url": "https://api.congress.gov/v3/member/T000478/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000478.jpg"
+  },
+  "directOrderName": "Claudia Tenney",
   "district": 24,
-  "nameTitle": "Rep. Claudia Tenney (NY-24)",
-  "imageUrl": "https://www.congress.gov/img/member/t000478_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Claudia",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Tenney, Claudia",
+  "lastName": "Tenney",
+  "officialWebsiteUrl": "https://tenney.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Claudia Tenney",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Claudia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Tenney, Claudia",
+      "lastName": "Tenney",
+      "startDate": "2017-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Claudia Tenney",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Claudia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Tenney, Claudia",
+      "lastName": "Tenney",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Claudia Tenney",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Claudia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Tenney, Claudia",
+      "lastName": "Tenney",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Claudia Tenney",
+      "firstName": "Claudia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Tenney, Claudia",
+      "lastName": "Tenney",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 221,
+    "url": "https://api.congress.gov/v3/member/T000478/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 22,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 22,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 24,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 24,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "T000478",
+    "fec": [
+      "H4NY22051"
+    ],
+    "govtrack": 412720,
+    "opensecrets": "N00036351",
+    "wikipedia": "Claudia Tenney",
+    "wikidata": "Q5129263",
+    "google_entity_id": "kg:/m/0g5s72n",
+    "votesmart": 127668,
+    "maplight": 2232,
+    "cspan": 103481,
+    "icpsr": 21749,
+    "ballotpedia": "Claudia Tenney",
+    "pictorial": 13192,
+    "twitter": "RepTenney",
+    "twitter_id": 797201048490430500,
+    "facebook": "RepClaudiaTenney"
+  },
+  "name": {
+    "first": "Claudia",
+    "last": "Tenney",
+    "official_full": "Claudia Tenney"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1961-02-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 24,
+    "party": "Republican",
+    "url": "https://tenney.house.gov",
+    "address": "2230 Rayburn House Office Building Washington DC 20515-3224",
+    "office": "2230 Rayburn House Office Building",
+    "phone": "202-225-3665"
+  }
 }

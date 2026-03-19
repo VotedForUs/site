@@ -1,13 +1,193 @@
 {
-  "id": "A000369",
-  "bioguide": "A000369",
-  "name": "Mark E. Amodei",
-  "lastName": "Amodei",
-  "state": "NV",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "104 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6155",
+    "zipCode": 20515
+  },
+  "bioguideId": "A000369",
+  "birthYear": "1958",
+  "cosponsoredLegislation": {
+    "count": 1570,
+    "url": "https://api.congress.gov/v3/member/A000369/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/A000369.jpg"
+  },
+  "directOrderName": "Mark E. Amodei",
   "district": 2,
-  "nameTitle": "Rep. Mark E. Amodei (NV-2)",
-  "imageUrl": "https://www.congress.gov/img/member/a000369_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mark",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Amodei, Mark E.",
+  "lastName": "Amodei",
+  "middleName": "E.",
+  "officialWebsiteUrl": "https://amodei.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mark E. Amodei",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Amodei, Mark E.",
+      "lastName": "Amodei",
+      "middleName": "E.",
+      "startDate": "2011-09-15T00:00:00Z"
+    },
+    {
+      "directOrderName": "Mark E. Amodei",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Amodei, Mark E.",
+      "lastName": "Amodei",
+      "middleName": "E.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 106,
+    "url": "https://api.congress.gov/v3/member/A000369/sponsored-legislation"
+  },
+  "state": "Nevada",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 2,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "A000369",
+    "thomas": "02090",
+    "govtrack": 412500,
+    "opensecrets": "N00031177",
+    "votesmart": 12537,
+    "fec": [
+      "H2NV02395",
+      "H1NV02017",
+      "S0NV00237"
+    ],
+    "cspan": 62817,
+    "wikipedia": "Mark Amodei",
+    "house_history": 8772,
+    "ballotpedia": "Mark Amodei",
+    "maplight": 1680,
+    "icpsr": 21196,
+    "wikidata": "Q23944",
+    "google_entity_id": "kg:/m/03bzdkn",
+    "pictorial": 13166,
+    "twitter": "MarkAmodeiNV2",
+    "facebook": "MarkAmodeiNV2",
+    "youtube": "markamodeinv2",
+    "youtube_id": "UCjOGx2iqSn1r3BQxaVgYhYw",
+    "instagram": "MarkAmodeiNV2",
+    "twitter_id": 402719755
+  },
+  "name": {
+    "first": "Mark",
+    "middle": "E.",
+    "last": "Amodei",
+    "official_full": "Mark E. Amodei"
+  },
+  "bio": {
+    "birthday": "1958-06-12",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NV",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://amodei.house.gov",
+    "rss_url": "http://amodei.house.gov/common/rss//?rss=49",
+    "address": "104 Cannon House Office Building Washington DC 20515-2802",
+    "office": "104 Cannon House Office Building",
+    "phone": "202-225-6155"
+  }
 }

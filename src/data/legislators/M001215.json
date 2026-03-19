@@ -1,13 +1,147 @@
 {
-  "id": "M001215",
-  "bioguide": "M001215",
-  "name": "Mariannette Miller-Meeks",
-  "lastName": "Miller-Meeks",
-  "state": "IA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "504 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6576",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001215",
+  "birthYear": "1955",
+  "cosponsoredLegislation": {
+    "count": 1173,
+    "url": "https://api.congress.gov/v3/member/M001215/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001215.jpg"
+  },
+  "directOrderName": "Mariannette Miller-Meeks",
   "district": 1,
-  "nameTitle": "Rep. Mariannette Miller-Meeks (IA-1)",
-  "imageUrl": "https://www.congress.gov/img/member/m001215_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mariannette",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Miller-Meeks, Mariannette",
+  "lastName": "Miller-Meeks",
+  "officialWebsiteUrl": "https://millermeeks.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mariannette Miller-Meeks",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mariannette",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Miller-Meeks, Mariannette",
+      "lastName": "Miller-Meeks",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mariannette Miller-Meeks",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Mariannette",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Miller-Meeks, Mariannette",
+      "lastName": "Miller-Meeks",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Mariannette Miller-Meeks",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Mariannette",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Miller-Meeks, Mariannette",
+      "lastName": "Miller-Meeks",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mariannette Miller-Meeks",
+      "firstName": "Mariannette",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Miller-Meeks, Mariannette",
+      "lastName": "Miller-Meeks",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 122,
+    "url": "https://api.congress.gov/v3/member/M001215/sponsored-legislation"
+  },
+  "state": "Iowa",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IA",
+      "stateName": "Iowa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IA",
+      "stateName": "Iowa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IA",
+      "stateName": "Iowa"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "M001215",
+    "fec": [
+      "H8IA02043"
+    ],
+    "opensecrets": "N00029495",
+    "govtrack": 456817,
+    "wikidata": "Q58495662",
+    "wikipedia": "Mariannette Miller-Meeks",
+    "google_entity_id": "kg:/g/11fhm4wv8g",
+    "votesmart": 103294,
+    "ballotpedia": "Mariannette Miller-Meeks",
+    "pictorial": 13027,
+    "twitter": "RepMMM",
+    "twitter_id": 1345807954604413000,
+    "facebook": "RepMMM"
+  },
+  "name": {
+    "first": "Mariannette",
+    "middle": "Jane",
+    "last": "Miller-Meeks",
+    "official_full": "Mariannette Miller-Meeks"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1955-09-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IA",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://millermeeks.house.gov",
+    "address": "504 Cannon House Office Building Washington DC 20515-1501",
+    "office": "504 Cannon House Office Building",
+    "phone": "202-225-6576"
+  }
 }

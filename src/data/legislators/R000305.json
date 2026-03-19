@@ -1,13 +1,142 @@
 {
-  "id": "R000305",
-  "bioguide": "R000305",
-  "name": "Deborah K. Ross",
-  "lastName": "Ross",
-  "state": "NC",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1221 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3032",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000305",
+  "birthYear": "1963",
+  "cosponsoredLegislation": {
+    "count": 1675,
+    "url": "https://api.congress.gov/v3/member/R000305/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000305.jpg"
+  },
+  "directOrderName": "Deborah K. Ross",
   "district": 2,
-  "nameTitle": "Rep. Deborah K. Ross (NC-2)",
-  "imageUrl": "https://www.congress.gov/img/member/r000305_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Deborah",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Ross, Deborah K.",
+  "lastName": "Ross",
+  "middleName": "K.",
+  "officialWebsiteUrl": "https://ross.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Deborah K. Ross",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Deborah",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ross, Deborah K.",
+      "lastName": "Ross",
+      "middleName": "K.",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Deborah K. Ross",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Deborah",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ross, Deborah K.",
+      "lastName": "Ross",
+      "middleName": "K.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Deborah K. Ross",
+      "firstName": "Deborah",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ross, Deborah K.",
+      "lastName": "Ross",
+      "middleName": "K.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 75,
+    "url": "https://api.congress.gov/v3/member/R000305/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "R000305",
+    "fec": [
+      "H0NC02125"
+    ],
+    "opensecrets": "N00038565",
+    "govtrack": 456831,
+    "wikidata": "Q5248285",
+    "wikipedia": "Deborah Ross (politician)",
+    "google_entity_id": "kg:/m/02b3x2",
+    "ballotpedia": "Deborah Ross",
+    "pictorial": 13131,
+    "twitter": "RepDeborahRoss",
+    "twitter_id": 1348683154815656000,
+    "facebook": "RepDeborahRoss",
+    "instagram": "repdeborahross"
+  },
+  "name": {
+    "first": "Deborah",
+    "middle": "Koff",
+    "last": "Ross",
+    "official_full": "Deborah K. Ross"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1963-06-20"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://ross.house.gov",
+    "address": "1221 Longworth House Office Building Washington DC 20515-3302",
+    "office": "1221 Longworth House Office Building",
+    "phone": "202-225-3032"
+  }
 }

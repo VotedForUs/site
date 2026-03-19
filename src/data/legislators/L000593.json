@@ -1,13 +1,140 @@
 {
-  "id": "L000593",
-  "bioguide": "L000593",
-  "name": "Mike Levin",
-  "lastName": "Levin",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2352 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3906",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000593",
+  "birthYear": "1978",
+  "cosponsoredLegislation": {
+    "count": 1793,
+    "url": "https://api.congress.gov/v3/member/L000593/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000593.jpg"
+  },
+  "directOrderName": "Mike Levin",
   "district": 49,
-  "nameTitle": "Rep. Mike Levin (CA-49)",
-  "imageUrl": "https://www.congress.gov/img/member/l000593_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Levin, Mike",
+  "lastName": "Levin",
+  "officialWebsiteUrl": "https://levin.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Levin",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Levin, Mike",
+      "lastName": "Levin",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Levin",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Levin, Mike",
+      "lastName": "Levin",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 122,
+    "url": "https://api.congress.gov/v3/member/L000593/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 49,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 49,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 49,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 49,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "L000593",
+    "fec": [
+      "H8CA49058"
+    ],
+    "govtrack": 412760,
+    "wikipedia": "Mike Levin",
+    "wikidata": "Q55424854",
+    "opensecrets": "N00040667",
+    "votesmart": 179416,
+    "icpsr": 21939,
+    "google_entity_id": "kg:/g/11gfd5mdpc",
+    "pictorial": 12963,
+    "twitter": "RepMikeLevin",
+    "twitter_id": 1072134139560620000,
+    "facebook": "RepMikeLevin",
+    "instagram": "RepMikeLevin",
+    "youtube": "UCYFDRohyZgoPy5rXOaVZO-A"
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Levin",
+    "official_full": "Mike Levin"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1978-10-28"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 49,
+    "party": "Democrat",
+    "url": "https://levin.house.gov",
+    "address": "2352 Rayburn House Office Building Washington DC 20515-0549",
+    "office": "2352 Rayburn House Office Building",
+    "phone": "202-225-3906"
+  }
 }

@@ -1,13 +1,145 @@
 {
-  "id": "Y000067",
-  "bioguide": "Y000067",
-  "name": "Rudy Yakym III",
-  "lastName": "Yakym",
-  "state": "IN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "349 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3915",
+    "zipCode": 20515
+  },
+  "bioguideId": "Y000067",
+  "birthYear": "1984",
+  "cosponsoredLegislation": {
+    "count": 512,
+    "url": "https://api.congress.gov/v3/member/Y000067/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/Y000067.jpg"
+  },
+  "directOrderName": "Rudy Yakym III",
   "district": 2,
-  "nameTitle": "Rep. Rudy Yakym III (IN-2)",
-  "imageUrl": "https://www.congress.gov/img/member/y000067_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Rudy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Yakym, Rudy",
+  "lastName": "Yakym",
+  "officialWebsiteUrl": "https://yakym.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2022
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Rudy Yakym III",
+      "endDate": "2024-02-27T13:20:51Z",
+      "firstName": "Rudy",
+      "invertedOrderName": "Yakym, Rudy",
+      "lastName": "Yakym",
+      "startDate": "2023-11-24T21:35:34Z"
+    },
+    {
+      "directOrderName": "Rudy Yakym III",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Rudy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Yakym, Rudy",
+      "lastName": "Yakym",
+      "startDate": "2024-02-27T13:20:52Z"
+    },
+    {
+      "directOrderName": "Rudy Yakym III",
+      "endDate": "2023-11-24T21:35:33Z",
+      "firstName": "Rudy",
+      "invertedOrderName": "Yakym, Rudy",
+      "lastName": "Yakym",
+      "startDate": "2022-11-14T17:00:00Z"
+    },
+    {
+      "directOrderName": "Rudy Yakym III",
+      "firstName": "Rudy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Yakym, Rudy",
+      "lastName": "Yakym",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 41,
+    "url": "https://api.congress.gov/v3/member/Y000067/sponsored-legislation"
+  },
+  "state": "Indiana",
+  "suffixName": "III",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2022,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "Y000067",
+    "fec": [
+      "H2IN02295"
+    ],
+    "govtrack": 456873,
+    "opensecrets": "N00051733",
+    "votesmart": 210545,
+    "wikipedia": "Rudy Yakym",
+    "wikidata": "Q115137719",
+    "ballotpedia": "Rudy Yakym",
+    "pictorial": 13051,
+    "google_entity_id": "kg:/g/11t8khyc8f",
+    "twitter": "RepRudyYakym",
+    "twitter_id": 1605665632858607600,
+    "facebook": "RepRudyYakym"
+  },
+  "name": {
+    "first": "Rudy",
+    "last": "Yakym",
+    "official_full": "Rudy Yakym III"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1984-02-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IN",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://yakym.house.gov",
+    "address": "349 Cannon House Office Building Washington DC 20515-1402",
+    "office": "349 Cannon House Office Building",
+    "phone": "202-225-3915"
+  }
 }

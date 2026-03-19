@@ -1,13 +1,130 @@
 {
-  "id": "S001221",
-  "bioguide": "S001221",
-  "name": "Hillary J. Scholten",
-  "lastName": "Scholten",
-  "state": "MI",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1317 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3831",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001221",
+  "birthYear": "1982",
+  "cosponsoredLegislation": {
+    "count": 627,
+    "url": "https://api.congress.gov/v3/member/S001221/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001221.jpg"
+  },
+  "directOrderName": "Hillary J. Scholten",
   "district": 3,
-  "nameTitle": "Rep. Hillary J. Scholten (MI-3)",
-  "imageUrl": "https://www.congress.gov/img/member/s001221_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Hillary",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Scholten, Hillary J.",
+  "lastName": "Scholten",
+  "middleName": "J.",
+  "officialWebsiteUrl": "https://scholten.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Hillary J. Scholten",
+      "endDate": "2024-02-27T13:20:52Z",
+      "firstName": "Hillary",
+      "invertedOrderName": "Scholten, Hillary J.",
+      "lastName": "Scholten",
+      "middleName": "J.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Hillary J. Scholten",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Hillary",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Scholten, Hillary J.",
+      "lastName": "Scholten",
+      "middleName": "J.",
+      "startDate": "2024-02-27T13:20:53Z"
+    },
+    {
+      "directOrderName": "Hillary J. Scholten",
+      "firstName": "Hillary",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Scholten, Hillary J.",
+      "lastName": "Scholten",
+      "middleName": "J.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 36,
+    "url": "https://api.congress.gov/v3/member/S001221/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "S001221",
+    "fec": [
+      "H0MI03316"
+    ],
+    "govtrack": 456906,
+    "opensecrets": "N00044885",
+    "wikidata": "Q115137368",
+    "wikipedia": "Hillary Scholten",
+    "votesmart": 191584,
+    "pictorial": 13096,
+    "google_entity_id": "kg:/g/11j2tyrlxq",
+    "twitter": "RepScholten",
+    "facebook": "100089476625799",
+    "instagram": "RepScholten"
+  },
+  "name": {
+    "first": "Hillary",
+    "middle": "Jeanne",
+    "last": "Scholten",
+    "official_full": "Hillary J. Scholten"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1982-02-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 3,
+    "party": "Democrat",
+    "url": "https://scholten.house.gov",
+    "address": "1317 Longworth House Office Building Washington DC 20515-2203",
+    "office": "1317 Longworth House Office Building",
+    "phone": "202-225-3831"
+  }
 }

@@ -1,13 +1,146 @@
 {
-  "id": "C001126",
-  "bioguide": "C001126",
-  "name": "Mike Carey",
-  "lastName": "Carey",
-  "state": "OH",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1433 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2015",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001126",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 587,
+    "url": "https://api.congress.gov/v3/member/C001126/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001126.jpg"
+  },
+  "directOrderName": "Mike Carey",
   "district": 15,
-  "nameTitle": "Rep. Mike Carey (OH-15)",
-  "imageUrl": "https://www.congress.gov/img/member/c001126_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Carey, Mike",
+  "lastName": "Carey",
+  "officialWebsiteUrl": "https://carey.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Carey",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carey, Mike",
+      "lastName": "Carey",
+      "startDate": "2021-11-04T16:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Carey",
+      "endDate": "2024-02-27T13:20:56Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carey, Mike",
+      "lastName": "Carey",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Carey",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carey, Mike",
+      "lastName": "Carey",
+      "startDate": "2024-02-27T13:20:57Z"
+    },
+    {
+      "directOrderName": "Mike Carey",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carey, Mike",
+      "lastName": "Carey",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 51,
+    "url": "https://api.congress.gov/v3/member/C001126/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 15,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 15,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 15,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "C001126",
+    "fec": [
+      "H2OH15228"
+    ],
+    "govtrack": 456864,
+    "opensecrets": "N00048568",
+    "wikipedia": "Mike Carey (politician)",
+    "wikidata": "Q108010312",
+    "pictorial": 13209,
+    "ballotpedia": "Mike Carey (Ohio)",
+    "google_entity_id": "kg:/g/11q1q1bh32",
+    "twitter": "RepMikeCarey",
+    "twitter_id": 1457745193197781000,
+    "facebook": "RepMikeCarey",
+    "youtube": "@congressmanmikecarey"
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Carey",
+    "official_full": "Mike Carey"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1971-03-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 15,
+    "party": "Republican",
+    "url": "https://carey.house.gov",
+    "address": "1433 Longworth House Office Building Washington DC 20515-3515",
+    "office": "1433 Longworth House Office Building",
+    "phone": "202-225-2015"
+  }
 }

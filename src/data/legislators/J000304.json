@@ -1,13 +1,148 @@
 {
-  "id": "J000304",
-  "bioguide": "J000304",
-  "name": "Ronny Jackson",
-  "lastName": "Jackson",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "125 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3706",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000304",
+  "birthYear": "1967",
+  "cosponsoredLegislation": {
+    "count": 930,
+    "url": "https://api.congress.gov/v3/member/J000304/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000304.jpg"
+  },
+  "directOrderName": "Ronny Jackson",
   "district": 13,
-  "nameTitle": "Rep. Ronny Jackson (TX-13)",
-  "imageUrl": "https://www.congress.gov/img/member/j000304_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ronny",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Jackson, Ronny",
+  "lastName": "Jackson",
+  "officialWebsiteUrl": "https://jackson.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ronny Jackson",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Ronny",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jackson, Ronny",
+      "lastName": "Jackson",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Ronny Jackson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ronny",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jackson, Ronny",
+      "lastName": "Jackson",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ronny Jackson",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Ronny",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jackson, Ronny",
+      "lastName": "Jackson",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ronny Jackson",
+      "firstName": "Ronny",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jackson, Ronny",
+      "lastName": "Jackson",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 97,
+    "url": "https://api.congress.gov/v3/member/J000304/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 13,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 13,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 13,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "J000304",
+    "fec": [
+      "H0TX13228"
+    ],
+    "opensecrets": "N00046055",
+    "govtrack": 456847,
+    "wikidata": "Q47270118",
+    "wikipedia": "Ronny Jackson",
+    "google_entity_id": "kg:/g/11gfhx0vbg",
+    "ballotpedia": "Ronny Jackson",
+    "pictorial": 13270,
+    "votesmart": 188325,
+    "twitter": "RepRonnyJackson",
+    "twitter_id": 1341903465610686500,
+    "facebook": "RepRonnyJackson",
+    "instagram": "RepRonnyJackson"
+  },
+  "name": {
+    "first": "Ronny",
+    "middle": "Lynn",
+    "last": "Jackson",
+    "official_full": "Ronny Jackson"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1967-05-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 13,
+    "party": "Republican",
+    "url": "https://jackson.house.gov",
+    "address": "125 Cannon House Office Building Washington DC 20515-4313",
+    "office": "125 Cannon House Office Building",
+    "phone": "202-225-3706"
+  }
 }

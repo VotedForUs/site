@@ -813,6 +813,23 @@
         },
         "text": "Mr. Westerman moved to suspend the rules and pass the bill.",
         "type": "Floor"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-03-18",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Natural Resources.",
+        "type": "IntroReferral"
       }
     ]
   },

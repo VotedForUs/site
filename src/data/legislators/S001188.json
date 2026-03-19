@@ -1,13 +1,168 @@
 {
-  "id": "S001188",
-  "bioguide": "S001188",
-  "name": "Marlin A. Stutzman",
-  "lastName": "Stutzman",
-  "state": "IN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "404 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4436",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001188",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 603,
+    "url": "https://api.congress.gov/v3/member/S001188/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001188.jpg"
+  },
+  "directOrderName": "Marlin A. Stutzman",
   "district": 3,
-  "nameTitle": "Rep. Marlin A. Stutzman (IN-3)",
-  "imageUrl": "https://www.congress.gov/img/member/67745e7e0b34857ecc90917f_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Marlin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Stutzman, Marlin A.",
+  "lastName": "Stutzman",
+  "middleName": "A.",
+  "officialWebsiteUrl": "https://stutzman.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2010
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Marlin A. Stutzman",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Marlin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stutzman, Marlin A.",
+      "lastName": "Stutzman",
+      "middleName": "A.",
+      "startDate": "2010-11-16T00:00:00Z"
+    },
+    {
+      "directOrderName": "Marlin A. Stutzman",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Marlin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stutzman, Marlin A.",
+      "lastName": "Stutzman",
+      "middleName": "A.",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Marlin A. Stutzman",
+      "firstName": "Marlin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stutzman, Marlin A.",
+      "lastName": "Stutzman",
+      "middleName": "A.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 38,
+    "url": "https://api.congress.gov/v3/member/S001188/sponsored-legislation"
+  },
+  "state": "Indiana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 3,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2010,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 3,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 3,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 3,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "S001188",
+    "thomas": "01981",
+    "govtrack": 412392,
+    "opensecrets": "N00030891",
+    "votesmart": 34230,
+    "fec": [
+      "H0IN03198",
+      "S0IN00095"
+    ],
+    "cspan": 9267685,
+    "wikipedia": "Marlin Stutzman",
+    "ballotpedia": "Marlin Stutzman",
+    "maplight": 1373,
+    "icpsr": 21100,
+    "house_history": 22629,
+    "wikidata": "Q1902106",
+    "google_entity_id": "kg:/m/06zk1_1",
+    "twitter": "RepStutzman",
+    "facebook": "repstutzman",
+    "instagram": "repstutzman"
+  },
+  "name": {
+    "first": "Marlin",
+    "middle": "A.",
+    "last": "Stutzman",
+    "official_full": "Marlin A. Stutzman"
+  },
+  "bio": {
+    "birthday": "1976-08-31",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IN",
+    "district": 3,
+    "party": "Republican",
+    "url": "https://stutzman.house.gov",
+    "rss_url": "http://stutzman.house.gov/press_releases.rss",
+    "address": "404 Cannon House Office Building Washington DC 20515-1403",
+    "office": "404 Cannon House Office Building",
+    "phone": "202-225-4436"
+  }
 }

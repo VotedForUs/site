@@ -1,13 +1,125 @@
 {
-  "id": "P000622",
-  "bioguide": "P000622",
-  "name": "Jimmy Patronis",
-  "lastName": "Patronis",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2021 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4136",
+    "zipCode": 20515
+  },
+  "bioguideId": "P000622",
+  "birthYear": "1972",
+  "cosponsoredLegislation": {
+    "count": 67,
+    "url": "https://api.congress.gov/v3/member/P000622/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/P000622.jpg"
+  },
+  "directOrderName": "Jimmy Patronis",
   "district": 1,
-  "nameTitle": "Rep. Jimmy Patronis (FL-1)",
-  "imageUrl": "https://www.congress.gov/img/member/67efdb991b05a5a598f7fde9_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jimmy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Patronis, Jimmy",
+  "lastName": "Patronis",
+  "officialWebsiteUrl": "https://patronis.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jimmy Patronis",
+      "endDate": "2025-04-28T13:04:16Z",
+      "firstName": "Jimmy",
+      "invertedOrderName": "Patronis, Jimmy",
+      "lastName": "Patronis",
+      "startDate": "2025-04-02T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jimmy Patronis",
+      "endDate": "2025-04-28T13:06:18Z",
+      "firstName": "Jimmy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Patronis, Jimmy",
+      "lastName": "Patronis",
+      "startDate": "2025-04-28T13:04:17Z"
+    },
+    {
+      "directOrderName": "Jimmy Patronis",
+      "endDate": "2025-04-02T03:59:59Z",
+      "firstName": "Jimmy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Patronis, Jimmy",
+      "lastName": "Patronis",
+      "startDate": "2025-04-28T13:06:19Z"
+    },
+    {
+      "directOrderName": "Jimmy Patronis",
+      "firstName": "Jimmy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Patronis, Jimmy",
+      "lastName": "Patronis",
+      "startDate": "2025-04-02T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 13,
+    "url": "https://api.congress.gov/v3/member/P000622/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "P000622",
+    "fec": [
+      "H6FL01390"
+    ],
+    "votesmart": 67909,
+    "cspan": 135015,
+    "wikipedia": "Jimmy Patronis",
+    "wikidata": "Q6201036",
+    "govtrack": 457034,
+    "ballotpedia": "Jimmy Patronis",
+    "house_history": 36507226671,
+    "google_entity_id": "kg:/m/03d5p39"
+  },
+  "name": {
+    "first": "Jimmy",
+    "middle": "Theo",
+    "last": "Patronis",
+    "suffix": "Jr.",
+    "official_full": "Jimmy Patronis"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1972-04-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-04-02",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://patronis.house.gov",
+    "contact_form": "https://patronis.house.gov/contact/email-me",
+    "address": "2021 Rayburn House Office Building Washington DC 20515-0901",
+    "office": "2021 Rayburn House Office Building",
+    "phone": "202-225-4136"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 2,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/2379/actions?format=json",
     "actions": [
       {
@@ -223,17 +223,52 @@
   "latestAction": {
     "actionDate": "2025-11-20",
     "actionTime": "18:18:43",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2379",
   "number": "2379",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Countering Threats and Attacks on Our Judges Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Countering Threats and Attacks on Our Judges Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-11-21T11:58:21Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Countering Threats and Attacks on Our Judges Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-11-21T05:23:23Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Countering Threats and Attacks on Our Judges Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-08-05T04:53:20Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend the State Justice Institute Act of 1984 to authorize the State Justice Institute to provide awards to certain organizations to establish a State judicial threat intelligence and resource center.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-08-05T04:48:26Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-29T01:31:41Z",
-  "updateDateIncludingText": "2025-10-29T01:31:41Z",
+  "updateDate": "2026-03-17T14:33:18Z",
+  "updateDateIncludingText": "2026-03-17T14:33:18Z",
   "id": "119-S-2379",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-20"

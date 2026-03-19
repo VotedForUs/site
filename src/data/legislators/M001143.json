@@ -1,13 +1,246 @@
 {
-  "id": "M001143",
-  "bioguide": "M001143",
-  "name": "Betty McCollum",
-  "lastName": "McCollum",
-  "state": "MN",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2426 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6631",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001143",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 6864,
+    "url": "https://api.congress.gov/v3/member/M001143/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/M001143.jpg"
+  },
+  "directOrderName": "Betty McCollum",
   "district": 4,
-  "nameTitle": "Rep. Betty McCollum (MN-4)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_mn_4_mccollum_betty_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Betty",
+  "honorificName": "Ms.",
+  "invertedOrderName": "McCollum, Betty",
+  "lastName": "McCollum",
+  "officialWebsiteUrl": "https://mccollum.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2001
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Betty McCollum",
+      "endDate": "2024-02-27T13:20:53Z",
+      "firstName": "BETTY",
+      "invertedOrderName": "McCollum, Betty",
+      "lastName": "MCCOLLUM",
+      "startDate": "2001-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Betty McCollum",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Betty",
+      "honorificName": "Ms.",
+      "invertedOrderName": "McCollum, Betty",
+      "lastName": "McCollum",
+      "startDate": "2024-02-27T13:20:54Z"
+    },
+    {
+      "directOrderName": "Betty McCollum",
+      "firstName": "Betty",
+      "honorificName": "Ms.",
+      "invertedOrderName": "McCollum, Betty",
+      "lastName": "McCollum",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 170,
+    "url": "https://api.congress.gov/v3/member/M001143/sponsored-legislation"
+  },
+  "state": "Minnesota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 4,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 4,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 4,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 4,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 4,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 4,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "M001143",
+    "thomas": "01653",
+    "govtrack": 400259,
+    "opensecrets": "N00012942",
+    "votesmart": 3812,
+    "fec": [
+      "H0MN04049"
+    ],
+    "cspan": 86670,
+    "wikipedia": "Betty McCollum",
+    "house_history": 18758,
+    "ballotpedia": "Betty McCollum",
+    "maplight": 356,
+    "icpsr": 20122,
+    "wikidata": "Q434893",
+    "google_entity_id": "kg:/m/0249hy",
+    "pictorial": 13110,
+    "twitter": "BettyMcCollum04",
+    "facebook": "repbettymccollum",
+    "twitter_id": 516880804,
+    "youtube": "BMcCollum04",
+    "youtube_id": "UC3sZJSdiZo2EBHbsOlsnI7A",
+    "instagram": "repbettymccollum"
+  },
+  "name": {
+    "first": "Betty",
+    "middle": "Louise",
+    "last": "McCollum",
+    "official_full": "Betty McCollum"
+  },
+  "bio": {
+    "birthday": "1954-07-12",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MN",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://mccollum.house.gov",
+    "rss_url": "http://mccollum.house.gov/rss.xml",
+    "address": "2426 Rayburn House Office Building Washington DC 20515-2304",
+    "office": "2426 Rayburn House Office Building",
+    "phone": "202-225-6631"
+  }
 }

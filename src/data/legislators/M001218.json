@@ -1,13 +1,136 @@
 {
-  "id": "M001218",
-  "bioguide": "M001218",
-  "name": "Richard McCormick",
-  "lastName": "McCormick",
-  "state": "GA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1719 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4272",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001218",
+  "birthYear": "1968",
+  "cosponsoredLegislation": {
+    "count": 496,
+    "url": "https://api.congress.gov/v3/member/M001218/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001218.jpg"
+  },
+  "directOrderName": "Richard McCormick",
   "district": 7,
-  "nameTitle": "Rep. Richard McCormick (GA-7)",
-  "imageUrl": "https://www.congress.gov/img/member/m001218_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Richard",
+  "honorificName": "Mr.",
+  "invertedOrderName": "McCormick, Richard",
+  "lastName": "McCormick",
+  "officialWebsiteUrl": "https://mccormick.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Richard McCormick",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Richard",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McCormick, Richard",
+      "lastName": "McCormick",
+      "startDate": "2024-02-27T13:20:51Z"
+    },
+    {
+      "directOrderName": "Richard McCormick",
+      "endDate": "2024-02-27T13:20:50Z",
+      "firstName": "Richard",
+      "invertedOrderName": "McCormick, Richard",
+      "lastName": "McCormick",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Richard McCormick",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Richard",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McCormick, Richard",
+      "lastName": "McCormick",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Richard McCormick",
+      "firstName": "Richard",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McCormick, Richard",
+      "lastName": "McCormick",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 49,
+    "url": "https://api.congress.gov/v3/member/M001218/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "M001218",
+    "fec": [
+      "H0GA07273"
+    ],
+    "govtrack": 456894,
+    "opensecrets": "N00044520",
+    "wikidata": "Q115474083",
+    "wikipedia": "Rich McCormick",
+    "votesmart": 189765,
+    "pictorial": 13015,
+    "google_entity_id": "kg:/g/11h4hhl04s",
+    "twitter": "RepMcCormick",
+    "twitter_id": 1610689483929780200,
+    "facebook": "100089135203690",
+    "instagram": "reprichmccormick"
+  },
+  "name": {
+    "first": "Rich",
+    "middle": "Dean",
+    "last": "McCormick",
+    "official_full": "Richard McCormick"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1968-10-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 7,
+    "party": "Republican",
+    "url": "https://mccormick.house.gov",
+    "address": "1719 Longworth House Office Building Washington DC 20515-1007",
+    "office": "1719 Longworth House Office Building",
+    "phone": "202-225-4272"
+  }
 }

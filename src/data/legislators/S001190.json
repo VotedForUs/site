@@ -1,13 +1,170 @@
 {
-  "id": "S001190",
-  "bioguide": "S001190",
-  "name": "Bradley Scott Schneider",
-  "lastName": "Schneider",
-  "state": "IL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "300 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4835",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001190",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 2033,
+    "url": "https://api.congress.gov/v3/member/S001190/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001190.jpg"
+  },
+  "directOrderName": "Bradley Scott Schneider",
   "district": 10,
-  "nameTitle": "Rep. Bradley Scott Schneider (IL-10)",
-  "imageUrl": "https://www.congress.gov/img/member/s001190_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Bradley",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Schneider, Bradley Scott",
+  "lastName": "Schneider",
+  "middleName": "Scott",
+  "officialWebsiteUrl": "https://schneider.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Bradley Scott Schneider",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Bradley",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schneider, Bradley Scott",
+      "lastName": "Schneider",
+      "middleName": "Scott",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Bradley Scott Schneider",
+      "firstName": "Bradley",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schneider, Bradley Scott",
+      "lastName": "Schneider",
+      "middleName": "Scott",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 213,
+    "url": "https://api.congress.gov/v3/member/S001190/sponsored-legislation"
+  },
+  "state": "Illinois",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 10,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 10,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 10,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 10,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 10,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 10,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "govtrack": 412534,
+    "bioguide": "S001190",
+    "thomas": "02124",
+    "cspan": 63948,
+    "opensecrets": "N00033101",
+    "votesmart": 134948,
+    "wikipedia": "Brad Schneider",
+    "fec": [
+      "H2IL10068"
+    ],
+    "ballotpedia": "Brad Schneider",
+    "maplight": 1758,
+    "icpsr": 21326,
+    "wikidata": "Q2923426",
+    "google_entity_id": "kg:/m/0j63zyv",
+    "pictorial": 13042,
+    "facebook": "CongressmanBradSchneider",
+    "twitter": "RepSchneider",
+    "twitter_id": 1071840474,
+    "instagram": "repschneider",
+    "youtube": "RepBradSchneider"
+  },
+  "name": {
+    "first": "Bradley",
+    "last": "Schneider",
+    "middle": "Scott",
+    "official_full": "Bradley Scott Schneider",
+    "nickname": "Brad"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1961-08-20"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IL",
+    "district": 10,
+    "party": "Democrat",
+    "url": "https://schneider.house.gov",
+    "rss_url": "http://schneider.house.gov/rss.xml",
+    "address": "300 Cannon House Office Building Washington DC 20515-1310",
+    "office": "300 Cannon House Office Building",
+    "phone": "202-225-4835"
+  }
 }

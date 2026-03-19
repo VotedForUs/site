@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 20,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/sres/377/actions?format=json",
     "actions": [
       {
@@ -314,7 +314,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Upon reconsideration, cloture on the measure invoked in Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 516. (: CR S6564)",
+        "text": "Upon reconsideration, cloture on the measure invoked in Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 516. (CR S6564)",
         "type": "Floor"
       },
       {
@@ -805,7 +805,15 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture not invoked in Senate by Yea-Nay Vote. 52 - 47. Record Vote Number: 513. (CR S6564-6565: 3)",
+        "text": "Cloture not invoked in Senate by Yea-Nay Vote. 52 - 47. Record Vote Number: 513. (CR S6564-6565)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-09-11",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "By unanimous consent agreement, mandatory quorum required under Rule XXII waived.",
         "type": "Floor"
       },
       {
@@ -813,7 +821,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture motion on the measure presented in Senate. (CR S6462: 1)",
+        "text": "Cloture motion on the measure presented in Senate. (CR S6462)",
         "type": "Floor"
       },
       {
@@ -1198,8 +1206,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2025-10-07T10:56:18Z",
-  "updateDateIncludingText": "2025-10-07T10:56:18Z",
+  "updateDate": "2026-03-12T15:09:01Z",
+  "updateDateIncludingText": "2026-03-12T15:09:01Z",
   "id": "119-SRES-377",
   "lastActionDate": "2025-09-15",
   "lastRecordedVoteDate": "2025-09-15T22:14:53Z"

@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 7,
+    "count": 10,
     "url": "https://api.congress.gov/v3/bill/119/sjres/77/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2025-10-31",
+        "actionTime": "13:15:12",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2025-10-31",
+        "actionTime": "13:04:25",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-10-30",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2025-10-29",
         "recordedVotes": [
@@ -153,7 +183,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Yea-Nay Vote. 50 - 46. Record Vote Number: 598.",
+        "text": "Passed Senate without amendment by Yea-Nay Vote. 50 - 46. Record Vote Number: 598. (text: CR S7822)",
         "type": "Floor"
       },
       {
@@ -161,7 +191,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Measure laid before Senate by unanimous consent.",
+        "text": "Measure laid before Senate by unanimous consent. (consideration: CR S7811-7822)",
         "type": "Floor"
       },
       {
@@ -199,8 +229,9 @@
   "congress": 119,
   "introducedDate": "2025-09-16",
   "latestAction": {
-    "actionDate": "2025-10-29",
-    "text": "Passed Senate without amendment by Yea-Nay Vote. 50 - 46. Record Vote Number: 598."
+    "actionDate": "2025-10-31",
+    "actionTime": "13:15:12",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/77",
   "number": "77",
@@ -230,9 +261,9 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2025-10-30T22:02:19Z",
-  "updateDateIncludingText": "2025-10-30T22:02:19Z",
+  "updateDate": "2025-12-05T21:44:25Z",
+  "updateDateIncludingText": "2025-12-06T17:27:17Z",
   "id": "119-SJRES-77",
-  "lastActionDate": "2025-10-29",
+  "lastActionDate": "2025-10-31",
   "lastRecordedVoteDate": "2025-10-29T22:00:34Z"
 }

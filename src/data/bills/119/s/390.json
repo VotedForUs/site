@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/390/actions?format=json",
     "actions": [
       {
@@ -246,8 +246,7 @@
   "latestAction": {
     "actionDate": "2025-12-15",
     "actionTime": "16:18:15",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/390",
   "number": "390",
@@ -258,9 +257,83 @@
     "url": "https://api.congress.gov/v3/bill/119/s/390/summaries?format=json"
   },
   "title": "BADGES for Native Communities Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "BADGES for Native Communities Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-16T12:03:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "BADGES for Native Communities Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-12T06:08:16Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Bridging Agency Data Gaps and Ensuring Safety for Native Communities Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-12T06:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Bridging Agency Data Gaps and Ensuring Safety for Native Communities Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-08-02T03:23:20Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "BADGES for Native Communities Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-08-02T03:23:20Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "BADGES for Native Communities Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-04T15:23:22Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Bridging Agency Data Gaps and Ensuring Safety for Native Communities Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-04T15:23:22Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to require Federal law enforcement agencies to report on cases of missing or murdered Indians, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-04T15:18:33Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-08-29T16:05:16Z",
-  "updateDateIncludingText": "2025-08-29T16:05:16Z",
+  "updateDate": "2026-02-04T04:11:35Z",
+  "updateDateIncludingText": "2026-02-04T04:11:35Z",
   "id": "119-S-390",
   "lastActionDate": "2025-12-15",
   "lastRecordedVoteDate": "2025-12-11"

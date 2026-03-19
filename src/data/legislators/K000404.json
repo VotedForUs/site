@@ -1,13 +1,119 @@
 {
-  "id": "K000404",
-  "bioguide": "K000404",
-  "name": "Kimberlyn King-Hinds",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "425 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2646",
+    "zipCode": 20510
+  },
+  "bioguideId": "K000404",
+  "cosponsoredLegislation": {
+    "count": 109,
+    "url": "https://api.congress.gov/v3/member/K000404/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000404.jpg"
+  },
+  "directOrderName": "Kimberlyn King-Hinds",
+  "firstName": "Kimberlyn",
+  "honorificName": "Ms.",
+  "invertedOrderName": "King-Hinds, Kimberlyn",
   "lastName": "King-Hinds",
-  "state": "MP",
-  "party": "Republican",
-  "district": 0,
-  "nameTitle": "Rep. Kimberlyn King-Hinds (MP-0)",
-  "imageUrl": "https://www.congress.gov/img/member/67742f0a0b34857ecc9090fb_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "officialWebsiteUrl": "https://king-hinds.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Kimberlyn King-Hinds",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Kimberlyn",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "King-Hinds, Kimberlyn",
+      "lastName": "King-Hinds",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Kimberlyn King-Hinds",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Kimberlyn",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "King-Hinds, Kimberlyn",
+      "lastName": "King-Hinds",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Kimberlyn King-Hinds",
+      "endDate": "2025-04-28T13:04:20Z",
+      "firstName": "Kimberlyn",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "King-Hinds, Kimberlyn",
+      "lastName": "King-Hinds",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Kimberlyn King-Hinds",
+      "firstName": "Kimberlyn",
+      "honorificName": "Ms.",
+      "invertedOrderName": "King-Hinds, Kimberlyn",
+      "lastName": "King-Hinds",
+      "startDate": "2025-04-28T13:04:21Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 14,
+    "url": "https://api.congress.gov/v3/member/K000404/sponsored-legislation"
+  },
+  "state": "Northern Mariana Islands",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Delegate",
+      "startYear": 2025,
+      "stateCode": "MP",
+      "stateName": "Northern Mariana Islands"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "K000404",
+    "fec": [
+      "H4MP01022"
+    ],
+    "govtrack": 456999,
+    "wikipedia": "Kimberlyn King-Hinds",
+    "wikidata": "Q130942218",
+    "twitter": "RepKimKingHinds",
+    "facebook": "61571529818077",
+    "instagram": "RepKimKingHinds"
+  },
+  "name": {
+    "first": "Kimberlyn",
+    "middle": "Kay",
+    "last": "King-Hinds",
+    "official_full": "Kimberlyn King-Hinds"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1975-04-10"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MP",
+    "district": 0,
+    "party": "Republican",
+    "address": "425 Cannon House Office Building Washington DC 20515-5201",
+    "office": "425 Cannon House Office Building",
+    "phone": "202-225-2646",
+    "url": "https://king-hinds.house.gov"
+  }
 }

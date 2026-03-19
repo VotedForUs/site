@@ -1,13 +1,145 @@
 {
-  "id": "S001214",
-  "bioguide": "S001214",
-  "name": "W. Gregory Steube",
-  "lastName": "Steube",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2457 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5792",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001214",
+  "birthYear": "1978",
+  "cosponsoredLegislation": {
+    "count": 1605,
+    "url": "https://api.congress.gov/v3/member/S001214/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001214.jpg"
+  },
+  "directOrderName": "W. Gregory Steube",
   "district": 17,
-  "nameTitle": "Rep. W. Gregory Steube (FL-17)",
-  "imageUrl": "https://www.congress.gov/img/member/s001214_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "W.",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Steube, W. Gregory",
+  "lastName": "Steube",
+  "middleName": "Gregory",
+  "officialWebsiteUrl": "https://steube.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "W. Gregory Steube",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "W.",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Steube, W. Gregory",
+      "lastName": "Steube",
+      "middleName": "Gregory",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "W. Gregory Steube",
+      "firstName": "W.",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Steube, W. Gregory",
+      "lastName": "Steube",
+      "middleName": "Gregory",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 258,
+    "url": "https://api.congress.gov/v3/member/S001214/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 17,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 17,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 17,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 17,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "S001214",
+    "fec": [
+      "H8FL17053"
+    ],
+    "govtrack": 412766,
+    "wikipedia": "Greg Steube",
+    "wikidata": "Q5606295",
+    "opensecrets": "N00042808",
+    "google_entity_id": "kg:/m/0k3lrh0",
+    "votesmart": 117248,
+    "icpsr": 21971,
+    "ballotpedia": "Greg Steube",
+    "pictorial": 12998,
+    "twitter": "RepGregSteube",
+    "twitter_id": 1083125649609506800,
+    "facebook": "RepGregSteube",
+    "instagram": "repgregsteube",
+    "youtube": "@RepGregSteube"
+  },
+  "name": {
+    "first": "W.",
+    "middle": "Gregory",
+    "last": "Steube",
+    "official_full": "W. Gregory Steube"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1978-05-19"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 17,
+    "party": "Republican",
+    "url": "https://steube.house.gov",
+    "address": "2457 Rayburn House Office Building Washington DC 20515-0917",
+    "office": "2457 Rayburn House Office Building",
+    "phone": "202-225-5792"
+  }
 }

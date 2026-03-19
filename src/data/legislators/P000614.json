@@ -1,13 +1,147 @@
 {
-  "id": "P000614",
-  "bioguide": "P000614",
-  "name": "Chris Pappas",
-  "lastName": "Pappas",
-  "state": "NH",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "452 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5456",
+    "zipCode": 20515
+  },
+  "bioguideId": "P000614",
+  "birthYear": "1980",
+  "cosponsoredLegislation": {
+    "count": 2048,
+    "url": "https://api.congress.gov/v3/member/P000614/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/P000614.jpg"
+  },
+  "directOrderName": "Chris Pappas",
   "district": 1,
-  "nameTitle": "Rep. Chris Pappas (NH-1)",
-  "imageUrl": "https://www.congress.gov/img/member/p000614_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Chris",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Pappas, Chris",
+  "lastName": "Pappas",
+  "officialWebsiteUrl": "https://pappas.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Chris Pappas",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Chris",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Pappas, Chris",
+      "lastName": "Pappas",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Chris Pappas",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Chris",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Pappas, Chris",
+      "lastName": "Pappas",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Chris Pappas",
+      "firstName": "Chris",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Pappas, Chris",
+      "lastName": "Pappas",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 165,
+    "url": "https://api.congress.gov/v3/member/P000614/sponsored-legislation"
+  },
+  "state": "New Hampshire",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NH",
+      "stateName": "New Hampshire"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NH",
+      "stateName": "New Hampshire"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NH",
+      "stateName": "New Hampshire"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NH",
+      "stateName": "New Hampshire"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "P000614",
+    "fec": [
+      "H8NH01210"
+    ],
+    "govtrack": 412795,
+    "wikipedia": "Chris Pappas (American politician)",
+    "wikidata": "Q5107684",
+    "opensecrets": "N00042161",
+    "google_entity_id": "kg:/m/0nd3t8z",
+    "icpsr": 21951,
+    "votesmart": 42635,
+    "ballotpedia": "Chris Pappas",
+    "pictorial": 13148,
+    "twitter": "RepChrisPappas",
+    "twitter_id": 1067748650485497900
+  },
+  "name": {
+    "first": "Chris",
+    "last": "Pappas",
+    "official_full": "Chris Pappas"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-06-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NH",
+    "district": 1,
+    "party": "Democrat",
+    "url": "https://pappas.house.gov",
+    "address": "452 Cannon House Office Building Washington DC 20515-2901",
+    "office": "452 Cannon House Office Building",
+    "phone": "202-225-5456"
+  }
 }

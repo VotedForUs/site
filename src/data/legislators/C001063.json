@@ -1,13 +1,226 @@
 {
-  "id": "C001063",
-  "bioguide": "C001063",
-  "name": "Henry Cuellar",
-  "lastName": "Cuellar",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2308 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1640",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001063",
+  "birthYear": "1955",
+  "cosponsoredLegislation": {
+    "count": 2473,
+    "url": "https://api.congress.gov/v3/member/C001063/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/C001063.jpg"
+  },
+  "directOrderName": "Henry Cuellar",
   "district": 28,
-  "nameTitle": "Rep. Henry Cuellar (TX-28)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_tx_28_cuellar_henry_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Henry",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cuellar, Henry",
+  "lastName": "Cuellar",
+  "officialWebsiteUrl": "https://cuellar.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2005
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Henry Cuellar",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Henry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cuellar, Henry",
+      "lastName": "Cuellar",
+      "startDate": "2005-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Henry Cuellar",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Henry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cuellar, Henry",
+      "lastName": "Cuellar",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Henry Cuellar",
+      "firstName": "Henry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cuellar, Henry",
+      "lastName": "Cuellar",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 122,
+    "url": "https://api.congress.gov/v3/member/C001063/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 28,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 28,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 28,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 28,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 28,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 28,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 28,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 28,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 28,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 28,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 28,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "C001063",
+    "thomas": "01807",
+    "govtrack": 400657,
+    "opensecrets": "N00024978",
+    "votesmart": 5486,
+    "fec": [
+      "H2TX23082"
+    ],
+    "cspan": 1013062,
+    "wikipedia": "Henry Cuellar",
+    "house_history": 11790,
+    "maplight": 662,
+    "icpsr": 20533,
+    "wikidata": "Q539562",
+    "google_entity_id": "kg:/m/04clj6",
+    "ballotpedia": "Henry Cuellar",
+    "pictorial": 13285,
+    "twitter": "RepCuellar",
+    "facebook": "152569121550",
+    "youtube": "henrycuellar",
+    "youtube_id": "UCVgEOdJx3tyILO9EjZ-heEQ",
+    "twitter_id": 210926192,
+    "instagram": "RepCuellar"
+  },
+  "name": {
+    "first": "Henry",
+    "last": "Cuellar",
+    "official_full": "Henry Cuellar"
+  },
+  "bio": {
+    "birthday": "1955-09-19",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 28,
+    "party": "Democrat",
+    "url": "https://cuellar.house.gov",
+    "rss_url": "http://cuellar.house.gov/news/rss.aspx",
+    "address": "2308 Rayburn House Office Building Washington DC 20515-4328",
+    "office": "2308 Rayburn House Office Building",
+    "phone": "202-225-1640"
+  }
 }

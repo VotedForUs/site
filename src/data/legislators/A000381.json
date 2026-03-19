@@ -1,13 +1,113 @@
 {
-  "id": "A000381",
-  "bioguide": "A000381",
-  "name": "Yassamin Ansari",
-  "lastName": "Ansari",
-  "state": "AZ",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1432 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4065",
+    "zipCode": 20515
+  },
+  "bioguideId": "A000381",
+  "birthYear": "1992",
+  "cosponsoredLegislation": {
+    "count": 427,
+    "url": "https://api.congress.gov/v3/member/A000381/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/A000381.jpg"
+  },
+  "directOrderName": "Yassamin Ansari",
   "district": 3,
-  "nameTitle": "Rep. Yassamin Ansari (AZ-3)",
-  "imageUrl": "https://www.congress.gov/img/member/67741fc30b34857ecc90902e_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Yassamin",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Ansari, Yassamin",
+  "lastName": "Ansari",
+  "officialWebsiteUrl": "https://ansari.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Yassamin Ansari",
+      "firstName": "Yassamin",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ansari, Yassamin",
+      "lastName": "Ansari",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Yassamin Ansari",
+      "endDate": "2025-01-10T17:34:07Z",
+      "firstName": "Yassamin",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ansari, Yassamin",
+      "lastName": "Ansari",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Yassamin Ansari",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Yassamin",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ansari, Yassamin",
+      "lastName": "Ansari",
+      "startDate": "2025-01-10T17:34:08Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 26,
+    "url": "https://api.congress.gov/v3/member/A000381/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "A000381",
+    "fec": [
+      "H4AZ03109"
+    ],
+    "govtrack": 456972,
+    "opensecrets": "N00052497",
+    "wikipedia": "Yassamin Ansari",
+    "wikidata": "Q122226202",
+    "twitter": "RepYassAnsari",
+    "facebook": "RepYassAnsari",
+    "instagram": "RepYassAnsari"
+  },
+  "name": {
+    "first": "Yassamin",
+    "last": "Ansari",
+    "official_full": "Yassamin Ansari"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1992-04-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AZ",
+    "district": 3,
+    "party": "Democrat",
+    "address": "1432 Longworth House Office Building Washington DC 20515-0303",
+    "office": "1432 Longworth House Office Building",
+    "phone": "202-225-4065",
+    "url": "https://ansari.house.gov"
+  }
 }

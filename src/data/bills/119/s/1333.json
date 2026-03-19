@@ -230,9 +230,45 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Strengthening Child Exploitation Enforcement Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Strengthening Child Exploitation Enforcement Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-10-09T11:03:14Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Strengthening Child Exploitation Enforcement Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-09-30T07:08:15Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Strengthening Child Exploitation Enforcement Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-22T03:53:18Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend title 18, United States Code, to modify provisions relating to kidnapping, sexual abuse, and illicit sexual conduct with respect to minors.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-22T03:48:32Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-28T17:50:50Z",
-  "updateDateIncludingText": "2025-10-28T17:50:50Z",
+  "updateDate": "2025-12-05T21:57:28Z",
+  "updateDateIncludingText": "2025-12-05T21:57:28Z",
   "id": "119-S-1333",
   "lastActionDate": "2025-10-10",
   "lastRecordedVoteDate": "2025-09-29"
