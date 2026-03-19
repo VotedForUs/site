@@ -1,13 +1,114 @@
 {
-  "id": "C001137",
-  "bioguide": "C001137",
-  "name": "Jeff Crank",
-  "lastName": "Crank",
-  "state": "CO",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1029 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4422",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001137",
+  "birthYear": "1967",
+  "cosponsoredLegislation": {
+    "count": 98,
+    "url": "https://api.congress.gov/v3/member/C001137/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001137.jpg"
+  },
+  "directOrderName": "Jeff Crank",
   "district": 5,
-  "nameTitle": "Rep. Jeff Crank (CO-5)",
-  "imageUrl": "https://www.congress.gov/img/member/677424810b34857ecc909071_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jeff",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Crank, Jeff",
+  "lastName": "Crank",
+  "officialWebsiteUrl": "https://crank.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jeff Crank",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Jeff",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crank, Jeff",
+      "lastName": "Crank",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Jeff Crank",
+      "firstName": "Jeff",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crank, Jeff",
+      "lastName": "Crank",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jeff Crank",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Jeff",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crank, Jeff",
+      "lastName": "Crank",
+      "startDate": "2025-01-03T17:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 5,
+    "url": "https://api.congress.gov/v3/member/C001137/sponsored-legislation"
+  },
+  "state": "Colorado",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "C001137",
+    "fec": [
+      "H6CO05142"
+    ],
+    "govtrack": 456983,
+    "opensecrets": "N00028132",
+    "wikipedia": "Jeff Crank",
+    "wikidata": "Q27663361",
+    "twitter": "RepJeffCrank",
+    "facebook": "RepJeffCrank",
+    "instagram": "repjeffcrank"
+  },
+  "name": {
+    "first": "Jeff",
+    "middle": "George",
+    "last": "Crank",
+    "official_full": "Jeff Crank"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1967-01-28"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CO",
+    "district": 5,
+    "party": "Republican",
+    "address": "1029 Longworth House Office Building Washington DC 20515-0605",
+    "office": "1029 Longworth House Office Building",
+    "phone": "202-225-4422",
+    "url": "https://crank.house.gov"
+  }
 }

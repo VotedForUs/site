@@ -1,13 +1,141 @@
 {
-  "id": "S001203",
-  "bioguide": "S001203",
-  "name": "Tina Smith",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "720 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5641",
+    "zipCode": 20510
+  },
+  "bioguideId": "S001203",
+  "birthYear": "1958",
+  "cosponsoredLegislation": {
+    "count": 2737,
+    "url": "https://api.congress.gov/v3/member/S001203/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/S001203.jpg"
+  },
+  "directOrderName": "Tina Smith",
+  "firstName": "Tina",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Smith, Tina",
   "lastName": "Smith",
-  "state": "MN",
-  "party": "Democrat",
-  "nameTitle": "Sen. Tina Smith (MN)",
-  "imageUrl": "https://www.congress.gov/img/member/s001203_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.smith.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2018
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tina Smith",
+      "firstName": "Tina",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Smith, Tina",
+      "lastName": "Smith",
+      "startDate": "2018-01-03T00:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 331,
+    "url": "https://api.congress.gov/v3/member/S001203/sponsored-legislation"
+  },
+  "state": "Minnesota",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2018,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:46Z",
+  "id": {
+    "bioguide": "S001203",
+    "lis": "S394",
+    "govtrack": 412742,
+    "votesmart": 152968,
+    "fec": [
+      "S8MN00578"
+    ],
+    "cspan": 111313,
+    "icpsr": 41706,
+    "wikipedia": "Tina Smith",
+    "ballotpedia": "Tina Smith",
+    "wikidata": "Q18631509",
+    "google_entity_id": "kg:/m/0127xvy3",
+    "maplight": 2253,
+    "opensecrets": "N00042353",
+    "pictorial": 13389,
+    "twitter": "SenTinaSmith",
+    "twitter_id": 941000686275387400,
+    "facebook": "USSenTinaSmith",
+    "instagram": "senatortinasmith"
+  },
+  "name": {
+    "first": "Tina",
+    "middle": "Flint",
+    "last": "Smith",
+    "official_full": "Tina Smith"
+  },
+  "bio": {
+    "birthday": "1958-03-04",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "MN",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.smith.senate.gov",
+    "contact_form": "https://www.smith.senate.gov/share-your-opinion/",
+    "address": "720 Hart Senate Office Building Washington DC 20510",
+    "office": "720 Hart Senate Office Building",
+    "phone": "202-224-5641"
+  }
 }

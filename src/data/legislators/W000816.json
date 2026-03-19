@@ -1,13 +1,184 @@
 {
-  "id": "W000816",
-  "bioguide": "W000816",
-  "name": "Roger Williams",
-  "lastName": "Williams",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2336 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-9896",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000816",
+  "birthYear": "1949",
+  "cosponsoredLegislation": {
+    "count": 1365,
+    "url": "https://api.congress.gov/v3/member/W000816/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000816.jpg"
+  },
+  "directOrderName": "Roger Williams",
   "district": 25,
-  "nameTitle": "Rep. Roger Williams (TX-25)",
-  "imageUrl": "https://www.congress.gov/img/member/w000816_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Roger",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Williams, Roger",
+  "lastName": "Williams",
+  "officialWebsiteUrl": "https://williams.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Roger Williams",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Roger",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Williams, Roger",
+      "lastName": "Williams",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Roger Williams",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Roger",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Williams, Roger",
+      "lastName": "Williams",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Roger Williams",
+      "firstName": "Roger",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Williams, Roger",
+      "lastName": "Williams",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 138,
+    "url": "https://api.congress.gov/v3/member/W000816/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 25,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 25,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 25,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 25,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 25,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 25,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 25,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "govtrack": 412578,
+    "bioguide": "W000816",
+    "thomas": "02165",
+    "cspan": 623742,
+    "fec": [
+      "H2TX33040",
+      "S2TX00270"
+    ],
+    "votesmart": 50112,
+    "wikipedia": "Roger Williams (Texas politician)",
+    "opensecrets": "N00030602",
+    "ballotpedia": "Roger Williams",
+    "maplight": 1802,
+    "icpsr": 21364,
+    "wikidata": "Q4014560",
+    "google_entity_id": "kg:/m/08rszb",
+    "pictorial": 13282,
+    "twitter": "RepRWilliams",
+    "facebook": "RepRogerWilliams",
+    "youtube_id": "UCBtfmMMQarjtLB9U_pWMOhw",
+    "twitter_id": 1077446982
+  },
+  "name": {
+    "first": "Roger",
+    "last": "Williams",
+    "official_full": "Roger Williams"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1949-09-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 25,
+    "party": "Republican",
+    "url": "https://williams.house.gov",
+    "rss_url": "http://williams.house.gov/rss.xml",
+    "address": "2336 Rayburn House Office Building Washington DC 20515-4325",
+    "office": "2336 Rayburn House Office Building",
+    "phone": "202-225-9896"
+  }
 }

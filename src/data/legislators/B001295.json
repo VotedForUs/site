@@ -1,13 +1,172 @@
 {
-  "id": "B001295",
-  "bioguide": "B001295",
-  "name": "Mike Bost",
-  "lastName": "Bost",
-  "state": "IL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "352 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5661",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001295",
+  "birthYear": "1960",
+  "cosponsoredLegislation": {
+    "count": 1617,
+    "url": "https://api.congress.gov/v3/member/B001295/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001295.jpg"
+  },
+  "directOrderName": "Mike Bost",
   "district": 12,
-  "nameTitle": "Rep. Mike Bost (IL-12)",
-  "imageUrl": "https://www.congress.gov/img/member/b001295_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Bost, Mike",
+  "lastName": "Bost",
+  "officialWebsiteUrl": "https://bost.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Bost",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bost, Mike",
+      "lastName": "Bost",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Bost",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bost, Mike",
+      "lastName": "Bost",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Bost",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bost, Mike",
+      "lastName": "Bost",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 137,
+    "url": "https://api.congress.gov/v3/member/B001295/sponsored-legislation"
+  },
+  "state": "Illinois",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 12,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 12,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 12,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 12,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 12,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 12,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "B001295",
+    "fec": [
+      "H4IL12060"
+    ],
+    "govtrack": 412629,
+    "opensecrets": "N00035420",
+    "thomas": "02243",
+    "maplight": 2085,
+    "wikidata": "Q6846090",
+    "wikipedia": "Mike Bost",
+    "google_entity_id": "kg:/m/0kry42",
+    "cspan": 76176,
+    "icpsr": 21519,
+    "votesmart": 6302,
+    "ballotpedia": "Mike Bost",
+    "pictorial": 13044,
+    "twitter": "RepBost",
+    "facebook": "RepBost",
+    "twitter_id": 2964877294,
+    "youtube_id": "UCYA1psY06vSf3QadHuCrmjQ"
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Bost",
+    "official_full": "Mike Bost"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1960-12-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IL",
+    "district": 12,
+    "party": "Republican",
+    "url": "https://bost.house.gov",
+    "address": "352 Cannon House Office Building Washington DC 20515-1312",
+    "office": "352 Cannon House Office Building",
+    "phone": "202-225-5661"
+  }
 }

@@ -1,13 +1,105 @@
 {
-  "id": "W000831",
-  "bioguide": "W000831",
-  "name": "James R. Walkinshaw",
-  "lastName": "Walkinshaw",
-  "state": "VA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2265 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1492",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000831",
+  "birthYear": "1982",
+  "cosponsoredLegislation": {
+    "count": 212,
+    "url": "https://api.congress.gov/v3/member/W000831/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000831.jpg"
+  },
+  "directOrderName": "James R. Walkinshaw",
   "district": 11,
-  "nameTitle": "Rep. James R. Walkinshaw (VA-11)",
-  "imageUrl": "https://www.congress.gov/img/member/68c1bd4ca929c5b98220e069_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "James",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Walkinshaw, James R.",
+  "lastName": "Walkinshaw",
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://walkinshaw.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "James R. Walkinshaw",
+      "endDate": "2025-09-12T07:45:26Z",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Walkinshaw, James R.",
+      "lastName": "Walkinshaw",
+      "middleName": "R.",
+      "startDate": "2025-09-10T07:45:28Z"
+    },
+    {
+      "directOrderName": "James R. Walkinshaw",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Walkinshaw, James R.",
+      "lastName": "Walkinshaw",
+      "middleName": "R.",
+      "startDate": "2025-09-12T07:45:27Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 10,
+    "url": "https://api.congress.gov/v3/member/W000831/sponsored-legislation"
+  },
+  "state": "Virginia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 11,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "W000831",
+    "fec": [
+      "H6VA11066"
+    ],
+    "govtrack": 457036,
+    "wikipedia": "James Walkinshaw",
+    "wikidata": "Q135132001",
+    "ballotpedia": "James Walkinshaw"
+  },
+  "name": {
+    "first": "James",
+    "middle": "R.",
+    "last": "Walkinshaw",
+    "official_full": "James R. Walkinshaw"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1982-10-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-09-10",
+    "end": "2027-01-03",
+    "state": "VA",
+    "district": 11,
+    "party": "Democrat",
+    "url": "https://walkinshaw.house.gov/",
+    "address": "2265 Rayburn House Office Building Washington DC 20515-4611",
+    "office": "2265 Rayburn House Office Building",
+    "phone": "202-225-1492"
+  }
 }

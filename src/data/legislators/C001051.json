@@ -1,13 +1,232 @@
 {
-  "id": "C001051",
-  "bioguide": "C001051",
-  "name": "John R. Carter",
-  "lastName": "Carter",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2208 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3864",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001051",
+  "birthYear": "1941",
+  "cosponsoredLegislation": {
+    "count": 2296,
+    "url": "https://api.congress.gov/v3/member/C001051/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001051.jpg"
+  },
+  "directOrderName": "John R. Carter",
   "district": 31,
-  "nameTitle": "Rep. John R. Carter (TX-31)",
-  "imageUrl": "https://www.congress.gov/img/member/c001051_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Carter, John R.",
+  "lastName": "Carter",
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://carter.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2003
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John R. Carter",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carter, John R.",
+      "lastName": "Carter",
+      "middleName": "R.",
+      "startDate": "2003-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "John R. Carter",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Carter, John R.",
+      "lastName": "Carter",
+      "middleName": "R.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 141,
+    "url": "https://api.congress.gov/v3/member/C001051/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 31,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 31,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 31,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 31,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 31,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 31,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 31,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 31,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 31,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 31,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 31,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 31,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "C001051",
+    "thomas": "01752",
+    "govtrack": 400068,
+    "opensecrets": "N00025095",
+    "votesmart": 49296,
+    "fec": [
+      "H2TX31044"
+    ],
+    "cspan": 1004257,
+    "wikipedia": "John Carter (Texas politician)",
+    "house_history": 11770,
+    "ballotpedia": "John Carter",
+    "maplight": 185,
+    "icpsr": 20356,
+    "wikidata": "Q369814",
+    "google_entity_id": "kg:/m/04m7rg",
+    "pictorial": 13288,
+    "twitter": "JudgeCarter",
+    "facebook": "judgecarter",
+    "youtube": "repjohncarter",
+    "youtube_id": "UC9pkaOrhPfouzkJ8oAdI-1w",
+    "instagram": "judgecarter",
+    "instagram_id": 456560563,
+    "twitter_id": 18030431
+  },
+  "name": {
+    "first": "John",
+    "middle": "R.",
+    "last": "Carter",
+    "official_full": "John R. Carter"
+  },
+  "bio": {
+    "birthday": "1941-11-06",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 31,
+    "party": "Republican",
+    "url": "https://carter.house.gov",
+    "rss_url": "http://carter.house.gov/common/rss/?rss=40",
+    "address": "2208 Rayburn House Office Building Washington DC 20515-4331",
+    "office": "2208 Rayburn House Office Building",
+    "phone": "202-225-3864"
+  }
 }

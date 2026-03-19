@@ -1,13 +1,159 @@
 {
-  "id": "H001081",
-  "bioguide": "H001081",
-  "name": "Jahana Hayes",
-  "lastName": "Hayes",
-  "state": "CT",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2049 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4476",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001081",
+  "birthYear": "1973",
+  "cosponsoredLegislation": {
+    "count": 2762,
+    "url": "https://api.congress.gov/v3/member/H001081/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001081.jpg"
+  },
+  "directOrderName": "Jahana Hayes",
   "district": 5,
-  "nameTitle": "Rep. Jahana Hayes (CT-5)",
-  "imageUrl": "https://www.congress.gov/img/member/h001081_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jahana",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Hayes, Jahana",
+  "lastName": "Hayes",
+  "officialWebsiteUrl": "https://hayes.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jahana Hayes",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jahana",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hayes, Jahana",
+      "lastName": "Hayes",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jahana Hayes",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Jahana",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hayes, Jahana",
+      "lastName": "Hayes",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jahana Hayes",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Jahana",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hayes, Jahana",
+      "lastName": "Hayes",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jahana Hayes",
+      "firstName": "Jahana",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hayes, Jahana",
+      "lastName": "Hayes",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 118,
+    "url": "https://api.congress.gov/v3/member/H001081/sponsored-legislation"
+  },
+  "state": "Connecticut",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 5,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "H001081",
+    "fec": [
+      "H8CT05245"
+    ],
+    "govtrack": 412763,
+    "wikipedia": "Jahana Hayes",
+    "wikidata": "Q24951316",
+    "opensecrets": "N00043421",
+    "votesmart": 181744,
+    "icpsr": 21931,
+    "ballotpedia": "Jahana Hayes",
+    "google_entity_id": "kg:/g/11cn8wstn6",
+    "pictorial": 12979,
+    "twitter": "RepJahanaHayes",
+    "twitter_id": 1082086081238102000,
+    "facebook": "RepJahanaHayes",
+    "instagram": "repjahanahayes",
+    "youtube": "UCXngpVME5LZjcdXxZQxSDQA"
+  },
+  "name": {
+    "first": "Jahana",
+    "last": "Hayes",
+    "official_full": "Jahana Hayes"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1973-03-08"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CT",
+    "district": 5,
+    "party": "Democrat",
+    "url": "https://hayes.house.gov",
+    "address": "2049 Rayburn House Office Building Washington DC 20515-0705",
+    "office": "2049 Rayburn House Office Building",
+    "phone": "202-225-4476"
+  }
 }

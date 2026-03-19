@@ -1,13 +1,143 @@
 {
-  "id": "G000593",
-  "bioguide": "G000593",
-  "name": "Carlos A. Gimenez",
-  "lastName": "Gimenez",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "448 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2778",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000593",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 734,
+    "url": "https://api.congress.gov/v3/member/G000593/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000593.jpg"
+  },
+  "directOrderName": "Carlos A. Gimenez",
   "district": 28,
-  "nameTitle": "Rep. Carlos A. Gimenez (FL-28)",
-  "imageUrl": "https://www.congress.gov/img/member/g000593_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Carlos",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Gimenez, Carlos A.",
+  "lastName": "Gimenez",
+  "middleName": "A.",
+  "officialWebsiteUrl": "https://gimenez.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Carlos A. Gimenez",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Carlos",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gimenez, Carlos A.",
+      "lastName": "Gimenez",
+      "middleName": "A.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Carlos A. Gimenez",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Carlos",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gimenez, Carlos A.",
+      "lastName": "Gimenez",
+      "middleName": "A.",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Carlos A. Gimenez",
+      "firstName": "Carlos",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gimenez, Carlos A.",
+      "lastName": "Gimenez",
+      "middleName": "A.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 54,
+    "url": "https://api.congress.gov/v3/member/G000593/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 26,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 28,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 28,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "G000593",
+    "fec": [
+      "H0FL26036"
+    ],
+    "opensecrets": "N00046394",
+    "govtrack": 456809,
+    "wikidata": "Q5041653",
+    "wikipedia": "Carlos A. Giménez",
+    "google_entity_id": "kg:/m/03cc6vt",
+    "votesmart": 81366,
+    "ballotpedia": "Carlos Gimenez",
+    "pictorial": 13009,
+    "twitter": "RepCarlos",
+    "twitter_id": 1343679195034103800,
+    "facebook": "RepCarlosGimenez",
+    "instagram": "repcarlosfl"
+  },
+  "name": {
+    "first": "Carlos",
+    "middle": "A.",
+    "last": "Gimenez",
+    "official_full": "Carlos A. Gimenez"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1954-01-17"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 28,
+    "party": "Republican",
+    "url": "https://gimenez.house.gov",
+    "address": "448 Cannon House Office Building Washington DC 20515-0001",
+    "office": "448 Cannon House Office Building",
+    "phone": "202-225-2778"
+  }
 }

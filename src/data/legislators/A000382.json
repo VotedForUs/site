@@ -1,12 +1,112 @@
 {
-  "id": "A000382",
-  "bioguide": "A000382",
-  "name": "Angela D. Alsobrooks",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "374 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4524",
+    "zipCode": 20510
+  },
+  "bioguideId": "A000382",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 364,
+    "url": "https://api.congress.gov/v3/member/A000382/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "imageUrl": "/images/legislators/A000382.jpg"
+  },
+  "directOrderName": "Angela D. Alsobrooks",
+  "firstName": "Angela",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Alsobrooks, Angela D.",
   "lastName": "Alsobrooks",
-  "state": "MD",
-  "party": "Democrat",
-  "nameTitle": "Sen. Angela D. Alsobrooks (MD)",
-  "imageUrl": "https://www.congress.gov/img/member/67acdbbf044eb506e25958f2_200.jpg",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://alsobrooks.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Angela Alsobrooks",
+      "endDate": "2025-02-15T09:44:59Z",
+      "firstName": "Angela",
+      "invertedOrderName": "Alsobrooks, Angela",
+      "lastName": "Alsobrooks",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Angela D. Alsobrooks",
+      "endDate": "2025-04-05T08:44:59Z",
+      "firstName": "Angela",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Alsobrooks, Angela D.",
+      "lastName": "Alsobrooks",
+      "startDate": "2025-02-15T09:45:00Z"
+    },
+    {
+      "directOrderName": "Angela D. Alsobrooks",
+      "firstName": "Angela",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Alsobrooks, Angela D.",
+      "lastName": "Alsobrooks",
+      "startDate": "2025-04-05T08:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 50,
+    "url": "https://api.congress.gov/v3/member/A000382/sponsored-legislation"
+  },
+  "state": "Maryland",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:24Z",
+  "id": {
+    "bioguide": "A000382",
+    "lis": "S428",
+    "fec": [
+      "S4MD00327"
+    ],
+    "govtrack": 456965,
+    "opensecrets": "N00053033",
+    "wikipedia": "Angela Alsobrooks",
+    "wikidata": "Q58755148",
+    "facebook": "SenatorAlsobrooks",
+    "instagram": "sen_alsobrooks"
+  },
+  "name": {
+    "first": "Angela",
+    "middle": "Deneece",
+    "last": "Alsobrooks",
+    "official_full": "Angela D. Alsobrooks"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1971-02-23"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "MD",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.alsobrooks.senate.gov",
+    "contact_form": "https://alsobrooks.senate.gov/",
+    "address": "374 Russell Senate Office Building Washington DC 20510",
+    "office": "374 Russell Senate Office Building",
+    "phone": "202-224-4524"
+  }
 }

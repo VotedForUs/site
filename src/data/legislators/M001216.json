@@ -1,13 +1,126 @@
 {
-  "id": "M001216",
-  "bioguide": "M001216",
-  "name": "Cory Mills",
-  "lastName": "Mills",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "346 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4035",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001216",
+  "birthYear": "1980",
+  "cosponsoredLegislation": {
+    "count": 363,
+    "url": "https://api.congress.gov/v3/member/M001216/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001216.jpg"
+  },
+  "directOrderName": "Cory Mills",
   "district": 7,
-  "nameTitle": "Rep. Cory Mills (FL-7)",
-  "imageUrl": "https://www.congress.gov/img/member/m001216_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Cory",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Mills, Cory",
+  "lastName": "Mills",
+  "officialWebsiteUrl": "https://mills.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Cory Mills",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Cory",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mills, Cory",
+      "lastName": "Mills",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Cory Mills",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Cory",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mills, Cory",
+      "lastName": "Mills",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Cory Mills",
+      "firstName": "Cory",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mills, Cory",
+      "lastName": "Mills",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 47,
+    "url": "https://api.congress.gov/v3/member/M001216/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "M001216",
+    "fec": [
+      "H2FL07156"
+    ],
+    "govtrack": 456889,
+    "opensecrets": "N00048179",
+    "wikidata": "Q115137377",
+    "wikipedia": "Cory Mills",
+    "votesmart": 209085,
+    "pictorial": 12988,
+    "google_entity_id": "kg:/g/11lkx217y6",
+    "twitter": "RepMillsPress",
+    "facebook": "100089218152197",
+    "instagram": "repcorymills"
+  },
+  "name": {
+    "first": "Cory",
+    "last": "Mills",
+    "official_full": "Cory Mills"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-07-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 7,
+    "party": "Republican",
+    "url": "https://mills.house.gov",
+    "address": "346 Cannon House Office Building Washington DC 20515-0907",
+    "office": "346 Cannon House Office Building",
+    "phone": "202-225-4035"
+  }
 }

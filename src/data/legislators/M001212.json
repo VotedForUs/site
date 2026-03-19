@@ -1,13 +1,137 @@
 {
-  "id": "M001212",
-  "bioguide": "M001212",
-  "name": "Barry Moore",
-  "lastName": "Moore",
-  "state": "AL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1511 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2901",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001212",
+  "birthYear": "1966",
+  "cosponsoredLegislation": {
+    "count": 1065,
+    "url": "https://api.congress.gov/v3/member/M001212/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001212.jpg"
+  },
+  "directOrderName": "Barry Moore",
   "district": 1,
-  "nameTitle": "Rep. Barry Moore (AL-1)",
-  "imageUrl": "https://www.congress.gov/img/member/m001212_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Barry",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Moore, Barry",
+  "lastName": "Moore",
+  "officialWebsiteUrl": "https://barrymoore.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Barry Moore",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Barry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Barry",
+      "lastName": "Moore",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Barry Moore",
+      "firstName": "Barry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Barry",
+      "lastName": "Moore",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Barry Moore",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Barry",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Barry",
+      "lastName": "Moore",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 59,
+    "url": "https://api.congress.gov/v3/member/M001212/sponsored-legislation"
+  },
+  "state": "Alabama",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "M001212",
+    "fec": [
+      "H8AL02171"
+    ],
+    "opensecrets": "N00041295",
+    "govtrack": 456800,
+    "wikidata": "Q63198048",
+    "wikipedia": "Barry Moore (American politician)",
+    "google_entity_id": "kg:/g/11fkw7vjdf",
+    "ballotpedia": "Barry Moore (Alabama)",
+    "pictorial": 12895,
+    "votesmart": 121792,
+    "twitter": "RepBarryMoore",
+    "twitter_id": 1339006078688825300,
+    "facebook": "RepBarryMoore"
+  },
+  "name": {
+    "first": "Barry",
+    "last": "Moore",
+    "official_full": "Barry Moore"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1966-09-26"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AL",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://barrymoore.house.gov",
+    "address": "1511 Longworth House Office Building Washington DC 20515-0101",
+    "office": "1511 Longworth House Office Building",
+    "phone": "202-225-2901"
+  }
 }

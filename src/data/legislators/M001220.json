@@ -1,13 +1,117 @@
 {
-  "id": "M001220",
-  "bioguide": "M001220",
-  "name": "Morgan McGarvey",
-  "lastName": "McGarvey",
-  "state": "KY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1527 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5401",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001220",
+  "birthYear": "1979",
+  "cosponsoredLegislation": {
+    "count": 627,
+    "url": "https://api.congress.gov/v3/member/M001220/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001220.jpg"
+  },
+  "directOrderName": "Morgan McGarvey",
   "district": 3,
-  "nameTitle": "Rep. Morgan McGarvey (KY-3)",
-  "imageUrl": "https://www.congress.gov/img/member/m001220_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Morgan",
+  "honorificName": "Mr.",
+  "invertedOrderName": "McGarvey, Morgan",
+  "lastName": "McGarvey",
+  "officialWebsiteUrl": "https://mcgarvey.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Morgan McGarvey",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Morgan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McGarvey, Morgan",
+      "lastName": "McGarvey",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Morgan McGarvey",
+      "firstName": "Morgan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McGarvey, Morgan",
+      "lastName": "McGarvey",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 41,
+    "url": "https://api.congress.gov/v3/member/M001220/sponsored-legislation"
+  },
+  "state": "Kentucky",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "M001220",
+    "fec": [
+      "H2KY03206"
+    ],
+    "govtrack": 456904,
+    "opensecrets": "N00049295",
+    "wikidata": "Q16732298",
+    "wikipedia": "Morgan McGarvey",
+    "votesmart": 139826,
+    "pictorial": 13065,
+    "twitter": "RepMcGarvey",
+    "twitter_id": 1610300298303787000,
+    "facebook": "RepMcGarvey",
+    "instagram": "repmcgarvey"
+  },
+  "name": {
+    "first": "Morgan",
+    "last": "McGarvey",
+    "official_full": "Morgan McGarvey"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1979-12-23"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "KY",
+    "district": 3,
+    "party": "Democrat",
+    "url": "https://mcgarvey.house.gov",
+    "address": "1527 Longworth House Office Building Washington DC 20515-1703",
+    "office": "1527 Longworth House Office Building",
+    "phone": "202-225-5401"
+  }
 }

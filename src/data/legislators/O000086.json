@@ -1,13 +1,140 @@
 {
-  "id": "O000086",
-  "bioguide": "O000086",
-  "name": "Burgess Owens",
-  "lastName": "Owens",
-  "state": "UT",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "309 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3011",
+    "zipCode": 20515
+  },
+  "bioguideId": "O000086",
+  "birthYear": "1951",
+  "cosponsoredLegislation": {
+    "count": 838,
+    "url": "https://api.congress.gov/v3/member/O000086/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/O000086.jpg"
+  },
+  "directOrderName": "Burgess Owens",
   "district": 4,
-  "nameTitle": "Rep. Burgess Owens (UT-4)",
-  "imageUrl": "https://www.congress.gov/img/member/o000086_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Burgess",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Owens, Burgess",
+  "lastName": "Owens",
+  "officialWebsiteUrl": "https://owens.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Burgess Owens",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Burgess",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Owens, Burgess",
+      "lastName": "Owens",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Burgess Owens",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Burgess",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Owens, Burgess",
+      "lastName": "Owens",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Burgess Owens",
+      "firstName": "Burgess",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Owens, Burgess",
+      "lastName": "Owens",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 57,
+    "url": "https://api.congress.gov/v3/member/O000086/sponsored-legislation"
+  },
+  "state": "Utah",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "O000086",
+    "fec": [
+      "H0UT04076"
+    ],
+    "opensecrets": "N00045812",
+    "govtrack": 456852,
+    "wikidata": "Q4998602",
+    "wikipedia": "Burgess Owens",
+    "google_entity_id": "kg:/m/0286z2f",
+    "ballotpedia": "Burgess Owens",
+    "pictorial": 13299,
+    "votesmart": 191166,
+    "twitter": "RepBurgessOwens",
+    "twitter_id": 1344481217685692400,
+    "facebook": "CongressmanBurgessOwens",
+    "instagram": "repburgessowens",
+    "youtube": "UCxeB7xjbLDJM9Yw6brXsX6Q"
+  },
+  "name": {
+    "first": "Clarence",
+    "nickname": "Burgess",
+    "last": "Owens",
+    "official_full": "Burgess Owens"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1951-08-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "UT",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://owens.house.gov",
+    "address": "309 Cannon House Office Building Washington DC 20515-4404",
+    "office": "309 Cannon House Office Building",
+    "phone": "202-225-3011"
+  }
 }

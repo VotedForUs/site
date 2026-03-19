@@ -1,13 +1,128 @@
 {
-  "id": "B001314",
-  "bioguide": "B001314",
-  "name": "Aaron Bean",
-  "lastName": "Bean",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2459 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-0123",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001314",
+  "birthYear": "1967",
+  "cosponsoredLegislation": {
+    "count": 365,
+    "url": "https://api.congress.gov/v3/member/B001314/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001314.jpg"
+  },
+  "directOrderName": "Aaron Bean",
   "district": 4,
-  "nameTitle": "Rep. Aaron Bean (FL-4)",
-  "imageUrl": "https://www.congress.gov/img/member/b001314_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Aaron",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Bean, Aaron",
+  "lastName": "Bean",
+  "officialWebsiteUrl": "https://bean.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Aaron Bean",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Aaron",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bean, Aaron",
+      "lastName": "Bean",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Aaron Bean",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Aaron",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bean, Aaron",
+      "lastName": "Bean",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Aaron Bean",
+      "firstName": "Aaron",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bean, Aaron",
+      "lastName": "Bean",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 43,
+    "url": "https://api.congress.gov/v3/member/B001314/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "B001314",
+    "fec": [
+      "H2FL04211"
+    ],
+    "govtrack": 456888,
+    "opensecrets": "N00051369",
+    "wikidata": "Q4661833",
+    "wikipedia": "Aaron Bean",
+    "votesmart": 53932,
+    "pictorial": 12985,
+    "ballotpedia": "Aaron Bean",
+    "twitter": "RepAaronBean",
+    "twitter_id": 1604927550081360000,
+    "facebook": "100089355874563",
+    "instagram": "RepAaronBean"
+  },
+  "name": {
+    "first": "Aaron",
+    "middle": "Paul",
+    "last": "Bean",
+    "official_full": "Aaron Bean"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1967-01-25"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://bean.house.gov",
+    "address": "2459 Rayburn House Office Building Washington DC 20515-0904",
+    "office": "2459 Rayburn House Office Building",
+    "phone": "202-225-0123"
+  }
 }

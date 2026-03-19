@@ -1,13 +1,172 @@
 {
-  "id": "C001096",
-  "bioguide": "C001096",
-  "name": "Kevin Cramer",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "313 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2043",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001096",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 3256,
+    "url": "https://api.congress.gov/v3/member/C001096/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001096.jpg"
+  },
+  "directOrderName": "Kevin Cramer",
+  "firstName": "Kevin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cramer, Kevin",
   "lastName": "Cramer",
-  "state": "ND",
-  "party": "Republican",
-  "nameTitle": "Sen. Kevin Cramer (ND)",
-  "imageUrl": "https://www.congress.gov/img/member/c001096_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.cramer.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Kevin Cramer",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cramer, Kevin",
+      "lastName": "Cramer",
+      "startDate": "2023-04-01T06:35:00Z"
+    },
+    {
+      "directOrderName": "Kevin Cramer",
+      "endDate": "2023-04-01T06:34:59Z",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cramer, Kevin",
+      "lastName": "Cramer",
+      "startDate": "2013-01-03T17:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 240,
+    "url": "https://api.congress.gov/v3/member/C001096/sponsored-legislation"
+  },
+  "state": "North Dakota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:58Z",
+  "id": {
+    "govtrack": 412555,
+    "bioguide": "C001096",
+    "thomas": "02144",
+    "cspan": 7600,
+    "votesmart": 444,
+    "wikipedia": "Kevin Cramer",
+    "fec": [
+      "H0ND01026",
+      "H6ND00074",
+      "S8ND00120"
+    ],
+    "opensecrets": "N00004614",
+    "ballotpedia": "Kevin Cramer",
+    "maplight": 1779,
+    "icpsr": 21350,
+    "wikidata": "Q3957020",
+    "google_entity_id": "kg:/m/02rhrnw",
+    "lis": "S398",
+    "pictorial": 13408,
+    "youtube": "kevincramer",
+    "facebook": "CongressmanKevinCramer",
+    "youtube_id": "UCqUPdO9XaAW-dvwwXKbIVdA",
+    "twitter": "SenKevinCramer",
+    "twitter_id": 1048784496,
+    "instagram": "repkevincramer"
+  },
+  "name": {
+    "first": "Kevin",
+    "last": "Cramer",
+    "official_full": "Kevin Cramer"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1961-01-21"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "ND",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.cramer.senate.gov",
+    "contact_form": "https://www.cramer.senate.gov/contact/contact-kevin",
+    "address": "313 Hart Senate Office Building Washington DC 20510",
+    "office": "313 Hart Senate Office Building",
+    "phone": "202-224-2043"
+  }
 }

@@ -1,13 +1,192 @@
 {
-  "id": "B001292",
-  "bioguide": "B001292",
-  "name": "Donald S. Beyer, Jr.",
-  "lastName": "Beyer",
-  "state": "VA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1226 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4376",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001292",
+  "birthYear": "1950",
+  "cosponsoredLegislation": {
+    "count": 2477,
+    "url": "https://api.congress.gov/v3/member/B001292/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001292.jpg"
+  },
+  "directOrderName": "Donald S. Beyer, Jr.",
   "district": 8,
-  "nameTitle": "Rep. Donald S. Beyer, Jr. (VA-8)",
-  "imageUrl": "https://www.congress.gov/img/member/b001292_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Donald",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Beyer, Donald S.",
+  "lastName": "Beyer",
+  "middleName": "S.",
+  "nickName": "Don",
+  "officialWebsiteUrl": "https://beyer.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Donald S. Beyer, Jr.",
+      "endDate": "2024-02-27T13:20:59Z",
+      "firstName": "Donald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Beyer, Donald S., Jr.",
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Donald S. Beyer, Jr.",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Donald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Beyer, Donald S.",
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "startDate": "2024-02-27T13:21:00Z"
+    },
+    {
+      "directOrderName": "Donald S. Beyer, Jr.",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Donald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Beyer, Donald S.",
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Donald S. Beyer, Jr.",
+      "firstName": "Donald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Beyer, Donald S.",
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 252,
+    "url": "https://api.congress.gov/v3/member/B001292/sponsored-legislation"
+  },
+  "state": "Virginia",
+  "suffixName": "Jr.",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 8,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 8,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 8,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "B001292",
+    "fec": [
+      "H4VA08224"
+    ],
+    "govtrack": 412657,
+    "opensecrets": "N00036018",
+    "thomas": "02272",
+    "maplight": 2113,
+    "wikidata": "Q3036086",
+    "wikipedia": "Don Beyer",
+    "google_entity_id": "kg:/m/053g16",
+    "votesmart": 1707,
+    "cspan": 21141,
+    "icpsr": 21554,
+    "ballotpedia": "Don Beyer",
+    "pictorial": 13306,
+    "facebook": "RepDonBeyer",
+    "twitter": "RepDonBeyer",
+    "twitter_id": 2962868158,
+    "instagram": "repdonbeyer",
+    "youtube_id": "UCPJGVbOVcAVGiBwq8qr_T9w",
+    "mastodon": "@RepDonBeyer@mas.to"
+  },
+  "name": {
+    "first": "Donald",
+    "middle": "S.",
+    "last": "Beyer",
+    "suffix": "Jr.",
+    "official_full": "Donald S. Beyer, Jr."
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1950-06-20"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "VA",
+    "district": 8,
+    "party": "Democrat",
+    "url": "https://beyer.house.gov",
+    "address": "1226 Longworth House Office Building Washington DC 20515-4608",
+    "office": "1226 Longworth House Office Building",
+    "phone": "202-225-4376"
+  }
 }

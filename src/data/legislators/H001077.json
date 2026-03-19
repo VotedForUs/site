@@ -1,13 +1,152 @@
 {
-  "id": "H001077",
-  "bioguide": "H001077",
-  "name": "Clay Higgins",
-  "lastName": "Higgins",
-  "state": "LA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "572 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2031",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001077",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 1066,
+    "url": "https://api.congress.gov/v3/member/H001077/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001077.jpg"
+  },
+  "directOrderName": "Clay Higgins",
   "district": 3,
-  "nameTitle": "Rep. Clay Higgins (LA-3)",
-  "imageUrl": "https://www.congress.gov/img/member/h001077_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Clay",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Higgins, Clay",
+  "lastName": "Higgins",
+  "officialWebsiteUrl": "https://clayhiggins.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Clay Higgins",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Clay",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Higgins, Clay",
+      "lastName": "Higgins",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Clay Higgins",
+      "firstName": "Clay",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Higgins, Clay",
+      "lastName": "Higgins",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 155,
+    "url": "https://api.congress.gov/v3/member/H001077/sponsored-legislation"
+  },
+  "state": "Louisiana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "H001077",
+    "govtrack": 412705,
+    "wikipedia": "Clay Higgins",
+    "wikidata": "Q25849505",
+    "votesmart": 174484,
+    "fec": [
+      "H6LA03148"
+    ],
+    "opensecrets": "N00039953",
+    "maplight": 2217,
+    "google_entity_id": "kg:/g/11c1s3lp76",
+    "cspan": 106094,
+    "icpsr": 21724,
+    "ballotpedia": "Clay Higgins",
+    "pictorial": 13071,
+    "twitter": "RepClayHiggins",
+    "facebook": "CongressmanClayHiggins",
+    "twitter_id": 843636970538618900,
+    "instagram": "RepClayHiggins"
+  },
+  "name": {
+    "first": "Clay",
+    "last": "Higgins",
+    "official_full": "Clay Higgins"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1961-08-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "LA",
+    "district": 3,
+    "party": "Republican",
+    "url": "https://clayhiggins.house.gov",
+    "address": "572 Cannon House Office Building Washington DC 20515-1803",
+    "office": "572 Cannon House Office Building",
+    "phone": "202-225-2031"
+  }
 }

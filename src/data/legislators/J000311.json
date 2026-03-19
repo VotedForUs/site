@@ -1,13 +1,114 @@
 {
-  "id": "J000311",
-  "bioguide": "J000311",
-  "name": "Brian Jack",
-  "lastName": "Jack",
-  "state": "GA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1320 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5901",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000311",
+  "birthYear": "1988",
+  "cosponsoredLegislation": {
+    "count": 103,
+    "url": "https://api.congress.gov/v3/member/J000311/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000311.jpg"
+  },
+  "directOrderName": "Brian Jack",
   "district": 3,
-  "nameTitle": "Rep. Brian Jack (GA-3)",
-  "imageUrl": "https://www.congress.gov/img/member/67742e330b34857ecc9090ef_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Brian",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Jack, Brian",
+  "lastName": "Jack",
+  "officialWebsiteUrl": "https://jack.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brian Jack",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jack, Brian",
+      "lastName": "Jack",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Brian Jack",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jack, Brian",
+      "lastName": "Jack",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Brian Jack",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jack, Brian",
+      "lastName": "Jack",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 7,
+    "url": "https://api.congress.gov/v3/member/J000311/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "J000311",
+    "fec": [
+      "H4GA03126"
+    ],
+    "govtrack": 456987,
+    "opensecrets": "N00055118",
+    "wikipedia": "Brian Jack",
+    "wikidata": "Q86493775",
+    "twitter": "RepBrianJack",
+    "facebook": "RepBrianJack",
+    "instagram": "repbrianjack"
+  },
+  "name": {
+    "first": "Brian",
+    "middle": "Timothy",
+    "last": "Jack",
+    "official_full": "Brian Jack"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1988-02-17"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 3,
+    "party": "Republican",
+    "address": "1320 Longworth House Office Building Washington DC 20515-1003",
+    "office": "1320 Longworth House Office Building",
+    "phone": "202-225-5901",
+    "url": "https://jack.house.gov"
+  }
 }

@@ -1,13 +1,154 @@
 {
-  "id": "N000190",
-  "bioguide": "N000190",
-  "name": "Ralph Norman",
-  "lastName": "Norman",
-  "state": "SC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "569 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5501",
+    "zipCode": 20515
+  },
+  "bioguideId": "N000190",
+  "birthYear": "1953",
+  "cosponsoredLegislation": {
+    "count": 1981,
+    "url": "https://api.congress.gov/v3/member/N000190/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/N000190.jpg"
+  },
+  "directOrderName": "Ralph Norman",
   "district": 5,
-  "nameTitle": "Rep. Ralph Norman (SC-5)",
-  "imageUrl": "https://www.congress.gov/img/member/n000190_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ralph",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Norman, Ralph",
+  "lastName": "Norman",
+  "officialWebsiteUrl": "https://norman.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ralph Norman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ralph",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Norman, Ralph",
+      "lastName": "Norman",
+      "startDate": "2017-06-26T00:00:00Z"
+    },
+    {
+      "directOrderName": "Ralph Norman",
+      "firstName": "Ralph",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Norman, Ralph",
+      "lastName": "Norman",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 174,
+    "url": "https://api.congress.gov/v3/member/N000190/sponsored-legislation"
+  },
+  "state": "South Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 5,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 5,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "N000190",
+    "fec": [
+      "H8SC05158"
+    ],
+    "govtrack": 412738,
+    "opensecrets": "N00027783",
+    "votesmart": 47930,
+    "cspan": 61996,
+    "wikipedia": "Ralph Norman",
+    "wikidata": "Q7287914",
+    "ballotpedia": "Ralph Norman",
+    "google_entity_id": "kg:/m/0f9kbx",
+    "house_history": 15032448994,
+    "maplight": 2248,
+    "icpsr": 21753,
+    "pictorial": 13245,
+    "facebook": "RepRalphNorman",
+    "twitter": "RepRalphNorman",
+    "twitter_id": 880480631108644900,
+    "instagram": "repralphnorman",
+    "youtube": "UCVVIZjUpGRB1pgQGDBVBU8Q"
+  },
+  "name": {
+    "first": "Ralph",
+    "last": "Norman",
+    "official_full": "Ralph Norman"
+  },
+  "bio": {
+    "birthday": "1953-06-20",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "SC",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://norman.house.gov",
+    "address": "569 Cannon House Office Building Washington DC 20515-4005",
+    "office": "569 Cannon House Office Building",
+    "phone": "202-225-5501"
+  }
 }

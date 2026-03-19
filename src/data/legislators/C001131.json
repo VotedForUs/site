@@ -1,13 +1,128 @@
 {
-  "id": "C001131",
-  "bioguide": "C001131",
-  "name": "Greg Casar",
-  "lastName": "Casar",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "446 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5645",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001131",
+  "birthYear": "1989",
+  "cosponsoredLegislation": {
+    "count": 622,
+    "url": "https://api.congress.gov/v3/member/C001131/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001131.jpg"
+  },
+  "directOrderName": "Greg Casar",
   "district": 35,
-  "nameTitle": "Rep. Greg Casar (TX-35)",
-  "imageUrl": "https://www.congress.gov/img/member/c001131_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Greg",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Casar, Greg",
+  "lastName": "Casar",
+  "officialWebsiteUrl": "https://casar.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Greg Casar",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Casar, Greg",
+      "lastName": "Casar",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Greg Casar",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Casar, Greg",
+      "lastName": "Casar",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Greg Casar",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Casar, Greg",
+      "lastName": "Casar",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 12,
+    "url": "https://api.congress.gov/v3/member/C001131/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 35,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 35,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "C001131",
+    "fec": [
+      "H2TX35144"
+    ],
+    "govtrack": 456945,
+    "opensecrets": "N00049855",
+    "wikidata": "Q104148369",
+    "wikipedia": "Greg Casar",
+    "google_entity_id": "kg:/g/11fl9pbltx",
+    "votesmart": 161953,
+    "pictorial": 13292,
+    "twitter": "RepCasar",
+    "twitter_id": 1499512178013057000,
+    "facebook": "RepCasar",
+    "instagram": "RepCasar"
+  },
+  "name": {
+    "first": "Gregorio",
+    "middle": "Eduardo",
+    "last": "Casar",
+    "official_full": "Greg Casar"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1989-05-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 35,
+    "party": "Democrat",
+    "url": "https://casar.house.gov",
+    "address": "446 Cannon House Office Building Washington DC 20515-4335",
+    "office": "446 Cannon House Office Building",
+    "phone": "202-225-5645"
+  }
 }

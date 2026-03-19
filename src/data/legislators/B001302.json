@@ -1,13 +1,162 @@
 {
-  "id": "B001302",
-  "bioguide": "B001302",
-  "name": "Andy Biggs",
-  "lastName": "Biggs",
-  "state": "AZ",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "464 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2635",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001302",
+  "birthYear": "1958",
+  "cosponsoredLegislation": {
+    "count": 1455,
+    "url": "https://api.congress.gov/v3/member/B001302/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001302.jpg"
+  },
+  "directOrderName": "Andy Biggs",
   "district": 5,
-  "nameTitle": "Rep. Andy Biggs (AZ-5)",
-  "imageUrl": "https://www.congress.gov/img/member/b001302_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Andy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Biggs, Andy",
+  "lastName": "Biggs",
+  "officialWebsiteUrl": "https://biggs.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Andy Biggs",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Biggs, Andy",
+      "lastName": "Biggs",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Andy Biggs",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Biggs, Andy",
+      "lastName": "Biggs",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Andy Biggs",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Biggs, Andy",
+      "lastName": "Biggs",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 929,
+    "url": "https://api.congress.gov/v3/member/B001302/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 5,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 5,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "B001302",
+    "govtrack": 412683,
+    "wikipedia": "Andy Biggs",
+    "wikidata": "Q16199304",
+    "votesmart": 28088,
+    "fec": [
+      "H6AZ05083"
+    ],
+    "opensecrets": "N00039293",
+    "maplight": 2195,
+    "google_entity_id": "kg:/m/0_1m23v",
+    "cspan": 105145,
+    "icpsr": 21705,
+    "ballotpedia": "Andy Biggs",
+    "pictorial": 12910,
+    "facebook": "RepAndyBiggs",
+    "twitter": "RepAndyBiggsAZ",
+    "twitter_id": 816652616625168400,
+    "instagram": "repandybiggs",
+    "youtube_id": "UCqSq9kWOxk9yNTeILBCVC1w"
+  },
+  "name": {
+    "first": "Andy",
+    "last": "Biggs",
+    "official_full": "Andy Biggs"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1958-11-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AZ",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://biggs.house.gov",
+    "address": "464 Cannon House Office Building Washington DC 20515-0305",
+    "office": "464 Cannon House Office Building",
+    "phone": "202-225-2635"
+  }
 }

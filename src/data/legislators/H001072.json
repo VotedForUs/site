@@ -1,13 +1,168 @@
 {
-  "id": "H001072",
-  "bioguide": "H001072",
-  "name": "J. French Hill",
-  "lastName": "Hill",
-  "state": "AR",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1533 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2506",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001072",
+  "birthYear": "1956",
+  "cosponsoredLegislation": {
+    "count": 1124,
+    "url": "https://api.congress.gov/v3/member/H001072/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001072.jpg"
+  },
+  "directOrderName": "J. French Hill",
   "district": 2,
-  "nameTitle": "Rep. J. French Hill (AR-2)",
-  "imageUrl": "https://www.congress.gov/img/member/h001072_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "J.",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Hill, J. French",
+  "lastName": "Hill",
+  "middleName": "French",
+  "officialWebsiteUrl": "https://hill.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "J. French Hill",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "J.",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hill, J. French",
+      "lastName": "Hill",
+      "middleName": "French",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "J. French Hill",
+      "firstName": "J.",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hill, J. French",
+      "lastName": "Hill",
+      "middleName": "French",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 143,
+    "url": "https://api.congress.gov/v3/member/H001072/sponsored-legislation"
+  },
+  "state": "Arkansas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "H001072",
+    "fec": [
+      "H4AR02141"
+    ],
+    "govtrack": 412609,
+    "opensecrets": "N00035792",
+    "thomas": "02223",
+    "maplight": 2065,
+    "wikidata": "Q18631366",
+    "wikipedia": "French Hill (politician)",
+    "google_entity_id": "kg:/m/0127p1zk",
+    "votesmart": 146290,
+    "cspan": 9265172,
+    "icpsr": 21503,
+    "ballotpedia": "French Hill",
+    "pictorial": 12902,
+    "twitter": "RepFrenchHill",
+    "facebook": "RepFrenchHill",
+    "twitter_id": 2953974395,
+    "instagram": "repfrenchhill",
+    "youtube_id": "UCT8uWroJtkwSsCJlVg0IKvQ"
+  },
+  "name": {
+    "first": "J.",
+    "middle": "French",
+    "last": "Hill",
+    "official_full": "J. French Hill"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1956-12-05"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AR",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://hill.house.gov",
+    "address": "1533 Longworth House Office Building Washington DC 20515-0402",
+    "office": "1533 Longworth House Office Building",
+    "phone": "202-225-2506"
+  }
 }

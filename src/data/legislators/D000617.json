@@ -1,13 +1,200 @@
 {
-  "id": "D000617",
-  "bioguide": "D000617",
-  "name": "Suzan K. DelBene",
-  "lastName": "DelBene",
-  "state": "WA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2311 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6311",
+    "zipCode": 20515
+  },
+  "bioguideId": "D000617",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 3213,
+    "url": "https://api.congress.gov/v3/member/D000617/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/D000617.jpg"
+  },
+  "directOrderName": "Suzan K. DelBene",
   "district": 1,
-  "nameTitle": "Rep. Suzan K. DelBene (WA-1)",
-  "imageUrl": "https://www.congress.gov/img/member/d000617_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Suzan",
+  "honorificName": "Ms.",
+  "invertedOrderName": "DelBene, Suzan K.",
+  "lastName": "DelBene",
+  "middleName": "K.",
+  "officialWebsiteUrl": "https://delbene.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2012
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Suzan K. DelBene",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Suzan",
+      "honorificName": "Ms.",
+      "invertedOrderName": "DelBene, Suzan K.",
+      "lastName": "DelBene",
+      "middleName": "K.",
+      "startDate": "2012-11-13T00:00:00Z"
+    },
+    {
+      "directOrderName": "Suzan K. DelBene",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Suzan",
+      "honorificName": "Ms.",
+      "invertedOrderName": "DelBene, Suzan K.",
+      "lastName": "DelBene",
+      "middleName": "K.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Suzan K. DelBene",
+      "firstName": "Suzan",
+      "honorificName": "Ms.",
+      "invertedOrderName": "DelBene, Suzan K.",
+      "lastName": "DelBene",
+      "middleName": "K.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 149,
+    "url": "https://api.congress.gov/v3/member/D000617/sponsored-legislation"
+  },
+  "state": "Washington",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 1,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2012,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 1,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "D000617",
+    "govtrack": 412505,
+    "opensecrets": "N00030693",
+    "votesmart": 126272,
+    "thomas": "02096",
+    "cspan": 1033929,
+    "wikipedia": "Suzan DelBene",
+    "fec": [
+      "H0WA08046"
+    ],
+    "ballotpedia": "Suzan DelBene",
+    "maplight": 1686,
+    "icpsr": 31101,
+    "house_history": 15032387032,
+    "wikidata": "Q2091892",
+    "google_entity_id": "kg:/m/05p0dnk",
+    "pictorial": 13312,
+    "twitter": "RepDelBene",
+    "facebook": "RepDelBene",
+    "youtube_id": "UCd00b7TpKDZIr-Ujhaktvjg",
+    "twitter_id": 995193054,
+    "instagram": "repdelbene"
+  },
+  "name": {
+    "first": "Suzan",
+    "middle": "K.",
+    "last": "DelBene",
+    "official_full": "Suzan K. DelBene"
+  },
+  "bio": {
+    "birthday": "1962-02-17",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WA",
+    "district": 1,
+    "party": "Democrat",
+    "url": "https://delbene.house.gov",
+    "rss_url": "http://delbene.house.gov/rss.xml",
+    "address": "2311 Rayburn House Office Building Washington DC 20515-4701",
+    "office": "2311 Rayburn House Office Building",
+    "phone": "202-225-6311"
+  }
 }

@@ -1,13 +1,114 @@
 {
-  "id": "S001228",
-  "bioguide": "S001228",
-  "name": "Derek Schmidt",
-  "lastName": "Schmidt",
-  "state": "KS",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1223 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6601",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001228",
+  "birthYear": "1968",
+  "cosponsoredLegislation": {
+    "count": 254,
+    "url": "https://api.congress.gov/v3/member/S001228/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001228.jpg"
+  },
+  "directOrderName": "Derek Schmidt",
   "district": 2,
-  "nameTitle": "Rep. Derek Schmidt (KS-2)",
-  "imageUrl": "https://www.congress.gov/img/member/67745ec50b34857ecc909185_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Derek",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Schmidt, Derek",
+  "lastName": "Schmidt",
+  "officialWebsiteUrl": "https://schmidt.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Derek Schmidt",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Derek",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schmidt, Derek",
+      "lastName": "Schmidt",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Derek Schmidt",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Derek",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schmidt, Derek",
+      "lastName": "Schmidt",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Derek Schmidt",
+      "firstName": "Derek",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schmidt, Derek",
+      "lastName": "Schmidt",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 11,
+    "url": "https://api.congress.gov/v3/member/S001228/sponsored-legislation"
+  },
+  "state": "Kansas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "KS",
+      "stateName": "Kansas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "S001228",
+    "fec": [
+      "H4KS02164"
+    ],
+    "govtrack": 456990,
+    "opensecrets": "N00055179",
+    "wikipedia": "Derek Schmidt",
+    "wikidata": "Q5262335",
+    "twitter": "repderekschmidt",
+    "facebook": "repderekschmidt",
+    "instagram": "repderekschmidt"
+  },
+  "name": {
+    "first": "Derek",
+    "middle": "Larkin",
+    "last": "Schmidt",
+    "official_full": "Derek Schmidt"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1968-01-23"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "KS",
+    "district": 2,
+    "party": "Republican",
+    "address": "1223 Longworth House Office Building Washington DC 20515-1602",
+    "office": "1223 Longworth House Office Building",
+    "phone": "202-225-6601",
+    "url": "https://schmidt.house.gov"
+  }
 }

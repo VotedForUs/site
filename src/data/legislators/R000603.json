@@ -1,13 +1,164 @@
 {
-  "id": "R000603",
-  "bioguide": "R000603",
-  "name": "David Rouzer",
-  "lastName": "Rouzer",
-  "state": "NC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2333 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2731",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000603",
+  "birthYear": "1972",
+  "cosponsoredLegislation": {
+    "count": 1645,
+    "url": "https://api.congress.gov/v3/member/R000603/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000603.jpg"
+  },
+  "directOrderName": "David Rouzer",
   "district": 7,
-  "nameTitle": "Rep. David Rouzer (NC-7)",
-  "imageUrl": "https://www.congress.gov/img/member/r000603_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "David",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Rouzer, David",
+  "lastName": "Rouzer",
+  "officialWebsiteUrl": "https://rouzer.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "David Rouzer",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rouzer, David",
+      "lastName": "Rouzer",
+      "startDate": "2015-01-06T17:00:00Z"
+    },
+    {
+      "directOrderName": "David Rouzer",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rouzer, David",
+      "lastName": "Rouzer",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 98,
+    "url": "https://api.congress.gov/v3/member/R000603/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 7,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 7,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 7,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 7,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "R000603",
+    "fec": [
+      "H2NC07096"
+    ],
+    "govtrack": 412641,
+    "opensecrets": "N00033527",
+    "thomas": "02256",
+    "maplight": 2097,
+    "wikidata": "Q5239255",
+    "wikipedia": "David Rouzer",
+    "google_entity_id": "kg:/m/0jt1s3l",
+    "votesmart": 102964,
+    "cspan": 79710,
+    "icpsr": 21544,
+    "ballotpedia": "David Rouzer",
+    "pictorial": 13136,
+    "twitter": "RepDavidRouzer",
+    "facebook": "RepRouzer",
+    "twitter_id": 834069080,
+    "instagram": "repdavidrouzer",
+    "youtube_id": "UCBvOxpqoGi1HlHjX9v_gHZw"
+  },
+  "name": {
+    "first": "David",
+    "last": "Rouzer",
+    "official_full": "David Rouzer"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1972-02-16"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 7,
+    "party": "Republican",
+    "url": "https://rouzer.house.gov",
+    "address": "2333 Rayburn House Office Building Washington DC 20515-3307",
+    "office": "2333 Rayburn House Office Building",
+    "phone": "202-225-2731"
+  }
 }

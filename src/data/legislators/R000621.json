@@ -1,13 +1,111 @@
 {
-  "id": "R000621",
-  "bioguide": "R000621",
-  "name": "Emily Randall",
-  "lastName": "Randall",
-  "state": "WA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1531 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5916",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000621",
+  "birthYear": "1985",
+  "cosponsoredLegislation": {
+    "count": 298,
+    "url": "https://api.congress.gov/v3/member/R000621/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000621.jpg"
+  },
+  "directOrderName": "Emily Randall",
   "district": 6,
-  "nameTitle": "Rep. Emily Randall (WA-6)",
-  "imageUrl": "https://www.congress.gov/img/member/67745dcf0b34857ecc909173_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Emily",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Randall, Emily",
+  "lastName": "Randall",
+  "officialWebsiteUrl": "https://randall.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Emily Randall",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Emily",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Randall, Emily",
+      "lastName": "Randall",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Emily Randall",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Emily",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Randall, Emily",
+      "lastName": "Randall",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Emily Randall",
+      "firstName": "Emily",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Randall, Emily",
+      "lastName": "Randall",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 11,
+    "url": "https://api.congress.gov/v3/member/R000621/sponsored-legislation"
+  },
+  "state": "Washington",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "R000621",
+    "fec": [
+      "H4WA06117"
+    ],
+    "govtrack": 457030,
+    "opensecrets": "N00054078",
+    "wikipedia": "Emily Randall",
+    "wikidata": "Q60473885"
+  },
+  "name": {
+    "first": "Emily",
+    "middle": "Elissa",
+    "last": "Randall",
+    "official_full": "Emily Randall"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1985-10-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WA",
+    "district": 6,
+    "party": "Democrat",
+    "address": "1531 Longworth House Office Building Washington DC 20515-4706",
+    "office": "1531 Longworth House Office Building",
+    "phone": "202-225-5916",
+    "url": "https://randall.house.gov"
+  }
 }

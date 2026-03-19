@@ -1,13 +1,130 @@
 {
-  "id": "D000230",
-  "bioguide": "D000230",
-  "name": "Donald G. Davis",
-  "lastName": "Davis",
-  "state": "NC",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1123 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3101",
+    "zipCode": 20515
+  },
+  "bioguideId": "D000230",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 1410,
+    "url": "https://api.congress.gov/v3/member/D000230/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/D000230.jpg"
+  },
+  "directOrderName": "Donald G. Davis",
   "district": 1,
-  "nameTitle": "Rep. Donald G. Davis (NC-1)",
-  "imageUrl": "https://www.congress.gov/img/member/d000230_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Donald",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Davis, Donald G.",
+  "lastName": "Davis",
+  "middleName": "G.",
+  "officialWebsiteUrl": "https://dondavis.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Donald G. Davis",
+      "endDate": "2024-02-27T13:20:53Z",
+      "firstName": "Donald",
+      "invertedOrderName": "Davis, Donald G.",
+      "lastName": "Davis",
+      "middleName": "G.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Donald G. Davis",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Donald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Davis, Donald G.",
+      "lastName": "Davis",
+      "middleName": "G.",
+      "startDate": "2024-02-27T13:20:54Z"
+    },
+    {
+      "directOrderName": "Donald G. Davis",
+      "firstName": "Donald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Davis, Donald G.",
+      "lastName": "Davis",
+      "middleName": "G.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 53,
+    "url": "https://api.congress.gov/v3/member/D000230/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "D000230",
+    "fec": [
+      "H2NC02287"
+    ],
+    "govtrack": 456912,
+    "opensecrets": "N00049636",
+    "wikidata": "Q5294403",
+    "wikipedia": "Don Davis (North Carolina politician)",
+    "votesmart": 102950,
+    "pictorial": 13130,
+    "ballotpedia": "Donald Davis",
+    "twitter": "RepDonDavis",
+    "facebook": "RepDonDavis",
+    "instagram": "RepDonDavis"
+  },
+  "name": {
+    "first": "Donald",
+    "middle": "Gene",
+    "last": "Davis",
+    "official_full": "Donald G. Davis"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1971-08-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 1,
+    "party": "Democrat",
+    "url": "https://dondavis.house.gov",
+    "address": "1123 Longworth House Office Building Washington DC 20515-3301",
+    "office": "1123 Longworth House Office Building",
+    "phone": "202-225-3101"
+  }
 }

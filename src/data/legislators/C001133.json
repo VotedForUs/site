@@ -1,13 +1,130 @@
 {
-  "id": "C001133",
-  "bioguide": "C001133",
-  "name": "Juan Ciscomani",
-  "lastName": "Ciscomani",
-  "state": "AZ",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "461 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2542",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001133",
+  "birthYear": "1982",
+  "cosponsoredLegislation": {
+    "count": 624,
+    "url": "https://api.congress.gov/v3/member/C001133/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001133.jpg"
+  },
+  "directOrderName": "Juan Ciscomani",
   "district": 6,
-  "nameTitle": "Rep. Juan Ciscomani (AZ-6)",
-  "imageUrl": "https://www.congress.gov/img/member/c001133_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Juan",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Ciscomani, Juan",
+  "lastName": "Ciscomani",
+  "officialWebsiteUrl": "https://ciscomani.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Juan Ciscomani",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Juan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Ciscomani, Juan",
+      "lastName": "Ciscomani",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Juan Ciscomani",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Juan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Ciscomani, Juan",
+      "lastName": "Ciscomani",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Juan Ciscomani",
+      "firstName": "Juan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Ciscomani, Juan",
+      "lastName": "Ciscomani",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 58,
+    "url": "https://api.congress.gov/v3/member/C001133/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "C001133",
+    "fec": [
+      "H2AZ02360"
+    ],
+    "govtrack": 456880,
+    "opensecrets": "N00049039",
+    "wikidata": "Q115220916",
+    "wikipedia": "Juan Ciscomani",
+    "votesmart": 106728,
+    "pictorial": 12911,
+    "ballotpedia": "Juan Ciscomani",
+    "google_entity_id": "kg:/g/11rwlm4mv5",
+    "twitter": "RepCiscomani",
+    "twitter_id": 1603530970593775600,
+    "facebook": "100089186535085",
+    "instagram": "repjuanciscomani",
+    "youtube": "UCD329AYGX7YnMMSUaTKWHwA"
+  },
+  "name": {
+    "first": "Juan",
+    "middle": "Guadaloupe",
+    "last": "Ciscomani",
+    "official_full": "Juan Ciscomani"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1982-08-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AZ",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://ciscomani.house.gov",
+    "address": "461 Cannon House Office Building Washington DC 20515-0306",
+    "office": "461 Cannon House Office Building",
+    "phone": "202-225-2542"
+  }
 }

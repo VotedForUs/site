@@ -1,13 +1,114 @@
 {
-  "id": "E000301",
-  "bioguide": "E000301",
-  "name": "Sarah Elfreth",
-  "lastName": "Elfreth",
-  "state": "MD",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1213 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4016",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000301",
+  "birthYear": "1988",
+  "cosponsoredLegislation": {
+    "count": 282,
+    "url": "https://api.congress.gov/v3/member/E000301/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/E000301.jpg"
+  },
+  "directOrderName": "Sarah Elfreth",
   "district": 3,
-  "nameTitle": "Rep. Sarah Elfreth (MD-3)",
-  "imageUrl": "https://www.congress.gov/img/member/677425dc0b34857ecc909089_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Sarah",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Elfreth, Sarah",
+  "lastName": "Elfreth",
+  "officialWebsiteUrl": "https://elfreth.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sarah Elfreth",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Sarah",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Elfreth, Sarah",
+      "lastName": "Elfreth",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Sarah Elfreth",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Sarah",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Elfreth, Sarah",
+      "lastName": "Elfreth",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Sarah Elfreth",
+      "firstName": "Sarah",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Elfreth, Sarah",
+      "lastName": "Elfreth",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 16,
+    "url": "https://api.congress.gov/v3/member/E000301/sponsored-legislation"
+  },
+  "state": "Maryland",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "E000301",
+    "fec": [
+      "H4MD03156"
+    ],
+    "govtrack": 456992,
+    "opensecrets": "N00053710",
+    "wikipedia": "Sarah Elfreth",
+    "wikidata": "Q61970401",
+    "twitter": "repsarahelfreth",
+    "facebook": "RepSarahElfreth",
+    "instagram": "RepSarahElfreth"
+  },
+  "name": {
+    "first": "Sarah",
+    "middle": "Kelly",
+    "last": "Elfreth",
+    "official_full": "Sarah Elfreth"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1988-09-09"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MD",
+    "district": 3,
+    "party": "Democrat",
+    "address": "1213 Longworth House Office Building Washington DC 20515-2003",
+    "office": "1213 Longworth House Office Building",
+    "phone": "202-225-4016",
+    "url": "https://elfreth.house.gov"
+  }
 }

@@ -1,13 +1,129 @@
 {
-  "id": "K000401",
-  "bioguide": "K000401",
-  "name": "Kevin Kiley",
-  "lastName": "Kiley",
-  "state": "CA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2445 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2523",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000401",
+  "birthYear": "1985",
+  "cosponsoredLegislation": {
+    "count": 266,
+    "url": "https://api.congress.gov/v3/member/K000401/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000401.jpg"
+  },
+  "directOrderName": "Kevin Kiley",
   "district": 3,
-  "nameTitle": "Rep. Kevin Kiley (CA-3)",
-  "imageUrl": "https://www.congress.gov/img/member/k000401_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Kevin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Kiley, Kevin",
+  "lastName": "Kiley",
+  "officialWebsiteUrl": "https://kiley.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Kevin Kiley",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kiley, Kevin",
+      "lastName": "Kiley",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Kevin Kiley",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kiley, Kevin",
+      "lastName": "Kiley",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Kevin Kiley",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kiley, Kevin",
+      "lastName": "Kiley",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 41,
+    "url": "https://api.congress.gov/v3/member/K000401/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "K000401",
+    "fec": [
+      "H2CA03157"
+    ],
+    "govtrack": 456881,
+    "opensecrets": "N00050259",
+    "wikidata": "Q27987136",
+    "wikipedia": "Kevin Kiley (politician)",
+    "google_entity_id": "kg:/g/11c5qpst__",
+    "votesmart": 169303,
+    "ballotpedia": "Kevin Kiley",
+    "pictorial": 12917,
+    "twitter": "RepKiley",
+    "twitter_id": 1610356961475809300,
+    "facebook": "100089382125341",
+    "youtube": "@repkevinkiley"
+  },
+  "name": {
+    "first": "Kevin",
+    "middle": "Patrick",
+    "last": "Kiley",
+    "official_full": "Kevin Kiley"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1985-01-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 3,
+    "party": "Republican",
+    "url": "https://kiley.house.gov",
+    "address": "2445 Rayburn House Office Building Washington DC 20515-0503",
+    "office": "2445 Rayburn House Office Building",
+    "phone": "202-225-2523"
+  }
 }

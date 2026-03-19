@@ -1,13 +1,164 @@
 {
-  "id": "H001066",
-  "bioguide": "H001066",
-  "name": "Steven Horsford",
-  "lastName": "Horsford",
-  "state": "NV",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "406 Cannon House Office Building",
+    "phoneNumber": "(202) 225-9894",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001066",
+  "birthYear": "1973",
+  "cosponsoredLegislation": {
+    "count": 1701,
+    "url": "https://api.congress.gov/v3/member/H001066/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001066.jpg"
+  },
+  "directOrderName": "Steven Horsford",
   "district": 4,
-  "nameTitle": "Rep. Steven Horsford (NV-4)",
-  "imageUrl": "https://www.congress.gov/img/member/h001066_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Steven",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Horsford, Steven",
+  "lastName": "Horsford",
+  "officialWebsiteUrl": "https://horsford.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Steven Horsford",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Steven",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Horsford, Steven",
+      "lastName": "Horsford",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Steven Horsford",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Steven",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Horsford, Steven",
+      "lastName": "Horsford",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Steven Horsford",
+      "firstName": "Steven",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Horsford, Steven",
+      "lastName": "Horsford",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 116,
+    "url": "https://api.congress.gov/v3/member/H001066/sponsored-legislation"
+  },
+  "state": "Nevada",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "govtrack": 412559,
+    "bioguide": "H001066",
+    "thomas": "02147",
+    "cspan": 67777,
+    "votesmart": 44064,
+    "wikipedia": "Steven Horsford",
+    "fec": [
+      "H2NV04011"
+    ],
+    "opensecrets": "N00033638",
+    "ballotpedia": "Steven Horsford",
+    "maplight": 1783,
+    "icpsr": 21339,
+    "wikidata": "Q3514907",
+    "google_entity_id": "kg:/m/03c01w9",
+    "pictorial": 13168,
+    "twitter": "RepHorsford",
+    "twitter_id": 389840566,
+    "instagram": "rephorsford",
+    "youtube": "UCNEpy5bPXiyAavRzYnPlhDQ"
+  },
+  "name": {
+    "first": "Steven",
+    "last": "Horsford",
+    "middle": "A.",
+    "official_full": "Steven Horsford"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1973-04-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NV",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://horsford.house.gov",
+    "rss_url": "http://horsford.house.gov/rss.xml",
+    "address": "406 Cannon House Office Building Washington DC 20515-2804",
+    "office": "406 Cannon House Office Building",
+    "phone": "202-225-9894"
+  }
 }

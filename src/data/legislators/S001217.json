@@ -1,12 +1,139 @@
 {
-  "id": "S001217",
-  "bioguide": "S001217",
-  "name": "Rick Scott",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "110 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5274",
+    "zipCode": 20510
+  },
+  "bioguideId": "S001217",
+  "birthYear": "1952",
+  "cosponsoredLegislation": {
+    "count": 1702,
+    "url": "https://api.congress.gov/v3/member/S001217/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "imageUrl": "/images/legislators/S001217.jpg"
+  },
+  "directOrderName": "Rick Scott",
+  "firstName": "Rick",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Scott, Rick",
   "lastName": "Scott",
-  "state": "FL",
-  "party": "Republican",
-  "nameTitle": "Sen. Rick Scott (FL)",
-  "imageUrl": "https://www.congress.gov/img/member/s001217_200.jpg",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.rickscott.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Rick Scott",
+      "firstName": "Rick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Scott, Rick",
+      "lastName": "Scott",
+      "startDate": "2023-04-01T06:35:00Z"
+    },
+    {
+      "directOrderName": "Rick Scott",
+      "endDate": "2023-04-01T06:34:59Z",
+      "firstName": "Rick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Scott, Rick",
+      "lastName": "Scott",
+      "startDate": "2019-01-08T00:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 623,
+    "url": "https://api.congress.gov/v3/member/S001217/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:39Z",
+  "id": {
+    "bioguide": "S001217",
+    "lis": "S404",
+    "fec": [
+      "S8FL00273"
+    ],
+    "govtrack": 412838,
+    "opensecrets": "N00043290",
+    "wikipedia": "Rick Scott",
+    "wikidata": "Q439729",
+    "ballotpedia": "Rick Scott",
+    "google_entity_id": "kg:/m/0btx2g",
+    "votesmart": 124204,
+    "icpsr": 41903,
+    "pictorial": 13391,
+    "twitter": "SenRickScott",
+    "facebook": "RickScottSenOffice",
+    "youtube_id": "UC-Y9pFmW4PYGZHkC8lcqSkQ",
+    "twitter_id": 131546062,
+    "instagram": "flsenrickscott"
+  },
+  "name": {
+    "first": "Rick",
+    "last": "Scott",
+    "official_full": "Rick Scott"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1952-12-01"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "FL",
+    "class": 1,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.rickscott.senate.gov",
+    "contact_form": "https://www.rickscott.senate.gov/contact/contact",
+    "address": "110 Hart Senate Office Building Washington DC 20510",
+    "office": "110 Hart Senate Office Building",
+    "phone": "202-224-5274",
+    "fax": "202-228-4535"
+  }
 }

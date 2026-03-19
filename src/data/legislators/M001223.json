@@ -1,13 +1,134 @@
 {
-  "id": "M001223",
-  "bioguide": "M001223",
-  "name": "Seth Magaziner",
-  "lastName": "Magaziner",
-  "state": "RI",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "252 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2735",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001223",
+  "birthYear": "1983",
+  "cosponsoredLegislation": {
+    "count": 991,
+    "url": "https://api.congress.gov/v3/member/M001223/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001223.jpg"
+  },
+  "directOrderName": "Seth Magaziner",
   "district": 2,
-  "nameTitle": "Rep. Seth Magaziner (RI-2)",
-  "imageUrl": "https://www.congress.gov/img/member/m001223_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Seth",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Magaziner, Seth",
+  "lastName": "Magaziner",
+  "officialWebsiteUrl": "https://magaziner.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Seth Magaziner",
+      "endDate": "2024-02-27T13:20:57Z",
+      "firstName": "Seth",
+      "invertedOrderName": "Magaziner, Seth",
+      "lastName": "Magaziner",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Seth Magaziner",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Seth",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Magaziner, Seth",
+      "lastName": "Magaziner",
+      "startDate": "2024-02-27T13:20:58Z"
+    },
+    {
+      "directOrderName": "Seth Magaziner",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Seth",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Magaziner, Seth",
+      "lastName": "Magaziner",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Seth Magaziner",
+      "firstName": "Seth",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Magaziner, Seth",
+      "lastName": "Magaziner",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 44,
+    "url": "https://api.congress.gov/v3/member/M001223/sponsored-legislation"
+  },
+  "state": "Rhode Island",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "RI",
+      "stateName": "Rhode Island"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "RI",
+      "stateName": "Rhode Island"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "M001223",
+    "fec": [
+      "H2RI02184"
+    ],
+    "govtrack": 456937,
+    "opensecrets": "N00050458",
+    "wikidata": "Q16222460",
+    "wikipedia": "Seth Magaziner",
+    "votesmart": 154457,
+    "pictorial": 13240,
+    "ballotpedia": "Seth Magaziner",
+    "twitter": "Rep_Magaziner",
+    "facebook": "repsethmagaziner"
+  },
+  "name": {
+    "first": "Seth",
+    "middle": "Michael",
+    "last": "Magaziner",
+    "official_full": "Seth Magaziner"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1983-07-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "RI",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://magaziner.house.gov",
+    "address": "252 Cannon House Office Building Washington DC 20515-3902",
+    "office": "252 Cannon House Office Building",
+    "phone": "202-225-2735"
+  }
 }

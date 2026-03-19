@@ -1,13 +1,147 @@
 {
-  "id": "J000305",
-  "bioguide": "J000305",
-  "name": "Sara Jacobs",
-  "lastName": "Jacobs",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2348 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2040",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000305",
+  "birthYear": "1989",
+  "cosponsoredLegislation": {
+    "count": 1313,
+    "url": "https://api.congress.gov/v3/member/J000305/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000305.jpg"
+  },
+  "directOrderName": "Sara Jacobs",
   "district": 51,
-  "nameTitle": "Rep. Sara Jacobs (CA-51)",
-  "imageUrl": "https://www.congress.gov/img/member/j000305_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Sara",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Jacobs, Sara",
+  "lastName": "Jacobs",
+  "officialWebsiteUrl": "https://sarajacobs.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sara Jacobs",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Sara",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Jacobs, Sara",
+      "lastName": "Jacobs",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Sara Jacobs",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Sara",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Jacobs, Sara",
+      "lastName": "Jacobs",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Sara Jacobs",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Sara",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Jacobs, Sara",
+      "lastName": "Jacobs",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Sara Jacobs",
+      "firstName": "Sara",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Jacobs, Sara",
+      "lastName": "Jacobs",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 72,
+    "url": "https://api.congress.gov/v3/member/J000305/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 53,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 51,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 51,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "J000305",
+    "fec": [
+      "H8CA49074"
+    ],
+    "opensecrets": "N00042081",
+    "govtrack": 456804,
+    "wikidata": "Q50825637",
+    "wikipedia": "Sara Jacobs",
+    "google_entity_id": "kg:/g/11ghs2x3tm",
+    "pictorial": 12965,
+    "votesmart": 179414,
+    "ballotpedia": "Sara Jacobs",
+    "twitter": "RepSaraJacobs",
+    "twitter_id": 1345103905869455400,
+    "facebook": "RepSaraJacobs",
+    "instagram": "repsarajacobs"
+  },
+  "name": {
+    "first": "Sara",
+    "last": "Jacobs",
+    "official_full": "Sara Jacobs"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1989-02-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 51,
+    "party": "Democrat",
+    "url": "https://sarajacobs.house.gov",
+    "address": "2348 Rayburn House Office Building Washington DC 20515-0551",
+    "office": "2348 Rayburn House Office Building",
+    "phone": "202-225-2040"
+  }
 }

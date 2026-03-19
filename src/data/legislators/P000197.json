@@ -1,13 +1,340 @@
 {
-  "id": "P000197",
-  "bioguide": "P000197",
-  "name": "Nancy Pelosi",
-  "lastName": "Pelosi",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1236 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4965",
+    "zipCode": 20515
+  },
+  "bioguideId": "P000197",
+  "birthYear": "1940",
+  "cosponsoredLegislation": {
+    "count": 5069,
+    "url": "https://api.congress.gov/v3/member/P000197/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/P000197.jpg"
+  },
+  "directOrderName": "Nancy Pelosi",
   "district": 11,
-  "nameTitle": "Rep. Nancy Pelosi (CA-11)",
-  "imageUrl": "https://www.congress.gov/img/member/p000197_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Nancy",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Pelosi, Nancy",
+  "lastName": "Pelosi",
+  "leadership": [
+    {
+      "congress": 113,
+      "type": "Democratic Leader"
+    },
+    {
+      "congress": 112,
+      "type": "Democratic Leader"
+    },
+    {
+      "congress": 114,
+      "type": "Democratic Leader"
+    },
+    {
+      "congress": 116,
+      "type": "Speaker of the House"
+    },
+    {
+      "congress": 115,
+      "type": "Democratic Leader"
+    },
+    {
+      "congress": 117,
+      "type": "Speaker of the House"
+    }
+  ],
+  "officialWebsiteUrl": "https://pelosi.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 1987
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Nancy Pelosi",
+      "endDate": "2024-02-27T13:20:47Z",
+      "firstName": "NANCY",
+      "invertedOrderName": "Pelosi, Nancy",
+      "lastName": "PELOSI",
+      "startDate": "1987-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Nancy Pelosi",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Nancy",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Pelosi, Nancy",
+      "lastName": "Pelosi",
+      "startDate": "2024-02-27T13:20:48Z"
+    },
+    {
+      "directOrderName": "Nancy Pelosi",
+      "firstName": "Nancy",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Pelosi, Nancy",
+      "lastName": "Pelosi",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 199,
+    "url": "https://api.congress.gov/v3/member/P000197/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 100,
+      "district": 5,
+      "endYear": 1989,
+      "memberType": "Representative",
+      "startYear": 1987,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 101,
+      "district": 5,
+      "endYear": 1991,
+      "memberType": "Representative",
+      "startYear": 1989,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 102,
+      "district": 5,
+      "endYear": 1993,
+      "memberType": "Representative",
+      "startYear": 1991,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 103,
+      "district": 8,
+      "endYear": 1995,
+      "memberType": "Representative",
+      "startYear": 1993,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 104,
+      "district": 8,
+      "endYear": 1997,
+      "memberType": "Representative",
+      "startYear": 1995,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 8,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 8,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 8,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 8,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 8,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 8,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 8,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 8,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 12,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 12,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 12,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 12,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 12,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 11,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 11,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-12-06T08:30:18Z",
+  "id": {
+    "bioguide": "P000197",
+    "thomas": "00905",
+    "govtrack": 400314,
+    "opensecrets": "N00007360",
+    "votesmart": 26732,
+    "icpsr": 15448,
+    "fec": [
+      "H8CA05035"
+    ],
+    "cspan": 6153,
+    "wikipedia": "Nancy Pelosi",
+    "house_history": 19519,
+    "ballotpedia": "Nancy Pelosi",
+    "maplight": 408,
+    "wikidata": "Q170581",
+    "google_entity_id": "kg:/m/012v1t",
+    "pictorial": 12925,
+    "facebook": "NancyPelosi",
+    "youtube": "nancypelosi",
+    "youtube_id": "UCxPeEcH0xaCK9nBK98EFhDg",
+    "twitter": "SpeakerPelosi",
+    "twitter_id": 15764644
+  },
+  "name": {
+    "first": "Nancy",
+    "last": "Pelosi",
+    "official_full": "Nancy Pelosi"
+  },
+  "bio": {
+    "birthday": "1940-03-26",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 11,
+    "party": "Democrat",
+    "url": "https://pelosi.house.gov",
+    "rss_url": "http://pelosi.house.gov/atom.xml",
+    "address": "1236 Longworth House Office Building Washington DC 20515-0511",
+    "office": "1236 Longworth House Office Building",
+    "phone": "202-225-4965"
+  }
 }

@@ -1,13 +1,96 @@
 {
-  "id": "G000606",
-  "bioguide": "G000606",
-  "name": "Adelita S. Grijalva",
-  "lastName": "Grijalva",
-  "state": "AZ",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1203 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2435",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000606",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 153,
+    "url": "https://api.congress.gov/v3/member/G000606/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000606.jpg"
+  },
+  "directOrderName": "Adelita S. Grijalva",
   "district": 7,
-  "nameTitle": "Rep. Adelita S. Grijalva (AZ-7)",
-  "imageUrl": "https://www.congress.gov/img/member/6915fa2585b49de40f52cacb_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Adelita",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Grijalva, Adelita S.",
+  "lastName": "Grijalva",
+  "middleName": "S.",
+  "officialWebsiteUrl": "https://grijalva.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Adelita S. Grijalva",
+      "firstName": "Adelita",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Grijalva, Adelita S.",
+      "lastName": "Grijalva",
+      "middleName": "S.",
+      "startDate": "2025-09-30T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 6,
+    "url": "https://api.congress.gov/v3/member/G000606/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-11-21T08:40:18Z",
+  "id": {
+    "bioguide": "G000606",
+    "fec": [
+      "H6AZ07121"
+    ],
+    "govtrack": 457037,
+    "wikipedia": "Adelita Grijalva",
+    "wikidata": "Q134612342",
+    "ballotpedia": "Adelita Grijalva",
+    "house_history": 36507227802
+  },
+  "name": {
+    "first": "Adelita",
+    "middle": "S.",
+    "last": "Grijalva",
+    "official_full": "Adelita S. Grijalva"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1970-10-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-11-12",
+    "end": "2027-01-03",
+    "state": "AZ",
+    "district": 7,
+    "party": "Democrat",
+    "url": "https://grijalva.house.gov/",
+    "address": "1203 Longworth House Office Building Washington DC 20515-0307",
+    "office": "1203 Longworth House Office Building",
+    "phone": "202-225-2435"
+  }
 }

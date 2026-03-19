@@ -1,13 +1,187 @@
 {
-  "id": "W000809",
-  "bioguide": "W000809",
-  "name": "Steve Womack",
-  "lastName": "Womack",
-  "state": "AR",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2412 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4301",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000809",
+  "birthYear": "1957",
+  "cosponsoredLegislation": {
+    "count": 1156,
+    "url": "https://api.congress.gov/v3/member/W000809/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "GPO Member Guide",
+    "imageUrl": "/images/legislators/W000809.jpg"
+  },
+  "directOrderName": "Steve Womack",
   "district": 3,
-  "nameTitle": "Rep. Steve Womack (AR-3)",
-  "imageUrl": "https://www.congress.gov/img/member/117_rp_ar_3_womack_steve_200.jpg",
-  "attribution": "GPO Member Guide",
-  "type": "rep"
+  "firstName": "Steve",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Womack, Steve",
+  "lastName": "Womack",
+  "officialWebsiteUrl": "https://womack.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Steve Womack",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Steve",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Womack, Steve",
+      "lastName": "Womack",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Steve Womack",
+      "firstName": "Steve",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Womack, Steve",
+      "lastName": "Womack",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 61,
+    "url": "https://api.congress.gov/v3/member/W000809/sponsored-legislation"
+  },
+  "state": "Arkansas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 3,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 3,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 3,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "W000809",
+    "thomas": "01991",
+    "govtrack": 412402,
+    "opensecrets": "N00031857",
+    "votesmart": 71815,
+    "fec": [
+      "H0AR03055"
+    ],
+    "cspan": 1033625,
+    "wikipedia": "Steve Womack",
+    "ballotpedia": "Steve Womack",
+    "maplight": 1416,
+    "icpsr": 21108,
+    "house_history": 24197,
+    "wikidata": "Q1029527",
+    "google_entity_id": "kg:/m/0cmcvkz",
+    "pictorial": 12903,
+    "twitter": "Rep_SteveWomack",
+    "facebook": "RepSteveWomack",
+    "youtube": "CongressmanWomack",
+    "youtube_id": "UCXJbUDLYX-wGIhRuN66hqZw",
+    "twitter_id": 234469322,
+    "instagram": "rep_stevewomack"
+  },
+  "name": {
+    "first": "Steve",
+    "last": "Womack",
+    "official_full": "Steve Womack"
+  },
+  "bio": {
+    "birthday": "1957-02-18",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AR",
+    "district": 3,
+    "party": "Republican",
+    "url": "https://womack.house.gov",
+    "rss_url": "http://womack.house.gov/news/rss.aspx",
+    "address": "2412 Rayburn House Office Building Washington DC 20515-0403",
+    "office": "2412 Rayburn House Office Building",
+    "phone": "202-225-4301"
+  }
 }

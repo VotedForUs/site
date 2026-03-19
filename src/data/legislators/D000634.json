@@ -1,13 +1,114 @@
 {
-  "id": "D000634",
-  "bioguide": "D000634",
-  "name": "Troy Downing",
-  "lastName": "Downing",
-  "state": "MT",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1529 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3211",
+    "zipCode": 20515
+  },
+  "bioguideId": "D000634",
+  "birthYear": "1967",
+  "cosponsoredLegislation": {
+    "count": 139,
+    "url": "https://api.congress.gov/v3/member/D000634/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/D000634.jpg"
+  },
+  "directOrderName": "Troy Downing",
   "district": 2,
-  "nameTitle": "Rep. Troy Downing (MT-2)",
-  "imageUrl": "https://www.congress.gov/img/member/677424da0b34857ecc909077_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Troy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Downing, Troy",
+  "lastName": "Downing",
+  "officialWebsiteUrl": "https://downing.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Troy Downing",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Troy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Downing, Troy",
+      "lastName": "Downing",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Troy Downing",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Troy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Downing, Troy",
+      "lastName": "Downing",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Troy Downing",
+      "firstName": "Troy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Downing, Troy",
+      "lastName": "Downing",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 21,
+    "url": "https://api.congress.gov/v3/member/D000634/sponsored-legislation"
+  },
+  "state": "Montana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MT",
+      "stateName": "Montana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "D000634",
+    "fec": [
+      "H4MT02098"
+    ],
+    "govtrack": 457000,
+    "opensecrets": "N00041283",
+    "wikipedia": "Troy Downing",
+    "wikidata": "Q103158011",
+    "twitter": "reptroydowning",
+    "facebook": "reptroydowning",
+    "instagram": "reptroydowning"
+  },
+  "name": {
+    "first": "Troy",
+    "middle": "Bryan",
+    "last": "Downing",
+    "official_full": "Troy Downing"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1967-03-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MT",
+    "district": 2,
+    "party": "Republican",
+    "address": "1529 Longworth House Office Building Washington DC 20515-0001",
+    "office": "1529 Longworth House Office Building",
+    "phone": "202-225-3211",
+    "url": "https://downing.house.gov"
+  }
 }

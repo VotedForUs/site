@@ -1,13 +1,119 @@
 {
-  "id": "M001225",
-  "bioguide": "M001225",
-  "name": "Kevin Mullin",
-  "lastName": "Mullin",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1404 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3531",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001225",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 1010,
+    "url": "https://api.congress.gov/v3/member/M001225/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001225.jpg"
+  },
+  "directOrderName": "Kevin Mullin",
   "district": 15,
-  "nameTitle": "Rep. Kevin Mullin (CA-15)",
-  "imageUrl": "https://www.congress.gov/img/member/m001225_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Kevin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Mullin, Kevin",
+  "lastName": "Mullin",
+  "officialWebsiteUrl": "https://kevinmullin.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Kevin Mullin",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mullin, Kevin",
+      "lastName": "Mullin",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Kevin Mullin",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mullin, Kevin",
+      "lastName": "Mullin",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 34,
+    "url": "https://api.congress.gov/v3/member/M001225/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 15,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 15,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "M001225",
+    "fec": [
+      "H2CA14162"
+    ],
+    "govtrack": 456883,
+    "opensecrets": "N00049438",
+    "wikidata": "Q6397046",
+    "wikipedia": "Kevin Mullin",
+    "votesmart": 105586,
+    "pictorial": 12929,
+    "ballotpedia": "Kevin Mullin (California)",
+    "twitter": "RepKevinMullin",
+    "twitter_id": 1610411994888409000,
+    "facebook": "CongressmanKevinMullin",
+    "instagram": "repkevinmullin",
+    "youtube": "UCAenuXjUZagZyD4HQL7_2ZA"
+  },
+  "name": {
+    "first": "Kevin",
+    "last": "Mullin",
+    "official_full": "Kevin Mullin"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-06-15"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 15,
+    "party": "Democrat",
+    "url": "https://kevinmullin.house.gov",
+    "address": "1404 Longworth House Office Building Washington DC 20515-0515",
+    "office": "1404 Longworth House Office Building",
+    "phone": "202-225-3531"
+  }
 }

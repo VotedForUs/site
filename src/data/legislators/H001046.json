@@ -1,13 +1,204 @@
 {
-  "id": "H001046",
-  "bioguide": "H001046",
-  "name": "Martin Heinrich",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "709 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5521",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001046",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 3232,
+    "url": "https://api.congress.gov/v3/member/H001046/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/H001046.jpg"
+  },
+  "directOrderName": "Martin Heinrich",
+  "firstName": "Martin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Heinrich, Martin",
   "lastName": "Heinrich",
-  "state": "NM",
-  "party": "Democrat",
-  "nameTitle": "Sen. Martin Heinrich (NM)",
-  "imageUrl": "https://www.congress.gov/img/member/h001046_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.heinrich.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Martin Heinrich",
+      "endDate": "2023-04-01T06:34:59Z",
+      "firstName": "Martin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Heinrich, Martin",
+      "lastName": "Heinrich",
+      "middleName": "T.",
+      "startDate": "2009-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Martin Heinrich",
+      "endDate": "2025-02-15T09:44:59Z",
+      "firstName": "Martin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Heinrich, Martin",
+      "lastName": "Heinrich",
+      "middleName": "T.",
+      "startDate": "2023-04-01T06:35:00Z"
+    },
+    {
+      "directOrderName": "Martin Heinrich",
+      "firstName": "Martin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Heinrich, Martin",
+      "lastName": "Heinrich",
+      "startDate": "2025-02-15T09:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 533,
+    "url": "https://api.congress.gov/v3/member/H001046/sponsored-legislation"
+  },
+  "state": "New Mexico",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 1,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 1,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:25Z",
+  "id": {
+    "bioguide": "H001046",
+    "thomas": "01937",
+    "lis": "S359",
+    "govtrack": 412281,
+    "opensecrets": "N00029835",
+    "votesmart": 74517,
+    "fec": [
+      "H8NM01224",
+      "S2NM00088"
+    ],
+    "cspan": 1030686,
+    "wikipedia": "Martin Heinrich",
+    "house_history": 15588,
+    "ballotpedia": "Martin Heinrich",
+    "maplight": 763,
+    "icpsr": 20930,
+    "wikidata": "Q565374",
+    "google_entity_id": "kg:/m/02qkv0r",
+    "pictorial": 13428,
+    "twitter": "MartinHeinrich",
+    "facebook": "MartinHeinrich",
+    "youtube": "SenMartinHeinrich",
+    "youtube_id": "UCBxh8IK5sMxY0Ln_0G2NYcg",
+    "instagram": "senatormartinheinrich",
+    "instagram_id": 285288987,
+    "twitter_id": 1099199839
+  },
+  "name": {
+    "first": "Martin",
+    "last": "Heinrich",
+    "official_full": "Martin Heinrich"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1971-10-17"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "NM",
+    "class": 1,
+    "state_rank": "senior",
+    "party": "Democrat",
+    "url": "https://www.heinrich.senate.gov",
+    "contact_form": "https://www.heinrich.senate.gov/contact",
+    "address": "709 Hart Senate Office Building Washington DC 20510",
+    "office": "709 Hart Senate Office Building",
+    "phone": "202-224-5521"
+  }
 }

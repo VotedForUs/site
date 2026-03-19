@@ -1,13 +1,112 @@
 {
-  "id": "F000482",
-  "bioguide": "F000482",
-  "name": "Julie Fedorchak",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1607 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2611",
+    "zipCode": 20515
+  },
+  "bioguideId": "F000482",
+  "birthYear": "1968",
+  "cosponsoredLegislation": {
+    "count": 90,
+    "url": "https://api.congress.gov/v3/member/F000482/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/F000482.jpg"
+  },
+  "directOrderName": "Julie Fedorchak",
+  "firstName": "Julie",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Fedorchak, Julie",
   "lastName": "Fedorchak",
-  "state": "ND",
-  "party": "Republican",
-  "district": 0,
-  "nameTitle": "Rep. Julie Fedorchak (ND-0)",
-  "imageUrl": "https://www.congress.gov/img/member/677426c20b34857ecc90909b_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "officialWebsiteUrl": "https://fedorchak.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Julie Fedorchak",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Julie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Fedorchak, Julie",
+      "lastName": "Fedorchak",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Julie Fedorchak",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Julie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Fedorchak, Julie",
+      "lastName": "Fedorchak",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Julie Fedorchak",
+      "firstName": "Julie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Fedorchak, Julie",
+      "lastName": "Fedorchak",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 13,
+    "url": "https://api.congress.gov/v3/member/F000482/sponsored-legislation"
+  },
+  "state": "North Dakota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "F000482",
+    "fec": [
+      "H4ND00061"
+    ],
+    "govtrack": 457006,
+    "opensecrets": "N00054800",
+    "wikipedia": "Julie Fedorchak",
+    "wikidata": "Q37824664",
+    "twitter": "RepFedorchak",
+    "facebook": "RepJulieFedorchak",
+    "instagram": "RepJulieFedorchak"
+  },
+  "name": {
+    "first": "Julie",
+    "middle": "Ann",
+    "last": "Fedorchak",
+    "official_full": "Julie Fedorchak"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1968-09-28"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "ND",
+    "district": 0,
+    "party": "Republican",
+    "address": "1607 Longworth House Office Building Washington DC 20515-3400",
+    "office": "1607 Longworth House Office Building",
+    "phone": "202-225-2611",
+    "url": "https://fedorchak.house.gov"
+  }
 }

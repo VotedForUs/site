@@ -1,13 +1,181 @@
 {
-  "id": "R000584",
-  "bioguide": "R000584",
-  "name": "James E. Risch",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "483 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2752",
+    "zipCode": 20510
+  },
+  "bioguideId": "R000584",
+  "birthYear": "1943",
+  "cosponsoredLegislation": {
+    "count": 2815,
+    "url": "https://api.congress.gov/v3/member/R000584/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/R000584.jpg"
+  },
+  "directOrderName": "James E. Risch",
+  "firstName": "James",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Risch, James E.",
   "lastName": "Risch",
-  "state": "ID",
-  "party": "Republican",
-  "nameTitle": "Sen. James E. Risch (ID)",
-  "imageUrl": "https://www.congress.gov/img/member/r000584_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "middleName": "E.",
+  "officialWebsiteUrl": "https://www.risch.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "James E. Risch",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Risch, James E.",
+      "lastName": "Risch",
+      "middleName": "E.",
+      "startDate": "2009-01-06T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 632,
+    "url": "https://api.congress.gov/v3/member/R000584/sponsored-legislation"
+  },
+  "state": "Idaho",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:25Z",
+  "id": {
+    "bioguide": "R000584",
+    "thomas": "01896",
+    "lis": "S323",
+    "govtrack": 412322,
+    "opensecrets": "N00029441",
+    "votesmart": 2919,
+    "fec": [
+      "S8ID00092"
+    ],
+    "cspan": 1020034,
+    "wikipedia": "Jim Risch",
+    "ballotpedia": "Jim Risch",
+    "maplight": 804,
+    "icpsr": 40902,
+    "wikidata": "Q721871",
+    "google_entity_id": "kg:/m/06y9p0",
+    "pictorial": 13383,
+    "youtube": "SenatorJamesRisch",
+    "twitter": "SenatorRisch",
+    "youtube_id": "UCncKW8xyT5UbPNO27YuQnBA",
+    "twitter_id": 1096059529,
+    "facebook": "senatorjimrisch"
+  },
+  "name": {
+    "first": "James",
+    "middle": "E.",
+    "last": "Risch",
+    "official_full": "James E. Risch"
+  },
+  "bio": {
+    "birthday": "1943-05-03",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "ID",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.risch.senate.gov",
+    "contact_form": "https://www.risch.senate.gov/public/index.cfm?p=Email",
+    "address": "483 Russell Senate Office Building Washington DC 20510",
+    "office": "483 Russell Senate Office Building",
+    "phone": "202-224-2752"
+  }
 }

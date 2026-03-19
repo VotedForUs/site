@@ -1,13 +1,185 @@
 {
-  "id": "B001287",
-  "bioguide": "B001287",
-  "name": "Ami Bera",
-  "lastName": "Bera",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "172 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5716",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001287",
+  "birthYear": "1965",
+  "cosponsoredLegislation": {
+    "count": 1884,
+    "url": "https://api.congress.gov/v3/member/B001287/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "GPO Member Guide",
+    "imageUrl": "/images/legislators/B001287.jpg"
+  },
+  "directOrderName": "Ami Bera",
   "district": 6,
-  "nameTitle": "Rep. Ami Bera (CA-6)",
-  "imageUrl": "https://www.congress.gov/img/member/b001287_200.jpg",
-  "attribution": "GPO Member Guide",
-  "type": "rep"
+  "firstName": "Ami",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Bera, Ami",
+  "lastName": "Bera",
+  "officialWebsiteUrl": "https://bera.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ami Bera",
+      "endDate": "2024-02-27T13:20:47Z",
+      "firstName": "Ami",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Bera, Ami",
+      "lastName": "Bera",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ami Bera",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ami",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bera, Ami",
+      "lastName": "Bera",
+      "startDate": "2024-02-27T13:20:48Z"
+    },
+    {
+      "directOrderName": "Ami Bera",
+      "firstName": "Ami",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bera, Ami",
+      "lastName": "Bera",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 113,
+    "url": "https://api.congress.gov/v3/member/B001287/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 7,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 7,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 7,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 7,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 7,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "govtrack": 412512,
+    "bioguide": "B001287",
+    "thomas": "02102",
+    "cspan": 1033636,
+    "fec": [
+      "H0CA03078"
+    ],
+    "wikipedia": "Ami Bera",
+    "opensecrets": "N00030717",
+    "votesmart": 120030,
+    "ballotpedia": "Ami Bera",
+    "maplight": 1736,
+    "icpsr": 21304,
+    "wikidata": "Q3389105",
+    "google_entity_id": "kg:/m/0dgqnts",
+    "pictorial": 12920,
+    "twitter": "RepBera",
+    "facebook": "RepAmiBera",
+    "youtube": "repamibera",
+    "youtube_id": "UClJCTCo53Zk6b4kUL-bbdzg",
+    "twitter_id": 950783972,
+    "instagram": "repbera"
+  },
+  "name": {
+    "first": "Ami",
+    "last": "Bera",
+    "official_full": "Ami Bera"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1965-03-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 6,
+    "party": "Democrat",
+    "url": "https://bera.house.gov",
+    "rss_url": "http://bera.house.gov/rss.xml",
+    "address": "172 Cannon House Office Building Washington DC 20515-0506",
+    "office": "172 Cannon House Office Building",
+    "phone": "202-225-5716"
+  }
 }

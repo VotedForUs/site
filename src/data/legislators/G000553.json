@@ -1,13 +1,217 @@
 {
-  "id": "G000553",
-  "bioguide": "G000553",
-  "name": "Al Green",
-  "lastName": "Green",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2347 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-7508",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000553",
+  "birthYear": "1947",
+  "cosponsoredLegislation": {
+    "count": 3917,
+    "url": "https://api.congress.gov/v3/member/G000553/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/G000553.jpg"
+  },
+  "directOrderName": "Al Green",
   "district": 9,
-  "nameTitle": "Rep. Al Green (TX-9)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_tx_9_green_al_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Al",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Green, Al",
+  "lastName": "Green",
+  "officialWebsiteUrl": "https://algreen.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2005
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Al Green",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Al",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Green, Al",
+      "lastName": "Green",
+      "startDate": "2005-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Al Green",
+      "firstName": "Al",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Green, Al",
+      "lastName": "Green",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 357,
+    "url": "https://api.congress.gov/v3/member/G000553/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 9,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 9,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 9,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 9,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 9,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 9,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 9,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 9,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 9,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 9,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 9,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "G000553",
+    "thomas": "01803",
+    "govtrack": 400653,
+    "opensecrets": "N00026686",
+    "votesmart": 49680,
+    "fec": [
+      "H4TX09095"
+    ],
+    "cspan": 1012969,
+    "wikipedia": "Al Green (politician)",
+    "house_history": 14265,
+    "ballotpedia": "Al Green",
+    "maplight": 658,
+    "icpsr": 20529,
+    "wikidata": "Q749039",
+    "google_entity_id": "kg:/m/02kn0_",
+    "pictorial": 13266,
+    "twitter": "RepAlGreen",
+    "facebook": "repalgreen",
+    "youtube": "RepAlGreen",
+    "youtube_id": "UCFtgMZm1YUXaZ8OtOj-GDjA",
+    "twitter_id": 156333623,
+    "instagram": "repalgreen"
+  },
+  "name": {
+    "first": "Al",
+    "last": "Green",
+    "official_full": "Al Green"
+  },
+  "bio": {
+    "birthday": "1947-09-01",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 9,
+    "party": "Democrat",
+    "url": "https://algreen.house.gov",
+    "rss_url": "http://algreen.house.gov/rss.xml",
+    "address": "2347 Rayburn House Office Building Washington DC 20515-4309",
+    "office": "2347 Rayburn House Office Building",
+    "phone": "202-225-7508"
+  }
 }

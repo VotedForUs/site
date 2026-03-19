@@ -1,13 +1,141 @@
 {
-  "id": "F000477",
-  "bioguide": "F000477",
-  "name": "Valerie P. Foushee",
-  "lastName": "Foushee",
-  "state": "NC",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2452 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1784",
+    "zipCode": 20515
+  },
+  "bioguideId": "F000477",
+  "birthYear": "1956",
+  "cosponsoredLegislation": {
+    "count": 704,
+    "url": "https://api.congress.gov/v3/member/F000477/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/F000477.jpg"
+  },
+  "directOrderName": "Valerie P. Foushee",
   "district": 4,
-  "nameTitle": "Rep. Valerie P. Foushee (NC-4)",
-  "imageUrl": "https://www.congress.gov/img/member/68122e57246d1b6bd8d9f6ab_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Valerie",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Foushee, Valerie P.",
+  "lastName": "Foushee",
+  "middleName": "P.",
+  "officialWebsiteUrl": "https://foushee.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Valerie P. Foushee",
+      "endDate": "2024-02-27T13:20:54Z",
+      "firstName": "Valerie",
+      "invertedOrderName": "Foushee, Valerie P.",
+      "lastName": "Foushee",
+      "middleName": "P.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Valerie P. Foushee",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Valerie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Foushee, Valerie P.",
+      "lastName": "Foushee",
+      "middleName": "P.",
+      "startDate": "2024-02-27T13:20:55Z"
+    },
+    {
+      "directOrderName": "Valerie P. Foushee",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Valerie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Foushee, Valerie P.",
+      "lastName": "Foushee",
+      "middleName": "P.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Valerie P. Foushee",
+      "firstName": "Valerie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Foushee, Valerie P.",
+      "lastName": "Foushee",
+      "middleName": "P.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 28,
+    "url": "https://api.congress.gov/v3/member/F000477/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "F000477",
+    "fec": [
+      "H2NC06114"
+    ],
+    "govtrack": 456913,
+    "opensecrets": "N00049652",
+    "wikidata": "Q16729064",
+    "wikipedia": "Valerie Foushee",
+    "votesmart": 93091,
+    "pictorial": 13133,
+    "twitter": "ValerieFoushee",
+    "twitter_id": 1611471154732060700,
+    "facebook": "RepValerieFoushee",
+    "instagram": "repvaleriefoushee",
+    "youtube": "@RepValerieFoushee"
+  },
+  "name": {
+    "first": "Valerie",
+    "middle": "Jean",
+    "last": "Foushee",
+    "official_full": "Valerie P. Foushee"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1956-05-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://foushee.house.gov",
+    "address": "2452 Rayburn House Office Building Washington DC 20515-3304",
+    "office": "2452 Rayburn House Office Building",
+    "phone": "202-225-1784"
+  }
 }

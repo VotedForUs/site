@@ -1,13 +1,185 @@
 {
-  "id": "W000805",
-  "bioguide": "W000805",
-  "name": "Mark R. Warner",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "703 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2023",
+    "zipCode": 20510
+  },
+  "bioguideId": "W000805",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 2473,
+    "url": "https://api.congress.gov/v3/member/W000805/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/W000805.jpg"
+  },
+  "directOrderName": "Mark R. Warner",
+  "firstName": "Mark",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Warner, Mark R.",
   "lastName": "Warner",
-  "state": "VA",
-  "party": "Democrat",
-  "nameTitle": "Sen. Mark R. Warner (VA)",
-  "imageUrl": "https://www.congress.gov/img/member/w000805_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://www.warner.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mark R. Warner",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Warner, Mark R.",
+      "lastName": "Warner",
+      "middleName": "R.",
+      "startDate": "2009-01-06T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 720,
+    "url": "https://api.congress.gov/v3/member/W000805/sponsored-legislation"
+  },
+  "state": "Virginia",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:56Z",
+  "id": {
+    "bioguide": "W000805",
+    "thomas": "01897",
+    "lis": "S327",
+    "govtrack": 412321,
+    "opensecrets": "N00002097",
+    "votesmart": 535,
+    "fec": [
+      "S6VA00093",
+      "P80003023"
+    ],
+    "cspan": 7630,
+    "wikipedia": "Mark Warner",
+    "ballotpedia": "Mark Warner",
+    "maplight": 803,
+    "icpsr": 40909,
+    "wikidata": "Q453893",
+    "google_entity_id": "kg:/m/024mm1",
+    "pictorial": 13376,
+    "twitter": "MarkWarner",
+    "facebook": "MarkRWarner",
+    "youtube": "SenatorMarkWarner",
+    "youtube_id": "UCwyivNlEGf4sGd1oDLfY5jw",
+    "instagram": "senatorwarner",
+    "instagram_id": 515327940,
+    "twitter_id": 7429102
+  },
+  "name": {
+    "first": "Mark",
+    "middle": "R.",
+    "last": "Warner",
+    "official_full": "Mark R. Warner"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1954-12-15"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "VA",
+    "class": 2,
+    "state_rank": "senior",
+    "party": "Democrat",
+    "url": "https://www.warner.senate.gov",
+    "rss_url": "http://www.warner.senate.gov/public/?a=rss.feed",
+    "contact_form": "https://www.warner.senate.gov/public/index.cfm?p=Contact",
+    "address": "703 Hart Senate Office Building Washington DC 20510",
+    "office": "703 Hart Senate Office Building",
+    "phone": "202-224-2023"
+  }
 }

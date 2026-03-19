@@ -1,13 +1,112 @@
 {
-  "id": "H001099",
-  "bioguide": "H001099",
-  "name": "Mike Haridopolos",
-  "lastName": "Haridopolos",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1039 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3671",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001099",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 189,
+    "url": "https://api.congress.gov/v3/member/H001099/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001099.jpg"
+  },
+  "directOrderName": "Mike Haridopolos",
   "district": 8,
-  "nameTitle": "Rep. Mike Haridopolos (FL-8)",
-  "imageUrl": "https://www.congress.gov/img/member/67742ab50b34857ecc9090cb_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Haridopolos, Mike",
+  "lastName": "Haridopolos",
+  "officialWebsiteUrl": "https://haridopolos.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Haridopolos",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Haridopolos, Mike",
+      "lastName": "Haridopolos",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Mike Haridopolos",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Haridopolos, Mike",
+      "lastName": "Haridopolos",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Haridopolos",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Haridopolos, Mike",
+      "lastName": "Haridopolos",
+      "startDate": "2025-01-03T17:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 2,
+    "url": "https://api.congress.gov/v3/member/H001099/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "H001099",
+    "fec": [
+      "H4FL08168"
+    ],
+    "govtrack": 456986,
+    "opensecrets": "N00033076",
+    "wikipedia": "Mike Haridopolos",
+    "wikidata": "Q6847137",
+    "twitter": "repharidopolos"
+  },
+  "name": {
+    "first": "Mike",
+    "middle": "John",
+    "last": "Haridopolos",
+    "official_full": "Mike Haridopolos"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-03-15"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 8,
+    "party": "Republican",
+    "address": "1039 Longworth House Office Building Washington DC 20515-0908",
+    "office": "1039 Longworth House Office Building",
+    "phone": "202-225-3671",
+    "url": "https://haridopolos.house.gov"
+  }
 }

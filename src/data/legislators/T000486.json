@@ -1,13 +1,140 @@
 {
-  "id": "T000486",
-  "bioguide": "T000486",
-  "name": "Ritchie Torres",
-  "lastName": "Torres",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1414 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4361",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000486",
+  "birthYear": "1988",
+  "cosponsoredLegislation": {
+    "count": 1219,
+    "url": "https://api.congress.gov/v3/member/T000486/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000486.jpg"
+  },
+  "directOrderName": "Ritchie Torres",
   "district": 15,
-  "nameTitle": "Rep. Ritchie Torres (NY-15)",
-  "imageUrl": "https://www.congress.gov/img/member/t000486_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ritchie",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Torres, Ritchie",
+  "lastName": "Torres",
+  "officialWebsiteUrl": "https://ritchietorres.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ritchie Torres",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Ritchie",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Torres, Ritchie",
+      "lastName": "Torres",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Ritchie Torres",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ritchie",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Torres, Ritchie",
+      "lastName": "Torres",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ritchie Torres",
+      "firstName": "Ritchie",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Torres, Ritchie",
+      "lastName": "Torres",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 159,
+    "url": "https://api.congress.gov/v3/member/T000486/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 15,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 15,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 15,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "T000486",
+    "fec": [
+      "H0NY15160"
+    ],
+    "opensecrets": "N00044346",
+    "govtrack": 456838,
+    "wikidata": "Q16205227",
+    "wikipedia": "Ritchie Torres",
+    "google_entity_id": "kg:/m/0x11h9s",
+    "ballotpedia": "Ritchie Torres",
+    "pictorial": 13183,
+    "votesmart": 161718,
+    "twitter": "RepRitchie",
+    "twitter_id": 1276403757224546300,
+    "facebook": "RepRitchie",
+    "instagram": "repritchie",
+    "youtube": "@RepRitchie"
+  },
+  "name": {
+    "first": "Ritchie",
+    "middle": "John",
+    "last": "Torres",
+    "official_full": "Ritchie Torres"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1988-03-12"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 15,
+    "party": "Democrat",
+    "url": "https://ritchietorres.house.gov",
+    "address": "1414 Longworth House Office Building Washington DC 20515-3215",
+    "office": "1414 Longworth House Office Building",
+    "phone": "202-225-4361"
+  }
 }

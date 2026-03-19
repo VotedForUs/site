@@ -1,13 +1,167 @@
 {
-  "id": "B001303",
-  "bioguide": "B001303",
-  "name": "Lisa Blunt Rochester",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "513 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2441",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001303",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 2360,
+    "url": "https://api.congress.gov/v3/member/B001303/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001303.jpg"
+  },
+  "directOrderName": "Lisa Blunt Rochester",
+  "firstName": "Lisa",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Blunt Rochester, Lisa",
   "lastName": "Blunt Rochester",
-  "state": "DE",
-  "party": "Democrat",
-  "nameTitle": "Sen. Lisa Blunt Rochester (DE)",
-  "imageUrl": "https://www.congress.gov/img/member/b001303_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.bluntrochester.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Lisa Blunt Rochester",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Lisa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Blunt Rochester, Lisa",
+      "lastName": "Blunt Rochester",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Lisa Blunt Rochester",
+      "endDate": "2025-02-15T09:44:59Z",
+      "firstName": "Lisa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Blunt Rochester, Lisa",
+      "lastName": "Blunt Rochester",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Lisa Blunt Rochester",
+      "endDate": "2025-03-01T09:44:59Z",
+      "firstName": "Lisa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Blunt Rochester, Lisa",
+      "lastName": "Blunt Rochester",
+      "startDate": "2025-02-15T09:45:00Z"
+    },
+    {
+      "directOrderName": "Lisa Blunt Rochester",
+      "firstName": "Lisa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Blunt Rochester, Lisa",
+      "lastName": "Blunt Rochester",
+      "startDate": "2025-03-01T09:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 186,
+    "url": "https://api.congress.gov/v3/member/B001303/sponsored-legislation"
+  },
+  "state": "Delaware",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:34Z",
+  "id": {
+    "bioguide": "B001303",
+    "lis": "S430",
+    "govtrack": 412689,
+    "wikipedia": "Lisa Blunt Rochester",
+    "wikidata": "Q26899141",
+    "votesmart": 173249,
+    "fec": [
+      "H6DE00206",
+      "S4DE00060"
+    ],
+    "opensecrets": "N00038414",
+    "maplight": 2201,
+    "google_entity_id": "kg:/g/11c3yvwbvn",
+    "cspan": 104772,
+    "icpsr": 21706,
+    "ballotpedia": "Lisa Blunt Rochester",
+    "pictorial": 12981,
+    "facebook": "Rep.BluntRochester",
+    "twitter": "SenLBR",
+    "twitter_id": 817050219007328300,
+    "instagram": "senlbr"
+  },
+  "name": {
+    "first": "Lisa",
+    "last": "Blunt Rochester",
+    "official_full": "Lisa Blunt Rochester"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1962-02-10"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "DE",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.bluntrochester.senate.gov",
+    "address": "513 Hart Senate Office Building Washington DC 20510",
+    "office": "513 Hart Senate Office Building",
+    "phone": "202-224-2441"
+  }
 }

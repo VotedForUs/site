@@ -1,13 +1,133 @@
 {
-  "id": "N000026",
-  "bioguide": "N000026",
-  "name": "Troy E. Nehls",
-  "lastName": "Nehls",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1104 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5951",
+    "zipCode": 20515
+  },
+  "bioguideId": "N000026",
+  "birthYear": "1968",
+  "cosponsoredLegislation": {
+    "count": 782,
+    "url": "https://api.congress.gov/v3/member/N000026/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/N000026.jpg"
+  },
+  "directOrderName": "Troy E. Nehls",
   "district": 22,
-  "nameTitle": "Rep. Troy E. Nehls (TX-22)",
-  "imageUrl": "https://www.congress.gov/img/member/n000026_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Troy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Nehls, Troy E.",
+  "lastName": "Nehls",
+  "middleName": "E.",
+  "officialWebsiteUrl": "https://nehls.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Troy E. Nehls",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Troy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Nehls, Troy E.",
+      "lastName": "Nehls",
+      "middleName": "E.",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Troy E. Nehls",
+      "firstName": "Troy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Nehls, Troy E.",
+      "lastName": "Nehls",
+      "middleName": "E.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 89,
+    "url": "https://api.congress.gov/v3/member/N000026/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 22,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 22,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 22,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "N000026",
+    "fec": [
+      "H0TX22302"
+    ],
+    "opensecrets": "N00046067",
+    "govtrack": 456848,
+    "wikidata": "Q96741441",
+    "wikipedia": "Troy Nehls",
+    "google_entity_id": "kg:/g/11c580_xf2",
+    "votesmart": 188334,
+    "ballotpedia": "Troy Nehls",
+    "pictorial": 13279,
+    "twitter": "RepTroyNehls",
+    "twitter_id": 1347318288850825200,
+    "facebook": "RepTroyNehls",
+    "instagram": "reptroynehls"
+  },
+  "name": {
+    "first": "Troy",
+    "middle": "E.",
+    "last": "Nehls",
+    "official_full": "Troy E. Nehls"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1968-04-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 22,
+    "party": "Republican",
+    "url": "https://nehls.house.gov",
+    "address": "1104 Longworth House Office Building Washington DC 20515-4322",
+    "office": "1104 Longworth House Office Building",
+    "phone": "202-225-5951"
+  }
 }

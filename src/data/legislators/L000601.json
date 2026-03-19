@@ -1,13 +1,127 @@
 {
-  "id": "L000601",
-  "bioguide": "L000601",
-  "name": "Greg Landsman",
-  "lastName": "Landsman",
-  "state": "OH",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2244 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2216",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000601",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 899,
+    "url": "https://api.congress.gov/v3/member/L000601/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000601.jpg"
+  },
+  "directOrderName": "Greg Landsman",
   "district": 1,
-  "nameTitle": "Rep. Greg Landsman (OH-1)",
-  "imageUrl": "https://www.congress.gov/img/member/l000601_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Greg",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Landsman, Greg",
+  "lastName": "Landsman",
+  "officialWebsiteUrl": "https://landsman.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Greg Landsman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Landsman, Greg",
+      "lastName": "Landsman",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Greg Landsman",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Landsman, Greg",
+      "lastName": "Landsman",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Greg Landsman",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Landsman, Greg",
+      "lastName": "Landsman",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 41,
+    "url": "https://api.congress.gov/v3/member/L000601/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "L000601",
+    "fec": [
+      "H2OH01194"
+    ],
+    "govtrack": 456928,
+    "opensecrets": "N00049718",
+    "wikidata": "Q115180677",
+    "wikipedia": "Greg Landsman",
+    "votesmart": 186237,
+    "google_entity_id": "kg:/g/11rn585y5q",
+    "pictorial": 13195,
+    "twitter": "repgreglandsman",
+    "facebook": "RepGregLandsman",
+    "instagram": "repgreglandsman"
+  },
+  "name": {
+    "first": "Greg",
+    "middle": "John",
+    "last": "Landsman",
+    "official_full": "Greg Landsman"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1976-12-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 1,
+    "party": "Democrat",
+    "url": "https://landsman.house.gov",
+    "address": "2244 Rayburn House Office Building Washington DC 20515-3501",
+    "office": "2244 Rayburn House Office Building",
+    "phone": "202-225-2216"
+  }
 }

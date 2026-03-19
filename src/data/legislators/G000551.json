@@ -1,13 +1,219 @@
 {
-  "id": "G000551",
-  "bioguide": "G000551",
-  "name": "Raúl M. Grijalva",
-  "lastName": "Grijalva",
-  "state": "AZ",
-  "party": "Democrat",
+  "bioguideId": "G000551",
+  "birthYear": "1948",
+  "cosponsoredLegislation": {
+    "count": 10813,
+    "url": "https://api.congress.gov/v3/member/G000551/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "deathYear": "2025",
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000551.jpg"
+  },
+  "directOrderName": "Raúl M. Grijalva",
   "district": 7,
-  "nameTitle": "Rep. Raúl M. Grijalva (AZ-7)",
-  "imageUrl": "https://www.congress.gov/img/member/g000551_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Raúl",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Grijalva, Raúl M.",
+  "lastName": "Grijalva",
+  "middleName": "M.",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2003
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Raúl M. Grijalva",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Raúl",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Grijalva, Raúl M.",
+      "lastName": "Grijalva",
+      "middleName": "M.",
+      "startDate": "2003-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Raúl M. Grijalva",
+      "firstName": "Raúl",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Grijalva, Raúl M.",
+      "lastName": "Grijalva",
+      "middleName": "M.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 404,
+    "url": "https://api.congress.gov/v3/member/G000551/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 7,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 7,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 7,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 7,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 7,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 3,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 3,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-03-28T15:05:08Z",
+  "id": {
+    "bioguide": "G000551",
+    "thomas": "01708",
+    "govtrack": 400162,
+    "opensecrets": "N00025284",
+    "votesmart": 28253,
+    "fec": [
+      "H2AZ07070"
+    ],
+    "cspan": 1003551,
+    "wikipedia": "Raúl Grijalva",
+    "house_history": 14261,
+    "ballotpedia": "Raul Grijalva",
+    "maplight": 268,
+    "icpsr": 20305,
+    "wikidata": "Q946606",
+    "google_entity_id": "kg:/m/024s1z",
+    "pictorial": 12912
+  },
+  "name": {
+    "first": "Raúl",
+    "middle": "M.",
+    "last": "Grijalva",
+    "official_full": "Raúl M. Grijalva"
+  },
+  "bio": {
+    "birthday": "1948-02-19",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2025-03-13",
+    "state": "AZ",
+    "district": 7,
+    "party": "Democrat",
+    "url": "https://grijalva.house.gov",
+    "rss_url": "http://grijalva.house.gov/common/rss/?rss=13",
+    "address": "1203 Longworth House Office Building Washington DC 20515-0307",
+    "office": "1203 Longworth House Office Building",
+    "phone": "202-225-2435"
+  }
 }

@@ -1,13 +1,242 @@
 {
-  "id": "T000463",
-  "bioguide": "T000463",
-  "name": "Michael R. Turner",
-  "lastName": "Turner",
-  "state": "OH",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2183 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6465",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000463",
+  "birthYear": "1960",
+  "cosponsoredLegislation": {
+    "count": 2137,
+    "url": "https://api.congress.gov/v3/member/T000463/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000463.jpg"
+  },
+  "directOrderName": "Michael R. Turner",
   "district": 10,
-  "nameTitle": "Rep. Michael R. Turner (OH-10)",
-  "imageUrl": "https://www.congress.gov/img/member/68014c674e51529406f18e56_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Michael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Turner, Michael R.",
+  "lastName": "Turner",
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://turner.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2003
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Michael R. Turner",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Turner, Michael R.",
+      "lastName": "Turner",
+      "middleName": "R.",
+      "startDate": "2003-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Michael R. Turner",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Turner, Michael R.",
+      "lastName": "Turner",
+      "middleName": "R.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Michael R. Turner",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Turner, Michael R.",
+      "lastName": "Turner",
+      "middleName": "R.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 189,
+    "url": "https://api.congress.gov/v3/member/T000463/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 3,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 3,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 3,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 3,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 3,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 10,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 10,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 10,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 10,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 10,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 10,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 10,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "T000463",
+    "thomas": "01741",
+    "govtrack": 400411,
+    "opensecrets": "N00025175",
+    "votesmart": 45519,
+    "fec": [
+      "H2OH03067",
+      "H2OH03091"
+    ],
+    "cspan": 1003607,
+    "wikipedia": "Mike Turner",
+    "ballotpedia": "Michael R. Turner",
+    "maplight": 496,
+    "icpsr": 20342,
+    "house_history": 23206,
+    "wikidata": "Q505722",
+    "google_entity_id": "kg:/m/03440l",
+    "pictorial": 13204,
+    "twitter": "RepMikeTurner",
+    "facebook": "RepMikeTurner",
+    "youtube": "CongressmanTurner",
+    "youtube_id": "UC-6Ss-aZ3OPisf9GdVGtN8g",
+    "twitter_id": 51228911,
+    "instagram": "repmiketurner"
+  },
+  "name": {
+    "first": "Michael",
+    "middle": "R.",
+    "last": "Turner",
+    "official_full": "Michael R. Turner"
+  },
+  "bio": {
+    "birthday": "1960-01-11",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 10,
+    "party": "Republican",
+    "url": "https://turner.house.gov",
+    "rss_url": "http://turner.house.gov/news/rss.aspx",
+    "address": "2183 Rayburn House Office Building Washington DC 20515-3510",
+    "office": "2183 Rayburn House Office Building",
+    "phone": "202-225-6465"
+  }
 }

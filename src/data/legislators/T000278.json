@@ -1,13 +1,130 @@
 {
-  "id": "T000278",
-  "bioguide": "T000278",
-  "name": "Tommy Tuberville",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "455 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4124",
+    "zipCode": 20510
+  },
+  "bioguideId": "T000278",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 635,
+    "url": "https://api.congress.gov/v3/member/T000278/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/T000278.jpg"
+  },
+  "directOrderName": "Tommy Tuberville",
+  "firstName": "Tommy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Tuberville, Tommy",
   "lastName": "Tuberville",
-  "state": "AL",
-  "party": "Republican",
-  "nameTitle": "Sen. Tommy Tuberville (AL)",
-  "imageUrl": "https://www.congress.gov/img/member/t000278_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.tuberville.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tommy Tuberville",
+      "firstName": "Tommy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Tuberville, Tommy",
+      "lastName": "Tuberville",
+      "startDate": "2023-04-25T06:35:00Z"
+    },
+    {
+      "directOrderName": "Tommy Tuberville",
+      "endDate": "2023-04-25T06:34:59Z",
+      "firstName": "Tommy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Tuberville, Tommy",
+      "lastName": "Tuberville",
+      "startDate": "2021-01-03T17:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 305,
+    "url": "https://api.congress.gov/v3/member/T000278/sponsored-legislation"
+  },
+  "state": "Alabama",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:53Z",
+  "id": {
+    "bioguide": "T000278",
+    "lis": "S412",
+    "fec": [
+      "S0AL00230"
+    ],
+    "opensecrets": "N00044434",
+    "govtrack": 456796,
+    "wikidata": "Q7819948",
+    "wikipedia": "Tommy Tuberville",
+    "google_entity_id": "kg:/m/04tmr4",
+    "votesmart": 188306,
+    "ballotpedia": "Tommy Tuberville",
+    "pictorial": 13365,
+    "twitter": "SenTuberville",
+    "twitter_id": 1345739193721487400,
+    "facebook": "RogerMarshallMD",
+    "instagram": "sentuberville"
+  },
+  "name": {
+    "first": "Tommy",
+    "middle": "Hawley",
+    "last": "Tuberville",
+    "official_full": "Tommy Tuberville"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1954-09-18"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "AL",
+    "class": 2,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.tuberville.senate.gov",
+    "contact_form": "https://www.tuberville.senate.gov/contact/contact-form/",
+    "address": "455 Russell Senate Office Building Washington DC 20510",
+    "office": "455 Russell Senate Office Building",
+    "phone": "202-224-4124",
+    "fax": "202-225-0562"
+  }
 }

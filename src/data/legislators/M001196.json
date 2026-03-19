@@ -1,13 +1,173 @@
 {
-  "id": "M001196",
-  "bioguide": "M001196",
-  "name": "Seth Moulton",
-  "lastName": "Moulton",
-  "state": "MA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1126 Longworth House Office Building",
+    "phoneNumber": "(202) 225-8020",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001196",
+  "birthYear": "1978",
+  "cosponsoredLegislation": {
+    "count": 3033,
+    "url": "https://api.congress.gov/v3/member/M001196/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001196.jpg"
+  },
+  "directOrderName": "Seth Moulton",
   "district": 6,
-  "nameTitle": "Rep. Seth Moulton (MA-6)",
-  "imageUrl": "https://www.congress.gov/img/member/m001196_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Seth",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Moulton, Seth",
+  "lastName": "Moulton",
+  "officialWebsiteUrl": "https://moulton.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Seth Moulton",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Seth",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moulton, Seth",
+      "lastName": "Moulton",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Seth Moulton",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Seth",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moulton, Seth",
+      "lastName": "Moulton",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Seth Moulton",
+      "firstName": "Seth",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moulton, Seth",
+      "lastName": "Moulton",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 104,
+    "url": "https://api.congress.gov/v3/member/M001196/sponsored-legislation"
+  },
+  "state": "Massachusetts",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 6,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 6,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "M001196",
+    "fec": [
+      "H4MA06090"
+    ],
+    "govtrack": 412632,
+    "opensecrets": "N00035431",
+    "thomas": "02246",
+    "maplight": 2088,
+    "wikidata": "Q18045052",
+    "wikipedia": "Seth Moulton",
+    "google_entity_id": "kg:/m/0sgh587",
+    "votesmart": 146299,
+    "ballotpedia": "Seth Moulton",
+    "cspan": 78453,
+    "icpsr": 21525,
+    "pictorial": 13080,
+    "facebook": "CongressmanSethMoulton",
+    "twitter": "RepMoulton",
+    "twitter_id": 3091316093,
+    "instagram": "repmoulton",
+    "youtube_id": "UC5w5qn7nj5Ljy69LTV7a_fQ"
+  },
+  "name": {
+    "first": "Seth",
+    "last": "Moulton",
+    "official_full": "Seth Moulton"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1978-10-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MA",
+    "district": 6,
+    "party": "Democrat",
+    "url": "https://moulton.house.gov",
+    "address": "1126 Longworth House Office Building Washington DC 20515-2106",
+    "office": "1126 Longworth House Office Building",
+    "phone": "202-225-8020"
+  }
 }

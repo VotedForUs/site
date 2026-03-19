@@ -1,13 +1,258 @@
 {
-  "id": "G000359",
-  "bioguide": "G000359",
-  "name": "Lindsey Graham",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "211 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5972",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000359",
+  "birthYear": "1955",
+  "cosponsoredLegislation": {
+    "count": 3609,
+    "url": "https://api.congress.gov/v3/member/G000359/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/G000359.jpg"
+  },
+  "directOrderName": "Lindsey Graham",
+  "firstName": "Lindsey",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Graham, Lindsey",
   "lastName": "Graham",
-  "state": "SC",
-  "party": "Republican",
-  "nameTitle": "Sen. Lindsey Graham (SC)",
-  "imageUrl": "https://www.congress.gov/img/member/g000359_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.lgraham.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 1995
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Lindsey Graham",
+      "firstName": "Lindsey",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Graham, Lindsey",
+      "lastName": "Graham",
+      "startDate": "2023-04-01T06:35:00Z"
+    },
+    {
+      "directOrderName": "Lindsey Graham",
+      "endDate": "2023-04-01T06:34:59Z",
+      "firstName": "Lindsey",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Graham, Lindsey",
+      "lastName": "Graham",
+      "startDate": "1995-01-03T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 757,
+    "url": "https://api.congress.gov/v3/member/G000359/sponsored-legislation"
+  },
+  "state": "South Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 104,
+      "district": 3,
+      "endYear": 1997,
+      "memberType": "Representative",
+      "startYear": 1995,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 3,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 3,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 3,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 108,
+      "endYear": 2005,
+      "memberType": "Senator",
+      "startYear": 2003,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 109,
+      "endYear": 2007,
+      "memberType": "Senator",
+      "startYear": 2005,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 110,
+      "endYear": 2009,
+      "memberType": "Senator",
+      "startYear": 2007,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:17Z",
+  "id": {
+    "bioguide": "G000359",
+    "thomas": "00452",
+    "lis": "S293",
+    "govtrack": 300047,
+    "opensecrets": "N00009975",
+    "votesmart": 21992,
+    "fec": [
+      "S0SC00149",
+      "H4SC03087"
+    ],
+    "cspan": 36782,
+    "wikipedia": "Lindsey Graham",
+    "house_history": 14015,
+    "ballotpedia": "Lindsey Graham",
+    "maplight": 569,
+    "icpsr": 29566,
+    "wikidata": "Q22212",
+    "google_entity_id": "kg:/m/01_pdg",
+    "pictorial": 13440,
+    "twitter": "GrahamBlog",
+    "facebook": "USSenatorLindseyGraham",
+    "youtube": "USSenLindseyGraham",
+    "youtube_id": "UClLGZMA5Ei2Z8fR1PLEx6yQ",
+    "twitter_id": 14845376
+  },
+  "name": {
+    "first": "Lindsey",
+    "middle": "O.",
+    "last": "Graham",
+    "official_full": "Lindsey Graham"
+  },
+  "bio": {
+    "birthday": "1955-07-09",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "SC",
+    "class": 2,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.lgraham.senate.gov/public",
+    "rss_url": "http://www.lgraham.senate.gov/public/index.cfm?FuseAction=Rss.Feed",
+    "contact_form": "https://www.lgraham.senate.gov/public/index.cfm/e-mail-senator-graham",
+    "address": "211 Russell Senate Office Building Washington DC 20510",
+    "office": "211 Russell Senate Office Building",
+    "phone": "202-224-5972"
+  }
 }

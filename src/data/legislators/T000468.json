@@ -1,13 +1,197 @@
 {
-  "id": "T000468",
-  "bioguide": "T000468",
-  "name": "Dina Titus",
-  "lastName": "Titus",
-  "state": "NV",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2370 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5965",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000468",
+  "birthYear": "1950",
+  "cosponsoredLegislation": {
+    "count": 4363,
+    "url": "https://api.congress.gov/v3/member/T000468/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000468.jpg"
+  },
+  "directOrderName": "Dina Titus",
   "district": 1,
-  "nameTitle": "Rep. Dina Titus (NV-1)",
-  "imageUrl": "https://www.congress.gov/img/member/6809296b6c2e6631263de728_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Dina",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Titus, Dina",
+  "lastName": "Titus",
+  "officialWebsiteUrl": "https://titus.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Dina Titus",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Dina",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Titus, Dina",
+      "lastName": "Titus",
+      "startDate": "2009-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Dina Titus",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Dina",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Titus, Dina",
+      "lastName": "Titus",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Dina Titus",
+      "firstName": "Dina",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Titus, Dina",
+      "lastName": "Titus",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 235,
+    "url": "https://api.congress.gov/v3/member/T000468/sponsored-legislation"
+  },
+  "state": "Nevada",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 3,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 1,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "T000468",
+    "thomas": "01940",
+    "govtrack": 412318,
+    "opensecrets": "N00030191",
+    "votesmart": 2629,
+    "fec": [
+      "H8NV03036"
+    ],
+    "cspan": 1021622,
+    "wikipedia": "Dina Titus",
+    "ballotpedia": "Dina Titus",
+    "maplight": 800,
+    "icpsr": 20927,
+    "house_history": 23215,
+    "wikidata": "Q524440",
+    "google_entity_id": "kg:/m/07hwl2",
+    "pictorial": 13165,
+    "twitter": "RepDinaTitus",
+    "facebook": "CongresswomanTitus",
+    "youtube": "CongresswomanTitus",
+    "youtube_id": "UC_US4jNqECuMSNrB7yVCbbw",
+    "instagram": "dinatitusnv",
+    "instagram_id": 1110185253,
+    "twitter_id": 122174004
+  },
+  "name": {
+    "first": "Dina",
+    "last": "Titus",
+    "official_full": "Dina Titus"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1950-05-23"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NV",
+    "district": 1,
+    "party": "Democrat",
+    "url": "https://titus.house.gov",
+    "rss_url": "http://titus.house.gov/rss.xml",
+    "address": "2370 Rayburn House Office Building Washington DC 20515-2801",
+    "office": "2370 Rayburn House Office Building",
+    "phone": "202-225-5965"
+  }
 }
