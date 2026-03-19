@@ -22,6 +22,11 @@ let _manifest: BuildManifest | null | undefined;
 
 export function getBuildManifest(): BuildManifest | null {
   if (_manifest !== undefined) return _manifest;
+  // In `astro dev`, always behave like a full build:
+  // - `getStaticPaths()` must include *all* bills/terms that exist on disk
+  // - otherwise routes (e.g. `/bills/119/`) can 404 if the manifest has empty `changedIds`
+  const isDev = Boolean((import.meta as unknown as { env?: { DEV?: boolean } }).env?.DEV);
+  if (isDev) return (_manifest = null);
   // Use process.cwd() (project root) — import.meta.url is unreliable in
   // Astro's Vite build context where files are compiled to temp paths.
   const manifestPath = join(process.cwd(), 'src', 'data', '.build-manifest.json');

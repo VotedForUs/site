@@ -28,16 +28,16 @@
     "benchmark:report": "tsx scripts/benchmark.ts --report"
   },
   "dependencies": {
-    "@votedforus/votes": "^1.0.1",
-    "astro": "^6.0.2",
+    "@votedforus/votes": "^1.1.0",
+    "astro": "^6.0.6",
     "astro-seo": "^1.1.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.7",
-    "@votedforus/common": "^1.0.0",
-    "@types/node": "^25.4.0",
-    "puppeteer": "^24.39.0",
+    "@astrojs/check": "^0.9.8",
+    "@votedforus/common": "^1.1.0",
+    "@types/node": "^25.5.0",
+    "puppeteer": "^24.39.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
