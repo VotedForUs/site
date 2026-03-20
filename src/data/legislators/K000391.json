@@ -1,13 +1,161 @@
 {
-  "id": "K000391",
-  "bioguide": "K000391",
-  "name": "Raja Krishnamoorthi",
-  "lastName": "Krishnamoorthi",
-  "state": "IL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2367 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3711",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000391",
+  "birthYear": "1973",
+  "cosponsoredLegislation": {
+    "count": 2478,
+    "url": "https://api.congress.gov/v3/member/K000391/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000391.jpg"
+  },
+  "directOrderName": "Raja Krishnamoorthi",
   "district": 8,
-  "nameTitle": "Rep. Raja Krishnamoorthi (IL-8)",
-  "imageUrl": "https://www.congress.gov/img/member/k000391_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Raja",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Krishnamoorthi, Raja",
+  "lastName": "Krishnamoorthi",
+  "officialWebsiteUrl": "https://krishnamoorthi.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Raja Krishnamoorthi",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Raja",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Krishnamoorthi, Raja",
+      "lastName": "Krishnamoorthi",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Raja Krishnamoorthi",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Raja",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Krishnamoorthi, Raja",
+      "lastName": "Krishnamoorthi",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Raja Krishnamoorthi",
+      "firstName": "Raja",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Krishnamoorthi, Raja",
+      "lastName": "Krishnamoorthi",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 161,
+    "url": "https://api.congress.gov/v3/member/K000391/sponsored-legislation"
+  },
+  "state": "Illinois",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 8,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 8,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "K000391",
+    "govtrack": 412701,
+    "wikipedia": "Raja Krishnamoorthi",
+    "wikidata": "Q7285471",
+    "google_entity_id": "kg:/g/11c5m7lxtk",
+    "votesmart": 117519,
+    "fec": [
+      "H6IL08147"
+    ],
+    "opensecrets": "N00033240",
+    "maplight": 2213,
+    "cspan": 103408,
+    "icpsr": 21730,
+    "ballotpedia": "Raja Krishnamoorthi",
+    "pictorial": 13040,
+    "facebook": "congressmanraja",
+    "twitter": "CongressmanRaja",
+    "twitter_id": 814179031956488200,
+    "instagram": "congressmanraja"
+  },
+  "name": {
+    "first": "Raja",
+    "last": "Krishnamoorthi",
+    "official_full": "Raja Krishnamoorthi"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1973-07-19"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IL",
+    "district": 8,
+    "party": "Democrat",
+    "url": "https://krishnamoorthi.house.gov",
+    "address": "2367 Rayburn House Office Building Washington DC 20515-1308",
+    "office": "2367 Rayburn House Office Building",
+    "phone": "202-225-3711"
+  }
 }

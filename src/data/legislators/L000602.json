@@ -1,13 +1,142 @@
 {
-  "id": "L000602",
-  "bioguide": "L000602",
-  "name": "Summer L. Lee",
-  "lastName": "Lee",
-  "state": "PA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2437 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2135",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000602",
+  "birthYear": "1987",
+  "cosponsoredLegislation": {
+    "count": 924,
+    "url": "https://api.congress.gov/v3/member/L000602/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000602.jpg"
+  },
+  "directOrderName": "Summer L. Lee",
   "district": 12,
-  "nameTitle": "Rep. Summer L. Lee (PA-12)",
-  "imageUrl": "https://www.congress.gov/img/member/l000602_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Summer",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Lee, Summer L.",
+  "lastName": "Lee",
+  "middleName": "L.",
+  "officialWebsiteUrl": "https://summerlee.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Summer L. Lee",
+      "endDate": "2024-02-27T13:20:57Z",
+      "firstName": "Summer",
+      "invertedOrderName": "Lee, Summer L.",
+      "lastName": "Lee",
+      "middleName": "L.",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Summer L. Lee",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Summer",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lee, Summer L.",
+      "lastName": "Lee",
+      "middleName": "L.",
+      "startDate": "2024-02-27T13:20:58Z"
+    },
+    {
+      "directOrderName": "Summer L. Lee",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Summer",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lee, Summer L.",
+      "lastName": "Lee",
+      "middleName": "L.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Summer L. Lee",
+      "firstName": "Summer",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lee, Summer L.",
+      "lastName": "Lee",
+      "middleName": "L.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 37,
+    "url": "https://api.congress.gov/v3/member/L000602/sponsored-legislation"
+  },
+  "state": "Pennsylvania",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 12,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 12,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "L000602",
+    "fec": [
+      "H2PA18200"
+    ],
+    "govtrack": 456935,
+    "opensecrets": "N00049757",
+    "wikidata": "Q56222614",
+    "wikipedia": "Summer Lee",
+    "google_entity_id": "kg:/g/11f8p2q8bd",
+    "ballotpedia": "Summer Lee",
+    "votesmart": 179240,
+    "pictorial": 13232,
+    "twitter": "RepSummerLee",
+    "facebook": "RepSummerLee",
+    "instagram": "repsummerlee",
+    "youtube": "UCqQJ44qlkVxWV5N12YeacyA"
+  },
+  "name": {
+    "first": "Summer",
+    "middle": "Lynn",
+    "last": "Lee",
+    "official_full": "Summer L. Lee"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1987-11-26"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PA",
+    "district": 12,
+    "party": "Democrat",
+    "url": "https://summerlee.house.gov",
+    "address": "2437 Rayburn House Office Building Washington DC 20515-3812",
+    "office": "2437 Rayburn House Office Building",
+    "phone": "202-225-2135"
+  }
 }

@@ -1,13 +1,178 @@
 {
-  "id": "C001091",
-  "bioguide": "C001091",
-  "name": "Joaquin Castro",
-  "lastName": "Castro",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2241 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3236",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001091",
+  "birthYear": "1974",
+  "cosponsoredLegislation": {
+    "count": 1645,
+    "url": "https://api.congress.gov/v3/member/C001091/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001091.jpg"
+  },
+  "directOrderName": "Joaquin Castro",
   "district": 20,
-  "nameTitle": "Rep. Joaquin Castro (TX-20)",
-  "imageUrl": "https://www.congress.gov/img/member/c001091_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Joaquin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Castro, Joaquin",
+  "lastName": "Castro",
+  "officialWebsiteUrl": "https://castro.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Joaquin Castro",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Joaquin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Castro, Joaquin",
+      "lastName": "Castro",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Joaquin Castro",
+      "firstName": "Joaquin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Castro, Joaquin",
+      "lastName": "Castro",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 186,
+    "url": "https://api.congress.gov/v3/member/C001091/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 20,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 20,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 20,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 20,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 20,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 20,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 20,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "govtrack": 412576,
+    "bioguide": "C001091",
+    "thomas": "02163",
+    "cspan": 63974,
+    "fec": [
+      "H2TX35011"
+    ],
+    "wikipedia": "Joaquin Castro",
+    "votesmart": 49227,
+    "opensecrets": "N00033316",
+    "ballotpedia": "Joaquin Castro",
+    "maplight": 1800,
+    "icpsr": 21362,
+    "wikidata": "Q1167934",
+    "google_entity_id": "kg:/m/0bmclg",
+    "pictorial": 13277,
+    "twitter": "JoaquinCastrotx",
+    "facebook": "326420614138023",
+    "youtube": "JoaquinCastroTX",
+    "youtube_id": "UCsRxWnFdRiV2od1O5v5nEeQ",
+    "instagram": "joaquincastrotx",
+    "instagram_id": 378492005,
+    "twitter_id": 231510077,
+    "mastodon": "@Joaquincastrotx@mastodon.social"
+  },
+  "name": {
+    "first": "Joaquin",
+    "last": "Castro",
+    "official_full": "Joaquin Castro"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1974-09-16"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 20,
+    "party": "Democrat",
+    "url": "https://castro.house.gov",
+    "rss_url": "http://castro.house.gov/rss.xml",
+    "address": "2241 Rayburn House Office Building Washington DC 20515-4320",
+    "office": "2241 Rayburn House Office Building",
+    "phone": "202-225-3236"
+  }
 }

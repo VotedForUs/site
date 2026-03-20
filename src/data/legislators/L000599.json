@@ -1,13 +1,130 @@
 {
-  "id": "L000599",
-  "bioguide": "L000599",
-  "name": "Michael Lawler",
-  "lastName": "Lawler",
-  "state": "NY",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "324 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6506",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000599",
+  "birthYear": "1986",
+  "cosponsoredLegislation": {
+    "count": 2034,
+    "url": "https://api.congress.gov/v3/member/L000599/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000599.jpg"
+  },
+  "directOrderName": "Michael Lawler",
   "district": 17,
-  "nameTitle": "Rep. Michael Lawler (NY-17)",
-  "imageUrl": "https://www.congress.gov/img/member/l000599_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Michael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Lawler, Michael",
+  "lastName": "Lawler",
+  "nickName": "Mike",
+  "officialWebsiteUrl": "https://lawler.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Michael Lawler",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lawler, Michael",
+      "lastName": "Lawler",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Lawler",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lawler, Michael",
+      "lastName": "Lawler",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Lawler",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lawler, Michael",
+      "lastName": "Lawler",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 166,
+    "url": "https://api.congress.gov/v3/member/L000599/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 17,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 17,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "L000599",
+    "fec": [
+      "H2NY17162"
+    ],
+    "govtrack": 456924,
+    "opensecrets": "N00051208",
+    "wikidata": "Q105179052",
+    "wikipedia": "Mike Lawler",
+    "google_entity_id": "kg:/g/11qwsdzzd6",
+    "votesmart": 192271,
+    "pictorial": 13185,
+    "twitter": "RepMikeLawler",
+    "twitter_id": 1590372047015886800,
+    "facebook": "RepMikeLawler",
+    "instagram": "RepMikeLawler",
+    "youtube": "@RepMikeLawler"
+  },
+  "name": {
+    "first": "Michael",
+    "middle": "Vincent",
+    "last": "Lawler",
+    "official_full": "Michael Lawler"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1986-09-09"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 17,
+    "party": "Republican",
+    "url": "https://lawler.house.gov",
+    "address": "324 Cannon House Office Building Washington DC 20515-3217",
+    "office": "324 Cannon House Office Building",
+    "phone": "202-225-6506"
+  }
 }

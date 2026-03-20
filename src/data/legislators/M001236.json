@@ -1,13 +1,114 @@
 {
-  "id": "M001236",
-  "bioguide": "M001236",
-  "name": "Tim Moore",
-  "lastName": "Moore",
-  "state": "NC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1424 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5634",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001236",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 222,
+    "url": "https://api.congress.gov/v3/member/M001236/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001236.jpg"
+  },
+  "directOrderName": "Tim Moore",
   "district": 14,
-  "nameTitle": "Rep. Tim Moore (NC-14)",
-  "imageUrl": "https://www.congress.gov/img/member/67744a540b34857ecc909137_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Tim",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Moore, Tim",
+  "lastName": "Moore",
+  "officialWebsiteUrl": "https://timmoore.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tim Moore",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Tim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Tim",
+      "lastName": "Moore",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Tim Moore",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Tim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Tim",
+      "lastName": "Moore",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Tim Moore",
+      "firstName": "Tim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Tim",
+      "lastName": "Moore",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 23,
+    "url": "https://api.congress.gov/v3/member/M001236/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 14,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "M001236",
+    "fec": [
+      "H4NC14015"
+    ],
+    "govtrack": 457005,
+    "opensecrets": "N00053948",
+    "wikipedia": "Tim Moore (North Carolina politician)",
+    "wikidata": "Q7804002",
+    "twitter": "RepTimMooreNC",
+    "facebook": "CongressmanTimMoore",
+    "instagram": "reptimmoore"
+  },
+  "name": {
+    "first": "Tim",
+    "middle": "Keith",
+    "last": "Moore",
+    "official_full": "Tim Moore"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-10-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 14,
+    "party": "Republican",
+    "address": "1424 Longworth House Office Building Washington DC 20515-0001",
+    "office": "1424 Longworth House Office Building",
+    "phone": "202-225-5634",
+    "url": "https://timmoore.house.gov"
+  }
 }

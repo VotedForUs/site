@@ -1,13 +1,274 @@
 {
-  "id": "W000437",
-  "bioguide": "W000437",
-  "name": "Roger F. Wicker",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "425 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-6253",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000437",
+  "birthYear": "1951",
+  "cosponsoredLegislation": {
+    "count": 4469,
+    "url": "https://api.congress.gov/v3/member/W000437/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000437.jpg"
+  },
+  "directOrderName": "Roger F. Wicker",
+  "firstName": "Roger",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Wicker, Roger F.",
   "lastName": "Wicker",
-  "state": "MS",
-  "party": "Republican",
-  "nameTitle": "Sen. Roger F. Wicker (MS)",
-  "imageUrl": "https://www.congress.gov/img/member/f49ac425119375e9fe6a075762734079_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "stateRank": "senior",
-  "type": "sen"
+  "middleName": "F.",
+  "officialWebsiteUrl": "https://www.wicker.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 1995
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Roger F. Wicker",
+      "endDate": "2023-02-03T07:34:59Z",
+      "firstName": "Roger",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Wicker, Roger F.",
+      "lastName": "Wicker",
+      "middleName": "F.",
+      "startDate": "1995-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Roger F. Wicker",
+      "firstName": "Roger",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Wicker, Roger F.",
+      "lastName": "Wicker",
+      "middleName": "F.",
+      "startDate": "2023-02-03T07:35:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 747,
+    "url": "https://api.congress.gov/v3/member/W000437/sponsored-legislation"
+  },
+  "state": "Mississippi",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 104,
+      "district": 1,
+      "endYear": 1997,
+      "memberType": "Representative",
+      "startYear": 1995,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 1,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 1,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 1,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 1,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 1,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 1,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 110,
+      "endYear": 2009,
+      "memberType": "Senator",
+      "startYear": 2007,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    }
+  ],
+  "updateDate": "2026-03-08T10:33:05Z",
+  "id": {
+    "bioguide": "W000437",
+    "thomas": "01226",
+    "lis": "S318",
+    "govtrack": 400432,
+    "opensecrets": "N00003280",
+    "votesmart": 21926,
+    "fec": [
+      "H4MS01078",
+      "S8MS00196"
+    ],
+    "cspan": 18203,
+    "wikipedia": "Roger Wicker",
+    "ballotpedia": "Roger Wicker",
+    "maplight": 517,
+    "icpsr": 29534,
+    "house_history": 23734,
+    "wikidata": "Q390491",
+    "google_entity_id": "kg:/m/025xxb",
+    "pictorial": 13373,
+    "twitter": "SenatorWicker",
+    "facebook": "SenatorWicker",
+    "youtube": "SenatorWicker",
+    "youtube_id": "UCIlKHiTjSkcQP_knBcXHWSg",
+    "instagram": "senatorwicker",
+    "instagram_id": 367948073,
+    "twitter_id": 264219447
+  },
+  "name": {
+    "first": "Roger",
+    "middle": "F.",
+    "last": "Wicker",
+    "official_full": "Roger F. Wicker"
+  },
+  "bio": {
+    "birthday": "1951-07-05",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "MS",
+    "class": 1,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.wicker.senate.gov",
+    "contact_form": "https://www.wicker.senate.gov/public/index.cfm/contact",
+    "address": "425 Russell Senate Office Building Washington DC 20510",
+    "office": "425 Russell Senate Office Building",
+    "phone": "202-224-6253"
+  }
 }

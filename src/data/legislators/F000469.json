@@ -1,13 +1,150 @@
 {
-  "id": "F000469",
-  "bioguide": "F000469",
-  "name": "Russ Fulcher",
-  "lastName": "Fulcher",
-  "state": "ID",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1514 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6611",
+    "zipCode": 20515
+  },
+  "bioguideId": "F000469",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 623,
+    "url": "https://api.congress.gov/v3/member/F000469/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/F000469.jpg"
+  },
+  "directOrderName": "Russ Fulcher",
   "district": 1,
-  "nameTitle": "Rep. Russ Fulcher (ID-1)",
-  "imageUrl": "https://www.congress.gov/img/member/f000469_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Russ",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Fulcher, Russ",
+  "lastName": "Fulcher",
+  "officialWebsiteUrl": "https://fulcher.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Russ Fulcher",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Russ",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fulcher, Russ",
+      "lastName": "Fulcher",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Russ Fulcher",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Russ",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fulcher, Russ",
+      "lastName": "Fulcher",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Russ Fulcher",
+      "firstName": "Russ",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fulcher, Russ",
+      "lastName": "Fulcher",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 48,
+    "url": "https://api.congress.gov/v3/member/F000469/sponsored-legislation"
+  },
+  "state": "Idaho",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "F000469",
+    "fec": [
+      "H8ID01124"
+    ],
+    "govtrack": 412773,
+    "wikipedia": "Russ Fulcher",
+    "wikidata": "Q7381134",
+    "google_entity_id": "kg:/m/05h4vgh",
+    "opensecrets": "N00041335",
+    "votesmart": 33091,
+    "icpsr": 21920,
+    "ballotpedia": "Russ Fulcher",
+    "pictorial": 13031,
+    "twitter": "RepRussFulcher",
+    "twitter_id": 1078741899572240400,
+    "facebook": "RepRussFulcher",
+    "instagram": "RepRussFulcher",
+    "youtube": "UCx2AS0O5frzPB8D6TqJ3Mqg"
+  },
+  "name": {
+    "first": "Russ",
+    "last": "Fulcher",
+    "official_full": "Russ Fulcher"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1973-07-19"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "ID",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://fulcher.house.gov",
+    "address": "1514 Longworth House Office Building Washington DC 20515-1201",
+    "office": "1514 Longworth House Office Building",
+    "phone": "202-225-6611"
+  }
 }

@@ -1,13 +1,181 @@
 {
-  "id": "L000577",
-  "bioguide": "L000577",
-  "name": "Mike Lee",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "363 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5444",
+    "zipCode": 20510
+  },
+  "bioguideId": "L000577",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 1751,
+    "url": "https://api.congress.gov/v3/member/L000577/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/L000577.jpg"
+  },
+  "directOrderName": "Mike Lee",
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Lee, Mike",
   "lastName": "Lee",
-  "state": "UT",
-  "party": "Republican",
-  "nameTitle": "Sen. Mike Lee (UT)",
-  "imageUrl": "https://www.congress.gov/img/member/l000577_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.lee.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Lee",
+      "endDate": "2022-09-03T12:42:16Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lee, Mike",
+      "lastName": "Lee",
+      "startDate": "2011-01-05T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Lee",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lee, Mike",
+      "lastName": "Lee",
+      "startDate": "2022-09-03T12:42:17Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 2073,
+    "url": "https://api.congress.gov/v3/member/L000577/sponsored-legislation"
+  },
+  "state": "Utah",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:49Z",
+  "id": {
+    "bioguide": "L000577",
+    "thomas": "02080",
+    "lis": "S346",
+    "govtrack": 412495,
+    "opensecrets": "N00031696",
+    "votesmart": 66395,
+    "fec": [
+      "S0UT00165"
+    ],
+    "cspan": 9267977,
+    "wikipedia": "Mike Lee",
+    "ballotpedia": "Mike Lee",
+    "maplight": 1500,
+    "icpsr": 41110,
+    "wikidata": "Q627098",
+    "google_entity_id": "kg:/m/09v5q9x",
+    "pictorial": 13353,
+    "twitter": "SenMikeLee",
+    "facebook": "senatormikelee",
+    "youtube": "senatormikelee",
+    "youtube_id": "UCplVxs_j_sLAt0fkplXcl4A",
+    "instagram": "senmikelee",
+    "instagram_id": 391361701,
+    "twitter_id": 88784440
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Lee",
+    "official_full": "Mike Lee"
+  },
+  "bio": {
+    "birthday": "1971-06-04",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "UT",
+    "class": 3,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.lee.senate.gov",
+    "rss_url": "http://www.lee.senate.gov/public/index.cfm/rss/feed",
+    "contact_form": "https://www.lee.senate.gov/public/index.cfm/contact",
+    "address": "363 Russell Senate Office Building Washington DC 20510",
+    "office": "363 Russell Senate Office Building",
+    "phone": "202-224-5444"
+  }
 }

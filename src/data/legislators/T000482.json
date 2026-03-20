@@ -1,13 +1,151 @@
 {
-  "id": "T000482",
-  "bioguide": "T000482",
-  "name": "Lori Trahan",
-  "lastName": "Trahan",
-  "state": "MA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2233 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3411",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000482",
+  "birthYear": "1973",
+  "cosponsoredLegislation": {
+    "count": 1557,
+    "url": "https://api.congress.gov/v3/member/T000482/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000482.jpg"
+  },
+  "directOrderName": "Lori Trahan",
   "district": 3,
-  "nameTitle": "Rep. Lori Trahan (MA-3)",
-  "imageUrl": "https://www.congress.gov/img/member/t000482_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Lori",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Trahan, Lori",
+  "lastName": "Trahan",
+  "officialWebsiteUrl": "https://trahan.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Lori Trahan",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Lori",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Trahan, Lori",
+      "lastName": "Trahan",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Lori Trahan",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Lori",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Trahan, Lori",
+      "lastName": "Trahan",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Lori Trahan",
+      "firstName": "Lori",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Trahan, Lori",
+      "lastName": "Trahan",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 73,
+    "url": "https://api.congress.gov/v3/member/T000482/sponsored-legislation"
+  },
+  "state": "Massachusetts",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "T000482",
+    "fec": [
+      "H8MA03106"
+    ],
+    "govtrack": 412781,
+    "wikipedia": "Lori Trahan",
+    "wikidata": "Q56486676",
+    "opensecrets": "N00041808",
+    "votesmart": 182310,
+    "icpsr": 21977,
+    "ballotpedia": "Lori Trahan",
+    "google_entity_id": "kg:/g/11gtcg496z",
+    "pictorial": 13077,
+    "twitter": "RepLoriTrahan",
+    "twitter_id": 1079802482640019500,
+    "mastodon": "@RepLoriTrahan@mastodon.social",
+    "facebook": "reploritrahan",
+    "instagram": "reploritrahan",
+    "youtube": "UCsRXg0BmoS4Rkjz-pqX1PmQ"
+  },
+  "name": {
+    "first": "Lori",
+    "last": "Trahan",
+    "official_full": "Lori Trahan"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1973-10-27"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MA",
+    "district": 3,
+    "party": "Democrat",
+    "url": "https://trahan.house.gov",
+    "address": "2233 Rayburn House Office Building Washington DC 20515-2103",
+    "office": "2233 Rayburn House Office Building",
+    "phone": "202-225-3411"
+  }
 }

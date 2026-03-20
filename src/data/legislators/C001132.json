@@ -1,13 +1,136 @@
 {
-  "id": "C001132",
-  "bioguide": "C001132",
-  "name": "Elijah Crane",
-  "lastName": "Crane",
-  "state": "AZ",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "307 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3361",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001132",
+  "birthYear": "1980",
+  "cosponsoredLegislation": {
+    "count": 970,
+    "url": "https://api.congress.gov/v3/member/C001132/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001132.jpg"
+  },
+  "directOrderName": "Elijah Crane",
   "district": 2,
-  "nameTitle": "Rep. Elijah Crane (AZ-2)",
-  "imageUrl": "https://www.congress.gov/img/member/c001132_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Elijah",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Crane, Elijah",
+  "lastName": "Crane",
+  "officialWebsiteUrl": "https://crane.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Elijah Crane",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Elijah",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crane, Elijah",
+      "lastName": "Crane",
+      "startDate": "2024-02-27T13:20:47Z"
+    },
+    {
+      "directOrderName": "Elijah Crane",
+      "endDate": "2024-02-27T13:20:46Z",
+      "firstName": "Elijah",
+      "invertedOrderName": "Crane, Elijah",
+      "lastName": "Crane",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Elijah Crane",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Elijah",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crane, Elijah",
+      "lastName": "Crane",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Elijah Crane",
+      "firstName": "Elijah",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crane, Elijah",
+      "lastName": "Crane",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 50,
+    "url": "https://api.congress.gov/v3/member/C001132/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "C001132",
+    "fec": [
+      "H2AZ01354"
+    ],
+    "govtrack": 456879,
+    "opensecrets": "N00048953",
+    "wikidata": "Q115155633",
+    "wikipedia": "Eli Crane",
+    "ballotpedia": "Eli Crane",
+    "votesmart": 205885,
+    "pictorial": 12907,
+    "google_entity_id": "kg:/g/11q8yhkkg8",
+    "twitter": "RepEliCrane",
+    "twitter_id": 1608891205902794800,
+    "facebook": "100088851021670",
+    "youtube": "@rep.elicrane"
+  },
+  "name": {
+    "first": "Eli",
+    "last": "Crane",
+    "official_full": "Elijah Crane"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-01-03"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AZ",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://crane.house.gov",
+    "address": "307 Cannon House Office Building Washington DC 20515-0302",
+    "office": "307 Cannon House Office Building",
+    "phone": "202-225-3361"
+  }
 }

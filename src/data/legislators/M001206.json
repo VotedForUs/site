@@ -1,13 +1,163 @@
 {
-  "id": "M001206",
-  "bioguide": "M001206",
-  "name": "Joseph D. Morelle",
-  "lastName": "Morelle",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "570 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3615",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001206",
+  "birthYear": "1957",
+  "cosponsoredLegislation": {
+    "count": 1805,
+    "url": "https://api.congress.gov/v3/member/M001206/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001206.jpg"
+  },
+  "directOrderName": "Joseph D. Morelle",
   "district": 25,
-  "nameTitle": "Rep. Joseph D. Morelle (NY-25)",
-  "imageUrl": "https://www.congress.gov/img/member/67ffc962f22eaf56065817bb_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Joseph",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Morelle, Joseph D.",
+  "lastName": "Morelle",
+  "middleName": "D.",
+  "officialWebsiteUrl": "https://morelle.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2018
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Joseph D. Morelle",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Joseph",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Morelle, Joseph D.",
+      "lastName": "Morelle",
+      "middleName": "D.",
+      "startDate": "2018-11-13T00:00:00Z"
+    },
+    {
+      "directOrderName": "Joseph D. Morelle",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Joseph",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Morelle, Joseph D.",
+      "lastName": "Morelle",
+      "middleName": "D.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Joseph D. Morelle",
+      "firstName": "Joseph",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Morelle, Joseph D.",
+      "lastName": "Morelle",
+      "middleName": "D.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 131,
+    "url": "https://api.congress.gov/v3/member/M001206/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 25,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2018,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 25,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 25,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 25,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 25,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "M001206",
+    "fec": [
+      "H8NY25105"
+    ],
+    "govtrack": 412749,
+    "wikipedia": "Joseph Morelle",
+    "wikidata": "Q6285623",
+    "opensecrets": "N00043207",
+    "ballotpedia": "Joseph Morelle",
+    "google_entity_id": "kg:/m/03d820m",
+    "votesmart": 4362,
+    "icpsr": 21761,
+    "pictorial": 13193,
+    "twitter": "RepJoeMorelle",
+    "twitter_id": 1064595993222615000,
+    "facebook": "RepJoeMorelle"
+  },
+  "name": {
+    "first": "Joseph",
+    "middle": "D.",
+    "last": "Morelle",
+    "official_full": "Joseph D. Morelle"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1957-04-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 25,
+    "party": "Democrat",
+    "url": "https://morelle.house.gov",
+    "address": "570 Cannon House Office Building Washington DC 20515-3225",
+    "office": "570 Cannon House Office Building",
+    "phone": "202-225-3615"
+  }
 }

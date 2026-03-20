@@ -1,13 +1,153 @@
 {
-  "id": "E000297",
-  "bioguide": "E000297",
-  "name": "Adriano Espaillat",
-  "lastName": "Espaillat",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2332 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4365",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000297",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 2867,
+    "url": "https://api.congress.gov/v3/member/E000297/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/E000297.jpg"
+  },
+  "directOrderName": "Adriano Espaillat",
   "district": 13,
-  "nameTitle": "Rep. Adriano Espaillat (NY-13)",
-  "imageUrl": "https://www.congress.gov/img/member/e000297_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Adriano",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Espaillat, Adriano",
+  "lastName": "Espaillat",
+  "officialWebsiteUrl": "https://espaillat.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Adriano Espaillat",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Adriano",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Espaillat, Adriano",
+      "lastName": "Espaillat",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Adriano Espaillat",
+      "firstName": "Adriano",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Espaillat, Adriano",
+      "lastName": "Espaillat",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 229,
+    "url": "https://api.congress.gov/v3/member/E000297/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 13,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 13,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 13,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 13,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 13,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "E000297",
+    "govtrack": 412718,
+    "wikipedia": "Adriano Espaillat",
+    "wikidata": "Q4685569",
+    "google_entity_id": "kg:/m/06nfs2",
+    "votesmart": 14379,
+    "fec": [
+      "H2NY13096"
+    ],
+    "opensecrets": "N00034549",
+    "maplight": 2230,
+    "cspan": 68413,
+    "icpsr": 21715,
+    "ballotpedia": "Adriano Espaillat",
+    "pictorial": 13181,
+    "facebook": "RepEspaillat",
+    "twitter": "RepEspaillat",
+    "twitter_id": 817076257770836000,
+    "youtube_id": "UCi0niBYFhEY70Dz8InbX5OQ",
+    "instagram": "repadrianoespaillat"
+  },
+  "name": {
+    "first": "Adriano",
+    "last": "Espaillat",
+    "official_full": "Adriano Espaillat"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1954-09-27"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 13,
+    "party": "Democrat",
+    "url": "https://espaillat.house.gov",
+    "address": "2332 Rayburn House Office Building Washington DC 20515-3213",
+    "office": "2332 Rayburn House Office Building",
+    "phone": "202-225-4365"
+  }
 }

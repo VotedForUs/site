@@ -1,13 +1,194 @@
 {
-  "id": "V000130",
-  "bioguide": "V000130",
-  "name": "Juan Vargas",
-  "lastName": "Vargas",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2467 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-8045",
+    "zipCode": 20515
+  },
+  "bioguideId": "V000130",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 3102,
+    "url": "https://api.congress.gov/v3/member/V000130/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/V000130.jpg"
+  },
+  "directOrderName": "Juan Vargas",
   "district": 52,
-  "nameTitle": "Rep. Juan Vargas (CA-52)",
-  "imageUrl": "https://www.congress.gov/img/member/v000130_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Juan",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Vargas, Juan",
+  "lastName": "Vargas",
+  "officialWebsiteUrl": "https://vargas.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Juan Vargas",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Juan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Vargas, Juan",
+      "lastName": "Vargas",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Juan Vargas",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Juan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Vargas, Juan",
+      "lastName": "Vargas",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Juan Vargas",
+      "firstName": "Juan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Vargas, Juan",
+      "lastName": "Vargas",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Juan Vargas",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Juan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Vargas, Juan",
+      "lastName": "Vargas",
+      "startDate": "2023-06-01T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 86,
+    "url": "https://api.congress.gov/v3/member/V000130/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 51,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 51,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 51,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 51,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 51,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 52,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 52,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "govtrack": 412522,
+    "bioguide": "V000130",
+    "thomas": "02112",
+    "cspan": 8297,
+    "votesmart": 29100,
+    "wikipedia": "Juan Vargas",
+    "fec": [
+      "H2CA50026"
+    ],
+    "opensecrets": "N00007021",
+    "ballotpedia": "Juan Vargas",
+    "maplight": 1746,
+    "icpsr": 21314,
+    "wikidata": "Q3791701",
+    "google_entity_id": "kg:/m/076bp4",
+    "pictorial": 12966,
+    "facebook": "RepJuanVargas",
+    "twitter": "RepJuanVargas",
+    "youtube": "RepJuanVargas",
+    "youtube_id": "UCpMthf8y7bEMJH_td0dznRQ",
+    "twitter_id": 1260172386,
+    "instagram": "repjuanvargas"
+  },
+  "name": {
+    "first": "Juan",
+    "last": "Vargas",
+    "official_full": "Juan Vargas"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1961-03-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 52,
+    "party": "Democrat",
+    "url": "https://vargas.house.gov",
+    "rss_url": "http://vargas.house.gov/rss.xml",
+    "address": "2467 Rayburn House Office Building Washington DC 20515-0552",
+    "office": "2467 Rayburn House Office Building",
+    "phone": "202-225-8045"
+  }
 }

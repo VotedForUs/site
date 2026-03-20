@@ -1,13 +1,180 @@
 {
-  "id": "R000600",
-  "bioguide": "R000600",
-  "name": "Aumua Amata Coleman Radewagen",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2001 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-8577",
+    "zipCode": 20510
+  },
+  "bioguideId": "R000600",
+  "birthYear": "1947",
+  "cosponsoredLegislation": {
+    "count": 917,
+    "url": "https://api.congress.gov/v3/member/R000600/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000600.jpg"
+  },
+  "directOrderName": "Aumua Amata Coleman Radewagen",
+  "firstName": "Aumua Amata",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Radewagen, Aumua Amata Coleman",
   "lastName": "Radewagen",
-  "state": "AS",
-  "party": "Republican",
-  "district": 0,
-  "nameTitle": "Rep. Aumua Amata Coleman Radewagen (AS-0)",
-  "imageUrl": "https://www.congress.gov/img/member/r000600_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "middleName": "Coleman",
+  "officialWebsiteUrl": "https://radewagen.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Aumua Amata Coleman Radewagen",
+      "endDate": "2023-11-16T19:41:21Z",
+      "firstName": "Aumua Amata",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Radewagen, Aumua Amata Coleman",
+      "lastName": "Radewagen",
+      "middleName": "Coleman",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Aumua Amata Coleman Radewagen",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Aumua Amata",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Radewagen, Aumua Amata Coleman",
+      "lastName": "Radewagen",
+      "middleName": "Coleman",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Aumua Amata Coleman Radewagen",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Aumua Amata",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Radewagen, Aumua Amata Coleman",
+      "lastName": "Radewagen",
+      "middleName": "Coleman",
+      "startDate": "2023-11-16T19:41:22Z"
+    },
+    {
+      "directOrderName": "Aumua Amata Coleman Radewagen",
+      "firstName": "Aumua Amata",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Radewagen, Aumua Amata Coleman",
+      "lastName": "Radewagen",
+      "middleName": "Coleman",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 44,
+    "url": "https://api.congress.gov/v3/member/R000600/sponsored-legislation"
+  },
+  "state": "American Samoa",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Delegate",
+      "startYear": 2015,
+      "stateCode": "AS",
+      "stateName": "American Samoa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Delegate",
+      "startYear": 2017,
+      "stateCode": "AS",
+      "stateName": "American Samoa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Delegate",
+      "startYear": 2019,
+      "stateCode": "AS",
+      "stateName": "American Samoa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Delegate",
+      "startYear": 2021,
+      "stateCode": "AS",
+      "stateName": "American Samoa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Delegate",
+      "startYear": 2023,
+      "stateCode": "AS",
+      "stateName": "American Samoa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Delegate",
+      "startYear": 2025,
+      "stateCode": "AS",
+      "stateName": "American Samoa"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "R000600",
+    "fec": [
+      "H4AS00036"
+    ],
+    "govtrack": 412664,
+    "opensecrets": "N00007635",
+    "thomas": "02222",
+    "house_history": 15032412349,
+    "maplight": 2120,
+    "wikidata": "Q18684027",
+    "wikipedia": "Amata Coleman Radewagen",
+    "google_entity_id": "kg:/m/012964p3",
+    "cspan": 5188,
+    "votesmart": 128380,
+    "ballotpedia": "Amata Radewagen",
+    "pictorial": 12905,
+    "twitter": "RepAmata",
+    "facebook": "aumuaamata",
+    "youtube_id": "UCGdrLQbt1PYDTPsampx4t1A",
+    "twitter_id": 3026622545
+  },
+  "name": {
+    "first": "Aumua Amata",
+    "last": "Radewagen",
+    "middle": "Coleman",
+    "official_full": "Aumua Amata Coleman Radewagen"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1947-12-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AS",
+    "district": 0,
+    "party": "Republican",
+    "url": "https://radewagen.house.gov",
+    "address": "2001 Rayburn House Office Building Washington DC 20515-5200",
+    "office": "2001 Rayburn House Office Building",
+    "phone": "202-225-8577"
+  }
 }

@@ -1,13 +1,135 @@
 {
-  "id": "R000619",
-  "bioguide": "R000619",
-  "name": "Michael A. Rulli",
-  "lastName": "Rulli",
-  "state": "OH",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "421 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5705",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000619",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 305,
+    "url": "https://api.congress.gov/v3/member/R000619/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000619.jpg"
+  },
+  "directOrderName": "Michael A. Rulli",
   "district": 6,
-  "nameTitle": "Rep. Michael A. Rulli (OH-6)",
-  "imageUrl": "https://www.congress.gov/img/member/668e9425658443009a697c95_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Michael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Rulli, Michael A.",
+  "lastName": "Rulli",
+  "middleName": "A.",
+  "officialWebsiteUrl": "https://rulli.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2024
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Michael A. Rulli",
+      "endDate": "2024-06-27T10:00:01Z",
+      "firstName": "Michael",
+      "invertedOrderName": "Rulli, Michael A.",
+      "lastName": "Rulli",
+      "middleName": "A.",
+      "startDate": "2024-06-26T01:00:00Z"
+    },
+    {
+      "directOrderName": "Michael A. Rulli",
+      "endDate": "2025-01-17T04:59:00Z",
+      "firstName": "Michael",
+      "invertedOrderName": "Rulli, Michael A.",
+      "lastName": "Rulli",
+      "middleName": "A.",
+      "startDate": "2024-06-27T10:01:00Z"
+    },
+    {
+      "directOrderName": "Michael A. Rulli",
+      "endDate": "2025-04-28T13:04:23Z",
+      "firstName": "Michael",
+      "invertedOrderName": "Rulli, Michael A.",
+      "lastName": "Rulli",
+      "middleName": "A.",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Michael A. Rulli",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rulli, Michael A.",
+      "lastName": "Rulli",
+      "middleName": "A.",
+      "startDate": "2025-04-28T13:04:24Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 14,
+    "url": "https://api.congress.gov/v3/member/R000619/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2024,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-12-15T15:01:47Z",
+  "id": {
+    "bioguide": "R000619",
+    "fec": [
+      "H4OH06165"
+    ],
+    "govtrack": 456959,
+    "opensecrets": "N00054190",
+    "wikipedia": "Michael Rulli",
+    "wikidata": "Q63170062",
+    "votesmart": 179016,
+    "ballotpedia": "Michael Rulli",
+    "google_entity_id": "kg:/g/11h6rxp1lx"
+  },
+  "name": {
+    "first": "Michael",
+    "middle": "A.",
+    "last": "Rulli",
+    "official_full": "Michael A. Rulli"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1969-03-11"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://rulli.house.gov",
+    "address": "421 Cannon House Office Building Washington DC 20515-3506",
+    "office": "421 Cannon House Office Building",
+    "phone": "202-225-5705"
+  }
 }

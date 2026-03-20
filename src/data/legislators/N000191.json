@@ -1,13 +1,159 @@
 {
-  "id": "N000191",
-  "bioguide": "N000191",
-  "name": "Joe Neguse",
-  "lastName": "Neguse",
-  "state": "CO",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2400 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2161",
+    "zipCode": 20515
+  },
+  "bioguideId": "N000191",
+  "birthYear": "1984",
+  "cosponsoredLegislation": {
+    "count": 2638,
+    "url": "https://api.congress.gov/v3/member/N000191/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/N000191.jpg"
+  },
+  "directOrderName": "Joe Neguse",
   "district": 2,
-  "nameTitle": "Rep. Joe Neguse (CO-2)",
-  "imageUrl": "https://www.congress.gov/img/member/n000191_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Joe",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Neguse, Joe",
+  "lastName": "Neguse",
+  "leadership": [
+    {
+      "congress": 118,
+      "type": "Assistant Democratic Leader"
+    },
+    {
+      "congress": 119,
+      "current": true,
+      "type": "Assistant Leader"
+    }
+  ],
+  "officialWebsiteUrl": "https://neguse.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Joe Neguse",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Joe",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Neguse, Joe",
+      "lastName": "Neguse",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Joe Neguse",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Joe",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Neguse, Joe",
+      "lastName": "Neguse",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Joe Neguse",
+      "firstName": "Joe",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Neguse, Joe",
+      "lastName": "Neguse",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 345,
+    "url": "https://api.congress.gov/v3/member/N000191/sponsored-legislation"
+  },
+  "state": "Colorado",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "N000191",
+    "fec": [
+      "H8CO02160"
+    ],
+    "govtrack": 412761,
+    "wikipedia": "Joe Neguse",
+    "wikidata": "Q57242006",
+    "opensecrets": "N00041080",
+    "votesmart": 151075,
+    "icpsr": 21948,
+    "ballotpedia": "Joe Neguse",
+    "google_entity_id": "kg:/g/11gnsnch0m",
+    "pictorial": 12968,
+    "twitter": "RepJoeNeguse",
+    "twitter_id": 1078749802765140000,
+    "facebook": "RepJoeNeguse"
+  },
+  "name": {
+    "first": "Joe",
+    "last": "Neguse",
+    "official_full": "Joe Neguse"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1984-05-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CO",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://neguse.house.gov",
+    "address": "2400 Rayburn House Office Building Washington DC 20515-0602",
+    "office": "2400 Rayburn House Office Building",
+    "phone": "202-225-2161"
+  }
 }

@@ -1,13 +1,176 @@
 {
-  "id": "W000812",
-  "bioguide": "W000812",
-  "name": "Ann Wagner",
-  "lastName": "Wagner",
-  "state": "MO",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2350 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1621",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000812",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 1594,
+    "url": "https://api.congress.gov/v3/member/W000812/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000812.jpg"
+  },
+  "directOrderName": "Ann Wagner",
   "district": 2,
-  "nameTitle": "Rep. Ann Wagner (MO-2)",
-  "imageUrl": "https://www.congress.gov/img/member/w000812_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ann",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Wagner, Ann",
+  "lastName": "Wagner",
+  "officialWebsiteUrl": "https://wagner.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ann Wagner",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ann",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Wagner, Ann",
+      "lastName": "Wagner",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ann Wagner",
+      "firstName": "Ann",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Wagner, Ann",
+      "lastName": "Wagner",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 129,
+    "url": "https://api.congress.gov/v3/member/W000812/sponsored-legislation"
+  },
+  "state": "Missouri",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    }
+  ],
+  "updateDate": "2026-01-08T19:47:12Z",
+  "id": {
+    "govtrack": 412548,
+    "bioguide": "W000812",
+    "thomas": "02137",
+    "cspan": 82702,
+    "fec": [
+      "H2MO02102"
+    ],
+    "wikipedia": "Ann Wagner",
+    "votesmart": 136083,
+    "opensecrets": "N00033106",
+    "ballotpedia": "Ann Wagner",
+    "maplight": 1772,
+    "icpsr": 21337,
+    "house_history": 15032387908,
+    "wikidata": "Q3917251",
+    "google_entity_id": "kg:/m/07q9w8",
+    "pictorial": 13116,
+    "twitter": "RepAnnWagner",
+    "facebook": "RepAnnWagner",
+    "youtube_id": "UCy2v2DXXvQnbRc8Zx77Dnsg",
+    "twitter_id": 1051446626,
+    "instagram": "repannwagner"
+  },
+  "name": {
+    "first": "Ann",
+    "last": "Wagner",
+    "official_full": "Ann Wagner"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1962-09-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MO",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://wagner.house.gov",
+    "rss_url": "http://wagner.house.gov/rss.xml",
+    "address": "2350 Rayburn House Office Building Washington DC 20515-2502",
+    "office": "2350 Rayburn House Office Building",
+    "phone": "202-225-1621"
+  }
 }

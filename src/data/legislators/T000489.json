@@ -1,13 +1,103 @@
 {
-  "id": "T000489",
-  "bioguide": "T000489",
-  "name": "Sylvester Turner",
-  "lastName": "Turner",
-  "state": "TX",
-  "party": "Democrat",
+  "bioguideId": "T000489",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 49,
+    "url": "https://api.congress.gov/v3/member/T000489/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "deathYear": "2025",
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000489.jpg"
+  },
+  "directOrderName": "Sylvester Turner",
   "district": 18,
-  "nameTitle": "Rep. Sylvester Turner (TX-18)",
-  "imageUrl": "https://www.congress.gov/img/member/67745fdc0b34857ecc90919d_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Sylvester",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Turner, Sylvester",
+  "lastName": "Turner",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sylvester Turner",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Sylvester",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Turner, Sylvester",
+      "lastName": "Turner",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Sylvester Turner",
+      "firstName": "Sylvester",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Turner, Sylvester",
+      "lastName": "Turner",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Sylvester Turner",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Sylvester",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Turner, Sylvester",
+      "lastName": "Turner",
+      "startDate": "2025-01-10T17:36:19Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 2,
+    "url": "https://api.congress.gov/v3/member/T000489/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 18,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-03-05T16:51:50Z",
+  "id": {
+    "bioguide": "T000489",
+    "fec": [
+      "H4TX18237"
+    ],
+    "govtrack": 457022,
+    "wikipedia": "Sylvester Turner",
+    "wikidata": "Q16751186"
+  },
+  "name": {
+    "first": "Sylvester",
+    "last": "Turner",
+    "official_full": "Sylvester Turner"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1954-09-27"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2025-03-04",
+    "state": "TX",
+    "district": 18,
+    "party": "Democrat",
+    "address": "1318 Longworth House Office Building Washington DC 20515-4318",
+    "office": "1318 Longworth House Office Building",
+    "phone": "202-225-3816",
+    "url": "https://sylvesterturner.house.gov"
+  }
 }

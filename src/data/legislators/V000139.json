@@ -1,13 +1,92 @@
 {
-  "id": "V000139",
-  "bioguide": "V000139",
-  "name": "Matt Van Epps",
-  "lastName": "Van Epps",
-  "state": "TN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2446 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2811",
+    "zipCode": 20515
+  },
+  "bioguideId": "V000139",
+  "birthYear": "1983",
+  "cosponsoredLegislation": {
+    "count": 26,
+    "url": "https://api.congress.gov/v3/member/V000139/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/V000139.jpg"
+  },
+  "directOrderName": "Matt Van Epps",
   "district": 7,
-  "nameTitle": "Rep. Matt Van Epps (TN-7)",
-  "imageUrl": "https://www.congress.gov/img/member/6931b7d5f478c0f1228e9abe_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Matt",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Van Epps, Matt",
+  "lastName": "Van Epps",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Matt Van Epps",
+      "firstName": "Matt",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Van Epps, Matt",
+      "lastName": "Van Epps",
+      "startDate": "2025-12-04T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/member/V000139/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-12-05T14:29:00Z",
+  "id": {
+    "bioguide": "V000139",
+    "fec": [
+      "H6TN07161"
+    ],
+    "govtrack": 457038,
+    "wikipedia": "Matt Van Epps",
+    "wikidata": "Q136749822",
+    "ballotpedia": "Matt Van Epps",
+    "house_history": 36507227933
+  },
+  "name": {
+    "first": "Matt",
+    "last": "Van Epps",
+    "official_full": "Matt Van Epps"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1983-03-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-12-04",
+    "end": "2027-01-03",
+    "state": "TN",
+    "district": 7,
+    "party": "Republican",
+    "url": "https://vanepps.house.gov/",
+    "address": "2446 Rayburn House Office Building Washington DC 20515-4207",
+    "office": "2446 Rayburn House Office Building",
+    "phone": "202-225-2811"
+  }
 }

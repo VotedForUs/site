@@ -1,13 +1,186 @@
 {
-  "id": "P000607",
-  "bioguide": "P000607",
-  "name": "Mark Pocan",
-  "lastName": "Pocan",
-  "state": "WI",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1026 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2906",
+    "zipCode": 20515
+  },
+  "bioguideId": "P000607",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 4669,
+    "url": "https://api.congress.gov/v3/member/P000607/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/P000607.jpg"
+  },
+  "directOrderName": "Mark Pocan",
   "district": 2,
-  "nameTitle": "Rep. Mark Pocan (WI-2)",
-  "imageUrl": "https://www.congress.gov/img/member/p000607_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mark",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Pocan, Mark",
+  "lastName": "Pocan",
+  "officialWebsiteUrl": "https://pocan.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mark Pocan",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Pocan, Mark",
+      "lastName": "Pocan",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mark Pocan",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Pocan, Mark",
+      "lastName": "Pocan",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mark Pocan",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Pocan, Mark",
+      "lastName": "Pocan",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 168,
+    "url": "https://api.congress.gov/v3/member/P000607/sponsored-legislation"
+  },
+  "state": "Wisconsin",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "govtrack": 412585,
+    "bioguide": "P000607",
+    "thomas": "02171",
+    "cspan": 79688,
+    "votesmart": 26238,
+    "wikipedia": "Mark Pocan",
+    "fec": [
+      "H2WI02124"
+    ],
+    "opensecrets": "N00033549",
+    "ballotpedia": "Mark Pocan",
+    "maplight": 1809,
+    "icpsr": 21370,
+    "wikidata": "Q1900355",
+    "google_entity_id": "kg:/m/0gyhpz",
+    "pictorial": 13323,
+    "facebook": "repmarkpocan",
+    "twitter": "RepMarkPocan",
+    "youtube_id": "UCz5b47WER_u3dUGV_Zi70dQ",
+    "youtube": "repmarkpocan",
+    "instagram": "repmarkpocan",
+    "instagram_id": 1422301608,
+    "twitter_id": 1206227149
+  },
+  "name": {
+    "first": "Mark",
+    "last": "Pocan",
+    "official_full": "Mark Pocan"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1964-08-14"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WI",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://pocan.house.gov",
+    "rss_url": "http://pocan.house.gov/rss.xml",
+    "address": "1026 Longworth House Office Building Washington DC 20515-4902",
+    "office": "1026 Longworth House Office Building",
+    "phone": "202-225-2906"
+  }
 }

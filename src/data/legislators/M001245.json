@@ -1,12 +1,92 @@
 {
-  "id": "M001245",
-  "bioguide": "M001245",
-  "lastName": "Menefee",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1318 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3816",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001245",
+  "birthYear": "1988",
+  "cosponsoredLegislation": {
+    "count": 10,
+    "url": "https://api.congress.gov/v3/member/M001245/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001245.jpg"
+  },
+  "directOrderName": "Christian D. Menefee",
   "district": 18,
-  "nameTitle": "Rep. undefined (TX-18)",
-  "imageUrl": "https://www.congress.gov/img/member/698206b2eb30d3271899373e_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Christian",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Menefee, Christian D.",
+  "lastName": "Menefee",
+  "middleName": "D.",
+  "officialWebsiteUrl": "http://menefee.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2026
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Christian D. Menefee",
+      "firstName": "Christian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Menefee, Christian D.",
+      "lastName": "Menefee",
+      "middleName": "D.",
+      "startDate": "2026-02-02T05:00:00Z"
+    }
+  ],
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 18,
+      "memberType": "Representative",
+      "startYear": 2026,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2026-02-18T08:40:24Z",
+  "id": {
+    "bioguide": "M001245",
+    "fec": [
+      "H6TX18232"
+    ],
+    "govtrack": 457039,
+    "wikipedia": "Christian Menefee",
+    "wikidata": "Q114397549",
+    "ballotpedia": "Christian Menefee",
+    "house_history": 36507228199
+  },
+  "name": {
+    "first": "Christian",
+    "middle": "Dashaun",
+    "last": "Menefee",
+    "official_full": "Christian Menefee"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1988-04-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2026-02-02",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 18,
+    "party": "Democrat",
+    "url": "https://menefee.house.gov/",
+    "address": "1318 Longworth House Office Building Washington DC 20515-4318",
+    "office": "1318 Longworth House Office Building",
+    "phone": "202-225-3816"
+  }
 }

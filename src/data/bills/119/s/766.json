@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 3,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/s/766/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-18",
+        "committees": [
+          {
+            "name": "Small Business and Entrepreneurship Committee",
+            "systemCode": "sssb00",
+            "url": "https://api.congress.gov/v3/committee/senate/sssb00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Small Business and Entrepreneurship. Hearings held.",
+        "type": "Committee"
+      },
       {
         "actionCode": "H15000",
         "actionDate": "2025-12-15",
@@ -15,6 +30,14 @@
         "type": "Floor"
       },
       {
+        "actionDate": "2025-12-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
         "actionCode": "H14000",
         "actionDate": "2025-12-15",
         "actionTime": "16:06:15",
@@ -23,14 +46,6 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-12-15",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -244,10 +259,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2025-12-15",
-    "actionTime": "16:19:07",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "actionDate": "2026-03-18",
+    "text": "Committee on Small Business and Entrepreneurship. Hearings held."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/766",
   "number": "766",
@@ -258,10 +271,56 @@
     "url": "https://api.congress.gov/v3/bill/119/s/766/summaries?format=json"
   },
   "title": "Billion Dollar Boondoggle Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Billion Dollar Boondoggle Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-19T11:03:26Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Billion Dollar Boondoggle Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-12T06:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Billion Dollar Boondoggle Act of 2025",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-11-05T03:53:12Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Billion Dollar Boondoggle Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-07T16:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to require an annual report of taxpayer-funded projects that are over budget and behind schedule.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-07T16:18:20Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-29T03:08:10Z",
-  "updateDateIncludingText": "2025-10-29T03:08:10Z",
+  "updateDate": "2026-03-19T11:03:26Z",
+  "updateDateIncludingText": "2026-03-19T11:03:26Z",
   "id": "119-S-766",
-  "lastActionDate": "2025-12-15",
+  "lastActionDate": "2026-03-18",
   "lastRecordedVoteDate": "2025-12-11"
 }

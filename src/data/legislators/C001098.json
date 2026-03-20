@@ -1,13 +1,170 @@
 {
-  "id": "C001098",
-  "bioguide": "C001098",
-  "name": "Ted Cruz",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "167 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5922",
+    "zipCode": 20510
+  },
+  "bioguideId": "C001098",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 2048,
+    "url": "https://api.congress.gov/v3/member/C001098/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/C001098.jpg"
+  },
+  "directOrderName": "Ted Cruz",
+  "firstName": "Ted",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cruz, Ted",
   "lastName": "Cruz",
-  "state": "TX",
-  "party": "Republican",
-  "nameTitle": "Sen. Ted Cruz (TX)",
-  "imageUrl": "https://www.congress.gov/img/member/c001098_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.cruz.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ted Cruz",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cruz, Ted",
+      "lastName": "Cruz",
+      "startDate": "2023-04-12T06:35:00Z"
+    },
+    {
+      "directOrderName": "Ted Cruz",
+      "endDate": "2023-04-12T06:34:59Z",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cruz, Ted",
+      "lastName": "Cruz",
+      "startDate": "2013-01-03T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 1102,
+    "url": "https://api.congress.gov/v3/member/C001098/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:01Z",
+  "id": {
+    "bioguide": "C001098",
+    "thomas": "02175",
+    "lis": "S355",
+    "govtrack": 412573,
+    "cspan": 1019953,
+    "wikipedia": "Ted Cruz",
+    "votesmart": 135705,
+    "opensecrets": "N00033085",
+    "fec": [
+      "S2TX00312"
+    ],
+    "ballotpedia": "Ted Cruz",
+    "maplight": 1797,
+    "icpsr": 41304,
+    "wikidata": "Q2036942",
+    "google_entity_id": "kg:/m/07j6ty",
+    "pictorial": 13402,
+    "twitter": "SenTedCruz",
+    "facebook": "SenatorTedCruz",
+    "youtube": "sentedcruz",
+    "youtube_id": "UCOTZ-6H1rri1lSsj6IzhUyw",
+    "twitter_id": 1074480192,
+    "instagram": "sentedcruz"
+  },
+  "name": {
+    "first": "Ted",
+    "last": "Cruz",
+    "official_full": "Ted Cruz"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-12-22"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "TX",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.cruz.senate.gov",
+    "contact_form": "https://www.cruz.senate.gov/?p=form&id=16",
+    "address": "167 Russell Senate Office Building Washington DC 20510",
+    "office": "167 Russell Senate Office Building",
+    "phone": "202-224-5922"
+  }
 }

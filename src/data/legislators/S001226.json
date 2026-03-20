@@ -1,13 +1,128 @@
 {
-  "id": "S001226",
-  "bioguide": "S001226",
-  "name": "Andrea Salinas",
-  "lastName": "Salinas",
-  "state": "OR",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "403 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5643",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001226",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 1120,
+    "url": "https://api.congress.gov/v3/member/S001226/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001226.jpg"
+  },
+  "directOrderName": "Andrea Salinas",
   "district": 6,
-  "nameTitle": "Rep. Andrea Salinas (OR-6)",
-  "imageUrl": "https://www.congress.gov/img/member/s001226_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Andrea",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Salinas, Andrea",
+  "lastName": "Salinas",
+  "officialWebsiteUrl": "https://salinas.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Andrea Salinas",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Andrea",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Salinas, Andrea",
+      "lastName": "Salinas",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Andrea Salinas",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Andrea",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Salinas, Andrea",
+      "lastName": "Salinas",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Andrea Salinas",
+      "firstName": "Andrea",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Salinas, Andrea",
+      "lastName": "Salinas",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 52,
+    "url": "https://api.congress.gov/v3/member/S001226/sponsored-legislation"
+  },
+  "state": "Oregon",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "S001226",
+    "fec": [
+      "H2OR06066"
+    ],
+    "govtrack": 456934,
+    "opensecrets": "N00049738",
+    "wikidata": "Q39791512",
+    "wikipedia": "Andrea Salinas",
+    "google_entity_id": "kg:/g/11fyzcn4zd",
+    "votesmart": 178196,
+    "pictorial": 13220,
+    "ballotpedia": "Andrea Salinas",
+    "twitter": "repsalinas",
+    "facebook": "RepSalinas",
+    "instagram": "repsalinas"
+  },
+  "name": {
+    "first": "Andrea",
+    "middle": "Rose",
+    "last": "Salinas",
+    "official_full": "Andrea Salinas"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1969-12-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OR",
+    "district": 6,
+    "party": "Democrat",
+    "url": "https://salinas.house.gov",
+    "address": "403 Cannon House Office Building Washington DC 20515-0001",
+    "office": "403 Cannon House Office Building",
+    "phone": "202-225-5643"
+  }
 }

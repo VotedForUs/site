@@ -1,13 +1,256 @@
 {
-  "id": "T000460",
-  "bioguide": "T000460",
-  "name": "Mike Thompson",
-  "lastName": "Thompson",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "268 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3311",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000460",
+  "birthYear": "1951",
+  "cosponsoredLegislation": {
+    "count": 4350,
+    "url": "https://api.congress.gov/v3/member/T000460/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/T000460.jpg"
+  },
+  "directOrderName": "Mike Thompson",
   "district": 4,
-  "nameTitle": "Rep. Mike Thompson (CA-4)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_ca_5_thompson_mike_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Thompson, Mike",
+  "lastName": "Thompson",
+  "officialWebsiteUrl": "https://mikethompson.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 1999
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Thompson",
+      "endDate": "2024-02-27T13:20:47Z",
+      "firstName": "MIKE",
+      "invertedOrderName": "Thompson, Mike",
+      "lastName": "THOMPSON",
+      "startDate": "1999-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Thompson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Thompson, Mike",
+      "lastName": "Thompson",
+      "startDate": "2024-02-27T13:20:48Z"
+    },
+    {
+      "directOrderName": "Mike Thompson",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Thompson, Mike",
+      "lastName": "Thompson",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 360,
+    "url": "https://api.congress.gov/v3/member/T000460/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 1,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 1,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 1,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 1,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 1,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 1,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 1,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 5,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 5,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 5,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 5,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "T000460",
+    "thomas": "01593",
+    "govtrack": 400403,
+    "opensecrets": "N00007419",
+    "votesmart": 3564,
+    "fec": [
+      "H8CA01109"
+    ],
+    "cspan": 57872,
+    "wikipedia": "Mike Thompson (California politician)",
+    "maplight": 489,
+    "icpsr": 29901,
+    "house_history": 23200,
+    "wikidata": "Q1323196",
+    "google_entity_id": "kg:/m/024sdl",
+    "ballotpedia": "Mike Thompson (California)",
+    "pictorial": 12918,
+    "twitter": "RepThompson",
+    "facebook": "RepMikeThompson",
+    "youtube": "CongressmanMThompson",
+    "youtube_id": "UC6pGbtqHZYZmScFGSz5bbdg",
+    "twitter_id": 303861808,
+    "mastodon": "@repthompson@mastodon.social"
+  },
+  "name": {
+    "first": "Mike",
+    "middle": "Michael",
+    "last": "Thompson",
+    "official_full": "Mike Thompson"
+  },
+  "bio": {
+    "birthday": "1951-01-24",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://mikethompson.house.gov",
+    "rss_url": "http://mikethompson.house.gov/news/rss.aspx",
+    "address": "268 Cannon House Office Building Washington DC 20515-0504",
+    "office": "268 Cannon House Office Building",
+    "phone": "202-225-3311"
+  }
 }

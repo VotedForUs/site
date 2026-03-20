@@ -1,13 +1,177 @@
 {
-  "id": "B001296",
-  "bioguide": "B001296",
-  "name": "Brendan F. Boyle",
-  "lastName": "Boyle",
-  "state": "PA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1502 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6111",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001296",
+  "birthYear": "1977",
+  "cosponsoredLegislation": {
+    "count": 2244,
+    "url": "https://api.congress.gov/v3/member/B001296/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001296.jpg"
+  },
+  "directOrderName": "Brendan F. Boyle",
   "district": 2,
-  "nameTitle": "Rep. Brendan F. Boyle (PA-2)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_pa_13_boyle_brendan_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Brendan",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Boyle, Brendan F.",
+  "lastName": "Boyle",
+  "middleName": "F.",
+  "officialWebsiteUrl": "https://boyle.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brendan F. Boyle",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Brendan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Boyle, Brendan F.",
+      "lastName": "Boyle",
+      "middleName": "F.",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Brendan F. Boyle",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Brendan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Boyle, Brendan F.",
+      "lastName": "Boyle",
+      "middleName": "F.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Brendan F. Boyle",
+      "firstName": "Brendan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Boyle, Brendan F.",
+      "lastName": "Boyle",
+      "middleName": "F.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 128,
+    "url": "https://api.congress.gov/v3/member/B001296/sponsored-legislation"
+  },
+  "state": "Pennsylvania",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 13,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 13,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    }
+  ],
+  "updateDate": "2026-03-13T13:26:36Z",
+  "id": {
+    "bioguide": "B001296",
+    "fec": [
+      "H4PA13199"
+    ],
+    "govtrack": 412652,
+    "opensecrets": "N00035307",
+    "thomas": "02267",
+    "maplight": 2108,
+    "wikidata": "Q4960876",
+    "wikipedia": "Brendan Boyle",
+    "google_entity_id": "kg:/m/04f4fjk",
+    "votesmart": 47357,
+    "cspan": 76428,
+    "icpsr": 21548,
+    "ballotpedia": "Brendan Boyle",
+    "pictorial": 13222,
+    "twitter": "CongBoyle",
+    "facebook": "CongressmanBoyle",
+    "twitter_id": 4304448314,
+    "youtube_id": "UCMP_Anj7lz4eZuSh8GwFqQQ"
+  },
+  "name": {
+    "first": "Brendan",
+    "middle": "F.",
+    "last": "Boyle",
+    "official_full": "Brendan F. Boyle"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1977-02-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PA",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://boyle.house.gov",
+    "address": "1502 Longworth House Office Building Washington DC 20515-3802",
+    "office": "1502 Longworth House Office Building",
+    "phone": "202-225-6111"
+  }
 }

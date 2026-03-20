@@ -1,13 +1,180 @@
 {
-  "id": "L000582",
-  "bioguide": "L000582",
-  "name": "Ted Lieu",
-  "lastName": "Lieu",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2454 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3976",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000582",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 3957,
+    "url": "https://api.congress.gov/v3/member/L000582/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000582.jpg"
+  },
+  "directOrderName": "Ted Lieu",
   "district": 36,
-  "nameTitle": "Rep. Ted Lieu (CA-36)",
-  "imageUrl": "https://www.congress.gov/img/member/l000582_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ted",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Lieu, Ted",
+  "lastName": "Lieu",
+  "leadership": [
+    {
+      "congress": 119,
+      "current": true,
+      "type": "Democratic Caucus Vice Chair"
+    }
+  ],
+  "officialWebsiteUrl": "https://lieu.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ted Lieu",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lieu, Ted",
+      "lastName": "Lieu",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ted Lieu",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lieu, Ted",
+      "lastName": "Lieu",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ted Lieu",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lieu, Ted",
+      "lastName": "Lieu",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 261,
+    "url": "https://api.congress.gov/v3/member/L000582/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 33,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 33,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 33,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 33,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 36,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 36,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "L000582",
+    "fec": [
+      "H4CA33119"
+    ],
+    "govtrack": 412616,
+    "opensecrets": "N00035825",
+    "thomas": "02230",
+    "maplight": 2072,
+    "wikidata": "Q7693450",
+    "wikipedia": "Ted Lieu",
+    "google_entity_id": "kg:/m/0f3y2w",
+    "cspan": 28076,
+    "icpsr": 21507,
+    "votesmart": 1516,
+    "ballotpedia": "Ted Lieu",
+    "pictorial": 12950,
+    "twitter": "RepTedLieu",
+    "facebook": "RepTedLieu",
+    "twitter_id": 3044993235,
+    "instagram": "RepTedLieu",
+    "youtube_id": "UC9qcJxTqfDNBnVul1IojlFg"
+  },
+  "name": {
+    "first": "Ted",
+    "last": "Lieu",
+    "official_full": "Ted Lieu"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1969-03-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 36,
+    "party": "Democrat",
+    "url": "https://lieu.house.gov",
+    "address": "2454 Rayburn House Office Building Washington DC 20515-0536",
+    "office": "2454 Rayburn House Office Building",
+    "phone": "202-225-3976"
+  }
 }

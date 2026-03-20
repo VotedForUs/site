@@ -1,13 +1,174 @@
 {
-  "id": "L000571",
-  "bioguide": "L000571",
-  "name": "Cynthia M. Lummis",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "127A Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-3424",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000571",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 2181,
+    "url": "https://api.congress.gov/v3/member/L000571/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Collection of the U.S. House of Representatives",
+    "imageUrl": "/images/legislators/L000571.jpg"
+  },
+  "directOrderName": "Cynthia M. Lummis",
+  "firstName": "Cynthia",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Lummis, Cynthia M.",
   "lastName": "Lummis",
-  "state": "WY",
-  "party": "Republican",
-  "nameTitle": "Sen. Cynthia M. Lummis (WY)",
-  "imageUrl": "https://www.congress.gov/img/member/l000571_200.jpg",
-  "attribution": "Collection of the U.S. House of Representatives",
-  "stateRank": "junior",
-  "type": "sen"
+  "middleName": "M.",
+  "officialWebsiteUrl": "https://www.lummis.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Cynthia M. Lummis",
+      "firstName": "Cynthia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lummis, Cynthia M.",
+      "lastName": "Lummis",
+      "middleName": "M.",
+      "startDate": "2023-04-27T06:35:00Z"
+    },
+    {
+      "directOrderName": "Cynthia M. Lummis",
+      "endDate": "2023-04-27T06:34:59Z",
+      "firstName": "Cynthia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lummis, Cynthia M.",
+      "lastName": "Lummis",
+      "middleName": "M.",
+      "startDate": "2009-01-03T17:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 237,
+    "url": "https://api.congress.gov/v3/member/L000571/sponsored-legislation"
+  },
+  "state": "Wyoming",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "WY",
+      "stateName": "Wyoming"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:52Z",
+  "id": {
+    "bioguide": "L000571",
+    "lis": "S410",
+    "thomas": "01960",
+    "govtrack": 412294,
+    "opensecrets": "N00029788",
+    "votesmart": 15546,
+    "fec": [
+      "H8WY00148",
+      "S0WY00137"
+    ],
+    "cspan": 1031365,
+    "wikipedia": "Cynthia Lummis",
+    "house_history": 17319,
+    "ballotpedia": "Cynthia Lummis",
+    "maplight": 776,
+    "icpsr": 20953,
+    "wikidata": "Q456064",
+    "google_entity_id": "kg:/m/02qvjv3",
+    "pictorial": 13361,
+    "twitter": "SenLummis",
+    "twitter_id": 22831059,
+    "facebook": "sencynthialummis",
+    "instagram": "sencynthialummis"
+  },
+  "name": {
+    "first": "Cynthia",
+    "middle": "M.",
+    "last": "Lummis",
+    "official_full": "Cynthia M. Lummis"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1954-09-10"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "WY",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.lummis.senate.gov",
+    "contact_form": "https://www.lummis.senate.gov/contact/contact-form/",
+    "address": "127A Russell Senate Office Building Washington DC 20510",
+    "office": "127a Russell Senate Office Building",
+    "phone": "202-224-3424"
+  }
 }

@@ -1,13 +1,211 @@
 {
-  "id": "W000804",
-  "bioguide": "W000804",
-  "name": "Robert J. Wittman",
-  "lastName": "Wittman",
-  "state": "VA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2055 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4261",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000804",
+  "birthYear": "1959",
+  "cosponsoredLegislation": {
+    "count": 2831,
+    "url": "https://api.congress.gov/v3/member/W000804/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000804.jpg"
+  },
+  "directOrderName": "Robert J. Wittman",
   "district": 1,
-  "nameTitle": "Rep. Robert J. Wittman (VA-1)",
-  "imageUrl": "https://www.congress.gov/img/member/w000804_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Robert",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Wittman, Robert J.",
+  "lastName": "Wittman",
+  "middleName": "J.",
+  "officialWebsiteUrl": "https://wittman.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Robert J. Wittman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Wittman, Robert J.",
+      "lastName": "Wittman",
+      "middleName": "J.",
+      "startDate": "2007-12-13T00:00:00Z"
+    },
+    {
+      "directOrderName": "Robert J. Wittman",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Wittman, Robert J.",
+      "lastName": "Wittman",
+      "middleName": "J.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 210,
+    "url": "https://api.congress.gov/v3/member/W000804/sponsored-legislation"
+  },
+  "state": "Virginia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 1,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 1,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 1,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 1,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "W000804",
+    "thomas": "01886",
+    "govtrack": 412255,
+    "opensecrets": "N00029459",
+    "votesmart": 58133,
+    "fec": [
+      "H8VA01147"
+    ],
+    "cspan": 1028089,
+    "wikipedia": "Rob Wittman",
+    "ballotpedia": "Robert J. Wittman",
+    "maplight": 736,
+    "icpsr": 20756,
+    "house_history": 24189,
+    "wikidata": "Q541251",
+    "google_entity_id": "kg:/m/03cx7ld",
+    "pictorial": 13300,
+    "twitter": "RobWittman",
+    "facebook": "RepRobWittman",
+    "youtube": "RobWittman",
+    "youtube_id": "UCIqIb-OaTbkIdU426eYIdPg",
+    "twitter_id": 15356407,
+    "instagram": "reprobwittman"
+  },
+  "name": {
+    "first": "Robert",
+    "middle": "J.",
+    "last": "Wittman",
+    "official_full": "Robert J. Wittman"
+  },
+  "bio": {
+    "birthday": "1959-02-03",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "VA",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://wittman.house.gov",
+    "rss_url": "http://www.wittman.house.gov/index.php?format=feed&amp;type=rss",
+    "address": "2055 Rayburn House Office Building Washington DC 20515-4601",
+    "office": "2055 Rayburn House Office Building",
+    "phone": "202-225-4261"
+  }
 }

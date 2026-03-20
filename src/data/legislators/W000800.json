@@ -1,13 +1,219 @@
 {
-  "id": "W000800",
-  "bioguide": "W000800",
-  "name": "Peter Welch",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "115 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4242",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000800",
+  "birthYear": "1947",
+  "cosponsoredLegislation": {
+    "count": 5360,
+    "url": "https://api.congress.gov/v3/member/W000800/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Official U.S. Senate Photo",
+    "imageUrl": "/images/legislators/W000800.jpg"
+  },
+  "directOrderName": "Peter Welch",
+  "firstName": "Peter",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Welch, Peter",
   "lastName": "Welch",
-  "state": "VT",
-  "party": "Democrat",
-  "nameTitle": "Sen. Peter Welch (VT)",
-  "imageUrl": "https://www.congress.gov/img/member/fd3cb364b8bf93c25834cff750637802_200.jpg",
-  "attribution": "Official U.S. Senate Photo",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.welch.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Peter Welch",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "Peter",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Welch, Peter",
+      "lastName": "Welch",
+      "startDate": "2007-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Peter Welch",
+      "endDate": "2025-05-24T08:44:59Z",
+      "firstName": "Peter",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Welch, Peter",
+      "lastName": "Welch",
+      "startDate": "2023-05-10T06:35:00Z"
+    },
+    {
+      "directOrderName": "Peter Welch",
+      "endDate": "2023-05-10T06:34:59Z",
+      "firstName": "Peter",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Welch, Peter",
+      "lastName": "Welch",
+      "startDate": "2023-01-04T07:35:00Z"
+    },
+    {
+      "directOrderName": "Peter Welch",
+      "firstName": "Peter",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Welch, Peter",
+      "lastName": "Welch",
+      "startDate": "2025-05-24T08:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 658,
+    "url": "https://api.congress.gov/v3/member/W000800/sponsored-legislation"
+  },
+  "state": "Vermont",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "VT",
+      "stateName": "Vermont"
+    }
+  ],
+  "updateDate": "2026-03-08T10:33:01Z",
+  "id": {
+    "bioguide": "W000800",
+    "thomas": "01879",
+    "lis": "S422",
+    "govtrack": 412239,
+    "opensecrets": "N00000515",
+    "votesmart": 51272,
+    "fec": [
+      "H6VT00160",
+      "H8VT00034",
+      "S2VT00235"
+    ],
+    "cspan": 1019990,
+    "wikipedia": "Peter Welch",
+    "ballotpedia": "Peter Welch",
+    "maplight": 722,
+    "icpsr": 20750,
+    "house_history": 24183,
+    "wikidata": "Q1112656",
+    "google_entity_id": "kg:/m/0db4gl",
+    "pictorial": 13355,
+    "facebook": "PeterWelch",
+    "youtube": "reppeterwelch",
+    "youtube_id": "UC0YfApJx6qNaAQ-ir93U8xA",
+    "twitter": "PeterWelch",
+    "instagram": "reppeterwelch",
+    "instagram_id": 1559860900,
+    "twitter_id": 1410590874
+  },
+  "name": {
+    "first": "Peter",
+    "last": "Welch",
+    "official_full": "Peter Welch"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1947-05-02"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "VT",
+    "class": 3,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.welch.senate.gov",
+    "contact_form": "https://www.welch.senate.gov/email-peter/",
+    "address": "115 Russell Senate Office Building Washington DC 20510",
+    "office": "115 Russell Senate Office Building",
+    "phone": "202-224-4242"
+  }
 }

@@ -1,13 +1,130 @@
 {
-  "id": "B001327",
-  "bioguide": "B001327",
-  "name": "Robert P. Bresnahan, Jr.",
-  "lastName": "Bresnahan",
-  "state": "PA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1133 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5546",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001327",
+  "birthYear": "1990",
+  "cosponsoredLegislation": {
+    "count": 261,
+    "url": "https://api.congress.gov/v3/member/B001327/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001327.jpg"
+  },
+  "directOrderName": "Robert P. Bresnahan, Jr.",
   "district": 8,
-  "nameTitle": "Rep. Robert P. Bresnahan, Jr. (PA-8)",
-  "imageUrl": "https://www.congress.gov/img/member/6774236f0b34857ecc90905f_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Robert",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Bresnahan, Robert P.",
+  "lastName": "Bresnahan",
+  "middleName": "P.",
+  "officialWebsiteUrl": "https://bresnahan.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Robert Bresnahan",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bresnahan, Robert",
+      "lastName": "Bresnahan",
+      "middleName": "P.",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Robert Bresnahan",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bresnahan, Robert",
+      "lastName": "Bresnahan",
+      "middleName": "P.",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Robert Bresnahan",
+      "endDate": "2025-04-28T13:04:24Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bresnahan, Robert",
+      "lastName": "Bresnahan",
+      "middleName": "P.",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Robert P. Bresnahan, Jr.",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bresnahan, Robert P.",
+      "lastName": "Bresnahan",
+      "middleName": "P.",
+      "startDate": "2025-04-28T13:04:25Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 18,
+    "url": "https://api.congress.gov/v3/member/B001327/sponsored-legislation"
+  },
+  "state": "Pennsylvania",
+  "suffixName": "Jr.",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "B001327",
+    "fec": [
+      "H4PA08124"
+    ],
+    "govtrack": 457018,
+    "opensecrets": "N00053588",
+    "wikipedia": "Rob Bresnahan",
+    "wikidata": "Q130963821",
+    "twitter": "RepBresnahan",
+    "facebook": "RepBresnahan",
+    "instagram": "RepBresnahan"
+  },
+  "name": {
+    "first": "Robert",
+    "middle": "P.",
+    "last": "Bresnahan",
+    "suffix": "Jr.",
+    "official_full": "Robert P. Bresnahan, Jr."
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1990-04-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PA",
+    "district": 8,
+    "party": "Republican",
+    "address": "1133 Longworth House Office Building Washington DC 20515-3808",
+    "office": "1133 Longworth House Office Building",
+    "phone": "202-225-5546",
+    "url": "https://bresnahan.house.gov"
+  }
 }

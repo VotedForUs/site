@@ -1,13 +1,184 @@
 {
-  "id": "M001190",
-  "bioguide": "M001190",
-  "name": "Markwayne Mullin",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "330 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4721",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001190",
+  "birthYear": "1977",
+  "cosponsoredLegislation": {
+    "count": 1597,
+    "url": "https://api.congress.gov/v3/member/M001190/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<p>Official U.S. Senate Photo</p>",
+    "imageUrl": "/images/legislators/M001190.jpg"
+  },
+  "directOrderName": "Markwayne Mullin",
+  "firstName": "Markwayne",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Mullin, Markwayne",
   "lastName": "Mullin",
-  "state": "OK",
-  "party": "Republican",
-  "nameTitle": "Sen. Markwayne Mullin (OK)",
-  "imageUrl": "https://www.congress.gov/img/member/m001190_200.jpg",
-  "attribution": "<p>Official U.S. Senate Photo</p>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.mullin.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Markwayne Mullin",
+      "firstName": "Markwayne",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mullin, Markwayne",
+      "lastName": "Mullin",
+      "startDate": "2023-04-01T06:35:00Z"
+    },
+    {
+      "directOrderName": "Markwayne Mullin",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "Markwayne",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mullin, Markwayne",
+      "lastName": "Mullin",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Markwayne Mullin",
+      "endDate": "2023-04-01T06:34:59Z",
+      "firstName": "Markwayne",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Mullin, Markwayne",
+      "lastName": "Mullin",
+      "startDate": "2023-01-04T07:35:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 162,
+    "url": "https://api.congress.gov/v3/member/M001190/sponsored-legislation"
+  },
+  "state": "Oklahoma",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:07Z",
+  "id": {
+    "govtrack": 412568,
+    "bioguide": "M001190",
+    "thomas": "02156",
+    "lis": "S419",
+    "cspan": 1034045,
+    "votesmart": 135898,
+    "wikipedia": "Markwayne Mullin",
+    "fec": [
+      "H2OK02083",
+      "S2OK00186"
+    ],
+    "opensecrets": "N00033410",
+    "ballotpedia": "Markwayne Mullin",
+    "maplight": 1792,
+    "icpsr": 21355,
+    "wikidata": "Q3448772",
+    "google_entity_id": "kg:/m/0lq78pn",
+    "pictorial": 13425,
+    "twitter": "SenMullin",
+    "twitter_id": 1060370282,
+    "facebook": "RepMullin",
+    "youtube_id": "UCLQlm-cbGbJj9baZC6oFsag",
+    "instagram": "senmullin"
+  },
+  "name": {
+    "first": "Markwayne",
+    "last": "Mullin",
+    "official_full": "Markwayne Mullin"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1977-07-26"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2027-01-03",
+    "state": "OK",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.mullin.senate.gov",
+    "contact_form": "https://www.mullin.senate.gov/contact/",
+    "address": "330 Hart Senate Office Building Washington DC 20510",
+    "office": "330 Hart Senate Office Building",
+    "phone": "202-224-4721"
+  }
 }

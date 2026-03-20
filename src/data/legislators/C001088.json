@@ -1,13 +1,184 @@
 {
-  "id": "C001088",
-  "bioguide": "C001088",
-  "name": "Christopher A. Coons",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "218 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5042",
+    "zipCode": 20510
+  },
+  "bioguideId": "C001088",
+  "birthYear": "1963",
+  "cosponsoredLegislation": {
+    "count": 4026,
+    "url": "https://api.congress.gov/v3/member/C001088/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/C001088.jpg"
+  },
+  "directOrderName": "Christopher A. Coons",
+  "firstName": "Christopher",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Coons, Christopher A.",
   "lastName": "Coons",
-  "state": "DE",
-  "party": "Democrat",
-  "nameTitle": "Sen. Christopher A. Coons (DE)",
-  "imageUrl": "https://www.congress.gov/img/member/c001088_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "middleName": "A.",
+  "officialWebsiteUrl": "https://www.coons.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2010
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Christopher A. Coons",
+      "firstName": "Christopher",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Coons, Christopher A.",
+      "lastName": "Coons",
+      "middleName": "A.",
+      "startDate": "2010-11-15T00:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 753,
+    "url": "https://api.congress.gov/v3/member/C001088/sponsored-legislation"
+  },
+  "state": "Delaware",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2010,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "DE",
+      "stateName": "Delaware"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:51Z",
+  "id": {
+    "bioguide": "C001088",
+    "thomas": "01984",
+    "lis": "S337",
+    "govtrack": 412390,
+    "opensecrets": "N00031820",
+    "votesmart": 122834,
+    "fec": [
+      "S0DE00092"
+    ],
+    "cspan": 9269028,
+    "wikipedia": "Chris Coons",
+    "ballotpedia": "Chris Coons",
+    "maplight": 1371,
+    "icpsr": 40916,
+    "wikidata": "Q923242",
+    "google_entity_id": "kg:/m/082d3d",
+    "pictorial": 13405,
+    "twitter": "ChrisCoons",
+    "twitter_id": 15324851,
+    "facebook": "senatorchriscoons",
+    "youtube": "senatorchriscoons",
+    "youtube_id": "UC2lOVbsddn1HIkcDnmCw6tA",
+    "instagram": "senatorchriscoons",
+    "instagram_id": 25194715
+  },
+  "name": {
+    "first": "Christopher",
+    "middle": "Andrew",
+    "last": "Coons",
+    "official_full": "Christopher A. Coons"
+  },
+  "bio": {
+    "birthday": "1963-09-09",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "DE",
+    "class": 2,
+    "state_rank": "senior",
+    "party": "Democrat",
+    "url": "https://www.coons.senate.gov",
+    "rss_url": "http://www.coons.senate.gov/rss/feeds/?type=all",
+    "contact_form": "https://www.coons.senate.gov/contact",
+    "address": "218 Russell Senate Office Building Washington DC 20510",
+    "office": "218 Russell Senate Office Building",
+    "phone": "202-224-5042"
+  }
 }

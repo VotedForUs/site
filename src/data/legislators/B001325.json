@@ -1,13 +1,114 @@
 {
-  "id": "B001325",
-  "bioguide": "B001325",
-  "name": "Sheri Biggs",
-  "lastName": "Biggs",
-  "state": "SC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1530 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5301",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001325",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 218,
+    "url": "https://api.congress.gov/v3/member/B001325/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001325.jpg"
+  },
+  "directOrderName": "Sheri Biggs",
   "district": 3,
-  "nameTitle": "Rep. Sheri Biggs (SC-3)",
-  "imageUrl": "https://www.congress.gov/img/member/677422990b34857ecc909052_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Sheri",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Biggs, Sheri",
+  "lastName": "Biggs",
+  "officialWebsiteUrl": "https://sheribiggs.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sheri Biggs",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Sheri",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Biggs, Sheri",
+      "lastName": "Biggs",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Sheri Biggs",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Sheri",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Biggs, Sheri",
+      "lastName": "Biggs",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Sheri Biggs",
+      "firstName": "Sheri",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Biggs, Sheri",
+      "lastName": "Biggs",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 11,
+    "url": "https://api.congress.gov/v3/member/B001325/sponsored-legislation"
+  },
+  "state": "South Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "B001325",
+    "fec": [
+      "H4SC01313"
+    ],
+    "govtrack": 457020,
+    "opensecrets": "N00054222",
+    "wikipedia": "Sheri Biggs",
+    "wikidata": "Q130979821",
+    "twitter": "repsheribiggs",
+    "facebook": "RepSheriBiggs",
+    "instagram": "RepSheriBiggs"
+  },
+  "name": {
+    "first": "Sheri",
+    "middle": "Lynn",
+    "last": "Biggs",
+    "official_full": "Sheri Biggs"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1970-03-28"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "SC",
+    "district": 3,
+    "party": "Republican",
+    "address": "1530 Longworth House Office Building Washington DC 20515-4003",
+    "office": "1530 Longworth House Office Building",
+    "phone": "202-225-5301",
+    "url": "https://sheribiggs.house.gov"
+  }
 }

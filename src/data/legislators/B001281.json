@@ -1,13 +1,186 @@
 {
-  "id": "B001281",
-  "bioguide": "B001281",
-  "name": "Joyce Beatty",
-  "lastName": "Beatty",
-  "state": "OH",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2079 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4324",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001281",
+  "birthYear": "1950",
+  "cosponsoredLegislation": {
+    "count": 3133,
+    "url": "https://api.congress.gov/v3/member/B001281/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001281.jpg"
+  },
+  "directOrderName": "Joyce Beatty",
   "district": 3,
-  "nameTitle": "Rep. Joyce Beatty (OH-3)",
-  "imageUrl": "https://www.congress.gov/img/member/b001281_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Joyce",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Beatty, Joyce",
+  "lastName": "Beatty",
+  "officialWebsiteUrl": "https://beatty.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Joyce Beatty",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Joyce",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Beatty, Joyce",
+      "lastName": "Beatty",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Joyce Beatty",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Joyce",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Beatty, Joyce",
+      "lastName": "Beatty",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Joyce Beatty",
+      "firstName": "Joyce",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Beatty, Joyce",
+      "lastName": "Beatty",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 179,
+    "url": "https://api.congress.gov/v3/member/B001281/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 3,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 3,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "govtrack": 412565,
+    "bioguide": "B001281",
+    "thomas": "02153",
+    "cspan": 67294,
+    "votesmart": 2427,
+    "wikipedia": "Joyce Beatty",
+    "fec": [
+      "H2OH03125"
+    ],
+    "opensecrets": "N00033904",
+    "ballotpedia": "Joyce Beatty",
+    "maplight": 1789,
+    "icpsr": 21352,
+    "house_history": 15032386867,
+    "wikidata": "Q976417",
+    "google_entity_id": "kg:/m/03lcwb",
+    "pictorial": 13197,
+    "twitter": "RepBeatty",
+    "facebook": "RepJoyceBeatty",
+    "youtube_id": "UCtVl3kb7Xvt3pY7l6x-M6LA",
+    "instagram": "repbeatty",
+    "instagram_id": 554027718,
+    "twitter_id": 1531521632
+  },
+  "name": {
+    "first": "Joyce",
+    "last": "Beatty",
+    "official_full": "Joyce Beatty"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1950-03-12"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 3,
+    "party": "Democrat",
+    "url": "https://beatty.house.gov",
+    "rss_url": "http://beatty.house.gov/rss.xml",
+    "address": "2079 Rayburn House Office Building Washington DC 20515-3503",
+    "office": "2079 Rayburn House Office Building",
+    "phone": "202-225-4324"
+  }
 }

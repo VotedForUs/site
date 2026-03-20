@@ -1,13 +1,166 @@
 {
-  "id": "D000628",
-  "bioguide": "D000628",
-  "name": "Neal P. Dunn",
-  "lastName": "Dunn",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "466 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5235",
+    "zipCode": 20515
+  },
+  "bioguideId": "D000628",
+  "birthYear": "1953",
+  "cosponsoredLegislation": {
+    "count": 1126,
+    "url": "https://api.congress.gov/v3/member/D000628/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/D000628.jpg"
+  },
+  "directOrderName": "Neal P. Dunn",
   "district": 2,
-  "nameTitle": "Rep. Neal P. Dunn (FL-2)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_fl_2_dunn_neal_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Neal",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Dunn, Neal P.",
+  "lastName": "Dunn",
+  "middleName": "P.",
+  "officialWebsiteUrl": "https://dunn.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Neal P. Dunn",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Neal",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Dunn, Neal P.",
+      "lastName": "Dunn",
+      "middleName": "P.",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Neal P. Dunn",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Neal",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Dunn, Neal P.",
+      "lastName": "Dunn",
+      "middleName": "P.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Neal P. Dunn",
+      "firstName": "Neal",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Dunn, Neal P.",
+      "lastName": "Dunn",
+      "middleName": "P.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 88,
+    "url": "https://api.congress.gov/v3/member/D000628/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-12-09T08:40:20Z",
+  "id": {
+    "bioguide": "D000628",
+    "govtrack": 412691,
+    "wikipedia": "Neal Dunn",
+    "wikidata": "Q27733851",
+    "votesmart": 166297,
+    "fec": [
+      "H6FL02208"
+    ],
+    "opensecrets": "N00037442",
+    "maplight": 2203,
+    "google_entity_id": "kg:/g/11c2ld4vv7",
+    "cspan": 104529,
+    "icpsr": 21714,
+    "ballotpedia": "Neal Dunn",
+    "pictorial": 12983,
+    "facebook": "drnealdunnfl2",
+    "twitter": "DrNealDunnFL2",
+    "twitter_id": 815952318487298000,
+    "youtube_id": "UCRTGfrYP-RuDzJ2KGok7TRA"
+  },
+  "name": {
+    "first": "Neal",
+    "middle": "P.",
+    "last": "Dunn",
+    "official_full": "Neal P. Dunn"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1953-02-16"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://dunn.house.gov",
+    "address": "466 Cannon House Office Building Washington DC 20515-0902",
+    "office": "466 Cannon House Office Building",
+    "phone": "202-225-5235"
+  }
 }

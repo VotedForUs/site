@@ -1,13 +1,187 @@
 {
-  "id": "W000806",
-  "bioguide": "W000806",
-  "name": "Daniel Webster",
-  "lastName": "Webster",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2184 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1002",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000806",
+  "birthYear": "1949",
+  "cosponsoredLegislation": {
+    "count": 1313,
+    "url": "https://api.congress.gov/v3/member/W000806/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000806.jpg"
+  },
+  "directOrderName": "Daniel Webster",
   "district": 11,
-  "nameTitle": "Rep. Daniel Webster (FL-11)",
-  "imageUrl": "https://www.congress.gov/img/member/w000806_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Daniel",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Webster, Daniel",
+  "lastName": "Webster",
+  "officialWebsiteUrl": "https://webster.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Daniel Webster",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Daniel",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Webster, Daniel",
+      "lastName": "Webster",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Daniel Webster",
+      "firstName": "Daniel",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Webster, Daniel",
+      "lastName": "Webster",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 58,
+    "url": "https://api.congress.gov/v3/member/W000806/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 8,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 10,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 10,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 11,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 11,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 11,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 11,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 11,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "W000806",
+    "thomas": "02002",
+    "govtrack": 412410,
+    "opensecrets": "N00026335",
+    "votesmart": 24302,
+    "fec": [
+      "H0FL08208",
+      "S4FL00256"
+    ],
+    "cspan": 30504,
+    "wikipedia": "Daniel Webster (Florida politician)",
+    "ballotpedia": "Daniel Webster",
+    "maplight": 1422,
+    "icpsr": 21116,
+    "house_history": 24192,
+    "wikidata": "Q1163099",
+    "google_entity_id": "kg:/m/03cg47l",
+    "pictorial": 12992,
+    "twitter": "RepWebster",
+    "facebook": "RepWebster",
+    "youtube": "repdanwebster",
+    "youtube_id": "UCCoX4VdU7U11eGEA0lbRtLw",
+    "twitter_id": 281540744
+  },
+  "name": {
+    "first": "Daniel",
+    "last": "Webster",
+    "official_full": "Daniel Webster"
+  },
+  "bio": {
+    "birthday": "1949-04-27",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 11,
+    "party": "Republican",
+    "url": "https://webster.house.gov",
+    "rss_url": "http://webster.house.gov/news/rss.aspx",
+    "address": "2184 Rayburn House Office Building Washington DC 20515-0911",
+    "office": "2184 Rayburn House Office Building",
+    "phone": "202-225-1002"
+  }
 }

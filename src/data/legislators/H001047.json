@@ -1,13 +1,202 @@
 {
-  "id": "H001047",
-  "bioguide": "H001047",
-  "name": "James A. Himes",
-  "lastName": "Himes",
-  "state": "CT",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2137 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5541",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001047",
+  "birthYear": "1966",
+  "cosponsoredLegislation": {
+    "count": 2526,
+    "url": "https://api.congress.gov/v3/member/H001047/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001047.jpg"
+  },
+  "directOrderName": "James A. Himes",
   "district": 4,
-  "nameTitle": "Rep. James A. Himes (CT-4)",
-  "imageUrl": "https://www.congress.gov/img/member/h001047_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "James",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Himes, James A.",
+  "lastName": "Himes",
+  "middleName": "A.",
+  "officialWebsiteUrl": "https://himes.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "James A. Himes",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Himes, James A.",
+      "lastName": "Himes",
+      "middleName": "A.",
+      "startDate": "2009-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "James A. Himes",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Himes, James A.",
+      "lastName": "Himes",
+      "middleName": "A.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 110,
+    "url": "https://api.congress.gov/v3/member/H001047/sponsored-legislation"
+  },
+  "state": "Connecticut",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 4,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 4,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CT",
+      "stateName": "Connecticut"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "H001047",
+    "thomas": "01913",
+    "govtrack": 412282,
+    "opensecrets": "N00029070",
+    "votesmart": 106744,
+    "fec": [
+      "H8CT04172"
+    ],
+    "cspan": 1031341,
+    "wikipedia": "Jim Himes",
+    "house_history": 15590,
+    "ballotpedia": "Jim Himes",
+    "maplight": 764,
+    "icpsr": 20907,
+    "wikidata": "Q1689111",
+    "google_entity_id": "kg:/m/03w9x9v",
+    "pictorial": 12978,
+    "facebook": "CongressmanJimHimes",
+    "youtube": "congressmanhimes",
+    "youtube_id": "UCCeB6czh6nhCHxOMCk_V4yA",
+    "mastodon": "@RepJimHimes@mastodon.social",
+    "twitter": "jahimes",
+    "instagram": "repjimhimes"
+  },
+  "name": {
+    "first": "James",
+    "nickname": "Jim",
+    "middle": "A.",
+    "last": "Himes",
+    "official_full": "James A. Himes"
+  },
+  "bio": {
+    "birthday": "1966-07-05",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CT",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://himes.house.gov",
+    "rss_url": "http://himes.house.gov/rss.xml",
+    "address": "2137 Rayburn House Office Building Washington DC 20515-0704",
+    "office": "2137 Rayburn House Office Building",
+    "phone": "202-225-5541"
+  }
 }

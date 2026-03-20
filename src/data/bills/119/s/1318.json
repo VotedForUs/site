@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 7,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/s/1318/actions?format=json",
     "actions": [
       {
@@ -236,7 +236,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Hearings held.",
+        "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 119-86.",
         "type": "Committee"
       },
       {
@@ -261,8 +261,7 @@
   "latestAction": {
     "actionDate": "2025-11-20",
     "actionTime": "18:18:33",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1318",
   "number": "1318",
@@ -273,9 +272,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/1318/summaries?format=json"
   },
   "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-19T11:03:26Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-11-21T05:23:23Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-24T02:23:13Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-17T03:23:16Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-17T03:18:27Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-28T22:01:26Z",
-  "updateDateIncludingText": "2025-10-28T22:01:26Z",
+  "updateDate": "2026-03-19T11:03:26Z",
+  "updateDateIncludingText": "2026-03-19T11:03:26Z",
   "id": "119-S-1318",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-20"

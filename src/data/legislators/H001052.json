@@ -1,13 +1,195 @@
 {
-  "id": "H001052",
-  "bioguide": "H001052",
-  "name": "Andy Harris",
-  "lastName": "Harris",
-  "state": "MD",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1536 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5311",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001052",
+  "birthYear": "1957",
+  "cosponsoredLegislation": {
+    "count": 1887,
+    "url": "https://api.congress.gov/v3/member/H001052/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "GPO Member Guide",
+    "imageUrl": "/images/legislators/H001052.jpg"
+  },
+  "directOrderName": "Andy Harris",
   "district": 1,
-  "nameTitle": "Rep. Andy Harris (MD-1)",
-  "imageUrl": "https://www.congress.gov/img/member/117_rp_md_1_harris_andy_200.jpg",
-  "attribution": "GPO Member Guide",
-  "type": "rep"
+  "firstName": "Andy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Harris, Andy",
+  "lastName": "Harris",
+  "officialWebsiteUrl": "https://harris.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Andy Harris",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Harris, Andy",
+      "lastName": "Harris",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Andy Harris",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Harris, Andy",
+      "lastName": "Harris",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Andy Harris",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Harris, Andy",
+      "lastName": "Harris",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 48,
+    "url": "https://api.congress.gov/v3/member/H001052/sponsored-legislation"
+  },
+  "state": "Maryland",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 1,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 1,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MD",
+      "stateName": "Maryland"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "H001052",
+    "thomas": "02026",
+    "govtrack": 412434,
+    "opensecrets": "N00029147",
+    "votesmart": 19157,
+    "fec": [
+      "H8MD01094"
+    ],
+    "cspan": 1033464,
+    "wikipedia": "Andy Harris (politician)",
+    "house_history": 15599,
+    "maplight": 1445,
+    "icpsr": 21139,
+    "wikidata": "Q506639",
+    "google_entity_id": "kg:/m/02852wc",
+    "ballotpedia": "Andrew Harris",
+    "pictorial": 13084,
+    "twitter": "RepAndyHarrisMD",
+    "facebook": "AndyHarrisMD",
+    "youtube": "RepAndyHarris",
+    "youtube_id": "UCvUuV7FiJfJi1yux4qozgMg",
+    "twitter_id": 960962340
+  },
+  "name": {
+    "first": "Andy",
+    "last": "Harris",
+    "official_full": "Andy Harris"
+  },
+  "bio": {
+    "birthday": "1957-01-25",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MD",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://harris.house.gov",
+    "rss_url": "http://harris.house.gov/rss.xml",
+    "address": "1536 Longworth House Office Building Washington DC 20515-2001",
+    "office": "1536 Longworth House Office Building",
+    "phone": "202-225-5311"
+  }
 }

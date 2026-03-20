@@ -1,13 +1,316 @@
 {
-  "id": "M000355",
-  "bioguide": "M000355",
-  "name": "Mitch McConnell",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "317 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2541",
+    "zipCode": 20510
+  },
+  "bioguideId": "M000355",
+  "birthYear": "1942",
+  "cosponsoredLegislation": {
+    "count": 2832,
+    "url": "https://api.congress.gov/v3/member/M000355/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/M000355.jpg"
+  },
+  "directOrderName": "Mitch McConnell",
+  "firstName": "Mitch",
+  "honorificName": "Mr.",
+  "invertedOrderName": "McConnell, Mitch",
   "lastName": "McConnell",
-  "state": "KY",
-  "party": "Republican",
-  "nameTitle": "Sen. Mitch McConnell (KY)",
-  "imageUrl": "https://www.congress.gov/img/member/m000355_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "leadership": [
+    {
+      "congress": 114,
+      "type": "Majority Leader"
+    },
+    {
+      "congress": 115,
+      "type": "Majority Leader"
+    },
+    {
+      "congress": 116,
+      "type": "Majority Leader"
+    },
+    {
+      "congress": 113,
+      "type": "Minority Leader"
+    },
+    {
+      "congress": 112,
+      "type": "Minority Leader"
+    },
+    {
+      "congress": 118,
+      "type": "Republican Leader"
+    },
+    {
+      "congress": 117,
+      "type": "Republican Leader"
+    }
+  ],
+  "officialWebsiteUrl": "https://www.mcconnell.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 1985
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mitch McConnell",
+      "firstName": "Mitch",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McConnell, Mitch",
+      "lastName": "McConnell",
+      "startDate": "1985-01-03T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 1294,
+    "url": "https://api.congress.gov/v3/member/M000355/sponsored-legislation"
+  },
+  "state": "Kentucky",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 99,
+      "endYear": 1987,
+      "memberType": "Senator",
+      "startYear": 1985,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 100,
+      "endYear": 1989,
+      "memberType": "Senator",
+      "startYear": 1987,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 101,
+      "endYear": 1991,
+      "memberType": "Senator",
+      "startYear": 1989,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 102,
+      "endYear": 1993,
+      "memberType": "Senator",
+      "startYear": 1991,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 103,
+      "endYear": 1995,
+      "memberType": "Senator",
+      "startYear": 1993,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 104,
+      "endYear": 1997,
+      "memberType": "Senator",
+      "startYear": 1995,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 105,
+      "endYear": 1999,
+      "memberType": "Senator",
+      "startYear": 1997,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 106,
+      "endYear": 2001,
+      "memberType": "Senator",
+      "startYear": 1999,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 107,
+      "endYear": 2003,
+      "memberType": "Senator",
+      "startYear": 2001,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 108,
+      "endYear": 2005,
+      "memberType": "Senator",
+      "startYear": 2003,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 109,
+      "endYear": 2007,
+      "memberType": "Senator",
+      "startYear": 2005,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 110,
+      "endYear": 2009,
+      "memberType": "Senator",
+      "startYear": 2007,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:57Z",
+  "id": {
+    "bioguide": "M000355",
+    "thomas": "01395",
+    "lis": "S174",
+    "govtrack": 300072,
+    "opensecrets": "N00003389",
+    "votesmart": 53298,
+    "icpsr": 14921,
+    "fec": [
+      "S2KY00012"
+    ],
+    "cspan": 2351,
+    "wikipedia": "Mitch McConnell",
+    "ballotpedia": "Mitch McConnell",
+    "maplight": 593,
+    "wikidata": "Q355522",
+    "google_entity_id": "kg:/m/01z6ls",
+    "pictorial": 13357,
+    "twitter": "McConnellPress",
+    "facebook": "mitchmcconnell",
+    "twitter_id": 339822881,
+    "instagram": "mcconnellpress"
+  },
+  "name": {
+    "first": "Mitch",
+    "last": "McConnell",
+    "official_full": "Mitch McConnell"
+  },
+  "bio": {
+    "birthday": "1942-02-20",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "KY",
+    "class": 2,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.mcconnell.senate.gov",
+    "rss_url": "http://www.mcconnell.senate.gov/public/?a=rss.feed",
+    "contact_form": "https://www.mcconnell.senate.gov/public/index.cfm?p=contact",
+    "address": "317 Russell Senate Office Building Washington DC 20510",
+    "office": "317 Russell Senate Office Building",
+    "phone": "202-224-2541"
+  }
 }

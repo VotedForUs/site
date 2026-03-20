@@ -1,13 +1,194 @@
 {
-  "id": "E000294",
-  "bioguide": "E000294",
-  "name": "Tom Emmer",
-  "lastName": "Emmer",
-  "state": "MN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "326 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2331",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000294",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 1132,
+    "url": "https://api.congress.gov/v3/member/E000294/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/E000294.jpg"
+  },
+  "directOrderName": "Tom Emmer",
   "district": 6,
-  "nameTitle": "Rep. Tom Emmer (MN-6)",
-  "imageUrl": "https://www.congress.gov/img/member/e000294_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Tom",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Emmer, Tom",
+  "lastName": "Emmer",
+  "leadership": [
+    {
+      "congress": 118,
+      "type": "Majority Whip"
+    },
+    {
+      "congress": 119,
+      "current": true,
+      "type": "Majority Whip"
+    }
+  ],
+  "officialWebsiteUrl": "https://emmer.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tom Emmer",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Emmer, Tom",
+      "lastName": "Emmer",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Tom Emmer",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Emmer, Tom",
+      "lastName": "Emmer",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Tom Emmer",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Emmer, Tom",
+      "lastName": "Emmer",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Tom Emmer",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Emmer, Tom",
+      "lastName": "Emmer",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 128,
+    "url": "https://api.congress.gov/v3/member/E000294/sponsored-legislation"
+  },
+  "state": "Minnesota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 6,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 6,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "E000294",
+    "fec": [
+      "H4MN06087"
+    ],
+    "govtrack": 412639,
+    "opensecrets": "N00035440",
+    "thomas": "02253",
+    "maplight": 2095,
+    "wikidata": "Q7815723",
+    "wikipedia": "Tom Emmer",
+    "google_entity_id": "kg:/m/06w2w3l",
+    "votesmart": 38894,
+    "cspan": 75567,
+    "icpsr": 21531,
+    "ballotpedia": "Tom Emmer",
+    "pictorial": 13112,
+    "twitter": "RepTomEmmer",
+    "instagram": "reptomemmer",
+    "instagram_id": 1565640999,
+    "facebook": "reptomemmer",
+    "twitter_id": 2914515430,
+    "youtube": "RepTomEmmer"
+  },
+  "name": {
+    "first": "Tom",
+    "last": "Emmer",
+    "official_full": "Tom Emmer"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1961-03-03"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MN",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://emmer.house.gov",
+    "address": "326 Cannon House Office Building Washington DC 20515-2306",
+    "office": "326 Cannon House Office Building",
+    "phone": "202-225-2331"
+  }
 }

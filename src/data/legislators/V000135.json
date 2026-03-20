@@ -1,13 +1,120 @@
 {
-  "id": "V000135",
-  "bioguide": "V000135",
-  "name": "Derrick Van Orden",
-  "lastName": "Van Orden",
-  "state": "WI",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1513 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5506",
+    "zipCode": 20515
+  },
+  "bioguideId": "V000135",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 585,
+    "url": "https://api.congress.gov/v3/member/V000135/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/V000135.jpg"
+  },
+  "directOrderName": "Derrick Van Orden",
   "district": 3,
-  "nameTitle": "Rep. Derrick Van Orden (WI-3)",
-  "imageUrl": "https://www.congress.gov/img/member/v000135_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Derrick",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Van Orden, Derrick",
+  "lastName": "Van Orden",
+  "officialWebsiteUrl": "https://vanorden.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Derrick Van Orden",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Derrick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Van Orden, Derrick",
+      "lastName": "Van Orden",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Derrick Van Orden",
+      "firstName": "Derrick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Van Orden, Derrick",
+      "lastName": "Van Orden",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 57,
+    "url": "https://api.congress.gov/v3/member/V000135/sponsored-legislation"
+  },
+  "state": "Wisconsin",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WI",
+      "stateName": "Wisconsin"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "V000135",
+    "fec": [
+      "H0WI03175"
+    ],
+    "govtrack": 456950,
+    "opensecrets": "N00046843",
+    "wikidata": "Q115155627",
+    "wikipedia": "Derrick Van Orden",
+    "google_entity_id": "kg:/g/11j5bmd2d3",
+    "ballotpedia": "Derrick Van Orden",
+    "votesmart": 192343,
+    "pictorial": 13324,
+    "twitter": "RepVanOrden",
+    "twitter_id": 1598778014401269800,
+    "facebook": "RepVanOrden",
+    "instagram": "RepVanOrden"
+  },
+  "name": {
+    "first": "Derrick",
+    "middle": "Francis",
+    "last": "Van Orden",
+    "official_full": "Derrick Van Orden"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1969-09-15"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WI",
+    "district": 3,
+    "party": "Republican",
+    "url": "https://vanorden.house.gov",
+    "address": "1513 Longworth House Office Building Washington DC 20515-4903",
+    "office": "1513 Longworth House Office Building",
+    "phone": "202-225-5506"
+  }
 }

@@ -1,13 +1,114 @@
 {
-  "id": "M001234",
-  "bioguide": "M001234",
-  "name": "Kelly Morrison",
-  "lastName": "Morrison",
-  "state": "MN",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1205 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2871",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001234",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 184,
+    "url": "https://api.congress.gov/v3/member/M001234/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001234.jpg"
+  },
+  "directOrderName": "Kelly Morrison",
   "district": 3,
-  "nameTitle": "Rep. Kelly Morrison (MN-3)",
-  "imageUrl": "https://www.congress.gov/img/member/677449a70b34857ecc90912b_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Kelly",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Morrison, Kelly",
+  "lastName": "Morrison",
+  "officialWebsiteUrl": "https://morrison.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Kelly Morrison",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Kelly",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Morrison, Kelly",
+      "lastName": "Morrison",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Kelly Morrison",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Kelly",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Morrison, Kelly",
+      "lastName": "Morrison",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Kelly Morrison",
+      "firstName": "Kelly",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Morrison, Kelly",
+      "lastName": "Morrison",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 12,
+    "url": "https://api.congress.gov/v3/member/M001234/sponsored-legislation"
+  },
+  "state": "Minnesota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "M001234",
+    "fec": [
+      "H4MN03118"
+    ],
+    "govtrack": 456996,
+    "opensecrets": "N00053930",
+    "wikipedia": "Kelly Morrison",
+    "wikidata": "Q58416636",
+    "twitter": "kellymorrisonmn",
+    "facebook": "repkellymorrison",
+    "instagram": "kellymorrisonmn"
+  },
+  "name": {
+    "first": "Kelly",
+    "middle": "Louise",
+    "last": "Morrison",
+    "official_full": "Kelly Morrison"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1969-02-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MN",
+    "district": 3,
+    "party": "Democrat",
+    "address": "1205 Longworth House Office Building Washington DC 20515-2303",
+    "office": "1205 Longworth House Office Building",
+    "phone": "202-225-2871",
+    "url": "https://morrison.house.gov"
+  }
 }

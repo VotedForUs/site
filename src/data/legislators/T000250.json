@@ -1,13 +1,256 @@
 {
-  "id": "T000250",
-  "bioguide": "T000250",
-  "name": "John Thune",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "511 Dirksen Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2321",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000250",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 2796,
+    "url": "https://api.congress.gov/v3/member/T000250/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/T000250.jpg"
+  },
+  "directOrderName": "John Thune",
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Thune, John",
   "lastName": "Thune",
-  "state": "SD",
-  "party": "Republican",
-  "nameTitle": "Sen. John Thune (SD)",
-  "imageUrl": "https://www.congress.gov/img/member/t000250_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "leadership": [
+    {
+      "congress": 116,
+      "type": "Majority Whip"
+    },
+    {
+      "congress": 117,
+      "type": "Whip"
+    },
+    {
+      "congress": 118,
+      "type": "Whip"
+    },
+    {
+      "congress": 119,
+      "current": true,
+      "type": "Majority Leader"
+    }
+  ],
+  "officialWebsiteUrl": "https://www.thune.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 1997
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John Thune",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Thune, John",
+      "lastName": "Thune",
+      "middleName": "R.",
+      "startDate": "1997-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "John Thune",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Thune, John",
+      "lastName": "Thune",
+      "startDate": "2023-01-04T07:35:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 1036,
+    "url": "https://api.congress.gov/v3/member/T000250/sponsored-legislation"
+  },
+  "state": "South Dakota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 109,
+      "endYear": 2007,
+      "memberType": "Senator",
+      "startYear": 2005,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 110,
+      "endYear": 2009,
+      "memberType": "Senator",
+      "startYear": 2007,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:49Z",
+  "id": {
+    "bioguide": "T000250",
+    "thomas": "01534",
+    "lis": "S303",
+    "govtrack": 400546,
+    "opensecrets": "N00004572",
+    "votesmart": 398,
+    "fec": [
+      "S2SD00068",
+      "H6SD00085"
+    ],
+    "cspan": 45552,
+    "wikipedia": "John Thune",
+    "ballotpedia": "John Thune",
+    "maplight": 621,
+    "icpsr": 29754,
+    "house_history": 22937,
+    "wikidata": "Q462981",
+    "google_entity_id": "kg:/m/03ybyn",
+    "pictorial": 13370,
+    "twitter": "SenJohnThune",
+    "youtube": "johnthune",
+    "youtube_id": "UCRu6lpRfxhkDGUrKDgQNZYQ",
+    "twitter_id": 296361085,
+    "instagram": "senjohnthune",
+    "facebook": "LeaderJohnThune"
+  },
+  "name": {
+    "first": "John",
+    "last": "Thune",
+    "official_full": "John Thune"
+  },
+  "bio": {
+    "birthday": "1961-01-07",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "SD",
+    "class": 3,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.thune.senate.gov",
+    "rss_url": "http://www.thune.senate.gov/public/index.cfm/rss/feed",
+    "contact_form": "https://www.thune.senate.gov/public/index.cfm/contact",
+    "address": "511 Dirksen Senate Office Building Washington DC 20510",
+    "office": "511 Dirksen Senate Office Building",
+    "phone": "202-224-2321"
+  }
 }

@@ -1,13 +1,173 @@
 {
-  "id": "L000585",
-  "bioguide": "L000585",
-  "name": "Darin LaHood",
-  "lastName": "LaHood",
-  "state": "IL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "503 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6201",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000585",
+  "birthYear": "1968",
+  "cosponsoredLegislation": {
+    "count": 1051,
+    "url": "https://api.congress.gov/v3/member/L000585/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/L000585.jpg"
+  },
+  "directOrderName": "Darin LaHood",
   "district": 16,
-  "nameTitle": "Rep. Darin LaHood (IL-16)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_il_18_lahood_darin_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Darin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "LaHood, Darin",
+  "lastName": "LaHood",
+  "officialWebsiteUrl": "https://lahood.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Darin LaHood",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Darin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "LaHood, Darin",
+      "lastName": "LaHood",
+      "startDate": "2015-09-17T00:00:00Z"
+    },
+    {
+      "directOrderName": "Darin LaHood",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Darin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "LaHood, Darin",
+      "lastName": "LaHood",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Darin LaHood",
+      "firstName": "Darin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "LaHood, Darin",
+      "lastName": "LaHood",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 134,
+    "url": "https://api.congress.gov/v3/member/L000585/sponsored-legislation"
+  },
+  "state": "Illinois",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 18,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 18,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 18,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 18,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 16,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 16,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "L000585",
+    "thomas": "02295",
+    "fec": [
+      "H6IL18088"
+    ],
+    "govtrack": 412674,
+    "votesmart": 128760,
+    "wikipedia": "Darin LaHood",
+    "ballotpedia": "Darin LaHood",
+    "house_history": 15032425053,
+    "maplight": 2164,
+    "opensecrets": "N00037031",
+    "wikidata": "Q5222780",
+    "google_entity_id": "kg:/m/0gg7rcy",
+    "cspan": 70020,
+    "icpsr": 21562,
+    "pictorial": 13048,
+    "twitter": "RepLaHood",
+    "twitter_id": 3686482216,
+    "facebook": "replahood",
+    "youtube_id": "UCVRbtFwaBGcixZIkygtalRw"
+  },
+  "name": {
+    "first": "Darin",
+    "last": "LaHood",
+    "official_full": "Darin LaHood"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1968-07-05"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IL",
+    "district": 16,
+    "party": "Republican",
+    "url": "https://lahood.house.gov",
+    "address": "503 Cannon House Office Building Washington DC 20515-1316",
+    "office": "503 Cannon House Office Building",
+    "phone": "202-225-6201"
+  }
 }

@@ -1,13 +1,193 @@
 {
-  "id": "C001087",
-  "bioguide": "C001087",
-  "name": "Eric A. \"Rick\" Crawford",
-  "lastName": "Crawford",
-  "state": "AR",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2422 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4076",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001087",
+  "birthYear": "1966",
+  "cosponsoredLegislation": {
+    "count": 1602,
+    "url": "https://api.congress.gov/v3/member/C001087/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001087.jpg"
+  },
+  "directOrderName": "Eric A. \"Rick\" Crawford",
   "district": 1,
-  "nameTitle": "Rep. Eric A. \"Rick\" Crawford (AR-1)",
-  "imageUrl": "https://www.congress.gov/img/member/c001087_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Eric",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Crawford, Eric A. \"Rick\"",
+  "lastName": "Crawford",
+  "middleName": "A. \"Rick\"",
+  "officialWebsiteUrl": "https://crawford.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Eric A. \"Rick\" Crawford",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crawford, Eric A. \"Rick\"",
+      "lastName": "Crawford",
+      "middleName": "A. \"Rick\"",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Eric A. \"Rick\" Crawford",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Crawford, Eric A. \"Rick\"",
+      "lastName": "Crawford",
+      "middleName": "A. \"Rick\"",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 139,
+    "url": "https://api.congress.gov/v3/member/C001087/sponsored-legislation"
+  },
+  "state": "Arkansas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 1,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 1,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    }
+  ],
+  "updateDate": "2025-11-13T17:04:30Z",
+  "id": {
+    "bioguide": "C001087",
+    "thomas": "01989",
+    "govtrack": 412400,
+    "opensecrets": "N00030770",
+    "votesmart": 119208,
+    "fec": [
+      "H0AR01083"
+    ],
+    "cspan": 623259,
+    "wikipedia": "Rick Crawford (politician)",
+    "house_history": 11831,
+    "ballotpedia": "Rick Crawford",
+    "maplight": 1414,
+    "icpsr": 21106,
+    "wikidata": "Q2151554",
+    "google_entity_id": "kg:/m/0czb3pp",
+    "pictorial": 12901,
+    "twitter": "RepRickCrawford",
+    "facebook": "RepRickCrawford",
+    "youtube": "RepRickCrawford",
+    "youtube_id": "UCLKAkVl4BHRK73lmDiIgPYg",
+    "instagram": "reprickcrawford",
+    "instagram_id": 389864684,
+    "twitter_id": 233693291
+  },
+  "name": {
+    "first": "Eric",
+    "middle": "A.",
+    "last": "Crawford",
+    "official_full": "Eric A. \"Rick\" Crawford",
+    "nickname": "Rick"
+  },
+  "bio": {
+    "birthday": "1966-01-22",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AR",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://crawford.house.gov",
+    "rss_url": "http://crawford.house.gov/news/rss.aspx",
+    "address": "2422 Rayburn House Office Building Washington DC 20515-0401",
+    "office": "2422 Rayburn House Office Building",
+    "phone": "202-225-4076"
+  }
 }

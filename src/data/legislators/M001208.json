@@ -1,13 +1,149 @@
 {
-  "id": "M001208",
-  "bioguide": "M001208",
-  "name": "Lucy McBath",
-  "lastName": "McBath",
-  "state": "GA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2246 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4501",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001208",
+  "birthYear": "1960",
+  "cosponsoredLegislation": {
+    "count": 1300,
+    "url": "https://api.congress.gov/v3/member/M001208/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001208.jpg"
+  },
+  "directOrderName": "Lucy McBath",
   "district": 6,
-  "nameTitle": "Rep. Lucy McBath (GA-6)",
-  "imageUrl": "https://www.congress.gov/img/member/m001208_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Lucy",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "McBath, Lucy",
+  "lastName": "McBath",
+  "officialWebsiteUrl": "https://mcbath.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Lucy McBath",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Lucy",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "McBath, Lucy",
+      "lastName": "McBath",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Lucy McBath",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Lucy",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "McBath, Lucy",
+      "lastName": "McBath",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Lucy McBath",
+      "firstName": "Lucy",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "McBath, Lucy",
+      "lastName": "McBath",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 68,
+    "url": "https://api.congress.gov/v3/member/M001208/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "M001208",
+    "fec": [
+      "H8GA06393"
+    ],
+    "govtrack": 412769,
+    "wikipedia": "Lucy McBath",
+    "wikidata": "Q54358424",
+    "opensecrets": "N00042813",
+    "google_entity_id": "kg:/g/11f647_0gj",
+    "votesmart": 178538,
+    "icpsr": 21944,
+    "ballotpedia": "Lucy McBath",
+    "pictorial": 13016,
+    "twitter": "RepLucyMcBath",
+    "twitter_id": 1082380458976051200,
+    "facebook": "RepLucyMcBath",
+    "instagram": "replucymcbath"
+  },
+  "name": {
+    "first": "Lucy",
+    "last": "McBath",
+    "official_full": "Lucy McBath"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1960-06-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 6,
+    "party": "Democrat",
+    "url": "https://mcbath.house.gov",
+    "address": "2246 Rayburn House Office Building Washington DC 20515-1006",
+    "office": "2246 Rayburn House Office Building",
+    "phone": "202-225-4501"
+  }
 }

@@ -1,13 +1,172 @@
 {
-  "id": "B001305",
-  "bioguide": "B001305",
-  "name": "Ted Budd",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "354 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-3154",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001305",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 1937,
+    "url": "https://api.congress.gov/v3/member/B001305/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Official U.S. Senate Photo",
+    "imageUrl": "/images/legislators/B001305.jpg"
+  },
+  "directOrderName": "Ted Budd",
+  "firstName": "Ted",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Budd, Ted",
   "lastName": "Budd",
-  "state": "NC",
-  "party": "Republican",
-  "nameTitle": "Sen. Ted Budd (NC)",
-  "imageUrl": "https://www.congress.gov/img/member/b001305_200.jpg",
-  "attribution": "Official U.S. Senate Photo",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.budd.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ted Budd",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Budd, Ted",
+      "lastName": "Budd",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ted Budd",
+      "endDate": "2023-04-04T06:34:59Z",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Budd, Ted",
+      "lastName": "Budd",
+      "startDate": "2023-01-04T07:35:00Z"
+    },
+    {
+      "directOrderName": "Ted Budd",
+      "endDate": "2025-03-28T08:44:59Z",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Budd, Ted",
+      "lastName": "Budd",
+      "startDate": "2023-04-04T06:35:00Z"
+    },
+    {
+      "directOrderName": "Ted Budd",
+      "firstName": "Ted",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Budd, Ted",
+      "lastName": "Budd",
+      "startDate": "2025-03-28T08:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 252,
+    "url": "https://api.congress.gov/v3/member/B001305/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 13,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 13,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 13,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:42Z",
+  "id": {
+    "bioguide": "B001305",
+    "lis": "S417",
+    "govtrack": 412712,
+    "wikipedia": "Ted Budd",
+    "wikidata": "Q27733792",
+    "votesmart": 171489,
+    "fec": [
+      "H6NC13129",
+      "S2NC00505"
+    ],
+    "opensecrets": "N00039551",
+    "maplight": 2224,
+    "google_entity_id": "kg:/g/11c2nmnsj0",
+    "cspan": 103513,
+    "icpsr": 21708,
+    "ballotpedia": "Ted Budd",
+    "pictorial": 13415,
+    "facebook": "RepTedBudd",
+    "twitter": "RepTedBudd",
+    "twitter_id": 817138492614524900,
+    "instagram": "sentedbudd",
+    "youtube": "@sentedbudd"
+  },
+  "name": {
+    "first": "Ted",
+    "last": "Budd",
+    "official_full": "Ted Budd"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1971-10-21"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "NC",
+    "class": 3,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.budd.senate.gov",
+    "contact_form": "https://www.budd.senate.gov/contact/",
+    "address": "354 Russell Senate Office Building Washington DC 20510",
+    "office": "354 Russell Senate Office Building",
+    "phone": "202-224-3154"
+  }
 }

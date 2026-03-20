@@ -1,13 +1,120 @@
 {
-  "id": "B001316",
-  "bioguide": "B001316",
-  "name": "Eric Burlison",
-  "lastName": "Burlison",
-  "state": "MO",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1108 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6536",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001316",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 369,
+    "url": "https://api.congress.gov/v3/member/B001316/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001316.jpg"
+  },
+  "directOrderName": "Eric Burlison",
   "district": 7,
-  "nameTitle": "Rep. Eric Burlison (MO-7)",
-  "imageUrl": "https://www.congress.gov/img/member/b001316_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Eric",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Burlison, Eric",
+  "lastName": "Burlison",
+  "officialWebsiteUrl": "https://burlison.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Eric Burlison",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Burlison, Eric",
+      "lastName": "Burlison",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Eric Burlison",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Burlison, Eric",
+      "lastName": "Burlison",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 49,
+    "url": "https://api.congress.gov/v3/member/B001316/sponsored-legislation"
+  },
+  "state": "Missouri",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "B001316",
+    "fec": [
+      "H2MO07143"
+    ],
+    "govtrack": 456910,
+    "opensecrets": "N00049123",
+    "wikidata": "Q5386212",
+    "wikipedia": "Eric Burlison",
+    "votesmart": 104635,
+    "ballotpedia": "Eric Burlison",
+    "pictorial": 13121,
+    "twitter": "RepEricBurlison",
+    "twitter_id": 1606342594765590500,
+    "facebook": "100089208900263",
+    "instagram": "RepEricBurlison",
+    "youtube": "UCuJFygzYhGiXMZHjhTQy20w"
+  },
+  "name": {
+    "first": "Eric",
+    "middle": "Wayne",
+    "last": "Burlison",
+    "official_full": "Eric Burlison"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1976-10-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MO",
+    "district": 7,
+    "party": "Republican",
+    "url": "https://burlison.house.gov",
+    "address": "1108 Longworth House Office Building Washington DC 20515-2507",
+    "office": "1108 Longworth House Office Building",
+    "phone": "202-225-6536"
+  }
 }

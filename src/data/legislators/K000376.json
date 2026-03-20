@@ -1,13 +1,186 @@
 {
-  "id": "K000376",
-  "bioguide": "K000376",
-  "name": "Mike Kelly",
-  "lastName": "Kelly",
-  "state": "PA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1707 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5406",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000376",
+  "birthYear": "1948",
+  "cosponsoredLegislation": {
+    "count": 2322,
+    "url": "https://api.congress.gov/v3/member/K000376/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000376.jpg"
+  },
+  "directOrderName": "Mike Kelly",
   "district": 16,
-  "nameTitle": "Rep. Mike Kelly (PA-16)",
-  "imageUrl": "https://www.congress.gov/img/member/k000376_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Kelly, Mike",
+  "lastName": "Kelly",
+  "officialWebsiteUrl": "https://kelly.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Kelly",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kelly, Mike",
+      "lastName": "Kelly",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Kelly",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kelly, Mike",
+      "lastName": "Kelly",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 179,
+    "url": "https://api.congress.gov/v3/member/K000376/sponsored-legislation"
+  },
+  "state": "Pennsylvania",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 3,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 3,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 3,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 16,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 16,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 16,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 16,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "K000376",
+    "thomas": "02051",
+    "govtrack": 412465,
+    "opensecrets": "N00031647",
+    "votesmart": 119463,
+    "fec": [
+      "H0PA03271"
+    ],
+    "cspan": 62696,
+    "wikipedia": "Mike Kelly (Pennsylvania politician)",
+    "house_history": 16572,
+    "ballotpedia": "Mike Kelly",
+    "maplight": 1471,
+    "icpsr": 21167,
+    "wikidata": "Q1431761",
+    "google_entity_id": "kg:/m/0ds6wcw",
+    "pictorial": 13236,
+    "twitter": "MikeKellyPA",
+    "facebook": "191056827594903",
+    "youtube": "repmikekelly",
+    "youtube_id": "UCoz6u3ooQxoijsWvhoQ0D-A",
+    "twitter_id": 935368364
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Kelly",
+    "official_full": "Mike Kelly"
+  },
+  "bio": {
+    "birthday": "1948-05-10",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PA",
+    "district": 16,
+    "party": "Republican",
+    "url": "https://kelly.house.gov",
+    "rss_url": "http://kelly.house.gov/rss.xml",
+    "address": "1707 Longworth House Office Building Washington DC 20515-3816",
+    "office": "1707 Longworth House Office Building",
+    "phone": "202-225-5406"
+  }
 }

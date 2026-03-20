@@ -1,13 +1,127 @@
 {
-  "id": "L000607",
-  "bioguide": "L000607",
-  "name": "Sam T. Liccardo",
-  "lastName": "Liccardo",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1117 Longworth House Office Building",
+    "phoneNumber": "(202) 225-8104",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000607",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 139,
+    "url": "https://api.congress.gov/v3/member/L000607/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000607.jpg"
+  },
+  "directOrderName": "Sam T. Liccardo",
   "district": 16,
-  "nameTitle": "Rep. Sam T. Liccardo (CA-16)",
-  "imageUrl": "https://www.congress.gov/img/member/6774305d0b34857ecc90910d_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Sam",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Liccardo, Sam T.",
+  "lastName": "Liccardo",
+  "middleName": "T.",
+  "officialWebsiteUrl": "https://liccardo.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sam Liccardo",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Sam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Liccardo, Sam",
+      "lastName": "Liccardo",
+      "middleName": "T.",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Sam Liccardo",
+      "endDate": "2025-04-28T13:04:14Z",
+      "firstName": "Sam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Liccardo, Sam",
+      "lastName": "Liccardo",
+      "middleName": "T.",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Sam Liccardo",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Sam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Liccardo, Sam",
+      "lastName": "Liccardo",
+      "middleName": "T.",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Sam T. Liccardo",
+      "firstName": "Sam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Liccardo, Sam T.",
+      "lastName": "Liccardo",
+      "middleName": "T.",
+      "startDate": "2025-04-28T13:04:15Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 12,
+    "url": "https://api.congress.gov/v3/member/L000607/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 16,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "L000607",
+    "fec": [
+      "H4CA16197"
+    ],
+    "govtrack": 456976,
+    "opensecrets": "N00054265",
+    "wikipedia": "Sam Liccardo",
+    "wikidata": "Q16731481",
+    "twitter": "repliccardo",
+    "instagram": "repliccardo"
+  },
+  "name": {
+    "first": "Sam",
+    "middle": "Theodore",
+    "last": "Liccardo",
+    "official_full": "Sam T. Liccardo"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-04-16"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 16,
+    "party": "Democrat",
+    "address": "1117 Longworth House Office Building Washington DC 20515-0516",
+    "office": "1117 Longworth House Office Building",
+    "phone": "202-225-8104",
+    "url": "https://liccardo.house.gov"
+  }
 }

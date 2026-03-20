@@ -1,13 +1,242 @@
 {
-  "id": "L000562",
-  "bioguide": "L000562",
-  "name": "Stephen F. Lynch",
-  "lastName": "Lynch",
-  "state": "MA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2109 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-8273",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000562",
+  "birthYear": "1955",
+  "cosponsoredLegislation": {
+    "count": 4411,
+    "url": "https://api.congress.gov/v3/member/L000562/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image, Congressional Pictorial Directory, 109th.",
+    "imageUrl": "/images/legislators/L000562.jpg"
+  },
+  "directOrderName": "Stephen F. Lynch",
   "district": 8,
-  "nameTitle": "Rep. Stephen F. Lynch (MA-8)",
-  "imageUrl": "https://www.congress.gov/img/member/l000562_200.jpg",
-  "attribution": "Image, Congressional Pictorial Directory, 109th.",
-  "type": "rep"
+  "firstName": "Stephen",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Lynch, Stephen F.",
+  "lastName": "Lynch",
+  "middleName": "F.",
+  "officialWebsiteUrl": "https://lynch.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2001
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Stephen F. Lynch",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Stephen",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lynch, Stephen F.",
+      "lastName": "Lynch",
+      "middleName": "F.",
+      "startDate": "2001-10-23T00:00:00Z"
+    },
+    {
+      "directOrderName": "Stephen F. Lynch",
+      "firstName": "Stephen",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Lynch, Stephen F.",
+      "lastName": "Lynch",
+      "middleName": "F.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 251,
+    "url": "https://api.congress.gov/v3/member/L000562/sponsored-legislation"
+  },
+  "state": "Massachusetts",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 9,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 9,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 9,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 9,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 9,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 9,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 8,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 8,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 8,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 8,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "L000562",
+    "thomas": "01686",
+    "govtrack": 400249,
+    "opensecrets": "N00013855",
+    "votesmart": 4844,
+    "fec": [
+      "H2MA09072",
+      "S0MA00083"
+    ],
+    "cspan": 1000222,
+    "wikipedia": "Stephen Lynch (politician)",
+    "house_history": 17301,
+    "ballotpedia": "Stephen Lynch",
+    "maplight": 348,
+    "icpsr": 20119,
+    "wikidata": "Q2344921",
+    "google_entity_id": "kg:/m/028vsz",
+    "pictorial": 13082,
+    "twitter": "RepStephenLynch",
+    "facebook": "repstephenlynch",
+    "youtube": "RepLynch",
+    "youtube_id": "UCxL4zG0YWqC5XTO4af_FOgw",
+    "twitter_id": 310310133,
+    "instagram": "repstephenlynch"
+  },
+  "name": {
+    "first": "Stephen",
+    "middle": "F.",
+    "last": "Lynch",
+    "official_full": "Stephen F. Lynch"
+  },
+  "bio": {
+    "birthday": "1955-03-31",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MA",
+    "district": 8,
+    "party": "Democrat",
+    "url": "https://lynch.house.gov",
+    "rss_url": "http://lynch.house.gov/rss.xml",
+    "address": "2109 Rayburn House Office Building Washington DC 20515-2108",
+    "office": "2109 Rayburn House Office Building",
+    "phone": "202-225-8273"
+  }
 }

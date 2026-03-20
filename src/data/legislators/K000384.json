@@ -1,13 +1,163 @@
 {
-  "id": "K000384",
-  "bioguide": "K000384",
-  "name": "Tim Kaine",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "231 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4024",
+    "zipCode": 20510
+  },
+  "bioguideId": "K000384",
+  "birthYear": "1958",
+  "cosponsoredLegislation": {
+    "count": 2816,
+    "url": "https://api.congress.gov/v3/member/K000384/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/K000384.jpg"
+  },
+  "directOrderName": "Tim Kaine",
+  "firstName": "Timothy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Kaine, Tim",
   "lastName": "Kaine",
-  "state": "VA",
-  "party": "Democrat",
-  "nameTitle": "Sen. Tim Kaine (VA)",
-  "imageUrl": "https://www.congress.gov/img/member/k000384_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "middleName": "M.",
+  "officialWebsiteUrl": "https://www.kaine.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tim Kaine",
+      "firstName": "Timothy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kaine, Tim",
+      "lastName": "Kaine",
+      "middleName": "M.",
+      "startDate": "2013-01-03T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 562,
+    "url": "https://api.congress.gov/v3/member/K000384/sponsored-legislation"
+  },
+  "state": "Virginia",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:38Z",
+  "id": {
+    "bioguide": "K000384",
+    "thomas": "02176",
+    "lis": "S362",
+    "govtrack": 412582,
+    "cspan": 49219,
+    "wikipedia": "Tim Kaine",
+    "votesmart": 50772,
+    "opensecrets": "N00033177",
+    "fec": [
+      "S2VA00142"
+    ],
+    "ballotpedia": "Tim Kaine",
+    "maplight": 1806,
+    "icpsr": 41305,
+    "wikidata": "Q359888",
+    "google_entity_id": "kg:/m/053f8h",
+    "pictorial": 13434,
+    "facebook": "SenatorKaine",
+    "youtube": "SenatorTimKaine",
+    "youtube_id": "UC27LgTZlUnBQoNEQFZdn9LA",
+    "instagram": "sentimkaine"
+  },
+  "name": {
+    "first": "Timothy",
+    "nickname": "Tim",
+    "last": "Kaine",
+    "official_full": "Tim Kaine"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1958-02-26"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "VA",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.kaine.senate.gov",
+    "rss_url": "http://www.kaine.senate.gov/rss/feeds/?type=all",
+    "contact_form": "https://www.kaine.senate.gov/contact",
+    "address": "231 Russell Senate Office Building Washington DC 20510",
+    "office": "231 Russell Senate Office Building",
+    "phone": "202-224-4024"
+  }
 }

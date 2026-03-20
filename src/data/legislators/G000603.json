@@ -1,13 +1,114 @@
 {
-  "id": "G000603",
-  "bioguide": "G000603",
-  "name": "Brandon Gill",
-  "lastName": "Gill",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1305 Longworth House Office Building",
+    "phoneNumber": "(202) 225-7772",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000603",
+  "birthYear": "1994",
+  "cosponsoredLegislation": {
+    "count": 283,
+    "url": "https://api.congress.gov/v3/member/G000603/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000603.jpg"
+  },
+  "directOrderName": "Brandon Gill",
   "district": 26,
-  "nameTitle": "Rep. Brandon Gill (TX-26)",
-  "imageUrl": "https://www.congress.gov/img/member/677428ac0b34857ecc9090b3_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Brandon",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Gill, Brandon",
+  "lastName": "Gill",
+  "officialWebsiteUrl": "https://gill.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brandon Gill",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Brandon",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gill, Brandon",
+      "lastName": "Gill",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Brandon Gill",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Brandon",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gill, Brandon",
+      "lastName": "Gill",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Brandon Gill",
+      "firstName": "Brandon",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gill, Brandon",
+      "lastName": "Gill",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 20,
+    "url": "https://api.congress.gov/v3/member/G000603/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 26,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "G000603",
+    "fec": [
+      "H4TX26149"
+    ],
+    "govtrack": 457023,
+    "opensecrets": "N00054402",
+    "wikipedia": "Brandon Gill",
+    "wikidata": "Q124753679",
+    "twitter": "repbrandongill",
+    "facebook": "RepBrandonGill",
+    "instagram": "repbrandongill"
+  },
+  "name": {
+    "first": "Brandon",
+    "middle": "Gene",
+    "last": "Gill",
+    "official_full": "Brandon Gill"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1994-02-26"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 26,
+    "party": "Republican",
+    "address": "1305 Longworth House Office Building Washington DC 20515-4326",
+    "office": "1305 Longworth House Office Building",
+    "phone": "202-225-7772",
+    "url": "https://gill.house.gov"
+  }
 }

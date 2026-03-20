@@ -1,13 +1,142 @@
 {
-  "id": "M001213",
-  "bioguide": "M001213",
-  "name": "Blake D. Moore",
-  "lastName": "Moore",
-  "state": "UT",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1131 Longworth House Office Building",
+    "phoneNumber": "(202) 225-0453",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001213",
+  "birthYear": "1980",
+  "cosponsoredLegislation": {
+    "count": 553,
+    "url": "https://api.congress.gov/v3/member/M001213/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001213.jpg"
+  },
+  "directOrderName": "Blake D. Moore",
   "district": 1,
-  "nameTitle": "Rep. Blake D. Moore (UT-1)",
-  "imageUrl": "https://www.congress.gov/img/member/m001213_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Blake",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Moore, Blake D.",
+  "lastName": "Moore",
+  "middleName": "D.",
+  "officialWebsiteUrl": "https://blakemoore.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Blake D. Moore",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Blake",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Blake D.",
+      "lastName": "Moore",
+      "middleName": "D.",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Blake D. Moore",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Blake",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Blake D.",
+      "lastName": "Moore",
+      "middleName": "D.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Blake D. Moore",
+      "firstName": "Blake",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moore, Blake D.",
+      "lastName": "Moore",
+      "middleName": "D.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 86,
+    "url": "https://api.congress.gov/v3/member/M001213/sponsored-legislation"
+  },
+  "state": "Utah",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "M001213",
+    "fec": [
+      "H0UT01205"
+    ],
+    "opensecrets": "N00046598",
+    "govtrack": 456851,
+    "wikidata": "Q101196971",
+    "wikipedia": "Blake Moore",
+    "google_entity_id": "kg:/g/11ftchfsgn",
+    "pictorial": 13296,
+    "twitter": "RepBlakeMoore",
+    "twitter_id": 1337452596093587500,
+    "facebook": "RepBlakeMoore",
+    "instagram": "repblakemoore",
+    "youtube": "@RepBlakeMoore"
+  },
+  "name": {
+    "first": "Blake",
+    "middle": "David",
+    "last": "Moore",
+    "official_full": "Blake D. Moore"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-06-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "UT",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://blakemoore.house.gov",
+    "address": "1131 Longworth House Office Building Washington DC 20515-4401",
+    "office": "1131 Longworth House Office Building",
+    "phone": "202-225-0453"
+  }
 }

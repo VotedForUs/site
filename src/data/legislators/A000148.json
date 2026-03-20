@@ -1,13 +1,128 @@
 {
-  "id": "A000148",
-  "bioguide": "A000148",
-  "name": "Jake Auchincloss",
-  "lastName": "Auchincloss",
-  "state": "MA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1524 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5931",
+    "zipCode": 20515
+  },
+  "bioguideId": "A000148",
+  "birthYear": "1988",
+  "cosponsoredLegislation": {
+    "count": 946,
+    "url": "https://api.congress.gov/v3/member/A000148/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/A000148.jpg"
+  },
+  "directOrderName": "Jake Auchincloss",
   "district": 4,
-  "nameTitle": "Rep. Jake Auchincloss (MA-4)",
-  "imageUrl": "https://www.congress.gov/img/member/67817e391f9ad6ea6fb1ebda_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jake",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Auchincloss, Jake",
+  "lastName": "Auchincloss",
+  "officialWebsiteUrl": "https://auchincloss.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jake Auchincloss",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jake",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Auchincloss, Jake",
+      "lastName": "Auchincloss",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Jake Auchincloss",
+      "firstName": "Jake",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Auchincloss, Jake",
+      "lastName": "Auchincloss",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 23,
+    "url": "https://api.congress.gov/v3/member/A000148/sponsored-legislation"
+  },
+  "state": "Massachusetts",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MA",
+      "stateName": "Massachusetts"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "A000148",
+    "fec": [
+      "H0MA04192"
+    ],
+    "opensecrets": "N00045506",
+    "govtrack": 456825,
+    "wikidata": "Q101196632",
+    "wikipedia": "Jake Auchincloss",
+    "google_entity_id": "kg:/g/11f0xw2_p4",
+    "pictorial": 13078,
+    "twitter": "RepAuchincloss",
+    "twitter_id": 1330278736554582000,
+    "facebook": "RepAuchincloss",
+    "youtube": "RepAuchincloss"
+  },
+  "name": {
+    "first": "Jake",
+    "middle": "Daniel",
+    "last": "Auchincloss",
+    "official_full": "Jake Auchincloss"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1988-01-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MA",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://auchincloss.house.gov",
+    "address": "1524 Longworth House Office Building Washington DC 20515-2104",
+    "office": "1524 Longworth House Office Building",
+    "phone": "202-225-5931"
+  }
 }

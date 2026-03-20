@@ -1,13 +1,111 @@
 {
-  "id": "T000491",
-  "bioguide": "T000491",
-  "name": "Derek Tran",
-  "lastName": "Tran",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1127 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2415",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000491",
+  "birthYear": "1982",
+  "cosponsoredLegislation": {
+    "count": 266,
+    "url": "https://api.congress.gov/v3/member/T000491/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000491.jpg"
+  },
+  "directOrderName": "Derek Tran",
   "district": 45,
-  "nameTitle": "Rep. Derek Tran (CA-45)",
-  "imageUrl": "https://www.congress.gov/img/member/6774606d0b34857ecc9091a9_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Derek",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Tran, Derek",
+  "lastName": "Tran",
+  "officialWebsiteUrl": "https://tran.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Derek Tran",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Derek",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Tran, Derek",
+      "lastName": "Tran",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Derek Tran",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Derek",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Tran, Derek",
+      "lastName": "Tran",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Derek Tran",
+      "firstName": "Derek",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Tran, Derek",
+      "lastName": "Tran",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 11,
+    "url": "https://api.congress.gov/v3/member/T000491/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 45,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "T000491",
+    "fec": [
+      "H4CA45170"
+    ],
+    "govtrack": 456980,
+    "opensecrets": "N00053582",
+    "wikipedia": "Derek Tran",
+    "wikidata": "Q131339671"
+  },
+  "name": {
+    "first": "Derek",
+    "middle": "Truyen",
+    "last": "Tran",
+    "official_full": "Derek Tran"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-12-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 45,
+    "party": "Democrat",
+    "address": "1127 Longworth House Office Building Washington DC 20515-0545",
+    "office": "1127 Longworth House Office Building",
+    "phone": "202-225-2415",
+    "url": "https://tran.house.gov"
+  }
 }
