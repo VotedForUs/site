@@ -1,3 +1,5 @@
+# [v1.1.5](https://github.com/VotedForUs/site/compare/v1.1.4...v1.1.5) (2026-03-21)
+
 # [v1.1.4](https://github.com/VotedForUs/site/compare/v1.1.3...v1.1.4) (2026-03-21)
 
 ## 🐛 Bug Fixes
