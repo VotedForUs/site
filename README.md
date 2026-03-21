@@ -58,33 +58,30 @@ This helps you see at a glance whether the bill has finished its path or is stil
 
 ## Prerequisites
 
-- Node.js 24+ (see `.nvmrc` in monorepo root)
+- Node.js 24+ (see `.nvmrc` in **this** repository)
 - npm 11+
-- Data files generated from `@votedforus/votes` package
+- GitHub Packages auth for the `@votedforus` scope (see `.npmrc`) so `@votedforus/votes` installs from the registry. That package is **maintained in a separate repository**; only the published tarball is a dependency here.
 
 ## Installation
 
 ```bash
-# From monorepo root
-npm install
-
-# Or install the site package dependencies directly
-cd packages/site
+# From the site repository root
 npm install
 ```
+
+`@votedforus/votes` must come from the registry (GitHub Packages), not a path on disk. If `package-lock.json` ever records `link: true` or a `file:`/`../` path for that package, revert that change and reinstall so the lockfile keeps a `resolved` URL under `npm.pkg.github.com`.
 
 ## Data Generation
 
-Before running the site, generate the required data files using the `@votedforus/votes` CLI:
+Before running the site, generate data under `src/data/` using the `vfu` CLI from `@votedforus/votes` (installed as a dependency). Common scripts from this repo:
 
 ```bash
-# From monorepo root - generate all data for the site
-npm run site:legislators:generate       # Generate legislators.json
-npm run site:bills:generate:all         # Generate all bill type files
-
-# Or generate a demo dataset (5 bills per type)
-npm run site:bills:generate:all:demo
+npm run legislators:generate      # Per-legislator JSON under src/data/legislators
+npm run voted-bills-sync:generate # Sync voted bills into src/data
+npm run build-from-cache          # Rebuild bill files from API cache (no live fetches)
 ```
+
+See `package.json` for the full list.
 
 ### Data Files
 
@@ -107,12 +104,6 @@ The site expects these JSON files in `src/data/`:
 ### Start Development Server
 
 ```bash
-# From monorepo root
-npm run site:dev
-# Or
-npm run dev
-
-# From packages/site
 npm run dev
 ```
 
@@ -121,22 +112,14 @@ The dev server starts at `http://localhost:4321`.
 ### Build for Production
 
 ```bash
-# From monorepo root
-npm run site:build
-
-# From packages/site
 npm run build
 ```
 
-Output is written to `../../dist/site` (relative to packages/site).
+Output is written to `dist/` at the repository root (see `astro.config.mjs`).
 
 ### Preview Production Build
 
 ```bash
-# From monorepo root
-npm run site:preview
-
-# From packages/site
 npm run preview
 ```
 
@@ -166,7 +149,7 @@ npm run preview
 ## Project Structure
 
 ```
-packages/site/
+./
 ├── astro.config.mjs         # Astro configuration
 ├── package.json
 ├── public/
@@ -251,31 +234,15 @@ const legislators = await getCollection('legislators');
 
 ```javascript
 export default defineConfig({
-  outDir: '../../dist/site',  // Output to monorepo dist
-  cacheDir: '../../.astro',   // Cache in monorepo root
-  output: 'server',           // Server-side rendering
-  adapter: node({
-    mode: 'standalone'
-  })
+  site: 'https://votedfor.us',
+  base: process.env.BASE_URL ?? '/',
+  outDir: './dist',
+  cacheDir: './.astro',
+  output: 'static',
 });
 ```
 
-### Server Adapter
-
-The site uses the `@astrojs/node` adapter for server-side rendering:
-
-```bash
-# Start the production server
-node dist/site/server/entry.mjs
-```
-
-For static output, change the config:
-```javascript
-export default defineConfig({
-  output: 'static',  // Static site generation
-  // Remove adapter
-});
-```
+The real config may include additional options; see `astro.config.mjs` in this repo. The site is built as **static** HTML; for SSR or adapters, see [Astro docs](https://docs.astro.build/).
 
 ## Utility Functions
 

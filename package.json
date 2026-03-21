@@ -28,7 +28,7 @@
     "benchmark:report": "tsx scripts/benchmark.ts --report"
   },
   "dependencies": {
-    "@votedforus/votes": "^1.1.0",
+    "@votedforus/votes": "*",
     "astro": "^6.0.6",
     "astro-seo": "^1.1.0",
     "zod": "^4.3.6"

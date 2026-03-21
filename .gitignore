@@ -37,3 +37,6 @@ dist-cache/
 .current-digests.json
 .loader-digests.json
 src/data/.build-manifest.json
+
+# PR body for create-pull-request (generated in CI, not committed)
+.github/pr-body.md

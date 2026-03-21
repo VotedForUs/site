@@ -1,11 +1,12 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import type { z } from 'astro/zod';
-import type { billChangeItemSchema, legislatorChangeItemSchema } from '../../types.zod';
-
-type BillChangeItem = z.infer<typeof billChangeItemSchema>;
-type LegislatorChangeItem = z.infer<typeof legislatorChangeItemSchema>;
+import {
+  buildLegislatorLookup,
+  buildBillLookup,
+  resolveLegislatorLine,
+  resolveBillLine,
+} from '../../utils/changelogResolve';
 
 export async function getStaticPaths() {
   const entries = await getCollection('changelog');
@@ -20,6 +21,13 @@ const { entry } = Astro.props;
 const { date, runId, legislators, bills } = entry.data;
 
 const base = import.meta.env.BASE_URL;
+
+const [legislatorEntries, billEntries] = await Promise.all([
+  getCollection('legislators'),
+  getCollection('bills'),
+]);
+const legLookup = buildLegislatorLookup(legislatorEntries);
+const billLookup = buildBillLookup(billEntries);
 
 const hasLegislatorChanges =
   legislators.added.length > 0 ||
@@ -53,12 +61,16 @@ const hasBillChanges =
       <section>
         <h3>New Legislators ({legislators.added.length})</h3>
         <ul class="change-list">
-          {legislators.added.map((leg: LegislatorChangeItem) => (
-            <li>
-              <a href={leg.url}>{leg.nameTitle}</a>
-              <span class="meta">{leg.party} · {leg.state}</span>
-            </li>
-          ))}
+          {legislators.added.map((bioguideId: string) => {
+            const row = resolveLegislatorLine(bioguideId, legLookup, base);
+            const meta = [row.party, row.state].filter(Boolean).join(' · ');
+            return (
+              <li>
+                {row.href ? <a href={row.href}>{row.label}</a> : <span>{row.label}</span>}
+                {meta && <span class="meta">{meta}</span>}
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
@@ -67,12 +79,16 @@ const hasBillChanges =
       <section>
         <h3>Updated Legislators ({legislators.updated.length})</h3>
         <ul class="change-list">
-          {legislators.updated.map((leg: LegislatorChangeItem) => (
-            <li>
-              <a href={leg.url}>{leg.nameTitle}</a>
-              <span class="meta">{leg.party} · {leg.state}</span>
-            </li>
-          ))}
+          {legislators.updated.map((bioguideId: string) => {
+            const row = resolveLegislatorLine(bioguideId, legLookup, base);
+            const meta = [row.party, row.state].filter(Boolean).join(' · ');
+            return (
+              <li>
+                {row.href ? <a href={row.href}>{row.label}</a> : <span>{row.label}</span>}
+                {meta && <span class="meta">{meta}</span>}
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
@@ -81,12 +97,16 @@ const hasBillChanges =
       <section>
         <h3>Removed Legislators ({legislators.removed.length})</h3>
         <ul class="change-list">
-          {legislators.removed.map((leg: LegislatorChangeItem) => (
-            <li>
-              <span>{leg.nameTitle}</span>
-              <span class="meta">{leg.party} · {leg.state}</span>
-            </li>
-          ))}
+          {legislators.removed.map((bioguideId: string) => {
+            const row = resolveLegislatorLine(bioguideId, legLookup, base);
+            const meta = [row.party, row.state].filter(Boolean).join(' · ');
+            return (
+              <li>
+                <span>{row.label}</span>
+                {meta && <span class="meta">{meta}</span>}
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
@@ -95,12 +115,15 @@ const hasBillChanges =
       <section>
         <h3>Bills That Became Law ({bills.newLaws.length})</h3>
         <ul class="change-list">
-          {bills.newLaws.map((bill: BillChangeItem) => (
-            <li>
-              <a href={bill.url}>{bill.title}</a>
-              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
-            </li>
-          ))}
+          {bills.newLaws.map((billId: string) => {
+            const row = resolveBillLine(billId, billLookup, base);
+            return (
+              <li>
+                <a href={row.href}>{row.label}</a>
+                <span class="meta">{row.meta}</span>
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
@@ -109,12 +132,15 @@ const hasBillChanges =
       <section>
         <h3>Bills With New Recorded Votes ({bills.withNewVotes.length})</h3>
         <ul class="change-list">
-          {bills.withNewVotes.map((bill: BillChangeItem) => (
-            <li>
-              <a href={bill.url}>{bill.title}</a>
-              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
-            </li>
-          ))}
+          {bills.withNewVotes.map((billId: string) => {
+            const row = resolveBillLine(billId, billLookup, base);
+            return (
+              <li>
+                <a href={row.href}>{row.label}</a>
+                <span class="meta">{row.meta}</span>
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
@@ -123,12 +149,15 @@ const hasBillChanges =
       <section>
         <h3>Newly Voted-on Bills ({bills.added.length})</h3>
         <ul class="change-list">
-          {bills.added.map((bill: BillChangeItem) => (
-            <li>
-              <a href={bill.url}>{bill.title}</a>
-              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
-            </li>
-          ))}
+          {bills.added.map((billId: string) => {
+            const row = resolveBillLine(billId, billLookup, base);
+            return (
+              <li>
+                <a href={row.href}>{row.label}</a>
+                <span class="meta">{row.meta}</span>
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
@@ -137,12 +166,15 @@ const hasBillChanges =
       <section>
         <h3>Updated Bills ({bills.updated.length})</h3>
         <ul class="change-list">
-          {bills.updated.map((bill: BillChangeItem) => (
-            <li>
-              <a href={bill.url}>{bill.title}</a>
-              <span class="meta">{bill.billType.toUpperCase()} {bill.number} · {bill.congress}th Congress</span>
-            </li>
-          ))}
+          {bills.updated.map((billId: string) => {
+            const row = resolveBillLine(billId, billLookup, base);
+            return (
+              <li>
+                <a href={row.href}>{row.label}</a>
+                <span class="meta">{row.meta}</span>
+              </li>
+            );
+          })}
         </ul>
       </section>
     )}
