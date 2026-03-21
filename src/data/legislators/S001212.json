@@ -1,13 +1,148 @@
 {
-  "id": "S001212",
-  "bioguide": "S001212",
-  "name": "Pete Stauber",
-  "lastName": "Stauber",
-  "state": "MN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "145 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6211",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001212",
+  "birthYear": "1966",
+  "cosponsoredLegislation": {
+    "count": 1236,
+    "url": "https://api.congress.gov/v3/member/S001212/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001212.jpg"
+  },
+  "directOrderName": "Pete Stauber",
   "district": 8,
-  "nameTitle": "Rep. Pete Stauber (MN-8)",
-  "imageUrl": "https://www.congress.gov/img/member/s001212_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Pete",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Stauber, Pete",
+  "lastName": "Stauber",
+  "officialWebsiteUrl": "https://stauber.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Pete Stauber",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Pete",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stauber, Pete",
+      "lastName": "Stauber",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Pete Stauber",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Pete",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stauber, Pete",
+      "lastName": "Stauber",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Pete Stauber",
+      "firstName": "Pete",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stauber, Pete",
+      "lastName": "Stauber",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 97,
+    "url": "https://api.congress.gov/v3/member/S001212/sponsored-legislation"
+  },
+  "state": "Minnesota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 8,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "S001212",
+    "fec": [
+      "H8MN08043"
+    ],
+    "govtrack": 412792,
+    "wikipedia": "Pete Stauber",
+    "wikidata": "Q55955746",
+    "opensecrets": "N00041511",
+    "votesmart": 159954,
+    "icpsr": 21969,
+    "ballotpedia": "Pete Stauber",
+    "google_entity_id": "kg:/g/11gjy6v3nv",
+    "pictorial": 13114,
+    "twitter": "RepPeteStauber",
+    "twitter_id": 1075830599007510500,
+    "facebook": "RepPeteStauber"
+  },
+  "name": {
+    "first": "Pete",
+    "last": "Stauber",
+    "official_full": "Pete Stauber"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1966-05-10"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MN",
+    "district": 8,
+    "party": "Republican",
+    "url": "https://stauber.house.gov",
+    "address": "145 Cannon House Office Building Washington DC 20515-2308",
+    "office": "145 Cannon House Office Building",
+    "phone": "202-225-6211"
+  }
 }

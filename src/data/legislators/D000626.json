@@ -1,13 +1,164 @@
 {
-  "id": "D000626",
-  "bioguide": "D000626",
-  "name": "Warren Davidson",
-  "lastName": "Davidson",
-  "state": "OH",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2113 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6205",
+    "zipCode": 20515
+  },
+  "bioguideId": "D000626",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 833,
+    "url": "https://api.congress.gov/v3/member/D000626/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/D000626.jpg"
+  },
+  "directOrderName": "Warren Davidson",
   "district": 8,
-  "nameTitle": "Rep. Warren Davidson (OH-8)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_oh_8_davidson_warren_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Warren",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Davidson, Warren",
+  "lastName": "Davidson",
+  "officialWebsiteUrl": "https://davidson.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2016
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Warren Davidson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Warren",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Davidson, Warren",
+      "lastName": "Davidson",
+      "startDate": "2016-06-07T00:00:00Z"
+    },
+    {
+      "directOrderName": "Warren Davidson",
+      "firstName": "Warren",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Davidson, Warren",
+      "lastName": "Davidson",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 153,
+    "url": "https://api.congress.gov/v3/member/D000626/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 8,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2016,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 8,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 8,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "D000626",
+    "thomas": "02296",
+    "fec": [
+      "H6OH08315"
+    ],
+    "govtrack": 412675,
+    "votesmart": 166760,
+    "wikipedia": "Warren Davidson",
+    "ballotpedia": "Warren Davidson",
+    "wikidata": "Q24458117",
+    "maplight": 2165,
+    "opensecrets": "N00038767",
+    "google_entity_id": "kg:/g/11cmmch3q8",
+    "cspan": 102555,
+    "icpsr": 21564,
+    "pictorial": 13202,
+    "facebook": "CongressmanWarrenDavidson",
+    "twitter": "WarrenDavidson",
+    "twitter_id": 742735530287304700,
+    "youtube_id": "UCMzuyZWzk44YRNesFzPTeUw",
+    "instagram": "instawarrendavidson"
+  },
+  "name": {
+    "first": "Warren",
+    "last": "Davidson",
+    "official_full": "Warren Davidson"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-03-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 8,
+    "party": "Republican",
+    "url": "https://davidson.house.gov",
+    "address": "2113 Rayburn House Office Building Washington DC 20515-3508",
+    "office": "2113 Rayburn House Office Building",
+    "phone": "202-225-6205"
+  }
 }

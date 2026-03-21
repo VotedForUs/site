@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/503/actions?format=json",
     "actions": [
       {
@@ -246,8 +246,7 @@
   "latestAction": {
     "actionDate": "2025-11-10",
     "actionTime": "12:03:00",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/503",
   "number": "503",
@@ -258,9 +257,83 @@
     "url": "https://api.congress.gov/v3/bill/119/s/503/summaries?format=json"
   },
   "title": "NET Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "NET Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-11-08T12:03:14Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "NET Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-11-05T10:53:13Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Network Equipment Transparency Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-11-05T10:53:13Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Network Equipment Transparency Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-01T04:53:14Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "NET Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-01T04:53:14Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "NET Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-12T02:23:27Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Network Equipment Transparency Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-12T02:23:27Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to direct the Federal Communications Commission to evaluate and consider the impact of the telecommunications network equipment supply chain on the deployment of universal service, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-12T02:18:30Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-07T17:26:12Z",
-  "updateDateIncludingText": "2025-10-07T17:26:12Z",
+  "updateDate": "2026-02-04T05:06:13Z",
+  "updateDateIncludingText": "2026-02-04T05:06:13Z",
   "id": "119-S-503",
   "lastActionDate": "2025-11-10",
   "lastRecordedVoteDate": "2025-11-04"

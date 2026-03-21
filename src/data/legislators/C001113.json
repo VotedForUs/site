@@ -1,13 +1,159 @@
 {
-  "id": "C001113",
-  "bioguide": "C001113",
-  "name": "Catherine Cortez Masto",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "309 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-3542",
+    "zipCode": 20510
+  },
+  "bioguideId": "C001113",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 2210,
+    "url": "https://api.congress.gov/v3/member/C001113/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/C001113.jpg"
+  },
+  "directOrderName": "Catherine Cortez Masto",
+  "firstName": "Catherine",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Cortez Masto, Catherine",
   "lastName": "Cortez Masto",
-  "state": "NV",
-  "party": "Democrat",
-  "nameTitle": "Sen. Catherine Cortez Masto (NV)",
-  "imageUrl": "https://www.congress.gov/img/member/c001113_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.cortezmasto.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Catherine Cortez Masto",
+      "endDate": "2025-02-15T09:44:59Z",
+      "firstName": "Catherine",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Cortez Masto, Catherine",
+      "lastName": "Cortez Masto",
+      "startDate": "2023-04-01T06:35:00Z"
+    },
+    {
+      "directOrderName": "Catherine Cortez Masto",
+      "endDate": "2023-04-01T06:34:59Z",
+      "firstName": "Catherine",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Cortez Masto, Catherine",
+      "lastName": "Cortez Masto",
+      "startDate": "2017-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Catherine Cortez Masto",
+      "firstName": "Catherine",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Cortez Masto, Catherine",
+      "lastName": "Cortez Masto",
+      "startDate": "2025-02-15T09:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 640,
+    "url": "https://api.congress.gov/v3/member/C001113/sponsored-legislation"
+  },
+  "state": "Nevada",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "NV",
+      "stateName": "Nevada"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:55Z",
+  "id": {
+    "bioguide": "C001113",
+    "fec": [
+      "S6NV00200"
+    ],
+    "govtrack": 412681,
+    "votesmart": 69579,
+    "wikipedia": "Catherine Cortez Masto",
+    "ballotpedia": "Catherine Cortez Masto",
+    "lis": "S385",
+    "wikidata": "Q5052604",
+    "google_entity_id": "kg:/m/02rtp9t",
+    "opensecrets": "N00037161",
+    "maplight": 2193,
+    "cspan": 105698,
+    "icpsr": 41700,
+    "pictorial": 13404,
+    "facebook": "SenatorCortezMasto",
+    "twitter": "SenCortezMasto",
+    "twitter_id": 811313565760163800,
+    "youtube_id": "UCip_83SiKUqwnUT57VOXrCg",
+    "instagram": "sencortezmasto"
+  },
+  "name": {
+    "first": "Catherine",
+    "last": "Cortez Masto",
+    "official_full": "Catherine Cortez Masto"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1964-03-29"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "NV",
+    "class": 3,
+    "state_rank": "senior",
+    "party": "Democrat",
+    "url": "https://www.cortezmasto.senate.gov",
+    "contact_form": "https://www.cortezmasto.senate.gov/contact",
+    "address": "309 Hart Senate Office Building Washington DC 20510",
+    "office": "309 Hart Senate Office Building",
+    "phone": "202-224-3542"
+  }
 }

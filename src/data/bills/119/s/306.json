@@ -265,9 +265,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/306/summaries?format=json"
   },
   "title": "Fire Ready Nation Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Fire Ready Nation Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-09-12T11:03:19Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Fire Ready Nation Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-09-11T04:53:21Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Fire Ready Nation Act of 2025",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-07-18T03:23:19Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Fire Ready Nation Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-02-04T15:23:19Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to establish and maintain a coordinated program within the National Oceanic and Atmospheric Administration that improves wildfire, fire weather, fire risk, and wildfire smoke related forecasting, detection, modeling, observations, and service delivery, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-02-04T15:18:21Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-09T03:26:15Z",
-  "updateDateIncludingText": "2025-10-09T03:26:15Z",
+  "updateDate": "2026-02-04T04:11:34Z",
+  "updateDateIncludingText": "2026-02-04T04:11:34Z",
   "id": "119-S-306",
   "lastActionDate": "2025-09-11",
   "lastRecordedVoteDate": "2025-09-10"

@@ -1,13 +1,179 @@
 {
-  "id": "S001196",
-  "bioguide": "S001196",
-  "name": "Elise M. Stefanik",
-  "lastName": "Stefanik",
-  "state": "NY",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2211 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4611",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001196",
+  "birthYear": "1984",
+  "cosponsoredLegislation": {
+    "count": 2292,
+    "url": "https://api.congress.gov/v3/member/S001196/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001196.jpg"
+  },
+  "directOrderName": "Elise M. Stefanik",
   "district": 21,
-  "nameTitle": "Rep. Elise M. Stefanik (NY-21)",
-  "imageUrl": "https://www.congress.gov/img/member/s001196_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Elise",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Stefanik, Elise M.",
+  "lastName": "Stefanik",
+  "leadership": [
+    {
+      "congress": 117,
+      "type": "Republican Conference Chair"
+    },
+    {
+      "congress": 118,
+      "type": "Republican Conference Chair"
+    }
+  ],
+  "middleName": "M.",
+  "officialWebsiteUrl": "https://stefanik.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Elise M. Stefanik",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Elise",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Stefanik, Elise M.",
+      "lastName": "Stefanik",
+      "middleName": "M.",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Elise M. Stefanik",
+      "firstName": "Elise",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Stefanik, Elise M.",
+      "lastName": "Stefanik",
+      "middleName": "M.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 193,
+    "url": "https://api.congress.gov/v3/member/S001196/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 21,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 21,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 21,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 21,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 21,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 21,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "S001196",
+    "fec": [
+      "H4NY21079"
+    ],
+    "govtrack": 412648,
+    "opensecrets": "N00035523",
+    "thomas": "02263",
+    "house_history": 15032411587,
+    "maplight": 2104,
+    "wikidata": "Q18211057",
+    "wikipedia": "Elise Stefanik",
+    "google_entity_id": "kg:/m/0110fjsf",
+    "votesmart": 152539,
+    "cspan": 76364,
+    "icpsr": 21541,
+    "ballotpedia": "Elise Stefanik",
+    "pictorial": 13189,
+    "twitter": "RepStefanik",
+    "facebook": "RepEliseStefanik",
+    "twitter_id": 2962813893,
+    "youtube_id": "UCHvf42C8Vw6QnjwO2L2ukKA",
+    "instagram": "repstefanik"
+  },
+  "name": {
+    "first": "Elise",
+    "middle": "M.",
+    "last": "Stefanik",
+    "official_full": "Elise M. Stefanik"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1984-07-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 21,
+    "party": "Republican",
+    "url": "https://stefanik.house.gov",
+    "address": "2211 Rayburn House Office Building Washington DC 20515-3221",
+    "office": "2211 Rayburn House Office Building",
+    "phone": "202-225-4611"
+  }
 }

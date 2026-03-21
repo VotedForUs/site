@@ -1,13 +1,113 @@
 {
-  "id": "K000405",
-  "bioguide": "K000405",
-  "name": "Brad Knott",
-  "lastName": "Knott",
-  "state": "NC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1239 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4531",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000405",
+  "birthYear": "1986",
+  "cosponsoredLegislation": {
+    "count": 65,
+    "url": "https://api.congress.gov/v3/member/K000405/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000405.jpg"
+  },
+  "directOrderName": "Brad Knott",
   "district": 13,
-  "nameTitle": "Rep. Brad Knott (NC-13)",
-  "imageUrl": "https://www.congress.gov/img/member/67742fc60b34857ecc909101_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Brad",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Knott, Brad",
+  "lastName": "Knott",
+  "officialWebsiteUrl": "https://knott.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brad Knott",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Brad",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Knott, Brad",
+      "lastName": "Knott",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Brad Knott",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Brad",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Knott, Brad",
+      "lastName": "Knott",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Brad Knott",
+      "firstName": "Brad",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Knott, Brad",
+      "lastName": "Knott",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 3,
+    "url": "https://api.congress.gov/v3/member/K000405/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 13,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "K000405",
+    "fec": [
+      "H4NC13116"
+    ],
+    "govtrack": 457004,
+    "opensecrets": "N00053743",
+    "wikipedia": "Brad Knott",
+    "wikidata": "Q130979816",
+    "twitter": "RepKnott",
+    "facebook": "61571474013264",
+    "instagram": "repknott"
+  },
+  "name": {
+    "first": "Brad",
+    "last": "Knott",
+    "official_full": "Brad Knott"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1986-04-17"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 13,
+    "party": "Republican",
+    "address": "1239 Longworth House Office Building Washington DC 20515-3313",
+    "office": "1239 Longworth House Office Building",
+    "phone": "202-225-4531",
+    "url": "https://knott.house.gov"
+  }
 }

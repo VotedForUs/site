@@ -1,13 +1,198 @@
 {
-  "id": "M001177",
-  "bioguide": "M001177",
-  "name": "Tom McClintock",
-  "lastName": "McClintock",
-  "state": "CA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2256 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2511",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001177",
+  "birthYear": "1956",
+  "cosponsoredLegislation": {
+    "count": 1886,
+    "url": "https://api.congress.gov/v3/member/M001177/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001177.jpg"
+  },
+  "directOrderName": "Tom McClintock",
   "district": 5,
-  "nameTitle": "Rep. Tom McClintock (CA-5)",
-  "imageUrl": "https://www.congress.gov/img/member/m001177_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Tom",
+  "honorificName": "Mr.",
+  "invertedOrderName": "McClintock, Tom",
+  "lastName": "McClintock",
+  "officialWebsiteUrl": "https://mcclintock.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tom McClintock",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McClintock, Tom",
+      "lastName": "McClintock",
+      "startDate": "2009-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Tom McClintock",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McClintock, Tom",
+      "lastName": "McClintock",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 152,
+    "url": "https://api.congress.gov/v3/member/M001177/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 4,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 4,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "M001177",
+    "thomas": "01908",
+    "govtrack": 412295,
+    "opensecrets": "N00006863",
+    "votesmart": 9715,
+    "fec": [
+      "H8CA04152",
+      "H6CA21135"
+    ],
+    "cspan": 30359,
+    "house_history": 18824,
+    "wikipedia": "Tom McClintock",
+    "maplight": 777,
+    "icpsr": 20903,
+    "wikidata": "Q535887",
+    "google_entity_id": "kg:/m/01r6jp",
+    "ballotpedia": "Tom McClintock",
+    "pictorial": 12919,
+    "twitter": "RepMcClintock",
+    "facebook": "81125319109",
+    "youtube": "McClintockCA04",
+    "youtube_id": "UCMh04KC4LfIzKoXh2Xws_pw",
+    "twitter_id": 50152441,
+    "instagram": "repmcclintock"
+  },
+  "name": {
+    "first": "Tom",
+    "last": "McClintock",
+    "official_full": "Tom McClintock"
+  },
+  "bio": {
+    "birthday": "1956-07-10",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://mcclintock.house.gov",
+    "rss_url": "http://mcclintock.house.gov/atom.xml",
+    "address": "2256 Rayburn House Office Building Washington DC 20515-0505",
+    "office": "2256 Rayburn House Office Building",
+    "phone": "202-225-2511"
+  }
 }

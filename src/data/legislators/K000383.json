@@ -1,13 +1,167 @@
 {
-  "id": "K000383",
-  "bioguide": "K000383",
-  "name": "Angus S. King, Jr.",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "133 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5344",
+    "zipCode": 20510
+  },
+  "bioguideId": "K000383",
+  "birthYear": "1944",
+  "cosponsoredLegislation": {
+    "count": 3104,
+    "url": "https://api.congress.gov/v3/member/K000383/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/K000383.jpg"
+  },
+  "directOrderName": "Angus S. King Jr.",
+  "firstName": "Angus",
+  "honorificName": "Mr.",
+  "invertedOrderName": "King, Angus S., Jr.",
   "lastName": "King",
-  "state": "ME",
-  "party": "Independent",
-  "nameTitle": "Sen. Angus S. King, Jr. (ME)",
-  "imageUrl": "https://www.congress.gov/img/member/k000383_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "middleName": "S.",
+  "officialWebsiteUrl": "https://www.king.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "I",
+      "partyName": "Independent",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Angus S. King Jr.",
+      "firstName": "Angus",
+      "honorificName": "Mr.",
+      "invertedOrderName": "King, Angus S., Jr.",
+      "lastName": "King",
+      "middleName": "S.",
+      "startDate": "2013-01-03T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 457,
+    "url": "https://api.congress.gov/v3/member/K000383/sponsored-legislation"
+  },
+  "state": "Maine",
+  "suffixName": "Jr.",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:44Z",
+  "id": {
+    "bioguide": "K000383",
+    "thomas": "02185",
+    "lis": "S363",
+    "govtrack": 412545,
+    "cspan": 37413,
+    "wikipedia": "Angus King",
+    "opensecrets": "N00034580",
+    "votesmart": 22381,
+    "fec": [
+      "S2ME00109"
+    ],
+    "ballotpedia": "Angus King",
+    "maplight": 1769,
+    "icpsr": 41300,
+    "wikidata": "Q544464",
+    "google_entity_id": "kg:/m/02hfx0",
+    "pictorial": 13432,
+    "twitter": "SenAngusKing",
+    "facebook": "SenatorAngusSKingJr",
+    "youtube": "SenatorAngusKing",
+    "youtube_id": "UCpp6lGvrmt0XU_lnD4Ak0gA",
+    "twitter_id": 1068481578
+  },
+  "name": {
+    "first": "Angus",
+    "middle": "S.",
+    "last": "King",
+    "suffix": "Jr.",
+    "official_full": "Angus S. King, Jr."
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1944-03-31"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "ME",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Independent",
+    "caucus": "Democrat",
+    "url": "https://www.king.senate.gov",
+    "rss_url": "http://www.king.senate.gov/rss/feeds/?type=all",
+    "contact_form": "https://www.king.senate.gov/contact",
+    "address": "133 Hart Senate Office Building Washington DC 20510",
+    "office": "133 Hart Senate Office Building",
+    "phone": "202-224-5344"
+  }
 }

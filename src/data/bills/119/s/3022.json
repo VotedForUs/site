@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/3022/actions?format=json",
     "actions": [
       {
@@ -246,17 +246,62 @@
   "latestAction": {
     "actionDate": "2025-11-20",
     "actionTime": "13:12:48",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3022",
   "number": "3022",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Save Our Seas 2.0 Marine Debris Infrastructure Programs Reauthorization Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Save Our Seas 2.0 Marine Debris Infrastructure Programs Reauthorization Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-11-21T12:03:19Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Save Our Seas 2.0 Marine Debris Infrastructure Programs Reauthorization Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-11-20T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Save Our Seas 2.0 Marine Debris Infrastructure Programs Reauthorization Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-31T04:23:13Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Save Our Seas 2.0 Marine Debris Infrastructure Programs Reauthorization Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-10-24T14:08:15Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend the Save Our Seas 2.0 Act to reauthorize certain Environmental Protection Agency programs, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-10-24T14:03:16Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-30T11:03:14Z",
-  "updateDateIncludingText": "2025-10-30T11:03:14Z",
+  "updateDate": "2025-12-12T15:31:09Z",
+  "updateDateIncludingText": "2025-12-12T15:31:09Z",
   "id": "119-S-3022",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-19"

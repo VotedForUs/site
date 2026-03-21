@@ -1,13 +1,170 @@
 {
-  "id": "C001115",
-  "bioguide": "C001115",
-  "name": "Michael Cloud",
-  "lastName": "Cloud",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "304 Cannon House Office Building",
+    "phoneNumber": "(202) 225-7742",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001115",
+  "birthYear": "1975",
+  "cosponsoredLegislation": {
+    "count": 760,
+    "url": "https://api.congress.gov/v3/member/C001115/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/C001115.jpg"
+  },
+  "directOrderName": "Michael Cloud",
   "district": 27,
-  "nameTitle": "Rep. Michael Cloud (TX-27)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_tx_27_cloud_michael_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Michael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cloud, Michael",
+  "lastName": "Cloud",
+  "officialWebsiteUrl": "https://cloud.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2018
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Michael Cloud",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cloud, Michael",
+      "lastName": "Cloud",
+      "startDate": "2018-07-10T00:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Cloud",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cloud, Michael",
+      "lastName": "Cloud",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Cloud",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cloud, Michael",
+      "lastName": "Cloud",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Cloud",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cloud, Michael",
+      "lastName": "Cloud",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 69,
+    "url": "https://api.congress.gov/v3/member/C001115/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 27,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2018,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 27,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 27,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 27,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 27,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "C001115",
+    "fec": [
+      "H8TX27049"
+    ],
+    "govtrack": 412746,
+    "cspan": 10322,
+    "wikipedia": "Michael Cloud",
+    "wikidata": "Q55313952",
+    "ballotpedia": "Michael Cloud (Texas)",
+    "opensecrets": "N00041882",
+    "votesmart": 177350,
+    "icpsr": 21758,
+    "google_entity_id": "kg:/g/11f6y3n6vk",
+    "pictorial": 13284,
+    "twitter": "RepCloudTX",
+    "twitter_id": 1039879658400112600,
+    "facebook": "RepCloudTX",
+    "instagram": "repcloudtx",
+    "youtube": "RepCloudTX"
+  },
+  "name": {
+    "first": "Michael",
+    "last": "Cloud",
+    "official_full": "Michael Cloud"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1975-05-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 27,
+    "party": "Republican",
+    "url": "https://cloud.house.gov",
+    "address": "304 Cannon House Office Building Washington DC 20515-4327",
+    "office": "304 Cannon House Office Building",
+    "phone": "202-225-7742"
+  }
 }

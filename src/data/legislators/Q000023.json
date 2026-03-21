@@ -1,13 +1,207 @@
 {
-  "id": "Q000023",
-  "bioguide": "Q000023",
-  "name": "Mike Quigley",
-  "lastName": "Quigley",
-  "state": "IL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2083 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4061",
+    "zipCode": 20515
+  },
+  "bioguideId": "Q000023",
+  "birthYear": "1958",
+  "cosponsoredLegislation": {
+    "count": 3683,
+    "url": "https://api.congress.gov/v3/member/Q000023/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/Q000023.jpg"
+  },
+  "directOrderName": "Mike Quigley",
   "district": 5,
-  "nameTitle": "Rep. Mike Quigley (IL-5)",
-  "imageUrl": "https://www.congress.gov/img/member/q000023_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Quigley, Mike",
+  "lastName": "Quigley",
+  "officialWebsiteUrl": "https://quigley.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Quigley",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Quigley, Mike",
+      "lastName": "Quigley",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Quigley",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Quigley, Mike",
+      "lastName": "Quigley",
+      "startDate": "2009-04-21T00:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Quigley",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Quigley, Mike",
+      "lastName": "Quigley",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 192,
+    "url": "https://api.congress.gov/v3/member/Q000023/sponsored-legislation"
+  },
+  "state": "Illinois",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 5,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 5,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 5,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 5,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 5,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 5,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "Q000023",
+    "thomas": "01967",
+    "govtrack": 412331,
+    "opensecrets": "N00030581",
+    "votesmart": 83310,
+    "fec": [
+      "H0IL05096"
+    ],
+    "cspan": 9263344,
+    "wikipedia": "Mike Quigley",
+    "house_history": 20072,
+    "ballotpedia": "Michael Quigley",
+    "maplight": 1186,
+    "icpsr": 20954,
+    "wikidata": "Q465767",
+    "google_entity_id": "kg:/m/0fccwh",
+    "pictorial": 13037,
+    "twitter": "RepMikeQuigley",
+    "facebook": "repmikequigley",
+    "youtube": "RepMikeQuigley",
+    "youtube_id": "UCDP13XegdoZ4bxYHxM34yAA",
+    "instagram": "repmikequigley",
+    "instagram_id": 1403659583,
+    "twitter_id": 56864092
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Quigley",
+    "official_full": "Mike Quigley"
+  },
+  "bio": {
+    "birthday": "1958-10-17",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IL",
+    "district": 5,
+    "party": "Democrat",
+    "url": "https://quigley.house.gov",
+    "rss_url": "http://quigley.house.gov/index.php?format=feed&amp;type=rss",
+    "address": "2083 Rayburn House Office Building Washington DC 20515-1305",
+    "office": "2083 Rayburn House Office Building",
+    "phone": "202-225-4061"
+  }
 }

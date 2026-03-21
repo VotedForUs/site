@@ -1,13 +1,131 @@
 {
-  "id": "O000177",
-  "bioguide": "O000177",
-  "name": "Robert F. Onder, Jr.",
-  "lastName": "Onder",
-  "state": "MO",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1113 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2956",
+    "zipCode": 20515
+  },
+  "bioguideId": "O000177",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 131,
+    "url": "https://api.congress.gov/v3/member/O000177/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/O000177.jpg"
+  },
+  "directOrderName": "Robert F. Onder, Jr.",
   "district": 3,
-  "nameTitle": "Rep. Robert F. Onder, Jr. (MO-3)",
-  "imageUrl": "https://www.congress.gov/img/member/67744f970b34857ecc909161_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Robert",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Onder, Robert F.",
+  "lastName": "Onder",
+  "middleName": "F.",
+  "officialWebsiteUrl": "https://onder.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Robert Onder",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Onder, Robert",
+      "lastName": "Onder",
+      "middleName": "F.",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Robert Onder",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Onder, Robert",
+      "lastName": "Onder",
+      "middleName": "F.",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Robert Onder",
+      "endDate": "2025-04-28T13:04:20Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Onder, Robert",
+      "lastName": "Onder",
+      "middleName": "F.",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Robert F. Onder, Jr.",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Onder, Robert F.",
+      "lastName": "Onder",
+      "middleName": "F.",
+      "startDate": "2025-04-28T13:04:21Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 16,
+    "url": "https://api.congress.gov/v3/member/O000177/sponsored-legislation"
+  },
+  "state": "Missouri",
+  "suffixName": "Jr.",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "O000177",
+    "fec": [
+      "H8MO09146",
+      "H4MO03221"
+    ],
+    "govtrack": 456998,
+    "opensecrets": "N00030025",
+    "wikipedia": "Bob Onder",
+    "wikidata": "Q27064117",
+    "twitter": "RepBobOnder",
+    "facebook": "RepBobOnder",
+    "instagram": "repbobonder"
+  },
+  "name": {
+    "first": "Robert",
+    "middle": "F.",
+    "last": "Onder",
+    "suffix": "Jr.",
+    "official_full": "Robert F. Onder, Jr."
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1962-01-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MO",
+    "district": 3,
+    "party": "Republican",
+    "address": "1113 Longworth House Office Building Washington DC 20515-2503",
+    "office": "1113 Longworth House Office Building",
+    "phone": "202-225-2956",
+    "url": "https://onder.house.gov"
+  }
 }

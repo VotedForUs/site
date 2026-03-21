@@ -1,13 +1,198 @@
 {
-  "id": "S001183",
-  "bioguide": "S001183",
-  "name": "David Schweikert",
-  "lastName": "Schweikert",
-  "state": "AZ",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "166 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2190",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001183",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 1497,
+    "url": "https://api.congress.gov/v3/member/S001183/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001183.jpg"
+  },
+  "directOrderName": "David Schweikert",
   "district": 1,
-  "nameTitle": "Rep. David Schweikert (AZ-1)",
-  "imageUrl": "https://www.congress.gov/img/member/s001183_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "David",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Schweikert, David",
+  "lastName": "Schweikert",
+  "officialWebsiteUrl": "https://schweikert.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "David Schweikert",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schweikert, David",
+      "lastName": "Schweikert",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "David Schweikert",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schweikert, David",
+      "lastName": "Schweikert",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "David Schweikert",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schweikert, David",
+      "lastName": "Schweikert",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 181,
+    "url": "https://api.congress.gov/v3/member/S001183/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 5,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 6,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 6,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 6,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "S001183",
+    "thomas": "01994",
+    "govtrack": 412399,
+    "opensecrets": "N00006460",
+    "votesmart": 106387,
+    "fec": [
+      "H4AZ06045",
+      "H8AZ05097"
+    ],
+    "cspan": 5205,
+    "wikipedia": "David Schweikert",
+    "ballotpedia": "David Schweikert",
+    "maplight": 1413,
+    "icpsr": 21105,
+    "house_history": 22621,
+    "wikidata": "Q1176561",
+    "google_entity_id": "kg:/m/03wbpxj",
+    "pictorial": 12906,
+    "twitter": "RepDavid",
+    "facebook": "repdavidschweikert",
+    "youtube": "RepDavidSchweikert",
+    "youtube_id": "UCVvuNVzkOUp7p_Pzkc6Zuvw",
+    "instagram": "repdavid",
+    "instagram_id": 181147397,
+    "twitter_id": 229197216
+  },
+  "name": {
+    "first": "David",
+    "last": "Schweikert",
+    "official_full": "David Schweikert"
+  },
+  "bio": {
+    "birthday": "1962-03-03",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AZ",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://schweikert.house.gov",
+    "rss_url": "http://schweikert.house.gov/rss/press-releases.xml",
+    "address": "166 Cannon House Office Building Washington DC 20515-0301",
+    "office": "166 Cannon House Office Building",
+    "phone": "202-225-2190"
+  }
 }

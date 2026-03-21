@@ -1,13 +1,187 @@
 {
-  "id": "H001058",
-  "bioguide": "H001058",
-  "name": "Bill Huizenga",
-  "lastName": "Huizenga",
-  "state": "MI",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2232 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4401",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001058",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 1675,
+    "url": "https://api.congress.gov/v3/member/H001058/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001058.jpg"
+  },
+  "directOrderName": "Bill Huizenga",
   "district": 4,
-  "nameTitle": "Rep. Bill Huizenga (MI-4)",
-  "imageUrl": "https://www.congress.gov/img/member/h001058_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Bill",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Huizenga, Bill",
+  "lastName": "Huizenga",
+  "officialWebsiteUrl": "https://huizenga.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Bill Huizenga",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Bill",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Huizenga, Bill",
+      "lastName": "Huizenga",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Bill Huizenga",
+      "firstName": "Bill",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Huizenga, Bill",
+      "lastName": "Huizenga",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 168,
+    "url": "https://api.congress.gov/v3/member/H001058/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 2,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "H001058",
+    "thomas": "02028",
+    "govtrack": 412437,
+    "opensecrets": "N00030673",
+    "votesmart": 38351,
+    "fec": [
+      "H0MI02094"
+    ],
+    "cspan": 1033765,
+    "wikipedia": "Bill Huizenga",
+    "house_history": 15610,
+    "ballotpedia": "Bill Huizenga",
+    "maplight": 1448,
+    "icpsr": 21142,
+    "wikidata": "Q862199",
+    "google_entity_id": "kg:/m/05b0j1w",
+    "pictorial": 13097,
+    "twitter": "RepHuizenga",
+    "facebook": "RepHuizenga",
+    "youtube": "RepHuizenga",
+    "youtube_id": "UCQPlLLiMnysMmeJ5qUSSjQg",
+    "twitter_id": 233949261,
+    "instagram": "RepHuizenga"
+  },
+  "name": {
+    "first": "Bill",
+    "last": "Huizenga",
+    "official_full": "Bill Huizenga"
+  },
+  "bio": {
+    "birthday": "1969-01-31",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://huizenga.house.gov",
+    "rss_url": "http://huizenga.house.gov/news/rss.aspx",
+    "address": "2232 Rayburn House Office Building Washington DC 20515-2204",
+    "office": "2232 Rayburn House Office Building",
+    "phone": "202-225-4401"
+  }
 }

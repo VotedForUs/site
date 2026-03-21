@@ -1,13 +1,148 @@
 {
-  "id": "M001204",
-  "bioguide": "M001204",
-  "name": "Daniel Meuser",
-  "lastName": "Meuser",
-  "state": "PA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "350 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6511",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001204",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 1207,
+    "url": "https://api.congress.gov/v3/member/M001204/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001204.jpg"
+  },
+  "directOrderName": "Daniel Meuser",
   "district": 9,
-  "nameTitle": "Rep. Daniel Meuser (PA-9)",
-  "imageUrl": "https://www.congress.gov/img/member/6776ebbf4f8a93753830ca7d_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Daniel",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Meuser, Daniel",
+  "lastName": "Meuser",
+  "officialWebsiteUrl": "https://meuser.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Daniel Meuser",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Daniel",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Meuser, Daniel",
+      "lastName": "Meuser",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Daniel Meuser",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Daniel",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Meuser, Daniel",
+      "lastName": "Meuser",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Daniel Meuser",
+      "firstName": "Daniel",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Meuser, Daniel",
+      "lastName": "Meuser",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 64,
+    "url": "https://api.congress.gov/v3/member/M001204/sponsored-legislation"
+  },
+  "state": "Pennsylvania",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 9,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 9,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 9,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 9,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "M001204",
+    "fec": [
+      "H8PA10147"
+    ],
+    "govtrack": 412811,
+    "wikipedia": "Dan Meuser",
+    "wikidata": "Q5214012",
+    "opensecrets": "N00029416",
+    "google_entity_id": "kg:/m/03wf1q3",
+    "votesmart": 102438,
+    "icpsr": 21945,
+    "ballotpedia": "Dan Meuser",
+    "pictorial": 13229,
+    "twitter": "RepMeuser",
+    "twitter_id": 1080574793630527500,
+    "facebook": "RepMeuser"
+  },
+  "name": {
+    "first": "Daniel",
+    "last": "Meuser",
+    "official_full": "Daniel Meuser"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1964-02-10"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PA",
+    "district": 9,
+    "party": "Republican",
+    "url": "https://meuser.house.gov",
+    "address": "350 Cannon House Office Building Washington DC 20515-3809",
+    "office": "350 Cannon House Office Building",
+    "phone": "202-225-6511"
+  }
 }

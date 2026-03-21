@@ -1,13 +1,138 @@
 {
-  "id": "B000668",
-  "bioguide": "B000668",
-  "name": "Cliff Bentz",
-  "lastName": "Bentz",
-  "state": "OR",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "409 Cannon House Office Building",
+    "phoneNumber": "(202) 225-6730",
+    "zipCode": 20515
+  },
+  "bioguideId": "B000668",
+  "birthYear": "1952",
+  "cosponsoredLegislation": {
+    "count": 339,
+    "url": "https://api.congress.gov/v3/member/B000668/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B000668.jpg"
+  },
+  "directOrderName": "Cliff Bentz",
   "district": 2,
-  "nameTitle": "Rep. Cliff Bentz (OR-2)",
-  "imageUrl": "https://www.congress.gov/img/member/b000668_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Cliff",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Bentz, Cliff",
+  "lastName": "Bentz",
+  "officialWebsiteUrl": "https://bentz.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Cliff Bentz",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Cliff",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bentz, Cliff",
+      "lastName": "Bentz",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Cliff Bentz",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Cliff",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bentz, Cliff",
+      "lastName": "Bentz",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Cliff Bentz",
+      "firstName": "Cliff",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bentz, Cliff",
+      "lastName": "Bentz",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 24,
+    "url": "https://api.congress.gov/v3/member/B000668/sponsored-legislation"
+  },
+  "state": "Oregon",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OR",
+      "stateName": "Oregon"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "B000668",
+    "fec": [
+      "H0OR02127"
+    ],
+    "opensecrets": "N00045773",
+    "govtrack": 456842,
+    "wikidata": "Q5132536",
+    "wikipedia": "Cliff Bentz",
+    "google_entity_id": "kg:/m/0gfdsjb",
+    "pictorial": 13216,
+    "twitter": "RepBentz",
+    "twitter_id": 1345788865911656400,
+    "facebook": "RepBentz",
+    "instagram": "repbentz"
+  },
+  "name": {
+    "first": "Cliff",
+    "middle": "Stewart",
+    "last": "Bentz",
+    "official_full": "Cliff Bentz"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1952-01-12"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OR",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://bentz.house.gov",
+    "address": "409 Cannon House Office Building Washington DC 20515-3702",
+    "office": "409 Cannon House Office Building",
+    "phone": "202-225-6730",
+    "fax": "202-225-5774"
+  }
 }

@@ -1,13 +1,138 @@
 {
-  "id": "B000825",
-  "bioguide": "B000825",
-  "name": "Lauren Boebert",
-  "lastName": "Boebert",
-  "state": "CO",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1713 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4761",
+    "zipCode": 20515
+  },
+  "bioguideId": "B000825",
+  "birthYear": "1986",
+  "cosponsoredLegislation": {
+    "count": 872,
+    "url": "https://api.congress.gov/v3/member/B000825/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B000825.jpg"
+  },
+  "directOrderName": "Lauren Boebert",
   "district": 4,
-  "nameTitle": "Rep. Lauren Boebert (CO-4)",
-  "imageUrl": "https://www.congress.gov/img/member/b000825_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Lauren",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Boebert, Lauren",
+  "lastName": "Boebert",
+  "officialWebsiteUrl": "https://boebert.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Lauren Boebert",
+      "endDate": "2024-02-27T13:20:48Z",
+      "firstName": "Lauren",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Boebert, Lauren",
+      "lastName": "Boebert",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Lauren Boebert",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Lauren",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Boebert, Lauren",
+      "lastName": "Boebert",
+      "startDate": "2024-02-27T13:20:49Z"
+    },
+    {
+      "directOrderName": "Lauren Boebert",
+      "firstName": "Lauren",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Boebert, Lauren",
+      "lastName": "Boebert",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 149,
+    "url": "https://api.congress.gov/v3/member/B000825/sponsored-legislation"
+  },
+  "state": "Colorado",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CO",
+      "stateName": "Colorado"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "B000825",
+    "fec": [
+      "H0CO03165"
+    ],
+    "opensecrets": "N00045974",
+    "govtrack": 456805,
+    "wikidata": "Q96761544",
+    "wikipedia": "Lauren Boebert",
+    "google_entity_id": "kg:/g/11j2v06x6p",
+    "ballotpedia": "Lauren Boebert",
+    "pictorial": 12969,
+    "votesmart": 191290,
+    "twitter": "RepBoebert",
+    "twitter_id": 1342989756611907600,
+    "facebook": "RepBoebert"
+  },
+  "name": {
+    "first": "Lauren",
+    "middle": "Opal",
+    "last": "Boebert",
+    "official_full": "Lauren Boebert"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1986-12-15"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CO",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://boebert.house.gov",
+    "address": "1713 Longworth House Office Building Washington DC 20515-0604",
+    "office": "1713 Longworth House Office Building",
+    "phone": "202-225-4761"
+  }
 }

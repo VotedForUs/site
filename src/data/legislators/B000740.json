@@ -1,13 +1,151 @@
 {
-  "id": "B000740",
-  "bioguide": "B000740",
-  "name": "Stephanie I. Bice",
-  "lastName": "Bice",
-  "state": "OK",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2402 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2132",
+    "zipCode": 20515
+  },
+  "bioguideId": "B000740",
+  "birthYear": "1973",
+  "cosponsoredLegislation": {
+    "count": 758,
+    "url": "https://api.congress.gov/v3/member/B000740/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B000740.jpg"
+  },
+  "directOrderName": "Stephanie I. Bice",
   "district": 5,
-  "nameTitle": "Rep. Stephanie I. Bice (OK-5)",
-  "imageUrl": "https://www.congress.gov/img/member/b000740_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Stephanie",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Bice, Stephanie I.",
+  "lastName": "Bice",
+  "middleName": "I.",
+  "officialWebsiteUrl": "https://bice.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Stephanie I. Bice",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Stephanie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Bice, Stephanie I.",
+      "lastName": "Bice",
+      "middleName": "I.",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Stephanie I. Bice",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Stephanie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Bice, Stephanie I.",
+      "lastName": "Bice",
+      "middleName": "I.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Stephanie I. Bice",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Stephanie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Bice, Stephanie I.",
+      "lastName": "Bice",
+      "middleName": "I.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Stephanie I. Bice",
+      "firstName": "Stephanie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Bice, Stephanie I.",
+      "lastName": "Bice",
+      "middleName": "I.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 79,
+    "url": "https://api.congress.gov/v3/member/B000740/sponsored-legislation"
+  },
+  "state": "Oklahoma",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "B000740",
+    "fec": [
+      "H0OK05205"
+    ],
+    "opensecrets": "N00044579",
+    "govtrack": 456841,
+    "wikidata": "Q60190894",
+    "wikipedia": "Stephanie Bice",
+    "google_entity_id": "kg:/g/11h2hmkrv8",
+    "ballotpedia": "Stephanie Bice",
+    "pictorial": 13214,
+    "twitter": "RepBice",
+    "twitter_id": 1344260196227555300,
+    "facebook": "RepStephanieBice"
+  },
+  "name": {
+    "first": "Stephanie",
+    "middle": "I.",
+    "last": "Bice",
+    "official_full": "Stephanie I. Bice"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1973-11-11"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OK",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://bice.house.gov",
+    "address": "2402 Rayburn House Office Building Washington DC 20515-3605",
+    "office": "2402 Rayburn House Office Building",
+    "phone": "202-225-2132"
+  }
 }

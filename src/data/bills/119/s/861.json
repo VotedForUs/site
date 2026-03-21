@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 3,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/861/actions?format=json",
     "actions": [
       {
@@ -246,17 +246,62 @@
   "latestAction": {
     "actionDate": "2025-12-17",
     "actionTime": "10:21:56",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/861",
   "number": "861",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Disaster Assistance Simplification Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Disaster Assistance Simplification Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-18T12:03:18Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Disaster Assistance Simplification Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-17T06:23:19Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Disaster Assistance Simplification Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-11-11T06:38:14Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Disaster Assistance Simplification Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-07T16:38:23Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to streamline the sharing of information among Federal disaster assistance agencies, to expedite the delivery of life-saving assistance to disaster survivors, to speed the recovery of communities from disasters, to protect the security and privacy of information provided by disaster survivors, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-07T16:33:25Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-07-31T11:03:18Z",
-  "updateDateIncludingText": "2025-07-31T11:03:18Z",
+  "updateDate": "2025-12-18T12:49:24Z",
+  "updateDateIncludingText": "2025-12-18T12:49:24Z",
   "id": "119-S-861",
   "lastActionDate": "2025-12-17",
   "lastRecordedVoteDate": "2025-12-16"

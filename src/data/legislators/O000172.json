@@ -1,13 +1,148 @@
 {
-  "id": "O000172",
-  "bioguide": "O000172",
-  "name": "Alexandria Ocasio-Cortez",
-  "lastName": "Ocasio-Cortez",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "250 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3965",
+    "zipCode": 20515
+  },
+  "bioguideId": "O000172",
+  "birthYear": "1989",
+  "cosponsoredLegislation": {
+    "count": 1603,
+    "url": "https://api.congress.gov/v3/member/O000172/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/O000172.jpg"
+  },
+  "directOrderName": "Alexandria Ocasio-Cortez",
   "district": 14,
-  "nameTitle": "Rep. Alexandria Ocasio-Cortez (NY-14)",
-  "imageUrl": "https://www.congress.gov/img/member/o000172_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Alexandria",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Ocasio-Cortez, Alexandria",
+  "lastName": "Ocasio-Cortez",
+  "officialWebsiteUrl": "https://ocasio-cortez.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Alexandria Ocasio-Cortez",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Alexandria",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ocasio-Cortez, Alexandria",
+      "lastName": "Ocasio-Cortez",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Alexandria Ocasio-Cortez",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Alexandria",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ocasio-Cortez, Alexandria",
+      "lastName": "Ocasio-Cortez",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Alexandria Ocasio-Cortez",
+      "firstName": "Alexandria",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Ocasio-Cortez, Alexandria",
+      "lastName": "Ocasio-Cortez",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 71,
+    "url": "https://api.congress.gov/v3/member/O000172/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 14,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 14,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 14,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 14,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "O000172",
+    "fec": [
+      "H8NY15148"
+    ],
+    "govtrack": 412804,
+    "wikipedia": "Alexandria Ocasio-Cortez",
+    "wikidata": "Q55223040",
+    "opensecrets": "N00041162",
+    "votesmart": 180416,
+    "ballotpedia": "Alexandria Ocasio-Cortez",
+    "icpsr": 21949,
+    "google_entity_id": "kg:/g/11f6y3nqg6",
+    "pictorial": 13182,
+    "twitter": "RepAOC",
+    "twitter_id": 1079104563280527400,
+    "facebook": "repaoc"
+  },
+  "name": {
+    "first": "Alexandria",
+    "last": "Ocasio-Cortez",
+    "official_full": "Alexandria Ocasio-Cortez"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1989-10-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 14,
+    "party": "Democrat",
+    "url": "https://ocasio-cortez.house.gov",
+    "address": "250 Cannon House Office Building Washington DC 20515-3214",
+    "office": "250 Cannon House Office Building",
+    "phone": "202-225-3965"
+  }
 }

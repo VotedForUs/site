@@ -1,13 +1,114 @@
 {
-  "id": "G000604",
-  "bioguide": "G000604",
-  "name": "Maggie Goodlander",
-  "lastName": "Goodlander",
-  "state": "NH",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "223 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5206",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000604",
+  "birthYear": "1986",
+  "cosponsoredLegislation": {
+    "count": 222,
+    "url": "https://api.congress.gov/v3/member/G000604/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000604.jpg"
+  },
+  "directOrderName": "Maggie Goodlander",
   "district": 2,
-  "nameTitle": "Rep. Maggie Goodlander (NH-2)",
-  "imageUrl": "https://www.congress.gov/img/member/678ff62d66bf616cf1a7ce13_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Maggie",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Goodlander, Maggie",
+  "lastName": "Goodlander",
+  "officialWebsiteUrl": "https://goodlander.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Maggie Goodlander",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Maggie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Goodlander, Maggie",
+      "lastName": "Goodlander",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Maggie Goodlander",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Maggie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Goodlander, Maggie",
+      "lastName": "Goodlander",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Maggie Goodlander",
+      "firstName": "Maggie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Goodlander, Maggie",
+      "lastName": "Goodlander",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 8,
+    "url": "https://api.congress.gov/v3/member/G000604/sponsored-legislation"
+  },
+  "state": "New Hampshire",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NH",
+      "stateName": "New Hampshire"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "G000604",
+    "fec": [
+      "H4NH02399"
+    ],
+    "govtrack": 457007,
+    "opensecrets": "N00055218",
+    "wikipedia": "Maggie Goodlander",
+    "wikidata": "Q126718734",
+    "twitter": "RepGoodlander",
+    "facebook": "61571606604866",
+    "instagram": "repgoodlander"
+  },
+  "name": {
+    "first": "Maggie",
+    "middle": "Vivian",
+    "last": "Goodlander",
+    "official_full": "Maggie Goodlander"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1986-11-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NH",
+    "district": 2,
+    "party": "Democrat",
+    "address": "223 Cannon House Office Building Washington DC 20515-2902",
+    "office": "223 Cannon House Office Building",
+    "phone": "202-225-5206",
+    "url": "https://goodlander.house.gov"
+  }
 }

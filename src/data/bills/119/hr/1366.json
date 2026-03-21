@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 25,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/1366/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 357.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2025-12-18",
         "sourceSystem": {
@@ -1262,8 +1270,8 @@
   "congress": 119,
   "introducedDate": "2025-02-14",
   "latestAction": {
-    "actionDate": "2025-12-18",
-    "text": "Received in the Senate."
+    "actionDate": "2026-03-17",
+    "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 357."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1366",
   "number": "1366",
@@ -1277,14 +1285,14 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2025-12-19T12:23:19Z"
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Mining Regulatory Clarity Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-03-19T03:23:23Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1294,6 +1302,16 @@
         "title": "Mining Regulatory Clarity Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
+        "updateDate": "2025-12-19T12:23:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for the location of multiple hardrock mining mill sites, to establish the Abandoned Hardrock Mine Fund, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-19T12:23:19Z"
       },
       {
@@ -1331,9 +1349,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-24T23:26:17Z",
-  "updateDateIncludingText": "2026-02-24T23:26:17Z",
+  "updateDate": "2026-03-19T03:23:23Z",
+  "updateDateIncludingText": "2026-03-19T03:23:23Z",
   "id": "119-HR-1366",
-  "lastActionDate": "2025-12-18",
+  "lastActionDate": "2026-03-17",
   "lastRecordedVoteDate": "2025-12-18T19:46:34Z"
 }

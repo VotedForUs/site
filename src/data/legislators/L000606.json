@@ -1,13 +1,114 @@
 {
-  "id": "L000606",
-  "bioguide": "L000606",
-  "name": "George Latimer",
-  "lastName": "Latimer",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1507 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2464",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000606",
+  "birthYear": "1953",
+  "cosponsoredLegislation": {
+    "count": 338,
+    "url": "https://api.congress.gov/v3/member/L000606/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000606.jpg"
+  },
+  "directOrderName": "George Latimer",
   "district": 16,
-  "nameTitle": "Rep. George Latimer (NY-16)",
-  "imageUrl": "https://www.congress.gov/img/member/6774301b0b34857ecc909107_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "George",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Latimer, George",
+  "lastName": "Latimer",
+  "officialWebsiteUrl": "https://latimer.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "George Latimer",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "George",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Latimer, George",
+      "lastName": "Latimer",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "George Latimer",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "George",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Latimer, George",
+      "lastName": "Latimer",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "George Latimer",
+      "firstName": "George",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Latimer, George",
+      "lastName": "Latimer",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 5,
+    "url": "https://api.congress.gov/v3/member/L000606/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 16,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "L000606",
+    "fec": [
+      "H4NY16087"
+    ],
+    "govtrack": 457011,
+    "opensecrets": "N00054136",
+    "wikipedia": "George Latimer (New York politician)",
+    "wikidata": "Q5544169",
+    "twitter": "RepGLatimer",
+    "facebook": "61571201977917",
+    "instagram": "repglatimer"
+  },
+  "name": {
+    "first": "George",
+    "middle": "Stephen",
+    "last": "Latimer",
+    "official_full": "George Latimer"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1953-11-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 16,
+    "party": "Democrat",
+    "address": "1507 Longworth House Office Building Washington DC 20515-3216",
+    "office": "1507 Longworth House Office Building",
+    "phone": "202-225-2464",
+    "url": "https://latimer.house.gov"
+  }
 }

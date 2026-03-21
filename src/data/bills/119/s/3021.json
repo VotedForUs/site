@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 2,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/3021/actions?format=json",
     "actions": [
       {
@@ -223,17 +223,70 @@
   "latestAction": {
     "actionDate": "2025-12-17",
     "actionTime": "10:22:12",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3021",
   "number": "3021",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "ENFORCE Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "ENFORCE Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-18T12:03:20Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "ENFORCE Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-17T04:23:21Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Enhancing Necessary Federal Offenses Regarding Child Exploitation Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-17T04:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "ENFORCE Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-10-25T07:38:15Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Enhancing Necessary Federal Offenses Regarding Child Exploitation Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-10-25T07:38:15Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend title 18, United States Code, to enhance enforcement with respect to material depicting obscene child sexual abuse or constituting child pornography, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-10-25T07:33:21Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-25T07:38:16Z",
-  "updateDateIncludingText": "2025-10-25T07:38:16Z",
+  "updateDate": "2025-12-18T16:15:12Z",
+  "updateDateIncludingText": "2025-12-18T16:15:12Z",
   "id": "119-S-3021",
   "lastActionDate": "2025-12-17",
   "lastRecordedVoteDate": "2025-12-16"

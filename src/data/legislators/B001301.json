@@ -1,13 +1,153 @@
 {
-  "id": "B001301",
-  "bioguide": "B001301",
-  "name": "Jack Bergman",
-  "lastName": "Bergman",
-  "state": "MI",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "566 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4735",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001301",
+  "birthYear": "1947",
+  "cosponsoredLegislation": {
+    "count": 1033,
+    "url": "https://api.congress.gov/v3/member/B001301/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001301.jpg"
+  },
+  "directOrderName": "Jack Bergman",
   "district": 1,
-  "nameTitle": "Rep. Jack Bergman (MI-1)",
-  "imageUrl": "https://www.congress.gov/img/member/b001301_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jack",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Bergman, Jack",
+  "lastName": "Bergman",
+  "officialWebsiteUrl": "https://bergman.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jack Bergman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jack",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bergman, Jack",
+      "lastName": "Bergman",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jack Bergman",
+      "firstName": "Jack",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Bergman, Jack",
+      "lastName": "Bergman",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 104,
+    "url": "https://api.congress.gov/v3/member/B001301/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "B001301",
+    "govtrack": 412709,
+    "wikipedia": "Jack Bergman",
+    "wikidata": "Q6262116",
+    "votesmart": 170172,
+    "fec": [
+      "H6MI01226"
+    ],
+    "opensecrets": "N00039533",
+    "maplight": 2221,
+    "google_entity_id": "kg:/m/05b2l3v",
+    "cspan": 1020529,
+    "icpsr": 21704,
+    "ballotpedia": "Jack Bergman",
+    "pictorial": 13094,
+    "facebook": "RepJackBergman",
+    "twitter": "RepJackBergman",
+    "twitter_id": 815241612154417200,
+    "instagram": "RepJackBergman",
+    "youtube": "RepJackBergman"
+  },
+  "name": {
+    "first": "Jack",
+    "last": "Bergman",
+    "official_full": "Jack Bergman"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1947-02-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://bergman.house.gov",
+    "address": "566 Cannon House Office Building Washington DC 20515-2201",
+    "office": "566 Cannon House Office Building",
+    "phone": "202-225-4735"
+  }
 }

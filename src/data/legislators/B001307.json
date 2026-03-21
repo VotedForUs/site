@@ -1,13 +1,154 @@
 {
-  "id": "B001307",
-  "bioguide": "B001307",
-  "name": "James R. Baird",
-  "lastName": "Baird",
-  "state": "IN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2303 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5037",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001307",
+  "birthYear": "1945",
+  "cosponsoredLegislation": {
+    "count": 1032,
+    "url": "https://api.congress.gov/v3/member/B001307/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001307.jpg"
+  },
+  "directOrderName": "James R. Baird",
   "district": 4,
-  "nameTitle": "Rep. James R. Baird (IN-4)",
-  "imageUrl": "https://www.congress.gov/img/member/b001307_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "James",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Baird, James R.",
+  "lastName": "Baird",
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://baird.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "James R. Baird",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Baird, James R.",
+      "lastName": "Baird",
+      "middleName": "R.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "James R. Baird",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Baird, James R.",
+      "lastName": "Baird",
+      "middleName": "R.",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "James R. Baird",
+      "firstName": "James",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Baird, James R.",
+      "lastName": "Baird",
+      "middleName": "R.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 39,
+    "url": "https://api.congress.gov/v3/member/B001307/sponsored-legislation"
+  },
+  "state": "Indiana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "B001307",
+    "fec": [
+      "H8IN04199"
+    ],
+    "govtrack": 412777,
+    "opensecrets": "N00041954",
+    "wikipedia": "Jim Baird (politician)",
+    "wikidata": "Q48813213",
+    "votesmart": 86013,
+    "icpsr": 21903,
+    "ballotpedia": "James Baird",
+    "google_entity_id": "kg:/g/11gfd5wndr",
+    "pictorial": 13053,
+    "twitter": "RepJimBaird",
+    "twitter_id": 1086316494450032600,
+    "facebook": "RepJimBaird",
+    "youtube": "UCAe6fGhotC9J9tR_QONYzFA"
+  },
+  "name": {
+    "first": "James",
+    "middle": "R.",
+    "last": "Baird",
+    "official_full": "James R. Baird"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1945-06-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IN",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://baird.house.gov",
+    "address": "2303 Rayburn House Office Building Washington DC 20515-1404",
+    "office": "2303 Rayburn House Office Building",
+    "phone": "202-225-5037"
+  }
 }

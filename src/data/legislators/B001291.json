@@ -1,13 +1,163 @@
 {
-  "id": "B001291",
-  "bioguide": "B001291",
-  "name": "Brian Babin",
-  "lastName": "Babin",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2236 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1555",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001291",
+  "birthYear": "1948",
+  "cosponsoredLegislation": {
+    "count": 2166,
+    "url": "https://api.congress.gov/v3/member/B001291/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001291.jpg"
+  },
+  "directOrderName": "Brian Babin",
   "district": 36,
-  "nameTitle": "Rep. Brian Babin (TX-36)",
-  "imageUrl": "https://www.congress.gov/img/member/b001291_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Brian",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Babin, Brian",
+  "lastName": "Babin",
+  "officialWebsiteUrl": "https://babin.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Brian Babin",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Babin, Brian",
+      "lastName": "Babin",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Brian Babin",
+      "firstName": "Brian",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Babin, Brian",
+      "lastName": "Babin",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 102,
+    "url": "https://api.congress.gov/v3/member/B001291/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 36,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 36,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 36,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 36,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 36,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 36,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "B001291",
+    "fec": [
+      "H6TX02079"
+    ],
+    "govtrack": 412655,
+    "opensecrets": "N00005736",
+    "thomas": "02270",
+    "maplight": 2111,
+    "wikidata": "Q16979824",
+    "wikipedia": "Brian Babin",
+    "google_entity_id": "kg:/m/010qgj35",
+    "votesmart": 360,
+    "cspan": 44883,
+    "icpsr": 21551,
+    "ballotpedia": "Brian Babin",
+    "pictorial": 13293,
+    "twitter": "RepBrianBabin",
+    "facebook": "RepBrianBabin",
+    "twitter_id": 2929491549,
+    "youtube_id": "UCPVEZgw-VbDRbLV1MRGVQNQ"
+  },
+  "name": {
+    "first": "Brian",
+    "last": "Babin",
+    "official_full": "Brian Babin"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1948-03-23"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 36,
+    "party": "Republican",
+    "url": "https://babin.house.gov",
+    "address": "2236 Rayburn House Office Building Washington DC 20515-4336",
+    "office": "2236 Rayburn House Office Building",
+    "phone": "202-225-1555"
+  }
 }

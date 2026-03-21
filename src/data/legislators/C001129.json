@@ -1,13 +1,129 @@
 {
-  "id": "C001129",
-  "bioguide": "C001129",
-  "name": "Mike Collins",
-  "lastName": "Collins",
-  "state": "GA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2351 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4101",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001129",
+  "birthYear": "1967",
+  "cosponsoredLegislation": {
+    "count": 362,
+    "url": "https://api.congress.gov/v3/member/C001129/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001129.jpg"
+  },
+  "directOrderName": "Mike Collins",
   "district": 10,
-  "nameTitle": "Rep. Mike Collins (GA-10)",
-  "imageUrl": "https://www.congress.gov/img/member/c001129_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Collins, Mike",
+  "lastName": "Collins",
+  "officialWebsiteUrl": "https://collins.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Collins",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Collins, Mike",
+      "lastName": "Collins",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Collins",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Collins, Mike",
+      "lastName": "Collins",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Collins",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Collins, Mike",
+      "lastName": "Collins",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 25,
+    "url": "https://api.congress.gov/v3/member/C001129/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 10,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 10,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "C001129",
+    "fec": [
+      "H4GA10071"
+    ],
+    "govtrack": 456895,
+    "opensecrets": "N00035370",
+    "wikipedia": "Mike Collins (politician)",
+    "votesmart": 151225,
+    "wikidata": "Q115806750",
+    "pictorial": 13019,
+    "google_entity_id": "kg:/g/11nnr438zm",
+    "twitter": "RepMikeCollins",
+    "twitter_id": 1601030771124408300,
+    "facebook": "RepMikeCollinsGA",
+    "instagram": "repmikecollins"
+  },
+  "name": {
+    "first": "Mike",
+    "middle": "Allen",
+    "last": "Collins",
+    "suffix": "Jr.",
+    "official_full": "Mike Collins"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1967-07-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 10,
+    "party": "Republican",
+    "url": "https://collins.house.gov",
+    "address": "2351 Rayburn House Office Building Washington DC 20515-1010",
+    "office": "2351 Rayburn House Office Building",
+    "phone": "202-225-4101"
+  }
 }

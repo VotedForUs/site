@@ -1,13 +1,162 @@
 {
-  "id": "C001095",
-  "bioguide": "C001095",
-  "name": "Tom Cotton",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "326 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2353",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001095",
+  "birthYear": "1977",
+  "cosponsoredLegislation": {
+    "count": 1914,
+    "url": "https://api.congress.gov/v3/member/C001095/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/C001095.jpg"
+  },
+  "directOrderName": "Tom Cotton",
+  "firstName": "Tom",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cotton, Tom",
   "lastName": "Cotton",
-  "state": "AR",
-  "party": "Republican",
-  "nameTitle": "Sen. Tom Cotton (AR)",
-  "imageUrl": "https://www.congress.gov/img/member/c001095_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.cotton.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tom Cotton",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cotton, Tom",
+      "lastName": "Cotton",
+      "startDate": "2013-01-03T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 552,
+    "url": "https://api.congress.gov/v3/member/C001095/sponsored-legislation"
+  },
+  "state": "Arkansas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:57Z",
+  "id": {
+    "govtrack": 412508,
+    "bioguide": "C001095",
+    "thomas": "02098",
+    "cspan": 63928,
+    "votesmart": 135651,
+    "wikipedia": "Tom Cotton",
+    "fec": [
+      "H2AR04083",
+      "S4AR00103"
+    ],
+    "opensecrets": "N00033363",
+    "ballotpedia": "Tom Cotton",
+    "maplight": 1732,
+    "icpsr": 21301,
+    "lis": "S374",
+    "wikidata": "Q3090307",
+    "google_entity_id": "kg:/m/02g3ds",
+    "pictorial": 13407,
+    "twitter": "SenTomCotton",
+    "facebook": "SenatorTomCotton",
+    "youtube": "RepTomCotton",
+    "youtube_id": "UCXEk6mokWBajIpNatbjnwSg",
+    "twitter_id": 968650362
+  },
+  "name": {
+    "first": "Tom",
+    "last": "Cotton",
+    "official_full": "Tom Cotton"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1977-05-13"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "AR",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.cotton.senate.gov",
+    "contact_form": "https://www.cotton.senate.gov/contact/contact-tom",
+    "address": "326 Russell Senate Office Building Washington DC 20510",
+    "office": "326 Russell Senate Office Building",
+    "phone": "202-224-2353"
+  }
 }

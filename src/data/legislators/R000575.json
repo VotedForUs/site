@@ -1,13 +1,228 @@
 {
-  "id": "R000575",
-  "bioguide": "R000575",
-  "name": "Mike Rogers",
-  "lastName": "Rogers",
-  "state": "AL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2469 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3261",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000575",
+  "birthYear": "1958",
+  "cosponsoredLegislation": {
+    "count": 1979,
+    "url": "https://api.congress.gov/v3/member/R000575/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/R000575.jpg"
+  },
+  "directOrderName": "Mike Rogers",
   "district": 3,
-  "nameTitle": "Rep. Mike Rogers (AL-3)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_al_3_rogers_mike_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Rogers, Mike D.",
+  "lastName": "Rogers",
+  "officialWebsiteUrl": "https://mikerogers.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2003
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Rogers",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rogers, Mike D.",
+      "lastName": "Rogers",
+      "startDate": "2003-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Rogers",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rogers, Mike D.",
+      "lastName": "Rogers",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 109,
+    "url": "https://api.congress.gov/v3/member/R000575/sponsored-legislation"
+  },
+  "state": "Alabama",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 3,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 3,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 3,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 3,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 3,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 3,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 3,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "R000575",
+    "thomas": "01704",
+    "govtrack": 400341,
+    "opensecrets": "N00024759",
+    "votesmart": 5705,
+    "fec": [
+      "H2AL03032"
+    ],
+    "cspan": 1014740,
+    "wikipedia": "Mike Rogers (Alabama politician)",
+    "house_history": 20795,
+    "ballotpedia": "Mike Rogers (Alabama)",
+    "maplight": 433,
+    "icpsr": 20301,
+    "wikidata": "Q693238",
+    "google_entity_id": "kg:/m/024n_s",
+    "pictorial": 12896,
+    "twitter": "RepMikeRogersAL",
+    "facebook": "CongressmanMikeDRogers",
+    "youtube": "MikeRogersAL03",
+    "youtube_id": "UCH-WUWuY0_dlKwJDSqKTJsg",
+    "instagram": "repmikerogersal",
+    "instagram_id": 259435765,
+    "twitter_id": 33977070
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Rogers",
+    "official_full": "Mike Rogers"
+  },
+  "bio": {
+    "birthday": "1958-07-16",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AL",
+    "district": 3,
+    "party": "Republican",
+    "url": "https://mikerogers.house.gov",
+    "rss_url": "http://mikerogers.house.gov/rss.xml",
+    "address": "2469 Rayburn House Office Building Washington DC 20515-0103",
+    "office": "2469 Rayburn House Office Building",
+    "phone": "202-225-3261"
+  }
 }

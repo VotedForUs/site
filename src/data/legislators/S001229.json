@@ -1,13 +1,114 @@
 {
-  "id": "S001229",
-  "bioguide": "S001229",
-  "name": "Jefferson Shreve",
-  "lastName": "Shreve",
-  "state": "IN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "224 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3021",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001229",
+  "birthYear": "1965",
+  "cosponsoredLegislation": {
+    "count": 171,
+    "url": "https://api.congress.gov/v3/member/S001229/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001229.jpg"
+  },
+  "directOrderName": "Jefferson Shreve",
   "district": 6,
-  "nameTitle": "Rep. Jefferson Shreve (IN-6)",
-  "imageUrl": "https://www.congress.gov/img/member/67745f0e0b34857ecc90918b_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jefferson",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Shreve, Jefferson",
+  "lastName": "Shreve",
+  "officialWebsiteUrl": "https://shreve.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jefferson Shreve",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Jefferson",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Shreve, Jefferson",
+      "lastName": "Shreve",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Jefferson Shreve",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Jefferson",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Shreve, Jefferson",
+      "lastName": "Shreve",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Jefferson Shreve",
+      "firstName": "Jefferson",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Shreve, Jefferson",
+      "lastName": "Shreve",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 13,
+    "url": "https://api.congress.gov/v3/member/S001229/sponsored-legislation"
+  },
+  "state": "Indiana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "S001229",
+    "fec": [
+      "H4IN06185"
+    ],
+    "govtrack": 456988,
+    "opensecrets": "N00054651",
+    "wikipedia": "Jefferson Shreve",
+    "wikidata": "Q130979817",
+    "twitter": "repshreve",
+    "facebook": "RepJeffersonShreve",
+    "instagram": "repshreve"
+  },
+  "name": {
+    "first": "Jefferson",
+    "middle": "Scott",
+    "last": "Shreve",
+    "official_full": "Jefferson Shreve"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1965-09-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IN",
+    "district": 6,
+    "party": "Republican",
+    "address": "224 Cannon House Office Building Washington DC 20515-1406",
+    "office": "224 Cannon House Office Building",
+    "phone": "202-225-3021",
+    "url": "https://shreve.house.gov"
+  }
 }

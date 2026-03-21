@@ -1,13 +1,195 @@
 {
-  "id": "M001184",
-  "bioguide": "M001184",
-  "name": "Thomas Massie",
-  "lastName": "Massie",
-  "state": "KY",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2371 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3465",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001184",
+  "birthYear": "1971",
+  "cosponsoredLegislation": {
+    "count": 853,
+    "url": "https://api.congress.gov/v3/member/M001184/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001184.jpg"
+  },
+  "directOrderName": "Thomas Massie",
   "district": 4,
-  "nameTitle": "Rep. Thomas Massie (KY-4)",
-  "imageUrl": "https://www.congress.gov/img/member/m001184_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Thomas",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Massie, Thomas",
+  "lastName": "Massie",
+  "officialWebsiteUrl": "https://massie.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2012
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Thomas Massie",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Massie, Thomas",
+      "lastName": "Massie",
+      "startDate": "2012-11-13T00:00:00Z"
+    },
+    {
+      "directOrderName": "Thomas Massie",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Massie, Thomas",
+      "lastName": "Massie",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Thomas Massie",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Massie, Thomas",
+      "lastName": "Massie",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 115,
+    "url": "https://api.congress.gov/v3/member/M001184/sponsored-legislation"
+  },
+  "state": "Kentucky",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 4,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2012,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "M001184",
+    "govtrack": 412503,
+    "opensecrets": "N00034041",
+    "votesmart": 132068,
+    "thomas": "02094",
+    "cspan": 79951,
+    "wikipedia": "Thomas Massie",
+    "fec": [
+      "H2KY04121"
+    ],
+    "ballotpedia": "Thomas Massie",
+    "maplight": 1684,
+    "icpsr": 31102,
+    "wikidata": "Q2426031",
+    "google_entity_id": "kg:/m/0h_cb6v",
+    "pictorial": 13066,
+    "youtube": "repthomasmassie",
+    "youtube_id": "UCpmXOtvvXC3GE8o9VxYNK7g",
+    "facebook": "RepThomasMassie",
+    "twitter": "RepThomasMassie",
+    "twitter_id": 975200486,
+    "instagram": "repthomasmassie"
+  },
+  "name": {
+    "first": "Thomas",
+    "last": "Massie",
+    "official_full": "Thomas Massie"
+  },
+  "bio": {
+    "birthday": "1971-01-13",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "KY",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://massie.house.gov",
+    "rss_url": "http://massie.house.gov/rss.xml",
+    "address": "2371 Rayburn House Office Building Washington DC 20515-1704",
+    "office": "2371 Rayburn House Office Building",
+    "phone": "202-225-3465"
+  }
 }

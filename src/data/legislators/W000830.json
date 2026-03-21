@@ -1,13 +1,114 @@
 {
-  "id": "W000830",
-  "bioguide": "W000830",
-  "name": "George Whitesides",
-  "lastName": "Whitesides",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1504 Longworth House Office Building",
+    "phoneNumber": "(202) 225-1956",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000830",
+  "birthYear": "1974",
+  "cosponsoredLegislation": {
+    "count": 196,
+    "url": "https://api.congress.gov/v3/member/W000830/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000830.jpg"
+  },
+  "directOrderName": "George Whitesides",
   "district": 27,
-  "nameTitle": "Rep. George Whitesides (CA-27)",
-  "imageUrl": "https://www.congress.gov/img/member/68dc43db199559bad714973d_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "George",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Whitesides, George",
+  "lastName": "Whitesides",
+  "officialWebsiteUrl": "https://whitesides.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "George Whitesides",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "George",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Whitesides, George",
+      "lastName": "Whitesides",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "George Whitesides",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "George",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Whitesides, George",
+      "lastName": "Whitesides",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "George Whitesides",
+      "firstName": "George",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Whitesides, George",
+      "lastName": "Whitesides",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 8,
+    "url": "https://api.congress.gov/v3/member/W000830/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 27,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-30T21:12:36Z",
+  "id": {
+    "bioguide": "W000830",
+    "fec": [
+      "H4CA27111"
+    ],
+    "govtrack": 456977,
+    "opensecrets": "N00052205",
+    "wikipedia": "George T. Whitesides",
+    "wikidata": "Q3511804",
+    "twitter": "Rep_Whitesides",
+    "facebook": "repwhitesides",
+    "instagram": "repwhitesides"
+  },
+  "name": {
+    "first": "George",
+    "middle": "Thomas",
+    "last": "Whitesides",
+    "official_full": "George Whitesides"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1974-03-03"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 27,
+    "party": "Democrat",
+    "address": "1504 Longworth House Office Building Washington DC 20515-0527",
+    "office": "1504 Longworth House Office Building",
+    "phone": "202-225-1956",
+    "url": "https://whitesides.house.gov"
+  }
 }

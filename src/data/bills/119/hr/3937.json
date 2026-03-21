@@ -4,6 +4,21 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/3937/actions?format=json",
     "actions": [
       {
+        "actionDate": "2026-02-12",
+        "committees": [
+          {
+            "name": "Public Lands, Forests, and Mining Subcommittee",
+            "systemCode": "sseg03",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "type": "Committee"
+      },
+      {
         "actionDate": "2025-07-23",
         "committees": [
           {
@@ -518,7 +533,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 410 - 1 (Roll no. 215). (text: CR H3541: 6)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 410 - 1 (Roll no. 215). (text: CR H3541)",
         "type": "Floor"
       },
       {
@@ -529,7 +544,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3544-3545: 2)",
+        "text": "Considered as unfinished business. (consideration: CR H3544-3545)",
         "type": "Floor"
       },
       {
@@ -562,7 +577,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3541-3543: 6)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3541-3543)",
         "type": "Floor"
       },
       {
@@ -728,6 +743,6 @@
   "updateDate": "2026-02-13T11:56:38Z",
   "updateDateIncludingText": "2026-02-13T11:56:38Z",
   "id": "119-HR-3937",
-  "lastActionDate": "2025-07-23",
+  "lastActionDate": "2026-02-12",
   "lastRecordedVoteDate": "2025-07-22T20:48:49Z"
 }

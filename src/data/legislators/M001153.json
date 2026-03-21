@@ -1,13 +1,218 @@
 {
-  "id": "M001153",
-  "bioguide": "M001153",
-  "name": "Lisa Murkowski",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "522 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-6665",
+    "zipCode": 20510
+  },
+  "bioguideId": "M001153",
+  "birthYear": "1957",
+  "cosponsoredLegislation": {
+    "count": 3574,
+    "url": "https://api.congress.gov/v3/member/M001153/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/M001153.jpg"
+  },
+  "directOrderName": "Lisa Murkowski",
+  "firstName": "Lisa",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Murkowski, Lisa",
   "lastName": "Murkowski",
-  "state": "AK",
-  "party": "Republican",
-  "nameTitle": "Sen. Lisa Murkowski (AK)",
-  "imageUrl": "https://www.congress.gov/img/member/m001153_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.murkowski.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2002
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Lisa Murkowski",
+      "firstName": "Lisa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Murkowski, Lisa",
+      "lastName": "Murkowski",
+      "startDate": "2002-12-20T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 1187,
+    "url": "https://api.congress.gov/v3/member/M001153/sponsored-legislation"
+  },
+  "state": "Alaska",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 107,
+      "endYear": 2003,
+      "memberType": "Senator",
+      "startYear": 2002,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 108,
+      "endYear": 2005,
+      "memberType": "Senator",
+      "startYear": 2003,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 109,
+      "endYear": 2007,
+      "memberType": "Senator",
+      "startYear": 2005,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 110,
+      "endYear": 2009,
+      "memberType": "Senator",
+      "startYear": 2007,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:09Z",
+  "id": {
+    "bioguide": "M001153",
+    "thomas": "01694",
+    "lis": "S288",
+    "govtrack": 300075,
+    "opensecrets": "N00026050",
+    "votesmart": 15841,
+    "fec": [
+      "S4AK00099"
+    ],
+    "cspan": 1004138,
+    "wikipedia": "Lisa Murkowski",
+    "house_history": 18778,
+    "ballotpedia": "Lisa Murkowski",
+    "maplight": 595,
+    "icpsr": 40300,
+    "wikidata": "Q22360",
+    "google_entity_id": "kg:/m/0202kt",
+    "pictorial": 13345,
+    "twitter": "LisaMurkowski",
+    "facebook": "SenLisaMurkowski",
+    "youtube": "senatormurkowski",
+    "youtube_id": "UCaigku16AErqvD0wRuwGb9A",
+    "twitter_id": 18061669,
+    "instagram": "senlisamurkowski"
+  },
+  "name": {
+    "first": "Lisa",
+    "middle": "A.",
+    "last": "Murkowski",
+    "official_full": "Lisa Murkowski"
+  },
+  "bio": {
+    "birthday": "1957-05-22",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "AK",
+    "class": 3,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.murkowski.senate.gov",
+    "rss_url": "http://www.murkowski.senate.gov/public/?a=rss.feed",
+    "contact_form": "https://www.murkowski.senate.gov/public/index.cfm/contact",
+    "address": "522 Hart Senate Office Building Washington DC 20510",
+    "office": "522 Hart Senate Office Building",
+    "phone": "202-224-6665"
+  }
 }

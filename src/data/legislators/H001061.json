@@ -1,13 +1,172 @@
 {
-  "id": "H001061",
-  "bioguide": "H001061",
-  "name": "John Hoeven",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "338 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2551",
+    "zipCode": 20510
+  },
+  "bioguideId": "H001061",
+  "birthYear": "1957",
+  "cosponsoredLegislation": {
+    "count": 2008,
+    "url": "https://api.congress.gov/v3/member/H001061/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/H001061.jpg"
+  },
+  "directOrderName": "John Hoeven",
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Hoeven, John",
   "lastName": "Hoeven",
-  "state": "ND",
-  "party": "Republican",
-  "nameTitle": "Sen. John Hoeven (ND)",
-  "imageUrl": "https://www.congress.gov/img/member/h001061_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.hoeven.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John Hoeven",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hoeven, John",
+      "lastName": "Hoeven",
+      "startDate": "2011-01-05T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 493,
+    "url": "https://api.congress.gov/v3/member/H001061/sponsored-legislation"
+  },
+  "state": "North Dakota",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "ND",
+      "stateName": "North Dakota"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:30Z",
+  "id": {
+    "bioguide": "H001061",
+    "thomas": "02079",
+    "lis": "S344",
+    "govtrack": 412494,
+    "opensecrets": "N00031688",
+    "votesmart": 41788,
+    "fec": [
+      "S0ND00093"
+    ],
+    "cspan": 85233,
+    "wikipedia": "John Hoeven",
+    "ballotpedia": "John Hoeven",
+    "maplight": 1499,
+    "icpsr": 41107,
+    "wikidata": "Q374762",
+    "google_entity_id": "kg:/m/01qb45",
+    "pictorial": 13422,
+    "twitter": "SenJohnHoeven",
+    "facebook": "SenatorJohnHoeven",
+    "youtube": "senatorjohnhoevennd",
+    "youtube_id": "UC1kQIC2Q_Fq9_NRqdb6eHiw",
+    "instagram": "senjohnhoeven",
+    "instagram_id": 1237544252,
+    "twitter_id": 382791093
+  },
+  "name": {
+    "first": "John",
+    "last": "Hoeven",
+    "official_full": "John Hoeven"
+  },
+  "bio": {
+    "birthday": "1957-03-13",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "ND",
+    "class": 3,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.hoeven.senate.gov",
+    "rss_url": "http://www.hoeven.senate.gov/public/index.cfm/rss/feed",
+    "contact_form": "https://www.hoeven.senate.gov/contact/contact-the-senator",
+    "address": "338 Russell Senate Office Building Washington DC 20510",
+    "office": "338 Russell Senate Office Building",
+    "phone": "202-224-2551"
+  }
 }

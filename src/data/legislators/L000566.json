@@ -1,13 +1,222 @@
 {
-  "id": "L000566",
-  "bioguide": "L000566",
-  "name": "Robert E. Latta",
-  "lastName": "Latta",
-  "state": "OH",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2470 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6405",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000566",
+  "birthYear": "1956",
+  "cosponsoredLegislation": {
+    "count": 2316,
+    "url": "https://api.congress.gov/v3/member/L000566/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000566.jpg"
+  },
+  "directOrderName": "Robert E. Latta",
   "district": 5,
-  "nameTitle": "Rep. Robert E. Latta (OH-5)",
-  "imageUrl": "https://www.congress.gov/img/member/l000566_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Robert",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Latta, Robert E.",
+  "lastName": "Latta",
+  "middleName": "E.",
+  "officialWebsiteUrl": "https://latta.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Robert E. Latta",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Latta, Robert E.",
+      "lastName": "Latta",
+      "middleName": "E.",
+      "startDate": "2007-12-13T00:00:00Z"
+    },
+    {
+      "directOrderName": "Robert E. Latta",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Latta, Robert E.",
+      "lastName": "Latta",
+      "middleName": "E.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Robert E. Latta",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Latta, Robert E.",
+      "lastName": "Latta",
+      "middleName": "E.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 235,
+    "url": "https://api.congress.gov/v3/member/L000566/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 5,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 5,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 5,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 5,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 5,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 5,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 5,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2026-02-05T17:24:50Z",
+  "id": {
+    "bioguide": "L000566",
+    "thomas": "01885",
+    "govtrack": 412256,
+    "opensecrets": "N00012233",
+    "votesmart": 9926,
+    "fec": [
+      "H8OH05036"
+    ],
+    "cspan": 1028071,
+    "wikipedia": "Bob Latta",
+    "house_history": 17309,
+    "ballotpedia": "Robert E. Latta",
+    "maplight": 737,
+    "icpsr": 20755,
+    "wikidata": "Q888061",
+    "google_entity_id": "kg:/m/02z6_j1",
+    "pictorial": 13199,
+    "twitter": "BobLatta",
+    "facebook": "boblatta",
+    "youtube": "CongressmanBobLatta",
+    "youtube_id": "UCVSBVHoWu-eWnBBQaMKZ_sQ",
+    "instagram": "boblatta",
+    "instagram_id": 26367713,
+    "twitter_id": 15394954
+  },
+  "name": {
+    "first": "Robert",
+    "middle": "E.",
+    "last": "Latta",
+    "official_full": "Robert E. Latta"
+  },
+  "bio": {
+    "birthday": "1956-04-18",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://latta.house.gov",
+    "rss_url": "http://latta.house.gov/news/rss.aspx",
+    "address": "2470 Rayburn House Office Building Washington DC 20515-3505",
+    "office": "2470 Rayburn House Office Building",
+    "phone": "202-225-6405"
+  }
 }

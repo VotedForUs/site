@@ -1,13 +1,216 @@
 {
-  "id": "C001068",
-  "bioguide": "C001068",
-  "name": "Steve Cohen",
-  "lastName": "Cohen",
-  "state": "TN",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2268 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3265",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001068",
+  "birthYear": "1949",
+  "cosponsoredLegislation": {
+    "count": 8373,
+    "url": "https://api.congress.gov/v3/member/C001068/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001068.jpg"
+  },
+  "directOrderName": "Steve Cohen",
   "district": 9,
-  "nameTitle": "Rep. Steve Cohen (TN-9)",
-  "imageUrl": "https://www.congress.gov/img/member/c001068_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Steve",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cohen, Steve",
+  "lastName": "Cohen",
+  "officialWebsiteUrl": "https://cohen.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Steve Cohen",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Steve",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cohen, Steve",
+      "lastName": "Cohen",
+      "startDate": "2007-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Steve Cohen",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Steve",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cohen, Steve",
+      "lastName": "Cohen",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Steve Cohen",
+      "firstName": "Steve",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cohen, Steve",
+      "lastName": "Cohen",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 487,
+    "url": "https://api.congress.gov/v3/member/C001068/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 9,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 9,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 9,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 9,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 9,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 9,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 9,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 9,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 9,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 9,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "C001068",
+    "thomas": "01878",
+    "govtrack": 412236,
+    "opensecrets": "N00003225",
+    "votesmart": 24340,
+    "fec": [
+      "H6TN09068"
+    ],
+    "cspan": 1022876,
+    "wikipedia": "Steve Cohen (politician)",
+    "house_history": 11800,
+    "maplight": 721,
+    "icpsr": 20748,
+    "wikidata": "Q512330",
+    "google_entity_id": "kg:/m/04l8cr",
+    "ballotpedia": "Steve Cohen",
+    "pictorial": 13257,
+    "twitter": "RepCohen",
+    "facebook": "CongressmanSteveCohen",
+    "youtube": "repcohen",
+    "youtube_id": "UC_NJlnsOBjOameUwZk0rvsA",
+    "twitter_id": 162069635,
+    "instagram": "repcohen"
+  },
+  "name": {
+    "first": "Steve",
+    "last": "Cohen",
+    "official_full": "Steve Cohen"
+  },
+  "bio": {
+    "birthday": "1949-05-24",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TN",
+    "district": 9,
+    "party": "Democrat",
+    "url": "https://cohen.house.gov",
+    "rss_url": "http://cohen.house.gov/rss.xml",
+    "address": "2268 Rayburn House Office Building Washington DC 20515-4209",
+    "office": "2268 Rayburn House Office Building",
+    "phone": "202-225-3265"
+  }
 }

@@ -1,13 +1,164 @@
 {
-  "id": "W000822",
-  "bioguide": "W000822",
-  "name": "Bonnie Watson Coleman",
-  "lastName": "Watson Coleman",
-  "state": "NJ",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "168 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5801",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000822",
+  "birthYear": "1945",
+  "cosponsoredLegislation": {
+    "count": 3978,
+    "url": "https://api.congress.gov/v3/member/W000822/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000822.jpg"
+  },
+  "directOrderName": "Bonnie Watson Coleman",
   "district": 12,
-  "nameTitle": "Rep. Bonnie Watson Coleman (NJ-12)",
-  "imageUrl": "https://www.congress.gov/img/member/w000822_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Bonnie",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Watson Coleman, Bonnie",
+  "lastName": "Watson Coleman",
+  "officialWebsiteUrl": "https://watsoncoleman.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Bonnie Watson Coleman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Bonnie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Watson Coleman, Bonnie",
+      "lastName": "Watson Coleman",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Bonnie Watson Coleman",
+      "firstName": "Bonnie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Watson Coleman, Bonnie",
+      "lastName": "Watson Coleman",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 194,
+    "url": "https://api.congress.gov/v3/member/W000822/sponsored-legislation"
+  },
+  "state": "New Jersey",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 12,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NJ",
+      "stateName": "New Jersey"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 12,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NJ",
+      "stateName": "New Jersey"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 12,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NJ",
+      "stateName": "New Jersey"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 12,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NJ",
+      "stateName": "New Jersey"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 12,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NJ",
+      "stateName": "New Jersey"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 12,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NJ",
+      "stateName": "New Jersey"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "W000822",
+    "fec": [
+      "H4NJ12149"
+    ],
+    "govtrack": 412644,
+    "opensecrets": "N00036158",
+    "thomas": "02259",
+    "house_history": 15032409972,
+    "maplight": 2100,
+    "wikidata": "Q4942457",
+    "wikipedia": "Bonnie Watson Coleman",
+    "google_entity_id": "kg:/m/08kj70",
+    "votesmart": 24799,
+    "cspan": 79091,
+    "icpsr": 21538,
+    "pictorial": 13161,
+    "twitter": "RepBonnie",
+    "facebook": "RepBonnie",
+    "youtube_id": "UCrxEaX0VKZKwg3930du2D5A",
+    "twitter_id": 2968451607,
+    "instagram": "repbonnie"
+  },
+  "name": {
+    "first": "Bonnie",
+    "last": "Watson Coleman",
+    "official_full": "Bonnie Watson Coleman"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1945-02-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NJ",
+    "district": 12,
+    "party": "Democrat",
+    "url": "https://watsoncoleman.house.gov",
+    "address": "168 Cannon House Office Building Washington DC 20515-3012",
+    "office": "168 Cannon House Office Building",
+    "phone": "202-225-5801"
+  }
 }

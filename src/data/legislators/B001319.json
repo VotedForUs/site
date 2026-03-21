@@ -1,13 +1,138 @@
 {
-  "id": "B001319",
-  "bioguide": "B001319",
-  "name": "Katie Boyd Britt",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "416 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5744",
+    "zipCode": 20510
+  },
+  "bioguideId": "B001319",
+  "birthYear": "1982",
+  "cosponsoredLegislation": {
+    "count": 649,
+    "url": "https://api.congress.gov/v3/member/B001319/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<p>Official U.S. Senate Photo</p>",
+    "imageUrl": "/images/legislators/B001319.jpg"
+  },
+  "directOrderName": "Katie Boyd Britt",
+  "firstName": "Katie",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Britt, Katie Boyd",
   "lastName": "Britt",
-  "state": "AL",
-  "party": "Republican",
-  "nameTitle": "Sen. Katie Boyd Britt (AL)",
-  "imageUrl": "https://www.congress.gov/img/member/b001319_200.jpg",
-  "attribution": "<p>Official U.S. Senate Photo</p>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.britt.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Katie Boyd Britt",
+      "endDate": "2025-04-02T08:44:59Z",
+      "firstName": "Katie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Britt, Katie Boyd",
+      "lastName": "Britt",
+      "startDate": "2023-04-18T06:35:00Z"
+    },
+    {
+      "directOrderName": "Katie Britt",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "Katie",
+      "invertedOrderName": "Britt, Katie",
+      "lastName": "Britt",
+      "middleName": "Elizabeth",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Katie Boyd Britt",
+      "endDate": "2023-04-18T06:34:59Z",
+      "firstName": "Katie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Britt, Katie Boyd",
+      "lastName": "Britt",
+      "startDate": "2023-01-04T07:35:00Z"
+    },
+    {
+      "directOrderName": "Katie Boyd Britt",
+      "firstName": "Katie",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Britt, Katie Boyd",
+      "lastName": "Britt",
+      "startDate": "2025-04-02T08:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 49,
+    "url": "https://api.congress.gov/v3/member/B001319/sponsored-legislation"
+  },
+  "state": "Alabama",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:40Z",
+  "id": {
+    "bioguide": "B001319",
+    "lis": "S416",
+    "fec": [
+      "S2AL00145"
+    ],
+    "govtrack": 456874,
+    "opensecrets": "N00048812",
+    "wikidata": "Q111285444",
+    "wikipedia": "Katie Britt",
+    "google_entity_id": "kg:/g/11rfpf26r8",
+    "ballotpedia": "Katie Britt",
+    "votesmart": 201704,
+    "pictorial": 13393,
+    "twitter": "SenKatieBritt",
+    "facebook": "senkatiebritt",
+    "instagram": "senkatiebritt",
+    "youtube": "UCbrYQF8n5ftTPqn8ZNo5vYw"
+  },
+  "name": {
+    "first": "Katie",
+    "middle": "Elizabeth",
+    "last": "Britt",
+    "official_full": "Katie Boyd Britt"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1982-02-02"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "AL",
+    "class": 3,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.britt.senate.gov",
+    "contact_form": "https://www.britt.senate.gov/contact/",
+    "address": "416 Russell Senate Office Building Washington DC 20510",
+    "office": "416 Russell Senate Office Building",
+    "phone": "202-224-5744"
+  }
 }

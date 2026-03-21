@@ -1,13 +1,113 @@
 {
-  "id": "H001101",
-  "bioguide": "H001101",
-  "name": "Pat Harrigan",
-  "lastName": "Harrigan",
-  "state": "NC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1233 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2576",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001101",
+  "birthYear": "1987",
+  "cosponsoredLegislation": {
+    "count": 214,
+    "url": "https://api.congress.gov/v3/member/H001101/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001101.jpg"
+  },
+  "directOrderName": "Pat Harrigan",
   "district": 10,
-  "nameTitle": "Rep. Pat Harrigan (NC-10)",
-  "imageUrl": "https://www.congress.gov/img/member/67742ca40b34857ecc9090d7_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Pat",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Harrigan, Pat",
+  "lastName": "Harrigan",
+  "officialWebsiteUrl": "https://harrigan.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Pat Harrigan",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Pat",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Harrigan, Pat",
+      "lastName": "Harrigan",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Pat Harrigan",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Pat",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Harrigan, Pat",
+      "lastName": "Harrigan",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Pat Harrigan",
+      "firstName": "Pat",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Harrigan, Pat",
+      "lastName": "Harrigan",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 16,
+    "url": "https://api.congress.gov/v3/member/H001101/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 10,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "H001101",
+    "fec": [
+      "H2NC13243"
+    ],
+    "govtrack": 457003,
+    "opensecrets": "N00050144",
+    "wikipedia": "Pat Harrigan",
+    "wikidata": "Q131179069",
+    "twitter": "RepPatHarrigan",
+    "facebook": "RepPatHarrigan",
+    "instagram": "RepPatHarrigan"
+  },
+  "name": {
+    "first": "Pat",
+    "last": "Harrigan",
+    "official_full": "Pat Harrigan"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1987-06-21"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 10,
+    "party": "Republican",
+    "address": "1233 Longworth House Office Building Washington DC 20515-3310",
+    "office": "1233 Longworth House Office Building",
+    "phone": "202-225-2576",
+    "url": "https://harrigan.house.gov"
+  }
 }

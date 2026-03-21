@@ -1,13 +1,163 @@
 {
-  "id": "E000298",
-  "bioguide": "E000298",
-  "name": "Ron Estes",
-  "lastName": "Estes",
-  "state": "KS",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2234 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6216",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000298",
+  "birthYear": "1956",
+  "cosponsoredLegislation": {
+    "count": 725,
+    "url": "https://api.congress.gov/v3/member/E000298/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/E000298.jpg"
+  },
+  "directOrderName": "Ron Estes",
   "district": 4,
-  "nameTitle": "Rep. Ron Estes (KS-4)",
-  "imageUrl": "https://www.congress.gov/img/member/e000298_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ron",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Estes, Ron",
+  "lastName": "Estes",
+  "officialWebsiteUrl": "https://estes.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ron Estes",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Ron",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Estes, Ron",
+      "lastName": "Estes",
+      "startDate": "2017-04-13T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ron Estes",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ron",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Estes, Ron",
+      "lastName": "Estes",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ron Estes",
+      "firstName": "Ron",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Estes, Ron",
+      "lastName": "Estes",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 64,
+    "url": "https://api.congress.gov/v3/member/E000298/sponsored-legislation"
+  },
+  "state": "Kansas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "KS",
+      "stateName": "Kansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "KS",
+      "stateName": "Kansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "KS",
+      "stateName": "Kansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "KS",
+      "stateName": "Kansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "KS",
+      "stateName": "Kansas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "E000298",
+    "fec": [
+      "H8KS04112"
+    ],
+    "govtrack": 412735,
+    "wikipedia": "Ron Estes",
+    "wikidata": "Q7363747",
+    "ballotpedia": "Ron Estes (U.S. House representative)",
+    "votesmart": 125031,
+    "house_history": 15032448694,
+    "cspan": 107963,
+    "maplight": 2246,
+    "google_entity_id": "kg:/m/0gfgsrm",
+    "opensecrets": "N00040712",
+    "icpsr": 21750,
+    "pictorial": 13062,
+    "twitter": "RepRonEstes",
+    "facebook": "RepRonEstes",
+    "twitter_id": 854715071116849200,
+    "youtube_id": "UC2clc28qcehIqotHQcthnWA",
+    "instagram": "RepRonEstes"
+  },
+  "name": {
+    "first": "Ron",
+    "last": "Estes",
+    "official_full": "Ron Estes"
+  },
+  "bio": {
+    "birthday": "1956-07-19",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "KS",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://estes.house.gov",
+    "address": "2234 Rayburn House Office Building Washington DC 20515-1604",
+    "office": "2234 Rayburn House Office Building",
+    "phone": "202-225-6216"
+  }
 }

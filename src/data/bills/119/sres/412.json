@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/sres/412/actions?format=json",
     "actions": [
       {
@@ -161,7 +161,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S6929-6930)",
         "type": "Floor"
       },
       {
@@ -177,7 +177,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S6909-6916)",
         "type": "Floor"
       },
       {
@@ -193,7 +193,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S6899-6903)",
         "type": "Floor"
       },
       {
@@ -347,6 +347,14 @@
           "name": "Senate"
         },
         "text": "Cloture on the measure invoked in Senate by Yea-Nay Vote. 53 - 46. Record Vote Number: 540.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-10-01",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "By unanimous consent agreement, mandatory quorum required under Rule XXII waived.",
         "type": "Floor"
       },
       {
@@ -566,8 +574,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2025-10-04T10:56:17Z",
-  "updateDateIncludingText": "2025-10-09T04:48:18Z",
+  "updateDate": "2026-03-12T15:09:21Z",
+  "updateDateIncludingText": "2026-03-12T15:09:21Z",
   "id": "119-SRES-412",
   "lastActionDate": "2025-10-03",
   "lastRecordedVoteDate": "2025-10-03T18:04:30Z"

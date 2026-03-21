@@ -257,9 +257,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/1003/summaries?format=json"
   },
   "title": "Lulu’s Law",
+  "titles": {
+    "titles": [
+      {
+        "title": "Lulu’s Law",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-11T11:03:19Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Lulu’s Law",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-07-09T04:23:19Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Lulu’s Law",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-06-14T04:38:16Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Lulu’s Law",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-03T13:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to require the Federal Communications Commission to issue an order providing that a shark attack is an event for which a wireless emergency alert may be transmitted, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-03T13:18:19Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-29T02:07:05Z",
-  "updateDateIncludingText": "2025-10-29T02:07:05Z",
+  "updateDate": "2025-12-05T21:59:59Z",
+  "updateDateIncludingText": "2025-12-05T21:59:59Z",
   "id": "119-S-1003",
   "lastActionDate": "2025-07-10",
   "lastRecordedVoteDate": "2025-07-08"

@@ -505,7 +505,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 219 - 210 (Roll no. 201). (text of amendment in the nature of a substitute: CR H3427-3428: 1)",
+        "text": "On passage Passed by the Yeas and Nays: 219 - 210 (Roll no. 201). (text of amendment in the nature of a substitute: CR H3427-3428)",
         "type": "Floor"
       },
       {
@@ -516,7 +516,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3450: 1)",
+        "text": "Considered as unfinished business. (consideration: CR H3450)",
         "type": "Floor"
       },
       {
@@ -571,7 +571,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 580. (consideration: CR H3427-3434: 1)",
+        "text": "Considered under the provisions of rule H. Res. 580. (consideration: CR H3427-3434)",
         "type": "Floor"
       },
       {

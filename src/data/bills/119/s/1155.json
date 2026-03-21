@@ -230,6 +230,24 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "A bill to amend the Trafficking Victims Protection Act of 2000 to make technical corrections.",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend the Trafficking Victims Protection Act of 2000 to make technical corrections.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-11T02:33:34Z"
+      },
+      {
+        "title": "A bill to amend the Trafficking Victims Protection Act of 2000 to make technical corrections.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-03-27T10:56:23Z"
+      }
+    ]
+  },
   "type": "S",
   "updateDate": "2025-08-13T11:31:50Z",
   "updateDateIncludingText": "2025-08-13T11:31:50Z",

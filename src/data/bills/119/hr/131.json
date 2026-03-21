@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 39,
+    "count": 37,
     "url": "https://api.congress.gov/v3/bill/119/hr/131/actions?format=json",
     "actions": [
       {

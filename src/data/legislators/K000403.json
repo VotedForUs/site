@@ -1,13 +1,114 @@
 {
-  "id": "K000403",
-  "bioguide": "K000403",
-  "name": "Mike Kennedy",
-  "lastName": "Kennedy",
-  "state": "UT",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1626 Longworth House Office Building",
+    "phoneNumber": "(202) 225-7751",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000403",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 110,
+    "url": "https://api.congress.gov/v3/member/K000403/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000403.jpg"
+  },
+  "directOrderName": "Mike Kennedy",
   "district": 3,
-  "nameTitle": "Rep. Mike Kennedy (UT-3)",
-  "imageUrl": "https://www.congress.gov/img/member/67742e7c0b34857ecc9090f5_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Kennedy, Mike",
+  "lastName": "Kennedy",
+  "officialWebsiteUrl": "https://mikekennedy.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Kennedy",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kennedy, Mike",
+      "lastName": "Kennedy",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Kennedy",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kennedy, Mike",
+      "lastName": "Kennedy",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Mike Kennedy",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kennedy, Mike",
+      "lastName": "Kennedy",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 31,
+    "url": "https://api.congress.gov/v3/member/K000403/sponsored-legislation"
+  },
+  "state": "Utah",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "K000403",
+    "fec": [
+      "H4UT03260"
+    ],
+    "govtrack": 457025,
+    "opensecrets": "N00043086",
+    "wikipedia": "Mike Kennedy (politician)",
+    "wikidata": "Q16730723",
+    "twitter": "repmikekennedy",
+    "facebook": "RepMikeKennedy",
+    "instagram": "repmikekennedy"
+  },
+  "name": {
+    "first": "Mike",
+    "middle": "Steven",
+    "last": "Kennedy",
+    "official_full": "Mike Kennedy"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1969-02-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "UT",
+    "district": 3,
+    "party": "Republican",
+    "address": "1626 Longworth House Office Building Washington DC 20515-4403",
+    "office": "1626 Longworth House Office Building",
+    "phone": "202-225-7751",
+    "url": "https://mikekennedy.house.gov"
+  }
 }

@@ -1,13 +1,125 @@
 {
-  "id": "H001103",
-  "bioguide": "H001103",
-  "name": "Pablo José Hernández",
-  "lastName": "Hernández Rivera",
-  "state": "PR",
-  "party": "Democrat",
-  "district": 0,
-  "nameTitle": "Rep. Pablo José Hernández (PR-0)",
-  "imageUrl": "https://www.congress.gov/img/member/67742d980b34857ecc9090e3_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1419 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2615",
+    "zipCode": 20510
+  },
+  "bioguideId": "H001103",
+  "birthYear": "1991",
+  "cosponsoredLegislation": {
+    "count": 164,
+    "url": "https://api.congress.gov/v3/member/H001103/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001103.jpg"
+  },
+  "directOrderName": "Pablo José Hernández",
+  "firstName": "Pablo",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Hernández, Pablo Jose",
+  "lastName": "Hernández",
+  "middleName": "Jose",
+  "officialWebsiteUrl": "https://hernandez.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Pablo Hernández",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Pablo",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hernández, Pablo",
+      "lastName": "Hernández",
+      "middleName": "José",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Pablo Hernández",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Pablo",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hernández, Pablo",
+      "lastName": "Hernández",
+      "middleName": "José",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Pablo Hernández",
+      "endDate": "2025-04-28T13:04:24Z",
+      "firstName": "Pablo",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hernández, Pablo",
+      "lastName": "Hernández",
+      "middleName": "José",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Pablo José Hernández",
+      "firstName": "Pablo",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hernández, Pablo Jose",
+      "lastName": "Hernández",
+      "middleName": "Jose",
+      "startDate": "2025-04-28T13:04:25Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 27,
+    "url": "https://api.congress.gov/v3/member/H001103/sponsored-legislation"
+  },
+  "state": "Puerto Rico",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Resident Commissioner",
+      "startYear": 2025,
+      "stateCode": "PR",
+      "stateName": "Puerto Rico"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "H001103",
+    "fec": [
+      "H4PR01010"
+    ],
+    "govtrack": 457019,
+    "opensecrets": "N00052286",
+    "wikipedia": "Pablo Hernández Rivera",
+    "wikidata": "Q130997176",
+    "twitter": "reppablojose",
+    "facebook": "61569891687422",
+    "instagram": "reppablojose"
+  },
+  "name": {
+    "first": "Pablo José",
+    "last": "Hernández Rivera",
+    "official_full": "Pablo José Hernández"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1991-05-11"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PR",
+    "district": 0,
+    "party": "Democrat",
+    "address": "1419 Longworth House Office Building Washington DC 20515-5401",
+    "office": "1419 Longworth House Office Building",
+    "phone": "202-225-2615",
+    "url": "https://hernandez.house.gov"
+  }
 }

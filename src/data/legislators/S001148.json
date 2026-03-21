@@ -1,13 +1,261 @@
 {
-  "id": "S001148",
-  "bioguide": "S001148",
-  "name": "Michael K. Simpson",
-  "lastName": "Simpson",
-  "state": "ID",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2084 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5531",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001148",
+  "birthYear": "1950",
+  "cosponsoredLegislation": {
+    "count": 2219,
+    "url": "https://api.congress.gov/v3/member/S001148/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001148.jpg"
+  },
+  "directOrderName": "Michael K. Simpson",
   "district": 2,
-  "nameTitle": "Rep. Michael K. Simpson (ID-2)",
-  "imageUrl": "https://www.congress.gov/img/member/678152c81f9ad6ea6fb1eb7f_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Michael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Simpson, Michael K.",
+  "lastName": "Simpson",
+  "middleName": "K.",
+  "officialWebsiteUrl": "https://simpson.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 1999
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Michael K. Simpson",
+      "endDate": "2024-02-27T13:20:50Z",
+      "firstName": "MICHAEL",
+      "invertedOrderName": "Simpson, Michael K.",
+      "lastName": "SIMPSON",
+      "middleName": "K.",
+      "startDate": "1999-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Michael K. Simpson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Simpson, Michael K.",
+      "lastName": "Simpson",
+      "middleName": "K.",
+      "startDate": "2024-02-27T13:20:51Z"
+    },
+    {
+      "directOrderName": "Michael K. Simpson",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Simpson, Michael K.",
+      "lastName": "Simpson",
+      "middleName": "K.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 159,
+    "url": "https://api.congress.gov/v3/member/S001148/sponsored-legislation"
+  },
+  "state": "Idaho",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 2,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 2,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 2,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 2,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 2,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 2,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 2,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "ID",
+      "stateName": "Idaho"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "S001148",
+    "thomas": "01590",
+    "govtrack": 400376,
+    "opensecrets": "N00006263",
+    "votesmart": 2917,
+    "fec": [
+      "H8ID02064"
+    ],
+    "cspan": 57889,
+    "wikipedia": "Mike Simpson",
+    "ballotpedia": "Michael K. Simpson",
+    "maplight": 466,
+    "icpsr": 29910,
+    "house_history": 22556,
+    "wikidata": "Q549521",
+    "google_entity_id": "kg:/m/0255tn",
+    "pictorial": 13032,
+    "twitter": "CongMikeSimpson",
+    "facebook": "96007744606",
+    "youtube": "CongMikeSimpson",
+    "youtube_id": "UCNXe0rJJeULTAP_7oyQNw8g",
+    "twitter_id": 76132891,
+    "instagram": "congressmanmikesimpson"
+  },
+  "name": {
+    "first": "Michael",
+    "middle": "K.",
+    "last": "Simpson",
+    "nickname": "Mike",
+    "official_full": "Michael K. Simpson"
+  },
+  "bio": {
+    "birthday": "1950-09-08",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "ID",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://simpson.house.gov",
+    "rss_url": "http://simpson.house.gov/news/rss.aspx",
+    "address": "2084 Rayburn House Office Building Washington DC 20515-1202",
+    "office": "2084 Rayburn House Office Building",
+    "phone": "202-225-5531"
+  }
 }

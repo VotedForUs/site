@@ -1,13 +1,200 @@
 {
-  "id": "C001078",
-  "bioguide": "C001078",
-  "name": "Gerald E. Connolly",
-  "lastName": "Connolly",
-  "state": "VA",
-  "party": "Democrat",
+  "bioguideId": "C001078",
+  "birthYear": "1950",
+  "cosponsoredLegislation": {
+    "count": 4563,
+    "url": "https://api.congress.gov/v3/member/C001078/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "deathYear": "2025",
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001078.jpg"
+  },
+  "directOrderName": "Gerald E. Connolly",
   "district": 11,
-  "nameTitle": "Rep. Gerald E. Connolly (VA-11)",
-  "imageUrl": "https://www.congress.gov/img/member/c001078_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Gerald",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Connolly, Gerald E.",
+  "lastName": "Connolly",
+  "middleName": "E.",
+  "nickName": "Gerry",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Gerald E. Connolly",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Gerald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Connolly, Gerald E.",
+      "lastName": "Connolly",
+      "middleName": "E.",
+      "startDate": "2009-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Gerald E. Connolly",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Gerald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Connolly, Gerald E.",
+      "lastName": "Connolly",
+      "middleName": "E.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Gerald E. Connolly",
+      "firstName": "Gerald",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Connolly, Gerald E.",
+      "lastName": "Connolly",
+      "middleName": "E.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 355,
+    "url": "https://api.congress.gov/v3/member/C001078/sponsored-legislation"
+  },
+  "state": "Virginia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 11,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 11,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 11,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 11,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 11,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 11,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 11,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 11,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 11,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    }
+  ],
+  "updateDate": "2025-05-21T13:36:20Z",
+  "id": {
+    "bioguide": "C001078",
+    "thomas": "01959",
+    "govtrack": 412272,
+    "opensecrets": "N00029891",
+    "votesmart": 95078,
+    "fec": [
+      "H8VA11062"
+    ],
+    "cspan": 64005,
+    "wikipedia": "Gerry Connolly",
+    "house_history": 11817,
+    "maplight": 754,
+    "icpsr": 20952,
+    "wikidata": "Q1514859",
+    "google_entity_id": "kg:/m/04f40kn",
+    "ballotpedia": "Gerald Connolly",
+    "pictorial": 13309
+  },
+  "name": {
+    "first": "Gerald",
+    "middle": "E.",
+    "last": "Connolly",
+    "official_full": "Gerald E. Connolly"
+  },
+  "bio": {
+    "birthday": "1950-03-30",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2025-05-21",
+    "state": "VA",
+    "district": 11,
+    "party": "Democrat",
+    "url": "https://connolly.house.gov",
+    "rss_url": "http://connolly.house.gov/common/rss//index.cfm?rss=44",
+    "address": "2265 Rayburn House Office Building Washington DC 20515-4611",
+    "office": "2265 Rayburn House Office Building",
+    "phone": "202-225-1492"
+  }
 }

@@ -1,13 +1,151 @@
 {
-  "id": "C001127",
-  "bioguide": "C001127",
-  "name": "Sheila Cherfilus-McCormick",
-  "lastName": "Cherfilus-McCormick",
-  "state": "FL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2442 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1313",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001127",
+  "birthYear": "1979",
+  "cosponsoredLegislation": {
+    "count": 1273,
+    "url": "https://api.congress.gov/v3/member/C001127/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001127.jpg"
+  },
+  "directOrderName": "Sheila Cherfilus-McCormick",
   "district": 20,
-  "nameTitle": "Rep. Sheila Cherfilus-McCormick (FL-20)",
-  "imageUrl": "https://www.congress.gov/img/member/c001127_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Sheila",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Cherfilus-McCormick, Sheila",
+  "lastName": "Cherfilus-McCormick",
+  "officialWebsiteUrl": "https://cherfilus-mccormick.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2022
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sheila Cherfilus-McCormick",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Sheila",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Cherfilus-McCormick, Sheila",
+      "lastName": "Cherfilus-McCormick",
+      "startDate": "2022-01-18T05:00:00Z"
+    },
+    {
+      "directOrderName": "Sheila Cherfilus-McCormick",
+      "endDate": "2024-02-27T13:20:49Z",
+      "firstName": "Sheila",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Cherfilus-McCormick, Sheila",
+      "lastName": "Cherfilus-McCormick",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Sheila Cherfilus-McCormick",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Sheila",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Cherfilus-McCormick, Sheila",
+      "lastName": "Cherfilus-McCormick",
+      "startDate": "2024-02-27T13:20:50Z"
+    },
+    {
+      "directOrderName": "Sheila Cherfilus-McCormick",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Sheila",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Cherfilus-McCormick, Sheila",
+      "lastName": "Cherfilus-McCormick",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Sheila Cherfilus-McCormick",
+      "firstName": "Sheila",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Cherfilus-McCormick, Sheila",
+      "lastName": "Cherfilus-McCormick",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 41,
+    "url": "https://api.congress.gov/v3/member/C001127/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 20,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2022,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 20,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 20,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "C001127",
+    "fec": [
+      "H8FL20032"
+    ],
+    "govtrack": 456865,
+    "opensecrets": "N00043504",
+    "wikipedia": "Sheila Cherfilus-McCormick",
+    "wikidata": "Q109560948",
+    "pictorial": 13001,
+    "google_entity_id": "kg:/g/11j8p2mk08",
+    "facebook": "congresswomanSCM"
+  },
+  "name": {
+    "first": "Sheila",
+    "last": "Cherfilus-McCormick",
+    "official_full": "Sheila Cherfilus-McCormick"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1979-01-25"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 20,
+    "party": "Democrat",
+    "url": "https://cherfilus-mccormick.house.gov",
+    "address": "2442 Rayburn House Office Building Washington DC 20515-0920",
+    "office": "2442 Rayburn House Office Building",
+    "phone": "202-225-1313"
+  }
 }

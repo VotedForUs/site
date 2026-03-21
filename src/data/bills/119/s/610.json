@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 4,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/s/610/actions?format=json",
     "actions": [
       {
@@ -261,8 +261,7 @@
   "latestAction": {
     "actionDate": "2025-12-15",
     "actionTime": "16:18:26",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/610",
   "number": "610",
@@ -273,9 +272,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/610/summaries?format=json"
   },
   "title": "Ensuring VetSuccess On Campus Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Ensuring VetSuccess On Campus Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-16T12:03:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Ensuring VetSuccess On Campus Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-12T06:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Ensuring VetSuccess On Campus Act of 2025",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-12-04T03:38:21Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Ensuring VetSuccess On Campus Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-13T01:23:22Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to expand the VetSuccess on Campus program of the Department of Veterans Affairs, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-13T01:18:49Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-08-20T20:50:18Z",
-  "updateDateIncludingText": "2025-08-20T20:50:18Z",
+  "updateDate": "2025-12-17T13:34:33Z",
+  "updateDateIncludingText": "2025-12-17T13:34:33Z",
   "id": "119-S-610",
   "lastActionDate": "2025-12-15",
   "lastRecordedVoteDate": "2025-12-11"

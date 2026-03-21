@@ -1,13 +1,259 @@
 {
-  "id": "S001156",
-  "bioguide": "S001156",
-  "name": "Linda T. Sánchez",
-  "lastName": "Sánchez",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2309 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6676",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001156",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 4816,
+    "url": "https://api.congress.gov/v3/member/S001156/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/S001156.jpg"
+  },
+  "directOrderName": "Linda T. Sánchez",
   "district": 38,
-  "nameTitle": "Rep. Linda T. Sánchez (CA-38)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_ca_38_snchez_linda_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Linda",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Sánchez, Linda T.",
+  "lastName": "Sánchez",
+  "middleName": "T.",
+  "officialWebsiteUrl": "https://lindasanchez.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2003
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Linda T. Sánchez",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Linda",
+      "invertedOrderName": "Sánchez, Linda T.",
+      "lastName": "Sánchez",
+      "middleName": "T.",
+      "startDate": "2003-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Linda T. Sánchez",
+      "endDate": "2024-02-27T13:20:48Z",
+      "firstName": "Linda",
+      "invertedOrderName": "Sánchez, Linda T.",
+      "lastName": "Sánchez",
+      "middleName": "T.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Linda T. Sánchez",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Linda",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Sánchez, Linda T.",
+      "lastName": "Sánchez",
+      "middleName": "T.",
+      "startDate": "2024-02-27T13:20:49Z"
+    },
+    {
+      "directOrderName": "Linda T. Sánchez",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Linda",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Sánchez, Linda T.",
+      "lastName": "Sánchez",
+      "middleName": "T.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Linda T. Sánchez",
+      "firstName": "Linda",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Sánchez, Linda T.",
+      "lastName": "Sánchez",
+      "middleName": "T.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 246,
+    "url": "https://api.congress.gov/v3/member/S001156/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 39,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 39,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 39,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 39,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 39,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 38,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 38,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 38,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 38,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 38,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 38,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 38,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "S001156",
+    "thomas": "01757",
+    "govtrack": 400355,
+    "opensecrets": "N00024870",
+    "votesmart": 29674,
+    "fec": [
+      "H2CA39078"
+    ],
+    "cspan": 1003554,
+    "wikipedia": "Linda Sánchez",
+    "maplight": 448,
+    "icpsr": 20310,
+    "house_history": 22572,
+    "wikidata": "Q291143",
+    "google_entity_id": "kg:/m/024xc7",
+    "ballotpedia": "Linda Sánchez",
+    "pictorial": 12952,
+    "twitter": "RepLindaSanchez",
+    "facebook": "CongresswomanLindaSanchez",
+    "youtube": "LindaTSanchez",
+    "youtube_id": "UCu1K6uHxjMgj2mvzM7O9-ow",
+    "twitter_id": 312134473,
+    "instagram": "replindasanchez"
+  },
+  "name": {
+    "first": "Linda",
+    "middle": "T.",
+    "last": "Sánchez",
+    "official_full": "Linda T. Sánchez"
+  },
+  "bio": {
+    "birthday": "1969-01-28",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 38,
+    "party": "Democrat",
+    "url": "https://lindasanchez.house.gov",
+    "rss_url": "http://lindasanchez.house.gov/index.php?format=feed&amp;type=rss",
+    "address": "2309 Rayburn House Office Building Washington DC 20515-0538",
+    "office": "2309 Rayburn House Office Building",
+    "phone": "202-225-6676"
+  }
 }

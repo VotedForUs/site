@@ -1,13 +1,151 @@
 {
-  "id": "R000605",
-  "bioguide": "R000605",
-  "name": "Mike Rounds",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "716 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5842",
+    "zipCode": 20510
+  },
+  "bioguideId": "R000605",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 1845,
+    "url": "https://api.congress.gov/v3/member/R000605/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/R000605.jpg"
+  },
+  "directOrderName": "Mike Rounds",
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Rounds, Mike",
   "lastName": "Rounds",
-  "state": "SD",
-  "party": "Republican",
-  "nameTitle": "Sen. Mike Rounds (SD)",
-  "imageUrl": "https://www.congress.gov/img/member/r000605_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.rounds.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Rounds",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rounds, Mike",
+      "lastName": "Rounds",
+      "startDate": "2015-01-06T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 388,
+    "url": "https://api.congress.gov/v3/member/R000605/sponsored-legislation"
+  },
+  "state": "South Dakota",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:28Z",
+  "id": {
+    "bioguide": "R000605",
+    "thomas": "02288",
+    "fec": [
+      "S4SD00049"
+    ],
+    "govtrack": 412669,
+    "opensecrets": "N00035187",
+    "lis": "S381",
+    "maplight": 2125,
+    "wikidata": "Q722503",
+    "wikipedia": "Mike Rounds",
+    "google_entity_id": "kg:/m/020z2p",
+    "votesmart": 7455,
+    "cspan": 78317,
+    "icpsr": 41505,
+    "ballotpedia": "Mike Rounds",
+    "pictorial": 13384,
+    "twitter": "SenatorRounds",
+    "facebook": "SenatorMikeRounds",
+    "twitter_id": 2955485182,
+    "youtube_id": "UC-pvzimyBdpdkcIfsicrfrQ",
+    "instagram": "senatorrounds"
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Rounds",
+    "official_full": "Mike Rounds"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1954-10-24"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "SD",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.rounds.senate.gov",
+    "contact_form": "https://www.rounds.senate.gov/contact/email-mike",
+    "address": "716 Hart Senate Office Building Washington DC 20510",
+    "office": "716 Hart Senate Office Building",
+    "phone": "202-224-5842"
+  }
 }

@@ -1,13 +1,229 @@
 {
-  "id": "C001056",
-  "bioguide": "C001056",
-  "name": "John Cornyn",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "517 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-2934",
+    "zipCode": 20510
+  },
+  "bioguideId": "C001056",
+  "birthYear": "1952",
+  "cosponsoredLegislation": {
+    "count": 4016,
+    "url": "https://api.congress.gov/v3/member/C001056/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/C001056.jpg"
+  },
+  "directOrderName": "John Cornyn",
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cornyn, John",
   "lastName": "Cornyn",
-  "state": "TX",
-  "party": "Republican",
-  "nameTitle": "Sen. John Cornyn (TX)",
-  "imageUrl": "https://www.congress.gov/img/member/c001056_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "senior",
-  "type": "sen"
+  "leadership": [
+    {
+      "congress": 113,
+      "type": "Assistant Democratic Leader"
+    },
+    {
+      "congress": 114,
+      "type": "Assistant Majority Leader"
+    },
+    {
+      "congress": 115,
+      "type": "Majority Whip"
+    }
+  ],
+  "officialWebsiteUrl": "https://www.cornyn.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2002
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John Cornyn",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cornyn, John",
+      "lastName": "Cornyn",
+      "startDate": "2002-12-01T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 1588,
+    "url": "https://api.congress.gov/v3/member/C001056/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 107,
+      "endYear": 2003,
+      "memberType": "Senator",
+      "startYear": 2002,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 108,
+      "endYear": 2005,
+      "memberType": "Senator",
+      "startYear": 2003,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 109,
+      "endYear": 2007,
+      "memberType": "Senator",
+      "startYear": 2005,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 110,
+      "endYear": 2009,
+      "memberType": "Senator",
+      "startYear": 2007,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 111,
+      "endYear": 2011,
+      "memberType": "Senator",
+      "startYear": 2009,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 112,
+      "endYear": 2013,
+      "memberType": "Senator",
+      "startYear": 2011,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2026-03-08T10:30:53Z",
+  "id": {
+    "bioguide": "C001056",
+    "thomas": "01692",
+    "lis": "S287",
+    "govtrack": 300027,
+    "opensecrets": "N00024852",
+    "votesmart": 15375,
+    "fec": [
+      "S2TX00106"
+    ],
+    "cspan": 93131,
+    "wikipedia": "John Cornyn",
+    "ballotpedia": "John Cornyn",
+    "maplight": 553,
+    "icpsr": 40305,
+    "wikidata": "Q719568",
+    "google_entity_id": "kg:/m/01xcqs",
+    "pictorial": 13403,
+    "twitter": "JohnCornyn",
+    "facebook": "sen.johncornyn",
+    "youtube": "senjohncornyn",
+    "youtube_id": "UCyQwLQavlOaJ64YuY_VMtiQ",
+    "twitter_id": 13218102
+  },
+  "name": {
+    "first": "John",
+    "last": "Cornyn",
+    "official_full": "John Cornyn"
+  },
+  "bio": {
+    "birthday": "1952-02-02",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "class": 2,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.cornyn.senate.gov",
+    "rss_url": "http://www.cornyn.senate.gov/public/?a=rss.feed",
+    "contact_form": "https://www.cornyn.senate.gov/contact",
+    "address": "517 Hart Senate Office Building Washington DC 20510",
+    "office": "517 Hart Senate Office Building",
+    "phone": "202-224-2934"
+  }
 }

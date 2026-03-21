@@ -76,7 +76,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4573: 3)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4573)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -820,9 +820,65 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/1316/summaries?format=json"
   },
   "title": "Maintaining American Superiority by Improving Export Control Transparency Act",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Maintaining American Superiority by Improving Export Control Transparency Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2025-07-24T02:08:22Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Maintaining American Superiority by Improving Export Control Transparency Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-05-08T04:23:17Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Maintaining American Superiority by Improving Export Control Transparency Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-05-07T02:53:19Z"
+      },
+      {
+        "title": "Maintaining American Superiority by Improving Export Control Transparency Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-03-13T04:23:35Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Maintaining American Superiority by Improving Export Control Transparency Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-13T04:23:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Export Control Reform Act of 2018 relating to licensing transparency.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-13T04:19:06Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-29T02:42:48Z",
-  "updateDateIncludingText": "2025-10-29T02:42:48Z",
+  "updateDate": "2025-12-05T21:47:49Z",
+  "updateDateIncludingText": "2025-12-05T21:47:49Z",
   "id": "119-HR-1316",
   "lastActionDate": "2025-08-19",
   "lastRecordedVoteDate": "2025-07-22"

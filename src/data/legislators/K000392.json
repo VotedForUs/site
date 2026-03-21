@@ -1,13 +1,153 @@
 {
-  "id": "K000392",
-  "bioguide": "K000392",
-  "name": "David Kustoff",
-  "lastName": "Kustoff",
-  "state": "TN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "560 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4714",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000392",
+  "birthYear": "1966",
+  "cosponsoredLegislation": {
+    "count": 899,
+    "url": "https://api.congress.gov/v3/member/K000392/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/K000392.jpg"
+  },
+  "directOrderName": "David Kustoff",
   "district": 8,
-  "nameTitle": "Rep. David Kustoff (TN-8)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_tn_8_kustoff_david_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "David",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Kustoff, David",
+  "lastName": "Kustoff",
+  "officialWebsiteUrl": "https://kustoff.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "David Kustoff",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kustoff, David",
+      "lastName": "Kustoff",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "David Kustoff",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kustoff, David",
+      "lastName": "Kustoff",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 105,
+    "url": "https://api.congress.gov/v3/member/K000392/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 8,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 8,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 8,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "K000392",
+    "govtrack": 412724,
+    "wikipedia": "David Kustoff",
+    "wikidata": "Q26923148",
+    "votesmart": 48997,
+    "fec": [
+      "H2TN07103"
+    ],
+    "opensecrets": "N00025445",
+    "maplight": 2236,
+    "google_entity_id": "kg:/g/11c1qmm_nk",
+    "cspan": 28903,
+    "icpsr": 21731,
+    "ballotpedia": "David Kustoff",
+    "pictorial": 13256,
+    "facebook": "RepDavidKustoff",
+    "twitter": "RepDavidKustoff",
+    "twitter_id": 816012124505931800,
+    "instagram": "repdavidkustoff",
+    "youtube_id": "UCK6U4plOKKMrCjv_h59spGQ"
+  },
+  "name": {
+    "first": "David",
+    "last": "Kustoff",
+    "official_full": "David Kustoff"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1966-10-08"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TN",
+    "district": 8,
+    "party": "Republican",
+    "url": "https://kustoff.house.gov",
+    "address": "560 Cannon House Office Building Washington DC 20515-4208",
+    "office": "560 Cannon House Office Building",
+    "phone": "202-225-4714"
+  }
 }

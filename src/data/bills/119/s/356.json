@@ -862,6 +862,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Secure Rural Schools Reauthorization Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-10T11:03:22Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -870,12 +876,6 @@
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2025-12-11T03:53:20Z"
-      },
-      {
-        "title": "Secure Rural Schools Reauthorization Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-06-24T11:03:17Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -906,8 +906,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-12-19T21:36:23Z",
-  "updateDateIncludingText": "2025-12-19T21:36:23Z",
+  "updateDate": "2026-03-10T11:03:22Z",
+  "updateDateIncludingText": "2026-03-10T11:03:22Z",
   "id": "119-S-356",
   "lastActionDate": "2025-12-18",
   "lastRecordedVoteDate": "2025-12-09T23:58:12Z"

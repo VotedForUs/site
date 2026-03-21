@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/2392/actions?format=json",
     "actions": [
       {
@@ -831,17 +831,82 @@
   "introducedDate": "2025-07-23",
   "latestAction": {
     "actionDate": "2025-11-25",
-    "text": "Became Public Law No: 119-42.",
-    "actionCode": "E40000"
+    "text": "Became Public Law No: 119-42."
   },
+  "laws": [
+    {
+      "number": "119-42",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2392",
   "number": "2392",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2392/summaries?format=json"
+  },
   "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2025-11-20T05:38:24Z"
+      },
+      {
+        "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-11-11T12:03:14Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-11-10T09:53:14Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2025",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-24T02:23:13Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-07-29T12:38:22Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to increase, effective as of December 1, 2025, the rates of compensation for veterans with service-connected disabilities and the rates of dependency and indemnity compensation for the survivors of certain disabled veterans, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-07-29T12:33:20Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-25T22:01:02Z",
-  "updateDateIncludingText": "2025-10-25T22:01:02Z",
+  "updateDate": "2025-12-05T21:28:26Z",
+  "updateDateIncludingText": "2025-12-05T21:28:26Z",
   "id": "119-S-2392",
   "lastActionDate": "2025-11-25",
   "lastRecordedVoteDate": "2025-11-17"

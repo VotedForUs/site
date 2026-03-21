@@ -1,13 +1,167 @@
 {
-  "id": "H001082",
-  "bioguide": "H001082",
-  "name": "Kevin Hern",
-  "lastName": "Hern",
-  "state": "OK",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "171 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2211",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001082",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 712,
+    "url": "https://api.congress.gov/v3/member/H001082/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001082.jpg"
+  },
+  "directOrderName": "Kevin Hern",
   "district": 1,
-  "nameTitle": "Rep. Kevin Hern (OK-1)",
-  "imageUrl": "https://www.congress.gov/img/member/h001082_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Kevin",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Hern, Kevin",
+  "lastName": "Hern",
+  "leadership": [
+    {
+      "congress": 119,
+      "current": true,
+      "type": "Republican Policy Committee Chairman"
+    }
+  ],
+  "officialWebsiteUrl": "https://hern.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2018
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Kevin Hern",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hern, Kevin",
+      "lastName": "Hern",
+      "startDate": "2018-11-13T00:00:00Z"
+    },
+    {
+      "directOrderName": "Kevin Hern",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hern, Kevin",
+      "lastName": "Hern",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Kevin Hern",
+      "firstName": "Kevin",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hern, Kevin",
+      "lastName": "Hern",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 69,
+    "url": "https://api.congress.gov/v3/member/H001082/sponsored-legislation"
+  },
+  "state": "Oklahoma",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2018,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "H001082",
+    "fec": [
+      "H8OK01157"
+    ],
+    "govtrack": 412748,
+    "wikipedia": "Kevin Hern",
+    "wikidata": "Q58333614",
+    "opensecrets": "N00040829",
+    "ballotpedia": "Kevin Hern",
+    "votesmart": 180004,
+    "icpsr": 21760,
+    "google_entity_id": "kg:/g/11gzqw48lf",
+    "pictorial": 13210,
+    "twitter": "repkevinhern",
+    "twitter_id": 1067818539179024400,
+    "facebook": "repkevinhern",
+    "youtube": "UC9XRRGCgGOEtEOwUAo1rYZg"
+  },
+  "name": {
+    "first": "Kevin",
+    "middle": "R.",
+    "last": "Hern",
+    "official_full": "Kevin Hern"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1961-12-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OK",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://hern.house.gov",
+    "address": "171 Cannon House Office Building Washington DC 20515-3601",
+    "office": "171 Cannon House Office Building",
+    "phone": "202-225-2211"
+  }
 }
