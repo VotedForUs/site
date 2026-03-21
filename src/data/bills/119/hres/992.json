@@ -1098,6 +1098,10 @@
   "number": "992",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/992/summaries?format=json"
+  },
   "title": "Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
   "titles": {
     "titles": [
@@ -1126,8 +1130,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-01-20T16:23:10Z",
-  "updateDateIncludingText": "2026-01-20T16:23:10Z",
+  "updateDate": "2026-03-17T15:59:14Z",
+  "updateDateIncludingText": "2026-03-17T15:59:14Z",
   "id": "119-HRES-992",
   "lastActionDate": "2026-01-14",
   "lastRecordedVoteDate": "2026-01-14T19:03:24Z"

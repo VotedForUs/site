@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/620/actions?format=json",
     "actions": [
       {
@@ -246,8 +246,7 @@
   "latestAction": {
     "actionDate": "2025-12-15",
     "actionTime": "16:18:31",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/620",
   "number": "620",
@@ -258,9 +257,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/620/summaries?format=json"
   },
   "title": "Veterinary Services to Improve Public Health in Rural Communities Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Veterinary Services to Improve Public Health in Rural Communities Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-16T12:03:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Veterinary Services to Improve Public Health in Rural Communities Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-12T06:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Veterinary Services to Improve Public Health in Rural Communities Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-01T04:38:12Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Veterinary Services to Improve Public Health in Rural Communities Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-04T15:23:23Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to provide public health veterinary services to Indian Tribes and Tribal organizations for rabies prevention, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-04T15:18:43Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-03T21:06:12Z",
-  "updateDateIncludingText": "2025-10-03T21:06:12Z",
+  "updateDate": "2026-02-04T05:06:15Z",
+  "updateDateIncludingText": "2026-02-04T05:06:15Z",
   "id": "119-S-620",
   "lastActionDate": "2025-12-15",
   "lastRecordedVoteDate": "2025-12-11"

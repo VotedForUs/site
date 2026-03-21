@@ -1,0 +1,366 @@
+{
+  "actions": {
+    "count": 20,
+    "url": "https://api.congress.gov/v3/bill/119/hjres/133/actions?format=json",
+    "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2025-12-02",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-46.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-12-02",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-46.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2025-12-02",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-12-02",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2025-11-21",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2025-11-21",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
+      {
+        "actionDate": "2025-11-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-11-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S8399)",
+        "type": "Floor",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2025-11-20",
+            "rollNumber": 0,
+            "sessionNumber": 0,
+            "url": "",
+            "votes": {
+              "C000127": "UC",
+              "K000367": "UC",
+              "S000033": "UC",
+              "W000802": "UC",
+              "B001261": "UC",
+              "W000437": "UC",
+              "C001035": "UC",
+              "C001056": "UC",
+              "D000563": "UC",
+              "G000359": "UC",
+              "M000355": "UC",
+              "M001176": "UC",
+              "R000122": "UC",
+              "R000584": "UC",
+              "S001181": "UC",
+              "W000805": "UC",
+              "G000555": "UC",
+              "C001088": "UC",
+              "B001230": "UC",
+              "B001267": "UC",
+              "B001243": "UC",
+              "B001277": "UC",
+              "B001236": "UC",
+              "C001047": "UC",
+              "C001075": "UC",
+              "C000880": "UC",
+              "G000386": "UC",
+              "H001046": "UC",
+              "H001042": "UC",
+              "H001061": "UC",
+              "J000293": "UC",
+              "L000575": "UC",
+              "L000577": "UC",
+              "L000570": "UC",
+              "M000133": "UC",
+              "M000934": "UC",
+              "M001153": "UC",
+              "M001169": "UC",
+              "M001111": "UC",
+              "P000603": "UC",
+              "P000595": "UC",
+              "S001150": "UC",
+              "S000148": "UC",
+              "S001184": "UC",
+              "T000250": "UC",
+              "V000128": "UC",
+              "W000800": "UC",
+              "W000779": "UC",
+              "Y000064": "UC",
+              "S001194": "UC",
+              "C001095": "UC",
+              "D000622": "UC",
+              "W000817": "UC",
+              "K000383": "UC",
+              "D000618": "UC",
+              "C001096": "UC",
+              "F000463": "UC",
+              "M001190": "UC",
+              "C001098": "UC",
+              "K000384": "UC",
+              "B001288": "UC",
+              "G000574": "UC",
+              "S001198": "UC",
+              "E000295": "UC",
+              "T000476": "UC",
+              "R000605": "UC",
+              "K000393": "UC",
+              "H001076": "UC",
+              "C001113": "UC",
+              "B001303": "UC",
+              "B001299": "UC",
+              "M001198": "UC",
+              "B001305": "UC",
+              "R000608": "UC",
+              "C001114": "UC",
+              "S001203": "UC",
+              "H001079": "UC",
+              "S001208": "UC",
+              "K000394": "UC",
+              "S001217": "UC",
+              "H001089": "UC",
+              "K000377": "UC",
+              "L000571": "UC",
+              "T000278": "UC",
+              "H000273": "UC",
+              "H000601": "UC",
+              "P000145": "UC",
+              "O000174": "UC",
+              "W000790": "UC",
+              "B001319": "UC",
+              "S001227": "UC",
+              "F000479": "UC",
+              "R000618": "UC",
+              "A000382": "UC",
+              "S001232": "UC",
+              "M001242": "UC",
+              "M001243": "UC",
+              "J000312": "UC",
+              "H001104": "UC",
+              "M001244": "UC"
+            },
+            "result": "passed",
+            "senateCount": {
+              "yeas": 100,
+              "nays": 0,
+              "present": 0,
+              "absent": 0
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "Democrat",
+                "yeaTotal": 45,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              },
+              {
+                "voteParty": "Independent",
+                "yeaTotal": 2,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              },
+              {
+                "voteParty": "Republican",
+                "yeaTotal": 53,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hjres/133",
+            "question": "Pass with Unanimous Consent",
+            "id": "119-HJRES-133-1"
+          }
+        ]
+      },
+      {
+        "actionDate": "2025-11-19",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate, read twice.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H38310",
+        "actionDate": "2025-11-18",
+        "actionTime": "20:17:50",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37100",
+        "actionDate": "2025-11-18",
+        "actionTime": "20:17:48",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "On passage Passed without objection. (text: CR H4758-4759)",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2025-11-18",
+        "actionTime": "20:17:05",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered by unanimous consent. (consideration: CR H4757-4758)",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H12300",
+        "actionDate": "2025-11-18",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Committee on Natural Resources discharged.",
+        "type": "Discharge"
+      },
+      {
+        "actionCode": "H30200",
+        "actionDate": "2025-11-18",
+        "actionTime": "20:17:03",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Gosar asked unanimous consent to discharge from committee and consider.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-11-04",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Natural Resources.",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2025-11-04",
+  "latestAction": {
+    "actionDate": "2025-12-02",
+    "text": "Became Public Law No: 119-46."
+  },
+  "laws": [
+    {
+      "number": "119-46",
+      "type": "Public Law"
+    }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/133",
+  "number": "133",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2025-11-20T05:38:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-11-05T10:48:16Z"
+      },
+      {
+        "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-11-05T09:05:44Z"
+      }
+    ]
+  },
+  "type": "HJRES",
+  "updateDate": "2025-12-15T17:14:03Z",
+  "updateDateIncludingText": "2025-12-15T17:14:03Z",
+  "id": "119-HJRES-133",
+  "lastActionDate": "2025-12-02",
+  "lastRecordedVoteDate": "2025-11-20"
+}

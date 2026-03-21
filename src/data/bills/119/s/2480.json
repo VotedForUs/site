@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S4763: 2; text: CR S4764)",
+        "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S4763; text: CR S4764)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -200,6 +200,32 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Telecom Cybersecurity Transparency Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Telecom Cybersecurity Transparency Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-30T12:51:34Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Telecom Cybersecurity Transparency Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-07-29T11:08:23Z"
+      },
+      {
+        "title": "A bill to require the Secretary of Homeland Security to publicly release, in full, the unclassified report titled \"U.S. Telecommunications Insecurity 2022\", and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-07-29T10:56:21Z"
+      }
+    ]
+  },
   "type": "S",
   "updateDate": "2025-09-08T16:57:58Z",
   "updateDateIncludingText": "2025-09-08T16:57:58Z",

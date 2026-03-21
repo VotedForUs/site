@@ -161,7 +161,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 37 - 61. Record Vote Number: 533. (: CR S6824-6825)",
+        "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 37 - 61. Record Vote Number: 533. (CR S6824-6825)",
         "type": "Floor"
       },
       {
@@ -169,7 +169,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (: CR S6799)",
+        "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S6799)",
         "type": "Floor"
       },
       {
@@ -177,7 +177,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate. (: CR S6799)",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S6799)",
         "type": "Floor"
       },
       {
@@ -240,8 +240,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-10-28T17:35:29Z",
-  "updateDateIncludingText": "2025-10-28T17:35:29Z",
+  "updateDate": "2026-03-12T15:09:20Z",
+  "updateDateIncludingText": "2026-03-12T15:09:20Z",
   "id": "119-S-2806",
   "lastActionDate": "2025-09-29",
   "lastRecordedVoteDate": "2025-09-30T01:31:35Z"

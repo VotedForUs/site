@@ -1091,6 +1091,10 @@
   "number": "953",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/953/summaries?format=json"
+  },
   "title": "Providing for consideration of the bill (H.R. 6703) to ensure access to affordable health insurance; providing for consideration of the bill (H.R. 498) to amend title XIX of the Social Security Act to prohibit Federal Medicaid funding for gender transition procedures for minors; providing for consideration of the bill (H.R. 3492) to amend section 116 of title 18, United States Code, with respect to genital and bodily mutilation and chemical castration of minors; and relating to consideration of the bill (H.R. 4776) to amend the National Environmental Policy Act of 1969 to clarify ambiguous provisions and facilitate a more efficient, effective, and timely environmental review process.",
   "titles": {
     "titles": [
@@ -1119,8 +1123,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-01-20T16:23:32Z",
-  "updateDateIncludingText": "2026-01-20T16:23:32Z",
+  "updateDate": "2026-03-18T20:12:37Z",
+  "updateDateIncludingText": "2026-03-18T20:12:37Z",
   "id": "119-HRES-953",
   "lastActionDate": "2025-12-17",
   "lastRecordedVoteDate": "2025-12-17T16:07:01Z"

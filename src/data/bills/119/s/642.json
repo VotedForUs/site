@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/642/actions?format=json",
     "actions": [
       {
@@ -246,8 +246,7 @@
   "latestAction": {
     "actionDate": "2025-12-15",
     "actionTime": "16:18:51",
-    "text": "Held at the desk.",
-    "actionCode": "H15000"
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/642",
   "number": "642",
@@ -258,9 +257,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/642/summaries?format=json"
   },
   "title": "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-12-16T12:03:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-12-12T06:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-10-01T04:53:13Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Keweenaw Bay Indian Community Land Claim Settlement Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-04T15:23:22Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to provide compensation to the Keweenaw Bay Indian Community for the taking without just compensation of land by the United States inside the exterior boundaries of the L'Anse Indian Reservation that were guaranteed to the Community under a treaty signed in 1854, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-04T15:18:40Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-29T02:11:04Z",
-  "updateDateIncludingText": "2025-10-29T02:11:04Z",
+  "updateDate": "2026-02-04T05:06:19Z",
+  "updateDateIncludingText": "2026-02-04T05:06:19Z",
   "id": "119-S-642",
   "lastActionDate": "2025-12-15",
   "lastRecordedVoteDate": "2025-12-11"

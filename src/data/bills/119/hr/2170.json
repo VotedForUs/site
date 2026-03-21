@@ -76,7 +76,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5521: 1)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5521)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -765,7 +765,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3489-3491: 1)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3489-3491)",
         "type": "Floor"
       },
       {
@@ -836,6 +836,24 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/2170/summaries?format=json"
   },
   "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Toms River, New Jersey, the Leonard G. 'Bud' Lomell, VA Clinic, and for other purposes.",
+  "titles": {
+    "titles": [
+      {
+        "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Toms River, New Jersey, the Leonard G. 'Bud' Lomell, VA Clinic, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-23T14:13:02Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Toms River, New Jersey, the Leonard G. 'Bud' Lomell, VA Clinic, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-29T02:48:35Z"
+      }
+    ]
+  },
   "type": "HR",
   "updateDate": "2025-09-17T19:20:42Z",
   "updateDateIncludingText": "2025-09-17T19:20:42Z",
