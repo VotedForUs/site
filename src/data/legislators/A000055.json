@@ -1,13 +1,279 @@
 {
-  "id": "A000055",
-  "bioguide": "A000055",
-  "name": "Robert B. Aderholt",
-  "lastName": "Aderholt",
-  "state": "AL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "272 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4876",
+    "zipCode": 20515
+  },
+  "bioguideId": "A000055",
+  "birthYear": "1965",
+  "cosponsoredLegislation": {
+    "count": 2286,
+    "url": "https://api.congress.gov/v3/member/A000055/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/A000055.jpg"
+  },
+  "directOrderName": "Robert B. Aderholt",
   "district": 4,
-  "nameTitle": "Rep. Robert B. Aderholt (AL-4)",
-  "imageUrl": "https://www.congress.gov/img/member/a000055_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Robert",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Aderholt, Robert B.",
+  "lastName": "Aderholt",
+  "middleName": "B.",
+  "officialWebsiteUrl": "https://aderholt.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 1997
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Robert B. Aderholt",
+      "endDate": "2024-02-27T13:20:46Z",
+      "firstName": "ROBERT",
+      "invertedOrderName": "Aderholt, Robert B.",
+      "lastName": "ADERHOLT",
+      "middleName": "B.",
+      "startDate": "1997-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Robert B. Aderholt",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Aderholt, Robert B.",
+      "lastName": "Aderholt",
+      "middleName": "B.",
+      "startDate": "2024-02-27T13:20:47Z"
+    },
+    {
+      "directOrderName": "Robert B. Aderholt",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Aderholt, Robert B.",
+      "lastName": "Aderholt",
+      "middleName": "B.",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Robert B. Aderholt",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Robert",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Aderholt, Robert B.",
+      "lastName": "Aderholt",
+      "middleName": "B.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 103,
+    "url": "https://api.congress.gov/v3/member/A000055/sponsored-legislation"
+  },
+  "state": "Alabama",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 4,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 4,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 4,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 4,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 4,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 4,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 4,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 4,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AL",
+      "stateName": "Alabama"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "A000055",
+    "thomas": "01460",
+    "govtrack": 400004,
+    "opensecrets": "N00003028",
+    "votesmart": 441,
+    "fec": [
+      "H6AL04098"
+    ],
+    "cspan": 45516,
+    "wikipedia": "Robert Aderholt",
+    "house_history": 8333,
+    "ballotpedia": "Robert B. Aderholt",
+    "maplight": 127,
+    "icpsr": 29701,
+    "wikidata": "Q672671",
+    "google_entity_id": "kg:/m/024p03",
+    "pictorial": 12897,
+    "twitter": "Robert_Aderholt",
+    "facebook": "RobertAderholt",
+    "youtube": "RobertAderholt",
+    "youtube_id": "UC71CAgpg1gbLTew_pfTneGA",
+    "twitter_id": 76452765
+  },
+  "name": {
+    "first": "Robert",
+    "last": "Aderholt",
+    "official_full": "Robert B. Aderholt",
+    "middle": "B."
+  },
+  "bio": {
+    "birthday": "1965-07-22",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AL",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://aderholt.house.gov",
+    "rss_url": "http://aderholt.house.gov/common/rss//index.cfm?rss=20",
+    "address": "272 Cannon House Office Building Washington DC 20515-0104",
+    "office": "272 Cannon House Office Building",
+    "phone": "202-225-4876"
+  }
 }

@@ -1,13 +1,140 @@
 {
-  "id": "S001211",
-  "bioguide": "S001211",
-  "name": "Greg Stanton",
-  "lastName": "Stanton",
-  "state": "AZ",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "207 Cannon House Office Building",
+    "phoneNumber": "(202) 225-9888",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001211",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 1083,
+    "url": "https://api.congress.gov/v3/member/S001211/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001211.jpg"
+  },
+  "directOrderName": "Greg Stanton",
   "district": 4,
-  "nameTitle": "Rep. Greg Stanton (AZ-4)",
-  "imageUrl": "https://www.congress.gov/img/member/s001211_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Greg",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Stanton, Greg",
+  "lastName": "Stanton",
+  "officialWebsiteUrl": "https://stanton.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Greg Stanton",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stanton, Greg",
+      "lastName": "Stanton",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Greg Stanton",
+      "firstName": "Greg",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Stanton, Greg",
+      "lastName": "Stanton",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 75,
+    "url": "https://api.congress.gov/v3/member/S001211/sponsored-legislation"
+  },
+  "state": "Arizona",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 9,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 9,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AZ",
+      "stateName": "Arizona"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "S001211",
+    "fec": [
+      "H8AZ09040"
+    ],
+    "govtrack": 412753,
+    "wikipedia": "Greg Stanton",
+    "wikidata": "Q5606289",
+    "opensecrets": "N00041750",
+    "google_entity_id": "kg:/m/0hgrxqb",
+    "votesmart": 72030,
+    "icpsr": 21968,
+    "ballotpedia": "Greg Stanton",
+    "pictorial": 12909,
+    "twitter": "RepGregStanton",
+    "twitter_id": 1080885078425784300,
+    "facebook": "repgregstanton",
+    "instagram": "repgregstanton"
+  },
+  "name": {
+    "first": "Greg",
+    "last": "Stanton",
+    "official_full": "Greg Stanton"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-03-08"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AZ",
+    "district": 4,
+    "party": "Democrat",
+    "url": "https://stanton.house.gov",
+    "address": "207 Cannon House Office Building Washington DC 20515-0304",
+    "office": "207 Cannon House Office Building",
+    "phone": "202-225-9888"
+  }
 }

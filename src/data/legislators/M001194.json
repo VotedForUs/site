@@ -1,13 +1,178 @@
 {
-  "id": "M001194",
-  "bioguide": "M001194",
-  "name": "John R. Moolenaar",
-  "lastName": "Moolenaar",
-  "state": "MI",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "246 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3561",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001194",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 1553,
+    "url": "https://api.congress.gov/v3/member/M001194/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001194.jpg"
+  },
+  "directOrderName": "John R. Moolenaar",
   "district": 2,
-  "nameTitle": "Rep. John R. Moolenaar (MI-2)",
-  "imageUrl": "https://www.congress.gov/img/member/m001194_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Moolenaar, John R.",
+  "lastName": "Moolenaar",
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://moolenaar.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John R. Moolenaar",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moolenaar, John R.",
+      "lastName": "Moolenaar",
+      "middleName": "R.",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "John R. Moolenaar",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moolenaar, John R.",
+      "lastName": "Moolenaar",
+      "middleName": "R.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "John R. Moolenaar",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Moolenaar, John R.",
+      "lastName": "Moolenaar",
+      "middleName": "R.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 95,
+    "url": "https://api.congress.gov/v3/member/M001194/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "M001194",
+    "fec": [
+      "H4MI04126"
+    ],
+    "govtrack": 412634,
+    "opensecrets": "N00036275",
+    "thomas": "02248",
+    "maplight": 2090,
+    "wikidata": "Q16194212",
+    "wikipedia": "John Moolenaar",
+    "google_entity_id": "kg:/m/0z6rww4",
+    "votesmart": 37676,
+    "cspan": 76660,
+    "icpsr": 21526,
+    "ballotpedia": "John Moolenaar",
+    "pictorial": 13095,
+    "twitter": "RepMoolenaar",
+    "facebook": "RepMoolenaar",
+    "twitter_id": 2696643955,
+    "instagram": "RepMoolenaar",
+    "youtube_id": "UCnMvVN4a8roZu4crE0UW2DA"
+  },
+  "name": {
+    "first": "John",
+    "middle": "R.",
+    "last": "Moolenaar",
+    "official_full": "John R. Moolenaar"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1961-05-08"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://moolenaar.house.gov",
+    "address": "246 Cannon House Office Building Washington DC 20515-2202",
+    "office": "246 Cannon House Office Building",
+    "phone": "202-225-3561"
+  }
 }

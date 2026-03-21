@@ -1,13 +1,150 @@
 {
-  "id": "E000299",
-  "bioguide": "E000299",
-  "name": "Veronica Escobar",
-  "lastName": "Escobar",
-  "state": "TX",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2448 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4831",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000299",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 1467,
+    "url": "https://api.congress.gov/v3/member/E000299/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/E000299.jpg"
+  },
+  "directOrderName": "Veronica Escobar",
   "district": 16,
-  "nameTitle": "Rep. Veronica Escobar (TX-16)",
-  "imageUrl": "https://www.congress.gov/img/member/e000299_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Veronica",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Escobar, Veronica",
+  "lastName": "Escobar",
+  "officialWebsiteUrl": "https://escobar.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Veronica Escobar",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Veronica",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Escobar, Veronica",
+      "lastName": "Escobar",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Veronica Escobar",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Veronica",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Escobar, Veronica",
+      "lastName": "Escobar",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Veronica Escobar",
+      "firstName": "Veronica",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Escobar, Veronica",
+      "lastName": "Escobar",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 73,
+    "url": "https://api.congress.gov/v3/member/E000299/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 16,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 16,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 16,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 16,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "E000299",
+    "fec": [
+      "H8TX16109"
+    ],
+    "govtrack": 412825,
+    "wikipedia": "Veronica Escobar",
+    "wikidata": "Q52274267",
+    "votesmart": 99345,
+    "opensecrets": "N00041702",
+    "icpsr": 21917,
+    "ballotpedia": "Veronica Escobar",
+    "google_entity_id": "kg:/g/11ghdw9g9p",
+    "pictorial": 13273,
+    "twitter": "RepEscobar",
+    "twitter_id": 1075517806551154700,
+    "facebook": "RepEscobar",
+    "instagram": "repescobar",
+    "youtube": "UC46TX2P8K0CA_4gZv8_R2Og"
+  },
+  "name": {
+    "first": "Veronica",
+    "last": "Escobar",
+    "official_full": "Veronica Escobar"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1969-09-15"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 16,
+    "party": "Democrat",
+    "url": "https://escobar.house.gov",
+    "address": "2448 Rayburn House Office Building Washington DC 20515-4316",
+    "office": "2448 Rayburn House Office Building",
+    "phone": "202-225-4831"
+  }
 }

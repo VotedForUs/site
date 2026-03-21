@@ -1,13 +1,163 @@
 {
-  "id": "W000821",
-  "bioguide": "W000821",
-  "name": "Bruce Westerman",
-  "lastName": "Westerman",
-  "state": "AR",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "202 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3772",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000821",
+  "birthYear": "1967",
+  "cosponsoredLegislation": {
+    "count": 1146,
+    "url": "https://api.congress.gov/v3/member/W000821/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000821.jpg"
+  },
+  "directOrderName": "Bruce Westerman",
   "district": 4,
-  "nameTitle": "Rep. Bruce Westerman (AR-4)",
-  "imageUrl": "https://www.congress.gov/img/member/w000821_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Bruce",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Westerman, Bruce",
+  "lastName": "Westerman",
+  "officialWebsiteUrl": "https://westerman.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Bruce Westerman",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Bruce",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Westerman, Bruce",
+      "lastName": "Westerman",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Bruce Westerman",
+      "firstName": "Bruce",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Westerman, Bruce",
+      "lastName": "Westerman",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 90,
+    "url": "https://api.congress.gov/v3/member/W000821/sponsored-legislation"
+  },
+  "state": "Arkansas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "AR",
+      "stateName": "Arkansas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "W000821",
+    "fec": [
+      "H4AR04048"
+    ],
+    "govtrack": 412610,
+    "opensecrets": "N00035527",
+    "thomas": "02224",
+    "maplight": 2066,
+    "wikidata": "Q16197421",
+    "wikipedia": "Bruce Westerman",
+    "google_entity_id": "kg:/m/0wklff5",
+    "votesmart": 119120,
+    "cspan": 76097,
+    "icpsr": 21563,
+    "ballotpedia": "Bruce Westerman",
+    "pictorial": 12904,
+    "twitter": "RepWesterman",
+    "facebook": "RepWesterman",
+    "twitter_id": 2852998461,
+    "youtube_id": "UCNshPbmupCwP5a7Hi79jETQ"
+  },
+  "name": {
+    "first": "Bruce",
+    "last": "Westerman",
+    "official_full": "Bruce Westerman"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1967-11-18"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "AR",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://westerman.house.gov",
+    "address": "202 Cannon House Office Building Washington DC 20515-0404",
+    "office": "202 Cannon House Office Building",
+    "phone": "202-225-3772"
+  }
 }

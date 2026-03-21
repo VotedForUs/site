@@ -1,13 +1,154 @@
 {
-  "id": "J000298",
-  "bioguide": "J000298",
-  "name": "Pramila Jayapal",
-  "lastName": "Jayapal",
-  "state": "WA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2346 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-3106",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000298",
+  "birthYear": "1965",
+  "cosponsoredLegislation": {
+    "count": 3056,
+    "url": "https://api.congress.gov/v3/member/J000298/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/J000298.jpg"
+  },
+  "directOrderName": "Pramila Jayapal",
   "district": 7,
-  "nameTitle": "Rep. Pramila Jayapal (WA-7)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_wa_7_jayapal_pramila_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Pramila",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Jayapal, Pramila",
+  "lastName": "Jayapal",
+  "officialWebsiteUrl": "https://jayapal.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Pramila Jayapal",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Pramila",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Jayapal, Pramila",
+      "lastName": "Jayapal",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Pramila Jayapal",
+      "firstName": "Pramila",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Jayapal, Pramila",
+      "lastName": "Jayapal",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 182,
+    "url": "https://api.congress.gov/v3/member/J000298/sponsored-legislation"
+  },
+  "state": "Washington",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 7,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 7,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 7,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "J000298",
+    "govtrack": 412730,
+    "wikipedia": "Pramila Jayapal",
+    "wikidata": "Q18978140",
+    "votesmart": 153141,
+    "fec": [
+      "H6WA07458"
+    ],
+    "opensecrets": "N00038858",
+    "maplight": 2242,
+    "google_entity_id": "kg:/m/0c3dxcq",
+    "cspan": 9267128,
+    "icpsr": 21726,
+    "ballotpedia": "Pramila Jayapal",
+    "pictorial": 13318,
+    "facebook": "RepJayapal",
+    "twitter": "RepJayapal",
+    "twitter_id": 815733290955112400,
+    "instagram": "repjayapal",
+    "youtube_id": "UCmyD0_-2Oowkfwc_Raghclw",
+    "mastodon": "@RepJayapal@mastodon.social"
+  },
+  "name": {
+    "first": "Pramila",
+    "last": "Jayapal",
+    "official_full": "Pramila Jayapal"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1965-09-21"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WA",
+    "district": 7,
+    "party": "Democrat",
+    "url": "https://jayapal.house.gov",
+    "address": "2346 Rayburn House Office Building Washington DC 20515-4707",
+    "office": "2346 Rayburn House Office Building",
+    "phone": "202-225-3106"
+  }
 }

@@ -1,13 +1,146 @@
 {
-  "id": "H001091",
-  "bioguide": "H001091",
-  "name": "Ashley Hinson",
-  "lastName": "Hinson",
-  "state": "IA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2458 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2911",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001091",
+  "birthYear": "1983",
+  "cosponsoredLegislation": {
+    "count": 883,
+    "url": "https://api.congress.gov/v3/member/H001091/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image Courtesy of Member",
+    "imageUrl": "/images/legislators/H001091.jpg"
+  },
+  "directOrderName": "Ashley Hinson",
   "district": 2,
-  "nameTitle": "Rep. Ashley Hinson (IA-2)",
-  "imageUrl": "https://www.congress.gov/img/member/677ed0c7514c773869b6b920_200.jpg",
-  "attribution": "Image Courtesy of Member",
-  "type": "rep"
+  "firstName": "Ashley",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Hinson, Ashley",
+  "lastName": "Hinson",
+  "officialWebsiteUrl": "https://hinson.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ashley Hinson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ashley",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hinson, Ashley",
+      "lastName": "Hinson",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ashley Hinson",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Ashley",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hinson, Ashley",
+      "lastName": "Hinson",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Ashley Hinson",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Ashley",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hinson, Ashley",
+      "lastName": "Hinson",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Ashley Hinson",
+      "firstName": "Ashley",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Hinson, Ashley",
+      "lastName": "Hinson",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 84,
+    "url": "https://api.congress.gov/v3/member/H001091/sponsored-legislation"
+  },
+  "state": "Iowa",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IA",
+      "stateName": "Iowa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IA",
+      "stateName": "Iowa"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IA",
+      "stateName": "Iowa"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "H001091",
+    "fec": [
+      "H0IA01174"
+    ],
+    "opensecrets": "N00044521",
+    "govtrack": 456816,
+    "wikidata": "Q60713905",
+    "wikipedia": "Ashley Hinson",
+    "google_entity_id": "kg:/g/11fjq_fl2t",
+    "votesmart": 168783,
+    "ballotpedia": "Ashley Hinson",
+    "pictorial": 13028,
+    "twitter": "RepAshleyHinson",
+    "twitter_id": 1340783304304410600,
+    "facebook": "RepAshleyHinson"
+  },
+  "name": {
+    "first": "Ashley",
+    "last": "Hinson",
+    "official_full": "Ashley Hinson"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1983-06-27"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IA",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://hinson.house.gov",
+    "address": "2458 Rayburn House Office Building Washington DC 20515-1502",
+    "office": "2458 Rayburn House Office Building",
+    "phone": "202-225-2911"
+  }
 }

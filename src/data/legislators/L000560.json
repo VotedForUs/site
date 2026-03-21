@@ -1,13 +1,245 @@
 {
-  "id": "L000560",
-  "bioguide": "L000560",
-  "name": "Rick Larsen",
-  "lastName": "Larsen",
-  "state": "WA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2163 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2605",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000560",
+  "birthYear": "1965",
+  "cosponsoredLegislation": {
+    "count": 3614,
+    "url": "https://api.congress.gov/v3/member/L000560/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/L000560.jpg"
+  },
+  "directOrderName": "Rick Larsen",
   "district": 2,
-  "nameTitle": "Rep. Rick Larsen (WA-2)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_wa_2_larsen_rick_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Rick",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Larsen, Rick",
+  "lastName": "Larsen",
+  "officialWebsiteUrl": "https://larsen.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2001
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Rick Larsen",
+      "endDate": "2024-02-27T13:20:59Z",
+      "firstName": "RICK",
+      "invertedOrderName": "Larsen, Rick",
+      "lastName": "LARSEN",
+      "startDate": "2001-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Rick Larsen",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Rick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Larsen, Rick",
+      "lastName": "Larsen",
+      "startDate": "2024-02-27T13:21:00Z"
+    },
+    {
+      "directOrderName": "Rick Larsen",
+      "firstName": "Rick",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Larsen, Rick",
+      "lastName": "Larsen",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 176,
+    "url": "https://api.congress.gov/v3/member/L000560/sponsored-legislation"
+  },
+  "state": "Washington",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 2,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 2,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 2,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 2,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 2,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 2,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "WA",
+      "stateName": "Washington"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "L000560",
+    "thomas": "01675",
+    "govtrack": 400232,
+    "opensecrets": "N00009759",
+    "votesmart": 56231,
+    "fec": [
+      "H0WA02080"
+    ],
+    "cspan": 86610,
+    "wikipedia": "Rick Larsen",
+    "house_history": 17298,
+    "maplight": 333,
+    "icpsr": 20145,
+    "wikidata": "Q503529",
+    "google_entity_id": "kg:/m/025953",
+    "ballotpedia": "Rick Larsen",
+    "pictorial": 13313,
+    "twitter": "RepRickLarsen",
+    "facebook": "RepRickLarsen",
+    "youtube": "congressmanlarsen",
+    "youtube_id": "UCMv7LsJtiyO4AJcbRux5CxQ",
+    "twitter_id": 404132211,
+    "instagram": "repricklarsen"
+  },
+  "name": {
+    "first": "Rick",
+    "last": "Larsen",
+    "official_full": "Rick Larsen"
+  },
+  "bio": {
+    "birthday": "1965-06-15",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "WA",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://larsen.house.gov",
+    "rss_url": "http://larsen.house.gov/rss.xml",
+    "address": "2163 Rayburn House Office Building Washington DC 20515-4702",
+    "office": "2163 Rayburn House Office Building",
+    "phone": "202-225-2605"
+  }
 }

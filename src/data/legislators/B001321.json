@@ -1,13 +1,113 @@
 {
-  "id": "B001321",
-  "bioguide": "B001321",
-  "name": "Tom Barrett",
-  "lastName": "Barrett",
-  "state": "MI",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1232 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4872",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001321",
+  "birthYear": "1981",
+  "cosponsoredLegislation": {
+    "count": 145,
+    "url": "https://api.congress.gov/v3/member/B001321/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001321.jpg"
+  },
+  "directOrderName": "Tom Barrett",
   "district": 7,
-  "nameTitle": "Rep. Tom Barrett (MI-7)",
-  "imageUrl": "https://www.congress.gov/img/member/6774207d0b34857ecc909034_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Tom",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Barrett, Tom",
+  "lastName": "Barrett",
+  "officialWebsiteUrl": "https://barrett.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tom Barrett",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Barrett, Tom",
+      "lastName": "Barrett",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Tom Barrett",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Barrett, Tom",
+      "lastName": "Barrett",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Tom Barrett",
+      "firstName": "Tom",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Barrett, Tom",
+      "lastName": "Barrett",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 31,
+    "url": "https://api.congress.gov/v3/member/B001321/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "B001321",
+    "fec": [
+      "H2MI07123"
+    ],
+    "govtrack": 456994,
+    "opensecrets": "N00049596",
+    "wikipedia": "Tom Barrett (Michigan politician)",
+    "wikidata": "Q18684588",
+    "twitter": "reptombarrett",
+    "facebook": "RepTomBarrett"
+  },
+  "name": {
+    "first": "Tom",
+    "middle": "More",
+    "last": "Barrett",
+    "official_full": "Tom Barrett"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1981-04-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 7,
+    "party": "Republican",
+    "address": "1232 Longworth House Office Building Washington DC 20515-2207",
+    "office": "1232 Longworth House Office Building",
+    "phone": "202-225-4872",
+    "url": "https://barrett.house.gov"
+  }
 }

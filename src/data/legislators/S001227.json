@@ -1,13 +1,141 @@
 {
-  "id": "S001227",
-  "bioguide": "S001227",
-  "name": "Eric Schmitt",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "404 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-5721",
+    "zipCode": 20510
+  },
+  "bioguideId": "S001227",
+  "birthYear": "1975",
+  "cosponsoredLegislation": {
+    "count": 375,
+    "url": "https://api.congress.gov/v3/member/S001227/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Official U.S. Senate Photo",
+    "imageUrl": "/images/legislators/S001227.jpg"
+  },
+  "directOrderName": "Eric Schmitt",
+  "firstName": "Eric",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Schmitt, Eric",
   "lastName": "Schmitt",
-  "state": "MO",
-  "party": "Republican",
-  "nameTitle": "Sen. Eric Schmitt (MO)",
-  "imageUrl": "https://www.congress.gov/img/member/b66a0806e77f63e862391b15a0b1f753_200.jpg",
-  "attribution": "Official U.S. Senate Photo",
-  "stateRank": "junior",
-  "type": "sen"
+  "middleName": "S.",
+  "officialWebsiteUrl": "https://www.schmitt.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Eric Schmitt",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "Eric",
+      "invertedOrderName": "Schmitt, Eric",
+      "lastName": "Schmitt",
+      "middleName": "Stephen",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Eric Schmitt",
+      "endDate": "2023-05-04T06:34:59Z",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schmitt, Eric",
+      "lastName": "Schmitt",
+      "middleName": "S.",
+      "startDate": "2023-01-04T07:35:00Z"
+    },
+    {
+      "directOrderName": "Eric Schmitt",
+      "endDate": "2025-04-09T08:44:59Z",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schmitt, Eric",
+      "lastName": "Schmitt",
+      "middleName": "S.",
+      "startDate": "2023-05-04T06:35:00Z"
+    },
+    {
+      "directOrderName": "Eric Schmitt",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Schmitt, Eric",
+      "lastName": "Schmitt",
+      "middleName": "S.",
+      "startDate": "2025-04-09T08:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 106,
+    "url": "https://api.congress.gov/v3/member/S001227/sponsored-legislation"
+  },
+  "state": "Missouri",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:35Z",
+  "id": {
+    "bioguide": "S001227",
+    "lis": "S420",
+    "fec": [
+      "S2MO00544"
+    ],
+    "govtrack": 456875,
+    "opensecrets": "N00048414",
+    "wikidata": "Q5387455",
+    "wikipedia": "Eric Schmitt",
+    "ballotpedia": "Eric Schmitt",
+    "votesmart": 104474,
+    "pictorial": 13416,
+    "twitter": "SenEricSchmitt",
+    "facebook": "116059838031776",
+    "instagram": "senericschmitt",
+    "youtube": "@senericschmitt"
+  },
+  "name": {
+    "first": "Eric",
+    "middle": "Stephen",
+    "last": "Schmitt",
+    "official_full": "Eric Schmitt"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1975-06-20"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "MO",
+    "class": 3,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.schmitt.senate.gov",
+    "contact_form": "https://www.schmitt.senate.gov/contact/",
+    "address": "404 Russell Senate Office Building Washington DC 20510",
+    "office": "404 Russell Senate Office Building",
+    "phone": "202-224-5721"
+  }
 }

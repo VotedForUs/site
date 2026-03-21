@@ -1,13 +1,192 @@
 {
-  "id": "W000814",
-  "bioguide": "W000814",
-  "name": "Randy K. Weber, Sr.",
-  "lastName": "Weber",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "107 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2831",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000814",
+  "birthYear": "1953",
+  "cosponsoredLegislation": {
+    "count": 3066,
+    "url": "https://api.congress.gov/v3/member/W000814/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000814.jpg"
+  },
+  "directOrderName": "Randy K. Weber, Sr.",
   "district": 14,
-  "nameTitle": "Rep. Randy K. Weber, Sr. (TX-14)",
-  "imageUrl": "https://www.congress.gov/img/member/w000814_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Randy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Weber, Randy K. Sr.",
+  "lastName": "Weber",
+  "middleName": "K.",
+  "officialWebsiteUrl": "https://weber.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Randy K. Weber, Sr.",
+      "endDate": "2024-02-27T13:20:58Z",
+      "firstName": "Randy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Weber, Randy K., Sr.",
+      "lastName": "Weber",
+      "middleName": "K.",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Randy K. Weber, Sr.",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Randy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Weber, Randy K.",
+      "lastName": "Weber",
+      "middleName": "K.",
+      "startDate": "2024-02-27T13:20:59Z"
+    },
+    {
+      "directOrderName": "Randy K. Weber, Sr.",
+      "firstName": "Randy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Weber, Randy K. Sr.",
+      "lastName": "Weber",
+      "middleName": "K.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 103,
+    "url": "https://api.congress.gov/v3/member/W000814/sponsored-legislation"
+  },
+  "state": "Texas",
+  "suffixName": "Sr.",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 14,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 14,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 14,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 14,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 14,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 14,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 14,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "govtrack": 412574,
+    "bioguide": "W000814",
+    "thomas": "02161",
+    "cspan": 79698,
+    "fec": [
+      "H2TX14149"
+    ],
+    "wikipedia": "Randy Weber",
+    "votesmart": 102026,
+    "opensecrets": "N00033539",
+    "ballotpedia": "Randy Weber",
+    "maplight": 1798,
+    "icpsr": 21360,
+    "wikidata": "Q4014569",
+    "google_entity_id": "kg:/m/0km63t0",
+    "pictorial": 13271,
+    "twitter": "TXRandy14",
+    "facebook": "TXRandy14",
+    "youtube": "TXRandy14",
+    "youtube_id": "UCJSZRrAcd5i1bHLjR66PZdg",
+    "twitter_id": 1058051748,
+    "instagram": "TXRandy14"
+  },
+  "name": {
+    "first": "Randy",
+    "last": "Weber",
+    "middle": "K.",
+    "suffix": "Sr.",
+    "official_full": "Randy K. Weber, Sr."
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1953-07-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 14,
+    "party": "Republican",
+    "url": "https://weber.house.gov",
+    "rss_url": "http://weber.house.gov/rss.xml",
+    "address": "107 Cannon House Office Building Washington DC 20515-4314",
+    "office": "107 Cannon House Office Building",
+    "phone": "202-225-2831"
+  }
 }

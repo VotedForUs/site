@@ -1,13 +1,206 @@
 {
-  "id": "J000289",
-  "bioguide": "J000289",
-  "name": "Jim Jordan",
-  "lastName": "Jordan",
-  "state": "OH",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2056 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2676",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000289",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 1317,
+    "url": "https://api.congress.gov/v3/member/J000289/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000289.jpg"
+  },
+  "directOrderName": "Jim Jordan",
   "district": 4,
-  "nameTitle": "Rep. Jim Jordan (OH-4)",
-  "imageUrl": "https://www.congress.gov/img/member/j000289_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jim",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Jordan, Jim",
+  "lastName": "Jordan",
+  "officialWebsiteUrl": "https://jordan.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jim Jordan",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jordan, Jim",
+      "lastName": "Jordan",
+      "startDate": "2007-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jim Jordan",
+      "firstName": "Jim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Jordan, Jim",
+      "lastName": "Jordan",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 55,
+    "url": "https://api.congress.gov/v3/member/J000289/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 4,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 4,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 4,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 4,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 4,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "J000289",
+    "thomas": "01868",
+    "govtrack": 412226,
+    "opensecrets": "N00027894",
+    "votesmart": 8158,
+    "fec": [
+      "H6OH04082"
+    ],
+    "cspan": 1022879,
+    "wikipedia": "Jim Jordan",
+    "house_history": 16067,
+    "ballotpedia": "Jim Jordan",
+    "maplight": 711,
+    "icpsr": 20738,
+    "wikidata": "Q186215",
+    "google_entity_id": "kg:/m/04l4x5",
+    "pictorial": 13198,
+    "twitter": "Jim_Jordan",
+    "facebook": "repjimjordan",
+    "youtube": "RepJimJordan",
+    "youtube_id": "UCPFBhS00ivPV585GlnNlyqA",
+    "twitter_id": 18166778
+  },
+  "name": {
+    "first": "Jim",
+    "last": "Jordan",
+    "official_full": "Jim Jordan"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1964-02-17"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://jordan.house.gov",
+    "rss_url": "http://jordan.house.gov/news/rss.aspx",
+    "address": "2056 Rayburn House Office Building Washington DC 20515-3504",
+    "office": "2056 Rayburn House Office Building",
+    "phone": "202-225-2676"
+  }
 }

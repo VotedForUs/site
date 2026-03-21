@@ -1,13 +1,274 @@
 {
-  "id": "L000397",
-  "bioguide": "L000397",
-  "name": "Zoe Lofgren",
-  "lastName": "Lofgren",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1401 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3072",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000397",
+  "birthYear": "1947",
+  "cosponsoredLegislation": {
+    "count": 8347,
+    "url": "https://api.congress.gov/v3/member/L000397/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000397.jpg"
+  },
+  "directOrderName": "Zoe Lofgren",
   "district": 18,
-  "nameTitle": "Rep. Zoe Lofgren (CA-18)",
-  "imageUrl": "https://www.congress.gov/img/member/671024d7ec807bca66057fcb_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Zoe",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Lofgren, Zoe",
+  "lastName": "Lofgren",
+  "officialWebsiteUrl": "https://lofgren.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 1995
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Zoe Lofgren",
+      "endDate": "2024-02-27T13:20:47Z",
+      "firstName": "ZOE",
+      "invertedOrderName": "Lofgren, Zoe",
+      "lastName": "LOFGREN",
+      "startDate": "1995-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Zoe Lofgren",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Zoe",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lofgren, Zoe",
+      "lastName": "Lofgren",
+      "startDate": "2024-02-27T13:20:48Z"
+    },
+    {
+      "directOrderName": "Zoe Lofgren",
+      "firstName": "Zoe",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Lofgren, Zoe",
+      "lastName": "Lofgren",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 367,
+    "url": "https://api.congress.gov/v3/member/L000397/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 104,
+      "district": 16,
+      "endYear": 1997,
+      "memberType": "Representative",
+      "startYear": 1995,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 16,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 16,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 16,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 16,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 16,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 16,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 16,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 16,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 19,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 19,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 19,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 19,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 19,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 18,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 18,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "L000397",
+    "thomas": "00701",
+    "govtrack": 400245,
+    "opensecrets": "N00007479",
+    "votesmart": 21899,
+    "fec": [
+      "H4CA16049"
+    ],
+    "cspan": 36520,
+    "wikipedia": "Zoe Lofgren",
+    "house_history": 17087,
+    "ballotpedia": "Zoe Lofgren",
+    "maplight": 345,
+    "icpsr": 29504,
+    "wikidata": "Q218217",
+    "google_entity_id": "kg:/m/024t94",
+    "pictorial": 12932,
+    "twitter": "RepZoeLofgren",
+    "facebook": "zoelofgren",
+    "youtube": "RepZoeLofgren",
+    "youtube_id": "UCOaQ79adORFcaTuJZoIFuZQ",
+    "twitter_id": 267938462
+  },
+  "name": {
+    "first": "Zoe",
+    "last": "Lofgren",
+    "official_full": "Zoe Lofgren"
+  },
+  "bio": {
+    "birthday": "1947-12-21",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 18,
+    "party": "Democrat",
+    "url": "https://lofgren.house.gov",
+    "rss_url": "http://lofgren.house.gov/index.php?format=feed&amp;type=rss",
+    "address": "1401 Longworth House Office Building Washington DC 20515-0518",
+    "office": "1401 Longworth House Office Building",
+    "phone": "202-225-3072"
+  }
 }

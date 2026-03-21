@@ -1,13 +1,161 @@
 {
-  "id": "S001198",
-  "bioguide": "S001198",
-  "name": "Dan Sullivan",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "706 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-3004",
+    "zipCode": 20510
+  },
+  "bioguideId": "S001198",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 1762,
+    "url": "https://api.congress.gov/v3/member/S001198/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/S001198.jpg"
+  },
+  "directOrderName": "Dan Sullivan",
+  "firstName": "Dan",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Sullivan, Dan",
   "lastName": "Sullivan",
-  "state": "AK",
-  "party": "Republican",
-  "nameTitle": "Sen. Dan Sullivan (AK)",
-  "imageUrl": "https://www.congress.gov/img/member/s001198_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.sullivan.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Dan Sullivan",
+      "endDate": "2025-02-15T09:44:59Z",
+      "firstName": "Dan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Sullivan, Dan",
+      "lastName": "Sullivan",
+      "startDate": "2015-01-06T05:00:00Z"
+    },
+    {
+      "directOrderName": "Dan Sullivan",
+      "firstName": "Dan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Sullivan, Dan",
+      "lastName": "Sullivan",
+      "startDate": "2025-02-15T09:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 529,
+    "url": "https://api.congress.gov/v3/member/S001198/sponsored-legislation"
+  },
+  "state": "Alaska",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "AK",
+      "stateName": "Alaska"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:48Z",
+  "id": {
+    "bioguide": "S001198",
+    "thomas": "02290",
+    "fec": [
+      "S4AK00214"
+    ],
+    "govtrack": 412665,
+    "opensecrets": "N00035774",
+    "lis": "S383",
+    "maplight": 2121,
+    "wikidata": "Q5218668",
+    "wikipedia": "Dan Sullivan (U.S. senator)",
+    "google_entity_id": "kg:/m/07s4r4q",
+    "votesmart": 114964,
+    "cspan": 1023262,
+    "icpsr": 41500,
+    "ballotpedia": "Daniel S. Sullivan",
+    "pictorial": 13368,
+    "twitter": "SenDanSullivan",
+    "instagram": "sen_dansullivan",
+    "instagram_id": 1660873387,
+    "facebook": "SenDanSullivan",
+    "twitter_id": 2891210047,
+    "youtube_id": "UC7tXCm8gKlAhTFo2kuf5ylw"
+  },
+  "name": {
+    "first": "Dan",
+    "last": "Sullivan",
+    "official_full": "Dan Sullivan"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1964-11-13"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "AK",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Republican",
+    "url": "https://www.sullivan.senate.gov",
+    "contact_form": "https://www.sullivan.senate.gov/contact/email",
+    "address": "706 Hart Senate Office Building Washington DC 20510",
+    "office": "706 Hart Senate Office Building",
+    "phone": "202-224-3004"
+  }
 }

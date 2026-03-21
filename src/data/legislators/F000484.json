@@ -1,13 +1,124 @@
 {
-  "id": "F000484",
-  "bioguide": "F000484",
-  "name": "Randy Fine",
-  "lastName": "Fine",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "244 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2706",
+    "zipCode": 20515
+  },
+  "bioguideId": "F000484",
+  "birthYear": "1974",
+  "cosponsoredLegislation": {
+    "count": 139,
+    "url": "https://api.congress.gov/v3/member/F000484/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/F000484.jpg"
+  },
+  "directOrderName": "Randy Fine",
   "district": 6,
-  "nameTitle": "Rep. Randy Fine (FL-6)",
-  "imageUrl": "https://www.congress.gov/img/member/67efda8c1b05a5a598f7fde0_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Randy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Fine, Randy",
+  "lastName": "Fine",
+  "officialWebsiteUrl": "https://fine.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Randy Fine",
+      "endDate": "2025-04-28T13:04:16Z",
+      "firstName": "Randy",
+      "invertedOrderName": "Fine, Randy",
+      "lastName": "Fine",
+      "startDate": "2025-04-02T04:00:00Z"
+    },
+    {
+      "directOrderName": "Randy Fine",
+      "endDate": "2025-04-28T13:06:18Z",
+      "firstName": "Randy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fine, Randy",
+      "lastName": "Fine",
+      "startDate": "2025-04-28T13:04:17Z"
+    },
+    {
+      "directOrderName": "Randy Fine",
+      "endDate": "2025-04-02T03:59:59Z",
+      "firstName": "Randy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fine, Randy",
+      "lastName": "Fine",
+      "startDate": "2025-04-28T13:06:19Z"
+    },
+    {
+      "directOrderName": "Randy Fine",
+      "firstName": "Randy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fine, Randy",
+      "lastName": "Fine",
+      "startDate": "2025-04-02T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 26,
+    "url": "https://api.congress.gov/v3/member/F000484/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:21Z",
+  "id": {
+    "bioguide": "F000484",
+    "fec": [
+      "H6FL06258"
+    ],
+    "votesmart": 172909,
+    "wikipedia": "Randy Fine",
+    "wikidata": "Q59240328",
+    "govtrack": 457035,
+    "ballotpedia": "Randy Fine",
+    "house_history": 36507226672,
+    "google_entity_id": "kg:/g/11fhvxds1p"
+  },
+  "name": {
+    "first": "Randall",
+    "middle": "Adam",
+    "nickname": "Randy",
+    "last": "Fine",
+    "official_full": "Randy Fine"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1974-04-20"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-04-02",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://fine.house.gov",
+    "contact_form": "hhttps://fine.house.gov/address_authentication?form=/contact/email-me",
+    "address": "244 Cannon House Office Building Washington DC 20515-0906",
+    "office": "244 Cannon House Office Building",
+    "phone": "202-225-2706"
+  }
 }

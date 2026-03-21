@@ -1,13 +1,150 @@
 {
-  "id": "T000481",
-  "bioguide": "T000481",
-  "name": "Rashida Tlaib",
-  "lastName": "Tlaib",
-  "state": "MI",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2438 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5126",
+    "zipCode": 20515
+  },
+  "bioguideId": "T000481",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 3166,
+    "url": "https://api.congress.gov/v3/member/T000481/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/T000481.jpg"
+  },
+  "directOrderName": "Rashida Tlaib",
   "district": 12,
-  "nameTitle": "Rep. Rashida Tlaib (MI-12)",
-  "imageUrl": "https://www.congress.gov/img/member/t000481_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Rashida",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Tlaib, Rashida",
+  "lastName": "Tlaib",
+  "officialWebsiteUrl": "https://tlaib.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Rashida Tlaib",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Rashida",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Tlaib, Rashida",
+      "lastName": "Tlaib",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Rashida Tlaib",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Rashida",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Tlaib, Rashida",
+      "lastName": "Tlaib",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Rashida Tlaib",
+      "firstName": "Rashida",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Tlaib, Rashida",
+      "lastName": "Tlaib",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 128,
+    "url": "https://api.congress.gov/v3/member/T000481/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 13,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 13,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 12,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 12,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "T000481",
+    "fec": [
+      "H8MI13250"
+    ],
+    "govtrack": 412787,
+    "wikipedia": "Rashida Tlaib",
+    "wikidata": "Q7294939",
+    "opensecrets": "N00042649",
+    "google_entity_id": "kg:/m/059_x6c",
+    "votesmart": 105368,
+    "icpsr": 21975,
+    "ballotpedia": "Rashida Tlaib",
+    "pictorial": 13105,
+    "twitter": "RepRashida",
+    "twitter_id": 1079769536730140700,
+    "facebook": "RepRashida",
+    "instagram": "reprashida",
+    "youtube": "UCl5GK07sD5TZIhKcsDNSExA"
+  },
+  "name": {
+    "first": "Rashida",
+    "last": "Tlaib",
+    "official_full": "Rashida Tlaib"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1976-07-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 12,
+    "party": "Democrat",
+    "url": "https://tlaib.house.gov",
+    "address": "2438 Rayburn House Office Building Washington DC 20515-2212",
+    "office": "2438 Rayburn House Office Building",
+    "phone": "202-225-5126"
+  }
 }

@@ -1,13 +1,206 @@
 {
-  "id": "W000798",
-  "bioguide": "W000798",
-  "name": "Tim Walberg",
-  "lastName": "Walberg",
-  "state": "MI",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2266 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6276",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000798",
+  "birthYear": "1951",
+  "cosponsoredLegislation": {
+    "count": 2095,
+    "url": "https://api.congress.gov/v3/member/W000798/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000798.jpg"
+  },
+  "directOrderName": "Tim Walberg",
   "district": 5,
-  "nameTitle": "Rep. Tim Walberg (MI-5)",
-  "imageUrl": "https://www.congress.gov/img/member/w000798_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Tim",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Walberg, Tim",
+  "lastName": "Walberg",
+  "officialWebsiteUrl": "https://walberg.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Tim Walberg",
+      "endDate": "2011-01-01T05:00:00Z",
+      "firstName": "Timothy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Walberg, Timothy",
+      "lastName": "Walberg",
+      "startDate": "2007-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Tim Walberg",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Tim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Walberg, Tim",
+      "lastName": "Walberg",
+      "startDate": "2011-01-01T05:00:00Z"
+    },
+    {
+      "directOrderName": "Tim Walberg",
+      "firstName": "Tim",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Walberg, Tim",
+      "lastName": "Walberg",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 218,
+    "url": "https://api.congress.gov/v3/member/W000798/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 7,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 7,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 7,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 7,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 7,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 7,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 7,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "W000798",
+    "thomas": "01855",
+    "govtrack": 412213,
+    "opensecrets": "N00026368",
+    "votesmart": 8618,
+    "fec": [
+      "H4MI07103"
+    ],
+    "cspan": 1022844,
+    "wikipedia": "Tim Walberg",
+    "ballotpedia": "Tim Walberg",
+    "maplight": 698,
+    "icpsr": 20725,
+    "house_history": 24179,
+    "wikidata": "Q978618",
+    "google_entity_id": "kg:/m/0d7n3m",
+    "pictorial": 13098,
+    "twitter": "RepWalberg",
+    "facebook": "RepWalberg",
+    "youtube": "RepWalberg",
+    "youtube_id": "UChpf3_3Wn8f3qSJbsYXrhvg",
+    "twitter_id": 237862972,
+    "instagram": "repwalberg"
+  },
+  "name": {
+    "first": "Tim",
+    "last": "Walberg",
+    "official_full": "Tim Walberg"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1951-04-12"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://walberg.house.gov",
+    "rss_url": "http://walberg.house.gov/news/rss.aspx",
+    "address": "2266 Rayburn House Office Building Washington DC 20515-2205",
+    "office": "2266 Rayburn House Office Building",
+    "phone": "202-225-6276"
+  }
 }

@@ -1,13 +1,177 @@
 {
-  "id": "S001208",
-  "bioguide": "S001208",
-  "name": "Elissa Slotkin",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "291 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4822",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001208",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 1486,
+    "url": "https://api.congress.gov/v3/member/S001208/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001208.jpg"
+  },
+  "directOrderName": "Elissa Slotkin",
+  "firstName": "Elissa",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Slotkin, Elissa",
   "lastName": "Slotkin",
-  "state": "MI",
-  "party": "Democrat",
-  "nameTitle": "Sen. Elissa Slotkin (MI)",
-  "imageUrl": "https://www.congress.gov/img/member/s001208_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.slotkin.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Elissa Slotkin",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Elissa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Slotkin, Elissa",
+      "lastName": "Slotkin",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Elissa Slotkin",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Elissa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Slotkin, Elissa",
+      "lastName": "Slotkin",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Elissa Slotkin",
+      "endDate": "2025-02-15T09:44:59Z",
+      "firstName": "Elissa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Slotkin, Elissa",
+      "lastName": "Slotkin",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Elissa Slotkin",
+      "endDate": "2025-03-14T08:44:59Z",
+      "firstName": "Elissa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Slotkin, Elissa",
+      "lastName": "Slotkin",
+      "startDate": "2025-02-15T09:45:00Z"
+    },
+    {
+      "directOrderName": "Elissa Slotkin",
+      "endDate": "2025-03-27T08:44:59Z",
+      "firstName": "Elissa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Slotkin, Elissa",
+      "lastName": "Slotkin",
+      "startDate": "2025-03-14T08:45:00Z"
+    },
+    {
+      "directOrderName": "Elissa Slotkin",
+      "firstName": "Elissa",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Slotkin, Elissa",
+      "lastName": "Slotkin",
+      "startDate": "2025-03-27T08:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 203,
+    "url": "https://api.congress.gov/v3/member/S001208/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 8,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 8,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:45Z",
+  "id": {
+    "bioguide": "S001208",
+    "lis": "S436",
+    "fec": [
+      "H8MI08102",
+      "S4MI00470"
+    ],
+    "govtrack": 412784,
+    "wikipedia": "Elissa Slotkin",
+    "wikidata": "Q30323721",
+    "opensecrets": "N00041357",
+    "votesmart": 181080,
+    "ballotpedia": "Elissa Slotkin",
+    "icpsr": 21965,
+    "google_entity_id": "kg:/g/11dfr3z7r1",
+    "pictorial": 13100,
+    "twitter": "RepSlotkin",
+    "twitter_id": 1078401427347857400,
+    "facebook": "SenElissaSlotkin",
+    "instagram": "senslotkin"
+  },
+  "name": {
+    "first": "Elissa",
+    "last": "Slotkin",
+    "official_full": "Elissa Slotkin"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1976-07-10"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "MI",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.slotkin.senate.gov",
+    "address": "291 Russell Senate Office Building Washington DC 20510",
+    "office": "291 Russell Senate Office Building",
+    "phone": "202-224-4822"
+  }
 }

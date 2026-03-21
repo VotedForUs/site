@@ -1,13 +1,129 @@
 {
-  "id": "F000478",
-  "bioguide": "F000478",
-  "name": "Russell Fry",
-  "lastName": "Fry",
-  "state": "SC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "345 Cannon House Office Building",
+    "phoneNumber": "(202) 225-9895",
+    "zipCode": 20515
+  },
+  "bioguideId": "F000478",
+  "birthYear": "1985",
+  "cosponsoredLegislation": {
+    "count": 366,
+    "url": "https://api.congress.gov/v3/member/F000478/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/F000478.jpg"
+  },
+  "directOrderName": "Russell Fry",
   "district": 7,
-  "nameTitle": "Rep. Russell Fry (SC-7)",
-  "imageUrl": "https://www.congress.gov/img/member/f000478_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Russell",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Fry, Russell",
+  "lastName": "Fry",
+  "officialWebsiteUrl": "https://fry.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Russell Fry",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Russell",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fry, Russell",
+      "lastName": "Fry",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Russell Fry",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Russell",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fry, Russell",
+      "lastName": "Fry",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Russell Fry",
+      "firstName": "Russell",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Fry, Russell",
+      "lastName": "Fry",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 29,
+    "url": "https://api.congress.gov/v3/member/F000478/sponsored-legislation"
+  },
+  "state": "South Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "SC",
+      "stateName": "South Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "F000478",
+    "fec": [
+      "H2SC07280"
+    ],
+    "govtrack": 456938,
+    "opensecrets": "N00049165",
+    "wikidata": "Q96015883",
+    "wikipedia": "Russell Fry (politician)",
+    "google_entity_id": "kg:/g/11f0r9q6_r",
+    "votesmart": 157265,
+    "pictorial": 13247,
+    "twitter": "RepRussellFry",
+    "twitter_id": 1603514304354984000,
+    "facebook": "reprussellfry",
+    "instagram": "reprussellfry",
+    "youtube": "@reprussellfry"
+  },
+  "name": {
+    "first": "Russell",
+    "middle": "William",
+    "last": "Fry",
+    "official_full": "Russell Fry"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1985-01-31"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "SC",
+    "district": 7,
+    "party": "Republican",
+    "url": "https://fry.house.gov",
+    "address": "345 Cannon House Office Building Washington DC 20515-4007",
+    "office": "345 Cannon House Office Building",
+    "phone": "202-225-9895"
+  }
 }

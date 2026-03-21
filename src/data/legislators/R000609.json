@@ -1,13 +1,157 @@
 {
-  "id": "R000609",
-  "bioguide": "R000609",
-  "name": "John H. Rutherford",
-  "lastName": "Rutherford",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1711 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2501",
+    "zipCode": 20515
+  },
+  "bioguideId": "R000609",
+  "birthYear": "1952",
+  "cosponsoredLegislation": {
+    "count": 1689,
+    "url": "https://api.congress.gov/v3/member/R000609/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/R000609.jpg"
+  },
+  "directOrderName": "John H. Rutherford",
   "district": 5,
-  "nameTitle": "Rep. John H. Rutherford (FL-5)",
-  "imageUrl": "https://www.congress.gov/img/member/r000609_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "John",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Rutherford, John H.",
+  "lastName": "Rutherford",
+  "middleName": "H.",
+  "officialWebsiteUrl": "https://rutherford.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "John H. Rutherford",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rutherford, John H.",
+      "lastName": "Rutherford",
+      "middleName": "H.",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "John H. Rutherford",
+      "firstName": "John",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Rutherford, John H.",
+      "lastName": "Rutherford",
+      "middleName": "H.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 47,
+    "url": "https://api.congress.gov/v3/member/R000609/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "R000609",
+    "govtrack": 412692,
+    "wikipedia": "John Rutherford (Florida politician)",
+    "wikidata": "Q6256043",
+    "votesmart": 172542,
+    "fec": [
+      "H6FL04105"
+    ],
+    "opensecrets": "N00039777",
+    "maplight": 2204,
+    "google_entity_id": "kg:/m/03zz77",
+    "cspan": 104531,
+    "icpsr": 21744,
+    "ballotpedia": "John Rutherford (Florida)",
+    "pictorial": 12986,
+    "facebook": "RepRutherfordFL",
+    "twitter": "RepRutherfordFL",
+    "twitter_id": 828977216595849200,
+    "instagram": "reprutherfordfl",
+    "youtube": "Reprutherfordfl"
+  },
+  "name": {
+    "first": "John",
+    "middle": "H.",
+    "last": "Rutherford",
+    "official_full": "John H. Rutherford"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1952-09-02"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://rutherford.house.gov",
+    "address": "1711 Longworth House Office Building Washington DC 20515-0905",
+    "office": "1711 Longworth House Office Building",
+    "phone": "202-225-2501"
+  }
 }

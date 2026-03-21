@@ -1,13 +1,128 @@
 {
-  "id": "H001093",
-  "bioguide": "H001093",
-  "name": "Erin Houchin",
-  "lastName": "Houchin",
-  "state": "IN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "342 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5315",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001093",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 439,
+    "url": "https://api.congress.gov/v3/member/H001093/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001093.jpg"
+  },
+  "directOrderName": "Erin Houchin",
   "district": 9,
-  "nameTitle": "Rep. Erin Houchin (IN-9)",
-  "imageUrl": "https://www.congress.gov/img/member/h001093_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Erin",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Houchin, Erin",
+  "lastName": "Houchin",
+  "officialWebsiteUrl": "https://houchin.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Erin Houchin",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Erin",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Houchin, Erin",
+      "lastName": "Houchin",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Erin Houchin",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Erin",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Houchin, Erin",
+      "lastName": "Houchin",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Erin Houchin",
+      "firstName": "Erin",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Houchin, Erin",
+      "lastName": "Houchin",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 59,
+    "url": "https://api.congress.gov/v3/member/H001093/sponsored-legislation"
+  },
+  "state": "Indiana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 9,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 9,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "H001093",
+    "fec": [
+      "H6IN09143"
+    ],
+    "govtrack": 456903,
+    "opensecrets": "N00037427",
+    "wikidata": "Q20676994",
+    "wikipedia": "Erin Houchin",
+    "google_entity_id": "kg:/g/11b81xpwnd",
+    "votesmart": 149614,
+    "pictorial": 13058,
+    "twitter": "RepHouchin",
+    "twitter_id": 1603694348725526500,
+    "facebook": "RepHouchin",
+    "instagram": "rephouchin"
+  },
+  "name": {
+    "first": "Erin",
+    "middle": "Suzanne",
+    "last": "Houchin",
+    "official_full": "Erin Houchin"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1976-09-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IN",
+    "district": 9,
+    "party": "Republican",
+    "url": "https://houchin.house.gov",
+    "address": "342 Cannon House Office Building Washington DC 20515-1409",
+    "office": "342 Cannon House Office Building",
+    "phone": "202-225-5315"
+  }
 }

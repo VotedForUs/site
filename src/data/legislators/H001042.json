@@ -1,13 +1,198 @@
 {
-  "id": "H001042",
-  "bioguide": "H001042",
-  "name": "Mazie K. Hirono",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "109 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-6361",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001042",
+  "birthYear": "1947",
+  "cosponsoredLegislation": {
+    "count": 4985,
+    "url": "https://api.congress.gov/v3/member/H001042/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/H001042.jpg"
+  },
+  "directOrderName": "Mazie K. Hirono",
+  "firstName": "Mazie",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Hirono, Mazie K.",
   "lastName": "Hirono",
-  "state": "HI",
-  "party": "Democrat",
-  "nameTitle": "Sen. Mazie K. Hirono (HI)",
-  "imageUrl": "https://www.congress.gov/img/member/h001042_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "middleName": "K.",
+  "officialWebsiteUrl": "https://www.hirono.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mazie K. Hirono",
+      "firstName": "Mazie",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Hirono, Mazie K.",
+      "lastName": "Hirono",
+      "middleName": "K.",
+      "startDate": "2007-01-03T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 740,
+    "url": "https://api.congress.gov/v3/member/H001042/sponsored-legislation"
+  },
+  "state": "Hawaii",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 2,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 2,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 2,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 113,
+      "endYear": 2015,
+      "memberType": "Senator",
+      "startYear": 2013,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 114,
+      "endYear": 2017,
+      "memberType": "Senator",
+      "startYear": 2015,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 115,
+      "endYear": 2019,
+      "memberType": "Senator",
+      "startYear": 2017,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Senator",
+      "startYear": 2019,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "HI",
+      "stateName": "Hawaii"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:28Z",
+  "id": {
+    "bioguide": "H001042",
+    "thomas": "01844",
+    "lis": "S361",
+    "govtrack": 412200,
+    "opensecrets": "N00028139",
+    "votesmart": 1677,
+    "fec": [
+      "H6HI02251",
+      "S2HI00106"
+    ],
+    "cspan": 91216,
+    "wikipedia": "Mazie Hirono",
+    "house_history": 15580,
+    "ballotpedia": "Mazie K. Hirono",
+    "maplight": 687,
+    "icpsr": 20713,
+    "wikidata": "Q16476",
+    "google_entity_id": "kg:/m/0357cd",
+    "pictorial": 13423,
+    "twitter": "MazieHirono",
+    "youtube": "CongresswomanHirono",
+    "youtube_id": "UCcoKhxad156flzPYJ8JMFOA",
+    "instagram": "maziehirono",
+    "instagram_id": 304094084,
+    "facebook": "senatorhirono",
+    "twitter_id": 92186819
+  },
+  "name": {
+    "first": "Mazie",
+    "middle": "K.",
+    "last": "Hirono",
+    "official_full": "Mazie K. Hirono"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1947-11-03"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2025-01-03",
+    "end": "2031-01-03",
+    "state": "HI",
+    "class": 1,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.hirono.senate.gov",
+    "rss_url": "http://www.hirono.senate.gov/rss/feeds/?type=all",
+    "contact_form": "https://www.hirono.senate.gov/contact",
+    "address": "109 Hart Senate Office Building Washington DC 20510",
+    "office": "109 Hart Senate Office Building",
+    "phone": "202-224-6361"
+  }
 }

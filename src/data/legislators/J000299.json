@@ -1,13 +1,173 @@
 {
-  "id": "J000299",
-  "bioguide": "J000299",
-  "name": "Mike Johnson",
-  "lastName": "Johnson",
-  "state": "LA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "521 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2777",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000299",
+  "birthYear": "1972",
+  "cosponsoredLegislation": {
+    "count": 670,
+    "url": "https://api.congress.gov/v3/member/J000299/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000299.jpg"
+  },
+  "directOrderName": "Mike Johnson",
   "district": 4,
-  "nameTitle": "Rep. Mike Johnson (LA-4)",
-  "imageUrl": "https://www.congress.gov/img/member/67ffcb2af22eaf56065817c4_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Johnson, Mike",
+  "lastName": "Johnson",
+  "leadership": [
+    {
+      "congress": 118,
+      "type": "Speaker of the House"
+    },
+    {
+      "congress": 119,
+      "current": true,
+      "type": "Speaker of the House"
+    }
+  ],
+  "officialWebsiteUrl": "https://mikejohnson.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Johnson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Mike",
+      "lastName": "Johnson",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Johnson",
+      "endDate": "2025-04-02T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Mike",
+      "lastName": "Johnson",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Johnson",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Mike",
+      "lastName": "Johnson",
+      "startDate": "2025-04-02T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 74,
+    "url": "https://api.congress.gov/v3/member/J000299/sponsored-legislation"
+  },
+  "state": "Louisiana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 4,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 4,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 4,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "LA",
+      "stateName": "Louisiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "J000299",
+    "govtrack": 412706,
+    "wikipedia": "Mike Johnson",
+    "wikidata": "Q19880665",
+    "votesmart": 156097,
+    "fec": [
+      "H6LA04138"
+    ],
+    "opensecrets": "N00039106",
+    "maplight": 2218,
+    "google_entity_id": "kg:/m/0131jn2m",
+    "cspan": 106095,
+    "icpsr": 21727,
+    "ballotpedia": "Mike Johnson (Louisiana)",
+    "pictorial": 13072,
+    "facebook": "RepMikeJohnson",
+    "twitter": "RepMikeJohnson",
+    "twitter_id": 827279765287559200,
+    "instagram": "RepMikeJohnson",
+    "youtube_id": "UCzqBEpeIaDEfvAtsA53Fx2Q"
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Johnson",
+    "official_full": "Mike Johnson"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1972-01-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "LA",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://mikejohnson.house.gov",
+    "address": "521 Cannon House Office Building Washington DC 20515-1804",
+    "office": "521 Cannon House Office Building",
+    "phone": "202-225-2777"
+  }
 }

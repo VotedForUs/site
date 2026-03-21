@@ -1,13 +1,193 @@
 {
-  "id": "L000570",
-  "bioguide": "L000570",
-  "name": "Ben Ray Luján",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "498 Russell Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-6621",
+    "zipCode": 20515
+  },
+  "bioguideId": "L000570",
+  "birthYear": "1972",
+  "cosponsoredLegislation": {
+    "count": 3166,
+    "url": "https://api.congress.gov/v3/member/L000570/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/L000570.jpg"
+  },
+  "directOrderName": "Ben Ray Luján",
+  "firstName": "Ben",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Luján, Ben Ray",
   "lastName": "Luján",
-  "state": "NM",
-  "party": "Democrat",
-  "nameTitle": "Sen. Ben Ray Luján (NM)",
-  "imageUrl": "https://www.congress.gov/img/member/l000570_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "stateRank": "junior",
-  "type": "sen"
+  "leadership": [
+    {
+      "congress": 116,
+      "type": "Assistant Democratic Leader"
+    }
+  ],
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://www.lujan.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2009
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ben Ray Luján",
+      "firstName": "Ben",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Luján, Ben Ray",
+      "lastName": "Luján",
+      "middleName": "R.",
+      "startDate": "2009-01-03T17:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 479,
+    "url": "https://api.congress.gov/v3/member/L000570/sponsored-legislation"
+  },
+  "state": "New Mexico",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 3,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 3,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 3,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 3,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "NM",
+      "stateName": "New Mexico"
+    }
+  ],
+  "updateDate": "2026-03-08T10:31:50Z",
+  "id": {
+    "bioguide": "L000570",
+    "thomas": "01939",
+    "lis": "S409",
+    "govtrack": 412293,
+    "opensecrets": "N00029562",
+    "votesmart": 102842,
+    "fec": [
+      "H8NM03196",
+      "S0NM00058"
+    ],
+    "cspan": 1031351,
+    "wikipedia": "Ben Ray Luján",
+    "house_history": 17317,
+    "maplight": 775,
+    "icpsr": 20932,
+    "wikidata": "Q324256",
+    "google_entity_id": "kg:/m/0412qzq",
+    "ballotpedia": "Ben Ray Luján",
+    "twitter": "SenatorLujan",
+    "twitter_id": 19318314,
+    "facebook": "SenatorLujan",
+    "instagram": "senatorlujan"
+  },
+  "name": {
+    "first": "Ben",
+    "middle": "Ray",
+    "last": "Luján",
+    "official_full": "Ben Ray Luján"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1972-06-07"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2021-01-03",
+    "end": "2027-01-03",
+    "state": "NM",
+    "class": 2,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.lujan.senate.gov",
+    "contact_form": "https://www.lujan.senate.gov/contact/",
+    "address": "498 Russell Senate Office Building Washington DC 20510",
+    "office": "498 Russell Senate Office Building",
+    "phone": "202-224-6621"
+  }
 }

@@ -1,13 +1,141 @@
 {
-  "id": "C001118",
-  "bioguide": "C001118",
-  "name": "Ben Cline",
-  "lastName": "Cline",
-  "state": "VA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2443 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-5431",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001118",
+  "birthYear": "1972",
+  "cosponsoredLegislation": {
+    "count": 1043,
+    "url": "https://api.congress.gov/v3/member/C001118/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001118.jpg"
+  },
+  "directOrderName": "Ben Cline",
   "district": 6,
-  "nameTitle": "Rep. Ben Cline (VA-6)",
-  "imageUrl": "https://www.congress.gov/img/member/c001118_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ben",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Cline, Ben",
+  "lastName": "Cline",
+  "officialWebsiteUrl": "https://cline.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ben Cline",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ben",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cline, Ben",
+      "lastName": "Cline",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ben Cline",
+      "firstName": "Ben",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Cline, Ben",
+      "lastName": "Cline",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 55,
+    "url": "https://api.congress.gov/v3/member/C001118/sponsored-legislation"
+  },
+  "state": "Virginia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "VA",
+      "stateName": "Virginia"
+    }
+  ],
+  "updateDate": "2026-02-03T20:55:26Z",
+  "id": {
+    "bioguide": "C001118",
+    "fec": [
+      "H8VA06104"
+    ],
+    "govtrack": 412832,
+    "opensecrets": "N00042296",
+    "wikipedia": "Ben Cline",
+    "wikidata": "Q4885439",
+    "google_entity_id": "kg:/m/04yf6mk",
+    "votesmart": 50959,
+    "icpsr": 21908,
+    "ballotpedia": "Ben Cline",
+    "pictorial": 13304,
+    "twitter": "RepBenCline",
+    "twitter_id": 1072158357237174300,
+    "facebook": "RepBenCline",
+    "instagram": "repbencline",
+    "youtube": "@congressmanbencline8000"
+  },
+  "name": {
+    "first": "Ben",
+    "last": "Cline",
+    "official_full": "Ben Cline"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1972-02-29"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "VA",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://cline.house.gov",
+    "address": "2443 Rayburn House Office Building Washington DC 20515-4606",
+    "office": "2443 Rayburn House Office Building",
+    "phone": "202-225-5431"
+  }
 }

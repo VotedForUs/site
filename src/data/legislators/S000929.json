@@ -1,13 +1,137 @@
 {
-  "id": "S000929",
-  "bioguide": "S000929",
-  "name": "Victoria Spartz",
-  "lastName": "Spartz",
-  "state": "IN",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1609 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2276",
+    "zipCode": 20515
+  },
+  "bioguideId": "S000929",
+  "birthYear": "1978",
+  "cosponsoredLegislation": {
+    "count": 301,
+    "url": "https://api.congress.gov/v3/member/S000929/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S000929.jpg"
+  },
+  "directOrderName": "Victoria Spartz",
   "district": 5,
-  "nameTitle": "Rep. Victoria Spartz (IN-5)",
-  "imageUrl": "https://www.congress.gov/img/member/s000929_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Victoria",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Spartz, Victoria",
+  "lastName": "Spartz",
+  "officialWebsiteUrl": "https://spartz.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Victoria Spartz",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Victoria",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Spartz, Victoria",
+      "lastName": "Spartz",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Victoria Spartz",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Victoria",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Spartz, Victoria",
+      "lastName": "Spartz",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Victoria Spartz",
+      "firstName": "Victoria",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Spartz, Victoria",
+      "lastName": "Spartz",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 44,
+    "url": "https://api.congress.gov/v3/member/S000929/sponsored-legislation"
+  },
+  "state": "Indiana",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IN",
+      "stateName": "Indiana"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "S000929",
+    "fec": [
+      "H0IN05326"
+    ],
+    "opensecrets": "N00046537",
+    "govtrack": 456822,
+    "wikidata": "Q44059867",
+    "wikipedia": "Victoria Spartz",
+    "google_entity_id": "kg:/g/11h23hjb94",
+    "votesmart": 178203,
+    "pictorial": 13054,
+    "ballotpedia": "Victoria Spartz",
+    "twitter": "RepSpartz",
+    "twitter_id": 1344845201479663600,
+    "facebook": "RepSpartz"
+  },
+  "name": {
+    "first": "Victoria",
+    "last": "Spartz",
+    "official_full": "Victoria Spartz"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1978-10-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IN",
+    "district": 5,
+    "party": "Republican",
+    "url": "https://spartz.house.gov",
+    "address": "1609 Longworth House Office Building Washington DC 20515-1405",
+    "office": "1609 Longworth House Office Building",
+    "phone": "202-225-2276"
+  }
 }

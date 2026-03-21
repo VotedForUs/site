@@ -1,13 +1,190 @@
 {
-  "id": "K000385",
-  "bioguide": "K000385",
-  "name": "Robin L. Kelly",
-  "lastName": "Kelly",
-  "state": "IL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2329 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-0773",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000385",
+  "birthYear": "1956",
+  "cosponsoredLegislation": {
+    "count": 2721,
+    "url": "https://api.congress.gov/v3/member/K000385/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/K000385.jpg"
+  },
+  "directOrderName": "Robin L. Kelly",
   "district": 2,
-  "nameTitle": "Rep. Robin L. Kelly (IL-2)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_il_2_kelly_robin_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Robin",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Kelly, Robin L.",
+  "lastName": "Kelly",
+  "middleName": "L.",
+  "officialWebsiteUrl": "https://robinkelly.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Robin L. Kelly",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Robin",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Kelly, Robin L.",
+      "lastName": "Kelly",
+      "middleName": "L.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Robin L. Kelly",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Robin",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Kelly, Robin L.",
+      "lastName": "Kelly",
+      "middleName": "L.",
+      "startDate": "2013-04-11T00:00:00Z"
+    },
+    {
+      "directOrderName": "Robin L. Kelly",
+      "firstName": "Robin",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Kelly, Robin L.",
+      "lastName": "Kelly",
+      "middleName": "L.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 158,
+    "url": "https://api.congress.gov/v3/member/K000385/sponsored-legislation"
+  },
+  "state": "Illinois",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 2,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "IL",
+      "stateName": "Illinois"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "K000385",
+    "thomas": "02190",
+    "govtrack": 412595,
+    "votesmart": 33384,
+    "wikipedia": "Robin Kelly",
+    "fec": [
+      "H2IL02172"
+    ],
+    "opensecrets": "N00035215",
+    "ballotpedia": "Robin Kelly",
+    "cspan": 70399,
+    "icpsr": 21371,
+    "house_history": 15032393262,
+    "maplight": 2045,
+    "wikidata": "Q3437091",
+    "google_entity_id": "kg:/m/0g8l32",
+    "pictorial": 13034,
+    "youtube_id": "UCLhcNPX2nNQLNzwKW0nEykg",
+    "facebook": "reprobinkelly",
+    "twitter": "RepRobinKelly",
+    "twitter_id": 1339931490,
+    "instagram": "reprobinkelly"
+  },
+  "name": {
+    "first": "Robin",
+    "middle": "L.",
+    "last": "Kelly",
+    "official_full": "Robin L. Kelly"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1956-04-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "IL",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://robinkelly.house.gov",
+    "rss_url": "http://robinkelly.house.gov/rss.xml",
+    "address": "2329 Rayburn House Office Building Washington DC 20515-1302",
+    "office": "2329 Rayburn House Office Building",
+    "phone": "202-225-0773"
+  }
 }

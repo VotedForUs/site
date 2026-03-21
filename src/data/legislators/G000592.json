@@ -1,13 +1,162 @@
 {
-  "id": "G000592",
-  "bioguide": "G000592",
-  "name": "Jared F. Golden",
-  "lastName": "Golden",
-  "state": "ME",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1107 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6306",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000592",
+  "birthYear": "1982",
+  "cosponsoredLegislation": {
+    "count": 886,
+    "url": "https://api.congress.gov/v3/member/G000592/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000592.jpg"
+  },
+  "directOrderName": "Jared F. Golden",
   "district": 2,
-  "nameTitle": "Rep. Jared F. Golden (ME-2)",
-  "imageUrl": "https://www.congress.gov/img/member/g000592_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Jared",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Golden, Jared F.",
+  "lastName": "Golden",
+  "middleName": "F.",
+  "officialWebsiteUrl": "https://golden.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jared F. Golden",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Jared",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Golden, Jared F.",
+      "lastName": "Golden",
+      "middleName": "F.",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jared F. Golden",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jared",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Golden, Jared F.",
+      "lastName": "Golden",
+      "middleName": "F.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jared F. Golden",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Jared",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Golden, Jared F.",
+      "lastName": "Golden",
+      "middleName": "F.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jared F. Golden",
+      "firstName": "Jared",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Golden, Jared F.",
+      "lastName": "Golden",
+      "middleName": "F.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 87,
+    "url": "https://api.congress.gov/v3/member/G000592/sponsored-legislation"
+  },
+  "state": "Maine",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 2,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 2,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "ME",
+      "stateName": "Maine"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "G000592",
+    "fec": [
+      "H8ME02185"
+    ],
+    "govtrack": 412842,
+    "wikipedia": "Jared Golden",
+    "wikidata": "Q41694157",
+    "opensecrets": "N00041668",
+    "votesmart": 151420,
+    "icpsr": 21923,
+    "ballotpedia": "Jared Golden",
+    "google_entity_id": "kg:/g/11f1224576",
+    "pictorial": 13093,
+    "twitter": "RepGolden",
+    "twitter_id": 1080891667308298200
+  },
+  "name": {
+    "first": "Jared",
+    "middle": "Forrest",
+    "last": "Golden",
+    "official_full": "Jared F. Golden"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1982-07-25"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "ME",
+    "district": 2,
+    "party": "Democrat",
+    "url": "https://golden.house.gov",
+    "address": "1107 Longworth House Office Building Washington DC 20515-1902",
+    "office": "1107 Longworth House Office Building",
+    "phone": "202-225-6306"
+  }
 }

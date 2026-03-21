@@ -1,13 +1,167 @@
 {
-  "id": "V000129",
-  "bioguide": "V000129",
-  "name": "David G. Valadao",
-  "lastName": "Valadao",
-  "state": "CA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2465 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4695",
+    "zipCode": 20515
+  },
+  "bioguideId": "V000129",
+  "birthYear": "1977",
+  "cosponsoredLegislation": {
+    "count": 1825,
+    "url": "https://api.congress.gov/v3/member/V000129/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/V000129.jpg"
+  },
+  "directOrderName": "David G. Valadao",
   "district": 22,
-  "nameTitle": "Rep. David G. Valadao (CA-22)",
-  "imageUrl": "https://www.congress.gov/img/member/v000129_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "David",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Valadao, David G.",
+  "lastName": "Valadao",
+  "middleName": "G.",
+  "officialWebsiteUrl": "https://valadao.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "David G. Valadao",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Valadao, David G.",
+      "lastName": "Valadao",
+      "middleName": "G.",
+      "startDate": "2013-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "David G. Valadao",
+      "firstName": "David",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Valadao, David G.",
+      "lastName": "Valadao",
+      "middleName": "G.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 82,
+    "url": "https://api.congress.gov/v3/member/V000129/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 21,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 21,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 21,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 21,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 22,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 22,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "govtrack": 412515,
+    "bioguide": "V000129",
+    "thomas": "02105",
+    "cspan": 623702,
+    "votesmart": 120200,
+    "wikipedia": "David Valadao",
+    "fec": [
+      "H2CA20094"
+    ],
+    "opensecrets": "N00033367",
+    "ballotpedia": "David G. Valadao",
+    "maplight": 1739,
+    "icpsr": 21307,
+    "wikidata": "Q3528567",
+    "google_entity_id": "kg:/m/0g55rlx",
+    "pictorial": 12936,
+    "twitter": "RepDavidValadao",
+    "twitter_id": 1128514404,
+    "facebook": "CongressmanDavidValadao"
+  },
+  "name": {
+    "first": "David",
+    "last": "Valadao",
+    "middle": "G.",
+    "official_full": "David G. Valadao"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1977-04-14"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 22,
+    "party": "Republican",
+    "url": "https://valadao.house.gov",
+    "rss_url": "http://valadao.house.gov/rss.xml",
+    "address": "2465 Rayburn House Office Building Washington DC 20515-0522",
+    "office": "2465 Rayburn House Office Building",
+    "phone": "202-225-4695"
+  }
 }

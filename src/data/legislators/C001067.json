@@ -1,13 +1,211 @@
 {
-  "id": "C001067",
-  "bioguide": "C001067",
-  "name": "Yvette D. Clarke",
-  "lastName": "Clarke",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2058 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-6231",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001067",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 5829,
+    "url": "https://api.congress.gov/v3/member/C001067/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001067.jpg"
+  },
+  "directOrderName": "Yvette D. Clarke",
   "district": 9,
-  "nameTitle": "Rep. Yvette D. Clarke (NY-9)",
-  "imageUrl": "https://www.congress.gov/img/member/674dfc6b5c48ff736e6e1762_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Yvette",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Clarke, Yvette D.",
+  "lastName": "Clarke",
+  "middleName": "D.",
+  "officialWebsiteUrl": "https://clarke.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2007
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Yvette D. Clarke",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Yvette",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Clarke, Yvette D.",
+      "lastName": "Clarke",
+      "middleName": "D.",
+      "startDate": "2007-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Yvette D. Clarke",
+      "firstName": "Yvette",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Clarke, Yvette D.",
+      "lastName": "Clarke",
+      "middleName": "D.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 198,
+    "url": "https://api.congress.gov/v3/member/C001067/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 11,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 11,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 11,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 9,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 9,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 9,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 9,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 9,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 9,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 9,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "C001067",
+    "thomas": "01864",
+    "govtrack": 412221,
+    "opensecrets": "N00026961",
+    "votesmart": 44741,
+    "fec": [
+      "H4NY11138"
+    ],
+    "cspan": 1022875,
+    "wikipedia": "Yvette Clarke",
+    "house_history": 11798,
+    "ballotpedia": "Yvette D. Clarke",
+    "maplight": 706,
+    "icpsr": 20733,
+    "wikidata": "Q461679",
+    "google_entity_id": "kg:/m/06h90t",
+    "pictorial": 13177,
+    "twitter": "RepYvetteClarke",
+    "facebook": "repyvettedclarke",
+    "youtube": "repyvetteclarke",
+    "youtube_id": "UC8SuQiuL2P9fUHAxuRoTdUQ",
+    "twitter_id": 240812994,
+    "instagram": "repyvettedclarke"
+  },
+  "name": {
+    "first": "Yvette",
+    "middle": "D.",
+    "last": "Clarke",
+    "official_full": "Yvette D. Clarke"
+  },
+  "bio": {
+    "birthday": "1964-11-21",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 9,
+    "party": "Democrat",
+    "url": "https://clarke.house.gov",
+    "rss_url": "http://clarke.house.gov/news/rss.aspx",
+    "address": "2058 Rayburn House Office Building Washington DC 20515-3209",
+    "office": "2058 Rayburn House Office Building",
+    "phone": "202-225-6231"
+  }
 }

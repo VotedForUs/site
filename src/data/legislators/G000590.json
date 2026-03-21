@@ -1,13 +1,133 @@
 {
-  "id": "G000590",
-  "bioguide": "G000590",
-  "name": "Mark E. Green",
-  "lastName": "Green",
-  "state": "TN",
-  "party": "Republican",
+  "bioguideId": "G000590",
+  "birthYear": "1964",
+  "cosponsoredLegislation": {
+    "count": 636,
+    "url": "https://api.congress.gov/v3/member/G000590/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000590.jpg"
+  },
+  "directOrderName": "Mark E. Green",
   "district": 7,
-  "nameTitle": "Rep. Mark E. Green (TN-7)",
-  "imageUrl": "https://www.congress.gov/img/member/g000590_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mark",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Green, Mark E.",
+  "lastName": "Green",
+  "middleName": "E.",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mark E. Green",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Green, Mark E.",
+      "lastName": "Green",
+      "middleName": "E.",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mark E. Green",
+      "firstName": "Mark",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Green, Mark E.",
+      "lastName": "Green",
+      "middleName": "E.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 121,
+    "url": "https://api.congress.gov/v3/member/G000590/sponsored-legislation"
+  },
+  "state": "Tennessee",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 7,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 7,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 7,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TN",
+      "stateName": "Tennessee"
+    }
+  ],
+  "updateDate": "2025-09-04T15:55:30Z",
+  "id": {
+    "bioguide": "G000590",
+    "fec": [
+      "H8TN07076"
+    ],
+    "govtrack": 412819,
+    "wikipedia": "Mark Green (Tennessee politician)",
+    "wikidata": "Q16224587",
+    "opensecrets": "N00041873",
+    "google_entity_id": "kg:/m/09rx6jq",
+    "votesmart": 139030,
+    "icpsr": 21926,
+    "ballotpedia": "Mark Green (Tennessee)",
+    "pictorial": 13255
+  },
+  "name": {
+    "first": "Mark",
+    "middle": "E.",
+    "last": "Green",
+    "official_full": "Mark E. Green"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1964-11-08"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2025-07-21",
+    "state": "TN",
+    "district": 7,
+    "party": "Republican",
+    "url": "https://markgreen.house.gov",
+    "address": "2446 Rayburn House Office Building Washington DC 20515-4207",
+    "office": "2446 Rayburn House Office Building",
+    "phone": "202-225-2811"
+  }
 }

@@ -1,13 +1,147 @@
 {
-  "id": "G000591",
-  "bioguide": "G000591",
-  "name": "Michael Guest",
-  "lastName": "Guest",
-  "state": "MS",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "450 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5031",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000591",
+  "birthYear": "1970",
+  "cosponsoredLegislation": {
+    "count": 1099,
+    "url": "https://api.congress.gov/v3/member/G000591/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000591.jpg"
+  },
+  "directOrderName": "Michael Guest",
   "district": 3,
-  "nameTitle": "Rep. Michael Guest (MS-3)",
-  "imageUrl": "https://www.congress.gov/img/member/g000591_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Michael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Guest, Michael",
+  "lastName": "Guest",
+  "officialWebsiteUrl": "https://guest.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Michael Guest",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Guest, Michael",
+      "lastName": "Guest",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Guest",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Guest, Michael",
+      "lastName": "Guest",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Guest",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Guest, Michael",
+      "lastName": "Guest",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 52,
+    "url": "https://api.congress.gov/v3/member/G000591/sponsored-legislation"
+  },
+  "state": "Mississippi",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "G000591",
+    "fec": [
+      "H8MS03125"
+    ],
+    "govtrack": 412793,
+    "wikipedia": "Michael Guest (politician)",
+    "wikidata": "Q60428645",
+    "opensecrets": "N00042458",
+    "icpsr": 21927,
+    "google_entity_id": "kg:/g/11fjx_n80p",
+    "ballotpedia": "Michael Guest",
+    "pictorial": 13126,
+    "twitter": "RepMichaelGuest",
+    "twitter_id": 1081243468327018500,
+    "facebook": "RepMichaelGuest"
+  },
+  "name": {
+    "first": "Michael",
+    "last": "Guest",
+    "official_full": "Michael Guest"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1970-02-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MS",
+    "district": 3,
+    "party": "Republican",
+    "url": "https://guest.house.gov",
+    "address": "450 Cannon House Office Building Washington DC 20515-2403",
+    "office": "450 Cannon House Office Building",
+    "phone": "202-225-5031"
+  }
 }

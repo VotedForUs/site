@@ -1,13 +1,142 @@
 {
-  "id": "C001116",
-  "bioguide": "C001116",
-  "name": "Andrew S. Clyde",
-  "lastName": "Clyde",
-  "state": "GA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "445 Cannon House Office Building",
+    "phoneNumber": "(202) 225-9893",
+    "zipCode": 20515
+  },
+  "bioguideId": "C001116",
+  "birthYear": "1963",
+  "cosponsoredLegislation": {
+    "count": 523,
+    "url": "https://api.congress.gov/v3/member/C001116/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C001116.jpg"
+  },
+  "directOrderName": "Andrew S. Clyde",
   "district": 9,
-  "nameTitle": "Rep. Andrew S. Clyde (GA-9)",
-  "imageUrl": "https://www.congress.gov/img/member/c001116_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Andrew",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Clyde, Andrew S.",
+  "lastName": "Clyde",
+  "middleName": "S.",
+  "officialWebsiteUrl": "https://clyde.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Andrew S. Clyde",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Andrew",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Clyde, Andrew S.",
+      "lastName": "Clyde",
+      "middleName": "S.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Andrew S. Clyde",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Andrew",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Clyde, Andrew S.",
+      "lastName": "Clyde",
+      "middleName": "S.",
+      "startDate": "2021-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Andrew S. Clyde",
+      "firstName": "Andrew",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Clyde, Andrew S.",
+      "lastName": "Clyde",
+      "middleName": "S.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 75,
+    "url": "https://api.congress.gov/v3/member/C001116/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 9,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 9,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 9,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "C001116",
+    "fec": [
+      "H0GA09246"
+    ],
+    "opensecrets": "N00046654",
+    "govtrack": 456813,
+    "wikidata": "Q102277679",
+    "wikipedia": "Andrew Clyde",
+    "google_entity_id": "kg:/g/11j32tm4v4",
+    "pictorial": 13018,
+    "twitter": "Rep_Clyde",
+    "twitter_id": 1357017361568694300,
+    "facebook": "RepresentativeClyde",
+    "instagram": "repclyde",
+    "youtube": "UC-o-UOnLuu8pZxZpShG4s7A"
+  },
+  "name": {
+    "first": "Andrew",
+    "middle": "S.",
+    "last": "Clyde",
+    "official_full": "Andrew S. Clyde"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1963-11-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "GA",
+    "district": 9,
+    "party": "Republican",
+    "url": "https://clyde.house.gov",
+    "address": "445 Cannon House Office Building Washington DC 20515-1009",
+    "office": "445 Cannon House Office Building",
+    "phone": "202-225-9893"
+  }
 }

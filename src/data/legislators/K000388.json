@@ -1,13 +1,164 @@
 {
-  "id": "K000388",
-  "bioguide": "K000388",
-  "name": "Trent Kelly",
-  "lastName": "Kelly",
-  "state": "MS",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2243 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4306",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000388",
+  "birthYear": "1966",
+  "cosponsoredLegislation": {
+    "count": 1046,
+    "url": "https://api.congress.gov/v3/member/K000388/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/K000388.jpg"
+  },
+  "directOrderName": "Trent Kelly",
   "district": 1,
-  "nameTitle": "Rep. Trent Kelly (MS-1)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_ms_1_kelly_trent_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Trent",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Kelly, Trent",
+  "lastName": "Kelly",
+  "officialWebsiteUrl": "https://trentkelly.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2015
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Trent Kelly",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Trent",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kelly, Trent",
+      "lastName": "Kelly",
+      "startDate": "2015-06-09T00:00:00Z"
+    },
+    {
+      "directOrderName": "Trent Kelly",
+      "firstName": "Trent",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Kelly, Trent",
+      "lastName": "Kelly",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 67,
+    "url": "https://api.congress.gov/v3/member/K000388/sponsored-legislation"
+  },
+  "state": "Mississippi",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 1,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 1,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 1,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 1,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 1,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 1,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "K000388",
+    "thomas": "02294",
+    "fec": [
+      "H6MS01131"
+    ],
+    "govtrack": 412673,
+    "votesmart": 156389,
+    "wikipedia": "Trent Kelly",
+    "ballotpedia": "Trent Kelly",
+    "maplight": 2163,
+    "opensecrets": "N00037003",
+    "wikidata": "Q20204915",
+    "google_entity_id": "kg:/m/013b9qgh",
+    "cspan": 97322,
+    "icpsr": 21561,
+    "pictorial": 13124,
+    "facebook": "reptrentkelly",
+    "twitter": "RepTrentKelly",
+    "twitter_id": 3317799825,
+    "instagram": "reptrentkelly",
+    "youtube_id": "UCtDrz-8tdg4ZgOAQHToSWaQ"
+  },
+  "name": {
+    "first": "Trent",
+    "last": "Kelly",
+    "official_full": "Trent Kelly"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1966-03-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MS",
+    "district": 1,
+    "party": "Republican",
+    "url": "https://trentkelly.house.gov",
+    "address": "2243 Rayburn House Office Building Washington DC 20515-2401",
+    "office": "2243 Rayburn House Office Building",
+    "phone": "202-225-4306"
+  }
 }

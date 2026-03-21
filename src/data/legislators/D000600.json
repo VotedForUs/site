@@ -1,13 +1,228 @@
 {
-  "id": "D000600",
-  "bioguide": "D000600",
-  "name": "Mario Diaz-Balart",
-  "lastName": "Diaz-Balart",
-  "state": "FL",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "374 Cannon House Office Building",
+    "phoneNumber": "(202) 225-4211",
+    "zipCode": 20515
+  },
+  "bioguideId": "D000600",
+  "birthYear": "1961",
+  "cosponsoredLegislation": {
+    "count": 2166,
+    "url": "https://api.congress.gov/v3/member/D000600/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/D000600.jpg"
+  },
+  "directOrderName": "Mario Diaz-Balart",
   "district": 26,
-  "nameTitle": "Rep. Mario Diaz-Balart (FL-26)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_fl_25_diazbalart_mario_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Mario",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Diaz-Balart, Mario",
+  "lastName": "Diaz-Balart",
+  "officialWebsiteUrl": "https://mariodiazbalart.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2003
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mario Diaz-Balart",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mario",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Diaz-Balart, Mario",
+      "lastName": "Diaz-Balart",
+      "startDate": "2003-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Mario Diaz-Balart",
+      "firstName": "Mario",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Diaz-Balart, Mario",
+      "lastName": "Diaz-Balart",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 108,
+    "url": "https://api.congress.gov/v3/member/D000600/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 25,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 25,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 25,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 25,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 21,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 25,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 25,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 25,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 25,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 25,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 26,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 26,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "D000600",
+    "thomas": "01717",
+    "govtrack": 400108,
+    "opensecrets": "N00025337",
+    "votesmart": 24312,
+    "fec": [
+      "H2FL25018"
+    ],
+    "cspan": 1003562,
+    "wikipedia": "Mario Díaz-Balart",
+    "house_history": 12575,
+    "ballotpedia": "Mario Diaz-Balart",
+    "maplight": 221,
+    "icpsr": 20316,
+    "wikidata": "Q767270",
+    "google_entity_id": "kg:/m/02536z",
+    "pictorial": 13007,
+    "twitter": "MarioDB",
+    "facebook": "mdiazbalart",
+    "youtube": "MarioDiazBalart",
+    "youtube_id": "UCpEEd0Plxx5D78pI4a4mFTQ",
+    "instagram": "repmariodb",
+    "instagram_id": 316477657,
+    "twitter_id": 37094727
+  },
+  "name": {
+    "first": "Mario",
+    "last": "Diaz-Balart",
+    "official_full": "Mario Diaz-Balart"
+  },
+  "bio": {
+    "birthday": "1961-09-25",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 26,
+    "party": "Republican",
+    "url": "https://mariodiazbalart.house.gov",
+    "rss_url": "http://mariodiazbalart.house.gov/rss.xml",
+    "address": "374 Cannon House Office Building Washington DC 20515-0926",
+    "office": "374 Cannon House Office Building",
+    "phone": "202-225-4211"
+  }
 }

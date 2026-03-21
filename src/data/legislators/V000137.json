@@ -1,13 +1,129 @@
 {
-  "id": "V000137",
-  "bioguide": "V000137",
-  "name": "J.D. Vance",
+  "bioguideId": "V000137",
+  "birthYear": "1984",
+  "cosponsoredLegislation": {
+    "count": 298,
+    "url": "https://api.congress.gov/v3/member/V000137/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "depiction": {
+    "attribution": "Official U.S. Senate Photo",
+    "imageUrl": "/images/legislators/V000137.jpg"
+  },
+  "directOrderName": "J. D. Vance",
+  "firstName": "J.",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Vance, J. D.",
   "lastName": "Vance",
-  "state": "OH",
-  "party": "Republican",
-  "nameTitle": "Sen. J.D. Vance (OH)",
-  "imageUrl": "https://www.congress.gov/img/member/v000137_200.jpg",
-  "attribution": "Official U.S. Senate Photo",
-  "stateRank": "senior",
-  "type": "sen"
+  "leadership": [
+    {
+      "congress": 119,
+      "current": true,
+      "type": "President of the Senate"
+    }
+  ],
+  "middleName": "D.",
+  "nickName": "JD Vance",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "J. D. Vance",
+      "firstName": "J.",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Vance, J. D.",
+      "lastName": "Vance",
+      "middleName": "D.",
+      "startDate": "2023-05-02T06:35:00Z"
+    },
+    {
+      "directOrderName": "James Vance",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "James",
+      "invertedOrderName": "Vance, James",
+      "lastName": "Vance",
+      "middleName": "David",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "J. D. Vance",
+      "endDate": "2023-05-02T06:34:59Z",
+      "firstName": "J.",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Vance, J. D.",
+      "lastName": "Vance",
+      "middleName": "D.",
+      "startDate": "2023-01-04T07:35:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 57,
+    "url": "https://api.congress.gov/v3/member/V000137/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-01-10T15:23:00Z",
+  "id": {
+    "bioguide": "V000137",
+    "lis": "S421",
+    "fec": [
+      "S2OH00436"
+    ],
+    "govtrack": 456876,
+    "opensecrets": "N00048832",
+    "wikidata": "Q28935729",
+    "wikipedia": "JD Vance",
+    "google_entity_id": "kg:/g/11c6v_wj1r",
+    "ballotpedia": "J.D. Vance",
+    "pictorial": 13348,
+    "votesmart": 201794
+  },
+  "name": {
+    "first": "James David",
+    "nickname": "J.D.",
+    "last": "Vance",
+    "official_full": "J.D. Vance"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1984-08-02"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2025-01-09",
+    "state": "OH",
+    "class": 3,
+    "state_rank": "senior",
+    "party": "Republican",
+    "url": "https://www.vance.senate.gov",
+    "contact_form": "https://www.vance.senate.gov/contact/",
+    "address": "288 Russell Senate Office Building Washington DC 20510",
+    "office": "288 Russell Senate Office Building",
+    "phone": "202-224-3353"
+  }
 }

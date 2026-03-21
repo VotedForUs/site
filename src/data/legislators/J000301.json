@@ -1,13 +1,133 @@
 {
-  "id": "J000301",
-  "bioguide": "J000301",
-  "name": "Dusty Johnson",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1714 Longworth House Office Building",
+    "phoneNumber": "(202) 225-2801",
+    "zipCode": 20515
+  },
+  "bioguideId": "J000301",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 710,
+    "url": "https://api.congress.gov/v3/member/J000301/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/J000301.jpg"
+  },
+  "directOrderName": "Dusty Johnson",
+  "firstName": "Dusty",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Johnson, Dusty",
   "lastName": "Johnson",
-  "state": "SD",
-  "party": "Republican",
-  "district": 0,
-  "nameTitle": "Rep. Dusty Johnson (SD-0)",
-  "imageUrl": "https://www.congress.gov/img/member/j000301_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "officialWebsiteUrl": "https://dustyjohnson.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Dusty Johnson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Dusty",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Dusty",
+      "lastName": "Johnson",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Dusty Johnson",
+      "firstName": "Dusty",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Johnson, Dusty",
+      "lastName": "Johnson",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 132,
+    "url": "https://api.congress.gov/v3/member/J000301/sponsored-legislation"
+  },
+  "state": "South Dakota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "SD",
+      "stateName": "South Dakota"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "J000301",
+    "fec": [
+      "H8SD01055"
+    ],
+    "govtrack": 412816,
+    "wikipedia": "Dusty Johnson",
+    "wikidata": "Q30015838",
+    "opensecrets": "N00040559",
+    "votesmart": 48307,
+    "icpsr": 21935,
+    "ballotpedia": "Dusty Johnson",
+    "google_entity_id": "kg:/g/11dyzlcnbr",
+    "pictorial": 13248,
+    "twitter": "RepDustyJohnson",
+    "twitter_id": 1074782372594413600
+  },
+  "name": {
+    "first": "Dusty",
+    "last": "Johnson",
+    "official_full": "Dusty Johnson"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1976-09-30"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "SD",
+    "district": 0,
+    "party": "Republican",
+    "url": "https://dustyjohnson.house.gov",
+    "address": "1714 Longworth House Office Building Washington DC 20515-4100",
+    "office": "1714 Longworth House Office Building",
+    "phone": "202-225-2801"
+  }
 }

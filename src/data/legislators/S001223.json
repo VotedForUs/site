@@ -1,13 +1,131 @@
 {
-  "id": "S001223",
-  "bioguide": "S001223",
-  "name": "Emilia Strong Sykes",
-  "lastName": "Sykes",
-  "state": "OH",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1217 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6265",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001223",
+  "birthYear": "1986",
+  "cosponsoredLegislation": {
+    "count": 450,
+    "url": "https://api.congress.gov/v3/member/S001223/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001223.jpg"
+  },
+  "directOrderName": "Emilia Strong Sykes",
   "district": 13,
-  "nameTitle": "Rep. Emilia Strong Sykes (OH-13)",
-  "imageUrl": "https://www.congress.gov/img/member/s001223_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Emilia",
+  "honorificName": "Mrs.",
+  "invertedOrderName": "Sykes, Emilia Strong",
+  "lastName": "Sykes",
+  "middleName": "Strong",
+  "officialWebsiteUrl": "https://sykes.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Emilia Strong Sykes",
+      "endDate": "2024-02-27T13:20:56Z",
+      "firstName": "Emilia",
+      "invertedOrderName": "Sykes, Emilia Strong",
+      "lastName": "Sykes",
+      "middleName": "Strong",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Emilia Strong Sykes",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Emilia",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Sykes, Emilia Strong",
+      "lastName": "Sykes",
+      "middleName": "Strong",
+      "startDate": "2024-02-27T13:20:57Z"
+    },
+    {
+      "directOrderName": "Emilia Strong Sykes",
+      "firstName": "Emilia",
+      "honorificName": "Mrs.",
+      "invertedOrderName": "Sykes, Emilia Strong",
+      "lastName": "Sykes",
+      "middleName": "Strong",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 57,
+    "url": "https://api.congress.gov/v3/member/S001223/sponsored-legislation"
+  },
+  "state": "Ohio",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 13,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 13,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "OH",
+      "stateName": "Ohio"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "S001223",
+    "fec": [
+      "H2OH13264"
+    ],
+    "govtrack": 456930,
+    "opensecrets": "N00050165",
+    "wikidata": "Q18637943",
+    "wikipedia": "Emilia Sykes",
+    "votesmart": 152164,
+    "pictorial": 13207,
+    "twitter": "RepEmiliaSykes",
+    "twitter_id": 1611527835742519300,
+    "facebook": "repemiliasykes",
+    "instagram": "RepEmiliaSykes",
+    "youtube": "@repemiliasykes"
+  },
+  "name": {
+    "first": "Emilia",
+    "middle": "Strong",
+    "last": "Sykes",
+    "official_full": "Emilia Strong Sykes"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1986-01-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "OH",
+    "district": 13,
+    "party": "Democrat",
+    "url": "https://sykes.house.gov",
+    "address": "1217 Longworth House Office Building Washington DC 20515-3513",
+    "office": "1217 Longworth House Office Building",
+    "phone": "202-225-6265"
+  }
 }

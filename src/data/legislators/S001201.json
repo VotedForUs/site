@@ -1,13 +1,183 @@
 {
-  "id": "S001201",
-  "bioguide": "S001201",
-  "name": "Thomas R. Suozzi",
-  "lastName": "Suozzi",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "203 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3335",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001201",
+  "birthYear": "1962",
+  "cosponsoredLegislation": {
+    "count": 2708,
+    "url": "https://api.congress.gov/v3/member/S001201/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/S001201.jpg"
+  },
+  "directOrderName": "Thomas R. Suozzi",
   "district": 3,
-  "nameTitle": "Rep. Thomas R. Suozzi (NY-3)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_ny_3_suozzi_thomas_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Thomas",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Suozzi, Thomas R.",
+  "lastName": "Suozzi",
+  "middleName": "R.",
+  "officialWebsiteUrl": "https://suozzi.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Thomas R. Suozzi",
+      "endDate": "2024-02-28T04:59:59Z",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Suozzi, Thomas R.",
+      "lastName": "Suozzi",
+      "middleName": "R.",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Thomas R. Suozzi",
+      "endDate": "2024-03-04T19:26:34Z",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Suozzi, Thomas R.",
+      "lastName": "Suozzi",
+      "middleName": "R.",
+      "startDate": "2024-02-28T05:00:00Z"
+    },
+    {
+      "directOrderName": "Thomas R. Suozzi",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Suozzi, Thomas R.",
+      "lastName": "Suozzi",
+      "middleName": "R.",
+      "startDate": "2024-03-04T19:26:35Z"
+    },
+    {
+      "directOrderName": "Thomas R. Suozzi",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Suozzi, Thomas R.",
+      "lastName": "Suozzi",
+      "middleName": "R.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Thomas R. Suozzi",
+      "firstName": "Thomas",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Suozzi, Thomas R.",
+      "lastName": "Suozzi",
+      "middleName": "R.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 77,
+    "url": "https://api.congress.gov/v3/member/S001201/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 3,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2024,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "S001201",
+    "govtrack": 412717,
+    "wikipedia": "Tom Suozzi",
+    "wikidata": "Q7794276",
+    "votesmart": 92111,
+    "fec": [
+      "H6NY03247"
+    ],
+    "opensecrets": "N00038742",
+    "maplight": 2229,
+    "google_entity_id": "kg:/m/060n4d",
+    "cspan": 104747,
+    "icpsr": 21747,
+    "ballotpedia": "Tom Suozzi",
+    "twitter": "reptomsuozzi",
+    "facebook": "RepTomSuozzi"
+  },
+  "name": {
+    "first": "Thomas",
+    "middle": "R.",
+    "last": "Suozzi",
+    "official_full": "Thomas R. Suozzi"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1962-08-31"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 3,
+    "party": "Democrat",
+    "url": "https://suozzi.house.gov",
+    "address": "203 Cannon House Office Building Washington DC 20515-3203",
+    "office": "203 Cannon House Office Building",
+    "phone": "202-225-3335"
+  }
 }

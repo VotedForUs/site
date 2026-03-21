@@ -1,13 +1,153 @@
 {
-  "id": "K000389",
-  "bioguide": "K000389",
-  "name": "Ro Khanna",
-  "lastName": "Khanna",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "306 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2631",
+    "zipCode": 20515
+  },
+  "bioguideId": "K000389",
+  "birthYear": "1976",
+  "cosponsoredLegislation": {
+    "count": 3595,
+    "url": "https://api.congress.gov/v3/member/K000389/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/K000389.jpg"
+  },
+  "directOrderName": "Ro Khanna",
   "district": 17,
-  "nameTitle": "Rep. Ro Khanna (CA-17)",
-  "imageUrl": "https://www.congress.gov/img/member/k000389_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ro",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Khanna, Ro",
+  "lastName": "Khanna",
+  "officialWebsiteUrl": "https://khanna.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ro Khanna",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ro",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Khanna, Ro",
+      "lastName": "Khanna",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ro Khanna",
+      "firstName": "Ro",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Khanna, Ro",
+      "lastName": "Khanna",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 180,
+    "url": "https://api.congress.gov/v3/member/K000389/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 17,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 17,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 17,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 17,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 17,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "bioguide": "K000389",
+    "govtrack": 412684,
+    "wikipedia": "Ro Khanna",
+    "wikidata": "Q7339221",
+    "votesmart": 29473,
+    "fec": [
+      "H4CA12055"
+    ],
+    "opensecrets": "N00026427",
+    "maplight": 2196,
+    "google_entity_id": "kg:/m/0q3z5xy",
+    "cspan": 31129,
+    "icpsr": 21728,
+    "ballotpedia": "Ro Khanna",
+    "pictorial": 12931,
+    "facebook": "RepRoKhanna",
+    "twitter": "RepRoKhanna",
+    "twitter_id": 816298918468259800,
+    "instagram": "reprokhanna",
+    "youtube_id": "UCr4KOYv1o1oEQhy1jhhm3pQ"
+  },
+  "name": {
+    "first": "Ro",
+    "last": "Khanna",
+    "official_full": "Ro Khanna"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1976-09-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 17,
+    "party": "Democrat",
+    "url": "https://khanna.house.gov",
+    "address": "306 Cannon House Office Building Washington DC 20515-0517",
+    "office": "306 Cannon House Office Building",
+    "phone": "202-225-2631"
+  }
 }

@@ -1,13 +1,138 @@
 {
-  "id": "O000173",
-  "bioguide": "O000173",
-  "name": "Ilhan Omar",
-  "lastName": "Omar",
-  "state": "MN",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1730 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4755",
+    "zipCode": 20515
+  },
+  "bioguideId": "O000173",
+  "birthYear": "1982",
+  "cosponsoredLegislation": {
+    "count": 2163,
+    "url": "https://api.congress.gov/v3/member/O000173/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/O000173.jpg"
+  },
+  "directOrderName": "Ilhan Omar",
   "district": 5,
-  "nameTitle": "Rep. Ilhan Omar (MN-5)",
-  "imageUrl": "https://www.congress.gov/img/member/o000173_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ilhan",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Omar, Ilhan",
+  "lastName": "Omar",
+  "officialWebsiteUrl": "https://omar.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ilhan Omar",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ilhan",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Omar, Ilhan",
+      "lastName": "Omar",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ilhan Omar",
+      "firstName": "Ilhan",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Omar, Ilhan",
+      "lastName": "Omar",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 122,
+    "url": "https://api.congress.gov/v3/member/O000173/sponsored-legislation"
+  },
+  "state": "Minnesota",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 5,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 5,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 5,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 5,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MN",
+      "stateName": "Minnesota"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "O000173",
+    "fec": [
+      "H8MN05239"
+    ],
+    "govtrack": 412791,
+    "wikipedia": "Ilhan Omar",
+    "wikidata": "Q26436159",
+    "opensecrets": "N00043581",
+    "votesmart": 171628,
+    "icpsr": 21950,
+    "ballotpedia": "Ilhan Omar",
+    "google_entity_id": "kg:/g/11c4wx5dm0",
+    "pictorial": 13111,
+    "twitter": "Ilhan",
+    "twitter_id": 1082334352711790600
+  },
+  "name": {
+    "first": "Ilhan",
+    "last": "Omar",
+    "official_full": "Ilhan Omar"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1981-10-04"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MN",
+    "district": 5,
+    "party": "Democrat",
+    "url": "https://omar.house.gov",
+    "address": "1730 Longworth House Office Building Washington DC 20515-2305",
+    "office": "1730 Longworth House Office Building",
+    "phone": "202-225-4755"
+  }
 }

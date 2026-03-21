@@ -1,13 +1,163 @@
 {
-  "id": "E000296",
-  "bioguide": "E000296",
-  "name": "Dwight Evans",
-  "lastName": "Evans",
-  "state": "PA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1105 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4001",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000296",
+  "birthYear": "1954",
+  "cosponsoredLegislation": {
+    "count": 3031,
+    "url": "https://api.congress.gov/v3/member/E000296/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/E000296.jpg"
+  },
+  "directOrderName": "Dwight Evans",
   "district": 3,
-  "nameTitle": "Rep. Dwight Evans (PA-3)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_pa_2_evans_dwight_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Dwight",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Evans, Dwight",
+  "lastName": "Evans",
+  "officialWebsiteUrl": "https://evans.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2016
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Dwight Evans",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Dwight",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Evans, Dwight",
+      "lastName": "Evans",
+      "startDate": "2016-11-14T00:00:00Z"
+    },
+    {
+      "directOrderName": "Dwight Evans",
+      "firstName": "Dwight",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Evans, Dwight",
+      "lastName": "Evans",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 61,
+    "url": "https://api.congress.gov/v3/member/E000296/sponsored-legislation"
+  },
+  "state": "Pennsylvania",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 2,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2016,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 2,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 3,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 3,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 3,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 3,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "PA",
+      "stateName": "Pennsylvania"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:16Z",
+  "id": {
+    "bioguide": "E000296",
+    "govtrack": 412677,
+    "opensecrets": "N00038450",
+    "fec": [
+      "H6PA02171"
+    ],
+    "cspan": 56729,
+    "wikipedia": "Dwight Evans (politician)",
+    "ballotpedia": "Dwight Evans",
+    "google_entity_id": "kg:/m/03y8h6m",
+    "wikidata": "Q5318148",
+    "votesmart": 9128,
+    "maplight": 2167,
+    "icpsr": 21566,
+    "pictorial": 13223,
+    "twitter": "RepDwightEvans",
+    "twitter_id": 90639372,
+    "facebook": "RepDwightEvans",
+    "instagram": "repdwightevans"
+  },
+  "name": {
+    "first": "Dwight",
+    "last": "Evans",
+    "official_full": "Dwight Evans"
+  },
+  "bio": {
+    "birthday": "1954-05-16",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "PA",
+    "district": 3,
+    "party": "Democrat",
+    "url": "https://evans.house.gov",
+    "rss_url": "https://evans.house.gov/rss.xml",
+    "address": "1105 Longworth House Office Building Washington DC 20515-3803",
+    "office": "1105 Longworth House Office Building",
+    "phone": "202-225-4001"
+  }
 }

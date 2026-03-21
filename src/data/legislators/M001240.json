@@ -1,13 +1,128 @@
 {
-  "id": "M001240",
-  "bioguide": "M001240",
-  "name": "Addison P. McDowell",
-  "lastName": "McDowell",
-  "state": "NC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1032 Longworth House Office Building",
+    "phoneNumber": "(202) 225-3065",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001240",
+  "birthYear": "1994",
+  "cosponsoredLegislation": {
+    "count": 209,
+    "url": "https://api.congress.gov/v3/member/M001240/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001240.jpg"
+  },
+  "directOrderName": "Addison P. McDowell",
   "district": 6,
-  "nameTitle": "Rep. Addison P. McDowell (NC-6)",
-  "imageUrl": "https://www.congress.gov/img/member/67744e930b34857ecc90914f_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Addison",
+  "honorificName": "Mr.",
+  "invertedOrderName": "McDowell, Addison P.",
+  "lastName": "McDowell",
+  "middleName": "P.",
+  "officialWebsiteUrl": "https://mcdowell.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Addison McDowell",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Addison",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McDowell, Addison",
+      "lastName": "McDowell",
+      "middleName": "P.",
+      "startDate": "2025-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Addison McDowell",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Addison",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McDowell, Addison",
+      "lastName": "McDowell",
+      "middleName": "P.",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Addison McDowell",
+      "endDate": "2025-04-28T13:04:21Z",
+      "firstName": "Addison",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McDowell, Addison",
+      "lastName": "McDowell",
+      "middleName": "P.",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Addison P. McDowell",
+      "firstName": "Addison",
+      "honorificName": "Mr.",
+      "invertedOrderName": "McDowell, Addison P.",
+      "lastName": "McDowell",
+      "middleName": "P.",
+      "startDate": "2025-04-28T13:04:22Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 14,
+    "url": "https://api.congress.gov/v3/member/M001240/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:20Z",
+  "id": {
+    "bioguide": "M001240",
+    "fec": [
+      "H4NC06177"
+    ],
+    "govtrack": 457001,
+    "opensecrets": "N00054055",
+    "wikipedia": "Addison McDowell",
+    "wikidata": "Q130979819",
+    "twitter": "RepMcDowell",
+    "facebook": "RepMcDowell",
+    "instagram": "repmcdowell"
+  },
+  "name": {
+    "first": "Addison",
+    "middle": "Parker",
+    "last": "McDowell",
+    "official_full": "Addison P. McDowell"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1994-01-21"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 6,
+    "party": "Republican",
+    "address": "1032 Longworth House Office Building Washington DC 20515-3306",
+    "office": "1032 Longworth House Office Building",
+    "phone": "202-225-3065",
+    "url": "https://mcdowell.house.gov"
+  }
 }

@@ -1,13 +1,245 @@
 {
-  "id": "G000546",
-  "bioguide": "G000546",
-  "name": "Sam Graves",
-  "lastName": "Graves",
-  "state": "MO",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1135 Longworth House Office Building",
+    "phoneNumber": "(202) 225-7041",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000546",
+  "birthYear": "1963",
+  "cosponsoredLegislation": {
+    "count": 2058,
+    "url": "https://api.congress.gov/v3/member/G000546/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Collection of the U.S. House of Representatives",
+    "imageUrl": "/images/legislators/G000546.jpg"
+  },
+  "directOrderName": "Sam Graves",
   "district": 6,
-  "nameTitle": "Rep. Sam Graves (MO-6)",
-  "imageUrl": "https://www.congress.gov/img/member/g000546_200.jpg",
-  "attribution": "Collection of the U.S. House of Representatives",
-  "type": "rep"
+  "firstName": "Sam",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Graves, Sam",
+  "lastName": "Graves",
+  "officialWebsiteUrl": "https://graves.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2001
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Sam Graves",
+      "endDate": "2024-02-27T13:20:53Z",
+      "firstName": "SAM",
+      "invertedOrderName": "Graves, Sam",
+      "lastName": "GRAVES",
+      "startDate": "2001-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Sam Graves",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Sam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Graves, Sam",
+      "lastName": "Graves",
+      "startDate": "2024-02-27T13:20:54Z"
+    },
+    {
+      "directOrderName": "Sam Graves",
+      "firstName": "Sam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Graves, Sam",
+      "lastName": "Graves",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 269,
+    "url": "https://api.congress.gov/v3/member/G000546/sponsored-legislation"
+  },
+  "state": "Missouri",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 6,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 6,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 6,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 6,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 6,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 6,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 6,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 6,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 6,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MO",
+      "stateName": "Missouri"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "G000546",
+    "thomas": "01656",
+    "govtrack": 400158,
+    "opensecrets": "N00013323",
+    "votesmart": 9425,
+    "fec": [
+      "H0MO06073"
+    ],
+    "cspan": 89873,
+    "wikipedia": "Sam Graves",
+    "house_history": 14251,
+    "maplight": 265,
+    "icpsr": 20124,
+    "wikidata": "Q465638",
+    "google_entity_id": "kg:/m/03tnfy",
+    "ballotpedia": "Sam Graves",
+    "pictorial": 13120,
+    "facebook": "118514606128",
+    "twitter": "RepSamGraves",
+    "twitter_id": 29766367,
+    "youtube_id": "UCdg2ybvoHsSW6t7iJnKHlNg",
+    "instagram": "repsamgraves"
+  },
+  "name": {
+    "first": "Sam",
+    "middle": "B.",
+    "last": "Graves",
+    "official_full": "Sam Graves"
+  },
+  "bio": {
+    "birthday": "1963-11-07",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MO",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://graves.house.gov",
+    "rss_url": "http://graves.house.gov/common/rss/index.cfm?rss=25",
+    "address": "1135 Longworth House Office Building Washington DC 20515-2506",
+    "office": "1135 Longworth House Office Building",
+    "phone": "202-225-7041"
+  }
 }

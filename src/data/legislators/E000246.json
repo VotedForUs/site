@@ -1,13 +1,119 @@
 {
-  "id": "E000246",
-  "bioguide": "E000246",
-  "name": "Chuck Edwards",
-  "lastName": "Edwards",
-  "state": "NC",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1505 Longworth House Office Building",
+    "phoneNumber": "(202) 225-6401",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000246",
+  "birthYear": "1960",
+  "cosponsoredLegislation": {
+    "count": 471,
+    "url": "https://api.congress.gov/v3/member/E000246/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/E000246.jpg"
+  },
+  "directOrderName": "Chuck Edwards",
   "district": 11,
-  "nameTitle": "Rep. Chuck Edwards (NC-11)",
-  "imageUrl": "https://www.congress.gov/img/member/e000246_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Chuck",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Edwards, Chuck",
+  "lastName": "Edwards",
+  "officialWebsiteUrl": "https://edwards.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Chuck Edwards",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Chuck",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Edwards, Chuck",
+      "lastName": "Edwards",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Chuck Edwards",
+      "firstName": "Chuck",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Edwards, Chuck",
+      "lastName": "Edwards",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 42,
+    "url": "https://api.congress.gov/v3/member/E000246/sponsored-legislation"
+  },
+  "state": "North Carolina",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 11,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 11,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NC",
+      "stateName": "North Carolina"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "E000246",
+    "fec": [
+      "H2NC14050"
+    ],
+    "govtrack": 456914,
+    "opensecrets": "N00049670",
+    "wikidata": "Q55065043",
+    "wikipedia": "Chuck Edwards",
+    "google_entity_id": "kg:/g/11ghxw1t29",
+    "votesmart": 166600,
+    "pictorial": 13140,
+    "twitter": "RepEdwards",
+    "twitter_id": 1602748099792879600,
+    "facebook": "RepChuckEdwards",
+    "instagram": "repchuckedwards"
+  },
+  "name": {
+    "first": "Charles (Chuck)",
+    "middle": "Marion",
+    "last": "Edwards",
+    "official_full": "Chuck Edwards"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1960-09-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NC",
+    "district": 11,
+    "party": "Republican",
+    "url": "https://edwards.house.gov",
+    "address": "1505 Longworth House Office Building Washington DC 20515-3311",
+    "office": "1505 Longworth House Office Building",
+    "phone": "202-225-6401"
+  }
 }

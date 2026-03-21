@@ -1,13 +1,149 @@
 {
-  "id": "W000790",
-  "bioguide": "W000790",
-  "name": "Raphael G. Warnock",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "717 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-3643",
+    "zipCode": 20510
+  },
+  "bioguideId": "W000790",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 1211,
+    "url": "https://api.congress.gov/v3/member/W000790/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+    "imageUrl": "/images/legislators/W000790.jpg"
+  },
+  "directOrderName": "Raphael G. Warnock",
+  "firstName": "Raphael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Warnock, Raphael G.",
   "lastName": "Warnock",
-  "state": "GA",
-  "party": "Democrat",
-  "nameTitle": "Sen. Raphael G. Warnock (GA)",
-  "imageUrl": "https://www.congress.gov/img/member/w000790_200.jpg",
-  "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
-  "stateRank": "junior",
-  "type": "sen"
+  "officialWebsiteUrl": "https://www.warnock.senate.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2021
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Raphael G. Warnock",
+      "endDate": "2023-01-04T07:34:59Z",
+      "firstName": "Raphael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Warnock, Raphael G.",
+      "lastName": "Warnock",
+      "middleName": "G.",
+      "startDate": "2021-01-20T17:00:00Z"
+    },
+    {
+      "directOrderName": "Raphael G. Warnock",
+      "endDate": "2023-04-20T06:34:59Z",
+      "firstName": "Raphael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Warnock, Raphael G.",
+      "lastName": "Warnock",
+      "startDate": "2023-01-04T07:35:00Z"
+    },
+    {
+      "directOrderName": "Raphael G. Warnock",
+      "endDate": "2025-02-26T09:44:59Z",
+      "firstName": "Raphael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Warnock, Raphael G.",
+      "lastName": "Warnock",
+      "startDate": "2023-04-20T06:35:00Z"
+    },
+    {
+      "directOrderName": "Raphael G. Warnock",
+      "firstName": "Raphael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Warnock, Raphael G.",
+      "lastName": "Warnock",
+      "startDate": "2025-02-26T09:45:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 229,
+    "url": "https://api.congress.gov/v3/member/W000790/sponsored-legislation"
+  },
+  "state": "Georgia",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 117,
+      "endYear": 2023,
+      "memberType": "Senator",
+      "startYear": 2021,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 118,
+      "endYear": 2025,
+      "memberType": "Senator",
+      "startYear": 2023,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    },
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2025,
+      "stateCode": "GA",
+      "stateName": "Georgia"
+    }
+  ],
+  "updateDate": "2026-03-08T10:32:58Z",
+  "id": {
+    "bioguide": "W000790",
+    "lis": "S415",
+    "fec": [
+      "S0GA00559"
+    ],
+    "opensecrets": "N00046489",
+    "govtrack": 456858,
+    "wikipedia": "Raphael Warnock",
+    "wikidata": "Q84146599",
+    "ballotpedia": "Raphael Warnock",
+    "votesmart": 189794,
+    "google_entity_id": "kg:/g/11b5lw9q73",
+    "pictorial": 13377,
+    "twitter": "SenatorWarnock",
+    "twitter_id": 1352287997853622300,
+    "facebook": "SenatorWarnock",
+    "youtube": "senatorwarnock"
+  },
+  "name": {
+    "first": "Raphael",
+    "middle": "Gamaliel",
+    "last": "Warnock",
+    "official_full": "Raphael G. Warnock"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1969-07-23"
+  },
+  "latest_term": {
+    "type": "sen",
+    "start": "2023-01-03",
+    "end": "2029-01-03",
+    "state": "GA",
+    "class": 3,
+    "state_rank": "junior",
+    "party": "Democrat",
+    "url": "https://www.warnock.senate.gov",
+    "contact_form": "https://www.warnock.senate.gov/contact/",
+    "address": "717 Hart Senate Office Building Washington DC 20510",
+    "office": "717 Hart Senate Office Building",
+    "phone": "202-224-3643",
+    "fax": "202-228-0724"
+  }
 }

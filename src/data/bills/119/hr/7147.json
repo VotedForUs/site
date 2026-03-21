@@ -1,8 +1,201 @@
 {
   "actions": {
-    "count": 31,
+    "count": 37,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-19",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S1311)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion by Senator Thune to reconsider the vote by which the third cloture on the motion to proceed to the measure was not invoked (Record Vote No. 54) entered in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-12",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-03-12T18:27:55Z",
+            "rollNumber": 54,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00054.xml",
+            "votes": {
+              "A000382": "Nay",
+              "B001230": "Nay",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Nay",
+              "B001243": "Not Voting",
+              "B001277": "Nay",
+              "B001303": "Nay",
+              "B001288": "Nay",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Nay",
+              "C001047": "Yea",
+              "C001075": "Yea",
+              "C001035": "Yea",
+              "C001088": "Nay",
+              "C001056": "Yea",
+              "C001113": "Nay",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Yea",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Nay",
+              "D000563": "Nay",
+              "E000295": "Yea",
+              "F000479": "Yea",
+              "F000463": "Yea",
+              "G000574": "Nay",
+              "G000555": "Nay",
+              "G000359": "Yea",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Nay",
+              "H001089": "Yea",
+              "H001046": "Nay",
+              "H000273": "Nay",
+              "H001042": "Nay",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Yea",
+              "J000312": "Yea",
+              "K000384": "Nay",
+              "K000377": "Nay",
+              "K000393": "Yea",
+              "K000394": "Nay",
+              "K000383": "Nay",
+              "K000367": "Nay",
+              "L000575": "Yea",
+              "L000577": "Yea",
+              "L000570": "Nay",
+              "L000571": "Yea",
+              "M000133": "Nay",
+              "M001198": "Yea",
+              "M000355": "Yea",
+              "M001243": "Yea",
+              "M001176": "Nay",
+              "M001244": "Yea",
+              "M000934": "Not Voting",
+              "M001242": "Yea",
+              "M001190": "Yea",
+              "M001153": "Yea",
+              "M001169": "Nay",
+              "M001111": "Nay",
+              "O000174": "Nay",
+              "P000145": "Nay",
+              "P000603": "Yea",
+              "P000595": "Nay",
+              "R000122": "Nay",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Nay",
+              "R000605": "Yea",
+              "S000033": "Nay",
+              "S001194": "Nay",
+              "S001150": "Nay",
+              "S001227": "Yea",
+              "S000148": "Nay",
+              "S001217": "Yea",
+              "S001184": "Yea",
+              "S001181": "Not Voting",
+              "S001232": "Yea",
+              "S001208": "Nay",
+              "S001203": "Nay",
+              "S001198": "Yea",
+              "T000250": "Nay",
+              "T000476": "Yea",
+              "T000278": "Yea",
+              "V000128": "Nay",
+              "W000805": "Nay",
+              "W000790": "Nay",
+              "W000817": "Nay",
+              "W000800": "Nay",
+              "W000802": "Nay",
+              "W000437": "Yea",
+              "W000779": "Nay",
+              "Y000064": "Yea"
+            },
+            "result": "rejected",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 46,
+              "present": "",
+              "absent": 3
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 1,
+                "nayTotal": 43,
+                "presentTotal": 0,
+                "notVotingTotal": 1
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 50,
+                "nayTotal": 1,
+                "presentTotal": 0,
+                "notVotingTotal": 2
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 0,
+                "nayTotal": 2,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00054.xml",
+            "question": "On Cloture on the Motion to Proceed H.R. 7147",
+            "id": "119-HR-7147-7"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Third cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 51 - 46. Record Vote Number: 54. (CR S1034)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to measure considered in Senate. (CR S1024)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Third cloture motion on the motion to proceed to the measure presented in Senate. (CR S946)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S946)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-05",
         "recordedVotes": [
@@ -467,7 +660,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Thune to reconsider the vote by which the second cloture on the motion to proceed to the measure was not invoked (Record Vote No. 38) entered in Senate.",
+        "text": "Motion by Senator Thune to reconsider the vote by which the second cloture on the motion to proceed to the measure was not invoked (Record Vote No. 39) entered in Senate.",
         "type": "Floor"
       },
       {
@@ -782,7 +975,7 @@
               }
             ],
             "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00038.xml",
-            "question": "On the Cloture Motion H.R. 7147",
+            "question": "On Cloture on the Motion to Proceed H.R. 7147",
             "id": "119-HR-7147-2"
           }
         ],
@@ -1487,8 +1680,8 @@
   "congress": 119,
   "introducedDate": "2026-01-20",
   "latestAction": {
-    "actionDate": "2026-03-05",
-    "text": "Upon reconsideration, cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 51 - 45. Record Vote Number: 47."
+    "actionDate": "2026-03-19",
+    "text": "Motion to proceed to consideration of measure made in Senate. (CR S1311)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7147",
   "number": "7147",
@@ -1556,9 +1749,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-06T20:05:54Z",
-  "updateDateIncludingText": "2026-03-06T20:05:54Z",
+  "updateDate": "2026-03-20T16:21:00Z",
+  "updateDateIncludingText": "2026-03-20T16:21:00Z",
   "id": "119-HR-7147",
-  "lastActionDate": "2026-03-05",
-  "lastRecordedVoteDate": "2026-03-05T19:27:42Z"
+  "lastActionDate": "2026-03-19",
+  "lastRecordedVoteDate": "2026-03-12T18:27:55Z"
 }

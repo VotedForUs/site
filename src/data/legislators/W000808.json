@@ -1,13 +1,209 @@
 {
-  "id": "W000808",
-  "bioguide": "W000808",
-  "name": "Frederica S. Wilson",
-  "lastName": "Wilson",
-  "state": "FL",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2080 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4506",
+    "zipCode": 20515
+  },
+  "bioguideId": "W000808",
+  "birthYear": "1942",
+  "cosponsoredLegislation": {
+    "count": 3776,
+    "url": "https://api.congress.gov/v3/member/W000808/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000808.jpg"
+  },
+  "directOrderName": "Frederica S. Wilson",
   "district": 24,
-  "nameTitle": "Rep. Frederica S. Wilson (FL-24)",
-  "imageUrl": "https://www.congress.gov/img/member/w000808_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Frederica",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Wilson, Frederica S.",
+  "lastName": "Wilson",
+  "middleName": "S.",
+  "officialWebsiteUrl": "https://wilson.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2011
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Frederica S. Wilson",
+      "endDate": "2024-02-27T13:20:49Z",
+      "firstName": "Frederica",
+      "invertedOrderName": "Wilson, Frederica S.",
+      "lastName": "Wilson",
+      "middleName": "S.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Frederica S. Wilson",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Frederica",
+      "invertedOrderName": "Wilson, Frederica S.",
+      "lastName": "Wilson",
+      "middleName": "S.",
+      "startDate": "2011-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Frederica S. Wilson",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Frederica",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Wilson, Frederica S.",
+      "lastName": "Wilson",
+      "middleName": "S.",
+      "startDate": "2024-02-27T13:20:50Z"
+    },
+    {
+      "directOrderName": "Frederica S. Wilson",
+      "firstName": "Frederica",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Wilson, Frederica S.",
+      "lastName": "Wilson",
+      "middleName": "S.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 170,
+    "url": "https://api.congress.gov/v3/member/W000808/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 17,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 24,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 24,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 24,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 24,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 24,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 24,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 24,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "bioguide": "W000808",
+    "thomas": "02004",
+    "govtrack": 412412,
+    "opensecrets": "N00030650",
+    "votesmart": 17319,
+    "fec": [
+      "H0FL17068"
+    ],
+    "cspan": 87016,
+    "wikipedia": "Frederica Wilson",
+    "ballotpedia": "Frederica Wilson",
+    "maplight": 1424,
+    "icpsr": 21118,
+    "house_history": 24196,
+    "wikidata": "Q461504",
+    "google_entity_id": "kg:/m/03cg3tv",
+    "pictorial": 13005,
+    "twitter": "RepWilson",
+    "facebook": "RepWilson",
+    "youtube": "repfredericawilson",
+    "youtube_id": "UCP5QBhng_lHv-vJgE_h7lpA",
+    "twitter_id": 234014087,
+    "instagram": "repwilson"
+  },
+  "name": {
+    "first": "Frederica",
+    "last": "Wilson",
+    "official_full": "Frederica S. Wilson",
+    "middle": "S."
+  },
+  "bio": {
+    "birthday": "1942-11-05",
+    "gender": "F"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "FL",
+    "district": 24,
+    "party": "Democrat",
+    "url": "https://wilson.house.gov",
+    "rss_url": "http://wilson.house.gov/common/rss//index.cfm?rss=49",
+    "address": "2080 Rayburn House Office Building Washington DC 20515-0924",
+    "office": "2080 Rayburn House Office Building",
+    "phone": "202-225-4506"
+  }
 }

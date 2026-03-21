@@ -1,13 +1,184 @@
 {
-  "id": "M001188",
-  "bioguide": "M001188",
-  "name": "Grace Meng",
-  "lastName": "Meng",
-  "state": "NY",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2468 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-2601",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001188",
+  "birthYear": "1975",
+  "cosponsoredLegislation": {
+    "count": 3522,
+    "url": "https://api.congress.gov/v3/member/M001188/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001188.jpg"
+  },
+  "directOrderName": "Grace Meng",
   "district": 6,
-  "nameTitle": "Rep. Grace Meng (NY-6)",
-  "imageUrl": "https://www.congress.gov/img/member/m001188_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Grace",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Meng, Grace",
+  "lastName": "Meng",
+  "officialWebsiteUrl": "https://meng.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Grace Meng",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Grace",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Meng, Grace",
+      "lastName": "Meng",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Grace Meng",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Grace",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Meng, Grace",
+      "lastName": "Meng",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Grace Meng",
+      "firstName": "Grace",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Meng, Grace",
+      "lastName": "Meng",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 310,
+    "url": "https://api.congress.gov/v3/member/M001188/sponsored-legislation"
+  },
+  "state": "New York",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 6,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 6,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 6,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "NY",
+      "stateName": "New York"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "NY",
+      "stateName": "New York"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:13Z",
+  "id": {
+    "govtrack": 412560,
+    "bioguide": "M001188",
+    "thomas": "02148",
+    "cspan": 68411,
+    "votesmart": 69157,
+    "wikipedia": "Grace Meng",
+    "fec": [
+      "H2NY06116"
+    ],
+    "opensecrets": "N00034547",
+    "ballotpedia": "Grace Meng",
+    "maplight": 1784,
+    "icpsr": 21342,
+    "house_history": 15032387500,
+    "wikidata": "Q5591303",
+    "google_entity_id": "kg:/m/04ld76x",
+    "pictorial": 13174,
+    "twitter": "RepGraceMeng",
+    "facebook": "repgracemeng",
+    "youtube_id": "UCHg516zJKbIBtXFAJ0nu3XQ",
+    "twitter_id": 1051127714
+  },
+  "name": {
+    "first": "Grace",
+    "last": "Meng",
+    "official_full": "Grace Meng"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1975-10-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "NY",
+    "district": 6,
+    "party": "Democrat",
+    "url": "https://meng.house.gov",
+    "rss_url": "http://meng.house.gov/rss.xml",
+    "address": "2468 Rayburn House Office Building Washington DC 20515-3206",
+    "office": "2468 Rayburn House Office Building",
+    "phone": "202-225-2601"
+  }
 }

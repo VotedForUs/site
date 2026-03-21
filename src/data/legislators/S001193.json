@@ -1,13 +1,176 @@
 {
-  "id": "S001193",
-  "bioguide": "S001193",
-  "name": "Eric Swalwell",
-  "lastName": "Swalwell",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "174 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5065",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001193",
+  "birthYear": "1980",
+  "cosponsoredLegislation": {
+    "count": 3313,
+    "url": "https://api.congress.gov/v3/member/S001193/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001193.jpg"
+  },
+  "directOrderName": "Eric Swalwell",
   "district": 14,
-  "nameTitle": "Rep. Eric Swalwell (CA-14)",
-  "imageUrl": "https://www.congress.gov/img/member/s001193_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Eric",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Swalwell, Eric",
+  "lastName": "Swalwell",
+  "officialWebsiteUrl": "https://swalwell.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Eric Swalwell",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Swalwell, Eric",
+      "lastName": "Swalwell",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Eric Swalwell",
+      "firstName": "Eric",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Swalwell, Eric",
+      "lastName": "Swalwell",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 107,
+    "url": "https://api.congress.gov/v3/member/S001193/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 15,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 15,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 15,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 15,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 15,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 14,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 14,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "govtrack": 412514,
+    "bioguide": "S001193",
+    "thomas": "02104",
+    "cspan": 79729,
+    "opensecrets": "N00033508",
+    "votesmart": 129529,
+    "wikipedia": "Eric Swalwell",
+    "fec": [
+      "H2CA15094"
+    ],
+    "ballotpedia": "Eric Swalwell",
+    "maplight": 1738,
+    "icpsr": 21306,
+    "wikidata": "Q3466996",
+    "google_entity_id": "kg:/m/0ncq55g",
+    "pictorial": 12928,
+    "twitter": "RepSwalwell",
+    "facebook": "CongressmanEricSwalwell",
+    "youtube": "ericswalwell",
+    "youtube_id": "UCKvwsFNGD4sDkE_9g-2ft0w",
+    "instagram": "repswalwell",
+    "instagram_id": 338799200,
+    "twitter_id": 942156122
+  },
+  "name": {
+    "first": "Eric",
+    "last": "Swalwell",
+    "official_full": "Eric Swalwell"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1980-11-16"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 14,
+    "party": "Democrat",
+    "url": "https://swalwell.house.gov",
+    "address": "174 Cannon House Office Building Washington DC 20515-0514",
+    "office": "174 Cannon House Office Building",
+    "phone": "202-225-5065"
+  }
 }

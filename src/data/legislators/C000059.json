@@ -1,13 +1,286 @@
 {
-  "id": "C000059",
-  "bioguide": "C000059",
-  "name": "Ken Calvert",
-  "lastName": "Calvert",
-  "state": "CA",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2205 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1986",
+    "zipCode": 20515
+  },
+  "bioguideId": "C000059",
+  "birthYear": "1953",
+  "cosponsoredLegislation": {
+    "count": 5177,
+    "url": "https://api.congress.gov/v3/member/C000059/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/C000059.jpg"
+  },
+  "directOrderName": "Ken Calvert",
   "district": 41,
-  "nameTitle": "Rep. Ken Calvert (CA-41)",
-  "imageUrl": "https://www.congress.gov/img/member/c000059_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Ken",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Calvert, Ken",
+  "lastName": "Calvert",
+  "officialWebsiteUrl": "https://calvert.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 1993
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Ken Calvert",
+      "endDate": "2024-02-27T13:20:48Z",
+      "firstName": "KEN",
+      "invertedOrderName": "Calvert, Ken",
+      "lastName": "CALVERT",
+      "startDate": "1993-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Ken Calvert",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Ken",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Calvert, Ken",
+      "lastName": "Calvert",
+      "startDate": "2024-02-27T13:20:49Z"
+    },
+    {
+      "directOrderName": "Ken Calvert",
+      "firstName": "Ken",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Calvert, Ken",
+      "lastName": "Calvert",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 280,
+    "url": "https://api.congress.gov/v3/member/C000059/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 103,
+      "district": 43,
+      "endYear": 1995,
+      "memberType": "Representative",
+      "startYear": 1993,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 104,
+      "district": 43,
+      "endYear": 1997,
+      "memberType": "Representative",
+      "startYear": 1995,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 105,
+      "district": 43,
+      "endYear": 1999,
+      "memberType": "Representative",
+      "startYear": 1997,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 106,
+      "district": 43,
+      "endYear": 2001,
+      "memberType": "Representative",
+      "startYear": 1999,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 107,
+      "district": 43,
+      "endYear": 2003,
+      "memberType": "Representative",
+      "startYear": 2001,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 108,
+      "district": 44,
+      "endYear": 2005,
+      "memberType": "Representative",
+      "startYear": 2003,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 109,
+      "district": 44,
+      "endYear": 2007,
+      "memberType": "Representative",
+      "startYear": 2005,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 110,
+      "district": 44,
+      "endYear": 2009,
+      "memberType": "Representative",
+      "startYear": 2007,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 111,
+      "district": 44,
+      "endYear": 2011,
+      "memberType": "Representative",
+      "startYear": 2009,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 112,
+      "district": 44,
+      "endYear": 2013,
+      "memberType": "Representative",
+      "startYear": 2011,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 42,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 42,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 42,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 42,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 42,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 41,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 41,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "C000059",
+    "thomas": "00165",
+    "govtrack": 400057,
+    "opensecrets": "N00007099",
+    "votesmart": 26777,
+    "fec": [
+      "H2CA37023"
+    ],
+    "cspan": 26709,
+    "wikipedia": "Ken Calvert",
+    "house_history": 10517,
+    "maplight": 175,
+    "icpsr": 29323,
+    "wikidata": "Q538978",
+    "google_entity_id": "kg:/m/024xl1",
+    "ballotpedia": "Ken Calvert",
+    "pictorial": 12955,
+    "twitter": "KenCalvert",
+    "facebook": "70063393423",
+    "youtube": "RepKenCalvert",
+    "youtube_id": "UC5MEj7YOX_QdKoqD_HRxP3A",
+    "twitter_id": 22545491,
+    "instagram": "repkencalvert"
+  },
+  "name": {
+    "first": "Ken",
+    "middle": "S.",
+    "last": "Calvert",
+    "official_full": "Ken Calvert"
+  },
+  "bio": {
+    "birthday": "1953-06-08",
+    "gender": "M"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 41,
+    "party": "Republican",
+    "url": "https://calvert.house.gov",
+    "rss_url": "http://calvert.house.gov/news/rss.aspx",
+    "address": "2205 Rayburn House Office Building Washington DC 20515-0541",
+    "office": "2205 Rayburn House Office Building",
+    "phone": "202-225-1986"
+  }
 }

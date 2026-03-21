@@ -1,13 +1,177 @@
 {
-  "id": "B001282",
-  "bioguide": "B001282",
-  "name": "Andy Barr",
-  "lastName": "Barr",
-  "state": "KY",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2430 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-4706",
+    "zipCode": 20515
+  },
+  "bioguideId": "B001282",
+  "birthYear": "1973",
+  "cosponsoredLegislation": {
+    "count": 1707,
+    "url": "https://api.congress.gov/v3/member/B001282/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/B001282.jpg"
+  },
+  "directOrderName": "Andy Barr",
   "district": 6,
-  "nameTitle": "Rep. Andy Barr (KY-6)",
-  "imageUrl": "https://www.congress.gov/img/member/b001282_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Andy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Barr, Andy",
+  "lastName": "Barr",
+  "officialWebsiteUrl": "https://barr.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2013
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Andy Barr",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Barr, Andy",
+      "lastName": "Barr",
+      "startDate": "2013-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Andy Barr",
+      "firstName": "Andy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Barr, Andy",
+      "lastName": "Barr",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 218,
+    "url": "https://api.congress.gov/v3/member/B001282/sponsored-legislation"
+  },
+  "state": "Kentucky",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 113,
+      "district": 6,
+      "endYear": 2015,
+      "memberType": "Representative",
+      "startYear": 2013,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 114,
+      "district": 6,
+      "endYear": 2017,
+      "memberType": "Representative",
+      "startYear": 2015,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 6,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "KY",
+      "stateName": "Kentucky"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:14Z",
+  "id": {
+    "govtrack": 412541,
+    "bioguide": "B001282",
+    "thomas": "02131",
+    "cspan": 61848,
+    "votesmart": 117290,
+    "wikipedia": "Andy Barr (American politician)",
+    "fec": [
+      "H0KY06104"
+    ],
+    "opensecrets": "N00031233",
+    "ballotpedia": "Andy Barr",
+    "maplight": 1765,
+    "icpsr": 21333,
+    "wikidata": "Q3828645",
+    "google_entity_id": "kg:/m/0ddc6r6",
+    "pictorial": 13068,
+    "twitter": "RepAndyBarr",
+    "facebook": "RepAndyBarr",
+    "youtube": "RepAndyBarr",
+    "youtube_id": "UCVL2s6x7f7H0ZJ-uwU0pQ6Q",
+    "twitter_id": 1089334250,
+    "instagram": "RepAndyBarr"
+  },
+  "name": {
+    "first": "Garland",
+    "last": "Barr",
+    "nickname": "Andy",
+    "official_full": "Andy Barr"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1973-07-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "KY",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://barr.house.gov",
+    "rss_url": "http://barr.house.gov/rss.xml",
+    "address": "2430 Rayburn House Office Building Washington DC 20515-1706",
+    "office": "2430 Rayburn House Office Building",
+    "phone": "202-225-4706"
+  }
 }

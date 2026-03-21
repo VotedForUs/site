@@ -1,13 +1,120 @@
 {
-  "id": "H001095",
-  "bioguide": "H001095",
-  "name": "Wesley Hunt",
-  "lastName": "Hunt",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1520 Longworth House Office Building",
+    "phoneNumber": "(202) 225-5646",
+    "zipCode": 20515
+  },
+  "bioguideId": "H001095",
+  "birthYear": "1981",
+  "cosponsoredLegislation": {
+    "count": 304,
+    "url": "https://api.congress.gov/v3/member/H001095/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/H001095.jpg"
+  },
+  "directOrderName": "Wesley Hunt",
   "district": 38,
-  "nameTitle": "Rep. Wesley Hunt (TX-38)",
-  "imageUrl": "https://www.congress.gov/img/member/h001095_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Wesley",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Hunt, Wesley",
+  "lastName": "Hunt",
+  "officialWebsiteUrl": "https://hunt.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Wesley Hunt",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Wesley",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hunt, Wesley",
+      "lastName": "Hunt",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Wesley Hunt",
+      "firstName": "Wesley",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Hunt, Wesley",
+      "lastName": "Hunt",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 27,
+    "url": "https://api.congress.gov/v3/member/H001095/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 38,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 38,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "H001095",
+    "fec": [
+      "H0TX07170"
+    ],
+    "govtrack": 456946,
+    "opensecrets": "N00044362",
+    "wikidata": "Q110434665",
+    "wikipedia": "Wesley Hunt",
+    "votesmart": 188147,
+    "ballotpedia": "Wesley Hunt (Texas Congress)",
+    "pictorial": 13295,
+    "google_entity_id": "kg:/g/11fs4rfr_9",
+    "twitter": "RepWesleyHunt",
+    "twitter_id": 1602751001756311600,
+    "facebook": "RepWesleyHunt",
+    "instagram": "repwph"
+  },
+  "name": {
+    "first": "Wesley",
+    "middle": "Parish",
+    "last": "Hunt",
+    "official_full": "Wesley Hunt"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1981-11-13"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 38,
+    "party": "Republican",
+    "url": "https://hunt.house.gov",
+    "address": "1520 Longworth House Office Building Washington DC 20515-0001",
+    "office": "1520 Longworth House Office Building",
+    "phone": "202-225-5646"
+  }
 }

@@ -1,13 +1,145 @@
 {
-  "id": "M001228",
-  "bioguide": "M001228",
-  "name": "Celeste Maloy",
-  "lastName": "Maloy",
-  "state": "UT",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "249 Cannon House Office Building",
+    "phoneNumber": "(202) 225-9730",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001228",
+  "birthYear": "1981",
+  "cosponsoredLegislation": {
+    "count": 180,
+    "url": "https://api.congress.gov/v3/member/M001228/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/M001228.jpg"
+  },
+  "directOrderName": "Celeste Maloy",
   "district": 2,
-  "nameTitle": "Rep. Celeste Maloy (UT-2)",
-  "imageUrl": "https://www.congress.gov/img/member/m001228_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Celeste",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Maloy, Celeste",
+  "lastName": "Maloy",
+  "officialWebsiteUrl": "https://maloy.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Celeste Maloy",
+      "endDate": "2024-02-27T13:20:59Z",
+      "firstName": "Celeste",
+      "invertedOrderName": "Maloy, Celeste",
+      "lastName": "Maloy",
+      "startDate": "2023-11-28T05:00:00Z"
+    },
+    {
+      "directOrderName": "Celeste Maloy",
+      "endDate": "2024-03-04T19:26:35Z",
+      "firstName": "Celeste",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Maloy, Celeste",
+      "lastName": "Maloy",
+      "startDate": "2024-02-27T13:21:00Z"
+    },
+    {
+      "directOrderName": "Celeste Maloy",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Celeste",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Maloy, Celeste",
+      "lastName": "Maloy",
+      "startDate": "2024-03-04T19:26:36Z"
+    },
+    {
+      "directOrderName": "Celeste Maloy",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Celeste",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Maloy, Celeste",
+      "lastName": "Maloy",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Celeste Maloy",
+      "firstName": "Celeste",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Maloy, Celeste",
+      "lastName": "Maloy",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 37,
+    "url": "https://api.congress.gov/v3/member/M001228/sponsored-legislation"
+  },
+  "state": "Utah",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 2,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 2,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "UT",
+      "stateName": "Utah"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:19Z",
+  "id": {
+    "bioguide": "M001228",
+    "fec": [
+      "H4UT02296"
+    ],
+    "govtrack": 456956,
+    "opensecrets": "N00052817",
+    "wikipedia": "Celeste Maloy",
+    "wikidata": "Q119578731",
+    "ballotpedia": "Celeste Maloy",
+    "pictorial": 13297,
+    "votesmart": 212289,
+    "google_entity_id": "kg:/g/11svnq8sm0",
+    "twitter": "RepMaloyUtah",
+    "facebook": "61555755717517",
+    "instagram": "RepCelesteMaloy",
+    "youtube": "@RepCelesteMaloy"
+  },
+  "name": {
+    "first": "Celeste",
+    "last": "Maloy",
+    "official_full": "Celeste Maloy"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1981-05-22"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "UT",
+    "district": 2,
+    "party": "Republican",
+    "url": "https://maloy.house.gov",
+    "address": "249 Cannon House Office Building Washington DC 20515-4402",
+    "office": "249 Cannon House Office Building",
+    "phone": "202-225-9730"
+  }
 }

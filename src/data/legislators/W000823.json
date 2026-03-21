@@ -1,13 +1,139 @@
 {
-  "id": "W000823",
-  "bioguide": "W000823",
-  "name": "Michael Waltz",
-  "lastName": "Waltz",
-  "state": "FL",
-  "party": "Republican",
+  "bioguideId": "W000823",
+  "birthYear": "1974",
+  "cosponsoredLegislation": {
+    "count": 871,
+    "url": "https://api.congress.gov/v3/member/W000823/cosponsored-legislation"
+  },
+  "currentMember": false,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/W000823.jpg"
+  },
+  "directOrderName": "Michael Waltz",
   "district": 6,
-  "nameTitle": "Rep. Michael Waltz (FL-6)",
-  "imageUrl": "https://www.congress.gov/img/member/w000823_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Michael",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Waltz, Michael",
+  "lastName": "Waltz",
+  "officialWebsiteUrl": "https://waltz.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Michael Waltz",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Waltz, Michael",
+      "lastName": "Waltz",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Waltz",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Waltz, Michael",
+      "lastName": "Waltz",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Michael Waltz",
+      "firstName": "Michael",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Waltz, Michael",
+      "lastName": "Waltz",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 77,
+    "url": "https://api.congress.gov/v3/member/W000823/sponsored-legislation"
+  },
+  "state": "Florida",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 6,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 6,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 6,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "FL",
+      "stateName": "Florida"
+    }
+  ],
+  "updateDate": "2025-09-19T22:03:47Z",
+  "id": {
+    "bioguide": "W000823",
+    "fec": [
+      "H8FL06148"
+    ],
+    "govtrack": 412764,
+    "wikipedia": "Michael Waltz",
+    "wikidata": "Q55386653",
+    "opensecrets": "N00042403",
+    "icpsr": 21981,
+    "google_entity_id": "kg:/g/11f50xlkjm",
+    "ballotpedia": "Michael Waltz",
+    "votesmart": 182261,
+    "pictorial": 12987
+  },
+  "name": {
+    "first": "Michael",
+    "last": "Waltz",
+    "official_full": "Michael Waltz"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1974-01-31"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2025-01-20",
+    "state": "FL",
+    "district": 6,
+    "party": "Republican",
+    "url": "https://clerk.house.gov",
+    "address": "244 Cannon House Office Building Washington DC 20515-0906",
+    "office": "244 Cannon House Office Building",
+    "phone": "202-225-2706"
+  }
 }

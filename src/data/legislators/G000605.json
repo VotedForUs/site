@@ -1,13 +1,114 @@
 {
-  "id": "G000605",
-  "bioguide": "G000605",
-  "name": "Adam Gray",
-  "lastName": "Gray",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1230 Longworth House Office Building",
+    "phoneNumber": "(202) 225-1947",
+    "zipCode": 20515
+  },
+  "bioguideId": "G000605",
+  "birthYear": "1977",
+  "cosponsoredLegislation": {
+    "count": 130,
+    "url": "https://api.congress.gov/v3/member/G000605/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/G000605.jpg"
+  },
+  "directOrderName": "Adam Gray",
   "district": 13,
-  "nameTitle": "Rep. Adam Gray (CA-13)",
-  "imageUrl": "https://www.congress.gov/img/member/67742a160b34857ecc9090bf_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Adam",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Gray, Adam",
+  "lastName": "Gray",
+  "officialWebsiteUrl": "https://gray.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2025
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Adam Gray",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Adam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gray, Adam",
+      "lastName": "Gray",
+      "startDate": "2025-01-10T17:36:19Z"
+    },
+    {
+      "directOrderName": "Adam Gray",
+      "firstName": "Adam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gray, Adam",
+      "lastName": "Gray",
+      "startDate": "2025-01-17T05:00:00Z"
+    },
+    {
+      "directOrderName": "Adam Gray",
+      "endDate": "2025-01-10T17:36:18Z",
+      "firstName": "Adam",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Gray, Adam",
+      "lastName": "Gray",
+      "startDate": "2025-01-03T17:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 7,
+    "url": "https://api.congress.gov/v3/member/G000605/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 13,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:12Z",
+  "id": {
+    "bioguide": "G000605",
+    "fec": [
+      "H2CA13115"
+    ],
+    "govtrack": 456975,
+    "opensecrets": "N00050061",
+    "wikipedia": "Adam Gray",
+    "wikidata": "Q3000097",
+    "twitter": "RepAdamGrayCA",
+    "facebook": "repadamgrayca",
+    "instagram": "repadamgrayca"
+  },
+  "name": {
+    "first": "Adam",
+    "middle": "Channing",
+    "last": "Gray",
+    "official_full": "Adam Gray"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1977-09-23"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 13,
+    "party": "Democrat",
+    "address": "1230 Longworth House Office Building Washington DC 20515-0513",
+    "office": "1230 Longworth House Office Building",
+    "phone": "202-225-1947",
+    "url": "https://gray.house.gov"
+  }
 }

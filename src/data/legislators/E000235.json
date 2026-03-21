@@ -1,13 +1,119 @@
 {
-  "id": "E000235",
-  "bioguide": "E000235",
-  "name": "Mike Ezell",
-  "lastName": "Ezell",
-  "state": "MS",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "443 Cannon House Office Building",
+    "phoneNumber": "(202) 225-5772",
+    "zipCode": 20515
+  },
+  "bioguideId": "E000235",
+  "birthYear": "1959",
+  "cosponsoredLegislation": {
+    "count": 394,
+    "url": "https://api.congress.gov/v3/member/E000235/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/E000235.jpg"
+  },
+  "directOrderName": "Mike Ezell",
   "district": 4,
-  "nameTitle": "Rep. Mike Ezell (MS-4)",
-  "imageUrl": "https://www.congress.gov/img/member/e000235_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Mike",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Ezell, Mike",
+  "lastName": "Ezell",
+  "officialWebsiteUrl": "https://ezell.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2023
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Mike Ezell",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Ezell, Mike",
+      "lastName": "Ezell",
+      "startDate": "2023-01-03T17:00:00Z"
+    },
+    {
+      "directOrderName": "Mike Ezell",
+      "firstName": "Mike",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Ezell, Mike",
+      "lastName": "Ezell",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 37,
+    "url": "https://api.congress.gov/v3/member/E000235/sponsored-legislation"
+  },
+  "state": "Mississippi",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 4,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 4,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MS",
+      "stateName": "Mississippi"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:18Z",
+  "id": {
+    "bioguide": "E000235",
+    "fec": [
+      "H2MS04258"
+    ],
+    "govtrack": 456911,
+    "opensecrets": "N00048240",
+    "wikidata": "Q115137554",
+    "wikipedia": "Mike Ezell",
+    "votesmart": 202526,
+    "pictorial": 13127,
+    "google_entity_id": "kg:/g/11nfmh8y4w",
+    "twitter": "RepEzell",
+    "twitter_id": 1602788004749344800,
+    "facebook": "repezell",
+    "instagram": "repmikeezell",
+    "youtube": "UCseRXy2_n4j97lndfkQ_hAw"
+  },
+  "name": {
+    "first": "Mike",
+    "last": "Ezell",
+    "official_full": "Mike Ezell"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1959-04-06"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MS",
+    "district": 4,
+    "party": "Republican",
+    "url": "https://ezell.house.gov",
+    "address": "443 Cannon House Office Building Washington DC 20515-2404",
+    "office": "443 Cannon House Office Building",
+    "phone": "202-225-5772"
+  }
 }

@@ -1,13 +1,162 @@
 {
-  "id": "P000613",
-  "bioguide": "P000613",
-  "name": "Jimmy Panetta",
-  "lastName": "Panetta",
-  "state": "CA",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "200 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2861",
+    "zipCode": 20515
+  },
+  "bioguideId": "P000613",
+  "birthYear": "1969",
+  "cosponsoredLegislation": {
+    "count": 2974,
+    "url": "https://api.congress.gov/v3/member/P000613/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/P000613.jpg"
+  },
+  "directOrderName": "Jimmy Panetta",
   "district": 19,
-  "nameTitle": "Rep. Jimmy Panetta (CA-19)",
-  "imageUrl": "https://www.congress.gov/img/member/116_rp_ca_20_panetta_jimmy_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Jimmy",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Panetta, Jimmy",
+  "lastName": "Panetta",
+  "officialWebsiteUrl": "https://panetta.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jimmy Panetta",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jimmy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Panetta, Jimmy",
+      "lastName": "Panetta",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jimmy Panetta",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Jimmy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Panetta, Jimmy",
+      "lastName": "Panetta",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jimmy Panetta",
+      "firstName": "Jimmy",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Panetta, Jimmy",
+      "lastName": "Panetta",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 221,
+    "url": "https://api.congress.gov/v3/member/P000613/sponsored-legislation"
+  },
+  "state": "California",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 20,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 20,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 20,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 19,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "CA",
+      "stateName": "California"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 19,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "CA",
+      "stateName": "California"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:17Z",
+  "id": {
+    "bioguide": "P000613",
+    "govtrack": 412685,
+    "wikipedia": "Jimmy Panetta",
+    "wikidata": "Q27733776",
+    "votesmart": 169078,
+    "fec": [
+      "H6CA20152"
+    ],
+    "opensecrets": "N00038601",
+    "maplight": 2197,
+    "google_entity_id": "kg:/m/0pyy9y4",
+    "cspan": 104727,
+    "icpsr": 21740,
+    "ballotpedia": "Jimmy Panetta",
+    "pictorial": 12933,
+    "facebook": "RepJimmyPanetta",
+    "twitter": "RepJimmyPanetta",
+    "twitter_id": 796736612554117100,
+    "instagram": "repjimmypanetta",
+    "youtube_id": "UCmw-aERG51C96edMDPN7fXQ"
+  },
+  "name": {
+    "first": "Jimmy",
+    "last": "Panetta",
+    "official_full": "Jimmy Panetta"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1969-10-01"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 19,
+    "party": "Democrat",
+    "url": "https://panetta.house.gov",
+    "address": "200 Cannon House Office Building Washington DC 20515-0519",
+    "office": "200 Cannon House Office Building",
+    "phone": "202-225-2861"
+  }
 }

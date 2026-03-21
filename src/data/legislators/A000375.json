@@ -1,13 +1,167 @@
 {
-  "id": "A000375",
-  "bioguide": "A000375",
-  "name": "Jodey C. Arrington",
-  "lastName": "Arrington",
-  "state": "TX",
-  "party": "Republican",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "1111 Longworth House Office Building",
+    "phoneNumber": "(202) 225-4005",
+    "zipCode": 20515
+  },
+  "bioguideId": "A000375",
+  "birthYear": "1972",
+  "cosponsoredLegislation": {
+    "count": 766,
+    "url": "https://api.congress.gov/v3/member/A000375/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Congressional Pictorial Directory",
+    "imageUrl": "/images/legislators/A000375.jpg"
+  },
+  "directOrderName": "Jodey C. Arrington",
   "district": 19,
-  "nameTitle": "Rep. Jodey C. Arrington (TX-19)",
-  "imageUrl": "https://www.congress.gov/img/member/115_rp_tx_19_arrington_jodey_200.jpg",
-  "attribution": "Congressional Pictorial Directory",
-  "type": "rep"
+  "firstName": "Jodey",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Arrington, Jodey C.",
+  "lastName": "Arrington",
+  "middleName": "C.",
+  "officialWebsiteUrl": "https://arrington.house.gov",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2017
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Jodey C. Arrington",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Jodey",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Arrington, Jodey C.",
+      "lastName": "Arrington",
+      "middleName": "C.",
+      "startDate": "2017-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Jodey C. Arrington",
+      "endDate": "2025-01-17T04:59:59Z",
+      "firstName": "Jodey",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Arrington, Jodey C.",
+      "lastName": "Arrington",
+      "middleName": "C.",
+      "startDate": "2024-06-03T04:00:00Z"
+    },
+    {
+      "directOrderName": "Jodey C. Arrington",
+      "firstName": "Jodey",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Arrington, Jodey C.",
+      "lastName": "Arrington",
+      "middleName": "C.",
+      "startDate": "2025-01-17T05:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 187,
+    "url": "https://api.congress.gov/v3/member/A000375/sponsored-legislation"
+  },
+  "state": "Texas",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 115,
+      "district": 19,
+      "endYear": 2019,
+      "memberType": "Representative",
+      "startYear": 2017,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 19,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 19,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 19,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 19,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "TX",
+      "stateName": "Texas"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "A000375",
+    "govtrack": 412726,
+    "wikipedia": "Jodey Arrington",
+    "wikidata": "Q6207815",
+    "votesmart": 155685,
+    "fec": [
+      "H6TX19099"
+    ],
+    "opensecrets": "N00038285",
+    "maplight": 2238,
+    "google_entity_id": "kg:/m/0g9_f_1",
+    "cspan": 1016482,
+    "icpsr": 21700,
+    "ballotpedia": "Jodey Arrington",
+    "pictorial": 13276,
+    "facebook": "JodeyArrington",
+    "twitter": "RepArrington",
+    "twitter_id": 816284664658874400,
+    "instagram": "repjodeyarrington",
+    "youtube": "UC3lif8TFPOe-tJ2-pE4Rp7Q"
+  },
+  "name": {
+    "first": "Jodey",
+    "middle": "C.",
+    "last": "Arrington",
+    "official_full": "Jodey C. Arrington"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1972-03-09"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "TX",
+    "district": 19,
+    "party": "Republican",
+    "url": "https://arrington.house.gov",
+    "address": "1111 Longworth House Office Building Washington DC 20515-4319",
+    "office": "1111 Longworth House Office Building",
+    "phone": "202-225-4005"
+  }
 }

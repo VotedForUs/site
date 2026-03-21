@@ -1,13 +1,153 @@
 {
-  "id": "S001215",
-  "bioguide": "S001215",
-  "name": "Haley M. Stevens",
-  "lastName": "Stevens",
-  "state": "MI",
-  "party": "Democrat",
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2411 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-8171",
+    "zipCode": 20515
+  },
+  "bioguideId": "S001215",
+  "birthYear": "1983",
+  "cosponsoredLegislation": {
+    "count": 1473,
+    "url": "https://api.congress.gov/v3/member/S001215/cosponsored-legislation"
+  },
+  "currentMember": true,
+  "depiction": {
+    "attribution": "Image courtesy of the Member",
+    "imageUrl": "/images/legislators/S001215.jpg"
+  },
+  "directOrderName": "Haley M. Stevens",
   "district": 11,
-  "nameTitle": "Rep. Haley M. Stevens (MI-11)",
-  "imageUrl": "https://www.congress.gov/img/member/s001215_200.jpg",
-  "attribution": "Image courtesy of the Member",
-  "type": "rep"
+  "firstName": "Haley",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Stevens, Haley M.",
+  "lastName": "Stevens",
+  "middleName": "M.",
+  "officialWebsiteUrl": "https://stevens.house.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2019
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Haley M. Stevens",
+      "endDate": "2023-06-01T03:59:59Z",
+      "firstName": "Haley",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Stevens, Haley M.",
+      "lastName": "Stevens",
+      "middleName": "M.",
+      "startDate": "2019-01-03T05:00:00Z"
+    },
+    {
+      "directOrderName": "Haley M. Stevens",
+      "endDate": "2024-06-03T03:59:59Z",
+      "firstName": "Haley",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Stevens, Haley M.",
+      "lastName": "Stevens",
+      "middleName": "M.",
+      "startDate": "2023-06-01T04:00:00Z"
+    },
+    {
+      "directOrderName": "Haley M. Stevens",
+      "firstName": "Haley",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Stevens, Haley M.",
+      "lastName": "Stevens",
+      "middleName": "M.",
+      "startDate": "2024-06-03T04:00:00Z"
+    }
+  ],
+  "sponsoredLegislation": {
+    "count": 113,
+    "url": "https://api.congress.gov/v3/member/S001215/sponsored-legislation"
+  },
+  "state": "Michigan",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 116,
+      "district": 11,
+      "endYear": 2021,
+      "memberType": "Representative",
+      "startYear": 2019,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 117,
+      "district": 11,
+      "endYear": 2023,
+      "memberType": "Representative",
+      "startYear": 2021,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 118,
+      "district": 11,
+      "endYear": 2025,
+      "memberType": "Representative",
+      "startYear": 2023,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    },
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 11,
+      "memberType": "Representative",
+      "startYear": 2025,
+      "stateCode": "MI",
+      "stateName": "Michigan"
+    }
+  ],
+  "updateDate": "2025-09-24T07:40:15Z",
+  "id": {
+    "bioguide": "S001215",
+    "fec": [
+      "H8MI11254"
+    ],
+    "govtrack": 412786,
+    "wikipedia": "Haley Stevens",
+    "wikidata": "Q58322563",
+    "opensecrets": "N00040915",
+    "votesmart": 181092,
+    "ballotpedia": "Haley Stevens",
+    "icpsr": 21972,
+    "google_entity_id": "kg:/g/11fjw095g8",
+    "pictorial": 13104,
+    "twitter": "RepHaleyStevens",
+    "twitter_id": 1076161611033968600,
+    "facebook": "RepHaleyStevens"
+  },
+  "name": {
+    "first": "Haley",
+    "middle": "M.",
+    "last": "Stevens",
+    "official_full": "Haley M. Stevens"
+  },
+  "bio": {
+    "gender": "F",
+    "birthday": "1983-06-24"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2025-01-03",
+    "end": "2027-01-03",
+    "state": "MI",
+    "district": 11,
+    "party": "Democrat",
+    "url": "https://stevens.house.gov",
+    "address": "2411 Rayburn House Office Building Washington DC 20515-2211",
+    "office": "2411 Rayburn House Office Building",
+    "phone": "202-225-8171"
+  }
 }
