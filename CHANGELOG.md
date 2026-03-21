@@ -1,3 +1,8 @@
+# [v1.1.4](https://github.com/VotedForUs/site/compare/v1.1.3...v1.1.4) (2026-03-21)
+
+## 🐛 Bug Fixes
+- [`2a77db97`](https://github.com/VotedForUs/site/commit/2a77db97)  Fix legislator collection entry id when JSON has nested id object
+
 # [v1.1.3](https://github.com/VotedForUs/site/compare/v1.1.2...v1.1.3) (2026-03-19)
 
 ## 🐛 Bug Fixes
