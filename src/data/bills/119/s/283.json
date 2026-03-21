@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4341: 1; text: CR S4341-4342)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4341; text: CR S4341-4342)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -253,6 +253,52 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Illegal Red Snapper and Tuna Enforcement Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-17T11:31:37Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-07-15T07:23:22Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-05-24T03:38:19Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-02-04T15:23:19Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to require the Under Secretary of Commerce for Standards and Technology and the Administrator of National Oceanic and Atmospheric Administration to develop a standard methodology for identifying the country of origin of seafood to support enforcement against illegal, unreported, and unregulated fishing, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-02-04T15:18:20Z"
+      }
+    ]
+  },
   "type": "S",
   "updateDate": "2025-10-09T03:26:17Z",
   "updateDateIncludingText": "2025-10-09T03:26:17Z",

@@ -1,8 +1,68 @@
 {
   "actions": {
-    "count": 23,
+    "count": 29,
     "url": "https://api.congress.gov/v3/bill/119/hr/2316/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2025-11-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-40.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-11-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-40.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2025-11-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-11-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2025-11-25",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2025-11-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2025-10-23",
         "sourceSystem": {
@@ -16,7 +76,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S7734)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -705,7 +765,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3224: 1)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3224)",
         "type": "Floor"
       },
       {
@@ -833,15 +893,38 @@
         },
         "text": "Referred to the Subcommittee on Water, Wildlife and Fisheries.",
         "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-03-25",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Natural Resources.",
+        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
   "introducedDate": "2025-03-25",
   "latestAction": {
-    "actionDate": "2025-10-23",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2025-11-25",
+    "text": "Became Public Law No: 119-40."
   },
+  "laws": [
+    {
+      "number": "119-40",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2316",
   "number": "2316",
   "originChamber": "House",
@@ -851,10 +934,76 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/2316/summaries?format=json"
   },
   "title": "Wetlands Conservation and Access Improvement Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Wetlands Conservation and Access Improvement Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2025-10-30T03:53:13Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Wetlands Conservation and Access Improvement Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-17T02:23:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Wetlands Conservation and Access Improvement Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-07-16T04:23:22Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Wetlands Conservation and Access Improvement Act of 2025",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-07-11T05:38:18Z"
+      },
+      {
+        "title": "Wetlands Conservation and Access Improvement Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-04-03T13:58:00Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Wetlands Conservation and Access Improvement Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-02T06:53:24Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Pittman-Robertson Wildlife Restoration Act to provide that interest on obligations held in the Federal aid to wildlife restoration fund shall become available for apportionment at the beginning of fiscal year 2033.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-02T06:48:37Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-30T03:53:13Z",
-  "updateDateIncludingText": "2025-10-30T03:53:13Z",
+  "updateDate": "2026-02-04T04:11:35Z",
+  "updateDateIncludingText": "2026-02-04T04:11:35Z",
   "id": "119-HR-2316",
-  "lastActionDate": "2025-10-23",
+  "lastActionDate": "2025-11-25",
   "lastRecordedVoteDate": "2025-10-23"
 }

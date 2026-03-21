@@ -1,19 +1,8 @@
 {
   "actions": {
-    "count": 10,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/hjres/117/actions?format=json",
     "actions": [
-      {
-        "actionCode": "H36610",
-        "actionDate": "2025-09-15",
-        "actionTime": "18:56:59",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Motion to discharge tabled.",
-        "type": "Floor"
-      },
       {
         "actionCode": "H38310",
         "actionDate": "2025-09-15",
@@ -586,8 +575,8 @@
   "introducedDate": "2025-08-29",
   "latestAction": {
     "actionDate": "2025-09-15",
-    "actionTime": "18:56:59",
-    "text": "Motion to discharge tabled."
+    "actionTime": "18:56:58",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/117",
   "number": "117",
@@ -613,8 +602,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2025-09-19T16:27:56Z",
-  "updateDateIncludingText": "2025-09-30T16:27:12Z",
+  "updateDate": "2025-11-05T09:05:43Z",
+  "updateDateIncludingText": "2025-11-05T09:05:43Z",
   "id": "119-HJRES-117",
   "lastActionDate": "2025-09-15",
   "lastRecordedVoteDate": "2025-09-15T22:56:57Z"

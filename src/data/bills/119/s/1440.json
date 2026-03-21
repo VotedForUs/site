@@ -253,9 +253,55 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Uniformed Services Leave Parity Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Uniformed Services Leave Parity Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-10-17T11:03:18Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Uniformed Services Leave Parity Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-10-10T06:53:14Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Uniformed Services Leave Parity Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-09-10T04:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Uniformed Services Leave Parity Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-03T03:23:19Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend title II of the Public Health Service Act to include as an additional right or privilege of commissioned officers of the Public Health Service (and their beneficiaries) certain leave provided under title 10, United States Code to commissioned officers of the Army (or their beneficiaries).",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-05-03T03:18:25Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-18T08:05:37Z",
-  "updateDateIncludingText": "2025-10-18T08:05:37Z",
+  "updateDate": "2025-11-17T23:01:48Z",
+  "updateDateIncludingText": "2025-11-17T23:01:48Z",
   "id": "119-S-1440",
   "lastActionDate": "2025-10-17",
   "lastRecordedVoteDate": "2025-10-09"

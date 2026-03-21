@@ -1078,6 +1078,10 @@
   "number": "1057",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1057/summaries?format=json"
+  },
   "title": "Providing for consideration of the bill (S. 1383) to establish the Veterans Advisory Committee on Equal Access, and for other purposes; providing for consideration of the bill (H.R. 2189) to modernize Federal firearms laws to account for advancements in technology and less-than-lethal weapons, and for other purposes; providing for consideration of the bill (H.R. 261) to amend the National Marine Sanctuaries Act to prohibit requiring an authorization for the installation, continued presence, operation, maintenance, repair, or recovery of undersea fiber optic cables in a national marine sanctuary if such activities have previously been authorized by a Federal or State agency; providing for consideration of the bill (H.R. 3617) to amend the Department of Energy Organization Act to secure the supply of critical energy resources, including critical minerals and other materials, and for other purposes; and waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
   "titles": {
     "titles": [
@@ -1106,8 +1110,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-02-14T02:06:13Z",
-  "updateDateIncludingText": "2026-02-14T02:06:13Z",
+  "updateDate": "2026-03-17T15:58:03Z",
+  "updateDateIncludingText": "2026-03-17T15:58:03Z",
   "id": "119-HRES-1057",
   "lastActionDate": "2026-02-11",
   "lastRecordedVoteDate": "2026-02-11T18:02:52Z"

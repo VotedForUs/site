@@ -4,6 +4,66 @@
     "url": "https://api.congress.gov/v3/bill/119/hjres/105/actions?format=json",
     "actions": [
       {
+        "actionCode": "E40000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-49.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-49.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2025-12-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2025-12-01",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2025-12-01",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
+      {
         "actionDate": "2025-10-10",
         "sourceSystem": {
           "name": "Senate"
@@ -834,7 +894,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 215 - 211 (Roll no. 226). (text: CR H3791: 1)",
+        "text": "On passage Passed by the Yeas and Nays: 215 - 211 (Roll no. 226). (text: CR H3791)",
         "type": "Floor"
       },
       {
@@ -976,6 +1036,6 @@
   "updateDate": "2026-02-05T01:06:13Z",
   "updateDateIncludingText": "2026-02-05T01:06:13Z",
   "id": "119-HJRES-105",
-  "lastActionDate": "2025-10-10",
+  "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-10-09T00:40:27Z"
 }

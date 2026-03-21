@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 5,
+    "count": 6,
     "url": "https://api.congress.gov/v3/bill/119/sjres/76/actions?format=json",
     "actions": [
       {
@@ -206,6 +206,10 @@
   "number": "76",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/76/summaries?format=json"
+  },
   "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Extension of Deadlines in Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review Final Rule\".",
   "titles": {
     "titles": [
@@ -226,8 +230,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2025-09-23T11:45:46Z",
-  "updateDateIncludingText": "2025-09-23T11:45:46Z",
+  "updateDate": "2025-12-02T20:01:19Z",
+  "updateDateIncludingText": "2025-12-02T20:01:19Z",
   "id": "119-SJRES-76",
   "lastActionDate": "2025-11-19",
   "lastRecordedVoteDate": "2025-11-19T23:23:08Z"

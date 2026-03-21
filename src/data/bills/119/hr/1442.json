@@ -543,7 +543,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H1709-1710: 4)",
+        "text": "Considered as unfinished business. (consideration: CR H1709-1710)",
         "type": "Floor"
       },
       {
@@ -576,7 +576,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H1642: 1; text: CR H1642-1643)",
+        "text": "Considered under suspension of the rules. (consideration: CR H1642; text: CR H1642-1643)",
         "type": "Floor"
       },
       {

@@ -564,7 +564,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 372 - 0 (Roll no. 193). (text: CR H3226-3227: 2)",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 372 - 0 (Roll no. 193). (text: CR H3226-3227)",
         "type": "Floor"
       },
       {
@@ -819,6 +819,21 @@
         },
         "text": "Senate Committee on Environment and Public Works discharged by Unanimous Consent. (consideration: CR S2881-2882)",
         "type": "Discharge"
+      },
+      {
+        "actionDate": "2025-05-05",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on Environment and Public Works.",
+        "type": "IntroReferral"
       }
     ]
   },

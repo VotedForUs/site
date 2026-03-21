@@ -200,9 +200,35 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "title": "Captain Paul W. 'Bud' Bucha VA Medical Center Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Captain Paul W. 'Bud' Bucha VA Medical Center Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-08-09T11:03:18Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Captain Paul W. 'Bud' Bucha VA Medical Center Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-08-03T11:08:24Z"
+      },
+      {
+        "title": "A bill to designate the medical center of the Department of Veterans Affairs in West Haven, Connecticut, as the \"Captain Paul W. 'Bud' Bucha VA Medical Center\".",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-08-03T10:56:20Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-28T22:50:58Z",
-  "updateDateIncludingText": "2025-10-28T22:50:58Z",
+  "updateDate": "2025-12-05T21:42:34Z",
+  "updateDateIncludingText": "2025-12-05T21:42:34Z",
   "id": "119-S-2682",
   "lastActionDate": "2025-08-08",
   "lastRecordedVoteDate": "2025-08-02"

@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S7734; text: CR S7734-7735)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -257,9 +257,55 @@
     "url": "https://api.congress.gov/v3/bill/119/s/99/summaries?format=json"
   },
   "title": "Strengthening Support for American Manufacturing Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Strengthening Support for American Manufacturing Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-10-24T11:03:14Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Strengthening Support for American Manufacturing Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-10-24T02:08:16Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Strengthening Support for American Manufacturing Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-04-03T13:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Strengthening Support for American Manufacturing Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-02-04T15:23:20Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to require the Secretary of Commerce to produce a report that provides recommendations to improve the effectiveness, efficiency, and impact of Department of Commerce programs related to supply chain resilience and manufacturing and industrial innovation, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-02-04T15:18:22Z"
+      }
+    ]
+  },
   "type": "S",
-  "updateDate": "2025-10-25T08:05:43Z",
-  "updateDateIncludingText": "2025-10-25T08:05:43Z",
+  "updateDate": "2025-12-01T16:21:14Z",
+  "updateDateIncludingText": "2025-12-01T16:21:14Z",
   "id": "119-S-99",
   "lastActionDate": "2025-10-24",
   "lastRecordedVoteDate": "2025-10-23"
