@@ -1,3 +1,4 @@
+
 ## Congressional Data Update — 2026-03-19
 
 ### Updated Legislators (548)
@@ -120,4 +121,3 @@
 * [Providing for consideration of the bill (H.R. 4626) to amend the Energy Policy and Conservation Act to prohibit the Secretary of Energy from prescribing any new or amended energy conservation standard for a product that is not technologically feasible and economically justified, and for other purposes, and providing for consideration of the bill (H.R. 4758) to repeal provisions of Public Law 117-169 relating to taxpayer subsidies for home electrification, and for other purposes.](https://votedfor.us/bills/119/hres/1075)
 * [Providing for consideration of the bill (H.R. 7744) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.](https://votedfor.us/bills/119/hres/1095)
 * *(and 88 more)*
-

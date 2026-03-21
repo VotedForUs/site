@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 31,
+    "count": 32,
     "url": "https://api.congress.gov/v3/bill/119/s/1383/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate (Message from the House considered). (consideration: CR S1159)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-17",
         "committees": [
@@ -1403,7 +1411,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Hearings held.",
+        "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 119-86.",
         "type": "Committee"
       },
       {
@@ -1426,8 +1434,8 @@
   "congress": 119,
   "introducedDate": "2025-04-09",
   "latestAction": {
-    "actionDate": "2026-03-17",
-    "text": "Motion by Senator Thune to refer to Senate Committee on Rules and Administration the House message to accompany S. 1383 with instructions to report back forthwith with the following amendment (SA 4422) made in Senate. (CR S1067)"
+    "actionDate": "2026-03-18",
+    "text": "Considered by Senate (Message from the House considered). (consideration: CR S1159)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1383",
   "number": "1383",
@@ -1444,7 +1452,7 @@
         "title": "Veterans Accessibility Advisory Committee Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-03-18T11:03:17Z"
+        "updateDate": "2026-03-19T11:03:26Z"
       },
       {
         "billTextVersionCode": "EAH",
@@ -1507,9 +1515,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-18T18:30:19Z",
-  "updateDateIncludingText": "2026-03-18T18:30:19Z",
+  "updateDate": "2026-03-19T19:28:12Z",
+  "updateDateIncludingText": "2026-03-19T19:28:12Z",
   "id": "119-S-1383",
-  "lastActionDate": "2026-03-17",
+  "lastActionDate": "2026-03-18",
   "lastRecordedVoteDate": "2026-03-17T20:09:58Z"
 }

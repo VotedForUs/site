@@ -236,7 +236,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Hearings held.",
+        "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 119-86.",
         "type": "Committee"
       },
       {
@@ -278,7 +278,7 @@
         "title": "Fallen Servicemembers Religious Heritage Restoration Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-11-21T11:58:21Z"
+        "updateDate": "2026-03-19T11:03:26Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -319,8 +319,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-02-04T05:06:15Z",
-  "updateDateIncludingText": "2026-02-04T05:06:15Z",
+  "updateDate": "2026-03-19T11:03:26Z",
+  "updateDateIncludingText": "2026-03-19T11:03:26Z",
   "id": "119-S-1318",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-20"
