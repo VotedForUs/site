@@ -4,3899 +4,569 @@
   "legislators": {
     "added": [],
     "updated": [
-      {
-        "bioguideId": "A000055",
-        "nameTitle": "Rep. Robert B. Aderholt (AL-4)",
-        "state": "Alabama",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/A000055"
-      },
-      {
-        "bioguideId": "A000148",
-        "nameTitle": "Rep. Jake Auchincloss (MA-4)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/A000148"
-      },
-      {
-        "bioguideId": "A000369",
-        "nameTitle": "Rep. Mark E. Amodei (NV-2)",
-        "state": "Nevada",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/A000369"
-      },
-      {
-        "bioguideId": "A000370",
-        "nameTitle": "Rep. Alma S. Adams (NC-12)",
-        "state": "North Carolina",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/A000370"
-      },
-      {
-        "bioguideId": "A000371",
-        "nameTitle": "Rep. Pete Aguilar (CA-33)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/A000371"
-      },
-      {
-        "bioguideId": "A000372",
-        "nameTitle": "Rep. Rick W. Allen (GA-12)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/A000372"
-      },
-      {
-        "bioguideId": "A000375",
-        "nameTitle": "Rep. Jodey C. Arrington (TX-19)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/A000375"
-      },
-      {
-        "bioguideId": "A000379",
-        "nameTitle": "Rep. Mark Alford (MO-4)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/A000379"
-      },
-      {
-        "bioguideId": "A000380",
-        "nameTitle": "Rep. Gabe Amo (RI-1)",
-        "state": "Rhode Island",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/A000380"
-      },
-      {
-        "bioguideId": "A000381",
-        "nameTitle": "Rep. Yassamin Ansari (AZ-3)",
-        "state": "Arizona",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/A000381"
-      },
-      {
-        "bioguideId": "A000382",
-        "nameTitle": "Sen. Angela D. Alsobrooks (MD)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/A000382"
-      },
-      {
-        "bioguideId": "B000490",
-        "nameTitle": "Rep. Sanford D. Bishop, Jr. (GA-2)",
-        "state": "Georgia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B000490"
-      },
-      {
-        "bioguideId": "B000668",
-        "nameTitle": "Rep. Cliff Bentz (OR-2)",
-        "state": "Oregon",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B000668"
-      },
-      {
-        "bioguideId": "B000740",
-        "nameTitle": "Rep. Stephanie I. Bice (OK-5)",
-        "state": "Oklahoma",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B000740"
-      },
-      {
-        "bioguideId": "B000825",
-        "nameTitle": "Rep. Lauren Boebert (CO-4)",
-        "state": "Colorado",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B000825"
-      },
-      {
-        "bioguideId": "B001230",
-        "nameTitle": "Sen. Tammy Baldwin (WI)",
-        "state": "Wisconsin",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001230"
-      },
-      {
-        "bioguideId": "B001236",
-        "nameTitle": "Sen. John Boozman (AR)",
-        "state": "Arkansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001236"
-      },
-      {
-        "bioguideId": "B001243",
-        "nameTitle": "Sen. Marsha Blackburn (TN)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001243"
-      },
-      {
-        "bioguideId": "B001257",
-        "nameTitle": "Rep. Gus M. Bilirakis (FL-12)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001257"
-      },
-      {
-        "bioguideId": "B001260",
-        "nameTitle": "Rep. Vern Buchanan (FL-16)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001260"
-      },
-      {
-        "bioguideId": "B001261",
-        "nameTitle": "Sen. John Barrasso (WY)",
-        "state": "Wyoming",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001261"
-      },
-      {
-        "bioguideId": "B001267",
-        "nameTitle": "Sen. Michael F. Bennet (CO)",
-        "state": "Colorado",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001267"
-      },
-      {
-        "bioguideId": "B001277",
-        "nameTitle": "Sen. Richard Blumenthal (CT)",
-        "state": "Connecticut",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001277"
-      },
-      {
-        "bioguideId": "B001278",
-        "nameTitle": "Rep. Suzanne Bonamici (OR-1)",
-        "state": "Oregon",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001278"
-      },
-      {
-        "bioguideId": "B001281",
-        "nameTitle": "Rep. Joyce Beatty (OH-3)",
-        "state": "Ohio",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001281"
-      },
-      {
-        "bioguideId": "B001282",
-        "nameTitle": "Rep. Andy Barr (KY-6)",
-        "state": "Kentucky",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001282"
-      },
-      {
-        "bioguideId": "B001285",
-        "nameTitle": "Rep. Julia Brownley (CA-26)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001285"
-      },
-      {
-        "bioguideId": "B001287",
-        "nameTitle": "Rep. Ami Bera (CA-6)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001287"
-      },
-      {
-        "bioguideId": "B001288",
-        "nameTitle": "Sen. Cory A. Booker (NJ)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001288"
-      },
-      {
-        "bioguideId": "B001291",
-        "nameTitle": "Rep. Brian Babin (TX-36)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001291"
-      },
-      {
-        "bioguideId": "B001292",
-        "nameTitle": "Rep. Donald S. Beyer, Jr. (VA-8)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001292"
-      },
-      {
-        "bioguideId": "B001295",
-        "nameTitle": "Rep. Mike Bost (IL-12)",
-        "state": "Illinois",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001295"
-      },
-      {
-        "bioguideId": "B001296",
-        "nameTitle": "Rep. Brendan F. Boyle (PA-2)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001296"
-      },
-      {
-        "bioguideId": "B001298",
-        "nameTitle": "Rep. Don Bacon (NE-2)",
-        "state": "Nebraska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001298"
-      },
-      {
-        "bioguideId": "B001299",
-        "nameTitle": "Sen. Jim Banks (IN)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001299"
-      },
-      {
-        "bioguideId": "B001300",
-        "nameTitle": "Rep. Nanette Diaz Barragán (CA-44)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001300"
-      },
-      {
-        "bioguideId": "B001301",
-        "nameTitle": "Rep. Jack Bergman (MI-1)",
-        "state": "Michigan",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001301"
-      },
-      {
-        "bioguideId": "B001302",
-        "nameTitle": "Rep. Andy Biggs (AZ-5)",
-        "state": "Arizona",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001302"
-      },
-      {
-        "bioguideId": "B001303",
-        "nameTitle": "Sen. Lisa Blunt Rochester (DE)",
-        "state": "Delaware",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001303"
-      },
-      {
-        "bioguideId": "B001305",
-        "nameTitle": "Sen. Ted Budd (NC)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001305"
-      },
-      {
-        "bioguideId": "B001306",
-        "nameTitle": "Rep. Troy Balderson (OH-12)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001306"
-      },
-      {
-        "bioguideId": "B001307",
-        "nameTitle": "Rep. James R. Baird (IN-4)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001307"
-      },
-      {
-        "bioguideId": "B001309",
-        "nameTitle": "Rep. Tim Burchett (TN-2)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001309"
-      },
-      {
-        "bioguideId": "B001313",
-        "nameTitle": "Rep. Shontel M. Brown (OH-11)",
-        "state": "Ohio",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001313"
-      },
-      {
-        "bioguideId": "B001314",
-        "nameTitle": "Rep. Aaron Bean (FL-4)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001314"
-      },
-      {
-        "bioguideId": "B001315",
-        "nameTitle": "Rep. Nikki Budzinski (IL-13)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001315"
-      },
-      {
-        "bioguideId": "B001316",
-        "nameTitle": "Rep. Eric Burlison (MO-7)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001316"
-      },
-      {
-        "bioguideId": "B001317",
-        "nameTitle": "Rep. Josh Brecheen (OK-2)",
-        "state": "Oklahoma",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001317"
-      },
-      {
-        "bioguideId": "B001318",
-        "nameTitle": "Rep. Becca Balint (VT-0)",
-        "state": "Vermont",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001318"
-      },
-      {
-        "bioguideId": "B001319",
-        "nameTitle": "Sen. Katie Boyd Britt (AL)",
-        "state": "Alabama",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001319"
-      },
-      {
-        "bioguideId": "B001321",
-        "nameTitle": "Rep. Tom Barrett (MI-7)",
-        "state": "Michigan",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001321"
-      },
-      {
-        "bioguideId": "B001322",
-        "nameTitle": "Rep. Michael Baumgartner (WA-5)",
-        "state": "Washington",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001322"
-      },
-      {
-        "bioguideId": "B001323",
-        "nameTitle": "Rep. Nicholas J. Begich III (AK-0)",
-        "state": "Alaska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001323"
-      },
-      {
-        "bioguideId": "B001324",
-        "nameTitle": "Rep. Wesley Bell (MO-1)",
-        "state": "Missouri",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001324"
-      },
-      {
-        "bioguideId": "B001325",
-        "nameTitle": "Rep. Sheri Biggs (SC-3)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001325"
-      },
-      {
-        "bioguideId": "B001326",
-        "nameTitle": "Rep. Janelle S. Bynum (OR-5)",
-        "state": "Oregon",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/B001326"
-      },
-      {
-        "bioguideId": "B001327",
-        "nameTitle": "Rep. Robert P. Bresnahan, Jr. (PA-8)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/B001327"
-      },
-      {
-        "bioguideId": "C000059",
-        "nameTitle": "Rep. Ken Calvert (CA-41)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C000059"
-      },
-      {
-        "bioguideId": "C000127",
-        "nameTitle": "Sen. Maria Cantwell (WA)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C000127"
-      },
-      {
-        "bioguideId": "C000537",
-        "nameTitle": "Rep. James E. Clyburn (SC-6)",
-        "state": "South Carolina",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C000537"
-      },
-      {
-        "bioguideId": "C000880",
-        "nameTitle": "Sen. Mike Crapo (ID)",
-        "state": "Idaho",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C000880"
-      },
-      {
-        "bioguideId": "C001035",
-        "nameTitle": "Sen. Susan M. Collins (ME)",
-        "state": "Maine",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001035"
-      },
-      {
-        "bioguideId": "C001039",
-        "nameTitle": "Rep. Kat Cammack (FL-3)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001039"
-      },
-      {
-        "bioguideId": "C001047",
-        "nameTitle": "Sen. Shelley Moore Capito (WV)",
-        "state": "West Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001047"
-      },
-      {
-        "bioguideId": "C001051",
-        "nameTitle": "Rep. John R. Carter (TX-31)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001051"
-      },
-      {
-        "bioguideId": "C001053",
-        "nameTitle": "Rep. Tom Cole (OK-4)",
-        "state": "Oklahoma",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001053"
-      },
-      {
-        "bioguideId": "C001055",
-        "nameTitle": "Rep. Ed Case (HI-1)",
-        "state": "Hawaii",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001055"
-      },
-      {
-        "bioguideId": "C001056",
-        "nameTitle": "Sen. John Cornyn (TX)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001056"
-      },
-      {
-        "bioguideId": "C001059",
-        "nameTitle": "Rep. Jim Costa (CA-21)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001059"
-      },
-      {
-        "bioguideId": "C001061",
-        "nameTitle": "Rep. Emanuel Cleaver (MO-5)",
-        "state": "Missouri",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001061"
-      },
-      {
-        "bioguideId": "C001063",
-        "nameTitle": "Rep. Henry Cuellar (TX-28)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001063"
-      },
-      {
-        "bioguideId": "C001066",
-        "nameTitle": "Rep. Kathy Castor (FL-14)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001066"
-      },
-      {
-        "bioguideId": "C001067",
-        "nameTitle": "Rep. Yvette D. Clarke (NY-9)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001067"
-      },
-      {
-        "bioguideId": "C001068",
-        "nameTitle": "Rep. Steve Cohen (TN-9)",
-        "state": "Tennessee",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001068"
-      },
-      {
-        "bioguideId": "C001069",
-        "nameTitle": "Rep. Joe Courtney (CT-2)",
-        "state": "Connecticut",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001069"
-      },
-      {
-        "bioguideId": "C001072",
-        "nameTitle": "Rep. André Carson (IN-7)",
-        "state": "Indiana",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001072"
-      },
-      {
-        "bioguideId": "C001075",
-        "nameTitle": "Sen. Bill Cassidy (LA)",
-        "state": "Louisiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001075"
-      },
-      {
-        "bioguideId": "C001078",
-        "nameTitle": "Rep. Gerald E. Connolly (VA-11)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001078"
-      },
-      {
-        "bioguideId": "C001080",
-        "nameTitle": "Rep. Judy Chu (CA-28)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001080"
-      },
-      {
-        "bioguideId": "C001087",
-        "nameTitle": "Rep. Eric A. \"Rick\" Crawford (AR-1)",
-        "state": "Arkansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001087"
-      },
-      {
-        "bioguideId": "C001088",
-        "nameTitle": "Sen. Christopher A. Coons (DE)",
-        "state": "Delaware",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001088"
-      },
-      {
-        "bioguideId": "C001091",
-        "nameTitle": "Rep. Joaquin Castro (TX-20)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001091"
-      },
-      {
-        "bioguideId": "C001095",
-        "nameTitle": "Sen. Tom Cotton (AR)",
-        "state": "Arkansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001095"
-      },
-      {
-        "bioguideId": "C001096",
-        "nameTitle": "Sen. Kevin Cramer (ND)",
-        "state": "North Dakota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001096"
-      },
-      {
-        "bioguideId": "C001098",
-        "nameTitle": "Sen. Ted Cruz (TX)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001098"
-      },
-      {
-        "bioguideId": "C001101",
-        "nameTitle": "Rep. Katherine M. Clark (MA-5)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001101"
-      },
-      {
-        "bioguideId": "C001103",
-        "nameTitle": "Rep. Earl L. \"Buddy\" Carter (GA-1)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001103"
-      },
-      {
-        "bioguideId": "C001108",
-        "nameTitle": "Rep. James Comer (KY-1)",
-        "state": "Kentucky",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001108"
-      },
-      {
-        "bioguideId": "C001110",
-        "nameTitle": "Rep. J. Luis Correa (CA-46)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001110"
-      },
-      {
-        "bioguideId": "C001112",
-        "nameTitle": "Rep. Salud O. Carbajal (CA-24)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001112"
-      },
-      {
-        "bioguideId": "C001113",
-        "nameTitle": "Sen. Catherine Cortez Masto (NV)",
-        "state": "Nevada",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001113"
-      },
-      {
-        "bioguideId": "C001114",
-        "nameTitle": "Sen. John R. Curtis (UT)",
-        "state": "Utah",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001114"
-      },
-      {
-        "bioguideId": "C001115",
-        "nameTitle": "Rep. Michael Cloud (TX-27)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001115"
-      },
-      {
-        "bioguideId": "C001116",
-        "nameTitle": "Rep. Andrew S. Clyde (GA-9)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001116"
-      },
-      {
-        "bioguideId": "C001117",
-        "nameTitle": "Rep. Sean Casten (IL-6)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001117"
-      },
-      {
-        "bioguideId": "C001118",
-        "nameTitle": "Rep. Ben Cline (VA-6)",
-        "state": "Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001118"
-      },
-      {
-        "bioguideId": "C001119",
-        "nameTitle": "Rep. Angie Craig (MN-2)",
-        "state": "Minnesota",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001119"
-      },
-      {
-        "bioguideId": "C001120",
-        "nameTitle": "Rep. Dan Crenshaw (TX-2)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001120"
-      },
-      {
-        "bioguideId": "C001121",
-        "nameTitle": "Rep. Jason Crow (CO-6)",
-        "state": "Colorado",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001121"
-      },
-      {
-        "bioguideId": "C001123",
-        "nameTitle": "Rep. Gilbert Ray Cisneros, Jr. (CA-31)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001123"
-      },
-      {
-        "bioguideId": "C001125",
-        "nameTitle": "Rep. Troy A. Carter (LA-2)",
-        "state": "Louisiana",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001125"
-      },
-      {
-        "bioguideId": "C001126",
-        "nameTitle": "Rep. Mike Carey (OH-15)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001126"
-      },
-      {
-        "bioguideId": "C001127",
-        "nameTitle": "Rep. Sheila Cherfilus-McCormick (FL-20)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001127"
-      },
-      {
-        "bioguideId": "C001129",
-        "nameTitle": "Rep. Mike Collins (GA-10)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001129"
-      },
-      {
-        "bioguideId": "C001130",
-        "nameTitle": "Rep. Jasmine Crockett (TX-30)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001130"
-      },
-      {
-        "bioguideId": "C001131",
-        "nameTitle": "Rep. Greg Casar (TX-35)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001131"
-      },
-      {
-        "bioguideId": "C001132",
-        "nameTitle": "Rep. Elijah Crane (AZ-2)",
-        "state": "Arizona",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001132"
-      },
-      {
-        "bioguideId": "C001133",
-        "nameTitle": "Rep. Juan Ciscomani (AZ-6)",
-        "state": "Arizona",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001133"
-      },
-      {
-        "bioguideId": "C001136",
-        "nameTitle": "Rep. Herbert C. Conaway, Jr. (NJ-3)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/C001136"
-      },
-      {
-        "bioguideId": "C001137",
-        "nameTitle": "Rep. Jeff Crank (CO-5)",
-        "state": "Colorado",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/C001137"
-      },
-      {
-        "bioguideId": "D000032",
-        "nameTitle": "Rep. Byron Donalds (FL-19)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000032"
-      },
-      {
-        "bioguideId": "D000096",
-        "nameTitle": "Rep. Danny K. Davis (IL-7)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000096"
-      },
-      {
-        "bioguideId": "D000197",
-        "nameTitle": "Rep. Diana DeGette (CO-1)",
-        "state": "Colorado",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000197"
-      },
-      {
-        "bioguideId": "D000216",
-        "nameTitle": "Rep. Rosa L. DeLauro (CT-3)",
-        "state": "Connecticut",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000216"
-      },
-      {
-        "bioguideId": "D000230",
-        "nameTitle": "Rep. Donald G. Davis (NC-1)",
-        "state": "North Carolina",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000230"
-      },
-      {
-        "bioguideId": "D000399",
-        "nameTitle": "Rep. Lloyd Doggett (TX-37)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000399"
-      },
-      {
-        "bioguideId": "D000530",
-        "nameTitle": "Rep. Christopher R. Deluzio (PA-17)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000530"
-      },
-      {
-        "bioguideId": "D000563",
-        "nameTitle": "Sen. Richard J. Durbin (IL)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000563"
-      },
-      {
-        "bioguideId": "D000594",
-        "nameTitle": "Rep. Monica De La Cruz (TX-15)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000594"
-      },
-      {
-        "bioguideId": "D000600",
-        "nameTitle": "Rep. Mario Diaz-Balart (FL-26)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000600"
-      },
-      {
-        "bioguideId": "D000616",
-        "nameTitle": "Rep. Scott DesJarlais (TN-4)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000616"
-      },
-      {
-        "bioguideId": "D000617",
-        "nameTitle": "Rep. Suzan K. DelBene (WA-1)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000617"
-      },
-      {
-        "bioguideId": "D000618",
-        "nameTitle": "Sen. Steve Daines (MT)",
-        "state": "Montana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000618"
-      },
-      {
-        "bioguideId": "D000622",
-        "nameTitle": "Sen. Tammy Duckworth (IL)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000622"
-      },
-      {
-        "bioguideId": "D000623",
-        "nameTitle": "Rep. Mark DeSaulnier (CA-10)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000623"
-      },
-      {
-        "bioguideId": "D000624",
-        "nameTitle": "Rep. Debbie Dingell (MI-6)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000624"
-      },
-      {
-        "bioguideId": "D000626",
-        "nameTitle": "Rep. Warren Davidson (OH-8)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000626"
-      },
-      {
-        "bioguideId": "D000628",
-        "nameTitle": "Rep. Neal P. Dunn (FL-2)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000628"
-      },
-      {
-        "bioguideId": "D000629",
-        "nameTitle": "Rep. Sharice Davids (KS-3)",
-        "state": "Kansas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000629"
-      },
-      {
-        "bioguideId": "D000631",
-        "nameTitle": "Rep. Madeleine Dean (PA-4)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000631"
-      },
-      {
-        "bioguideId": "D000634",
-        "nameTitle": "Rep. Troy Downing (MT-2)",
-        "state": "Montana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/D000634"
-      },
-      {
-        "bioguideId": "D000635",
-        "nameTitle": "Rep. Maxine Dexter (OR-3)",
-        "state": "Oregon",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/D000635"
-      },
-      {
-        "bioguideId": "E000071",
-        "nameTitle": "Rep. Jake Ellzey (TX-6)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/E000071"
-      },
-      {
-        "bioguideId": "E000235",
-        "nameTitle": "Rep. Mike Ezell (MS-4)",
-        "state": "Mississippi",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/E000235"
-      },
-      {
-        "bioguideId": "E000246",
-        "nameTitle": "Rep. Chuck Edwards (NC-11)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/E000246"
-      },
-      {
-        "bioguideId": "E000294",
-        "nameTitle": "Rep. Tom Emmer (MN-6)",
-        "state": "Minnesota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/E000294"
-      },
-      {
-        "bioguideId": "E000295",
-        "nameTitle": "Sen. Joni Ernst (IA)",
-        "state": "Iowa",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/E000295"
-      },
-      {
-        "bioguideId": "E000296",
-        "nameTitle": "Rep. Dwight Evans (PA-3)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/E000296"
-      },
-      {
-        "bioguideId": "E000297",
-        "nameTitle": "Rep. Adriano Espaillat (NY-13)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/E000297"
-      },
-      {
-        "bioguideId": "E000298",
-        "nameTitle": "Rep. Ron Estes (KS-4)",
-        "state": "Kansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/E000298"
-      },
-      {
-        "bioguideId": "E000299",
-        "nameTitle": "Rep. Veronica Escobar (TX-16)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/E000299"
-      },
-      {
-        "bioguideId": "E000300",
-        "nameTitle": "Rep. Gabe Evans (CO-8)",
-        "state": "Colorado",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/E000300"
-      },
-      {
-        "bioguideId": "E000301",
-        "nameTitle": "Rep. Sarah Elfreth (MD-3)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/E000301"
-      },
-      {
-        "bioguideId": "F000110",
-        "nameTitle": "Rep. Cleo Fields (LA-6)",
-        "state": "Louisiana",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000110"
-      },
-      {
-        "bioguideId": "F000246",
-        "nameTitle": "Rep. Pat Fallon (TX-4)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000246"
-      },
-      {
-        "bioguideId": "F000446",
-        "nameTitle": "Rep. Randy Feenstra (IA-4)",
-        "state": "Iowa",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000446"
-      },
-      {
-        "bioguideId": "F000450",
-        "nameTitle": "Rep. Virginia Foxx (NC-5)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000450"
-      },
-      {
-        "bioguideId": "F000454",
-        "nameTitle": "Rep. Bill Foster (IL-11)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000454"
-      },
-      {
-        "bioguideId": "F000459",
-        "nameTitle": "Rep. Charles J. \"Chuck\" Fleischmann (TN-3)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000459"
-      },
-      {
-        "bioguideId": "F000462",
-        "nameTitle": "Rep. Lois Frankel (FL-22)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000462"
-      },
-      {
-        "bioguideId": "F000463",
-        "nameTitle": "Sen. Deb Fischer (NE)",
-        "state": "Nebraska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000463"
-      },
-      {
-        "bioguideId": "F000466",
-        "nameTitle": "Rep. Brian K. Fitzpatrick (PA-1)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000466"
-      },
-      {
-        "bioguideId": "F000468",
-        "nameTitle": "Rep. Lizzie Fletcher (TX-7)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000468"
-      },
-      {
-        "bioguideId": "F000469",
-        "nameTitle": "Rep. Russ Fulcher (ID-1)",
-        "state": "Idaho",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000469"
-      },
-      {
-        "bioguideId": "F000470",
-        "nameTitle": "Rep. Michelle Fischbach (MN-7)",
-        "state": "Minnesota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000470"
-      },
-      {
-        "bioguideId": "F000471",
-        "nameTitle": "Rep. Scott Fitzgerald (WI-5)",
-        "state": "Wisconsin",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000471"
-      },
-      {
-        "bioguideId": "F000472",
-        "nameTitle": "Rep. Scott Franklin (FL-18)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000472"
-      },
-      {
-        "bioguideId": "F000474",
-        "nameTitle": "Rep. Mike Flood (NE-1)",
-        "state": "Nebraska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000474"
-      },
-      {
-        "bioguideId": "F000475",
-        "nameTitle": "Rep. Brad Finstad (MN-1)",
-        "state": "Minnesota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000475"
-      },
-      {
-        "bioguideId": "F000476",
-        "nameTitle": "Rep. Maxwell Frost (FL-10)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000476"
-      },
-      {
-        "bioguideId": "F000477",
-        "nameTitle": "Rep. Valerie P. Foushee (NC-4)",
-        "state": "North Carolina",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000477"
-      },
-      {
-        "bioguideId": "F000478",
-        "nameTitle": "Rep. Russell Fry (SC-7)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000478"
-      },
-      {
-        "bioguideId": "F000479",
-        "nameTitle": "Sen. John Fetterman (PA)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000479"
-      },
-      {
-        "bioguideId": "F000480",
-        "nameTitle": "Rep. Vince Fong (CA-20)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000480"
-      },
-      {
-        "bioguideId": "F000481",
-        "nameTitle": "Rep. Shomari Figures (AL-2)",
-        "state": "Alabama",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000481"
-      },
-      {
-        "bioguideId": "F000482",
-        "nameTitle": "Rep. Julie Fedorchak (ND-0)",
-        "state": "North Dakota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000482"
-      },
-      {
-        "bioguideId": "F000483",
-        "nameTitle": "Rep. Laura Friedman (CA-30)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/F000483"
-      },
-      {
-        "bioguideId": "F000484",
-        "nameTitle": "Rep. Randy Fine (FL-6)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/F000484"
-      },
-      {
-        "bioguideId": "G000359",
-        "nameTitle": "Sen. Lindsey Graham (SC)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000359"
-      },
-      {
-        "bioguideId": "G000386",
-        "nameTitle": "Sen. Chuck Grassley (IA)",
-        "state": "Iowa",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000386"
-      },
-      {
-        "bioguideId": "G000546",
-        "nameTitle": "Rep. Sam Graves (MO-6)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000546"
-      },
-      {
-        "bioguideId": "G000551",
-        "nameTitle": "Rep. Raúl M. Grijalva (AZ-7)",
-        "state": "Arizona",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000551"
-      },
-      {
-        "bioguideId": "G000553",
-        "nameTitle": "Rep. Al Green (TX-9)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000553"
-      },
-      {
-        "bioguideId": "G000555",
-        "nameTitle": "Sen. Kirsten E. Gillibrand (NY)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000555"
-      },
-      {
-        "bioguideId": "G000558",
-        "nameTitle": "Rep. Brett Guthrie (KY-2)",
-        "state": "Kentucky",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000558"
-      },
-      {
-        "bioguideId": "G000559",
-        "nameTitle": "Rep. John Garamendi (CA-8)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000559"
-      },
-      {
-        "bioguideId": "G000565",
-        "nameTitle": "Rep. Paul A. Gosar (AZ-9)",
-        "state": "Arizona",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000565"
-      },
-      {
-        "bioguideId": "G000568",
-        "nameTitle": "Rep. H. Morgan Griffith (VA-9)",
-        "state": "Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000568"
-      },
-      {
-        "bioguideId": "G000574",
-        "nameTitle": "Sen. Ruben Gallego (AZ)",
-        "state": "Arizona",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000574"
-      },
-      {
-        "bioguideId": "G000576",
-        "nameTitle": "Rep. Glenn Grothman (WI-6)",
-        "state": "Wisconsin",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000576"
-      },
-      {
-        "bioguideId": "G000581",
-        "nameTitle": "Rep. Vicente Gonzalez (TX-34)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000581"
-      },
-      {
-        "bioguideId": "G000583",
-        "nameTitle": "Rep. Josh Gottheimer (NJ-5)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000583"
-      },
-      {
-        "bioguideId": "G000585",
-        "nameTitle": "Rep. Jimmy Gomez (CA-34)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000585"
-      },
-      {
-        "bioguideId": "G000586",
-        "nameTitle": "Rep. Jesús G. \"Chuy\" García (IL-4)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000586"
-      },
-      {
-        "bioguideId": "G000587",
-        "nameTitle": "Rep. Sylvia R. Garcia (TX-29)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000587"
-      },
-      {
-        "bioguideId": "G000589",
-        "nameTitle": "Rep. Lance Gooden (TX-5)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000589"
-      },
-      {
-        "bioguideId": "G000590",
-        "nameTitle": "Rep. Mark E. Green (TN-7)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000590"
-      },
-      {
-        "bioguideId": "G000591",
-        "nameTitle": "Rep. Michael Guest (MS-3)",
-        "state": "Mississippi",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000591"
-      },
-      {
-        "bioguideId": "G000592",
-        "nameTitle": "Rep. Jared F. Golden (ME-2)",
-        "state": "Maine",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000592"
-      },
-      {
-        "bioguideId": "G000593",
-        "nameTitle": "Rep. Carlos A. Gimenez (FL-28)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000593"
-      },
-      {
-        "bioguideId": "G000594",
-        "nameTitle": "Rep. Tony Gonzales (TX-23)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000594"
-      },
-      {
-        "bioguideId": "G000596",
-        "nameTitle": "Rep. Marjorie Taylor Greene (GA-14)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000596"
-      },
-      {
-        "bioguideId": "G000597",
-        "nameTitle": "Rep. Andrew R. Garbarino (NY-2)",
-        "state": "New York",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000597"
-      },
-      {
-        "bioguideId": "G000598",
-        "nameTitle": "Rep. Robert Garcia (CA-42)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000598"
-      },
-      {
-        "bioguideId": "G000599",
-        "nameTitle": "Rep. Daniel S. Goldman (NY-10)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000599"
-      },
-      {
-        "bioguideId": "G000600",
-        "nameTitle": "Rep. Marie Gluesenkamp Perez (WA-3)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000600"
-      },
-      {
-        "bioguideId": "G000601",
-        "nameTitle": "Rep. Craig A. Goldman (TX-12)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000601"
-      },
-      {
-        "bioguideId": "G000602",
-        "nameTitle": "Rep. Laura Gillen (NY-4)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000602"
-      },
-      {
-        "bioguideId": "G000603",
-        "nameTitle": "Rep. Brandon Gill (TX-26)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/G000603"
-      },
-      {
-        "bioguideId": "G000604",
-        "nameTitle": "Rep. Maggie Goodlander (NH-2)",
-        "state": "New Hampshire",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000604"
-      },
-      {
-        "bioguideId": "G000605",
-        "nameTitle": "Rep. Adam Gray (CA-13)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000605"
-      },
-      {
-        "bioguideId": "G000606",
-        "nameTitle": "Rep. Adelita S. Grijalva (AZ-7)",
-        "state": "Arizona",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/G000606"
-      },
-      {
-        "bioguideId": "H000273",
-        "nameTitle": "Sen. John W. Hickenlooper (CO)",
-        "state": "Colorado",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H000273"
-      },
-      {
-        "bioguideId": "H000601",
-        "nameTitle": "Sen. Bill Hagerty (TN)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H000601"
-      },
-      {
-        "bioguideId": "H000874",
-        "nameTitle": "Rep. Steny H. Hoyer (MD-5)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H000874"
-      },
-      {
-        "bioguideId": "H001042",
-        "nameTitle": "Sen. Mazie K. Hirono (HI)",
-        "state": "Hawaii",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001042"
-      },
-      {
-        "bioguideId": "H001046",
-        "nameTitle": "Sen. Martin Heinrich (NM)",
-        "state": "New Mexico",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001046"
-      },
-      {
-        "bioguideId": "H001047",
-        "nameTitle": "Rep. James A. Himes (CT-4)",
-        "state": "Connecticut",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001047"
-      },
-      {
-        "bioguideId": "H001052",
-        "nameTitle": "Rep. Andy Harris (MD-1)",
-        "state": "Maryland",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001052"
-      },
-      {
-        "bioguideId": "H001058",
-        "nameTitle": "Rep. Bill Huizenga (MI-4)",
-        "state": "Michigan",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001058"
-      },
-      {
-        "bioguideId": "H001061",
-        "nameTitle": "Sen. John Hoeven (ND)",
-        "state": "North Dakota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001061"
-      },
-      {
-        "bioguideId": "H001066",
-        "nameTitle": "Rep. Steven Horsford (NV-4)",
-        "state": "Nevada",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001066"
-      },
-      {
-        "bioguideId": "H001067",
-        "nameTitle": "Rep. Richard Hudson (NC-9)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001067"
-      },
-      {
-        "bioguideId": "H001068",
-        "nameTitle": "Rep. Jared Huffman (CA-2)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001068"
-      },
-      {
-        "bioguideId": "H001072",
-        "nameTitle": "Rep. J. French Hill (AR-2)",
-        "state": "Arkansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001072"
-      },
-      {
-        "bioguideId": "H001076",
-        "nameTitle": "Sen. Margaret Wood Hassan (NH)",
-        "state": "New Hampshire",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001076"
-      },
-      {
-        "bioguideId": "H001077",
-        "nameTitle": "Rep. Clay Higgins (LA-3)",
-        "state": "Louisiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001077"
-      },
-      {
-        "bioguideId": "H001079",
-        "nameTitle": "Sen. Cindy Hyde-Smith (MS)",
-        "state": "Mississippi",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001079"
-      },
-      {
-        "bioguideId": "H001081",
-        "nameTitle": "Rep. Jahana Hayes (CT-5)",
-        "state": "Connecticut",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001081"
-      },
-      {
-        "bioguideId": "H001082",
-        "nameTitle": "Rep. Kevin Hern (OK-1)",
-        "state": "Oklahoma",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001082"
-      },
-      {
-        "bioguideId": "H001085",
-        "nameTitle": "Rep. Chrissy Houlahan (PA-6)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001085"
-      },
-      {
-        "bioguideId": "H001086",
-        "nameTitle": "Rep. Diana Harshbarger (TN-1)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001086"
-      },
-      {
-        "bioguideId": "H001089",
-        "nameTitle": "Sen. Josh Hawley (MO)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001089"
-      },
-      {
-        "bioguideId": "H001090",
-        "nameTitle": "Rep. Josh Harder (CA-9)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001090"
-      },
-      {
-        "bioguideId": "H001091",
-        "nameTitle": "Rep. Ashley Hinson (IA-2)",
-        "state": "Iowa",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001091"
-      },
-      {
-        "bioguideId": "H001093",
-        "nameTitle": "Rep. Erin Houchin (IN-9)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001093"
-      },
-      {
-        "bioguideId": "H001094",
-        "nameTitle": "Rep. Val T. Hoyle (OR-4)",
-        "state": "Oregon",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001094"
-      },
-      {
-        "bioguideId": "H001095",
-        "nameTitle": "Rep. Wesley Hunt (TX-38)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001095"
-      },
-      {
-        "bioguideId": "H001096",
-        "nameTitle": "Rep. Harriet M. Hageman (WY-0)",
-        "state": "Wyoming",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001096"
-      },
-      {
-        "bioguideId": "H001098",
-        "nameTitle": "Rep. Abraham J. Hamadeh (AZ-8)",
-        "state": "Arizona",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001098"
-      },
-      {
-        "bioguideId": "H001099",
-        "nameTitle": "Rep. Mike Haridopolos (FL-8)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001099"
-      },
-      {
-        "bioguideId": "H001100",
-        "nameTitle": "Rep. Jeff Hurd (CO-3)",
-        "state": "Colorado",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001100"
-      },
-      {
-        "bioguideId": "H001101",
-        "nameTitle": "Rep. Pat Harrigan (NC-10)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001101"
-      },
-      {
-        "bioguideId": "H001102",
-        "nameTitle": "Rep. Mark Harris (NC-8)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001102"
-      },
-      {
-        "bioguideId": "H001103",
-        "nameTitle": "Rep. Pablo José Hernández (PR-0)",
-        "state": "Puerto Rico",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/H001103"
-      },
-      {
-        "bioguideId": "H001104",
-        "nameTitle": "Sen. Jon Husted (OH)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/H001104"
-      },
-      {
-        "bioguideId": "I000056",
-        "nameTitle": "Rep. Darrell Issa (CA-48)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/I000056"
-      },
-      {
-        "bioguideId": "I000058",
-        "nameTitle": "Rep. Glenn Ivey (MD-4)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/I000058"
-      },
-      {
-        "bioguideId": "J000288",
-        "nameTitle": "Rep. Henry C. \"Hank\" Johnson, Jr. (GA-4)",
-        "state": "Georgia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/J000288"
-      },
-      {
-        "bioguideId": "J000289",
-        "nameTitle": "Rep. Jim Jordan (OH-4)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000289"
-      },
-      {
-        "bioguideId": "J000293",
-        "nameTitle": "Sen. Ron Johnson (WI)",
-        "state": "Wisconsin",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000293"
-      },
-      {
-        "bioguideId": "J000294",
-        "nameTitle": "Rep. Hakeem S. Jeffries (NY-8)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/J000294"
-      },
-      {
-        "bioguideId": "J000295",
-        "nameTitle": "Rep. David P. Joyce (OH-14)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000295"
-      },
-      {
-        "bioguideId": "J000298",
-        "nameTitle": "Rep. Pramila Jayapal (WA-7)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/J000298"
-      },
-      {
-        "bioguideId": "J000299",
-        "nameTitle": "Rep. Mike Johnson (LA-4)",
-        "state": "Louisiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000299"
-      },
-      {
-        "bioguideId": "J000301",
-        "nameTitle": "Rep. Dusty Johnson (SD-0)",
-        "state": "South Dakota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000301"
-      },
-      {
-        "bioguideId": "J000302",
-        "nameTitle": "Rep. John Joyce (PA-13)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000302"
-      },
-      {
-        "bioguideId": "J000304",
-        "nameTitle": "Rep. Ronny Jackson (TX-13)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000304"
-      },
-      {
-        "bioguideId": "J000305",
-        "nameTitle": "Rep. Sara Jacobs (CA-51)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/J000305"
-      },
-      {
-        "bioguideId": "J000307",
-        "nameTitle": "Rep. John James (MI-10)",
-        "state": "Michigan",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000307"
-      },
-      {
-        "bioguideId": "J000309",
-        "nameTitle": "Rep. Jonathan L. Jackson (IL-1)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/J000309"
-      },
-      {
-        "bioguideId": "J000310",
-        "nameTitle": "Rep. Julie Johnson (TX-32)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/J000310"
-      },
-      {
-        "bioguideId": "J000311",
-        "nameTitle": "Rep. Brian Jack (GA-3)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000311"
-      },
-      {
-        "bioguideId": "J000312",
-        "nameTitle": "Sen. James C. Justice (WV)",
-        "state": "West Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/J000312"
-      },
-      {
-        "bioguideId": "K000009",
-        "nameTitle": "Rep. Marcy Kaptur (OH-9)",
-        "state": "Ohio",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000009"
-      },
-      {
-        "bioguideId": "K000367",
-        "nameTitle": "Sen. Amy Klobuchar (MN)",
-        "state": "Minnesota",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000367"
-      },
-      {
-        "bioguideId": "K000375",
-        "nameTitle": "Rep. William R. Keating (MA-9)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000375"
-      },
-      {
-        "bioguideId": "K000376",
-        "nameTitle": "Rep. Mike Kelly (PA-16)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000376"
-      },
-      {
-        "bioguideId": "K000377",
-        "nameTitle": "Sen. Mark Kelly (AZ)",
-        "state": "Arizona",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000377"
-      },
-      {
-        "bioguideId": "K000383",
-        "nameTitle": "Sen. Angus S. King, Jr. (ME)",
-        "state": "Maine",
-        "party": "Independent",
-        "url": "https://votedfor.us/legislators/K000383"
-      },
-      {
-        "bioguideId": "K000384",
-        "nameTitle": "Sen. Tim Kaine (VA)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000384"
-      },
-      {
-        "bioguideId": "K000385",
-        "nameTitle": "Rep. Robin L. Kelly (IL-2)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000385"
-      },
-      {
-        "bioguideId": "K000388",
-        "nameTitle": "Rep. Trent Kelly (MS-1)",
-        "state": "Mississippi",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000388"
-      },
-      {
-        "bioguideId": "K000389",
-        "nameTitle": "Rep. Ro Khanna (CA-17)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000389"
-      },
-      {
-        "bioguideId": "K000391",
-        "nameTitle": "Rep. Raja Krishnamoorthi (IL-8)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000391"
-      },
-      {
-        "bioguideId": "K000392",
-        "nameTitle": "Rep. David Kustoff (TN-8)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000392"
-      },
-      {
-        "bioguideId": "K000393",
-        "nameTitle": "Sen. John Kennedy (LA)",
-        "state": "Louisiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000393"
-      },
-      {
-        "bioguideId": "K000394",
-        "nameTitle": "Sen. Andy Kim (NJ)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000394"
-      },
-      {
-        "bioguideId": "K000397",
-        "nameTitle": "Rep. Young Kim (CA-40)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000397"
-      },
-      {
-        "bioguideId": "K000398",
-        "nameTitle": "Rep. Thomas H. Kean, Jr. (NJ-7)",
-        "state": "New Jersey",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000398"
-      },
-      {
-        "bioguideId": "K000399",
-        "nameTitle": "Rep. Jennifer A. Kiggans (VA-2)",
-        "state": "Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000399"
-      },
-      {
-        "bioguideId": "K000400",
-        "nameTitle": "Rep. Sydney Kamlager-Dove (CA-37)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000400"
-      },
-      {
-        "bioguideId": "K000401",
-        "nameTitle": "Rep. Kevin Kiley (CA-3)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000401"
-      },
-      {
-        "bioguideId": "K000402",
-        "nameTitle": "Rep. Timothy M. Kennedy (NY-26)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/K000402"
-      },
-      {
-        "bioguideId": "K000403",
-        "nameTitle": "Rep. Mike Kennedy (UT-3)",
-        "state": "Utah",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000403"
-      },
-      {
-        "bioguideId": "K000404",
-        "nameTitle": "Rep. Kimberlyn King-Hinds (MP-0)",
-        "state": "Northern Mariana Islands",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000404"
-      },
-      {
-        "bioguideId": "K000405",
-        "nameTitle": "Rep. Brad Knott (NC-13)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/K000405"
-      },
-      {
-        "bioguideId": "L000273",
-        "nameTitle": "Rep. Teresa Leger Fernandez (NM-3)",
-        "state": "New Mexico",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000273"
-      },
-      {
-        "bioguideId": "L000397",
-        "nameTitle": "Rep. Zoe Lofgren (CA-18)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000397"
-      },
-      {
-        "bioguideId": "L000491",
-        "nameTitle": "Rep. Frank D. Lucas (OK-3)",
-        "state": "Oklahoma",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000491"
-      },
-      {
-        "bioguideId": "L000557",
-        "nameTitle": "Rep. John B. Larson (CT-1)",
-        "state": "Connecticut",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000557"
-      },
-      {
-        "bioguideId": "L000560",
-        "nameTitle": "Rep. Rick Larsen (WA-2)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000560"
-      },
-      {
-        "bioguideId": "L000562",
-        "nameTitle": "Rep. Stephen F. Lynch (MA-8)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000562"
-      },
-      {
-        "bioguideId": "L000566",
-        "nameTitle": "Rep. Robert E. Latta (OH-5)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000566"
-      },
-      {
-        "bioguideId": "L000570",
-        "nameTitle": "Sen. Ben Ray Luján (NM)",
-        "state": "New Mexico",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000570"
-      },
-      {
-        "bioguideId": "L000571",
-        "nameTitle": "Sen. Cynthia M. Lummis (WY)",
-        "state": "Wyoming",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000571"
-      },
-      {
-        "bioguideId": "L000575",
-        "nameTitle": "Sen. James Lankford (OK)",
-        "state": "Oklahoma",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000575"
-      },
-      {
-        "bioguideId": "L000577",
-        "nameTitle": "Sen. Mike Lee (UT)",
-        "state": "Utah",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000577"
-      },
-      {
-        "bioguideId": "L000578",
-        "nameTitle": "Rep. Doug LaMalfa (CA-1)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000578"
-      },
-      {
-        "bioguideId": "L000582",
-        "nameTitle": "Rep. Ted Lieu (CA-36)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000582"
-      },
-      {
-        "bioguideId": "L000583",
-        "nameTitle": "Rep. Barry Loudermilk (GA-11)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000583"
-      },
-      {
-        "bioguideId": "L000585",
-        "nameTitle": "Rep. Darin LaHood (IL-16)",
-        "state": "Illinois",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000585"
-      },
-      {
-        "bioguideId": "L000590",
-        "nameTitle": "Rep. Susie Lee (NV-3)",
-        "state": "Nevada",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000590"
-      },
-      {
-        "bioguideId": "L000593",
-        "nameTitle": "Rep. Mike Levin (CA-49)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000593"
-      },
-      {
-        "bioguideId": "L000595",
-        "nameTitle": "Rep. Julia Letlow (LA-5)",
-        "state": "Louisiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000595"
-      },
-      {
-        "bioguideId": "L000596",
-        "nameTitle": "Rep. Anna Paulina Luna (FL-13)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000596"
-      },
-      {
-        "bioguideId": "L000597",
-        "nameTitle": "Rep. Laurel M. Lee (FL-15)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000597"
-      },
-      {
-        "bioguideId": "L000598",
-        "nameTitle": "Rep. Nick LaLota (NY-1)",
-        "state": "New York",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000598"
-      },
-      {
-        "bioguideId": "L000599",
-        "nameTitle": "Rep. Michael Lawler (NY-17)",
-        "state": "New York",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000599"
-      },
-      {
-        "bioguideId": "L000600",
-        "nameTitle": "Rep. Nicholas A. Langworthy (NY-23)",
-        "state": "New York",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000600"
-      },
-      {
-        "bioguideId": "L000601",
-        "nameTitle": "Rep. Greg Landsman (OH-1)",
-        "state": "Ohio",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000601"
-      },
-      {
-        "bioguideId": "L000602",
-        "nameTitle": "Rep. Summer L. Lee (PA-12)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000602"
-      },
-      {
-        "bioguideId": "L000603",
-        "nameTitle": "Rep. Morgan Luttrell (TX-8)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/L000603"
-      },
-      {
-        "bioguideId": "L000606",
-        "nameTitle": "Rep. George Latimer (NY-16)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000606"
-      },
-      {
-        "bioguideId": "L000607",
-        "nameTitle": "Rep. Sam T. Liccardo (CA-16)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/L000607"
-      },
-      {
-        "bioguideId": "M000133",
-        "nameTitle": "Sen. Edward J. Markey (MA)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M000133"
-      },
-      {
-        "bioguideId": "M000194",
-        "nameTitle": "Rep. Nancy Mace (SC-1)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M000194"
-      },
-      {
-        "bioguideId": "M000312",
-        "nameTitle": "Rep. James P. McGovern (MA-2)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M000312"
-      },
-      {
-        "bioguideId": "M000317",
-        "nameTitle": "Rep. Nicole Malliotakis (NY-11)",
-        "state": "New York",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M000317"
-      },
-      {
-        "bioguideId": "M000355",
-        "nameTitle": "Sen. Mitch McConnell (KY)",
-        "state": "Kentucky",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M000355"
-      },
-      {
-        "bioguideId": "M000687",
-        "nameTitle": "Rep. Kweisi Mfume (MD-7)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M000687"
-      },
-      {
-        "bioguideId": "M000871",
-        "nameTitle": "Rep. Tracey Mann (KS-1)",
-        "state": "Kansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M000871"
-      },
-      {
-        "bioguideId": "M000934",
-        "nameTitle": "Sen. Jerry Moran (KS)",
-        "state": "Kansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M000934"
-      },
-      {
-        "bioguideId": "M001111",
-        "nameTitle": "Sen. Patty Murray (WA)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001111"
-      },
-      {
-        "bioguideId": "M001136",
-        "nameTitle": "Rep. Lisa C. McClain (MI-9)",
-        "state": "Michigan",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001136"
-      },
-      {
-        "bioguideId": "M001137",
-        "nameTitle": "Rep. Gregory W. Meeks (NY-5)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001137"
-      },
-      {
-        "bioguideId": "M001143",
-        "nameTitle": "Rep. Betty McCollum (MN-4)",
-        "state": "Minnesota",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001143"
-      },
-      {
-        "bioguideId": "M001153",
-        "nameTitle": "Sen. Lisa Murkowski (AK)",
-        "state": "Alaska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001153"
-      },
-      {
-        "bioguideId": "M001157",
-        "nameTitle": "Rep. Michael T. McCaul (TX-10)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001157"
-      },
-      {
-        "bioguideId": "M001160",
-        "nameTitle": "Rep. Gwen Moore (WI-4)",
-        "state": "Wisconsin",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001160"
-      },
-      {
-        "bioguideId": "M001163",
-        "nameTitle": "Rep. Doris O. Matsui (CA-7)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001163"
-      },
-      {
-        "bioguideId": "M001169",
-        "nameTitle": "Sen. Christopher Murphy (CT)",
-        "state": "Connecticut",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001169"
-      },
-      {
-        "bioguideId": "M001176",
-        "nameTitle": "Sen. Jeff Merkley (OR)",
-        "state": "Oregon",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001176"
-      },
-      {
-        "bioguideId": "M001177",
-        "nameTitle": "Rep. Tom McClintock (CA-5)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001177"
-      },
-      {
-        "bioguideId": "M001184",
-        "nameTitle": "Rep. Thomas Massie (KY-4)",
-        "state": "Kentucky",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001184"
-      },
-      {
-        "bioguideId": "M001188",
-        "nameTitle": "Rep. Grace Meng (NY-6)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001188"
-      },
-      {
-        "bioguideId": "M001190",
-        "nameTitle": "Sen. Markwayne Mullin (OK)",
-        "state": "Oklahoma",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001190"
-      },
-      {
-        "bioguideId": "M001194",
-        "nameTitle": "Rep. John R. Moolenaar (MI-2)",
-        "state": "Michigan",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001194"
-      },
-      {
-        "bioguideId": "M001196",
-        "nameTitle": "Rep. Seth Moulton (MA-6)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001196"
-      },
-      {
-        "bioguideId": "M001198",
-        "nameTitle": "Sen. Roger Marshall (KS)",
-        "state": "Kansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001198"
-      },
-      {
-        "bioguideId": "M001199",
-        "nameTitle": "Rep. Brian J. Mast (FL-21)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001199"
-      },
-      {
-        "bioguideId": "M001204",
-        "nameTitle": "Rep. Daniel Meuser (PA-9)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001204"
-      },
-      {
-        "bioguideId": "M001205",
-        "nameTitle": "Rep. Carol D. Miller (WV-1)",
-        "state": "West Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001205"
-      },
-      {
-        "bioguideId": "M001206",
-        "nameTitle": "Rep. Joseph D. Morelle (NY-25)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001206"
-      },
-      {
-        "bioguideId": "M001208",
-        "nameTitle": "Rep. Lucy McBath (GA-6)",
-        "state": "Georgia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001208"
-      },
-      {
-        "bioguideId": "M001210",
-        "nameTitle": "Rep. Gregory F. Murphy (NC-3)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001210"
-      },
-      {
-        "bioguideId": "M001211",
-        "nameTitle": "Rep. Mary E. Miller (IL-15)",
-        "state": "Illinois",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001211"
-      },
-      {
-        "bioguideId": "M001212",
-        "nameTitle": "Rep. Barry Moore (AL-1)",
-        "state": "Alabama",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001212"
-      },
-      {
-        "bioguideId": "M001213",
-        "nameTitle": "Rep. Blake D. Moore (UT-1)",
-        "state": "Utah",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001213"
-      },
-      {
-        "bioguideId": "M001214",
-        "nameTitle": "Rep. Frank J. Mrvan (IN-1)",
-        "state": "Indiana",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001214"
-      },
-      {
-        "bioguideId": "M001215",
-        "nameTitle": "Rep. Mariannette Miller-Meeks (IA-1)",
-        "state": "Iowa",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001215"
-      },
-      {
-        "bioguideId": "M001216",
-        "nameTitle": "Rep. Cory Mills (FL-7)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001216"
-      },
-      {
-        "bioguideId": "M001217",
-        "nameTitle": "Rep. Jared Moskowitz (FL-23)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001217"
-      },
-      {
-        "bioguideId": "M001218",
-        "nameTitle": "Rep. Richard McCormick (GA-7)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001218"
-      },
-      {
-        "bioguideId": "M001219",
-        "nameTitle": "Rep. James C. Moylan (GU-0)",
-        "state": "Guam",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001219"
-      },
-      {
-        "bioguideId": "M001220",
-        "nameTitle": "Rep. Morgan McGarvey (KY-3)",
-        "state": "Kentucky",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001220"
-      },
-      {
-        "bioguideId": "M001222",
-        "nameTitle": "Rep. Max L. Miller (OH-7)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001222"
-      },
-      {
-        "bioguideId": "M001223",
-        "nameTitle": "Rep. Seth Magaziner (RI-2)",
-        "state": "Rhode Island",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001223"
-      },
-      {
-        "bioguideId": "M001224",
-        "nameTitle": "Rep. Nathaniel Moran (TX-1)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001224"
-      },
-      {
-        "bioguideId": "M001225",
-        "nameTitle": "Rep. Kevin Mullin (CA-15)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001225"
-      },
-      {
-        "bioguideId": "M001226",
-        "nameTitle": "Rep. Robert Menendez (NJ-8)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001226"
-      },
-      {
-        "bioguideId": "M001227",
-        "nameTitle": "Rep. Jennifer L. McClellan (VA-4)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001227"
-      },
-      {
-        "bioguideId": "M001228",
-        "nameTitle": "Rep. Celeste Maloy (UT-2)",
-        "state": "Utah",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001228"
-      },
-      {
-        "bioguideId": "M001229",
-        "nameTitle": "Rep. LaMonica McIver (NJ-10)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001229"
-      },
-      {
-        "bioguideId": "M001230",
-        "nameTitle": "Rep. Ryan Mackenzie (PA-7)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001230"
-      },
-      {
-        "bioguideId": "M001231",
-        "nameTitle": "Rep. John W. Mannion (NY-22)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001231"
-      },
-      {
-        "bioguideId": "M001232",
-        "nameTitle": "Rep. April McClain Delaney (MD-6)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001232"
-      },
-      {
-        "bioguideId": "M001233",
-        "nameTitle": "Rep. Mark B. Messmer (IN-8)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001233"
-      },
-      {
-        "bioguideId": "M001234",
-        "nameTitle": "Rep. Kelly Morrison (MN-3)",
-        "state": "Minnesota",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001234"
-      },
-      {
-        "bioguideId": "M001235",
-        "nameTitle": "Rep. Riley M. Moore (WV-2)",
-        "state": "West Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001235"
-      },
-      {
-        "bioguideId": "M001236",
-        "nameTitle": "Rep. Tim Moore (NC-14)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001236"
-      },
-      {
-        "bioguideId": "M001237",
-        "nameTitle": "Rep. Kristen McDonald Rivet (MI-8)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001237"
-      },
-      {
-        "bioguideId": "M001238",
-        "nameTitle": "Rep. Sarah McBride (DE-0)",
-        "state": "Delaware",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001238"
-      },
-      {
-        "bioguideId": "M001239",
-        "nameTitle": "Rep. John J. McGuire III (VA-5)",
-        "state": "Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001239"
-      },
-      {
-        "bioguideId": "M001240",
-        "nameTitle": "Rep. Addison P. McDowell (NC-6)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001240"
-      },
-      {
-        "bioguideId": "M001241",
-        "nameTitle": "Rep. Dave Min (CA-47)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001241"
-      },
-      {
-        "bioguideId": "M001242",
-        "nameTitle": "Sen. Bernie Moreno (OH)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001242"
-      },
-      {
-        "bioguideId": "M001243",
-        "nameTitle": "Sen. David McCormick (PA)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001243"
-      },
-      {
-        "bioguideId": "M001244",
-        "nameTitle": "Sen. Ashley Moody (FL)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/M001244"
-      },
-      {
-        "bioguideId": "M001245",
-        "nameTitle": "Rep. Christian Menefee (TX-18)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/M001245"
-      },
-      {
-        "bioguideId": "N000002",
-        "nameTitle": "Rep. Jerrold Nadler (NY-12)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/N000002"
-      },
-      {
-        "bioguideId": "N000015",
-        "nameTitle": "Rep. Richard E. Neal (MA-1)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/N000015"
-      },
-      {
-        "bioguideId": "N000026",
-        "nameTitle": "Rep. Troy E. Nehls (TX-22)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/N000026"
-      },
-      {
-        "bioguideId": "N000147",
-        "nameTitle": "Rep. Eleanor Holmes Norton (DC-0)",
-        "state": "District of Columbia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/N000147"
-      },
-      {
-        "bioguideId": "N000188",
-        "nameTitle": "Rep. Donald Norcross (NJ-1)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/N000188"
-      },
-      {
-        "bioguideId": "N000189",
-        "nameTitle": "Rep. Dan Newhouse (WA-4)",
-        "state": "Washington",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/N000189"
-      },
-      {
-        "bioguideId": "N000190",
-        "nameTitle": "Rep. Ralph Norman (SC-5)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/N000190"
-      },
-      {
-        "bioguideId": "N000191",
-        "nameTitle": "Rep. Joe Neguse (CO-2)",
-        "state": "Colorado",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/N000191"
-      },
-      {
-        "bioguideId": "N000193",
-        "nameTitle": "Rep. Zachary Nunn (IA-3)",
-        "state": "Iowa",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/N000193"
-      },
-      {
-        "bioguideId": "O000019",
-        "nameTitle": "Rep. Jay Obernolte (CA-23)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/O000019"
-      },
-      {
-        "bioguideId": "O000086",
-        "nameTitle": "Rep. Burgess Owens (UT-4)",
-        "state": "Utah",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/O000086"
-      },
-      {
-        "bioguideId": "O000172",
-        "nameTitle": "Rep. Alexandria Ocasio-Cortez (NY-14)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/O000172"
-      },
-      {
-        "bioguideId": "O000173",
-        "nameTitle": "Rep. Ilhan Omar (MN-5)",
-        "state": "Minnesota",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/O000173"
-      },
-      {
-        "bioguideId": "O000174",
-        "nameTitle": "Sen. Jon Ossoff (GA)",
-        "state": "Georgia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/O000174"
-      },
-      {
-        "bioguideId": "O000175",
-        "nameTitle": "Rep. Andrew Ogles (TN-5)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/O000175"
-      },
-      {
-        "bioguideId": "O000176",
-        "nameTitle": "Rep. Johnny Olszewski, Jr. (MD-2)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/O000176"
-      },
-      {
-        "bioguideId": "O000177",
-        "nameTitle": "Rep. Robert F. Onder, Jr. (MO-3)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/O000177"
-      },
-      {
-        "bioguideId": "P000034",
-        "nameTitle": "Rep. Frank Pallone, Jr. (NJ-6)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000034"
-      },
-      {
-        "bioguideId": "P000048",
-        "nameTitle": "Rep. August Pfluger (TX-11)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/P000048"
-      },
-      {
-        "bioguideId": "P000145",
-        "nameTitle": "Sen. Alex Padilla (CA)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000145"
-      },
-      {
-        "bioguideId": "P000197",
-        "nameTitle": "Rep. Nancy Pelosi (CA-11)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000197"
-      },
-      {
-        "bioguideId": "P000595",
-        "nameTitle": "Sen. Gary C. Peters (MI)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000595"
-      },
-      {
-        "bioguideId": "P000597",
-        "nameTitle": "Rep. Chellie Pingree (ME-1)",
-        "state": "Maine",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000597"
-      },
-      {
-        "bioguideId": "P000603",
-        "nameTitle": "Sen. Rand Paul (KY)",
-        "state": "Kentucky",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/P000603"
-      },
-      {
-        "bioguideId": "P000605",
-        "nameTitle": "Rep. Scott Perry (PA-10)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/P000605"
-      },
-      {
-        "bioguideId": "P000607",
-        "nameTitle": "Rep. Mark Pocan (WI-2)",
-        "state": "Wisconsin",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000607"
-      },
-      {
-        "bioguideId": "P000608",
-        "nameTitle": "Rep. Scott H. Peters (CA-50)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000608"
-      },
-      {
-        "bioguideId": "P000609",
-        "nameTitle": "Rep. Gary J. Palmer (AL-6)",
-        "state": "Alabama",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/P000609"
-      },
-      {
-        "bioguideId": "P000610",
-        "nameTitle": "Rep. Stacey E. Plaskett (VI-0)",
-        "state": "Virgin Islands",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000610"
-      },
-      {
-        "bioguideId": "P000613",
-        "nameTitle": "Rep. Jimmy Panetta (CA-19)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000613"
-      },
-      {
-        "bioguideId": "P000614",
-        "nameTitle": "Rep. Chris Pappas (NH-1)",
-        "state": "New Hampshire",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000614"
-      },
-      {
-        "bioguideId": "P000617",
-        "nameTitle": "Rep. Ayanna Pressley (MA-7)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000617"
-      },
-      {
-        "bioguideId": "P000620",
-        "nameTitle": "Rep. Brittany Pettersen (CO-7)",
-        "state": "Colorado",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000620"
-      },
-      {
-        "bioguideId": "P000621",
-        "nameTitle": "Rep. Nellie Pou (NJ-9)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/P000621"
-      },
-      {
-        "bioguideId": "P000622",
-        "nameTitle": "Rep. Jimmy Patronis (FL-1)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/P000622"
-      },
-      {
-        "bioguideId": "Q000023",
-        "nameTitle": "Rep. Mike Quigley (IL-5)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/Q000023"
-      },
-      {
-        "bioguideId": "R000122",
-        "nameTitle": "Sen. Jack Reed (RI)",
-        "state": "Rhode Island",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000122"
-      },
-      {
-        "bioguideId": "R000305",
-        "nameTitle": "Rep. Deborah K. Ross (NC-2)",
-        "state": "North Carolina",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000305"
-      },
-      {
-        "bioguideId": "R000395",
-        "nameTitle": "Rep. Harold Rogers (KY-5)",
-        "state": "Kentucky",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000395"
-      },
-      {
-        "bioguideId": "R000575",
-        "nameTitle": "Rep. Mike Rogers (AL-3)",
-        "state": "Alabama",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000575"
-      },
-      {
-        "bioguideId": "R000579",
-        "nameTitle": "Rep. Patrick Ryan (NY-18)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000579"
-      },
-      {
-        "bioguideId": "R000584",
-        "nameTitle": "Sen. James E. Risch (ID)",
-        "state": "Idaho",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000584"
-      },
-      {
-        "bioguideId": "R000595",
-        "nameTitle": "Sen. Marco Rubio (FL)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000595"
-      },
-      {
-        "bioguideId": "R000599",
-        "nameTitle": "Rep. Raul Ruiz (CA-25)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000599"
-      },
-      {
-        "bioguideId": "R000600",
-        "nameTitle": "Rep. Aumua Amata Coleman Radewagen (AS-0)",
-        "state": "American Samoa",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000600"
-      },
-      {
-        "bioguideId": "R000603",
-        "nameTitle": "Rep. David Rouzer (NC-7)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000603"
-      },
-      {
-        "bioguideId": "R000605",
-        "nameTitle": "Sen. Mike Rounds (SD)",
-        "state": "South Dakota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000605"
-      },
-      {
-        "bioguideId": "R000606",
-        "nameTitle": "Rep. Jamie Raskin (MD-8)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000606"
-      },
-      {
-        "bioguideId": "R000608",
-        "nameTitle": "Sen. Jacky Rosen (NV)",
-        "state": "Nevada",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000608"
-      },
-      {
-        "bioguideId": "R000609",
-        "nameTitle": "Rep. John H. Rutherford (FL-5)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000609"
-      },
-      {
-        "bioguideId": "R000610",
-        "nameTitle": "Rep. Guy Reschenthaler (PA-14)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000610"
-      },
-      {
-        "bioguideId": "R000612",
-        "nameTitle": "Rep. John W. Rose (TN-6)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000612"
-      },
-      {
-        "bioguideId": "R000614",
-        "nameTitle": "Rep. Chip Roy (TX-21)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000614"
-      },
-      {
-        "bioguideId": "R000617",
-        "nameTitle": "Rep. Delia C. Ramirez (IL-3)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000617"
-      },
-      {
-        "bioguideId": "R000618",
-        "nameTitle": "Sen. Pete Ricketts (NE)",
-        "state": "Nebraska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000618"
-      },
-      {
-        "bioguideId": "R000619",
-        "nameTitle": "Rep. Michael A. Rulli (OH-6)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/R000619"
-      },
-      {
-        "bioguideId": "R000620",
-        "nameTitle": "Rep. Luz M. Rivas (CA-29)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000620"
-      },
-      {
-        "bioguideId": "R000621",
-        "nameTitle": "Rep. Emily Randall (WA-6)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000621"
-      },
-      {
-        "bioguideId": "R000622",
-        "nameTitle": "Rep. Josh Riley (NY-19)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/R000622"
-      },
-      {
-        "bioguideId": "S000033",
-        "nameTitle": "Sen. Bernard Sanders (VT)",
-        "state": "Vermont",
-        "party": "Independent",
-        "url": "https://votedfor.us/legislators/S000033"
-      },
-      {
-        "bioguideId": "S000148",
-        "nameTitle": "Sen. Charles E. Schumer (NY)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S000148"
-      },
-      {
-        "bioguideId": "S000168",
-        "nameTitle": "Rep. Maria Elvira Salazar (FL-27)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S000168"
-      },
-      {
-        "bioguideId": "S000185",
-        "nameTitle": "Rep. Robert C. \"Bobby\" Scott (VA-3)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S000185"
-      },
-      {
-        "bioguideId": "S000250",
-        "nameTitle": "Rep. Pete Sessions (TX-17)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S000250"
-      },
-      {
-        "bioguideId": "S000344",
-        "nameTitle": "Rep. Brad Sherman (CA-32)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S000344"
-      },
-      {
-        "bioguideId": "S000510",
-        "nameTitle": "Rep. Adam Smith (WA-9)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S000510"
-      },
-      {
-        "bioguideId": "S000522",
-        "nameTitle": "Rep. Christopher H. Smith (NJ-4)",
-        "state": "New Jersey",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S000522"
-      },
-      {
-        "bioguideId": "S000929",
-        "nameTitle": "Rep. Victoria Spartz (IN-5)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S000929"
-      },
-      {
-        "bioguideId": "S001145",
-        "nameTitle": "Rep. Janice D. Schakowsky (IL-9)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001145"
-      },
-      {
-        "bioguideId": "S001148",
-        "nameTitle": "Rep. Michael K. Simpson (ID-2)",
-        "state": "Idaho",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001148"
-      },
-      {
-        "bioguideId": "S001150",
-        "nameTitle": "Sen. Adam B. Schiff (CA)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001150"
-      },
-      {
-        "bioguideId": "S001156",
-        "nameTitle": "Rep. Linda T. Sánchez (CA-38)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001156"
-      },
-      {
-        "bioguideId": "S001157",
-        "nameTitle": "Rep. David Scott (GA-13)",
-        "state": "Georgia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001157"
-      },
-      {
-        "bioguideId": "S001159",
-        "nameTitle": "Rep. Marilyn Strickland (WA-10)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001159"
-      },
-      {
-        "bioguideId": "S001172",
-        "nameTitle": "Rep. Adrian Smith (NE-3)",
-        "state": "Nebraska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001172"
-      },
-      {
-        "bioguideId": "S001176",
-        "nameTitle": "Rep. Steve Scalise (LA-1)",
-        "state": "Louisiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001176"
-      },
-      {
-        "bioguideId": "S001181",
-        "nameTitle": "Sen. Jeanne Shaheen (NH)",
-        "state": "New Hampshire",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001181"
-      },
-      {
-        "bioguideId": "S001183",
-        "nameTitle": "Rep. David Schweikert (AZ-1)",
-        "state": "Arizona",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001183"
-      },
-      {
-        "bioguideId": "S001184",
-        "nameTitle": "Sen. Tim Scott (SC)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001184"
-      },
-      {
-        "bioguideId": "S001185",
-        "nameTitle": "Rep. Terri A. Sewell (AL-7)",
-        "state": "Alabama",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001185"
-      },
-      {
-        "bioguideId": "S001188",
-        "nameTitle": "Rep. Marlin A. Stutzman (IN-3)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001188"
-      },
-      {
-        "bioguideId": "S001189",
-        "nameTitle": "Rep. Austin Scott (GA-8)",
-        "state": "Georgia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001189"
-      },
-      {
-        "bioguideId": "S001190",
-        "nameTitle": "Rep. Bradley Scott Schneider (IL-10)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001190"
-      },
-      {
-        "bioguideId": "S001193",
-        "nameTitle": "Rep. Eric Swalwell (CA-14)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001193"
-      },
-      {
-        "bioguideId": "S001194",
-        "nameTitle": "Sen. Brian Schatz (HI)",
-        "state": "Hawaii",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001194"
-      },
-      {
-        "bioguideId": "S001195",
-        "nameTitle": "Rep. Jason Smith (MO-8)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001195"
-      },
-      {
-        "bioguideId": "S001196",
-        "nameTitle": "Rep. Elise M. Stefanik (NY-21)",
-        "state": "New York",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001196"
-      },
-      {
-        "bioguideId": "S001198",
-        "nameTitle": "Sen. Dan Sullivan (AK)",
-        "state": "Alaska",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001198"
-      },
-      {
-        "bioguideId": "S001199",
-        "nameTitle": "Rep. Lloyd Smucker (PA-11)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001199"
-      },
-      {
-        "bioguideId": "S001200",
-        "nameTitle": "Rep. Darren Soto (FL-9)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001200"
-      },
-      {
-        "bioguideId": "S001201",
-        "nameTitle": "Rep. Thomas R. Suozzi (NY-3)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001201"
-      },
-      {
-        "bioguideId": "S001203",
-        "nameTitle": "Sen. Tina Smith (MN)",
-        "state": "Minnesota",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001203"
-      },
-      {
-        "bioguideId": "S001205",
-        "nameTitle": "Rep. Mary Gay Scanlon (PA-5)",
-        "state": "Pennsylvania",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001205"
-      },
-      {
-        "bioguideId": "S001207",
-        "nameTitle": "Rep. Mikie Sherrill (NJ-11)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001207"
-      },
-      {
-        "bioguideId": "S001208",
-        "nameTitle": "Sen. Elissa Slotkin (MI)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001208"
-      },
-      {
-        "bioguideId": "S001211",
-        "nameTitle": "Rep. Greg Stanton (AZ-4)",
-        "state": "Arizona",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001211"
-      },
-      {
-        "bioguideId": "S001212",
-        "nameTitle": "Rep. Pete Stauber (MN-8)",
-        "state": "Minnesota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001212"
-      },
-      {
-        "bioguideId": "S001213",
-        "nameTitle": "Rep. Bryan Steil (WI-1)",
-        "state": "Wisconsin",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001213"
-      },
-      {
-        "bioguideId": "S001214",
-        "nameTitle": "Rep. W. Gregory Steube (FL-17)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001214"
-      },
-      {
-        "bioguideId": "S001215",
-        "nameTitle": "Rep. Haley M. Stevens (MI-11)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001215"
-      },
-      {
-        "bioguideId": "S001216",
-        "nameTitle": "Rep. Kim Schrier (WA-8)",
-        "state": "Washington",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001216"
-      },
-      {
-        "bioguideId": "S001217",
-        "nameTitle": "Sen. Rick Scott (FL)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001217"
-      },
-      {
-        "bioguideId": "S001218",
-        "nameTitle": "Rep. Melanie A. Stansbury (NM-1)",
-        "state": "New Mexico",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001218"
-      },
-      {
-        "bioguideId": "S001220",
-        "nameTitle": "Rep. Dale W. Strong (AL-5)",
-        "state": "Alabama",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001220"
-      },
-      {
-        "bioguideId": "S001221",
-        "nameTitle": "Rep. Hillary J. Scholten (MI-3)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001221"
-      },
-      {
-        "bioguideId": "S001223",
-        "nameTitle": "Rep. Emilia Strong Sykes (OH-13)",
-        "state": "Ohio",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001223"
-      },
-      {
-        "bioguideId": "S001224",
-        "nameTitle": "Rep. Keith Self (TX-3)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001224"
-      },
-      {
-        "bioguideId": "S001225",
-        "nameTitle": "Rep. Eric Sorensen (IL-17)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001225"
-      },
-      {
-        "bioguideId": "S001226",
-        "nameTitle": "Rep. Andrea Salinas (OR-6)",
-        "state": "Oregon",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001226"
-      },
-      {
-        "bioguideId": "S001227",
-        "nameTitle": "Sen. Eric Schmitt (MO)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001227"
-      },
-      {
-        "bioguideId": "S001228",
-        "nameTitle": "Rep. Derek Schmidt (KS-2)",
-        "state": "Kansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001228"
-      },
-      {
-        "bioguideId": "S001229",
-        "nameTitle": "Rep. Jefferson Shreve (IN-6)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001229"
-      },
-      {
-        "bioguideId": "S001230",
-        "nameTitle": "Rep. Suhas Subramanyam (VA-10)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001230"
-      },
-      {
-        "bioguideId": "S001231",
-        "nameTitle": "Rep. Lateefah Simon (CA-12)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/S001231"
-      },
-      {
-        "bioguideId": "S001232",
-        "nameTitle": "Sen. Tim Sheehy (MT)",
-        "state": "Montana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/S001232"
-      },
-      {
-        "bioguideId": "T000165",
-        "nameTitle": "Rep. Thomas P. Tiffany (WI-7)",
-        "state": "Wisconsin",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000165"
-      },
-      {
-        "bioguideId": "T000193",
-        "nameTitle": "Rep. Bennie G. Thompson (MS-2)",
-        "state": "Mississippi",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000193"
-      },
-      {
-        "bioguideId": "T000250",
-        "nameTitle": "Sen. John Thune (SD)",
-        "state": "South Dakota",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000250"
-      },
-      {
-        "bioguideId": "T000278",
-        "nameTitle": "Sen. Tommy Tuberville (AL)",
-        "state": "Alabama",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000278"
-      },
-      {
-        "bioguideId": "T000460",
-        "nameTitle": "Rep. Mike Thompson (CA-4)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000460"
-      },
-      {
-        "bioguideId": "T000463",
-        "nameTitle": "Rep. Michael R. Turner (OH-10)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000463"
-      },
-      {
-        "bioguideId": "T000467",
-        "nameTitle": "Rep. Glenn Thompson (PA-15)",
-        "state": "Pennsylvania",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000467"
-      },
-      {
-        "bioguideId": "T000468",
-        "nameTitle": "Rep. Dina Titus (NV-1)",
-        "state": "Nevada",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000468"
-      },
-      {
-        "bioguideId": "T000469",
-        "nameTitle": "Rep. Paul Tonko (NY-20)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000469"
-      },
-      {
-        "bioguideId": "T000472",
-        "nameTitle": "Rep. Mark Takano (CA-39)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000472"
-      },
-      {
-        "bioguideId": "T000474",
-        "nameTitle": "Rep. Norma J. Torres (CA-35)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000474"
-      },
-      {
-        "bioguideId": "T000476",
-        "nameTitle": "Sen. Thom Tillis (NC)",
-        "state": "North Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000476"
-      },
-      {
-        "bioguideId": "T000478",
-        "nameTitle": "Rep. Claudia Tenney (NY-24)",
-        "state": "New York",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000478"
-      },
-      {
-        "bioguideId": "T000480",
-        "nameTitle": "Rep. William R. Timmons IV (SC-4)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000480"
-      },
-      {
-        "bioguideId": "T000481",
-        "nameTitle": "Rep. Rashida Tlaib (MI-12)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000481"
-      },
-      {
-        "bioguideId": "T000482",
-        "nameTitle": "Rep. Lori Trahan (MA-3)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000482"
-      },
-      {
-        "bioguideId": "T000486",
-        "nameTitle": "Rep. Ritchie Torres (NY-15)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000486"
-      },
-      {
-        "bioguideId": "T000487",
-        "nameTitle": "Rep. Jill N. Tokuda (HI-2)",
-        "state": "Hawaii",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000487"
-      },
-      {
-        "bioguideId": "T000488",
-        "nameTitle": "Rep. Shri Thanedar (MI-13)",
-        "state": "Michigan",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000488"
-      },
-      {
-        "bioguideId": "T000489",
-        "nameTitle": "Rep. Sylvester Turner (TX-18)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000489"
-      },
-      {
-        "bioguideId": "T000490",
-        "nameTitle": "Rep. David J. Taylor (OH-2)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/T000490"
-      },
-      {
-        "bioguideId": "T000491",
-        "nameTitle": "Rep. Derek Tran (CA-45)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/T000491"
-      },
-      {
-        "bioguideId": "U000040",
-        "nameTitle": "Rep. Lauren Underwood (IL-14)",
-        "state": "Illinois",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/U000040"
-      },
-      {
-        "bioguideId": "V000081",
-        "nameTitle": "Rep. Nydia M. Velázquez (NY-7)",
-        "state": "New York",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/V000081"
-      },
-      {
-        "bioguideId": "V000128",
-        "nameTitle": "Sen. Chris Van Hollen (MD)",
-        "state": "Maryland",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/V000128"
-      },
-      {
-        "bioguideId": "V000129",
-        "nameTitle": "Rep. David G. Valadao (CA-22)",
-        "state": "California",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/V000129"
-      },
-      {
-        "bioguideId": "V000130",
-        "nameTitle": "Rep. Juan Vargas (CA-52)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/V000130"
-      },
-      {
-        "bioguideId": "V000131",
-        "nameTitle": "Rep. Marc A. Veasey (TX-33)",
-        "state": "Texas",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/V000131"
-      },
-      {
-        "bioguideId": "V000133",
-        "nameTitle": "Rep. Jefferson Van Drew (NJ-2)",
-        "state": "New Jersey",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/V000133"
-      },
-      {
-        "bioguideId": "V000134",
-        "nameTitle": "Rep. Beth Van Duyne (TX-24)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/V000134"
-      },
-      {
-        "bioguideId": "V000135",
-        "nameTitle": "Rep. Derrick Van Orden (WI-3)",
-        "state": "Wisconsin",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/V000135"
-      },
-      {
-        "bioguideId": "V000136",
-        "nameTitle": "Rep. Gabe Vasquez (NM-2)",
-        "state": "New Mexico",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/V000136"
-      },
-      {
-        "bioguideId": "V000137",
-        "nameTitle": "Sen. J.D. Vance (OH)",
-        "state": "Ohio",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/V000137"
-      },
-      {
-        "bioguideId": "V000138",
-        "nameTitle": "Rep. Eugene Simon Vindman (VA-7)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/V000138"
-      },
-      {
-        "bioguideId": "V000139",
-        "nameTitle": "Rep. Matt Van Epps (TN-7)",
-        "state": "Tennessee",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/V000139"
-      },
-      {
-        "bioguideId": "W000187",
-        "nameTitle": "Rep. Maxine Waters (CA-43)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000187"
-      },
-      {
-        "bioguideId": "W000437",
-        "nameTitle": "Sen. Roger F. Wicker (MS)",
-        "state": "Mississippi",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000437"
-      },
-      {
-        "bioguideId": "W000779",
-        "nameTitle": "Sen. Ron Wyden (OR)",
-        "state": "Oregon",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000779"
-      },
-      {
-        "bioguideId": "W000788",
-        "nameTitle": "Rep. Nikema Williams (GA-5)",
-        "state": "Georgia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000788"
-      },
-      {
-        "bioguideId": "W000790",
-        "nameTitle": "Sen. Raphael G. Warnock (GA)",
-        "state": "Georgia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000790"
-      },
-      {
-        "bioguideId": "W000795",
-        "nameTitle": "Rep. Joe Wilson (SC-2)",
-        "state": "South Carolina",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000795"
-      },
-      {
-        "bioguideId": "W000797",
-        "nameTitle": "Rep. Debbie Wasserman Schultz (FL-25)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000797"
-      },
-      {
-        "bioguideId": "W000798",
-        "nameTitle": "Rep. Tim Walberg (MI-5)",
-        "state": "Michigan",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000798"
-      },
-      {
-        "bioguideId": "W000800",
-        "nameTitle": "Sen. Peter Welch (VT)",
-        "state": "Vermont",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000800"
-      },
-      {
-        "bioguideId": "W000802",
-        "nameTitle": "Sen. Sheldon Whitehouse (RI)",
-        "state": "Rhode Island",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000802"
-      },
-      {
-        "bioguideId": "W000804",
-        "nameTitle": "Rep. Robert J. Wittman (VA-1)",
-        "state": "Virginia",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000804"
-      },
-      {
-        "bioguideId": "W000805",
-        "nameTitle": "Sen. Mark R. Warner (VA)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000805"
-      },
-      {
-        "bioguideId": "W000806",
-        "nameTitle": "Rep. Daniel Webster (FL-11)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000806"
-      },
-      {
-        "bioguideId": "W000808",
-        "nameTitle": "Rep. Frederica S. Wilson (FL-24)",
-        "state": "Florida",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000808"
-      },
-      {
-        "bioguideId": "W000809",
-        "nameTitle": "Rep. Steve Womack (AR-3)",
-        "state": "Arkansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000809"
-      },
-      {
-        "bioguideId": "W000812",
-        "nameTitle": "Rep. Ann Wagner (MO-2)",
-        "state": "Missouri",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000812"
-      },
-      {
-        "bioguideId": "W000814",
-        "nameTitle": "Rep. Randy K. Weber, Sr. (TX-14)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000814"
-      },
-      {
-        "bioguideId": "W000816",
-        "nameTitle": "Rep. Roger Williams (TX-25)",
-        "state": "Texas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000816"
-      },
-      {
-        "bioguideId": "W000817",
-        "nameTitle": "Sen. Elizabeth Warren (MA)",
-        "state": "Massachusetts",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000817"
-      },
-      {
-        "bioguideId": "W000821",
-        "nameTitle": "Rep. Bruce Westerman (AR-4)",
-        "state": "Arkansas",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000821"
-      },
-      {
-        "bioguideId": "W000822",
-        "nameTitle": "Rep. Bonnie Watson Coleman (NJ-12)",
-        "state": "New Jersey",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000822"
-      },
-      {
-        "bioguideId": "W000823",
-        "nameTitle": "Rep. Michael Waltz (FL-6)",
-        "state": "Florida",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000823"
-      },
-      {
-        "bioguideId": "W000829",
-        "nameTitle": "Rep. Tony Wied (WI-8)",
-        "state": "Wisconsin",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/W000829"
-      },
-      {
-        "bioguideId": "W000830",
-        "nameTitle": "Rep. George Whitesides (CA-27)",
-        "state": "California",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000830"
-      },
-      {
-        "bioguideId": "W000831",
-        "nameTitle": "Rep. James R. Walkinshaw (VA-11)",
-        "state": "Virginia",
-        "party": "Democrat",
-        "url": "https://votedfor.us/legislators/W000831"
-      },
-      {
-        "bioguideId": "Y000064",
-        "nameTitle": "Sen. Todd Young (IN)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/Y000064"
-      },
-      {
-        "bioguideId": "Y000067",
-        "nameTitle": "Rep. Rudy Yakym III (IN-2)",
-        "state": "Indiana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/Y000067"
-      },
-      {
-        "bioguideId": "Z000018",
-        "nameTitle": "Rep. Ryan K. Zinke (MT-1)",
-        "state": "Montana",
-        "party": "Republican",
-        "url": "https://votedfor.us/legislators/Z000018"
-      }
+      "A000055",
+      "A000148",
+      "A000369",
+      "A000370",
+      "A000371",
+      "A000372",
+      "A000375",
+      "A000379",
+      "A000380",
+      "A000381",
+      "A000382",
+      "B000490",
+      "B000668",
+      "B000740",
+      "B000825",
+      "B001230",
+      "B001236",
+      "B001243",
+      "B001257",
+      "B001260",
+      "B001261",
+      "B001267",
+      "B001277",
+      "B001278",
+      "B001281",
+      "B001282",
+      "B001285",
+      "B001287",
+      "B001288",
+      "B001291",
+      "B001292",
+      "B001295",
+      "B001296",
+      "B001298",
+      "B001299",
+      "B001300",
+      "B001301",
+      "B001302",
+      "B001303",
+      "B001305",
+      "B001306",
+      "B001307",
+      "B001309",
+      "B001313",
+      "B001314",
+      "B001315",
+      "B001316",
+      "B001317",
+      "B001318",
+      "B001319",
+      "B001321",
+      "B001322",
+      "B001323",
+      "B001324",
+      "B001325",
+      "B001326",
+      "B001327",
+      "C000059",
+      "C000127",
+      "C000537",
+      "C000880",
+      "C001035",
+      "C001039",
+      "C001047",
+      "C001051",
+      "C001053",
+      "C001055",
+      "C001056",
+      "C001059",
+      "C001061",
+      "C001063",
+      "C001066",
+      "C001067",
+      "C001068",
+      "C001069",
+      "C001072",
+      "C001075",
+      "C001078",
+      "C001080",
+      "C001087",
+      "C001088",
+      "C001091",
+      "C001095",
+      "C001096",
+      "C001098",
+      "C001101",
+      "C001103",
+      "C001108",
+      "C001110",
+      "C001112",
+      "C001113",
+      "C001114",
+      "C001115",
+      "C001116",
+      "C001117",
+      "C001118",
+      "C001119",
+      "C001120",
+      "C001121",
+      "C001123",
+      "C001125",
+      "C001126",
+      "C001127",
+      "C001129",
+      "C001130",
+      "C001131",
+      "C001132",
+      "C001133",
+      "C001136",
+      "C001137",
+      "D000032",
+      "D000096",
+      "D000197",
+      "D000216",
+      "D000230",
+      "D000399",
+      "D000530",
+      "D000563",
+      "D000594",
+      "D000600",
+      "D000616",
+      "D000617",
+      "D000618",
+      "D000622",
+      "D000623",
+      "D000624",
+      "D000626",
+      "D000628",
+      "D000629",
+      "D000631",
+      "D000634",
+      "D000635",
+      "E000071",
+      "E000235",
+      "E000246",
+      "E000294",
+      "E000295",
+      "E000296",
+      "E000297",
+      "E000298",
+      "E000299",
+      "E000300",
+      "E000301",
+      "F000110",
+      "F000246",
+      "F000446",
+      "F000450",
+      "F000454",
+      "F000459",
+      "F000462",
+      "F000463",
+      "F000466",
+      "F000468",
+      "F000469",
+      "F000470",
+      "F000471",
+      "F000472",
+      "F000474",
+      "F000475",
+      "F000476",
+      "F000477",
+      "F000478",
+      "F000479",
+      "F000480",
+      "F000481",
+      "F000482",
+      "F000483",
+      "F000484",
+      "G000359",
+      "G000386",
+      "G000546",
+      "G000551",
+      "G000553",
+      "G000555",
+      "G000558",
+      "G000559",
+      "G000565",
+      "G000568",
+      "G000574",
+      "G000576",
+      "G000581",
+      "G000583",
+      "G000585",
+      "G000586",
+      "G000587",
+      "G000589",
+      "G000590",
+      "G000591",
+      "G000592",
+      "G000593",
+      "G000594",
+      "G000596",
+      "G000597",
+      "G000598",
+      "G000599",
+      "G000600",
+      "G000601",
+      "G000602",
+      "G000603",
+      "G000604",
+      "G000605",
+      "G000606",
+      "H000273",
+      "H000601",
+      "H000874",
+      "H001042",
+      "H001046",
+      "H001047",
+      "H001052",
+      "H001058",
+      "H001061",
+      "H001066",
+      "H001067",
+      "H001068",
+      "H001072",
+      "H001076",
+      "H001077",
+      "H001079",
+      "H001081",
+      "H001082",
+      "H001085",
+      "H001086",
+      "H001089",
+      "H001090",
+      "H001091",
+      "H001093",
+      "H001094",
+      "H001095",
+      "H001096",
+      "H001098",
+      "H001099",
+      "H001100",
+      "H001101",
+      "H001102",
+      "H001103",
+      "H001104",
+      "I000056",
+      "I000058",
+      "J000288",
+      "J000289",
+      "J000293",
+      "J000294",
+      "J000295",
+      "J000298",
+      "J000299",
+      "J000301",
+      "J000302",
+      "J000304",
+      "J000305",
+      "J000307",
+      "J000309",
+      "J000310",
+      "J000311",
+      "J000312",
+      "K000009",
+      "K000367",
+      "K000375",
+      "K000376",
+      "K000377",
+      "K000383",
+      "K000384",
+      "K000385",
+      "K000388",
+      "K000389",
+      "K000391",
+      "K000392",
+      "K000393",
+      "K000394",
+      "K000397",
+      "K000398",
+      "K000399",
+      "K000400",
+      "K000401",
+      "K000402",
+      "K000403",
+      "K000404",
+      "K000405",
+      "L000273",
+      "L000397",
+      "L000491",
+      "L000557",
+      "L000560",
+      "L000562",
+      "L000566",
+      "L000570",
+      "L000571",
+      "L000575",
+      "L000577",
+      "L000578",
+      "L000582",
+      "L000583",
+      "L000585",
+      "L000590",
+      "L000593",
+      "L000595",
+      "L000596",
+      "L000597",
+      "L000598",
+      "L000599",
+      "L000600",
+      "L000601",
+      "L000602",
+      "L000603",
+      "L000606",
+      "L000607",
+      "M000133",
+      "M000194",
+      "M000312",
+      "M000317",
+      "M000355",
+      "M000687",
+      "M000871",
+      "M000934",
+      "M001111",
+      "M001136",
+      "M001137",
+      "M001143",
+      "M001153",
+      "M001157",
+      "M001160",
+      "M001163",
+      "M001169",
+      "M001176",
+      "M001177",
+      "M001184",
+      "M001188",
+      "M001190",
+      "M001194",
+      "M001196",
+      "M001198",
+      "M001199",
+      "M001204",
+      "M001205",
+      "M001206",
+      "M001208",
+      "M001210",
+      "M001211",
+      "M001212",
+      "M001213",
+      "M001214",
+      "M001215",
+      "M001216",
+      "M001217",
+      "M001218",
+      "M001219",
+      "M001220",
+      "M001222",
+      "M001223",
+      "M001224",
+      "M001225",
+      "M001226",
+      "M001227",
+      "M001228",
+      "M001229",
+      "M001230",
+      "M001231",
+      "M001232",
+      "M001233",
+      "M001234",
+      "M001235",
+      "M001236",
+      "M001237",
+      "M001238",
+      "M001239",
+      "M001240",
+      "M001241",
+      "M001242",
+      "M001243",
+      "M001244",
+      "M001245",
+      "N000002",
+      "N000015",
+      "N000026",
+      "N000147",
+      "N000188",
+      "N000189",
+      "N000190",
+      "N000191",
+      "N000193",
+      "O000019",
+      "O000086",
+      "O000172",
+      "O000173",
+      "O000174",
+      "O000175",
+      "O000176",
+      "O000177",
+      "P000034",
+      "P000048",
+      "P000145",
+      "P000197",
+      "P000595",
+      "P000597",
+      "P000603",
+      "P000605",
+      "P000607",
+      "P000608",
+      "P000609",
+      "P000610",
+      "P000613",
+      "P000614",
+      "P000617",
+      "P000620",
+      "P000621",
+      "P000622",
+      "Q000023",
+      "R000122",
+      "R000305",
+      "R000395",
+      "R000575",
+      "R000579",
+      "R000584",
+      "R000595",
+      "R000599",
+      "R000600",
+      "R000603",
+      "R000605",
+      "R000606",
+      "R000608",
+      "R000609",
+      "R000610",
+      "R000612",
+      "R000614",
+      "R000617",
+      "R000618",
+      "R000619",
+      "R000620",
+      "R000621",
+      "R000622",
+      "S000033",
+      "S000148",
+      "S000168",
+      "S000185",
+      "S000250",
+      "S000344",
+      "S000510",
+      "S000522",
+      "S000929",
+      "S001145",
+      "S001148",
+      "S001150",
+      "S001156",
+      "S001157",
+      "S001159",
+      "S001172",
+      "S001176",
+      "S001181",
+      "S001183",
+      "S001184",
+      "S001185",
+      "S001188",
+      "S001189",
+      "S001190",
+      "S001193",
+      "S001194",
+      "S001195",
+      "S001196",
+      "S001198",
+      "S001199",
+      "S001200",
+      "S001201",
+      "S001203",
+      "S001205",
+      "S001207",
+      "S001208",
+      "S001211",
+      "S001212",
+      "S001213",
+      "S001214",
+      "S001215",
+      "S001216",
+      "S001217",
+      "S001218",
+      "S001220",
+      "S001221",
+      "S001223",
+      "S001224",
+      "S001225",
+      "S001226",
+      "S001227",
+      "S001228",
+      "S001229",
+      "S001230",
+      "S001231",
+      "S001232",
+      "T000165",
+      "T000193",
+      "T000250",
+      "T000278",
+      "T000460",
+      "T000463",
+      "T000467",
+      "T000468",
+      "T000469",
+      "T000472",
+      "T000474",
+      "T000476",
+      "T000478",
+      "T000480",
+      "T000481",
+      "T000482",
+      "T000486",
+      "T000487",
+      "T000488",
+      "T000489",
+      "T000490",
+      "T000491",
+      "U000040",
+      "V000081",
+      "V000128",
+      "V000129",
+      "V000130",
+      "V000131",
+      "V000133",
+      "V000134",
+      "V000135",
+      "V000136",
+      "V000137",
+      "V000138",
+      "V000139",
+      "W000187",
+      "W000437",
+      "W000779",
+      "W000788",
+      "W000790",
+      "W000795",
+      "W000797",
+      "W000798",
+      "W000800",
+      "W000802",
+      "W000804",
+      "W000805",
+      "W000806",
+      "W000808",
+      "W000809",
+      "W000812",
+      "W000814",
+      "W000816",
+      "W000817",
+      "W000821",
+      "W000822",
+      "W000823",
+      "W000829",
+      "W000830",
+      "W000831",
+      "Y000064",
+      "Y000067",
+      "Z000018"
     ],
     "removed": []
   },
   "bills": {
     "added": [],
     "updated": [
-      {
-        "id": "119-HR-3838",
-        "title": "Coast Guard Authorization Act of 2025",
-        "congress": 119,
-        "billType": "hr",
-        "number": "3838",
-        "url": "https://votedfor.us/bills/119/hr/3838"
-      },
-      {
-        "id": "119-S-1318",
-        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
-        "congress": 119,
-        "billType": "s",
-        "number": "1318",
-        "url": "https://votedfor.us/bills/119/s/1318"
-      },
-      {
-        "id": "119-S-1383",
-        "title": "SAVE America Act",
-        "congress": 119,
-        "billType": "s",
-        "number": "1383",
-        "url": "https://votedfor.us/bills/119/s/1383"
-      },
-      {
-        "id": "119-S-766",
-        "title": "Billion Dollar Boondoggle Act of 2025",
-        "congress": 119,
-        "billType": "s",
-        "number": "766",
-        "url": "https://votedfor.us/bills/119/s/766"
-      }
+      "119-HR-3838",
+      "119-S-1318",
+      "119-S-1383",
+      "119-S-766"
     ],
     "newLaws": [],
     "withNewVotes": [
-      {
-        "id": "119-HR-3838",
-        "title": "Coast Guard Authorization Act of 2025",
-        "congress": 119,
-        "billType": "hr",
-        "number": "3838",
-        "url": "https://votedfor.us/bills/119/hr/3838"
-      },
-      {
-        "id": "119-S-1383",
-        "title": "SAVE America Act",
-        "congress": 119,
-        "billType": "s",
-        "number": "1383",
-        "url": "https://votedfor.us/bills/119/s/1383"
-      }
+      "119-HR-3838",
+      "119-S-1383"
     ]
   }
 }
