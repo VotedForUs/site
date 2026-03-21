@@ -10,6 +10,7 @@ import * as path from 'path';
 
 import { legislatorSmallSchema, billWithActionsSchema, recordedVoteWithVotesSchema, recordedVoteSchema, changelogEntrySchema } from './types.zod';
 import { getBestBillTitle } from './utils/billTitle.js';
+import { normalizeLegislatorForCollection } from './utils/normalizeLegislatorForCollection.js';
 
 
 // Re-export utility functions so existing imports from content.config continue to work
@@ -276,14 +277,16 @@ function loadLegislatorsFromDir(): LegislatorSmall[] {
   const entries: LegislatorSmall[] = [];
   for (const file of files) {
     try {
-      const leg = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+      const leg = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8')) as Record<string, unknown>;
       const fromFile = file.replace(/\.json$/, '');
-      const id =
-        leg.bioguideId ??
-        leg.bioguide ??
-        (typeof leg.id === 'string' ? leg.id : undefined) ??
-        fromFile;
-      entries.push({ ...leg, id });
+      const normalized = normalizeLegislatorForCollection(leg, fromFile);
+      const slugId = normalized.bioguide;
+      const parsed = legislatorSmallSchema.safeParse({ ...normalized, id: slugId });
+      if (!parsed.success) {
+        console.warn(`Warning: legislator ${file} failed schema:`, parsed.error.issues);
+        continue;
+      }
+      entries.push(parsed.data);
     } catch (e) {
       console.warn(`Warning: Could not parse ${path.join(dir, file)}:`, e);
     }

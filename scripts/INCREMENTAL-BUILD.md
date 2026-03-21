@@ -193,8 +193,8 @@ import { shouldBuildPage } from '../utils/buildManifest.js';
 export async function getStaticPaths() {
   const legislators = await getCollection('legislators');
   return legislators
-    .filter(l => shouldBuildPage('legislators-loader', l.data.bioguide))
-    .map(l => ({ params: { bioguideid: l.data.bioguide }, props: { legislator: l } }));
+    .filter(l => shouldBuildPage('legislators-loader', l.id))
+    .map(l => ({ params: { bioguideid: l.id }, props: { legislator: l } }));
 }
 ```
 
