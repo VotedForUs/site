@@ -277,8 +277,13 @@ function loadLegislatorsFromDir(): LegislatorSmall[] {
   for (const file of files) {
     try {
       const leg = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
-      const id = leg.bioguide ?? leg.id ?? file.replace(/\.json$/, '');
-      entries.push({ id, ...leg });
+      const fromFile = file.replace(/\.json$/, '');
+      const id =
+        leg.bioguideId ??
+        leg.bioguide ??
+        (typeof leg.id === 'string' ? leg.id : undefined) ??
+        fromFile;
+      entries.push({ ...leg, id });
     } catch (e) {
       console.warn(`Warning: Could not parse ${path.join(dir, file)}:`, e);
     }
