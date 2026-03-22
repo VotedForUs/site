@@ -1,8 +1,40 @@
 {
   "actions": {
-    "count": 32,
+    "count": 36,
     "url": "https://api.congress.gov/v3/bill/119/s/1383/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate (Message from the House considered).",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-19",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Cloture motion on the motion to suspend the operation of Rule XXV, paragraph (n)(1) to permit the committee on Rules and Administration to consider the pending motion with respect to the House message to accompany S. 1383 presented in Senate. (CR S1348)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-19",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion by Senator Schumer to suspend the operation of Rule XXV paragraph (n)(1) to permit the committee on Rules and Administration to consider the pending motion with respect to the House message to accompany S. 1383 made in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-19",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate (Message from the House considered). (consideration: CR S1314)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-18",
         "sourceSystem": {
@@ -1434,8 +1466,8 @@
   "congress": 119,
   "introducedDate": "2025-04-09",
   "latestAction": {
-    "actionDate": "2026-03-18",
-    "text": "Considered by Senate (Message from the House considered). (consideration: CR S1159)"
+    "actionDate": "2026-03-20",
+    "text": "Considered by Senate (Message from the House considered)."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1383",
   "number": "1383",
@@ -1452,7 +1484,7 @@
         "title": "Veterans Accessibility Advisory Committee Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-03-19T11:03:26Z"
+        "updateDate": "2026-03-21T11:03:25Z"
       },
       {
         "billTextVersionCode": "EAH",
@@ -1515,9 +1547,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-19T19:28:12Z",
-  "updateDateIncludingText": "2026-03-19T19:28:12Z",
+  "updateDate": "2026-03-21T11:08:35Z",
+  "updateDateIncludingText": "2026-03-21T11:08:35Z",
   "id": "119-S-1383",
-  "lastActionDate": "2026-03-18",
+  "lastActionDate": "2026-03-20",
   "lastRecordedVoteDate": "2026-03-17T20:09:58Z"
 }
