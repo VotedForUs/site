@@ -30,14 +30,6 @@
         "type": "Floor"
       },
       {
-        "actionDate": "2025-12-15",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
         "actionCode": "H14000",
         "actionDate": "2025-12-15",
         "actionTime": "16:06:15",
@@ -46,6 +38,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-12-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -318,8 +318,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-19T11:03:26Z",
-  "updateDateIncludingText": "2026-03-19T11:03:26Z",
+  "updateDate": "2026-03-21T11:01:43Z",
+  "updateDateIncludingText": "2026-03-21T11:01:43Z",
   "id": "119-S-766",
   "lastActionDate": "2026-03-18",
   "lastRecordedVoteDate": "2025-12-11"

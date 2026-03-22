@@ -1,7 +1,7 @@
 [
   {
-    "date": "2026-03-21",
-    "runId": "23373990307",
+    "date": "2026-03-22",
+    "runId": "23397580465",
     "legislators": {
       "added": [],
       "updated": [],
@@ -35,16 +35,25 @@
           "url": "https://votedfor.us/bills/119/s/4138"
         },
         {
-          "id": "119-SRES-644",
-          "title": "A resolution honoring the life and legacy of Coach Louis Leo \"Lou\" Holtz.",
+          "id": "119-S-766",
+          "title": "Billion Dollar Boondoggle Act of 2025",
           "congress": 119,
-          "billType": "sres",
-          "number": "644",
-          "url": "https://votedfor.us/bills/119/sres/644"
+          "billType": "s",
+          "number": "766",
+          "url": "https://votedfor.us/bills/119/s/766"
         }
       ],
       "newLaws": [],
-      "withNewVotes": []
+      "withNewVotes": [
+        {
+          "id": "119-HR-7147",
+          "title": "Department of Homeland Security Appropriations Act, 2026",
+          "congress": 119,
+          "billType": "hr",
+          "number": "7147",
+          "url": "https://votedfor.us/bills/119/hr/7147"
+        }
+      ]
     }
   }
 ]
