@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-03-23",
+    "runId": "23425388517",
+    "legislators": {
+      "added": [],
+      "updated": [],
+      "removed": []
+    },
+    "bills": {
+      "added": [],
+      "updated": [
+        {
+          "id": "119-HR-7147",
+          "title": "Department of Homeland Security Appropriations Act, 2026",
+          "congress": 119,
+          "billType": "hr",
+          "number": "7147",
+          "url": "https://votedfor.us/bills/119/hr/7147"
+        },
+        {
+          "id": "119-S-1383",
+          "title": "SAVE America Act",
+          "congress": 119,
+          "billType": "s",
+          "number": "1383",
+          "url": "https://votedfor.us/bills/119/s/1383"
+        }
+      ],
+      "newLaws": [],
+      "withNewVotes": [
+        {
+          "id": "119-S-1383",
+          "title": "SAVE America Act",
+          "congress": 119,
+          "billType": "s",
+          "number": "1383",
+          "url": "https://votedfor.us/bills/119/s/1383"
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-03-22",
     "runId": "23397580465",
     "legislators": {

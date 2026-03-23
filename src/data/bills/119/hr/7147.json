@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 41,
+    "count": 42,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-20",
         "recordedVotes": [
@@ -2147,8 +2155,8 @@
   "congress": 119,
   "introducedDate": "2026-01-20",
   "latestAction": {
-    "actionDate": "2026-03-20",
-    "text": "Upon reconsideration, second cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 37. Record Vote Number: 59."
+    "actionDate": "2026-03-21",
+    "text": "Motion to proceed to consideration of measure made in Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7147",
   "number": "7147",
@@ -2216,9 +2224,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-21T10:56:22Z",
-  "updateDateIncludingText": "2026-03-21T10:56:22Z",
+  "updateDate": "2026-03-22T10:56:18Z",
+  "updateDateIncludingText": "2026-03-22T10:56:18Z",
   "id": "119-HR-7147",
-  "lastActionDate": "2026-03-20",
+  "lastActionDate": "2026-03-21",
   "lastRecordedVoteDate": "2026-03-20T19:50:48Z"
 }
