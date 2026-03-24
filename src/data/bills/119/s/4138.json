@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 12,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/s/4138/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-03-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-03-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-03-20",
@@ -245,7 +265,7 @@
   "introducedDate": "2026-03-18",
   "latestAction": {
     "actionDate": "2026-03-20",
-    "text": "Presented to President."
+    "text": "Signed by President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4138",
   "number": "4138",
@@ -269,8 +289,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-21T08:05:50Z",
-  "updateDateIncludingText": "2026-03-21T08:05:50Z",
+  "updateDate": "2026-03-23T21:34:05Z",
+  "updateDateIncludingText": "2026-03-23T21:34:05Z",
   "id": "119-S-4138",
   "lastActionDate": "2026-03-20",
   "lastRecordedVoteDate": "2026-03-18"

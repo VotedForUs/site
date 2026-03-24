@@ -1,0 +1,97 @@
+{
+  "date": "2026-03-24",
+  "runId": "23477082068",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      {
+        "id": "119-HJRES-139",
+        "title": "Proposing an amendment to the Constitution of the United States requiring a balanced budget for the Federal Government.",
+        "congress": 119,
+        "billType": "hjres",
+        "number": "139",
+        "url": "https://votedfor.us/bills/119/hjres/139"
+      },
+      {
+        "id": "119-HR-4405",
+        "title": "Epstein Files Transparency Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "4405",
+        "url": "https://votedfor.us/bills/119/hr/4405"
+      },
+      {
+        "id": "119-HR-6644",
+        "title": "21st Century ROAD to Housing Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "6644",
+        "url": "https://votedfor.us/bills/119/hr/6644"
+      },
+      {
+        "id": "119-HR-7147",
+        "title": "Department of Homeland Security Appropriations Act, 2026",
+        "congress": 119,
+        "billType": "hr",
+        "number": "7147",
+        "url": "https://votedfor.us/bills/119/hr/7147"
+      },
+      {
+        "id": "119-S-1333",
+        "title": "Strengthening Child Exploitation Enforcement Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1333",
+        "url": "https://votedfor.us/bills/119/s/1333"
+      },
+      {
+        "id": "119-S-1383",
+        "title": "SAVE America Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1383",
+        "url": "https://votedfor.us/bills/119/s/1383"
+      },
+      {
+        "id": "119-S-4138",
+        "title": "A bill to waive the 60-day notice requirement for the posthumous honorary promotion of Captain Cody Khork, United States Army.",
+        "congress": 119,
+        "billType": "s",
+        "number": "4138",
+        "url": "https://votedfor.us/bills/119/s/4138"
+      },
+      {
+        "id": "119-SJRES-55",
+        "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Highway Traffic Safety Administration relating to \"Federal Motor Vehicle Safety Standards; Fuel System Integrity of Hydrogen Vehicles; Compressed Hydrogen Storage System Integrity; Incorporation by Reference\".",
+        "congress": 119,
+        "billType": "sjres",
+        "number": "55",
+        "url": "https://votedfor.us/bills/119/sjres/55"
+      },
+      {
+        "id": "119-SRES-644",
+        "title": "A resolution honoring the life and legacy of Coach Louis Leo \"Lou\" Holtz.",
+        "congress": 119,
+        "billType": "sres",
+        "number": "644",
+        "url": "https://votedfor.us/bills/119/sres/644"
+      }
+    ],
+    "newLaws": [],
+    "withNewVotes": [
+      {
+        "id": "119-S-1383",
+        "title": "SAVE America Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1383",
+        "url": "https://votedfor.us/bills/119/s/1383"
+      }
+    ]
+  }
+}
