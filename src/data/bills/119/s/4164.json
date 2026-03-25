@@ -1,50 +1,20 @@
 {
   "actions": {
-    "count": 9,
-    "url": "https://api.congress.gov/v3/bill/119/s/1333/actions?format=json",
+    "count": 3,
+    "url": "https://api.congress.gov/v3/bill/119/s/4164/actions?format=json",
     "actions": [
       {
-        "actionCode": "H15000",
-        "actionDate": "2025-10-10",
-        "actionTime": "12:33:05",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-10-10",
-        "actionTime": "12:33:04",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-10-08",
+        "actionDate": "2026-03-23",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-09-29",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (text: CR S6843-6844)",
+        "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S1560; text: CR S1560)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2025-09-29",
+            "date": "2026-03-23",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -180,100 +150,45 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/1333",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4164",
             "question": "Pass with Unanimous Consent",
-            "id": "119-S-1333-1"
+            "id": "119-S-4164-1"
           }
         ]
-      },
-      {
-        "actionDate": "2025-09-29",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "ssju00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Senate Committee on the Judiciary discharged by Unanimous Consent. (consideration: CR S6843-6844)",
-        "type": "Discharge"
-      },
-      {
-        "actionDate": "2025-04-08",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "ssju00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on the Judiciary.",
-        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-04-08",
+  "introducedDate": "2026-03-23",
   "latestAction": {
-    "actionDate": "2025-10-10",
-    "actionTime": "12:33:05",
-    "text": "Held at the desk."
+    "actionDate": "2026-03-23",
+    "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S1560; text: CR S1560)"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1333",
-  "number": "1333",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4164",
+  "number": "4164",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/1333/summaries?format=json"
-  },
-  "title": "Strengthening Child Exploitation Enforcement Act",
+  "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
   "titles": {
     "titles": [
       {
-        "title": "Strengthening Child Exploitation Enforcement Act",
+        "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-10-09T11:03:14Z"
+        "updateDate": "2026-03-24T10:56:25Z"
       },
       {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Strengthening Child Exploitation Enforcement Act",
-        "titleType": "Short Title(s) as Passed Senate",
-        "titleTypeCode": 105,
-        "updateDate": "2025-09-30T07:08:15Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "Strengthening Child Exploitation Enforcement Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-04-22T03:53:18Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to amend title 18, United States Code, to modify provisions relating to kidnapping, sexual abuse, and illicit sexual conduct with respect to minors.",
+        "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-04-22T03:48:32Z"
+        "updateDate": "2026-03-24T10:56:25Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-24T19:35:52Z",
-  "updateDateIncludingText": "2026-03-24T19:35:52Z",
-  "id": "119-S-1333",
-  "lastActionDate": "2025-10-10",
-  "lastRecordedVoteDate": "2025-09-29"
+  "updateDate": "2026-03-24T14:16:32Z",
+  "updateDateIncludingText": "2026-03-24T14:16:32Z",
+  "id": "119-S-4164",
+  "lastActionDate": "2026-03-23",
+  "lastRecordedVoteDate": "2026-03-23"
 }

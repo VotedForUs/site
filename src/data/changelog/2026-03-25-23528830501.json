@@ -1,0 +1,322 @@
+{
+  "date": "2026-03-25",
+  "runId": "23528830501",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      {
+        "id": "119-HR-1043",
+        "title": "La Paz County Solar Energy and Job Creation Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "1043",
+        "url": "https://votedfor.us/bills/119/hr/1043"
+      },
+      {
+        "id": "119-HR-1276",
+        "title": "To remove restrictions from a parcel of land in Paducah, Kentucky.",
+        "congress": 119,
+        "billType": "hr",
+        "number": "1276",
+        "url": "https://votedfor.us/bills/119/hr/1276"
+      },
+      {
+        "id": "119-HR-131",
+        "title": "Finish the Arkansas Valley Conduit Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "131",
+        "url": "https://votedfor.us/bills/119/hr/131"
+      },
+      {
+        "id": "119-HR-1550",
+        "title": "Strengthening America’s Turning Point Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "1550",
+        "url": "https://votedfor.us/bills/119/hr/1550"
+      },
+      {
+        "id": "119-HR-1829",
+        "title": "Apache County and Navajo County Conveyance Act of 2025",
+        "congress": 119,
+        "billType": "hr",
+        "number": "1829",
+        "url": "https://votedfor.us/bills/119/hr/1829"
+      },
+      {
+        "id": "119-HR-186",
+        "title": "Hershel Woody Williams National Medal of Honor Monument Location Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "186",
+        "url": "https://votedfor.us/bills/119/hr/186"
+      },
+      {
+        "id": "119-HR-187",
+        "title": "MAPWaters Act of 2025",
+        "congress": 119,
+        "billType": "hr",
+        "number": "187",
+        "url": "https://votedfor.us/bills/119/hr/187"
+      },
+      {
+        "id": "119-HR-204",
+        "title": "ACRES Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "204",
+        "url": "https://votedfor.us/bills/119/hr/204"
+      },
+      {
+        "id": "119-HR-2215",
+        "title": "Salem Maritime National Historical Park Redesignation and Boundary Study Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "2215",
+        "url": "https://votedfor.us/bills/119/hr/2215"
+      },
+      {
+        "id": "119-HR-249",
+        "title": "To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.",
+        "congress": 119,
+        "billType": "hr",
+        "number": "249",
+        "url": "https://votedfor.us/bills/119/hr/249"
+      },
+      {
+        "id": "119-HR-2815",
+        "title": "Cape Fox Land Entitlement Finalization Act of 2025",
+        "congress": 119,
+        "billType": "hr",
+        "number": "2815",
+        "url": "https://votedfor.us/bills/119/hr/2815"
+      },
+      {
+        "id": "119-HR-3857",
+        "title": "Snow Water Supply Forecasting Reauthorization Act of 2025",
+        "congress": 119,
+        "billType": "hr",
+        "number": "3857",
+        "url": "https://votedfor.us/bills/119/hr/3857"
+      },
+      {
+        "id": "119-HR-3872",
+        "title": "MERICA Act of 2025",
+        "congress": 119,
+        "billType": "hr",
+        "number": "3872",
+        "url": "https://votedfor.us/bills/119/hr/3872"
+      },
+      {
+        "id": "119-HR-3937",
+        "title": "Wabeno Economic Development Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "3937",
+        "url": "https://votedfor.us/bills/119/hr/3937"
+      },
+      {
+        "id": "119-HR-410",
+        "title": "Alaska Native Vietnam Era Veterans Land Allotment Extension Act of 2025",
+        "congress": 119,
+        "billType": "hr",
+        "number": "410",
+        "url": "https://votedfor.us/bills/119/hr/410"
+      },
+      {
+        "id": "119-HR-6644",
+        "title": "21st Century ROAD to Housing Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "6644",
+        "url": "https://votedfor.us/bills/119/hr/6644"
+      },
+      {
+        "id": "119-HR-677",
+        "title": "EARA",
+        "congress": 119,
+        "billType": "hr",
+        "number": "677",
+        "url": "https://votedfor.us/bills/119/hr/677"
+      },
+      {
+        "id": "119-HR-837",
+        "title": "To require the Secretary of Agriculture to convey the Pleasant Valley Ranger District Administrative Site to Gila County, Arizona.",
+        "congress": 119,
+        "billType": "hr",
+        "number": "837",
+        "url": "https://votedfor.us/bills/119/hr/837"
+      },
+      {
+        "id": "119-HR-952",
+        "title": "Reversionary Interest Conveyance Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "952",
+        "url": "https://votedfor.us/bills/119/hr/952"
+      },
+      {
+        "id": "119-HR-972",
+        "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "972",
+        "url": "https://votedfor.us/bills/119/hr/972"
+      },
+      {
+        "id": "119-S-1020",
+        "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
+        "congress": 119,
+        "billType": "s",
+        "number": "1020",
+        "url": "https://votedfor.us/bills/119/s/1020"
+      },
+      {
+        "id": "119-S-1051",
+        "title": "Historic Greenwood District—Black Wall Street National Monument Establishment Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1051",
+        "url": "https://votedfor.us/bills/119/s/1051"
+      },
+      {
+        "id": "119-S-1071",
+        "title": "National Defense Authorization Act for Fiscal Year 2026",
+        "congress": 119,
+        "billType": "s",
+        "number": "1071",
+        "url": "https://votedfor.us/bills/119/s/1071"
+      },
+      {
+        "id": "119-S-1112",
+        "title": "Big Bend National Park Boundary Adjustment Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1112",
+        "url": "https://votedfor.us/bills/119/s/1112"
+      },
+      {
+        "id": "119-S-1333",
+        "title": "Strengthening Child Exploitation Enforcement Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1333",
+        "url": "https://votedfor.us/bills/119/s/1333"
+      },
+      {
+        "id": "119-S-1383",
+        "title": "SAVE America Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1383",
+        "url": "https://votedfor.us/bills/119/s/1383"
+      },
+      {
+        "id": "119-S-154",
+        "title": "Colorado River Basin System Conservation Extension Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "154",
+        "url": "https://votedfor.us/bills/119/s/154"
+      },
+      {
+        "id": "119-S-282",
+        "title": "Katahdin Woods and Waters National Monument Access Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "282",
+        "url": "https://votedfor.us/bills/119/s/282"
+      },
+      {
+        "id": "119-S-356",
+        "title": "Secure Rural Schools Reauthorization Act of 2025",
+        "congress": 119,
+        "billType": "s",
+        "number": "356",
+        "url": "https://votedfor.us/bills/119/s/356"
+      },
+      {
+        "id": "119-S-4138",
+        "title": "A bill to waive the 60-day notice requirement for the posthumous honorary promotion of Captain Cody Khork, United States Army.",
+        "congress": 119,
+        "billType": "s",
+        "number": "4138",
+        "url": "https://votedfor.us/bills/119/s/4138"
+      },
+      {
+        "id": "119-SJRES-10",
+        "title": "A joint resolution terminating the national emergency declared with respect to energy.",
+        "congress": 119,
+        "billType": "sjres",
+        "number": "10",
+        "url": "https://votedfor.us/bills/119/sjres/10"
+      },
+      {
+        "id": "119-SJRES-11",
+        "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Ocean Energy Management relating to \"Protection of Marine Archaeological Resources\".",
+        "congress": 119,
+        "billType": "sjres",
+        "number": "11",
+        "url": "https://votedfor.us/bills/119/sjres/11"
+      },
+      {
+        "id": "119-SJRES-71",
+        "title": "A joint resolution terminating the national emergency declared with respect to energy.",
+        "congress": 119,
+        "billType": "sjres",
+        "number": "71",
+        "url": "https://votedfor.us/bills/119/sjres/71"
+      },
+      {
+        "id": "119-SJRES-80",
+        "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"National Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision\".",
+        "congress": 119,
+        "billType": "sjres",
+        "number": "80",
+        "url": "https://votedfor.us/bills/119/sjres/80"
+      },
+      {
+        "id": "119-SJRES-89",
+        "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
+        "congress": 119,
+        "billType": "sjres",
+        "number": "89",
+        "url": "https://votedfor.us/bills/119/sjres/89"
+      },
+      {
+        "id": "119-SJRES-91",
+        "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+        "congress": 119,
+        "billType": "sjres",
+        "number": "91",
+        "url": "https://votedfor.us/bills/119/sjres/91"
+      }
+    ],
+    "newLaws": [
+      {
+        "id": "119-S-4138",
+        "title": "A bill to waive the 60-day notice requirement for the posthumous honorary promotion of Captain Cody Khork, United States Army.",
+        "congress": 119,
+        "billType": "s",
+        "number": "4138",
+        "url": "https://votedfor.us/bills/119/s/4138"
+      }
+    ],
+    "withNewVotes": [
+      {
+        "id": "119-S-1383",
+        "title": "SAVE America Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1383",
+        "url": "https://votedfor.us/bills/119/s/1383"
+      }
+    ]
+  }
+}
