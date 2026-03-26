@@ -1,8 +1,56 @@
 {
   "actions": {
-    "count": 41,
+    "count": 47,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Fourth cloture motion on the motion to proceed to the measure presented in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure withdrawn in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-22",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S1495)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S1461)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-20",
         "recordedVotes": [
@@ -153,7 +201,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Upon reconsideration, second cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 37. Record Vote Number: 59.",
+        "text": "Upon reconsideration, second cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 37. Record Vote Number: 59. (CR S1425)",
         "type": "Floor"
       },
       {
@@ -467,7 +515,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S1419)",
         "type": "Floor"
       },
       {
@@ -2147,8 +2195,8 @@
   "congress": 119,
   "introducedDate": "2026-01-20",
   "latestAction": {
-    "actionDate": "2026-03-20",
-    "text": "Upon reconsideration, second cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 37. Record Vote Number: 59."
+    "actionDate": "2026-03-24",
+    "text": "Fourth cloture motion on the motion to proceed to the measure presented in Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7147",
   "number": "7147",
@@ -2216,9 +2264,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-21T10:56:22Z",
-  "updateDateIncludingText": "2026-03-21T10:56:22Z",
+  "updateDate": "2026-03-25T11:08:42Z",
+  "updateDateIncludingText": "2026-03-25T11:08:42Z",
   "id": "119-HR-7147",
-  "lastActionDate": "2026-03-20",
+  "lastActionDate": "2026-03-24",
   "lastRecordedVoteDate": "2026-03-20T19:50:48Z"
 }
