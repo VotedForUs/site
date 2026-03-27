@@ -1,30 +1,32 @@
 {
   "actions": {
-    "count": 16,
-    "url": "https://api.congress.gov/v3/bill/119/hr/3377/actions?format=json",
+    "count": 6,
+    "url": "https://api.congress.gov/v3/bill/119/s/4164/actions?format=json",
     "actions": [
       {
-        "actionCode": "E20000",
+        "actionCode": "H15000",
         "actionDate": "2026-03-24",
+        "actionTime": "14:11:58",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Presented to President.",
+        "text": "Held at the desk.",
         "type": "Floor"
       },
       {
-        "actionCode": "28000",
+        "actionCode": "H14000",
         "actionDate": "2026-03-24",
+        "actionTime": "14:02:36",
         "sourceSystem": {
-          "code": 9,
-          "name": "Library of Congress"
+          "code": 2,
+          "name": "House floor actions"
         },
-        "text": "Presented to President.",
-        "type": "President"
+        "text": "Received in the House.",
+        "type": "Floor"
       },
       {
-        "actionDate": "2026-03-04",
+        "actionDate": "2026-03-24",
         "sourceSystem": {
           "name": "Senate"
         },
@@ -32,17 +34,17 @@
         "type": "Floor"
       },
       {
-        "actionDate": "2026-03-03",
+        "actionDate": "2026-03-23",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S767)",
+        "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S1560; text: CR S1560)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2026-03-03",
+            "date": "2026-03-23",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -178,143 +180,46 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/3377",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4164",
             "question": "Pass with Unanimous Consent",
-            "id": "119-HR-3377-1"
+            "id": "119-S-4164-1"
           }
         ]
-      },
-      {
-        "actionDate": "2026-02-04",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate, read twice.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H38310",
-        "actionDate": "2026-02-03",
-        "actionTime": "14:18:39",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Motion to reconsider laid on the table Agreed to without objection.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H37100",
-        "actionDate": "2026-02-03",
-        "actionTime": "14:18:37",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "On passage Passed without objection. (text: CR H1967)",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H30000",
-        "actionDate": "2026-02-03",
-        "actionTime": "14:17:59",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Considered by unanimous consent. (consideration: CR H1967)",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H12300",
-        "actionDate": "2026-02-03",
-        "committees": [
-          {
-            "name": "Armed Services Committee",
-            "systemCode": "hsas00",
-            "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Committee on Armed Services discharged.",
-        "type": "Discharge"
-      },
-      {
-        "actionCode": "H30200",
-        "actionDate": "2026-02-03",
-        "actionTime": "14:17:56",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Mr. Bacon asked unanimous consent to discharge from committee and consider.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-05-13",
-        "committees": [
-          {
-            "name": "Armed Services Committee",
-            "systemCode": "hsas00",
-            "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the House Committee on Armed Services.",
-        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-05-13",
+  "introducedDate": "2026-03-23",
   "latestAction": {
     "actionDate": "2026-03-24",
-    "text": "Presented to President."
+    "actionTime": "14:11:58",
+    "text": "Held at the desk."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3377",
-  "number": "3377",
-  "originChamber": "House",
-  "originChamberCode": "H",
-  "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4164",
+  "number": "4164",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-02-05T04:23:15Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-05-14T08:18:22Z"
-      },
-      {
-        "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
+        "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-05-14T08:06:10Z"
+        "updateDate": "2026-03-24T10:56:25Z"
+      },
+      {
+        "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-03-24T10:56:25Z"
       }
     ]
   },
-  "type": "HR",
-  "updateDate": "2026-03-26T21:41:18Z",
-  "updateDateIncludingText": "2026-03-26T21:41:18Z",
-  "id": "119-HR-3377",
+  "type": "S",
+  "updateDate": "2026-03-26T16:02:01Z",
+  "updateDateIncludingText": "2026-03-26T16:02:01Z",
+  "id": "119-S-4164",
   "lastActionDate": "2026-03-24",
-  "lastRecordedVoteDate": "2026-03-03"
+  "lastRecordedVoteDate": "2026-03-23"
 }

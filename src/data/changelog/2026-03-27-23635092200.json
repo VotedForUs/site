@@ -1,0 +1,73 @@
+{
+  "date": "2026-03-27",
+  "runId": "23635092200",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      {
+        "id": "119-HR-3377",
+        "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
+        "congress": 119,
+        "billType": "hr",
+        "number": "3377",
+        "url": "https://votedfor.us/bills/119/hr/3377"
+      },
+      {
+        "id": "119-HR-7147",
+        "title": "Department of Homeland Security Appropriations Act, 2026",
+        "congress": 119,
+        "billType": "hr",
+        "number": "7147",
+        "url": "https://votedfor.us/bills/119/hr/7147"
+      },
+      {
+        "id": "119-HR-7211",
+        "title": "To authorize the President to award the Medal of Honor to John W. Ripley for acts of valor during the Vietnam War, and for other purposes.",
+        "congress": 119,
+        "billType": "hr",
+        "number": "7211",
+        "url": "https://votedfor.us/bills/119/hr/7211"
+      },
+      {
+        "id": "119-HRES-707",
+        "title": "Providing for consideration of the bill (H.R. 4922) to limit youth offender status in the District of Columbia to individuals 18 years of age or younger, to direct the Attorney General of the District of Columbia to establish and operate a publicly accessible website containing updated statistics on juvenile crime in the District of Columbia, to amend the District of Columbia Home Rule Act to prohibit the Council of the District of Columbia from enacting changes to existing criminal liability sentences, and for other purposes; providing for consideration of the bill (H.R. 5143) to establish standards for law enforcement officers in the District of Columbia to engage in vehicular pursuits of suspects, and for other purposes; providing for consideration of the bill (H.R. 5140) to lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age; providing for consideration of the bill (H.R. 5125) to amend the District of Columbia Home Rule Act to terminate the District of Columbia Judicial Nomination Commission, and for other purposes; providing for consideration of the bill (H.R. 1047) to require the Federal Energy Regulatory Commission to reform the interconnection queue process for the prioritization and approval of certain projects, and for other purposes; providing for consideration of the bill (H.R. 3015) to reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes; providing for consideration of the bill (H.R. 3062) to establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity; and for other purposes.",
+        "congress": 119,
+        "billType": "hres",
+        "number": "707",
+        "url": "https://votedfor.us/bills/119/hres/707"
+      },
+      {
+        "id": "119-S-1383",
+        "title": "SAVE America Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1383",
+        "url": "https://votedfor.us/bills/119/s/1383"
+      }
+    ],
+    "newLaws": [],
+    "withNewVotes": [
+      {
+        "id": "119-HR-7147",
+        "title": "Department of Homeland Security Appropriations Act, 2026",
+        "congress": 119,
+        "billType": "hr",
+        "number": "7147",
+        "url": "https://votedfor.us/bills/119/hr/7147"
+      },
+      {
+        "id": "119-S-1383",
+        "title": "SAVE America Act",
+        "congress": 119,
+        "billType": "s",
+        "number": "1383",
+        "url": "https://votedfor.us/bills/119/s/1383"
+      }
+    ]
+  }
+}
