@@ -1,50 +1,20 @@
 {
   "actions": {
-    "count": 11,
-    "url": "https://api.congress.gov/v3/bill/119/s/861/actions?format=json",
+    "count": 6,
+    "url": "https://api.congress.gov/v3/bill/119/s/1142/actions?format=json",
     "actions": [
       {
-        "actionCode": "H15000",
-        "actionDate": "2025-12-17",
-        "actionTime": "10:21:56",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-12-17",
-        "actionTime": "09:58:59",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-12-17",
+        "actionDate": "2026-03-25",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-12-16",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S8763-8764; text: CR S8763-8764)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S1605; text: CR S1605)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2025-12-16",
+            "date": "2026-03-25",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -180,129 +150,95 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/861",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/1142",
             "question": "Pass with Unanimous Consent",
-            "id": "119-S-861-1"
+            "id": "119-S-1142-1"
           }
         ]
       },
       {
-        "actionDate": "2025-11-07",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 264.",
-        "type": "Calendars"
-      },
-      {
-        "actionDate": "2025-11-07",
+        "actionDate": "2026-03-25",
         "committees": [
           {
-            "name": "Homeland Security and Governmental Affairs Committee",
-            "systemCode": "ssga00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Homeland Security and Governmental Affairs. Reported by Senator Paul without amendment. Without written report.",
-        "type": "Committee"
+        "text": "Senate Committee on Energy and Natural Resources discharged by Unanimous Consent.",
+        "type": "Discharge"
       },
       {
-        "actionDate": "2025-07-30",
+        "actionDate": "2025-03-26",
         "committees": [
           {
-            "name": "Homeland Security and Governmental Affairs Committee",
-            "systemCode": "ssga00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2025-03-05",
-        "committees": [
-          {
-            "name": "Homeland Security and Governmental Affairs Committee",
-            "systemCode": "ssga00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources. (Sponsor introductory remarks on measure: CR S1873-1874)",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-05",
+  "introducedDate": "2025-03-26",
   "latestAction": {
-    "actionDate": "2025-12-17",
-    "actionTime": "10:21:56",
-    "text": "Held at the desk."
+    "actionDate": "2026-03-25",
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S1605; text: CR S1605)"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/861",
-  "number": "861",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1142",
+  "number": "1142",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "title": "Disaster Assistance Simplification Act",
+  "title": "Scarper Ridge Golden Gate National Recreation Area Boundary Adjustment Act",
   "titles": {
     "titles": [
       {
-        "title": "Disaster Assistance Simplification Act",
+        "title": "Scarper Ridge Golden Gate National Recreation Area Boundary Adjustment Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-12-18T12:03:18Z"
+        "updateDate": "2026-03-26T10:58:21Z"
       },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Disaster Assistance Simplification Act",
+        "title": "Scarper Ridge Golden Gate National Recreation Area Boundary Adjustment Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2025-12-17T06:23:19Z"
-      },
-      {
-        "billTextVersionCode": "RS",
-        "billTextVersionName": "Reported to Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Disaster Assistance Simplification Act",
-        "titleType": "Short Title(s) as Reported to Senate",
-        "titleTypeCode": 103,
-        "updateDate": "2025-11-11T06:38:14Z"
+        "updateDate": "2026-03-26T06:38:22Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Disaster Assistance Simplification Act",
+        "title": "Scarper Ridge Golden Gate National Recreation Area Boundary Adjustment Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-03-07T16:38:23Z"
+        "updateDate": "2025-04-11T02:23:15Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to streamline the sharing of information among Federal disaster assistance agencies, to expedite the delivery of life-saving assistance to disaster survivors, to speed the recovery of communities from disasters, to protect the security and privacy of information provided by disaster survivors, and for other purposes.",
+        "title": "A bill to adjust the boundaries of the Golden Gate National Recreation Area to include the Scarper Ridge property.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-07T16:33:25Z"
+        "updateDate": "2025-04-11T02:18:19Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-27T22:37:53Z",
-  "updateDateIncludingText": "2026-03-27T22:37:53Z",
-  "id": "119-S-861",
-  "lastActionDate": "2025-12-17",
-  "lastRecordedVoteDate": "2025-12-16"
+  "updateDate": "2026-03-27T21:38:55Z",
+  "updateDateIncludingText": "2026-03-27T21:38:55Z",
+  "id": "119-S-1142",
+  "lastActionDate": "2026-03-25",
+  "lastRecordedVoteDate": "2026-03-25"
 }
