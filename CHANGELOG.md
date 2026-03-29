@@ -1,3 +1,8 @@
+# [v1.1.8](https://github.com/VotedForUs/site/compare/v1.1.7...v1.1.8) (2026-03-29)
+
+## 🐛 Bug Fixes
+- [`a841af3c`](https://github.com/VotedForUs/site/commit/a841af3c)  broken automerge
+
 # [v1.1.7](https://github.com/VotedForUs/site/compare/v1.1.6...v1.1.7) (2026-03-21)
 
 # [v1.1.6](https://github.com/VotedForUs/site/compare/v1.1.5...v1.1.6) (2026-03-21)
