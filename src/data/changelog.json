@@ -1,7 +1,22 @@
 [
   {
-    "date": "2026-03-28",
-    "runId": "23679714624",
+    "date": "2026-03-29",
+    "runId": "23703622625",
+    "legislators": {
+      "added": [],
+      "updated": [],
+      "removed": []
+    },
+    "bills": {
+      "added": [],
+      "updated": [],
+      "newLaws": [],
+      "withNewVotes": []
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "runId": "23701339780",
     "legislators": {
       "added": [],
       "updated": [],
@@ -11,104 +26,23 @@
       "added": [],
       "updated": [
         {
-          "id": "119-HR-3377",
-          "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
-          "congress": 119,
-          "billType": "hr",
-          "number": "3377",
-          "url": "https://votedfor.us/bills/119/hr/3377"
-        },
-        {
-          "id": "119-HR-4371",
-          "title": "Kayla Hamilton Act",
-          "congress": 119,
-          "billType": "hr",
-          "number": "4371",
-          "url": "https://votedfor.us/bills/119/hr/4371"
-        },
-        {
           "id": "119-HR-7147",
-          "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+          "title": "Further Additional Continuing Appropriations Act, 2026",
           "congress": 119,
           "billType": "hr",
           "number": "7147",
           "url": "https://votedfor.us/bills/119/hr/7147"
-        },
-        {
-          "id": "119-HR-7194",
-          "title": "Nicholas Dockery Medal of Honor Act",
-          "congress": 119,
-          "billType": "hr",
-          "number": "7194",
-          "url": "https://votedfor.us/bills/119/hr/7194"
-        },
-        {
-          "id": "119-HR-7211",
-          "title": "To authorize the President to award the Medal of Honor to John W. Ripley for acts of valor during the Vietnam War, and for other purposes.",
-          "congress": 119,
-          "billType": "hr",
-          "number": "7211",
-          "url": "https://votedfor.us/bills/119/hr/7211"
-        },
-        {
-          "id": "119-S-1383",
-          "title": "SAVE America Act",
-          "congress": 119,
-          "billType": "s",
-          "number": "1383",
-          "url": "https://votedfor.us/bills/119/s/1383"
-        },
-        {
-          "id": "119-S-861",
-          "title": "Disaster Assistance Simplification Act",
-          "congress": 119,
-          "billType": "s",
-          "number": "861",
-          "url": "https://votedfor.us/bills/119/s/861"
         }
       ],
-      "newLaws": [
-        {
-          "id": "119-HR-3377",
-          "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
-          "congress": 119,
-          "billType": "hr",
-          "number": "3377",
-          "url": "https://votedfor.us/bills/119/hr/3377"
-        },
-        {
-          "id": "119-HR-7194",
-          "title": "Nicholas Dockery Medal of Honor Act",
-          "congress": 119,
-          "billType": "hr",
-          "number": "7194",
-          "url": "https://votedfor.us/bills/119/hr/7194"
-        },
-        {
-          "id": "119-HR-7211",
-          "title": "To authorize the President to award the Medal of Honor to John W. Ripley for acts of valor during the Vietnam War, and for other purposes.",
-          "congress": 119,
-          "billType": "hr",
-          "number": "7211",
-          "url": "https://votedfor.us/bills/119/hr/7211"
-        }
-      ],
+      "newLaws": [],
       "withNewVotes": [
         {
           "id": "119-HR-7147",
-          "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+          "title": "Further Additional Continuing Appropriations Act, 2026",
           "congress": 119,
           "billType": "hr",
           "number": "7147",
           "url": "https://votedfor.us/bills/119/hr/7147"
-        },
-        {
-          "id": "119-S-1383",
-          "title": "SAVE America Act",
-          "congress": 119,
-          "billType": "s",
-          "number": "1383",
-          "url": "https://votedfor.us/bills/119/s/1383"
         }
       ]
     }

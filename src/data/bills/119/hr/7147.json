@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 60,
+    "count": 64,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-03-27",
+        "actionTime": "23:26:24",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Pursuant to the provisions of H. Res. 1142, the Senate amendment to H.R. 7147 is considered as agreed to with an amendment consisting of the text of Rules Committee Print 119-21.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H1B000",
+        "actionDate": "2026-03-27",
+        "actionTime": "23:26:24",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "House agreed to Senate amendment with amendment pursuant to H. Res. 1142",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-27",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-27",
         "sourceSystem": {
@@ -181,11 +211,19 @@
         "type": "Floor"
       },
       {
+        "actionDate": "2026-03-27",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure agreed to in Senate by Unanimous Consent.",
+        "type": "Floor"
+      },
+      {
         "actionDate": "2026-03-26",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Thune to reconsider the vote by which the fourth cloture on the motion to proceed to the measure was not invoked (Record Vote No. 73) entered in Senate.",
+        "text": "Motion by Senator Thune to reconsider the vote by which the fourth cloture on the motion to proceed to the measure was not invoked (Record Vote No. 74) entered in Senate.",
         "type": "Floor"
       },
       {
@@ -195,9 +233,9 @@
             "chamber": "Senate",
             "congress": 119,
             "date": "2026-03-26T23:44:19Z",
-            "rollNumber": 73,
+            "rollNumber": 74,
             "sessionNumber": 2,
-            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00073.xml",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00074.xml",
             "votes": {
               "A000382": "Nay",
               "B001230": "Nay",
@@ -227,7 +265,7 @@
               "D000622": "Nay",
               "D000563": "Nay",
               "E000295": "Yea",
-              "F000479": "Nay",
+              "F000479": "Yea",
               "F000463": "Yea",
               "G000574": "Nay",
               "G000555": "Nay",
@@ -286,7 +324,7 @@
               "S001208": "Nay",
               "S001203": "Nay",
               "S001198": "Yea",
-              "T000250": "Yea",
+              "T000250": "Nay",
               "T000476": "Yea",
               "T000278": "Yea",
               "V000128": "Nay",
@@ -309,15 +347,15 @@
             "votePartyTotal": [
               {
                 "voteParty": "D",
-                "yeaTotal": 0,
-                "nayTotal": 45,
+                "yeaTotal": 1,
+                "nayTotal": 44,
                 "presentTotal": 0,
                 "notVotingTotal": 0
               },
               {
                 "voteParty": "R",
-                "yeaTotal": 53,
-                "nayTotal": 0,
+                "yeaTotal": 52,
+                "nayTotal": 1,
                 "presentTotal": 0,
                 "notVotingTotal": 0
               },
@@ -329,15 +367,15 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00073.xml",
-            "question": "On the Cloture Motion S.Amdt. 4732 to S.Amdt. 4420 to S. 1383 (No short title on file)",
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00074.xml",
+            "question": "On Cloture on the Motion to Proceed H.R. 7147",
             "id": "119-HR-7147-14"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Fourth cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 53 - 47. Record Vote Number: 73. (CR S1651-1652)",
+        "text": "Fourth cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 53 - 47. Record Vote Number: 74. (CR S1651-1652)",
         "type": "Floor"
       },
       {
@@ -3015,7 +3053,8 @@
   "introducedDate": "2026-01-20",
   "latestAction": {
     "actionDate": "2026-03-27",
-    "text": "Motion by Senator Thune to reconsider the vote by which the fourth cloture on the motion to proceed to the measure was not invoked (Record Vote No. 73) rendered moot in Senate."
+    "actionTime": "23:26:24",
+    "text": "Pursuant to the provisions of H. Res. 1142, the Senate amendment to H.R. 7147 is considered as agreed to with an amendment consisting of the text of Rules Committee Print 119-21."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7147",
   "number": "7147",
@@ -3025,14 +3064,22 @@
     "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/summaries?format=json"
   },
-  "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+  "title": "Further Additional Continuing Appropriations Act, 2026",
   "titles": {
     "titles": [
       {
-        "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+        "title": "Further Additional Continuing Appropriations Act, 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-03-27T11:08:30Z"
+        "updateDate": "2026-03-28T09:23:22Z"
+      },
+      {
+        "billTextVersionCode": "EAH",
+        "billTextVersionName": "Engrossed Amendment House",
+        "title": "Further Additional Continuing Appropriations Act, 2026",
+        "titleType": "Short Title(s) from Engrossed Amendment House bill text",
+        "titleTypeCode": 252,
+        "updateDate": "2026-03-28T09:23:21Z"
       },
       {
         "billTextVersionCode": "EAS",
@@ -3091,8 +3138,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-27T19:23:49Z",
-  "updateDateIncludingText": "2026-03-27T19:23:49Z",
+  "updateDate": "2026-03-28T22:26:20Z",
+  "updateDateIncludingText": "2026-03-28T22:26:20Z",
   "id": "119-HR-7147",
   "lastActionDate": "2026-03-27",
   "lastRecordedVoteDate": "2026-03-27"

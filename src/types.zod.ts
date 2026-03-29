@@ -844,6 +844,20 @@ export const rawLegislatorsDataSchema = z.array(rawLegislatorSchema);
 
 // ===== CHANGELOG SCHEMAS (IDs only; UI resolves from legislators/bills collections) =====
 
+/** Bill id string, or a rich row (e.g. from newer generate-change-summary output). */
+export const changelogBillRichSchema = z.object({
+  id: z.string(),
+  title: z.string().optional(),
+  congress: z.number().optional(),
+  billType: z.string().optional(),
+  number: z.string().optional(),
+  url: z.string().optional(),
+});
+
+export const changelogBillRefSchema = z.union([z.string(), changelogBillRichSchema]);
+
+export type ChangelogBillRef = z.infer<typeof changelogBillRefSchema>;
+
 export const changelogEntrySchema = z.object({
   date: z.string(),
   runId: z.string(),
@@ -853,9 +867,9 @@ export const changelogEntrySchema = z.object({
     removed: z.array(z.string()),
   }),
   bills: z.object({
-    added: z.array(z.string()),
-    updated: z.array(z.string()),
-    newLaws: z.array(z.string()),
-    withNewVotes: z.array(z.string()),
+    added: z.array(changelogBillRefSchema),
+    updated: z.array(changelogBillRefSchema),
+    newLaws: z.array(changelogBillRefSchema),
+    withNewVotes: z.array(changelogBillRefSchema),
   }),
 });

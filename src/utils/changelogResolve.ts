@@ -1,10 +1,28 @@
 import type { CollectionEntry } from 'astro:content';
 
+import type { ChangelogBillRef } from '../types.zod';
+
 /** Normalize bill id keys like `119-hr-1` and `119-HR-1` for map lookup. */
 export function normalizeBillIdKey(id: string): string {
   const m = id.match(/^(\d+)-([A-Za-z]+)-(.+)$/);
   if (!m) return id;
   return `${m[1]}-${m[2].toUpperCase()}-${m[3]}`;
+}
+
+/**
+ * Changelog JSON may list bills as plain id strings or as `{ id, title?, ... }` objects.
+ *
+ * @param ref - String id or rich row from changelog JSON.
+ * @returns Canonical id string and optional title from the row when present.
+ */
+export function parseChangelogBillRef(ref: ChangelogBillRef): {
+  id: string;
+  inlineTitle?: string;
+} {
+  if (typeof ref === 'string') {
+    return { id: ref };
+  }
+  return { id: ref.id, inlineTitle: ref.title };
 }
 
 export function buildLegislatorLookup(
@@ -69,10 +87,11 @@ export type ResolvedBillLine = {
 };
 
 export function resolveBillLine(
-  billId: string,
+  billRef: ChangelogBillRef,
   lookup: Map<string, CollectionEntry<'bills'>>,
   base: string,
 ): ResolvedBillLine {
+  const { id: billId, inlineTitle } = parseChangelogBillRef(billRef);
   const key = normalizeBillIdKey(billId);
   const entry = lookup.get(billId) ?? lookup.get(key);
   const parsed = billId.match(/^(\d+)-([A-Za-z]+)-(.+)$/);
@@ -80,7 +99,8 @@ export function resolveBillLine(
   const billType = (parsed?.[2] ?? '?').toUpperCase();
   const number = parsed?.[3] ?? billId;
   const href = `${base}bills/${congress}/${billType.toLowerCase()}/${number}`;
-  const title = (entry?.data as { title?: string } | undefined)?.title ?? billId;
+  const title =
+    (entry?.data as { title?: string } | undefined)?.title ?? inlineTitle ?? billId;
   const meta = `${billType} ${number} · ${congress}th Congress`;
   return { label: title, href, meta };
 }
