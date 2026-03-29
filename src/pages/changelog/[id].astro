@@ -1,5 +1,6 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
+import type { ChangelogBillRef } from '../../types.zod';
 import Layout from '../../layouts/Layout.astro';
 import {
   buildLegislatorLookup,
@@ -115,8 +116,8 @@ const hasBillChanges =
       <section>
         <h3>Bills That Became Law ({bills.newLaws.length})</h3>
         <ul class="change-list">
-          {bills.newLaws.map((billId: string) => {
-            const row = resolveBillLine(billId, billLookup, base);
+          {bills.newLaws.map((billRef: ChangelogBillRef) => {
+            const row = resolveBillLine(billRef, billLookup, base);
             return (
               <li>
                 <a href={row.href}>{row.label}</a>
@@ -132,8 +133,8 @@ const hasBillChanges =
       <section>
         <h3>Bills With New Recorded Votes ({bills.withNewVotes.length})</h3>
         <ul class="change-list">
-          {bills.withNewVotes.map((billId: string) => {
-            const row = resolveBillLine(billId, billLookup, base);
+          {bills.withNewVotes.map((billRef: ChangelogBillRef) => {
+            const row = resolveBillLine(billRef, billLookup, base);
             return (
               <li>
                 <a href={row.href}>{row.label}</a>
@@ -149,8 +150,8 @@ const hasBillChanges =
       <section>
         <h3>Newly Voted-on Bills ({bills.added.length})</h3>
         <ul class="change-list">
-          {bills.added.map((billId: string) => {
-            const row = resolveBillLine(billId, billLookup, base);
+          {bills.added.map((billRef: ChangelogBillRef) => {
+            const row = resolveBillLine(billRef, billLookup, base);
             return (
               <li>
                 <a href={row.href}>{row.label}</a>
@@ -166,8 +167,8 @@ const hasBillChanges =
       <section>
         <h3>Updated Bills ({bills.updated.length})</h3>
         <ul class="change-list">
-          {bills.updated.map((billId: string) => {
-            const row = resolveBillLine(billId, billLookup, base);
+          {bills.updated.map((billRef: ChangelogBillRef) => {
+            const row = resolveBillLine(billRef, billLookup, base);
             return (
               <li>
                 <a href={row.href}>{row.label}</a>
