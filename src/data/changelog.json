@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-03-31",
+    "runId": "23784894787",
+    "legislators": {
+      "added": [],
+      "updated": [],
+      "removed": []
+    },
+    "bills": {
+      "added": [],
+      "updated": [
+        {
+          "id": "119-HR-7147",
+          "title": "Further Additional Continuing Appropriations Act, 2026",
+          "congress": 119,
+          "billType": "hr",
+          "number": "7147",
+          "url": "https://votedfor.us/bills/119/hr/7147"
+        },
+        {
+          "id": "119-HRES-1142",
+          "title": "Providing for disposition of the Senate amendment to the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+          "congress": 119,
+          "billType": "hres",
+          "number": "1142",
+          "url": "https://votedfor.us/bills/119/hres/1142"
+        },
+        {
+          "id": "119-S-1142",
+          "title": "Scarper Ridge Golden Gate National Recreation Area Boundary Adjustment Act",
+          "congress": 119,
+          "billType": "s",
+          "number": "1142",
+          "url": "https://votedfor.us/bills/119/s/1142"
+        },
+        {
+          "id": "119-S-3012",
+          "title": "Shutdown Fairness Act",
+          "congress": 119,
+          "billType": "s",
+          "number": "3012",
+          "url": "https://votedfor.us/bills/119/s/3012"
+        }
+      ],
+      "newLaws": [],
+      "withNewVotes": []
+    }
+  },
+  {
     "date": "2026-03-30",
     "runId": "23732729698",
     "legislators": {

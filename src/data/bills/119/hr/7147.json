@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 64,
+    "count": 65,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/actions?format=json",
     "actions": [
       {
@@ -3061,7 +3061,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
+    "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/summaries?format=json"
   },
   "title": "Further Additional Continuing Appropriations Act, 2026",
@@ -3138,8 +3138,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-28T22:26:20Z",
-  "updateDateIncludingText": "2026-03-28T22:26:20Z",
+  "updateDate": "2026-03-30T20:33:31Z",
+  "updateDateIncludingText": "2026-03-30T20:33:31Z",
   "id": "119-HR-7147",
   "lastActionDate": "2026-03-27",
   "lastRecordedVoteDate": "2026-03-27"
