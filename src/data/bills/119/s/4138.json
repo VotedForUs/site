@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 12,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/s/4138/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-03-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-80.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-03-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-80.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-03-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-03-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-03-20",
@@ -245,8 +285,14 @@
   "introducedDate": "2026-03-18",
   "latestAction": {
     "actionDate": "2026-03-20",
-    "text": "Presented to President."
+    "text": "Became Public Law No: 119-80."
   },
+  "laws": [
+    {
+      "number": "119-80",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4138",
   "number": "4138",
   "originChamber": "Senate",
@@ -269,8 +315,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-21T08:05:50Z",
-  "updateDateIncludingText": "2026-03-21T08:05:50Z",
+  "updateDate": "2026-03-31T20:05:43Z",
+  "updateDateIncludingText": "2026-03-31T20:05:43Z",
   "id": "119-S-4138",
   "lastActionDate": "2026-03-20",
   "lastRecordedVoteDate": "2026-03-18"
