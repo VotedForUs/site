@@ -816,7 +816,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/224/summaries?format=json"
   },
   "title": "Disabled Veterans Housing Support Act",
@@ -877,8 +877,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-01-31T03:36:14Z",
-  "updateDateIncludingText": "2026-01-31T03:36:14Z",
+  "updateDate": "2026-03-31T15:46:46Z",
+  "updateDateIncludingText": "2026-03-31T15:46:46Z",
   "id": "119-HR-224",
   "lastActionDate": "2026-01-20",
   "lastRecordedVoteDate": "2026-01-06"

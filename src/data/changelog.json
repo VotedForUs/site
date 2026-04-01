@@ -1,5 +1,287 @@
 [
   {
+    "date": "2026-04-01",
+    "runId": "23836623592",
+    "legislators": {
+      "added": [],
+      "updated": [],
+      "removed": []
+    },
+    "bills": {
+      "added": [],
+      "updated": [
+        {
+          "id": "119-HJRES-104",
+          "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
+          "congress": 119,
+          "billType": "hjres",
+          "number": "104",
+          "url": "https://votedfor.us/bills/119/hjres/104"
+        },
+        {
+          "id": "119-HJRES-105",
+          "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"North Dakota Field Office Record of Decision and Approved Resource Management Plan\".",
+          "congress": 119,
+          "billType": "hjres",
+          "number": "105",
+          "url": "https://votedfor.us/bills/119/hjres/105"
+        },
+        {
+          "id": "119-HJRES-106",
+          "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
+          "congress": 119,
+          "billType": "hjres",
+          "number": "106",
+          "url": "https://votedfor.us/bills/119/hjres/106"
+        },
+        {
+          "id": "119-HJRES-130",
+          "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
+          "congress": 119,
+          "billType": "hjres",
+          "number": "130",
+          "url": "https://votedfor.us/bills/119/hjres/130"
+        },
+        {
+          "id": "119-HJRES-133",
+          "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+          "congress": 119,
+          "billType": "hjres",
+          "number": "133",
+          "url": "https://votedfor.us/bills/119/hjres/133"
+        },
+        {
+          "id": "119-HJRES-142",
+          "title": "Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.",
+          "congress": 119,
+          "billType": "hjres",
+          "number": "142",
+          "url": "https://votedfor.us/bills/119/hjres/142"
+        },
+        {
+          "id": "119-HR-1316",
+          "title": "Maintaining American Superiority by Improving Export Control Transparency Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "1316",
+          "url": "https://votedfor.us/bills/119/hr/1316"
+        },
+        {
+          "id": "119-HR-1512",
+          "title": "Taiwan Assurance Implementation Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "1512",
+          "url": "https://votedfor.us/bills/119/hr/1512"
+        },
+        {
+          "id": "119-HR-1815",
+          "title": "VA Home Loan Program Reform Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "1815",
+          "url": "https://votedfor.us/bills/119/hr/1815"
+        },
+        {
+          "id": "119-HR-186",
+          "title": "Hershel Woody Williams National Medal of Honor Monument Location Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "186",
+          "url": "https://votedfor.us/bills/119/hr/186"
+        },
+        {
+          "id": "119-HR-1912",
+          "title": "Veteran Fraud Reimbursement Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "1912",
+          "url": "https://votedfor.us/bills/119/hr/1912"
+        },
+        {
+          "id": "119-HR-2215",
+          "title": "Salem Maritime National Historical Park Redesignation and Boundary Study Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "2215",
+          "url": "https://votedfor.us/bills/119/hr/2215"
+        },
+        {
+          "id": "119-HR-224",
+          "title": "Disabled Veterans Housing Support Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "224",
+          "url": "https://votedfor.us/bills/119/hr/224"
+        },
+        {
+          "id": "119-HR-2316",
+          "title": "Wetlands Conservation and Access Improvement Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "2316",
+          "url": "https://votedfor.us/bills/119/hr/2316"
+        },
+        {
+          "id": "119-HR-3838",
+          "title": "Coast Guard Authorization Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "3838",
+          "url": "https://votedfor.us/bills/119/hr/3838"
+        },
+        {
+          "id": "119-HR-4",
+          "title": "Rescissions Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "4",
+          "url": "https://votedfor.us/bills/119/hr/4"
+        },
+        {
+          "id": "119-HR-42",
+          "title": "Alaska Native Settlement Trust Eligibility Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "42",
+          "url": "https://votedfor.us/bills/119/hr/42"
+        },
+        {
+          "id": "119-HR-43",
+          "title": "Alaska Native Village Municipal Lands Restoration Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "43",
+          "url": "https://votedfor.us/bills/119/hr/43"
+        },
+        {
+          "id": "119-HR-452",
+          "title": "Miracle on Ice Congressional Gold Medal Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "452",
+          "url": "https://votedfor.us/bills/119/hr/452"
+        },
+        {
+          "id": "119-HR-517",
+          "title": "Filing Relief for Natural Disasters Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "517",
+          "url": "https://votedfor.us/bills/119/hr/517"
+        },
+        {
+          "id": "119-HR-5214",
+          "title": "District of Columbia Cash Bail Reform Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "5214",
+          "url": "https://votedfor.us/bills/119/hr/5214"
+        },
+        {
+          "id": "119-HR-618",
+          "title": "Apex Area Technical Corrections Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "618",
+          "url": "https://votedfor.us/bills/119/hr/618"
+        },
+        {
+          "id": "119-HR-695",
+          "title": "Medal of Honor Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "695",
+          "url": "https://votedfor.us/bills/119/hr/695"
+        },
+        {
+          "id": "119-HR-970",
+          "title": "Fairness for Servicemembers and their Families Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "970",
+          "url": "https://votedfor.us/bills/119/hr/970"
+        },
+        {
+          "id": "119-HR-983",
+          "title": "Montgomery GI Bill Selected Reserves Tuition Fairness Act of 2025",
+          "congress": 119,
+          "billType": "hr",
+          "number": "983",
+          "url": "https://votedfor.us/bills/119/hr/983"
+        },
+        {
+          "id": "119-HR-998",
+          "title": "Internal Revenue Service Math and Taxpayer Help Act",
+          "congress": 119,
+          "billType": "hr",
+          "number": "998",
+          "url": "https://votedfor.us/bills/119/hr/998"
+        },
+        {
+          "id": "119-S-1071",
+          "title": "National Defense Authorization Act for Fiscal Year 2026",
+          "congress": 119,
+          "billType": "s",
+          "number": "1071",
+          "url": "https://votedfor.us/bills/119/s/1071"
+        },
+        {
+          "id": "119-S-1383",
+          "title": "SAVE America Act",
+          "congress": 119,
+          "billType": "s",
+          "number": "1383",
+          "url": "https://votedfor.us/bills/119/s/1383"
+        },
+        {
+          "id": "119-S-2296",
+          "title": "GAIN AI Act of 2025",
+          "congress": 119,
+          "billType": "s",
+          "number": "2296",
+          "url": "https://votedfor.us/bills/119/s/2296"
+        },
+        {
+          "id": "119-S-4138",
+          "title": "A bill to waive the 60-day notice requirement for the posthumous honorary promotion of Captain Cody Khork, United States Army.",
+          "congress": 119,
+          "billType": "s",
+          "number": "4138",
+          "url": "https://votedfor.us/bills/119/s/4138"
+        },
+        {
+          "id": "119-SJRES-89",
+          "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
+          "congress": 119,
+          "billType": "sjres",
+          "number": "89",
+          "url": "https://votedfor.us/bills/119/sjres/89"
+        }
+      ],
+      "newLaws": [
+        {
+          "id": "119-S-4138",
+          "title": "A bill to waive the 60-day notice requirement for the posthumous honorary promotion of Captain Cody Khork, United States Army.",
+          "congress": 119,
+          "billType": "s",
+          "number": "4138",
+          "url": "https://votedfor.us/bills/119/s/4138"
+        }
+      ],
+      "withNewVotes": [
+        {
+          "id": "119-S-1383",
+          "title": "SAVE America Act",
+          "congress": 119,
+          "billType": "s",
+          "number": "1383",
+          "url": "https://votedfor.us/bills/119/s/1383"
+        }
+      ]
+    }
+  },
+  {
     "date": "2026-03-30",
     "runId": "23732729698",
     "legislators": {
