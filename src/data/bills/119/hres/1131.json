@@ -1,34 +1,12 @@
 {
   "actions": {
-    "count": 14,
-    "url": "https://api.congress.gov/v3/bill/119/hres/707/actions?format=json",
+    "count": 12,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1131/actions?format=json",
     "actions": [
       {
-        "actionCode": "H1B000",
-        "actionDate": "2026-03-25",
-        "actionTime": "14:07:00",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Pursuant to the provisions of H.Res. 1131, H.Res. 707 is amended.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H1B000",
-        "actionDate": "2025-09-17",
-        "actionTime": "18:05:25",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Pursuant to the provisions of H.Res. 722, H.Res. 707 is amended.",
-        "type": "Floor"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2025-09-16",
-        "actionTime": "14:44:25",
+        "actionDate": "2026-03-25",
+        "actionTime": "14:06:39",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -38,16 +16,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2025-09-16",
-        "actionTime": "14:44:23",
+        "actionDate": "2026-03-25",
+        "actionTime": "14:06:37",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2025-09-16T18:44:23Z",
-            "rollNumber": 268,
-            "sessionNumber": 1,
-            "url": "https://clerk.house.gov/evs/2025/roll268.xml",
+            "date": "2026-03-25T18:06:37Z",
+            "rollNumber": 99,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll099.xml",
             "votes": {
               "A000055": "Aye",
               "A000148": "No",
@@ -62,7 +40,7 @@
               "B000490": "No",
               "B000668": "Aye",
               "B000740": "Aye",
-              "B000825": "Aye",
+              "B000825": "Not Voting",
               "B001257": "Aye",
               "B001260": "Aye",
               "B001278": "No",
@@ -73,7 +51,7 @@
               "B001291": "Aye",
               "B001292": "No",
               "B001295": "Aye",
-              "B001296": "Not Voting",
+              "B001296": "No",
               "B001298": "Aye",
               "B001300": "No",
               "B001301": "Aye",
@@ -101,7 +79,7 @@
               "C001053": "Aye",
               "C001055": "No",
               "C001059": "No",
-              "C001061": "No",
+              "C001061": "Not Voting",
               "C001063": "No",
               "C001066": "No",
               "C001067": "No",
@@ -115,7 +93,7 @@
               "C001103": "Aye",
               "C001108": "Aye",
               "C001110": "No",
-              "C001112": "No",
+              "C001112": "Not Voting",
               "C001115": "Aye",
               "C001116": "Aye",
               "C001117": "No",
@@ -203,7 +181,6 @@
               "G000592": "No",
               "G000593": "Aye",
               "G000594": "Aye",
-              "G000596": "Aye",
               "G000597": "Aye",
               "G000598": "No",
               "G000599": "No",
@@ -212,7 +189,8 @@
               "G000602": "No",
               "G000603": "Aye",
               "G000604": "No",
-              "G000605": "Not Voting",
+              "G000605": "No",
+              "G000606": "No",
               "H000874": "No",
               "H001047": "No",
               "H001052": "Aye",
@@ -230,7 +208,7 @@
               "H001091": "Aye",
               "H001093": "Aye",
               "H001094": "No",
-              "H001095": "Aye",
+              "H001095": "Not Voting",
               "H001096": "Aye",
               "H001098": "Aye",
               "H001099": "Aye",
@@ -262,10 +240,10 @@
               "K000391": "No",
               "K000392": "Aye",
               "K000397": "Aye",
-              "K000398": "Aye",
+              "K000398": "Not Voting",
               "K000399": "Aye",
               "K000400": "No",
-              "K000401": "No",
+              "K000401": "Aye",
               "K000402": "No",
               "K000403": "Aye",
               "K000405": "Aye",
@@ -276,8 +254,7 @@
               "L000560": "No",
               "L000562": "No",
               "L000566": "Aye",
-              "L000578": "Aye",
-              "L000582": "No",
+              "L000582": "Not Voting",
               "L000583": "Aye",
               "L000585": "Aye",
               "L000590": "No",
@@ -296,7 +273,7 @@
               "M000194": "Aye",
               "M000312": "No",
               "M000317": "Aye",
-              "M000687": "Not Voting",
+              "M000687": "No",
               "M000871": "Aye",
               "M001136": "Aye",
               "M001137": "No",
@@ -305,7 +282,7 @@
               "M001160": "No",
               "M001163": "No",
               "M001177": "Aye",
-              "M001184": "No",
+              "M001184": "Aye",
               "M001188": "No",
               "M001194": "Aye",
               "M001196": "No",
@@ -335,7 +312,7 @@
               "M001230": "Aye",
               "M001231": "No",
               "M001232": "No",
-              "M001233": "Not Voting",
+              "M001233": "Aye",
               "M001234": "No",
               "M001235": "Aye",
               "M001236": "Aye",
@@ -344,6 +321,7 @@
               "M001239": "Aye",
               "M001240": "Aye",
               "M001241": "No",
+              "M001245": "No",
               "N000002": "No",
               "N000015": "No",
               "N000026": "Aye",
@@ -381,10 +359,10 @@
               "R000599": "No",
               "R000603": "Aye",
               "R000606": "No",
-              "R000609": "Not Voting",
+              "R000609": "Aye",
               "R000610": "Aye",
               "R000612": "Aye",
-              "R000614": "Not Voting",
+              "R000614": "Aye",
               "R000617": "No",
               "R000619": "Aye",
               "R000620": "No",
@@ -396,7 +374,7 @@
               "S000344": "No",
               "S000510": "No",
               "S000522": "Aye",
-              "S000929": "No",
+              "S000929": "Aye",
               "S001145": "No",
               "S001148": "Aye",
               "S001156": "No",
@@ -409,16 +387,15 @@
               "S001188": "Aye",
               "S001189": "Aye",
               "S001190": "No",
-              "S001193": "No",
+              "S001193": "Not Voting",
               "S001195": "Aye",
               "S001196": "Aye",
               "S001199": "Aye",
               "S001200": "No",
               "S001201": "No",
               "S001205": "No",
-              "S001207": "Not Voting",
               "S001211": "No",
-              "S001212": "Aye",
+              "S001212": "Not Voting",
               "S001213": "Aye",
               "S001214": "Aye",
               "S001215": "No",
@@ -439,7 +416,7 @@
               "T000460": "No",
               "T000463": "Aye",
               "T000467": "Aye",
-              "T000468": "Not Voting",
+              "T000468": "No",
               "T000469": "No",
               "T000472": "No",
               "T000474": "No",
@@ -462,6 +439,7 @@
               "V000135": "Aye",
               "V000136": "No",
               "V000138": "No",
+              "V000139": "Aye",
               "W000187": "No",
               "W000788": "No",
               "W000795": "Aye",
@@ -485,8 +463,8 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 3,
-                "notVotingTotal": 3,
+                "nayTotal": 0,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Republican",
                   "type": "R"
@@ -496,8 +474,8 @@
                 "yeaTotal": 213
               },
               {
-                "nayTotal": 208,
-                "notVotingTotal": 5,
+                "nayTotal": 210,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
@@ -515,33 +493,33 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 0
+                "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll268.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll099.xml",
             "question": "On Agreeing to the Resolution",
-            "id": "119-HRES-707-2"
+            "id": "119-HRES-1131-2"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 211 (Roll no. 268). (text: CR H4321)",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 214 - 210 (Roll no. 99).",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2025-09-16",
-        "actionTime": "13:58:37",
+        "actionDate": "2026-03-25",
+        "actionTime": "13:59:23",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2025-09-16T17:58:37Z",
-            "rollNumber": 267,
-            "sessionNumber": 1,
-            "url": "https://clerk.house.gov/evs/2025/roll267.xml",
+            "date": "2026-03-25T17:59:23Z",
+            "rollNumber": 98,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll098.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -567,7 +545,7 @@
               "B001291": "Yea",
               "B001292": "Nay",
               "B001295": "Yea",
-              "B001296": "Not Voting",
+              "B001296": "Nay",
               "B001298": "Yea",
               "B001300": "Nay",
               "B001301": "Yea",
@@ -595,7 +573,7 @@
               "C001053": "Yea",
               "C001055": "Nay",
               "C001059": "Nay",
-              "C001061": "Nay",
+              "C001061": "Not Voting",
               "C001063": "Nay",
               "C001066": "Nay",
               "C001067": "Nay",
@@ -658,7 +636,7 @@
               "E000300": "Yea",
               "E000301": "Nay",
               "F000110": "Nay",
-              "F000246": "Not Voting",
+              "F000246": "Yea",
               "F000446": "Yea",
               "F000450": "Yea",
               "F000454": "Nay",
@@ -697,7 +675,6 @@
               "G000592": "Nay",
               "G000593": "Yea",
               "G000594": "Yea",
-              "G000596": "Yea",
               "G000597": "Yea",
               "G000598": "Nay",
               "G000599": "Nay",
@@ -706,7 +683,8 @@
               "G000602": "Nay",
               "G000603": "Yea",
               "G000604": "Nay",
-              "G000605": "Not Voting",
+              "G000605": "Nay",
+              "G000606": "Nay",
               "H000874": "Nay",
               "H001047": "Nay",
               "H001052": "Yea",
@@ -724,7 +702,7 @@
               "H001091": "Yea",
               "H001093": "Yea",
               "H001094": "Nay",
-              "H001095": "Yea",
+              "H001095": "Not Voting",
               "H001096": "Yea",
               "H001098": "Yea",
               "H001099": "Yea",
@@ -732,12 +710,13 @@
               "H001101": "Yea",
               "H001102": "Yea",
               "I000056": "Yea",
-              "I000058": "Not Voting",
+              "I000058": "Nay",
               "J000288": "Nay",
               "J000289": "Yea",
               "J000294": "Nay",
               "J000295": "Yea",
               "J000298": "Nay",
+              "J000299": "Yea",
               "J000301": "Yea",
               "J000302": "Yea",
               "J000304": "Yea",
@@ -751,17 +730,17 @@
               "K000376": "Yea",
               "K000385": "Nay",
               "K000388": "Yea",
-              "K000389": "Nay",
+              "K000389": "Not Voting",
               "K000391": "Nay",
               "K000392": "Yea",
               "K000397": "Yea",
-              "K000398": "Yea",
+              "K000398": "Not Voting",
               "K000399": "Yea",
               "K000400": "Nay",
               "K000401": "Yea",
               "K000402": "Nay",
               "K000403": "Yea",
-              "K000405": "Yea",
+              "K000405": "Not Voting",
               "L000273": "Nay",
               "L000397": "Nay",
               "L000491": "Yea",
@@ -769,10 +748,9 @@
               "L000560": "Nay",
               "L000562": "Nay",
               "L000566": "Yea",
-              "L000578": "Not Voting",
-              "L000582": "Nay",
+              "L000582": "Not Voting",
               "L000583": "Yea",
-              "L000585": "Yea",
+              "L000585": "Not Voting",
               "L000590": "Nay",
               "L000593": "Nay",
               "L000595": "Yea",
@@ -789,7 +767,7 @@
               "M000194": "Yea",
               "M000312": "Nay",
               "M000317": "Yea",
-              "M000687": "Not Voting",
+              "M000687": "Nay",
               "M000871": "Yea",
               "M001136": "Yea",
               "M001137": "Nay",
@@ -828,7 +806,7 @@
               "M001230": "Yea",
               "M001231": "Nay",
               "M001232": "Nay",
-              "M001233": "Not Voting",
+              "M001233": "Yea",
               "M001234": "Nay",
               "M001235": "Yea",
               "M001236": "Yea",
@@ -837,6 +815,7 @@
               "M001239": "Yea",
               "M001240": "Yea",
               "M001241": "Nay",
+              "M001245": "Nay",
               "N000002": "Nay",
               "N000015": "Nay",
               "N000026": "Yea",
@@ -874,10 +853,10 @@
               "R000599": "Nay",
               "R000603": "Yea",
               "R000606": "Nay",
-              "R000609": "Not Voting",
+              "R000609": "Yea",
               "R000610": "Yea",
               "R000612": "Yea",
-              "R000614": "Not Voting",
+              "R000614": "Yea",
               "R000617": "Nay",
               "R000619": "Yea",
               "R000620": "Nay",
@@ -902,16 +881,15 @@
               "S001188": "Yea",
               "S001189": "Yea",
               "S001190": "Nay",
-              "S001193": "Nay",
+              "S001193": "Not Voting",
               "S001195": "Yea",
               "S001196": "Yea",
               "S001199": "Yea",
               "S001200": "Nay",
               "S001201": "Nay",
               "S001205": "Nay",
-              "S001207": "Not Voting",
               "S001211": "Nay",
-              "S001212": "Yea",
+              "S001212": "Not Voting",
               "S001213": "Yea",
               "S001214": "Yea",
               "S001215": "Nay",
@@ -932,7 +910,7 @@
               "T000460": "Nay",
               "T000463": "Yea",
               "T000467": "Yea",
-              "T000468": "Not Voting",
+              "T000468": "Nay",
               "T000469": "Nay",
               "T000472": "Nay",
               "T000474": "Nay",
@@ -955,9 +933,10 @@
               "V000135": "Yea",
               "V000136": "Nay",
               "V000138": "Nay",
+              "V000139": "Yea",
               "W000187": "Nay",
               "W000788": "Nay",
-              "W000795": "Yea",
+              "W000795": "Not Voting",
               "W000797": "Nay",
               "W000798": "Yea",
               "W000804": "Yea",
@@ -979,18 +958,18 @@
             "votePartyTotal": [
               {
                 "nayTotal": 0,
-                "notVotingTotal": 5,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 213
+                "yeaTotal": 211
               },
               {
-                "nayTotal": 207,
-                "notVotingTotal": 6,
+                "nayTotal": 210,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
@@ -1008,92 +987,92 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 0
+                "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll267.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll098.xml",
             "question": "On Ordering the Previous Question",
-            "id": "119-HRES-707-1"
+            "id": "119-HRES-1131-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 213 - 207 (Roll no. 267). (consideration: CR H4329)",
+        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 212 - 210 (Roll no. 98).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-09-16",
-        "actionTime": "13:31:10",
+        "actionDate": "2026-03-25",
+        "actionTime": "13:31:12",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H4329)",
+        "text": "Considered as unfinished business.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-09-16",
-        "actionTime": "13:21:50",
+        "actionDate": "2026-03-25",
+        "actionTime": "13:12:04",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.Res. 707, the Chair put the question on ordering the previous question and by voice vote announced the ayes had prevailed. Mr. McGovern demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H. Res. 1131, the Chair put the question on ordering the previous question and by voice vote, announced that the ayes had prevailed. Mr. McGovern demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-09-16",
-        "actionTime": "12:21:56",
+        "actionDate": "2026-03-25",
+        "actionTime": "12:19:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on H. Res. 707.",
+        "text": "DEBATE - The House proceeded with one hour of debate on H. Res. 1131.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-09-16",
-        "actionTime": "12:12:48",
+        "actionDate": "2026-03-25",
+        "actionTime": "12:15:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter. (consideration: CR H4321)",
+        "text": "Considered as privileged matter.",
         "type": "Floor"
       },
       {
         "actionCode": "H12420",
-        "actionDate": "2025-09-15",
+        "actionDate": "2026-03-24",
         "calendarNumber": {
-          "calendar": "H00044"
+          "calendar": "H00068"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the House Calendar, Calendar No. 44.",
+        "text": "Placed on the House Calendar, Calendar No. 68.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12700",
-        "actionDate": "2025-09-15",
-        "actionTime": "19:25:24",
+        "actionDate": "2026-03-24",
+        "actionTime": "19:55:44",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The resolution provides for consideration of H.R. 4922, H.R. 5143, H.R. 5140, H.R. 5125, H.R. 1047, H.R. 3015, and H.R. 3062 under a closed rule, and provides for a motion to recommit on each measure.",
+        "text": "The resolution provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103, and H.R. 7084 under a closed rule with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 8029, H.R. 5103, and H.R. 7084.",
         "type": "Floor"
       },
       {
         "actionCode": "H12100",
-        "actionDate": "2025-09-15",
+        "actionDate": "2026-03-24",
         "committees": [
           {
             "name": "Rules Committee",
@@ -1105,43 +1084,57 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The House Committee on Rules reported an original measure, H. Rept. 119-298, by Mr. Langworthy.",
+        "text": "The House Committee on Rules reported an original measure, H. Rept. 119-570, by Mrs. Houchin.",
         "type": "Committee"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-09-15",
+  "introducedDate": "2026-03-24",
   "latestAction": {
     "actionDate": "2026-03-25",
-    "actionTime": "14:07:00",
-    "text": "Pursuant to the provisions of H.Res. 1131, H.Res. 707 is amended."
+    "actionTime": "14:06:39",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/707",
-  "number": "707",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1131",
+  "number": "1131",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Providing for consideration of the bill (H.R. 4922) to limit youth offender status in the District of Columbia to individuals 18 years of age or younger, to direct the Attorney General of the District of Columbia to establish and operate a publicly accessible website containing updated statistics on juvenile crime in the District of Columbia, to amend the District of Columbia Home Rule Act to prohibit the Council of the District of Columbia from enacting changes to existing criminal liability sentences, and for other purposes; providing for consideration of the bill (H.R. 5143) to establish standards for law enforcement officers in the District of Columbia to engage in vehicular pursuits of suspects, and for other purposes; providing for consideration of the bill (H.R. 5140) to lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age; providing for consideration of the bill (H.R. 5125) to amend the District of Columbia Home Rule Act to terminate the District of Columbia Judicial Nomination Commission, and for other purposes; providing for consideration of the bill (H.R. 1047) to require the Federal Energy Regulatory Commission to reform the interconnection queue process for the prioritization and approval of certain projects, and for other purposes; providing for consideration of the bill (H.R. 3015) to reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes; providing for consideration of the bill (H.R. 3062) to establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity; and for other purposes.",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1131/summaries?format=json"
+  },
+  "title": "Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
   "titles": {
     "titles": [
       {
-        "title": "Providing for consideration of the bill (H.R. 4922) to limit youth offender status in the District of Columbia to individuals 18 years of age or younger, to direct the Attorney General of the District of Columbia to establish and operate a publicly accessible website containing updated statistics on juvenile crime in the District of Columbia, to amend the District of Columbia Home Rule Act to prohibit the Council of the District of Columbia from enacting changes to existing criminal liability sentences, and for other purposes; providing for consideration of the bill (H.R. 5143) to establish standards for law enforcement officers in the District of Columbia to engage in vehicular pursuits of suspects, and for other purposes; providing for consideration of the bill (H.R. 5140) to lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age; providing for consideration of the bill (H.R. 5125) to amend the District of Columbia Home Rule Act to terminate the District of Columbia Judicial Nomination Commission, and for other purposes; providing for consideration of the bill (H.R. 1047) to require the Federal Energy Regulatory Commission to reform the interconnection queue process for the prioritization and approval of certain projects, and for other purposes; providing for consideration of the bill (H.R. 3015) to reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes; providing for consideration of the bill (H.R. 3062) to establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity; and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-09-16T08:06:18Z"
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-03-27T02:53:22Z"
       },
       {
-        "title": "Providing for consideration of the bill (H.R. 4922) to limit youth offender status in the District of Columbia to individuals 18 years of age or younger, to direct the Attorney General of the District of Columbia to establish and operate a publicly accessible website containing updated statistics on juvenile crime in the District of Columbia, to amend the District of Columbia Home Rule Act to prohibit the Council of the District of Columbia from enacting changes to existing criminal liability sentences, and for other purposes; providing for consideration of the bill (H.R. 5143) to establish standards for law enforcement officers in the District of Columbia to engage in vehicular pursuits of suspects, and for other purposes; providing for consideration of the bill (H.R. 5140) to lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age; providing for consideration of the bill (H.R. 5125) to amend the District of Columbia Home Rule Act to terminate the District of Columbia Judicial Nomination Commission, and for other purposes; providing for consideration of the bill (H.R. 1047) to require the Federal Energy Regulatory Commission to reform the interconnection queue process for the prioritization and approval of certain projects, and for other purposes; providing for consideration of the bill (H.R. 3015) to reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes; providing for consideration of the bill (H.R. 3062) to establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity; and for other purposes.",
+        "title": "Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-25T08:06:01Z"
+      },
+      {
+        "title": "Providing for consideration of the bill (H.R. 8029) making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the resolution (H. Res. 1128) expressing the support of the House of Representatives for the Department of Homeland Security; providing for consideration of the bill (H.R. 5103) to establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission; providing for consideration of the bill (H.R. 7084) to amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes; and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-09-16T08:06:18Z"
+        "updateDate": "2026-03-25T08:06:01Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-04-01T08:05:35Z",
-  "updateDateIncludingText": "2026-04-01T08:05:35Z",
-  "id": "119-HRES-707",
+  "updateDate": "2026-04-01T13:32:42Z",
+  "updateDateIncludingText": "2026-04-01T13:32:42Z",
+  "id": "119-HRES-1131",
   "lastActionDate": "2026-03-25",
-  "lastRecordedVoteDate": "2025-09-16T18:44:23Z"
+  "lastRecordedVoteDate": "2026-03-25T18:06:37Z"
 }

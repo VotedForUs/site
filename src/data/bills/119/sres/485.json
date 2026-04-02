@@ -168,6 +168,10 @@
   "number": "485",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sres/485/summaries?format=json"
+  },
   "title": "A resolution designating the month of October 2025 as \"National Military Toxic Exposures Awareness Month\".",
   "titles": {
     "titles": [
@@ -186,8 +190,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2025-12-02T19:55:28Z",
-  "updateDateIncludingText": "2025-12-02T19:55:28Z",
+  "updateDate": "2026-04-01T19:04:56Z",
+  "updateDateIncludingText": "2026-04-01T19:04:56Z",
   "id": "119-SRES-485",
   "lastActionDate": "2025-11-05",
   "lastRecordedVoteDate": "2025-11-05"
