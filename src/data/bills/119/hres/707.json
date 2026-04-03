@@ -1,8 +1,19 @@
 {
   "actions": {
-    "count": 13,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hres/707/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H1B000",
+        "actionDate": "2026-03-25",
+        "actionTime": "14:07:00",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Pursuant to the provisions of H.Res. 1131, H.Res. 707 is amended.",
+        "type": "Floor"
+      },
       {
         "actionCode": "H1B000",
         "actionDate": "2025-09-17",
@@ -1102,9 +1113,9 @@
   "congress": 119,
   "introducedDate": "2025-09-15",
   "latestAction": {
-    "actionDate": "2025-09-17",
-    "actionTime": "18:05:25",
-    "text": "Pursuant to the provisions of H.Res. 722, H.Res. 707 is amended."
+    "actionDate": "2026-03-25",
+    "actionTime": "14:07:00",
+    "text": "Pursuant to the provisions of H.Res. 1131, H.Res. 707 is amended."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/707",
   "number": "707",
@@ -1128,9 +1139,9 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-02-27T09:06:54Z",
-  "updateDateIncludingText": "2026-02-27T09:06:54Z",
+  "updateDate": "2026-04-02T08:05:21Z",
+  "updateDateIncludingText": "2026-04-02T08:05:21Z",
   "id": "119-HRES-707",
-  "lastActionDate": "2025-09-17",
+  "lastActionDate": "2026-03-25",
   "lastRecordedVoteDate": "2025-09-16T18:44:23Z"
 }
