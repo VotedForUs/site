@@ -505,7 +505,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 203 (Roll no. 108).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 203 (Roll no. 108). (text: CR H2793)",
         "type": "Floor"
       },
       {
@@ -999,7 +999,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 209 - 206 (Roll no. 107).",
+        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 209 - 206 (Roll no. 107). (consideration: CR H2802)",
         "type": "Floor"
       },
       {
@@ -1021,7 +1021,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H2793-2803)",
         "type": "Floor"
       },
       {
@@ -1106,8 +1106,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-03-28T22:26:20Z",
-  "updateDateIncludingText": "2026-03-28T22:26:20Z",
+  "updateDate": "2026-04-02T15:18:47Z",
+  "updateDateIncludingText": "2026-04-02T15:18:47Z",
   "id": "119-HRES-1142",
   "lastActionDate": "2026-03-27",
   "lastRecordedVoteDate": "2026-03-28T03:26:20Z"

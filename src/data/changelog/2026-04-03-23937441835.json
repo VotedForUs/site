@@ -1,0 +1,88 @@
+{
+  "date": "2026-04-03",
+  "runId": "23937441835",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      {
+        "id": "119-HCONRES-58",
+        "title": "Denouncing the horrors of socialism.",
+        "congress": 119,
+        "billType": "hconres",
+        "number": "58",
+        "url": "https://votedfor.us/bills/119/hconres/58"
+      },
+      {
+        "id": "119-HR-2189",
+        "title": "Law-Enforcement Innovate to De-Escalate Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "2189",
+        "url": "https://votedfor.us/bills/119/hr/2189"
+      },
+      {
+        "id": "119-HR-3838",
+        "title": "Coast Guard Authorization Act of 2025",
+        "congress": 119,
+        "billType": "hr",
+        "number": "3838",
+        "url": "https://votedfor.us/bills/119/hr/3838"
+      },
+      {
+        "id": "119-HR-6719",
+        "title": "Stop Sextortion Act",
+        "congress": 119,
+        "billType": "hr",
+        "number": "6719",
+        "url": "https://votedfor.us/bills/119/hr/6719"
+      },
+      {
+        "id": "119-HRES-1142",
+        "title": "Providing for disposition of the Senate amendment to the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+        "congress": 119,
+        "billType": "hres",
+        "number": "1142",
+        "url": "https://votedfor.us/bills/119/hres/1142"
+      },
+      {
+        "id": "119-HRES-707",
+        "title": "Providing for consideration of the bill (H.R. 4922) to limit youth offender status in the District of Columbia to individuals 18 years of age or younger, to direct the Attorney General of the District of Columbia to establish and operate a publicly accessible website containing updated statistics on juvenile crime in the District of Columbia, to amend the District of Columbia Home Rule Act to prohibit the Council of the District of Columbia from enacting changes to existing criminal liability sentences, and for other purposes; providing for consideration of the bill (H.R. 5143) to establish standards for law enforcement officers in the District of Columbia to engage in vehicular pursuits of suspects, and for other purposes; providing for consideration of the bill (H.R. 5140) to lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age; providing for consideration of the bill (H.R. 5125) to amend the District of Columbia Home Rule Act to terminate the District of Columbia Judicial Nomination Commission, and for other purposes; providing for consideration of the bill (H.R. 1047) to require the Federal Energy Regulatory Commission to reform the interconnection queue process for the prioritization and approval of certain projects, and for other purposes; providing for consideration of the bill (H.R. 3015) to reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes; providing for consideration of the bill (H.R. 3062) to establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity; and for other purposes.",
+        "congress": 119,
+        "billType": "hres",
+        "number": "707",
+        "url": "https://votedfor.us/bills/119/hres/707"
+      },
+      {
+        "id": "119-S-1003",
+        "title": "Lulu’s Law",
+        "congress": 119,
+        "billType": "s",
+        "number": "1003",
+        "url": "https://votedfor.us/bills/119/s/1003"
+      },
+      {
+        "id": "119-S-1071",
+        "title": "National Defense Authorization Act for Fiscal Year 2026",
+        "congress": 119,
+        "billType": "s",
+        "number": "1071",
+        "url": "https://votedfor.us/bills/119/s/1071"
+      },
+      {
+        "id": "119-S-2296",
+        "title": "GAIN AI Act of 2025",
+        "congress": 119,
+        "billType": "s",
+        "number": "2296",
+        "url": "https://votedfor.us/bills/119/s/2296"
+      }
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
