@@ -83,14 +83,15 @@ const pageTitle = `${voteTitle} - ${billTitle}`;
   {vote.voteUrl && <p><a href={vote.voteUrl} target="_blank" rel="noopener noreferrer">View on official site</a></p>}
 
   <h2>Votes ({rows.length})</h2>
-  <action-table class="tbl" sort="Name" direction="ascending" store="vote-detail-table">
+  <!-- Vote roll: no sort/store — action-table localStorage can restore a stale column and scramble td vs th. -->
+  <action-table class="tbl">
   <table>
     <thead>
       <tr>
-        <th data-col={chamber === 'senate' ? 'State' : 'State-District'}>{chamber === 'senate' ? 'State' : 'State-District'}</th>
-        <th>Name</th>
-        <th>Party</th>
-        <th>Vote</th>
+        <th data-col={chamber === 'senate' ? 'State' : 'State-District'} no-sort>{chamber === 'senate' ? 'State' : 'State-District'}</th>
+        <th no-sort>Name</th>
+        <th no-sort>Party</th>
+        <th no-sort>Vote</th>
       </tr>
     </thead>
     <tbody>
