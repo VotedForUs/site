@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/s/1884/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-04-02",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-04-02",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-03-16",
@@ -624,9 +644,8 @@
   "congress": 119,
   "introducedDate": "2025-05-22",
   "latestAction": {
-    "actionDate": "2026-03-16",
-    "actionTime": "15:35:54",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-02",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1884",
   "number": "1884",
@@ -694,9 +713,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-18T08:05:39Z",
-  "updateDateIncludingText": "2026-03-18T08:05:39Z",
+  "updateDate": "2026-04-03T08:05:24Z",
+  "updateDateIncludingText": "2026-04-03T08:05:24Z",
   "id": "119-S-1884",
-  "lastActionDate": "2026-03-16",
+  "lastActionDate": "2026-04-02",
   "lastRecordedVoteDate": "2026-03-16"
 }
