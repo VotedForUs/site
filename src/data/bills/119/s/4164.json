@@ -1,32 +1,32 @@
 {
   "actions": {
-    "count": 9,
-    "url": "https://api.congress.gov/v3/bill/119/s/524/actions?format=json",
+    "count": 6,
+    "url": "https://api.congress.gov/v3/bill/119/s/4164/actions?format=json",
     "actions": [
       {
         "actionCode": "H15000",
-        "actionDate": "2025-03-10",
-        "actionTime": "18:41:12",
+        "actionDate": "2026-03-24",
+        "actionTime": "14:11:58",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Held at the Desk",
+        "text": "Held at the desk.",
         "type": "Floor"
       },
       {
         "actionCode": "H14000",
-        "actionDate": "2025-03-10",
-        "actionTime": "18:30:46",
+        "actionDate": "2026-03-24",
+        "actionTime": "14:02:36",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Received in the House",
+        "text": "Received in the House.",
         "type": "Floor"
       },
       {
-        "actionDate": "2025-03-06",
+        "actionDate": "2026-03-24",
         "sourceSystem": {
           "name": "Senate"
         },
@@ -34,17 +34,17 @@
         "type": "Floor"
       },
       {
-        "actionDate": "2025-03-05",
+        "actionDate": "2026-03-23",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S1521-1568; text: CR S1522-1568)",
+        "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S1560; text: CR S1560)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2025-03-05",
+            "date": "2026-03-23",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -180,96 +180,46 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/524",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4164",
             "question": "Pass with Unanimous Consent",
-            "id": "119-S-524-1"
+            "id": "119-S-4164-1"
           }
         ]
-      },
-      {
-        "actionDate": "2025-03-05",
-        "committees": [
-          {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Senate Committee on Commerce, Science, and Transportation discharged by Unanimous Consent.",
-        "type": "Discharge"
-      },
-      {
-        "actionDate": "2025-02-11",
-        "committees": [
-          {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-02-11",
+  "introducedDate": "2026-03-23",
   "latestAction": {
-    "actionDate": "2025-03-10",
-    "actionTime": "18:41:12",
-    "text": "Held at the Desk"
+    "actionDate": "2026-03-24",
+    "actionTime": "14:11:58",
+    "text": "Held at the desk."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/524",
-  "number": "524",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4164",
+  "number": "4164",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "title": "Coast Guard Authorization Act of 2025",
+  "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
   "titles": {
     "titles": [
       {
-        "title": "Coast Guard Authorization Act of 2025",
+        "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-03-07T12:03:18Z"
+        "updateDate": "2026-03-24T10:56:25Z"
       },
       {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Coast Guard Authorization Act of 2025",
-        "titleType": "Short Title(s) as Passed Senate",
-        "titleTypeCode": 105,
-        "updateDate": "2025-03-06T07:23:20Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "Coast Guard Authorization Act of 2025",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-03-05T16:23:17Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to authorize appropriations for the Coast Guard, and for other purposes.",
+        "title": "A bill to make technical corrections to the National Defense Authorization Act for Fiscal Year 2026.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-05T16:18:19Z"
+        "updateDate": "2026-03-24T10:56:25Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-02-04T05:06:17Z",
-  "updateDateIncludingText": "2026-04-01T16:27:16Z",
-  "id": "119-S-524",
-  "lastActionDate": "2025-03-10",
-  "lastRecordedVoteDate": "2025-03-05"
+  "updateDate": "2026-03-26T16:02:01Z",
+  "updateDateIncludingText": "2026-03-26T16:02:01Z",
+  "id": "119-S-4164",
+  "lastActionDate": "2026-03-24",
+  "lastRecordedVoteDate": "2026-03-23"
 }

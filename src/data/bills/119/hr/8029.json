@@ -1,10 +1,10 @@
 {
   "actions": {
-    "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/hr/6703/actions?format=json",
+    "count": 18,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8029/actions?format=json",
     "actions": [
       {
-        "actionDate": "2025-12-18",
+        "actionDate": "2026-04-02",
         "sourceSystem": {
           "name": "Senate"
         },
@@ -13,8 +13,8 @@
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2025-12-17",
-        "actionTime": "18:27:57",
+        "actionDate": "2026-03-26",
+        "actionTime": "15:28:47",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,16 +24,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2025-12-17",
-        "actionTime": "18:27:54",
+        "actionDate": "2026-03-26",
+        "actionTime": "15:28:44",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2025-12-17T23:27:54Z",
-            "rollNumber": 349,
-            "sessionNumber": 1,
-            "url": "https://clerk.house.gov/evs/2025/roll349.xml",
+            "date": "2026-03-26T19:28:44Z",
+            "rollNumber": 104,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll104.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -87,12 +87,12 @@
               "C001053": "Yea",
               "C001055": "Nay",
               "C001059": "Nay",
-              "C001061": "Nay",
-              "C001063": "Nay",
+              "C001061": "Not Voting",
+              "C001063": "Yea",
               "C001066": "Nay",
               "C001067": "Nay",
               "C001068": "Nay",
-              "C001069": "Not Voting",
+              "C001069": "Nay",
               "C001072": "Nay",
               "C001080": "Nay",
               "C001087": "Yea",
@@ -124,7 +124,7 @@
               "D000096": "Nay",
               "D000197": "Nay",
               "D000216": "Nay",
-              "D000230": "Nay",
+              "D000230": "Yea",
               "D000399": "Nay",
               "D000530": "Nay",
               "D000594": "Yea",
@@ -178,7 +178,7 @@
               "G000559": "Nay",
               "G000565": "Yea",
               "G000568": "Yea",
-              "G000576": "Yea",
+              "G000576": "Not Voting",
               "G000581": "Nay",
               "G000583": "Nay",
               "G000585": "Nay",
@@ -186,14 +186,13 @@
               "G000587": "Nay",
               "G000589": "Yea",
               "G000591": "Yea",
-              "G000592": "Nay",
+              "G000592": "Yea",
               "G000593": "Yea",
-              "G000594": "Yea",
-              "G000596": "Yea",
+              "G000594": "Not Voting",
               "G000597": "Yea",
               "G000598": "Nay",
               "G000599": "Nay",
-              "G000600": "Nay",
+              "G000600": "Yea",
               "G000601": "Yea",
               "G000602": "Nay",
               "G000603": "Yea",
@@ -249,7 +248,7 @@
               "K000391": "Nay",
               "K000392": "Yea",
               "K000397": "Yea",
-              "K000398": "Yea",
+              "K000398": "Not Voting",
               "K000399": "Yea",
               "K000400": "Nay",
               "K000401": "Yea",
@@ -263,8 +262,7 @@
               "L000560": "Nay",
               "L000562": "Nay",
               "L000566": "Yea",
-              "L000578": "Yea",
-              "L000582": "Nay",
+              "L000582": "Not Voting",
               "L000583": "Yea",
               "L000585": "Yea",
               "L000590": "Nay",
@@ -292,7 +290,7 @@
               "M001160": "Nay",
               "M001163": "Nay",
               "M001177": "Yea",
-              "M001184": "Nay",
+              "M001184": "Yea",
               "M001188": "Nay",
               "M001194": "Yea",
               "M001196": "Nay",
@@ -300,15 +298,15 @@
               "M001204": "Yea",
               "M001205": "Yea",
               "M001206": "Nay",
-              "M001208": "Not Voting",
-              "M001210": "Not Voting",
+              "M001208": "Nay",
+              "M001210": "Yea",
               "M001211": "Yea",
               "M001212": "Yea",
               "M001213": "Yea",
               "M001214": "Nay",
               "M001215": "Yea",
               "M001216": "Yea",
-              "M001217": "Nay",
+              "M001217": "Not Voting",
               "M001218": "Yea",
               "M001220": "Nay",
               "M001222": "Yea",
@@ -331,6 +329,7 @@
               "M001239": "Yea",
               "M001240": "Yea",
               "M001241": "Nay",
+              "M001245": "Nay",
               "N000002": "Nay",
               "N000015": "Nay",
               "N000026": "Yea",
@@ -353,7 +352,7 @@
               "P000605": "Yea",
               "P000607": "Nay",
               "P000608": "Nay",
-              "P000609": "Not Voting",
+              "P000609": "Yea",
               "P000613": "Nay",
               "P000614": "Nay",
               "P000617": "Nay",
@@ -396,14 +395,14 @@
               "S001188": "Yea",
               "S001189": "Yea",
               "S001190": "Nay",
-              "S001193": "Not Voting",
+              "S001193": "Nay",
               "S001195": "Yea",
               "S001196": "Yea",
               "S001199": "Yea",
               "S001200": "Nay",
               "S001201": "Nay",
               "S001205": "Nay",
-              "S001211": "Nay",
+              "S001211": "Not Voting",
               "S001212": "Yea",
               "S001213": "Yea",
               "S001214": "Yea",
@@ -445,7 +444,7 @@
               "V000131": "Nay",
               "V000133": "Yea",
               "V000134": "Yea",
-              "V000135": "Yea",
+              "V000135": "Not Voting",
               "V000136": "Nay",
               "V000138": "Nay",
               "V000139": "Yea",
@@ -457,7 +456,7 @@
               "W000804": "Yea",
               "W000806": "Yea",
               "W000808": "Nay",
-              "W000809": "Not Voting",
+              "W000809": "Yea",
               "W000812": "Yea",
               "W000814": "Yea",
               "W000816": "Yea",
@@ -472,26 +471,26 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 1,
-                "notVotingTotal": 3,
+                "nayTotal": 0,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 216
+                "yeaTotal": 213
               },
               {
-                "nayTotal": 210,
-                "notVotingTotal": 3,
+                "nayTotal": 206,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 0
+                "yeaTotal": 4
               },
               {
                 "nayTotal": 0,
@@ -502,40 +501,40 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 0
+                "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll349.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll104.xml",
             "question": "On Passage",
-            "id": "119-HR-6703-2"
+            "id": "119-HR-8029-2"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 216 - 211 (Roll no. 349). (text: CR H5956-5966)",
+        "text": "On passage Passed by the Yeas and Nays: 218 - 206 (Roll no. 104).",
         "type": "Floor"
       },
       {
         "actionCode": "H36210",
-        "actionDate": "2025-12-17",
-        "actionTime": "18:21:52",
+        "actionDate": "2026-03-26",
+        "actionTime": "15:20:57",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Appropriations Committee",
+            "systemCode": "hsap00",
+            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
           }
         ],
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2025-12-17T23:21:52Z",
-            "rollNumber": 348,
-            "sessionNumber": 1,
-            "url": "https://clerk.house.gov/evs/2025/roll348.xml",
+            "date": "2026-03-26T19:20:57Z",
+            "rollNumber": 103,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll103.xml",
             "votes": {
               "A000055": "Nay",
               "A000148": "Yea",
@@ -589,12 +588,12 @@
               "C001053": "Nay",
               "C001055": "Yea",
               "C001059": "Yea",
-              "C001061": "Yea",
+              "C001061": "Not Voting",
               "C001063": "Yea",
               "C001066": "Yea",
               "C001067": "Yea",
               "C001068": "Yea",
-              "C001069": "Not Voting",
+              "C001069": "Yea",
               "C001072": "Yea",
               "C001080": "Yea",
               "C001087": "Nay",
@@ -690,8 +689,7 @@
               "G000591": "Nay",
               "G000592": "Yea",
               "G000593": "Nay",
-              "G000594": "Nay",
-              "G000596": "Nay",
+              "G000594": "Not Voting",
               "G000597": "Nay",
               "G000598": "Yea",
               "G000599": "Yea",
@@ -751,7 +749,7 @@
               "K000391": "Yea",
               "K000392": "Nay",
               "K000397": "Nay",
-              "K000398": "Nay",
+              "K000398": "Not Voting",
               "K000399": "Nay",
               "K000400": "Yea",
               "K000401": "Nay",
@@ -765,8 +763,7 @@
               "L000560": "Yea",
               "L000562": "Yea",
               "L000566": "Nay",
-              "L000578": "Nay",
-              "L000582": "Yea",
+              "L000582": "Not Voting",
               "L000583": "Nay",
               "L000585": "Nay",
               "L000590": "Yea",
@@ -788,7 +785,7 @@
               "M000687": "Yea",
               "M000871": "Nay",
               "M001136": "Nay",
-              "M001137": "Yea",
+              "M001137": "Not Voting",
               "M001143": "Yea",
               "M001157": "Nay",
               "M001160": "Yea",
@@ -802,15 +799,15 @@
               "M001204": "Nay",
               "M001205": "Nay",
               "M001206": "Yea",
-              "M001208": "Not Voting",
-              "M001210": "Not Voting",
+              "M001208": "Yea",
+              "M001210": "Nay",
               "M001211": "Nay",
               "M001212": "Nay",
               "M001213": "Nay",
               "M001214": "Yea",
               "M001215": "Nay",
               "M001216": "Nay",
-              "M001217": "Yea",
+              "M001217": "Not Voting",
               "M001218": "Nay",
               "M001220": "Yea",
               "M001222": "Nay",
@@ -833,6 +830,7 @@
               "M001239": "Nay",
               "M001240": "Nay",
               "M001241": "Yea",
+              "M001245": "Yea",
               "N000002": "Yea",
               "N000015": "Yea",
               "N000026": "Nay",
@@ -898,7 +896,7 @@
               "S001188": "Nay",
               "S001189": "Nay",
               "S001190": "Yea",
-              "S001193": "Not Voting",
+              "S001193": "Yea",
               "S001195": "Nay",
               "S001196": "Nay",
               "S001199": "Nay",
@@ -947,7 +945,7 @@
               "V000131": "Yea",
               "V000133": "Nay",
               "V000134": "Nay",
-              "V000135": "Nay",
+              "V000135": "Not Voting",
               "V000136": "Yea",
               "V000138": "Yea",
               "V000139": "Nay",
@@ -959,7 +957,7 @@
               "W000804": "Nay",
               "W000806": "Nay",
               "W000808": "Yea",
-              "W000809": "Not Voting",
+              "W000809": "Nay",
               "W000812": "Nay",
               "W000814": "Nay",
               "W000816": "Nay",
@@ -974,8 +972,8 @@
             "result": "rejected",
             "votePartyTotal": [
               {
-                "nayTotal": 218,
-                "notVotingTotal": 2,
+                "nayTotal": 214,
+                "notVotingTotal": 3,
                 "party": {
                   "name": "Republican",
                   "type": "R"
@@ -986,7 +984,7 @@
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 3,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
@@ -996,7 +994,7 @@
                 "yeaTotal": 210
               },
               {
-                "nayTotal": 0,
+                "nayTotal": 1,
                 "notVotingTotal": 0,
                 "party": {
                   "name": "Independent",
@@ -1007,44 +1005,44 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll348.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll103.xml",
             "question": "On Motion to Recommit",
-            "id": "119-HR-6703-1"
+            "id": "119-HR-8029-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to recommit Failed by the Yeas and Nays: 210 - 218 (Roll no. 348).",
+        "text": "On motion to recommit Failed by the Yeas and Nays: 210 - 215 (Roll no. 103).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-12-17",
-        "actionTime": "18:15:28",
+        "actionDate": "2026-03-26",
+        "actionTime": "15:12:16",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H6006-6008)",
+        "text": "Considered as unfinished business. (consideration: CR H2751-2752)",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-12-17",
-        "actionTime": "12:38:11",
+        "actionDate": "2026-03-26",
+        "actionTime": "14:44:22",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 6703, the Chair put the question on motion to recommit and by voice vote, announced the noes had prevailed. Ms. Underwood demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 8029, the Chair put the question on motion to recommit and by voice vote, announced the noes had prevailed. Ms. DeLauro demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
         "type": "Floor"
       },
       {
         "actionCode": "H8A000",
-        "actionDate": "2025-12-17",
-        "actionTime": "12:37:58",
+        "actionDate": "2026-03-26",
+        "actionTime": "14:43:57",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -1054,26 +1052,26 @@
       },
       {
         "actionCode": "H36200",
-        "actionDate": "2025-12-17",
-        "actionTime": "12:37:43",
+        "actionDate": "2026-03-26",
+        "actionTime": "14:43:47",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Appropriations Committee",
+            "systemCode": "hsap00",
+            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Ms. Underwood moved to recommit to the Committee on Energy and Commerce. (text: CR H5977)",
+        "text": "Ms. DeLauro moved to recommit to the Committee on Appropriations. (CR H2750)",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2025-12-17",
-        "actionTime": "12:37:18",
+        "actionDate": "2026-03-26",
+        "actionTime": "14:43:17",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -1083,112 +1081,99 @@
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-12-17",
-        "actionTime": "11:14:42",
+        "actionDate": "2026-03-26",
+        "actionTime": "13:24:40",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 6703.",
+        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 8029.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-12-17",
-        "actionTime": "11:14:19",
+        "actionDate": "2026-03-26",
+        "actionTime": "13:24:01",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rule provides for consideration of H.R. 6703, H.R. 498 and H.R. 3492. The resolution provides for consideration of H.R. 6703 and H.R. 498 under a closed rule and H.R. 3492 under a structured rule with one hour of general debate and one motion to recommit on each bill.",
+        "text": "Rule provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103 and H.R. 7084. The resolution provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103, and H.R. 7084 under a closed rule with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 8029, H.R. 5103, and H.R. 7084.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-12-17",
-        "actionTime": "11:14:14",
+        "actionDate": "2026-03-26",
+        "actionTime": "13:23:56",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 953. (consideration: CR H5956-5977)",
+        "text": "Considered under the provisions of rule H. Res. 1131. (consideration: CR H2731-2750)",
         "type": "Floor"
       },
       {
         "actionCode": "H1L210",
-        "actionDate": "2025-12-17",
-        "actionTime": "08:11:36",
+        "actionDate": "2026-03-24",
+        "actionTime": "19:55:44",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rules Committee Resolution H. Res. 953 Reported to House. Rule provides for consideration of H.R. 6703, H.R. 498 and H.R. 3492. The resolution provides for consideration of H.R. 6703 and H.R. 498 under a closed rule and H.R. 3492 under a structured rule with one hour of general debate and one motion to recommit on each bill.",
+        "text": "Rules Committee Resolution H. Res. 1131 Reported to House. Rule provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103 and H.R. 7084. The resolution provides for consideration of H.R. 8029, H. Res. 1128, H.R. 5103, and H.R. 7084 under a closed rule with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 8029, H.R. 5103, and H.R. 7084.",
         "type": "Floor"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-12-15",
+        "actionDate": "2026-03-20",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "Budget Committee",
+            "systemCode": "hsbu00",
+            "url": "https://api.congress.gov/v3/committee/house/hsbu00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "text": "Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "type": "IntroReferral"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-12-15",
+        "actionDate": "2026-03-20",
         "committees": [
           {
-            "name": "Education and Workforce Committee",
-            "systemCode": "hsed00",
-            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+            "name": "Appropriations Committee",
+            "systemCode": "hsap00",
+            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-12-15",
-        "committees": [
-          {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "text": "Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-12-15",
+  "introducedDate": "2026-03-20",
   "latestAction": {
-    "actionDate": "2025-12-18",
+    "actionDate": "2026-04-02",
     "text": "Received in the Senate."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6703",
-  "number": "6703",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8029",
+  "number": "8029",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Lower Health Care Premiums for All Americans Act",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8029/summaries?format=json"
+  },
+  "title": "Pay Our Homeland Defenders Act",
   "titles": {
     "titles": [
       {
@@ -1196,39 +1181,49 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Lower Health Care Premiums for All Americans Act",
+        "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-03-28T04:38:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Pay Our Homeland Defenders Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
-        "updateDate": "2025-12-19T05:08:19Z"
+        "updateDate": "2026-03-28T04:38:22Z"
       },
       {
-        "title": "Lower Health Care Premiums for All Americans Act",
+        "title": "Pay Our Homeland Defenders Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-12-16T09:23:14Z"
+        "updateDate": "2026-03-21T08:23:24Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Lower Health Care Premiums for All Americans Act",
+        "title": "Pay Our Homeland Defenders Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-12-16T09:23:13Z"
+        "updateDate": "2026-03-21T08:23:23Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To ensure access to affordable health insurance.",
+        "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-12-16T09:18:15Z"
+        "updateDate": "2026-03-21T08:18:21Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-03T15:39:48Z",
-  "updateDateIncludingText": "2026-04-03T15:39:48Z",
-  "id": "119-HR-6703",
-  "lastActionDate": "2025-12-18",
-  "lastRecordedVoteDate": "2025-12-17T23:27:54Z"
+  "updateDate": "2026-04-03T10:56:20Z",
+  "updateDateIncludingText": "2026-04-03T10:56:20Z",
+  "id": "119-HR-8029",
+  "lastActionDate": "2026-04-02",
+  "lastRecordedVoteDate": "2026-03-26T19:28:44Z"
 }

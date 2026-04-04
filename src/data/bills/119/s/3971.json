@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 14,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/s/3971/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-04-02",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-04-02",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-03-17",
@@ -750,9 +770,8 @@
   "congress": 119,
   "introducedDate": "2026-03-03",
   "latestAction": {
-    "actionDate": "2026-03-17",
-    "actionTime": "15:44:53",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-02",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3971",
   "number": "3971",
@@ -800,9 +819,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-19T03:23:25Z",
-  "updateDateIncludingText": "2026-03-19T03:23:25Z",
+  "updateDate": "2026-04-03T08:05:23Z",
+  "updateDateIncludingText": "2026-04-03T08:05:24Z",
   "id": "119-S-3971",
-  "lastActionDate": "2026-03-17",
+  "lastActionDate": "2026-04-02",
   "lastRecordedVoteDate": "2026-03-17T19:44:52Z"
 }
