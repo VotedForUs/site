@@ -8,12 +8,7 @@ const segment = voteId ?? recordedVote?.id?.toString().split('-').pop() ?? '';
 
 const legislators = await Promise.all(
   voteEntries.map(async ([bioguideId, vote]) => {
-    let legislator = null;
-    if (recordedVote.chamber?.toLowerCase() === 'house') {
-      legislator = await getEntry('representatives', bioguideId);
-    } else if (recordedVote.chamber?.toLowerCase() === 'senate') {
-      legislator = await getEntry('senators', bioguideId);
-    }
+    const legislator = await getEntry('legislators', bioguideId);
     const name = legislator?.data?.nameTitle || bioguideId;
     return { bioguideId, vote, name };
   })

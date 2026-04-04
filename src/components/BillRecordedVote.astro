@@ -11,12 +11,7 @@ const voteKeys = Object.keys(recordedVote.votes || {});
 const legislators = await Promise.all(
   voteKeys.map(async (key) => {
     const vote = recordedVote.votes[key];
-    let legislator = null;
-    if (recordedVote.chamber.toLowerCase() === 'house') {
-      legislator = await getEntry('representatives', key);
-    } else if (recordedVote.chamber.toLowerCase() === 'senate') {
-      legislator = await getEntry('senators', key);
-    }
+    const legislator = await getEntry('legislators', key);
     return { key, vote, legislator };
   })
 );

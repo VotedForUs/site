@@ -43,13 +43,15 @@ const billEntry = await getEntry('bills', billId);
 const billTitle = billEntry?.data ? getBestBillTitle(billEntry.data) : (vote.billTitle ?? '');
 
 // Build table rows: state-district | name | party | vote. Join with legislators.
+// Use the `legislators` collection for lookup (all member JSON files). `representatives` /
+// `senators` are filtered by `type === 'rep'|'sen'` and omit members when `type` is missing
+// or nonstandard, which would leave only bioguide ids and empty state/party in the table.
 const chamber = vote.chamber?.toLowerCase();
-const collectionName = chamber === 'senate' ? 'senators' : 'representatives';
 const votesMap = vote.votes ?? {};
 const rows: { bioguideId: string; stateDistrict: string; name: string; party: string; vote: string }[] = [];
 
 for (const [bioguideId, voteCast] of Object.entries(votesMap)) {
-  const legEntry = await getEntry(collectionName, bioguideId);
+  const legEntry = await getEntry('legislators', bioguideId);
   const leg = legEntry?.data;
   const state = leg?.state ?? '';
   const district = leg?.district != null ? `-${leg.district}` : '';
