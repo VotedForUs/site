@@ -78,7 +78,11 @@ jobs:
           FORCE_FULL_REBUILD: ${{ inputs.force_full_rebuild || 'false' }}
         run: npx tsx scripts/incremental-check.ts
 
+      # `npm run build` runs incremental-check again; it must see the same
+      # FORCE_FULL_REBUILD as the step above or the checkbox has no effect.
       - name: Build site
+        env:
+          FORCE_FULL_REBUILD: ${{ inputs.force_full_rebuild || 'false' }}
         run: npm run build
 
       # Merge pages from the previous build that were NOT regenerated this build.
