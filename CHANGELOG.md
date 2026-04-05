@@ -1,3 +1,5 @@
+# [v1.1.11](https://github.com/VotedForUs/site/compare/v1.1.10...v1.1.11) (2026-04-05)
+
 # [v1.1.10](https://github.com/VotedForUs/site/compare/v1.1.9...v1.1.10) (2026-04-04)
 
 # [v1.1.9](https://github.com/VotedForUs/site/compare/v1.1.8...v1.1.9) (2026-04-04)
