@@ -229,6 +229,10 @@
   "number": "2379",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2379/summaries?format=json"
+  },
   "title": "Countering Threats and Attacks on Our Judges Act",
   "titles": {
     "titles": [
@@ -267,8 +271,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-17T14:33:18Z",
-  "updateDateIncludingText": "2026-03-17T14:33:18Z",
+  "updateDate": "2026-04-06T15:40:11Z",
+  "updateDateIncludingText": "2026-04-06T15:40:11Z",
   "id": "119-S-2379",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-20"
