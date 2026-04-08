@@ -199,6 +199,10 @@
   "number": "960",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/960/summaries?format=json"
+  },
   "title": "Justice for Murder Victims Act",
   "titles": {
     "titles": [
@@ -227,8 +231,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-04-06T11:00:17Z",
-  "updateDateIncludingText": "2026-04-06T11:00:17Z",
+  "updateDate": "2026-04-07T19:59:20Z",
+  "updateDateIncludingText": "2026-04-07T19:59:20Z",
   "id": "119-S-960",
   "lastActionDate": "2025-03-14",
   "lastRecordedVoteDate": "2025-03-11"
