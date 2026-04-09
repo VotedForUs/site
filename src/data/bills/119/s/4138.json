@@ -297,6 +297,10 @@
   "number": "4138",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4138/summaries?format=json"
+  },
   "title": "A bill to waive the 60-day notice requirement for the posthumous honorary promotion of Captain Cody Khork, United States Army.",
   "titles": {
     "titles": [
@@ -315,8 +319,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-31T20:05:43Z",
-  "updateDateIncludingText": "2026-03-31T20:05:43Z",
+  "updateDate": "2026-04-08T20:56:00Z",
+  "updateDateIncludingText": "2026-04-08T20:56:00Z",
   "id": "119-S-4138",
   "lastActionDate": "2026-03-20",
   "lastRecordedVoteDate": "2026-03-18"
