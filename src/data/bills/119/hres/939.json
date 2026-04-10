@@ -583,6 +583,10 @@
   "number": "939",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/939/summaries?format=json"
+  },
   "title": "Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors.",
   "titles": {
     "titles": [
@@ -603,8 +607,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-01-31T09:05:42Z",
-  "updateDateIncludingText": "2026-01-31T09:05:42Z",
+  "updateDate": "2026-04-09T14:45:47Z",
+  "updateDateIncludingText": "2026-04-09T14:45:47Z",
   "id": "119-HRES-939",
   "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-12-11T19:08:35Z"
