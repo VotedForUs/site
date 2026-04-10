@@ -1,0 +1,748 @@
+---
+import type { VoteRollRow } from '../utils/voteRollSortOrders';
+import { addVoteRollSortOrders, type VoteRollRowWithOrders } from '../utils/voteRollSortOrders';
+import { stateRollGroupKey } from '../utils/voteRollDisplay';
+import { partyRollLane, voteRollLane } from '../utils/voteRollLanes';
+import LegislatorVoteRow from './VoteRollRow.astro';
+
+interface Props {
+  /** Legislator rows from the vote page (any order). */
+  rows: VoteRollRow[];
+  /** First column header, e.g. State vs State-District. */
+  stateHeader: string;
+  /** Unique `name=` for the radio group (multiple vote rolls on one page need distinct values). */
+  sortGroupName: string;
+  term: string;
+  billType: string;
+  billNumber: string;
+  voteId: string;
+}
+
+const { rows, stateHeader, sortGroupName, term, billType, billNumber, voteId } = Astro.props;
+
+/**
+ * Builds state groups in {@link VoteRollRowWithOrders.orderState} order.
+ *
+ * @param ordered - Rows with sort orders
+ * @returns Groups keyed by {@link stateRollGroupKey}
+ */
+function buildStateGroups(ordered: VoteRollRowWithOrders[]): { key: string; rows: VoteRollRowWithOrders[] }[] {
+  const sorted = [...ordered].sort((a, b) => a.orderState - b.orderState);
+  const groups: { key: string; rows: VoteRollRowWithOrders[] }[] = [];
+  for (const row of sorted) {
+    const key = stateRollGroupKey(row.stateDistrict);
+    const prev = groups[groups.length - 1];
+    if (!prev || prev.key !== key) {
+      groups.push({ key, rows: [row] });
+    } else {
+      prev.rows.push(row);
+    }
+  }
+  return groups;
+}
+
+const withOrders = addVoteRollSortOrders(rows);
+const stateGroups = buildStateGroups(withOrders);
+/** Name-stream DOM order follows {@link VoteRollRowWithOrders.orderName}. */
+const rowsByName = [...withOrders].sort((a, b) => a.orderName - b.orderName);
+
+const yeas = rowsByName
+  .filter((r) => voteRollLane(r.vote) === 'yea')
+  .sort((a, b) => a.orderVote - b.orderVote);
+const nays = rowsByName
+  .filter((r) => voteRollLane(r.vote) === 'nay')
+  .sort((a, b) => a.orderVote - b.orderVote);
+const voteOthers = rowsByName
+  .filter((r) => voteRollLane(r.vote) === 'other')
+  .sort((a, b) => a.orderVote - b.orderVote);
+
+const dems = rowsByName
+  .filter((r) => partyRollLane(r.party) === 'dem')
+  .sort((a, b) => a.orderParty - b.orderParty);
+const gops = rowsByName
+  .filter((r) => partyRollLane(r.party) === 'gop')
+  .sort((a, b) => a.orderParty - b.orderParty);
+const partyOthers = rowsByName
+  .filter((r) => partyRollLane(r.party) === 'other')
+  .sort((a, b) => a.orderParty - b.orderParty);
+
+const base = import.meta.env.BASE_URL;
+const memberPath = (bioguideId: string) =>
+  `${base}bills/${term}/${billType}/${billNumber}/${voteId}/${bioguideId}`;
+
+const idVote = `${sortGroupName}-sort-vote`;
+const idParty = `${sortGroupName}-sort-party`;
+const idState = `${sortGroupName}-sort-state`;
+const idName = `${sortGroupName}-sort-name`;
+
+const sizeGroupName = `${sortGroupName}-size`;
+const idSizeSm = `${sizeGroupName}-sm`;
+const idSizeMed = `${sizeGroupName}-med`;
+const idSizeLg = `${sizeGroupName}-lg`;
+---
+
+<div class="vote-roll">
+  <fieldset class="vote-roll__sort">
+    <legend class="vote-roll__legend">Sort by</legend>
+    <div class="vote-roll__options">
+      <label class="vote-roll__label">
+        <input class="vote-roll__sr vote-roll__sr-vote" type="radio" name={sortGroupName} id={idVote} checked />
+        Vote
+      </label>
+      <label class="vote-roll__label">
+        <input class="vote-roll__sr vote-roll__sr-party" type="radio" name={sortGroupName} id={idParty} />
+        Party
+      </label>
+      <label class="vote-roll__label">
+        <input class="vote-roll__sr vote-roll__sr-state" type="radio" name={sortGroupName} id={idState} />
+        State
+      </label>
+      <label class="vote-roll__label">
+        <input class="vote-roll__sr vote-roll__sr-name" type="radio" name={sortGroupName} id={idName} />
+        Name
+      </label>
+    </div>
+  </fieldset>
+
+  <fieldset class="vote-roll__sort">
+    <legend class="vote-roll__legend">Size</legend>
+    <div class="vote-roll__options">
+      <label class="vote-roll__label">
+        <input class="vote-roll__sr vote-roll__sr-size-sm" type="radio" name={sizeGroupName} id={idSizeSm} checked />
+        Small
+      </label>
+      <label class="vote-roll__label">
+        <input class="vote-roll__sr vote-roll__sr-size-med" type="radio" name={sizeGroupName} id={idSizeMed} />
+        Medium
+      </label>
+      <label class="vote-roll__label">
+        <input class="vote-roll__sr vote-roll__sr-size-lg" type="radio" name={sizeGroupName} id={idSizeLg} />
+        Large
+      </label>
+    </div>
+  </fieldset>
+
+  <div class="vote-roll__list">
+    <div class="vote-roll__stream vote-roll__stream--vote">
+      <div class="vote-roll__lanes-row vote-roll__lanes-row--vote" aria-hidden="true">
+        <span class="vote-roll__lane-title">Yea</span>
+        <span class="vote-roll__lane-title">Nay</span>
+      </div>
+      <div class="vote-roll__split-inner">
+        <div class="vote-roll__lane-col" role="list" aria-label="Yea">
+          {yeas.map((r) => <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />)}
+        </div>
+        <div class="vote-roll__lane-col" role="list" aria-label="Nay">
+          {nays.map((r) => <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />)}
+        </div>
+        {
+          voteOthers.length > 0 && (
+            <div class="vote-roll__lane-col vote-roll__lane-col--full" role="list" aria-label="Other votes">
+              {voteOthers.map((r) => (
+                <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />
+              ))}
+            </div>
+          )
+        }
+      </div>
+    </div>
+
+    <div class="vote-roll__stream vote-roll__stream--party">
+      <div class="vote-roll__lanes-row vote-roll__lanes-row--party" aria-hidden="true">
+        <span class="vote-roll__lane-title">Democrats</span>
+        <span class="vote-roll__lane-title">Republicans</span>
+      </div>
+      <div class="vote-roll__split-inner">
+        <div class="vote-roll__lane-col" role="list" aria-label="Democrats">
+          {dems.map((r) => <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />)}
+        </div>
+        <div class="vote-roll__lane-col" role="list" aria-label="Republicans">
+          {gops.map((r) => <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />)}
+        </div>
+        {
+          partyOthers.length > 0 && (
+            <div class="vote-roll__lane-col vote-roll__lane-col--full" role="list" aria-label="Other parties">
+              {partyOthers.map((r) => (
+                <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />
+              ))}
+            </div>
+          )
+        }
+      </div>
+    </div>
+
+    <div class="vote-roll__stream vote-roll__stream--state">
+      {
+        stateGroups.map(({ key, rows: groupRows }) => (
+          <section class="vote-roll__state-group">
+            <h2 class="vote-roll__state-heading">{key}</h2>
+            <div class="vote-roll__state-body" role="list">
+              {groupRows.map((r) => (
+                <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />
+              ))}
+            </div>
+          </section>
+        ))
+      }
+    </div>
+
+    <div class="vote-roll__stream vote-roll__stream--name" role="list">
+      <div class="vote-roll__head" aria-hidden="true">
+        <span class="vote-roll__head-cell">{stateHeader}</span>
+        <span class="vote-roll__head-cell">Name</span>
+        <span class="vote-roll__head-cell">Party</span>
+        <span class="vote-roll__head-cell">Vote</span>
+      </div>
+      {rowsByName.map((r) => <LegislatorVoteRow row={r} memberHref={memberPath(r.bioguideId)} />)}
+    </div>
+  </div>
+</div>
+
+<style>
+  .vote-roll {
+    --vote-roll-col-pad: 0.85rem;
+    --vote-roll-surface: light-dark(#fff, #1c1f22);
+    --vote-roll-border: light-dark(#ddd, #3d4248);
+    --vote-roll-text: light-dark(#1a1a1a, #e8e6e3);
+    --vote-roll-muted: light-dark(#5e5c64, #9a958c);
+    --vote-roll-accent: light-dark(#1a5fb4, #6ec8ff);
+    max-width: 52rem;
+    margin-top: 0.5rem;
+    color: var(--vote-roll-text);
+  }
+
+  .vote-roll__sort {
+    margin: 0 0 1.25rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--vote-roll-border);
+    border-radius: 0.5rem;
+    background: var(--vote-roll-surface);
+  }
+
+  .vote-roll__legend {
+    font-weight: 650;
+    padding-inline: 0.25rem;
+  }
+
+  .vote-roll__options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    margin-top: 0.65rem;
+  }
+
+  .vote-roll__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+
+  .vote-roll__sr {
+    accent-color: var(--vote-roll-accent);
+  }
+
+  .vote-roll__list {
+    display: block;
+  }
+
+  /* One of three streams is shown per sort mode (avoids shared grid row heights). */
+  .vote-roll__stream {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .vote-roll:has(.vote-roll__sr-name:checked) .vote-roll__stream--name {
+    display: flex;
+  }
+
+  .vote-roll:has(.vote-roll__sr-vote:checked) .vote-roll__stream--vote {
+    display: flex;
+  }
+
+  .vote-roll:has(.vote-roll__sr-party:checked) .vote-roll__stream--party {
+    display: flex;
+  }
+
+  .vote-roll:has(.vote-roll__sr-state:checked) .vote-roll__stream--state {
+    display: flex;
+  }
+
+  .vote-roll__stream--state {
+    gap: 1rem;
+  }
+
+  .vote-roll__state-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 0;
+  }
+
+  .vote-roll__state-heading {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--vote-roll-muted);
+    padding-inline: var(--vote-roll-col-pad);
+  }
+
+  .vote-roll__state-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 0;
+    box-sizing: border-box;
+    padding-inline: var(--vote-roll-col-pad);
+  }
+
+  @media (min-width: 40rem) {
+    .vote-roll:has(.vote-roll__sr-vote:checked),
+    .vote-roll:has(.vote-roll__sr-party:checked),
+    .vote-roll:has(.vote-roll__sr-state:checked) {
+      max-width: min(72rem, 100%);
+    }
+
+    /* Wide: lane titles + two flex columns; each column stacks cards by content height. */
+    .vote-roll__stream--vote .vote-roll__lanes-row--vote,
+    .vote-roll__stream--party .vote-roll__lanes-row--party {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 var(--vote-roll-col-pad) 0.15rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--vote-roll-muted);
+    }
+
+    .vote-roll__lanes-row .vote-roll__lane-title {
+      flex: 1 1 minmax(0, 1fr);
+      min-width: 0;
+    }
+
+    .vote-roll__stream--vote .vote-roll__split-inner,
+    .vote-roll__stream--party .vote-roll__split-inner {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+      gap: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+      padding-inline: var(--vote-roll-col-pad);
+    }
+
+    .vote-roll__lane-col {
+      flex: 1 1 calc(50% - 0.5rem);
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      box-sizing: border-box;
+    }
+
+    .vote-roll__lane-col--full {
+      flex: 1 1 100%;
+    }
+
+    /*
+      Small / medium + Vote/Party: dense chip flow — flex row wrap + gap (no masonry hacks).
+    */
+    .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote .vote-roll__lane-col,
+    .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party .vote-roll__lane-col,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-roll__lane-col,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-roll__lane-col {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.28rem 0.32rem;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-roll__lane-col,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-roll__lane-col {
+      gap: 0.32rem 0.4rem;
+    }
+
+    .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-roll__state-body,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-roll__state-body {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.28rem 0.32rem;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-roll__state-body {
+      gap: 0.32rem 0.4rem;
+    }
+  }
+
+  .vote-roll__lanes-row {
+    display: none;
+  }
+
+  /* Narrow: flatten columns so `order` matches single-column vote/party sorts. */
+  @media (max-width: 39.99rem) {
+    .vote-roll__stream--vote .vote-roll__split-inner,
+    .vote-roll__stream--vote .vote-roll__lane-col,
+    .vote-roll__stream--party .vote-roll__split-inner,
+    .vote-roll__stream--party .vote-roll__lane-col {
+      display: contents;
+    }
+
+    /* Small / medium + split: one wrapping flex surface — chips pack by sort order. */
+    .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote,
+    .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party {
+      flex-flow: row wrap;
+      gap: 0.28rem 0.32rem;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party {
+      gap: 0.32rem 0.4rem;
+    }
+
+    .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-roll__state-body,
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-roll__state-body {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.28rem 0.32rem;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-roll__state-body {
+      gap: 0.32rem 0.4rem;
+    }
+  }
+
+  .vote-roll__head {
+    display: none;
+  }
+
+  @media (min-width: 40rem) {
+    .vote-roll__head {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem 1rem;
+      padding: 0.35rem var(--vote-roll-col-pad);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--vote-roll-muted);
+    }
+
+    .vote-roll__head-cell:nth-child(1) {
+      flex: 0 0 6rem;
+      min-width: 4.5rem;
+    }
+
+    .vote-roll__head-cell:nth-child(2) {
+      flex: 1 1 8rem;
+      min-width: 0;
+    }
+
+    .vote-roll__head-cell:nth-child(3) {
+      flex: 0 1 auto;
+    }
+
+    .vote-roll__head-cell:nth-child(4) {
+      flex: 0 0 auto;
+    }
+
+    /* Compact rows: four-column header does not apply. */
+    .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__head,
+    .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__head {
+      display: none;
+    }
+  }
+</style>
+
+<style is:global>
+  /* Row markup lives in VoteRollRow.astro; global so these rules apply to child output. */
+  .vote-roll .vote-row {
+    --order-vote: 0;
+    --order-party: 0;
+    --order-state: 0;
+    --order-name: 0;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    list-style: none;
+  }
+
+  .vote-row__hitbox {
+    display: block;
+    box-sizing: border-box;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--vote-row-border, var(--vote-roll-border));
+    border-radius: 0.45rem;
+    background: var(--vote-roll-surface);
+    color: inherit;
+    text-decoration: none;
+    outline-offset: 3px;
+    --vote-row-border: var(--vote-roll-border);
+    --vote-row-border-hover: var(--vote-roll-accent);
+  }
+
+  .vote-row[data-party-border='dem'] .vote-row__hitbox {
+    --vote-row-border: light-dark(#1e40af, #3b82f6);
+    --vote-row-border-hover: light-dark(#2563eb, #60a5fa);
+  }
+
+  .vote-row[data-party-border='gop'] .vote-row__hitbox {
+    --vote-row-border: light-dark(#b91c1c, #f87171);
+    --vote-row-border-hover: light-dark(#dc2626, #fca5a5);
+  }
+
+  .vote-row[data-party-border='ind'] .vote-row__hitbox {
+    --vote-row-border: light-dark(#047857, #34d399);
+    --vote-row-border-hover: light-dark(#059669, #6ee7b7);
+  }
+
+  .vote-row__hitbox:focus-visible {
+    outline: 2px solid var(--vote-roll-accent);
+  }
+
+  .vote-row__hitbox:hover {
+    border-color: var(--vote-row-border-hover);
+  }
+
+  .vote-row__name-text {
+    color: var(--vote-roll-accent);
+    font-weight: 650;
+  }
+
+  .vote-row__hitbox:hover .vote-row__name-text {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.12em;
+  }
+
+  .vote-row__mode--lg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 0.25rem 0.75rem;
+  }
+
+  .vote-row__mode--med,
+  .vote-row__mode--sm {
+    display: none;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-row .vote-row__mode--lg,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-row .vote-row__mode--sm {
+    display: none;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-row .vote-row__mode--med {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.65rem;
+    font-size: 0.95rem;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-row .vote-row__mode--lg,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-row .vote-row__mode--med {
+    display: none;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-row .vote-row__mode--sm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+  }
+
+  /* Vote/Party lanes: chips hug content (article = flex item; padding on hitbox). */
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote .vote-row,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party .vote-row,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-row,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-row,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-row,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-row {
+    flex: 0 0 auto;
+    width: fit-content;
+    max-width: 100%;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote .vote-row .vote-row__hitbox,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party .vote-row .vote-row__hitbox,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-row .vote-row__hitbox {
+    padding: 0.18rem 0.42rem;
+    border-radius: 0.28rem;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-row .vote-row__hitbox,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-row .vote-row__hitbox,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-row .vote-row__hitbox {
+    padding: 0.24rem 0.5rem;
+    border-radius: 0.32rem;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote .vote-row .vote-row__mode--sm,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party .vote-row .vote-row__mode--sm,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-row .vote-row__mode--sm {
+    flex-wrap: nowrap;
+    gap: 0.28em;
+    font-size: 0.8125rem;
+    line-height: 1.25;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-row .vote-row__mode--med,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-row .vote-row__mode--med,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-row .vote-row__mode--med {
+    flex-wrap: nowrap;
+    gap: 0.32em 0.45em;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote .vote-row .vote-row__compact--state,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party .vote-row .vote-row__compact--state,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-row .vote-row__compact--state,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-row .vote-row__compact--state,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-row .vote-row__compact--state,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-row .vote-row__compact--state {
+    font-weight: 700;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote .vote-row .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party .vote-row .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-row .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-row .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-row .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-row .vote-row__name-text {
+    color: inherit;
+    font-weight: 650;
+  }
+
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--vote .vote-row .vote-row__hitbox:hover .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--party .vote-row .vote-row__hitbox:hover .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-sm:checked) .vote-roll__stream--state .vote-row .vote-row__hitbox:hover .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--vote .vote-row .vote-row__hitbox:hover .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--party .vote-row .vote-row__hitbox:hover .vote-row__name-text,
+  .vote-roll:has(.vote-roll__sr-size-med:checked) .vote-roll__stream--state .vote-row .vote-row__hitbox:hover .vote-row__name-text {
+    text-decoration: none;
+  }
+
+  .vote-row__compact {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  .vote-row__compact--state {
+    font-weight: 650;
+  }
+
+  .vote-row__compact--party,
+  .vote-row__compact--vote {
+    color: var(--vote-roll-muted);
+  }
+
+  @media (min-width: 40rem) {
+    .vote-row__mode--lg {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem 0.75rem;
+    }
+
+    .vote-row__cell--state {
+      flex: 0 0 5.25rem;
+      min-width: 3.5rem;
+    }
+
+    .vote-row__cell--name {
+      flex: 1 1 10rem;
+      min-width: 0;
+    }
+
+    .vote-row__cell--party {
+      flex: 0 1 max-content;
+      min-width: 0;
+    }
+
+    .vote-row__cell--vote {
+      flex: 0 0 auto;
+    }
+
+    .vote-row__cell--party::before,
+    .vote-row__cell--vote::before {
+      content: none;
+    }
+  }
+
+  .vote-row__cell {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  @media (max-width: 39.99rem) {
+    .vote-row__cell--state {
+      font-weight: 600;
+    }
+
+    .vote-row__cell--name {
+      font-size: 1.05rem;
+    }
+
+    .vote-row__cell--party,
+    .vote-row__cell--vote {
+      font-size: 0.88rem;
+      color: var(--vote-roll-muted);
+    }
+
+    .vote-row__cell--party::before {
+      content: 'Party · ';
+      font-weight: 600;
+      color: var(--vote-roll-text);
+    }
+
+    .vote-row__cell--vote::before {
+      content: 'Vote · ';
+      font-weight: 600;
+      color: var(--vote-roll-text);
+    }
+  }
+
+  @media (max-width: 39.99rem) {
+    .vote-roll__stream--vote .vote-row {
+      order: var(--order-vote);
+    }
+
+    .vote-roll__stream--party .vote-row {
+      order: var(--order-party);
+    }
+  }
+
+  .vote-roll:has(.vote-roll__sr-name:checked) .vote-roll__stream--name .vote-row {
+    order: var(--order-name);
+  }
+</style>

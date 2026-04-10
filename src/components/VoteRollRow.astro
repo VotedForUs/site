@@ -1,0 +1,44 @@
+---
+import type { VoteRollRowWithOrders } from '../utils/voteRollSortOrders';
+import { partyAbbrev } from '../utils/voteRollDisplay';
+import { partyBorderKind } from '../utils/voteRollLanes';
+
+interface Props {
+  /** Row with sort-order CSS variables. */
+  row: VoteRollRowWithOrders;
+  /** Href to this member's vote detail page. */
+  memberHref: string;
+}
+
+const { row: r, memberHref } = Astro.props;
+const pAbbr = partyAbbrev(r.party);
+const partyBorder = partyBorderKind(r.party);
+---
+
+<article
+  class="vote-row"
+  role="listitem"
+  data-party-border={partyBorder}
+  style={`--order-vote: ${r.orderVote}; --order-party: ${r.orderParty}; --order-state: ${r.orderState}; --order-name: ${r.orderName};`}
+>
+  <a class="vote-row__hitbox" href={memberHref}>
+    <div class="vote-row__mode vote-row__mode--lg">
+      <div class="vote-row__cell vote-row__cell--state">{r.stateDistrict}</div>
+      <div class="vote-row__cell vote-row__cell--name">
+        <span class="vote-row__name-text">{r.name}</span>
+      </div>
+      <div class="vote-row__cell vote-row__cell--party">{r.party}</div>
+      <div class="vote-row__cell vote-row__cell--vote">{r.vote}</div>
+    </div>
+    <div class="vote-row__mode vote-row__mode--med">
+      <span class="vote-row__compact vote-row__compact--state">{r.stateDistrict}</span>
+      <span class="vote-row__compact vote-row__compact--name vote-row__name-text">{r.lastName}</span>
+      <span class="vote-row__compact vote-row__compact--party">{pAbbr}</span>
+      <span class="vote-row__compact vote-row__compact--vote">{r.vote}</span>
+    </div>
+    <div class="vote-row__mode vote-row__mode--sm">
+      <span class="vote-row__compact vote-row__compact--state">{r.stateDistrict}</span>
+      <span class="vote-row__compact vote-row__compact--vote">{r.vote}</span>
+    </div>
+  </a>
+</article>

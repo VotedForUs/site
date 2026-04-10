@@ -1,19 +1,32 @@
 ---
+import { proceduralVoteCastKind } from '../utils/voteCastKind.js';
+
+/**
+ * One-line legislator vote summary: `{nameTitle} voted {vote} on {voteTitle} {billTitle}.`
+ * Procedural casts (`UC`, `vv`) use the same pattern as roll calls but swap in fixed phrases; see `voteCastKind.ts`.
+ */
 interface Props {
+  /** Display name with title prefix (e.g. "Rep. Smith"). */
   nameTitle: string;
+  /** Raw cast from the roll (e.g. Yea, Nay); `UC` / `vv` use procedural wording (see votes repo CongressApi). */
   voteCast: string;
-  trailingText: string;
+  /** Vote question text from the recorded vote (e.g. "On Agreeing to the Resolution"). */
+  voteTitle: string;
+  /** Full bill title for display after the vote question. */
+  billTitle: string;
 }
-const { nameTitle, voteCast, trailingText } = Astro.props;
-const isUC = voteCast === 'UC';
+const { nameTitle, voteCast, voteTitle, billTitle } = Astro.props;
+const proc = proceduralVoteCastKind(voteCast);
 ---
 <p>
   {nameTitle}
-  {isUC ? (
+  {proc === 'unanimous-consent' ? (
     <strong>joined Unanimous Consent</strong>
+  ) : proc === 'voice-vote' ? (
+    <strong>joined a voice vote</strong>
   ) : (
     <> voted <strong>{voteCast || '—'}</strong></>
   )}
-  {' on the '}
-  {trailingText}.
+  {' '}
+  {voteTitle} {billTitle}.
 </p>

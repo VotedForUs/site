@@ -41,7 +41,7 @@ const legislator = legEntry.data;
 const voteCast = vote.votes?.[bioguideId] ?? '';
 
 const billTitle = getBestBillTitle(bill);
-const trailingText = vote.finalChamberVote ? billTitle : `${vote.actionText ?? `roll call #${vote.rollNumber}`} on ${billTitle}`;
+const voteTitle = vote.question ?? `Roll call ${vote.rollNumber}`;
 const pageTitle = `${legislator.nameTitle} - ${bill.type} ${bill.number}`;
 ---
 
@@ -49,5 +49,10 @@ const pageTitle = `${legislator.nameTitle} - ${bill.type} ${bill.number}`;
   title={pageTitle}
   socialCardPath={`/social-cards/v/${normalizedVoteId}/${bioguideId}.png`}
 >
-  <Voted nameTitle={legislator.nameTitle} voteCast={voteCast} trailingText={trailingText} />
+  <Voted
+    nameTitle={legislator.nameTitle}
+    voteCast={voteCast}
+    voteTitle={voteTitle}
+    billTitle={billTitle}
+  />
 </Layout>

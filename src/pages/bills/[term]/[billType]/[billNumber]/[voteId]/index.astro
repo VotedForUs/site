@@ -1,11 +1,13 @@
 ---
 import Layout from '../../../../../../layouts/Layout.astro';
 import EditorialVoteActionLink from '../../../../../../components/EditorialVoteActionLink.astro';
+import VoteRoll from '../../../../../../components/VoteRoll.astro';
 import { getEntry, getCollection } from 'astro:content';
 import { getBestBillTitle } from '../../../../../../utils/billTitle.js';
 import { getEditorialVoteAction } from '../../../../../../utils/editorial.js';
 import { getLimitedBillIds } from '../../../../../../buildConfig';
 import { shouldBuildPage } from '../../../../../../utils/buildManifest.js';
+import type { LegislatorSmall } from '@votedforus/votes/types';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
@@ -13,7 +15,6 @@ export async function getStaticPaths() {
   return allVotes
     .filter(vote => limitedBillIds.has(vote.data.billId) && shouldBuildPage('recorded-votes-loader', vote.id))
     .map(vote => {
-      // vote.id format: {congress}-{TYPE}-{number}-{voteNumber}
       const parts = vote.id.split('-');
       return {
         params: {
@@ -42,35 +43,44 @@ const billId = vote.billId;
 const billEntry = await getEntry('bills', billId);
 const billTitle = billEntry?.data ? getBestBillTitle(billEntry.data) : (vote.billTitle ?? '');
 
-// Build table rows: state-district | name | party | vote. Join with legislators.
-// Use the `legislators` collection for lookup (all member JSON files). `representatives` /
-// `senators` are filtered by `type === 'rep'|'sen'` and omit members when `type` is missing
-// or nonstandard, which would leave only bioguide ids and empty state/party in the table.
 const chamber = vote.chamber?.toLowerCase();
 const votesMap = vote.votes ?? {};
-const rows: { bioguideId: string; stateDistrict: string; name: string; party: string; vote: string }[] = [];
+
+const draftRows: {
+  bioguideId: string;
+  leg: LegislatorSmall | undefined;
+  vote: string;
+}[] = [];
 
 for (const [bioguideId, voteCast] of Object.entries(votesMap)) {
   const legEntry = await getEntry('legislators', bioguideId);
-  const leg = legEntry?.data;
-  const state = leg?.state ?? '';
-  const district = leg?.district != null ? `-${leg.district}` : '';
-  const stateDistrict = chamber === 'senate' ? state : `${state}${district}`;
-  rows.push({
+  draftRows.push({
     bioguideId,
-    stateDistrict,
-    name: leg?.name ?? leg?.nameTitle ?? bioguideId,
-    party: leg?.party ?? '',
+    leg: legEntry?.data as LegislatorSmall | undefined,
     vote: voteCast as string,
   });
 }
 
-// Sort by state then name (last name)
-rows.sort((a, b) => {
-  const stateCmp = a.stateDistrict.localeCompare(b.stateDistrict);
-  if (stateCmp !== 0) return stateCmp;
-  return a.name.localeCompare(b.name);
-});
+const rows: { bioguideId: string; stateDistrict: string; name: string; lastName: string; party: string; vote: string }[] = [];
+
+for (const r of draftRows) {
+  const leg = r.leg;
+  const state = leg?.state ?? '';
+  const district = leg?.district != null ? `-${leg.district}` : '';
+  const seatSuffix = leg?.stateRank === 'senior' ? '-s1' : leg?.stateRank === 'junior' ? '-s2' : '';
+  const stateDistrict =
+    chamber === 'senate'
+      ? (state.length > 0 ? `${state}${seatSuffix}` : r.bioguideId)
+      : `${state}${district}`;
+  rows.push({
+    bioguideId: r.bioguideId,
+    stateDistrict,
+    name: leg?.name ?? leg?.nameTitle ?? r.bioguideId,
+    lastName: leg?.lastName ?? '',
+    party: leg?.party ?? '',
+    vote: r.vote,
+  });
+}
 
 const voteTitle = question ?? `Vote ${voteId}`;
 const pageTitle = `${voteTitle} - ${billTitle}`;
@@ -83,27 +93,13 @@ const pageTitle = `${voteTitle} - ${billTitle}`;
   {vote.voteUrl && <p><a href={vote.voteUrl} target="_blank" rel="noopener noreferrer">View on official site</a></p>}
 
   <h2>Votes ({rows.length})</h2>
-  <!-- Vote roll: no sort/store — action-table localStorage can restore a stale column and scramble td vs th. -->
-  <action-table class="tbl">
-  <table>
-    <thead>
-      <tr>
-        <th data-col={chamber === 'senate' ? 'State' : 'State-District'} no-sort>{chamber === 'senate' ? 'State' : 'State-District'}</th>
-        <th no-sort>Name</th>
-        <th no-sort>Party</th>
-        <th no-sort>Vote</th>
-      </tr>
-    </thead>
-    <tbody>
-      {rows.map((r) => (
-        <tr>
-          <td>{r.stateDistrict}</td>
-          <td><a href={`${import.meta.env.BASE_URL}bills/${term}/${billType}/${billNumber}/${voteId}/${r.bioguideId}`}>{r.name}</a></td>
-          <td>{r.party}</td>
-          <td>{r.vote}</td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
-  </action-table>
+  <VoteRoll
+    rows={rows}
+    stateHeader={chamber === 'senate' ? 'Seat' : 'District'}
+    sortGroupName={`vr-${fullVoteId}`}
+    term={term}
+    billType={billType}
+    billNumber={billNumber}
+    voteId={voteId}
+  />
 </Layout>
