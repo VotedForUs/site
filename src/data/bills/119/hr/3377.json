@@ -1,8 +1,68 @@
 {
   "actions": {
-    "count": 14,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/3377/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-03-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Private Law No: 119-1.",
+        "type": "President"
+      },
+      {
+        "actionCode": "41000",
+        "actionDate": "2026-03-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Private Law No: 119-1.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-03-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "41000",
+        "actionDate": "2026-03-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-03-24",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-03-24",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-03-04",
         "sourceSystem": {
@@ -255,9 +315,15 @@
   "congress": 119,
   "introducedDate": "2025-05-13",
   "latestAction": {
-    "actionDate": "2026-03-04",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-03-26",
+    "text": "Became Private Law No: 119-1."
   },
+  "laws": [
+    {
+      "number": "119-1",
+      "type": "Private Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3377",
   "number": "3377",
   "originChamber": "House",
@@ -292,9 +358,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-05T11:56:27Z",
-  "updateDateIncludingText": "2026-03-05T11:56:27Z",
+  "updateDate": "2026-04-10T17:39:11Z",
+  "updateDateIncludingText": "2026-04-10T17:39:11Z",
   "id": "119-HR-3377",
-  "lastActionDate": "2026-03-04",
+  "lastActionDate": "2026-03-26",
   "lastRecordedVoteDate": "2026-03-03"
 }

@@ -199,6 +199,10 @@
   "number": "2480",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2480/summaries?format=json"
+  },
   "title": "Telecom Cybersecurity Transparency Act",
   "titles": {
     "titles": [
@@ -227,8 +231,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-09-08T16:57:58Z",
-  "updateDateIncludingText": "2025-09-08T16:57:58Z",
+  "updateDate": "2026-04-09T13:52:16Z",
+  "updateDateIncludingText": "2026-04-09T13:52:16Z",
   "id": "119-S-2480",
   "lastActionDate": "2025-07-29",
   "lastRecordedVoteDate": "2025-07-28"

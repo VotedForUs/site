@@ -914,7 +914,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1823/summaries?format=json"
   },
   "title": "VA Budget Shortfall Accountability Act",
@@ -977,8 +977,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-01-21T18:52:47Z",
-  "updateDateIncludingText": "2026-01-21T18:52:47Z",
+  "updateDate": "2026-04-10T13:13:15Z",
+  "updateDateIncludingText": "2026-04-10T13:13:15Z",
   "id": "119-HR-1823",
   "lastActionDate": "2026-01-20",
   "lastRecordedVoteDate": "2025-12-18"

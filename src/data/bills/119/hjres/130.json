@@ -859,7 +859,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hjres/130/summaries?format=json"
   },
   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Buffalo Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
@@ -892,8 +892,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-04-09T21:44:32Z",
-  "updateDateIncludingText": "2026-04-09T21:44:32Z",
+  "updateDate": "2026-04-10T12:09:14Z",
+  "updateDateIncludingText": "2026-04-10T12:09:14Z",
   "id": "119-HJRES-130",
   "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-11-20T19:23:12Z"

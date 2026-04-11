@@ -879,7 +879,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/4446/summaries?format=json"
   },
   "title": "FAST VETS Act",
@@ -998,8 +998,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-04T04:26:31Z",
-  "updateDateIncludingText": "2026-02-04T04:26:31Z",
+  "updateDate": "2026-04-10T13:14:54Z",
+  "updateDateIncludingText": "2026-04-10T13:14:54Z",
   "id": "119-HR-4446",
   "lastActionDate": "2026-01-20",
   "lastRecordedVoteDate": "2025-12-18"

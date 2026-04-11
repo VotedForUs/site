@@ -833,7 +833,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1912/summaries?format=json"
   },
   "title": "Veteran Fraud Reimbursement Act of 2025",
@@ -894,8 +894,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:19:54Z",
-  "updateDateIncludingText": "2026-03-31T20:19:54Z",
+  "updateDate": "2026-04-10T12:49:12Z",
+  "updateDateIncludingText": "2026-04-10T12:49:12Z",
   "id": "119-HR-1912",
   "lastActionDate": "2025-12-12",
   "lastRecordedVoteDate": "2025-11-20"
