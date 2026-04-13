@@ -1,0 +1,17 @@
+{
+  "date": "2026-04-13",
+  "runId": "24332082082",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-S-1142"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
