@@ -1,8 +1,31 @@
 {
   "actions": {
-    "count": 16,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/2159/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 370.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-04-14",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on the Judiciary. Reported by Senator Grassley without amendment. Without written report.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-03-26",
         "committees": [
@@ -644,8 +667,8 @@
   "congress": 119,
   "introducedDate": "2025-03-14",
   "latestAction": {
-    "actionDate": "2026-03-26",
-    "text": "Committee on the Judiciary. Ordered to be reported without amendment favorably."
+    "actionDate": "2026-04-14",
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 370."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2159",
   "number": "2159",
@@ -658,6 +681,16 @@
   "title": "Count the Crimes to Cut Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Count the Crimes to Cut Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-04-16T03:38:23Z"
+      },
       {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
@@ -673,9 +706,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To direct the Attorney General of the United States to submit to the Congress a report on Federal criminal offenses, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Count the Crimes to Cut Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-03T04:38:19Z"
       },
       {
@@ -683,9 +716,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Count the Crimes to Cut Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To direct the Attorney General of the United States to submit to the Congress a report on Federal criminal offenses, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-03T04:38:19Z"
       },
       {
@@ -723,9 +756,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-01T12:49:20Z",
-  "updateDateIncludingText": "2026-04-01T12:49:20Z",
+  "updateDate": "2026-04-16T03:38:23Z",
+  "updateDateIncludingText": "2026-04-16T03:38:23Z",
   "id": "119-HR-2159",
-  "lastActionDate": "2026-03-26",
+  "lastActionDate": "2026-04-14",
   "lastRecordedVoteDate": "2025-12-01"
 }

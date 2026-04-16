@@ -2007,12 +2007,6 @@
         "updateDate": "2026-03-10T13:58:22Z"
       },
       {
-        "title": "Veterans Accessibility Advisory Committee Act of 2025",
-        "titleType": "Override Display Title",
-        "titleTypeCode": 81,
-        "updateDate": "2026-02-25T17:44:15Z"
-      },
-      {
         "billTextVersionCode": "EAH",
         "billTextVersionName": "Engrossed Amendment House",
         "title": "Safeguard American Voter Eligibility Act",
@@ -2059,8 +2053,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-31T14:24:31Z",
-  "updateDateIncludingText": "2026-03-31T14:24:31Z",
+  "updateDate": "2026-04-15T18:19:26Z",
+  "updateDateIncludingText": "2026-04-15T18:19:26Z",
   "id": "119-S-1383",
   "lastActionDate": "2026-03-26",
   "lastRecordedVoteDate": "2026-03-24T21:43:27Z"

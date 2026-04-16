@@ -505,7 +505,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 214 - 210 (Roll no. 99).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 214 - 210 (Roll no. 99). (text: CR H2688)",
         "type": "Floor"
       },
       {
@@ -1010,7 +1010,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H2696-2697)",
         "type": "Floor"
       },
       {
@@ -1043,7 +1043,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H2688-2696)",
         "type": "Floor"
       },
       {
@@ -1132,8 +1132,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-04-01T13:32:42Z",
-  "updateDateIncludingText": "2026-04-09T16:27:20Z",
+  "updateDate": "2026-04-15T13:13:18Z",
+  "updateDateIncludingText": "2026-04-15T13:13:18Z",
   "id": "119-HRES-1131",
   "lastActionDate": "2026-03-25",
   "lastRecordedVoteDate": "2026-03-25T18:06:37Z"
