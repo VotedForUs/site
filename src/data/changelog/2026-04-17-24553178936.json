@@ -1,0 +1,21 @@
+{
+  "date": "2026-04-17",
+  "runId": "24553178936",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HJRES-140",
+      "119-S-1071",
+      "119-S-2296"
+    ],
+    "newLaws": [],
+    "withNewVotes": [
+      "119-HJRES-140"
+    ]
+  }
+}
