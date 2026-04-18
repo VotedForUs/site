@@ -159,7 +159,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 47 - 53. Record Vote Number: 69. (consideration: CR S1577)",
+        "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 47 - 53. Record Vote Number: 69.",
         "type": "Discharge"
       },
       {
@@ -183,7 +183,7 @@
   "introducedDate": "2026-03-05",
   "latestAction": {
     "actionDate": "2026-03-24",
-    "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 47 - 53. Record Vote Number: 69. (consideration: CR S1577)"
+    "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 47 - 53. Record Vote Number: 69."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/116",
   "number": "116",
@@ -209,8 +209,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-04-08T19:53:05Z",
-  "updateDateIncludingText": "2026-04-08T19:53:05Z",
+  "updateDate": "2026-04-17T14:15:27Z",
+  "updateDateIncludingText": "2026-04-17T14:15:27Z",
   "id": "119-SJRES-116",
   "lastActionDate": "2026-03-24",
   "lastRecordedVoteDate": "2026-03-24T23:43:33Z"
