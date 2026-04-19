@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 10,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/hr/1689/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-16",
@@ -573,9 +581,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-04-16",
-    "actionTime": "14:22:04",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-17",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1689",
   "number": "1689",
@@ -615,9 +622,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-17T18:12:36Z",
-  "updateDateIncludingText": "2026-04-17T18:12:36Z",
+  "updateDate": "2026-04-18T10:56:22Z",
+  "updateDateIncludingText": "2026-04-18T10:56:22Z",
   "id": "119-HR-1689",
-  "lastActionDate": "2026-04-16",
+  "lastActionDate": "2026-04-17",
   "lastRecordedVoteDate": "2026-04-16T18:22:01Z"
 }

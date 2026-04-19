@@ -1,0 +1,49 @@
+{
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "G12 Dirksen Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4721",
+    "zipCode": 20510
+  },
+  "bioguideId": "A000383",
+  "birthYear": "1962",
+  "currentMember": true,
+  "directOrderName": "Alan Armstrong",
+  "firstName": "Alan",
+  "honorificName": "Mr.",
+  "invertedOrderName": "Armstrong, Alan",
+  "lastName": "Armstrong",
+  "middleName": "Stuart",
+  "officialWebsiteUrl": "https://www.armstrong.senate.gov/",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "R",
+      "partyName": "Republican",
+      "startYear": 2026
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Alan Armstrong",
+      "firstName": "Alan",
+      "honorificName": "Mr.",
+      "invertedOrderName": "Armstrong, Alan",
+      "lastName": "Armstrong",
+      "middleName": "Stuart",
+      "startDate": "2026-03-25T08:45:00Z"
+    }
+  ],
+  "state": "Oklahoma",
+  "terms": [
+    {
+      "chamber": "Senate",
+      "congress": 119,
+      "memberType": "Senator",
+      "startYear": 2026,
+      "stateCode": "OK",
+      "stateName": "Oklahoma"
+    }
+  ],
+  "updateDate": "2026-03-26T10:30:18Z"
+}
