@@ -27,9 +27,6 @@ jobs:
     permissions:
       contents: read
       packages: read
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
     steps:
       - uses: actions/checkout@v6
 
@@ -49,7 +46,7 @@ jobs:
       # Uses run-ID key + prefix restore so we always get the most recent warm cache.
       # The digest comparison inside loaders handles entry-level freshness.
       - name: Restore Astro data-store cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .astro/
           key: astro-data-prod-${{ runner.os }}-${{ github.run_id }}
@@ -60,7 +57,7 @@ jobs:
       # Contains the previous build's HTML output + .astro-manifest.json for
       # the incremental-check script to diff against.
       - name: Restore dist cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: dist-cache/
           key: astro-dist-prod-${{ runner.os }}-${{ github.run_id }}
@@ -68,7 +65,7 @@ jobs:
             astro-dist-prod-${{ runner.os }}-
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       # Compute source-file hashes, diff against dist-cache/.astro-manifest.json,
       # write src/data/.build-manifest.json for getStaticPaths to consume.
@@ -83,6 +80,7 @@ jobs:
       - name: Build site
         env:
           FORCE_FULL_REBUILD: ${{ inputs.force_full_rebuild || 'false' }}
+          NODE_OPTIONS: '--max-old-space-size=6144'
         run: npm run build
 
       # Merge pages from the previous build that were NOT regenerated this build.
@@ -104,7 +102,7 @@ jobs:
           fi
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./dist
 
@@ -117,10 +115,7 @@ jobs:
     permissions:
       pages: write
       id-token: write
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

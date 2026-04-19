@@ -26,9 +26,6 @@ pnpm-debug.log*
 # API cache — raw responses, not for version control
 .cache/
 
-# TEMP
-src/content/*
-
 # benchmark results — local only
 benchmark-results/
 dist-cache/
