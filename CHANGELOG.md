@@ -1,3 +1,8 @@
+# [v1.1.13](https://github.com/VotedForUs/site/compare/v1.1.12...v1.1.13) (2026-04-19)
+
+## 🐛 Bug Fixes
+- [`77e85286`](https://github.com/VotedForUs/site/commit/77e85286)  Fix build crash on missing legislator + bump votes to 1.1.9
+
 # [v1.1.12](https://github.com/VotedForUs/site/compare/v1.1.11...v1.1.12) (2026-04-19)
 
 # [v1.1.11](https://github.com/VotedForUs/site/compare/v1.1.10...v1.1.11) (2026-04-05)
