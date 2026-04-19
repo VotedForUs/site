@@ -32,17 +32,18 @@ const vote = voteEntry.data;
 const billEntry = await getEntry('bills', vote.billId);
 const legEntry = await getEntry('legislators', bioguideId);
 
-if (!billEntry || !legEntry) {
-  throw new Error('Bill or legislator not found');
+if (!billEntry) {
+  throw new Error(`Bill not found: ${vote.billId}`);
 }
 
 const bill = billEntry.data;
-const legislator = legEntry.data;
+const legislator = legEntry?.data;
 const voteCast = vote.votes?.[bioguideId] ?? '';
 
 const billTitle = getBestBillTitle(bill);
 const voteTitle = vote.question ?? `Roll call ${vote.rollNumber}`;
-const pageTitle = `${legislator.nameTitle} - ${bill.type} ${bill.number}`;
+const nameTitle = legislator?.nameTitle ?? bioguideId;
+const pageTitle = `${nameTitle} - ${bill.type} ${bill.number}`;
 ---
 
 <Layout
@@ -50,7 +51,7 @@ const pageTitle = `${legislator.nameTitle} - ${bill.type} ${bill.number}`;
   socialCardPath={`/social-cards/v/${normalizedVoteId}/${bioguideId}.png`}
 >
   <Voted
-    nameTitle={legislator.nameTitle}
+    nameTitle={nameTitle}
     voteCast={voteCast}
     voteTitle={voteTitle}
     billTitle={billTitle}
