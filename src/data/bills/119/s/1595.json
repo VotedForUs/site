@@ -252,6 +252,10 @@
   "number": "1595",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/1595/summaries?format=json"
+  },
   "title": "Improving Police CARE Act",
   "titles": {
     "titles": [
@@ -328,8 +332,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-04-07T20:10:00Z",
-  "updateDateIncludingText": "2026-04-07T20:10:00Z",
+  "updateDate": "2026-04-20T19:41:03Z",
+  "updateDateIncludingText": "2026-04-20T19:41:03Z",
   "id": "119-S-1595",
   "lastActionDate": "2025-08-01",
   "lastRecordedVoteDate": "2025-07-29"
