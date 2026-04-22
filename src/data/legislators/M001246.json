@@ -1,0 +1,46 @@
+{
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "zipCode": 20515
+  },
+  "bioguideId": "M001246",
+  "birthYear": "1977",
+  "currentMember": true,
+  "directOrderName": "Analilia Mejia",
+  "district": 11,
+  "firstName": "Analilia",
+  "honorificName": "Ms.",
+  "invertedOrderName": "Mejia, Analilia",
+  "lastName": "Mejia",
+  "partyHistory": [
+    {
+      "partyAbbreviation": "D",
+      "partyName": "Democratic",
+      "startYear": 2026
+    }
+  ],
+  "previousNames": [
+    {
+      "directOrderName": "Analilia Mejia",
+      "firstName": "Analilia",
+      "honorificName": "Ms.",
+      "invertedOrderName": "Mejia, Analilia",
+      "lastName": "Mejia",
+      "startDate": "2026-04-20T04:00:00Z"
+    }
+  ],
+  "state": "New Jersey",
+  "terms": [
+    {
+      "chamber": "House of Representatives",
+      "congress": 119,
+      "district": 11,
+      "memberType": "Representative",
+      "startYear": 2026,
+      "stateCode": "NJ",
+      "stateName": "New Jersey"
+    }
+  ],
+  "updateDate": "2026-04-21T15:03:10Z"
+}

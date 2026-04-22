@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hres/1174/actions?format=json",
     "actions": [
       {
@@ -1098,6 +1098,10 @@
   "number": "1174",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1174/summaries?format=json"
+  },
   "title": "Providing for consideration of the bill (H.R. 6387) to amend the Clean Air Act to require revisions to regulations governing the review and handling of air quality monitoring data influenced by exceptional events or actions to mitigate wildfire risk; providing for consideration of the bill (H.R. 6398) to amend the Clean Air Act relating to review by the Environmental Protection Agency of proposed legislation; providing for consideration of the bill (H.R. 6409) to amend the Clean Air Act to clarify standards for emissions emanating from outside of the United States, and for other purposes; and providing for consideration of the resolution (H. Res. 1156) expressing support for tax policies that support working families.",
   "titles": {
     "titles": [
@@ -1126,8 +1130,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-04-17T03:38:31Z",
-  "updateDateIncludingText": "2026-04-17T07:18:35Z",
+  "updateDate": "2026-04-20T18:48:32Z",
+  "updateDateIncludingText": "2026-04-20T18:48:32Z",
   "id": "119-HRES-1174",
   "lastActionDate": "2026-04-15",
   "lastRecordedVoteDate": "2026-04-15T17:37:31Z"
