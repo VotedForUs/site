@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 12,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/1689/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 374.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2026-04-20",
         "sourceSystem": {
@@ -589,8 +597,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-04-20",
-    "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+    "actionDate": "2026-04-21",
+    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 374."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1689",
   "number": "1689",
@@ -630,9 +638,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-21T10:56:29Z",
-  "updateDateIncludingText": "2026-04-21T10:56:29Z",
+  "updateDate": "2026-04-22T20:18:05Z",
+  "updateDateIncludingText": "2026-04-23T03:48:23Z",
   "id": "119-HR-1689",
-  "lastActionDate": "2026-04-20",
+  "lastActionDate": "2026-04-21",
   "lastRecordedVoteDate": "2026-04-16T18:22:01Z"
 }

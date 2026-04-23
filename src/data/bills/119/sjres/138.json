@@ -204,6 +204,10 @@
   "number": "138",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/138/summaries?format=json"
+  },
   "title": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services.",
   "titles": {
     "titles": [
@@ -224,8 +228,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-04-16T15:23:18Z",
-  "updateDateIncludingText": "2026-04-16T15:23:18Z",
+  "updateDate": "2026-04-22T14:29:36Z",
+  "updateDateIncludingText": "2026-04-22T14:29:36Z",
   "id": "119-SJRES-138",
   "lastActionDate": "2026-04-15",
   "lastRecordedVoteDate": "2026-04-15T23:55:13Z"
