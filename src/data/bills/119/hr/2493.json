@@ -1,20 +1,12 @@
 {
   "actions": {
-    "count": 18,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5200/actions?format=json",
+    "count": 19,
+    "url": "https://api.congress.gov/v3/bill/119/hr/2493/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-04-21",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 375.",
-        "type": "Calendars"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2026-04-20",
-        "actionTime": "19:20:09",
+        "actionDate": "2026-04-21",
+        "actionTime": "15:44:17",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,16 +16,16 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-04-20",
-        "actionTime": "19:20:08",
+        "actionDate": "2026-04-21",
+        "actionTime": "15:44:16",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-20T23:20:08Z",
-            "rollNumber": 126,
+            "date": "2026-04-21T19:44:16Z",
+            "rollNumber": 128,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll126.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll128.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Yea",
@@ -44,34 +36,34 @@
               "A000375": "Yea",
               "A000379": "Yea",
               "A000380": "Yea",
-              "A000381": "Not Voting",
+              "A000381": "Yea",
               "B000490": "Yea",
               "B000668": "Yea",
               "B000740": "Yea",
               "B000825": "Yea",
               "B001257": "Yea",
-              "B001260": "Not Voting",
+              "B001260": "Yea",
               "B001278": "Yea",
               "B001281": "Yea",
-              "B001282": "Not Voting",
+              "B001282": "Yea",
               "B001285": "Not Voting",
               "B001287": "Yea",
               "B001291": "Yea",
               "B001292": "Yea",
-              "B001295": "Not Voting",
+              "B001295": "Yea",
               "B001296": "Yea",
               "B001298": "Yea",
               "B001300": "Yea",
               "B001301": "Yea",
               "B001302": "Not Voting",
               "B001306": "Yea",
-              "B001307": "Not Voting",
-              "B001309": "Not Voting",
+              "B001307": "Yea",
+              "B001309": "Yea",
               "B001313": "Yea",
               "B001314": "Yea",
               "B001315": "Yea",
               "B001316": "Nay",
-              "B001317": "Yea",
+              "B001317": "Nay",
               "B001318": "Yea",
               "B001321": "Yea",
               "B001322": "Yea",
@@ -102,7 +94,7 @@
               "C001108": "Yea",
               "C001110": "Yea",
               "C001112": "Yea",
-              "C001115": "Nay",
+              "C001115": "Yea",
               "C001116": "Yea",
               "C001117": "Yea",
               "C001118": "Not Voting",
@@ -112,10 +104,9 @@
               "C001123": "Yea",
               "C001125": "Yea",
               "C001126": "Yea",
-              "C001127": "Not Voting",
               "C001129": "Yea",
               "C001130": "Yea",
-              "C001131": "Not Voting",
+              "C001131": "Yea",
               "C001132": "Yea",
               "C001133": "Yea",
               "C001136": "Yea",
@@ -134,7 +125,7 @@
               "D000623": "Yea",
               "D000624": "Yea",
               "D000626": "Yea",
-              "D000628": "Yea",
+              "D000628": "Not Voting",
               "D000629": "Yea",
               "D000631": "Yea",
               "D000634": "Yea",
@@ -181,13 +172,13 @@
               "G000568": "Not Voting",
               "G000576": "Yea",
               "G000581": "Yea",
-              "G000583": "Not Voting",
-              "G000585": "Not Voting",
+              "G000583": "Yea",
+              "G000585": "Yea",
               "G000586": "Yea",
               "G000587": "Yea",
               "G000589": "Yea",
               "G000591": "Yea",
-              "G000592": "Yea",
+              "G000592": "Not Voting",
               "G000593": "Yea",
               "G000597": "Yea",
               "G000598": "Yea",
@@ -201,7 +192,7 @@
               "G000606": "Yea",
               "H000874": "Yea",
               "H001047": "Yea",
-              "H001052": "Nay",
+              "H001052": "Yea",
               "H001058": "Yea",
               "H001066": "Yea",
               "H001067": "Yea",
@@ -209,7 +200,7 @@
               "H001072": "Yea",
               "H001077": "Yea",
               "H001081": "Yea",
-              "H001082": "Not Voting",
+              "H001082": "Yea",
               "H001085": "Yea",
               "H001086": "Yea",
               "H001090": "Yea",
@@ -221,16 +212,16 @@
               "H001098": "Yea",
               "H001099": "Yea",
               "H001100": "Yea",
-              "H001101": "Nay",
+              "H001101": "Yea",
               "H001102": "Yea",
               "I000056": "Yea",
-              "I000058": "Not Voting",
+              "I000058": "Yea",
               "J000288": "Yea",
               "J000289": "Yea",
               "J000294": "Yea",
               "J000295": "Yea",
               "J000298": "Yea",
-              "J000301": "Not Voting",
+              "J000301": "Yea",
               "J000302": "Yea",
               "J000304": "Yea",
               "J000305": "Yea",
@@ -248,8 +239,8 @@
               "K000392": "Yea",
               "K000397": "Yea",
               "K000398": "Not Voting",
-              "K000399": "Yea",
-              "K000400": "Not Voting",
+              "K000399": "Not Voting",
+              "K000400": "Yea",
               "K000401": "Yea",
               "K000402": "Yea",
               "K000403": "Yea",
@@ -280,19 +271,19 @@
               "M000194": "Not Voting",
               "M000312": "Yea",
               "M000317": "Yea",
-              "M000687": "Not Voting",
+              "M000687": "Yea",
               "M000871": "Yea",
-              "M001136": "Not Voting",
+              "M001136": "Yea",
               "M001137": "Yea",
               "M001143": "Yea",
               "M001157": "Not Voting",
               "M001160": "Yea",
               "M001163": "Yea",
-              "M001177": "Yea",
-              "M001184": "Nay",
-              "M001188": "Not Voting",
+              "M001177": "Nay",
+              "M001184": "Yea",
+              "M001188": "Yea",
               "M001194": "Yea",
-              "M001196": "Not Voting",
+              "M001196": "Yea",
               "M001199": "Yea",
               "M001204": "Yea",
               "M001205": "Yea",
@@ -329,11 +320,12 @@
               "M001240": "Yea",
               "M001241": "Yea",
               "M001245": "Yea",
+              "M001246": "Yea",
               "N000002": "Yea",
               "N000015": "Yea",
-              "N000026": "Not Voting",
+              "N000026": "Yea",
               "N000188": "Yea",
-              "N000189": "Yea",
+              "N000189": "Not Voting",
               "N000190": "Not Voting",
               "N000191": "Yea",
               "N000193": "Yea",
@@ -369,7 +361,7 @@
               "R000609": "Yea",
               "R000610": "Yea",
               "R000612": "Yea",
-              "R000614": "Nay",
+              "R000614": "Yea",
               "R000617": "Yea",
               "R000619": "Yea",
               "R000620": "Yea",
@@ -379,7 +371,7 @@
               "S000185": "Yea",
               "S000250": "Yea",
               "S000344": "Yea",
-              "S000510": "Not Voting",
+              "S000510": "Yea",
               "S000522": "Yea",
               "S000929": "Yea",
               "S001145": "Not Voting",
@@ -395,7 +387,7 @@
               "S001189": "Yea",
               "S001190": "Yea",
               "S001195": "Yea",
-              "S001196": "Not Voting",
+              "S001196": "Yea",
               "S001199": "Yea",
               "S001200": "Yea",
               "S001201": "Yea",
@@ -417,7 +409,7 @@
               "S001229": "Yea",
               "S001230": "Yea",
               "S001231": "Yea",
-              "T000165": "Not Voting",
+              "T000165": "Yea",
               "T000193": "Yea",
               "T000460": "Yea",
               "T000463": "Yea",
@@ -451,8 +443,8 @@
               "W000795": "Yea",
               "W000797": "Yea",
               "W000798": "Yea",
-              "W000804": "Yea",
-              "W000806": "Not Voting",
+              "W000804": "Not Voting",
+              "W000806": "Yea",
               "W000808": "Not Voting",
               "W000809": "Yea",
               "W000812": "Yea",
@@ -464,32 +456,31 @@
               "W000830": "Yea",
               "W000831": "Yea",
               "Y000067": "Yea",
-              "Z000018": "Yea",
-              "M001246": "Yea"
+              "Z000018": "Yea"
             },
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 7,
-                "notVotingTotal": 22,
+                "nayTotal": 4,
+                "notVotingTotal": 14,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 187
+                "yeaTotal": 198
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 16,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 198
+                "yeaTotal": 207
               },
               {
                 "nayTotal": 0,
@@ -503,33 +494,33 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll126.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll128.xml",
             "question": "On Motion to Suspend the Rules and Pass",
-            "id": "119-HR-5200-1"
+            "id": "119-HR-2493-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 386 - 7 (Roll no. 126). (text: CR H2974-2975)",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 406 - 4 (Roll no. 128). (text: CR H3021-3022)",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-20",
-        "actionTime": "19:13:40",
+        "actionDate": "2026-04-21",
+        "actionTime": "15:37:22",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H2976-2978)",
+        "text": "Considered as unfinished business. (text: CR H3025)",
         "type": "Floor"
       },
       {
         "actionCode": "H37220",
-        "actionDate": "2026-04-20",
-        "actionTime": "16:44:32",
+        "actionDate": "2026-04-21",
+        "actionTime": "14:35:23",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -539,53 +530,53 @@
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-20",
-        "actionTime": "16:38:41",
+        "actionDate": "2026-04-21",
+        "actionTime": "14:26:52",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5200.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2493.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-20",
-        "actionTime": "16:38:40",
+        "actionDate": "2026-04-21",
+        "actionTime": "14:26:51",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H2974-2976)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3021-3023)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-04-20",
-        "actionTime": "16:38:31",
+        "actionDate": "2026-04-21",
+        "actionTime": "14:26:42",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Allen moved to suspend the rules and pass the bill.",
+        "text": "Mrs. Harshbarger moved to suspend the rules and pass the bill.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-04-09",
+        "actionDate": "2025-10-03",
         "calendarNumber": {
-          "calendar": "U00517"
+          "calendar": "U00278"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 517.",
+        "text": "Placed on the Union Calendar, Calendar No. 278.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2026-04-09",
+        "actionDate": "2025-10-03",
         "committees": [
           {
             "name": "Energy and Commerce Committee",
@@ -597,17 +588,51 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-597.",
+        "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-325.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2025-09-17",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported by the Yeas and Nays: 49 - 0.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2025-09-17",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
         "type": "Committee"
       },
       {
         "actionCode": "H23000",
-        "actionDate": "2026-01-15",
+        "actionDate": "2025-09-10",
         "committees": [
           {
-            "name": "Communications and Technology Subcommittee",
-            "systemCode": "hsif16",
-            "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
           }
         ],
         "sourceSystem": {
@@ -619,12 +644,12 @@
       },
       {
         "actionCode": "H22000",
-        "actionDate": "2026-01-15",
+        "actionDate": "2025-09-10",
         "committees": [
           {
-            "name": "Communications and Technology Subcommittee",
-            "systemCode": "hsif16",
-            "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
           }
         ],
         "sourceSystem": {
@@ -636,24 +661,24 @@
       },
       {
         "actionCode": "H11000",
-        "actionDate": "2025-09-08",
+        "actionDate": "2025-09-10",
         "committees": [
           {
-            "name": "Communications and Technology Subcommittee",
-            "systemCode": "hsif16",
-            "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Referred to the Subcommittee on Communications and Technology.",
+        "text": "Referred to the Subcommittee on Health.",
         "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-09-08",
+        "actionDate": "2025-03-31",
         "committees": [
           {
             "name": "Energy and Commerce Committee",
@@ -671,30 +696,31 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-09-08",
+  "introducedDate": "2025-03-31",
   "latestAction": {
     "actionDate": "2026-04-21",
-    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 375."
+    "actionTime": "15:44:17",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5200",
-  "number": "5200",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2493",
+  "number": "2493",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5200/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/2493/summaries?format=json"
   },
-  "title": "Emergency Reporting Act",
+  "title": "Improving Care in Rural America Reauthorization Act of 2025",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Emergency Reporting Act",
-        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 152,
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To reauthorize certain programs regarding rural health care.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-04-23T03:53:24Z"
       },
       {
@@ -702,59 +728,49 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Emergency Reporting Act",
+        "title": "Improving Care in Rural America Reauthorization Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
-        "updateDate": "2026-04-22T03:38:21Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To direct the Federal Communications Commission to issue reports after activation of the Disaster Information Reporting System and to make improvements to network outage reporting, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-22T03:38:21Z"
+        "updateDate": "2026-04-23T03:53:24Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Emergency Reporting Act",
+        "title": "Improving Care in Rural America Reauthorization Act of 2025",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-04-10T06:08:23Z"
+        "updateDate": "2025-10-04T05:23:15Z"
       },
       {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Emergency Reporting Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-09-12T03:53:20Z"
-      },
-      {
-        "title": "Emergency Reporting Act",
+        "title": "Improving Care in Rural America Reauthorization Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-09-12T03:53:20Z"
+        "updateDate": "2025-04-06T04:38:24Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To direct the Federal Communications Commission to issue reports after activation of the Disaster Information Reporting System and to make improvements to network outage reporting, and for other purposes.",
+        "title": "Improving Care in Rural America Reauthorization Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-06T04:38:21Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To reauthorize certain programs regarding rural health care.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-09-12T03:48:23Z"
+        "updateDate": "2025-04-06T04:33:49Z"
       }
     ]
   },
   "type": "HR",
   "updateDate": "2026-04-23T03:53:24Z",
-  "updateDateIncludingText": "2026-04-23T03:53:24Z",
-  "id": "119-HR-5200",
+  "updateDateIncludingText": "2026-04-23T07:03:30Z",
+  "id": "119-HR-2493",
   "lastActionDate": "2026-04-21",
-  "lastRecordedVoteDate": "2026-04-20T23:20:08Z"
+  "lastRecordedVoteDate": "2026-04-21T19:44:16Z"
 }
