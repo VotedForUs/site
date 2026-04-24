@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-24",
+  "runId": "24878617768",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HCONRES-14",
+      "119-HR-1",
+      "119-HR-1512",
+      "119-HR-3174",
+      "119-HR-8322",
+      "119-HRES-1175",
+      "119-S-1020",
+      "119-S-1528",
+      "119-S-2132",
+      "119-SCONRES-33"
+    ],
+    "newLaws": [],
+    "withNewVotes": [
+      "119-SCONRES-33"
+    ]
+  }
+}
