@@ -3244,6 +3244,22 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
+        "title": "Further Additional Continuing Appropriations Act, 2026",
+        "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
+        "titleTypeCode": 254,
+        "updateDate": "2026-04-24T23:42:36Z"
+      },
+      {
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
+        "title": "Department of Homeland Security Appropriations Act, 2026",
+        "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
+        "titleTypeCode": 254,
+        "updateDate": "2026-04-24T23:42:36Z"
+      },
+      {
         "title": "Further Additional Continuing Appropriations Act, 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -3314,8 +3330,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-21T20:26:28Z",
-  "updateDateIncludingText": "2026-04-21T20:26:28Z",
+  "updateDate": "2026-04-24T23:42:36Z",
+  "updateDateIncludingText": "2026-04-25T04:18:24Z",
   "id": "119-HR-7147",
   "lastActionDate": "2026-04-02",
   "lastRecordedVoteDate": "2026-04-02"
