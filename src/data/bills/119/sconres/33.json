@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 10,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/sconres/33/actions?format=json",
     "actions": [
       {
@@ -23,6 +23,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-04-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -174,7 +182,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Resolution agreed to in Senate with an amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 105.",
+        "text": "Resolution agreed to in Senate with an amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 105. (text: CR S1918-1924)",
         "type": "Floor"
       },
       {
@@ -182,7 +190,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S1867-1882, S1898-1924)",
         "type": "Floor"
       },
       {
@@ -389,7 +397,8 @@
   "introducedDate": "2026-04-21",
   "latestAction": {
     "actionDate": "2026-04-23",
-    "text": "Resolution agreed to in Senate with an amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 105."
+    "actionTime": "11:56:22",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-concurrent-resolution/33",
   "number": "33",
@@ -417,8 +426,8 @@
     ]
   },
   "type": "SCONRES",
-  "updateDate": "2026-04-23T16:49:01Z",
-  "updateDateIncludingText": "2026-04-23T20:33:24Z",
+  "updateDate": "2026-04-24T16:04:59Z",
+  "updateDateIncludingText": "2026-04-24T16:04:59Z",
   "id": "119-SCONRES-33",
   "lastActionDate": "2026-04-23",
   "lastRecordedVoteDate": "2026-04-23T07:38:18Z"
