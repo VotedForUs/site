@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-26",
+  "runId": "24951038187",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HR-5587",
+      "119-SCONRES-33"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
