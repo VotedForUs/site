@@ -4,7 +4,7 @@
 export const seoConfig = {
   baseURL: 'https://votedfor.us',
   description:
-    'US Legislator votes on bills. Data from Congress.gov.',
+    'US Legislator votes. Just the votes. Data from Congress.gov.',
   type: 'website' as const,
   image: {
     url: '/favicon.svg',

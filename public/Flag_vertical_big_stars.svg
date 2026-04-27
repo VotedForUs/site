@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="1300" viewBox="0 0 1300 1300">
+  <rect width="1300" height="650" fill="#0a3161"/>
+  <defs>
+    <path id="star" d="M0,-108.5 70.534,108.582 -114.127,-25.582H114.127L-70.534,108.582z"/>
+  </defs>
+  <g fill="#FFF">
+    <use xlink:href="#star" transform="translate(54,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(163,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(271,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(379,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(488,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(596,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(704,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(813,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(921,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1029,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1138,80) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1246,80) scale(0.44)"/>
+
+    <use xlink:href="#star" transform="translate(108,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(217,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(325,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(433,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(542,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(650,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(758,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(867,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(975,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1083,180) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1192,180) scale(0.44)"/>
+
+    <use xlink:href="#star" transform="translate(54,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(163,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(271,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(379,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(488,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(596,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(704,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(813,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(921,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1029,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1138,280) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1246,280) scale(0.44)"/>
+
+    <use xlink:href="#star" transform="translate(108,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(217,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(325,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(433,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(542,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(650,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(758,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(867,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(975,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1083,380) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1192,380) scale(0.44)"/>
+
+    <use xlink:href="#star" transform="translate(54,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(163,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(271,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(379,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(488,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(596,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(704,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(813,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(921,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1029,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1138,480) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1246,480) scale(0.44)"/>
+
+    <use xlink:href="#star" transform="translate(108,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(217,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(325,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(433,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(542,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(650,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(758,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(867,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(975,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1083,580) scale(0.44)"/>
+    <use xlink:href="#star" transform="translate(1192,580) scale(0.44)"/>
+
+  </g>
+  <rect y="650" width="1300" height="650" fill="#b31942"/>
+  <rect y="700" width="1300" height="50" fill="#FFF"/>
+  <rect y="800" width="1300" height="50" fill="#FFF"/>
+  <rect y="900" width="1300" height="50" fill="#FFF"/>
+  <rect y="1000" width="1300" height="50" fill="#FFF"/>
+  <rect y="1100" width="1300" height="50" fill="#FFF"/>
+  <rect y="1200" width="1300" height="50" fill="#FFF"/>
+</svg>

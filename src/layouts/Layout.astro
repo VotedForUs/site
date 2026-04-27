@@ -3,6 +3,7 @@ import { SEO } from 'astro-seo';
 import { getBreadcrumbsFromPath } from '../utils/breadcrumbs';
 import { seoConfig } from '../../utils/seoConfig';
 import PageError from '../components/PageError.astro';
+import SiteName from '../components/SiteName.astro';
 
 export interface Props {
   title: string;
@@ -96,21 +97,38 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       }
     </style>
     <style>
+      :root {
+        --primary-color: #0a3161;
+        --secondary-color: #1C89D1;
+        --primary-opposite: oklch(from var(--primary-color) clamp(0, (0.6 - l) * 1000, 1) 0 h);
+        --secondary-opposite: oklch(from var(--secondary-color) clamp(0, (0.6 - l) * 1000, 1) 0 h);
+      }
+
       * {
         box-sizing: border-box;
       }
       
+ 
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+      .noto-sans-vfu {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
       body {
-        font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+        font-family: "Noto Sans", sans-serif;
         margin: 0;
         padding: 0;
         background: #fafafa;
-        color: #1a1a1a;
+        color: var(--primary-color);
         line-height: 1.6;
       }
-      
+
       header {
-        background: #1C89D1;
+        background: #0a3161;
         color: white;
         padding: 1rem;
       }
@@ -145,7 +163,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       }
       
       header nav a {
-        color: white;
+        color: var(--primary-opposite);
         text-decoration: none;
         padding: 0.25rem 0.5rem;
         border-radius: 4px;
@@ -154,6 +172,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       
       header nav a:hover {
         background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: sepia(90%);
       }
       
       main {
@@ -181,8 +200,8 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       }
 
       footer {
-        background: #1C89D1;
-        color: white;
+        background: var(--primary-color);
+        color: var(--primary-opposite);
         padding: 1rem;
         text-align: center;
         margin-top: 2rem;
@@ -229,8 +248,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
   <body>
     <header>
       <div class="header-title">
-        <img src={`${import.meta.env.BASE_URL}VFU.png`} alt="VotedFor.Us logo" class="header-logo" />
-        <h1>VotedFor.Us</h1>
+        <SiteName />
       </div>
       <p>{descriptionResolved}</p>
       <nav>
@@ -260,7 +278,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     </main>
 
     <footer>
-      <p>VotedFor.Us - Data from Congress.gov</p>
+      <p>Voted For Us - Data from Congress.gov</p>
     </footer>
   </body>
 </html>
