@@ -1,20 +1,12 @@
 {
   "actions": {
-    "count": 15,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2319/actions?format=json",
+    "count": 8,
+    "url": "https://api.congress.gov/v3/bill/119/hr/5366/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-04-22",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 380.",
-        "type": "Calendars"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2026-04-21",
-        "actionTime": "14:26:41",
+        "actionDate": "2026-04-27",
+        "actionTime": "16:15:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,19 +16,19 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-04-21",
-        "actionTime": "14:26:39",
+        "actionDate": "2026-04-27",
+        "actionTime": "16:15:09",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H3020)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-21",
+            "date": "2026-04-27",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -497,100 +489,100 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/2319",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/5366",
             "question": "Voice Vote",
-            "id": "119-HR-2319-1"
+            "id": "119-HR-5366-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-21",
-        "actionTime": "14:14:26",
+        "actionDate": "2026-04-27",
+        "actionTime": "15:55:01",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2319.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5366.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-21",
-        "actionTime": "14:14:24",
+        "actionDate": "2026-04-27",
+        "actionTime": "15:54:58",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3020-3021)",
+        "text": "Considered under suspension of the rules.",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-04-21",
-        "actionTime": "14:14:15",
+        "actionDate": "2026-04-27",
+        "actionTime": "15:54:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mrs. Harshbarger moved to suspend the rules and pass the bill.",
+        "text": "Mr. Smith (MO) moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2025-11-18",
+        "actionDate": "2026-04-09",
         "calendarNumber": {
-          "calendar": "U00332"
+          "calendar": "U00525"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 332.",
+        "text": "Placed on the Union Calendar, Calendar No. 525.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2025-11-18",
+        "actionDate": "2026-04-09",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Ways and Means Committee",
+            "systemCode": "hswm00",
+            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-382.",
+        "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-605.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2025-04-29",
+        "actionDate": "2026-03-25",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Ways and Means Committee",
+            "systemCode": "hswm00",
+            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported by Voice Vote.",
+        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 43 - 0.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-04-29",
+        "actionDate": "2026-03-25",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Ways and Means Committee",
+            "systemCode": "hswm00",
+            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
           }
         ],
         "sourceSystem": {
@@ -602,108 +594,80 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-03-25",
+        "actionDate": "2025-09-15",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Ways and Means Committee",
+            "systemCode": "hswm00",
+            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Energy and Commerce.",
+        "text": "Referred to the House Committee on Ways and Means.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-25",
+  "introducedDate": "2025-09-15",
   "latestAction": {
-    "actionDate": "2026-04-22",
-    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 380."
+    "actionDate": "2026-04-27",
+    "actionTime": "16:15:13",
+    "text": "Motion to reconsider laid on the table Agreed to without objection.",
+    "actionCode": "H38310"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2319",
-  "number": "2319",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5366",
+  "number": "5366",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2319/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/5366/summaries?format=json"
   },
-  "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
+  "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
-        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 152,
-        "updateDate": "2026-04-28T06:08:34Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-04-23T03:53:24Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To direct the Secretary of Health and Human Services to conduct a review to evaluate the status of research on lung cancer in women and underserved populations, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-23T03:53:24Z"
+        "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-04-10T06:08:24Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
+        "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2025-11-19T07:38:16Z"
-      },
-      {
-        "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-04T05:08:22Z"
+        "updateDate": "2026-04-10T06:08:23Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
+        "title": "Federal Disaster Tax Relief Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-04-04T05:08:18Z"
+        "updateDate": "2025-11-26T05:23:19Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To direct the Secretary of Health and Human Services to conduct a review to evaluate the status of research on lung cancer in women and underserved populations, and for other purposes.",
+        "title": "To amend the Internal Revenue Code of 1986 to codify and extend the rules for personal casualty losses arising from major disasters and the rules for the exclusion from gross income of compensation for losses or damages resulting from certain wildfires.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-04-04T05:03:33Z"
+        "updateDate": "2025-11-26T05:18:19Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-28T06:08:34Z",
-  "updateDateIncludingText": "2026-04-28T06:18:31Z",
-  "id": "119-HR-2319",
-  "lastActionDate": "2026-04-22",
-  "lastRecordedVoteDate": "2026-04-21"
+  "updateDate": "2026-04-24T15:15:11Z",
+  "updateDateIncludingText": "2026-04-24T15:15:11Z",
+  "id": "119-HR-5366",
+  "lastActionDate": "2026-04-27",
+  "lastRecordedVoteDate": "2026-04-27"
 }

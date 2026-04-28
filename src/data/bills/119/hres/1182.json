@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 196, 2 Present (Roll no. 132).",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 196, 2 Present (Roll no. 132). (text: CR H3052-3053)",
         "type": "Floor"
       },
       {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3061-3062)",
         "type": "Floor"
       },
       {
@@ -569,7 +569,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1189.",
+        "text": "Considered under the provisions of rule H. Res. 1189. (consideration: CR H3052-3057)",
         "type": "Floor"
       },
       {
@@ -647,8 +647,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-04-24T04:53:25Z",
-  "updateDateIncludingText": "2026-04-24T07:33:22Z",
+  "updateDate": "2026-04-27T13:04:32Z",
+  "updateDateIncludingText": "2026-04-27T13:04:32Z",
   "id": "119-HRES-1182",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-22T20:39:50Z"
