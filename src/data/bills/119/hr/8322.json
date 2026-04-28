@@ -144,6 +144,7 @@
               "D000618": "vv",
               "C001096": "vv",
               "F000463": "vv",
+              "M001190": "vv",
               "C001098": "vv",
               "K000384": "vv",
               "B001288": "vv",
@@ -185,8 +186,7 @@
               "M001243": "vv",
               "J000312": "vv",
               "H001104": "vv",
-              "M001244": "vv",
-              "A000383": "vv"
+              "M001244": "vv"
             },
             "result": "passed",
             "senateCount": {
@@ -254,8 +254,6 @@
             "sessionNumber": 0,
             "url": "",
             "votes": {
-              "C001127": "UC",
-              "S001157": "UC",
               "A000055": "UC",
               "B001257": "UC",
               "B000490": "UC",
@@ -323,6 +321,7 @@
               "S001145": "UC",
               "S001183": "UC",
               "S001189": "UC",
+              "S001157": "UC",
               "S000185": "UC",
               "S001185": "UC",
               "S000344": "UC",
@@ -353,6 +352,7 @@
               "T000468": "UC",
               "H001068": "UC",
               "B001287": "UC",
+              "S001193": "UC",
               "B001285": "UC",
               "R000599": "UC",
               "T000472": "UC",
@@ -529,6 +529,7 @@
               "P000048": "UC",
               "J000304": "UC",
               "N000026": "UC",
+              "G000594": "UC",
               "V000134": "UC",
               "M001213": "UC",
               "O000086": "UC",
@@ -541,6 +542,7 @@
               "E000071": "UC",
               "B001313": "UC",
               "C001126": "UC",
+              "C001127": "UC",
               "F000474": "UC",
               "F000475": "UC",
               "R000579": "UC",
@@ -689,28 +691,20 @@
               "W000831": "UC",
               "G000606": "UC",
               "V000139": "UC",
-              "M001245": "UC",
-              "F000485": "UC"
+              "M001245": "UC"
             },
             "result": "passed",
             "votePartyTotal": [
               {
-                "voteParty": "Democrat",
-                "yeaTotal": 216,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              },
-              {
                 "voteParty": "Republican",
-                "yeaTotal": 220,
+                "yeaTotal": 221,
                 "nayTotal": 0,
                 "presentTotal": 0,
                 "notVotingTotal": 0
               },
               {
-                "voteParty": "Independent",
-                "yeaTotal": 1,
+                "voteParty": "Democrat",
+                "yeaTotal": 217,
                 "nayTotal": 0,
                 "presentTotal": 0,
                 "notVotingTotal": 0
@@ -814,12 +808,7 @@
       }
     ]
   },
-  "committees": {
-    "count": 2,
-    "url": "https://api.congress.gov/v3/bill/119/hr/8322/committees?format=json"
-  },
   "congress": 119,
-  "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 67 (Thursday, April 16, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. AUSTIN SCOTT of Georgia:\nH.R. 8322.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Sec. 8.\n[Page H2960]\n</pre>",
   "introducedDate": "2026-04-16",
   "latestAction": {
     "actionDate": "2026-04-18",
@@ -835,34 +824,6 @@
   "number": "8322",
   "originChamber": "House",
   "originChamberCode": "H",
-  "policyArea": {
-    "name": "Armed Forces and National Security"
-  },
-  "relatedBills": {
-    "count": 2,
-    "url": "https://api.congress.gov/v3/bill/119/hr/8322/relatedbills?format=json"
-  },
-  "sponsors": [
-    {
-      "bioguideId": "S001189",
-      "district": 8,
-      "firstName": "Austin",
-      "fullName": "Rep. Scott, Austin [R-GA-8]",
-      "isByRequest": "N",
-      "lastName": "Scott",
-      "party": "R",
-      "state": "GA",
-      "url": "https://api.congress.gov/v3/member/S001189?format=json"
-    }
-  ],
-  "subjects": {
-    "count": 2,
-    "url": "https://api.congress.gov/v3/bill/119/hr/8322/subjects?format=json"
-  },
-  "textVersions": {
-    "count": 4,
-    "url": "https://api.congress.gov/v3/bill/119/hr/8322/text?format=json"
-  },
   "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
   "titles": {
     "titles": [

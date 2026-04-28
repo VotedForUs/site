@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/2066/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-04-15",
         "sourceSystem": {
@@ -797,8 +805,8 @@
   "congress": 119,
   "introducedDate": "2025-03-11",
   "latestAction": {
-    "actionDate": "2026-04-15",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S1789-1790)"
+    "actionDate": "2026-04-16",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2066",
   "number": "2066",
@@ -886,9 +894,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-17T03:53:23Z",
-  "updateDateIncludingText": "2026-04-17T03:53:23Z",
+  "updateDate": "2026-04-27T18:55:43Z",
+  "updateDateIncludingText": "2026-04-27T18:55:43Z",
   "id": "119-HR-2066",
-  "lastActionDate": "2026-04-15",
+  "lastActionDate": "2026-04-16",
   "lastRecordedVoteDate": "2026-04-15"
 }

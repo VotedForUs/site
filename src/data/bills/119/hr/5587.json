@@ -724,11 +724,41 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "HEATS Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-28T06:08:33Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Geothermal Steam Act of 1970 to waive the requirement for a Federal drilling permit for certain activities, to exempt certain activities from the requirements of the National Environmental Policy Act of 1969, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-28T06:08:33Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Harnessing Energy At Thermal Sources Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-28T06:08:33Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "HEATS Act",
+        "title": "Harnessing Energy At Thermal Sources Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-16T12:38:20Z"
@@ -738,7 +768,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Harnessing Energy At Thermal Sources Act of 2026",
+        "title": "HEATS Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-16T12:38:20Z"
@@ -752,7 +782,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "HEATS Act",
+        "title": "Harnessing Energy At Thermal Sources Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-10-03T04:23:17Z"
@@ -760,7 +790,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Harnessing Energy At Thermal Sources Act",
+        "title": "HEATS Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-10-03T04:23:17Z"
@@ -776,8 +806,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-24T14:43:01Z",
-  "updateDateIncludingText": "2026-04-24T14:42:59Z",
+  "updateDate": "2026-04-28T06:08:33Z",
+  "updateDateIncludingText": "2026-04-28T07:18:27Z",
   "id": "119-HR-5587",
   "lastActionDate": "2026-04-23",
   "lastRecordedVoteDate": "2026-04-23T14:33:04Z"
