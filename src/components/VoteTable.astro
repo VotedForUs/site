@@ -11,7 +11,11 @@ export interface Props {
   term: string;
   billType: string;
   billNumber: string;
-  /** Ordered vote entry ids from recordedVotes collection (date-sorted). When set, links use this for correct segment. */
+  /**
+   * Optional fallback list of vote-entry ids (from the recordedVotes collection),
+   * used only when a row's vote lacks an `id`. The vote's own `id` is the source of truth
+   * to avoid index-mismatch bugs when multiple votes share a date.
+   */
   voteIds?: string[];
 }
 
@@ -28,15 +32,21 @@ for (const action of actions) {
     });
   }
 }
-// Same order as content loader: recordedVotes collection uses date-sorted voteNumber (1-based)
 voteRows.sort((a, b) =>
   new Date(a.vote.date || a.actionDate).getTime() - new Date(b.vote.date || b.actionDate).getTime()
 );
 
-function votePageSegment(vote: RecordedVoteWithVotes, index: number): string {
-  if (voteIds && voteIds[index]) return String(voteIds[index].split('-').pop());
-  if (vote.id) return String(vote.id.split('-').pop());
-  return String(index + 1);
+/**
+ * Resolve the per-vote URL segment and full vote id for a row.
+ * Prefers the vote's own `id` (always set by the votes loader) so links remain stable
+ * regardless of how voteRows are sorted relative to {@link Props.voteIds}.
+ */
+function resolveVoteIdAndSegment(vote: RecordedVoteWithVotes, index: number): { fullVoteId: string; segment: string } {
+  const ownId = (vote as { id?: string }).id;
+  const fallbackId = voteIds?.[index];
+  const fullVoteId = ownId ?? fallbackId ?? `${term}-${billType.toUpperCase()}-${billNumber}-${index + 1}`;
+  const segment = String(fullVoteId.split('-').pop() ?? index + 1);
+  return { fullVoteId, segment };
 }
 ---
 
@@ -56,13 +66,12 @@ function votePageSegment(vote: RecordedVoteWithVotes, index: number): string {
       </thead>
       <tbody>
         {voteRows.map(({ vote, actionDate, actionText }, index) => {
-          const segment = votePageSegment(vote, index);
+          const { fullVoteId, segment } = resolveVoteIdAndSegment(vote, index);
           const voteHref = `/bills/${term}/${billType}/${billNumber}/${segment}`;
           const passed = isVotePassed(vote.result);
-          const voteNumber = vote.voteNumber ?? index + 1;
+          const voteNumber = vote.voteNumber ?? (Number(segment) || index + 1);
           const isFinalChamberVote = (vote as { finalChamberVote?: boolean }).finalChamberVote ?? false;
           const forAgainst = formatVoteForAgainst(vote);
-          const fullVoteId = voteIds?.[index] ?? (vote as { id?: string }).id ?? `${term}-${billType.toUpperCase()}-${billNumber}-${segment}`;
           const question = getEditorialVoteAction(fullVoteId) ?? vote.question;
           return (
             <tr>
