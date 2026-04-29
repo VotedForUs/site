@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3100)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3100-3101)",
         "type": "Floor"
       },
       {
@@ -630,11 +630,41 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "BARCODE Efficiency Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-29T04:53:35Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require electronically prepared tax returns to include scannable code when submitted on paper, and to require the use of optical character recognition technology for paper documents received by the Internal Revenue Service.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-29T04:53:35Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Barcode Automation for Revenue Collection to Organize Disbursement and Enhance Efficiency Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-29T04:53:35Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "BARCODE Efficiency Act",
+        "title": "Barcode Automation for Revenue Collection to Organize Disbursement and Enhance Efficiency Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-02-21T04:53:23Z"
@@ -644,7 +674,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Barcode Automation for Revenue Collection to Organize Disbursement and Enhance Efficiency Act",
+        "title": "BARCODE Efficiency Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-02-21T04:53:23Z"
@@ -658,7 +688,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "BARCODE Efficiency Act",
+        "title": "Barcode Automation for Revenue Collection to Organize Disbursement and Enhance Efficiency Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-01-09T08:38:31Z"
@@ -666,7 +696,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Barcode Automation for Revenue Collection to Organize Disbursement and Enhance Efficiency Act",
+        "title": "BARCODE Efficiency Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-01-09T08:38:31Z"
@@ -682,8 +712,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-28T08:06:14Z",
-  "updateDateIncludingText": "2026-04-28T08:06:14Z",
+  "updateDate": "2026-04-29T04:53:35Z",
+  "updateDateIncludingText": "2026-04-29T07:18:39Z",
   "id": "119-HR-6956",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-27"

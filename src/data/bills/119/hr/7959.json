@@ -502,7 +502,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 346 - 10 (Roll no. 138).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 346 - 10 (Roll no. 138). (text: CR H3104)",
         "type": "Floor"
       },
       {
@@ -513,7 +513,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3117-3118)",
         "type": "Floor"
       },
       {
@@ -546,7 +546,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3104-3106)",
         "type": "Floor"
       },
       {
@@ -662,6 +662,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to make improvements with respect to the treatment of whistleblowers, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-29T04:53:35Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "IRS Whistleblower Program Improvement Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-29T04:53:35Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -696,8 +716,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-28T08:06:47Z",
-  "updateDateIncludingText": "2026-04-28T08:06:47Z",
+  "updateDate": "2026-04-29T04:53:35Z",
+  "updateDateIncludingText": "2026-04-29T07:18:41Z",
   "id": "119-HR-7959",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-27T23:01:36Z"

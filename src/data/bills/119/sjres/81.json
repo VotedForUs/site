@@ -237,6 +237,10 @@
   "number": "81",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/81/summaries?format=json"
+  },
   "title": "A joint resolution terminating the national emergency declared to impose duties on articles imported from Brazil.",
   "titles": {
     "titles": [
@@ -257,8 +261,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-02-09T19:32:55Z",
-  "updateDateIncludingText": "2026-02-09T19:32:55Z",
+  "updateDate": "2026-04-28T13:01:26Z",
+  "updateDateIncludingText": "2026-04-28T13:01:26Z",
   "id": "119-SJRES-81",
   "lastActionDate": "2025-10-31",
   "lastRecordedVoteDate": "2025-10-28T22:58:56Z"

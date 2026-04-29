@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 14,
-    "url": "https://api.congress.gov/v3/bill/119/hr/6495/actions?format=json",
+    "count": 17,
+    "url": "https://api.congress.gov/v3/bill/119/hr/6903/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-27",
-        "actionTime": "15:54:40",
+        "actionTime": "16:46:56",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,12 +17,12 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-04-27",
-        "actionTime": "15:54:37",
+        "actionTime": "16:46:55",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3106)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3113)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -489,38 +489,38 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/6495",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/6903",
             "question": "Voice Vote",
-            "id": "119-HR-6495-1"
+            "id": "119-HR-6903-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
         "actionDate": "2026-04-27",
-        "actionTime": "15:46:07",
+        "actionTime": "16:36:22",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 6495.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 6903.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-04-27",
-        "actionTime": "15:46:04",
+        "actionTime": "16:36:21",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3106-3107)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3113-3114)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
         "actionDate": "2026-04-27",
-        "actionTime": "15:45:43",
+        "actionTime": "16:36:02",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -530,20 +530,37 @@
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-01-07",
+        "actionDate": "2026-04-27",
         "calendarNumber": {
-          "calendar": "U00372"
+          "calendar": "U00541"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 372.",
+        "text": "Placed on the Union Calendar, Calendar No. 541.",
         "type": "Calendars"
       },
       {
+        "actionCode": "H12300",
+        "actionDate": "2026-04-27",
+        "committees": [
+          {
+            "name": "Foreign Affairs Committee",
+            "systemCode": "hsfa00",
+            "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Committee on Foreign Affairs discharged.",
+        "type": "Discharge"
+      },
+      {
         "actionCode": "H12200",
-        "actionDate": "2026-01-07",
+        "actionDate": "2026-04-27",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -555,12 +572,12 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-427.",
+        "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-624, Part I.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2025-12-10",
+        "actionDate": "2026-01-14",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -572,12 +589,12 @@
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 41 - 0.",
+        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 40 - 2.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-12-10",
+        "actionDate": "2026-01-14",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -594,7 +611,24 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-12-05",
+        "actionDate": "2025-12-18",
+        "committees": [
+          {
+            "name": "Foreign Affairs Committee",
+            "systemCode": "hsfa00",
+            "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-12-18",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -606,27 +640,27 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Ways and Means.",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-12-05",
+  "introducedDate": "2025-12-18",
   "latestAction": {
     "actionDate": "2026-04-27",
-    "actionTime": "15:54:40",
+    "actionTime": "16:46:56",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6495",
-  "number": "6495",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6903",
+  "number": "6903",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/6495/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/6903/summaries?format=json"
   },
-  "title": "Taxpayer Notification and Privacy Act",
+  "title": "Ensuring Children Receive Support Act",
   "titles": {
     "titles": [
       {
@@ -634,7 +668,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Internal Revenue Code of 1986 to provide for specific taxpayer notice when information is sought from third parties.",
+        "title": "To require the Secretary of State to revoke any United States passport issued to an individual, on receipt of a certification by the Secretary of Health and Human Services that the individual has a child support arrearage exceeding $2,500.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-29T04:53:35Z"
@@ -644,7 +678,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Taxpayer Notification and Privacy Act",
+        "title": "Ensuring Children Receive Support Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-04-29T04:53:35Z"
@@ -654,39 +688,39 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Taxpayer Notification and Privacy Act",
+        "title": "Ensuring Children Receive Support Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-01-08T06:08:16Z"
+        "updateDate": "2026-04-28T06:23:29Z"
       },
       {
-        "title": "Taxpayer Notification and Privacy Act",
+        "title": "Ensuring Children Receive Support Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-12-06T09:23:24Z"
+        "updateDate": "2026-01-07T11:23:37Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Taxpayer Notification and Privacy Act",
+        "title": "Ensuring Children Receive Support Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-12-06T09:23:24Z"
+        "updateDate": "2026-01-07T11:23:35Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To amend the Internal Revenue Code of 1986 to provide for specific taxpayer notice when information is sought from third parties.",
+        "title": "To require the Secretary of State to revoke any United States passport issued to an individual, on receipt of a certification by the Secretary of Health and Human Services that the individual has a child support arrearage exceeding $2,500.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-12-06T09:18:21Z"
+        "updateDate": "2026-01-07T11:18:14Z"
       }
     ]
   },
   "type": "HR",
   "updateDate": "2026-04-29T04:53:35Z",
-  "updateDateIncludingText": "2026-04-29T07:48:44Z",
-  "id": "119-HR-6495",
+  "updateDateIncludingText": "2026-04-29T07:33:54Z",
+  "id": "119-HR-6903",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-27"
 }
