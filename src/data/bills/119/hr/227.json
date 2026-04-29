@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 8,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/hr/227/actions?format=json",
     "actions": [
       {
@@ -502,7 +502,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 350 - 5 (Roll no. 139).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 350 - 5 (Roll no. 139). (text: CR H3115-3116)",
         "type": "Floor"
       },
       {
@@ -513,7 +513,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3118-3119)",
         "type": "Floor"
       },
       {
@@ -546,7 +546,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3115-3116)",
         "type": "Floor"
       },
       {
@@ -648,8 +648,7 @@
   "latestAction": {
     "actionDate": "2026-04-27",
     "actionTime": "19:10:15",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/227",
   "number": "227",
@@ -662,6 +661,26 @@
   "title": "Clergy Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To allow a period in which members of the clergy may revoke their exemption from Social Security coverage, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-29T05:08:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Clergy Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-29T05:08:27Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -697,8 +716,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-27T19:20:22Z",
-  "updateDateIncludingText": "2026-02-27T19:20:22Z",
+  "updateDate": "2026-04-29T05:08:27Z",
+  "updateDateIncludingText": "2026-04-29T07:03:54Z",
   "id": "119-HR-227",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-27T23:10:14Z"

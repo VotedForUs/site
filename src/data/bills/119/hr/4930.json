@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 8,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hr/4930/actions?format=json",
     "actions": [
       {
@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3098-3099)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3098-3100)",
         "type": "Floor"
       },
       {
@@ -616,8 +616,7 @@
   "latestAction": {
     "actionDate": "2026-04-27",
     "actionTime": "15:09:33",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4930",
   "number": "4930",
@@ -630,6 +629,16 @@
   "title": "To expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-29T05:08:27Z"
+      },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
@@ -647,8 +656,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-23T14:00:09Z",
-  "updateDateIncludingText": "2026-04-23T14:00:09Z",
+  "updateDate": "2026-04-29T05:08:27Z",
+  "updateDateIncludingText": "2026-04-29T07:48:46Z",
   "id": "119-HR-4930",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-27"
