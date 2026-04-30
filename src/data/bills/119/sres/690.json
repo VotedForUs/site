@@ -1,0 +1,225 @@
+{
+  "actions": {
+    "count": 6,
+    "url": "https://api.congress.gov/v3/bill/119/sres/690/actions?format=json",
+    "actions": [
+      {
+        "actionDate": "2026-04-28",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Cloture motion on the measure presented in Senate. (CR S2065)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-04-28",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Measure laid before Senate by motion. (consideration: CR S2065)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-04-28",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-04-28T16:15:07Z",
+            "rollNumber": 107,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00107.xml",
+            "votes": {
+              "A000382": "Nay",
+              "B001230": "Nay",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Nay",
+              "B001243": "Yea",
+              "B001277": "Nay",
+              "B001303": "Nay",
+              "B001288": "Nay",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Nay",
+              "C001047": "Yea",
+              "C001075": "Yea",
+              "C001035": "Yea",
+              "C001088": "Nay",
+              "C001056": "Yea",
+              "C001113": "Nay",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Yea",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Nay",
+              "D000563": "Nay",
+              "E000295": "Yea",
+              "F000479": "Nay",
+              "F000463": "Yea",
+              "G000574": "Nay",
+              "G000555": "Nay",
+              "G000359": "Yea",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Nay",
+              "H001089": "Yea",
+              "H001046": "Nay",
+              "H000273": "Nay",
+              "H001042": "Nay",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Yea",
+              "J000312": "Yea",
+              "K000384": "Nay",
+              "K000377": "Nay",
+              "K000393": "Yea",
+              "K000394": "Nay",
+              "K000383": "Nay",
+              "K000367": "Nay",
+              "L000575": "Yea",
+              "L000577": "Yea",
+              "L000570": "Nay",
+              "L000571": "Yea",
+              "M000133": "Nay",
+              "M001198": "Yea",
+              "M000355": "Yea",
+              "M001243": "Yea",
+              "M001176": "Nay",
+              "M001244": "Yea",
+              "M000934": "Yea",
+              "M001242": "Yea",
+              "M001153": "Yea",
+              "M001169": "Nay",
+              "M001111": "Nay",
+              "O000174": "Nay",
+              "P000145": "Nay",
+              "P000603": "Yea",
+              "P000595": "Nay",
+              "R000122": "Nay",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Nay",
+              "R000605": "Yea",
+              "S000033": "Nay",
+              "S001194": "Nay",
+              "S001150": "Nay",
+              "S001227": "Yea",
+              "S000148": "Nay",
+              "S001217": "Yea",
+              "S001184": "Yea",
+              "S001181": "Nay",
+              "S001232": "Yea",
+              "S001208": "Nay",
+              "S001203": "Nay",
+              "S001198": "Yea",
+              "T000250": "Yea",
+              "T000476": "Yea",
+              "T000278": "Not Voting",
+              "V000128": "Nay",
+              "W000805": "Nay",
+              "W000790": "Nay",
+              "W000817": "Nay",
+              "W000800": "Nay",
+              "W000802": "Nay",
+              "W000437": "Yea",
+              "W000779": "Nay",
+              "Y000064": "Yea"
+            },
+            "result": "passed",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 47,
+              "present": "",
+              "absent": 1
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 0,
+                "nayTotal": 45,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 52,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 1
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 0,
+                "nayTotal": 2,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00107.xml",
+            "question": "On the Motion to Proceed S.Res. 690",
+            "id": "119-SRES-690-1"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 52 - 47. Record Vote Number: 107. (CR S2065)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-04-27",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Executive Calendar under Over, Under the Rule. Calendar No. 5.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-04-27",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Submitted in the Senate. Placed on Senate Executive Calendar under Over, Under the Rule. (text: CR S2056-2057)",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2026-04-27",
+  "latestAction": {
+    "actionDate": "2026-04-28",
+    "text": "Cloture motion on the measure presented in Senate. (CR S2065)"
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-resolution/690",
+  "number": "690",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+  "titles": {
+    "titles": [
+      {
+        "title": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-04-29T10:56:35Z"
+      },
+      {
+        "title": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-04-29T10:56:35Z"
+      }
+    ]
+  },
+  "type": "SRES",
+  "updateDate": "2026-04-29T14:02:57Z",
+  "updateDateIncludingText": "2026-04-29T14:02:57Z",
+  "id": "119-SRES-690",
+  "lastActionDate": "2026-04-28",
+  "lastRecordedVoteDate": "2026-04-28T16:15:07Z"
+}

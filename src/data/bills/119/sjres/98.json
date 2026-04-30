@@ -153,7 +153,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Point of order that the measure is not entitled to expedited procedures under 50 U.S.C. 1546(a) against the measure agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 9.",
+        "text": "Point of order that the measure is not entitled to expedited procedures under 50 U.S.C. 1546(a) raised against the measure agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 9.",
         "type": "Floor"
       },
       {
@@ -368,7 +368,7 @@
   "introducedDate": "2025-12-03",
   "latestAction": {
     "actionDate": "2026-01-14",
-    "text": "Point of order that the measure is not entitled to expedited procedures under 50 U.S.C. 1546(a) against the measure agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 9."
+    "text": "Point of order that the measure is not entitled to expedited procedures under 50 U.S.C. 1546(a) raised against the measure agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 9."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/98",
   "number": "98",
@@ -398,8 +398,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-03-09T20:24:13Z",
-  "updateDateIncludingText": "2026-03-09T20:24:13Z",
+  "updateDate": "2026-04-29T10:56:39Z",
+  "updateDateIncludingText": "2026-04-29T10:56:39Z",
   "id": "119-SJRES-98",
   "lastActionDate": "2026-01-14",
   "lastRecordedVoteDate": "2026-01-14T23:30:44Z"

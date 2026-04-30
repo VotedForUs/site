@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 28,
+    "count": 30,
     "url": "https://api.congress.gov/v3/bill/119/hjres/140/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-04-27",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-85.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-04-27",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-85.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-04-27",
@@ -1162,8 +1182,14 @@
   "introducedDate": "2026-01-12",
   "latestAction": {
     "actionDate": "2026-04-27",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-85."
   },
+  "laws": [
+    {
+      "number": "119-85",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/140",
   "number": "140",
   "originChamber": "House",
@@ -1202,8 +1228,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-04-28T16:12:39Z",
-  "updateDateIncludingText": "2026-04-28T16:12:39Z",
+  "updateDate": "2026-04-29T13:39:14Z",
+  "updateDateIncludingText": "2026-04-29T13:39:14Z",
   "id": "119-HJRES-140",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-16T16:02:32Z"

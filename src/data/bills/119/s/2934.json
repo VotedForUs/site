@@ -1,50 +1,20 @@
 {
   "actions": {
-    "count": 12,
-    "url": "https://api.congress.gov/v3/bill/119/s/1318/actions?format=json",
+    "count": 8,
+    "url": "https://api.congress.gov/v3/bill/119/s/2934/actions?format=json",
     "actions": [
       {
-        "actionCode": "H15000",
-        "actionDate": "2025-11-20",
-        "actionTime": "18:18:33",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-11-20",
-        "actionTime": "17:44:04",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-11-20",
+        "actionDate": "2026-04-28",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-11-20",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S8399; text: CR S8399)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2073-2074; text: CR S2073-2074)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2025-11-20",
+            "date": "2026-04-28",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -180,156 +150,128 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/1318",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/2934",
             "question": "Pass with Unanimous Consent",
-            "id": "119-S-1318-1"
+            "id": "119-S-2934-1"
           }
         ]
       },
       {
-        "actionDate": "2025-10-22",
+        "actionDate": "2026-03-26",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 201.",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 367.",
         "type": "Calendars"
       },
       {
-        "actionDate": "2025-10-22",
+        "actionDate": "2026-03-26",
         "committees": [
           {
-            "name": "Veterans' Affairs Committee",
-            "systemCode": "ssva00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssva00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Reported by Senator Moran without amendment. With written report No. 119-89.",
+        "text": "Committee on the Judiciary. Reported by Senator Grassley without amendment. Without written report.",
         "type": "Committee"
       },
       {
-        "actionDate": "2025-07-30",
+        "actionDate": "2026-03-26",
         "committees": [
           {
-            "name": "Veterans' Affairs Committee",
-            "systemCode": "ssva00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssva00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Ordered to be reported without amendment favorably.",
+        "text": "Committee on the Judiciary. Ordered to be reported without amendment favorably.",
         "type": "Committee"
       },
       {
-        "actionDate": "2025-05-21",
+        "actionDate": "2025-09-29",
         "committees": [
           {
-            "name": "Veterans' Affairs Committee",
-            "systemCode": "ssva00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssva00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 119-86.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2025-04-07",
-        "committees": [
-          {
-            "name": "Veterans' Affairs Committee",
-            "systemCode": "ssva00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssva00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on Veterans' Affairs.",
+        "text": "Read twice and referred to the Committee on the Judiciary.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-04-07",
+  "introducedDate": "2025-09-29",
   "latestAction": {
-    "actionDate": "2025-11-20",
-    "actionTime": "18:18:33",
-    "text": "Held at the desk."
+    "actionDate": "2026-04-28",
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2073-2074; text: CR S2073-2074)"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1318",
-  "number": "1318",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2934",
+  "number": "2934",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/1318/summaries?format=json"
-  },
-  "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+  "title": "Protecting Americans from Russian Litigation Act of 2025",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EAH",
-        "billTextVersionName": "Engrossed Amendment House",
-        "title": "Foreign Intelligence Accountability Act",
-        "titleType": "Short Title(s) from Engrossed Amendment House bill text",
-        "titleTypeCode": 252,
-        "updateDate": "2026-04-30T04:53:22Z"
-      },
-      {
-        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "title": "Protecting Americans from Russian Litigation Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-03-19T11:03:26Z"
+        "updateDate": "2026-04-29T10:58:33Z"
       },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "title": "Protecting Americans from Russian Litigation Act of 2025",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2025-11-21T05:23:23Z"
+        "updateDate": "2026-04-29T04:53:33Z"
       },
       {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "title": "Protecting Americans from Russian Litigation Act of 2025",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
-        "updateDate": "2025-10-24T02:23:13Z"
+        "updateDate": "2026-03-31T06:23:24Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "title": "Protecting Americans from Russian Litigation Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-04-17T03:23:16Z"
+        "updateDate": "2025-10-09T04:23:13Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes.",
+        "title": "A bill to limit the availability of civil actions affected by United States sanctions.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-04-17T03:18:27Z"
+        "updateDate": "2025-10-09T04:18:12Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-04-30T04:53:22Z",
-  "updateDateIncludingText": "2026-04-30T07:33:44Z",
-  "id": "119-S-1318",
-  "lastActionDate": "2025-11-20",
-  "lastRecordedVoteDate": "2025-11-20"
+  "updateDate": "2026-04-29T14:06:41Z",
+  "updateDateIncludingText": "2026-04-29T14:06:41Z",
+  "id": "119-S-2934",
+  "lastActionDate": "2026-04-28",
+  "lastRecordedVoteDate": "2026-04-28"
 }
