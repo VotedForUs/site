@@ -36,7 +36,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.8",
     "@types/node": "^25.6.0",
-    "@votedforus/common": "^1.1.1",
+    "@votedforus/common": "^1.1.2",
     "puppeteer": "^24.42.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3"
