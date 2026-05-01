@@ -3240,16 +3240,24 @@
     "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/summaries?format=json"
   },
-  "title": "Further Additional Continuing Appropriations Act, 2026",
+  "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EAS",
-        "billTextVersionName": "Engrossed Amendment Senate",
-        "title": "Further Additional Continuing Appropriations Act, 2026",
-        "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
-        "titleTypeCode": 254,
-        "updateDate": "2026-04-24T23:42:36Z"
+        "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-05-01T06:53:29Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-05-01T06:53:28Z"
       },
       {
         "billTextVersionCode": "EAS",
@@ -3260,10 +3268,12 @@
         "updateDate": "2026-04-24T23:42:36Z"
       },
       {
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
         "title": "Further Additional Continuing Appropriations Act, 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-28T09:23:22Z"
+        "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
+        "titleTypeCode": 254,
+        "updateDate": "2026-04-24T23:42:36Z"
       },
       {
         "billTextVersionCode": "EAH",
@@ -3330,8 +3340,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-24T23:42:36Z",
-  "updateDateIncludingText": "2026-04-25T04:18:24Z",
+  "updateDate": "2026-05-01T06:53:29Z",
+  "updateDateIncludingText": "2026-05-01T06:53:29Z",
   "id": "119-HR-7147",
   "lastActionDate": "2026-04-02",
   "lastRecordedVoteDate": "2026-04-02"
