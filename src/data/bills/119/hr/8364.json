@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 12,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/8364/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-28",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-27",
@@ -601,9 +609,8 @@
   "congress": 119,
   "introducedDate": "2026-04-20",
   "latestAction": {
-    "actionDate": "2026-04-27",
-    "actionTime": "17:12:28",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-28",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8364",
   "number": "8364",
@@ -643,9 +650,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-29T04:53:35Z",
-  "updateDateIncludingText": "2026-04-29T07:33:41Z",
+  "updateDate": "2026-05-01T18:31:15Z",
+  "updateDateIncludingText": "2026-05-01T18:31:15Z",
   "id": "119-HR-8364",
-  "lastActionDate": "2026-04-27",
+  "lastActionDate": "2026-04-28",
   "lastRecordedVoteDate": "2026-04-27"
 }
