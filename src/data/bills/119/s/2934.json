@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 8,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/2934/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-01",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-04-28",
         "sourceSystem": {
@@ -214,8 +222,8 @@
   "congress": 119,
   "introducedDate": "2025-09-29",
   "latestAction": {
-    "actionDate": "2026-04-28",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2073-2074; text: CR S2073-2074)"
+    "actionDate": "2026-05-01",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2934",
   "number": "2934",
@@ -228,7 +236,7 @@
         "title": "Protecting Americans from Russian Litigation Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-04-29T10:58:33Z"
+        "updateDate": "2026-05-02T11:03:25Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -269,9 +277,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-01T16:20:58Z",
-  "updateDateIncludingText": "2026-05-01T16:20:58Z",
+  "updateDate": "2026-05-02T11:03:25Z",
+  "updateDateIncludingText": "2026-05-02T11:03:25Z",
   "id": "119-S-2934",
-  "lastActionDate": "2026-04-28",
+  "lastActionDate": "2026-05-01",
   "lastRecordedVoteDate": "2026-04-28"
 }
