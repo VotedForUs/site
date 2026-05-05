@@ -1,8 +1,123 @@
 {
   "actions": {
-    "count": 69,
+    "count": 81,
     "url": "https://api.congress.gov/v3/bill/119/hr/7147/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-86.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-86.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "H41931",
+        "actionDate": "2026-04-30",
+        "actionTime": "13:06:15",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "ResolvingDifferences"
+      },
+      {
+        "actionCode": "H41610",
+        "actionDate": "2026-04-30",
+        "actionTime": "13:06:00",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "On motion that the House suspend the rules and recede from the House amendment to the Senate amendment to H.R. 7147, and concur in the Senate amendment Agreed to by voice vote. (text: CR H3311-3321)",
+        "type": "ResolvingDifferences"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-04-30",
+        "actionTime": "13:05:09",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with 40 minutes of debate on the motion to suspend the rules and recede from the House amendment to the Senate amendment to H.R. 7147, and concur in the Senate amendment.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H40140",
+        "actionDate": "2026-04-30",
+        "actionTime": "13:04:51",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Alford moved that the House suspend the rules and recede from the House amendment to the Senate amendment to H.R. 7147, and concur in the Senate amendment (consideration: CR H3311-3322)",
+        "type": "ResolvingDifferences"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-04-30",
+        "actionTime": "12:59:38",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Alford asked unanimous consent to take from the Speaker's table the bill H.R. 7147, with the House amendment to the Senate amendment thereto, to recede from the House amendment, and to concur in the Senate amendment. Objection heard.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-04-02",
         "sourceSystem": {
@@ -3229,9 +3344,15 @@
   "congress": 119,
   "introducedDate": "2026-01-20",
   "latestAction": {
-    "actionDate": "2026-04-02",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-04-30",
+    "text": "Became Public Law No: 119-86."
   },
+  "laws": [
+    {
+      "number": "119-86",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7147",
   "number": "7147",
   "originChamber": "House",
@@ -3340,9 +3461,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-01T06:53:29Z",
-  "updateDateIncludingText": "2026-05-01T06:53:29Z",
+  "updateDate": "2026-05-04T21:32:29Z",
+  "updateDateIncludingText": "2026-05-04T21:32:29Z",
   "id": "119-HR-7147",
-  "lastActionDate": "2026-04-02",
+  "lastActionDate": "2026-04-30",
   "lastRecordedVoteDate": "2026-04-02"
 }
