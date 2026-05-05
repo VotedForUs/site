@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 216 - 210 (Roll no. 141).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 216 - 210 (Roll no. 141). (text: CR H3137)",
         "type": "Floor"
       },
       {
@@ -995,7 +995,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 215 - 210 (Roll no. 140).",
+        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 215 - 210 (Roll no. 140). (consideration: CR H3145-3146)",
         "type": "Floor"
       },
       {
@@ -1017,7 +1017,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H3137-3147)",
         "type": "Floor"
       },
       {
@@ -1074,6 +1074,10 @@
   "number": "1224",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1224/summaries?format=json"
+  },
   "title": "Providing for consideration of the bill (H.R. 7567) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes; providing for consideration of the bill (H.R. 2616) to require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor's gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms; providing for consideration of the concurrent resolution (S. Con. Res. 33) setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035; providing for consideration of the bill (S. 1318) to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes; providing for consideration of the bill (H.R. 1346) to amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes; and for other purposes.",
   "titles": {
     "titles": [
@@ -1102,8 +1106,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-05-01T06:53:28Z",
-  "updateDateIncludingText": "2026-05-01T07:18:35Z",
+  "updateDate": "2026-05-04T16:04:32Z",
+  "updateDateIncludingText": "2026-05-04T16:04:32Z",
   "id": "119-HRES-1224",
   "lastActionDate": "2026-04-29",
   "lastRecordedVoteDate": "2026-04-29T17:24:59Z"

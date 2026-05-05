@@ -511,7 +511,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 235 - 191 (Roll no. 142).",
+        "text": "On passage Passed by the Yeas and Nays: 235 - 191 (Roll no. 142). (text of amendment in the nature of a substitute: CR H3160-3161)",
         "type": "Floor"
       },
       {
@@ -555,7 +555,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1224.",
+        "text": "Considered under the provisions of rule H. Res. 1224. (consideration: CR H3160-3168)",
         "type": "Floor"
       },
       {
@@ -892,8 +892,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-01T03:36:20Z",
-  "updateDateIncludingText": "2026-05-01T03:36:20Z",
+  "updateDate": "2026-05-04T20:55:56Z",
+  "updateDateIncludingText": "2026-05-04T20:55:56Z",
   "id": "119-S-1318",
   "lastActionDate": "2026-04-29",
   "lastRecordedVoteDate": "2026-04-29T21:26:31Z"
