@@ -723,7 +723,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/452/summaries?format=json"
   },
   "title": "Miracle on Ice Congressional Gold Medal Act",
@@ -792,8 +792,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:18:34Z",
-  "updateDateIncludingText": "2026-03-31T20:18:34Z",
+  "updateDate": "2026-05-06T11:45:37Z",
+  "updateDateIncludingText": "2026-05-06T11:45:37Z",
   "id": "119-HR-452",
   "lastActionDate": "2025-12-12",
   "lastRecordedVoteDate": "2025-04-28"

@@ -205,6 +205,10 @@
   "number": "90",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/90/summaries?format=json"
+  },
   "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
   "titles": {
     "titles": [
@@ -225,8 +229,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-01-08T16:20:29Z",
-  "updateDateIncludingText": "2026-01-08T16:20:29Z",
+  "updateDate": "2026-05-06T10:56:29Z",
+  "updateDateIncludingText": "2026-05-06T10:56:29Z",
   "id": "119-SJRES-90",
   "lastActionDate": "2025-11-06",
   "lastRecordedVoteDate": "2025-11-06T22:56:56Z"
