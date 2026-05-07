@@ -1,8 +1,30 @@
 {
   "actions": {
-    "count": 7,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/2280/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-05-04",
+        "actionTime": "10:33:00",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-05-04",
+        "actionTime": "10:32:43",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-05-01",
         "sourceSystem": {
@@ -199,8 +221,9 @@
   "congress": 119,
   "introducedDate": "2025-07-15",
   "latestAction": {
-    "actionDate": "2026-05-01",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-05-04",
+    "actionTime": "10:33:00",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2280",
   "number": "2280",
@@ -226,9 +249,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-04T21:37:24Z",
-  "updateDateIncludingText": "2026-05-04T21:37:24Z",
+  "updateDate": "2026-05-05T08:05:55Z",
+  "updateDateIncludingText": "2026-05-05T08:05:55Z",
   "id": "119-S-2280",
-  "lastActionDate": "2026-05-01",
+  "lastActionDate": "2026-05-04",
   "lastRecordedVoteDate": "2026-04-29"
 }

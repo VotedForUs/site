@@ -567,14 +567,6 @@
         "type": "Floor"
       },
       {
-        "actionDate": "2026-04-30",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
         "actionCode": "H8D000",
         "actionDate": "2026-04-30",
         "actionTime": "15:47:49",
@@ -627,6 +619,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -800,6 +800,10 @@
   "number": "4465",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4465/summaries?format=json"
+  },
   "title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
   "titles": {
     "titles": [
@@ -818,8 +822,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-04T20:56:31Z",
-  "updateDateIncludingText": "2026-05-04T20:56:31Z",
+  "updateDate": "2026-05-06T15:09:06Z",
+  "updateDateIncludingText": "2026-05-06T15:09:06Z",
   "id": "119-S-4465",
   "lastActionDate": "2026-04-30",
   "lastRecordedVoteDate": "2026-04-30T20:43:45Z"

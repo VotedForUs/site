@@ -189,6 +189,10 @@
   "number": "184",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/184/summaries?format=json"
+  },
   "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Islamic Republic of Iran that have not been authorized by Congress.",
   "titles": {
     "titles": [
@@ -209,8 +213,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-05-01T15:10:30Z",
-  "updateDateIncludingText": "2026-05-01T15:10:30Z",
+  "updateDate": "2026-05-06T15:14:14Z",
+  "updateDateIncludingText": "2026-05-06T15:14:14Z",
   "id": "119-SJRES-184",
   "lastActionDate": "2026-04-30",
   "lastRecordedVoteDate": "2026-04-30T19:02:00Z"
