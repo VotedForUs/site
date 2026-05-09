@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/s/351/actions?format=json",
     "actions": [
       {
@@ -221,6 +221,21 @@
         "sourceSystem": {
           "name": "Senate"
         },
+        "text": "Committee on Environment and Public Works. Committee consideration held. Business Meeting printed. S. Hrg. 119-267.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2025-02-05",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
         "text": "Committee on Environment and Public Works. Ordered to be reported without amendment favorably.",
         "type": "Committee"
       },
@@ -260,6 +275,12 @@
   "titles": {
     "titles": [
       {
+        "title": "STEWARD Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-05-08T11:03:25Z"
+      },
+      {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
@@ -280,17 +301,11 @@
         "updateDate": "2025-11-21T13:38:24Z"
       },
       {
-        "title": "STEWARD Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-11-21T12:03:19Z"
-      },
-      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "STEWARD Act of 2025",
+        "title": "Strategies To Eliminate Waste and Accelerate Recycling Development Act of 2025",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-02-07T04:38:16Z"
@@ -300,7 +315,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Strategies To Eliminate Waste and Accelerate Recycling Development Act of 2025",
+        "title": "STEWARD Act of 2025",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-02-07T04:38:16Z"
@@ -308,7 +323,7 @@
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Strategies To Eliminate Waste and Accelerate Recycling Development Act of 2025",
+        "title": "STEWARD Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-04T15:23:19Z"
@@ -316,7 +331,7 @@
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "STEWARD Act of 2025",
+        "title": "Strategies To Eliminate Waste and Accelerate Recycling Development Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-04T15:23:19Z"
@@ -332,8 +347,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-02-26T01:00:55Z",
-  "updateDateIncludingText": "2026-02-26T01:00:55Z",
+  "updateDate": "2026-05-08T11:03:25Z",
+  "updateDateIncludingText": "2026-05-08T11:03:25Z",
   "id": "119-S-351",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-20"
