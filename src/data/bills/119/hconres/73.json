@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hconres/73/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S2241; text: CR S2241)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-03-25",
         "sourceSystem": {
@@ -656,8 +664,8 @@
   "congress": 119,
   "introducedDate": "2026-02-03",
   "latestAction": {
-    "actionDate": "2026-03-25",
-    "text": "Received in the Senate."
+    "actionDate": "2026-05-12",
+    "text": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S2241; text: CR S2241)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/73",
   "number": "73",
@@ -697,9 +705,9 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-04-02T17:06:17Z",
-  "updateDateIncludingText": "2026-04-02T17:06:17Z",
+  "updateDate": "2026-05-13T16:45:59Z",
+  "updateDateIncludingText": "2026-05-14T02:48:31Z",
   "id": "119-HCONRES-73",
-  "lastActionDate": "2026-03-25",
+  "lastActionDate": "2026-05-12",
   "lastRecordedVoteDate": "2026-03-24"
 }

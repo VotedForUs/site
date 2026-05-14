@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H3358)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3357-3359)",
         "type": "Floor"
       },
       {
@@ -647,6 +647,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "TRUST Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Tailored Regulatory Updates for Supervisory Testing Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Federal Deposit Insurance Act to permit Federal banking agencies to examine qualifying insured depository institutions with under $6 billion in total assets not less than once during each 18-month period, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -699,8 +729,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-13T08:06:19Z",
-  "updateDateIncludingText": "2026-05-13T08:06:19Z",
+  "updateDate": "2026-05-14T08:05:52Z",
+  "updateDateIncludingText": "2026-05-14T08:18:39Z",
   "id": "119-HR-4478",
   "lastActionDate": "2026-05-12",
   "lastRecordedVoteDate": "2026-05-12"
