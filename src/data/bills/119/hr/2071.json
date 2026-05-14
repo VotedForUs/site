@@ -513,7 +513,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 391 - 18, 1 Present (Roll no. 156).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 391 - 18, 1 Present (Roll no. 156). (text: CR H3352)",
         "type": "Floor"
       },
       {
@@ -524,7 +524,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3375-3376)",
         "type": "Floor"
       },
       {
@@ -557,7 +557,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3352-3353)",
         "type": "Floor"
       },
       {
@@ -673,6 +673,40 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the United States Executive Directors at the international financial institutions to oppose certain projects involving shrimp production.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
+      {
+        "title": "Save Our Shrimpers Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Save Our Shrimpers Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
+      {
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the United States Executive Directors at the international financial institutions to oppose certain projects involving shrimp production",
+        "titleType": "Official Titles as Amended by House",
+        "titleTypeCode": 7,
+        "updateDate": "2026-05-13T11:48:17Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -681,12 +715,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-03-26T04:58:22Z"
-      },
-      {
-        "title": "Save Our Shrimpers Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-26T02:08:24Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -707,8 +735,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-13T08:06:44Z",
-  "updateDateIncludingText": "2026-05-13T08:06:44Z",
+  "updateDate": "2026-05-14T08:06:22Z",
+  "updateDateIncludingText": "2026-05-14T08:06:22Z",
   "id": "119-HR-2071",
   "lastActionDate": "2026-05-12",
   "lastRecordedVoteDate": "2026-05-12T23:05:49Z"

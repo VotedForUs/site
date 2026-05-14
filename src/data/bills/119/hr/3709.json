@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 8,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hr/3709/actions?format=json",
     "actions": [
       {
@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3356)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3356-3357)",
         "type": "Floor"
       },
       {
@@ -616,8 +616,7 @@
   "latestAction": {
     "actionDate": "2026-05-12",
     "actionTime": "15:43:37",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3709",
   "number": "3709",
@@ -630,6 +629,26 @@
   "title": "Advancing the Mentor-Protégé Program for Small Financial Institutions Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Financial Institutions Reform, Recovery, and Enforcement Act of 1989 to establish a Financial Agent Mentor-Protégé Program within the Department of the Treasury, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Advancing the Mentor-Protégé Program for Small Financial Institutions Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-14T02:38:27Z"
+      },
       {
         "title": "Advancing the Mentor-Protégé Program for Small Financial Institutions Act",
         "titleType": "Display Title",
@@ -665,8 +684,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-09-03T16:26:03Z",
-  "updateDateIncludingText": "2025-09-03T16:26:03Z",
+  "updateDate": "2026-05-14T02:38:27Z",
+  "updateDateIncludingText": "2026-05-14T07:48:38Z",
   "id": "119-HR-3709",
   "lastActionDate": "2026-05-12",
   "lastRecordedVoteDate": "2026-05-12"
