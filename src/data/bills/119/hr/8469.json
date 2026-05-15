@@ -1,50 +1,34 @@
 {
   "actions": {
-    "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/hconres/73/actions?format=json",
+    "count": 5,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8469/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-05-12",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S2241; text: CR S2241)",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-03-25",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H38310",
-        "actionDate": "2026-03-24",
-        "actionTime": "16:04:44",
+        "actionCode": "H32700",
+        "actionDate": "2026-05-14",
+        "actionTime": "15:32:06",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "text": "Committee of the Whole House on the state of the Union rises leaving H.R. 8469 as unfinished business.",
         "type": "Floor"
       },
       {
-        "actionCode": "H37300",
-        "actionDate": "2026-03-24",
-        "actionTime": "16:04:43",
+        "actionCode": "H32341",
+        "actionDate": "2026-05-14",
+        "actionTime": "15:31:23",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote. (text: CR H2651)",
+        "text": "On motion that the committee rise Agreed to by voice vote.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-03-24",
+            "date": "2026-05-14",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -505,209 +489,212 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hconres/73",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/8469",
             "question": "Voice Vote",
-            "id": "119-HCONRES-73-1"
+            "id": "119-HR-8469-1"
           }
         ]
       },
       {
-        "actionCode": "H8D000",
-        "actionDate": "2026-03-24",
-        "actionTime": "15:55:50",
+        "actionCode": "H32340",
+        "actionDate": "2026-05-14",
+        "actionTime": "15:30:31",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H. Con. Res. 73.",
+        "text": "Mr. Carter (TX) moved that the committee rise.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-05-14",
+        "actionTime": "15:21:47",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 10 minutes of debate on the Mast amendment No. 23.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-05-14",
+        "actionTime": "15:17:44",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 10 minutes of debate on the Correa amendment No. 10.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-05-14",
+        "actionTime": "15:09:16",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - Pursuant to the provisions of H. Res. 1275, the Committee of the Whole proceeded with 20 minutes of debate on the Carter (TX) amendment en bloc.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-05-14",
+        "actionTime": "14:32:41",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 8469.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H32400",
+        "actionDate": "2026-05-14",
+        "actionTime": "14:32:01",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The Speaker designated the Honorable Randy Fine to act as Chairman of the Committee.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H32020",
+        "actionDate": "2026-05-14",
+        "actionTime": "14:32:00",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 1275 and Rule XVIII.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-05-14",
+        "actionTime": "14:31:28",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Rule provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, H. Con. Res. 96 and H.R. 8469. The resolution provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, and H.Con.Res. 96 under a closed rule. The resolution provides for consideration of H.R. 8469 under a structured rule. The resolution makes in order one motion to recommit on each bill.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-03-24",
-        "actionTime": "15:55:49",
+        "actionDate": "2026-05-14",
+        "actionTime": "14:31:23",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H2651-2652)",
+        "text": "Considered under the provisions of rule H. Res. 1275.",
         "type": "Floor"
       },
       {
-        "actionCode": "H30300",
-        "actionDate": "2026-03-24",
-        "actionTime": "15:55:24",
+        "actionCode": "H1L220",
+        "actionDate": "2026-05-13",
+        "actionTime": "15:28:45",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Taylor moved to suspend the rules and agree to the resolution.",
+        "text": "Rule H. Res. 1275 passed House.",
         "type": "Floor"
       },
       {
-        "actionCode": "H12420",
-        "actionDate": "2026-03-16",
+        "actionCode": "H1L210",
+        "actionDate": "2026-05-12",
+        "actionTime": "19:51:11",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Rules Committee Resolution H. Res. 1275 Reported to House. Rule provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, H. Con. Res. 96 and H.R. 8469. The resolution provides for consideration of H.R. 5625, H.R. 6260, H.R. 8365, and H.Con.Res. 96 under a closed rule. The resolution provides for consideration of H.R. 8469 under a structured rule. The resolution makes in order one motion to recommit on each bill.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H12410",
+        "actionDate": "2026-04-23",
         "calendarNumber": {
-          "calendar": "H00065"
+          "calendar": "U00539"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the House Calendar, Calendar No. 65.",
+        "text": "Placed on the Union Calendar, Calendar No. 539.",
         "type": "Calendars"
       },
       {
-        "actionCode": "H12200",
-        "actionDate": "2026-03-16",
+        "actionCode": "H12100",
+        "actionDate": "2026-04-23",
         "committees": [
           {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+            "name": "Appropriations Committee",
+            "systemCode": "hsap00",
+            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported by the Committee on Transportation and Infrastructure. H. Rept. 119-544.",
+        "text": "The House Committee on Appropriations reported an original measure, H. Rept. 119-622, by Mr. Carter (TX).",
         "type": "Committee"
-      },
-      {
-        "actionCode": "H19000",
-        "actionDate": "2026-02-11",
-        "committees": [
-          {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Ordered to be Reported by Voice Vote.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H15001",
-        "actionDate": "2026-02-11",
-        "committees": [
-          {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Committee Consideration and Mark-up Session Held",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H25000",
-        "actionDate": "2026-02-11",
-        "committees": [
-          {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Subcommittee on Economic Development, Public Buildings, and Emergency Management Discharged",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H11000",
-        "actionDate": "2026-02-04",
-        "committees": [
-          {
-            "name": "Economic Development, Public Buildings, and Emergency Management Subcommittee",
-            "systemCode": "hspw13",
-            "url": "https://api.congress.gov/v3/committee/house/hspw13?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2026-02-03",
-        "committees": [
-          {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the House Committee on Transportation and Infrastructure.",
-        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-02-03",
+  "introducedDate": "2026-04-23",
   "latestAction": {
-    "actionDate": "2026-05-12",
-    "text": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S2241; text: CR S2241)"
+    "actionDate": "2026-05-14",
+    "actionTime": "15:32:06",
+    "text": "Committee of the Whole House on the state of the Union rises leaving H.R. 8469 as unfinished business.",
+    "actionCode": "H32700"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/73",
-  "number": "73",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8469",
+  "number": "8469",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hconres/73/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/8469/summaries?format=json"
   },
-  "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers' Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+  "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers’ Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-03-26T05:23:20Z"
+        "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Reported to House for portions of this bill",
+        "titleTypeCode": 107,
+        "updateDate": "2026-04-24T23:42:35Z"
       },
       {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers' Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-02-04T09:18:21Z"
-      },
-      {
-        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers' Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+        "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-02-04T09:06:58Z"
+        "updateDate": "2026-04-24T08:07:25Z"
+      },
+      {
+        "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-04-24T08:07:25Z"
       }
     ]
   },
-  "type": "HCONRES",
-  "updateDate": "2026-05-13T16:45:59Z",
-  "updateDateIncludingText": "2026-05-15T03:03:42Z",
-  "id": "119-HCONRES-73",
-  "lastActionDate": "2026-05-12",
-  "lastRecordedVoteDate": "2026-03-24"
+  "type": "HR",
+  "updateDate": "2026-05-15T00:06:18Z",
+  "updateDateIncludingText": "2026-05-15T00:06:18Z",
+  "id": "119-HR-8469",
+  "lastActionDate": "2026-05-14",
+  "lastRecordedVoteDate": "2026-05-14"
 }

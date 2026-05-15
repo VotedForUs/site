@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 243 - 173, 3 Present (Roll no. 165).",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 243 - 173, 3 Present (Roll no. 165). (text: CR H3428)",
         "type": "Floor"
       },
       {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3436)",
         "type": "Floor"
       },
       {
@@ -569,7 +569,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1275.",
+        "text": "Considered under the provisions of rule H. Res. 1275. (consideration: CR H3428-3434)",
         "type": "Floor"
       },
       {
@@ -621,6 +621,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Expressing support for law enforcement officers.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-15T03:08:24Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Expressing support for law enforcement officers.",
@@ -637,8 +647,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-05-14T08:08:41Z",
-  "updateDateIncludingText": "2026-05-14T08:08:41Z",
+  "updateDate": "2026-05-15T08:06:04Z",
+  "updateDateIncludingText": "2026-05-15T08:48:38Z",
   "id": "119-HCONRES-96",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T22:34:23Z"

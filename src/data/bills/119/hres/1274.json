@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hres/1274/actions?format=json",
     "actions": [
       {
@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 208 (Roll no. 161).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 208 (Roll no. 161). (text: CR H3410)",
         "type": "Floor"
       },
       {
@@ -1006,7 +1006,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3419-3420)",
         "type": "Floor"
       },
       {
@@ -1039,7 +1039,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H3410-3417)",
         "type": "Floor"
       },
       {
@@ -1104,6 +1104,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing that section 11 of House Resolution 1224 shall have no force or effect.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-15T03:08:23Z"
+      },
+      {
         "title": "Providing that section 11 of House Resolution 1224 shall have no force or effect.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1118,8 +1128,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-05-14T08:07:35Z",
-  "updateDateIncludingText": "2026-05-14T08:07:35Z",
+  "updateDate": "2026-05-15T08:05:26Z",
+  "updateDateIncludingText": "2026-05-15T08:18:48Z",
   "id": "119-HRES-1274",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T19:42:40Z"

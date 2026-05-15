@@ -1,12 +1,12 @@
 {
   "actions": {
     "count": 10,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1259/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hres/1252/actions?format=json",
     "actions": [
       {
-        "actionCode": "H38310",
+        "actionCode": "H8D000",
         "actionDate": "2026-05-13",
-        "actionTime": "18:47:28",
+        "actionTime": "15:56:56",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,15 +17,15 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-05-13",
-        "actionTime": "18:47:26",
+        "actionTime": "15:56:54",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-05-13T22:47:26Z",
-            "rollNumber": 167,
+            "date": "2026-05-13T19:56:54Z",
+            "rollNumber": 162,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll167.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll162.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Yea",
@@ -51,7 +51,7 @@
               "B001291": "Yea",
               "B001292": "Yea",
               "B001295": "Yea",
-              "B001296": "Not Voting",
+              "B001296": "Yea",
               "B001298": "Yea",
               "B001300": "Yea",
               "B001301": "Yea",
@@ -96,10 +96,10 @@
               "C001112": "Yea",
               "C001115": "Yea",
               "C001116": "Yea",
-              "C001117": "Not Voting",
+              "C001117": "Yea",
               "C001118": "Yea",
               "C001119": "Yea",
-              "C001120": "Yea",
+              "C001120": "Not Voting",
               "C001121": "Yea",
               "C001123": "Yea",
               "C001125": "Yea",
@@ -142,7 +142,7 @@
               "E000301": "Yea",
               "F000110": "Yea",
               "F000246": "Yea",
-              "F000446": "Yea",
+              "F000446": "Not Voting",
               "F000450": "Yea",
               "F000454": "Yea",
               "F000459": "Yea",
@@ -173,14 +173,14 @@
               "G000576": "Yea",
               "G000581": "Yea",
               "G000583": "Yea",
-              "G000585": "Not Voting",
+              "G000585": "Yea",
               "G000586": "Yea",
               "G000587": "Yea",
               "G000589": "Yea",
               "G000591": "Yea",
               "G000592": "Yea",
               "G000593": "Yea",
-              "G000597": "Not Voting",
+              "G000597": "Yea",
               "G000598": "Yea",
               "G000599": "Yea",
               "G000600": "Yea",
@@ -242,7 +242,7 @@
               "K000398": "Not Voting",
               "K000399": "Yea",
               "K000400": "Yea",
-              "K000401": "Not Voting",
+              "K000401": "Yea",
               "K000402": "Yea",
               "K000403": "Yea",
               "K000405": "Yea",
@@ -310,7 +310,7 @@
               "M001229": "Yea",
               "M001230": "Yea",
               "M001231": "Yea",
-              "M001232": "Yea",
+              "M001232": "Not Voting",
               "M001233": "Yea",
               "M001234": "Yea",
               "M001235": "Yea",
@@ -329,12 +329,12 @@
               "N000189": "Yea",
               "N000190": "Yea",
               "N000191": "Yea",
-              "N000193": "Not Voting",
+              "N000193": "Yea",
               "O000019": "Yea",
               "O000086": "Yea",
               "O000172": "Yea",
               "O000173": "Yea",
-              "O000175": "Not Voting",
+              "O000175": "Yea",
               "O000176": "Yea",
               "O000177": "Yea",
               "P000034": "Yea",
@@ -363,7 +363,7 @@
               "R000610": "Yea",
               "R000612": "Yea",
               "R000614": "Yea",
-              "R000617": "Yea",
+              "R000617": "Nay",
               "R000619": "Yea",
               "R000620": "Yea",
               "R000621": "Yea",
@@ -409,7 +409,7 @@
               "S001229": "Yea",
               "S001230": "Yea",
               "S001231": "Yea",
-              "T000165": "Not Voting",
+              "T000165": "Yea",
               "T000193": "Yea",
               "T000460": "Yea",
               "T000463": "Yea",
@@ -420,7 +420,7 @@
               "T000474": "Yea",
               "T000478": "Yea",
               "T000480": "Yea",
-              "T000481": "Yea",
+              "T000481": "Nay",
               "T000482": "Yea",
               "T000486": "Yea",
               "T000487": "Yea",
@@ -434,7 +434,7 @@
               "V000131": "Yea",
               "V000133": "Yea",
               "V000134": "Yea",
-              "V000135": "Not Voting",
+              "V000135": "Yea",
               "V000136": "Yea",
               "V000138": "Yea",
               "V000139": "Yea",
@@ -462,18 +462,18 @@
             "votePartyTotal": [
               {
                 "nayTotal": 0,
-                "notVotingTotal": 9,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 208
+                "yeaTotal": 211
               },
               {
-                "nayTotal": 0,
-                "notVotingTotal": 6,
+                "nayTotal": 2,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
@@ -484,43 +484,43 @@
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 1,
+                "notVotingTotal": 0,
                 "party": {
                   "name": "Independent",
                   "type": "I"
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 0
+                "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll167.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll162.xml",
             "question": "On Motion to Suspend the Rules and Agree",
-            "id": "119-HRES-1259-1"
+            "id": "119-HRES-1252-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 414 - 0 (Roll no. 167).",
+        "text": "On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 418 - 2 (Roll no. 162).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-05-13",
-        "actionTime": "18:41:33",
+        "actionTime": "15:42:55",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3437-3438)",
+        "text": "Considered as unfinished business. (consideration: CR H3420-3421)",
         "type": "Floor"
       },
       {
         "actionCode": "H37220",
         "actionDate": "2026-05-12",
-        "actionTime": "17:30:48",
+        "actionTime": "16:17:27",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -531,71 +531,71 @@
       {
         "actionCode": "H8D000",
         "actionDate": "2026-05-12",
-        "actionTime": "17:04:22",
+        "actionTime": "16:10:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1259.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1252.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-05-12",
-        "actionTime": "17:04:20",
+        "actionTime": "16:10:39",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3372-3375; text: CR H3372)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3362-3364; text: CR H3362-3363)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
         "actionDate": "2026-05-12",
-        "actionTime": "17:04:00",
+        "actionTime": "16:10:31",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Smith (NJ) moved to suspend the rules and agree to the resolution.",
+        "text": "Mr. Knott moved to suspend the rules and agree to the resolution.",
         "type": "Floor"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2026-05-07",
+        "actionDate": "2026-05-04",
         "committees": [
           {
-            "name": "Foreign Affairs Committee",
-            "systemCode": "hsfa00",
-            "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "hsju00",
+            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Foreign Affairs.",
+        "text": "Referred to the House Committee on the Judiciary.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-05-07",
+  "introducedDate": "2026-05-04",
   "latestAction": {
     "actionDate": "2026-05-13",
-    "actionTime": "18:47:28",
+    "actionTime": "15:56:56",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1259",
-  "number": "1259",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1252",
+  "number": "1252",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1259/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hres/1252/summaries?format=json"
   },
-  "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+  "title": "Resolution memorializing law enforcement officers killed in the line of duty.",
   "titles": {
     "titles": [
       {
@@ -603,7 +603,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People’s Republic of China during future engagements with Chinese President Xi Jinping.",
+        "title": "Resolution memorializing law enforcement officers killed in the line of duty.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-05-15T03:08:24Z"
@@ -611,23 +611,23 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+        "title": "Resolution memorializing law enforcement officers killed in the line of duty.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-05-08T08:18:33Z"
+        "updateDate": "2026-05-05T08:18:32Z"
       },
       {
-        "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+        "title": "Resolution memorializing law enforcement officers killed in the line of duty.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-05-08T08:05:32Z"
+        "updateDate": "2026-05-05T08:06:17Z"
       }
     ]
   },
   "type": "HRES",
   "updateDate": "2026-05-15T03:08:24Z",
-  "updateDateIncludingText": "2026-05-15T08:48:39Z",
-  "id": "119-HRES-1259",
+  "updateDateIncludingText": "2026-05-15T08:03:36Z",
+  "id": "119-HRES-1252",
   "lastActionDate": "2026-05-13",
-  "lastRecordedVoteDate": "2026-05-13T22:47:26Z"
+  "lastRecordedVoteDate": "2026-05-13T19:56:54Z"
 }
