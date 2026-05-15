@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 7,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/hres/1251/actions?format=json",
     "actions": [
       {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3437)",
         "type": "Floor"
       },
       {
@@ -602,8 +602,7 @@
   "latestAction": {
     "actionDate": "2026-05-13",
     "actionTime": "18:40:57",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1251",
   "number": "1251",
@@ -616,6 +615,16 @@
   "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish-American community.",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish-American community.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-15T03:08:23Z"
+      },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
@@ -633,8 +642,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-05-13T17:49:30Z",
-  "updateDateIncludingText": "2026-05-13T17:49:30Z",
+  "updateDate": "2026-05-15T08:07:48Z",
+  "updateDateIncludingText": "2026-05-15T08:07:48Z",
   "id": "119-HRES-1251",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T22:40:55Z"

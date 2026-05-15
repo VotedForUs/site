@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/2853/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-13",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on the Judiciary.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-12",
@@ -646,9 +661,8 @@
   "congress": 119,
   "introducedDate": "2025-04-10",
   "latestAction": {
-    "actionDate": "2026-05-12",
-    "actionTime": "19:13:42",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-13",
+    "text": "Read twice and referred to the Committee on the Judiciary."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2853",
   "number": "2853",
@@ -661,6 +675,16 @@
   "title": "Combating Organized Retail Crime Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Combating Organized Retail Crime Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-15T03:08:24Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -716,9 +740,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-14T02:38:27Z",
-  "updateDateIncludingText": "2026-05-14T07:48:37Z",
+  "updateDate": "2026-05-15T03:08:24Z",
+  "updateDateIncludingText": "2026-05-15T03:08:24Z",
   "id": "119-HR-2853",
-  "lastActionDate": "2026-05-12",
+  "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-12T23:13:41Z"
 }

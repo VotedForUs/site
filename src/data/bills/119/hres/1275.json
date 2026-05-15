@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hres/1275/actions?format=json",
     "actions": [
       {
@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 214 - 208 (Roll no. 159).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 214 - 208 (Roll no. 159). (text: CR H3404-3405)",
         "type": "Floor"
       },
       {
@@ -1006,7 +1006,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3418-3419)",
         "type": "Floor"
       },
       {
@@ -1039,7 +1039,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H3404-3410)",
         "type": "Floor"
       },
       {
@@ -1104,6 +1104,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 5625) to direct the Attorney General to make publicly available a list of each State and unit of local government that permits cashless bail, and for other purposes; providing for consideration of the bill (H.R. 6260) to amend title 18, United States Code, to prohibit fraud in connection with posting bail; providing for consideration of the bill (H.R. 8365) to provide for conditions on the appointment of monitors by courts, and for other purposes; providing for consideration of the concurrent resolution (H. Con. Res. 96) expressing support for law enforcement officers; and providing for consideration of the bill (H.R. 8469) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-15T03:08:24Z"
+      },
+      {
         "title": "Providing for consideration of the bill (H.R. 5625) to direct the Attorney General to make publicly available a list of each State and unit of local government that permits cashless bail, and for other purposes; providing for consideration of the bill (H.R. 6260) to amend title 18, United States Code, to prohibit fraud in connection with posting bail; providing for consideration of the bill (H.R. 8365) to provide for conditions on the appointment of monitors by courts, and for other purposes; providing for consideration of the concurrent resolution (H. Con. Res. 96) expressing support for law enforcement officers; and providing for consideration of the bill (H.R. 8469) making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1118,8 +1128,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-05-14T08:08:06Z",
-  "updateDateIncludingText": "2026-05-14T08:08:06Z",
+  "updateDate": "2026-05-15T08:05:49Z",
+  "updateDateIncludingText": "2026-05-15T08:48:34Z",
   "id": "119-HRES-1275",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T19:28:44Z"

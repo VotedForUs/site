@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 5,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/1346/actions?format=json",
     "actions": [
       {
@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 218 - 203 (Roll no. 164).",
+        "text": "On passage Passed by the Yeas and Nays: 218 - 203 (Roll no. 164). (text of amendment in the nature of a substitute: CR H3421-3422)",
         "type": "Floor"
       },
       {
@@ -1013,7 +1013,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3435-3436)",
         "type": "Floor"
       },
       {
@@ -1053,7 +1053,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Perry moved to recommit to the Committee on Energy and Commerce.",
+        "text": "Mr. Perry moved to recommit to the Committee on Energy and Commerce. (text: CR H3428)",
         "type": "Floor"
       },
       {
@@ -1097,7 +1097,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1224.",
+        "text": "Considered under the provisions of rule H. Res. 1224. (consideration: CR H3421-3428)",
         "type": "Floor"
       },
       {
@@ -1146,8 +1146,7 @@
   "latestAction": {
     "actionDate": "2026-05-13",
     "actionTime": "18:26:59",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1346",
   "number": "1346",
@@ -1160,6 +1159,16 @@
   "title": "Nationwide Consumer and Fuel Retailer Choice Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-15T03:08:23Z"
+      },
       {
         "title": "Nationwide Consumer and Fuel Retailer Choice Act of 2025",
         "titleType": "Display Title",
@@ -1185,8 +1194,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-12T19:20:23Z",
-  "updateDateIncludingText": "2026-05-12T19:20:23Z",
+  "updateDate": "2026-05-15T03:08:23Z",
+  "updateDateIncludingText": "2026-05-15T07:33:30Z",
   "id": "119-HR-1346",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T22:26:57Z"

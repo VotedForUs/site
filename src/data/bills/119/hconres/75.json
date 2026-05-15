@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 11,
-    "url": "https://api.congress.gov/v3/bill/119/hconres/40/actions?format=json",
+    "count": 13,
+    "url": "https://api.congress.gov/v3/bill/119/hconres/75/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
-        "actionDate": "2026-04-16",
-        "actionTime": "12:06:50",
+        "actionDate": "2026-05-14",
+        "actionTime": "16:53:21",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,16 +16,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2026-04-16",
-        "actionTime": "12:06:47",
+        "actionDate": "2026-05-14",
+        "actionTime": "16:53:19",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-16T16:06:47Z",
-            "rollNumber": 114,
+            "date": "2026-05-14T20:53:19Z",
+            "rollNumber": 170,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll114.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll170.xml",
             "votes": {
               "A000055": "Nay",
               "A000148": "Yea",
@@ -40,7 +40,7 @@
               "B000490": "Yea",
               "B000668": "Nay",
               "B000740": "Nay",
-              "B000825": "Not Voting",
+              "B000825": "Nay",
               "B001257": "Nay",
               "B001260": "Nay",
               "B001278": "Yea",
@@ -65,7 +65,7 @@
               "B001316": "Nay",
               "B001317": "Nay",
               "B001318": "Yea",
-              "B001321": "Nay",
+              "B001321": "Yea",
               "B001322": "Nay",
               "B001323": "Nay",
               "B001324": "Yea",
@@ -104,7 +104,6 @@
               "C001123": "Yea",
               "C001125": "Yea",
               "C001126": "Nay",
-              "C001127": "Yea",
               "C001129": "Nay",
               "C001130": "Yea",
               "C001131": "Yea",
@@ -125,8 +124,8 @@
               "D000617": "Yea",
               "D000623": "Yea",
               "D000624": "Yea",
-              "D000626": "Present",
-              "D000628": "Nay",
+              "D000626": "Nay",
+              "D000628": "Not Voting",
               "D000629": "Yea",
               "D000631": "Yea",
               "D000634": "Nay",
@@ -148,7 +147,7 @@
               "F000454": "Yea",
               "F000459": "Nay",
               "F000462": "Yea",
-              "F000466": "Nay",
+              "F000466": "Yea",
               "F000468": "Yea",
               "F000469": "Nay",
               "F000470": "Nay",
@@ -178,7 +177,7 @@
               "G000586": "Yea",
               "G000587": "Yea",
               "G000589": "Nay",
-              "G000591": "Nay",
+              "G000591": "Not Voting",
               "G000592": "Nay",
               "G000593": "Nay",
               "G000597": "Nay",
@@ -247,7 +246,7 @@
               "K000402": "Yea",
               "K000403": "Nay",
               "K000405": "Nay",
-              "L000273": "Yea",
+              "L000273": "Not Voting",
               "L000397": "Yea",
               "L000491": "Nay",
               "L000557": "Yea",
@@ -259,7 +258,7 @@
               "L000585": "Nay",
               "L000590": "Yea",
               "L000593": "Yea",
-              "L000595": "Nay",
+              "L000595": "Not Voting",
               "L000596": "Nay",
               "L000597": "Nay",
               "L000598": "Nay",
@@ -270,7 +269,7 @@
               "L000603": "Nay",
               "L000606": "Yea",
               "L000607": "Yea",
-              "M000194": "Not Voting",
+              "M000194": "Nay",
               "M000312": "Yea",
               "M000317": "Nay",
               "M000687": "Yea",
@@ -322,6 +321,7 @@
               "M001240": "Nay",
               "M001241": "Yea",
               "M001245": "Yea",
+              "M001246": "Yea",
               "N000002": "Yea",
               "N000015": "Yea",
               "N000026": "Nay",
@@ -378,7 +378,6 @@
               "S001145": "Yea",
               "S001148": "Nay",
               "S001156": "Yea",
-              "S001157": "Yea",
               "S001159": "Yea",
               "S001172": "Nay",
               "S001176": "Nay",
@@ -446,7 +445,7 @@
               "W000798": "Nay",
               "W000804": "Nay",
               "W000806": "Nay",
-              "W000808": "Yea",
+              "W000808": "Not Voting",
               "W000809": "Nay",
               "W000812": "Nay",
               "W000814": "Nay",
@@ -462,26 +461,26 @@
             "result": "rejected",
             "votePartyTotal": [
               {
-                "nayTotal": 212,
-                "notVotingTotal": 3,
+                "nayTotal": 210,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
-                "presentTotal": 1,
+                "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 1
+                "yeaTotal": 3
               },
               {
                 "nayTotal": 1,
-                "notVotingTotal": 0,
+                "notVotingTotal": 2,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 212
+                "yeaTotal": 209
               },
               {
                 "nayTotal": 1,
@@ -495,22 +494,44 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll114.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll170.xml",
             "question": "On Agreeing to the Resolution",
-            "id": "119-HCONRES-40-1"
+            "id": "119-HCONRES-75-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Failed by the Yeas and Nays: 213 - 214, 1 Present (Roll no. 114).",
+        "text": "On agreeing to the resolution Failed by the Yeas and Nays: 212 - 212 (Roll no. 170).",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-05-14",
+        "actionTime": "16:47:10",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-05-13",
+        "actionTime": "19:59:28",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H. Con. Res. 75, the Chair put the question on agreeing to the resolution, and by voice vote, announced that the noes had prevailed. Mr. Meeks demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2026-04-16",
-        "actionTime": "11:33:03",
+        "actionDate": "2026-05-13",
+        "actionTime": "19:58:59",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -520,51 +541,51 @@
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-16",
-        "actionTime": "10:17:58",
+        "actionDate": "2026-05-13",
+        "actionTime": "19:04:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - Pursuant to a previous order, the House proceeded with one hour of debate on H. Con. Res. 40.",
+        "text": "DEBATE - Pursuant to a previous order, the House proceeded with one hour of debate on H. Con. Res. 75.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-16",
-        "actionTime": "10:17:53",
+        "actionDate": "2026-05-13",
+        "actionTime": "19:04:04",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered pursuant to a previous order. (consideration: CR H2929-2937; text: CR H2929)",
+        "text": "Considered previous order of the House. (consideration: CR H3439-3446; text: CR H3439)",
         "type": "Floor"
       },
       {
         "actionCode": "H30800",
-        "actionDate": "2026-04-16",
-        "actionTime": "10:17:40",
+        "actionDate": "2026-05-13",
+        "actionTime": "19:03:48",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Consideration initiated pursuant to a previous order.",
+        "text": "Consideration initiated previous order of the House.",
         "type": "Floor"
       },
       {
-        "actionCode": "H8D000",
-        "actionDate": "2026-04-15",
-        "actionTime": "10:04:13",
+        "actionCode": "H29800",
+        "actionDate": "2026-04-27",
+        "actionTime": "19:10:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "ORDER OF PROCEDURE - Mr. Mast asked unanimous consent that it be in order at any time to consider H. Con. Res. 40 in the House if called up by the chair of the Committee on Foreign Affairs or his designee; that the concurrent resolution be considered as read; and that the previous question be considered as ordered on the concurrent resolution to adoption without intervening motion except for one hour of debate equally divided and controlled by Representative Mast of Florida and Representative Meeks of New York, or their respective designees. Agreed to without objection.",
+        "text": "Mr. Self asked unanimous consent That, it be in order at any time to consider H. Con. Res. 75 in the House if called up by the chair of the Committee on Foreign Affairs or his designee; that the concurrent resolution be considered as read; and that the previous question be considered as ordered on the concurrent resolution without intervening motion except for one hour of debate equally divided and controlled by Representative Mast of Florida and Representative Meeks of New York, or their respective designees. Agreed to without objection.",
         "type": "Floor"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-06-23",
+        "actionDate": "2026-03-04",
         "committees": [
           {
             "name": "Foreign Affairs Committee",
@@ -582,43 +603,43 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-06-23",
+  "introducedDate": "2026-03-04",
   "latestAction": {
-    "actionDate": "2026-04-16",
-    "actionTime": "12:06:50",
+    "actionDate": "2026-05-14",
+    "actionTime": "16:53:21",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/40",
-  "number": "40",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/75",
+  "number": "75",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hconres/40/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hconres/75/summaries?format=json"
   },
-  "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+  "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from hostilities against the Islamic Republic of Iran.",
   "titles": {
     "titles": [
       {
-        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-17T11:31:23Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from hostilities against the Islamic Republic of Iran.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-06-24T08:49:25Z"
+        "updateDate": "2026-03-05T09:18:25Z"
+      },
+      {
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove the United States Armed Forces from hostilities against the Islamic Republic of Iran.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-05T09:06:39Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-05-15T08:07:31Z",
-  "updateDateIncludingText": "2026-05-15T08:07:31Z",
-  "id": "119-HCONRES-40",
-  "lastActionDate": "2026-04-16",
-  "lastRecordedVoteDate": "2026-04-16T16:06:47Z"
+  "updateDate": "2026-05-15T08:07:40Z",
+  "updateDateIncludingText": "2026-05-15T08:07:40Z",
+  "id": "119-HCONRES-75",
+  "lastActionDate": "2026-05-14",
+  "lastRecordedVoteDate": "2026-05-14T20:53:19Z"
 }
