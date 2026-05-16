@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 9,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/5625/actions?format=json",
     "actions": [
       {
@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 308 - 116 (Roll no. 171).",
+        "text": "On passage Passed by the Yeas and Nays: 308 - 116 (Roll no. 171). (text of amendment in the nature of a substitute: CR H3471)",
         "type": "Floor"
       },
       {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3507)",
         "type": "Floor"
       },
       {
@@ -569,7 +569,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1275.",
+        "text": "Considered under the provisions of rule H. Res. 1275. (consideration: CR H3471-3474)",
         "type": "Floor"
       },
       {
@@ -671,8 +671,7 @@
   "latestAction": {
     "actionDate": "2026-05-14",
     "actionTime": "16:59:37",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5625",
   "number": "5625",
@@ -685,6 +684,26 @@
   "title": "Cashless Bail Reporting Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Cashless Bail Reporting Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-16T03:53:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Attorney General to make publicly available a list of each State and unit of local government that permits cashless bail, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-16T03:53:24Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -720,8 +739,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-15T00:06:18Z",
-  "updateDateIncludingText": "2026-05-15T00:06:18Z",
+  "updateDate": "2026-05-16T03:53:25Z",
+  "updateDateIncludingText": "2026-05-16T07:03:22Z",
   "id": "119-HR-5625",
   "lastActionDate": "2026-05-14",
   "lastRecordedVoteDate": "2026-05-14T20:59:35Z"

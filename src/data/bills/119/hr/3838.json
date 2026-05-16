@@ -3297,6 +3297,26 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "Securing American Funding and Expertise from Adversarial Research Exploitation Act of 2025",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2025-09-25T04:38:16Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Anti-CBDC Surveillance State Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2025-09-25T04:38:16Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Coast Guard Authorization Act of 2025",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
@@ -3333,26 +3353,6 @@
         "updateDate": "2025-09-25T04:38:16Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Securing American Funding and Expertise from Adversarial Research Exploitation Act of 2025",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2025-09-25T04:38:16Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Anti-CBDC Surveillance State Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2025-09-25T04:38:16Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -3371,7 +3371,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "SPEED Act",
+        "title": "Streamlining Procurement for Effective Execution and Delivery Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-06-13T12:23:17Z"
@@ -3379,7 +3379,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Streamlining Procurement for Effective Execution and Delivery Act of 2025",
+        "title": "SPEED Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-06-13T12:23:17Z"
@@ -3395,8 +3395,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-02T20:16:26Z",
-  "updateDateIncludingText": "2026-04-02T20:16:26Z",
+  "updateDate": "2026-05-15T21:55:36Z",
+  "updateDateIncludingText": "2026-05-15T21:55:36Z",
   "id": "119-HR-3838",
   "lastActionDate": "2025-09-30",
   "lastRecordedVoteDate": "2025-09-10T21:56:37Z"
