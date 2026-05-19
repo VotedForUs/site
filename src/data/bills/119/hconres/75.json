@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3506-3507)",
         "type": "Floor"
       },
       {
@@ -637,8 +637,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-05-15T08:07:40Z",
-  "updateDateIncludingText": "2026-05-15T08:07:40Z",
+  "updateDate": "2026-05-18T18:47:51Z",
+  "updateDateIncludingText": "2026-05-18T18:47:51Z",
   "id": "119-HCONRES-75",
   "lastActionDate": "2026-05-14",
   "lastRecordedVoteDate": "2026-05-14T20:53:19Z"
