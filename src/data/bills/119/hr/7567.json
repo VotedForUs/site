@@ -2211,6 +2211,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Farm, Food, and National Security Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-20T06:08:44Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-20T06:08:44Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Save Our Sequoias Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-05-20T06:08:44Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -2229,17 +2259,17 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Farm, Food, and National Security Act of 2026",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
+        "title": "CFTC Whistleblower Office Account Act of 2021",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
         "updateDate": "2026-02-14T09:23:23Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "CFTC Whistleblower Office Account Act of 2021",
-        "titleType": "Short Title(s) as Introduced for portions of this bill",
-        "titleTypeCode": 106,
+        "title": "Farm, Food, and National Security Act of 2026",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
         "updateDate": "2026-02-14T09:23:23Z"
       },
       {
@@ -2253,8 +2283,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-13T22:41:21Z",
-  "updateDateIncludingText": "2026-05-13T22:41:21Z",
+  "updateDate": "2026-05-20T06:08:45Z",
+  "updateDateIncludingText": "2026-05-20T08:33:29Z",
   "id": "119-HR-7567",
   "lastActionDate": "2026-04-30",
   "lastRecordedVoteDate": "2026-04-30T15:14:59Z"
