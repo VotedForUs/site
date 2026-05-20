@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-20",
+  "runId": "26152231984",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HCONRES-40",
+      "119-HR-7567",
+      "119-SCONRES-33",
+      "119-SJRES-126",
+      "119-SJRES-128",
+      "119-SJRES-130",
+      "119-SJRES-131",
+      "119-SJRES-132",
+      "119-SJRES-134",
+      "119-SJRES-135",
+      "119-SJRES-140",
+      "119-SJRES-145",
+      "119-SJRES-149"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}

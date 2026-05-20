@@ -492,7 +492,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 215 - 211, 1 Present (Roll no. 143).",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 215 - 211, 1 Present (Roll no. 143). (text: CR H3147-3146)",
         "type": "Floor"
       },
       {
@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3168-3169)",
         "type": "Floor"
       },
       {
@@ -558,7 +558,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1224.",
+        "text": "Considered under the provisions of rule H. Res. 1224. (consideration: CR H3147-3160)",
         "type": "Floor"
       },
       {
@@ -967,7 +967,7 @@
   "latestAction": {
     "actionDate": "2026-04-29",
     "actionTime": "22:39:59",
-    "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 215 - 211, 1 Present (Roll no. 143)."
+    "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 215 - 211, 1 Present (Roll no. 143). (text: CR H3147-3146)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-concurrent-resolution/33",
   "number": "33",
@@ -995,8 +995,8 @@
     ]
   },
   "type": "SCONRES",
-  "updateDate": "2026-05-01T03:36:20Z",
-  "updateDateIncludingText": "2026-05-01T06:48:29Z",
+  "updateDate": "2026-05-19T18:50:34Z",
+  "updateDateIncludingText": "2026-05-19T18:50:34Z",
   "id": "119-SCONRES-33",
   "lastActionDate": "2026-04-29",
   "lastRecordedVoteDate": "2026-04-30T02:39:59Z"
