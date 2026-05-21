@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 20,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/2066/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-05-19",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-92.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-05-19",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-92.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-05-19",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-05-19",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-05-12",
@@ -825,10 +865,15 @@
   "congress": 119,
   "introducedDate": "2025-03-11",
   "latestAction": {
-    "actionDate": "2026-05-12",
-    "text": "Presented to President.",
-    "actionCode": "E20000"
+    "actionDate": "2026-05-19",
+    "text": "Became Public Law No: 119-92."
   },
+  "laws": [
+    {
+      "number": "119-92",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2066",
   "number": "2066",
   "originChamber": "House",
@@ -915,9 +960,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-27T18:55:43Z",
-  "updateDateIncludingText": "2026-04-27T18:55:43Z",
+  "updateDate": "2026-05-20T20:23:55Z",
+  "updateDateIncludingText": "2026-05-20T20:23:55Z",
   "id": "119-HR-2066",
-  "lastActionDate": "2026-05-12",
+  "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-04-15"
 }
