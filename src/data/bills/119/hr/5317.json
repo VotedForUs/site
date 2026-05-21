@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/s/1003/actions?format=json",
+    "count": 16,
+    "url": "https://api.congress.gov/v3/bill/119/hr/5317/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-20",
-        "actionTime": "13:24:03",
+        "actionTime": "13:16:04",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,15 +17,15 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-05-20",
-        "actionTime": "13:24:01",
+        "actionTime": "13:16:02",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-05-20T17:24:01Z",
-            "rollNumber": 181,
+            "date": "2026-05-20T17:16:02Z",
+            "rollNumber": 179,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll181.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll179.xml",
             "votes": {
               "A000055": "Not Voting",
               "A000148": "Yea",
@@ -36,7 +36,7 @@
               "A000375": "Yea",
               "A000379": "Yea",
               "A000380": "Yea",
-              "A000381": "Yea",
+              "A000381": "Nay",
               "B000490": "Yea",
               "B000668": "Yea",
               "B000740": "Yea",
@@ -94,8 +94,8 @@
               "C001108": "Yea",
               "C001110": "Yea",
               "C001112": "Yea",
-              "C001115": "Nay",
-              "C001116": "Nay",
+              "C001115": "Yea",
+              "C001116": "Yea",
               "C001117": "Yea",
               "C001118": "Yea",
               "C001119": "Not Voting",
@@ -106,7 +106,7 @@
               "C001126": "Yea",
               "C001129": "Yea",
               "C001130": "Yea",
-              "C001131": "Yea",
+              "C001131": "Nay",
               "C001132": "Not Voting",
               "C001133": "Yea",
               "C001136": "Yea",
@@ -122,14 +122,14 @@
               "D000600": "Yea",
               "D000616": "Yea",
               "D000617": "Yea",
-              "D000623": "Yea",
+              "D000623": "Nay",
               "D000624": "Yea",
-              "D000626": "Nay",
+              "D000626": "Yea",
               "D000628": "Yea",
               "D000629": "Yea",
               "D000631": "Yea",
               "D000634": "Yea",
-              "D000635": "Yea",
+              "D000635": "Nay",
               "E000071": "Yea",
               "E000235": "Not Voting",
               "E000246": "Yea",
@@ -162,7 +162,7 @@
               "F000481": "Yea",
               "F000482": "Yea",
               "F000483": "Yea",
-              "F000484": "Nay",
+              "F000484": "Yea",
               "F000485": "Yea",
               "G000546": "Not Voting",
               "G000553": "Yea",
@@ -173,8 +173,8 @@
               "G000576": "Yea",
               "G000581": "Yea",
               "G000583": "Yea",
-              "G000585": "Yea",
-              "G000586": "Yea",
+              "G000585": "Nay",
+              "G000586": "Nay",
               "G000587": "Yea",
               "G000589": "Yea",
               "G000591": "Yea",
@@ -189,14 +189,14 @@
               "G000603": "Yea",
               "G000604": "Yea",
               "G000605": "Yea",
-              "G000606": "Yea",
+              "G000606": "Nay",
               "H000874": "Yea",
               "H001047": "Yea",
-              "H001052": "Nay",
+              "H001052": "Yea",
               "H001058": "Yea",
               "H001066": "Yea",
               "H001067": "Yea",
-              "H001068": "Not Voting",
+              "H001068": "Yea",
               "H001072": "Yea",
               "H001077": "Yea",
               "H001081": "Yea",
@@ -220,7 +220,7 @@
               "J000289": "Yea",
               "J000294": "Yea",
               "J000295": "Yea",
-              "J000298": "Yea",
+              "J000298": "Nay",
               "J000299": "Yea",
               "J000301": "Yea",
               "J000302": "Yea",
@@ -245,7 +245,7 @@
               "K000401": "Yea",
               "K000402": "Yea",
               "K000403": "Yea",
-              "K000405": "Yea",
+              "K000405": "Not Voting",
               "L000273": "Yea",
               "L000397": "Yea",
               "L000491": "Yea",
@@ -265,12 +265,12 @@
               "L000599": "Yea",
               "L000600": "Yea",
               "L000601": "Yea",
-              "L000602": "Yea",
+              "L000602": "Nay",
               "L000603": "Yea",
               "L000606": "Yea",
               "L000607": "Yea",
               "M000194": "Not Voting",
-              "M000312": "Yea",
+              "M000312": "Nay",
               "M000317": "Yea",
               "M000687": "Yea",
               "M000871": "Yea",
@@ -332,8 +332,8 @@
               "N000193": "Yea",
               "O000019": "Yea",
               "O000086": "Yea",
-              "O000172": "Yea",
-              "O000173": "Yea",
+              "O000172": "Nay",
+              "O000173": "Nay",
               "O000175": "Yea",
               "O000176": "Yea",
               "O000177": "Yea",
@@ -342,19 +342,19 @@
               "P000197": "Yea",
               "P000597": "Yea",
               "P000605": "Yea",
-              "P000607": "Not Voting",
+              "P000607": "Nay",
               "P000608": "Yea",
               "P000609": "Yea",
               "P000613": "Yea",
               "P000614": "Yea",
-              "P000617": "Yea",
+              "P000617": "Nay",
               "P000620": "Yea",
               "P000621": "Yea",
               "P000622": "Yea",
               "Q000023": "Yea",
               "R000305": "Yea",
               "R000395": "Yea",
-              "R000575": "Not Voting",
+              "R000575": "Yea",
               "R000579": "Yea",
               "R000599": "Yea",
               "R000603": "Yea",
@@ -363,7 +363,7 @@
               "R000610": "Yea",
               "R000612": "Yea",
               "R000614": "Not Voting",
-              "R000617": "Yea",
+              "R000617": "Nay",
               "R000619": "Yea",
               "R000620": "Yea",
               "R000621": "Yea",
@@ -402,7 +402,7 @@
               "S001220": "Yea",
               "S001221": "Yea",
               "S001223": "Yea",
-              "S001224": "Nay",
+              "S001224": "Yea",
               "S001225": "Yea",
               "S001226": "Yea",
               "S001228": "Yea",
@@ -420,7 +420,7 @@
               "T000474": "Yea",
               "T000478": "Yea",
               "T000480": "Yea",
-              "T000481": "Yea",
+              "T000481": "Nay",
               "T000482": "Yea",
               "T000486": "Yea",
               "T000487": "Yea",
@@ -461,7 +461,7 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 6,
+                "nayTotal": 0,
                 "notVotingTotal": 14,
                 "party": {
                   "name": "Republican",
@@ -469,18 +469,18 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 197
+                "yeaTotal": 203
               },
               {
-                "nayTotal": 0,
-                "notVotingTotal": 9,
+                "nayTotal": 16,
+                "notVotingTotal": 7,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 203
+                "yeaTotal": 189
               },
               {
                 "nayTotal": 0,
@@ -494,22 +494,22 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll181.xml",
-            "question": "On Motion to Suspend the Rules and Pass",
-            "id": "119-S-1003-2"
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll179.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "id": "119-HR-5317-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 401 - 6 (Roll no. 181).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 393 - 16 (Roll no. 179).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-05-20",
-        "actionTime": "13:19:40",
+        "actionTime": "13:13:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -519,8 +519,8 @@
       },
       {
         "actionCode": "H37220",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:25:25",
+        "actionDate": "2026-05-19",
+        "actionTime": "17:40:44",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -530,341 +530,176 @@
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:18:06",
+        "actionDate": "2026-05-19",
+        "actionTime": "17:29:20",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on S. 1003.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5317.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:18:05",
+        "actionDate": "2026-05-19",
+        "actionTime": "17:29:19",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3586-3588; text: CR H3586)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:18:01",
+        "actionDate": "2026-05-19",
+        "actionTime": "17:29:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Palmer moved to suspend the rules and pass the bill.",
+        "text": "Mr. Hill (AR) moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
-        "actionCode": "H15000",
-        "actionDate": "2025-07-10",
-        "actionTime": "11:05:00",
+        "actionCode": "H12410",
+        "actionDate": "2025-11-04",
+        "calendarNumber": {
+          "calendar": "U00321"
+        },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-07-10",
-        "actionTime": "11:04:54",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-07-10",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-07-08",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4261; text: CR S4261)",
-        "type": "Floor",
-        "recordedVotes": [
-          {
-            "chamber": "Senate",
-            "congress": 119,
-            "date": "2025-07-08",
-            "rollNumber": 0,
-            "sessionNumber": 0,
-            "url": "",
-            "votes": {
-              "C000127": "UC",
-              "K000367": "UC",
-              "S000033": "UC",
-              "W000802": "UC",
-              "B001261": "UC",
-              "W000437": "UC",
-              "C001035": "UC",
-              "C001056": "UC",
-              "D000563": "UC",
-              "G000359": "UC",
-              "M000355": "UC",
-              "M001176": "UC",
-              "R000122": "UC",
-              "R000584": "UC",
-              "S001181": "UC",
-              "W000805": "UC",
-              "G000555": "UC",
-              "C001088": "UC",
-              "B001230": "UC",
-              "B001267": "UC",
-              "B001243": "UC",
-              "B001277": "UC",
-              "B001236": "UC",
-              "C001047": "UC",
-              "C001075": "UC",
-              "C000880": "UC",
-              "G000386": "UC",
-              "H001046": "UC",
-              "H001042": "UC",
-              "H001061": "UC",
-              "J000293": "UC",
-              "L000575": "UC",
-              "L000577": "UC",
-              "L000570": "UC",
-              "M000133": "UC",
-              "M000934": "UC",
-              "M001153": "UC",
-              "M001169": "UC",
-              "M001111": "UC",
-              "P000603": "UC",
-              "P000595": "UC",
-              "S001150": "UC",
-              "S000148": "UC",
-              "S001184": "UC",
-              "T000250": "UC",
-              "V000128": "UC",
-              "W000800": "UC",
-              "W000779": "UC",
-              "Y000064": "UC",
-              "S001194": "UC",
-              "C001095": "UC",
-              "D000622": "UC",
-              "W000817": "UC",
-              "K000383": "UC",
-              "D000618": "UC",
-              "C001096": "UC",
-              "F000463": "UC",
-              "M001190": "UC",
-              "C001098": "UC",
-              "K000384": "UC",
-              "B001288": "UC",
-              "G000574": "UC",
-              "S001198": "UC",
-              "E000295": "UC",
-              "T000476": "UC",
-              "R000605": "UC",
-              "K000393": "UC",
-              "H001076": "UC",
-              "C001113": "UC",
-              "B001303": "UC",
-              "B001299": "UC",
-              "M001198": "UC",
-              "B001305": "UC",
-              "R000608": "UC",
-              "C001114": "UC",
-              "S001203": "UC",
-              "H001079": "UC",
-              "S001208": "UC",
-              "K000394": "UC",
-              "S001217": "UC",
-              "H001089": "UC",
-              "K000377": "UC",
-              "L000571": "UC",
-              "T000278": "UC",
-              "H000273": "UC",
-              "H000601": "UC",
-              "P000145": "UC",
-              "O000174": "UC",
-              "W000790": "UC",
-              "B001319": "UC",
-              "S001227": "UC",
-              "F000479": "UC",
-              "R000618": "UC",
-              "A000382": "UC",
-              "S001232": "UC",
-              "M001242": "UC",
-              "M001243": "UC",
-              "J000312": "UC",
-              "H001104": "UC",
-              "M001244": "UC"
-            },
-            "result": "passed",
-            "senateCount": {
-              "yeas": 100,
-              "nays": 0,
-              "present": 0,
-              "absent": 0
-            },
-            "votePartyTotal": [
-              {
-                "voteParty": "Democrat",
-                "yeaTotal": 45,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              },
-              {
-                "voteParty": "Independent",
-                "yeaTotal": 2,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              },
-              {
-                "voteParty": "Republican",
-                "yeaTotal": 53,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              }
-            ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/1003",
-            "question": "Pass with Unanimous Consent",
-            "id": "119-S-1003-1"
-          }
-        ]
-      },
-      {
-        "actionDate": "2025-06-12",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 91.",
+        "text": "Placed on the Union Calendar, Calendar No. 321.",
         "type": "Calendars"
       },
       {
-        "actionDate": "2025-06-12",
+        "actionCode": "H12200",
+        "actionDate": "2025-11-04",
         "committees": [
           {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
-          "name": "Senate"
+          "code": 2,
+          "name": "House floor actions"
         },
-        "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz without amendment. With written report No. 119-30.",
+        "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-369.",
         "type": "Committee"
       },
       {
-        "actionDate": "2025-04-30",
+        "actionCode": "H19000",
+        "actionDate": "2025-09-16",
         "committees": [
           {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
-          "name": "Senate"
+          "code": 1,
+          "name": "House committee actions"
         },
-        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported without amendment favorably.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 48 - 2.",
         "type": "Committee"
       },
       {
-        "actionDate": "2025-03-12",
+        "actionCode": "H15001",
+        "actionDate": "2025-09-16",
         "committees": [
           {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
-          "name": "Senate"
+          "code": 1,
+          "name": "House committee actions"
         },
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-09-11",
+        "committees": [
+          {
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Financial Services.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-12",
+  "introducedDate": "2025-09-11",
   "latestAction": {
     "actionDate": "2026-05-20",
-    "actionTime": "13:24:03",
+    "actionTime": "13:16:04",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1003",
-  "number": "1003",
-  "originChamber": "Senate",
-  "originChamberCode": "S",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5317",
+  "number": "5317",
+  "originChamber": "House",
+  "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/1003/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/5317/summaries?format=json"
   },
-  "title": "Lulu’s Law",
+  "title": "Community Bank Deposit Access Act of 2025",
   "titles": {
     "titles": [
       {
-        "title": "Lulu’s Law",
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Community Bank Deposit Access Act of 2025",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-11-05T03:53:12Z"
+      },
+      {
+        "title": "Community Bank Deposit Access Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-07-11T11:03:19Z"
+        "updateDate": "2025-09-16T08:23:20Z"
       },
       {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Lulu’s Law",
-        "titleType": "Short Title(s) as Passed Senate",
-        "titleTypeCode": 105,
-        "updateDate": "2025-07-09T04:23:19Z"
-      },
-      {
-        "billTextVersionCode": "RS",
-        "billTextVersionName": "Reported to Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Lulu’s Law",
-        "titleType": "Short Title(s) as Reported to Senate",
-        "titleTypeCode": 103,
-        "updateDate": "2025-06-14T04:38:16Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "Lulu’s Law",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Community Bank Deposit Access Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-04-03T13:23:21Z"
+        "updateDate": "2025-09-16T08:23:18Z"
       },
       {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to require the Federal Communications Commission to issue an order providing that a shark attack is an event for which a wireless emergency alert may be transmitted, and for other purposes.",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Federal Deposit Insurance Act to ensure that certain custodial deposits of well capitalized insured depository institutions are not considered to be funds obtained by or through deposit brokers, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-04-03T13:18:19Z"
+        "updateDate": "2025-09-16T08:18:35Z"
       }
     ]
   },
-  "type": "S",
-  "updateDate": "2026-05-21T08:08:07Z",
-  "updateDateIncludingText": "2026-05-21T08:08:07Z",
-  "id": "119-S-1003",
+  "type": "HR",
+  "updateDate": "2026-05-21T08:08:45Z",
+  "updateDateIncludingText": "2026-05-21T08:08:45Z",
+  "id": "119-HR-5317",
   "lastActionDate": "2026-05-20",
-  "lastRecordedVoteDate": "2026-05-20T17:24:01Z"
+  "lastRecordedVoteDate": "2026-05-20T17:16:02Z"
 }

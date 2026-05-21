@@ -1,8 +1,36 @@
 {
   "actions": {
-    "count": 19,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/3497/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-05-20",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-05-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
+      {
+        "actionDate": "2026-05-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-05-11",
         "sourceSystem": {
@@ -797,8 +825,8 @@
   "congress": 119,
   "introducedDate": "2025-05-19",
   "latestAction": {
-    "actionDate": "2026-05-11",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2204; text: CR S2204)"
+    "actionDate": "2026-05-20",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3497",
   "number": "3497",
@@ -886,9 +914,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-13T04:53:27Z",
-  "updateDateIncludingText": "2026-05-13T04:53:27Z",
+  "updateDate": "2026-05-21T08:06:45Z",
+  "updateDateIncludingText": "2026-05-21T08:06:45Z",
   "id": "119-HR-3497",
-  "lastActionDate": "2026-05-11",
+  "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-11"
 }

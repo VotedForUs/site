@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/s/1003/actions?format=json",
+    "count": 10,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1299/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-20",
-        "actionTime": "13:24:03",
+        "actionTime": "13:04:39",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,15 +17,15 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-05-20",
-        "actionTime": "13:24:01",
+        "actionTime": "13:04:28",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-05-20T17:24:01Z",
-            "rollNumber": 181,
+            "date": "2026-05-20T17:04:28Z",
+            "rollNumber": 176,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll181.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll176.xml",
             "votes": {
               "A000055": "Not Voting",
               "A000148": "Yea",
@@ -40,7 +40,7 @@
               "B000490": "Yea",
               "B000668": "Yea",
               "B000740": "Yea",
-              "B000825": "Yea",
+              "B000825": "Nay",
               "B001257": "Yea",
               "B001260": "Yea",
               "B001278": "Yea",
@@ -55,15 +55,15 @@
               "B001298": "Yea",
               "B001300": "Yea",
               "B001301": "Yea",
-              "B001302": "Yea",
+              "B001302": "Nay",
               "B001306": "Yea",
               "B001307": "Yea",
               "B001309": "Yea",
               "B001313": "Yea",
               "B001314": "Yea",
               "B001315": "Yea",
-              "B001316": "Yea",
-              "B001317": "Yea",
+              "B001316": "Nay",
+              "B001317": "Nay",
               "B001318": "Yea",
               "B001321": "Yea",
               "B001322": "Yea",
@@ -88,14 +88,14 @@
               "C001072": "Yea",
               "C001080": "Yea",
               "C001087": "Yea",
-              "C001091": "Yea",
+              "C001091": "Not Voting",
               "C001101": "Yea",
               "C001103": "Yea",
               "C001108": "Yea",
               "C001110": "Yea",
               "C001112": "Yea",
               "C001115": "Nay",
-              "C001116": "Nay",
+              "C001116": "Yea",
               "C001117": "Yea",
               "C001118": "Yea",
               "C001119": "Not Voting",
@@ -196,9 +196,9 @@
               "H001058": "Yea",
               "H001066": "Yea",
               "H001067": "Yea",
-              "H001068": "Not Voting",
+              "H001068": "Yea",
               "H001072": "Yea",
-              "H001077": "Yea",
+              "H001077": "Nay",
               "H001081": "Yea",
               "H001082": "Yea",
               "H001085": "Yea",
@@ -280,7 +280,7 @@
               "M001157": "Yea",
               "M001160": "Yea",
               "M001163": "Yea",
-              "M001177": "Yea",
+              "M001177": "Nay",
               "M001184": "Not Voting",
               "M001188": "Yea",
               "M001194": "Yea",
@@ -341,8 +341,8 @@
               "P000048": "Yea",
               "P000197": "Yea",
               "P000597": "Yea",
-              "P000605": "Yea",
-              "P000607": "Not Voting",
+              "P000605": "Nay",
+              "P000607": "Yea",
               "P000608": "Yea",
               "P000609": "Yea",
               "P000613": "Yea",
@@ -354,7 +354,7 @@
               "Q000023": "Yea",
               "R000305": "Yea",
               "R000395": "Yea",
-              "R000575": "Not Voting",
+              "R000575": "Yea",
               "R000579": "Yea",
               "R000599": "Yea",
               "R000603": "Yea",
@@ -381,7 +381,7 @@
               "S001159": "Yea",
               "S001172": "Yea",
               "S001176": "Yea",
-              "S001183": "Yea",
+              "S001183": "Nay",
               "S001185": "Yea",
               "S001188": "Yea",
               "S001189": "Yea",
@@ -461,26 +461,26 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 6,
-                "notVotingTotal": 14,
+                "nayTotal": 13,
+                "notVotingTotal": 13,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 197
+                "yeaTotal": 191
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 9,
+                "notVotingTotal": 8,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 203
+                "yeaTotal": 204
               },
               {
                 "nayTotal": 0,
@@ -494,22 +494,22 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll181.xml",
-            "question": "On Motion to Suspend the Rules and Pass",
-            "id": "119-S-1003-2"
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll176.xml",
+            "question": "On Motion to Suspend the Rules and Agree",
+            "id": "119-HRES-1299-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 401 - 6 (Roll no. 181).",
+        "text": "On motion to suspend the rules and agree to the resolution Agreed to by the Yeas and Nays: (2/3 required): 396 - 13 (Roll no. 176).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-05-20",
-        "actionTime": "13:19:40",
+        "actionTime": "12:27:20",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -519,8 +519,8 @@
       },
       {
         "actionCode": "H37220",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:25:25",
+        "actionDate": "2026-05-19",
+        "actionTime": "18:26:01",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -530,341 +530,98 @@
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:18:06",
+        "actionDate": "2026-05-19",
+        "actionTime": "17:41:29",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on S. 1003.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1299.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:18:05",
+        "actionDate": "2026-05-19",
+        "actionTime": "17:41:27",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3588-3624; text: CR H3588-3619)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-05-20",
-        "actionTime": "12:18:01",
+        "actionDate": "2026-05-19",
+        "actionTime": "17:41:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Palmer moved to suspend the rules and pass the bill.",
+        "text": "Mr. Hill (AR) moved to suspend the rules and agree to the resolution.",
         "type": "Floor"
       },
       {
-        "actionCode": "H15000",
-        "actionDate": "2025-07-10",
-        "actionTime": "11:05:00",
+        "actionCode": "H11100",
+        "actionDate": "2026-05-19",
+        "committees": [
+          {
+            "name": "Rules Committee",
+            "systemCode": "hsru00",
+            "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
+          }
+        ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-07-10",
-        "actionTime": "11:04:54",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-07-10",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-07-08",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4261; text: CR S4261)",
-        "type": "Floor",
-        "recordedVotes": [
-          {
-            "chamber": "Senate",
-            "congress": 119,
-            "date": "2025-07-08",
-            "rollNumber": 0,
-            "sessionNumber": 0,
-            "url": "",
-            "votes": {
-              "C000127": "UC",
-              "K000367": "UC",
-              "S000033": "UC",
-              "W000802": "UC",
-              "B001261": "UC",
-              "W000437": "UC",
-              "C001035": "UC",
-              "C001056": "UC",
-              "D000563": "UC",
-              "G000359": "UC",
-              "M000355": "UC",
-              "M001176": "UC",
-              "R000122": "UC",
-              "R000584": "UC",
-              "S001181": "UC",
-              "W000805": "UC",
-              "G000555": "UC",
-              "C001088": "UC",
-              "B001230": "UC",
-              "B001267": "UC",
-              "B001243": "UC",
-              "B001277": "UC",
-              "B001236": "UC",
-              "C001047": "UC",
-              "C001075": "UC",
-              "C000880": "UC",
-              "G000386": "UC",
-              "H001046": "UC",
-              "H001042": "UC",
-              "H001061": "UC",
-              "J000293": "UC",
-              "L000575": "UC",
-              "L000577": "UC",
-              "L000570": "UC",
-              "M000133": "UC",
-              "M000934": "UC",
-              "M001153": "UC",
-              "M001169": "UC",
-              "M001111": "UC",
-              "P000603": "UC",
-              "P000595": "UC",
-              "S001150": "UC",
-              "S000148": "UC",
-              "S001184": "UC",
-              "T000250": "UC",
-              "V000128": "UC",
-              "W000800": "UC",
-              "W000779": "UC",
-              "Y000064": "UC",
-              "S001194": "UC",
-              "C001095": "UC",
-              "D000622": "UC",
-              "W000817": "UC",
-              "K000383": "UC",
-              "D000618": "UC",
-              "C001096": "UC",
-              "F000463": "UC",
-              "M001190": "UC",
-              "C001098": "UC",
-              "K000384": "UC",
-              "B001288": "UC",
-              "G000574": "UC",
-              "S001198": "UC",
-              "E000295": "UC",
-              "T000476": "UC",
-              "R000605": "UC",
-              "K000393": "UC",
-              "H001076": "UC",
-              "C001113": "UC",
-              "B001303": "UC",
-              "B001299": "UC",
-              "M001198": "UC",
-              "B001305": "UC",
-              "R000608": "UC",
-              "C001114": "UC",
-              "S001203": "UC",
-              "H001079": "UC",
-              "S001208": "UC",
-              "K000394": "UC",
-              "S001217": "UC",
-              "H001089": "UC",
-              "K000377": "UC",
-              "L000571": "UC",
-              "T000278": "UC",
-              "H000273": "UC",
-              "H000601": "UC",
-              "P000145": "UC",
-              "O000174": "UC",
-              "W000790": "UC",
-              "B001319": "UC",
-              "S001227": "UC",
-              "F000479": "UC",
-              "R000618": "UC",
-              "A000382": "UC",
-              "S001232": "UC",
-              "M001242": "UC",
-              "M001243": "UC",
-              "J000312": "UC",
-              "H001104": "UC",
-              "M001244": "UC"
-            },
-            "result": "passed",
-            "senateCount": {
-              "yeas": 100,
-              "nays": 0,
-              "present": 0,
-              "absent": 0
-            },
-            "votePartyTotal": [
-              {
-                "voteParty": "Democrat",
-                "yeaTotal": 45,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              },
-              {
-                "voteParty": "Independent",
-                "yeaTotal": 2,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              },
-              {
-                "voteParty": "Republican",
-                "yeaTotal": 53,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              }
-            ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/1003",
-            "question": "Pass with Unanimous Consent",
-            "id": "119-S-1003-1"
-          }
-        ]
-      },
-      {
-        "actionDate": "2025-06-12",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 91.",
-        "type": "Calendars"
-      },
-      {
-        "actionDate": "2025-06-12",
-        "committees": [
-          {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz without amendment. With written report No. 119-30.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2025-04-30",
-        "committees": [
-          {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported without amendment favorably.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2025-03-12",
-        "committees": [
-          {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "text": "Referred to the House Committee on Rules.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-12",
+  "introducedDate": "2026-05-19",
   "latestAction": {
     "actionDate": "2026-05-20",
-    "actionTime": "13:24:03",
+    "actionTime": "13:04:39",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1003",
-  "number": "1003",
-  "originChamber": "Senate",
-  "originChamberCode": "S",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/1003/summaries?format=json"
-  },
-  "title": "Lulu’s Law",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1299",
+  "number": "1299",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "title": "21st Century ROAD to Housing Act",
   "titles": {
     "titles": [
       {
-        "title": "Lulu’s Law",
+        "title": "21st Century ROAD to Housing Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-07-11T11:03:19Z"
+        "updateDate": "2026-05-20T08:23:26Z"
       },
       {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Lulu’s Law",
-        "titleType": "Short Title(s) as Passed Senate",
-        "titleTypeCode": 105,
-        "updateDate": "2025-07-09T04:23:19Z"
-      },
-      {
-        "billTextVersionCode": "RS",
-        "billTextVersionName": "Reported to Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Lulu’s Law",
-        "titleType": "Short Title(s) as Reported to Senate",
-        "titleTypeCode": 103,
-        "updateDate": "2025-06-14T04:38:16Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "Lulu’s Law",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "21st Century ROAD to Housing Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-04-03T13:23:21Z"
+        "updateDate": "2026-05-20T08:23:25Z"
       },
       {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to require the Federal Communications Commission to issue an order providing that a shark attack is an event for which a wireless emergency alert may be transmitted, and for other purposes.",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-04-03T13:18:19Z"
+        "updateDate": "2026-05-20T08:19:26Z"
       }
     ]
   },
-  "type": "S",
-  "updateDate": "2026-05-21T08:08:07Z",
-  "updateDateIncludingText": "2026-05-21T08:08:07Z",
-  "id": "119-S-1003",
+  "type": "HRES",
+  "updateDate": "2026-05-21T08:08:24Z",
+  "updateDateIncludingText": "2026-05-21T08:08:24Z",
+  "id": "119-HRES-1299",
   "lastActionDate": "2026-05-20",
-  "lastRecordedVoteDate": "2026-05-20T17:24:01Z"
+  "lastRecordedVoteDate": "2026-05-20T17:04:28Z"
 }
