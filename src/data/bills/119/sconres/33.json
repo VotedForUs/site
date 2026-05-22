@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 22,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/sconres/33/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-20",
+        "committees": [
+          {
+            "name": "Budget Committee",
+            "systemCode": "ssbu00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbu00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on the Budget. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
       {
         "actionCode": "H37100",
         "actionDate": "2026-04-29",
@@ -965,9 +980,8 @@
   "congress": 119,
   "introducedDate": "2026-04-21",
   "latestAction": {
-    "actionDate": "2026-04-29",
-    "actionTime": "22:39:59",
-    "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 215 - 211, 1 Present (Roll no. 143). (text: CR H3147-3146)"
+    "actionDate": "2026-05-20",
+    "text": "Committee on the Budget. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-concurrent-resolution/33",
   "number": "33",
@@ -995,9 +1009,9 @@
     ]
   },
   "type": "SCONRES",
-  "updateDate": "2026-05-20T23:26:25Z",
-  "updateDateIncludingText": "2026-05-20T23:26:25Z",
+  "updateDate": "2026-05-21T21:26:23Z",
+  "updateDateIncludingText": "2026-05-21T21:26:23Z",
   "id": "119-SCONRES-33",
-  "lastActionDate": "2026-04-29",
+  "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-04-30T02:39:59Z"
 }

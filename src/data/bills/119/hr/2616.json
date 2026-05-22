@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by recorded vote: 217 - 198 (Roll no. 184).",
+        "text": "On passage Passed by recorded vote: 217 - 198 (Roll no. 184). (text of amendment in the nature of a substitute: CR H3652)",
         "type": "Floor"
       },
       {
@@ -1013,7 +1013,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3660-3661)",
         "type": "Floor"
       },
       {
@@ -1053,7 +1053,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Ms. Balint moved to recommit to the Committee on Education and Workforce.",
+        "text": "Ms. Balint moved to recommit to the Committee on Education and Workforce. (CR H3658)",
         "type": "Floor"
       },
       {
@@ -1097,7 +1097,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1224.",
+        "text": "Considered under the provisions of rule H. Res. 1224. (consideration: CR H3652-3659)",
         "type": "Floor"
       },
       {
@@ -1209,9 +1209,35 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/2616/summaries?format=json"
   },
-  "title": "PROTECT Kids Act",
+  "title": "Stopping Indoctrination and Protecting Kids Act",
   "titles": {
     "titles": [
+      {
+        "title": "Stopping Indoctrination and Protecting Kids Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-05-22T04:23:40Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Stopping Indoctrination and Protecting Kids Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-22T04:23:38Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor's gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-22T04:23:38Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -1233,15 +1259,9 @@
         "updateDate": "2026-01-14T14:09:55Z"
       },
       {
-        "title": "PROTECT Kids Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-05T04:23:16Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "PROTECT Kids Act",
+        "title": "Parental Rights Over The Education and Care of Their Kids Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-04-05T04:23:15Z"
@@ -1249,7 +1269,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Parental Rights Over The Education and Care of Their Kids Act",
+        "title": "PROTECT Kids Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-04-05T04:23:15Z"
@@ -1265,8 +1285,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-21T08:09:24Z",
-  "updateDateIncludingText": "2026-05-21T08:09:24Z",
+  "updateDate": "2026-05-22T04:23:40Z",
+  "updateDateIncludingText": "2026-05-22T07:49:19Z",
   "id": "119-HR-2616",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T21:22:08Z"
