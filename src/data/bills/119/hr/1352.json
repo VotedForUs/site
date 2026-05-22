@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/1352/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 418.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-19",
@@ -614,9 +622,8 @@
   "congress": 119,
   "introducedDate": "2025-02-13",
   "latestAction": {
-    "actionDate": "2026-05-19",
-    "actionTime": "16:05:44",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-20",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 418."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1352",
   "number": "1352",
@@ -629,6 +636,16 @@
   "title": "To designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-22T02:38:25Z"
+      },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
@@ -646,9 +663,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-21T08:06:11Z",
-  "updateDateIncludingText": "2026-05-21T08:06:11Z",
+  "updateDate": "2026-05-22T02:38:25Z",
+  "updateDateIncludingText": "2026-05-22T08:34:27Z",
   "id": "119-HR-1352",
-  "lastActionDate": "2026-05-19",
+  "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-19"
 }

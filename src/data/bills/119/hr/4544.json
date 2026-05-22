@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3645)",
         "type": "Floor"
       },
       {
@@ -680,6 +680,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "American Access to Banking Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-22T04:08:30Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct certain Federal banking and credit union agencies to promote the formation of de novo regulated institutions through the review of application processes, the review of capital raising by de novo regulated institutions, and the establishment of various outreach programs, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-22T04:08:30Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -714,8 +734,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-21T08:07:37Z",
-  "updateDateIncludingText": "2026-05-21T08:07:37Z",
+  "updateDate": "2026-05-22T04:08:30Z",
+  "updateDateIncludingText": "2026-05-22T07:49:20Z",
   "id": "119-HR-4544",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T17:12:59Z"

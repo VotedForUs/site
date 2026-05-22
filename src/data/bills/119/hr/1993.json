@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3659-3660)",
         "type": "Floor"
       },
       {
@@ -599,6 +599,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "25th Anniversary of 9/11 Commemorative Coin Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-05-22T04:08:30Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Secretary of the Treasury to mint coins in commemoration of the 25th anniversary of the September 11, 2001, terrorist attacks on the United States and to support programs at the National September 11 Memorial and Museum at the World Trade Center.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-05-22T04:08:30Z"
+      },
+      {
         "title": "25th Anniversary of 9/11 Commemorative Coin Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -623,8 +643,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-21T08:07:59Z",
-  "updateDateIncludingText": "2026-05-21T08:07:59Z",
+  "updateDate": "2026-05-22T04:08:30Z",
+  "updateDateIncludingText": "2026-05-22T07:49:20Z",
   "id": "119-HR-1993",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T21:08:17Z"
