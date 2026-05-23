@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3646-3647)",
         "type": "Floor"
       },
       {
@@ -818,6 +818,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-05-22T10:08:30Z"
+      },
+      {
         "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -862,8 +872,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-21T08:08:40Z",
-  "updateDateIncludingText": "2026-05-21T08:08:40Z",
+  "updateDate": "2026-05-22T10:08:30Z",
+  "updateDateIncludingText": "2026-05-22T10:18:44Z",
   "id": "119-S-2393",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T17:19:26Z"
