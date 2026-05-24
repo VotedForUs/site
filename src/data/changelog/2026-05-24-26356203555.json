@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-24",
+  "runId": "26356203555",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HRES-5"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
