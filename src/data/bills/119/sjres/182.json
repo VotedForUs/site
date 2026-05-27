@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure rejected in Senate by Voice Vote.",
+        "text": "Motion to proceed to consideration of measure rejected in Senate by Voice Vote. (CR S2407)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -200,7 +200,7 @@
   "introducedDate": "2026-04-13",
   "latestAction": {
     "actionDate": "2026-05-20",
-    "text": "Motion to proceed to consideration of measure rejected in Senate by Voice Vote."
+    "text": "Motion to proceed to consideration of measure rejected in Senate by Voice Vote. (CR S2407)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/182",
   "number": "182",
@@ -226,8 +226,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-05-21T10:56:39Z",
-  "updateDateIncludingText": "2026-05-21T10:56:39Z",
+  "updateDate": "2026-05-26T17:47:17Z",
+  "updateDateIncludingText": "2026-05-26T17:47:17Z",
   "id": "119-SJRES-182",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20"
