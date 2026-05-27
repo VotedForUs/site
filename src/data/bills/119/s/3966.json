@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2398-2400; text: CR S2399-2400)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -328,8 +328,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-22T02:38:26Z",
-  "updateDateIncludingText": "2026-05-22T08:04:40Z",
+  "updateDate": "2026-05-26T18:45:49Z",
+  "updateDateIncludingText": "2026-05-26T18:45:49Z",
   "id": "119-S-3966",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20"
