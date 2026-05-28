@@ -820,7 +820,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/616/summaries?format=json"
   },
   "title": "Foundation of the Federal Bar Association Charter Amendments Act of 2025",
@@ -871,8 +871,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-02-04T05:06:21Z",
-  "updateDateIncludingText": "2026-02-04T05:06:21Z",
+  "updateDate": "2026-05-27T20:59:08Z",
+  "updateDateIncludingText": "2026-05-27T20:59:08Z",
   "id": "119-S-616",
   "lastActionDate": "2025-12-12",
   "lastRecordedVoteDate": "2025-12-01"

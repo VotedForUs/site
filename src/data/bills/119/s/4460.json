@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 8,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/4460/actions?format=json",
     "actions": [
       {
@@ -26,11 +26,19 @@
         "type": "Floor"
       },
       {
+        "actionDate": "2026-05-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
         "actionDate": "2026-05-20",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2428; text: CR S2428)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -229,6 +237,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Rural Community Hospital Demonstration Program Reauthorization",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-05-22T19:48:25Z"
+      },
+      {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
@@ -237,12 +251,6 @@
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2026-05-22T02:38:26Z"
-      },
-      {
-        "title": "Rural Community Hospital Demonstration Program Reauthorization",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-05-21T11:03:37Z"
       },
       {
         "billTextVersionCode": "IS",
@@ -263,8 +271,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-22T08:07:15Z",
-  "updateDateIncludingText": "2026-05-22T08:07:15Z",
+  "updateDate": "2026-05-27T11:21:00Z",
+  "updateDateIncludingText": "2026-05-27T11:21:00Z",
   "id": "119-S-4460",
   "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-20"

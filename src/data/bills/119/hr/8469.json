@@ -1269,6 +1269,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-05-27T18:23:35Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
@@ -1299,8 +1309,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-22T02:38:25Z",
-  "updateDateIncludingText": "2026-05-22T07:49:23Z",
+  "updateDate": "2026-05-27T18:23:35Z",
+  "updateDateIncludingText": "2026-05-28T02:18:26Z",
   "id": "119-HR-8469",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-15T14:26:35Z"
