@@ -22,24 +22,20 @@
     "test": "node --test --experimental-test-coverage --import tsx src/**/*.test.ts scripts/**/*.test.ts",
     "test:types": "astro check",
     "social-cards": "tsx utils/generate-social-cards.ts",
+    "storybook": "storybook dev -p 6006",
     "analyze-bill-titles": "tsx scripts/analyze-bill-titles.ts",
     "benchmark:cold": "tsx scripts/benchmark.ts --scenario cold",
     "benchmark:warm": "tsx scripts/benchmark.ts --scenario warm",
     "benchmark:report": "tsx scripts/benchmark.ts --report"
   },
   "dependencies": {
-    "@votedforus/votes": "^1.1.10",
-    "astro": "^6.1.9",
-    "astro-seo": "^1.1.0",
-    "zod": "^4.3.6"
+    "@votedforus/votes": "^1.1.11"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.8",
-    "@types/node": "^25.6.0",
+    "@scottnath/devx": "^1.0.4",
+    "@types/node": "^25.9.1",
     "@votedforus/common": "^1.1.2",
-    "puppeteer": "^24.42.0",
-    "tsx": "^4.21.0",
-    "typescript": "^6.0.3"
+    "puppeteer": "^25.0.4"
   },
   "engines": {
     "node": ">=24.0.0"
