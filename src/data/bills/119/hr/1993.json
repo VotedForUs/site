@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hr/1993/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-20",
@@ -583,9 +591,8 @@
   "congress": 119,
   "introducedDate": "2025-03-10",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "actionTime": "17:08:18",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-21",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1993",
   "number": "1993",
@@ -643,9 +650,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-22T04:08:30Z",
-  "updateDateIncludingText": "2026-05-22T07:49:20Z",
+  "updateDate": "2026-06-01T15:24:30Z",
+  "updateDateIncludingText": "2026-06-01T15:24:30Z",
   "id": "119-HR-1993",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-20T21:08:17Z"
 }
