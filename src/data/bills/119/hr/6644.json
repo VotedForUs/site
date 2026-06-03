@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 44,
+    "count": 45,
     "url": "https://api.congress.gov/v3/bill/119/hr/6644/actions?format=json",
     "actions": [
       {
@@ -11,7 +11,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "House agreed to Senate amendment with amendment pursuant to H. Res. 1299",
+        "text": "House agreed to Senate amendment with amendment pursuant to H. Res. 1299 (consideration: CR H3643-3644)",
         "type": "Floor"
       },
       {
@@ -1486,7 +1486,7 @@
   "latestAction": {
     "actionDate": "2026-05-20",
     "actionTime": "13:05:43",
-    "text": "House agreed to Senate amendment with amendment pursuant to H. Res. 1299"
+    "text": "House agreed to Senate amendment with amendment pursuant to H. Res. 1299 (consideration: CR H3643-3644)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6644",
   "number": "6644",
@@ -1500,10 +1500,12 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EAH",
+        "billTextVersionName": "Engrossed Amendment House",
         "title": "21st Century ROAD to Housing Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-13T03:53:21Z"
+        "titleType": "Short Title(s) from Engrossed Amendment House bill text",
+        "titleTypeCode": 252,
+        "updateDate": "2026-06-03T05:23:26Z"
       },
       {
         "billTextVersionCode": "EAS",
@@ -1511,6 +1513,12 @@
         "title": "21st Century ROAD to Housing Act",
         "titleType": "Short Title(s) from Engrossed Amendment Senate bill text",
         "titleTypeCode": 250,
+        "updateDate": "2026-03-13T03:53:21Z"
+      },
+      {
+        "title": "21st Century ROAD to Housing Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
         "updateDate": "2026-03-13T03:53:21Z"
       },
       {
@@ -1528,9 +1536,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To increase the supply of housing in America, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Housing for the 21st Century Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-02-12T04:08:23Z"
       },
       {
@@ -1538,9 +1546,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Housing for the 21st Century Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To increase the supply of housing in America, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-02-12T04:08:23Z"
       },
       {
@@ -1580,8 +1588,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-21T08:08:52Z",
-  "updateDateIncludingText": "2026-05-21T08:08:52Z",
+  "updateDate": "2026-06-03T05:23:26Z",
+  "updateDateIncludingText": "2026-06-03T10:03:43Z",
   "id": "119-HR-6644",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-03-12T16:18:59Z"

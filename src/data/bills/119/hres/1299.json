@@ -595,6 +595,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "21st Century ROAD to Housing Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-03T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-03T05:23:26Z"
+      },
+      {
         "title": "21st Century ROAD to Housing Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -619,8 +639,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-05-21T16:07:48Z",
-  "updateDateIncludingText": "2026-05-30T16:27:21Z",
+  "updateDate": "2026-06-03T05:23:26Z",
+  "updateDateIncludingText": "2026-06-03T10:50:26Z",
   "id": "119-HRES-1299",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T17:04:28Z"
