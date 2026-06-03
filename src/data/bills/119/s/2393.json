@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 19,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/s/2393/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-06-02",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-06-02",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-20",
@@ -514,7 +534,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3646-3647)",
         "type": "Floor"
       },
       {
@@ -802,9 +822,8 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "actionTime": "13:19:28",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-02",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2393",
   "number": "2393",
@@ -817,6 +836,16 @@
   "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-05-22T10:08:30Z"
+      },
       {
         "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
         "titleType": "Display Title",
@@ -862,9 +891,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-21T08:08:40Z",
-  "updateDateIncludingText": "2026-05-21T08:08:40Z",
+  "updateDate": "2026-06-03T08:08:50Z",
+  "updateDateIncludingText": "2026-06-03T08:08:50Z",
   "id": "119-S-2393",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-06-02",
   "lastRecordedVoteDate": "2026-05-20T17:19:26Z"
 }

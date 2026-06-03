@@ -1,8 +1,31 @@
 {
   "actions": {
-    "count": 25,
+    "count": 28,
     "url": "https://api.congress.gov/v3/bill/119/hr/3633/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-01",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 423.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-06-01",
+        "committees": [
+          {
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Banking, Housing, and Urban Affairs. Reported by Senator Scott SC, with an amendment in the nature of a substitute. Without written report.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-05-14",
         "committees": [
@@ -769,8 +792,8 @@
   "congress": 119,
   "introducedDate": "2025-05-29",
   "latestAction": {
-    "actionDate": "2026-05-14",
-    "text": "Committee on Banking, Housing, and Urban Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably."
+    "actionDate": "2026-06-01",
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 423."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
   "number": "3633",
@@ -780,9 +803,35 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/3633/summaries?format=json"
   },
-  "title": "Digital Asset Market Clarity Act of 2025",
+  "title": "Digital Asset Market Clarity Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Digital Asset Market Clarity Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-06-03T05:08:25Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Lummis-Gillibrand Responsible Financial Innovation Act of 2026",
+        "titleType": "Short Title(s) as Reported to Senate for portions of this bill",
+        "titleTypeCode": 108,
+        "updateDate": "2026-06-03T05:08:25Z"
+      },
+      {
+        "title": "Digital Asset Market Clarity Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-06-03T05:08:25Z"
+      },
       {
         "chamberCode": "H",
         "chamberName": "House",
@@ -806,6 +855,16 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
+        "title": "Anti-CBDC Surveillance State Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-09-20T06:08:14Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
         "title": "CLARITY Act of 2025",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
@@ -822,16 +881,6 @@
         "updateDate": "2025-09-20T06:08:14Z"
       },
       {
-        "billTextVersionCode": "RFS",
-        "billTextVersionName": "Referred in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Anti-CBDC Surveillance State Act",
-        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
-        "titleTypeCode": 255,
-        "updateDate": "2025-09-20T06:08:14Z"
-      },
-      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -840,12 +889,6 @@
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-07-22T04:23:23Z"
-      },
-      {
-        "title": "Digital Asset Market Clarity Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-17T11:31:54Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -876,9 +919,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-15T10:56:38Z",
-  "updateDateIncludingText": "2026-05-15T10:56:38Z",
+  "updateDate": "2026-06-03T05:08:25Z",
+  "updateDateIncludingText": "2026-06-03T05:20:19Z",
   "id": "119-HR-3633",
-  "lastActionDate": "2026-05-14",
+  "lastActionDate": "2026-06-01",
   "lastRecordedVoteDate": "2025-07-17T19:30:31Z"
 }

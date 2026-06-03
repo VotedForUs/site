@@ -799,20 +799,20 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/4405/summaries?format=json"
   },
   "title": "Epstein Files Transparency Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To require the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Epstein Files Transparency Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
         "updateDate": "2025-11-20T05:53:20Z"
       },
       {
@@ -826,13 +826,13 @@
         "updateDate": "2025-11-20T05:53:20Z"
       },
       {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
-        "title": "Epstein Files Transparency Act",
-        "titleType": "Short Titles from ENR (Enrolled) bill text",
-        "titleTypeCode": 147,
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-11-20T05:53:20Z"
       },
       {
@@ -860,8 +860,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-03T18:18:38Z",
-  "updateDateIncludingText": "2026-04-03T18:18:38Z",
+  "updateDate": "2026-06-02T20:04:33Z",
+  "updateDateIncludingText": "2026-06-02T20:04:33Z",
   "id": "119-HR-4405",
   "lastActionDate": "2025-11-19",
   "lastRecordedVoteDate": "2025-11-19"
