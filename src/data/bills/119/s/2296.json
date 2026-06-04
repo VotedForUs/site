@@ -780,46 +780,6 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "GAIN AI Act of 2025",
-        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
-        "titleTypeCode": 110,
-        "updateDate": "2025-10-21T11:23:15Z"
-      },
-      {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Coast Guard Authorization Act of 2025",
-        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
-        "titleTypeCode": 110,
-        "updateDate": "2025-10-21T11:23:15Z"
-      },
-      {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Intelligence Authorization Act for Fiscal Year 2026",
-        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
-        "titleTypeCode": 110,
-        "updateDate": "2025-10-21T11:23:15Z"
-      },
-      {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Military Construction Authorization Act for Fiscal Year 2026",
-        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
-        "titleTypeCode": 110,
-        "updateDate": "2025-10-21T11:23:15Z"
-      },
-      {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
         "title": "National Defense Authorization Act for Fiscal Year 2026",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
@@ -964,12 +924,52 @@
         "titleType": "Short Title(s) as Passed Senate for portions of this bill",
         "titleTypeCode": 110,
         "updateDate": "2025-10-21T11:23:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "GAIN AI Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
+        "titleTypeCode": 110,
+        "updateDate": "2025-10-21T11:23:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Guaranteeing Access and Innovation for National Artificial Intelligence Act of 2025",
+        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
+        "titleTypeCode": 110,
+        "updateDate": "2025-10-21T11:23:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "DISRUPT Act",
+        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
+        "titleTypeCode": 110,
+        "updateDate": "2025-10-21T11:23:15Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Defending International Security by Restricting Unacceptable Partnerships and Tactics Act",
+        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
+        "titleTypeCode": 110,
+        "updateDate": "2025-10-21T11:23:15Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-13T13:16:42Z",
-  "updateDateIncludingText": "2026-05-13T13:16:42Z",
+  "updateDate": "2026-06-03T19:36:51Z",
+  "updateDateIncludingText": "2026-06-03T19:36:51Z",
   "id": "119-S-2296",
   "lastActionDate": "2025-11-12",
   "lastRecordedVoteDate": "2025-10-10T02:06:07Z"

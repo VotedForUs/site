@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3745)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3745-3746)",
         "type": "Floor"
       },
       {
@@ -681,24 +681,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-06-04T03:08:37Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-04T03:08:35Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-10-25T03:48:16Z"
-      },
-      {
-        "title": "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-04T08:05:50Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-03T08:06:45Z",
-  "updateDateIncludingText": "2026-06-03T08:06:45Z",
+  "updateDate": "2026-06-04T08:05:57Z",
+  "updateDateIncludingText": "2026-06-04T09:18:44Z",
   "id": "119-HR-5682",
   "lastActionDate": "2026-06-02",
   "lastRecordedVoteDate": "2026-06-02"
