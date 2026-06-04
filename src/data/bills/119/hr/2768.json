@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3749-3750)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3749-3751)",
         "type": "Floor"
       },
       {
@@ -630,6 +630,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Benton MacKaye National Scenic Trail Feasibility Study Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-04T03:08:36Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the National Trails System Act to direct the Secretary of Agriculture to conduct a study on the feasibility of designating the Benton MacKaye Trail as a national scenic trail.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-04T03:08:36Z"
+      },
+      {
         "title": "Benton MacKaye National Scenic Trail Feasibility Study Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -664,8 +684,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-03T08:05:41Z",
-  "updateDateIncludingText": "2026-06-03T08:05:41Z",
+  "updateDate": "2026-06-04T08:05:34Z",
+  "updateDateIncludingText": "2026-06-04T09:33:38Z",
   "id": "119-HR-2768",
   "lastActionDate": "2026-06-02",
   "lastRecordedVoteDate": "2026-06-02"

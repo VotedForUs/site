@@ -681,7 +681,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Combating Online Predators Act",
+        "title": "COP Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2026-01-15T04:08:18Z"
@@ -691,7 +691,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "COP Act",
+        "title": "Combating Online Predators Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2026-01-15T04:08:18Z"
@@ -719,7 +719,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Combating Online Predators Act of 2025",
+        "title": "COP Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-12-30T05:53:17Z"
@@ -727,7 +727,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "COP Act of 2025",
+        "title": "Combating Online Predators Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-12-30T05:53:17Z"
@@ -743,8 +743,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-02T16:01:47Z",
-  "updateDateIncludingText": "2026-04-02T16:01:47Z",
+  "updateDate": "2026-06-04T02:20:57Z",
+  "updateDateIncludingText": "2026-06-04T02:20:57Z",
   "id": "119-HR-6719",
   "lastActionDate": "2026-03-02",
   "lastRecordedVoteDate": "2026-01-12"
