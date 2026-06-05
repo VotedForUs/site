@@ -1019,7 +1019,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hjres/42/summaries?format=json"
   },
   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
@@ -1042,8 +1042,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-04-15T18:10:14Z",
-  "updateDateIncludingText": "2026-04-15T18:10:14Z",
+  "updateDate": "2026-06-04T14:06:00Z",
+  "updateDateIncludingText": "2026-06-04T14:06:00Z",
   "id": "119-HJRES-42",
   "lastActionDate": "2025-05-09",
   "lastRecordedVoteDate": "2025-04-30T16:03:56Z"

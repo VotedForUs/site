@@ -1,12 +1,12 @@
 {
   "actions": {
     "count": 12,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1333/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hres/1336/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
-        "actionDate": "2026-06-03",
-        "actionTime": "14:32:12",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:50:55",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,16 +16,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2026-06-03",
-        "actionTime": "14:32:10",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:50:54",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-03T18:32:10Z",
-            "rollNumber": 195,
+            "date": "2026-06-04T21:50:54Z",
+            "rollNumber": 203,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll195.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll203.xml",
             "votes": {
               "A000055": "Aye",
               "A000148": "No",
@@ -57,7 +57,7 @@
               "B001301": "Aye",
               "B001302": "Aye",
               "B001306": "Aye",
-              "B001307": "Not Voting",
+              "B001307": "Aye",
               "B001309": "Aye",
               "B001313": "No",
               "B001314": "Aye",
@@ -95,7 +95,7 @@
               "C001110": "No",
               "C001112": "No",
               "C001115": "Aye",
-              "C001116": "Not Voting",
+              "C001116": "Aye",
               "C001117": "No",
               "C001118": "Aye",
               "C001119": "No",
@@ -171,7 +171,7 @@
               "G000565": "Aye",
               "G000568": "Aye",
               "G000576": "Aye",
-              "G000581": "Not Voting",
+              "G000581": "No",
               "G000583": "No",
               "G000585": "No",
               "G000586": "No",
@@ -269,7 +269,7 @@
               "L000603": "Aye",
               "L000606": "No",
               "L000607": "No",
-              "M000194": "Not Voting",
+              "M000194": "Aye",
               "M000312": "No",
               "M000317": "Aye",
               "M000687": "No",
@@ -281,7 +281,7 @@
               "M001160": "No",
               "M001163": "No",
               "M001177": "Aye",
-              "M001184": "Aye",
+              "M001184": "No",
               "M001188": "No",
               "M001194": "Aye",
               "M001196": "No",
@@ -334,7 +334,7 @@
               "O000086": "Aye",
               "O000172": "No",
               "O000173": "No",
-              "O000175": "Not Voting",
+              "O000175": "Aye",
               "O000176": "No",
               "O000177": "Aye",
               "P000034": "No",
@@ -347,7 +347,7 @@
               "P000609": "Aye",
               "P000613": "No",
               "P000614": "No",
-              "P000617": "No",
+              "P000617": "Not Voting",
               "P000620": "No",
               "P000621": "No",
               "P000622": "Aye",
@@ -362,7 +362,7 @@
               "R000609": "Aye",
               "R000610": "Aye",
               "R000612": "Aye",
-              "R000614": "Aye",
+              "R000614": "Not Voting",
               "R000617": "No",
               "R000619": "Aye",
               "R000620": "No",
@@ -371,7 +371,7 @@
               "S000168": "Aye",
               "S000185": "No",
               "S000250": "Aye",
-              "S000344": "Not Voting",
+              "S000344": "No",
               "S000510": "No",
               "S000522": "Aye",
               "S000929": "Aye",
@@ -438,14 +438,14 @@
               "V000136": "No",
               "V000138": "No",
               "V000139": "Aye",
-              "W000187": "Not Voting",
+              "W000187": "No",
               "W000788": "No",
               "W000795": "Aye",
               "W000797": "No",
               "W000798": "Aye",
               "W000804": "Aye",
               "W000806": "Aye",
-              "W000808": "Not Voting",
+              "W000808": "No",
               "W000809": "Aye",
               "W000812": "Aye",
               "W000814": "Aye",
@@ -461,19 +461,19 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 0,
-                "notVotingTotal": 7,
+                "nayTotal": 1,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 210
+                "yeaTotal": 212
               },
               {
-                "nayTotal": 207,
-                "notVotingTotal": 5,
+                "nayTotal": 210,
+                "notVotingTotal": 2,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
@@ -494,30 +494,30 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll195.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll203.xml",
             "question": "On Agreeing to the Resolution",
-            "id": "119-HRES-1333-2"
+            "id": "119-HRES-1336-2"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 211 - 207 (Roll no. 195). (text: CR H3783-3784)",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 211 (Roll no. 203).",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2026-06-03",
-        "actionTime": "14:25:57",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:08:59",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-03T18:25:57Z",
-            "rollNumber": 194,
+            "date": "2026-06-04T21:08:59Z",
+            "rollNumber": 202,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll194.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll202.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -600,7 +600,7 @@
               "C001130": "Nay",
               "C001131": "Nay",
               "C001132": "Yea",
-              "C001133": "Yea",
+              "C001133": "Not Voting",
               "C001136": "Nay",
               "C001137": "Yea",
               "D000032": "Yea",
@@ -663,7 +663,7 @@
               "G000565": "Yea",
               "G000568": "Yea",
               "G000576": "Yea",
-              "G000581": "Not Voting",
+              "G000581": "Nay",
               "G000583": "Nay",
               "G000585": "Nay",
               "G000586": "Nay",
@@ -709,7 +709,7 @@
               "I000056": "Yea",
               "I000058": "Nay",
               "J000288": "Nay",
-              "J000289": "Not Voting",
+              "J000289": "Yea",
               "J000294": "Nay",
               "J000295": "Yea",
               "J000298": "Not Voting",
@@ -747,7 +747,7 @@
               "L000566": "Yea",
               "L000582": "Nay",
               "L000583": "Yea",
-              "L000585": "Not Voting",
+              "L000585": "Yea",
               "L000590": "Nay",
               "L000593": "Nay",
               "L000595": "Yea",
@@ -761,7 +761,7 @@
               "L000603": "Yea",
               "L000606": "Nay",
               "L000607": "Nay",
-              "M000194": "Not Voting",
+              "M000194": "Yea",
               "M000312": "Nay",
               "M000317": "Yea",
               "M000687": "Nay",
@@ -769,7 +769,7 @@
               "M001136": "Yea",
               "M001137": "Nay",
               "M001143": "Nay",
-              "M001157": "Not Voting",
+              "M001157": "Yea",
               "M001160": "Nay",
               "M001163": "Nay",
               "M001177": "Yea",
@@ -826,7 +826,7 @@
               "O000086": "Yea",
               "O000172": "Nay",
               "O000173": "Nay",
-              "O000175": "Not Voting",
+              "O000175": "Yea",
               "O000176": "Nay",
               "O000177": "Yea",
               "P000034": "Nay",
@@ -839,22 +839,22 @@
               "P000609": "Yea",
               "P000613": "Nay",
               "P000614": "Nay",
-              "P000617": "Nay",
+              "P000617": "Not Voting",
               "P000620": "Nay",
               "P000621": "Nay",
               "P000622": "Yea",
               "Q000023": "Nay",
               "R000305": "Nay",
               "R000395": "Yea",
-              "R000575": "Not Voting",
+              "R000575": "Yea",
               "R000579": "Nay",
               "R000599": "Nay",
               "R000603": "Yea",
               "R000606": "Nay",
               "R000609": "Yea",
               "R000610": "Yea",
-              "R000612": "Not Voting",
-              "R000614": "Yea",
+              "R000612": "Yea",
+              "R000614": "Not Voting",
               "R000617": "Nay",
               "R000619": "Yea",
               "R000620": "Nay",
@@ -863,7 +863,7 @@
               "S000168": "Yea",
               "S000185": "Nay",
               "S000250": "Yea",
-              "S000344": "Not Voting",
+              "S000344": "Nay",
               "S000510": "Nay",
               "S000522": "Yea",
               "S000929": "Yea",
@@ -926,18 +926,18 @@
               "V000131": "Nay",
               "V000133": "Yea",
               "V000134": "Yea",
-              "V000135": "Yea",
+              "V000135": "Not Voting",
               "V000136": "Nay",
               "V000138": "Nay",
               "V000139": "Yea",
-              "W000187": "Not Voting",
+              "W000187": "Nay",
               "W000788": "Nay",
               "W000795": "Yea",
               "W000797": "Nay",
               "W000798": "Yea",
               "W000804": "Yea",
               "W000806": "Yea",
-              "W000808": "Not Voting",
+              "W000808": "Nay",
               "W000809": "Yea",
               "W000812": "Yea",
               "W000814": "Yea",
@@ -954,18 +954,18 @@
             "votePartyTotal": [
               {
                 "nayTotal": 0,
-                "notVotingTotal": 10,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 207
+                "yeaTotal": 211
               },
               {
-                "nayTotal": 207,
-                "notVotingTotal": 5,
+                "nayTotal": 210,
+                "notVotingTotal": 2,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
@@ -986,84 +986,84 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll194.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll202.xml",
             "question": "On Ordering the Previous Question",
-            "id": "119-HRES-1333-1"
+            "id": "119-HRES-1336-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 208 - 207 (Roll no. 194).",
+        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 212 - 210 (Roll no. 202).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-03",
-        "actionTime": "14:17:41",
+        "actionDate": "2026-06-04",
+        "actionTime": "16:45:20",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3795-3796)",
+        "text": "Considered as unfinished business.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-06-03",
-        "actionTime": "13:20:44",
+        "actionDate": "2026-06-04",
+        "actionTime": "14:59:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H. Res. 1333, the Chair put the question on ordering the previous question and by voice vote, announced the ayes had prevailed. Mr. McGovern demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.Res 1336, the Chair put the question on ordering the previous question and by voice vote, announced the ayes had prevailed. Mr. McGovern demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-06-03",
-        "actionTime": "12:22:51",
+        "actionDate": "2026-06-04",
+        "actionTime": "14:31:36",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on H. Res. 1333.",
+        "text": "DEBATE - The House proceeded with one hour of debate on H. Res. 1336.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-03",
-        "actionTime": "12:16:25",
+        "actionDate": "2026-06-04",
+        "actionTime": "14:30:47",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter. (consideration: CR H3783-3793)",
+        "text": "Considered as privileged matter.",
         "type": "Floor"
       },
       {
         "actionCode": "H12420",
         "actionDate": "2026-06-03",
         "calendarNumber": {
-          "calendar": "H00077"
+          "calendar": "H00078"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the House Calendar, Calendar No. 77.",
+        "text": "Placed on the House Calendar, Calendar No. 78.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12700",
         "actionDate": "2026-06-03",
-        "actionTime": "09:18:44",
+        "actionTime": "17:07:54",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The resolution provides for consideration of H.R. 8646 under a structured rule and H.R. 7726, H.R. 7892, and H.R. 8872 under a closed rule, with one hour of general debate on each bill. The resolution provides for one motion to recommit on each bill.",
+        "text": "The resolution waives a requirement of clause 6(a) of Rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
         "type": "Floor"
       },
       {
@@ -1080,7 +1080,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The House Committee on Rules reported an original measure, H. Rept. 119-676, by Mrs. Houchin.",
+        "text": "The House Committee on Rules reported an original measure, H. Rept. 119-685, by Ms. Foxx.",
         "type": "Committee"
       }
     ]
@@ -1088,45 +1088,35 @@
   "congress": 119,
   "introducedDate": "2026-06-03",
   "latestAction": {
-    "actionDate": "2026-06-03",
-    "actionTime": "14:32:12",
+    "actionDate": "2026-06-04",
+    "actionTime": "17:50:55",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1333",
-  "number": "1333",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1336",
+  "number": "1336",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Providing for consideration of the bill (H.R. 8646) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 7726) to amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under such Act; providing for consideration of the bill (H.R. 7892) to amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud; and providing for consideration of the bill (H.R. 8872) to amend part A of title IV of the Social Security Act to target funds to low-income families, strengthen program integrity guardrails for State expenditure of funds, require measurement of improper payments, and establish goals for eliminating fraud and improper payments under the program of block grants to States for temporary assistance for needy families, and for other purposes.",
+  "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
   "titles": {
     "titles": [
       {
-        "title": "Providing for consideration of the bill (H.R. 8646) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 7726) to amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under such Act; providing for consideration of the bill (H.R. 7892) to amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud; and providing for consideration of the bill (H.R. 8872) to amend part A of title IV of the Social Security Act to target funds to low-income families, strengthen program integrity guardrails for State expenditure of funds, require measurement of improper payments, and establish goals for eliminating fraud and improper payments under the program of block grants to States for temporary assistance for needy families, and for other purposes.",
+        "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-05T05:38:27Z"
+        "updateDate": "2026-06-04T08:08:00Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Providing for consideration of the bill (H.R. 8646) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 7726) to amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under such Act; providing for consideration of the bill (H.R. 7892) to amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud; and providing for consideration of the bill (H.R. 8872) to amend part A of title IV of the Social Security Act to target funds to low-income families, strengthen program integrity guardrails for State expenditure of funds, require measurement of improper payments, and establish goals for eliminating fraud and improper payments under the program of block grants to States for temporary assistance for needy families, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-06-05T05:38:26Z"
-      },
-      {
-        "title": "Providing for consideration of the bill (H.R. 8646) making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 7726) to amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under such Act; providing for consideration of the bill (H.R. 7892) to amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud; and providing for consideration of the bill (H.R. 8872) to amend part A of title IV of the Social Security Act to target funds to low-income families, strengthen program integrity guardrails for State expenditure of funds, require measurement of improper payments, and establish goals for eliminating fraud and improper payments under the program of block grants to States for temporary assistance for needy families, and for other purposes.",
+        "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-06-04T08:08:47Z"
+        "updateDate": "2026-06-04T08:08:00Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-05T08:06:09Z",
-  "updateDateIncludingText": "2026-06-05T09:18:29Z",
-  "id": "119-HRES-1333",
-  "lastActionDate": "2026-06-03",
-  "lastRecordedVoteDate": "2026-06-03T18:32:10Z"
+  "updateDate": "2026-06-05T08:07:41Z",
+  "updateDateIncludingText": "2026-06-05T08:07:41Z",
+  "id": "119-HRES-1336",
+  "lastActionDate": "2026-06-04",
+  "lastRecordedVoteDate": "2026-06-04T21:50:54Z"
 }

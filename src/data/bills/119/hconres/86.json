@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3812-3813)",
         "type": "Floor"
       },
       {
@@ -632,24 +632,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-06-05T05:38:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-05T05:38:26Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-04-21T08:19:06Z"
-      },
-      {
-        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-04-21T08:06:11Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-04T08:08:09Z",
-  "updateDateIncludingText": "2026-06-04T08:08:09Z",
+  "updateDate": "2026-06-05T05:38:27Z",
+  "updateDateIncludingText": "2026-06-05T09:33:27Z",
   "id": "119-HCONRES-86",
   "lastActionDate": "2026-06-03",
   "lastRecordedVoteDate": "2026-06-03T21:17:24Z"

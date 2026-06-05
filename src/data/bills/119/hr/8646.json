@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 21,
-    "url": "https://api.congress.gov/v3/bill/119/hr/7726/actions?format=json",
+    "count": 22,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8646/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
-        "actionDate": "2026-06-03",
-        "actionTime": "17:09:20",
+        "actionDate": "2026-06-04",
+        "actionTime": "18:09:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,16 +16,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2026-06-03",
-        "actionTime": "17:09:19",
+        "actionDate": "2026-06-04",
+        "actionTime": "18:09:40",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-03T21:09:19Z",
-            "rollNumber": 198,
+            "date": "2026-06-04T22:09:40Z",
+            "rollNumber": 205,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll198.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll205.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -71,7 +71,7 @@
               "B001324": "Nay",
               "B001325": "Yea",
               "B001326": "Nay",
-              "B001327": "Yea",
+              "B001327": "Nay",
               "C000059": "Yea",
               "C000537": "Nay",
               "C001039": "Yea",
@@ -80,7 +80,7 @@
               "C001055": "Nay",
               "C001059": "Nay",
               "C001061": "Nay",
-              "C001063": "Yea",
+              "C001063": "Nay",
               "C001066": "Nay",
               "C001067": "Nay",
               "C001068": "Nay",
@@ -147,7 +147,7 @@
               "F000454": "Nay",
               "F000459": "Yea",
               "F000462": "Nay",
-              "F000466": "Yea",
+              "F000466": "Nay",
               "F000468": "Nay",
               "F000469": "Yea",
               "F000470": "Yea",
@@ -178,17 +178,17 @@
               "G000587": "Nay",
               "G000589": "Yea",
               "G000591": "Yea",
-              "G000592": "Yea",
+              "G000592": "Not Voting",
               "G000593": "Yea",
               "G000597": "Yea",
               "G000598": "Nay",
               "G000599": "Nay",
-              "G000600": "Nay",
+              "G000600": "Yea",
               "G000601": "Yea",
               "G000602": "Nay",
               "G000603": "Yea",
               "G000604": "Nay",
-              "G000605": "Nay",
+              "G000605": "Yea",
               "G000606": "Nay",
               "H000874": "Nay",
               "H001047": "Nay",
@@ -269,7 +269,7 @@
               "L000603": "Yea",
               "L000606": "Nay",
               "L000607": "Nay",
-              "M000194": "Not Voting",
+              "M000194": "Yea",
               "M000312": "Nay",
               "M000317": "Yea",
               "M000687": "Nay",
@@ -280,8 +280,8 @@
               "M001157": "Yea",
               "M001160": "Nay",
               "M001163": "Nay",
-              "M001177": "Yea",
-              "M001184": "Yea",
+              "M001177": "Nay",
+              "M001184": "Nay",
               "M001188": "Nay",
               "M001194": "Yea",
               "M001196": "Nay",
@@ -334,7 +334,7 @@
               "O000086": "Yea",
               "O000172": "Nay",
               "O000173": "Nay",
-              "O000175": "Not Voting",
+              "O000175": "Yea",
               "O000176": "Nay",
               "O000177": "Yea",
               "P000034": "Nay",
@@ -347,7 +347,7 @@
               "P000609": "Yea",
               "P000613": "Nay",
               "P000614": "Nay",
-              "P000617": "Nay",
+              "P000617": "Not Voting",
               "P000620": "Nay",
               "P000621": "Nay",
               "P000622": "Yea",
@@ -362,7 +362,7 @@
               "R000609": "Yea",
               "R000610": "Yea",
               "R000612": "Yea",
-              "R000614": "Yea",
+              "R000614": "Not Voting",
               "R000617": "Nay",
               "R000619": "Yea",
               "R000620": "Nay",
@@ -395,7 +395,7 @@
               "S001211": "Nay",
               "S001212": "Yea",
               "S001213": "Yea",
-              "S001214": "Yea",
+              "S001214": "Nay",
               "S001215": "Nay",
               "S001216": "Nay",
               "S001218": "Nay",
@@ -461,19 +461,19 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 0,
-                "notVotingTotal": 5,
+                "nayTotal": 5,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 212
+                "yeaTotal": 208
               },
               {
-                "nayTotal": 207,
-                "notVotingTotal": 1,
+                "nayTotal": 205,
+                "notVotingTotal": 3,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
@@ -494,37 +494,37 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll198.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll205.xml",
             "question": "On Passage",
-            "id": "119-HR-7726-2"
+            "id": "119-HR-8646-2"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 217 - 207 (Roll no. 198). (text of amendment in the nature of a substitute: CR H3796-3797)",
+        "text": "On passage Passed by the Yeas and Nays: 213 - 210 (Roll no. 205).",
         "type": "Floor"
       },
       {
         "actionCode": "H36210",
-        "actionDate": "2026-06-03",
-        "actionTime": "17:02:04",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:57:52",
         "committees": [
           {
-            "name": "Education and Workforce Committee",
-            "systemCode": "hsed00",
-            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+            "name": "Appropriations Committee",
+            "systemCode": "hsap00",
+            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
           }
         ],
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-03T21:02:04Z",
-            "rollNumber": 197,
+            "date": "2026-06-04T21:57:52Z",
+            "rollNumber": 204,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll197.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll204.xml",
             "votes": {
               "A000055": "Nay",
               "A000148": "Yea",
@@ -539,7 +539,7 @@
               "B000490": "Yea",
               "B000668": "Nay",
               "B000740": "Nay",
-              "B000825": "Nay",
+              "B000825": "Not Voting",
               "B001257": "Nay",
               "B001260": "Nay",
               "B001278": "Yea",
@@ -702,7 +702,7 @@
               "H001082": "Nay",
               "H001085": "Yea",
               "H001086": "Nay",
-              "H001090": "Not Voting",
+              "H001090": "Yea",
               "H001091": "Nay",
               "H001093": "Nay",
               "H001094": "Yea",
@@ -768,7 +768,7 @@
               "L000603": "Nay",
               "L000606": "Yea",
               "L000607": "Yea",
-              "M000194": "Not Voting",
+              "M000194": "Nay",
               "M000312": "Yea",
               "M000317": "Nay",
               "M000687": "Yea",
@@ -833,7 +833,7 @@
               "O000086": "Nay",
               "O000172": "Yea",
               "O000173": "Yea",
-              "O000175": "Not Voting",
+              "O000175": "Nay",
               "O000176": "Yea",
               "O000177": "Nay",
               "P000034": "Yea",
@@ -846,7 +846,7 @@
               "P000609": "Nay",
               "P000613": "Yea",
               "P000614": "Yea",
-              "P000617": "Yea",
+              "P000617": "Not Voting",
               "P000620": "Yea",
               "P000621": "Yea",
               "P000622": "Nay",
@@ -861,7 +861,7 @@
               "R000609": "Nay",
               "R000610": "Nay",
               "R000612": "Nay",
-              "R000614": "Nay",
+              "R000614": "Not Voting",
               "R000617": "Yea",
               "R000619": "Nay",
               "R000620": "Yea",
@@ -878,7 +878,7 @@
               "S001148": "Nay",
               "S001156": "Yea",
               "S001159": "Yea",
-              "S001172": "Nay",
+              "S001172": "Not Voting",
               "S001176": "Nay",
               "S001183": "Nay",
               "S001185": "Yea",
@@ -960,8 +960,8 @@
             "result": "rejected",
             "votePartyTotal": [
               {
-                "nayTotal": 212,
-                "notVotingTotal": 5,
+                "nayTotal": 211,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Republican",
                   "type": "R"
@@ -993,44 +993,22 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll197.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll204.xml",
             "question": "On Motion to Recommit",
-            "id": "119-HR-7726-1"
+            "id": "119-HR-8646-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to recommit Failed by the Yeas and Nays: 210 - 213 (Roll no. 197).",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H30000",
-        "actionDate": "2026-06-03",
-        "actionTime": "16:55:57",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Considered as unfinished business. (consideration: CR H3811-3812)",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-06-03",
-        "actionTime": "15:20:47",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 7726, the Chair put the question on motion to recommit and by voice vote, announced the noes had prevailed. Mr. Subramanyam demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "text": "On motion to recommit Failed by the Yeas and Nays: 210 - 212 (Roll no. 204).",
         "type": "Floor"
       },
       {
         "actionCode": "H8A000",
-        "actionDate": "2026-06-03",
-        "actionTime": "15:20:37",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:51:58",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -1040,26 +1018,70 @@
       },
       {
         "actionCode": "H36200",
-        "actionDate": "2026-06-03",
-        "actionTime": "15:20:24",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:51:41",
         "committees": [
           {
-            "name": "Education and Workforce Committee",
-            "systemCode": "hsed00",
-            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+            "name": "Appropriations Committee",
+            "systemCode": "hsap00",
+            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Subramanyam moved to recommit to the Committee on Education and Workforce. (text: CR H3805)",
+        "text": "Ms. Bynum moved to recommit to the Committee on Appropriations.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:51:09",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-04",
+        "actionTime": "17:51:07",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Pursuant to clause 1(c) of rule XIX, the House resumed with further consideration of H.R. 8646.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-04",
+        "actionTime": "13:25:44",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of rule XIX, the Chair announced further proceedings on H.R. 8646 would be postponed.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H34400",
+        "actionDate": "2026-06-04",
+        "actionTime": "13:25:20",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2026-06-03",
-        "actionTime": "15:20:13",
+        "actionDate": "2026-06-04",
+        "actionTime": "13:24:52",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -1068,20 +1090,64 @@
         "type": "Floor"
       },
       {
-        "actionCode": "H8D000",
-        "actionDate": "2026-06-03",
-        "actionTime": "14:37:58",
+        "actionCode": "H32600",
+        "actionDate": "2026-06-04",
+        "actionTime": "13:24:04",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 7726.",
+        "text": "The House rose from the Committee of the Whole House on the state of the Union to report H.R. 8646.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-06-03",
-        "actionTime": "14:36:27",
+        "actionDate": "2026-06-04",
+        "actionTime": "13:06:24",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - Pursuant to the provisions of H. Res. 1333, the Committee of the Whole proceeded with 20 minutes of debate on the Harris (MD) amendment en bloc.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-04",
+        "actionTime": "12:16:01",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 8646.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H32400",
+        "actionDate": "2026-06-04",
+        "actionTime": "12:15:17",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The Speaker designated the Honorable Gabe Evans to act as Chairman of the Committee.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H32020",
+        "actionDate": "2026-06-04",
+        "actionTime": "12:15:15",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 1333 and Rule XVIII.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-04",
+        "actionTime": "12:14:46",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -1091,13 +1157,13 @@
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-03",
-        "actionTime": "14:36:22",
+        "actionDate": "2026-06-04",
+        "actionTime": "12:14:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1333. (consideration: CR H3796-3805)",
+        "text": "Considered under the provisions of rule H. Res. 1333.",
         "type": "Floor"
       },
       {
@@ -1113,163 +1179,82 @@
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-04-06",
+        "actionDate": "2026-05-01",
         "calendarNumber": {
-          "calendar": "U00512"
+          "calendar": "U00548"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 512.",
+        "text": "Placed on the Union Calendar, Calendar No. 548.",
         "type": "Calendars"
       },
       {
-        "actionCode": "H12200",
-        "actionDate": "2026-04-06",
+        "actionCode": "H12100",
+        "actionDate": "2026-05-01",
         "committees": [
           {
-            "name": "Education and Workforce Committee",
-            "systemCode": "hsed00",
-            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+            "name": "Appropriations Committee",
+            "systemCode": "hsap00",
+            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-592.",
+        "text": "The House Committee on Appropriations reported an original measure, H. Rept. 119-632, by Mr. Harris (MD).",
         "type": "Committee"
-      },
-      {
-        "actionCode": "H19000",
-        "actionDate": "2026-03-05",
-        "committees": [
-          {
-            "name": "Education and Workforce Committee",
-            "systemCode": "hsed00",
-            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 20 - 15.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H15001",
-        "actionDate": "2026-03-05",
-        "committees": [
-          {
-            "name": "Education and Workforce Committee",
-            "systemCode": "hsed00",
-            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Committee Consideration and Mark-up Session Held",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2026-02-26",
-        "committees": [
-          {
-            "name": "Education and Workforce Committee",
-            "systemCode": "hsed00",
-            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the House Committee on Education and Workforce.",
-        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-02-26",
+  "introducedDate": "2026-05-01",
   "latestAction": {
-    "actionDate": "2026-06-03",
-    "actionTime": "17:09:20",
+    "actionDate": "2026-06-04",
+    "actionTime": "18:09:41",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7726",
-  "number": "7726",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8646",
+  "number": "8646",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/7726/summaries?format=json"
+    "count": 2,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8646/summaries?format=json"
   },
-  "title": "Stop Child Care Scams Act of 2026",
+  "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
   "titles": {
     "titles": [
       {
-        "title": "Stop Child Care Scams Act of 2026",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-05T05:38:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Stop Child Care Scams Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-05T05:38:26Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under such Act.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-06-05T05:38:26Z"
+        "updateDate": "2026-05-02T08:23:27Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "No Funds for Repeat Child Care Violations Act of 2026",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-04-07T05:53:23Z"
+        "updateDate": "2026-05-02T08:23:26Z"
       },
       {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "No Funds for Repeat Child Care Violations Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2026-02-27T09:23:21Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To amend the Child Care and Development Block Grant Act of 1990 to withhold funds from noncompliant States under suchAct.",
+        "title": "Making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-02-27T09:18:20Z"
+        "updateDate": "2026-05-02T08:07:13Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-05T08:05:36Z",
-  "updateDateIncludingText": "2026-06-05T08:48:31Z",
-  "id": "119-HR-7726",
-  "lastActionDate": "2026-06-03",
-  "lastRecordedVoteDate": "2026-06-03T21:09:19Z"
+  "updateDate": "2026-06-05T08:35:30Z",
+  "updateDateIncludingText": "2026-06-05T08:35:30Z",
+  "id": "119-HR-8646",
+  "lastActionDate": "2026-06-04",
+  "lastRecordedVoteDate": "2026-06-04T22:09:40Z"
 }
