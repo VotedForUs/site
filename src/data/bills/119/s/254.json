@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3794)",
         "type": "Floor"
       },
       {
@@ -673,11 +673,31 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "ARTIST Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-06-05T05:38:26Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Alaska’s Right to Ivory Sales and Tradition Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-06-05T05:38:26Z"
+      },
+      {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "ARTIST Act",
+        "title": "Alaska’s Right to Ivory Sales and Tradition Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2025-10-10T06:08:13Z"
@@ -687,7 +707,7 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Alaska’s Right to Ivory Sales and Tradition Act",
+        "title": "ARTIST Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2025-10-10T06:08:13Z"
@@ -745,8 +765,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-04T08:08:18Z",
-  "updateDateIncludingText": "2026-06-04T08:08:18Z",
+  "updateDate": "2026-06-05T05:38:26Z",
+  "updateDateIncludingText": "2026-06-05T05:38:26Z",
   "id": "119-S-254",
   "lastActionDate": "2026-06-03",
   "lastRecordedVoteDate": "2026-06-03T18:17:39Z"

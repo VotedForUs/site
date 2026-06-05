@@ -1,36 +1,42 @@
 {
   "actions": {
     "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/hconres/9/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/2389/actions?format=json",
     "actions": [
       {
-        "actionDate": "2025-05-01",
+        "actionDate": "2026-06-03",
+        "committees": [
+          {
+            "name": "Indian Affairs Committee",
+            "systemCode": "slia00",
+            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+          }
+        ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
+        "text": "Committee on Indian Affairs. Hearings held.",
+        "type": "Committee"
       },
       {
-        "actionDate": "2025-04-30",
+        "actionDate": "2025-12-10",
+        "committees": [
+          {
+            "name": "Indian Affairs Committee",
+            "systemCode": "slia00",
+            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+          }
+        ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Resolution agreed to in Senate without amendment by Unanimous Consent. (consideration: CR S2710)",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-04-08",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Indian Affairs.",
         "type": "IntroReferral"
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2025-04-07",
-        "actionTime": "16:09:04",
+        "actionDate": "2025-12-09",
+        "actionTime": "15:54:37",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -40,26 +46,23 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2025-04-07",
-        "actionTime": "16:09:02",
+        "actionDate": "2025-12-09",
+        "actionTime": "15:54:34",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote. (text: CR H1429)",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5081)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2025-04-07",
+            "date": "2025-12-09",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {
-              "C001078": "vv",
-              "G000590": "vv",
-              "S001207": "vv",
               "G000596": "vv",
               "L000578": "vv",
               "A000055": "vv",
@@ -495,127 +498,122 @@
               "R000621": "vv",
               "M001235": "vv",
               "P000622": "vv",
-              "F000484": "vv"
+              "F000484": "vv",
+              "W000831": "vv",
+              "G000606": "vv",
+              "V000139": "vv"
             },
             "result": "passed",
             "votePartyTotal": [
-              {
-                "voteParty": "Democrat",
-                "yeaTotal": 216,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              },
               {
                 "voteParty": "Republican",
                 "yeaTotal": 223,
                 "nayTotal": 0,
                 "presentTotal": 0,
                 "notVotingTotal": 0
+              },
+              {
+                "voteParty": "Democrat",
+                "yeaTotal": 216,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hconres/9",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/2389",
             "question": "Voice Vote",
-            "id": "119-HCONRES-9-1"
+            "id": "119-HR-2389-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-04-07",
-        "actionTime": "16:06:57",
+        "actionDate": "2025-12-09",
+        "actionTime": "15:47:26",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House resumed debate on H. Con. Res. 9.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2025-04-07",
-        "actionTime": "16:00:47",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H. Con. Res. 9.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2389.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-04-07",
-        "actionTime": "16:00:46",
+        "actionDate": "2025-12-09",
+        "actionTime": "15:47:25",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H1429-1430)",
+        "text": "Considered under suspension of the rules. (consideration: CR H5081-5082)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2025-04-07",
-        "actionTime": "16:00:28",
+        "actionDate": "2025-12-09",
+        "actionTime": "15:47:06",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Perry moved to suspend the rules and agree to the resolution.",
+        "text": "Mr. Crank moved to suspend the rules and pass the bill.",
         "type": "Floor"
       },
       {
-        "actionCode": "H12420",
-        "actionDate": "2025-03-25",
+        "actionCode": "H12410",
+        "actionDate": "2025-09-15",
+        "calendarNumber": {
+          "calendar": "U00244"
+        },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the House Calendar, Calendar No. 13.",
+        "text": "Placed on the Union Calendar, Calendar No. 244.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2025-03-25",
+        "actionDate": "2025-09-15",
         "committees": [
           {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported by the Committee on Transportation and Infrastructure. H. Rept. 119-39.",
+        "text": "Reported by the Committee on Natural Resources. H. Rept. 119-288.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2025-02-26",
+        "actionDate": "2025-06-25",
         "committees": [
           {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported by Voice Vote.",
+        "text": "Ordered to be Reported by Unanimous Consent.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-02-26",
+        "actionDate": "2025-06-25",
         "committees": [
           {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
@@ -626,71 +624,160 @@
         "type": "Committee"
       },
       {
-        "actionCode": "H19000",
-        "actionDate": "2025-02-26",
+        "actionCode": "H25000",
+        "actionDate": "2025-06-25",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Subcommittee on Economic Development, Public Buildings, and Emergency Management Discharged",
+        "text": "Subcommittee on Indian and Insular Affairs Discharged",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H21000",
+        "actionDate": "2025-04-30",
+        "committees": [
+          {
+            "name": "Indian and Insular Affairs Subcommittee",
+            "systemCode": "hsii24",
+            "url": "https://api.congress.gov/v3/committee/house/hsii24?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Hearings Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2025-04-23",
+        "committees": [
+          {
+            "name": "Indian and Insular Affairs Subcommittee",
+            "systemCode": "hsii24",
+            "url": "https://api.congress.gov/v3/committee/house/hsii24?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Indian and Insular Affairs.",
         "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-02-06",
+        "actionDate": "2025-03-26",
         "committees": [
           {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Transportation and Infrastructure.",
+        "text": "Referred to the House Committee on Natural Resources.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-02-06",
+  "introducedDate": "2025-03-26",
   "latestAction": {
-    "actionDate": "2025-05-01",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-06-03",
+    "text": "Committee on Indian Affairs. Hearings held."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/9",
-  "number": "9",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2389",
+  "number": "2389",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hconres/9/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/2389/summaries?format=json"
   },
-  "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+  "title": "Quinault Indian Nation Land Transfer Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-02-07T12:18:17Z"
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Quinault Indian Nation Land Transfer Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-12-13T03:08:17Z"
       },
       {
-        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Quinault Indian Nation Land Transfer Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-12-11T04:08:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To take certain land in the State of Washington into trust for the benefit of the Quinault Indian Nation, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2025-12-11T04:08:20Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Quinault Indian Nation Land Transfer Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-09-16T08:08:17Z"
+      },
+      {
+        "title": "Quinault Indian Nation Land Transfer Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-02-07T09:02:02Z"
+        "updateDate": "2025-04-06T04:38:22Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Quinault Indian Nation Land Transfer Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-06T04:38:19Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To take certain land in the State of Washington into trust for the benefit of the Quinault Indian Nation, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-06T04:33:20Z"
       }
     ]
   },
-  "type": "HCONRES",
-  "updateDate": "2026-06-04T17:55:41Z",
-  "updateDateIncludingText": "2026-06-04T17:55:41Z",
-  "id": "119-HCONRES-9",
-  "lastActionDate": "2025-05-01",
-  "lastRecordedVoteDate": "2025-04-07"
+  "type": "HR",
+  "updateDate": "2026-06-04T10:56:32Z",
+  "updateDateIncludingText": "2026-06-04T10:56:32Z",
+  "id": "119-HR-2389",
+  "lastActionDate": "2026-06-03",
+  "lastRecordedVoteDate": "2025-12-09"
 }

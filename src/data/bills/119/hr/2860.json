@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3810-3811)",
         "type": "Floor"
       },
       {
@@ -714,6 +714,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Northwest Straits Marine Conservation Initiative Reauthorization Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-05T05:38:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To reauthorize the Northwest Straits Marine Conservation Initiative Act to promote the protection of the resources of the Northwest Straits, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-05T05:38:27Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -748,8 +768,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-04T08:07:40Z",
-  "updateDateIncludingText": "2026-06-04T08:07:40Z",
+  "updateDate": "2026-06-05T05:38:27Z",
+  "updateDateIncludingText": "2026-06-05T09:03:37Z",
   "id": "119-HR-2860",
   "lastActionDate": "2026-06-03",
   "lastRecordedVoteDate": "2026-06-03T20:55:47Z"
