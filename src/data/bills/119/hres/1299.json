@@ -591,18 +591,14 @@
   "number": "1299",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "21st Century ROAD to Housing Act",
+  "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "21st Century ROAD to Housing Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-03T05:23:26Z"
+        "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-06-03T14:53:31Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -615,20 +611,6 @@
         "updateDate": "2026-06-03T05:23:26Z"
       },
       {
-        "title": "21st Century ROAD to Housing Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-05-20T08:23:26Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "21st Century ROAD to Housing Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2026-05-20T08:23:25Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
@@ -639,8 +621,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-03T05:23:26Z",
-  "updateDateIncludingText": "2026-06-03T10:50:26Z",
+  "updateDate": "2026-06-05T15:34:34Z",
+  "updateDateIncludingText": "2026-06-05T15:34:34Z",
   "id": "119-HRES-1299",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T17:04:28Z"
