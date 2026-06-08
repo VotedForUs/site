@@ -855,7 +855,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/618/summaries?format=json"
   },
   "title": "Apex Area Technical Corrections Act",
@@ -916,8 +916,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:06:10Z",
-  "updateDateIncludingText": "2026-03-31T20:06:10Z",
+  "updateDate": "2026-06-07T21:01:13Z",
+  "updateDateIncludingText": "2026-06-07T21:01:13Z",
   "id": "119-HR-618",
   "lastActionDate": "2025-07-15",
   "lastRecordedVoteDate": "2025-06-18"
