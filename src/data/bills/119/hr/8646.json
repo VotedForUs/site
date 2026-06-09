@@ -1031,7 +1031,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Ms. Bynum moved to recommit to the Committee on Appropriations.",
+        "text": "Ms. Bynum moved to recommit to the Committee on Appropriations. (text: CR H3875)",
         "type": "Floor"
       },
       {
@@ -1042,7 +1042,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3875-3876)",
         "type": "Floor"
       },
       {
@@ -1163,7 +1163,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1333.",
+        "text": "Considered under the provisions of rule H. Res. 1333. (consideration: CR H3838-3862; text: CR H3843-3860)",
         "type": "Floor"
       },
       {
@@ -1228,6 +1228,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-09T05:38:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-06-09T05:38:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-09T05:38:26Z"
+      },
+      {
         "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1252,8 +1282,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-05T23:21:23Z",
-  "updateDateIncludingText": "2026-06-05T23:21:23Z",
+  "updateDate": "2026-06-09T05:38:26Z",
+  "updateDateIncludingText": "2026-06-09T09:18:36Z",
   "id": "119-HR-8646",
   "lastActionDate": "2026-06-04",
   "lastRecordedVoteDate": "2026-06-04T22:09:40Z"

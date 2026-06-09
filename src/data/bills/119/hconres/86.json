@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 13,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hconres/86/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-04",
+        "committees": [
+          {
+            "name": "Foreign Relations Committee",
+            "systemCode": "ssfr00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and referred to the Committee on Foreign Relations.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-03",
@@ -616,9 +631,8 @@
   "congress": 119,
   "introducedDate": "2026-04-20",
   "latestAction": {
-    "actionDate": "2026-06-03",
-    "actionTime": "17:17:26",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-04",
+    "text": "Received in the Senate and referred to the Committee on Foreign Relations."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/86",
   "number": "86",
@@ -658,9 +672,9 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-05T05:38:27Z",
-  "updateDateIncludingText": "2026-06-05T09:33:27Z",
+  "updateDate": "2026-06-05T12:14:59Z",
+  "updateDateIncludingText": "2026-06-09T05:18:37Z",
   "id": "119-HCONRES-86",
-  "lastActionDate": "2026-06-03",
+  "lastActionDate": "2026-06-04",
   "lastRecordedVoteDate": "2026-06-03T21:17:24Z"
 }
