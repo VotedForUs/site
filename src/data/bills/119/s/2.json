@@ -1,8 +1,49 @@
 {
   "actions": {
-    "count": 14,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/s/2/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H1L210",
+        "actionDate": "2026-06-08",
+        "actionTime": "19:22:01",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Rules Committee Resolution H. Res. 1345 Reported to House. Rule provides for consideration of H.R. 8312, H.R. 8464, H. Res. 1335 and S. 2. The resolution provides for consideration of H.R. 8312, H.R. 8464, H. Res. 1335, and S. 2 under a closed rule with one hour of general debate on each measure. The resolution provides for a motion to recommit H.R. 8312 and H.R. 8464 and a motion to commit S. 2.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-06-08",
+        "actionTime": "14:11:31",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-06-08",
+        "actionTime": "14:04:44",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-05",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-05",
         "recordedVotes": [
@@ -152,7 +193,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate with an amendment by Yea-Nay Vote. 52 - 47. Record Vote Number: 163.",
+        "text": "Passed Senate with an amendment by Yea-Nay Vote. 52 - 47. Record Vote Number: 163. (text: CR S2570-2571)",
         "type": "Floor"
       },
       {
@@ -167,7 +208,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Wyden to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Voice Vote.",
+        "text": "Motion by Senator Wyden to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Voice Vote. (text: CR S2567)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -327,7 +368,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Rosen to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Voice Vote.",
+        "text": "Motion by Senator Rosen to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Voice Vote. (text: CR S2567)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -631,7 +672,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Wyden to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 48 - 51. Record Vote Number: 153.",
+        "text": "Motion by Senator Wyden to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 48 - 51. Record Vote Number: 153. (text: CR S2562)",
         "type": "Floor"
       },
       {
@@ -790,7 +831,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Warnock to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 46 - 52. Record Vote Number: 147.",
+        "text": "Motion by Senator Warnock to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 46 - 52. Record Vote Number: 147. (text: CR S2558)",
         "type": "Floor"
       },
       {
@@ -949,7 +990,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Ossoff to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 141.",
+        "text": "Motion by Senator Ossoff to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 141. (text: CR S2552)",
         "type": "Floor"
       },
       {
@@ -1108,7 +1149,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Schumer to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 137.",
+        "text": "Motion by Senator Schumer to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 137. (text: CR S2549)",
         "type": "Floor"
       },
       {
@@ -1116,7 +1157,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S2545-2571)",
         "type": "Floor"
       },
       {
@@ -1307,8 +1348,9 @@
   "congress": 119,
   "introducedDate": "2026-05-20",
   "latestAction": {
-    "actionDate": "2026-06-05",
-    "text": "Passed Senate with an amendment by Yea-Nay Vote. 52 - 47. Record Vote Number: 163."
+    "actionDate": "2026-06-08",
+    "actionTime": "19:22:01",
+    "text": "Rules Committee Resolution H. Res. 1345 Reported to House. Rule provides for consideration of H.R. 8312, H.R. 8464, H. Res. 1335 and S. 2. The resolution provides for consideration of H.R. 8312, H.R. 8464, H. Res. 1335, and S. 2 under a closed rule with one hour of general debate on each measure. The resolution provides for a motion to recommit H.R. 8312 and H.R. 8464 and a motion to commit S. 2."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2",
   "number": "2",
@@ -1322,6 +1364,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Secure America Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-06-06T10:58:33Z"
+      },
+      {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
@@ -1330,12 +1378,6 @@
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2026-06-06T03:38:26Z"
-      },
-      {
-        "title": "Secure America Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-06-05T12:18:25Z"
       },
       {
         "billTextVersionCode": "PCS",
@@ -1356,9 +1398,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-06T03:38:26Z",
-  "updateDateIncludingText": "2026-06-06T08:03:30Z",
+  "updateDate": "2026-06-09T08:06:15Z",
+  "updateDateIncludingText": "2026-06-09T08:06:15Z",
   "id": "119-S-2",
-  "lastActionDate": "2026-06-05",
+  "lastActionDate": "2026-06-08",
   "lastRecordedVoteDate": "2026-06-05T08:51:59Z"
 }

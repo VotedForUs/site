@@ -2479,16 +2479,6 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Science Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2026-01-21T19:08:24Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
         "title": "Commerce, Justice, Science, and Related Agencies Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
@@ -2499,7 +2489,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Department of Commerce Appropriations Act, 2026",
+        "title": "Science Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
         "updateDate": "2026-01-21T19:08:24Z"
@@ -2510,6 +2500,16 @@
         "chamberCode": "J",
         "chamberName": "Joint",
         "title": "Department of Justice Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2026-01-21T19:08:24Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Department of Commerce Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
         "updateDate": "2026-01-21T19:08:24Z"
@@ -2545,6 +2545,42 @@
         "updateDate": "2026-01-21T05:23:14Z"
       },
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Department of Commerce Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 151,
+        "updateDate": "2026-01-12T19:08:32Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Department of Commerce Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-01-12T19:08:32Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Commerce, Justice, Science, and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-01-12T19:08:32Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Science Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-01-12T19:08:32Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Department of Justice Appropriations Act, 2026",
@@ -2591,32 +2627,6 @@
         "updateDate": "2026-01-12T19:08:32Z"
       },
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Department of Commerce Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 151,
-        "updateDate": "2026-01-12T19:08:32Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Commerce, Justice, Science, and Related Agencies Appropriations Act, 2026",
-        "titleType": "Short Title(s) as Introduced for portions of this bill",
-        "titleTypeCode": 106,
-        "updateDate": "2026-01-12T19:08:32Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Science Appropriations Act, 2026",
-        "titleType": "Short Title(s) as Introduced for portions of this bill",
-        "titleTypeCode": 106,
-        "updateDate": "2026-01-12T19:08:32Z"
-      },
-      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -2647,21 +2657,11 @@
         "updateDate": "2026-01-12T19:08:32Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Department of Commerce Appropriations Act, 2026",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-01-12T19:08:32Z"
-      },
-      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2026",
+        "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 151,
         "updateDate": "2026-01-09T15:08:37Z"
@@ -2669,8 +2669,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-09T20:24:14Z",
-  "updateDateIncludingText": "2026-03-09T20:24:14Z",
+  "updateDate": "2026-06-08T21:41:21Z",
+  "updateDateIncludingText": "2026-06-08T21:41:21Z",
   "id": "119-HR-6938",
   "lastActionDate": "2026-01-23",
   "lastRecordedVoteDate": "2026-01-15T21:15:52Z"

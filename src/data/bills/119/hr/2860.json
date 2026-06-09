@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/2860/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-04",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 427.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-03",
@@ -698,9 +706,8 @@
   "congress": 119,
   "introducedDate": "2025-04-10",
   "latestAction": {
-    "actionDate": "2026-06-03",
-    "actionTime": "16:55:48",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-04",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 427."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2860",
   "number": "2860",
@@ -713,6 +720,16 @@
   "title": "Northwest Straits Marine Conservation Initiative Reauthorization Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Northwest Straits Marine Conservation Initiative Reauthorization Act of 2025",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-06-09T05:38:26Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -768,9 +785,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-05T05:38:27Z",
-  "updateDateIncludingText": "2026-06-05T09:03:37Z",
+  "updateDate": "2026-06-09T05:38:26Z",
+  "updateDateIncludingText": "2026-06-09T05:38:26Z",
   "id": "119-HR-2860",
-  "lastActionDate": "2026-06-03",
+  "lastActionDate": "2026-06-04",
   "lastRecordedVoteDate": "2026-06-03T20:55:47Z"
 }

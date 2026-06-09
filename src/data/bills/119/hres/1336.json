@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 211 (Roll no. 203).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 211 (Roll no. 203). (text: CR H3862)",
         "type": "Floor"
       },
       {
@@ -1006,7 +1006,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3873-3875)",
         "type": "Floor"
       },
       {
@@ -1039,7 +1039,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H3862-3865)",
         "type": "Floor"
       },
       {
@@ -1096,6 +1096,10 @@
   "number": "1336",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1336/summaries?format=json"
+  },
   "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
   "titles": {
     "titles": [
@@ -1103,7 +1107,17 @@
         "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-04T08:08:00Z"
+        "updateDate": "2026-06-09T05:23:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-09T05:23:22Z"
       },
       {
         "title": "Waiving a requirement of clause 6(a) of rule XIII with respect to consideration of certain resolutions reported from the Committee on Rules.",
@@ -1114,8 +1128,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-05T08:07:41Z",
-  "updateDateIncludingText": "2026-06-05T08:07:41Z",
+  "updateDate": "2026-06-09T05:23:23Z",
+  "updateDateIncludingText": "2026-06-09T09:33:30Z",
   "id": "119-HRES-1336",
   "lastActionDate": "2026-06-04",
   "lastRecordedVoteDate": "2026-06-04T21:50:54Z"

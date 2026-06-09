@@ -1,0 +1,206 @@
+{
+  "actions": {
+    "count": 14,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8428/actions?format=json",
+    "actions": [
+      {
+        "actionCode": "H38800",
+        "actionDate": "2026-06-08",
+        "actionTime": "19:05:15",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The title of the measure was amended. Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H38310",
+        "actionDate": "2026-06-08",
+        "actionTime": "19:05:13",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37300",
+        "actionDate": "2026-06-08",
+        "actionTime": "19:05:12",
+        "recordedVotes": [
+          {
+            "chamber": "House",
+            "congress": 119,
+            "date": "2026-06-08T23:05:12Z",
+            "rollNumber": 209,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll209.xml",
+            "id": "119-HR-8428-1"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 393 - 0 (Roll no. 209).",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-06-08",
+        "actionTime": "18:57:22",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37220",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:27:46",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:20:04",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 8428.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:20:02",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered under suspension of the rules.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30300",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:20:00",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Gill (TX) moved to suspend the rules and pass the bill, as amended.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-04-29",
+        "committees": [
+          {
+            "name": "Oversight and Government Reform Committee",
+            "systemCode": "hsgo00",
+            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 40 - 0.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2026-04-29",
+        "committees": [
+          {
+            "name": "Oversight and Government Reform Committee",
+            "systemCode": "hsgo00",
+            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-04-22",
+        "committees": [
+          {
+            "name": "Oversight and Government Reform Committee",
+            "systemCode": "hsgo00",
+            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Oversight and Government Reform.",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2026-04-22",
+  "latestAction": {
+    "actionDate": "2026-06-08",
+    "actionTime": "19:05:15",
+    "text": "The title of the measure was amended. Agreed to without objection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8428",
+  "number": "8428",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8428/summaries?format=json"
+  },
+  "title": "Federal Fraud Prevention Workforce Training Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Federal Fraud Prevention Workforce Training Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-04-23T09:38:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Federal Fraud Prevention Workforce Training Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-04-23T09:38:24Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend title 5, United States Code, to establish a mandatory antifraud and improper payment training program for Federal program administrators, to provide for the availability of such training to State and local entities administering Federally funded programs, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-04-23T09:33:26Z"
+      }
+    ]
+  },
+  "type": "HR",
+  "updateDate": "2026-06-09T08:06:37Z",
+  "updateDateIncludingText": "2026-06-09T08:06:37Z",
+  "id": "119-HR-8428",
+  "lastActionDate": "2026-06-08",
+  "lastRecordedVoteDate": "2026-06-08T23:05:12Z"
+}
