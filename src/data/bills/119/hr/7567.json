@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 69,
+    "count": 70,
     "url": "https://api.congress.gov/v3/bill/119/hr/7567/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-19",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38900",
         "actionDate": "2026-04-30",
@@ -2195,9 +2203,8 @@
   "congress": 119,
   "introducedDate": "2026-02-13",
   "latestAction": {
-    "actionDate": "2026-04-30",
-    "actionTime": "11:15:02",
-    "text": "The Clerk was authorized to correct section numbers, punctuation, and cross references, and to make other necessary technical and conforming corrections in the engrossment of H.R. 7567."
+    "actionDate": "2026-05-19",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7567",
   "number": "7567",
@@ -2283,9 +2290,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-20T06:08:45Z",
-  "updateDateIncludingText": "2026-05-20T08:33:29Z",
+  "updateDate": "2026-06-09T21:17:21Z",
+  "updateDateIncludingText": "2026-06-09T21:17:21Z",
   "id": "119-HR-7567",
-  "lastActionDate": "2026-04-30",
+  "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-04-30T15:14:59Z"
 }

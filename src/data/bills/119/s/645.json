@@ -1,12 +1,12 @@
 {
   "actions": {
     "count": 8,
-    "url": "https://api.congress.gov/v3/bill/119/s/1467/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/s/645/actions?format=json",
     "actions": [
       {
         "actionCode": "H15000",
-        "actionDate": "2025-06-17",
-        "actionTime": "11:02:25",
+        "actionDate": "2026-06-09",
+        "actionTime": "12:08:05",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,8 +16,8 @@
       },
       {
         "actionCode": "H14000",
-        "actionDate": "2025-06-17",
-        "actionTime": "11:02:14",
+        "actionDate": "2026-06-09",
+        "actionTime": "12:04:31",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -26,17 +26,17 @@
         "type": "Floor"
       },
       {
-        "actionDate": "2025-06-12",
+        "actionDate": "2026-06-08",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent. (text: CR S3395-3396)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2669; text: CR S2669)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2025-06-12",
+            "date": "2026-06-08",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -172,14 +172,14 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/1467",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/645",
             "question": "Pass with Unanimous Consent",
-            "id": "119-S-1467-1"
+            "id": "119-S-645-1"
           }
         ]
       },
       {
-        "actionDate": "2025-06-12",
+        "actionDate": "2026-06-08",
         "committees": [
           {
             "name": "Banking, Housing, and Urban Affairs Committee",
@@ -190,11 +190,11 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent. (consideration: CR S3395-3396)",
+        "text": "Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent.",
         "type": "Discharge"
       },
       {
-        "actionDate": "2025-04-10",
+        "actionDate": "2025-02-20",
         "committees": [
           {
             "name": "Banking, Housing, and Urban Affairs Committee",
@@ -211,66 +211,61 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-04-10",
+  "introducedDate": "2025-02-20",
   "latestAction": {
-    "actionDate": "2025-06-17",
-    "actionTime": "11:02:25",
+    "actionDate": "2026-06-09",
+    "actionTime": "12:08:05",
     "text": "Held at the desk."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1467",
-  "notes": [
-    {
-      "text": "The text of <a href=\"https://www.congress.gov/bill/119/S/1467\" target=\"_blank\">S.1467</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/HR/2808\" target=\"_blank\">H.R.2808</a>, which became Public Law 119-36."
-    }
-  ],
-  "number": "1467",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/645",
+  "number": "645",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/1467/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/s/645/summaries?format=json"
   },
-  "title": "Homebuyers Privacy Protection Act",
+  "title": "North Platte Canteen Congressional Gold Medal Act",
   "titles": {
     "titles": [
       {
-        "title": "Homebuyers Privacy Protection Act",
+        "title": "North Platte Canteen Congressional Gold Medal Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-06-27T11:03:19Z"
+        "updateDate": "2026-06-09T10:58:42Z"
       },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Homebuyers Privacy Protection Act",
+        "title": "North Platte Canteen Congressional Gold Medal Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2025-06-13T05:53:16Z"
+        "updateDate": "2026-06-09T05:23:21Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Homebuyers Privacy Protection Act",
+        "title": "North Platte Canteen Congressional Gold Medal Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-05-03T03:23:19Z"
+        "updateDate": "2025-03-14T03:38:16Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to amend the Fair Credit Reporting Act to prevent consumer reporting agencies from furnishing consumer reports under certain circumstances, and for other purposes.",
+        "title": "A bill to award a Congressional Gold Medal, collectively, to the individuals and communities who volunteered or donated items to the North Platte Canteen in North Platte, Nebraska, during World War II from December 25, 1941, to April 1, 1946.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-05-03T03:18:22Z"
+        "updateDate": "2025-03-14T03:33:42Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-09T15:19:48Z",
-  "updateDateIncludingText": "2026-06-09T15:19:48Z",
-  "id": "119-S-1467",
-  "lastActionDate": "2025-06-17",
-  "lastRecordedVoteDate": "2025-06-12"
+  "updateDate": "2026-06-10T08:07:20Z",
+  "updateDateIncludingText": "2026-06-10T08:07:20Z",
+  "id": "119-S-645",
+  "lastActionDate": "2026-06-09",
+  "lastRecordedVoteDate": "2026-06-08"
 }

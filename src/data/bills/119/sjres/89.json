@@ -219,6 +219,11 @@
     "text": "Indefinitely postponed by Senate by Unanimous Consent. (consideration: CR S8395)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/89",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/SJRES/89\" target=\"_blank\">S.J.Res.89</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/HJRES/130\" target=\"_blank\">H.J.Res.130</a>, which became Public Law 119-51."
+    }
+  ],
   "number": "89",
   "originChamber": "Senate",
   "originChamberCode": "S",
@@ -246,8 +251,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-04-14T16:01:59Z",
-  "updateDateIncludingText": "2026-04-14T16:01:59Z",
+  "updateDate": "2026-06-09T21:25:40Z",
+  "updateDateIncludingText": "2026-06-09T21:25:40Z",
   "id": "119-SJRES-89",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-19T20:12:33Z"

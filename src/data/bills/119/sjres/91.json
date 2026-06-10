@@ -219,6 +219,11 @@
     "text": "Indefinitely postponed by Senate by Unanimous Consent."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/91",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/SJRES/91\" target=\"_blank\">S.J.Res.91</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/HJRES/131\" target=\"_blank\">H.J.Res.131</a>, which became Public Law 119-52."
+    }
+  ],
   "number": "91",
   "originChamber": "Senate",
   "originChamberCode": "S",
@@ -246,8 +251,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-04-03T15:37:25Z",
-  "updateDateIncludingText": "2026-04-03T15:37:25Z",
+  "updateDate": "2026-06-09T21:27:15Z",
+  "updateDateIncludingText": "2026-06-09T21:27:15Z",
   "id": "119-SJRES-91",
   "lastActionDate": "2025-12-04",
   "lastRecordedVoteDate": "2025-12-03T21:43:40Z"

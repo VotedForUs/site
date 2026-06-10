@@ -878,7 +878,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "MAPWaters Act of 2025",
+        "title": "Modernizing Access to our Public Waters Act of 2025",
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2025-12-18T05:08:16Z"
@@ -888,7 +888,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Modernizing Access to our Public Waters Act of 2025",
+        "title": "MAPWaters Act of 2025",
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2025-12-18T05:08:16Z"
@@ -896,7 +896,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "MAPWaters Act of 2025",
+        "title": "Modernizing Access to our Public Waters Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-08T07:23:20Z"
@@ -904,7 +904,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Modernizing Access to our Public Waters Act of 2025",
+        "title": "MAPWaters Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-08T07:23:20Z"
@@ -948,7 +948,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Modernizing Access to our Public Waters Act of 2025",
+        "title": "MAPWaters Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-01-23T02:23:17Z"
@@ -958,7 +958,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "MAPWaters Act of 2025",
+        "title": "Modernizing Access to our Public Waters Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-01-23T02:23:17Z"
@@ -966,8 +966,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-08T14:21:16Z",
-  "updateDateIncludingText": "2026-04-08T14:21:16Z",
+  "updateDate": "2026-06-09T22:03:15Z",
+  "updateDateIncludingText": "2026-06-09T22:03:15Z",
   "id": "119-HR-187",
   "lastActionDate": "2025-12-26",
   "lastRecordedVoteDate": "2025-12-16"

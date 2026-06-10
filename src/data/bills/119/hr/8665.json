@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H3965-3966)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3965-3967)",
         "type": "Floor"
       },
       {
@@ -600,6 +600,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Allied Defense Sales Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-10T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the implementation of a strategy to encourage foreign partners to participate in the foreign military sales and direct commercial sales processes on a multinational basis, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-10T05:38:24Z"
+      },
+      {
         "title": "Allied Defense Sales Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -624,8 +644,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T08:06:25Z",
-  "updateDateIncludingText": "2026-06-09T08:06:25Z",
+  "updateDate": "2026-06-10T08:06:11Z",
+  "updateDateIncludingText": "2026-06-10T09:18:33Z",
   "id": "119-HR-8665",
   "lastActionDate": "2026-06-08",
   "lastRecordedVoteDate": "2026-06-08"
