@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 14,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hres/53/actions?format=json",
     "actions": [
       {
@@ -1117,8 +1117,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-09-05T14:53:27Z",
-  "updateDateIncludingText": "2025-09-05T14:53:27Z",
+  "updateDate": "2026-06-09T14:18:50Z",
+  "updateDateIncludingText": "2026-06-09T14:18:50Z",
   "id": "119-HRES-53",
   "lastActionDate": "2025-01-22",
   "lastRecordedVoteDate": "2025-01-22T19:07:21Z"

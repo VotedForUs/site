@@ -413,6 +413,11 @@
     "text": "Message received in Senate: Returned to the Senate pursuant to the provisions of H.Res. 212."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/3",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/SJRES/3\" target=\"_blank\">S.J.Res.3</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/HJRES/25\" target=\"_blank\">H.J.Res.25</a>, which became Public Law 119-5."
+    }
+  ],
   "number": "3",
   "originChamber": "Senate",
   "originChamberCode": "S",
@@ -440,8 +445,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-02-27T09:07:08Z",
-  "updateDateIncludingText": "2026-02-27T09:07:08Z",
+  "updateDate": "2026-06-09T21:56:03Z",
+  "updateDateIncludingText": "2026-06-09T21:56:03Z",
   "id": "119-SJRES-3",
   "lastActionDate": "2025-03-12",
   "lastRecordedVoteDate": "2025-03-04T22:51:54Z"

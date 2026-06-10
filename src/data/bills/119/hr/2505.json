@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H3943-3944)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H3943-3945)",
         "type": "Floor"
       },
       {
@@ -621,6 +621,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To require the development of strategies and options to prevent the export to Iran of certain technologies related to unmanned aircraft systems, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-10T05:28:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Block the Use of Transatlantic Technology in Iranian Made Drones Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -651,8 +661,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T08:05:51Z",
-  "updateDateIncludingText": "2026-06-09T08:05:51Z",
+  "updateDate": "2026-06-10T08:05:39Z",
+  "updateDateIncludingText": "2026-06-10T09:33:35Z",
   "id": "119-HR-2505",
   "lastActionDate": "2026-06-08",
   "lastRecordedVoteDate": "2026-06-08"

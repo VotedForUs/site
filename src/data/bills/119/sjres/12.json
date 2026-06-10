@@ -227,6 +227,11 @@
     "text": "Indefinitely postponed by Senate by Unanimous Consent."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/12",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/SJRES/12\" target=\"_blank\">S.J.Res.12</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/HJRES/35\" target=\"_blank\">H.J.Res.35</a>, which became Public Law 119-2."
+    }
+  ],
   "number": "12",
   "originChamber": "Senate",
   "originChamberCode": "S",
@@ -254,8 +259,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2025-12-05T06:21:25Z",
-  "updateDateIncludingText": "2025-12-05T06:21:25Z",
+  "updateDate": "2026-06-09T14:18:22Z",
+  "updateDateIncludingText": "2026-06-09T14:18:22Z",
   "id": "119-SJRES-12",
   "lastActionDate": "2025-02-27",
   "lastRecordedVoteDate": "2025-02-26T23:42:19Z"
