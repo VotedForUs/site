@@ -1,20 +1,12 @@
 {
   "actions": {
-    "count": 21,
-    "url": "https://api.congress.gov/v3/bill/119/hr/3922/actions?format=json",
+    "count": 13,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8340/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-06-03",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
-        "type": "IntroReferral"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2026-06-02",
-        "actionTime": "16:30:21",
+        "actionDate": "2026-06-10",
+        "actionTime": "16:35:10",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,19 +16,19 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-06-02",
-        "actionTime": "16:30:18",
+        "actionDate": "2026-06-10",
+        "actionTime": "16:35:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3767)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-02",
+            "date": "2026-06-10",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -497,117 +489,92 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/3922",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/8340",
             "question": "Voice Vote",
-            "id": "119-HR-3922-1"
+            "id": "119-HR-8340-1"
           }
         ]
       },
       {
-        "actionCode": "H8D000",
-        "actionDate": "2026-06-02",
-        "actionTime": "16:21:19",
+        "actionCode": "H30000",
+        "actionDate": "2026-06-10",
+        "actionTime": "16:34:59",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 3922.",
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37210",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:11:53",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "At the conclusion of debate, the chair put the question on the motion to suspend the rules. Mr. Gill (TX) objected to the vote on the grounds that a quorum was not present. Further proceedings on the motion were postponed. The point of no quorum was considered as withdrawn.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:06:56",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 8340.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-02",
-        "actionTime": "16:21:17",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:06:53",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3767-3769)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3931-3933; text: CR H3931-3932)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-06-02",
-        "actionTime": "16:21:01",
+        "actionDate": "2026-06-08",
+        "actionTime": "15:06:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Westerman moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Gill (TX) moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
-        "actionCode": "H12410",
-        "actionDate": "2026-06-02",
-        "calendarNumber": {
-          "calendar": "U00587"
-        },
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Placed on the Union Calendar, Calendar No. 587.",
-        "type": "Calendars"
-      },
-      {
-        "actionCode": "H12300",
-        "actionDate": "2026-06-02",
-        "committees": [
-          {
-            "name": "Agriculture Committee",
-            "systemCode": "hsag00",
-            "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Committee on Agriculture discharged.",
-        "type": "Discharge"
-      },
-      {
-        "actionCode": "H12200",
-        "actionDate": "2026-06-02",
-        "committees": [
-          {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-673, Part I.",
-        "type": "Committee"
-      },
-      {
         "actionCode": "H19000",
-        "actionDate": "2026-02-11",
+        "actionDate": "2026-04-29",
         "committees": [
           {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+            "name": "Oversight and Government Reform Committee",
+            "systemCode": "hsgo00",
+            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 40 - 0.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2026-02-11",
+        "actionDate": "2026-04-29",
         "committees": [
           {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+            "name": "Oversight and Government Reform Committee",
+            "systemCode": "hsgo00",
+            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
           }
         ],
         "sourceSystem": {
@@ -618,167 +585,70 @@
         "type": "Committee"
       },
       {
-        "actionCode": "H25000",
-        "actionDate": "2026-02-11",
-        "committees": [
-          {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Subcommittee on Federal Lands Discharged",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H21000",
-        "actionDate": "2026-01-14",
-        "committees": [
-          {
-            "name": "Federal Lands Subcommittee",
-            "systemCode": "hsii10",
-            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Subcommittee Hearings Held",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H11000",
-        "actionDate": "2026-01-07",
-        "committees": [
-          {
-            "name": "Federal Lands Subcommittee",
-            "systemCode": "hsii10",
-            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Referred to the Subcommittee on Federal Lands.",
-        "type": "Committee"
-      },
-      {
         "actionCode": "H11100",
-        "actionDate": "2025-06-11",
+        "actionDate": "2026-04-16",
         "committees": [
           {
-            "name": "Agriculture Committee",
-            "systemCode": "hsag00",
-            "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+            "name": "Oversight and Government Reform Committee",
+            "systemCode": "hsgo00",
+            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-06-11",
-        "committees": [
-          {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "text": "Referred to the House Committee on Oversight and Government Reform.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-06-11",
+  "introducedDate": "2026-04-16",
   "latestAction": {
-    "actionDate": "2026-06-03",
-    "text": "Received in the Senate."
+    "actionDate": "2026-06-10",
+    "actionTime": "16:35:10",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3922",
-  "number": "3922",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8340",
+  "number": "8340",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/3922/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/8340/summaries?format=json"
   },
-  "title": "Cross-Boundary Wildfire Solutions Act",
+  "title": "Taxpayer Funds Oversight and Accountability Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Cross-Boundary Wildfire Solutions Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-04T03:08:35Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To direct the Comptroller General of the United States to conduct a study on existing programs, rules, and authorities that enable or inhibit wildfire mitigation across land ownership boundaries on Federal and non-Federal land, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-06-04T03:08:35Z"
-      },
-      {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Cross-Boundary Wildfire Solutions Act",
-        "titleType": "Short Title(s) as Reported to House",
-        "titleTypeCode": 102,
-        "updateDate": "2026-06-03T05:08:25Z"
-      },
-      {
-        "title": "Cross-Boundary Wildfire Solutions Act",
+        "title": "Taxpayer Funds Oversight and Accountability Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-06-18T05:23:18Z"
+        "updateDate": "2026-04-22T03:38:22Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Cross-Boundary Wildfire Solutions Act",
+        "title": "Taxpayer Funds Oversight and Accountability Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-06-18T05:23:17Z"
+        "updateDate": "2026-04-22T03:38:21Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To direct the Comptroller General of the United States to conduct a study on existing programs, rules, and authorities that enable or inhibit wildfire mitigation across land ownership boundaries on Federal and non-Federal land, and for other purposes.",
+        "title": "To modify the governmentwide financial management plan, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-06-18T05:18:22Z"
+        "updateDate": "2026-04-22T03:33:24Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T09:36:17Z",
-  "updateDateIncludingText": "2026-06-11T09:36:17Z",
-  "id": "119-HR-3922",
-  "lastActionDate": "2026-06-03",
-  "lastRecordedVoteDate": "2026-06-02"
+  "updateDate": "2026-06-11T08:06:59Z",
+  "updateDateIncludingText": "2026-06-11T08:06:59Z",
+  "id": "119-HR-8340",
+  "lastActionDate": "2026-06-10",
+  "lastRecordedVoteDate": "2026-06-10"
 }

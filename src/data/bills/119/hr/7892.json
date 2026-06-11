@@ -1,20 +1,12 @@
 {
   "actions": {
-    "count": 20,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5214/actions?format=json",
+    "count": 18,
+    "url": "https://api.congress.gov/v3/bill/119/hr/7892/actions?format=json",
     "actions": [
       {
-        "actionDate": "2025-11-20",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
-        "type": "IntroReferral"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2025-11-19",
-        "actionTime": "20:39:50",
+        "actionDate": "2026-06-10",
+        "actionTime": "16:10:16",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,19 +16,19 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2025-11-19",
-        "actionTime": "20:39:48",
+        "actionDate": "2026-06-10",
+        "actionTime": "16:10:15",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2025-11-20T01:39:48Z",
-            "rollNumber": 298,
-            "sessionNumber": 1,
-            "url": "https://clerk.house.gov/evs/2025/roll298.xml",
+            "date": "2026-06-10T20:10:15Z",
+            "rollNumber": 217,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll217.xml",
             "votes": {
               "A000055": "Yea",
-              "A000148": "Nay",
+              "A000148": "Yea",
               "A000369": "Yea",
               "A000370": "Nay",
               "A000371": "Nay",
@@ -45,7 +37,7 @@
               "A000379": "Yea",
               "A000380": "Nay",
               "A000381": "Nay",
-              "B000490": "Nay",
+              "B000490": "Yea",
               "B000668": "Yea",
               "B000740": "Yea",
               "B000825": "Yea",
@@ -53,13 +45,13 @@
               "B001260": "Yea",
               "B001278": "Nay",
               "B001281": "Nay",
-              "B001282": "Not Voting",
+              "B001282": "Yea",
               "B001285": "Nay",
               "B001287": "Nay",
               "B001291": "Yea",
               "B001292": "Nay",
               "B001295": "Yea",
-              "B001296": "Nay",
+              "B001296": "Yea",
               "B001298": "Yea",
               "B001300": "Nay",
               "B001301": "Yea",
@@ -93,12 +85,12 @@
               "C001067": "Nay",
               "C001068": "Not Voting",
               "C001069": "Nay",
-              "C001072": "Not Voting",
+              "C001072": "Nay",
               "C001080": "Nay",
               "C001087": "Yea",
               "C001091": "Nay",
               "C001101": "Nay",
-              "C001103": "Yea",
+              "C001103": "Not Voting",
               "C001108": "Yea",
               "C001110": "Nay",
               "C001112": "Nay",
@@ -112,10 +104,9 @@
               "C001123": "Nay",
               "C001125": "Nay",
               "C001126": "Yea",
-              "C001127": "Not Voting",
               "C001129": "Yea",
               "C001130": "Nay",
-              "C001131": "Not Voting",
+              "C001131": "Nay",
               "C001132": "Yea",
               "C001133": "Yea",
               "C001136": "Nay",
@@ -125,7 +116,7 @@
               "D000197": "Nay",
               "D000216": "Nay",
               "D000230": "Yea",
-              "D000399": "Not Voting",
+              "D000399": "Nay",
               "D000530": "Nay",
               "D000594": "Yea",
               "D000600": "Yea",
@@ -135,7 +126,7 @@
               "D000624": "Nay",
               "D000626": "Yea",
               "D000628": "Yea",
-              "D000629": "Nay",
+              "D000629": "Yea",
               "D000631": "Nay",
               "D000634": "Yea",
               "D000635": "Nay",
@@ -172,6 +163,7 @@
               "F000482": "Yea",
               "F000483": "Nay",
               "F000484": "Yea",
+              "F000485": "Yea",
               "G000546": "Yea",
               "G000553": "Nay",
               "G000558": "Yea",
@@ -179,7 +171,7 @@
               "G000565": "Yea",
               "G000568": "Yea",
               "G000576": "Yea",
-              "G000581": "Yea",
+              "G000581": "Not Voting",
               "G000583": "Yea",
               "G000585": "Nay",
               "G000586": "Nay",
@@ -188,8 +180,6 @@
               "G000591": "Yea",
               "G000592": "Yea",
               "G000593": "Yea",
-              "G000594": "Yea",
-              "G000596": "Yea",
               "G000597": "Yea",
               "G000598": "Nay",
               "G000599": "Nay",
@@ -201,19 +191,19 @@
               "G000605": "Yea",
               "G000606": "Nay",
               "H000874": "Nay",
-              "H001047": "Nay",
+              "H001047": "Yea",
               "H001052": "Yea",
               "H001058": "Yea",
               "H001066": "Nay",
               "H001067": "Yea",
               "H001068": "Nay",
-              "H001072": "Not Voting",
+              "H001072": "Yea",
               "H001077": "Yea",
               "H001081": "Nay",
               "H001082": "Yea",
-              "H001085": "Nay",
+              "H001085": "Yea",
               "H001086": "Yea",
-              "H001090": "Nay",
+              "H001090": "Yea",
               "H001091": "Yea",
               "H001093": "Yea",
               "H001094": "Nay",
@@ -249,12 +239,12 @@
               "K000391": "Nay",
               "K000392": "Yea",
               "K000397": "Yea",
-              "K000398": "Yea",
+              "K000398": "Not Voting",
               "K000399": "Yea",
               "K000400": "Nay",
               "K000401": "Yea",
               "K000402": "Nay",
-              "K000403": "Not Voting",
+              "K000403": "Yea",
               "K000405": "Yea",
               "L000273": "Nay",
               "L000397": "Nay",
@@ -263,14 +253,13 @@
               "L000560": "Nay",
               "L000562": "Nay",
               "L000566": "Yea",
-              "L000578": "Not Voting",
               "L000582": "Nay",
               "L000583": "Yea",
               "L000585": "Yea",
-              "L000590": "Nay",
+              "L000590": "Yea",
               "L000593": "Nay",
               "L000595": "Yea",
-              "L000596": "Yea",
+              "L000596": "Not Voting",
               "L000597": "Yea",
               "L000598": "Yea",
               "L000599": "Yea",
@@ -280,7 +269,7 @@
               "L000603": "Yea",
               "L000606": "Nay",
               "L000607": "Nay",
-              "M000194": "Yea",
+              "M000194": "Not Voting",
               "M000312": "Nay",
               "M000317": "Yea",
               "M000687": "Nay",
@@ -295,11 +284,11 @@
               "M001184": "Yea",
               "M001188": "Nay",
               "M001194": "Yea",
-              "M001196": "Nay",
+              "M001196": "Not Voting",
               "M001199": "Yea",
               "M001204": "Yea",
               "M001205": "Yea",
-              "M001206": "Nay",
+              "M001206": "Yea",
               "M001208": "Nay",
               "M001210": "Yea",
               "M001211": "Yea",
@@ -312,7 +301,7 @@
               "M001218": "Yea",
               "M001220": "Nay",
               "M001222": "Yea",
-              "M001223": "Nay",
+              "M001223": "Yea",
               "M001224": "Yea",
               "M001225": "Nay",
               "M001226": "Nay",
@@ -326,19 +315,21 @@
               "M001234": "Nay",
               "M001235": "Yea",
               "M001236": "Yea",
-              "M001237": "Yea",
+              "M001237": "Not Voting",
               "M001238": "Nay",
               "M001239": "Yea",
               "M001240": "Yea",
-              "M001241": "Yea",
+              "M001241": "Nay",
+              "M001245": "Nay",
+              "M001246": "Nay",
               "N000002": "Nay",
               "N000015": "Nay",
               "N000026": "Yea",
               "N000188": "Nay",
               "N000189": "Yea",
-              "N000190": "Yea",
+              "N000190": "Not Voting",
               "N000191": "Nay",
-              "N000193": "Not Voting",
+              "N000193": "Yea",
               "O000019": "Yea",
               "O000086": "Yea",
               "O000172": "Nay",
@@ -352,23 +343,23 @@
               "P000597": "Nay",
               "P000605": "Yea",
               "P000607": "Nay",
-              "P000608": "Nay",
+              "P000608": "Yea",
               "P000609": "Yea",
               "P000613": "Yea",
               "P000614": "Yea",
               "P000617": "Nay",
               "P000620": "Nay",
-              "P000621": "Nay",
+              "P000621": "Yea",
               "P000622": "Yea",
               "Q000023": "Nay",
               "R000305": "Nay",
               "R000395": "Yea",
-              "R000575": "Not Voting",
-              "R000579": "Yea",
+              "R000575": "Yea",
+              "R000579": "Nay",
               "R000599": "Nay",
               "R000603": "Yea",
               "R000606": "Nay",
-              "R000609": "Not Voting",
+              "R000609": "Yea",
               "R000610": "Yea",
               "R000612": "Yea",
               "R000614": "Yea",
@@ -387,7 +378,6 @@
               "S001145": "Nay",
               "S001148": "Yea",
               "S001156": "Nay",
-              "S001157": "Nay",
               "S001159": "Nay",
               "S001172": "Yea",
               "S001176": "Yea",
@@ -396,14 +386,12 @@
               "S001188": "Yea",
               "S001189": "Yea",
               "S001190": "Nay",
-              "S001193": "Not Voting",
               "S001195": "Yea",
               "S001196": "Yea",
               "S001199": "Yea",
-              "S001200": "Nay",
+              "S001200": "Yea",
               "S001201": "Yea",
               "S001205": "Nay",
-              "S001207": "Not Voting",
               "S001211": "Nay",
               "S001212": "Yea",
               "S001213": "Yea",
@@ -421,7 +409,7 @@
               "S001229": "Yea",
               "S001230": "Nay",
               "S001231": "Nay",
-              "T000165": "Not Voting",
+              "T000165": "Yea",
               "T000193": "Nay",
               "T000460": "Nay",
               "T000463": "Yea",
@@ -449,6 +437,7 @@
               "V000135": "Yea",
               "V000136": "Yea",
               "V000138": "Yea",
+              "V000139": "Yea",
               "W000187": "Nay",
               "W000788": "Nay",
               "W000795": "Yea",
@@ -457,41 +446,42 @@
               "W000804": "Yea",
               "W000806": "Yea",
               "W000808": "Nay",
-              "W000809": "Not Voting",
+              "W000809": "Yea",
               "W000812": "Yea",
               "W000814": "Yea",
               "W000816": "Yea",
               "W000821": "Yea",
               "W000822": "Nay",
               "W000829": "Yea",
-              "W000830": "Yea",
+              "W000830": "Nay",
               "W000831": "Nay",
               "Y000067": "Yea",
-              "Z000018": "Yea"
+              "Z000018": "Yea",
+              "G000607": "Yea"
             },
             "result": "passed",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
-                "notVotingTotal": 10,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 209
+                "yeaTotal": 212
               },
               {
-                "nayTotal": 179,
-                "notVotingTotal": 7,
+                "nayTotal": 172,
+                "notVotingTotal": 4,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 28
+                "yeaTotal": 36
               },
               {
                 "nayTotal": 0,
@@ -502,47 +492,47 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 0
+                "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll298.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll217.xml",
             "question": "On Passage",
-            "id": "119-HR-5214-1"
+            "id": "119-HR-7892-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 237 - 179 (Roll no. 298). (text of amendment in the nature of a substitute: CR H4796)",
+        "text": "On passage Passed by the Yeas and Nays: 249 - 172 (Roll no. 217).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-11-19",
-        "actionTime": "20:16:27",
+        "actionDate": "2026-06-10",
+        "actionTime": "15:38:26",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H4805-4806)",
+        "text": "Considered as unfinished business.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-11-19",
-        "actionTime": "14:22:12",
+        "actionDate": "2026-06-09",
+        "actionTime": "19:44:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 5214, the Chair put the question on passage of the bill and by voice vote announced the ayes had prevailed. Mr. Garcia (CA) demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 7892, the Chair put the question on passage of the bill and by voice vote, announced the ayes had prevailed. Mr. Scott (VA) demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2025-11-19",
-        "actionTime": "14:21:27",
+        "actionDate": "2026-06-09",
+        "actionTime": "19:43:45",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -552,114 +542,103 @@
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-11-19",
-        "actionTime": "13:55:05",
+        "actionDate": "2026-06-09",
+        "actionTime": "19:10:52",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 5214.",
+        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 7892.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-11-19",
-        "actionTime": "13:53:56",
+        "actionDate": "2026-06-09",
+        "actionTime": "19:09:43",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rule provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107 and H.R. 5214. The resolution provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214 under a closed rule with one hour of general debate on each measure. The resolution also provides for one motion to recommit on H.J. Res. 130, H.J. Res. 131, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214, and one motion to commit S.J. Res. 80.",
+        "text": "Rule provides for consideration of H.R. 8646, H.R. 7726, H.R. 7892 and H.R. 8872. The resolution provides for consideration of H.R. 8646 under a structured rule and H.R. 7726, H.R. 7892, and H.R. 8872 under a closed rule, with one hour of general debate on each bill. The resolution provides for one motion to recommit on each bill.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-11-19",
-        "actionTime": "13:53:51",
+        "actionDate": "2026-06-09",
+        "actionTime": "19:09:38",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 879. (consideration: CR H4796-4800)",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H1L220",
-        "actionDate": "2025-11-18",
-        "actionTime": "15:05:02",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Rule H. Res. 879 passed House.",
+        "text": "Considered under the provisions of rule H. Res. 1333.",
         "type": "Floor"
       },
       {
         "actionCode": "H1L210",
-        "actionDate": "2025-11-17",
-        "actionTime": "20:02:19",
+        "actionDate": "2026-06-03",
+        "actionTime": "09:18:44",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rules Committee Resolution H. Res. 879 Reported to House. Rule provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107 and H.R. 5214. The resolution provides for consideration of S.J. Res. 80, H.J. Res. 130, H.J. Res. 131, H. Con. Res. 58, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214 under a closed rule with one hour of general debate on each measure. The resolution also provides for one motion to recommit on H.J. Res. 130, H.J. Res. 131, H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214, and one motion to commit S.J. Res. 80.",
+        "text": "Rules Committee Resolution H. Res. 1333 Reported to House. Rule provides for consideration of H.R. 8646, H.R. 7726, H.R. 7892 and H.R. 8872. The resolution provides for consideration of H.R. 8646 under a structured rule and H.R. 7726, H.R. 7892, and H.R. 8872 under a closed rule, with one hour of general debate on each bill. The resolution provides for one motion to recommit on each bill.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2025-09-30",
+        "actionDate": "2026-05-26",
         "calendarNumber": {
-          "calendar": "U00269"
+          "calendar": "U00583"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 269.",
+        "text": "Placed on the Union Calendar, Calendar No. 583.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2025-09-30",
+        "actionDate": "2026-05-26",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Education and Workforce Committee",
+            "systemCode": "hsed00",
+            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Oversight and Government Reform. H. Rept. 119-315.",
+        "text": "Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-669.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2025-09-10",
+        "actionDate": "2026-03-17",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Education and Workforce Committee",
+            "systemCode": "hsed00",
+            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 26 - 19.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 30 - 3.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-09-10",
+        "actionDate": "2026-03-17",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Education and Workforce Committee",
+            "systemCode": "hsed00",
+            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
           }
         ],
         "sourceSystem": {
@@ -671,98 +650,79 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-09-08",
+        "actionDate": "2026-03-12",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Education and Workforce Committee",
+            "systemCode": "hsed00",
+            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Oversight and Government Reform.",
+        "text": "Referred to the House Committee on Education and Workforce.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-09-08",
+  "introducedDate": "2026-03-12",
   "latestAction": {
-    "actionDate": "2025-11-20",
-    "text": "Received in the Senate."
+    "actionDate": "2026-06-10",
+    "actionTime": "16:10:16",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5214",
-  "number": "5214",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7892",
+  "number": "7892",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5214/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/7892/summaries?format=json"
   },
-  "title": "District of Columbia Cash Bail Reform Act of 2025",
+  "title": "No Aid for Ghost Students Act of 2026",
   "titles": {
     "titles": [
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "District of Columbia Cash Bail Reform Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2025-11-21T13:38:24Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To require mandatory pretrial and post conviction detention for crimes of violence and dangerous crimes and require mandatory cash bail for certain offenses that pose a threat to public safety or order in the District of Columbia, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2025-11-21T13:38:24Z"
-      },
-      {
-        "title": "District of Columbia Cash Bail Reform Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-01T04:53:15Z"
-      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "District of Columbia Cash Bail Reform Act of 2025",
+        "title": "No Aid for Ghost Students Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2025-10-01T04:53:14Z"
+        "updateDate": "2026-05-27T04:53:25Z"
+      },
+      {
+        "title": "No Aid for Ghost Students Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-13T08:23:26Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "District of Columbia Cash Bail Reform Act",
+        "title": "No Aid for Ghost Students Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-09-09T08:23:22Z"
+        "updateDate": "2026-03-13T08:23:25Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To require mandatory pretrial and post conviction detention for crimes of violence and dangerous crimes and require mandatory cash bail for certain offenses that pose a threat to public safety or order in the District of Columbia, and for other purposes.",
+        "title": "To amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-09-09T08:18:24Z"
+        "updateDate": "2026-03-13T08:19:24Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:26Z",
-  "updateDateIncludingText": "2026-06-11T05:06:26Z",
-  "id": "119-HR-5214",
-  "lastActionDate": "2025-11-20",
-  "lastRecordedVoteDate": "2025-11-20T01:39:48Z"
+  "updateDate": "2026-06-11T08:07:09Z",
+  "updateDateIncludingText": "2026-06-11T08:07:09Z",
+  "id": "119-HR-7892",
+  "lastActionDate": "2026-06-10",
+  "lastRecordedVoteDate": "2026-06-10T20:10:15Z"
 }
