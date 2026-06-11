@@ -692,9 +692,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To modify the boundary of the Vicksburg National Military Park in the State of Mississippi, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Vicksburg National Military Park Boundary Modification Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-18T03:08:22Z"
       },
       {
@@ -702,9 +702,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Vicksburg National Military Park Boundary Modification Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To modify the boundary of the Vicksburg National Military Park in the State of Mississippi, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-18T03:08:22Z"
       },
       {
@@ -742,8 +742,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-18T10:56:31Z",
-  "updateDateIncludingText": "2026-03-18T10:56:31Z",
+  "updateDate": "2026-06-11T05:06:26Z",
+  "updateDateIncludingText": "2026-06-11T05:06:26Z",
   "id": "119-HR-4467",
   "lastActionDate": "2026-03-17",
   "lastRecordedVoteDate": "2026-03-16"

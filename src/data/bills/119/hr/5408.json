@@ -573,6 +573,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Faster Labor Contracts Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-11T03:08:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To accelerate workplace time-to-contract under the National Labor Relations Act.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-11T03:08:22Z"
+      },
+      {
         "title": "Faster Labor Contracts Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -597,8 +617,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-10T08:07:35Z",
-  "updateDateIncludingText": "2026-06-10T08:07:35Z",
+  "updateDate": "2026-06-11T03:08:22Z",
+  "updateDateIncludingText": "2026-06-11T09:33:25Z",
   "id": "119-HR-5408",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-09T23:06:36Z"

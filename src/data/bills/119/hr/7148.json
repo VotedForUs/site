@@ -2255,46 +2255,6 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Department of Defense Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2026-03-02T18:28:21Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
-        "title": "Executive Office of the President Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2026-03-02T18:28:21Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
-        "title": "Financial Services and General Government Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2026-03-02T18:28:21Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
-        "title": "Department of the Treasury Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2026-03-02T18:28:21Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
         "title": "District of Columbia Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
@@ -2315,6 +2275,56 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
+        "title": "Executive Office of the President Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2026-03-02T18:28:21Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Judiciary Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2026-03-02T18:28:21Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2026-03-02T18:28:21Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Department of Defense Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2026-03-02T18:28:21Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Department of the Treasury Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2026-03-02T18:28:21Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
         "title": "Further Continuing Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
@@ -2325,17 +2335,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2026-03-02T18:28:21Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
-        "title": "Judiciary Appropriations Act, 2026",
+        "title": "Financial Services and General Government Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
         "updateDate": "2026-03-02T18:28:21Z"
@@ -2345,7 +2345,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Department of the Treasury Appropriations Act, 2026",
+        "title": "Department of Defense Appropriations Act, 2026",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
         "updateDate": "2026-02-04T17:28:15Z"
@@ -2365,7 +2365,27 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "Financial Services and General Government Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-02-04T17:28:15Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Judiciary Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-02-04T17:28:15Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Department of Transportation Appropriations Act, 2026",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
         "updateDate": "2026-02-04T17:28:15Z"
@@ -2395,66 +2415,42 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "Department of the Treasury Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-02-04T17:28:15Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "District of Columbia Appropriations Act, 2026",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
         "updateDate": "2026-02-04T17:28:15Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Financial Services and General Government Appropriations Act, 2026",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-02-04T17:28:15Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Department of Transportation Appropriations Act, 2026",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-02-04T17:28:15Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Department of Defense Appropriations Act, 2026",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-02-04T17:28:15Z"
-      },
-      {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Judiciary Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 151,
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
         "updateDate": "2026-02-04T17:23:18Z"
       },
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "District of Columbia Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 151,
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Department of Transportation Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
         "updateDate": "2026-02-04T17:23:18Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-04T21:32:01Z",
-  "updateDateIncludingText": "2026-05-04T21:32:01Z",
+  "updateDate": "2026-06-11T05:06:25Z",
+  "updateDateIncludingText": "2026-06-11T05:06:25Z",
   "id": "119-HR-7148",
   "lastActionDate": "2026-02-03",
   "lastRecordedVoteDate": "2026-02-03T19:09:52Z"

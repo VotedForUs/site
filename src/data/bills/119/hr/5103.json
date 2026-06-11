@@ -1331,9 +1331,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-27T02:38:22Z"
       },
       {
@@ -1341,9 +1341,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To establish a program to Beautify the District of Columbia and establish the District of Columbia Safe and Beautiful Commission.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-27T02:38:22Z"
       },
       {
@@ -1351,7 +1351,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
+        "title": "Make the District of Columbia Safe and Beautiful Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-01-15T10:53:14Z"
@@ -1361,7 +1361,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Make the District of Columbia Safe and Beautiful Act of 2026",
+        "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-01-15T10:53:14Z"
@@ -1385,8 +1385,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-27T15:04:33Z",
-  "updateDateIncludingText": "2026-03-27T15:04:32Z",
+  "updateDate": "2026-06-11T05:06:26Z",
+  "updateDateIncludingText": "2026-06-11T05:06:26Z",
   "id": "119-HR-5103",
   "lastActionDate": "2026-03-26",
   "lastRecordedVoteDate": "2026-03-25T19:30:02Z"
