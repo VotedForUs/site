@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4079)",
         "type": "Floor"
       },
       {
@@ -622,6 +622,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Taxpayer Funds Oversight and Accountability Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-12T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To modify the governmentwide financial management plan, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-12T05:23:26Z"
+      },
+      {
         "title": "Taxpayer Funds Oversight and Accountability Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -646,8 +666,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T08:06:59Z",
-  "updateDateIncludingText": "2026-06-11T08:06:59Z",
+  "updateDate": "2026-06-12T05:23:26Z",
+  "updateDateIncludingText": "2026-06-12T10:03:37Z",
   "id": "119-HR-8340",
   "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2026-06-10"

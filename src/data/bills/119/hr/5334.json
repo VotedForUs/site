@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/5334/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-28",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-27",
@@ -614,9 +622,8 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-04-27",
-    "actionTime": "16:35:01",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-28",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
   "number": "5334",
@@ -670,7 +677,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Supporting Early-childhood Educators’ Deductions Act",
+        "title": "SEED Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-10T06:08:23Z"
@@ -680,7 +687,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "SEED Act",
+        "title": "Supporting Early-childhood Educators’ Deductions Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-10T06:08:23Z"
@@ -712,9 +719,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-29T05:08:27Z",
-  "updateDateIncludingText": "2026-04-29T07:03:51Z",
+  "updateDate": "2026-06-11T23:41:31Z",
+  "updateDateIncludingText": "2026-06-11T23:41:31Z",
   "id": "119-HR-5334",
-  "lastActionDate": "2026-04-27",
+  "lastActionDate": "2026-04-28",
   "lastRecordedVoteDate": "2026-04-27"
 }

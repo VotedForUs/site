@@ -818,6 +818,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Lulu’s Law",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-05-22T10:08:30Z"
+      },
+      {
         "title": "Lulu’s Law",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -862,8 +872,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-22T08:05:52Z",
-  "updateDateIncludingText": "2026-05-22T08:05:52Z",
+  "updateDate": "2026-06-11T23:41:32Z",
+  "updateDateIncludingText": "2026-06-11T23:41:32Z",
   "id": "119-S-1003",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T17:24:01Z"

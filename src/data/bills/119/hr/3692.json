@@ -698,9 +698,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To reauthorize the Young Fishermen’s Development Act.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Captain Accursio “Gus” Sanfilippo Young Fishermen’s Development Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-05T03:23:23Z"
       },
       {
@@ -708,9 +708,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Captain Accursio “Gus” Sanfilippo Young Fishermen’s Development Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To reauthorize the Young Fishermen’s Development Act.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-05T03:23:23Z"
       },
       {
@@ -724,8 +724,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-14T18:41:17Z",
-  "updateDateIncludingText": "2026-03-14T18:41:17Z",
+  "updateDate": "2026-06-11T23:26:43Z",
+  "updateDateIncludingText": "2026-06-11T23:26:43Z",
   "id": "119-HR-3692",
   "lastActionDate": "2026-03-04",
   "lastRecordedVoteDate": "2026-03-03"

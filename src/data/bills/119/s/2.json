@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 31,
+    "count": 35,
     "url": "https://api.congress.gov/v3/bill/119/s/2/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-06-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-98.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-06-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-98.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-06-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-06-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-06-09",
@@ -523,7 +563,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by recorded vote: 214 - 212 (Roll no. 214).",
+        "text": "On passage Passed by recorded vote: 214 - 212 (Roll no. 214). (text: CR H4017-4018)",
         "type": "Floor"
       },
       {
@@ -1051,7 +1091,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Boyle (PA) moved to commit to the Committee on the Budget.",
+        "text": "Mr. Boyle (PA) moved to commit to the Committee on the Budget. (text: CR H4027)",
         "type": "Floor"
       },
       {
@@ -1095,7 +1135,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1345.",
+        "text": "Considered under the provisions of rule H. Res. 1345. (consideration: CR H4017-4029)",
         "type": "Floor"
       },
       {
@@ -2454,9 +2494,15 @@
   "congress": 119,
   "introducedDate": "2026-05-20",
   "latestAction": {
-    "actionDate": "2026-06-09",
-    "text": "Presented to President."
+    "actionDate": "2026-06-10",
+    "text": "Became Public Law No: 119-98."
   },
+  "laws": [
+    {
+      "number": "119-98",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2",
   "number": "2",
   "originChamber": "Senate",
@@ -2513,9 +2559,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-11T08:06:34Z",
-  "updateDateIncludingText": "2026-06-11T08:06:34Z",
+  "updateDate": "2026-06-12T08:05:22Z",
+  "updateDateIncludingText": "2026-06-12T08:05:22Z",
   "id": "119-S-2",
-  "lastActionDate": "2026-06-09",
+  "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2026-06-09T21:24:17Z"
 }

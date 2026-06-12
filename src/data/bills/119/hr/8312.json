@@ -504,7 +504,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 240 - 181 (Roll no. 218).",
+        "text": "On passage Passed by the Yeas and Nays: 240 - 181 (Roll no. 218). (text of amendment in the nature of a substitute: CR H4065-4069)",
         "type": "Floor"
       },
       {
@@ -515,7 +515,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4077-4078)",
         "type": "Floor"
       },
       {
@@ -570,7 +570,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1345.",
+        "text": "Considered under the provisions of rule H. Res. 1345. (consideration: CR H4065-4071)",
         "type": "Floor"
       },
       {
@@ -686,6 +686,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Fraud Prevention and Accountability Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-12T05:08:28Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To establish fraud prevention and program integrity functions and data sharing authorities within the Department of Treasury and a permanent governmentwide Inspector General for Fraud, Accountability, and Recovery, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-12T05:08:28Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -720,8 +740,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T08:09:22Z",
-  "updateDateIncludingText": "2026-06-11T08:09:22Z",
+  "updateDate": "2026-06-12T08:05:27Z",
+  "updateDateIncludingText": "2026-06-12T09:48:29Z",
   "id": "119-HR-8312",
   "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2026-06-10T20:17:26Z"

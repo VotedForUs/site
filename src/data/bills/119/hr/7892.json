@@ -515,7 +515,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4076-4077)",
         "type": "Floor"
       },
       {
@@ -570,7 +570,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1333.",
+        "text": "Considered under the provisions of rule H. Res. 1333. (consideration: CR H4037-4044; text of amendment in the nature of a substitute: CR H4037-4038)",
         "type": "Floor"
       },
       {
@@ -686,6 +686,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "No Aid for Ghost Students Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-12T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Higher Education Act of 1965 to require to the Secretary of Education to use an identity fraud detection system to review each FAFSA to determine whether the FAFSA presents a reasonable suspicion of identity fraud.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-12T05:23:26Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -720,8 +740,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T08:07:09Z",
-  "updateDateIncludingText": "2026-06-11T08:07:09Z",
+  "updateDate": "2026-06-12T05:23:26Z",
+  "updateDateIncludingText": "2026-06-12T09:48:29Z",
   "id": "119-HR-7892",
   "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2026-06-10T20:10:15Z"
