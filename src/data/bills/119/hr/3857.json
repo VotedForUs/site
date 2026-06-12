@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/3857/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-10",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-03-17",
         "committees": [
@@ -718,8 +733,8 @@
   "congress": 119,
   "introducedDate": "2025-06-10",
   "latestAction": {
-    "actionDate": "2026-03-17",
-    "text": "Committee on Energy and Natural Resources Subcommittee on Water and Power. Hearings held."
+    "actionDate": "2026-06-10",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3857",
   "number": "3857",
@@ -747,9 +762,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Snow Water Supply Forecasting Program Authorization Act.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Snow Water Supply Forecasting Reauthorization Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-12T08:23:20Z"
       },
       {
@@ -757,9 +772,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Snow Water Supply Forecasting Reauthorization Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend the Snow Water Supply Forecasting Program Authorization Act.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-12T08:23:20Z"
       },
       {
@@ -797,9 +812,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-18T10:56:31Z",
-  "updateDateIncludingText": "2026-03-18T10:56:31Z",
+  "updateDate": "2026-06-11T12:29:42Z",
+  "updateDateIncludingText": "2026-06-11T12:29:42Z",
   "id": "119-HR-3857",
-  "lastActionDate": "2026-03-17",
+  "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2025-12-10"
 }

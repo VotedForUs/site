@@ -703,6 +703,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "Innovate Less Lethal to De-Escalate Tax Modernization Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-02-25T03:53:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Law-Enforcement Innovate to De-Escalate Act",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
@@ -716,16 +726,6 @@
         "title": "To modernize Federal firearms laws to account for advancements in technology and less-than-lethal weapons, and for other purposes.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-02-25T03:53:21Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Innovate Less Lethal to De-Escalate Tax Modernization Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
         "updateDate": "2026-02-25T03:53:21Z"
       },
       {
@@ -763,8 +763,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-02T13:01:44Z",
-  "updateDateIncludingText": "2026-04-02T13:01:44Z",
+  "updateDate": "2026-06-11T23:26:35Z",
+  "updateDateIncludingText": "2026-06-11T23:26:35Z",
   "id": "119-HR-2189",
   "lastActionDate": "2026-02-24",
   "lastRecordedVoteDate": "2026-02-12T15:46:36Z"

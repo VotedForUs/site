@@ -720,9 +720,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Defending American Property Abroad Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-28T04:38:22Z"
       },
       {
@@ -730,9 +730,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Defending American Property Abroad Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend title 46, United States Code, with respect to the types of vessels that may enter or operate in navigable waters of the United States or transfer cargo in any port or place under the jurisdiction of the United States, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-28T04:38:22Z"
       },
       {
@@ -770,8 +770,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-03T10:56:21Z",
-  "updateDateIncludingText": "2026-04-03T10:56:21Z",
+  "updateDate": "2026-06-11T23:41:28Z",
+  "updateDateIncludingText": "2026-06-11T23:41:28Z",
   "id": "119-HR-7084",
   "lastActionDate": "2026-04-02",
   "lastRecordedVoteDate": "2026-03-27T14:28:03Z"

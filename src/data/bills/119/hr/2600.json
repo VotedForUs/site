@@ -661,7 +661,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
+        "title": "ASCEND Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-02-26T07:38:15Z"
@@ -671,7 +671,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "ASCEND Act",
+        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-02-26T07:38:15Z"
@@ -691,7 +691,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
+        "title": "ASCEND Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-02-21T04:53:23Z"
@@ -701,7 +701,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "ASCEND Act",
+        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-02-21T04:53:23Z"
@@ -739,8 +739,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-03T20:24:26Z",
-  "updateDateIncludingText": "2026-04-03T20:24:26Z",
+  "updateDate": "2026-06-11T23:26:36Z",
+  "updateDateIncludingText": "2026-06-11T23:26:36Z",
   "id": "119-HR-2600",
   "lastActionDate": "2026-02-24",
   "lastRecordedVoteDate": "2026-02-23"

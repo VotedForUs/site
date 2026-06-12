@@ -6792,7 +6792,7 @@
       {
         "billTextVersionCode": "EAS",
         "billTextVersionName": "Engrossed Amendment Senate",
-        "title": "Continuing Appropriations Act, 2026",
+        "title": "Legislative Branch Appropriations Act, 2026",
         "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
         "titleTypeCode": 254,
         "updateDate": "2025-11-14T13:28:15Z"
@@ -6800,7 +6800,7 @@
       {
         "billTextVersionCode": "EAS",
         "billTextVersionName": "Engrossed Amendment Senate",
-        "title": "Legislative Branch Appropriations Act, 2026",
+        "title": "Continuing Appropriations Act, 2026",
         "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
         "titleTypeCode": 254,
         "updateDate": "2025-11-14T13:28:15Z"
@@ -6818,7 +6818,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Continuing Appropriations Act, 2026",
+        "title": "Legislative Branch Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
         "updateDate": "2025-11-14T13:23:17Z"
@@ -6828,7 +6828,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Legislative Branch Appropriations Act, 2026",
+        "title": "Continuing Appropriations Act, 2026",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
         "updateDate": "2025-11-14T13:23:17Z"
@@ -6842,16 +6842,6 @@
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
         "updateDate": "2025-11-14T13:23:17Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
-        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2026",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2025-11-13T09:53:14Z"
       },
       {
         "billTextVersionCode": "ENR",
@@ -6874,6 +6864,16 @@
         "updateDate": "2025-11-13T09:53:14Z"
       },
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2025-11-13T09:53:14Z"
+      },
+      {
         "title": "Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -6882,7 +6882,7 @@
       {
         "billTextVersionCode": "EAS",
         "billTextVersionName": "Engrossed Amendment Senate",
-        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2026",
+        "title": "Over-the-Counter Monograph Drug User Fee Amendments",
         "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
         "titleTypeCode": 254,
         "updateDate": "2025-11-11T07:08:15Z"
@@ -6898,7 +6898,7 @@
       {
         "billTextVersionCode": "EAS",
         "billTextVersionName": "Engrossed Amendment Senate",
-        "title": "Over-the-Counter Monograph Drug User Fee Amendments",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2026",
         "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
         "titleTypeCode": 254,
         "updateDate": "2025-11-11T07:08:15Z"
@@ -6976,8 +6976,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-12T15:09:49Z",
-  "updateDateIncludingText": "2026-03-12T15:09:49Z",
+  "updateDate": "2026-06-11T23:26:36Z",
+  "updateDateIncludingText": "2026-06-11T23:26:36Z",
   "id": "119-HR-5371",
   "lastActionDate": "2025-11-12",
   "lastRecordedVoteDate": "2025-11-13T01:21:56Z"

@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/3937/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-10",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-02-12",
         "committees": [
@@ -681,8 +696,8 @@
   "congress": 119,
   "introducedDate": "2025-06-11",
   "latestAction": {
-    "actionDate": "2026-02-12",
-    "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held."
+    "actionDate": "2026-06-10",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3937",
   "number": "3937",
@@ -740,9 +755,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-13T11:56:38Z",
-  "updateDateIncludingText": "2026-02-13T11:56:38Z",
+  "updateDate": "2026-06-11T12:29:42Z",
+  "updateDateIncludingText": "2026-06-11T12:29:42Z",
   "id": "119-HR-3937",
-  "lastActionDate": "2026-02-12",
+  "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2025-07-22T20:48:49Z"
 }

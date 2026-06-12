@@ -693,9 +693,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To confirm the use of certain non-Federal land in Salt Lake City, Utah, for public purposes, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "University of Utah Research Park Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-17T04:23:22Z"
       },
       {
@@ -703,9 +703,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "University of Utah Research Park Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To confirm the use of certain non-Federal land in Salt Lake City, Utah, for public purposes, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-17T04:23:22Z"
       },
       {
@@ -743,8 +743,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-24T22:26:18Z",
-  "updateDateIncludingText": "2026-02-24T22:26:18Z",
+  "updateDate": "2026-06-11T23:26:37Z",
+  "updateDateIncludingText": "2026-06-11T23:26:37Z",
   "id": "119-HR-2876",
   "lastActionDate": "2025-12-16",
   "lastRecordedVoteDate": "2025-12-15"

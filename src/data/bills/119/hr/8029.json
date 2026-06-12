@@ -1181,9 +1181,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Pay Our Homeland Defenders Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-28T04:38:22Z"
       },
       {
@@ -1191,9 +1191,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Pay Our Homeland Defenders Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "Making appropriations for the Department of Homeland Security for the fiscal year ending September 30, 2026, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-28T04:38:22Z"
       },
       {
@@ -1221,8 +1221,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-04T21:32:18Z",
-  "updateDateIncludingText": "2026-05-04T21:32:18Z",
+  "updateDate": "2026-06-11T23:26:44Z",
+  "updateDateIncludingText": "2026-06-11T23:26:44Z",
   "id": "119-HR-8029",
   "lastActionDate": "2026-04-02",
   "lastRecordedVoteDate": "2026-03-26T19:28:44Z"
