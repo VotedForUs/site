@@ -798,6 +798,10 @@
   "number": "3377",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/3377/summaries?format=json"
+  },
   "title": "To authorize the President to award the Medal of Honor to James Capers, Jr., for acts of valor as a member of the Marine Corps during the Vietnam War.",
   "titles": {
     "titles": [
@@ -828,8 +832,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:44Z",
-  "updateDateIncludingText": "2026-06-11T23:26:44Z",
+  "updateDate": "2026-06-12T16:26:10Z",
+  "updateDateIncludingText": "2026-06-12T16:26:10Z",
   "id": "119-HR-3377",
   "lastActionDate": "2026-03-26",
   "lastRecordedVoteDate": "2026-03-03"

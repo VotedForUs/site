@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 15,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/hr/6028/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-09",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-08",
@@ -635,16 +643,15 @@
   "congress": 119,
   "introducedDate": "2025-11-12",
   "latestAction": {
-    "actionDate": "2026-06-08",
-    "actionTime": "15:48:09",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-09",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6028",
   "number": "6028",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/6028/summaries?format=json"
   },
   "title": "Legislative Branch Agencies Clarification Act",
@@ -695,9 +702,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-10T08:06:11Z",
-  "updateDateIncludingText": "2026-06-10T09:33:32Z",
+  "updateDate": "2026-06-12T20:14:20Z",
+  "updateDateIncludingText": "2026-06-12T20:14:20Z",
   "id": "119-HR-6028",
-  "lastActionDate": "2026-06-08",
+  "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-08"
 }
