@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-13",
+  "runId": "27462084901",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HR-1",
+      "119-HR-2189",
+      "119-HR-3377",
+      "119-HR-6028",
+      "119-HR-7567",
+      "119-HRES-1042",
+      "119-S-1318",
+      "119-SJRES-80"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
