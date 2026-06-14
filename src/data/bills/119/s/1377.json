@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 8,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/1377/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-11",
         "sourceSystem": {
@@ -221,8 +229,8 @@
   "congress": 119,
   "introducedDate": "2025-04-09",
   "latestAction": {
-    "actionDate": "2026-06-11",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2747-2748; text: CR S2748)"
+    "actionDate": "2026-06-12",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1377",
   "number": "1377",
@@ -239,7 +247,7 @@
         "title": "Theodore Roosevelt National Park Wild Horses Protection Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-12T13:08:28Z"
+        "updateDate": "2026-06-13T11:03:28Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -270,9 +278,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-12T15:35:15Z",
-  "updateDateIncludingText": "2026-06-12T15:35:15Z",
+  "updateDate": "2026-06-13T11:03:28Z",
+  "updateDateIncludingText": "2026-06-13T11:03:28Z",
   "id": "119-S-1377",
-  "lastActionDate": "2026-06-11",
+  "lastActionDate": "2026-06-12",
   "lastRecordedVoteDate": "2026-06-11"
 }

@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 8,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/825/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-10",
         "sourceSystem": {
@@ -214,8 +222,8 @@
   "congress": 119,
   "introducedDate": "2025-03-04",
   "latestAction": {
-    "actionDate": "2026-06-10",
-    "text": "Passed Senate with amendments by Voice Vote. (consideration: CR S2723, S2726-2727; text: CR S2726-2727)"
+    "actionDate": "2026-06-12",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/825",
   "number": "825",
@@ -228,7 +236,7 @@
         "title": "Fighting Post-Traumatic Stress Disorder Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-11T12:33:38Z"
+        "updateDate": "2026-06-13T11:03:28Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -269,9 +277,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-11T14:26:41Z",
-  "updateDateIncludingText": "2026-06-11T14:26:41Z",
+  "updateDate": "2026-06-13T11:03:28Z",
+  "updateDateIncludingText": "2026-06-13T11:03:28Z",
   "id": "119-S-825",
-  "lastActionDate": "2026-06-10",
+  "lastActionDate": "2026-06-12",
   "lastRecordedVoteDate": "2026-06-10"
 }
