@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 8,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/1890/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-10",
         "sourceSystem": {
@@ -214,8 +222,8 @@
   "congress": 119,
   "introducedDate": "2025-05-22",
   "latestAction": {
-    "actionDate": "2026-06-10",
-    "text": "Passed Senate with an amendment by Voice Vote. (consideration: CR S2724-2727; text of amendment in the nature of a substitute: CR S2724-2726)"
+    "actionDate": "2026-06-12",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1890",
   "number": "1890",
@@ -228,7 +236,7 @@
         "title": "Carla Walker Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-11T12:33:39Z"
+        "updateDate": "2026-06-13T11:03:28Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -269,9 +277,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-11T14:31:56Z",
-  "updateDateIncludingText": "2026-06-11T14:31:56Z",
+  "updateDate": "2026-06-13T11:03:28Z",
+  "updateDateIncludingText": "2026-06-13T11:03:28Z",
   "id": "119-S-1890",
-  "lastActionDate": "2026-06-10",
+  "lastActionDate": "2026-06-12",
   "lastRecordedVoteDate": "2026-06-10"
 }
