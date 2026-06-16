@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 22,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/8646/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-08",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-04",
@@ -1212,16 +1220,15 @@
   "congress": 119,
   "introducedDate": "2026-05-01",
   "latestAction": {
-    "actionDate": "2026-06-04",
-    "actionTime": "18:09:41",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-08",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8646",
   "number": "8646",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
+    "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/hr/8646/summaries?format=json"
   },
   "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
@@ -1282,9 +1289,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T05:38:26Z",
-  "updateDateIncludingText": "2026-06-09T09:18:36Z",
+  "updateDate": "2026-06-15T14:30:23Z",
+  "updateDateIncludingText": "2026-06-15T14:30:23Z",
   "id": "119-HR-8646",
-  "lastActionDate": "2026-06-04",
+  "lastActionDate": "2026-06-08",
   "lastRecordedVoteDate": "2026-06-04T22:09:40Z"
 }

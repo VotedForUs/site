@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 211 (Roll no. 211).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 213 - 211 (Roll no. 211). (text: CR H4004-4005)",
         "type": "Floor"
       },
       {
@@ -1006,7 +1006,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4012-4013)",
         "type": "Floor"
       },
       {
@@ -1039,7 +1039,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H4004-4011)",
         "type": "Floor"
       },
       {
@@ -1096,6 +1096,10 @@
   "number": "1345",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1345/summaries?format=json"
+  },
   "title": "Providing for consideration of the bill (H.R. 8312) to establish fraud prevention and program integrity functions and data sharing authorities within the Department of Treasury and a permanent governmentwide Inspector General for Fraud, Accountability, and Recovery, and for other purposes; providing for consideration of the bill (H.R. 8464) to amend title 31, United States Code, to authorize pausing and segmenting payments, and for other purposes; providing for consideration of the resolution (H. Res. 1335) condemning actors seeking to defraud the United States Government, and expressing the sense of the House of Representatives that governmentwide fraud and improper payment prevention reforms will meaningfully improve the financial prosperity of the United States, and that Federal program eligibility should be verified before payment; and providing for consideration of the bill (S. 2) to provide for reconciliation pursuant to title II of S. Con. Res. 33.",
   "titles": {
     "titles": [
@@ -1124,8 +1128,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-11T03:08:23Z",
-  "updateDateIncludingText": "2026-06-11T10:33:27Z",
+  "updateDate": "2026-06-16T14:11:04Z",
+  "updateDateIncludingText": "2026-06-16T14:11:04Z",
   "id": "119-HRES-1345",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-09T18:41:51Z"

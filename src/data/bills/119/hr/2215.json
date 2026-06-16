@@ -850,7 +850,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/2215/summaries?format=json"
   },
   "title": "Salem Maritime National Historical Park Redesignation and Boundary Study Act",
@@ -911,8 +911,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:06:03Z",
-  "updateDateIncludingText": "2026-03-31T20:06:03Z",
+  "updateDate": "2026-06-15T15:26:05Z",
+  "updateDateIncludingText": "2026-06-15T15:26:05Z",
   "id": "119-HR-2215",
   "lastActionDate": "2025-07-15",
   "lastRecordedVoteDate": "2025-06-18"

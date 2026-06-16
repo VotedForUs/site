@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/8464/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-11",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-10",
@@ -1199,9 +1207,8 @@
   "congress": 119,
   "introducedDate": "2026-04-23",
   "latestAction": {
-    "actionDate": "2026-06-10",
-    "actionTime": "16:33:10",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-11",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8464",
   "number": "8464",
@@ -1269,9 +1276,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-12T08:05:31Z",
-  "updateDateIncludingText": "2026-06-12T09:03:32Z",
+  "updateDate": "2026-06-15T18:06:14Z",
+  "updateDateIncludingText": "2026-06-15T18:06:14Z",
   "id": "119-HR-8464",
-  "lastActionDate": "2026-06-10",
+  "lastActionDate": "2026-06-11",
   "lastRecordedVoteDate": "2026-06-10T20:33:08Z"
 }
