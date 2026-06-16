@@ -503,7 +503,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 221 - 201 (Roll no. 215).",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 221 - 201 (Roll no. 215). (text: CR H4014)",
         "type": "Floor"
       },
       {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4029)",
         "type": "Floor"
       },
       {
@@ -558,7 +558,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered from the Discharge Calendar.",
+        "text": "Considered from the Discharge Calendar. (consideration: CR H4013-4017)",
         "type": "Floor"
       },
       {
@@ -1202,8 +1202,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-11T03:08:23Z",
-  "updateDateIncludingText": "2026-06-11T10:03:29Z",
+  "updateDate": "2026-06-16T14:14:53Z",
+  "updateDateIncludingText": "2026-06-16T14:14:53Z",
   "id": "119-HRES-1140",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-09T21:31:09Z"
