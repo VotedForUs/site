@@ -229,7 +229,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Measure laid before Senate by motion.",
+        "text": "Measure laid before Senate by motion. (consideration: CR S7052, S7061)",
         "type": "Floor"
       },
       {
@@ -382,7 +382,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 50 - 47. Record Vote Number: 559.",
+        "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 50 - 47. Record Vote Number: 559. (CR S7052)",
         "type": "Floor"
       },
       {
@@ -1044,8 +1044,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-09T21:24:58Z",
-  "updateDateIncludingText": "2026-06-09T21:24:58Z",
+  "updateDate": "2026-06-16T16:22:09Z",
+  "updateDateIncludingText": "2026-06-16T16:22:09Z",
   "id": "119-HJRES-106",
   "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-10-09T21:41:14Z"

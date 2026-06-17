@@ -3521,7 +3521,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Fourth cloture motion on the motion to proceed to the measure presented in Senate.",
+        "text": "Fourth cloture motion on the motion to proceed to the measure presented in Senate. (CR S7087)",
         "type": "Floor"
       },
       {
@@ -3529,7 +3529,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S7087)",
         "type": "Floor"
       },
       {
@@ -3690,7 +3690,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Third cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 54 - 45. Record Vote Number: 558.",
+        "text": "Third cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 54 - 45. Record Vote Number: 558. (CR S7051-7052)",
         "type": "Floor"
       },
       {
@@ -6976,8 +6976,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:36Z",
-  "updateDateIncludingText": "2026-06-11T23:26:36Z",
+  "updateDate": "2026-06-16T17:45:23Z",
+  "updateDateIncludingText": "2026-06-16T17:45:23Z",
   "id": "119-HR-5371",
   "lastActionDate": "2025-11-12",
   "lastRecordedVoteDate": "2025-11-13T01:21:56Z"

@@ -206,7 +206,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S7062-7087)",
         "type": "Floor"
       },
       {
@@ -968,8 +968,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-03T19:36:51Z",
-  "updateDateIncludingText": "2026-06-03T19:36:51Z",
+  "updateDate": "2026-06-17T11:08:33Z",
+  "updateDateIncludingText": "2026-06-17T11:08:33Z",
   "id": "119-S-2296",
   "lastActionDate": "2025-11-12",
   "lastRecordedVoteDate": "2025-10-10T02:06:07Z"

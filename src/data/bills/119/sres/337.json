@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Resolution agreed to in Senate without amendment and with a preamble by Voice Vote.",
+        "text": "Resolution agreed to in Senate without amendment and with a preamble by Voice Vote. (consideration: CR S7101)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -183,7 +183,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Referred to the Committee on Homeland Security and Governmental Affairs.",
+        "text": "Referred to the Committee on Homeland Security and Governmental Affairs. (text: CR S4704)",
         "type": "IntroReferral"
       }
     ]
@@ -192,7 +192,7 @@
   "introducedDate": "2025-07-24",
   "latestAction": {
     "actionDate": "2025-10-09",
-    "text": "Resolution agreed to in Senate without amendment and with a preamble by Voice Vote."
+    "text": "Resolution agreed to in Senate without amendment and with a preamble by Voice Vote. (consideration: CR S7101)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-resolution/337",
   "number": "337",
@@ -218,8 +218,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2025-11-14T16:19:27Z",
-  "updateDateIncludingText": "2025-11-14T16:19:27Z",
+  "updateDate": "2026-06-16T16:33:56Z",
+  "updateDateIncludingText": "2026-06-16T16:33:56Z",
   "id": "119-SRES-337",
   "lastActionDate": "2025-10-09",
   "lastRecordedVoteDate": "2025-10-09"

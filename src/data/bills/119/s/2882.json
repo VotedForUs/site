@@ -161,7 +161,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Third cloture motion on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 557.",
+        "text": "Third cloture motion on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 557. (CR S7051)",
         "type": "Floor"
       },
       {
@@ -2063,8 +2063,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-01-10T06:32:27Z",
-  "updateDateIncludingText": "2026-01-10T06:32:27Z",
+  "updateDate": "2026-06-16T16:14:35Z",
+  "updateDateIncludingText": "2026-06-16T16:14:35Z",
   "id": "119-S-2882",
   "lastActionDate": "2025-10-09",
   "lastRecordedVoteDate": "2025-10-09T16:24:36Z"

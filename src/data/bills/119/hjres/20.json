@@ -229,7 +229,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S2533, S2537-2538)",
         "type": "Floor"
       },
       {
@@ -1021,8 +1021,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-05T14:54:02Z",
-  "updateDateIncludingText": "2026-06-05T14:54:02Z",
+  "updateDate": "2026-06-16T14:24:28Z",
+  "updateDateIncludingText": "2026-06-16T14:24:28Z",
   "id": "119-HJRES-20",
   "lastActionDate": "2025-05-09",
   "lastRecordedVoteDate": "2025-04-10T16:01:30Z"
