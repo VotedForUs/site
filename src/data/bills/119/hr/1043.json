@@ -909,7 +909,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1043/summaries?format=json"
   },
   "title": "La Paz County Solar Energy and Job Creation Act",
@@ -980,8 +980,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:37Z",
-  "updateDateIncludingText": "2026-06-11T23:26:37Z",
+  "updateDate": "2026-06-16T12:34:11Z",
+  "updateDateIncludingText": "2026-06-16T12:34:11Z",
   "id": "119-HR-1043",
   "lastActionDate": "2026-02-11",
   "lastRecordedVoteDate": "2025-12-16"

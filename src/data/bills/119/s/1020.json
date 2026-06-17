@@ -853,7 +853,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/1020/summaries?format=json"
   },
   "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
@@ -876,8 +876,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-11T23:26:34Z",
-  "updateDateIncludingText": "2026-06-11T23:26:34Z",
+  "updateDate": "2026-06-16T12:16:14Z",
+  "updateDateIncludingText": "2026-06-16T12:16:14Z",
   "id": "119-S-1020",
   "lastActionDate": "2026-05-11",
   "lastRecordedVoteDate": "2026-04-21T19:54:39Z"

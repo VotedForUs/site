@@ -1,8 +1,30 @@
 {
   "actions": {
-    "count": 9,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/1377/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-06-15",
+        "actionTime": "10:49:32",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-06-15",
+        "actionTime": "10:32:49",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-12",
         "sourceSystem": {
@@ -229,8 +251,9 @@
   "congress": 119,
   "introducedDate": "2025-04-09",
   "latestAction": {
-    "actionDate": "2026-06-12",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-06-15",
+    "actionTime": "10:49:32",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1377",
   "number": "1377",
@@ -278,9 +301,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-13T11:03:28Z",
-  "updateDateIncludingText": "2026-06-13T11:03:28Z",
+  "updateDate": "2026-06-16T14:55:11Z",
+  "updateDateIncludingText": "2026-06-16T14:55:11Z",
   "id": "119-S-1377",
-  "lastActionDate": "2026-06-12",
+  "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-11"
 }

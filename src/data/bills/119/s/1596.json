@@ -854,7 +854,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/1596/summaries?format=json"
   },
   "title": "Jocelyn Nungaray National Wildlife Refuge Act",
@@ -905,8 +905,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-09-19T20:56:16Z",
-  "updateDateIncludingText": "2025-09-19T20:56:16Z",
+  "updateDate": "2026-06-15T19:09:27Z",
+  "updateDateIncludingText": "2026-06-15T19:09:27Z",
   "id": "119-S-1596",
   "lastActionDate": "2025-07-24",
   "lastRecordedVoteDate": "2025-07-14T23:10:44Z"

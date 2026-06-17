@@ -624,7 +624,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S7101; text: CR S7101)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -844,8 +844,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-12-19T21:36:38Z",
-  "updateDateIncludingText": "2025-12-19T21:36:38Z",
+  "updateDate": "2026-06-16T16:36:37Z",
+  "updateDateIncludingText": "2026-06-16T16:36:37Z",
   "id": "119-S-2283",
   "lastActionDate": "2025-12-18",
   "lastRecordedVoteDate": "2025-12-09"

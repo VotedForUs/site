@@ -161,7 +161,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Measure laid before Senate by unanimous consent.",
+        "text": "Measure laid before Senate by unanimous consent. (consideration: CR S7016-7030; text: CR S7016)",
         "type": "Floor"
       },
       {
@@ -206,6 +206,10 @@
   "number": "71",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/71/summaries?format=json"
+  },
   "title": "A joint resolution terminating the national emergency declared with respect to energy.",
   "titles": {
     "titles": [
@@ -226,8 +230,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2025-12-05T22:58:46Z",
-  "updateDateIncludingText": "2025-12-05T22:58:46Z",
+  "updateDate": "2026-06-16T18:06:43Z",
+  "updateDateIncludingText": "2026-06-16T18:06:43Z",
   "id": "119-SJRES-71",
   "lastActionDate": "2025-10-08",
   "lastRecordedVoteDate": "2025-10-08T23:47:31Z"
