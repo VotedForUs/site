@@ -1,8 +1,199 @@
 {
   "actions": {
-    "count": 46,
+    "count": 51,
     "url": "https://api.congress.gov/v3/bill/119/hr/6644/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-16",
+        "committees": [
+          {
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion by Senator Thune to refer to Senate Committee on Banking, Housing, and Urban Affairs the House message to accompany H.R. 6644 with instructions to report back forthwith with the following amendment (SA5825) made in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Cloture motion on the motion to concur in the House amendment to the Senate amendment to H.R. 6644 with an amendment (SA 5823) presented in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion by Senator Thune to concur in the House amendment to the Senate amendment to H.R. 6644 with an amendment (SA 5823) made in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Measure laid before Senate by motion. (consideration: CR S2813-2316)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-16",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-06-16T22:02:49Z",
+            "rollNumber": 175,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00175.xml",
+            "votes": {
+              "A000382": "Yea",
+              "B001230": "Yea",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Not Voting",
+              "B001243": "Yea",
+              "B001277": "Yea",
+              "B001303": "Yea",
+              "B001288": "Not Voting",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Yea",
+              "C001047": "Yea",
+              "C001075": "Yea",
+              "C001035": "Yea",
+              "C001088": "Yea",
+              "C001056": "Yea",
+              "C001113": "Yea",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Nay",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Yea",
+              "D000563": "Yea",
+              "E000295": "Yea",
+              "F000479": "Yea",
+              "F000463": "Yea",
+              "G000574": "Yea",
+              "G000555": "Yea",
+              "G000359": "Yea",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Yea",
+              "H001089": "Not Voting",
+              "H001046": "Yea",
+              "H000273": "Yea",
+              "H001042": "Yea",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Nay",
+              "J000312": "Yea",
+              "K000384": "Yea",
+              "K000377": "Yea",
+              "K000393": "Yea",
+              "K000394": "Yea",
+              "K000383": "Yea",
+              "K000367": "Yea",
+              "L000575": "Yea",
+              "L000577": "Nay",
+              "L000570": "Yea",
+              "L000571": "Yea",
+              "M000133": "Yea",
+              "M001198": "Yea",
+              "M000355": "Not Voting",
+              "M001243": "Yea",
+              "M001176": "Yea",
+              "M001244": "Yea",
+              "M000934": "Yea",
+              "M001242": "Yea",
+              "M001153": "Yea",
+              "M001169": "Yea",
+              "M001111": "Yea",
+              "O000174": "Yea",
+              "P000145": "Yea",
+              "P000603": "Nay",
+              "P000595": "Yea",
+              "R000122": "Yea",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Yea",
+              "R000605": "Yea",
+              "S000033": "Not Voting",
+              "S001194": "Yea",
+              "S001150": "Yea",
+              "S001227": "Yea",
+              "S000148": "Yea",
+              "S001217": "Nay",
+              "S001184": "Yea",
+              "S001181": "Yea",
+              "S001232": "Yea",
+              "S001208": "Yea",
+              "S001203": "Yea",
+              "S001198": "Yea",
+              "T000250": "Yea",
+              "T000476": "Yea",
+              "T000278": "Nay",
+              "V000128": "Yea",
+              "W000805": "Yea",
+              "W000790": "Yea",
+              "W000817": "Yea",
+              "W000800": "Yea",
+              "W000802": "Yea",
+              "W000437": "Yea",
+              "W000779": "Yea",
+              "Y000064": "Nay"
+            },
+            "result": "passed",
+            "senateCount": {
+              "yeas": 87,
+              "nays": 8,
+              "present": "",
+              "absent": 5
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 43,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 2
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 43,
+                "nayTotal": 8,
+                "presentTotal": 0,
+                "notVotingTotal": 2
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 1,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 1
+              }
+            ],
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00175.xml",
+            "question": "On the Motion to Proceed H.R. 6644",
+            "id": "119-HR-6644-6"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of the House message to accompany H.R. 6644 agreed to in Senate by Yea-Nay Vote. 87 - 8. Record Vote Number: 175.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-02",
         "sourceSystem": {
@@ -1492,8 +1683,8 @@
   "congress": 119,
   "introducedDate": "2025-12-11",
   "latestAction": {
-    "actionDate": "2026-06-02",
-    "text": "Message on House action received in Senate and at desk: House amendment to Senate amendment."
+    "actionDate": "2026-06-16",
+    "text": "Motion by Senator Thune to refer to Senate Committee on Banking, Housing, and Urban Affairs the House message to accompany H.R. 6644 with instructions to report back forthwith with the following amendment (SA5825) made in Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6644",
   "number": "6644",
@@ -1595,9 +1786,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:31Z",
-  "updateDateIncludingText": "2026-06-11T23:26:31Z",
+  "updateDate": "2026-06-17T20:57:50Z",
+  "updateDateIncludingText": "2026-06-17T20:57:50Z",
   "id": "119-HR-6644",
-  "lastActionDate": "2026-06-02",
-  "lastRecordedVoteDate": "2026-03-12T16:18:59Z"
+  "lastActionDate": "2026-06-16",
+  "lastRecordedVoteDate": "2026-06-16T22:02:49Z"
 }

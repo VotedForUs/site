@@ -661,7 +661,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "EARA",
+        "title": "Expedited Appeals Review Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-05-17T02:53:19Z"
@@ -671,7 +671,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Expedited Appeals Review Act",
+        "title": "EARA",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-05-17T02:53:19Z"
@@ -725,7 +725,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "EARA",
+        "title": "Expedited Appeals Review Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-22T08:08:18Z"
@@ -733,7 +733,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Expedited Appeals Review Act",
+        "title": "EARA",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-22T08:08:18Z"
@@ -749,8 +749,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-13T11:56:40Z",
-  "updateDateIncludingText": "2026-02-13T11:56:40Z",
+  "updateDate": "2026-06-17T14:23:39Z",
+  "updateDateIncludingText": "2026-06-17T14:23:39Z",
   "id": "119-HR-677",
   "lastActionDate": "2026-02-12",
   "lastRecordedVoteDate": "2025-05-13"
