@@ -909,7 +909,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/517/summaries?format=json"
   },
   "title": "Filing Relief for Natural Disasters Act",
@@ -980,8 +980,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T23:09:34Z",
-  "updateDateIncludingText": "2026-06-09T23:09:34Z",
+  "updateDate": "2026-06-17T13:05:34Z",
+  "updateDateIncludingText": "2026-06-17T13:05:34Z",
   "id": "119-HR-517",
   "lastActionDate": "2025-07-24",
   "lastRecordedVoteDate": "2025-07-10"

@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 9,
+    "count": 10,
     "url": "https://api.congress.gov/v3/bill/119/hr/5408/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-09",
@@ -503,7 +511,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 230 - 193 (Roll no. 216).",
+        "text": "On passage Passed by the Yeas and Nays: 230 - 193 (Roll no. 216). (text: CR H4029-4030)",
         "type": "Floor"
       },
       {
@@ -536,7 +544,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1140.",
+        "text": "Considered under the provisions of rule H. Res. 1140. (consideration: CR H4029-4037)",
         "type": "Floor"
       },
       {
@@ -561,9 +569,8 @@
   "congress": 119,
   "introducedDate": "2025-09-16",
   "latestAction": {
-    "actionDate": "2026-06-09",
-    "actionTime": "19:06:39",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-10",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5408",
   "number": "5408",
@@ -617,9 +624,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T03:08:22Z",
-  "updateDateIncludingText": "2026-06-11T09:33:25Z",
+  "updateDate": "2026-06-17T16:48:48Z",
+  "updateDateIncludingText": "2026-06-17T16:48:48Z",
   "id": "119-HR-5408",
-  "lastActionDate": "2026-06-09",
+  "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2026-06-09T23:06:36Z"
 }

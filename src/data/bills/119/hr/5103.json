@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 28,
+    "count": 29,
     "url": "https://api.congress.gov/v3/bill/119/hr/5103/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 437.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2026-03-26",
         "sourceSystem": {
@@ -1306,8 +1314,8 @@
   "congress": 119,
   "introducedDate": "2025-09-03",
   "latestAction": {
-    "actionDate": "2026-03-26",
-    "text": "Received in the Senate."
+    "actionDate": "2026-06-16",
+    "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 437."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5103",
   "number": "5103",
@@ -1385,9 +1393,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:26Z",
-  "updateDateIncludingText": "2026-06-11T05:06:26Z",
+  "updateDate": "2026-06-17T10:56:33Z",
+  "updateDateIncludingText": "2026-06-17T10:56:33Z",
   "id": "119-HR-5103",
-  "lastActionDate": "2026-03-26",
+  "lastActionDate": "2026-06-16",
   "lastRecordedVoteDate": "2026-03-25T19:30:02Z"
 }
