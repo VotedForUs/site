@@ -1,20 +1,42 @@
 {
   "actions": {
-    "count": 6,
-    "url": "https://api.congress.gov/v3/bill/119/sres/444/actions?format=json",
+    "count": 5,
+    "url": "https://api.congress.gov/v3/bill/119/s/4822/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-06-16",
+        "actionCode": "H15000",
+        "actionDate": "2026-06-18",
+        "actionTime": "10:12:37",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-06-18",
+        "actionTime": "10:02:09",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-17",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Resolution agreed to in Senate without amendment and with a preamble by Voice Vote. (consideration: CR S2813)",
+        "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Voice Vote. (consideration: CR S2885-2886; text: CR S2885-2886)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2026-06-16",
+            "date": "2026-06-17",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -150,77 +172,56 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/sres/444",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4822",
             "question": "Voice Vote",
-            "id": "119-SRES-444-1"
+            "id": "119-S-4822-1"
           }
         ]
-      },
-      {
-        "actionDate": "2026-06-16",
-        "committees": [
-          {
-            "name": "Foreign Relations Committee",
-            "systemCode": "ssfr00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Senate Committee on Foreign Relations discharged by Unanimous Consent.",
-        "type": "Discharge"
-      },
-      {
-        "actionDate": "2025-10-09",
-        "committees": [
-          {
-            "name": "Foreign Relations Committee",
-            "systemCode": "ssfr00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Referred to the Committee on Foreign Relations. (text: CR S7095-7096)",
-        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-10-09",
+  "introducedDate": "2026-06-17",
   "latestAction": {
-    "actionDate": "2026-06-16",
-    "text": "Resolution agreed to in Senate without amendment and with a preamble by Voice Vote. (consideration: CR S2813)"
+    "actionDate": "2026-06-18",
+    "actionTime": "10:12:37",
+    "text": "Held at the desk."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-resolution/444",
-  "number": "444",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4822",
+  "number": "4822",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "title": "A resolution condemning the dictator of the People's Republic of China, Xi Jinping, for deceit, undermining prospects for peace and security, and orchestrating crimes against humanity.",
+  "title": "Saving the OOI Act of 2026",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A resolution condemning the dictator of the People's Republic of China, Xi Jinping, for deceit, undermining prospects for peace and security, and orchestrating crimes against humanity.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-10-11T02:48:18Z"
-      },
-      {
-        "title": "A resolution condemning the dictator of the People's Republic of China, Xi Jinping, for deceit, undermining prospects for peace and security, and orchestrating crimes against humanity.",
+        "title": "Saving the OOI Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-10-10T10:56:16Z"
+        "updateDate": "2026-06-18T15:32:27Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Saving the OOI Act of 2026",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2026-06-18T15:32:26Z"
+      },
+      {
+        "title": "A bill to prohibit the National Science Foundation from using Federal funds to descope or decommission the Ocean Observatories Initiative instruments.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-06-18T15:22:10Z"
       }
     ]
   },
-  "type": "SRES",
-  "updateDate": "2026-06-17T15:45:38Z",
-  "updateDateIncludingText": "2026-06-18T15:34:54Z",
-  "id": "119-SRES-444",
-  "lastActionDate": "2026-06-16",
-  "lastRecordedVoteDate": "2026-06-16"
+  "type": "S",
+  "updateDate": "2026-06-19T08:06:57Z",
+  "updateDateIncludingText": "2026-06-19T08:06:57Z",
+  "id": "119-S-4822",
+  "lastActionDate": "2026-06-18",
+  "lastRecordedVoteDate": "2026-06-17"
 }
