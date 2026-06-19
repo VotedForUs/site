@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 59,
+    "count": 60,
     "url": "https://api.congress.gov/v3/bill/119/hr/1/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-17",
+        "committees": [
+          {
+            "name": "Small Business and Entrepreneurship Committee",
+            "systemCode": "sssb00",
+            "url": "https://api.congress.gov/v3/committee/senate/sssb00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Small Business and Entrepreneurship. Hearings held.",
+        "type": "Committee"
+      },
       {
         "actionCode": "E40000",
         "actionDate": "2025-07-04",
@@ -5618,8 +5633,8 @@
   "congress": 119,
   "introducedDate": "2025-05-20",
   "latestAction": {
-    "actionDate": "2025-07-04",
-    "text": "Became Public Law No: 119-21."
+    "actionDate": "2026-06-17",
+    "text": "Committee on Small Business and Entrepreneurship. Hearings held."
   },
   "laws": [
     {
@@ -5731,9 +5746,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-13T20:06:17Z",
-  "updateDateIncludingText": "2026-06-13T20:06:17Z",
+  "updateDate": "2026-06-18T15:22:27Z",
+  "updateDateIncludingText": "2026-06-18T15:22:27Z",
   "id": "119-HR-1",
-  "lastActionDate": "2025-07-04",
+  "lastActionDate": "2026-06-17",
   "lastRecordedVoteDate": "2025-07-03T18:31:38Z"
 }
