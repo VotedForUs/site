@@ -236,7 +236,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion by Senator Thune to commit to Senate Committee on Appropriations with instructions to report back forthwith with the following amendment (SA 4210) fell when cloture on the motion was invoked in Senate.",
+        "text": "Motion by Senator Thune to commit to Senate Committee on Appropriations with instructions to report back forthwith with the following amendment (SA 4210) fell when cloture on the measure was invoked in Senate.",
         "type": "Floor"
       },
       {
@@ -2669,8 +2669,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:19Z",
-  "updateDateIncludingText": "2026-06-11T05:06:19Z",
+  "updateDate": "2026-06-19T10:56:28Z",
+  "updateDateIncludingText": "2026-06-19T10:56:28Z",
   "id": "119-HR-6938",
   "lastActionDate": "2026-01-23",
   "lastRecordedVoteDate": "2026-01-15T21:15:52Z"
