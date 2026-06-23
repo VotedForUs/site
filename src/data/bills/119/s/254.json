@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 21,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/s/254/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-06-12",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-99.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-06-12",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-99.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-06-12",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-06-12",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-06-08",
@@ -677,15 +717,21 @@
   "congress": 119,
   "introducedDate": "2025-01-24",
   "latestAction": {
-    "actionDate": "2026-06-08",
-    "text": "Presented to President."
+    "actionDate": "2026-06-12",
+    "text": "Became Public Law No: 119-99."
   },
+  "laws": [
+    {
+      "number": "119-99",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/254",
   "number": "254",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/254/summaries?format=json"
   },
   "title": "ARTIST Act",
@@ -784,9 +830,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-11T23:26:37Z",
-  "updateDateIncludingText": "2026-06-11T23:26:37Z",
+  "updateDate": "2026-06-22T16:55:33Z",
+  "updateDateIncludingText": "2026-06-22T16:55:33Z",
   "id": "119-S-254",
-  "lastActionDate": "2026-06-08",
+  "lastActionDate": "2026-06-12",
   "lastRecordedVoteDate": "2026-06-03T18:17:39Z"
 }
