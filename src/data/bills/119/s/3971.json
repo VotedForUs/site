@@ -1,23 +1,8 @@
 {
   "actions": {
-    "count": 21,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/s/3971/actions?format=json",
     "actions": [
-      {
-        "actionDate": "2026-06-17",
-        "committees": [
-          {
-            "name": "Small Business and Entrepreneurship Committee",
-            "systemCode": "sssb00",
-            "url": "https://api.congress.gov/v3/committee/senate/sssb00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Committee on Small Business and Entrepreneurship. Hearings held.",
-        "type": "Committee"
-      },
       {
         "actionCode": "E40000",
         "actionDate": "2026-04-13",
@@ -825,8 +810,8 @@
   "congress": 119,
   "introducedDate": "2026-03-03",
   "latestAction": {
-    "actionDate": "2026-06-17",
-    "text": "Committee on Small Business and Entrepreneurship. Hearings held."
+    "actionDate": "2026-04-13",
+    "text": "Became Public Law No: 119-83."
   },
   "laws": [
     {
@@ -880,9 +865,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-18T15:25:25Z",
-  "updateDateIncludingText": "2026-06-18T15:25:25Z",
+  "updateDate": "2026-06-22T19:20:42Z",
+  "updateDateIncludingText": "2026-06-22T19:20:42Z",
   "id": "119-S-3971",
-  "lastActionDate": "2026-06-17",
+  "lastActionDate": "2026-04-13",
   "lastRecordedVoteDate": "2026-03-17T19:44:52Z"
 }

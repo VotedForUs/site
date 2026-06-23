@@ -1417,7 +1417,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/5/summaries?format=json"
   },
   "title": "Laken Riley Act",
@@ -1468,8 +1468,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-12T15:02:07Z",
-  "updateDateIncludingText": "2026-03-12T15:02:07Z",
+  "updateDate": "2026-06-22T13:54:38Z",
+  "updateDateIncludingText": "2026-06-22T13:54:38Z",
   "id": "119-S-5",
   "lastActionDate": "2025-01-29",
   "lastRecordedVoteDate": "2025-01-22T22:04:55Z"

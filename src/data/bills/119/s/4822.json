@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 5,
+    "count": 6,
     "url": "https://api.congress.gov/v3/bill/119/s/4822/actions?format=json",
     "actions": [
       {
@@ -23,6 +23,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -198,7 +206,7 @@
         "title": "Saving the OOI Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-18T15:32:27Z"
+        "updateDate": "2026-06-19T11:03:25Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -219,8 +227,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-19T08:06:57Z",
-  "updateDateIncludingText": "2026-06-19T08:06:57Z",
+  "updateDate": "2026-06-23T02:58:34Z",
+  "updateDateIncludingText": "2026-06-23T02:58:34Z",
   "id": "119-S-4822",
   "lastActionDate": "2026-06-18",
   "lastRecordedVoteDate": "2026-06-17"
