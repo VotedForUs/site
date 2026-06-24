@@ -910,7 +910,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1491/summaries?format=json"
   },
   "title": "Disaster Related Extension of Deadlines Act",
@@ -981,8 +981,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T21:59:51Z",
-  "updateDateIncludingText": "2026-06-09T21:59:51Z",
+  "updateDate": "2026-06-23T14:57:18Z",
+  "updateDateIncludingText": "2026-06-23T14:57:18Z",
   "id": "119-HR-1491",
   "lastActionDate": "2025-12-26",
   "lastRecordedVoteDate": "2025-12-11"
