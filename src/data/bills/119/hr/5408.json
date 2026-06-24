@@ -576,6 +576,10 @@
   "number": "5408",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/5408/summaries?format=json"
+  },
   "title": "Faster Labor Contracts Act",
   "titles": {
     "titles": [
@@ -624,8 +628,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-17T16:48:48Z",
-  "updateDateIncludingText": "2026-06-17T16:48:48Z",
+  "updateDate": "2026-06-23T19:47:55Z",
+  "updateDateIncludingText": "2026-06-23T19:47:55Z",
   "id": "119-HR-5408",
   "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2026-06-09T23:06:36Z"

@@ -1,8 +1,30 @@
 {
   "actions": {
-    "count": 3,
+    "count": 5,
     "url": "https://api.congress.gov/v3/bill/119/s/4828/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-06-23",
+        "actionTime": "12:12:19",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-06-23",
+        "actionTime": "12:01:03",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-18",
         "sourceSystem": {
@@ -161,8 +183,9 @@
   "congress": 119,
   "introducedDate": "2026-06-18",
   "latestAction": {
-    "actionDate": "2026-06-18",
-    "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S2917-2920; text: CR S2918-2920)"
+    "actionDate": "2026-06-23",
+    "actionTime": "12:12:19",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4828",
   "number": "4828",
@@ -196,9 +219,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-23T03:05:23Z",
-  "updateDateIncludingText": "2026-06-23T06:18:26Z",
+  "updateDate": "2026-06-24T08:07:56Z",
+  "updateDateIncludingText": "2026-06-24T08:07:56Z",
   "id": "119-S-4828",
-  "lastActionDate": "2026-06-18",
+  "lastActionDate": "2026-06-23",
   "lastRecordedVoteDate": "2026-06-18"
 }

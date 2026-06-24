@@ -876,7 +876,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/2393/summaries?format=json"
   },
   "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
@@ -937,8 +937,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-10T19:07:44Z",
-  "updateDateIncludingText": "2026-06-10T19:07:44Z",
+  "updateDate": "2026-06-23T20:01:53Z",
+  "updateDateIncludingText": "2026-06-23T20:01:53Z",
   "id": "119-S-2393",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-05-20T17:19:26Z"
