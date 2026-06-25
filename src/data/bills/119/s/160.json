@@ -683,7 +683,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/160/summaries?format=json"
   },
   "title": "Aerial Firefighting Enhancement Act of 2025",
@@ -734,8 +734,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-12T15:05:42Z",
-  "updateDateIncludingText": "2026-03-12T15:05:42Z",
+  "updateDate": "2026-06-24T19:13:33Z",
+  "updateDateIncludingText": "2026-06-24T19:13:33Z",
   "id": "119-S-160",
   "lastActionDate": "2025-06-12",
   "lastRecordedVoteDate": "2025-06-03"

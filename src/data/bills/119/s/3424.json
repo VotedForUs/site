@@ -789,7 +789,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/3424/summaries?format=json"
   },
   "title": "Bankruptcy Administration Improvement Act of 2025",
@@ -830,8 +830,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-02-09T21:17:25Z",
-  "updateDateIncludingText": "2026-02-09T21:17:25Z",
+  "updateDate": "2026-06-24T19:15:50Z",
+  "updateDateIncludingText": "2026-06-24T19:15:50Z",
   "id": "119-S-3424",
   "lastActionDate": "2026-02-06",
   "lastRecordedVoteDate": "2026-01-12"

@@ -796,6 +796,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Emergency Conservation Program Improvement Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-06-25T04:23:30Z"
+      },
+      {
         "title": "Emergency Conservation Program Improvement Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -830,8 +840,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-24T08:09:27Z",
-  "updateDateIncludingText": "2026-06-24T08:09:27Z",
+  "updateDate": "2026-06-25T04:23:30Z",
+  "updateDateIncludingText": "2026-06-25T04:23:30Z",
   "id": "119-S-629",
   "lastActionDate": "2026-06-23",
   "lastRecordedVoteDate": "2026-06-23T22:59:45Z"
