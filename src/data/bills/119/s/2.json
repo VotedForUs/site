@@ -2508,7 +2508,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/s/2/summaries?format=json"
   },
   "title": "Secure America Act",
@@ -2559,8 +2559,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-23T02:42:16Z",
-  "updateDateIncludingText": "2026-06-23T02:42:16Z",
+  "updateDate": "2026-06-24T22:34:00Z",
+  "updateDateIncludingText": "2026-06-24T22:34:00Z",
   "id": "119-S-2",
   "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2026-06-09T21:24:17Z"
