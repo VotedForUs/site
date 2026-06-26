@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 5,
+    "count": 6,
     "url": "https://api.congress.gov/v3/bill/119/s/4828/actions?format=json",
     "actions": [
       {
@@ -23,6 +23,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-06-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -191,6 +199,10 @@
   "number": "4828",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4828/summaries?format=json"
+  },
   "title": "Declaration of Independence Reaffirmation Act of 2026",
   "titles": {
     "titles": [
@@ -198,7 +210,7 @@
         "title": "Declaration of Independence Reaffirmation Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-19T11:08:27Z"
+        "updateDate": "2026-06-24T11:03:30Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -219,8 +231,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-24T08:07:56Z",
-  "updateDateIncludingText": "2026-06-24T08:07:56Z",
+  "updateDate": "2026-06-25T18:54:12Z",
+  "updateDateIncludingText": "2026-06-25T18:54:12Z",
   "id": "119-S-4828",
   "lastActionDate": "2026-06-23",
   "lastRecordedVoteDate": "2026-06-18"
