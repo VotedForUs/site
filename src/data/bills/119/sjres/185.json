@@ -152,7 +152,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure rejected in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 192.",
+        "text": "Motion to proceed to consideration of measure rejected in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 192. (CR S3194)",
         "type": "Floor"
       },
       {
@@ -343,7 +343,7 @@
   "introducedDate": "2026-04-27",
   "latestAction": {
     "actionDate": "2026-06-24",
-    "text": "Motion to proceed to consideration of measure rejected in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 192."
+    "text": "Motion to proceed to consideration of measure rejected in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 192. (CR S3194)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/185",
   "number": "185",
@@ -373,8 +373,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-06-25T12:09:09Z",
-  "updateDateIncludingText": "2026-06-25T12:09:09Z",
+  "updateDate": "2026-06-26T17:12:20Z",
+  "updateDateIncludingText": "2026-06-26T17:12:20Z",
   "id": "119-SJRES-185",
   "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-25T03:01:38Z"

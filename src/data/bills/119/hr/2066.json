@@ -879,7 +879,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/2066/summaries?format=json"
   },
   "title": "Investing in All of America Act of 2025",
@@ -960,8 +960,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-16T14:48:45Z",
-  "updateDateIncludingText": "2026-06-16T14:48:45Z",
+  "updateDate": "2026-06-26T14:18:37Z",
+  "updateDateIncludingText": "2026-06-26T14:18:37Z",
   "id": "119-HR-2066",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-04-15"
