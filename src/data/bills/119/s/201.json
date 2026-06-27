@@ -698,7 +698,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/201/summaries?format=json"
   },
   "title": "ACES Act of 2025",
@@ -749,8 +749,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-12T15:06:11Z",
-  "updateDateIncludingText": "2026-03-12T15:06:11Z",
+  "updateDate": "2026-06-26T21:41:38Z",
+  "updateDateIncludingText": "2026-06-26T21:41:38Z",
   "id": "119-S-201",
   "lastActionDate": "2025-08-14",
   "lastRecordedVoteDate": "2025-07-21"

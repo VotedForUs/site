@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Voice Vote.",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Voice Vote. (consideration: CR S3194-3195; text: CR S3218-3219)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -162,7 +162,7 @@
   "introducedDate": "2026-06-24",
   "latestAction": {
     "actionDate": "2026-06-24",
-    "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Voice Vote."
+    "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Voice Vote. (consideration: CR S3194-3195; text: CR S3218-3219)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-resolution/795",
   "number": "795",
@@ -186,8 +186,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2026-06-25T12:08:55Z",
-  "updateDateIncludingText": "2026-06-25T12:08:55Z",
+  "updateDate": "2026-06-26T17:14:39Z",
+  "updateDateIncludingText": "2026-06-27T03:48:29Z",
   "id": "119-SRES-795",
   "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-24"

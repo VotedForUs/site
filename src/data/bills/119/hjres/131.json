@@ -862,9 +862,25 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hjres/131/summaries?format=json"
   },
-  "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+  "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.",
   "titles": {
     "titles": [
+      {
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-06-26T13:38:44Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-06-26T13:38:44Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -882,18 +898,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-10-11T08:18:20Z"
-      },
-      {
-        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-11T08:05:13Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-09T21:27:21Z",
-  "updateDateIncludingText": "2026-06-09T21:27:21Z",
+  "updateDate": "2026-06-26T13:38:44Z",
+  "updateDateIncludingText": "2026-06-26T23:14:14Z",
   "id": "119-HJRES-131",
   "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-12-04T17:20:23Z"

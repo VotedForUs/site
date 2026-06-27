@@ -1249,16 +1249,6 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-06-09T05:38:26Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
         "title": "Making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
@@ -1289,8 +1279,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-15T14:30:23Z",
-  "updateDateIncludingText": "2026-06-15T14:30:23Z",
+  "updateDate": "2026-06-26T18:53:21Z",
+  "updateDateIncludingText": "2026-06-27T03:18:22Z",
   "id": "119-HR-8646",
   "lastActionDate": "2026-06-08",
   "lastRecordedVoteDate": "2026-06-04T22:09:40Z"

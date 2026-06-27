@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-27",
+  "runId": "28283891334",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HCONRES-75",
+      "119-HJRES-131",
+      "119-HR-2066",
+      "119-HR-8646",
+      "119-S-201",
+      "119-S-2878",
+      "119-S-4828",
+      "119-SJRES-185",
+      "119-SJRES-196",
+      "119-SRES-795"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
