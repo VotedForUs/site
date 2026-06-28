@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4251-4252)",
         "type": "Floor"
       },
       {
@@ -547,7 +547,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4222-4226; text: CR H4222-4223)",
         "type": "Floor"
       },
       {
@@ -697,8 +697,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-26T08:07:29Z",
-  "updateDateIncludingText": "2026-06-26T08:07:29Z",
+  "updateDate": "2026-06-27T08:06:10Z",
+  "updateDateIncludingText": "2026-06-27T08:06:10Z",
   "id": "119-HR-2478",
   "lastActionDate": "2026-06-25",
   "lastRecordedVoteDate": "2026-06-25T17:30:23Z"
