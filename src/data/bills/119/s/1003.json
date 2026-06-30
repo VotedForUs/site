@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 21,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/1003/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-06-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-06-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-06-15",
@@ -822,8 +842,8 @@
   "congress": 119,
   "introducedDate": "2025-03-12",
   "latestAction": {
-    "actionDate": "2026-06-15",
-    "text": "Presented to President."
+    "actionDate": "2026-06-26",
+    "text": "Signed by President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1003",
   "number": "1003",
@@ -891,9 +911,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-17T08:05:57Z",
-  "updateDateIncludingText": "2026-06-17T08:05:57Z",
+  "updateDate": "2026-06-29T18:45:17Z",
+  "updateDateIncludingText": "2026-06-29T18:45:17Z",
   "id": "119-S-1003",
-  "lastActionDate": "2026-06-15",
+  "lastActionDate": "2026-06-26",
   "lastRecordedVoteDate": "2026-05-20T17:24:01Z"
 }

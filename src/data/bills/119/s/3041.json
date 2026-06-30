@@ -252,6 +252,10 @@
   "number": "3041",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/3041/summaries?format=json"
+  },
   "title": "Tribal Warrant Fairness Act",
   "titles": {
     "titles": [
@@ -300,8 +304,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-16T14:55:12Z",
-  "updateDateIncludingText": "2026-06-16T14:55:12Z",
+  "updateDate": "2026-06-29T13:28:13Z",
+  "updateDateIncludingText": "2026-06-29T13:28:13Z",
   "id": "119-S-3041",
   "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-10"
