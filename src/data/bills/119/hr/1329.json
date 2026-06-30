@@ -1031,7 +1031,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Ms. Randall moved to recommit to the Committee on House Administration.",
+        "text": "Ms. Randall moved to recommit to the Committee on House Administration. (CR H3692)",
         "type": "Floor"
       },
       {
@@ -1042,7 +1042,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3707-3710)",
         "type": "Floor"
       },
       {
@@ -1108,7 +1108,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1300.",
+        "text": "Considered under the provisions of rule H. Res. 1300. (consideration: CR H3692-3699; text of amendment in the nature of a substitute: CR H3692-3693)",
         "type": "Floor"
       },
       {
@@ -1337,8 +1337,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-22T08:09:21Z",
-  "updateDateIncludingText": "2026-05-22T08:09:21Z",
+  "updateDate": "2026-06-30T08:07:20Z",
+  "updateDateIncludingText": "2026-06-30T08:07:21Z",
   "id": "119-HR-1329",
   "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-21T22:00:13Z"

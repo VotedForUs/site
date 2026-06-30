@@ -782,7 +782,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/3705/summaries?format=json"
   },
   "title": "Semiquincentennial Congressional Time Capsule Act",
@@ -823,8 +823,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-02-19T18:40:11Z",
-  "updateDateIncludingText": "2026-02-19T18:40:11Z",
+  "updateDate": "2026-06-29T19:10:37Z",
+  "updateDateIncludingText": "2026-06-29T19:10:37Z",
   "id": "119-S-3705",
   "lastActionDate": "2026-02-18",
   "lastRecordedVoteDate": "2026-02-09"

@@ -1,0 +1,298 @@
+{
+  "actions": {
+    "count": 12,
+    "url": "https://api.congress.gov/v3/bill/119/hr/7757/actions?format=json",
+    "actions": [
+      {
+        "actionCode": "H38310",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:02:09",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37300",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:02:07",
+        "recordedVotes": [
+          {
+            "chamber": "House",
+            "congress": 119,
+            "date": "2026-06-29T23:02:07Z",
+            "rollNumber": 228,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll228.xml",
+            "id": "119-HR-7757-1"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 267 - 117 (Roll no. 228).",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-06-29",
+        "actionTime": "18:30:49",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37220",
+        "actionDate": "2026-06-29",
+        "actionTime": "16:07:35",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-29",
+        "actionTime": "15:31:54",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 7757.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-06-29",
+        "actionTime": "15:31:53",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered under suspension of the rules.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30300",
+        "actionDate": "2026-06-29",
+        "actionTime": "15:31:42",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-03-03",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "hsju00",
+            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-03-03",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2026-03-03",
+  "latestAction": {
+    "actionDate": "2026-06-29",
+    "actionTime": "19:02:09",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7757",
+  "number": "7757",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/7757/summaries?format=json"
+  },
+  "title": "KIDS Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "KIDS Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-04T09:23:23Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Kids Internet and Digital Safety Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "AWARE Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "AI Warnings And Resources for Education Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Promoting a Safe Internet for Minors Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Assessing Safety Tools for Parents and Minors Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "No Fentanyl on Social Media Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Safe Social Media Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Kids Internet Safety Partnership Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "SPY Kids Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Stop Profiling Youth and Kids Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Kids Online Safety Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "SAFE BOTs Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Safeguarding Adolescents From Exploitative BOTs Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "SCREEN Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Shielding Children’s Retinas from Egregious Exposure on the Net Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "KIDS Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-03-04T09:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To protect children and teens online, empower parents and strengthen families, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-03-04T09:18:45Z"
+      }
+    ]
+  },
+  "type": "HR",
+  "updateDate": "2026-06-30T08:07:15Z",
+  "updateDateIncludingText": "2026-06-30T08:07:15Z",
+  "id": "119-HR-7757",
+  "lastActionDate": "2026-06-29",
+  "lastRecordedVoteDate": "2026-06-29T23:02:07Z"
+}

@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 63,
+    "count": 66,
     "url": "https://api.congress.gov/v3/bill/119/hr/6644/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-06-29",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-06-29",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H8D000",
         "actionDate": "2026-06-23",
@@ -504,7 +524,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion that the House suspend the rules and agree to the Senate amendment to the House amendment to the Senate amendment Agreed to by the Yeas and Nays: (2/3 required): 358 - 32 (Roll no. 224).",
+        "text": "On motion that the House suspend the rules and agree to the Senate amendment to the House amendment to the Senate amendment Agreed to by the Yeas and Nays: (2/3 required): 358 - 32 (Roll no. 224). (text: CR H4151-4187)",
         "type": "ResolvingDifferences"
       },
       {
@@ -537,8 +557,16 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Hill (AR) moved that the House suspend the rules and agree to the Senate amendment to the House amendment to the Senate amendment.",
+        "text": "Mr. Hill (AR) moved that the House suspend the rules and agree to the Senate amendment to the House amendment to the Senate amendment. (consideration: CR H4151-4193)",
         "type": "ResolvingDifferences"
+      },
+      {
+        "actionDate": "2026-06-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
       },
       {
         "actionDate": "2026-06-22",
@@ -2555,9 +2583,8 @@
   "congress": 119,
   "introducedDate": "2025-12-11",
   "latestAction": {
-    "actionDate": "2026-06-23",
-    "actionTime": "19:26:38",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-29",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6644",
   "number": "6644",
@@ -2570,6 +2597,16 @@
   "title": "21st Century ROAD to Housing Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "21st Century ROAD to Housing Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-06-25T04:38:39Z"
+      },
       {
         "billTextVersionCode": "EAH",
         "billTextVersionName": "Engrossed Amendment House",
@@ -2659,9 +2696,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-24T08:09:55Z",
-  "updateDateIncludingText": "2026-06-24T08:09:55Z",
+  "updateDate": "2026-06-30T08:05:23Z",
+  "updateDateIncludingText": "2026-06-30T08:05:23Z",
   "id": "119-HR-6644",
-  "lastActionDate": "2026-06-23",
+  "lastActionDate": "2026-06-29",
   "lastRecordedVoteDate": "2026-06-23T23:26:36Z"
 }
