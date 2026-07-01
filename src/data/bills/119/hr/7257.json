@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4296)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4296-4297)",
         "type": "Floor"
       },
       {
@@ -647,11 +647,41 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "SECURE Grid Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-01T03:53:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Energy Policy and Conservation Act to require States to include supporting the physical security, cybersecurity, and resilience of local distribution systems in State energy security plans.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-01T03:53:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Securing Community Upgrades for a Resilient Grid Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-01T03:53:27Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "SECURE Grid Act",
+        "title": "Securing Community Upgrades for a Resilient Grid Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-05-12T05:53:25Z"
@@ -661,7 +691,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Securing Community Upgrades for a Resilient Grid Act",
+        "title": "SECURE Grid Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-05-12T05:53:25Z"
@@ -675,7 +705,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "SECURE Grid Act",
+        "title": "Securing Community Upgrades for a Resilient Grid Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-01-29T05:08:16Z"
@@ -683,7 +713,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Securing Community Upgrades for a Resilient Grid Act",
+        "title": "SECURE Grid Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-01-29T05:08:16Z"
@@ -699,8 +729,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-30T08:06:17Z",
-  "updateDateIncludingText": "2026-06-30T08:06:17Z",
+  "updateDate": "2026-07-01T08:06:02Z",
+  "updateDateIncludingText": "2026-07-01T08:48:40Z",
   "id": "119-HR-7257",
   "lastActionDate": "2026-06-29",
   "lastRecordedVoteDate": "2026-06-29"

@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H4298)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4297-4298)",
         "type": "Floor"
       },
       {
@@ -647,6 +647,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Energy Emergency Leadership Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-01T03:53:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Department of Energy Organization Act with respect to functions assigned to Assistant Secretaries, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-01T03:53:26Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -681,8 +701,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-30T08:07:03Z",
-  "updateDateIncludingText": "2026-06-30T08:07:03Z",
+  "updateDate": "2026-07-01T08:06:42Z",
+  "updateDateIncludingText": "2026-07-01T09:18:36Z",
   "id": "119-HR-7258",
   "lastActionDate": "2026-06-29",
   "lastRecordedVoteDate": "2026-06-29"

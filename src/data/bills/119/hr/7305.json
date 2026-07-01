@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4300-4301)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4300-4302)",
         "type": "Floor"
       },
       {
@@ -647,6 +647,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Energy Threat Analysis Center Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-01T03:53:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Infrastructure Investment and Jobs Act to reauthorize the Department of Energy’s Energy Sector Operational Support for Cyberresilience Program to provide operational support for energy sector cybersecurity and resilience.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-01T03:53:26Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -681,8 +701,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-30T08:06:23Z",
-  "updateDateIncludingText": "2026-06-30T08:06:23Z",
+  "updateDate": "2026-07-01T08:06:06Z",
+  "updateDateIncludingText": "2026-07-01T09:18:35Z",
   "id": "119-HR-7305",
   "lastActionDate": "2026-06-29",
   "lastRecordedVoteDate": "2026-06-29"

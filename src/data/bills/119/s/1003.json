@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 23,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/s/1003/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-06-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-100.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-06-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-100.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-06-26",
@@ -843,14 +863,20 @@
   "introducedDate": "2025-03-12",
   "latestAction": {
     "actionDate": "2026-06-26",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-100."
   },
+  "laws": [
+    {
+      "number": "119-100",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1003",
   "number": "1003",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/1003/summaries?format=json"
   },
   "title": "Lulu’s Law",
@@ -911,8 +937,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-29T18:45:17Z",
-  "updateDateIncludingText": "2026-06-29T18:45:17Z",
+  "updateDate": "2026-06-30T13:50:28Z",
+  "updateDateIncludingText": "2026-06-30T13:50:28Z",
   "id": "119-S-1003",
   "lastActionDate": "2026-06-26",
   "lastRecordedVoteDate": "2026-05-20T17:24:01Z"

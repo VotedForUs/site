@@ -1,0 +1,175 @@
+{
+  "actions": {
+    "count": 12,
+    "url": "https://api.congress.gov/v3/bill/119/hconres/108/actions?format=json",
+    "actions": [
+      {
+        "actionCode": "H38310",
+        "actionDate": "2026-06-30",
+        "actionTime": "14:27:23",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37100",
+        "actionDate": "2026-06-30",
+        "actionTime": "14:27:19",
+        "recordedVotes": [
+          {
+            "chamber": "House",
+            "congress": 119,
+            "date": "2026-06-30T18:27:19Z",
+            "rollNumber": 232,
+            "sessionNumber": 2,
+            "url": "https://clerk.house.gov/evs/2026/roll232.xml",
+            "id": "119-HCONRES-108-1"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "On agreeing to the resolution Failed by the Yeas and Nays: 189 - 235 (Roll no. 232).",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-06-30",
+        "actionTime": "14:17:34",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:52:16",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.Con.Res. 108, the Chair put the question on agreeing to the resolution and by voice vote, announced the noes had prevailed. Mr. Meek demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H35000",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:51:48",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The previous question was ordered pursuant to a previous order of the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:18:38",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with one hour of debate on H. Con. Res. 108.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:18:37",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered pursuant to a previous order. (consideration: CR H4304-4309; text: CR H4304)",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30800",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:18:11",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Consideration initiated pursuant to a previous order.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-06-29",
+        "actionTime": "19:16:12",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "ORDER OF PROCEDURE - Mr. Mast asked unanimous consent that, it be in order at any time to consider H. Con. Res. 108 in the House if called up by the chair of the Committee on Foreign Affairs or his designee; that the concurrent resolution be considered as read; and that the previous question be considered as ordered on the concurrent resolution to adoption without intervening motion except for one hour of debate equally divided and controlled by Representative Mast of Florida and Representative Meeks of New York, or their respective designees. Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-06-03",
+        "committees": [
+          {
+            "name": "Foreign Affairs Committee",
+            "systemCode": "hsfa00",
+            "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Foreign Affairs.",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2026-06-03",
+  "latestAction": {
+    "actionDate": "2026-06-30",
+    "actionTime": "14:27:23",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/108",
+  "number": "108",
+  "originChamber": "House",
+  "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hconres/108/summaries?format=json"
+  },
+  "title": "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon.",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-06-04T08:18:36Z"
+      },
+      {
+        "title": "Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-06-04T08:07:54Z"
+      }
+    ]
+  },
+  "type": "HCONRES",
+  "updateDate": "2026-07-01T08:09:09Z",
+  "updateDateIncludingText": "2026-07-01T08:09:09Z",
+  "id": "119-HCONRES-108",
+  "lastActionDate": "2026-06-30",
+  "lastRecordedVoteDate": "2026-06-30T18:27:19Z"
+}

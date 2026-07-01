@@ -790,7 +790,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/4530/summaries?format=json"
   },
   "title": "A bill to amend chapters 83 and 84 of title 5, United States Code, to authorize an increase of the retirement age for members of the Capitol Police.",
@@ -811,8 +811,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-29T17:42:38Z",
-  "updateDateIncludingText": "2026-06-29T17:42:38Z",
+  "updateDate": "2026-06-30T13:20:06Z",
+  "updateDateIncludingText": "2026-06-30T13:20:06Z",
   "id": "119-S-4530",
   "lastActionDate": "2026-05-29",
   "lastRecordedVoteDate": "2026-05-19"
