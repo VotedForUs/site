@@ -33,7 +33,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 373 - 15 (Roll no. 229).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 373 - 15 (Roll no. 229). (text: CR H4273-4274)",
         "type": "Floor"
       },
       {
@@ -44,7 +44,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4302-4303)",
         "type": "Floor"
       },
       {
@@ -77,7 +77,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4273-4279)",
         "type": "Floor"
       },
       {
@@ -193,6 +193,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "TRIA Program Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-01T03:53:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To extend the Terrorism Risk Insurance Program, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-01T03:53:26Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -227,8 +247,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-30T08:05:48Z",
-  "updateDateIncludingText": "2026-06-30T08:05:48Z",
+  "updateDate": "2026-07-01T08:05:33Z",
+  "updateDateIncludingText": "2026-07-01T09:18:34Z",
   "id": "119-HR-7128",
   "lastActionDate": "2026-06-29",
   "lastRecordedVoteDate": "2026-06-29T23:09:43Z"

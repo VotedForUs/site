@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4272)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4272-4273)",
         "type": "Floor"
       },
       {
@@ -702,6 +702,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Health Care Efficiency Through Flexibility Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-01T03:53:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend title XVIII of the Social Security Act to ensure the availability of appropriate collection types for quality reporting under the Medicare Shared Savings Program, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-01T03:53:27Z"
+      },
+      {
         "title": "Health Care Efficiency Through Flexibility Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -726,8 +746,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-30T08:07:13Z",
-  "updateDateIncludingText": "2026-06-30T08:07:13Z",
+  "updateDate": "2026-07-01T08:06:47Z",
+  "updateDateIncludingText": "2026-07-01T08:33:39Z",
   "id": "119-HR-5347",
   "lastActionDate": "2026-06-29",
   "lastRecordedVoteDate": "2026-06-29"
