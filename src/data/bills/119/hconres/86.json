@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hconres/86/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-06-23",
         "recordedVotes": [
@@ -152,7 +160,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 184.",
+        "text": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 184. (consideration: CR S3039-3040)",
         "type": "Floor"
       },
       {
@@ -798,8 +806,8 @@
   "congress": 119,
   "introducedDate": "2026-04-20",
   "latestAction": {
-    "actionDate": "2026-06-23",
-    "text": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 184."
+    "actionDate": "2026-06-24",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/86",
   "number": "86",
@@ -839,9 +847,9 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-24T10:56:34Z",
-  "updateDateIncludingText": "2026-06-25T04:19:14Z",
+  "updateDate": "2026-07-06T18:15:51Z",
+  "updateDateIncludingText": "2026-07-06T18:15:51Z",
   "id": "119-HCONRES-86",
-  "lastActionDate": "2026-06-23",
+  "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-23T19:43:27Z"
 }
