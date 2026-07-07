@@ -229,6 +229,10 @@
   "number": "1837",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/1837/summaries?format=json"
+  },
   "title": "DEFIANCE Act of 2025",
   "titles": {
     "titles": [
@@ -285,8 +289,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-01-15T15:21:38Z",
-  "updateDateIncludingText": "2026-01-15T15:21:38Z",
+  "updateDate": "2026-07-06T20:26:29Z",
+  "updateDateIncludingText": "2026-07-06T20:26:29Z",
   "id": "119-S-1837",
   "lastActionDate": "2026-01-13",
   "lastRecordedVoteDate": "2026-01-13"
