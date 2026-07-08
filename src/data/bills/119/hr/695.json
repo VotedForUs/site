@@ -829,7 +829,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/695/summaries?format=json"
   },
   "title": "Medal of Honor Act",
@@ -890,8 +890,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:19:07Z",
-  "updateDateIncludingText": "2026-03-31T20:19:07Z",
+  "updateDate": "2026-07-07T19:45:24Z",
+  "updateDateIncludingText": "2026-07-07T19:45:24Z",
   "id": "119-HR-695",
   "lastActionDate": "2025-12-01",
   "lastRecordedVoteDate": "2025-11-07"
