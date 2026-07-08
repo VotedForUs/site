@@ -515,7 +515,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4226-4227)",
         "type": "Floor"
       },
       {
@@ -718,8 +718,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-26T04:23:25Z",
-  "updateDateIncludingText": "2026-06-26T08:03:27Z",
+  "updateDate": "2026-07-07T20:23:00Z",
+  "updateDateIncludingText": "2026-07-07T20:23:00Z",
   "id": "119-HR-7401",
   "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-24T21:06:11Z"
