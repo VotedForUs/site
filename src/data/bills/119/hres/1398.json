@@ -1087,6 +1087,10 @@
   "number": "1398",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1398/summaries?format=json"
+  },
   "title": "Providing for consideration of the bill (H.R. 8800) to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 8884) to amend title II of the Social Security Act to reauthorize demonstration authority for the disability insurance program; providing for consideration of the resolution (H. Res. 1383) commemorating the one-year anniversary of the enactment of the Working Families Tax Cuts; and for other purposes.",
   "titles": {
     "titles": [
@@ -1105,8 +1109,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-06T22:06:15Z",
-  "updateDateIncludingText": "2026-07-06T22:06:15Z",
+  "updateDate": "2026-07-08T19:31:09Z",
+  "updateDateIncludingText": "2026-07-08T19:31:09Z",
   "id": "119-HRES-1398",
   "lastActionDate": "2026-06-30",
   "lastRecordedVoteDate": "2026-06-30T18:15:32Z"
