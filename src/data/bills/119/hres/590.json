@@ -1079,7 +1079,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hres/590/summaries?format=json"
   },
   "title": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974.",
@@ -1100,8 +1100,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-07T15:10:03Z",
-  "updateDateIncludingText": "2026-07-07T15:10:03Z",
+  "updateDate": "2026-07-08T19:34:47Z",
+  "updateDateIncludingText": "2026-07-08T19:34:47Z",
   "id": "119-HRES-590",
   "lastActionDate": "2025-07-18",
   "lastRecordedVoteDate": "2025-07-18T04:04:12Z"
