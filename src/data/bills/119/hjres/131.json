@@ -859,7 +859,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hjres/131/summaries?format=json"
   },
   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.",
@@ -902,8 +902,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-26T13:38:44Z",
-  "updateDateIncludingText": "2026-06-26T23:14:14Z",
+  "updateDate": "2026-07-09T16:20:58Z",
+  "updateDateIncludingText": "2026-07-09T16:20:58Z",
   "id": "119-HJRES-131",
   "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-12-04T17:20:23Z"

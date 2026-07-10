@@ -17,12 +17,12 @@
       {
         "actionCode": "H37100",
         "actionDate": "2026-04-16",
-        "actionTime": "12:06:47",
+        "actionTime": "12:06:46",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-16T16:06:47Z",
+            "date": "2026-04-16T16:06:46Z",
             "rollNumber": 114,
             "sessionNumber": 2,
             "url": "https://clerk.house.gov/evs/2026/roll114.xml",
@@ -616,9 +616,9 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-23T15:50:05Z",
-  "updateDateIncludingText": "2026-06-23T15:50:05Z",
+  "updateDate": "2026-07-10T08:05:52Z",
+  "updateDateIncludingText": "2026-07-10T08:05:52Z",
   "id": "119-HCONRES-40",
   "lastActionDate": "2026-04-16",
-  "lastRecordedVoteDate": "2026-04-16T16:06:47Z"
+  "lastRecordedVoteDate": "2026-04-16T16:06:46Z"
 }
