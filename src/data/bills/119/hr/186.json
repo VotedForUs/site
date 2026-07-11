@@ -630,6 +630,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To authorize the National Medal of Honor Museum Foundation to establish a commemorative work on the National Mall to honor the extraordinary acts of valor, selfless service, and sacrifice displayed by Medal of Honor recipients.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:38:29Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Hershel Woody Williams National Medal of Honor Monument Location Act",
@@ -674,8 +684,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T08:05:25Z",
-  "updateDateIncludingText": "2026-03-31T08:05:25Z",
+  "updateDate": "2026-07-10T19:38:29Z",
+  "updateDateIncludingText": "2026-07-11T02:43:47Z",
   "id": "119-HR-186",
   "lastActionDate": "2025-12-09",
   "lastRecordedVoteDate": "2025-01-22T00:01:23Z"

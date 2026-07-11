@@ -856,6 +856,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Government Accountability Office to produce a report on esophageal cancer, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T00:58:24Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -910,8 +920,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-16T15:04:42Z",
-  "updateDateIncludingText": "2026-06-16T15:04:42Z",
+  "updateDate": "2026-07-11T00:58:24Z",
+  "updateDateIncludingText": "2026-07-11T00:58:24Z",
   "id": "119-HR-3490",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-05-20"

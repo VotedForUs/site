@@ -914,12 +914,22 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1823/summaries?format=json"
   },
   "title": "VA Budget Shortfall Accountability Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of Veterans Affairs and the Comptroller General of the United States to report on certain funding shortfalls in the Department of Veterans Affairs.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:38:26Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -977,8 +987,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-01-21T18:52:47Z",
-  "updateDateIncludingText": "2026-01-21T18:52:47Z",
+  "updateDate": "2026-07-10T19:38:26Z",
+  "updateDateIncludingText": "2026-07-10T19:38:26Z",
   "id": "119-HR-1823",
   "lastActionDate": "2026-01-20",
   "lastRecordedVoteDate": "2025-12-18"

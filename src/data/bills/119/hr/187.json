@@ -874,11 +874,21 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for the standardization, consolidation, and publication of data relating to public outdoor recreational use of Federal waterways among Federal land and water management agencies, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:38:30Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Modernizing Access to our Public Waters Act of 2025",
+        "title": "MAPWaters Act of 2025",
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2025-12-18T05:08:16Z"
@@ -888,7 +898,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "MAPWaters Act of 2025",
+        "title": "Modernizing Access to our Public Waters Act of 2025",
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2025-12-18T05:08:16Z"
@@ -948,7 +958,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "MAPWaters Act of 2025",
+        "title": "Modernizing Access to our Public Waters Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-01-23T02:23:17Z"
@@ -958,7 +968,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Modernizing Access to our Public Waters Act of 2025",
+        "title": "MAPWaters Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-01-23T02:23:17Z"
@@ -966,8 +976,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T22:03:15Z",
-  "updateDateIncludingText": "2026-06-09T22:03:15Z",
+  "updateDate": "2026-07-10T20:14:23Z",
+  "updateDateIncludingText": "2026-07-11T02:43:50Z",
   "id": "119-HR-187",
   "lastActionDate": "2025-12-26",
   "lastRecordedVoteDate": "2025-12-16"

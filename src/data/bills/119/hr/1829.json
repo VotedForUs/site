@@ -611,6 +611,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Secretary of Agriculture to convey certain lands within the Apache-Sitgreaves National Forest, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:38:26Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -655,8 +665,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:26Z",
-  "updateDateIncludingText": "2026-06-11T05:06:26Z",
+  "updateDate": "2026-07-10T19:38:26Z",
+  "updateDateIncludingText": "2026-07-10T19:38:26Z",
   "id": "119-HR-1829",
   "lastActionDate": "2026-03-04",
   "lastRecordedVoteDate": "2025-05-13"

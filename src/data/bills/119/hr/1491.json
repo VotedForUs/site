@@ -917,6 +917,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to make the postponement of certain deadlines by reason of disasters applicable to the limitation on credit or refund, and to take postponements into account for purposes of sending collection notices.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T20:28:21Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -981,8 +991,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-23T14:57:18Z",
-  "updateDateIncludingText": "2026-06-23T14:57:18Z",
+  "updateDate": "2026-07-10T20:28:21Z",
+  "updateDateIncludingText": "2026-07-10T20:28:21Z",
   "id": "119-HR-1491",
   "lastActionDate": "2025-12-26",
   "lastRecordedVoteDate": "2025-12-11"

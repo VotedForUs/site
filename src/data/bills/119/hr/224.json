@@ -823,6 +823,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend section 102(a)(20) of the Housing and Community Development Act of 1974 to require the exclusion of service-connected disability compensation when determining whether a person is a person of low and moderate income, a person of low income, or a person of moderate income, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T03:28:19Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -877,8 +887,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:31Z",
-  "updateDateIncludingText": "2026-06-11T23:26:31Z",
+  "updateDate": "2026-07-11T03:28:19Z",
+  "updateDateIncludingText": "2026-07-11T03:28:19Z",
   "id": "119-HR-224",
   "lastActionDate": "2026-01-20",
   "lastRecordedVoteDate": "2026-01-06"

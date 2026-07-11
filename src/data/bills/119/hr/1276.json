@@ -711,6 +711,12 @@
   "titles": {
     "titles": [
       {
+        "title": "To remove restrictions from a parcel of land in Paducah, Kentucky.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T16:43:30Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -727,18 +733,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-03-14T09:18:19Z"
-      },
-      {
-        "title": "To remove restrictions from a parcel of land in Paducah, Kentucky.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-14T09:06:00Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-08T21:41:21Z",
-  "updateDateIncludingText": "2026-06-08T21:41:21Z",
+  "updateDate": "2026-07-10T16:43:30Z",
+  "updateDateIncludingText": "2026-07-10T19:08:33Z",
   "id": "119-HR-1276",
   "lastActionDate": "2026-03-04",
   "lastRecordedVoteDate": "2025-12-09"

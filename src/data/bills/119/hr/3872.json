@@ -722,9 +722,15 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/3872/summaries?format=json"
   },
-  "title": "MERICA Act of 2025",
+  "title": "To amend the Mineral Leasing Act for Acquired Lands to make that Act applicable to hardrock minerals.",
   "titles": {
     "titles": [
+      {
+        "title": "To amend the Mineral Leasing Act for Acquired Lands to make that Act applicable to hardrock minerals.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T00:14:00Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -734,12 +740,6 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-17T04:23:22Z"
-      },
-      {
-        "title": "MERICA Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-06-13T05:53:17Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -768,8 +768,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T12:29:42Z",
-  "updateDateIncludingText": "2026-06-11T12:29:42Z",
+  "updateDate": "2026-07-11T00:14:01Z",
+  "updateDateIncludingText": "2026-07-11T00:14:01Z",
   "id": "119-HR-3872",
   "lastActionDate": "2026-06-10",
   "lastRecordedVoteDate": "2025-12-15"

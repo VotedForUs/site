@@ -692,24 +692,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T02:54:33Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:53:21Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-02-06T01:03:29Z"
-      },
-      {
-        "title": "To redesignate certain facilities at Paterson Great Falls National Historical Park in honor of Congressman Bill Pascrell, Jr.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-01-10T09:06:00Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2025-12-10T11:56:37Z",
-  "updateDateIncludingText": "2025-12-10T11:56:37Z",
+  "updateDate": "2026-07-11T02:54:33Z",
+  "updateDateIncludingText": "2026-07-11T02:54:33Z",
   "id": "119-HR-249",
   "lastActionDate": "2025-12-09",
   "lastRecordedVoteDate": "2025-05-13T23:03:03Z"

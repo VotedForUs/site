@@ -1027,24 +1027,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:43:35Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:43:29Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-02-22T09:48:39Z"
-      },
-      {
-        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-22T09:05:27Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-09T22:49:37Z",
-  "updateDateIncludingText": "2026-06-09T22:49:37Z",
+  "updateDate": "2026-07-10T15:43:35Z",
+  "updateDateIncludingText": "2026-07-10T19:06:11Z",
   "id": "119-HJRES-60",
   "lastActionDate": "2025-05-23",
   "lastRecordedVoteDate": "2025-05-08T16:22:54Z"

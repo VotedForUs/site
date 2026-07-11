@@ -724,6 +724,12 @@
   "titles": {
     "titles": [
       {
+        "title": "To require the Secretary of Agriculture to convey a parcel of property of the Forest Service to Perry County, Arkansas, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T01:39:15Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -732,12 +738,6 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-17T04:23:21Z"
-      },
-      {
-        "title": "To require the Secretary of Agriculture to convey a parcel of property of the Forest Service to Perry County, Arkansas, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-17T11:31:47Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -750,8 +750,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-04T05:06:23Z",
-  "updateDateIncludingText": "2026-02-04T05:06:23Z",
+  "updateDate": "2026-07-11T01:39:15Z",
+  "updateDateIncludingText": "2026-07-11T01:39:15Z",
   "id": "119-HR-3187",
   "lastActionDate": "2025-12-16",
   "lastRecordedVoteDate": "2025-12-16T00:02:48Z"

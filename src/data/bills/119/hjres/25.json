@@ -1082,7 +1082,17 @@
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-04-03T13:58:43Z"
+        "updateDate": "2026-07-10T15:43:34Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:43:29Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1095,8 +1105,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-17T12:49:46Z",
-  "updateDateIncludingText": "2026-06-17T12:49:46Z",
+  "updateDate": "2026-07-10T15:43:34Z",
+  "updateDateIncludingText": "2026-07-10T19:05:56Z",
   "id": "119-HJRES-25",
   "lastActionDate": "2025-04-10",
   "lastRecordedVoteDate": "2025-03-27T00:47:58Z"

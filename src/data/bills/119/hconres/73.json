@@ -683,9 +683,15 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hconres/73/summaries?format=json"
   },
-  "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers' Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+  "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers’ Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
   "titles": {
     "titles": [
+      {
+        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers’ Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:08:29Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -703,18 +709,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-02-04T09:18:21Z"
-      },
-      {
-        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers' Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-02-04T09:06:58Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-11T23:41:28Z",
-  "updateDateIncludingText": "2026-06-11T23:41:28Z",
+  "updateDate": "2026-07-10T15:08:29Z",
+  "updateDateIncludingText": "2026-07-10T19:05:08Z",
   "id": "119-HCONRES-73",
   "lastActionDate": "2026-05-14",
   "lastRecordedVoteDate": "2026-03-24"

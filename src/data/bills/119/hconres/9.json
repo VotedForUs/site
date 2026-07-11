@@ -672,24 +672,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:23:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:23:22Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-02-07T12:18:17Z"
-      },
-      {
-        "title": "Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-07T09:02:02Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-04T17:55:41Z",
-  "updateDateIncludingText": "2026-06-04T17:55:41Z",
+  "updateDate": "2026-07-10T15:23:27Z",
+  "updateDateIncludingText": "2026-07-10T19:05:19Z",
   "id": "119-HCONRES-9",
   "lastActionDate": "2025-05-01",
   "lastRecordedVoteDate": "2025-04-07"

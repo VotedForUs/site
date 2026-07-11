@@ -620,24 +620,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Expressing support for local law enforcement officers.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:13:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Expressing support for local law enforcement officers.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:13:20Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Expressing support for local law enforcement officers.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-05-07T08:18:20Z"
-      },
-      {
-        "title": "Expressing support for local law enforcement officers.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-05-07T08:06:19Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2025-07-21T19:32:26Z",
-  "updateDateIncludingText": "2025-07-21T19:32:26Z",
+  "updateDate": "2026-07-10T15:13:23Z",
+  "updateDateIncludingText": "2026-07-10T19:04:51Z",
   "id": "119-HCONRES-30",
   "lastActionDate": "2025-05-20",
   "lastRecordedVoteDate": "2025-05-13T22:55:20Z"

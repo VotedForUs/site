@@ -1188,6 +1188,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To amend the National Voter Registration Act of 1993 to require proof of United States citizenship to register an individual to vote in elections for Federal office, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T03:23:18Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "SAVE Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -1236,8 +1246,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-15T18:21:13Z",
-  "updateDateIncludingText": "2026-04-15T18:21:13Z",
+  "updateDate": "2026-07-11T03:23:18Z",
+  "updateDateIncludingText": "2026-07-11T03:23:18Z",
   "id": "119-HR-22",
   "lastActionDate": "2025-04-10",
   "lastRecordedVoteDate": "2025-04-10T15:23:50Z"

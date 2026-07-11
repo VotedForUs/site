@@ -619,6 +619,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the Flatside-Bethune Wilderness in the Ouachita National Forest, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T20:13:21Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -673,8 +683,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:20Z",
-  "updateDateIncludingText": "2026-06-11T05:06:20Z",
+  "updateDate": "2026-07-10T20:13:21Z",
+  "updateDateIncludingText": "2026-07-10T20:13:21Z",
   "id": "119-HR-1612",
   "lastActionDate": "2025-10-27",
   "lastRecordedVoteDate": "2025-05-13"

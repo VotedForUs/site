@@ -626,6 +626,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Secretary of Homeland Security to take into custody aliens who have been charged in the United States with theft, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T01:53:18Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -670,8 +680,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-11-30T06:37:21Z",
-  "updateDateIncludingText": "2025-11-30T06:37:21Z",
+  "updateDate": "2026-07-11T01:53:18Z",
+  "updateDateIncludingText": "2026-07-11T01:53:18Z",
   "id": "119-HR-29",
   "lastActionDate": "2025-02-10",
   "lastRecordedVoteDate": "2025-01-07T18:30:30Z"

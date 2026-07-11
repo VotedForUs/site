@@ -1028,24 +1028,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:23:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:23:22Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-07-15T08:18:25Z"
-      },
-      {
-        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-15T08:05:17Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-16T16:22:09Z",
-  "updateDateIncludingText": "2026-06-16T16:22:09Z",
+  "updateDate": "2026-07-10T15:23:27Z",
+  "updateDateIncludingText": "2026-07-10T19:05:23Z",
   "id": "119-HJRES-106",
   "lastActionDate": "2025-12-11",
   "lastRecordedVoteDate": "2025-10-09T21:41:14Z"

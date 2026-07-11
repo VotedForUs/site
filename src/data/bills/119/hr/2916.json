@@ -711,6 +711,12 @@
   "titles": {
     "titles": [
       {
+        "title": "To authorize, ratify, and confirm the Agreement of Settlement and Compromise to Resolve the Akwesasne Mohawk Land Claim in the State of New York, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T02:09:08Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -727,18 +733,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-05-02T06:48:23Z"
-      },
-      {
-        "title": "To authorize, ratify, and confirm the Agreement of Settlement and Compromise to Resolve the Akwesasne Mohawk Land Claim in the State of New York, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-15T08:05:18Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-04T10:56:31Z",
-  "updateDateIncludingText": "2026-06-04T10:56:31Z",
+  "updateDate": "2026-07-11T02:09:08Z",
+  "updateDateIncludingText": "2026-07-11T02:09:08Z",
   "id": "119-HR-2916",
   "lastActionDate": "2026-06-03",
   "lastRecordedVoteDate": "2025-12-09"

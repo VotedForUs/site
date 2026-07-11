@@ -637,6 +637,12 @@
   "titles": {
     "titles": [
       {
+        "title": "To designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T20:44:20Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -653,18 +659,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-03-15T03:18:24Z"
-      },
-      {
-        "title": "To designate the General George C. Marshall House, in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-14T09:05:59Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:41:26Z",
-  "updateDateIncludingText": "2026-06-11T23:41:26Z",
+  "updateDate": "2026-07-10T20:44:20Z",
+  "updateDateIncludingText": "2026-07-10T20:44:20Z",
   "id": "119-HR-1352",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-19"

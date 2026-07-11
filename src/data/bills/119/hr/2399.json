@@ -635,6 +635,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Federal Communications Commission to establish a vetting process for prospective applicants for high-cost universal service program funding.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T03:08:24Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -689,8 +699,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:41:29Z",
-  "updateDateIncludingText": "2026-06-11T23:41:29Z",
+  "updateDate": "2026-07-11T03:08:24Z",
+  "updateDateIncludingText": "2026-07-11T03:08:24Z",
   "id": "119-HR-2399",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28"

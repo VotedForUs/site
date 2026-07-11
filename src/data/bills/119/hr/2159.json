@@ -706,9 +706,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Count the Crimes to Cut Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To direct the Attorney General of the United States to submit to the Congress a report on Federal criminal offenses, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-03T04:38:19Z"
       },
       {
@@ -716,9 +716,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To direct the Attorney General of the United States to submit to the Congress a report on Federal criminal offenses, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Count the Crimes to Cut Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-03T04:38:19Z"
       },
       {
@@ -757,7 +757,7 @@
   },
   "type": "HR",
   "updateDate": "2026-04-16T03:38:23Z",
-  "updateDateIncludingText": "2026-04-16T03:38:23Z",
+  "updateDateIncludingText": "2026-07-10T19:03:57Z",
   "id": "119-HR-2159",
   "lastActionDate": "2026-04-14",
   "lastRecordedVoteDate": "2025-12-01"

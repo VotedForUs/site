@@ -5639,6 +5639,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:13:19Z"
+      },
+      {
         "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -5731,8 +5741,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-07T17:58:35Z",
-  "updateDateIncludingText": "2026-07-07T17:58:35Z",
+  "updateDate": "2026-07-10T19:13:19Z",
+  "updateDateIncludingText": "2026-07-11T07:34:40Z",
   "id": "119-HR-1",
   "lastActionDate": "2025-07-04",
   "lastRecordedVoteDate": "2025-07-03T18:31:38Z"

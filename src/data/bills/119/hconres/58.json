@@ -630,6 +630,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Denouncing the horrors of socialism.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:08:29Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -646,18 +652,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-10-25T08:18:15Z"
-      },
-      {
-        "title": "Denouncing the horrors of socialism.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-25T08:05:38Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-04-02T18:55:25Z",
-  "updateDateIncludingText": "2026-04-02T18:55:25Z",
+  "updateDate": "2026-07-10T15:08:29Z",
+  "updateDateIncludingText": "2026-07-10T19:04:59Z",
   "id": "119-HCONRES-58",
   "lastActionDate": "2025-12-01",
   "lastRecordedVoteDate": "2025-11-21T15:59:21Z"

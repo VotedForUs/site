@@ -696,6 +696,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:38:25Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -750,8 +760,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-08T16:38:59Z",
-  "updateDateIncludingText": "2026-07-08T16:38:59Z",
+  "updateDate": "2026-07-11T02:38:25Z",
+  "updateDateIncludingText": "2026-07-11T02:38:25Z",
   "id": "119-HR-2701",
   "lastActionDate": "2025-12-09",
   "lastRecordedVoteDate": "2025-09-15"

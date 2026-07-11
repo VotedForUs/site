@@ -628,9 +628,19 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require that the Secretary of Agriculture and the Secretary of the Interior submit accurate reports regarding hazardous fuels reduction activities, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:08:27Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "ACRES Act",
+        "title": "Accurately Counting Risk Elimination Solutions Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-04T09:08:17Z"
@@ -638,7 +648,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Accurately Counting Risk Elimination Solutions Act",
+        "title": "ACRES Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-04T09:08:17Z"
@@ -700,8 +710,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-30T19:35:26Z",
-  "updateDateIncludingText": "2026-04-30T19:35:26Z",
+  "updateDate": "2026-07-10T19:08:27Z",
+  "updateDateIncludingText": "2026-07-10T19:08:27Z",
   "id": "119-HR-204",
   "lastActionDate": "2026-03-04",
   "lastRecordedVoteDate": "2025-01-21"

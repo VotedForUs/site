@@ -1259,6 +1259,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To rename the Gulf of Mexico as the \"Gulf of America\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:23:21Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -1313,8 +1323,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-10-09T03:26:12Z",
-  "updateDateIncludingText": "2025-10-09T03:26:12Z",
+  "updateDate": "2026-07-11T02:23:21Z",
+  "updateDateIncludingText": "2026-07-11T02:23:21Z",
   "id": "119-HR-276",
   "lastActionDate": "2025-05-12",
   "lastRecordedVoteDate": "2025-05-08T14:45:14Z"

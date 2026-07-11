@@ -2778,6 +2778,46 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Department of Defense Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Reported to House for portions of this bill",
+        "titleTypeCode": 107,
+        "updateDate": "2026-07-10T23:58:21Z"
+      },
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Department of Defense Appropriations Act, 2026",
+        "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 151,
+        "updateDate": "2026-07-10T23:58:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Making appropriations for the Department of Defense for the fiscal year ending September 30, 2026, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T23:58:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Department of Defense Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-10T23:58:20Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -2822,8 +2862,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-12T15:10:25Z",
-  "updateDateIncludingText": "2026-03-12T15:10:25Z",
+  "updateDate": "2026-07-10T23:58:21Z",
+  "updateDateIncludingText": "2026-07-10T23:58:21Z",
   "id": "119-HR-4016",
   "lastActionDate": "2025-12-08",
   "lastRecordedVoteDate": "2025-10-16T17:59:38Z"

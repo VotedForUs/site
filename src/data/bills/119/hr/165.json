@@ -874,12 +874,22 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/165/summaries?format=json"
   },
   "title": "Wounded Knee Massacre Memorial and Sacred Site Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of the Interior to complete all actions necessary for certain land to be held in restricted fee status by the Oglala Sioux Tribe and Cheyenne River Sioux Tribe, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T20:08:24Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -945,8 +955,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T22:00:51Z",
-  "updateDateIncludingText": "2026-06-09T22:00:51Z",
+  "updateDate": "2026-07-10T20:08:24Z",
+  "updateDateIncludingText": "2026-07-10T20:08:24Z",
   "id": "119-HR-165",
   "lastActionDate": "2025-12-19",
   "lastRecordedVoteDate": "2025-12-11"

@@ -1026,9 +1026,25 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hjres/89/summaries?format=json"
   },
-  "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The 'Omnibus' Low NOX Regulation; Waiver of Preemption; Notice of Decision\".",
+  "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The \"Omnibus\" Low NOX Regulation; Waiver of Preemption; Notice of Decision\".",
   "titles": {
     "titles": [
+      {
+        "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The \"Omnibus\" Low NOX Regulation; Waiver of Preemption; Notice of Decision\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:38:29Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The \"Omnibus\" Low NOX Regulation; Waiver of Preemption; Notice of Decision\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:38:22Z"
+      },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
@@ -1036,18 +1052,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-04-03T14:03:57Z"
-      },
-      {
-        "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The 'Omnibus' Low NOX Regulation; Waiver of Preemption; Notice of Decision\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-03T13:59:31Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-22T19:03:25Z",
-  "updateDateIncludingText": "2026-06-22T19:03:25Z",
+  "updateDate": "2026-07-10T15:38:29Z",
+  "updateDateIncludingText": "2026-07-10T19:06:23Z",
   "id": "119-HJRES-89",
   "lastActionDate": "2025-06-12",
   "lastRecordedVoteDate": "2025-05-22T18:59:23Z"

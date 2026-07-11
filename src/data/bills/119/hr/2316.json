@@ -937,6 +937,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Pittman-Robertson Wildlife Restoration Act to provide that interest on obligations held in the Federal aid to wildlife restoration fund shall become available for apportionment at the beginning of fiscal year 2033.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T03:23:19Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -1001,8 +1011,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-09T15:42:20Z",
-  "updateDateIncludingText": "2026-07-09T15:42:20Z",
+  "updateDate": "2026-07-11T03:23:19Z",
+  "updateDateIncludingText": "2026-07-11T03:23:19Z",
   "id": "119-HR-2316",
   "lastActionDate": "2025-11-25",
   "lastRecordedVoteDate": "2025-10-23"

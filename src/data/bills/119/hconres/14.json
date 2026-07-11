@@ -1606,7 +1606,17 @@
         "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-02-19T09:05:17Z"
+        "updateDate": "2026-07-10T14:58:31Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T14:58:29Z"
       },
       {
         "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
@@ -1617,8 +1627,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-20T02:06:17Z",
-  "updateDateIncludingText": "2026-06-20T02:06:17Z",
+  "updateDate": "2026-07-10T14:58:31Z",
+  "updateDateIncludingText": "2026-07-10T19:04:39Z",
   "id": "119-HCONRES-14",
   "lastActionDate": "2025-05-20",
   "lastRecordedVoteDate": "2025-04-10T15:11:09Z"

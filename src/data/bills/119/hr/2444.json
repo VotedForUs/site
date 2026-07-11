@@ -635,6 +635,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To establish a critical supply chain resiliency and crisis response program in the Department of Commerce, and to secure American leadership in deploying emerging technologies, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T03:08:26Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -689,8 +699,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-09T14:12:26Z",
-  "updateDateIncludingText": "2026-04-24T16:27:18Z",
+  "updateDate": "2026-07-11T03:08:26Z",
+  "updateDateIncludingText": "2026-07-11T03:08:26Z",
   "id": "119-HR-2444",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28"

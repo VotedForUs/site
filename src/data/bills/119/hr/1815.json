@@ -938,6 +938,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend title 38, United States Code, to authorize the Secretary of Veterans Affairs to take certain actions in the case of a default on a home loan guaranteed by the Secretary, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:43:25Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -1002,8 +1012,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-15T18:07:24Z",
-  "updateDateIncludingText": "2026-06-15T18:07:24Z",
+  "updateDate": "2026-07-10T19:43:25Z",
+  "updateDateIncludingText": "2026-07-10T19:43:25Z",
   "id": "119-HR-1815",
   "lastActionDate": "2025-07-30",
   "lastRecordedVoteDate": "2025-07-15"
