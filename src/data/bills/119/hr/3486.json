@@ -709,6 +709,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To amend the Immigration and Nationality Act to increase penalties for individuals who illegally enter and reenter the United States after being removed, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T00:58:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Stop Illegal Entry Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -749,8 +759,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:18Z",
-  "updateDateIncludingText": "2026-06-11T05:06:18Z",
+  "updateDate": "2026-07-11T00:58:24Z",
+  "updateDateIncludingText": "2026-07-11T00:58:24Z",
   "id": "119-HR-3486",
   "lastActionDate": "2025-09-15",
   "lastRecordedVoteDate": "2025-09-11T14:47:53Z"

@@ -2955,6 +2955,56 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2026, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T00:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Reported to House for portions of this bill",
+        "titleTypeCode": 107,
+        "updateDate": "2026-07-11T00:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-11T00:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Reported to Senate for portions of this bill",
+        "titleTypeCode": 108,
+        "updateDate": "2026-07-11T00:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-11T00:08:24Z"
+      },
+      {
         "billTextVersionCode": "EAS",
         "billTextVersionName": "Engrossed Amendment Senate",
         "title": "Legislative Branch Appropriations Act, 2026",
@@ -3041,8 +3091,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-12T15:08:46Z",
-  "updateDateIncludingText": "2026-03-12T15:08:46Z",
+  "updateDate": "2026-07-11T00:08:25Z",
+  "updateDateIncludingText": "2026-07-11T00:08:25Z",
   "id": "119-HR-3944",
   "lastActionDate": "2025-09-18",
   "lastRecordedVoteDate": "2025-09-11T14:40:05Z"

@@ -649,6 +649,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To direct the Secretary of Commerce to take actions necessary and appropriate to promote the competitiveness of the United States related to the deployment, use, application, and competitiveness of blockchain technology or other distributed ledger technology, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T20:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Deploying American Blockchains Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -689,8 +699,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-04T05:06:16Z",
-  "updateDateIncludingText": "2026-02-04T05:06:16Z",
+  "updateDate": "2026-07-10T20:08:24Z",
+  "updateDateIncludingText": "2026-07-10T20:08:24Z",
   "id": "119-HR-1664",
   "lastActionDate": "2025-06-24",
   "lastRecordedVoteDate": "2025-06-23"

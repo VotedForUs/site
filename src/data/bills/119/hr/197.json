@@ -619,6 +619,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for a land exchange in the Chippewa National Forest, Minnesota, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:23:34Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -673,8 +683,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-04T18:50:17Z",
-  "updateDateIncludingText": "2026-02-04T18:50:17Z",
+  "updateDate": "2026-07-10T19:23:34Z",
+  "updateDateIncludingText": "2026-07-11T07:34:33Z",
   "id": "119-HR-197",
   "lastActionDate": "2025-10-27",
   "lastRecordedVoteDate": "2025-01-21"

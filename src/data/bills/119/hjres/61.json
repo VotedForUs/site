@@ -1026,24 +1026,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:38:29Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:38:21Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-02-26T11:18:20Z"
-      },
-      {
-        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-26T09:06:27Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-09T15:52:02Z",
-  "updateDateIncludingText": "2026-06-09T15:52:02Z",
+  "updateDate": "2026-07-10T15:38:29Z",
+  "updateDateIncludingText": "2026-07-10T19:06:11Z",
   "id": "119-HJRES-61",
   "lastActionDate": "2025-05-23",
   "lastRecordedVoteDate": "2025-05-06T16:26:40Z"

@@ -262,9 +262,25 @@
   "number": "22",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Authorizing the use of Emancipation Hall in the Capitol Visitor Center for a ceremony to present the Congressional Gold Medals awarded under the 'Six Triple Eight' Congressional Gold Medal Act of 2021.",
+  "title": "Authorizing the use of Emancipation Hall in the Capitol Visitor Center for a ceremony to present the Congressional Gold Medals awarded under the ‘Six Triple Eight’ Congressional Gold Medal Act of 2021.",
   "titles": {
     "titles": [
+      {
+        "title": "Authorizing the use of Emancipation Hall in the Capitol Visitor Center for a ceremony to present the Congressional Gold Medals awarded under the ‘Six Triple Eight’ Congressional Gold Medal Act of 2021.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:13:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Authorizing the use of Emancipation Hall in the Capitol Visitor Center for a ceremony to present the Congressional Gold Medals awarded under the ‘Six Triple Eight’ Congressional Gold Medal Act of 2021.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:13:20Z"
+      },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
@@ -272,18 +288,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-04-01T08:18:33Z"
-      },
-      {
-        "title": "Authorizing the use of Emancipation Hall in the Capitol Visitor Center for a ceremony to present the Congressional Gold Medals awarded under the 'Six Triple Eight' Congressional Gold Medal Act of 2021.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-01T08:06:48Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-06-16T15:14:17Z",
-  "updateDateIncludingText": "2026-06-16T15:14:17Z",
+  "updateDate": "2026-07-10T15:13:23Z",
+  "updateDateIncludingText": "2026-07-10T19:04:41Z",
   "id": "119-HCONRES-22",
   "lastActionDate": "2025-04-14",
   "lastRecordedVoteDate": "2025-04-10"

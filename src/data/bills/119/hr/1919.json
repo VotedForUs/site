@@ -688,6 +688,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To amend the Federal Reserve Act to prohibit the Federal reserve banks from offering certain products or services directly to an individual, to prohibit the use of central bank digital currency for monetary policy, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:28:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Anti-CBDC Surveillance State Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -728,8 +738,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-01T03:36:20Z",
-  "updateDateIncludingText": "2026-05-01T03:36:20Z",
+  "updateDate": "2026-07-10T19:28:27Z",
+  "updateDateIncludingText": "2026-07-11T05:21:23Z",
   "id": "119-HR-1919",
   "lastActionDate": "2025-07-17",
   "lastRecordedVoteDate": "2025-07-17T20:02:01Z"

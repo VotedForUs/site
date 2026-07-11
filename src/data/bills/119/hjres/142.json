@@ -1015,6 +1015,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:23:28Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -1031,18 +1037,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-01-23T09:18:23Z"
-      },
-      {
-        "title": "Disapproving the action of the District of Columbia Council in approving the D.C. Income and Franchise Tax Conformity and Revision Temporary Amendment Act of 2025.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-01-23T09:06:28Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-11T23:26:32Z",
-  "updateDateIncludingText": "2026-06-11T23:26:32Z",
+  "updateDate": "2026-07-10T15:23:28Z",
+  "updateDateIncludingText": "2026-07-10T19:05:36Z",
   "id": "119-HJRES-142",
   "lastActionDate": "2026-02-18",
   "lastRecordedVoteDate": "2026-02-12T18:03:28Z"

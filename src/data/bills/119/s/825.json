@@ -252,6 +252,10 @@
   "number": "825",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/825/summaries?format=json"
+  },
   "title": "Fighting Post-Traumatic Stress Disorder Act of 2025",
   "titles": {
     "titles": [
@@ -300,8 +304,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-23T02:50:34Z",
-  "updateDateIncludingText": "2026-06-23T02:50:34Z",
+  "updateDate": "2026-07-10T17:41:46Z",
+  "updateDateIncludingText": "2026-07-10T17:41:46Z",
   "id": "119-S-825",
   "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-10"

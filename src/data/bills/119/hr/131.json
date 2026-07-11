@@ -1484,6 +1484,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To make certain modifications to the repayment for the Arkansas Valley Conduit in the State of Colorado.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T16:38:24Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -1548,8 +1558,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-05T12:25:58Z",
-  "updateDateIncludingText": "2026-05-05T12:25:58Z",
+  "updateDate": "2026-07-10T16:38:24Z",
+  "updateDateIncludingText": "2026-07-10T19:08:47Z",
   "id": "119-HR-131",
   "lastActionDate": "2026-01-08",
   "lastRecordedVoteDate": "2026-01-08T20:24:05Z"

@@ -1026,24 +1026,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:43:35Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:43:29Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-02-13T09:18:28Z"
-      },
-      {
-        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program for Appliance Standards: Certification Requirements, Labeling Requirements, and Enforcement Provisions for Certain Consumer Products and Commercial Equipment\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-13T09:05:54Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-09T14:32:26Z",
-  "updateDateIncludingText": "2026-06-09T14:32:26Z",
+  "updateDate": "2026-07-10T15:43:35Z",
+  "updateDateIncludingText": "2026-07-10T19:06:03Z",
   "id": "119-HJRES-42",
   "lastActionDate": "2025-05-09",
   "lastRecordedVoteDate": "2025-04-30T16:03:56Z"

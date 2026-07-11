@@ -649,6 +649,26 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To require online dating service providers to provide fraud ban notifications to online dating service members, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:58:23Z"
+      },
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Romance Scam Prevention Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-06-24T14:23:29Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Romance Scam Prevention Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -689,8 +709,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-18T15:22:30Z",
-  "updateDateIncludingText": "2026-06-18T15:22:30Z",
+  "updateDate": "2026-07-11T02:58:23Z",
+  "updateDateIncludingText": "2026-07-11T02:58:23Z",
   "id": "119-HR-2481",
   "lastActionDate": "2026-06-17",
   "lastRecordedVoteDate": "2025-06-23"

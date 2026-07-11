@@ -807,6 +807,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:23:28Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -823,18 +829,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-11-05T10:48:16Z"
-      },
-      {
-        "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-11-05T09:05:44Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-15T18:55:35Z",
-  "updateDateIncludingText": "2026-06-15T18:55:35Z",
+  "updateDate": "2026-07-10T15:23:28Z",
+  "updateDateIncludingText": "2026-07-10T19:05:31Z",
   "id": "119-HJRES-133",
   "lastActionDate": "2025-12-02",
   "lastRecordedVoteDate": "2025-11-20"

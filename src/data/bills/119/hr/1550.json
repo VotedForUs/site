@@ -596,6 +596,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To redesignate Saratoga National Historical Park as Saratoga National Battlefield Park.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T20:23:21Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -640,8 +650,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-24T15:50:26Z",
-  "updateDateIncludingText": "2026-02-24T15:50:26Z",
+  "updateDate": "2026-07-10T20:23:21Z",
+  "updateDateIncludingText": "2026-07-10T20:23:21Z",
   "id": "119-HR-1550",
   "lastActionDate": "2026-02-04",
   "lastRecordedVoteDate": "2025-05-13"

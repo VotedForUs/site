@@ -639,6 +639,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To require SelectUSA to coordinate with State-level economic development organizations to increase foreign direct investment in semiconductor-related manufacturing and production.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:58:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Securing Semiconductor Supply Chains Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -679,8 +689,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-10-09T03:26:14Z",
-  "updateDateIncludingText": "2025-10-09T03:26:14Z",
+  "updateDate": "2026-07-11T02:58:23Z",
+  "updateDateIncludingText": "2026-07-11T02:58:23Z",
   "id": "119-HR-2480",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28"

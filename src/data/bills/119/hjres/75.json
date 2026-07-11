@@ -1016,24 +1016,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T15:38:29Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T15:38:22Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-03-11T08:48:23Z"
-      },
-      {
-        "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-11T08:07:07Z"
       }
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-06-09T15:51:30Z",
-  "updateDateIncludingText": "2026-06-09T15:51:30Z",
+  "updateDate": "2026-07-10T15:38:29Z",
+  "updateDateIncludingText": "2026-07-10T19:06:16Z",
   "id": "119-HJRES-75",
   "lastActionDate": "2025-05-09",
   "lastRecordedVoteDate": "2025-05-01T15:52:55Z"

@@ -663,6 +663,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require a strategy to oppose foreign assistance by foreign countries and nongovernmental organizations to the Taliban, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:43:23Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -725,8 +735,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-15T16:20:22Z",
-  "updateDateIncludingText": "2026-04-15T16:20:22Z",
+  "updateDate": "2026-07-11T02:43:23Z",
+  "updateDateIncludingText": "2026-07-11T02:43:23Z",
   "id": "119-HR-260",
   "lastActionDate": "2026-02-10",
   "lastRecordedVoteDate": "2025-06-23"

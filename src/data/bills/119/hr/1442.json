@@ -684,9 +684,25 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/1442/summaries?format=json"
   },
-  "title": "Youth Poisoning Protection Act",
+  "title": "To ban the sale of products with a high concentration of sodium nitrite to individuals, and for other purposes.",
   "titles": {
     "titles": [
+      {
+        "title": "To ban the sale of products with a high concentration of sodium nitrite to individuals, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T20:39:16Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To ban the sale of products with a high concentration of sodium nitrite to individuals, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T20:38:23Z"
+      },
       {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
@@ -706,12 +722,6 @@
         "updateDate": "2025-04-29T08:06:16Z"
       },
       {
-        "title": "Youth Poisoning Protection Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-25T04:23:20Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -724,8 +734,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-12-05T21:41:49Z",
-  "updateDateIncludingText": "2025-12-05T21:41:49Z",
+  "updateDate": "2026-07-10T20:39:16Z",
+  "updateDateIncludingText": "2026-07-10T20:39:16Z",
   "id": "119-HR-1442",
   "lastActionDate": "2025-07-16",
   "lastRecordedVoteDate": "2025-04-29T21:29:01Z"

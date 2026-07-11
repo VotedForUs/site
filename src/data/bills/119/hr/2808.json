@@ -864,6 +864,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Fair Credit Reporting Act to prevent consumer reporting agencies from furnishing consumer reports under certain circumstances, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:23:23Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -928,8 +938,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-23T19:57:55Z",
-  "updateDateIncludingText": "2026-06-23T19:57:55Z",
+  "updateDate": "2026-07-11T02:23:23Z",
+  "updateDateIncludingText": "2026-07-11T02:23:23Z",
   "id": "119-HR-2808",
   "lastActionDate": "2025-09-05",
   "lastRecordedVoteDate": "2025-08-02"

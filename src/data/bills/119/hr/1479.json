@@ -635,6 +635,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To prohibit unfair and deceptive advertising of prices for hotel rooms and other places of short-term lodging, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T20:28:20Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -689,8 +699,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:43Z",
-  "updateDateIncludingText": "2026-06-11T23:26:43Z",
+  "updateDate": "2026-07-10T20:28:20Z",
+  "updateDateIncludingText": "2026-07-10T20:28:20Z",
   "id": "119-HR-1479",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28"

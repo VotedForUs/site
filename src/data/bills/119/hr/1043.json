@@ -916,6 +916,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of the Interior to convey certain Federal land in Arizona to La Paz County, Arizona, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T17:08:28Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -980,8 +990,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-16T12:34:11Z",
-  "updateDateIncludingText": "2026-06-16T12:34:11Z",
+  "updateDate": "2026-07-10T17:08:28Z",
+  "updateDateIncludingText": "2026-07-10T19:06:55Z",
   "id": "119-HR-1043",
   "lastActionDate": "2026-02-11",
   "lastRecordedVoteDate": "2025-12-16"

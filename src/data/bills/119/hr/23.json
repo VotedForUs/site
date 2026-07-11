@@ -821,6 +821,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To impose sanctions with respect to the International Criminal Court engaged in any effort to investigate, arrest, detain, or prosecute any protected person of the United States and its allies.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T03:08:24Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -865,8 +875,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-12T15:02:10Z",
-  "updateDateIncludingText": "2026-03-12T15:02:10Z",
+  "updateDate": "2026-07-11T03:08:24Z",
+  "updateDateIncludingText": "2026-07-11T03:08:24Z",
   "id": "119-HR-23",
   "lastActionDate": "2025-01-28",
   "lastRecordedVoteDate": "2025-01-28T19:47:29Z"

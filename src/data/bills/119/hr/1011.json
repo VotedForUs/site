@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 12,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/1011/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-14",
@@ -601,9 +609,8 @@
   "congress": 119,
   "introducedDate": "2025-02-05",
   "latestAction": {
-    "actionDate": "2026-04-14",
-    "actionTime": "19:00:35",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-15",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1011",
   "number": "1011",
@@ -621,9 +628,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Agricultural Credit Act of 1978 to remove barriers to agricultural producers in accessing funds to carry out emergency measures under the emergency conservation program, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Emergency Conservation Program Improvement Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-04-16T03:38:23Z"
       },
       {
@@ -631,9 +638,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Emergency Conservation Program Improvement Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend the Agricultural Credit Act of 1978 to remove barriers to agricultural producers in accessing funds to carry out emergency measures under the emergency conservation program, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-04-16T03:38:23Z"
       },
       {
@@ -661,9 +668,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-16T03:38:23Z",
-  "updateDateIncludingText": "2026-04-16T07:03:34Z",
+  "updateDate": "2026-04-16T10:56:33Z",
+  "updateDateIncludingText": "2026-07-10T19:06:33Z",
   "id": "119-HR-1011",
-  "lastActionDate": "2026-04-14",
+  "lastActionDate": "2026-04-15",
   "lastRecordedVoteDate": "2026-04-14T23:00:33Z"
 }

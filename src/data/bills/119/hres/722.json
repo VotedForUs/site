@@ -1100,9 +1100,25 @@
   "number": "722",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Providing for consideration of the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles \"Charlie\" James Kirk; and for other purposes.",
+  "title": "Providing for consideration of the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles Charlie James Kirk; and for other purposes.",
   "titles": {
     "titles": [
+      {
+        "title": "Providing for consideration of the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles Charlie James Kirk; and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-10T14:58:30Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles \"Charlie\" James Kirk; and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T14:58:28Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -1115,12 +1131,6 @@
       },
       {
         "title": "Providing for consideration of the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles \"Charlie\" James Kirk; and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-09-17T08:07:02Z"
-      },
-      {
-        "title": "Providing for consideration of the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes; providing for consideration of the resolution (H. Res. 719) honoring the life and legacy of Charles \"Charlie\" James Kirk; and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-09-17T08:07:02Z"
@@ -1128,8 +1138,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-02-27T09:06:54Z",
-  "updateDateIncludingText": "2026-02-27T09:06:54Z",
+  "updateDate": "2026-07-10T14:58:30Z",
+  "updateDateIncludingText": "2026-07-10T19:04:23Z",
   "id": "119-HRES-722",
   "lastActionDate": "2025-09-17",
   "lastRecordedVoteDate": "2025-09-17T22:05:22Z"

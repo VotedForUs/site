@@ -641,6 +641,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To require certain products to be labeled with \"Do Not Flush\" labeling, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T03:23:17Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "WIPPES Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -709,8 +719,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-04T04:26:32Z",
-  "updateDateIncludingText": "2026-02-04T04:26:32Z",
+  "updateDate": "2026-07-11T03:23:17Z",
+  "updateDateIncludingText": "2026-07-11T03:23:17Z",
   "id": "119-HR-2269",
   "lastActionDate": "2025-06-24",
   "lastRecordedVoteDate": "2025-06-23"

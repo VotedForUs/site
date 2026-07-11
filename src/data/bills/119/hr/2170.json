@@ -842,7 +842,17 @@
         "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Toms River, New Jersey, the Leonard G. 'Bud' Lomell, VA Clinic, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:13:02Z"
+        "updateDate": "2026-07-10T18:53:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Toms River, New Jersey, the Leonard G. 'Bud' Lomell, VA Clinic, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T18:53:21Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -855,8 +865,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-09-17T19:20:42Z",
-  "updateDateIncludingText": "2025-09-17T19:20:42Z",
+  "updateDate": "2026-07-10T18:53:39Z",
+  "updateDateIncludingText": "2026-07-10T19:04:02Z",
   "id": "119-HR-2170",
   "lastActionDate": "2025-09-05",
   "lastRecordedVoteDate": "2025-08-02"
