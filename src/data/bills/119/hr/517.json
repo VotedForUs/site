@@ -916,6 +916,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to modify the rules for postponing certain deadlines by reason of disaster.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T15:53:21Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -980,8 +990,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-17T13:05:34Z",
-  "updateDateIncludingText": "2026-06-17T13:05:34Z",
+  "updateDate": "2026-07-11T15:53:21Z",
+  "updateDateIncludingText": "2026-07-11T15:53:21Z",
   "id": "119-HR-517",
   "lastActionDate": "2025-07-24",
   "lastRecordedVoteDate": "2025-07-10"

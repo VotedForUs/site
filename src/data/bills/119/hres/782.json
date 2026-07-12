@@ -567,6 +567,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Expressing condolences and support for the victims of the July 4 flooding in Texas, honoring acts of heroism, and committing to stand with those impacted by these floods.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T20:24:35Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -583,18 +589,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-10-01T08:48:27Z"
-      },
-      {
-        "title": "Expressing condolences and support for the victims of the July 4 flooding in Texas, honoring acts of heroism, and committing to stand with those impacted by these floods.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-01T08:06:13Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-11-19T20:14:08Z",
-  "updateDateIncludingText": "2025-11-19T20:14:08Z",
+  "updateDate": "2026-07-11T20:24:35Z",
+  "updateDateIncludingText": "2026-07-11T20:24:35Z",
   "id": "119-HRES-782",
   "lastActionDate": "2025-11-17",
   "lastRecordedVoteDate": "2025-11-17"

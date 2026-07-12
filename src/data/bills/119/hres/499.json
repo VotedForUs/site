@@ -1085,7 +1085,17 @@
         "title": "Providing for consideration of the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-06-12T08:07:11Z"
+        "updateDate": "2026-07-11T20:54:32Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T20:53:22Z"
       },
       {
         "title": "Providing for consideration of the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974, and for other purposes.",
@@ -1096,8 +1106,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-10-09T03:26:22Z",
-  "updateDateIncludingText": "2025-10-09T03:26:22Z",
+  "updateDate": "2026-07-11T20:54:32Z",
+  "updateDateIncludingText": "2026-07-11T20:54:32Z",
   "id": "119-HRES-499",
   "lastActionDate": "2025-06-11",
   "lastRecordedVoteDate": "2025-06-11T20:51:06Z"

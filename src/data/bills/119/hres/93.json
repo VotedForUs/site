@@ -1110,7 +1110,17 @@
         "title": "Providing for consideration of the bill (H.R. 27) to amend the Controlled Substances Act with respect to the scheduling of fentanyl-related substances, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-02-05T09:06:15Z"
+        "updateDate": "2026-07-11T20:09:46Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 27) to amend the Controlled Substances Act with respect to the scheduling of fentanyl-related substances, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T20:08:20Z"
       },
       {
         "title": "Providing for consideration of the bill (H.R. 27) to amend the Controlled Substances Act with respect to the scheduling of fentanyl-related substances, and for other purposes.",
@@ -1121,8 +1131,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-29T19:29:12Z",
-  "updateDateIncludingText": "2026-06-29T19:29:12Z",
+  "updateDate": "2026-07-11T20:09:46Z",
+  "updateDateIncludingText": "2026-07-11T20:09:46Z",
   "id": "119-HRES-93",
   "lastActionDate": "2025-02-05",
   "lastRecordedVoteDate": "2025-02-05T21:59:52Z"

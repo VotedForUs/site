@@ -1572,6 +1572,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Miccosukee Reserved Area Act to authorize the expansion of the Miccosukee Reserved Area and to carry out activities to protect structures within the Osceola Camp from flooding, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T15:58:18Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -1636,8 +1646,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-04T05:06:22Z",
-  "updateDateIncludingText": "2026-02-04T05:06:22Z",
+  "updateDate": "2026-07-11T15:58:18Z",
+  "updateDateIncludingText": "2026-07-11T15:58:18Z",
   "id": "119-HR-504",
   "lastActionDate": "2026-01-08",
   "lastRecordedVoteDate": "2026-01-08T20:17:52Z"

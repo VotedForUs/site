@@ -730,6 +730,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To award 3 Congressional Gold Medals to the members of the 1980 U.S. Olympic Men’s Ice Hockey Team, in recognition of their extraordinary achievement at the 1980 Winter Olympics where, being comprised of amateur collegiate players, they defeated the dominant Soviet hockey team in the historic \"Miracle on Ice\", revitalizing American morale at the height of the Cold War, inspiring generations and transforming the sport of hockey in the United States.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T16:38:23Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -792,8 +802,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T23:09:01Z",
-  "updateDateIncludingText": "2026-06-09T23:09:01Z",
+  "updateDate": "2026-07-11T16:38:23Z",
+  "updateDateIncludingText": "2026-07-11T16:38:23Z",
   "id": "119-HR-452",
   "lastActionDate": "2025-12-12",
   "lastRecordedVoteDate": "2025-04-28"

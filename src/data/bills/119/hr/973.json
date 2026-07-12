@@ -673,6 +673,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To establish consumer standards for lithium-ion batteries.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T22:08:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Setting Consumer Standards for Lithium-Ion Batteries Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -713,8 +723,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-11-27T23:13:54Z",
-  "updateDateIncludingText": "2025-11-27T23:13:54Z",
+  "updateDate": "2026-07-11T22:08:20Z",
+  "updateDateIncludingText": "2026-07-11T22:08:20Z",
   "id": "119-HR-973",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28T22:57:02Z"

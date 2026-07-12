@@ -639,6 +639,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To direct the Secretary of Commerce, acting through the Assistant Secretary of Commerce for Communications and Information, to conduct a study of the national security risks posed by consumer routers, modems, and devices that combine a modem and router, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T23:43:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "ROUTERS Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
@@ -707,8 +717,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-12-05T21:42:50Z",
-  "updateDateIncludingText": "2025-12-05T21:42:50Z",
+  "updateDate": "2026-07-11T23:43:22Z",
+  "updateDateIncludingText": "2026-07-12T06:54:14Z",
   "id": "119-HR-866",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28"

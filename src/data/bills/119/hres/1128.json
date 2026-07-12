@@ -623,6 +623,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Expressing the support of the House of Representatives for the Department of Homeland Security.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T21:54:20Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -639,18 +645,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-03-21T08:18:24Z"
-      },
-      {
-        "title": "Expressing the support of the House of Representatives for the Department of Homeland Security.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-21T08:05:53Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-11T23:26:44Z",
-  "updateDateIncludingText": "2026-06-11T23:26:44Z",
+  "updateDate": "2026-07-11T21:54:20Z",
+  "updateDateIncludingText": "2026-07-11T21:54:20Z",
   "id": "119-HRES-1128",
   "lastActionDate": "2026-03-26",
   "lastRecordedVoteDate": "2026-03-26T19:12:04Z"

@@ -1235,6 +1235,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Reported to House for portions of this bill",
+        "titleTypeCode": 107,
+        "updateDate": "2026-07-11T23:43:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-11T23:43:21Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -1279,8 +1299,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-30T16:05:51Z",
-  "updateDateIncludingText": "2026-06-30T16:05:51Z",
+  "updateDate": "2026-07-11T23:43:22Z",
+  "updateDateIncludingText": "2026-07-12T06:54:03Z",
   "id": "119-HR-8646",
   "lastActionDate": "2026-06-08",
   "lastRecordedVoteDate": "2026-06-04T22:09:40Z"

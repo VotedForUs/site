@@ -829,12 +829,22 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/43/summaries?format=json"
   },
   "title": "Alaska Native Village Municipal Lands Restoration Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Alaska Native Claims Settlement Act to provide that Village Corporations shall not be required to convey land in trust to the State of Alaska for the establishment of Municipal Corporations, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T16:53:22Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -880,8 +890,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:05:19Z",
-  "updateDateIncludingText": "2026-03-31T20:05:19Z",
+  "updateDate": "2026-07-11T16:53:22Z",
+  "updateDateIncludingText": "2026-07-11T16:53:22Z",
   "id": "119-HR-43",
   "lastActionDate": "2025-07-07",
   "lastRecordedVoteDate": "2025-06-18"

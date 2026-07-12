@@ -850,12 +850,22 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/983/summaries?format=json"
   },
   "title": "Montgomery GI Bill Selected Reserves Tuition Fairness Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To Amend title 38, United States Code, to direct the Secretary of Veterans Affairs to disapprove courses of education offered by a public institution of higher learning that does not charge the in-State tuition rate to a veteran using certain educational assistance under title 10 of such Code, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T22:08:21Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -911,8 +921,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:19:35Z",
-  "updateDateIncludingText": "2026-03-31T20:19:35Z",
+  "updateDate": "2026-07-11T22:08:21Z",
+  "updateDateIncludingText": "2026-07-11T22:08:21Z",
   "id": "119-HR-983",
   "lastActionDate": "2025-12-12",
   "lastRecordedVoteDate": "2025-11-20"

@@ -567,6 +567,12 @@
   "titles": {
     "titles": [
       {
+        "title": "A resolution honoring the service and sacrifice of United States Army Specialist Sarah Beckstrom and United States Air Force Staff Sergeant Andrew Wolfe, who were tragically shot in Washington, D.C., in a targeted assault against United States service members on November 26, 2025.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T20:14:40Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -583,18 +589,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-12-04T09:18:29Z"
-      },
-      {
-        "title": "A resolution honoring the service and sacrifice of United States Army Specialist Sarah Beckstrom and United States Air Force Staff Sergeant Andrew Wolfe, who were tragically shot in Washington, D.C., in a targeted assault against United States service members on November 26, 2025.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-04T09:06:27Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-12-17T15:51:20Z",
-  "updateDateIncludingText": "2025-12-17T15:51:20Z",
+  "updateDate": "2026-07-11T20:14:40Z",
+  "updateDateIncludingText": "2026-07-11T20:14:40Z",
   "id": "119-HRES-923",
   "lastActionDate": "2025-12-15",
   "lastRecordedVoteDate": "2025-12-15"

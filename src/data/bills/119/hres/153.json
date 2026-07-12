@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 10,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/hres/153/actions?format=json",
     "actions": [
       {
@@ -601,24 +601,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Expressing condolences to the families, friends, and loved ones of the victims of the crash of American Eagle Flight 5342 and PAT 25, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T21:24:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Expressing condolences to the families, friends, and loved ones of the victims of the crash of American Eagle Flight 5342 and PAT 25, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T21:23:19Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Expressing condolences to the families, friends, and loved ones of the victims of the crash of American Eagle Flight 5342 and PAT 25, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-02-25T09:33:44Z"
-      },
-      {
-        "title": "Expressing condolences to the families, friends, and loved ones of the victims of the crash of American Eagle Flight 5342 and PAT 25, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-25T09:05:29Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-06-06T14:17:56Z",
-  "updateDateIncludingText": "2025-06-06T14:17:56Z",
+  "updateDate": "2026-07-11T21:24:26Z",
+  "updateDateIncludingText": "2026-07-11T21:24:26Z",
   "id": "119-HRES-153",
   "lastActionDate": "2025-03-03",
   "lastRecordedVoteDate": "2025-03-03"

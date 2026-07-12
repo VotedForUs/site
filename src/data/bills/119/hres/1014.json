@@ -1106,6 +1106,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing for consideration of the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T22:09:33Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -1117,12 +1123,6 @@
       },
       {
         "title": "Providing for consideration of the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-01-23T09:06:38Z"
-      },
-      {
-        "title": "Providing for consideration of the bill (H.R. 7148) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; providing for consideration of the bill (H.R. 7147) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes; and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-01-23T09:06:38Z"
@@ -1130,8 +1130,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-03T08:09:20Z",
-  "updateDateIncludingText": "2026-07-03T08:09:20Z",
+  "updateDate": "2026-07-11T22:09:33Z",
+  "updateDateIncludingText": "2026-07-11T22:09:33Z",
   "id": "119-HRES-1014",
   "lastActionDate": "2026-01-22",
   "lastRecordedVoteDate": "2026-01-22T16:52:32Z"

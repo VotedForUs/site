@@ -699,9 +699,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Made in America Manufacturing Finance Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To increase loan limits for loans made to small manufacturers, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-03T04:38:19Z"
       },
       {
@@ -709,16 +709,10 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To increase loan limits for loans made to small manufacturers, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2025-12-03T04:38:19Z"
-      },
-      {
         "title": "Made in America Manufacturing Finance Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-08-16T03:53:18Z"
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-12-03T04:38:19Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -728,6 +722,12 @@
         "title": "Made in America Manufacturing Finance Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
+        "updateDate": "2025-08-16T03:53:18Z"
+      },
+      {
+        "title": "Made in America Manufacturing Finance Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
         "updateDate": "2025-08-16T03:53:18Z"
       },
       {
@@ -750,7 +750,7 @@
   },
   "type": "HR",
   "updateDate": "2026-05-14T10:56:38Z",
-  "updateDateIncludingText": "2026-05-14T10:56:38Z",
+  "updateDateIncludingText": "2026-07-12T00:42:36Z",
   "id": "119-HR-3174",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2025-12-01"

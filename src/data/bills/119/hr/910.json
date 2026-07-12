@@ -649,6 +649,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Secretary of the Treasury to pursue more equitable treatment of Taiwan at the international financial institutions, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T22:58:23Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -703,8 +713,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-13T22:46:34Z",
-  "updateDateIncludingText": "2026-05-13T22:46:34Z",
+  "updateDate": "2026-07-11T22:58:23Z",
+  "updateDateIncludingText": "2026-07-11T22:58:23Z",
   "id": "119-HR-910",
   "lastActionDate": "2025-06-24",
   "lastRecordedVoteDate": "2025-06-23"
