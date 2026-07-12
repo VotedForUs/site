@@ -641,9 +641,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To establish an interest-bearing account for the non-Federal contributions to the Lower Colorado River Multi-Species Conservation Program, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Lower Colorado River Multi-Species Conservation Program Amendment Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-18T03:08:21Z"
       },
       {
@@ -651,9 +651,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Lower Colorado River Multi-Species Conservation Program Amendment Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To establish an interest-bearing account for the non-Federal contributions to the Lower Colorado River Multi-Species Conservation Program, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-18T03:08:21Z"
       },
       {
@@ -692,7 +692,7 @@
   },
   "type": "HR",
   "updateDate": "2026-03-18T10:56:36Z",
-  "updateDateIncludingText": "2026-03-18T10:56:36Z",
+  "updateDateIncludingText": "2026-07-12T06:51:28Z",
   "id": "119-HR-831",
   "lastActionDate": "2026-03-17",
   "lastRecordedVoteDate": "2026-03-16"

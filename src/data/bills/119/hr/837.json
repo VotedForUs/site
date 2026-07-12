@@ -596,24 +596,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To require the Secretary of Agriculture to convey the Pleasant Valley Ranger District Administrative Site to Gila County, Arizona.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T10:23:50Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Secretary of Agriculture to convey the Pleasant Valley Ranger District Administrative Site to Gila County, Arizona.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T10:23:20Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To require the Secretary of Agriculture to convey the Pleasant Valley Ranger District Administrative Site to Gila County, Arizona.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-02-01T09:18:21Z"
-      },
-      {
-        "title": "To require the Secretary of Agriculture to convey the Pleasant Valley Ranger District Administrative Site to Gila County, Arizona.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-01T09:05:52Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-25T20:35:25Z",
-  "updateDateIncludingText": "2026-02-25T20:35:25Z",
+  "updateDate": "2026-07-11T10:23:50Z",
+  "updateDateIncludingText": "2026-07-12T06:51:52Z",
   "id": "119-HR-837",
   "lastActionDate": "2026-02-04",
   "lastRecordedVoteDate": "2025-02-05"

@@ -828,6 +828,12 @@
   "titles": {
     "titles": [
       {
+        "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T10:29:20Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -839,12 +845,6 @@
       },
       {
         "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-04-17T13:49:19Z"
-      },
-      {
-        "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-04-17T13:49:19Z"
@@ -852,8 +852,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-04T20:56:31Z",
-  "updateDateIncludingText": "2026-05-04T20:56:31Z",
+  "updateDate": "2026-07-11T10:29:20Z",
+  "updateDateIncludingText": "2026-07-12T06:51:29Z",
   "id": "119-HR-8322",
   "lastActionDate": "2026-04-18",
   "lastRecordedVoteDate": "2026-04-17"

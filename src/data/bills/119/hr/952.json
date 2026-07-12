@@ -611,6 +611,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To convey the reversionary interest of the United States in certain land in Sacramento, California.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T22:23:20Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -655,8 +665,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-05T11:56:30Z",
-  "updateDateIncludingText": "2026-03-05T11:56:30Z",
+  "updateDate": "2026-07-11T22:23:20Z",
+  "updateDateIncludingText": "2026-07-11T22:23:20Z",
   "id": "119-HR-952",
   "lastActionDate": "2026-03-04",
   "lastRecordedVoteDate": "2025-05-13"

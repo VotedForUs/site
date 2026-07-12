@@ -657,6 +657,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To establish a process to expedite the review of appeals of certain decisions by the Department of the Interior.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T12:58:24Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -681,7 +691,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Expedited Appeals Review Act",
+        "title": "EARA",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-05-15T03:38:24Z"
@@ -691,7 +701,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "EARA",
+        "title": "Expedited Appeals Review Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-05-15T03:38:24Z"
@@ -749,8 +759,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-17T14:23:39Z",
-  "updateDateIncludingText": "2026-06-17T14:23:39Z",
+  "updateDate": "2026-07-11T12:58:24Z",
+  "updateDateIncludingText": "2026-07-11T12:58:24Z",
   "id": "119-HR-677",
   "lastActionDate": "2026-02-12",
   "lastRecordedVoteDate": "2025-05-13"

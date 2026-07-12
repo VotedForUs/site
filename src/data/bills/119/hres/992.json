@@ -1106,6 +1106,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T20:09:47Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -1117,12 +1123,6 @@
       },
       {
         "title": "Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-01-14T09:06:59Z"
-      },
-      {
-        "title": "Providing for consideration of the bill (H.R. 7006) making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-01-14T09:06:59Z"
@@ -1130,8 +1130,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-11T05:06:21Z",
-  "updateDateIncludingText": "2026-06-11T05:06:21Z",
+  "updateDate": "2026-07-11T20:09:47Z",
+  "updateDateIncludingText": "2026-07-11T20:09:47Z",
   "id": "119-HRES-992",
   "lastActionDate": "2026-01-14",
   "lastRecordedVoteDate": "2026-01-14T19:03:24Z"

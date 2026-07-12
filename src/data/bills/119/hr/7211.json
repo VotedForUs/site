@@ -828,6 +828,12 @@
   "titles": {
     "titles": [
       {
+        "title": "To authorize the President to award the Medal of Honor to John W. Ripley for acts of valor during the Vietnam War, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T12:14:23Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -844,18 +850,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-02-04T04:18:16Z"
-      },
-      {
-        "title": "To authorize the President to award the Medal of Honor to John W. Ripley for acts of valor during the Vietnam War, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-01-23T09:06:59Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:44Z",
-  "updateDateIncludingText": "2026-06-11T23:26:44Z",
+  "updateDate": "2026-07-11T12:14:23Z",
+  "updateDateIncludingText": "2026-07-11T12:14:23Z",
   "id": "119-HR-7211",
   "lastActionDate": "2026-03-26",
   "lastRecordedVoteDate": "2026-03-03"

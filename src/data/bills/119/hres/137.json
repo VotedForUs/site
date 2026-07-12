@@ -664,6 +664,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Resolution designating the House Press Gallery (Rooms H–315, H–316, H–317, H–318, and H–319 of the United States Capitol) as the \"Frederick Douglass Press Gallery\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T21:28:22Z"
+      },
+      {
         "title": "Resolution designating the House Press Gallery (Rooms H-315, H-316, H-317, H-318, and H-319 in the United States Capitol) as the 'Frederick Douglass Press Gallery’",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -688,8 +698,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-10-09T03:26:23Z",
-  "updateDateIncludingText": "2025-10-09T03:26:23Z",
+  "updateDate": "2026-07-11T21:28:22Z",
+  "updateDateIncludingText": "2026-07-11T21:28:22Z",
   "id": "119-HRES-137",
   "lastActionDate": "2025-06-09",
   "lastRecordedVoteDate": "2025-06-09"

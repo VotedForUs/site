@@ -669,6 +669,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the disclosure of a camera or recording capability in certain internet-connected devices.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T23:53:19Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -723,8 +733,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2025-10-09T03:26:11Z",
-  "updateDateIncludingText": "2025-10-09T03:26:11Z",
+  "updateDate": "2026-07-11T23:53:19Z",
+  "updateDateIncludingText": "2026-07-12T06:53:29Z",
   "id": "119-HR-859",
   "lastActionDate": "2025-04-30",
   "lastRecordedVoteDate": "2025-04-29T21:36:17Z"

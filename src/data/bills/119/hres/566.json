@@ -1118,7 +1118,17 @@
         "title": "Providing for consideration of the Senate amendment to the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-07-03T20:04:16Z"
+        "updateDate": "2026-07-11T20:44:44Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the Senate amendment to the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T20:43:21Z"
       },
       {
         "title": "Providing for consideration of the Senate amendment to the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
@@ -1129,8 +1139,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-07-17T15:27:00Z",
-  "updateDateIncludingText": "2025-07-17T15:27:00Z",
+  "updateDate": "2026-07-11T20:44:44Z",
+  "updateDateIncludingText": "2026-07-11T20:44:44Z",
   "id": "119-HRES-566",
   "lastActionDate": "2025-07-03",
   "lastRecordedVoteDate": "2025-07-03T07:23:49Z"

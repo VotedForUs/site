@@ -3216,12 +3216,22 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
+    "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/hr/4/summaries?format=json"
   },
   "title": "Rescissions Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T16:08:26Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -3295,8 +3305,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:05:53Z",
-  "updateDateIncludingText": "2026-03-31T20:05:53Z",
+  "updateDate": "2026-07-11T16:08:26Z",
+  "updateDateIncludingText": "2026-07-11T16:08:26Z",
   "id": "119-HR-4",
   "lastActionDate": "2025-07-24",
   "lastRecordedVoteDate": "2025-07-17T06:30:35Z"

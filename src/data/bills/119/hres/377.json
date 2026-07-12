@@ -1099,14 +1099,24 @@
   "number": "377",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Providing for consideration of the bill (H.R. 276) to rename the Gulf of Mexico as the \"Gulf of America\", and providing for consideration of the bill (H.R. 881) to establish Department of Homeland Security funding restrictions on institutions of higher education that have a relationship with Confucius Institutes, and for other purposes.",
+  "title": "Providing for consideration of the bill (H.R. 276) to rename the Gulf of Mexico as the ‘‘Gulf of America”, and providing for consideration of the bill (H.R. 881) to establish Department of Homeland Security funding restrictions on institutions of higher education that have a relationship with Confucius Institutes, and for other purposes.",
   "titles": {
     "titles": [
       {
-        "title": "Providing for consideration of the bill (H.R. 276) to rename the Gulf of Mexico as the \"Gulf of America\", and providing for consideration of the bill (H.R. 881) to establish Department of Homeland Security funding restrictions on institutions of higher education that have a relationship with Confucius Institutes, and for other purposes.",
+        "title": "Providing for consideration of the bill (H.R. 276) to rename the Gulf of Mexico as the ‘‘Gulf of America”, and providing for consideration of the bill (H.R. 881) to establish Department of Homeland Security funding restrictions on institutions of higher education that have a relationship with Confucius Institutes, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-05-06T08:05:52Z"
+        "updateDate": "2026-07-11T21:09:29Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 276) to rename the Gulf of Mexico as the ‘‘Gulf of America”, and providing for consideration of the bill (H.R. 881) to establish Department of Homeland Security funding restrictions on institutions of higher education that have a relationship with Confucius Institutes, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T21:08:21Z"
       },
       {
         "title": "Providing for consideration of the bill (H.R. 276) to rename the Gulf of Mexico as the \"Gulf of America\", and providing for consideration of the bill (H.R. 881) to establish Department of Homeland Security funding restrictions on institutions of higher education that have a relationship with Confucius Institutes, and for other purposes.",
@@ -1117,8 +1127,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-10-09T03:26:12Z",
-  "updateDateIncludingText": "2025-10-09T03:26:12Z",
+  "updateDate": "2026-07-11T21:09:29Z",
+  "updateDateIncludingText": "2026-07-11T21:09:29Z",
   "id": "119-HRES-377",
   "lastActionDate": "2025-05-06",
   "lastRecordedVoteDate": "2025-05-06T18:02:52Z"

@@ -2150,7 +2150,17 @@
         "title": "Providing for consideration of the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-05-22T12:22:20Z"
+        "updateDate": "2026-07-11T20:59:09Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T20:58:16Z"
       },
       {
         "title": "Providing for consideration of the bill (H.R. 1) to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
@@ -2161,8 +2171,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2025-10-09T03:26:15Z",
-  "updateDateIncludingText": "2025-10-09T03:26:15Z",
+  "updateDate": "2026-07-11T20:59:09Z",
+  "updateDateIncludingText": "2026-07-11T20:59:09Z",
   "id": "119-HRES-436",
   "lastActionDate": "2025-05-22",
   "lastRecordedVoteDate": "2025-05-22T06:39:46Z"

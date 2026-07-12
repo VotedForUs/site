@@ -1603,7 +1603,17 @@
         "title": "Adopting the Rules of the House of Representatives for the One Hundred Nineteenth Congress, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-01-07T14:38:37Z"
+        "updateDate": "2026-07-11T20:44:45Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Adopting the Rules of the House of Representatives for the One Hundred Nineteenth Congress, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T20:43:21Z"
       },
       {
         "title": "Adopting the Rules of the House of Representatives for the One Hundred Nineteenth Congress, and for other purposes.",
@@ -1614,8 +1624,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-11T05:06:25Z",
-  "updateDateIncludingText": "2026-06-11T05:06:25Z",
+  "updateDate": "2026-07-11T20:44:45Z",
+  "updateDateIncludingText": "2026-07-11T20:44:45Z",
   "id": "119-HRES-5",
   "lastActionDate": "2025-01-03",
   "lastRecordedVoteDate": "2025-01-03T23:12:00Z"

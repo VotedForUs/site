@@ -882,6 +882,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to require additional information on math and clerical error notices.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T22:08:22Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -946,8 +956,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-17T16:26:19Z",
-  "updateDateIncludingText": "2026-06-17T16:26:19Z",
+  "updateDate": "2026-07-11T22:08:22Z",
+  "updateDateIncludingText": "2026-07-11T22:08:22Z",
   "id": "119-HR-998",
   "lastActionDate": "2025-11-25",
   "lastRecordedVoteDate": "2025-10-20"

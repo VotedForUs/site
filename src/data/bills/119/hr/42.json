@@ -794,12 +794,22 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/42/summaries?format=json"
   },
   "title": "Alaska Native Settlement Trust Eligibility Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Alaska Native Claims Settlement Act to exclude certain payments to aged, blind, or disabled Alaska Natives or descendants of Alaska Natives from being used to determine eligibility for certain programs, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T16:58:18Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -845,8 +855,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-31T20:05:27Z",
-  "updateDateIncludingText": "2026-03-31T20:05:27Z",
+  "updateDate": "2026-07-11T16:58:18Z",
+  "updateDateIncludingText": "2026-07-11T16:58:18Z",
   "id": "119-HR-42",
   "lastActionDate": "2025-07-07",
   "lastRecordedVoteDate": "2025-06-18"

@@ -931,7 +931,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/2815/summaries?format=json"
   },
   "title": "Cape Fox Land Entitlement Finalization Act of 2025",
@@ -1012,8 +1012,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-18T17:46:29Z",
-  "updateDateIncludingText": "2026-06-18T17:46:29Z",
+  "updateDate": "2026-06-22T16:47:52Z",
+  "updateDateIncludingText": "2026-07-12T00:39:51Z",
   "id": "119-HR-2815",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-02-26"

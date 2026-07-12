@@ -624,6 +624,12 @@
   "titles": {
     "titles": [
       {
+        "title": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T10:23:50Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -640,18 +646,12 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-04-21T08:18:31Z"
-      },
-      {
-        "title": "To amend title 5, United States Code, to authorize the increase of the retirement age in the United States Capitol Police.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-04-21T08:05:33Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-18T14:06:22Z",
-  "updateDateIncludingText": "2026-05-18T14:06:22Z",
+  "updateDate": "2026-07-11T10:23:50Z",
+  "updateDateIncludingText": "2026-07-12T06:51:46Z",
   "id": "119-HR-8364",
   "lastActionDate": "2026-04-28",
   "lastRecordedVoteDate": "2026-04-27"

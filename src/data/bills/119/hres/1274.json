@@ -1104,6 +1104,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Providing that section 11 of House Resolution 1224 shall have no force or effect.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T21:39:32Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -1115,12 +1121,6 @@
       },
       {
         "title": "Providing that section 11 of House Resolution 1224 shall have no force or effect.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-05-13T08:06:31Z"
-      },
-      {
-        "title": "Providing that section 11 of House Resolution 1224 shall have no force or effect.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-05-13T08:06:30Z"
@@ -1128,8 +1128,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-05-15T08:05:26Z",
-  "updateDateIncludingText": "2026-05-15T08:18:48Z",
+  "updateDate": "2026-07-11T21:39:32Z",
+  "updateDateIncludingText": "2026-07-11T21:39:32Z",
   "id": "119-HRES-1274",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T19:42:40Z"

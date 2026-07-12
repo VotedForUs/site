@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 15,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hres/189/actions?format=json",
     "actions": [
       {
@@ -1128,24 +1128,34 @@
   "titles": {
     "titles": [
       {
+        "title": "Censuring Representative Al Green of Texas.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T21:24:27Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Censuring Representative Al Green of Texas.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T21:23:20Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Censuring Representative Al Green of Texas.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-03-06T10:18:37Z"
-      },
-      {
-        "title": "Censuring Representative Al Green of Texas.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-06T09:06:40Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-03-02T17:53:16Z",
-  "updateDateIncludingText": "2026-03-02T17:53:16Z",
+  "updateDate": "2026-07-11T21:24:27Z",
+  "updateDateIncludingText": "2026-07-11T21:24:27Z",
   "id": "119-HRES-189",
   "lastActionDate": "2025-03-06",
   "lastRecordedVoteDate": "2025-03-06T15:30:43Z"

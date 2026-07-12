@@ -693,9 +693,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To reauthorize the Adams Memorial Commission, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Adams Memorial-Great American Heroes Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-11T03:53:20Z"
       },
       {
@@ -703,16 +703,10 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Adams Memorial-Great American Heroes Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To reauthorize the Adams Memorial Commission, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-11T03:53:20Z"
-      },
-      {
-        "title": "Adams Memorial-Great American Heroes Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-11-01T03:38:13Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -722,6 +716,12 @@
         "title": "Adams Memorial-Great American Heroes Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
+        "updateDate": "2025-11-01T03:38:13Z"
+      },
+      {
+        "title": "Adams Memorial-Great American Heroes Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
         "updateDate": "2025-11-01T03:38:13Z"
       },
       {
@@ -744,7 +744,7 @@
   },
   "type": "HR",
   "updateDate": "2026-02-04T05:06:16Z",
-  "updateDateIncludingText": "2026-02-04T05:06:16Z",
+  "updateDateIncludingText": "2026-07-12T00:35:39Z",
   "id": "119-HR-2306",
   "lastActionDate": "2025-12-10",
   "lastRecordedVoteDate": "2025-12-09"

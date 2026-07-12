@@ -930,12 +930,22 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/410/summaries?format=json"
   },
   "title": "Alaska Native Vietnam Era Veterans Land Allotment Extension Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To extend the Alaska Native Vietnam era veterans land allotment program, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T17:23:21Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -1001,8 +1011,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-09T23:07:21Z",
-  "updateDateIncludingText": "2026-06-09T23:07:21Z",
+  "updateDate": "2026-07-11T17:23:21Z",
+  "updateDateIncludingText": "2026-07-11T17:23:21Z",
   "id": "119-HR-410",
   "lastActionDate": "2025-12-26",
   "lastRecordedVoteDate": "2025-12-16"
