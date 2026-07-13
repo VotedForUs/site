@@ -249,6 +249,11 @@
     "text": "Received in the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/911",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/S/911\" target=\"_blank\">S.911</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/S/1071\" target=\"_blank\">S.1071</a>, which became Public Law 119-60."
+    }
+  ],
   "number": "911",
   "originChamber": "Senate",
   "originChamberCode": "S",
@@ -300,8 +305,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-02T15:44:08Z",
-  "updateDateIncludingText": "2026-07-02T15:44:08Z",
+  "updateDate": "2026-07-08T19:59:47Z",
+  "updateDateIncludingText": "2026-07-12T15:06:19Z",
   "id": "119-S-911",
   "lastActionDate": "2025-08-01",
   "lastRecordedVoteDate": "2025-07-29"

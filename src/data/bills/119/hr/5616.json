@@ -605,9 +605,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend title 31, United States Code, to require the Secretary of the Treasury to mint and issue $2.50 numismatic coins, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "$2.50 for America’s 250th Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-02-13T04:43:24Z"
       },
       {
@@ -615,9 +615,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "$2.50 for America’s 250th Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend title 31, United States Code, to require the Secretary of the Treasury to mint and issue $2.50 numismatic coins, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-02-13T04:43:24Z"
       },
       {
@@ -648,7 +648,7 @@
   },
   "type": "HR",
   "updateDate": "2026-02-13T11:56:36Z",
-  "updateDateIncludingText": "2026-02-13T11:56:36Z",
+  "updateDateIncludingText": "2026-07-12T13:45:55Z",
   "id": "119-HR-5616",
   "lastActionDate": "2026-02-12",
   "lastRecordedVoteDate": "2026-02-09"

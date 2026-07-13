@@ -730,6 +730,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Cross-Boundary Wildfire Solutions Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-06-17T13:55:44Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -784,8 +794,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-16T14:56:51Z",
-  "updateDateIncludingText": "2026-06-17T03:34:59Z",
+  "updateDate": "2026-06-17T14:54:47Z",
+  "updateDateIncludingText": "2026-07-12T13:16:38Z",
   "id": "119-HR-3922",
   "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-02"
