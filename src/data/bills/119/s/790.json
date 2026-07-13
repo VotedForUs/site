@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S2387; text: CR S2387)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -283,8 +283,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-21T11:09:26Z",
-  "updateDateIncludingText": "2026-05-22T07:49:31Z",
+  "updateDate": "2026-05-22T14:39:42Z",
+  "updateDateIncludingText": "2026-07-12T15:05:16Z",
   "id": "119-S-790",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20"

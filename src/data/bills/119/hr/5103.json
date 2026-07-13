@@ -1329,6 +1329,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-06-24T14:23:29Z"
+      },
+      {
         "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1359,7 +1369,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Make the District of Columbia Safe and Beautiful Act of 2026",
+        "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-01-15T10:53:14Z"
@@ -1369,7 +1379,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Make the District of Columbia Safe and Beautiful Act of 2025",
+        "title": "Make the District of Columbia Safe and Beautiful Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-01-15T10:53:14Z"
@@ -1393,8 +1403,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-17T10:56:33Z",
-  "updateDateIncludingText": "2026-06-17T10:56:33Z",
+  "updateDate": "2026-06-24T14:23:29Z",
+  "updateDateIncludingText": "2026-07-12T13:30:58Z",
   "id": "119-HR-5103",
   "lastActionDate": "2026-06-16",
   "lastRecordedVoteDate": "2026-03-25T19:30:02Z"
