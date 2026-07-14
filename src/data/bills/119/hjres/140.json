@@ -1195,7 +1195,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hjres/140/summaries?format=json"
   },
   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Public Land Order No. 7917 for Withdrawal of Federal Lands; Cook, Lake, and Saint Louis Counties, MN.",
@@ -1228,8 +1228,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-07-10T15:23:28Z",
-  "updateDateIncludingText": "2026-07-12T02:02:45Z",
+  "updateDate": "2026-07-13T18:52:52Z",
+  "updateDateIncludingText": "2026-07-13T18:52:52Z",
   "id": "119-HJRES-140",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-16T16:02:32Z"

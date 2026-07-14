@@ -891,7 +891,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/972/summaries?format=json"
   },
   "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
@@ -972,8 +972,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-26T17:00:11Z",
-  "updateDateIncludingText": "2026-05-26T17:00:11Z",
+  "updateDate": "2026-07-14T01:26:29Z",
+  "updateDateIncludingText": "2026-07-14T01:26:29Z",
   "id": "119-HR-972",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-02-26"

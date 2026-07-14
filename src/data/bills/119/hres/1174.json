@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 10,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hres/1174/actions?format=json",
     "actions": [
       {
@@ -1130,8 +1130,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-11T21:54:21Z",
-  "updateDateIncludingText": "2026-07-11T21:54:21Z",
+  "updateDate": "2026-07-13T17:12:29Z",
+  "updateDateIncludingText": "2026-07-13T17:12:29Z",
   "id": "119-HRES-1174",
   "lastActionDate": "2026-04-15",
   "lastRecordedVoteDate": "2026-04-15T17:37:31Z"
