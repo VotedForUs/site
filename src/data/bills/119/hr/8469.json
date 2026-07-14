@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 26,
+    "count": 28,
     "url": "https://api.congress.gov/v3/bill/119/hr/8469/actions?format=json",
     "actions": [
       {
@@ -1309,8 +1309,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-12T00:09:32Z",
-  "updateDateIncludingText": "2026-07-13T07:36:23Z",
+  "updateDate": "2026-07-13T18:01:41Z",
+  "updateDateIncludingText": "2026-07-14T06:47:13Z",
   "id": "119-HR-8469",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-15T14:26:35Z"
