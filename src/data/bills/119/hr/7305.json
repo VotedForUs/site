@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 15,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/hr/7305/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-13",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-29",
@@ -631,9 +646,8 @@
   "congress": 119,
   "introducedDate": "2026-02-02",
   "latestAction": {
-    "actionDate": "2026-06-29",
-    "actionTime": "16:43:35",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-13",
+    "text": "Read twice and referred to the Committee on Energy and Natural Resources."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7305",
   "number": "7305",
@@ -701,9 +715,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-01T08:06:06Z",
-  "updateDateIncludingText": "2026-07-13T19:19:02Z",
+  "updateDate": "2026-07-14T10:56:29Z",
+  "updateDateIncludingText": "2026-07-14T10:56:29Z",
   "id": "119-HR-7305",
-  "lastActionDate": "2026-06-29",
+  "lastActionDate": "2026-07-13",
   "lastRecordedVoteDate": "2026-06-29"
 }
