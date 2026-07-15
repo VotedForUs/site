@@ -683,7 +683,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/423/summaries?format=json"
   },
   "title": "PRO Veterans Act of 2025",
@@ -700,16 +700,6 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Protecting Regular Order for Veterans Act of 2025",
-        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
-        "titleTypeCode": 146,
-        "updateDate": "2025-07-22T04:08:22Z"
-      },
-      {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
         "title": "Improving Veterans’ Experience Act of 2025",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
@@ -721,6 +711,16 @@
         "chamberCode": "J",
         "chamberName": "Joint",
         "title": "PRO Veterans Act of 2025",
+        "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
+        "titleTypeCode": 146,
+        "updateDate": "2025-07-22T04:08:22Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Protecting Regular Order for Veterans Act of 2025",
         "titleType": "Short Titles for portions of this bill from ENR (Enrolled) bill text",
         "titleTypeCode": 146,
         "updateDate": "2025-07-22T04:08:22Z"
@@ -740,7 +740,7 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "PRO Veterans Act of 2025",
+        "title": "Protecting Regular Order for Veterans Act of 2025",
         "titleType": "Short Title(s) as Passed Senate for portions of this bill",
         "titleTypeCode": 110,
         "updateDate": "2025-04-09T03:38:15Z"
@@ -750,7 +750,7 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Protecting Regular Order for Veterans Act of 2025",
+        "title": "PRO Veterans Act of 2025",
         "titleType": "Short Title(s) as Passed Senate for portions of this bill",
         "titleTypeCode": 110,
         "updateDate": "2025-04-09T03:38:15Z"
@@ -766,7 +766,7 @@
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "PRO Veterans Act of 2025",
+        "title": "Protecting Regular Order for Veterans Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-03-12T02:23:25Z"
@@ -774,7 +774,7 @@
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Protecting Regular Order for Veterans Act of 2025",
+        "title": "PRO Veterans Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-03-12T02:23:25Z"
@@ -782,8 +782,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-12T15:05:41Z",
-  "updateDateIncludingText": "2026-03-12T15:05:41Z",
+  "updateDate": "2026-07-14T16:44:31Z",
+  "updateDateIncludingText": "2026-07-14T16:44:31Z",
   "id": "119-S-423",
   "lastActionDate": "2025-08-14",
   "lastRecordedVoteDate": "2025-07-21"

@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 28,
+    "count": 29,
     "url": "https://api.congress.gov/v3/bill/119/hr/8469/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-13",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2026-05-20",
         "sourceSystem": {
@@ -1250,8 +1258,8 @@
   "congress": 119,
   "introducedDate": "2026-04-23",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "text": "Received in the Senate."
+    "actionDate": "2026-07-13",
+    "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8469",
   "number": "8469",
@@ -1309,9 +1317,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-13T18:01:41Z",
-  "updateDateIncludingText": "2026-07-14T06:47:13Z",
+  "updateDate": "2026-07-14T10:56:27Z",
+  "updateDateIncludingText": "2026-07-15T07:22:44Z",
   "id": "119-HR-8469",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-07-13",
   "lastRecordedVoteDate": "2026-05-15T14:26:35Z"
 }

@@ -199,6 +199,10 @@
   "number": "4822",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4822/summaries?format=json"
+  },
   "title": "Saving the OOI Act of 2026",
   "titles": {
     "titles": [
@@ -227,8 +231,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-29T13:14:19Z",
-  "updateDateIncludingText": "2026-06-29T13:14:19Z",
+  "updateDate": "2026-07-14T18:01:52Z",
+  "updateDateIncludingText": "2026-07-14T18:01:52Z",
   "id": "119-S-4822",
   "lastActionDate": "2026-06-18",
   "lastRecordedVoteDate": "2026-06-17"

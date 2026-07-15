@@ -1,8 +1,18 @@
 {
   "actions": {
-    "count": 66,
+    "count": 67,
     "url": "https://api.congress.gov/v3/bill/119/hr/6644/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-07-11",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Sent to Archivist of the United States unsigned.",
+        "type": "President"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-06-29",
@@ -2583,8 +2593,8 @@
   "congress": 119,
   "introducedDate": "2025-12-11",
   "latestAction": {
-    "actionDate": "2026-06-29",
-    "text": "Presented to President."
+    "actionDate": "2026-07-11",
+    "text": "Sent to Archivist of the United States unsigned."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6644",
   "number": "6644",
@@ -2696,9 +2706,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-10T16:08:34Z",
-  "updateDateIncludingText": "2026-07-13T19:08:52Z",
+  "updateDate": "2026-07-14T21:35:23Z",
+  "updateDateIncludingText": "2026-07-14T21:35:23Z",
   "id": "119-HR-6644",
-  "lastActionDate": "2026-06-29",
+  "lastActionDate": "2026-07-11",
   "lastRecordedVoteDate": "2026-06-23T23:26:36Z"
 }
