@@ -1,35 +1,12 @@
 {
   "actions": {
-    "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2306/actions?format=json",
+    "count": 15,
+    "url": "https://api.congress.gov/v3/bill/119/hr/6556/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-07-13",
-        "committees": [
-          {
-            "name": "Energy and Natural Resources Committee",
-            "systemCode": "sseg00",
-            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionDate": "2025-12-10",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
-        "type": "IntroReferral"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2025-12-09",
-        "actionTime": "16:22:16",
+        "actionDate": "2026-07-14",
+        "actionTime": "15:16:22",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -39,25 +16,23 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2025-12-09",
-        "actionTime": "16:22:12",
+        "actionDate": "2026-07-14",
+        "actionTime": "15:16:20",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5083-5084)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2025-12-09",
+            "date": "2026-07-14",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {
-              "G000596": "vv",
-              "L000578": "vv",
               "A000055": "vv",
               "B001257": "vv",
               "B000490": "vv",
@@ -494,119 +469,120 @@
               "F000484": "vv",
               "W000831": "vv",
               "G000606": "vv",
-              "V000139": "vv"
+              "V000139": "vv",
+              "M001245": "vv"
             },
             "result": "passed",
             "votePartyTotal": [
               {
                 "voteParty": "Republican",
-                "yeaTotal": 223,
+                "yeaTotal": 221,
                 "nayTotal": 0,
                 "presentTotal": 0,
                 "notVotingTotal": 0
               },
               {
                 "voteParty": "Democrat",
-                "yeaTotal": 216,
+                "yeaTotal": 217,
                 "nayTotal": 0,
                 "presentTotal": 0,
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/2306",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/6556",
             "question": "Voice Vote",
-            "id": "119-HR-2306-1"
+            "id": "119-HR-6556-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2025-12-09",
-        "actionTime": "16:06:14",
+        "actionDate": "2026-07-14",
+        "actionTime": "15:03:11",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2306.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 6556.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2025-12-09",
-        "actionTime": "16:06:12",
+        "actionDate": "2026-07-14",
+        "actionTime": "15:03:09",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H5083-5085)",
+        "text": "Considered under suspension of the rules.",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2025-12-09",
-        "actionTime": "16:06:01",
+        "actionDate": "2026-07-14",
+        "actionTime": "15:03:05",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Crank moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Hill (AR) moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2025-10-31",
+        "actionDate": "2026-02-02",
         "calendarNumber": {
-          "calendar": "U00305"
+          "calendar": "U00406"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 305.",
+        "text": "Placed on the Union Calendar, Calendar No. 406.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2025-10-31",
+        "actionDate": "2026-02-02",
         "committees": [
           {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-353.",
+        "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-475.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2025-09-17",
+        "actionDate": "2025-12-17",
         "committees": [
           {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by Unanimous Consent.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 51 - 0.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-09-17",
+        "actionDate": "2025-12-17",
         "committees": [
           {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
@@ -617,160 +593,97 @@
         "type": "Committee"
       },
       {
-        "actionCode": "H25000",
-        "actionDate": "2025-09-17",
+        "actionCode": "H15001",
+        "actionDate": "2025-12-16",
         "committees": [
           {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Subcommittee on Federal Lands Discharged",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H21000",
-        "actionDate": "2025-07-16",
-        "committees": [
-          {
-            "name": "Federal Lands Subcommittee",
-            "systemCode": "hsii10",
-            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Subcommittee Hearings Held",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H11000",
-        "actionDate": "2025-07-09",
-        "committees": [
-          {
-            "name": "Federal Lands Subcommittee",
-            "systemCode": "hsii10",
-            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Referred to the Subcommittee on Federal Lands.",
+        "text": "Committee Consideration and Mark-up Session Held",
         "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-03-24",
+        "actionDate": "2025-12-10",
         "committees": [
           {
-            "name": "Natural Resources Committee",
-            "systemCode": "hsii00",
-            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Natural Resources.",
+        "text": "Referred to the House Committee on Financial Services.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-24",
+  "introducedDate": "2025-12-10",
   "latestAction": {
-    "actionDate": "2026-07-13",
-    "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+    "actionDate": "2026-07-14",
+    "actionTime": "15:16:22",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2306",
-  "number": "2306",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6556",
+  "number": "6556",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2306/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/6556/summaries?format=json"
   },
-  "title": "Adams Memorial-Great American Heroes Act",
+  "title": "Failing Bank Acquisition Fairness Act",
   "titles": {
     "titles": [
-      {
-        "billTextVersionCode": "RFS",
-        "billTextVersionName": "Referred in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Adams Memorial-Great American Heroes Act",
-        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
-        "titleTypeCode": 255,
-        "updateDate": "2026-07-15T13:08:25Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Adams Memorial-Great American Heroes Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2025-12-11T03:53:20Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To reauthorize the Adams Memorial Commission, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2025-12-11T03:53:20Z"
-      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Adams Memorial-Great American Heroes Act",
+        "title": "Failing Bank Acquisition Fairness Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2025-11-01T03:38:13Z"
+        "updateDate": "2026-02-03T06:38:17Z"
       },
       {
-        "title": "Adams Memorial-Great American Heroes Act",
+        "title": "Failing Bank Acquisition Fairness Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-11-01T03:38:13Z"
+        "updateDate": "2025-12-13T10:08:21Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "The Adams Memorial-Great American Heroes Act",
+        "title": "Failing Bank Acquisition Fairness Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-04-05T04:23:15Z"
+        "updateDate": "2025-12-13T10:08:20Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To reauthorize the Adams Memorial Commission, and for other purposes.",
+        "title": "To prohibit the use of certain concentration limit exceptions with respect to mergers involving a failed bank unless the applicable agency determines such use is necessary to prevent significant economic disruption or significant adverse effects on financial stability, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-04-05T04:18:15Z"
+        "updateDate": "2025-12-13T10:03:26Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-15T13:08:25Z",
-  "updateDateIncludingText": "2026-07-15T13:51:53Z",
-  "id": "119-HR-2306",
-  "lastActionDate": "2026-07-13",
-  "lastRecordedVoteDate": "2025-12-09"
+  "updateDate": "2026-07-15T08:07:53Z",
+  "updateDateIncludingText": "2026-07-15T08:07:53Z",
+  "id": "119-HR-6556",
+  "lastActionDate": "2026-07-14",
+  "lastRecordedVoteDate": "2026-07-14"
 }
