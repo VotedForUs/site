@@ -286,7 +286,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Conflict-free Leaving Employment and Activity Restrictions Path Act",
+        "title": "CLEAR Path Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2026-01-30T04:08:16Z"
@@ -296,7 +296,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "CLEAR Path Act",
+        "title": "Conflict-free Leaving Employment and Activity Restrictions Path Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2026-01-30T04:08:16Z"
@@ -329,7 +329,7 @@
   },
   "type": "S",
   "updateDate": "2026-05-02T01:54:55Z",
-  "updateDateIncludingText": "2026-05-02T01:54:55Z",
+  "updateDateIncludingText": "2026-07-17T07:10:06Z",
   "id": "119-S-2132",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-21"

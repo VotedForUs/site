@@ -661,7 +661,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Hearings held.",
+        "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 119-35.",
         "type": "Committee"
       },
       {
@@ -708,7 +708,7 @@
         "title": "ACES Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:12:23Z"
+        "updateDate": "2026-07-08T11:03:19Z"
       },
       {
         "billTextVersionCode": "ENR",
@@ -749,8 +749,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-26T21:41:38Z",
-  "updateDateIncludingText": "2026-06-26T21:41:38Z",
+  "updateDate": "2026-07-08T11:03:19Z",
+  "updateDateIncludingText": "2026-07-17T07:58:03Z",
   "id": "119-S-201",
   "lastActionDate": "2025-08-14",
   "lastRecordedVoteDate": "2025-07-21"

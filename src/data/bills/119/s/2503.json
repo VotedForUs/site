@@ -710,7 +710,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Rotorcraft Operations Transparency and Oversight Reform Act",
+        "title": "ROTOR Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-11-20T05:38:24Z"
@@ -720,7 +720,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "ROTOR Act",
+        "title": "Rotorcraft Operations Transparency and Oversight Reform Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-11-20T05:38:24Z"
@@ -752,8 +752,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-12T15:10:14Z",
-  "updateDateIncludingText": "2026-03-31T16:27:17Z",
+  "updateDate": "2026-04-10T14:46:40Z",
+  "updateDateIncludingText": "2026-07-17T02:28:35Z",
   "id": "119-S-2503",
   "lastActionDate": "2026-02-24",
   "lastRecordedVoteDate": "2026-02-24T19:05:16Z"

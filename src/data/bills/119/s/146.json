@@ -856,7 +856,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/146/summaries?format=json"
   },
   "title": "TAKE IT DOWN Act",
@@ -935,8 +935,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-10-07T09:29:12Z",
-  "updateDateIncludingText": "2025-10-07T09:29:12Z",
+  "updateDate": "2026-06-16T14:19:53Z",
+  "updateDateIncludingText": "2026-07-16T20:36:41Z",
   "id": "119-S-146",
   "lastActionDate": "2025-05-19",
   "lastRecordedVoteDate": "2025-04-28T23:05:27Z"

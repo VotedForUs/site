@@ -290,7 +290,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Network Equipment Transparency Act",
+        "title": "NET Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-10-01T04:53:14Z"
@@ -300,7 +300,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "NET Act",
+        "title": "Network Equipment Transparency Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-10-01T04:53:14Z"
@@ -332,8 +332,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-02-04T05:06:13Z",
-  "updateDateIncludingText": "2026-02-04T05:06:13Z",
+  "updateDate": "2026-04-09T14:21:08Z",
+  "updateDateIncludingText": "2026-07-17T07:37:47Z",
   "id": "119-S-503",
   "lastActionDate": "2025-11-10",
   "lastRecordedVoteDate": "2025-11-04"

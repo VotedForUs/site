@@ -229,6 +229,10 @@
   "number": "1333",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/1333/summaries?format=json"
+  },
   "title": "Strengthening Child Exploitation Enforcement Act",
   "titles": {
     "titles": [
@@ -267,8 +271,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-12-05T21:57:28Z",
-  "updateDateIncludingText": "2025-12-05T21:57:28Z",
+  "updateDate": "2026-03-24T19:35:52Z",
+  "updateDateIncludingText": "2026-07-16T20:34:58Z",
   "id": "119-S-1333",
   "lastActionDate": "2025-10-10",
   "lastRecordedVoteDate": "2025-09-29"

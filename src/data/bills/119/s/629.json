@@ -1,8 +1,18 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/s/629/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-07-12",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Sent to Archivist of the United States unsigned.",
+        "type": "President"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-06-30",
@@ -800,8 +810,8 @@
   "congress": 119,
   "introducedDate": "2025-02-19",
   "latestAction": {
-    "actionDate": "2026-06-30",
-    "text": "Presented to President."
+    "actionDate": "2026-07-12",
+    "text": "Sent to Archivist of the United States unsigned."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/629",
   "number": "629",
@@ -859,9 +869,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-01T08:07:08Z",
-  "updateDateIncludingText": "2026-07-01T08:07:08Z",
+  "updateDate": "2026-07-16T20:56:33Z",
+  "updateDateIncludingText": "2026-07-17T07:39:38Z",
   "id": "119-S-629",
-  "lastActionDate": "2026-06-30",
+  "lastActionDate": "2026-07-12",
   "lastRecordedVoteDate": "2026-06-23T22:59:45Z"
 }

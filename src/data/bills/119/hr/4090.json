@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 25,
+    "count": 27,
     "url": "https://api.congress.gov/v3/bill/119/hr/4090/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-15",
+        "committees": [
+          {
+            "name": "Public Lands, Forests, and Mining Subcommittee",
+            "systemCode": "sseg03",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-02-05",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-02-04",
@@ -1263,9 +1293,8 @@
   "congress": 119,
   "introducedDate": "2025-06-23",
   "latestAction": {
-    "actionDate": "2026-02-04",
-    "actionTime": "16:07:01",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-15",
+    "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4090",
   "number": "4090",
@@ -1279,14 +1308,14 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To codify certain provisions of certain Executive Orders relating to domestic mining and hardrock mineral resources, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-02-05T04:08:16Z"
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Critical Mineral Dominance Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-02-07T05:08:21Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1296,6 +1325,16 @@
         "title": "Critical Mineral Dominance Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
+        "updateDate": "2026-02-05T04:08:16Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To codify certain provisions of certain Executive Orders relating to domestic mining and hardrock mineral resources, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-02-05T04:08:16Z"
       },
       {
@@ -1325,9 +1364,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-05T18:36:30Z",
-  "updateDateIncludingText": "2026-02-05T18:36:30Z",
+  "updateDate": "2026-07-16T10:56:34Z",
+  "updateDateIncludingText": "2026-07-16T10:56:34Z",
   "id": "119-HR-4090",
-  "lastActionDate": "2026-02-04",
+  "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-02-04T21:07:00Z"
 }

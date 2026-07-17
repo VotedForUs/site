@@ -286,7 +286,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Research for Environmental Uses and Sustainable Economies Act of 2025",
+        "title": "REUSE Act of 2025",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-10-31T04:23:13Z"
@@ -296,7 +296,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "REUSE Act of 2025",
+        "title": "Research for Environmental Uses and Sustainable Economies Act of 2025",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-10-31T04:23:13Z"
@@ -329,7 +329,7 @@
   },
   "type": "S",
   "updateDate": "2026-02-20T19:44:51Z",
-  "updateDateIncludingText": "2026-02-20T19:44:51Z",
+  "updateDateIncludingText": "2026-07-17T07:58:52Z",
   "id": "119-S-2110",
   "lastActionDate": "2025-11-20",
   "lastRecordedVoteDate": "2025-11-20"

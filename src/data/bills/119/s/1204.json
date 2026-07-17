@@ -229,6 +229,10 @@
   "number": "1204",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/1204/summaries?format=json"
+  },
   "title": "Gold Star and Surviving Spouse Career Services Act",
   "titles": {
     "titles": [
@@ -267,8 +271,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-12-22T16:47:48Z",
-  "updateDateIncludingText": "2025-12-22T16:47:48Z",
+  "updateDate": "2026-04-10T12:53:53Z",
+  "updateDateIncludingText": "2026-07-16T20:33:37Z",
   "id": "119-S-1204",
   "lastActionDate": "2025-12-19",
   "lastRecordedVoteDate": "2025-12-18"

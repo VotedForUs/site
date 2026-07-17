@@ -1697,7 +1697,7 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "GENIUS Act",
+        "title": "Guiding and Establishing National Innovation for U.S. Stablecoins Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2025-06-18T05:23:17Z"
@@ -1707,7 +1707,7 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Guiding and Establishing National Innovation for U.S. Stablecoins Act",
+        "title": "GENIUS Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2025-06-18T05:23:17Z"
@@ -1717,7 +1717,7 @@
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Guiding and Establishing National Innovation for U.S. Stablecoins Act",
+        "title": "GENIUS Act",
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2025-05-07T04:23:16Z"
@@ -1727,7 +1727,7 @@
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "GENIUS Act",
+        "title": "Guiding and Establishing National Innovation for U.S. Stablecoins Act",
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2025-05-07T04:23:16Z"
@@ -1742,7 +1742,7 @@
   },
   "type": "S",
   "updateDate": "2026-03-12T15:11:43Z",
-  "updateDateIncludingText": "2026-03-12T15:11:43Z",
+  "updateDateIncludingText": "2026-07-16T20:38:13Z",
   "id": "119-S-1582",
   "lastActionDate": "2025-07-18",
   "lastRecordedVoteDate": "2025-07-17T19:54:11Z"

@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/1687/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-15",
+        "committees": [
+          {
+            "name": "Public Lands, Forests, and Mining Subcommittee",
+            "systemCode": "sseg03",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-06-03",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-02",
@@ -665,9 +695,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-06-02",
-    "actionTime": "15:51:16",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-15",
+    "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1687",
   "number": "1687",
@@ -681,11 +710,41 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Committing Leases for Energy Access Now Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-09T05:23:22Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "CLEAN Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-09T05:23:22Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
         "title": "CLEAN Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-04T03:08:36Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Committing Leases for Energy Access Now Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-06-04T03:08:36Z"
@@ -701,21 +760,11 @@
         "updateDate": "2026-06-04T03:08:36Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Committing Leases for Energy Access Now Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-04T03:08:36Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Committing Leases for Energy Access Now Act",
+        "title": "CLEAN Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-05-22T02:38:25Z"
@@ -725,7 +774,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "CLEAN Act",
+        "title": "Committing Leases for Energy Access Now Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-05-22T02:38:25Z"
@@ -763,9 +812,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-04T08:05:43Z",
-  "updateDateIncludingText": "2026-06-04T09:18:36Z",
+  "updateDate": "2026-07-16T10:56:36Z",
+  "updateDateIncludingText": "2026-07-16T10:56:36Z",
   "id": "119-HR-1687",
-  "lastActionDate": "2026-06-02",
+  "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-06-02"
 }

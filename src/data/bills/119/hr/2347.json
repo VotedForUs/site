@@ -653,6 +653,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Survivor Justice Tax Prevention Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-07-16T13:23:36Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -707,8 +717,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-15T10:56:37Z",
-  "updateDateIncludingText": "2026-07-15T10:56:37Z",
+  "updateDate": "2026-07-16T13:23:36Z",
+  "updateDateIncludingText": "2026-07-16T14:24:56Z",
   "id": "119-HR-2347",
   "lastActionDate": "2026-07-14",
   "lastRecordedVoteDate": "2026-04-27"

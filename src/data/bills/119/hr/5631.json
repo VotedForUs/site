@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 18,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/5631/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-15",
+        "committees": [
+          {
+            "name": "Public Lands, Forests, and Mining Subcommittee",
+            "systemCode": "sseg03",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-06-03",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38800",
         "actionDate": "2026-06-02",
@@ -676,9 +706,8 @@
   "congress": 119,
   "introducedDate": "2025-09-30",
   "latestAction": {
-    "actionDate": "2026-06-02",
-    "actionTime": "16:08:09",
-    "text": "The title of the measure was amended. Agreed to without objection."
+    "actionDate": "2026-07-15",
+    "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5631",
   "number": "5631",
@@ -691,6 +720,16 @@
   "title": "Geothermal Energy Advancement Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Geothermal Energy Advancement Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-09T05:38:26Z"
+      },
       {
         "title": "Geothermal Energy Advancement Act",
         "titleType": "Display Title",
@@ -746,9 +785,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-04T09:21:18Z",
-  "updateDateIncludingText": "2026-06-04T09:21:18Z",
+  "updateDate": "2026-07-16T10:56:32Z",
+  "updateDateIncludingText": "2026-07-16T10:56:32Z",
   "id": "119-HR-5631",
-  "lastActionDate": "2026-06-02",
+  "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-06-02"
 }
