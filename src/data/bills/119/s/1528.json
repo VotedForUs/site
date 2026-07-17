@@ -286,7 +286,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Comprehensive Health and Integrity in Licensing and Documentation Act of 2025",
+        "title": "CHILD Act of 2025",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-07-30T06:38:22Z"
@@ -296,7 +296,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "CHILD Act of 2025",
+        "title": "Comprehensive Health and Integrity in Licensing and Documentation Act of 2025",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-07-30T06:38:22Z"
@@ -329,7 +329,7 @@
   },
   "type": "S",
   "updateDate": "2026-04-24T17:12:55Z",
-  "updateDateIncludingText": "2026-04-24T17:12:55Z",
+  "updateDateIncludingText": "2026-07-16T20:37:16Z",
   "id": "119-S-1528",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-21"

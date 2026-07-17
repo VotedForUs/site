@@ -1495,7 +1495,7 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "HALT Fentanyl Act",
+        "title": "Halt All Lethal Trafficking of Fentanyl Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2025-03-15T03:23:19Z"
@@ -1505,7 +1505,7 @@
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Halt All Lethal Trafficking of Fentanyl Act",
+        "title": "HALT Fentanyl Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2025-03-15T03:23:19Z"
@@ -1515,7 +1515,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Halt All Lethal Trafficking of Fentanyl Act",
+        "title": "HALT Fentanyl Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-03-05T05:08:21Z"
@@ -1525,7 +1525,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "HALT Fentanyl Act",
+        "title": "Halt All Lethal Trafficking of Fentanyl Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2025-03-05T05:08:21Z"
@@ -1558,7 +1558,7 @@
   },
   "type": "S",
   "updateDate": "2026-03-12T15:04:04Z",
-  "updateDateIncludingText": "2026-03-12T15:04:04Z",
+  "updateDateIncludingText": "2026-07-17T07:22:07Z",
   "id": "119-S-331",
   "lastActionDate": "2025-07-16",
   "lastRecordedVoteDate": "2025-06-12T19:36:34Z"

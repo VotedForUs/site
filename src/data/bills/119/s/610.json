@@ -236,7 +236,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Veterans' Affairs. Hearings held.",
+        "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 119-35.",
         "type": "Committee"
       },
       {
@@ -278,7 +278,7 @@
         "title": "Ensuring VetSuccess On Campus Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-12-16T12:03:15Z"
+        "updateDate": "2026-07-08T11:03:19Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -319,8 +319,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-12-17T13:34:33Z",
-  "updateDateIncludingText": "2025-12-17T13:34:33Z",
+  "updateDate": "2026-07-08T11:03:19Z",
+  "updateDateIncludingText": "2026-07-17T07:39:26Z",
   "id": "119-S-610",
   "lastActionDate": "2025-12-15",
   "lastRecordedVoteDate": "2025-12-11"

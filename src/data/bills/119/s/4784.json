@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S3919)",
         "type": "Floor"
       },
       {
@@ -167,7 +167,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture motion on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 50 - 46. Record Vote Number: 195.",
+        "text": "Cloture motion on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 50 - 46. Record Vote Number: 195. (CR S3918)",
         "type": "Floor"
       },
       {
@@ -215,15 +215,31 @@
   "introducedDate": "2026-06-15",
   "latestAction": {
     "actionDate": "2026-07-14",
-    "text": "Motion to proceed to consideration of measure made in Senate."
+    "text": "Motion to proceed to consideration of measure made in Senate. (CR S3919)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
   "number": "4784",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "title": "An original bill to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+  "title": "National Defense Authorization Act for Fiscal Year 2027",
   "titles": {
     "titles": [
+      {
+        "title": "National Defense Authorization Act for Fiscal Year 2027",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T02:49:53Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "National Defense Authorization Act for Fiscal Year 2027",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-07-17T02:49:03Z"
+      },
       {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
@@ -246,12 +262,6 @@
       },
       {
         "title": "An original bill to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-06-16T14:56:44Z"
-      },
-      {
-        "title": "An original bill to authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-06-16T14:56:44Z"
@@ -259,8 +269,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-15T11:08:33Z",
-  "updateDateIncludingText": "2026-07-15T11:08:33Z",
+  "updateDate": "2026-07-17T02:49:53Z",
+  "updateDateIncludingText": "2026-07-17T02:49:53Z",
   "id": "119-S-4784",
   "lastActionDate": "2026-07-14",
   "lastRecordedVoteDate": "2026-07-14T19:39:15Z"

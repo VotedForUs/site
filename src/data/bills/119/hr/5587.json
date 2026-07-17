@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/5587/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-15",
+        "committees": [
+          {
+            "name": "Public Lands, Forests, and Mining Subcommittee",
+            "systemCode": "sseg03",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-04-28",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-23",
@@ -708,9 +738,8 @@
   "congress": 119,
   "introducedDate": "2025-09-26",
   "latestAction": {
-    "actionDate": "2026-04-23",
-    "actionTime": "10:33:05",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-15",
+    "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5587",
   "number": "5587",
@@ -724,11 +753,41 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Harnessing Energy At Thermal Sources Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-01T06:38:23Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "HEATS Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-01T06:38:23Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
         "title": "HEATS Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-28T06:08:33Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Harnessing Energy At Thermal Sources Act of 2026",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-04-28T06:08:33Z"
@@ -744,21 +803,11 @@
         "updateDate": "2026-04-28T06:08:33Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Harnessing Energy At Thermal Sources Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-04-28T06:08:33Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Harnessing Energy At Thermal Sources Act of 2026",
+        "title": "HEATS Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-16T12:38:20Z"
@@ -768,7 +817,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "HEATS Act",
+        "title": "Harnessing Energy At Thermal Sources Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-16T12:38:20Z"
@@ -806,9 +855,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-28T06:08:33Z",
-  "updateDateIncludingText": "2026-04-28T07:18:27Z",
+  "updateDate": "2026-07-16T10:56:32Z",
+  "updateDateIncludingText": "2026-07-16T10:56:32Z",
   "id": "119-HR-5587",
-  "lastActionDate": "2026-04-23",
+  "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-04-23T14:33:04Z"
 }
