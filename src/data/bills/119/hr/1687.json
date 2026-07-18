@@ -710,6 +710,22 @@
   "titles": {
     "titles": [
       {
+        "title": "CLEAN Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:36:50Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "CLEAN Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-09T05:23:22Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -718,26 +734,6 @@
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2026-06-09T05:23:22Z"
-      },
-      {
-        "billTextVersionCode": "RFS",
-        "billTextVersionName": "Referred in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "CLEAN Act",
-        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
-        "titleTypeCode": 255,
-        "updateDate": "2026-06-09T05:23:22Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "CLEAN Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-04T03:08:36Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -760,6 +756,16 @@
         "updateDate": "2026-06-04T03:08:36Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "CLEAN Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-04T03:08:36Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -778,12 +784,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-05-22T02:38:25Z"
-      },
-      {
-        "title": "CLEAN Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-21T04:08:29Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -812,8 +812,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-16T10:56:36Z",
-  "updateDateIncludingText": "2026-07-16T10:56:36Z",
+  "updateDate": "2026-07-17T23:36:50Z",
+  "updateDateIncludingText": "2026-07-17T23:36:50Z",
   "id": "119-HR-1687",
   "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-06-02"

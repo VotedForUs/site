@@ -624,6 +624,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Emergency Conservation Program Improvement Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:28:59Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -644,12 +650,6 @@
         "updateDate": "2026-04-16T03:38:23Z"
       },
       {
-        "title": "Emergency Conservation Program Improvement Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-06T03:08:23Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Emergency Conservation Program Improvement Act of 2025",
@@ -668,8 +668,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-16T10:56:33Z",
-  "updateDateIncludingText": "2026-07-13T19:41:26Z",
+  "updateDate": "2026-07-17T23:28:59Z",
+  "updateDateIncludingText": "2026-07-17T23:28:59Z",
   "id": "119-HR-1011",
   "lastActionDate": "2026-04-15",
   "lastRecordedVoteDate": "2026-04-14T23:00:33Z"

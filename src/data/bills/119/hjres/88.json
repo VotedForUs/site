@@ -1019,7 +1019,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hjres/88/summaries?format=json"
   },
   "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision\".",
@@ -1052,8 +1052,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-07-10T15:38:29Z",
-  "updateDateIncludingText": "2026-07-13T19:41:12Z",
+  "updateDate": "2026-07-17T16:35:15Z",
+  "updateDateIncludingText": "2026-07-17T16:35:15Z",
   "id": "119-HJRES-88",
   "lastActionDate": "2025-06-12",
   "lastRecordedVoteDate": "2025-05-22T15:11:45Z"

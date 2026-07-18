@@ -886,6 +886,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Investing in All of America Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:00:21Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -910,9 +916,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Investing in All of America Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend the Small Business Investment Act of 1958 to exclude from the limit on leverage certain amounts invested in smaller enterprises located in rural or low-income areas and small businesses in critical technology areas, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-03T04:38:20Z"
       },
       {
@@ -920,9 +926,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Small Business Investment Act of 1958 to exclude from the limit on leverage certain amounts invested in smaller enterprises located in rural or low-income areas and small businesses in critical technology areas, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Investing in All of America Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-03T04:38:20Z"
       },
       {
@@ -934,12 +940,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2025-08-16T03:53:18Z"
-      },
-      {
-        "title": "Investing in All of America Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:14:09Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -960,8 +960,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-29T20:45:09Z",
-  "updateDateIncludingText": "2026-07-13T20:05:07Z",
+  "updateDate": "2026-07-18T00:00:21Z",
+  "updateDateIncludingText": "2026-07-18T00:00:21Z",
   "id": "119-HR-2066",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-04-15"

@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 10,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/hr/4647/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 458.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-15",
@@ -567,9 +575,8 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-07-15",
-    "actionTime": "11:49:09",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-16",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 458."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4647",
   "number": "4647",
@@ -586,7 +593,35 @@
         "title": "Captain Paul W. Bud Bucha VA Medical Center Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-08-01T05:23:19Z"
+        "updateDate": "2026-07-18T00:02:04Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To designate the medical center of the Department of Veterans Affairs in West Haven, Connecticut, as the \"Captain Paul W. 'Bud' Bucha VA Medical Center\".",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-18T00:02:04Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Captain Paul W. Bud Bucha VA Medical Center Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-17T15:23:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the medical center of the Department of Veterans Affairs in West Haven, Connecticut, as the \"Captain Paul W. \"Bud\" Bucha VA Medical Center\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-17T15:23:24Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -595,21 +630,13 @@
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-08-01T05:23:18Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To designate the medical center of the Department of Veterans Affairs in West Haven, Connecticut, as the \"Captain Paul W. 'Bud' Bucha VA Medical Center\".",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-08-01T05:18:33Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-16T15:17:03Z",
-  "updateDateIncludingText": "2026-07-16T15:17:03Z",
+  "updateDate": "2026-07-18T00:02:04Z",
+  "updateDateIncludingText": "2026-07-18T00:02:04Z",
   "id": "119-HR-4647",
-  "lastActionDate": "2026-07-15",
+  "lastActionDate": "2026-07-16",
   "lastRecordedVoteDate": "2026-07-15"
 }

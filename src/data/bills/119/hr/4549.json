@@ -637,6 +637,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Office of Rural Affairs Enhancement Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:59:46Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -677,12 +683,6 @@
         "updateDate": "2025-08-16T03:53:18Z"
       },
       {
-        "title": "Office of Rural Affairs Enhancement Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:13:40Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To amend the Small Business Act to clarify the responsibilities of the Office of Rural Affairs of the Small Business Administration, and for other purposes.",
@@ -701,8 +701,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-04T04:11:39Z",
-  "updateDateIncludingText": "2026-07-13T18:46:02Z",
+  "updateDate": "2026-07-17T23:59:46Z",
+  "updateDateIncludingText": "2026-07-17T23:59:46Z",
   "id": "119-HR-4549",
   "lastActionDate": "2025-12-02",
   "lastRecordedVoteDate": "2025-12-01"

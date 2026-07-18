@@ -17,12 +17,12 @@
       {
         "actionCode": "H37100",
         "actionDate": "2026-04-16",
-        "actionTime": "12:06:46",
+        "actionTime": "12:06:47",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-16T16:06:46Z",
+            "date": "2026-04-16T16:06:47Z",
             "rollNumber": 114,
             "sessionNumber": 2,
             "url": "https://clerk.house.gov/evs/2026/roll114.xml",
@@ -603,7 +603,7 @@
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-07-17T11:31:23Z"
+        "updateDate": "2026-07-18T00:03:03Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -616,9 +616,9 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-07-10T08:05:52Z",
-  "updateDateIncludingText": "2026-07-10T08:05:52Z",
+  "updateDate": "2026-07-18T00:03:03Z",
+  "updateDateIncludingText": "2026-07-18T00:03:03Z",
   "id": "119-HCONRES-40",
   "lastActionDate": "2026-04-16",
-  "lastRecordedVoteDate": "2026-04-16T16:06:46Z"
+  "lastRecordedVoteDate": "2026-04-16T16:06:47Z"
 }

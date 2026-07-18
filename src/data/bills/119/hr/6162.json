@@ -688,6 +688,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Albuquerque Indian School Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:35:57Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -718,12 +724,6 @@
         "updateDate": "2026-05-22T02:38:25Z"
       },
       {
-        "title": "Albuquerque Indian School Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-04T07:53:23Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Albuquerque Indian School Act of 2025",
@@ -742,8 +742,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-04T10:56:29Z",
-  "updateDateIncludingText": "2026-07-13T18:59:55Z",
+  "updateDate": "2026-07-17T23:35:57Z",
+  "updateDateIncludingText": "2026-07-17T23:35:57Z",
   "id": "119-HR-6162",
   "lastActionDate": "2026-06-03",
   "lastRecordedVoteDate": "2026-06-02"

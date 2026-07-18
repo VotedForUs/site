@@ -886,6 +886,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Medal of Sacrifice Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:58:33Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -910,9 +916,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Medal of Sacrifice Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To establish a medal of service for law enforcement officers and first responders.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-02-04T04:08:18Z"
       },
       {
@@ -920,9 +926,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To establish a medal of service for law enforcement officers and first responders.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Medal of Sacrifice Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-02-04T04:08:18Z"
       },
       {
@@ -934,12 +940,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-01-28T06:23:16Z"
-      },
-      {
-        "title": "Medal of Sacrifice Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:13:08Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -960,8 +960,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-24T19:19:34Z",
-  "updateDateIncludingText": "2026-07-13T20:16:05Z",
+  "updateDate": "2026-07-17T23:58:33Z",
+  "updateDateIncludingText": "2026-07-17T23:58:33Z",
   "id": "119-HR-3497",
   "lastActionDate": "2026-05-28",
   "lastRecordedVoteDate": "2026-05-11"

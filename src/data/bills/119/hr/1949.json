@@ -779,6 +779,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Unlocking our Domestic LNG Potential Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:59:47Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -819,12 +825,6 @@
         "updateDate": "2025-09-12T04:38:25Z"
       },
       {
-        "title": "Unlocking our Domestic LNG Potential Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:13:42Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Unlocking our Domestic LNG Potential Act of 2025",
@@ -843,8 +843,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-02-05T01:06:14Z",
-  "updateDateIncludingText": "2026-07-13T19:49:09Z",
+  "updateDate": "2026-07-17T23:59:48Z",
+  "updateDateIncludingText": "2026-07-17T23:59:48Z",
   "id": "119-HR-1949",
   "lastActionDate": "2025-12-08",
   "lastRecordedVoteDate": "2025-11-20T22:40:23Z"

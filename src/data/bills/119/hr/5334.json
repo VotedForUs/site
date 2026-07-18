@@ -653,6 +653,12 @@
   "titles": {
     "titles": [
       {
+        "title": "SEED Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:40:32Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -703,12 +709,6 @@
         "updateDate": "2026-04-29T05:08:27Z"
       },
       {
-        "title": "SEED Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-04-10T06:08:24Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -755,8 +755,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-16T13:23:36Z",
-  "updateDateIncludingText": "2026-07-16T14:24:54Z",
+  "updateDate": "2026-07-17T23:40:32Z",
+  "updateDateIncludingText": "2026-07-17T23:40:32Z",
   "id": "119-HR-5334",
   "lastActionDate": "2026-07-14",
   "lastRecordedVoteDate": "2026-04-27"

@@ -730,6 +730,20 @@
   "titles": {
     "titles": [
       {
+        "title": "Miracle on Ice Congressional Gold Medal Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:05:22Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To award 3 Congressional Gold Medals to the members of the 1980 U.S. Olympic Men's Ice Hockey Team, in recognition of their extraordinary achievement at the 1980 Winter Olympics where, being comprised of amateur collegiate players, they defeated the dominant Soviet hockey team in the historic \"Miracle on Ice\", revitalizing American morale at the height of the Cold War, inspiring generations and transforming the sport of hockey in the United States.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-18T00:05:22Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -778,32 +792,18 @@
         "updateDate": "2025-04-30T03:53:15Z"
       },
       {
-        "title": "Miracle on Ice Congressional Gold Medal Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-03T13:59:20Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Miracle on Ice Congressional Gold Medal Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-13T06:53:16Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To award 3 Congressional Gold Medals to the members of the 1980 U.S. Olympic Men's Ice Hockey Team, in recognition of their extraordinary achievement at the 1980 Winter Olympics where, being comprised of amateur collegiate players, they defeated the dominant Soviet hockey team in the historic \"Miracle on Ice\", revitalizing American morale at the height of the Cold War, inspiring generations and transforming the sport of hockey in the United States.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-02-13T06:48:26Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T16:38:23Z",
-  "updateDateIncludingText": "2026-07-13T18:45:53Z",
+  "updateDate": "2026-07-18T00:05:22Z",
+  "updateDateIncludingText": "2026-07-18T00:05:22Z",
   "id": "119-HR-452",
   "lastActionDate": "2025-12-12",
   "lastRecordedVoteDate": "2025-04-28"

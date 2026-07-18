@@ -688,6 +688,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Emergency Reporting Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:35:00Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -736,12 +742,6 @@
         "updateDate": "2025-09-12T03:53:20Z"
       },
       {
-        "title": "Emergency Reporting Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-09-12T03:53:20Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To direct the Federal Communications Commission to issue reports after activation of the Disaster Information Reporting System and to make improvements to network outage reporting, and for other purposes.",
@@ -752,8 +752,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:41:32Z",
-  "updateDateIncludingText": "2026-07-13T18:51:11Z",
+  "updateDate": "2026-07-17T23:35:00Z",
+  "updateDateIncludingText": "2026-07-17T23:35:00Z",
   "id": "119-HR-5200",
   "lastActionDate": "2026-04-21",
   "lastRecordedVoteDate": "2026-04-20T23:20:08Z"

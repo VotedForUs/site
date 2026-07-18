@@ -1,20 +1,12 @@
 {
   "actions": {
     "count": 12,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1993/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/5362/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-05-21",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
-        "type": "IntroReferral"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2026-05-20",
-        "actionTime": "17:08:18",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:51:04",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,16 +16,16 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-05-20",
-        "actionTime": "17:08:17",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:51:01",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-05-20T21:08:17Z",
-            "rollNumber": 182,
+            "date": "2026-07-16T14:51:01Z",
+            "rollNumber": 248,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll182.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll248.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Yea",
@@ -48,7 +40,7 @@
               "B000490": "Yea",
               "B000668": "Yea",
               "B000740": "Yea",
-              "B000825": "Yea",
+              "B000825": "Not Voting",
               "B001257": "Yea",
               "B001260": "Yea",
               "B001278": "Yea",
@@ -106,7 +98,7 @@
               "C001116": "Yea",
               "C001117": "Yea",
               "C001118": "Yea",
-              "C001119": "Not Voting",
+              "C001119": "Yea",
               "C001120": "Yea",
               "C001121": "Yea",
               "C001123": "Yea",
@@ -115,7 +107,7 @@
               "C001129": "Yea",
               "C001130": "Yea",
               "C001131": "Yea",
-              "C001132": "Not Voting",
+              "C001132": "Yea",
               "C001133": "Yea",
               "C001136": "Yea",
               "C001137": "Yea",
@@ -123,7 +115,7 @@
               "D000096": "Yea",
               "D000197": "Yea",
               "D000216": "Yea",
-              "D000230": "Yea",
+              "D000230": "Not Voting",
               "D000399": "Yea",
               "D000530": "Yea",
               "D000594": "Yea",
@@ -131,7 +123,7 @@
               "D000616": "Yea",
               "D000617": "Yea",
               "D000623": "Yea",
-              "D000624": "Yea",
+              "D000624": "Not Voting",
               "D000626": "Yea",
               "D000628": "Yea",
               "D000629": "Yea",
@@ -139,7 +131,7 @@
               "D000634": "Yea",
               "D000635": "Yea",
               "E000071": "Yea",
-              "E000235": "Not Voting",
+              "E000235": "Yea",
               "E000246": "Yea",
               "E000294": "Yea",
               "E000296": "Yea",
@@ -161,7 +153,7 @@
               "F000470": "Yea",
               "F000471": "Yea",
               "F000472": "Yea",
-              "F000474": "Not Voting",
+              "F000474": "Yea",
               "F000475": "Yea",
               "F000476": "Yea",
               "F000477": "Yea",
@@ -172,7 +164,7 @@
               "F000483": "Yea",
               "F000484": "Yea",
               "F000485": "Yea",
-              "G000546": "Not Voting",
+              "G000546": "Yea",
               "G000553": "Yea",
               "G000558": "Yea",
               "G000559": "Yea",
@@ -191,13 +183,14 @@
               "G000597": "Yea",
               "G000598": "Yea",
               "G000599": "Yea",
-              "G000600": "Yea",
+              "G000600": "Not Voting",
               "G000601": "Yea",
               "G000602": "Yea",
               "G000603": "Yea",
               "G000604": "Yea",
               "G000605": "Yea",
               "G000606": "Yea",
+              "G000607": "Yea",
               "H000874": "Yea",
               "H001047": "Yea",
               "H001052": "Yea",
@@ -215,7 +208,7 @@
               "H001091": "Yea",
               "H001093": "Yea",
               "H001094": "Yea",
-              "H001095": "Yea",
+              "H001095": "Not Voting",
               "H001096": "Yea",
               "H001098": "Yea",
               "H001099": "Yea",
@@ -235,8 +228,8 @@
               "J000304": "Yea",
               "J000305": "Yea",
               "J000307": "Yea",
-              "J000309": "Not Voting",
-              "J000310": "Not Voting",
+              "J000309": "Yea",
+              "J000310": "Yea",
               "J000311": "Yea",
               "K000009": "Yea",
               "K000375": "Yea",
@@ -247,7 +240,7 @@
               "K000391": "Yea",
               "K000392": "Yea",
               "K000397": "Yea",
-              "K000398": "Not Voting",
+              "K000398": "Yea",
               "K000399": "Yea",
               "K000400": "Yea",
               "K000401": "Yea",
@@ -267,7 +260,7 @@
               "L000590": "Yea",
               "L000593": "Yea",
               "L000595": "Yea",
-              "L000596": "Not Voting",
+              "L000596": "Yea",
               "L000597": "Yea",
               "L000598": "Yea",
               "L000599": "Yea",
@@ -289,10 +282,10 @@
               "M001160": "Yea",
               "M001163": "Yea",
               "M001177": "Yea",
-              "M001184": "Not Voting",
+              "M001184": "Yea",
               "M001188": "Yea",
               "M001194": "Yea",
-              "M001196": "Yea",
+              "M001196": "Not Voting",
               "M001199": "Yea",
               "M001204": "Yea",
               "M001205": "Not Voting",
@@ -308,7 +301,7 @@
               "M001217": "Yea",
               "M001218": "Yea",
               "M001220": "Yea",
-              "M001222": "Yea",
+              "M001222": "Not Voting",
               "M001223": "Yea",
               "M001224": "Yea",
               "M001225": "Yea",
@@ -330,8 +323,8 @@
               "M001241": "Yea",
               "M001245": "Yea",
               "M001246": "Yea",
-              "N000002": "Yea",
-              "N000015": "Not Voting",
+              "N000002": "Not Voting",
+              "N000015": "Yea",
               "N000026": "Yea",
               "N000188": "Yea",
               "N000189": "Yea",
@@ -359,7 +352,7 @@
               "P000620": "Yea",
               "P000621": "Yea",
               "P000622": "Yea",
-              "Q000023": "Yea",
+              "Q000023": "Not Voting",
               "R000305": "Yea",
               "R000395": "Yea",
               "R000575": "Yea",
@@ -370,13 +363,13 @@
               "R000609": "Yea",
               "R000610": "Yea",
               "R000612": "Yea",
-              "R000614": "Not Voting",
+              "R000614": "Yea",
               "R000617": "Yea",
               "R000619": "Yea",
               "R000620": "Yea",
               "R000621": "Yea",
               "R000622": "Yea",
-              "S000168": "Yea",
+              "S000168": "Not Voting",
               "S000185": "Yea",
               "S000250": "Yea",
               "S000344": "Yea",
@@ -395,7 +388,7 @@
               "S001189": "Yea",
               "S001190": "Yea",
               "S001195": "Yea",
-              "S001196": "Yea",
+              "S001196": "Not Voting",
               "S001199": "Yea",
               "S001200": "Yea",
               "S001201": "Yea",
@@ -418,7 +411,7 @@
               "S001230": "Yea",
               "S001231": "Yea",
               "T000165": "Yea",
-              "T000193": "Not Voting",
+              "T000193": "Yea",
               "T000460": "Yea",
               "T000463": "Yea",
               "T000467": "Yea",
@@ -470,25 +463,25 @@
             "votePartyTotal": [
               {
                 "nayTotal": 0,
-                "notVotingTotal": 10,
+                "notVotingTotal": 7,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 207
+                "yeaTotal": 211
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 5,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 207
+                "yeaTotal": 206
               },
               {
                 "nayTotal": 0,
@@ -502,157 +495,147 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll182.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
-            "id": "119-HR-1993-1"
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll248.xml",
+            "question": "On Motion to Suspend the Rules and Pass",
+            "id": "119-HR-5362-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 415 - 0 (Roll no. 182).",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 418 - 0 (Roll no. 248).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-05-20",
-        "actionTime": "16:31:45",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:17:42",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3659-3660)",
+        "text": "Considered as unfinished business. (consideration: CR H4613-4614)",
         "type": "Floor"
       },
       {
-        "actionCode": "H37220",
-        "actionDate": "2026-05-19",
-        "actionTime": "17:02:03",
+        "actionCode": "H37210",
+        "actionDate": "2026-07-15",
+        "actionTime": "11:26:55",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+        "text": "At the conclusion of debate, the chair put the question on the motion to suspend the rules. Mr. Bost objected to the vote on the grounds that a quorum was not present. Further proceedings on the motion were postponed. The point of no quorum was considered as withdrawn.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-05-19",
-        "actionTime": "16:44:14",
+        "actionDate": "2026-07-15",
+        "actionTime": "11:18:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1993.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5362.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-05-19",
-        "actionTime": "16:44:12",
+        "actionDate": "2026-07-15",
+        "actionTime": "11:18:11",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3579-3582; text: CR H3579-3580)",
+        "text": "Considered under suspension of the rules. (consideration: CR H4473-4474; text: CR H4473)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-05-19",
-        "actionTime": "16:43:59",
+        "actionDate": "2026-07-15",
+        "actionTime": "11:18:03",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Hill (AR) moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Bost moved to suspend the rules and pass the bill.",
         "type": "Floor"
       },
       {
-        "actionCode": "H11100",
-        "actionDate": "2025-03-10",
+        "actionCode": "H11000",
+        "actionDate": "2025-09-25",
         "committees": [
           {
-            "name": "Financial Services Committee",
-            "systemCode": "hsba00",
-            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+            "name": "Health Subcommittee",
+            "systemCode": "hsvr03",
+            "url": "https://api.congress.gov/v3/committee/house/hsvr03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Health.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-09-15",
+        "committees": [
+          {
+            "name": "Veterans' Affairs Committee",
+            "systemCode": "hsvr00",
+            "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Financial Services.",
+        "text": "Referred to the House Committee on Veterans' Affairs.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-10",
+  "introducedDate": "2025-09-15",
   "latestAction": {
-    "actionDate": "2026-05-21",
-    "text": "Received in the Senate."
+    "actionDate": "2026-07-16",
+    "actionTime": "10:51:04",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1993",
-  "number": "1993",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5362",
+  "number": "5362",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1993/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/5362/summaries?format=json"
   },
-  "title": "25th Anniversary of 9/11 Commemorative Coin Act",
+  "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
   "titles": {
     "titles": [
       {
-        "title": "25th Anniversary of 9/11 Commemorative Coin Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:07:41Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "25th Anniversary of 9/11 Commemorative Coin Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-05-22T04:08:30Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To require the Secretary of the Treasury to mint coins in commemoration of the 25th anniversary of the September 11, 2001, terrorist attacks on the United States and to support programs at the National September 11 Memorial and Museum at the World Trade Center.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-05-22T04:08:30Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "25th Anniversary of 9/11 Commemorative Coin Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-03-24T13:23:21Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To require the Secretary of the Treasury to mint coins in commemoration of the 25th anniversary of the September 11, 2001, terrorist attacks on the United States and to support programs at the National September 11 Memorial and Museum at the World Trade Center.",
+        "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-24T13:18:23Z"
+        "updateDate": "2025-09-24T06:33:20Z"
+      },
+      {
+        "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-09-16T08:06:14Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:07:41Z",
-  "updateDateIncludingText": "2026-07-18T00:07:41Z",
-  "id": "119-HR-1993",
-  "lastActionDate": "2026-05-21",
-  "lastRecordedVoteDate": "2026-05-20T21:08:17Z"
+  "updateDate": "2026-07-17T14:51:41Z",
+  "updateDateIncludingText": "2026-07-17T14:51:41Z",
+  "id": "119-HR-5362",
+  "lastActionDate": "2026-07-16",
+  "lastRecordedVoteDate": "2026-07-16T14:51:01Z"
 }

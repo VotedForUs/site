@@ -689,6 +689,12 @@
   "titles": {
     "titles": [
       {
+        "title": "United States Grain Standards Reauthorization Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:00:26Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -739,12 +745,6 @@
         "updateDate": "2025-09-04T10:23:23Z"
       },
       {
-        "title": "United States Grain Standards Reauthorization Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:14:14Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To reauthorize the United States Grain Standards Act, and for other purposes.",
@@ -763,8 +763,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T16:28:20Z",
-  "updateDateIncludingText": "2026-07-13T18:46:03Z",
+  "updateDate": "2026-07-18T00:00:26Z",
+  "updateDateIncludingText": "2026-07-18T00:00:26Z",
   "id": "119-HR-4550",
   "lastActionDate": "2025-11-04",
   "lastRecordedVoteDate": "2025-09-08"

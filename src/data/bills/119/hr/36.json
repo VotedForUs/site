@@ -626,6 +626,12 @@
   "titles": {
     "titles": [
       {
+        "title": "MEGOBARI Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:05:58Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -640,7 +646,7 @@
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "MEGOBARI Act",
+        "title": "Mobilizing and Enhancing Georgia’s Options for Building Accountability, Resilience, and Independence Act",
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2025-05-08T04:38:17Z"
@@ -650,7 +656,7 @@
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Mobilizing and Enhancing Georgia’s Options for Building Accountability, Resilience, and Independence Act",
+        "title": "MEGOBARI Act",
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2025-05-08T04:38:17Z"
@@ -684,12 +690,6 @@
         "updateDate": "2025-01-31T09:05:13Z"
       },
       {
-        "title": "MEGOBARI Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-01-31T03:38:18Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Mobilizing and Enhancing Georgia’s Options for Building Accountability, Resilience, and Independence Act",
@@ -708,8 +708,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T00:38:37Z",
-  "updateDateIncludingText": "2026-07-13T20:19:01Z",
+  "updateDate": "2026-07-18T00:05:58Z",
+  "updateDateIncludingText": "2026-07-18T00:05:58Z",
   "id": "119-HR-36",
   "lastActionDate": "2025-05-06",
   "lastRecordedVoteDate": "2025-05-05T22:59:03Z"

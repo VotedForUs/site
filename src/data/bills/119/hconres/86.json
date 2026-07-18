@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 19,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hconres/86/actions?format=json",
     "actions": [
       {
@@ -800,6 +800,16 @@
         },
         "text": "Referred to the House Committee on Foreign Affairs.",
         "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-04-20",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Submitted in House",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -824,7 +834,15 @@
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-05T05:38:27Z"
+        "updateDate": "2026-07-17T23:43:40Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:34:49Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -835,20 +853,12 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-05T05:38:26Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-04-21T08:19:06Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-07-06T18:15:51Z",
-  "updateDateIncludingText": "2026-07-13T18:34:50Z",
+  "updateDate": "2026-07-17T23:43:40Z",
+  "updateDateIncludingText": "2026-07-17T23:43:40Z",
   "id": "119-HCONRES-86",
   "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-23T19:43:27Z"

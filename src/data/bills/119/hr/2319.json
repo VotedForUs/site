@@ -637,6 +637,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:36:43Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -677,12 +683,6 @@
         "updateDate": "2025-11-19T07:38:16Z"
       },
       {
-        "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-04T05:08:22Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Women and Lung Cancer Research and Preventive Services Act of 2025",
@@ -701,8 +701,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-28T06:08:34Z",
-  "updateDateIncludingText": "2026-07-13T20:07:07Z",
+  "updateDate": "2026-07-17T23:36:43Z",
+  "updateDateIncludingText": "2026-07-17T23:36:43Z",
   "id": "119-HR-2319",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-21"
