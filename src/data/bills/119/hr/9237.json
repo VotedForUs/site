@@ -1,55 +1,38 @@
 {
   "actions": {
-    "count": 13,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1689/actions?format=json",
+    "count": 16,
+    "url": "https://api.congress.gov/v3/bill/119/hr/9237/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-04-21",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 374.",
-        "type": "Calendars"
-      },
-      {
-        "actionDate": "2026-04-20",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
-        "type": "Calendars"
-      },
-      {
-        "actionDate": "2026-04-17",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H38310",
-        "actionDate": "2026-04-16",
-        "actionTime": "14:22:04",
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-16",
+        "actionTime": "11:16:45",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "text": "POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of rule XIX, the Chair announced further proceedings on H.R. 9237 is postponed.",
         "type": "Floor"
       },
       {
-        "actionCode": "H37100",
-        "actionDate": "2026-04-16",
-        "actionTime": "14:22:01",
+        "actionCode": "H36210",
+        "actionDate": "2026-07-16",
+        "actionTime": "11:16:29",
+        "committees": [
+          {
+            "name": "Veterans' Affairs Committee",
+            "systemCode": "hsvr00",
+            "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
+          }
+        ],
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-16T18:22:01Z",
-            "rollNumber": 120,
+            "date": "2026-07-16T15:16:29Z",
+            "rollNumber": 249,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll120.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll249.xml",
             "votes": {
               "A000055": "Nay",
               "A000148": "Yea",
@@ -64,7 +47,7 @@
               "B000490": "Yea",
               "B000668": "Nay",
               "B000740": "Nay",
-              "B000825": "Nay",
+              "B000825": "Not Voting",
               "B001257": "Nay",
               "B001260": "Nay",
               "B001278": "Yea",
@@ -76,7 +59,7 @@
               "B001292": "Yea",
               "B001295": "Nay",
               "B001296": "Yea",
-              "B001298": "Yea",
+              "B001298": "Nay",
               "B001300": "Yea",
               "B001301": "Nay",
               "B001302": "Nay",
@@ -127,8 +110,7 @@
               "C001121": "Yea",
               "C001123": "Yea",
               "C001125": "Yea",
-              "C001126": "Yea",
-              "C001127": "Yea",
+              "C001126": "Nay",
               "C001129": "Nay",
               "C001130": "Yea",
               "C001131": "Yea",
@@ -140,15 +122,15 @@
               "D000096": "Yea",
               "D000197": "Yea",
               "D000216": "Yea",
-              "D000230": "Yea",
+              "D000230": "Not Voting",
               "D000399": "Yea",
               "D000530": "Yea",
               "D000594": "Nay",
-              "D000600": "Yea",
+              "D000600": "Nay",
               "D000616": "Nay",
               "D000617": "Yea",
               "D000623": "Yea",
-              "D000624": "Yea",
+              "D000624": "Not Voting",
               "D000626": "Nay",
               "D000628": "Nay",
               "D000629": "Yea",
@@ -172,7 +154,7 @@
               "F000454": "Yea",
               "F000459": "Nay",
               "F000462": "Yea",
-              "F000466": "Yea",
+              "F000466": "Nay",
               "F000468": "Yea",
               "F000469": "Nay",
               "F000470": "Nay",
@@ -204,7 +186,7 @@
               "G000589": "Nay",
               "G000591": "Nay",
               "G000592": "Yea",
-              "G000593": "Yea",
+              "G000593": "Nay",
               "G000597": "Nay",
               "G000598": "Yea",
               "G000599": "Yea",
@@ -215,6 +197,7 @@
               "G000604": "Yea",
               "G000605": "Yea",
               "G000606": "Yea",
+              "G000607": "Nay",
               "H000874": "Yea",
               "H001047": "Yea",
               "H001052": "Nay",
@@ -232,7 +215,7 @@
               "H001091": "Nay",
               "H001093": "Nay",
               "H001094": "Yea",
-              "H001095": "Nay",
+              "H001095": "Not Voting",
               "H001096": "Nay",
               "H001098": "Nay",
               "H001099": "Nay",
@@ -264,10 +247,10 @@
               "K000391": "Yea",
               "K000392": "Nay",
               "K000397": "Nay",
-              "K000398": "Not Voting",
+              "K000398": "Nay",
               "K000399": "Nay",
               "K000400": "Yea",
-              "K000401": "Yea",
+              "K000401": "Nay",
               "K000402": "Yea",
               "K000403": "Nay",
               "K000405": "Nay",
@@ -284,10 +267,10 @@
               "L000590": "Yea",
               "L000593": "Yea",
               "L000595": "Nay",
-              "L000596": "Nay",
+              "L000596": "Yea",
               "L000597": "Nay",
               "L000598": "Nay",
-              "L000599": "Yea",
+              "L000599": "Nay",
               "L000600": "Nay",
               "L000601": "Yea",
               "L000602": "Yea",
@@ -296,7 +279,7 @@
               "L000607": "Yea",
               "M000194": "Not Voting",
               "M000312": "Yea",
-              "M000317": "Yea",
+              "M000317": "Nay",
               "M000687": "Yea",
               "M000871": "Nay",
               "M001136": "Nay",
@@ -309,13 +292,13 @@
               "M001184": "Nay",
               "M001188": "Yea",
               "M001194": "Nay",
-              "M001196": "Yea",
+              "M001196": "Not Voting",
               "M001199": "Nay",
               "M001204": "Nay",
-              "M001205": "Nay",
+              "M001205": "Not Voting",
               "M001206": "Yea",
               "M001208": "Yea",
-              "M001210": "Not Voting",
+              "M001210": "Nay",
               "M001211": "Nay",
               "M001212": "Nay",
               "M001213": "Nay",
@@ -323,9 +306,9 @@
               "M001215": "Nay",
               "M001216": "Nay",
               "M001217": "Yea",
-              "M001218": "Yea",
+              "M001218": "Nay",
               "M001220": "Yea",
-              "M001222": "Nay",
+              "M001222": "Yea",
               "M001223": "Yea",
               "M001224": "Nay",
               "M001225": "Yea",
@@ -346,7 +329,8 @@
               "M001240": "Nay",
               "M001241": "Yea",
               "M001245": "Yea",
-              "N000002": "Yea",
+              "M001246": "Yea",
+              "N000002": "Not Voting",
               "N000015": "Yea",
               "N000026": "Nay",
               "N000188": "Yea",
@@ -375,7 +359,7 @@
               "P000620": "Yea",
               "P000621": "Yea",
               "P000622": "Nay",
-              "Q000023": "Yea",
+              "Q000023": "Not Voting",
               "R000305": "Yea",
               "R000395": "Nay",
               "R000575": "Nay",
@@ -392,7 +376,7 @@
               "R000620": "Yea",
               "R000621": "Yea",
               "R000622": "Yea",
-              "S000168": "Yea",
+              "S000168": "Nay",
               "S000185": "Yea",
               "S000250": "Nay",
               "S000344": "Yea",
@@ -402,7 +386,6 @@
               "S001145": "Yea",
               "S001148": "Nay",
               "S001156": "Yea",
-              "S001157": "Yea",
               "S001159": "Yea",
               "S001172": "Nay",
               "S001176": "Nay",
@@ -412,7 +395,7 @@
               "S001189": "Nay",
               "S001190": "Yea",
               "S001195": "Nay",
-              "S001196": "Nay",
+              "S001196": "Not Voting",
               "S001199": "Nay",
               "S001200": "Yea",
               "S001201": "Yea",
@@ -437,7 +420,7 @@
               "T000165": "Nay",
               "T000193": "Yea",
               "T000460": "Yea",
-              "T000463": "Yea",
+              "T000463": "Nay",
               "T000467": "Nay",
               "T000468": "Yea",
               "T000469": "Yea",
@@ -457,7 +440,7 @@
               "V000129": "Nay",
               "V000130": "Yea",
               "V000131": "Yea",
-              "V000133": "Nay",
+              "V000133": "Yea",
               "V000134": "Nay",
               "V000135": "Nay",
               "V000136": "Yea",
@@ -483,32 +466,32 @@
               "Y000067": "Nay",
               "Z000018": "Nay"
             },
-            "result": "passed",
+            "result": "rejected",
             "votePartyTotal": [
               {
-                "nayTotal": 204,
-                "notVotingTotal": 3,
+                "nayTotal": 210,
+                "notVotingTotal": 5,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 10
+                "yeaTotal": 3
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 0,
+                "notVotingTotal": 5,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 213
+                "yeaTotal": 207
               },
               {
-                "nayTotal": 0,
+                "nayTotal": 1,
                 "notVotingTotal": 0,
                 "party": {
                   "name": "Independent",
@@ -516,25 +499,76 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 1
+                "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll120.xml",
-            "question": "On Passage",
-            "id": "119-HR-1689-1"
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll249.xml",
+            "question": "On Motion to Recommit",
+            "id": "119-HR-9237-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 224 - 204 (Roll no. 120). (text of amendment in the nature of a substitute: CR H2940)",
+        "text": "On motion to recommit Failed by the Yeas and Nays: 210 - 211 (Roll no. 249).",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:51:22",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business. (consideration: CR H4614-4615)",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:16:38",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 9237, the Chair put the question on motion to recommit and by voice vote, announced the noes had prevailed. Mr. Deluzio demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8A000",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:16:14",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H36200",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:16:01",
+        "committees": [
+          {
+            "name": "Veterans' Affairs Committee",
+            "systemCode": "hsvr00",
+            "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Deluzio moved to recommit to the Committee on Veterans' Affairs. (CR H4613)",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2026-04-16",
-        "actionTime": "13:43:47",
+        "actionDate": "2026-07-16",
+        "actionTime": "10:15:28",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -544,103 +578,157 @@
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-16",
-        "actionTime": "13:11:51",
+        "actionDate": "2026-07-16",
+        "actionTime": "09:12:36",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House resumed debate on H.R. 1689.",
+        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 9237.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-16",
-        "actionTime": "12:47:17",
+        "actionDate": "2026-07-16",
+        "actionTime": "09:11:48",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 1689.",
+        "text": "Rule provides for consideration of H.R. 139, H.R. 8595, H.R. 9237 and H.R. 1181. The resolution provides for consideration of H.R. 139, H.R. 9237, and H.R. 1181 under a closed rule, and H.R. 8595 under a structured rule with one hour of debate and one motion to reconsider on each bill.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-16",
-        "actionTime": "12:44:46",
+        "actionDate": "2026-07-16",
+        "actionTime": "09:11:43",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 965. (consideration: CR H2940-2947)",
+        "text": "Considered under the provisions of rule H. Res. 1423. (consideration: CR H4548-4613; text: CR H4548-4613)",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H1L210",
+        "actionDate": "2026-07-13",
+        "actionTime": "17:59:05",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Rules Committee Resolution H. Res. 1423 Reported to House. Rule provides for consideration of H.R. 139, H.R. 8595, H.R. 9237 and H.R. 1181. The resolution provides for consideration of H.R. 139, H.R. 9237, and H.R. 1181 under a closed rule, and H.R. 8595 under a structured rule with one hour of debate and one motion to reconsider on each bill.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H1L210",
+        "actionDate": "2026-06-23",
+        "actionTime": "19:18:06",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Rules Committee Resolution H. Res. 1377 Reported to House. Rule provides for consideration of H.R. 1181, H.R. 9022, H.R. 8595 and H.R. 9237. The resolution provides for consideration of H.R. 1181 and H.R. 9237 under a closed rule and H.R. 9022 and H.R. 8595 under a structured rule. The resolution provides for one hour of general debate and one motion to recommit on each bill.",
         "type": "Floor"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-02-27",
+        "actionDate": "2026-06-10",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+            "name": "Armed Services Committee",
+            "systemCode": "hsas00",
+            "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on the Judiciary.",
+        "text": "Referred to the Committee on Veterans' Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-06-10",
+        "committees": [
+          {
+            "name": "Veterans' Affairs Committee",
+            "systemCode": "hsvr00",
+            "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Veterans' Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-02-27",
+  "introducedDate": "2026-06-10",
   "latestAction": {
-    "actionDate": "2026-04-21",
-    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 374."
+    "actionDate": "2026-07-16",
+    "actionTime": "11:16:45",
+    "text": "POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of rule XIX, the Chair announced further proceedings on H.R. 9237 is postponed."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1689",
-  "number": "1689",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9237",
+  "number": "9237",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1689/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/9237/summaries?format=json"
   },
-  "title": "To require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+  "title": "Take Care of America’s Veterans Act",
   "titles": {
     "titles": [
       {
-        "title": "To require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+        "title": "Take Care of America’s Veterans Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:32:37Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-17T03:53:22Z"
+        "updateDate": "2026-06-11T08:23:26Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
+        "title": "Take Care of America’s Veterans Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-06-11T08:23:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "VITAL Act of 2026",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-06-11T08:23:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Veterans Infrastructure and Transformation Act of 2026",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
+        "updateDate": "2026-06-11T08:23:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend titles 10 and 38, United States Code, and other Federal laws, to improve benefits for veterans and the administration of the Department of Veterans Affairs.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-18T04:33:25Z"
+        "updateDate": "2026-06-11T08:18:31Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:32:37Z",
-  "updateDateIncludingText": "2026-07-17T23:32:37Z",
-  "id": "119-HR-1689",
-  "lastActionDate": "2026-04-21",
-  "lastRecordedVoteDate": "2026-04-16T18:22:01Z"
+  "updateDate": "2026-07-17T15:18:39Z",
+  "updateDateIncludingText": "2026-07-17T15:18:38Z",
+  "id": "119-HR-9237",
+  "lastActionDate": "2026-07-16",
+  "lastRecordedVoteDate": "2026-07-16T15:16:29Z"
 }

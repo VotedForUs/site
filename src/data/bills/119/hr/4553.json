@@ -2532,13 +2532,25 @@
   "titles": {
     "titles": [
       {
+        "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:00:29Z"
+      },
+      {
+        "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-18T00:00:28Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
         "updateDate": "2026-07-11T16:28:21Z"
       },
       {
@@ -2556,9 +2568,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
+        "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-07-11T16:28:21Z"
       },
       {
@@ -2592,18 +2604,6 @@
         "updateDate": "2025-09-09T04:23:32Z"
       },
       {
-        "title": "Making appropriations for energy and water development and related agencies for the fiscal year ending September 30, 2026, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-07-23T14:14:16Z"
-      },
-      {
-        "title": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:14:16Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -2616,8 +2616,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T16:28:21Z",
-  "updateDateIncludingText": "2026-07-13T18:46:08Z",
+  "updateDate": "2026-07-18T00:00:29Z",
+  "updateDateIncludingText": "2026-07-18T00:00:29Z",
   "id": "119-HR-4553",
   "lastActionDate": "2025-09-10",
   "lastRecordedVoteDate": "2025-09-04T15:01:10Z"

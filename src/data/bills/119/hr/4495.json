@@ -637,6 +637,12 @@
   "titles": {
     "titles": [
       {
+        "title": "SBA Fraud Enforcement Extension Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:01:30Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -677,12 +683,6 @@
         "updateDate": "2025-08-16T03:53:17Z"
       },
       {
-        "title": "SBA Fraud Enforcement Extension Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:13:58Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "SBA Fraud Enforcement Extension Act",
@@ -701,8 +701,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T23:26:40Z",
-  "updateDateIncludingText": "2026-07-13T18:45:38Z",
+  "updateDate": "2026-07-18T00:01:30Z",
+  "updateDateIncludingText": "2026-07-18T00:01:30Z",
   "id": "119-HR-4495",
   "lastActionDate": "2025-12-02",
   "lastRecordedVoteDate": "2025-12-01"

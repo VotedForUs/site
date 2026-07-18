@@ -710,6 +710,12 @@
   "titles": {
     "titles": [
       {
+        "title": "License to Drill Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:53:45Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -750,12 +756,6 @@
         "updateDate": "2026-05-22T02:23:25Z"
       },
       {
-        "title": "License to Drill Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-20T02:08:24Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "License to Drill Act",
@@ -774,8 +774,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-16T10:56:31Z",
-  "updateDateIncludingText": "2026-07-16T10:56:31Z",
+  "updateDate": "2026-07-17T23:53:45Z",
+  "updateDateIncludingText": "2026-07-17T23:53:45Z",
   "id": "119-HR-7831",
   "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-06-02"

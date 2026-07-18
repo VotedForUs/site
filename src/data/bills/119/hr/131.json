@@ -1484,6 +1484,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Finish the Arkansas Valley Conduit Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:04:24Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -1512,12 +1518,6 @@
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-07-24T01:38:20Z"
-      },
-      {
-        "title": "Finish the Arkansas Valley Conduit Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:12:18Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1558,8 +1558,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-10T16:38:24Z",
-  "updateDateIncludingText": "2026-07-13T19:43:38Z",
+  "updateDate": "2026-07-18T00:04:24Z",
+  "updateDateIncludingText": "2026-07-18T00:04:24Z",
   "id": "119-HR-131",
   "lastActionDate": "2026-01-08",
   "lastRecordedVoteDate": "2026-01-08T20:24:05Z"

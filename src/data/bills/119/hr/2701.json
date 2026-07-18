@@ -696,6 +696,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:43:23Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -736,12 +742,6 @@
         "updateDate": "2025-09-10T04:08:22Z"
       },
       {
-        "title": "Fallen Servicemembers Religious Heritage Restoration Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-30T12:51:43Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Fallen Servicemembers Religious Heritage Restoration Act",
@@ -760,8 +760,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T02:38:25Z",
-  "updateDateIncludingText": "2026-07-13T20:10:00Z",
+  "updateDate": "2026-07-17T23:43:36Z",
+  "updateDateIncludingText": "2026-07-17T23:43:36Z",
   "id": "119-HR-2701",
   "lastActionDate": "2025-12-09",
   "lastRecordedVoteDate": "2025-09-15"

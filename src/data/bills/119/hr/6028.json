@@ -658,6 +658,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Legislative Branch Agencies Clarification Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:56:57Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -686,12 +692,6 @@
         "updateDate": "2025-11-18T05:23:16Z"
       },
       {
-        "title": "Legislative Branch Agencies Clarification Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-11-18T05:23:16Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To modify the appointment and removal process for certain legislative branch officers, and for other purposes.",
@@ -702,8 +702,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-19T14:06:18Z",
-  "updateDateIncludingText": "2026-07-13T18:58:52Z",
+  "updateDate": "2026-07-17T23:56:57Z",
+  "updateDateIncludingText": "2026-07-17T23:56:57Z",
   "id": "119-HR-6028",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-08"

@@ -1887,6 +1887,18 @@
   "titles": {
     "titles": [
       {
+        "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:45:25Z"
+      },
+      {
+        "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:45:25Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -1895,24 +1907,12 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-05-13T14:23:38Z"
-      },
-      {
-        "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-05-13T14:23:38Z"
-      },
-      {
-        "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-05-01T08:08:14Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-16T16:37:58Z",
-  "updateDateIncludingText": "2026-07-16T16:37:58Z",
+  "updateDate": "2026-07-17T23:45:25Z",
+  "updateDateIncludingText": "2026-07-17T23:45:25Z",
   "id": "119-HR-8595",
   "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-07-15T21:12:51Z"

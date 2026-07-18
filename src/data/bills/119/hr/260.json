@@ -663,6 +663,12 @@
   "titles": {
     "titles": [
       {
+        "title": "No Tax Dollars for Terrorists Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:04:32Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -691,12 +697,6 @@
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-06-26T06:53:19Z"
-      },
-      {
-        "title": "No Tax Dollars for Terrorists Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-06-25T03:08:16Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -735,8 +735,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T02:43:23Z",
-  "updateDateIncludingText": "2026-07-13T20:09:23Z",
+  "updateDate": "2026-07-18T00:04:32Z",
+  "updateDateIncludingText": "2026-07-18T00:04:33Z",
   "id": "119-HR-260",
   "lastActionDate": "2026-02-10",
   "lastRecordedVoteDate": "2025-06-23"

@@ -722,6 +722,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Empowering Employer Child and Elder Care Solutions Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:00:26Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -730,12 +736,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2025-12-19T12:08:22Z"
-      },
-      {
-        "title": "Empowering Employer Child and Elder Care Solutions Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-23T14:14:15Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -756,8 +756,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:20Z",
-  "updateDateIncludingText": "2026-06-11T05:06:20Z",
+  "updateDate": "2026-07-18T00:00:26Z",
+  "updateDateIncludingText": "2026-07-18T00:00:26Z",
   "id": "119-HR-2270",
   "lastActionDate": "2026-01-13",
   "lastRecordedVoteDate": "2026-01-13T22:58:26Z"

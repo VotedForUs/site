@@ -675,6 +675,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Made in America Manufacturing Finance Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:59:59Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -725,12 +731,6 @@
         "updateDate": "2025-08-16T03:53:18Z"
       },
       {
-        "title": "Made in America Manufacturing Finance Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-08-16T03:53:18Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Made in America Manufacturing Finance Act of 2025",
@@ -749,8 +749,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-14T10:56:38Z",
-  "updateDateIncludingText": "2026-07-13T20:13:29Z",
+  "updateDate": "2026-07-17T23:59:59Z",
+  "updateDateIncludingText": "2026-07-17T23:59:59Z",
   "id": "119-HR-3174",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2025-12-01"

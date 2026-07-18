@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/2913/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2026-06-08",
         "sourceSystem": {
@@ -705,8 +713,8 @@
   "congress": 119,
   "introducedDate": "2025-04-14",
   "latestAction": {
-    "actionDate": "2026-06-08",
-    "text": "Received in the Senate."
+    "actionDate": "2026-07-16",
+    "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2913",
   "number": "2913",
@@ -719,6 +727,12 @@
   "title": "Ukraine Support Act",
   "titles": {
     "titles": [
+      {
+        "title": "Ukraine Support Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:02:24Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -740,12 +754,6 @@
         "updateDate": "2026-06-09T05:23:22Z"
       },
       {
-        "title": "Ukraine Support Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-05-07T03:08:17Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Ukraine Support Act",
@@ -764,9 +772,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-18T13:08:14Z",
-  "updateDateIncludingText": "2026-07-13T20:11:33Z",
+  "updateDate": "2026-07-18T00:02:24Z",
+  "updateDateIncludingText": "2026-07-18T00:02:24Z",
   "id": "119-HR-2913",
-  "lastActionDate": "2026-06-08",
+  "lastActionDate": "2026-07-16",
   "lastRecordedVoteDate": "2026-06-05T00:09:08Z"
 }

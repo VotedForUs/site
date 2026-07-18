@@ -806,6 +806,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Epstein Files Transparency Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:01:51Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -836,12 +842,6 @@
         "updateDate": "2025-11-20T05:53:20Z"
       },
       {
-        "title": "Epstein Files Transparency Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-30T12:52:15Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Epstein Files Transparency Act",
@@ -860,8 +860,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-02T20:04:33Z",
-  "updateDateIncludingText": "2026-07-13T18:44:53Z",
+  "updateDate": "2026-07-18T00:01:51Z",
+  "updateDateIncludingText": "2026-07-18T00:01:51Z",
   "id": "119-HR-4405",
   "lastActionDate": "2025-11-19",
   "lastRecordedVoteDate": "2025-11-19"

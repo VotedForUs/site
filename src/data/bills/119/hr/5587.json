@@ -753,6 +753,20 @@
   "titles": {
     "titles": [
       {
+        "title": "HEATS Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:39:46Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Geothermal Steam Act of 1970 to waive the requirement for a Federal drilling permit for certain activities, to exempt certain activities from the requirements of the National Environmental Policy Act of 1969, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:30:40Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -823,12 +837,6 @@
         "updateDate": "2026-04-16T12:38:20Z"
       },
       {
-        "title": "HEATS Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-03T04:23:19Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Harnessing Energy At Thermal Sources Act",
@@ -843,20 +851,12 @@
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-10-03T04:23:17Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To amend the Geothermal Steam Act of 1970 to waive the requirement for a Federal drilling permit for certain activities, to exempt certain activities from the requirements of the National Environmental Policy Act of 1969, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-10-03T04:18:29Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-16T10:56:32Z",
-  "updateDateIncludingText": "2026-07-16T10:56:32Z",
+  "updateDate": "2026-07-17T23:39:46Z",
+  "updateDateIncludingText": "2026-07-17T23:39:46Z",
   "id": "119-HR-5587",
   "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-04-23T14:33:04Z"

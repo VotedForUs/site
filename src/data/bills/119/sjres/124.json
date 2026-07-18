@@ -205,6 +205,10 @@
   "number": "124",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sjres/124/summaries?format=json"
+  },
   "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against the Republic of Cuba that have not been authorized by Congress.",
   "titles": {
     "titles": [
@@ -225,8 +229,8 @@
     ]
   },
   "type": "SJRES",
-  "updateDate": "2026-07-06T21:12:46Z",
-  "updateDateIncludingText": "2026-07-06T21:12:46Z",
+  "updateDate": "2026-07-17T19:47:53Z",
+  "updateDateIncludingText": "2026-07-17T19:47:53Z",
   "id": "119-SJRES-124",
   "lastActionDate": "2026-04-28",
   "lastRecordedVoteDate": "2026-04-28T21:58:13Z"

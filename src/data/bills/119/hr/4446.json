@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 26,
+    "count": 27,
     "url": "https://api.congress.gov/v3/bill/119/hr/4446/actions?format=json",
     "actions": [
       {
@@ -827,6 +827,23 @@
         "type": "Committee"
       },
       {
+        "actionCode": "H19000",
+        "actionDate": "2025-07-23",
+        "committees": [
+          {
+            "name": "Veterans' Affairs Committee",
+            "systemCode": "hsvr00",
+            "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported by Voice Vote.",
+        "type": "Committee"
+      },
+      {
         "actionCode": "H15001",
         "actionDate": "2025-07-23",
         "committees": [
@@ -886,6 +903,12 @@
   "titles": {
     "titles": [
       {
+        "title": "FAST VETS Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:02:36Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -900,7 +923,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "FAST VETS Act",
+        "title": "Focused Assistance and Skills Training for Veterans’ Employment and Transition Success Act",
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2025-12-20T06:23:19Z"
@@ -910,7 +933,7 @@
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
         "chamberName": "Joint",
-        "title": "Focused Assistance and Skills Training for Veterans’ Employment and Transition Success Act",
+        "title": "FAST VETS Act",
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2025-12-20T06:23:19Z"
@@ -920,7 +943,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Focused Assistance and Skills Training for Veterans’ Employment and Transition Success Act",
+        "title": "FAST VETS Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-09-19T02:38:13Z"
@@ -930,7 +953,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "FAST VETS Act",
+        "title": "Focused Assistance and Skills Training for Veterans’ Employment and Transition Success Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-09-19T02:38:13Z"
@@ -974,12 +997,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2025-09-11T10:08:22Z"
-      },
-      {
-        "title": "FAST VETS Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-30T12:52:02Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1008,8 +1025,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T16:43:23Z",
-  "updateDateIncludingText": "2026-07-13T18:45:14Z",
+  "updateDate": "2026-07-18T00:02:36Z",
+  "updateDateIncludingText": "2026-07-18T00:02:36Z",
   "id": "119-HR-4446",
   "lastActionDate": "2026-01-20",
   "lastRecordedVoteDate": "2025-12-18"

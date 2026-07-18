@@ -938,6 +938,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Cape Fox Land Entitlement Finalization Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:49:20Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -962,9 +968,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Cape Fox Land Entitlement Finalization Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-17T04:23:23Z"
       },
       {
@@ -972,9 +978,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Cape Fox Land Entitlement Finalization Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-17T04:23:23Z"
       },
       {
@@ -986,12 +992,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2025-11-01T03:53:13Z"
-      },
-      {
-        "title": "Cape Fox Land Entitlement Finalization Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-25T13:23:36Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1012,8 +1012,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-22T16:47:52Z",
-  "updateDateIncludingText": "2026-07-13T20:10:48Z",
+  "updateDate": "2026-07-17T23:49:20Z",
+  "updateDateIncludingText": "2026-07-17T23:49:20Z",
   "id": "119-HR-2815",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-02-26"
