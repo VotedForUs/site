@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 10,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hres/1259/actions?format=json",
     "actions": [
       {
@@ -577,6 +577,16 @@
         },
         "text": "Referred to the House Committee on Foreign Affairs.",
         "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-05-07",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Submitted in House",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -602,7 +612,15 @@
         "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People’s Republic of China during future engagements with Chinese President Xi Jinping.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-11T21:44:21Z"
+        "updateDate": "2026-07-17T23:51:33Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:47:52Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -613,20 +631,12 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-05-15T03:08:24Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-05-08T08:18:33Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-11T21:44:22Z",
-  "updateDateIncludingText": "2026-07-17T03:20:09Z",
+  "updateDate": "2026-07-17T23:51:33Z",
+  "updateDateIncludingText": "2026-07-19T00:17:57Z",
   "id": "119-HRES-1259",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T22:47:26Z"

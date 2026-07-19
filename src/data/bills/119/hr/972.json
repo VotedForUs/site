@@ -898,6 +898,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:49:19Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -922,9 +928,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend the Sloan Canyon National Conservation Area Act to adjust the boundary of the Sloan Canyon National Conservation Area, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-17T04:08:13Z"
       },
       {
@@ -932,9 +938,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Sloan Canyon National Conservation Area Act to adjust the boundary of the Sloan Canyon National Conservation Area, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-17T04:08:13Z"
       },
       {
@@ -946,12 +952,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2025-09-16T08:08:17Z"
-      },
-      {
-        "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-06T07:23:22Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -972,8 +972,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-14T01:26:29Z",
-  "updateDateIncludingText": "2026-07-17T03:17:53Z",
+  "updateDate": "2026-07-17T23:49:19Z",
+  "updateDateIncludingText": "2026-07-19T00:15:24Z",
   "id": "119-HR-972",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-02-26"

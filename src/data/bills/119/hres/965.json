@@ -17,12 +17,12 @@
       {
         "actionCode": "H37100",
         "actionDate": "2026-04-16",
-        "actionTime": "12:43:39",
+        "actionTime": "12:43:40",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-16T16:43:39Z",
+            "date": "2026-04-16T16:43:40Z",
             "rollNumber": 119,
             "sessionNumber": 2,
             "url": "https://clerk.house.gov/evs/2026/roll119.xml",
@@ -1181,7 +1181,7 @@
         "title": "Providing for consideration of the bill (H.R. 1689) to require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-10T08:06:03Z"
+        "updateDate": "2026-07-17T23:32:27Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1204,9 +1204,9 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-10T08:06:03Z",
-  "updateDateIncludingText": "2026-07-17T03:27:06Z",
+  "updateDate": "2026-07-17T23:32:37Z",
+  "updateDateIncludingText": "2026-07-18T15:50:28Z",
   "id": "119-HRES-965",
   "lastActionDate": "2026-04-16",
-  "lastRecordedVoteDate": "2026-04-16T16:43:39Z"
+  "lastRecordedVoteDate": "2026-04-16T16:43:40Z"
 }

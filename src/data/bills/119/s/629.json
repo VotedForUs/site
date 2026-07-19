@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/s/629/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-07-12",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-102.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-07-12",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-102.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-07-12",
@@ -811,8 +831,14 @@
   "introducedDate": "2025-02-19",
   "latestAction": {
     "actionDate": "2026-07-12",
-    "text": "Sent to Archivist of the United States unsigned."
+    "text": "Became Public Law No: 119-102."
   },
+  "laws": [
+    {
+      "number": "119-102",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/629",
   "number": "629",
   "originChamber": "Senate",
@@ -870,7 +896,7 @@
   },
   "type": "S",
   "updateDate": "2026-07-16T20:56:33Z",
-  "updateDateIncludingText": "2026-07-17T07:39:38Z",
+  "updateDateIncludingText": "2026-07-18T22:01:22Z",
   "id": "119-S-629",
   "lastActionDate": "2026-07-12",
   "lastRecordedVoteDate": "2026-06-23T22:59:45Z"
