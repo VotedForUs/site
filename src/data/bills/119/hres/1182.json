@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 12,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hres/1182/actions?format=json",
     "actions": [
       {
@@ -599,6 +599,16 @@
         },
         "text": "Referred to the House Committee on Energy and Commerce.",
         "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-04-16",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Submitted in House",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -624,7 +634,15 @@
         "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-11T21:54:21Z"
+        "updateDate": "2026-07-17T23:37:56Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:34:48Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -635,20 +653,12 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-24T04:53:25Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-04-17T14:03:30Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-11T21:54:21Z",
-  "updateDateIncludingText": "2026-07-17T03:19:25Z",
+  "updateDate": "2026-07-17T23:37:56Z",
+  "updateDateIncludingText": "2026-07-19T00:17:18Z",
   "id": "119-HRES-1182",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-22T20:39:50Z"

@@ -671,6 +671,20 @@
   "titles": {
     "titles": [
       {
+        "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:45:51Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:39:38Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -691,32 +705,18 @@
         "updateDate": "2026-06-10T05:38:24Z"
       },
       {
-        "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-05-05T06:08:27Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-05-05T06:08:26Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-05-05T06:03:37Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-10T10:56:30Z",
-  "updateDateIncludingText": "2026-07-17T02:33:21Z",
+  "updateDate": "2026-07-17T23:45:51Z",
+  "updateDateIncludingText": "2026-07-18T22:24:44Z",
   "id": "119-HR-8463",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-08"

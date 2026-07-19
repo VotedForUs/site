@@ -893,6 +893,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Tribal Trust Land Homeownership Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:39:57Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -901,12 +907,6 @@
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2026-03-06T04:08:20Z"
-      },
-      {
-        "title": "Tribal Trust Land Homeownership Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-16T12:03:15Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -947,8 +947,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-22T16:21:55Z",
-  "updateDateIncludingText": "2026-07-17T06:05:51Z",
+  "updateDate": "2026-07-17T23:39:57Z",
+  "updateDateIncludingText": "2026-07-18T22:02:05Z",
   "id": "119-S-723",
   "lastActionDate": "2026-05-04",
   "lastRecordedVoteDate": "2026-03-04T19:14:22Z"

@@ -883,6 +883,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:57:19Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -891,12 +897,6 @@
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2026-05-22T10:08:30Z"
-      },
-      {
-        "title": "Fiscal Year 2025 Veterans Affairs Major Medical Facility Authorization Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-19T12:03:16Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -937,8 +937,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-23T20:01:53Z",
-  "updateDateIncludingText": "2026-07-17T02:27:53Z",
+  "updateDate": "2026-07-17T23:57:19Z",
+  "updateDateIncludingText": "2026-07-18T21:36:27Z",
   "id": "119-S-2393",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-05-20T17:19:26Z"

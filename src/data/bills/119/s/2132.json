@@ -259,7 +259,7 @@
         "title": "CLEAR Path Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-04-23T11:03:25Z"
+        "updateDate": "2026-07-17T23:38:23Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -328,8 +328,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-02T01:54:55Z",
-  "updateDateIncludingText": "2026-07-17T07:10:06Z",
+  "updateDate": "2026-07-17T23:38:23Z",
+  "updateDateIncludingText": "2026-07-18T20:55:40Z",
   "id": "119-S-2132",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-21"

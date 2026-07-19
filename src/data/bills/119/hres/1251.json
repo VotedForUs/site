@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hres/1251/actions?format=json",
     "actions": [
       {
@@ -594,6 +594,16 @@
         },
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-04-30",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Submitted in House",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -619,7 +629,15 @@
         "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish-American community.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-11T21:44:21Z"
+        "updateDate": "2026-07-17T23:53:33Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish-American community.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:46:09Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -630,20 +648,12 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-05-15T03:08:23Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish-American community.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-05-02T03:33:25Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-11T21:44:21Z",
-  "updateDateIncludingText": "2026-07-17T03:20:03Z",
+  "updateDate": "2026-07-17T23:53:58Z",
+  "updateDateIncludingText": "2026-07-19T00:17:52Z",
   "id": "119-HRES-1251",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-13T22:40:55Z"

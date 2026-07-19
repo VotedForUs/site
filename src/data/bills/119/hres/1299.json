@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 10,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hres/1299/actions?format=json",
     "actions": [
       {
@@ -577,6 +577,16 @@
         },
         "text": "Referred to the House Committee on Rules.",
         "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-05-19",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Submitted in House",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -598,7 +608,15 @@
         "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-03T14:53:31Z"
+        "updateDate": "2026-07-17T23:57:13Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:57:13Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -609,20 +627,12 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-03T05:23:26Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-05-20T08:19:26Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-06-18T15:50:50Z",
-  "updateDateIncludingText": "2026-07-17T03:20:25Z",
+  "updateDate": "2026-07-17T23:57:13Z",
+  "updateDateIncludingText": "2026-07-19T00:18:20Z",
   "id": "119-HRES-1299",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T17:04:28Z"

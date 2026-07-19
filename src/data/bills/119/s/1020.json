@@ -860,24 +860,24 @@
   "titles": {
     "titles": [
       {
+        "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:46:07Z"
+      },
+      {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
         "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-03-28T04:18:17Z"
-      },
-      {
-        "title": "A bill to require the Federal Energy Regulatory Commission to extend the time period during which licensees are required to commence construction of certain hydropower projects.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-14T10:56:30Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-16T12:16:14Z",
-  "updateDateIncludingText": "2026-07-17T03:27:31Z",
+  "updateDate": "2026-07-17T23:46:07Z",
+  "updateDateIncludingText": "2026-07-18T15:50:53Z",
   "id": "119-S-1020",
   "lastActionDate": "2026-05-11",
   "lastRecordedVoteDate": "2026-04-21T19:54:39Z"

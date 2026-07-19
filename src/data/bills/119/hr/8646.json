@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 23,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/hr/8646/actions?format=json",
     "actions": [
       {
@@ -1235,6 +1235,18 @@
   "titles": {
     "titles": [
       {
+        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:47:06Z"
+      },
+      {
+        "title": "Making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:47:06Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -1275,12 +1287,6 @@
         "updateDate": "2026-06-09T05:38:26Z"
       },
       {
-        "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-05-02T08:23:27Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -1289,18 +1295,12 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-05-02T08:23:26Z"
-      },
-      {
-        "title": "Making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies programs for the fiscal year ending September 30, 2027, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-05-02T08:07:13Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T23:43:22Z",
-  "updateDateIncludingText": "2026-07-17T02:53:23Z",
+  "updateDate": "2026-07-17T23:47:06Z",
+  "updateDateIncludingText": "2026-07-18T22:26:10Z",
   "id": "119-HR-8646",
   "lastActionDate": "2026-06-08",
   "lastRecordedVoteDate": "2026-06-04T22:09:40Z"
