@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 9,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1399/actions?format=json",
+    "count": 5,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8823/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
-        "actionDate": "2026-06-30",
-        "actionTime": "17:47:30",
+        "actionDate": "2026-07-20",
+        "actionTime": "19:10:28",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -15,17 +15,28 @@
         "type": "Floor"
       },
       {
-        "actionCode": "H37100",
-        "actionDate": "2026-06-30",
-        "actionTime": "17:47:27",
+        "actionCode": "H38310",
+        "actionDate": "2026-07-20",
+        "actionTime": "19:10:27",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37300",
+        "actionDate": "2026-07-20",
+        "actionTime": "19:10:26",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-30T21:47:27Z",
-            "rollNumber": 233,
+            "date": "2026-07-20T23:10:26Z",
+            "rollNumber": 251,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll233.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll251.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Yea",
@@ -42,9 +53,9 @@
               "B000740": "Yea",
               "B000825": "Yea",
               "B001257": "Yea",
-              "B001260": "Yea",
+              "B001260": "Not Voting",
               "B001278": "Yea",
-              "B001281": "Yea",
+              "B001281": "Not Voting",
               "B001282": "Yea",
               "B001285": "Yea",
               "B001287": "Yea",
@@ -55,10 +66,10 @@
               "B001298": "Yea",
               "B001300": "Yea",
               "B001301": "Yea",
-              "B001302": "Yea",
+              "B001302": "Not Voting",
               "B001306": "Yea",
               "B001307": "Yea",
-              "B001309": "Not Voting",
+              "B001309": "Yea",
               "B001313": "Yea",
               "B001314": "Yea",
               "B001315": "Yea",
@@ -73,7 +84,7 @@
               "B001326": "Yea",
               "B001327": "Yea",
               "C000059": "Yea",
-              "C000537": "Yea",
+              "C000537": "Not Voting",
               "C001039": "Yea",
               "C001051": "Yea",
               "C001053": "Yea",
@@ -95,7 +106,7 @@
               "C001110": "Yea",
               "C001112": "Yea",
               "C001115": "Yea",
-              "C001116": "Yea",
+              "C001116": "Not Voting",
               "C001117": "Yea",
               "C001118": "Yea",
               "C001119": "Yea",
@@ -106,14 +117,14 @@
               "C001126": "Yea",
               "C001129": "Yea",
               "C001130": "Yea",
-              "C001131": "Yea",
+              "C001131": "Not Voting",
               "C001132": "Yea",
-              "C001133": "Yea",
+              "C001133": "Not Voting",
               "C001136": "Yea",
               "C001137": "Yea",
-              "D000032": "Yea",
+              "D000032": "Not Voting",
               "D000096": "Yea",
-              "D000197": "Not Voting",
+              "D000197": "Yea",
               "D000216": "Yea",
               "D000230": "Yea",
               "D000399": "Yea",
@@ -128,12 +139,12 @@
               "D000628": "Not Voting",
               "D000629": "Yea",
               "D000631": "Yea",
-              "D000634": "Yea",
+              "D000634": "Not Voting",
               "D000635": "Yea",
               "E000071": "Yea",
               "E000235": "Yea",
-              "E000246": "Yea",
-              "E000294": "Not Voting",
+              "E000246": "Not Voting",
+              "E000294": "Yea",
               "E000296": "Yea",
               "E000297": "Yea",
               "E000298": "Yea",
@@ -157,18 +168,18 @@
               "F000475": "Yea",
               "F000476": "Yea",
               "F000477": "Yea",
-              "F000478": "Yea",
+              "F000478": "Not Voting",
               "F000480": "Yea",
               "F000481": "Yea",
               "F000482": "Yea",
               "F000483": "Yea",
               "F000484": "Yea",
               "F000485": "Yea",
-              "G000546": "Yea",
+              "G000546": "Not Voting",
               "G000553": "Yea",
               "G000558": "Yea",
               "G000559": "Yea",
-              "G000565": "Yea",
+              "G000565": "Not Voting",
               "G000568": "Yea",
               "G000576": "Yea",
               "G000581": "Yea",
@@ -181,8 +192,8 @@
               "G000592": "Yea",
               "G000593": "Yea",
               "G000597": "Yea",
-              "G000598": "Yea",
-              "G000599": "Yea",
+              "G000598": "Not Voting",
+              "G000599": "Not Voting",
               "G000600": "Yea",
               "G000601": "Yea",
               "G000602": "Yea",
@@ -200,7 +211,7 @@
               "H001068": "Yea",
               "H001072": "Yea",
               "H001077": "Yea",
-              "H001081": "Not Voting",
+              "H001081": "Yea",
               "H001082": "Yea",
               "H001085": "Yea",
               "H001086": "Yea",
@@ -210,7 +221,7 @@
               "H001094": "Yea",
               "H001095": "Yea",
               "H001096": "Yea",
-              "H001098": "Yea",
+              "H001098": "Not Voting",
               "H001099": "Yea",
               "H001100": "Yea",
               "H001101": "Yea",
@@ -220,14 +231,14 @@
               "J000288": "Yea",
               "J000289": "Yea",
               "J000294": "Yea",
-              "J000295": "Not Voting",
+              "J000295": "Yea",
               "J000298": "Yea",
               "J000299": "Yea",
               "J000301": "Yea",
               "J000302": "Yea",
               "J000304": "Yea",
               "J000305": "Yea",
-              "J000307": "Yea",
+              "J000307": "Not Voting",
               "J000309": "Yea",
               "J000310": "Yea",
               "J000311": "Yea",
@@ -246,10 +257,10 @@
               "K000401": "Yea",
               "K000402": "Yea",
               "K000403": "Yea",
-              "K000405": "Yea",
-              "L000273": "Yea",
+              "K000405": "Not Voting",
+              "L000273": "Not Voting",
               "L000397": "Yea",
-              "L000491": "Not Voting",
+              "L000491": "Yea",
               "L000557": "Yea",
               "L000560": "Yea",
               "L000562": "Yea",
@@ -270,22 +281,22 @@
               "L000603": "Yea",
               "L000606": "Yea",
               "L000607": "Yea",
-              "M000194": "Present",
+              "M000194": "Not Voting",
               "M000312": "Yea",
               "M000317": "Yea",
               "M000687": "Yea",
               "M000871": "Yea",
               "M001136": "Yea",
               "M001137": "Yea",
-              "M001143": "Yea",
+              "M001143": "Not Voting",
               "M001157": "Yea",
               "M001160": "Yea",
               "M001163": "Yea",
               "M001177": "Yea",
-              "M001184": "Yea",
+              "M001184": "Not Voting",
               "M001188": "Yea",
               "M001194": "Yea",
-              "M001196": "Yea",
+              "M001196": "Not Voting",
               "M001199": "Yea",
               "M001204": "Yea",
               "M001205": "Yea",
@@ -325,7 +336,7 @@
               "M001246": "Yea",
               "N000002": "Yea",
               "N000015": "Yea",
-              "N000026": "Yea",
+              "N000026": "Not Voting",
               "N000188": "Yea",
               "N000189": "Yea",
               "N000190": "Yea",
@@ -334,7 +345,7 @@
               "O000019": "Yea",
               "O000086": "Yea",
               "O000172": "Yea",
-              "O000173": "Yea",
+              "O000173": "Not Voting",
               "O000175": "Yea",
               "O000176": "Yea",
               "O000177": "Yea",
@@ -362,7 +373,7 @@
               "R000606": "Yea",
               "R000609": "Yea",
               "R000610": "Yea",
-              "R000612": "Yea",
+              "R000612": "Not Voting",
               "R000614": "Yea",
               "R000617": "Yea",
               "R000619": "Yea",
@@ -370,13 +381,13 @@
               "R000621": "Yea",
               "R000622": "Yea",
               "S000168": "Yea",
-              "S000185": "Yea",
+              "S000185": "Not Voting",
               "S000250": "Yea",
               "S000344": "Yea",
-              "S000510": "Yea",
+              "S000510": "Not Voting",
               "S000522": "Yea",
               "S000929": "Yea",
-              "S001145": "Yea",
+              "S001145": "Not Voting",
               "S001148": "Yea",
               "S001156": "Yea",
               "S001159": "Yea",
@@ -422,7 +433,7 @@
               "T000478": "Yea",
               "T000480": "Yea",
               "T000481": "Yea",
-              "T000482": "Yea",
+              "T000482": "Not Voting",
               "T000486": "Yea",
               "T000487": "Yea",
               "T000488": "Yea",
@@ -441,19 +452,19 @@
               "V000139": "Yea",
               "W000187": "Yea",
               "W000788": "Yea",
-              "W000795": "Yea",
+              "W000795": "Not Voting",
               "W000797": "Yea",
               "W000798": "Yea",
               "W000804": "Yea",
               "W000806": "Yea",
-              "W000808": "Yea",
+              "W000808": "Not Voting",
               "W000809": "Yea",
               "W000812": "Yea",
               "W000814": "Yea",
               "W000816": "Yea",
               "W000821": "Yea",
               "W000822": "Yea",
-              "W000829": "Not Voting",
+              "W000829": "Yea",
               "W000830": "Yea",
               "W000831": "Yea",
               "Y000067": "Yea",
@@ -463,25 +474,25 @@
             "votePartyTotal": [
               {
                 "nayTotal": 0,
-                "notVotingTotal": 8,
+                "notVotingTotal": 21,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
-                "presentTotal": 1,
+                "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 209
+                "yeaTotal": 197
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 2,
+                "notVotingTotal": 14,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 210
+                "yeaTotal": 198
               },
               {
                 "nayTotal": 0,
@@ -495,128 +506,173 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll233.xml",
-            "question": "On Agreeing to the Resolution",
-            "id": "119-HRES-1399-1"
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll251.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "id": "119-HR-8823-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 420 - 0, 1 Present (Roll no. 233). (text: CR H4345-4346)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 396 - 0 (Roll no. 251).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-30",
-        "actionTime": "17:15:39",
+        "actionDate": "2026-07-20",
+        "actionTime": "19:03:33",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H4346-4347)",
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37220",
+        "actionDate": "2026-07-20",
+        "actionTime": "16:35:14",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-06-30",
-        "actionTime": "16:09:19",
+        "actionDate": "2026-07-20",
+        "actionTime": "16:22:25",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H. Res. 1399, the Chair put the question on agreeing to the resolution and by voice vote, announced the ayes had prevailed. Mr. Massie demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H35000",
-        "actionDate": "2026-06-30",
-        "actionTime": "16:09:02",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "The previous question was ordered without objection.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-06-30",
-        "actionTime": "16:04:33",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - The House proceeded with one hour of debate on H. Res. 1399.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 8823.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-30",
-        "actionTime": "16:04:23",
+        "actionDate": "2026-07-20",
+        "actionTime": "16:22:23",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter. (consideration: CR H4345-4346)",
+        "text": "Considered under suspension of the rules.",
         "type": "Floor"
       },
       {
-        "actionCode": "H8D000",
-        "actionDate": "2026-06-30",
-        "actionTime": "16:04:00",
+        "actionCode": "H30300",
+        "actionDate": "2026-07-20",
+        "actionTime": "16:22:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "QUESTION OF THE PRIVILEGES OF THE HOUSE - Mr. Massie rose to a question of the privileges of the House and offered the resolution. The Chair directed the Clerk to report the resolution. Upon examination of the resolution, the Chair determined that the resolution did constitute a question of the privileges of the House.",
+        "text": "Mr. Walberg moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-06-25",
+        "committees": [
+          {
+            "name": "Education and Workforce Committee",
+            "systemCode": "hsed00",
+            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 33 - 0.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2026-06-25",
+        "committees": [
+          {
+            "name": "Education and Workforce Committee",
+            "systemCode": "hsed00",
+            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-05-14",
+        "committees": [
+          {
+            "name": "Education and Workforce Committee",
+            "systemCode": "hsed00",
+            "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Education and Workforce.",
+        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-06-30",
+  "introducedDate": "2026-05-14",
   "latestAction": {
-    "actionDate": "2026-06-30",
-    "actionTime": "17:47:30",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-20",
+    "actionTime": "19:10:28",
+    "text": "Motion to reconsider laid on the table Agreed to without objection.",
+    "actionCode": "H38310"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1399",
-  "number": "1399",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8823",
+  "number": "8823",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Directing the Committee on Ethics to preserve and publicly release records relating to .monetary settlements involving acts of sexual harassment.",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8823/summaries?format=json"
+  },
+  "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
   "titles": {
     "titles": [
       {
-        "title": "Directing the Committee on Ethics to preserve and publicly release records relating to .monetary settlements involving acts of sexual harassment.",
+        "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-07T04:53:30Z"
+        "updateDate": "2026-07-17T23:53:45Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Directing the Committee on Ethics to preserve and publicly release records relating to .monetary settlements involving acts of sexual harassment.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-07-07T04:53:28Z"
-      },
-      {
-        "title": "Directing the Committee on Ethics to preserve and publicly release records relating to monetary settlements involving acts of sexual harassment.",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Federal Employees' Compensation Act to allow the Secretary of Labor to suspend payments to medical providers who have been convicted of fraud.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-01T08:08:59Z"
+        "updateDate": "2026-07-17T23:53:45Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-06-02T06:38:36Z"
       }
     ]
   },
-  "type": "HRES",
-  "updateDate": "2026-07-20T14:47:06Z",
-  "updateDateIncludingText": "2026-07-20T14:47:06Z",
-  "id": "119-HRES-1399",
-  "lastActionDate": "2026-06-30",
-  "lastRecordedVoteDate": "2026-06-30T21:47:27Z"
+  "type": "HR",
+  "updateDate": "2026-07-17T23:53:45Z",
+  "updateDateIncludingText": "2026-07-17T23:53:45Z",
+  "id": "119-HR-8823",
+  "lastActionDate": "2026-07-20",
+  "lastRecordedVoteDate": "2026-07-20T23:10:26Z"
 }
