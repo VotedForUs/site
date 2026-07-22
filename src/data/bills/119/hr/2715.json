@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/2715/actions?format=json",
     "actions": [
       {
@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4637-4638)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4637-4639)",
         "type": "Floor"
       },
       {
@@ -667,8 +667,7 @@
   "latestAction": {
     "actionDate": "2026-07-20",
     "actionTime": "14:47:15",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2715",
   "number": "2715",
@@ -681,6 +680,26 @@
   "title": "Destruction of Hazardous Imports Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Destruction of Hazardous Imports Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-22T05:38:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Federal Food, Drug, and Cosmetic Act to extend the destruction authority of the Secretary of Health and Human Services to articles that present a significant public health concern, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:25Z"
+      },
       {
         "title": "Destruction of Hazardous Imports Act",
         "titleType": "Display Title",
@@ -716,8 +735,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:56:52Z",
-  "updateDateIncludingText": "2026-07-17T23:56:52Z",
+  "updateDate": "2026-07-22T05:38:25Z",
+  "updateDateIncludingText": "2026-07-22T07:33:39Z",
   "id": "119-HR-2715",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"

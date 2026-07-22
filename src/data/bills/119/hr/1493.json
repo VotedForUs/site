@@ -1,12 +1,12 @@
 {
   "actions": {
     "count": 14,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2001/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/1493/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-20",
-        "actionTime": "15:38:47",
+        "actionTime": "15:46:20",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,12 +17,12 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-07-20",
-        "actionTime": "15:38:41",
+        "actionTime": "15:46:12",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4645)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4646-4647)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -489,38 +489,38 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/2001",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/1493",
             "question": "Voice Vote",
-            "id": "119-HR-2001-1"
+            "id": "119-HR-1493-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
         "actionDate": "2026-07-20",
-        "actionTime": "15:30:01",
+        "actionTime": "15:39:05",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2001.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1493.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-07-20",
-        "actionTime": "15:30:00",
+        "actionTime": "15:39:02",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H4645-4646)",
+        "text": "Considered under suspension of the rules. (consideration: CR H4646-4648)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
         "actionDate": "2026-07-20",
-        "actionTime": "15:29:49",
+        "actionTime": "15:38:49",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -532,13 +532,13 @@
         "actionCode": "H12410",
         "actionDate": "2026-07-02",
         "calendarNumber": {
-          "calendar": "U00626"
+          "calendar": "U00625"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 626.",
+        "text": "Placed on the Union Calendar, Calendar No. 625.",
         "type": "Calendars"
       },
       {
@@ -555,7 +555,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-721.",
+        "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-720.",
         "type": "Committee"
       },
       {
@@ -572,7 +572,7 @@
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
+        "text": "Ordered to be Reported by the Yeas and Nays: 43 - 0.",
         "type": "Committee"
       },
       {
@@ -594,7 +594,7 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-03-10",
+        "actionDate": "2025-02-21",
         "committees": [
           {
             "name": "Energy and Commerce Committee",
@@ -612,73 +612,53 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-10",
+  "introducedDate": "2025-02-21",
   "latestAction": {
     "actionDate": "2026-07-20",
-    "actionTime": "15:38:47",
+    "actionTime": "15:46:20",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2001",
-  "number": "2001",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1493",
+  "number": "1493",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2001/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/1493/summaries?format=json"
   },
-  "title": "Action for Dental Health Act",
+  "title": "To reauthorize and make improvements to Federal programs relating to the prevention, detection, and treatment of traumatic brain injuries, and for other purposes.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Action for Dental Health Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-07-22T05:38:24Z"
+        "title": "To reauthorize and make improvements to Federal programs relating to the prevention, detection, and treatment of traumatic brain injuries, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-22T05:38:26Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs.",
+        "title": "To reauthorize and make improvements to Federal programs relating to the prevention, detection, and treatment of traumatic brain injuries, and for other purposes.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-22T05:38:24Z"
       },
       {
-        "title": "Action for Dental Health Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:49:28Z"
-      },
-      {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Action for Dental Health Act",
-        "titleType": "Short Title(s) as Reported to House",
-        "titleTypeCode": 102,
-        "updateDate": "2026-07-03T03:38:19Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs.",
+        "title": "To reauthorize and make improvements to Federal programs relating to the prevention, detection, and treatment of traumatic brain injuries, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-26T02:03:51Z"
+        "updateDate": "2025-03-13T09:03:26Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:24Z",
+  "updateDate": "2026-07-22T05:38:26Z",
   "updateDateIncludingText": "2026-07-22T07:33:38Z",
-  "id": "119-HR-2001",
+  "id": "119-HR-1493",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"
 }

@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/4541/actions?format=json",
     "actions": [
       {
@@ -504,7 +504,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 6 (Roll no. 250).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 6 (Roll no. 250). (text: CR H4648)",
         "type": "Floor"
       },
       {
@@ -515,7 +515,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4670-4671)",
         "type": "Floor"
       },
       {
@@ -548,7 +548,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4648-4649)",
         "type": "Floor"
       },
       {
@@ -701,8 +701,7 @@
   "latestAction": {
     "actionDate": "2026-07-20",
     "actionTime": "19:03:23",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4541",
   "number": "4541",
@@ -712,14 +711,54 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/4541/summaries?format=json"
   },
-  "title": "EARLY Act Reauthorization of 2025",
+  "title": "To reauthorize the Young Women’s Breast Health Education and Awareness Requires Learning Young Act of 2009.",
   "titles": {
     "titles": [
       {
-        "title": "EARLY Act Reauthorization of 2025",
+        "title": "To reauthorize the Young Women’s Breast Health Education and Awareness Requires Learning Young Act of 2009.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:56:49Z"
+        "updateDate": "2026-07-22T05:38:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "SCREENS for Cancer Act of 2025",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Screening for Communities to Receive Early and Equitable Needed Services for Cancer Act of 2025",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "EARLY Act Reauthorization of 2025",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To reauthorize the Young Women’s Breast Health Education and Awareness Requires Learning Young Act of 2009.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:24Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -770,8 +809,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:56:49Z",
-  "updateDateIncludingText": "2026-07-17T23:56:49Z",
+  "updateDate": "2026-07-22T05:38:26Z",
+  "updateDateIncludingText": "2026-07-22T07:18:34Z",
   "id": "119-HR-4541",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20T23:03:22Z"

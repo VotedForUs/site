@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 5,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/hr/2069/actions?format=json",
     "actions": [
       {
@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H4657-4658)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4657-4659)",
         "type": "Floor"
       },
       {
@@ -586,8 +586,7 @@
   "latestAction": {
     "actionDate": "2026-07-20",
     "actionTime": "16:53:24",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2069",
   "number": "2069",
@@ -600,6 +599,26 @@
   "title": "Stop Secret Spending Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Stop Secret Spending Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Federal Funding Accountability and Transparency Act of 2006 to ensure that other transaction agreements are reported to USAspending.gov, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
       {
         "title": "Stop Secret Spending Act of 2025",
         "titleType": "Display Title",
@@ -625,8 +644,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-15T18:46:46Z",
-  "updateDateIncludingText": "2026-06-15T18:46:46Z",
+  "updateDate": "2026-07-22T05:38:25Z",
+  "updateDateIncludingText": "2026-07-22T07:33:38Z",
   "id": "119-HR-2069",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"

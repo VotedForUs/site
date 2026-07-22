@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 11,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/4348/actions?format=json",
     "actions": [
       {
@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H4640)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4640-4642)",
         "type": "Floor"
       },
       {
@@ -667,8 +667,7 @@
   "latestAction": {
     "actionDate": "2026-07-20",
     "actionTime": "15:09:21",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4348",
   "number": "4348",
@@ -685,7 +684,17 @@
         "title": "To reauthorize the Kay Hagan Tick Act, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:02:15Z"
+        "updateDate": "2026-07-22T05:38:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To reauthorize the Kay Hagan Tick Act, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:24Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -698,8 +707,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:02:15Z",
-  "updateDateIncludingText": "2026-07-18T00:02:15Z",
+  "updateDate": "2026-07-22T05:38:26Z",
+  "updateDateIncludingText": "2026-07-22T07:18:36Z",
   "id": "119-HR-4348",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"

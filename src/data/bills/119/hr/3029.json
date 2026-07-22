@@ -1,12 +1,12 @@
 {
   "actions": {
     "count": 14,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2001/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/3029/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-20",
-        "actionTime": "15:38:47",
+        "actionTime": "17:27:58",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,12 +17,12 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-07-20",
-        "actionTime": "15:38:41",
+        "actionTime": "17:27:55",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4645)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4666)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -489,100 +489,100 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/2001",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/3029",
             "question": "Voice Vote",
-            "id": "119-HR-2001-1"
+            "id": "119-HR-3029-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
         "actionDate": "2026-07-20",
-        "actionTime": "15:30:01",
+        "actionTime": "17:20:12",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2001.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 3029.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-07-20",
-        "actionTime": "15:30:00",
+        "actionTime": "17:20:11",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H4645-4646)",
+        "text": "Considered under suspension of the rules. (consideration: CR H4666-4667)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
         "actionDate": "2026-07-20",
-        "actionTime": "15:29:49",
+        "actionTime": "17:20:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Babin moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-07-02",
+        "actionDate": "2026-07-16",
         "calendarNumber": {
-          "calendar": "U00626"
+          "calendar": "U00654"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 626.",
+        "text": "Placed on the Union Calendar, Calendar No. 654.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2026-07-02",
+        "actionDate": "2026-07-16",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Science, Space, and Technology Committee",
+            "systemCode": "hssy00",
+            "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-721.",
+        "text": "Reported by the Committee on Science, Space, and Technology. H. Rept. 119-751.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2026-05-21",
+        "actionDate": "2025-04-29",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Science, Space, and Technology Committee",
+            "systemCode": "hssy00",
+            "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
+        "text": "Ordered to be Reported by Voice Vote.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2026-05-21",
+        "actionDate": "2025-04-29",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Science, Space, and Technology Committee",
+            "systemCode": "hssy00",
+            "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
           }
         ],
         "sourceSystem": {
@@ -594,91 +594,79 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-03-10",
+        "actionDate": "2025-04-28",
         "committees": [
           {
-            "name": "Energy and Commerce Committee",
-            "systemCode": "hsif00",
-            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+            "name": "Science, Space, and Technology Committee",
+            "systemCode": "hssy00",
+            "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Energy and Commerce.",
+        "text": "Referred to the House Committee on Science, Space, and Technology.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-10",
+  "introducedDate": "2025-04-28",
   "latestAction": {
     "actionDate": "2026-07-20",
-    "actionTime": "15:38:47",
+    "actionTime": "17:27:58",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2001",
-  "number": "2001",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
+  "number": "3029",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2001/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/3029/summaries?format=json"
   },
-  "title": "Action for Dental Health Act",
+  "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Action for Dental Health Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-07-22T05:38:24Z"
+        "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-22T05:38:26Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs.",
+        "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-22T05:38:24Z"
       },
       {
-        "title": "Action for Dental Health Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:49:28Z"
-      },
-      {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Action for Dental Health Act",
-        "titleType": "Short Title(s) as Reported to House",
-        "titleTypeCode": 102,
-        "updateDate": "2026-07-03T03:38:19Z"
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Nucleic Acid Standards for Biosecurity Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-08T18:23:21Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs.",
+        "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-26T02:03:51Z"
+        "updateDate": "2025-05-08T04:33:22Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:24Z",
-  "updateDateIncludingText": "2026-07-22T07:33:38Z",
-  "id": "119-HR-2001",
+  "updateDate": "2026-07-22T05:38:26Z",
+  "updateDateIncludingText": "2026-07-22T07:33:36Z",
+  "id": "119-HR-3029",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"
 }
