@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 8,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/4784/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S4145)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-07-14",
         "sourceSystem": {
@@ -214,8 +222,8 @@
   "congress": 119,
   "introducedDate": "2026-06-15",
   "latestAction": {
-    "actionDate": "2026-07-14",
-    "text": "Motion to proceed to consideration of measure made in Senate. (CR S3919)"
+    "actionDate": "2026-07-20",
+    "text": "Motion to proceed to consideration of measure made in Senate. (CR S4145)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
   "number": "4784",
@@ -228,7 +236,7 @@
         "title": "National Defense Authorization Act for Fiscal Year 2027",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T02:49:53Z"
+        "updateDate": "2026-07-21T11:03:20Z"
       },
       {
         "billTextVersionCode": "RS",
@@ -269,9 +277,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-20T19:53:51Z",
-  "updateDateIncludingText": "2026-07-20T19:53:51Z",
+  "updateDate": "2026-07-21T16:52:33Z",
+  "updateDateIncludingText": "2026-07-21T16:52:33Z",
   "id": "119-S-4784",
-  "lastActionDate": "2026-07-14",
+  "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-14T19:39:15Z"
 }

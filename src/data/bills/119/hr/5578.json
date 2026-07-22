@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 6,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hr/5578/actions?format=json",
     "actions": [
       {
@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4664-4665)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4664-4666)",
         "type": "Floor"
       },
       {
@@ -603,8 +603,7 @@
   "latestAction": {
     "actionDate": "2026-07-20",
     "actionTime": "17:18:54",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5578",
   "number": "5578",
@@ -614,14 +613,34 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/5578/summaries?format=json"
   },
-  "title": "Expanding Whistleblower Protections for Contractors Act of 2025",
+  "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
   "titles": {
     "titles": [
       {
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2025",
+        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-10-03T04:23:20Z"
+        "updateDate": "2026-07-22T05:38:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To ensure that whistleblowers, including contractors, are protected from retaliation when a Federal employee orders a reprisal, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:24Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -642,8 +661,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-16T12:38:10Z",
-  "updateDateIncludingText": "2026-07-16T12:38:10Z",
+  "updateDate": "2026-07-22T05:38:25Z",
+  "updateDateIncludingText": "2026-07-22T07:18:32Z",
   "id": "119-HR-5578",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"

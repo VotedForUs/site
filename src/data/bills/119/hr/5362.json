@@ -617,24 +617,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-22T05:38:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-09-24T06:33:20Z"
-      },
-      {
-        "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-09-16T08:06:14Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-20T14:03:08Z",
-  "updateDateIncludingText": "2026-07-20T14:03:08Z",
+  "updateDate": "2026-07-22T05:38:25Z",
+  "updateDateIncludingText": "2026-07-22T07:48:33Z",
   "id": "119-HR-5362",
   "lastActionDate": "2026-07-16",
   "lastRecordedVoteDate": "2026-07-16T14:51:01Z"

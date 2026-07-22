@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 14,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2001/actions?format=json",
+    "count": 20,
+    "url": "https://api.congress.gov/v3/bill/119/hr/1703/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-20",
-        "actionTime": "15:38:47",
+        "actionTime": "14:35:33",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,12 +17,12 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-07-20",
-        "actionTime": "15:38:41",
+        "actionTime": "14:35:31",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4645)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4636-4637)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -489,38 +489,38 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/2001",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/1703",
             "question": "Voice Vote",
-            "id": "119-HR-2001-1"
+            "id": "119-HR-1703-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
         "actionDate": "2026-07-20",
-        "actionTime": "15:30:01",
+        "actionTime": "14:30:42",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2001.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1703.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-07-20",
-        "actionTime": "15:30:00",
+        "actionTime": "14:30:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H4645-4646)",
+        "text": "Considered under suspension of the rules. (consideration: CR H4636-4637)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
         "actionDate": "2026-07-20",
-        "actionTime": "15:29:49",
+        "actionTime": "14:30:30",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -530,20 +530,37 @@
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-07-02",
+        "actionDate": "2026-07-18",
         "calendarNumber": {
-          "calendar": "U00626"
+          "calendar": "U00656"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 626.",
+        "text": "Placed on the Union Calendar, Calendar No. 656.",
         "type": "Calendars"
       },
       {
+        "actionCode": "H12300",
+        "actionDate": "2026-07-18",
+        "committees": [
+          {
+            "name": "Ways and Means Committee",
+            "systemCode": "hswm00",
+            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Committee on Ways and Means discharged.",
+        "type": "Discharge"
+      },
+      {
         "actionCode": "H12200",
-        "actionDate": "2026-07-02",
+        "actionDate": "2026-07-18",
         "committees": [
           {
             "name": "Energy and Commerce Committee",
@@ -555,7 +572,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-721.",
+        "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-753, Part I.",
         "type": "Committee"
       },
       {
@@ -572,7 +589,7 @@
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
+        "text": "Ordered to be Reported by the Yeas and Nays: 45 - 0.",
         "type": "Committee"
       },
       {
@@ -593,8 +610,76 @@
         "type": "Committee"
       },
       {
+        "actionCode": "H23000",
+        "actionDate": "2026-05-13",
+        "committees": [
+          {
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H22000",
+        "actionDate": "2026-05-13",
+        "committees": [
+          {
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2026-02-27",
+        "committees": [
+          {
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Health.",
+        "type": "Committee"
+      },
+      {
         "actionCode": "H11100",
-        "actionDate": "2025-03-10",
+        "actionDate": "2025-02-27",
+        "committees": [
+          {
+            "name": "Ways and Means Committee",
+            "systemCode": "hswm00",
+            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-02-27",
         "committees": [
           {
             "name": "Energy and Commerce Committee",
@@ -606,27 +691,27 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Energy and Commerce.",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-10",
+  "introducedDate": "2025-02-27",
   "latestAction": {
     "actionDate": "2026-07-20",
-    "actionTime": "15:38:47",
+    "actionTime": "14:35:33",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2001",
-  "number": "2001",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1703",
+  "number": "1703",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2001/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/1703/summaries?format=json"
   },
-  "title": "Action for Dental Health Act",
+  "title": "Choices for Increased Mobility Act of 2026",
   "titles": {
     "titles": [
       {
@@ -634,51 +719,59 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Action for Dental Health Act",
+        "title": "Choices for Increased Mobility Act of 2026",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
-        "updateDate": "2026-07-22T05:38:24Z"
+        "updateDate": "2026-07-22T05:53:17Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs.",
+        "title": "To amend title XVIII of the Social Security Act to clarify payment rules for manual wheelchairs under part B of the Medicare program.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-07-22T05:38:24Z"
-      },
-      {
-        "title": "Action for Dental Health Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:49:28Z"
+        "updateDate": "2026-07-22T05:53:17Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Action for Dental Health Act",
+        "title": "Choices for Increased Mobility Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-07-03T03:38:19Z"
+        "updateDate": "2026-07-19T13:53:21Z"
+      },
+      {
+        "title": "Choices for Increased Mobility Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-19T13:53:21Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To amend the Public Health Service Act to reauthorize a grant program for addressing dental workforce needs.",
+        "title": "Choices for Increased Mobility Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-19T09:53:19Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend title XVIII of the Social Security Act to clarify payment rules for manual wheelchairs under part B of the Medicare program.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-26T02:03:51Z"
+        "updateDate": "2025-03-19T09:48:29Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:24Z",
-  "updateDateIncludingText": "2026-07-22T07:33:38Z",
-  "id": "119-HR-2001",
+  "updateDate": "2026-07-22T05:53:17Z",
+  "updateDateIncludingText": "2026-07-22T07:18:35Z",
+  "id": "119-HR-1703",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"
 }

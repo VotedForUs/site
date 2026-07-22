@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 8,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hr/3491/actions?format=json",
     "actions": [
       {
@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H4649-4650)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -514,7 +514,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H4649-4651)",
         "type": "Floor"
       },
       {
@@ -616,8 +616,7 @@
   "latestAction": {
     "actionDate": "2026-07-20",
     "actionTime": "16:04:12",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3491",
   "number": "3491",
@@ -630,6 +629,26 @@
   "title": "DeOndra Dixon INCLUDE Project Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "DeOndra Dixon INCLUDE Project Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Public Health Service Act to authorize the Secretary of Health and Human Services to carry out a program of research, training, and investigation related to Down syndrome, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -665,8 +684,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-15T20:50:21Z",
-  "updateDateIncludingText": "2026-07-15T20:50:21Z",
+  "updateDate": "2026-07-22T05:38:24Z",
+  "updateDateIncludingText": "2026-07-22T07:33:33Z",
   "id": "119-HR-3491",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-20"

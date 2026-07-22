@@ -199,6 +199,10 @@
   "number": "2682",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2682/summaries?format=json"
+  },
   "title": "Captain Paul W. 'Bud' Bucha VA Medical Center Act of 2025",
   "titles": {
     "titles": [
@@ -227,8 +231,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-17T11:31:49Z",
-  "updateDateIncludingText": "2026-07-18T21:39:25Z",
+  "updateDate": "2026-07-21T20:17:46Z",
+  "updateDateIncludingText": "2026-07-21T20:17:46Z",
   "id": "119-S-2682",
   "lastActionDate": "2025-08-08",
   "lastRecordedVoteDate": "2025-08-02"
