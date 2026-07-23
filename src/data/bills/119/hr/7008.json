@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 40,
-    "url": "https://api.congress.gov/v3/bill/119/hr/8595/actions?format=json",
+    "count": 9,
+    "url": "https://api.congress.gov/v3/bill/119/hr/7008/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
-        "actionDate": "2026-07-15",
-        "actionTime": "17:12:53",
+        "actionDate": "2026-07-22",
+        "actionTime": "16:52:12",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,16 +16,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2026-07-15",
-        "actionTime": "17:12:51",
+        "actionDate": "2026-07-22",
+        "actionTime": "16:52:10",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-07-15T21:12:51Z",
-            "rollNumber": 247,
+            "date": "2026-07-22T20:52:10Z",
+            "rollNumber": 280,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll247.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll280.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -80,8 +80,8 @@
               "C001055": "Nay",
               "C001059": "Nay",
               "C001061": "Nay",
-              "C001063": "Nay",
-              "C001066": "Nay",
+              "C001063": "Yea",
+              "C001066": "Yea",
               "C001067": "Nay",
               "C001068": "Nay",
               "C001069": "Nay",
@@ -115,7 +115,7 @@
               "D000096": "Nay",
               "D000197": "Nay",
               "D000216": "Nay",
-              "D000230": "Not Voting",
+              "D000230": "Yea",
               "D000399": "Nay",
               "D000530": "Nay",
               "D000594": "Yea",
@@ -123,7 +123,7 @@
               "D000616": "Yea",
               "D000617": "Nay",
               "D000623": "Nay",
-              "D000624": "Not Voting",
+              "D000624": "Nay",
               "D000626": "Yea",
               "D000628": "Yea",
               "D000629": "Nay",
@@ -171,8 +171,8 @@
               "G000565": "Yea",
               "G000568": "Yea",
               "G000576": "Yea",
-              "G000581": "Nay",
-              "G000583": "Nay",
+              "G000581": "Yea",
+              "G000583": "Yea",
               "G000585": "Nay",
               "G000586": "Nay",
               "G000587": "Nay",
@@ -183,7 +183,7 @@
               "G000597": "Yea",
               "G000598": "Nay",
               "G000599": "Nay",
-              "G000600": "Nay",
+              "G000600": "Yea",
               "G000601": "Yea",
               "G000602": "Nay",
               "G000603": "Yea",
@@ -231,7 +231,7 @@
               "J000309": "Nay",
               "J000310": "Nay",
               "J000311": "Yea",
-              "K000009": "Nay",
+              "K000009": "Yea",
               "K000375": "Nay",
               "K000376": "Yea",
               "K000385": "Nay",
@@ -257,7 +257,7 @@
               "L000582": "Nay",
               "L000583": "Yea",
               "L000585": "Yea",
-              "L000590": "Nay",
+              "L000590": "Yea",
               "L000593": "Nay",
               "L000595": "Yea",
               "L000596": "Yea",
@@ -282,7 +282,7 @@
               "M001160": "Nay",
               "M001163": "Nay",
               "M001177": "Yea",
-              "M001184": "Nay",
+              "M001184": "Yea",
               "M001188": "Nay",
               "M001194": "Yea",
               "M001196": "Nay",
@@ -298,7 +298,7 @@
               "M001214": "Nay",
               "M001215": "Yea",
               "M001216": "Yea",
-              "M001217": "Nay",
+              "M001217": "Yea",
               "M001218": "Yea",
               "M001220": "Nay",
               "M001222": "Yea",
@@ -309,7 +309,7 @@
               "M001227": "Nay",
               "M001228": "Yea",
               "M001229": "Nay",
-              "M001230": "Not Voting",
+              "M001230": "Yea",
               "M001231": "Nay",
               "M001232": "Nay",
               "M001233": "Yea",
@@ -323,7 +323,7 @@
               "M001241": "Nay",
               "M001245": "Nay",
               "M001246": "Nay",
-              "N000002": "Not Voting",
+              "N000002": "Nay",
               "N000015": "Nay",
               "N000026": "Yea",
               "N000188": "Nay",
@@ -342,12 +342,12 @@
               "P000048": "Yea",
               "P000197": "Nay",
               "P000597": "Nay",
-              "P000605": "Not Voting",
+              "P000605": "Yea",
               "P000607": "Nay",
               "P000608": "Nay",
               "P000609": "Yea",
               "P000613": "Nay",
-              "P000614": "Nay",
+              "P000614": "Yea",
               "P000617": "Nay",
               "P000620": "Nay",
               "P000621": "Nay",
@@ -390,7 +390,7 @@
               "S001195": "Yea",
               "S001196": "Yea",
               "S001199": "Yea",
-              "S001200": "Nay",
+              "S001200": "Yea",
               "S001201": "Nay",
               "S001205": "Nay",
               "S001211": "Nay",
@@ -427,7 +427,7 @@
               "T000487": "Nay",
               "T000488": "Nay",
               "T000490": "Yea",
-              "T000491": "Nay",
+              "T000491": "Yea",
               "U000040": "Nay",
               "V000081": "Nay",
               "V000129": "Yea",
@@ -446,7 +446,7 @@
               "W000798": "Yea",
               "W000804": "Yea",
               "W000806": "Yea",
-              "W000808": "Nay",
+              "W000808": "Not Voting",
               "W000809": "Yea",
               "W000812": "Yea",
               "W000814": "Yea",
@@ -462,26 +462,26 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 1,
-                "notVotingTotal": 2,
+                "nayTotal": 0,
+                "notVotingTotal": 0,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 215
+                "yeaTotal": 218
               },
               {
-                "nayTotal": 208,
-                "notVotingTotal": 3,
+                "nayTotal": 198,
+                "notVotingTotal": 1,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 1
+                "yeaTotal": 13
               },
               {
                 "nayTotal": 0,
@@ -495,37 +495,37 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll247.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll280.xml",
             "question": "On Passage",
-            "id": "119-HR-8595-3"
+            "id": "119-HR-7008-2"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 217 - 209 (Roll no. 247).",
+        "text": "On passage Passed by the Yeas and Nays: 232 - 198 (Roll no. 280).",
         "type": "Floor"
       },
       {
         "actionCode": "H36210",
-        "actionDate": "2026-07-15",
-        "actionTime": "17:00:00",
+        "actionDate": "2026-07-22",
+        "actionTime": "16:44:29",
         "committees": [
           {
-            "name": "Appropriations Committee",
-            "systemCode": "hsap00",
-            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+            "name": "Committee on House Administration",
+            "systemCode": "hsha00",
+            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
           }
         ],
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-07-15T21:00:00Z",
-            "rollNumber": 246,
+            "date": "2026-07-22T20:44:29Z",
+            "rollNumber": 279,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll246.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll279.xml",
             "votes": {
               "A000055": "Nay",
               "A000148": "Yea",
@@ -555,7 +555,7 @@
               "B001298": "Nay",
               "B001300": "Yea",
               "B001301": "Nay",
-              "B001302": "Nay",
+              "B001302": "Not Voting",
               "B001306": "Nay",
               "B001307": "Nay",
               "B001309": "Nay",
@@ -615,7 +615,7 @@
               "D000096": "Yea",
               "D000197": "Yea",
               "D000216": "Yea",
-              "D000230": "Not Voting",
+              "D000230": "Yea",
               "D000399": "Yea",
               "D000530": "Yea",
               "D000594": "Nay",
@@ -623,7 +623,7 @@
               "D000616": "Nay",
               "D000617": "Yea",
               "D000623": "Yea",
-              "D000624": "Not Voting",
+              "D000624": "Yea",
               "D000626": "Nay",
               "D000628": "Nay",
               "D000629": "Yea",
@@ -809,7 +809,7 @@
               "M001227": "Yea",
               "M001228": "Nay",
               "M001229": "Yea",
-              "M001230": "Not Voting",
+              "M001230": "Nay",
               "M001231": "Yea",
               "M001232": "Yea",
               "M001233": "Nay",
@@ -823,7 +823,7 @@
               "M001241": "Yea",
               "M001245": "Yea",
               "M001246": "Yea",
-              "N000002": "Not Voting",
+              "N000002": "Yea",
               "N000015": "Yea",
               "N000026": "Nay",
               "N000188": "Yea",
@@ -842,7 +842,7 @@
               "P000048": "Nay",
               "P000197": "Yea",
               "P000597": "Yea",
-              "P000605": "Not Voting",
+              "P000605": "Nay",
               "P000607": "Yea",
               "P000608": "Yea",
               "P000609": "Nay",
@@ -880,7 +880,7 @@
               "S001148": "Nay",
               "S001156": "Yea",
               "S001159": "Yea",
-              "S001172": "Not Voting",
+              "S001172": "Nay",
               "S001176": "Nay",
               "S001183": "Nay",
               "S001185": "Yea",
@@ -946,7 +946,7 @@
               "W000798": "Nay",
               "W000804": "Nay",
               "W000806": "Nay",
-              "W000808": "Yea",
+              "W000808": "Not Voting",
               "W000809": "Nay",
               "W000812": "Nay",
               "W000814": "Nay",
@@ -962,8 +962,8 @@
             "result": "rejected",
             "votePartyTotal": [
               {
-                "nayTotal": 215,
-                "notVotingTotal": 3,
+                "nayTotal": 217,
+                "notVotingTotal": 1,
                 "party": {
                   "name": "Republican",
                   "type": "R"
@@ -974,14 +974,14 @@
               },
               {
                 "nayTotal": 0,
-                "notVotingTotal": 3,
+                "notVotingTotal": 1,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 209
+                "yeaTotal": 211
               },
               {
                 "nayTotal": 1,
@@ -995,22 +995,44 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll246.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll279.xml",
             "question": "On Motion to Recommit",
-            "id": "119-HR-8595-2"
+            "id": "119-HR-7008-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to recommit Failed by the Yeas and Nays: 209 - 216 (Roll no. 246).",
+        "text": "On motion to recommit Failed by the Yeas and Nays: 211 - 218 (Roll no. 279).",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-07-22",
+        "actionTime": "16:38:41",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-22",
+        "actionTime": "15:14:54",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 7008, the Chair put the question on motion to recommit and by voice vote, announced the ayes had prevailed. Mr. Steil demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
         "type": "Floor"
       },
       {
         "actionCode": "H8A000",
-        "actionDate": "2026-07-15",
-        "actionTime": "16:53:30",
+        "actionDate": "2026-07-22",
+        "actionTime": "15:14:29",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -1020,37 +1042,26 @@
       },
       {
         "actionCode": "H36200",
-        "actionDate": "2026-07-15",
-        "actionTime": "16:53:14",
+        "actionDate": "2026-07-22",
+        "actionTime": "15:14:17",
         "committees": [
           {
-            "name": "Appropriations Committee",
-            "systemCode": "hsap00",
-            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+            "name": "Committee on House Administration",
+            "systemCode": "hsha00",
+            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Amo moved to recommit to the Committee on Appropriations.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H34400",
-        "actionDate": "2026-07-15",
-        "actionTime": "16:52:20",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "The House adopted the amendments en gros as agreed to by the Committee of the Whole House on the state of the Union.",
+        "text": "Mr. Magaziner moved to recommit to the Committee on House Administration.",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2026-07-15",
-        "actionTime": "16:52:09",
+        "actionDate": "2026-07-22",
+        "actionTime": "15:13:52",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -1059,861 +1070,189 @@
         "type": "Floor"
       },
       {
-        "actionCode": "H32600",
-        "actionDate": "2026-07-15",
-        "actionTime": "16:51:22",
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-22",
+        "actionTime": "14:13:23",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The House rose from the Committee of the Whole House on the state of the Union to report H.R. 8595.",
+        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 7008.",
         "type": "Floor"
       },
       {
-        "actionCode": "H32050",
-        "actionDate": "2026-07-15",
-        "actionTime": "16:00:40",
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-22",
+        "actionTime": "14:12:15",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The House resolved into Committee of the Whole House on the state of the Union for further consideration.",
+        "text": "Rule provides for consideration of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955 and H.R. 9770. The resolution provides for consideration of H.R. 8800 under a structured rule and for consideration of H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under a closed rule, with one hour of debate on each measure and one motion to recommit on H.R. 8800, H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-07-15",
-        "actionTime": "16:00:27",
+        "actionDate": "2026-07-22",
+        "actionTime": "14:12:10",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H32700",
-        "actionDate": "2026-07-15",
-        "actionTime": "14:26:18",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Committee of the Whole House on the state of the Union rises leaving H.R. 8595 as unfinished business.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H32341",
-        "actionDate": "2026-07-15",
-        "actionTime": "14:25:59",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "On motion that the committee rise Agreed to by voice vote.",
-        "type": "Floor",
-        "recordedVotes": [
-          {
-            "chamber": "House",
-            "congress": 119,
-            "date": "2026-07-15",
-            "rollNumber": 0,
-            "sessionNumber": 0,
-            "url": "",
-            "votes": {
-              "A000055": "vv",
-              "B001257": "vv",
-              "B000490": "vv",
-              "B001260": "vv",
-              "C000059": "vv",
-              "C001072": "vv",
-              "C001051": "vv",
-              "C001066": "vv",
-              "C001080": "vv",
-              "C001067": "vv",
-              "C001061": "vv",
-              "C000537": "vv",
-              "C001068": "vv",
-              "C001053": "vv",
-              "C001059": "vv",
-              "C001069": "vv",
-              "C001087": "vv",
-              "C001063": "vv",
-              "D000096": "vv",
-              "D000197": "vv",
-              "D000216": "vv",
-              "D000616": "vv",
-              "D000600": "vv",
-              "D000399": "vv",
-              "F000459": "vv",
-              "F000450": "vv",
-              "G000559": "vv",
-              "G000565": "vv",
-              "G000546": "vv",
-              "G000553": "vv",
-              "G000568": "vv",
-              "G000558": "vv",
-              "H001052": "vv",
-              "H001047": "vv",
-              "H000874": "vv",
-              "H001058": "vv",
-              "J000288": "vv",
-              "J000289": "vv",
-              "K000009": "vv",
-              "K000375": "vv",
-              "K000376": "vv",
-              "L000560": "vv",
-              "L000557": "vv",
-              "L000566": "vv",
-              "L000397": "vv",
-              "L000491": "vv",
-              "L000562": "vv",
-              "M001163": "vv",
-              "M001157": "vv",
-              "M001177": "vv",
-              "M001143": "vv",
-              "M000312": "vv",
-              "M001137": "vv",
-              "M001160": "vv",
-              "N000002": "vv",
-              "N000015": "vv",
-              "N000147": "vv",
-              "P000034": "vv",
-              "P000197": "vv",
-              "P000597": "vv",
-              "Q000023": "vv",
-              "R000395": "vv",
-              "R000575": "vv",
-              "S001176": "vv",
-              "S001145": "vv",
-              "S001183": "vv",
-              "S001189": "vv",
-              "S001157": "vv",
-              "S000185": "vv",
-              "S001185": "vv",
-              "S000344": "vv",
-              "S001148": "vv",
-              "S000510": "vv",
-              "S001172": "vv",
-              "S000522": "vv",
-              "S001156": "vv",
-              "T000193": "vv",
-              "T000460": "vv",
-              "T000467": "vv",
-              "T000469": "vv",
-              "T000463": "vv",
-              "V000081": "vv",
-              "W000798": "vv",
-              "W000797": "vv",
-              "W000187": "vv",
-              "W000806": "vv",
-              "W000795": "vv",
-              "W000808": "vv",
-              "W000804": "vv",
-              "W000809": "vv",
-              "A000369": "vv",
-              "B001278": "vv",
-              "D000617": "vv",
-              "M001184": "vv",
-              "F000454": "vv",
-              "T000468": "vv",
-              "H001068": "vv",
-              "B001287": "vv",
-              "S001193": "vv",
-              "B001285": "vv",
-              "R000599": "vv",
-              "T000472": "vv",
-              "V000130": "vv",
-              "P000608": "vv",
-              "F000462": "vv",
-              "B001282": "vv",
-              "W000812": "vv",
-              "H001067": "vv",
-              "M001188": "vv",
-              "J000294": "vv",
-              "B001281": "vv",
-              "J000295": "vv",
-              "P000605": "vv",
-              "W000814": "vv",
-              "C001091": "vv",
-              "W000816": "vv",
-              "V000131": "vv",
-              "P000607": "vv",
-              "K000385": "vv",
-              "S001195": "vv",
-              "C001101": "vv",
-              "N000188": "vv",
-              "A000370": "vv",
-              "P000609": "vv",
-              "H001072": "vv",
-              "W000821": "vv",
-              "D000623": "vv",
-              "A000371": "vv",
-              "L000582": "vv",
-              "T000474": "vv",
-              "C001103": "vv",
-              "L000583": "vv",
-              "A000372": "vv",
-              "B001295": "vv",
-              "M001196": "vv",
-              "M001194": "vv",
-              "D000624": "vv",
-              "E000294": "vv",
-              "R000603": "vv",
-              "W000822": "vv",
-              "S001196": "vv",
-              "B001296": "vv",
-              "B001291": "vv",
-              "B001292": "vv",
-              "P000610": "vv",
-              "N000189": "vv",
-              "G000576": "vv",
-              "R000600": "vv",
-              "K000388": "vv",
-              "L000585": "vv",
-              "D000626": "vv",
-              "C001108": "vv",
-              "E000296": "vv",
-              "S001190": "vv",
-              "B001302": "vv",
-              "K000389": "vv",
-              "P000613": "vv",
-              "C001112": "vv",
-              "B001300": "vv",
-              "C001110": "vv",
-              "D000628": "vv",
-              "R000609": "vv",
-              "S001200": "vv",
-              "M001199": "vv",
-              "K000391": "vv",
-              "H001077": "vv",
-              "J000299": "vv",
-              "R000606": "vv",
-              "B001301": "vv",
-              "B001298": "vv",
-              "G000583": "vv",
-              "E000297": "vv",
-              "F000466": "vv",
-              "S001199": "vv",
-              "K000392": "vv",
-              "G000581": "vv",
-              "A000375": "vv",
-              "J000298": "vv",
-              "E000298": "vv",
-              "N000190": "vv",
-              "G000585": "vv",
-              "C001115": "vv",
-              "B001306": "vv",
-              "H001082": "vv",
-              "M001206": "vv",
-              "S001205": "vv",
-              "C001055": "vv",
-              "H001066": "vv",
-              "S001211": "vv",
-              "H001090": "vv",
-              "L000593": "vv",
-              "N000191": "vv",
-              "C001121": "vv",
-              "H001081": "vv",
-              "S001214": "vv",
-              "M001208": "vv",
-              "F000469": "vv",
-              "G000586": "vv",
-              "C001117": "vv",
-              "U000040": "vv",
-              "B001307": "vv",
-              "D000629": "vv",
-              "T000482": "vv",
-              "P000617": "vv",
-              "S001215": "vv",
-              "T000481": "vv",
-              "C001119": "vv",
-              "O000173": "vv",
-              "S001212": "vv",
-              "G000591": "vv",
-              "P000614": "vv",
-              "V000133": "vv",
-              "L000590": "vv",
-              "O000172": "vv",
-              "D000631": "vv",
-              "H001085": "vv",
-              "M001204": "vv",
-              "J000302": "vv",
-              "R000610": "vv",
-              "T000480": "vv",
-              "J000301": "vv",
-              "B001309": "vv",
-              "R000612": "vv",
-              "C001120": "vv",
-              "G000589": "vv",
-              "F000468": "vv",
-              "E000299": "vv",
-              "R000614": "vv",
-              "G000587": "vv",
-              "C001118": "vv",
-              "S001216": "vv",
-              "S001213": "vv",
-              "M001205": "vv",
-              "G000592": "vv",
-              "M001210": "vv",
-              "M000687": "vv",
-              "T000165": "vv",
-              "I000056": "vv",
-              "S000250": "vv",
-              "V000129": "vv",
-              "M001212": "vv",
-              "O000019": "vv",
-              "K000397": "vv",
-              "J000305": "vv",
-              "B000825": "vv",
-              "C001039": "vv",
-              "F000472": "vv",
-              "D000032": "vv",
-              "G000593": "vv",
-              "S000168": "vv",
-              "W000788": "vv",
-              "C001116": "vv",
-              "H001091": "vv",
-              "M001215": "vv",
-              "F000446": "vv",
-              "M001211": "vv",
-              "M001214": "vv",
-              "S000929": "vv",
-              "M000871": "vv",
-              "A000148": "vv",
-              "M001136": "vv",
-              "F000470": "vv",
-              "R000305": "vv",
-              "L000273": "vv",
-              "G000597": "vv",
-              "M000317": "vv",
-              "T000486": "vv",
-              "B000740": "vv",
-              "B000668": "vv",
-              "M000194": "vv",
-              "H001086": "vv",
-              "F000246": "vv",
-              "P000048": "vv",
-              "J000304": "vv",
-              "N000026": "vv",
-              "G000594": "vv",
-              "V000134": "vv",
-              "M001213": "vv",
-              "O000086": "vv",
-              "S001159": "vv",
-              "F000471": "vv",
-              "T000478": "vv",
-              "L000595": "vv",
-              "C001125": "vv",
-              "S001218": "vv",
-              "E000071": "vv",
-              "B001313": "vv",
-              "C001126": "vv",
-              "C001127": "vv",
-              "F000474": "vv",
-              "F000475": "vv",
-              "R000579": "vv",
-              "Y000067": "vv",
-              "Z000018": "vv",
-              "S001220": "vv",
-              "C001132": "vv",
-              "C001133": "vv",
-              "K000401": "vv",
-              "M001225": "vv",
-              "K000400": "vv",
-              "G000598": "vv",
-              "P000620": "vv",
-              "B001314": "vv",
-              "M001216": "vv",
-              "F000476": "vv",
-              "L000596": "vv",
-              "L000597": "vv",
-              "M001217": "vv",
-              "M001218": "vv",
-              "C001129": "vv",
-              "M001219": "vv",
-              "T000487": "vv",
-              "N000193": "vv",
-              "J000309": "vv",
-              "R000617": "vv",
-              "B001315": "vv",
-              "S001225": "vv",
-              "H001093": "vv",
-              "M001220": "vv",
-              "I000058": "vv",
-              "S001221": "vv",
-              "J000307": "vv",
-              "T000488": "vv",
-              "A000379": "vv",
-              "B001316": "vv",
-              "E000235": "vv",
-              "D000230": "vv",
-              "F000477": "vv",
-              "E000246": "vv",
-              "K000398": "vv",
-              "M001226": "vv",
-              "V000136": "vv",
-              "L000598": "vv",
-              "G000599": "vv",
-              "L000599": "vv",
-              "L000600": "vv",
-              "L000601": "vv",
-              "M001222": "vv",
-              "S001223": "vv",
-              "B001317": "vv",
-              "H001094": "vv",
-              "S001226": "vv",
-              "L000602": "vv",
-              "D000530": "vv",
-              "M001223": "vv",
-              "F000478": "vv",
-              "O000175": "vv",
-              "M001224": "vv",
-              "S001224": "vv",
-              "L000603": "vv",
-              "D000594": "vv",
-              "C001130": "vv",
-              "C001131": "vv",
-              "H001095": "vv",
-              "K000399": "vv",
-              "B001318": "vv",
-              "G000600": "vv",
-              "V000135": "vv",
-              "H001096": "vv",
-              "M001227": "vv",
-              "A000380": "vv",
-              "M001228": "vv",
-              "S001201": "vv",
-              "K000402": "vv",
-              "F000480": "vv",
-              "R000619": "vv",
-              "M001229": "vv",
-              "W000829": "vv",
-              "F000110": "vv",
-              "S001188": "vv",
-              "C001123": "vv",
-              "B001323": "vv",
-              "F000481": "vv",
-              "A000381": "vv",
-              "H001098": "vv",
-              "S001231": "vv",
-              "G000605": "vv",
-              "L000607": "vv",
-              "W000830": "vv",
-              "R000620": "vv",
-              "F000483": "vv",
-              "T000491": "vv",
-              "M001241": "vv",
-              "H001100": "vv",
-              "C001137": "vv",
-              "E000300": "vv",
-              "M001238": "vv",
-              "H001099": "vv",
-              "J000311": "vv",
-              "S001229": "vv",
-              "M001233": "vv",
-              "S001228": "vv",
-              "O000176": "vv",
-              "E000301": "vv",
-              "M001232": "vv",
-              "B001321": "vv",
-              "M001237": "vv",
-              "M001234": "vv",
-              "B001324": "vv",
-              "O000177": "vv",
-              "K000404": "vv",
-              "D000634": "vv",
-              "M001240": "vv",
-              "H001102": "vv",
-              "H001101": "vv",
-              "K000405": "vv",
-              "M001236": "vv",
-              "F000482": "vv",
-              "G000604": "vv",
-              "C001136": "vv",
-              "P000621": "vv",
-              "G000602": "vv",
-              "L000606": "vv",
-              "R000622": "vv",
-              "M001231": "vv",
-              "T000490": "vv",
-              "D000635": "vv",
-              "B001326": "vv",
-              "M001230": "vv",
-              "B001327": "vv",
-              "H001103": "vv",
-              "B001325": "vv",
-              "G000601": "vv",
-              "G000603": "vv",
-              "J000310": "vv",
-              "K000403": "vv",
-              "M001239": "vv",
-              "V000138": "vv",
-              "S001230": "vv",
-              "B001322": "vv",
-              "R000621": "vv",
-              "M001235": "vv",
-              "P000622": "vv",
-              "F000484": "vv",
-              "W000831": "vv",
-              "G000606": "vv",
-              "V000139": "vv",
-              "M001245": "vv"
-            },
-            "result": "passed",
-            "votePartyTotal": [
-              {
-                "voteParty": "Republican",
-                "yeaTotal": 221,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              },
-              {
-                "voteParty": "Democrat",
-                "yeaTotal": 217,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              }
-            ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/8595",
-            "question": "Voice Vote",
-            "id": "119-HR-8595-1"
-          }
-        ]
-      },
-      {
-        "actionCode": "H32340",
-        "actionDate": "2026-07-15",
-        "actionTime": "14:25:46",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Mr. Diaz-Balart moved that the committee rise.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "14:19:30",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Tenney amendment No. 28.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "14:11:27",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Steube amendment No. 27.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "14:10:27",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on the Roy amendment No. 20, the Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had prevailed. Ms. Lois Frankel (FL) demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "14:01:02",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Roy amendment No. 20.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:59:55",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on the Massie amendment No. 9, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Mr. Massie demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:53:18",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Massie amendment No. 9.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:46:56",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on the Massie amendment No. 8, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Mr. Massie demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:35:22",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Massie amendment No. 8.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:34:15",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on the Fine amendment No. 6, the Chair put the question on agreeing to the amendment and by voice vote, announced that the ayes had prevailed. Ms. Lois Frankel (FL) demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:26:39",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Fine amendment No. 6.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:17:16",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Crane amendment No. 4.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:16:27",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on the Boebert amendment No. 1, the Chair put the question on agreeing to the amendment and by voice vote, announced that the noes had prevailed. Ms. Boebert demanded a recorded vote and the Chair postponed further proceedings until a time to be announced.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:09:49",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 10 minutes of debate on the Boebert amendment No. 1.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "13:06:12",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - Pursuant to the provisions of H.Res. 1423, the Committee of the Whole proceeded with 20 minutes of debate on the Diaz-Balart amendment en bloc.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "12:10:21",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 8595.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H32400",
-        "actionDate": "2026-07-15",
-        "actionTime": "12:10:04",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "The Speaker designated the Honorable Jimmy Patronis to act as Chairman of the Committee.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H32020",
-        "actionDate": "2026-07-15",
-        "actionTime": "12:10:03",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 1423 and Rule XVIII.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-15",
-        "actionTime": "12:09:34",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Rule provides for consideration of H.R. 139, H.R. 8595, H.R. 9237 and H.R. 1181. The resolution provides for consideration of H.R. 139, H.R. 9237, and H.R. 1181 under a closed rule, and H.R. 8595 under a structured rule with one hour of debate and one motion to reconsider on each bill.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H30000",
-        "actionDate": "2026-07-15",
-        "actionTime": "12:09:29",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Considered under the provisions of rule H. Res. 1423. (consideration: CR H4480-4528)",
+        "text": "Considered under the provisions of rule H. Res. 1438.",
         "type": "Floor"
       },
       {
         "actionCode": "H1L210",
-        "actionDate": "2026-07-13",
-        "actionTime": "17:59:05",
+        "actionDate": "2026-07-20",
+        "actionTime": "20:33:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rules Committee Resolution H. Res. 1423 Reported to House. Rule provides for consideration of H.R. 139, H.R. 8595, H.R. 9237 and H.R. 1181. The resolution provides for consideration of H.R. 139, H.R. 9237, and H.R. 1181 under a closed rule, and H.R. 8595 under a structured rule with one hour of debate and one motion to reconsider on each bill.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H1L210",
-        "actionDate": "2026-06-30",
-        "actionTime": "09:16:41",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Rules Committee Resolution H. Res. 1398 Reported to House. Rule provides for consideration of H.R. 8800, H.R. 8595, H.R. 8884 and H. Res. 1383. The resolution provides for consideration of H.R. 8800 and H.R. 8595 under a structured rule, and H.R. 8884 and H. Res. 1383 under a closed rule. The resolution provides for one hour of general debate on each measure and one motion to recommit on H.R. 8800, H.R. 8595, and H.R. 8884.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H1L210",
-        "actionDate": "2026-06-23",
-        "actionTime": "19:18:06",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Rules Committee Resolution H. Res. 1377 Reported to House. Rule provides for consideration of H.R. 1181, H.R. 9022, H.R. 8595 and H.R. 9237. The resolution provides for consideration of H.R. 1181 and H.R. 9237 under a closed rule and H.R. 9022 and H.R. 8595 under a structured rule. The resolution provides for one hour of general debate and one motion to recommit on each bill.",
+        "text": "Rules Committee Resolution H. Res. 1438 Reported to House. Rule provides for consideration of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955 and H.R. 9770. The resolution provides for consideration of H.R. 8800 under a structured rule and for consideration of H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under a closed rule, with one hour of debate on each measure and one motion to recommit on H.R. 8800, H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-04-30",
+        "actionDate": "2026-02-03",
         "calendarNumber": {
-          "calendar": "U00547"
+          "calendar": "U00409"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 547.",
+        "text": "Placed on the Union Calendar, Calendar No. 409.",
         "type": "Calendars"
       },
       {
-        "actionCode": "H12100",
-        "actionDate": "2026-04-30",
+        "actionCode": "H12200",
+        "actionDate": "2026-02-03",
         "committees": [
           {
-            "name": "Appropriations Committee",
-            "systemCode": "hsap00",
-            "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+            "name": "Committee on House Administration",
+            "systemCode": "hsha00",
+            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The House Committee on Appropriations reported an original measure, H. Rept. 119-631, by Mr. Diaz-Balart.",
+        "text": "Reported (Amended) by the Committee on House Administration. H. Rept. 119-479.",
         "type": "Committee"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-01-14",
+        "committees": [
+          {
+            "name": "Committee on House Administration",
+            "systemCode": "hsha00",
+            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 7 - 4.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2026-01-14",
+        "committees": [
+          {
+            "name": "Committee on House Administration",
+            "systemCode": "hsha00",
+            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-01-12",
+        "committees": [
+          {
+            "name": "Committee on House Administration",
+            "systemCode": "hsha00",
+            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on House Administration.",
+        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-04-30",
+  "introducedDate": "2026-01-12",
   "latestAction": {
-    "actionDate": "2026-07-15",
-    "actionTime": "17:12:53",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-22",
+    "actionTime": "16:52:12",
+    "text": "Motion to reconsider laid on the table Agreed to without objection.",
+    "actionCode": "H38310"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8595",
-  "number": "8595",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7008",
+  "number": "7008",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
-    "url": "https://api.congress.gov/v3/bill/119/hr/8595/summaries?format=json"
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/7008/summaries?format=json"
   },
-  "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+  "title": "Stop Insider Trading Act",
   "titles": {
     "titles": [
-      {
-        "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:45:25Z"
-      },
-      {
-        "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:45:25Z"
-      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+        "title": "Stop Insider Trading Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-05-13T14:23:38Z"
+        "updateDate": "2026-02-04T04:23:15Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Stop Insider Trading Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-01-13T09:23:43Z"
+      },
+      {
+        "title": "Stop Insider Trading Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-01-13T09:23:43Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend chapter 131 of title 5 to require certain restrictions on stocks for Members of Congress and their spouses and dependents, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-01-13T09:18:34Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T21:06:17Z",
-  "updateDateIncludingText": "2026-07-22T21:06:17Z",
-  "id": "119-HR-8595",
-  "lastActionDate": "2026-07-15",
-  "lastRecordedVoteDate": "2026-07-15T21:12:51Z"
+  "updateDate": "2026-07-22T21:06:18Z",
+  "updateDateIncludingText": "2026-07-22T21:06:18Z",
+  "id": "119-HR-7008",
+  "lastActionDate": "2026-07-22",
+  "lastRecordedVoteDate": "2026-07-22T20:52:10Z"
 }

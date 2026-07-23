@@ -931,7 +931,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1815/summaries?format=json"
   },
   "title": "VA Home Loan Program Reform Act",
@@ -1012,8 +1012,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-10T19:43:25Z",
-  "updateDateIncludingText": "2026-07-13T19:47:59Z",
+  "updateDate": "2026-07-22T21:48:21Z",
+  "updateDateIncludingText": "2026-07-22T21:48:21Z",
   "id": "119-HR-1815",
   "lastActionDate": "2025-07-30",
   "lastRecordedVoteDate": "2025-07-15"

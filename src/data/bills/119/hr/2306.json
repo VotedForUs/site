@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/2306/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-21",
+        "committees": [
+          {
+            "name": "National Parks Subcommittee",
+            "systemCode": "sseg04",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg04?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-07-13",
         "committees": [
@@ -689,8 +704,8 @@
   "congress": 119,
   "introducedDate": "2025-03-24",
   "latestAction": {
-    "actionDate": "2026-07-13",
-    "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+    "actionDate": "2026-07-21",
+    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2306",
   "number": "2306",
@@ -768,9 +783,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-15T13:08:25Z",
-  "updateDateIncludingText": "2026-07-15T13:51:53Z",
+  "updateDate": "2026-07-22T10:56:41Z",
+  "updateDateIncludingText": "2026-07-22T10:56:41Z",
   "id": "119-HR-2306",
-  "lastActionDate": "2026-07-13",
+  "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2025-12-09"
 }

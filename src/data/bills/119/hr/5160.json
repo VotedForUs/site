@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/5160/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 464.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-20",
@@ -665,9 +673,8 @@
   "congress": 119,
   "introducedDate": "2025-09-04",
   "latestAction": {
-    "actionDate": "2026-07-20",
-    "actionTime": "15:20:22",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-21",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 464."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5160",
   "number": "5160",
@@ -680,6 +687,16 @@
   "title": "Stem Cell Therapeutic and Research Reauthorization Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Stem Cell Therapeutic and Research Reauthorization Act of 2025",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-07-23T01:08:17Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -735,9 +752,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:24Z",
-  "updateDateIncludingText": "2026-07-22T07:18:32Z",
+  "updateDate": "2026-07-23T01:08:17Z",
+  "updateDateIncludingText": "2026-07-23T01:08:17Z",
   "id": "119-HR-5160",
-  "lastActionDate": "2026-07-20",
+  "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-20"
 }

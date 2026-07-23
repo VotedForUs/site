@@ -1,20 +1,42 @@
 {
   "actions": {
-    "count": 13,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5578/actions?format=json",
+    "count": 19,
+    "url": "https://api.congress.gov/v3/bill/119/hr/5254/actions?format=json",
     "actions": [
       {
         "actionDate": "2026-07-21",
+        "committees": [
+          {
+            "name": "National Parks Subcommittee",
+            "systemCode": "sseg04",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg04?format=json"
+          }
+        ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 465.",
-        "type": "Calendars"
+        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-03-17",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+        "type": "IntroReferral"
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:18:54",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:18:02",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,19 +46,19 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:18:48",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:18:00",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4664-4665)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H2519-2520)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-07-20",
+            "date": "2026-03-16",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -497,70 +519,100 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/5578",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/5254",
             "question": "Voice Vote",
-            "id": "119-HR-5578-1"
+            "id": "119-HR-5254-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:14:49",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:10:12",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5578.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5254.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:14:48",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:10:11",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H4664-4666)",
+        "text": "Considered under suspension of the rules. (consideration: CR H2519-2521)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:14:37",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:10:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Burlison moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Wittman moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
-        "actionCode": "H19000",
-        "actionDate": "2025-12-02",
+        "actionCode": "H12410",
+        "actionDate": "2026-03-02",
+        "calendarNumber": {
+          "calendar": "U00461"
+        },
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Placed on the Union Calendar, Calendar No. 461.",
+        "type": "Calendars"
+      },
+      {
+        "actionCode": "H12200",
+        "actionDate": "2026-03-02",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-536.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-01-22",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
+        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-12-02",
+        "actionDate": "2026-01-22",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
@@ -571,116 +623,160 @@
         "type": "Committee"
       },
       {
-        "actionCode": "H11100",
-        "actionDate": "2025-09-26",
+        "actionCode": "H25000",
+        "actionDate": "2026-01-22",
         "committees": [
           {
-            "name": "Armed Services Committee",
-            "systemCode": "hsas00",
-            "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
+          "code": 1,
+          "name": "House committee actions"
         },
-        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
+        "text": "Subcommittee on Federal Lands Discharged",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H21000",
+        "actionDate": "2025-12-02",
+        "committees": [
+          {
+            "name": "Federal Lands Subcommittee",
+            "systemCode": "hsii10",
+            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Hearings Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2025-11-25",
+        "committees": [
+          {
+            "name": "Federal Lands Subcommittee",
+            "systemCode": "hsii10",
+            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Federal Lands.",
+        "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-09-26",
+        "actionDate": "2025-09-10",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "text": "Referred to the House Committee on Natural Resources.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-09-26",
+  "introducedDate": "2025-09-10",
   "latestAction": {
     "actionDate": "2026-07-21",
-    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 465."
+    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5578",
-  "number": "5578",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5254",
+  "number": "5254",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5578/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/5254/summaries?format=json"
   },
-  "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
+  "title": "Gateway Partnership Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
-        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 152,
-        "updateDate": "2026-07-23T00:53:34Z"
-      },
-      {
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-22T05:38:25Z"
+        "title": "Gateway Partnership Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-03-19T03:23:24Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
+        "title": "Gateway Partnership Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
-        "updateDate": "2026-07-22T05:38:24Z"
+        "updateDate": "2026-03-18T03:08:21Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To ensure that whistleblowers, including contractors, are protected from retaliation when a Federal employee orders a reprisal, and for other purposes.",
+        "title": "To authorize the Secretary of the Interior to enter into an agreement with the Gateway Arch Park Foundation to host private events in Gateway Arch National Park buildings, and for other purposes.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-07-22T05:38:24Z"
+        "updateDate": "2026-03-18T03:08:21Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Gateway Partnership Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2026-03-03T06:23:21Z"
+      },
+      {
+        "title": "Gateway Partnership Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-03T06:23:21Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2025",
+        "title": "Gateway Partnership Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-10-03T04:23:18Z"
+        "updateDate": "2025-09-18T04:23:15Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To ensure that whistleblowers, including contractors, are protected from retaliation when a Federal employee orders a reprisal, and for other purposes.",
+        "title": "To authorize the Secretary of the Interior to enter into an agreement with the Gateway Arch Park Foundation to host private events in Gateway Arch National Park buildings, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-10-03T04:18:38Z"
+        "updateDate": "2025-09-18T04:18:20Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T00:53:34Z",
-  "updateDateIncludingText": "2026-07-23T00:53:34Z",
-  "id": "119-HR-5578",
+  "updateDate": "2026-07-22T10:56:38Z",
+  "updateDateIncludingText": "2026-07-22T10:56:38Z",
+  "id": "119-HR-5254",
   "lastActionDate": "2026-07-21",
-  "lastRecordedVoteDate": "2026-07-20"
+  "lastRecordedVoteDate": "2026-03-16"
 }

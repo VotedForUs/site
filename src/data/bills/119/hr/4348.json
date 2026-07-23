@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/4348/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 463.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-20",
@@ -665,9 +673,8 @@
   "congress": 119,
   "introducedDate": "2025-07-10",
   "latestAction": {
-    "actionDate": "2026-07-20",
-    "actionTime": "15:09:21",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-21",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 463."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4348",
   "number": "4348",
@@ -707,9 +714,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:26Z",
-  "updateDateIncludingText": "2026-07-22T07:18:36Z",
+  "updateDate": "2026-07-22T10:56:39Z",
+  "updateDateIncludingText": "2026-07-23T00:48:20Z",
   "id": "119-HR-4348",
-  "lastActionDate": "2026-07-20",
+  "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-20"
 }
