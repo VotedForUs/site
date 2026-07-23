@@ -229,6 +229,10 @@
   "number": "4784",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4784/summaries?format=json"
+  },
   "title": "National Defense Authorization Act for Fiscal Year 2027",
   "titles": {
     "titles": [
@@ -277,8 +281,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-21T16:52:33Z",
-  "updateDateIncludingText": "2026-07-21T16:52:33Z",
+  "updateDate": "2026-07-22T20:49:01Z",
+  "updateDateIncludingText": "2026-07-22T20:49:01Z",
   "id": "119-S-4784",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-07-14T19:39:15Z"

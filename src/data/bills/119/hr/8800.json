@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 10,
+    "count": 54,
     "url": "https://api.congress.gov/v3/bill/119/hr/8800/actions?format=json",
     "actions": [
       {
@@ -1537,8 +1537,7 @@
   "latestAction": {
     "actionDate": "2026-07-21",
     "actionTime": "21:53:36",
-    "text": "Committee of the Whole House on the state of the Union rises leaving H.R. 8800 as unfinished business.",
-    "actionCode": "H32700"
+    "text": "Committee of the Whole House on the state of the Union rises leaving H.R. 8800 as unfinished business."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
   "number": "8800",
@@ -1586,8 +1585,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T04:06:17Z",
-  "updateDateIncludingText": "2026-07-22T04:06:17Z",
+  "updateDate": "2026-07-22T21:06:18Z",
+  "updateDateIncludingText": "2026-07-22T21:06:18Z",
   "id": "119-HR-8800",
   "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-21"

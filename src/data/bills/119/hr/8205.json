@@ -1,20 +1,12 @@
 {
   "actions": {
-    "count": 13,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5578/actions?format=json",
+    "count": 15,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8205/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-07-21",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 465.",
-        "type": "Calendars"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:18:54",
+        "actionDate": "2026-07-22",
+        "actionTime": "17:01:43",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,19 +16,19 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:18:48",
+        "actionDate": "2026-07-22",
+        "actionTime": "17:01:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4664-4665)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-07-20",
+            "date": "2026-07-22",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -497,70 +489,122 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/5578",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/8205",
             "question": "Voice Vote",
-            "id": "119-HR-5578-1"
+            "id": "119-HR-8205-1"
           }
         ]
       },
       {
-        "actionCode": "H8D000",
-        "actionDate": "2026-07-20",
-        "actionTime": "17:14:49",
+        "actionCode": "H30000",
+        "actionDate": "2026-07-22",
+        "actionTime": "17:01:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5578.",
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H37210",
+        "actionDate": "2026-07-20",
+        "actionTime": "16:21:13",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "At the conclusion of debate, the chair put the question on the motion to suspend the rules. Mr. Guthrie objected to the vote on the grounds that a quorum was not present. Further proceedings on the motion were postponed. The point of no quorum was considered as withdrawn.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-20",
+        "actionTime": "16:12:50",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 8205.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-07-20",
-        "actionTime": "17:14:48",
+        "actionTime": "16:12:49",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H4664-4666)",
+        "text": "Considered under suspension of the rules. (consideration: CR H4652-4654; text: CR H4653)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
         "actionDate": "2026-07-20",
-        "actionTime": "17:14:37",
+        "actionTime": "16:12:36",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Burlison moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
-        "actionCode": "H19000",
-        "actionDate": "2025-12-02",
+        "actionCode": "H12410",
+        "actionDate": "2026-07-09",
+        "calendarNumber": {
+          "calendar": "U00637"
+        },
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Placed on the Union Calendar, Calendar No. 637.",
+        "type": "Calendars"
+      },
+      {
+        "actionCode": "H12200",
+        "actionDate": "2026-07-09",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-733.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-05-21",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 46 - 0.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-12-02",
+        "actionDate": "2026-05-21",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
           }
         ],
         "sourceSystem": {
@@ -571,116 +615,132 @@
         "type": "Committee"
       },
       {
-        "actionCode": "H11100",
-        "actionDate": "2025-09-26",
+        "actionCode": "H23000",
+        "actionDate": "2026-05-13",
         "committees": [
           {
-            "name": "Armed Services Committee",
-            "systemCode": "hsas00",
-            "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
           }
         ],
         "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
+          "code": 1,
+          "name": "House committee actions"
         },
-        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
+        "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H22000",
+        "actionDate": "2026-05-13",
+        "committees": [
+          {
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2026-04-06",
+        "committees": [
+          {
+            "name": "Health Subcommittee",
+            "systemCode": "hsif14",
+            "url": "https://api.congress.gov/v3/committee/house/hsif14?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Health.",
+        "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-09-26",
+        "actionDate": "2026-04-06",
         "committees": [
           {
-            "name": "Oversight and Government Reform Committee",
-            "systemCode": "hsgo00",
-            "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "text": "Referred to the House Committee on Energy and Commerce.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-09-26",
+  "introducedDate": "2026-04-06",
   "latestAction": {
-    "actionDate": "2026-07-21",
-    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 465."
+    "actionDate": "2026-07-22",
+    "actionTime": "17:01:43",
+    "text": "Motion to reconsider laid on the table Agreed to without objection.",
+    "actionCode": "H38310"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5578",
-  "number": "5578",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8205",
+  "number": "8205",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5578/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/8205/summaries?format=json"
   },
-  "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
+  "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
-        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 152,
-        "updateDate": "2026-07-23T00:53:34Z"
-      },
-      {
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-22T05:38:25Z"
+        "updateDate": "2026-07-18T00:07:17Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-07-22T05:38:24Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To ensure that whistleblowers, including contractors, are protected from retaliation when a Federal employee orders a reprisal, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-07-22T05:38:24Z"
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2026-07-10T10:23:20Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Expanding Whistleblower Protections for Contractors Act of 2025",
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-10-03T04:23:18Z"
+        "updateDate": "2026-04-14T05:23:24Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To ensure that whistleblowers, including contractors, are protected from retaliation when a Federal employee orders a reprisal, and for other purposes.",
+        "title": "To amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize the provisions of such Act through fiscal year 2031, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-10-03T04:18:38Z"
+        "updateDate": "2026-04-14T05:18:33Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T00:53:34Z",
-  "updateDateIncludingText": "2026-07-23T00:53:34Z",
-  "id": "119-HR-5578",
-  "lastActionDate": "2026-07-21",
-  "lastRecordedVoteDate": "2026-07-20"
+  "updateDate": "2026-07-21T16:42:56Z",
+  "updateDateIncludingText": "2026-07-21T16:42:56Z",
+  "id": "119-HR-8205",
+  "lastActionDate": "2026-07-22",
+  "lastRecordedVoteDate": "2026-07-22"
 }

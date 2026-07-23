@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 9,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/6955/actions?format=json",
     "actions": [
       {
@@ -1201,8 +1201,7 @@
   "latestAction": {
     "actionDate": "2026-07-21",
     "actionTime": "22:06:17",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6955",
   "number": "6955",
@@ -1212,14 +1211,34 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/6955/summaries?format=json"
   },
-  "title": "Main Street Act",
+  "title": "Main Street Capital Access Act",
   "titles": {
     "titles": [
       {
-        "title": "Main Street Act",
+        "title": "Main Street Capital Access Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:34:41Z"
+        "updateDate": "2026-07-23T03:38:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Main Street Capital Access Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-23T03:38:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To make improvements to the Federal banking laws, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-23T03:38:22Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1260,8 +1279,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T04:06:17Z",
-  "updateDateIncludingText": "2026-07-22T04:06:17Z",
+  "updateDate": "2026-07-23T03:38:22Z",
+  "updateDateIncludingText": "2026-07-23T07:33:19Z",
   "id": "119-HR-6955",
   "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-22T02:06:13Z"
