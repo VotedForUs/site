@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 10,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hr/1722/actions?format=json",
     "actions": [
       {
@@ -625,8 +625,7 @@
   "latestAction": {
     "actionDate": "2026-07-22",
     "actionTime": "17:02:53",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1722",
   "number": "1722",
@@ -636,14 +635,34 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/1722/summaries?format=json"
   },
-  "title": "Billion Dollar Boondoggle Act of 2025",
+  "title": "Billion Dollar Boondoggle Act",
   "titles": {
     "titles": [
       {
-        "title": "Billion Dollar Boondoggle Act of 2025",
+        "title": "Billion Dollar Boondoggle Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:28:17Z"
+        "updateDate": "2026-07-24T03:53:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Billion Dollar Boondoggle Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-24T03:53:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require an annual report of taxpayer-funded projects that are over budget and behind schedule.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-24T03:53:21Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -664,8 +683,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T08:09:01Z",
-  "updateDateIncludingText": "2026-07-22T08:09:01Z",
+  "updateDate": "2026-07-24T03:53:21Z",
+  "updateDateIncludingText": "2026-07-24T07:48:37Z",
   "id": "119-HR-1722",
   "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22"

@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 9,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/7283/actions?format=json",
     "actions": [
       {
@@ -608,8 +608,7 @@
   "latestAction": {
     "actionDate": "2026-07-22",
     "actionTime": "17:02:16",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7283",
   "number": "7283",
@@ -622,6 +621,26 @@
   "title": "Ensuring Federal Purchasing Efficiency Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Ensuring Federal Purchasing Efficiency Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-24T03:53:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend title 41, United States Code, to amend the time period for certain acquisition-related dollar thresholds.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-24T03:53:20Z"
+      },
       {
         "title": "Ensuring Federal Purchasing Efficiency Act",
         "titleType": "Display Title",
@@ -647,8 +666,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-21T16:45:59Z",
-  "updateDateIncludingText": "2026-07-21T16:45:59Z",
+  "updateDate": "2026-07-24T03:53:20Z",
+  "updateDateIncludingText": "2026-07-24T07:48:36Z",
   "id": "119-HR-7283",
   "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22"

@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 9,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/7008/actions?format=json",
     "actions": [
       {
@@ -1201,8 +1201,7 @@
   "latestAction": {
     "actionDate": "2026-07-22",
     "actionTime": "16:52:12",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7008",
   "number": "7008",
@@ -1215,6 +1214,26 @@
   "title": "Stop Insider Trading Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Stop Insider Trading Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-24T03:38:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend chapter 131 of title 5 to require certain restrictions on stocks for Members of Congress and their spouses and dependents, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-24T03:38:21Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -1250,8 +1269,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T21:06:18Z",
-  "updateDateIncludingText": "2026-07-22T21:06:18Z",
+  "updateDate": "2026-07-24T03:38:21Z",
+  "updateDateIncludingText": "2026-07-24T07:33:30Z",
   "id": "119-HR-7008",
   "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22T20:52:10Z"

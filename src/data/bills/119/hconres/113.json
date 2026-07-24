@@ -1,20 +1,31 @@
 {
   "actions": {
-    "count": 22,
-    "url": "https://api.congress.gov/v3/bill/119/sconres/33/actions?format=json",
+    "count": 17,
+    "url": "https://api.congress.gov/v3/bill/119/hconres/113/actions?format=json",
     "actions": [
       {
+        "actionCode": "H38310",
+        "actionDate": "2026-07-22",
+        "actionTime": "16:59:12",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
         "actionCode": "H37100",
-        "actionDate": "2026-04-29",
-        "actionTime": "22:39:59",
+        "actionDate": "2026-07-22",
+        "actionTime": "16:59:10",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-30T02:39:59Z",
-            "rollNumber": 143,
+            "date": "2026-07-22T20:59:10Z",
+            "rollNumber": 281,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll143.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll281.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -113,7 +124,7 @@
               "D000617": "Nay",
               "D000623": "Nay",
               "D000624": "Nay",
-              "D000626": "Yea",
+              "D000626": "Nay",
               "D000628": "Yea",
               "D000629": "Nay",
               "D000631": "Nay",
@@ -179,6 +190,7 @@
               "G000604": "Nay",
               "G000605": "Nay",
               "G000606": "Nay",
+              "G000607": "Yea",
               "H000874": "Nay",
               "H001047": "Nay",
               "H001052": "Yea",
@@ -228,10 +240,10 @@
               "K000391": "Nay",
               "K000392": "Yea",
               "K000397": "Yea",
-              "K000398": "Not Voting",
+              "K000398": "Yea",
               "K000399": "Yea",
               "K000400": "Nay",
-              "K000401": "Present",
+              "K000401": "Nay",
               "K000402": "Nay",
               "K000403": "Yea",
               "K000405": "Yea",
@@ -243,7 +255,7 @@
               "L000562": "Nay",
               "L000566": "Yea",
               "L000582": "Nay",
-              "L000583": "Not Voting",
+              "L000583": "Yea",
               "L000585": "Yea",
               "L000590": "Nay",
               "L000593": "Nay",
@@ -270,7 +282,7 @@
               "M001160": "Nay",
               "M001163": "Nay",
               "M001177": "Yea",
-              "M001184": "Yea",
+              "M001184": "Nay",
               "M001188": "Nay",
               "M001194": "Yea",
               "M001196": "Nay",
@@ -450,15 +462,15 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 0,
-                "notVotingTotal": 2,
+                "nayTotal": 2,
+                "notVotingTotal": 0,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 215
+                "yeaTotal": 216
               },
               {
                 "nayTotal": 211,
@@ -472,55 +484,55 @@
                 "yeaTotal": 0
               },
               {
-                "nayTotal": 0,
+                "nayTotal": 1,
                 "notVotingTotal": 0,
                 "party": {
                   "name": "Independent",
                   "type": "I"
                 },
-                "presentTotal": 1,
+                "presentTotal": 0,
                 "voteParty": "I",
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll143.xml",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll281.xml",
             "question": "On Agreeing to the Resolution",
-            "id": "119-SCONRES-33-3"
+            "id": "119-HCONRES-113-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 215 - 211, 1 Present (Roll no. 143). (text: CR H3147-3146)",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 216 - 214 (Roll no. 281).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-29",
-        "actionTime": "17:26:43",
+        "actionDate": "2026-07-22",
+        "actionTime": "16:52:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3168-3169)",
+        "text": "Considered as unfinished business.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-29",
-        "actionTime": "15:53:02",
+        "actionDate": "2026-07-22",
+        "actionTime": "14:11:51",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "POSTPONED PROCEEDINGS - The Chair put the question on agreeing to S.Con.Res. 33 and pursuant to clause 10 of rule XX, the yeas and nays are ordered. Further proceedings were postponed.",
+        "text": "POSTPONED PROCEEDINGS - The Chair put the question on agreeing to the resolution. Pursuant to clause 10 of rule 20, the yeas and nays are ordered. Further proceedings are postponed.",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2026-04-29",
-        "actionTime": "15:52:47",
+        "actionDate": "2026-07-22",
+        "actionTime": "14:11:36",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -529,475 +541,171 @@
         "type": "Floor"
       },
       {
-        "actionCode": "H8D000",
-        "actionDate": "2026-04-29",
-        "actionTime": "14:46:17",
+        "actionCode": "H34400",
+        "actionDate": "2026-07-22",
+        "actionTime": "14:11:02",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on S. Con. Res. 33.",
+        "text": "The House adopted the amendment in the nature of a substitute as agreed to by the Committee of the Whole House on the state of the Union.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H32600",
+        "actionDate": "2026-07-22",
+        "actionTime": "14:10:54",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The House rose from the Committee of the Whole House on the state of the Union to report H. Con. Res. 113.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-29",
-        "actionTime": "14:45:57",
+        "actionDate": "2026-07-22",
+        "actionTime": "12:52:39",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rule provides for consideration of H.R. 7567, H.R. 2616, S. Con. Res. 33, S. 1318 and H.R. 1346. The resolution provides for consideration of H.R. 7567 under a structured rule and H.R. 2616, S. Con. Res. 33, S. 1318, and H.R. 1346 under a closed rule, with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 7567, H.R. 2616, and H.R. 1346, and one motion to commit on S. 1318.",
+        "text": "GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H. Con. Res. 113.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H32020",
+        "actionDate": "2026-07-22",
+        "actionTime": "12:51:37",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 1438 and Rule XVIII.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H32400",
+        "actionDate": "2026-07-22",
+        "actionTime": "12:51:37",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The Speaker designated the Honorable Craig A. Goldman to act as Chairman of the Committee.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-22",
+        "actionTime": "12:51:06",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Rule provides for consideration of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955 and H.R. 9770. The resolution provides for consideration of H.R. 8800 under a structured rule and for consideration of H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under a closed rule, with one hour of debate on each measure and one motion to recommit on H.R. 8800, H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-29",
-        "actionTime": "14:45:52",
+        "actionDate": "2026-07-22",
+        "actionTime": "12:51:01",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1224. (consideration: CR H3147-3160)",
+        "text": "Considered under the provisions of rule H. Res. 1438.",
         "type": "Floor"
       },
       {
         "actionCode": "H1L210",
-        "actionDate": "2026-04-29",
-        "actionTime": "08:12:07",
+        "actionDate": "2026-07-20",
+        "actionTime": "20:33:13",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rules Committee Resolution H. Res. 1224 Reported to House. Rule provides for consideration of H.R. 7567, H.R. 2616, S. Con. Res. 33, S. 1318 and H.R. 1346. The resolution provides for consideration of H.R. 7567 under a structured rule and H.R. 2616, S. Con. Res. 33, S. 1318, and H.R. 1346 under a closed rule, with one hour of general debate on each measure. The resolution provides for one motion to recommit on H.R. 7567, H.R. 2616, and H.R. 1346, and one motion to commit on S. 1318.",
+        "text": "Rules Committee Resolution H. Res. 1438 Reported to House. Rule provides for consideration of H.R. 8800, H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955 and H.R. 9770. The resolution provides for consideration of H.R. 8800 under a structured rule and for consideration of H.R. 8884, H. Con. Res. 113, H.R. 7008, H.R. 6955, and H.R. 9770 under a closed rule, with one hour of debate on each measure and one motion to recommit on H.R. 8800, H.R. 8884, H.R. 7008, H.R. 6955, and H.R. 9770.",
         "type": "Floor"
       },
       {
-        "actionCode": "H15000",
-        "actionDate": "2026-04-23",
-        "actionTime": "11:56:22",
+        "actionCode": "H12410",
+        "actionDate": "2026-07-18",
+        "calendarNumber": {
+          "calendar": "U00657"
+        },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2026-04-23",
-        "actionTime": "11:54:49",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-04-23",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-04-23",
-        "recordedVotes": [
-          {
-            "chamber": "Senate",
-            "congress": 119,
-            "date": "2026-04-23T07:38:18Z",
-            "rollNumber": 105,
-            "sessionNumber": 2,
-            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00105.xml",
-            "votes": {
-              "A000382": "Nay",
-              "B001230": "Nay",
-              "B001299": "Yea",
-              "B001261": "Yea",
-              "B001267": "Nay",
-              "B001243": "Yea",
-              "B001277": "Nay",
-              "B001303": "Nay",
-              "B001288": "Nay",
-              "B001236": "Yea",
-              "B001319": "Yea",
-              "B001305": "Yea",
-              "C000127": "Nay",
-              "C001047": "Yea",
-              "C001075": "Yea",
-              "C001035": "Yea",
-              "C001088": "Nay",
-              "C001056": "Yea",
-              "C001113": "Nay",
-              "C001095": "Yea",
-              "C001096": "Yea",
-              "C000880": "Yea",
-              "C001098": "Yea",
-              "C001114": "Yea",
-              "D000618": "Yea",
-              "D000622": "Nay",
-              "D000563": "Nay",
-              "E000295": "Yea",
-              "F000479": "Nay",
-              "F000463": "Yea",
-              "G000574": "Nay",
-              "G000555": "Nay",
-              "G000359": "Yea",
-              "G000386": "Not Voting",
-              "H000601": "Yea",
-              "H001076": "Nay",
-              "H001089": "Yea",
-              "H001046": "Nay",
-              "H000273": "Nay",
-              "H001042": "Nay",
-              "H001061": "Yea",
-              "H001104": "Yea",
-              "H001079": "Yea",
-              "J000293": "Yea",
-              "J000312": "Yea",
-              "K000384": "Nay",
-              "K000377": "Nay",
-              "K000393": "Yea",
-              "K000394": "Nay",
-              "K000383": "Nay",
-              "K000367": "Nay",
-              "L000575": "Yea",
-              "L000577": "Yea",
-              "L000570": "Nay",
-              "L000571": "Yea",
-              "M000133": "Nay",
-              "M001198": "Yea",
-              "M000355": "Yea",
-              "M001243": "Yea",
-              "M001176": "Nay",
-              "M001244": "Yea",
-              "M000934": "Yea",
-              "M001242": "Yea",
-              "M001153": "Nay",
-              "M001169": "Nay",
-              "M001111": "Nay",
-              "O000174": "Nay",
-              "P000145": "Nay",
-              "P000603": "Nay",
-              "P000595": "Nay",
-              "R000122": "Nay",
-              "R000618": "Yea",
-              "R000584": "Yea",
-              "R000608": "Nay",
-              "R000605": "Yea",
-              "S000033": "Nay",
-              "S001194": "Nay",
-              "S001150": "Nay",
-              "S001227": "Yea",
-              "S000148": "Nay",
-              "S001217": "Yea",
-              "S001184": "Yea",
-              "S001181": "Nay",
-              "S001232": "Yea",
-              "S001208": "Nay",
-              "S001203": "Nay",
-              "S001198": "Yea",
-              "T000250": "Yea",
-              "T000476": "Yea",
-              "T000278": "Yea",
-              "V000128": "Nay",
-              "W000805": "Not Voting",
-              "W000790": "Nay",
-              "W000817": "Nay",
-              "W000800": "Nay",
-              "W000802": "Nay",
-              "W000437": "Yea",
-              "W000779": "Nay",
-              "Y000064": "Yea"
-            },
-            "result": "passed",
-            "senateCount": {
-              "yeas": 50,
-              "nays": 48,
-              "present": "",
-              "absent": 2
-            },
-            "votePartyTotal": [
-              {
-                "voteParty": "D",
-                "yeaTotal": 0,
-                "nayTotal": 44,
-                "presentTotal": 0,
-                "notVotingTotal": 1
-              },
-              {
-                "voteParty": "R",
-                "yeaTotal": 50,
-                "nayTotal": 2,
-                "presentTotal": 0,
-                "notVotingTotal": 1
-              },
-              {
-                "voteParty": "I",
-                "yeaTotal": 0,
-                "nayTotal": 2,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              }
-            ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00105.xml",
-            "question": "On the Concurrent Resolution S.Con.Res. 33",
-            "id": "119-SCONRES-33-2"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Resolution agreed to in Senate with an amendment by Yea-Nay Vote. 50 - 48. Record Vote Number: 105. (text: CR S1918-1924)",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-04-22",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Considered by Senate. (consideration: CR S1867-1882, S1898-1924)",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-04-21",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Measure laid before Senate by motion. (consideration: CR S1850-1851; text: CR S1859-1864)",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-04-21",
-        "recordedVotes": [
-          {
-            "chamber": "Senate",
-            "congress": 119,
-            "date": "2026-04-21T21:01:35Z",
-            "rollNumber": 87,
-            "sessionNumber": 2,
-            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00087.xml",
-            "votes": {
-              "A000382": "Nay",
-              "B001230": "Nay",
-              "B001299": "Yea",
-              "B001261": "Yea",
-              "B001267": "Nay",
-              "B001243": "Yea",
-              "B001277": "Nay",
-              "B001303": "Nay",
-              "B001288": "Nay",
-              "B001236": "Yea",
-              "B001319": "Yea",
-              "B001305": "Yea",
-              "C000127": "Nay",
-              "C001047": "Yea",
-              "C001075": "Yea",
-              "C001035": "Yea",
-              "C001088": "Nay",
-              "C001056": "Yea",
-              "C001113": "Nay",
-              "C001095": "Yea",
-              "C001096": "Yea",
-              "C000880": "Yea",
-              "C001098": "Yea",
-              "C001114": "Yea",
-              "D000618": "Yea",
-              "D000622": "Nay",
-              "D000563": "Nay",
-              "E000295": "Yea",
-              "F000479": "Nay",
-              "F000463": "Yea",
-              "G000574": "Nay",
-              "G000555": "Nay",
-              "G000359": "Yea",
-              "G000386": "Not Voting",
-              "H000601": "Yea",
-              "H001076": "Nay",
-              "H001089": "Yea",
-              "H001046": "Nay",
-              "H000273": "Nay",
-              "H001042": "Nay",
-              "H001061": "Yea",
-              "H001104": "Yea",
-              "H001079": "Yea",
-              "J000293": "Yea",
-              "J000312": "Yea",
-              "K000384": "Nay",
-              "K000377": "Nay",
-              "K000393": "Yea",
-              "K000394": "Nay",
-              "K000383": "Nay",
-              "K000367": "Nay",
-              "L000575": "Yea",
-              "L000577": "Yea",
-              "L000570": "Nay",
-              "L000571": "Yea",
-              "M000133": "Nay",
-              "M001198": "Yea",
-              "M000355": "Yea",
-              "M001243": "Yea",
-              "M001176": "Nay",
-              "M001244": "Yea",
-              "M000934": "Yea",
-              "M001242": "Yea",
-              "M001153": "Yea",
-              "M001169": "Nay",
-              "M001111": "Nay",
-              "O000174": "Nay",
-              "P000145": "Nay",
-              "P000603": "Yea",
-              "P000595": "Nay",
-              "R000122": "Nay",
-              "R000618": "Yea",
-              "R000584": "Yea",
-              "R000608": "Nay",
-              "R000605": "Yea",
-              "S000033": "Nay",
-              "S001194": "Nay",
-              "S001150": "Nay",
-              "S001227": "Yea",
-              "S000148": "Nay",
-              "S001217": "Yea",
-              "S001184": "Yea",
-              "S001181": "Nay",
-              "S001232": "Yea",
-              "S001208": "Nay",
-              "S001203": "Nay",
-              "S001198": "Yea",
-              "T000250": "Yea",
-              "T000476": "Yea",
-              "T000278": "Yea",
-              "V000128": "Nay",
-              "W000805": "Not Voting",
-              "W000790": "Nay",
-              "W000817": "Nay",
-              "W000800": "Nay",
-              "W000802": "Nay",
-              "W000437": "Yea",
-              "W000779": "Nay",
-              "Y000064": "Yea"
-            },
-            "result": "passed",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 46,
-              "present": "",
-              "absent": 2
-            },
-            "votePartyTotal": [
-              {
-                "voteParty": "D",
-                "yeaTotal": 0,
-                "nayTotal": 44,
-                "presentTotal": 0,
-                "notVotingTotal": 1
-              },
-              {
-                "voteParty": "R",
-                "yeaTotal": 52,
-                "nayTotal": 0,
-                "presentTotal": 0,
-                "notVotingTotal": 1
-              },
-              {
-                "voteParty": "I",
-                "yeaTotal": 0,
-                "nayTotal": 2,
-                "presentTotal": 0,
-                "notVotingTotal": 0
-              }
-            ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00087.xml",
-            "question": "On the Motion to Proceed S.Con.Res. 33",
-            "id": "119-SCONRES-33-1"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 52 - 46. Record Vote Number: 87.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-04-21",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 376.",
+        "text": "Placed on the Union Calendar, Calendar No. 657.",
         "type": "Calendars"
       },
       {
-        "actionDate": "2026-04-21",
+        "actionCode": "H12100",
+        "actionDate": "2026-07-18",
         "committees": [
           {
             "name": "Budget Committee",
-            "systemCode": "ssbu00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssbu00?format=json"
+            "systemCode": "hsbu00",
+            "url": "https://api.congress.gov/v3/committee/house/hsbu00?format=json"
           }
         ],
         "sourceSystem": {
-          "name": "Senate"
+          "code": 2,
+          "name": "House floor actions"
         },
-        "text": "Senate Committee on the Budget discharged pursuant to Section 300 of the Congressional Budget Act.",
-        "type": "Discharge"
-      },
-      {
-        "actionDate": "2026-04-21",
-        "committees": [
-          {
-            "name": "Budget Committee",
-            "systemCode": "ssbu00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssbu00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Referred to the Committee on the Budget.",
-        "type": "IntroReferral"
+        "text": "The House Committee on the Budget reported an original measure, H. Rept. 119-754, by Mr. Arrington.",
+        "type": "Committee"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-04-21",
+  "introducedDate": "2026-07-18",
   "latestAction": {
-    "actionDate": "2026-04-29",
-    "actionTime": "22:39:59",
-    "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 215 - 211, 1 Present (Roll no. 143). (text: CR H3147-3146)"
+    "actionDate": "2026-07-22",
+    "actionTime": "16:59:12",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-concurrent-resolution/33",
-  "number": "33",
-  "originChamber": "Senate",
-  "originChamberCode": "S",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/113",
+  "number": "113",
+  "originChamber": "House",
+  "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/sconres/33/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hconres/113/summaries?format=json"
   },
-  "title": "A concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
+  "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
   "titles": {
     "titles": [
       {
-        "title": "A concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
+        "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:43:11Z"
+        "updateDate": "2026-07-24T03:53:21Z"
       },
       {
-        "title": "A concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-24T03:53:20Z"
+      },
+      {
+        "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-04-22T10:56:23Z"
+        "updateDate": "2026-07-19T08:05:24Z"
       }
     ]
   },
-  "type": "SCONRES",
-  "updateDate": "2026-07-23T23:06:22Z",
-  "updateDateIncludingText": "2026-07-23T23:06:22Z",
-  "id": "119-SCONRES-33",
-  "lastActionDate": "2026-04-29",
-  "lastRecordedVoteDate": "2026-04-30T02:39:59Z"
+  "type": "HCONRES",
+  "updateDate": "2026-07-24T03:53:21Z",
+  "updateDateIncludingText": "2026-07-24T08:33:35Z",
+  "id": "119-HCONRES-113",
+  "lastActionDate": "2026-07-22",
+  "lastRecordedVoteDate": "2026-07-22T20:59:10Z"
 }

@@ -671,6 +671,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2026-07-24T03:38:21Z"
+      },
+      {
         "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -715,8 +725,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:45:51Z",
-  "updateDateIncludingText": "2026-07-18T22:24:44Z",
+  "updateDate": "2026-07-24T03:38:21Z",
+  "updateDateIncludingText": "2026-07-24T03:48:33Z",
   "id": "119-HR-8463",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-08"

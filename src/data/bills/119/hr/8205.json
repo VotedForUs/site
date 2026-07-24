@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 15,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/8205/actions?format=json",
     "actions": [
       {
@@ -689,8 +689,7 @@
   "latestAction": {
     "actionDate": "2026-07-22",
     "actionTime": "17:01:43",
-    "text": "Motion to reconsider laid on the table Agreed to without objection.",
-    "actionCode": "H38310"
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8205",
   "number": "8205",
@@ -703,6 +702,26 @@
   "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-24T03:53:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize the provisions of such Act through fiscal year 2031, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-24T03:53:21Z"
+      },
       {
         "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
         "titleType": "Display Title",
@@ -738,8 +757,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-21T16:42:56Z",
-  "updateDateIncludingText": "2026-07-21T16:42:56Z",
+  "updateDate": "2026-07-24T03:53:21Z",
+  "updateDateIncludingText": "2026-07-24T07:48:38Z",
   "id": "119-HR-8205",
   "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22"
