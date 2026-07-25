@@ -1,36 +1,27 @@
 {
   "actions": {
-    "count": 20,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2913/actions?format=json",
+    "count": 15,
+    "url": "https://api.congress.gov/v3/bill/119/hconres/89/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-07-20",
+        "actionDate": "2026-07-23",
+        "committees": [
+          {
+            "name": "Foreign Relations Committee",
+            "systemCode": "ssfr00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+          }
+        ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 462.",
-        "type": "Calendars"
-      },
-      {
-        "actionDate": "2026-07-16",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
-        "type": "Calendars"
-      },
-      {
-        "actionDate": "2026-06-08",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate.",
+        "text": "Received in the Senate and referred to the Committee on Foreign Relations.",
         "type": "IntroReferral"
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2026-06-04",
-        "actionTime": "20:09:15",
+        "actionDate": "2026-07-23",
+        "actionTime": "10:25:11",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -40,16 +31,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2026-06-04",
-        "actionTime": "20:09:08",
+        "actionDate": "2026-07-23",
+        "actionTime": "10:25:10",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-05T00:09:08Z",
-            "rollNumber": 207,
+            "date": "2026-07-23T14:25:10Z",
+            "rollNumber": 282,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll207.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll282.xml",
             "votes": {
               "A000055": "Nay",
               "A000148": "Yea",
@@ -69,14 +60,14 @@
               "B001260": "Nay",
               "B001278": "Yea",
               "B001281": "Yea",
-              "B001282": "Nay",
+              "B001282": "Not Voting",
               "B001285": "Yea",
               "B001287": "Yea",
               "B001291": "Nay",
               "B001292": "Yea",
               "B001295": "Nay",
               "B001296": "Yea",
-              "B001298": "Yea",
+              "B001298": "Nay",
               "B001300": "Yea",
               "B001301": "Nay",
               "B001302": "Nay",
@@ -89,16 +80,16 @@
               "B001316": "Nay",
               "B001317": "Nay",
               "B001318": "Yea",
-              "B001321": "Nay",
+              "B001321": "Yea",
               "B001322": "Nay",
               "B001323": "Nay",
               "B001324": "Yea",
               "B001325": "Nay",
               "B001326": "Yea",
-              "B001327": "Yea",
+              "B001327": "Nay",
               "C000059": "Nay",
               "C000537": "Yea",
-              "C001039": "Nay",
+              "C001039": "Not Voting",
               "C001051": "Nay",
               "C001053": "Nay",
               "C001055": "Yea",
@@ -127,7 +118,7 @@
               "C001121": "Yea",
               "C001123": "Yea",
               "C001125": "Yea",
-              "C001126": "Yea",
+              "C001126": "Nay",
               "C001129": "Nay",
               "C001130": "Yea",
               "C001131": "Yea",
@@ -148,8 +139,8 @@
               "D000617": "Yea",
               "D000623": "Yea",
               "D000624": "Yea",
-              "D000626": "Nay",
-              "D000628": "Nay",
+              "D000626": "Yea",
+              "D000628": "Not Voting",
               "D000629": "Yea",
               "D000631": "Yea",
               "D000634": "Nay",
@@ -158,7 +149,7 @@
               "E000235": "Nay",
               "E000246": "Nay",
               "E000294": "Nay",
-              "E000296": "Yea",
+              "E000296": "Not Voting",
               "E000297": "Yea",
               "E000298": "Nay",
               "E000299": "Yea",
@@ -188,7 +179,7 @@
               "F000483": "Yea",
               "F000484": "Nay",
               "F000485": "Nay",
-              "G000546": "Nay",
+              "G000546": "Not Voting",
               "G000553": "Yea",
               "G000558": "Nay",
               "G000559": "Yea",
@@ -203,8 +194,8 @@
               "G000589": "Nay",
               "G000591": "Nay",
               "G000592": "Yea",
-              "G000593": "Yea",
-              "G000597": "Yea",
+              "G000593": "Nay",
+              "G000597": "Nay",
               "G000598": "Yea",
               "G000599": "Yea",
               "G000600": "Yea",
@@ -214,6 +205,7 @@
               "G000604": "Yea",
               "G000605": "Yea",
               "G000606": "Yea",
+              "G000607": "Nay",
               "H000874": "Yea",
               "H001047": "Yea",
               "H001052": "Nay",
@@ -235,7 +227,7 @@
               "H001096": "Nay",
               "H001098": "Nay",
               "H001099": "Nay",
-              "H001100": "Yea",
+              "H001100": "Nay",
               "H001101": "Nay",
               "H001102": "Nay",
               "I000056": "Nay",
@@ -243,10 +235,10 @@
               "J000288": "Yea",
               "J000289": "Nay",
               "J000294": "Yea",
-              "J000295": "Yea",
-              "J000298": "Not Voting",
+              "J000295": "Nay",
+              "J000298": "Yea",
               "J000299": "Nay",
-              "J000301": "Not Voting",
+              "J000301": "Nay",
               "J000302": "Nay",
               "J000304": "Nay",
               "J000305": "Yea",
@@ -263,10 +255,10 @@
               "K000391": "Yea",
               "K000392": "Nay",
               "K000397": "Nay",
-              "K000398": "Not Voting",
-              "K000399": "Yea",
+              "K000398": "Nay",
+              "K000399": "Nay",
               "K000400": "Yea",
-              "K000401": "Yea",
+              "K000401": "Nay",
               "K000402": "Yea",
               "K000403": "Nay",
               "K000405": "Nay",
@@ -285,12 +277,12 @@
               "L000595": "Nay",
               "L000596": "Nay",
               "L000597": "Nay",
-              "L000598": "Yea",
-              "L000599": "Yea",
+              "L000598": "Nay",
+              "L000599": "Nay",
               "L000600": "Nay",
               "L000601": "Yea",
               "L000602": "Yea",
-              "L000603": "Nay",
+              "L000603": "Not Voting",
               "L000606": "Yea",
               "L000607": "Yea",
               "M000194": "Not Voting",
@@ -301,20 +293,20 @@
               "M001136": "Nay",
               "M001137": "Yea",
               "M001143": "Yea",
-              "M001157": "Yea",
+              "M001157": "Nay",
               "M001160": "Yea",
               "M001163": "Yea",
               "M001177": "Nay",
-              "M001184": "Nay",
+              "M001184": "Yea",
               "M001188": "Yea",
               "M001194": "Nay",
               "M001196": "Yea",
               "M001199": "Nay",
               "M001204": "Nay",
-              "M001205": "Not Voting",
+              "M001205": "Nay",
               "M001206": "Yea",
               "M001208": "Yea",
-              "M001210": "Yea",
+              "M001210": "Nay",
               "M001211": "Nay",
               "M001212": "Nay",
               "M001213": "Nay",
@@ -324,7 +316,7 @@
               "M001217": "Yea",
               "M001218": "Nay",
               "M001220": "Yea",
-              "M001222": "Yea",
+              "M001222": "Nay",
               "M001223": "Yea",
               "M001224": "Nay",
               "M001225": "Yea",
@@ -350,14 +342,14 @@
               "N000015": "Yea",
               "N000026": "Nay",
               "N000188": "Yea",
-              "N000189": "Yea",
-              "N000190": "Not Voting",
+              "N000189": "Nay",
+              "N000190": "Nay",
               "N000191": "Yea",
               "N000193": "Nay",
               "O000019": "Nay",
               "O000086": "Nay",
               "O000172": "Yea",
-              "O000173": "Nay",
+              "O000173": "Yea",
               "O000175": "Nay",
               "O000176": "Yea",
               "O000177": "Nay",
@@ -371,7 +363,7 @@
               "P000609": "Nay",
               "P000613": "Yea",
               "P000614": "Yea",
-              "P000617": "Not Voting",
+              "P000617": "Yea",
               "P000620": "Yea",
               "P000621": "Yea",
               "P000622": "Nay",
@@ -385,7 +377,7 @@
               "R000606": "Yea",
               "R000609": "Nay",
               "R000610": "Nay",
-              "R000612": "Nay",
+              "R000612": "Not Voting",
               "R000614": "Nay",
               "R000617": "Yea",
               "R000619": "Nay",
@@ -434,10 +426,10 @@
               "S001230": "Yea",
               "S001231": "Yea",
               "T000165": "Nay",
-              "T000193": "Not Voting",
+              "T000193": "Yea",
               "T000460": "Yea",
-              "T000463": "Yea",
-              "T000467": "Yea",
+              "T000463": "Nay",
+              "T000467": "Nay",
               "T000468": "Yea",
               "T000469": "Yea",
               "T000472": "Yea",
@@ -448,7 +440,7 @@
               "T000482": "Yea",
               "T000486": "Yea",
               "T000487": "Yea",
-              "T000488": "Not Voting",
+              "T000488": "Yea",
               "T000490": "Nay",
               "T000491": "Yea",
               "U000040": "Yea",
@@ -464,12 +456,12 @@
               "V000139": "Nay",
               "W000187": "Yea",
               "W000788": "Yea",
-              "W000795": "Yea",
+              "W000795": "Nay",
               "W000797": "Yea",
               "W000798": "Nay",
               "W000804": "Nay",
               "W000806": "Nay",
-              "W000808": "Yea",
+              "W000808": "Not Voting",
               "W000809": "Nay",
               "W000812": "Nay",
               "W000814": "Nay",
@@ -485,29 +477,29 @@
             "result": "passed",
             "votePartyTotal": [
               {
-                "nayTotal": 194,
-                "notVotingTotal": 5,
+                "nayTotal": 207,
+                "notVotingTotal": 7,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 18
+                "yeaTotal": 4
               },
               {
-                "nayTotal": 1,
-                "notVotingTotal": 4,
+                "nayTotal": 0,
+                "notVotingTotal": 2,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
                 "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 207
+                "yeaTotal": 210
               },
               {
-                "nayTotal": 0,
+                "nayTotal": 1,
                 "notVotingTotal": 0,
                 "party": {
                   "name": "Independent",
@@ -515,193 +507,101 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 1
+                "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll207.xml",
-            "question": "On Passage",
-            "id": "119-HR-2913-1"
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll282.xml",
+            "question": "On Agreeing to the Resolution",
+            "id": "119-HCONRES-89-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 226 - 195 (Roll no. 207). (text: CR H3877-3886)",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H35000",
-        "actionDate": "2026-06-04",
-        "actionTime": "19:26:02",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "The previous question was ordered pursuant to the rule.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-06-04",
-        "actionTime": "18:16:52",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 2913.",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 214 - 208 (Roll no. 282).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-04",
-        "actionTime": "18:16:39",
+        "actionDate": "2026-07-23",
+        "actionTime": "09:46:33",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 518. (consideration: CR H3877-3894)",
+        "text": "Considered as unfinished business. (consideration: CR H5186)",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-22",
+        "actionTime": "19:49:04",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H. Con. Res. 89, the Chair put the question on agreeing to the concurrent resolution and by voice vote, announced the noes had prevailed. Ms. Jayapal demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H35000",
+        "actionDate": "2026-07-22",
+        "actionTime": "19:48:40",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The previous question was ordered pursuant to a previous order of the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-22",
+        "actionTime": "18:47:13",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - Pursuant to a previous order, the House proceeded with one hour of debate on H. Con. Res. 89.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-07-22",
+        "actionTime": "18:46:50",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered pursuant to a previous order. (consideration: CR H5160-5165; text: CR H5160)",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30800",
+        "actionDate": "2026-07-22",
+        "actionTime": "18:46:31",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Consideration initiated pursuant to a previous order.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-07-22",
+        "actionTime": "18:45:45",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "ORDER OF PROCEDURE - Mr. Mast asked unanimous consent that, it be in order at any time to consider H. Con. Res. 89 in the House if called up by the chair of the Committee on Foreign Affairs or his designee; that the concurrent resolution be considered as read; and that the previous question be considered as ordered on the concurrent resolution to adoption without intervening motion except for one hour of debate equally divided among and controlled by Representative Mast of Florida, Representative Meeks of New York, and Representative Jayapal of Washington, or their respective designees. Agreed to without objection.",
         "type": "Floor"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Budget Committee",
-            "systemCode": "hsbu00",
-            "url": "https://api.congress.gov/v3/committee/house/hsbu00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Armed Services Committee",
-            "systemCode": "hsas00",
-            "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Financial Services Committee",
-            "systemCode": "hsba00",
-            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Rules Committee",
-            "systemCode": "hsru00",
-            "url": "https://api.congress.gov/v3/committee/house/hsru00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Intelligence (Permanent Select) Committee",
-            "systemCode": "hlig00",
-            "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
-        "committees": [
-          {
-            "name": "Transportation and Infrastructure Committee",
-            "systemCode": "hspw00",
-            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-04-14",
+        "actionDate": "2026-04-23",
         "committees": [
           {
             "name": "Foreign Affairs Committee",
@@ -713,86 +613,68 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Transportation and Infrastructure, Intelligence (Permanent Select), Ways and Means, Rules, the Judiciary, Financial Services, Armed Services, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "text": "Referred to the House Committee on Foreign Affairs.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-04-23",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Submitted in House",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-04-14",
+  "introducedDate": "2026-04-23",
   "latestAction": {
-    "actionDate": "2026-07-20",
-    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 462."
+    "actionDate": "2026-07-23",
+    "text": "Received in the Senate and referred to the Committee on Foreign Relations."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2913",
-  "number": "2913",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/89",
+  "number": "89",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/2913/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hconres/89/summaries?format=json"
   },
-  "title": "Ukraine Support Act",
+  "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Ukraine Support Act",
-        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 152,
-        "updateDate": "2026-07-25T04:38:23Z"
-      },
-      {
-        "title": "Ukraine Support Act",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:02:24Z"
+        "updateDate": "2026-07-24T03:38:21Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Ukraine Support Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-09T05:23:22Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To authorize support for Ukraine, and for other purposes.",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-06-09T05:23:22Z"
+        "updateDate": "2026-07-24T03:38:20Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Ukraine Support Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-05-07T03:08:16Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To authorize support for Ukraine, and for other purposes.",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-05-07T03:03:19Z"
+        "updateDate": "2026-07-17T23:39:27Z"
       }
     ]
   },
-  "type": "HR",
-  "updateDate": "2026-07-25T04:38:23Z",
-  "updateDateIncludingText": "2026-07-25T04:38:23Z",
-  "id": "119-HR-2913",
-  "lastActionDate": "2026-07-20",
-  "lastRecordedVoteDate": "2026-06-05T00:09:08Z"
+  "type": "HCONRES",
+  "updateDate": "2026-07-24T15:25:40Z",
+  "updateDateIncludingText": "2026-07-24T15:25:40Z",
+  "id": "119-HCONRES-89",
+  "lastActionDate": "2026-07-23",
+  "lastRecordedVoteDate": "2026-07-23T14:25:10Z"
 }

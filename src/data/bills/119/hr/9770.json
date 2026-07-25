@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 15,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/hr/9770/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-22",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-21",
@@ -504,7 +512,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 220 - 205 (Roll no. 272).",
+        "text": "On passage Passed by the Yeas and Nays: 220 - 205 (Roll no. 272). (text: CR H4731-4733)",
         "type": "Floor"
       },
       {
@@ -515,7 +523,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5019-5020)",
         "type": "Floor"
       },
       {
@@ -570,7 +578,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1438.",
+        "text": "Considered under the provisions of rule H. Res. 1438. (consideration: CR H4731-4736)",
         "type": "Floor"
       },
       {
@@ -634,9 +642,8 @@
   "congress": 119,
   "introducedDate": "2026-07-18",
   "latestAction": {
-    "actionDate": "2026-07-21",
-    "actionTime": "22:14:42",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-22",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9770",
   "number": "9770",
@@ -684,9 +691,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T03:38:22Z",
-  "updateDateIncludingText": "2026-07-23T07:18:25Z",
+  "updateDate": "2026-07-24T15:58:21Z",
+  "updateDateIncludingText": "2026-07-24T15:58:21Z",
   "id": "119-HR-9770",
-  "lastActionDate": "2026-07-21",
+  "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22T02:14:39Z"
 }

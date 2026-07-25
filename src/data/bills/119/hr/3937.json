@@ -1,8 +1,31 @@
 {
   "actions": {
-    "count": 19,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/3937/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 494.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-07-23",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Reported by Senator Lee without amendment. Without written report.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-06-10",
         "committees": [
@@ -696,8 +719,8 @@
   "congress": 119,
   "introducedDate": "2025-06-11",
   "latestAction": {
-    "actionDate": "2026-06-10",
-    "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
+    "actionDate": "2026-07-23",
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 494."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3937",
   "number": "3937",
@@ -710,6 +733,16 @@
   "title": "Wabeno Economic Development Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Wabeno Economic Development Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-07-25T04:38:24Z"
+      },
       {
         "title": "Wabeno Economic Development Act",
         "titleType": "Display Title",
@@ -765,9 +798,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:00:23Z",
-  "updateDateIncludingText": "2026-07-18T00:00:23Z",
+  "updateDate": "2026-07-25T04:38:24Z",
+  "updateDateIncludingText": "2026-07-25T04:38:24Z",
   "id": "119-HR-3937",
-  "lastActionDate": "2026-06-10",
+  "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2025-07-22T20:48:49Z"
 }
