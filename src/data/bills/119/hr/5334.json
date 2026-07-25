@@ -1,8 +1,24 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/5334/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4253)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-07-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S4253)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-07-14",
         "sourceSystem": {
@@ -638,8 +654,8 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-07-14",
-    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 454."
+    "actionDate": "2026-07-23",
+    "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4253)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
   "number": "5334",
@@ -755,9 +771,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:40:32Z",
-  "updateDateIncludingText": "2026-07-17T23:40:32Z",
+  "updateDate": "2026-07-24T15:21:53Z",
+  "updateDateIncludingText": "2026-07-24T15:21:53Z",
   "id": "119-HR-5334",
-  "lastActionDate": "2026-07-14",
+  "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-04-27"
 }

@@ -252,6 +252,10 @@
   "number": "865",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/865/summaries?format=json"
+  },
   "title": "Lobbying Disclosure Improvement Act",
   "titles": {
     "titles": [
@@ -300,8 +304,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2025-12-18T12:48:41Z",
-  "updateDateIncludingText": "2026-07-18T22:03:19Z",
+  "updateDate": "2026-07-24T12:47:04Z",
+  "updateDateIncludingText": "2026-07-24T12:47:04Z",
   "id": "119-S-865",
   "lastActionDate": "2025-12-17",
   "lastRecordedVoteDate": "2025-12-16"
