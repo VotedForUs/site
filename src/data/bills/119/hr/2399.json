@@ -624,6 +624,11 @@
     "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 61."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2399",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/HR/2399\" target=\"_blank\">H.R.2399</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/S/98\" target=\"_blank\">S.98</a>, which became Public Law 119-89."
+    }
+  ],
   "number": "2399",
   "originChamber": "House",
   "originChamberCode": "H",
@@ -699,8 +704,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T03:08:24Z",
-  "updateDateIncludingText": "2026-07-13T20:07:39Z",
+  "updateDate": "2026-07-27T14:31:15Z",
+  "updateDateIncludingText": "2026-07-27T14:31:15Z",
   "id": "119-HR-2399",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28"

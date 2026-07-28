@@ -615,6 +615,11 @@
     "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 10."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/29",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/HR/29\" target=\"_blank\">H.R.29</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/S/5\" target=\"_blank\">S.5</a>, which became Public Law 119-1."
+    }
+  ],
   "number": "29",
   "originChamber": "House",
   "originChamberCode": "H",
@@ -680,8 +685,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T01:53:18Z",
-  "updateDateIncludingText": "2026-07-13T20:12:08Z",
+  "updateDate": "2026-07-27T16:30:22Z",
+  "updateDateIncludingText": "2026-07-27T16:30:22Z",
   "id": "119-HR-29",
   "lastActionDate": "2025-02-10",
   "lastRecordedVoteDate": "2025-01-07T18:30:30Z"

@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/1722/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 467.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-22",
@@ -503,7 +511,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5159)",
         "type": "Floor"
       },
       {
@@ -623,9 +631,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-07-22",
-    "actionTime": "17:02:53",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-23",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 467."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1722",
   "number": "1722",
@@ -638,6 +645,16 @@
   "title": "Billion Dollar Boondoggle Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Billion Dollar Boondoggle Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-07-28T01:38:21Z"
+      },
       {
         "title": "Billion Dollar Boondoggle Act",
         "titleType": "Display Title",
@@ -683,9 +700,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-24T03:53:21Z",
-  "updateDateIncludingText": "2026-07-24T07:48:37Z",
+  "updateDate": "2026-07-28T01:38:21Z",
+  "updateDateIncludingText": "2026-07-28T01:38:21Z",
   "id": "119-HR-1722",
-  "lastActionDate": "2026-07-22",
+  "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-22"
 }

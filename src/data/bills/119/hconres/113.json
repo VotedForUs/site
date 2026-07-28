@@ -1,8 +1,46 @@
 {
   "actions": {
-    "count": 17,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hconres/113/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 468.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-07-23",
+        "committees": [
+          {
+            "name": "Budget Committee",
+            "systemCode": "ssbu00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbu00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Senate Committee on the Budget discharged pursuant to Sec. 300 of the Congressional Budget Act.",
+        "type": "Discharge"
+      },
+      {
+        "actionDate": "2026-07-23",
+        "committees": [
+          {
+            "name": "Budget Committee",
+            "systemCode": "ssbu00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbu00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and referred to the Committee on the Budget.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-22",
@@ -504,7 +542,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 216 - 214 (Roll no. 281).",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 216 - 214 (Roll no. 281). (text of amendment in the nature of a substitute: CR H5138-5143)",
         "type": "Floor"
       },
       {
@@ -515,7 +553,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5158-5159)",
         "type": "Floor"
       },
       {
@@ -614,7 +652,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1438.",
+        "text": "Considered under the provisions of rule H. Res. 1438. (consideration: CR H5127-5143)",
         "type": "Floor"
       },
       {
@@ -663,16 +701,15 @@
   "congress": 119,
   "introducedDate": "2026-07-18",
   "latestAction": {
-    "actionDate": "2026-07-22",
-    "actionTime": "16:59:12",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-23",
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 468."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/113",
   "number": "113",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hconres/113/summaries?format=json"
   },
   "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
@@ -703,9 +740,9 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-07-24T03:53:21Z",
-  "updateDateIncludingText": "2026-07-24T08:33:35Z",
+  "updateDate": "2026-07-27T18:28:37Z",
+  "updateDateIncludingText": "2026-07-28T01:33:26Z",
   "id": "119-HCONRES-113",
-  "lastActionDate": "2026-07-22",
+  "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-22T20:59:10Z"
 }
