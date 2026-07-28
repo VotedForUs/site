@@ -1,10 +1,11 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import Voted from '../../../components/Voted.astro';
-import { getEntry, getCollection } from 'astro:content';
-import { getBestBillTitle } from '../../../utils/billTitle.js';
+import { getCollection } from 'astro:content';
 import { getLimitedBillIds } from '../../../buildConfig';
 import { shouldBuildPage } from '../../../utils/buildManifest.js';
+import { resolveLegislatorVoteView } from '../../../utils/resolveLegislatorVoteViewAstro.js';
+import { toPageVotedProps } from '../../../utils/legislatorVoteView.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
@@ -21,39 +22,23 @@ export async function getStaticPaths() {
 }
 
 const { voteId, bioguideId } = Astro.params;
-// vote.id is already normalized (TYPE uppercase) from the collection
 const normalizedVoteId = voteId;
-const voteEntry = await getEntry('recordedVotes', normalizedVoteId);
-if (!voteEntry) {
-  throw new Error(`Vote not found: ${normalizedVoteId}`);
+const result = await resolveLegislatorVoteView({
+  voteId: normalizedVoteId,
+  bioguideId,
+});
+
+if (!result.ok) {
+  throw new Error(`Legislator vote not found (${result.reason}): ${bioguideId}/${normalizedVoteId}`);
 }
 
-const vote = voteEntry.data;
-const billEntry = await getEntry('bills', vote.billId);
-const legEntry = await getEntry('legislators', bioguideId);
-
-if (!billEntry) {
-  throw new Error(`Bill not found: ${vote.billId}`);
-}
-
-const bill = billEntry.data;
-const legislator = legEntry?.data;
-const voteCast = vote.votes?.[bioguideId] ?? '';
-
-const billTitle = getBestBillTitle(bill);
-const voteTitle = vote.question ?? `Roll call ${vote.rollNumber}`;
-const nameTitle = legislator?.nameTitle ?? bioguideId;
-const pageTitle = `${nameTitle} - ${bill.type} ${bill.number}`;
+const view = result.view;
+const votedProps = toPageVotedProps(view);
 ---
 
 <Layout
-  title={pageTitle}
-  socialCardPath={`/social-cards/v/${normalizedVoteId}/${bioguideId}.png`}
+  title={view.page.title}
+  socialCardPath={view.page.socialCardPath}
 >
-  <Voted
-    nameTitle={nameTitle}
-    voteCast={voteCast}
-    voteTitle={voteTitle}
-    billTitle={billTitle}
-  />
+  <Voted {...votedProps} />
 </Layout>

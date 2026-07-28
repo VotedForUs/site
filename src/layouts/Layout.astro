@@ -103,10 +103,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
         --primary-opposite: oklch(from var(--primary-color) clamp(0, (0.6 - l) * 1000, 1) 0 h);
         --secondary-opposite: oklch(from var(--secondary-color) clamp(0, (0.6 - l) * 1000, 1) 0 h);
       }
-
-      * {
-        box-sizing: border-box;
-      }
+      @import './global.css';
       
  
       @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');

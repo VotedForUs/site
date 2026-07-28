@@ -32,9 +32,9 @@
     "@votedforus/votes": "^1.1.11"
   },
   "devDependencies": {
-    "@scottnath/devx": "^1.0.4",
+    "@drop-in/graffiti": "^4.30.0",
     "@types/node": "^25.9.1",
-    "@votedforus/common": "^1.1.2",
+    "@votedforus/common": "^1.2.0",
     "puppeteer": "^25.0.4"
   },
   "engines": {
