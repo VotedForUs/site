@@ -168,14 +168,24 @@
   "number": "5123",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "title": "A bill to amend title 36, United States Code, to designate July 20 as Lunar Landing Day.",
+  "title": "Lunar Landing Day Act",
   "titles": {
     "titles": [
       {
-        "title": "A bill to amend title 36, United States Code, to designate July 20 as Lunar Landing Day.",
+        "title": "Lunar Landing Day Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-24T13:20:51Z"
+        "updateDate": "2026-07-27T13:38:25Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Lunar Landing Day Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2026-07-27T13:38:25Z"
       },
       {
         "title": "A bill to amend title 36, United States Code, to designate July 20 as Lunar Landing Day.",
@@ -186,8 +196,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-25T10:56:25Z",
-  "updateDateIncludingText": "2026-07-25T10:56:25Z",
+  "updateDate": "2026-07-27T13:38:24Z",
+  "updateDateIncludingText": "2026-07-28T01:33:34Z",
   "id": "119-S-5123",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-23"
