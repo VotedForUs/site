@@ -664,7 +664,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/4238/summaries?format=json"
   },
   "title": "DLARA",
@@ -773,8 +773,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T23:06:26Z",
-  "updateDateIncludingText": "2026-07-23T23:06:26Z",
+  "updateDate": "2026-07-29T12:36:47Z",
+  "updateDateIncludingText": "2026-07-29T12:36:47Z",
   "id": "119-HR-4238",
   "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-23"

@@ -382,6 +382,10 @@
   "number": "526",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sres/526/summaries?format=json"
+  },
   "title": "A resolution withholding the pay of Senators if a Government shutdown occurs.",
   "titles": {
     "titles": [
@@ -402,8 +406,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2026-06-18T15:13:10Z",
-  "updateDateIncludingText": "2026-06-18T15:13:10Z",
+  "updateDate": "2026-07-29T12:29:03Z",
+  "updateDateIncludingText": "2026-07-29T12:29:03Z",
   "id": "119-SRES-526",
   "lastActionDate": "2026-05-14",
   "lastRecordedVoteDate": "2026-05-14"

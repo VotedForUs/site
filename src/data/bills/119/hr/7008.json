@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/7008/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-22",
@@ -504,7 +512,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 232 - 198 (Roll no. 280).",
+        "text": "On passage Passed by the Yeas and Nays: 232 - 198 (Roll no. 280). (text of amendment in the nature of a substitute: CR H5143-5144)",
         "type": "Floor"
       },
       {
@@ -1015,7 +1023,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5157-5158)",
         "type": "Floor"
       },
       {
@@ -1055,7 +1063,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Magaziner moved to recommit to the Committee on House Administration.",
+        "text": "Mr. Magaziner moved to recommit to the Committee on House Administration. (text: CR H5152)",
         "type": "Floor"
       },
       {
@@ -1099,7 +1107,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1438.",
+        "text": "Considered under the provisions of rule H. Res. 1438. (consideration: CR H5143-5153)",
         "type": "Floor"
       },
       {
@@ -1199,9 +1207,8 @@
   "congress": 119,
   "introducedDate": "2026-01-12",
   "latestAction": {
-    "actionDate": "2026-07-22",
-    "actionTime": "16:52:12",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-23",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7008",
   "number": "7008",
@@ -1269,9 +1276,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-24T03:38:21Z",
-  "updateDateIncludingText": "2026-07-24T07:33:30Z",
+  "updateDate": "2026-07-29T19:42:45Z",
+  "updateDateIncludingText": "2026-07-29T19:42:45Z",
   "id": "119-HR-7008",
-  "lastActionDate": "2026-07-22",
+  "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-22T20:52:10Z"
 }
