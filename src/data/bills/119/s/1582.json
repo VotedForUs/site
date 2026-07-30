@@ -1660,7 +1660,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/1582/summaries?format=json"
   },
   "title": "GENIUS Act",
@@ -1741,8 +1741,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-12T15:11:43Z",
-  "updateDateIncludingText": "2026-07-18T20:51:45Z",
+  "updateDate": "2026-07-29T21:37:07Z",
+  "updateDateIncludingText": "2026-07-29T21:37:07Z",
   "id": "119-S-1582",
   "lastActionDate": "2025-07-18",
   "lastRecordedVoteDate": "2025-07-17T19:54:11Z"

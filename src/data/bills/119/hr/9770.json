@@ -650,7 +650,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/9770/summaries?format=json"
   },
   "title": "Making continuing appropriations for fiscal year 2027, and for other purposes.",
@@ -691,8 +691,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-24T15:58:21Z",
-  "updateDateIncludingText": "2026-07-24T15:58:21Z",
+  "updateDate": "2026-07-29T15:33:03Z",
+  "updateDateIncludingText": "2026-07-29T15:33:03Z",
   "id": "119-HR-9770",
   "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22T02:14:39Z"

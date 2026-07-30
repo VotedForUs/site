@@ -590,6 +590,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Captain Paul W. Bud Bucha VA Medical Center Act of 2025",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-07-18T11:53:33Z"
+      },
+      {
         "title": "Captain Paul W. Bud Bucha VA Medical Center Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -634,8 +644,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:02:04Z",
-  "updateDateIncludingText": "2026-07-18T00:02:04Z",
+  "updateDate": "2026-07-29T21:59:14Z",
+  "updateDateIncludingText": "2026-07-29T21:59:14Z",
   "id": "119-HR-4647",
   "lastActionDate": "2026-07-16",
   "lastRecordedVoteDate": "2026-07-15"
