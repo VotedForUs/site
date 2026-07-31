@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/5254/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-29",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-07-21",
         "committees": [
@@ -695,8 +710,8 @@
   "congress": 119,
   "introducedDate": "2025-09-10",
   "latestAction": {
-    "actionDate": "2026-07-21",
-    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held."
+    "actionDate": "2026-07-29",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5254",
   "number": "5254",
@@ -774,9 +789,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T10:56:38Z",
-  "updateDateIncludingText": "2026-07-22T10:56:38Z",
+  "updateDate": "2026-07-30T10:56:43Z",
+  "updateDateIncludingText": "2026-07-30T10:56:43Z",
   "id": "119-HR-5254",
-  "lastActionDate": "2026-07-21",
+  "lastActionDate": "2026-07-29",
   "lastRecordedVoteDate": "2026-03-16"
 }

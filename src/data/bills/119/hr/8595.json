@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 40,
+    "count": 41,
     "url": "https://api.congress.gov/v3/bill/119/hr/8595/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-29",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-15",
@@ -1871,9 +1879,8 @@
   "congress": 119,
   "introducedDate": "2026-04-30",
   "latestAction": {
-    "actionDate": "2026-07-15",
-    "actionTime": "17:12:53",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-29",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8595",
   "number": "8595",
@@ -1883,14 +1890,24 @@
     "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/8595/summaries?format=json"
   },
-  "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+  "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
   "titles": {
     "titles": [
       {
-        "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+        "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:45:25Z"
+        "updateDate": "2026-07-31T05:23:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-31T05:23:22Z"
       },
       {
         "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
@@ -1911,9 +1928,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T23:06:26Z",
-  "updateDateIncludingText": "2026-07-23T23:06:26Z",
+  "updateDate": "2026-07-31T05:23:24Z",
+  "updateDateIncludingText": "2026-07-31T07:48:27Z",
   "id": "119-HR-8595",
-  "lastActionDate": "2026-07-15",
+  "lastActionDate": "2026-07-29",
   "lastRecordedVoteDate": "2026-07-15T21:12:51Z"
 }
