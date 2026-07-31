@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 20,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/5631/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-29",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-07-15",
         "committees": [
@@ -706,8 +721,8 @@
   "congress": 119,
   "introducedDate": "2025-09-30",
   "latestAction": {
-    "actionDate": "2026-07-15",
-    "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held."
+    "actionDate": "2026-07-29",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5631",
   "number": "5631",
@@ -785,9 +800,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T23:06:21Z",
-  "updateDateIncludingText": "2026-07-23T23:06:21Z",
+  "updateDate": "2026-07-30T10:56:41Z",
+  "updateDateIncludingText": "2026-07-30T16:27:18Z",
   "id": "119-HR-5631",
-  "lastActionDate": "2026-07-15",
+  "lastActionDate": "2026-07-29",
   "lastRecordedVoteDate": "2026-06-02"
 }

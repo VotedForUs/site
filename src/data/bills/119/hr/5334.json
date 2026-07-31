@@ -1,8 +1,175 @@
 {
   "actions": {
-    "count": 20,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/5334/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-29",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Measure laid before Senate by motion. (consideration: CR S4323)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-07-29",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-07-29T22:53:00Z",
+            "rollNumber": 213,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00213.xml",
+            "votes": {
+              "A000382": "Yea",
+              "B001230": "Yea",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Yea",
+              "B001243": "Yea",
+              "B001277": "Yea",
+              "B001303": "Nay",
+              "B001288": "Yea",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Yea",
+              "C001047": "Yea",
+              "C001075": "Yea",
+              "C001035": "Yea",
+              "C001088": "Yea",
+              "C001056": "Yea",
+              "C001113": "Yea",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Yea",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Yea",
+              "D000563": "Yea",
+              "E000295": "Yea",
+              "F000479": "Yea",
+              "F000463": "Yea",
+              "G000574": "Not Voting",
+              "G000555": "Yea",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Nay",
+              "H001089": "Yea",
+              "H001046": "Yea",
+              "H000273": "Yea",
+              "H001042": "Nay",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Yea",
+              "J000312": "Yea",
+              "K000384": "Yea",
+              "K000377": "Yea",
+              "K000393": "Yea",
+              "K000394": "Nay",
+              "K000383": "Yea",
+              "K000367": "Yea",
+              "L000575": "Yea",
+              "L000577": "Yea",
+              "L000570": "Yea",
+              "L000571": "Yea",
+              "M000133": "Nay",
+              "M001198": "Yea",
+              "M000355": "Not Voting",
+              "M001243": "Yea",
+              "M001176": "Yea",
+              "M001244": "Yea",
+              "M000934": "Yea",
+              "M001242": "Yea",
+              "M001153": "Yea",
+              "M001169": "Yea",
+              "M001111": "Yea",
+              "O000174": "Nay",
+              "P000145": "Nay",
+              "P000603": "Nay",
+              "P000595": "Yea",
+              "R000122": "Yea",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Yea",
+              "R000605": "Yea",
+              "S000033": "Nay",
+              "S001194": "Yea",
+              "S001150": "Yea",
+              "S001227": "Yea",
+              "S000148": "Yea",
+              "S001217": "Yea",
+              "S001184": "Yea",
+              "S001181": "Yea",
+              "S001232": "Yea",
+              "S001208": "Yea",
+              "S001203": "Yea",
+              "S001198": "Yea",
+              "T000250": "Yea",
+              "T000476": "Yea",
+              "T000278": "Yea",
+              "V000128": "Yea",
+              "W000805": "Yea",
+              "W000790": "Yea",
+              "W000817": "Nay",
+              "W000800": "Nay",
+              "W000802": "Not Voting",
+              "W000437": "Yea",
+              "W000779": "Nay",
+              "Y000064": "Yea"
+            },
+            "result": "passed",
+            "senateCount": {
+              "yeas": 84,
+              "nays": 12,
+              "present": "",
+              "absent": 4
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 33,
+                "nayTotal": 10,
+                "presentTotal": 0,
+                "notVotingTotal": 2
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 50,
+                "nayTotal": 1,
+                "presentTotal": 0,
+                "notVotingTotal": 2
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 1,
+                "nayTotal": 1,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00213.xml",
+            "question": "On the Motion to Proceed H.R. 5334",
+            "id": "119-HR-5334-3"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 84 - 12. Record Vote Number: 213.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-07-29",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to measure considered in Senate. (CR S4301)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-07-28",
         "recordedVotes": [
@@ -805,8 +972,8 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-07-28",
-    "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 86 - 12. Record Vote Number: 212. (CR S4292)"
+    "actionDate": "2026-07-29",
+    "text": "Measure laid before Senate by motion. (consideration: CR S4323)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
   "number": "5334",
@@ -922,9 +1089,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-29T15:31:20Z",
-  "updateDateIncludingText": "2026-07-29T15:31:20Z",
+  "updateDate": "2026-07-30T14:02:32Z",
+  "updateDateIncludingText": "2026-07-30T14:02:32Z",
   "id": "119-HR-5334",
-  "lastActionDate": "2026-07-28",
-  "lastRecordedVoteDate": "2026-07-28T23:43:34Z"
+  "lastActionDate": "2026-07-29",
+  "lastRecordedVoteDate": "2026-07-29T22:53:00Z"
 }

@@ -1,7 +1,7 @@
 {
   "actions": {
     "count": 20,
-    "url": "https://api.congress.gov/v3/bill/119/hr/7831/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/6380/actions?format=json",
     "actions": [
       {
         "actionDate": "2026-07-29",
@@ -15,26 +15,11 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
         "type": "Committee"
       },
       {
-        "actionDate": "2026-07-15",
-        "committees": [
-          {
-            "name": "Public Lands, Forests, and Mining Subcommittee",
-            "systemCode": "sseg03",
-            "url": "https://api.congress.gov/v3/committee/senate/sseg03?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2026-06-03",
+        "actionDate": "2026-03-17",
         "committees": [
           {
             "name": "Energy and Natural Resources Committee",
@@ -49,9 +34,20 @@
         "type": "IntroReferral"
       },
       {
+        "actionCode": "H38800",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:51:56",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "The title of the measure was amended. Agreed to without objection.",
+        "type": "Floor"
+      },
+      {
         "actionCode": "H38310",
-        "actionDate": "2026-06-02",
-        "actionTime": "15:44:04",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:51:55",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -61,19 +57,19 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-06-02",
-        "actionTime": "15:44:00",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:51:53",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H3757)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H2525)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-06-02",
+            "date": "2026-03-16",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -534,61 +530,61 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/7831",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/6380",
             "question": "Voice Vote",
-            "id": "119-HR-7831-1"
+            "id": "119-HR-6380-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-06-02",
-        "actionTime": "15:33:04",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:42:33",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 7831.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 6380.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-06-02",
-        "actionTime": "15:33:03",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:42:31",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3757-3578)",
+        "text": "Considered under suspension of the rules. (consideration: CR H2525-2527)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-06-02",
-        "actionTime": "15:32:53",
+        "actionDate": "2026-03-16",
+        "actionTime": "17:42:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Westerman moved to suspend the rules and pass the bill.",
+        "text": "Mr. Wittman moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-05-20",
+        "actionDate": "2026-03-12",
         "calendarNumber": {
-          "calendar": "U00579"
+          "calendar": "U00467"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 579.",
+        "text": "Placed on the Union Calendar, Calendar No. 467.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2026-05-20",
+        "actionDate": "2026-03-12",
         "committees": [
           {
             "name": "Natural Resources Committee",
@@ -600,12 +596,12 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported by the Committee on Natural Resources. H. Rept. 119-665.",
+        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-543.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2026-05-14",
+        "actionDate": "2026-02-11",
         "committees": [
           {
             "name": "Natural Resources Committee",
@@ -617,12 +613,12 @@
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported by Unanimous Consent.",
+        "text": "Ordered to be Reported (Amended) by Unanimous Consent.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2026-05-14",
+        "actionDate": "2026-02-11",
         "committees": [
           {
             "name": "Natural Resources Committee",
@@ -639,29 +635,29 @@
       },
       {
         "actionCode": "H25000",
-        "actionDate": "2026-05-14",
+        "actionDate": "2026-02-11",
         "committees": [
           {
-            "name": "Energy and Mineral Resources Subcommittee",
-            "systemCode": "hsii06",
-            "url": "https://api.congress.gov/v3/committee/house/hsii06?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Subcommittee on Energy and Mineral Resources Discharged",
+        "text": "Subcommittee on Federal Lands Discharged",
         "type": "Committee"
       },
       {
         "actionCode": "H21000",
-        "actionDate": "2026-03-25",
+        "actionDate": "2025-12-11",
         "committees": [
           {
-            "name": "Energy and Mineral Resources Subcommittee",
-            "systemCode": "hsii06",
-            "url": "https://api.congress.gov/v3/committee/house/hsii06?format=json"
+            "name": "Federal Lands Subcommittee",
+            "systemCode": "hsii10",
+            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
           }
         ],
         "sourceSystem": {
@@ -673,24 +669,24 @@
       },
       {
         "actionCode": "H11000",
-        "actionDate": "2026-03-18",
+        "actionDate": "2025-12-04",
         "committees": [
           {
-            "name": "Energy and Mineral Resources Subcommittee",
-            "systemCode": "hsii06",
-            "url": "https://api.congress.gov/v3/committee/house/hsii06?format=json"
+            "name": "Federal Lands Subcommittee",
+            "systemCode": "hsii10",
+            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Referred to the Subcommittee on Energy and Mineral Resources.",
+        "text": "Referred to the Subcommittee on Federal Lands.",
         "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2026-03-05",
+        "actionDate": "2025-12-03",
         "committees": [
           {
             "name": "Natural Resources Committee",
@@ -708,90 +704,98 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-03-05",
+  "introducedDate": "2025-12-03",
   "latestAction": {
     "actionDate": "2026-07-29",
-    "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7831",
-  "number": "7831",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6380",
+  "number": "6380",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/7831/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/6380/summaries?format=json"
   },
-  "title": "License to Drill Act",
+  "title": "Chiricahua National Park Act",
   "titles": {
     "titles": [
       {
-        "title": "License to Drill Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:53:45Z"
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To redesignate the Chiricahua National Monument in the State of Arizona as Chiricahua National Park, and for other purposes",
+        "titleType": "Official Titles as Amended by House",
+        "titleTypeCode": 7,
+        "updateDate": "2026-03-19T13:34:34Z"
       },
       {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "License to Drill Act",
+        "title": "Chiricahua National Park Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
-        "updateDate": "2026-06-09T05:23:22Z"
+        "updateDate": "2026-03-19T03:38:19Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "License to Drill Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-04T03:08:35Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Mineral Leasing Act to extend the period of time during which the Secretary of the Interior is required to collect a fee for each new application for a permit to drill, and for other purposes.",
+        "title": "To redesignate the Chiricahua National Monument in the State of Arizona as Chiricahua National Park, and for other purposes.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-06-04T03:08:35Z"
+        "updateDate": "2026-03-18T03:08:22Z"
+      },
+      {
+        "title": "Chiricahua National Park Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-18T03:08:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Chiricahua National Park Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-03-18T03:08:22Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "License to Drill Act",
+        "title": "Chiricahua National Park Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-05-22T02:23:25Z"
+        "updateDate": "2026-03-13T03:53:21Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "License to Drill Act",
+        "title": "Chiricahua National Park Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2026-03-20T02:08:23Z"
+        "updateDate": "2025-12-19T05:08:19Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To amend the Mineral Leasing Act to extend the period of time during which the Secretary of the Interior is required to collect a fee for each new application for a permit to drill, and for other purposes.",
+        "title": "To establish the Chiricahua National Park in the State of Arizona as a unit of the National Park System, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-03-20T02:03:21Z"
+        "updateDate": "2025-12-19T05:03:56Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-30T10:56:35Z",
-  "updateDateIncludingText": "2026-07-30T10:56:35Z",
-  "id": "119-HR-7831",
+  "updateDate": "2026-07-30T10:56:39Z",
+  "updateDateIncludingText": "2026-07-30T10:56:39Z",
+  "id": "119-HR-6380",
   "lastActionDate": "2026-07-29",
-  "lastRecordedVoteDate": "2026-06-02"
+  "lastRecordedVoteDate": "2026-03-16"
 }
