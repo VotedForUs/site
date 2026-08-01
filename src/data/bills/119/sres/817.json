@@ -1,8 +1,167 @@
 {
   "actions": {
-    "count": 10,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/sres/817/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-30",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-07-30T18:27:48Z",
+            "rollNumber": 217,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00217.xml",
+            "votes": {
+              "A000382": "Nay",
+              "B001230": "Nay",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Nay",
+              "B001243": "Not Voting",
+              "B001277": "Nay",
+              "B001303": "Nay",
+              "B001288": "Nay",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Nay",
+              "C001047": "Yea",
+              "C001075": "Yea",
+              "C001035": "Yea",
+              "C001088": "Nay",
+              "C001056": "Yea",
+              "C001113": "Nay",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Yea",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Nay",
+              "D000563": "Nay",
+              "E000295": "Yea",
+              "F000479": "Nay",
+              "F000463": "Yea",
+              "G000574": "Nay",
+              "G000555": "Nay",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Nay",
+              "H001089": "Yea",
+              "H001046": "Nay",
+              "H000273": "Nay",
+              "H001042": "Nay",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Yea",
+              "J000312": "Yea",
+              "K000384": "Nay",
+              "K000377": "Nay",
+              "K000393": "Yea",
+              "K000394": "Nay",
+              "K000383": "Nay",
+              "K000367": "Nay",
+              "L000575": "Yea",
+              "L000577": "Yea",
+              "L000570": "Nay",
+              "L000571": "Yea",
+              "M000133": "Nay",
+              "M001198": "Yea",
+              "M000355": "Not Voting",
+              "M001243": "Yea",
+              "M001176": "Nay",
+              "M001244": "Yea",
+              "M000934": "Yea",
+              "M001242": "Yea",
+              "M001153": "Yea",
+              "M001169": "Nay",
+              "M001111": "Nay",
+              "O000174": "Nay",
+              "P000145": "Nay",
+              "P000603": "Yea",
+              "P000595": "Nay",
+              "R000122": "Nay",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Nay",
+              "R000605": "Yea",
+              "S000033": "Nay",
+              "S001194": "Nay",
+              "S001150": "Nay",
+              "S001227": "Yea",
+              "S000148": "Nay",
+              "S001217": "Yea",
+              "S001184": "Yea",
+              "S001181": "Nay",
+              "S001232": "Yea",
+              "S001208": "Nay",
+              "S001203": "Nay",
+              "S001198": "Yea",
+              "T000250": "Yea",
+              "T000476": "Not Voting",
+              "T000278": "Yea",
+              "V000128": "Nay",
+              "W000805": "Nay",
+              "W000790": "Nay",
+              "W000817": "Nay",
+              "W000800": "Nay",
+              "W000802": "Nay",
+              "W000437": "Yea",
+              "W000779": "Nay",
+              "Y000064": "Yea"
+            },
+            "result": "passed",
+            "senateCount": {
+              "yeas": 50,
+              "nays": 47,
+              "present": "",
+              "absent": 3
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 0,
+                "nayTotal": 45,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 50,
+                "nayTotal": 0,
+                "presentTotal": 0,
+                "notVotingTotal": 3
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 0,
+                "nayTotal": 2,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00217.xml",
+            "question": "On the Resolution S.Res. 817",
+            "id": "119-SRES-817-3"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47. Record Vote Number: 217.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-07-30",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate. (consideration: CR S4353, S4360)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-07-29",
         "sourceSystem": {
@@ -368,8 +527,8 @@
   "congress": 119,
   "introducedDate": "2026-07-23",
   "latestAction": {
-    "actionDate": "2026-07-29",
-    "text": "By unanimous consent agreement, vote 7/30/2026."
+    "actionDate": "2026-07-30",
+    "text": "Resolution agreed to in Senate without amendment by Yea-Nay Vote. 50 - 47. Record Vote Number: 217."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-resolution/817",
   "number": "817",
@@ -393,9 +552,9 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2026-07-30T14:06:33Z",
-  "updateDateIncludingText": "2026-07-30T14:06:33Z",
+  "updateDate": "2026-07-31T13:48:29Z",
+  "updateDateIncludingText": "2026-08-01T03:33:18Z",
   "id": "119-SRES-817",
-  "lastActionDate": "2026-07-29",
-  "lastRecordedVoteDate": "2026-07-29T23:50:06Z"
+  "lastActionDate": "2026-07-30",
+  "lastRecordedVoteDate": "2026-07-30T18:27:48Z"
 }

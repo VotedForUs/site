@@ -844,7 +844,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/629/summaries?format=json"
   },
   "title": "Emergency Conservation Program Improvement Act of 2025",
@@ -895,8 +895,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-28T20:43:25Z",
-  "updateDateIncludingText": "2026-07-28T20:43:25Z",
+  "updateDate": "2026-07-31T13:48:32Z",
+  "updateDateIncludingText": "2026-07-31T13:48:32Z",
   "id": "119-S-629",
   "lastActionDate": "2026-07-12",
   "lastRecordedVoteDate": "2026-06-23T22:59:45Z"
