@@ -1,8 +1,24 @@
 {
   "actions": {
-    "count": 19,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/6500/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-30",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4365)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-07-30",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S4360)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-02-10",
         "sourceSystem": {
@@ -672,8 +688,8 @@
   "congress": 119,
   "introducedDate": "2025-12-09",
   "latestAction": {
-    "actionDate": "2026-02-10",
-    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 320."
+    "actionDate": "2026-07-30",
+    "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4365)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6500",
   "number": "6500",
@@ -751,9 +767,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-11T05:06:23Z",
-  "updateDateIncludingText": "2026-07-13T19:03:21Z",
+  "updateDate": "2026-07-31T13:56:39Z",
+  "updateDateIncludingText": "2026-07-31T13:56:39Z",
   "id": "119-HR-6500",
-  "lastActionDate": "2026-02-10",
+  "lastActionDate": "2026-07-30",
   "lastRecordedVoteDate": "2026-01-13T00:05:15Z"
 }

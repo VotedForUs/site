@@ -1033,7 +1033,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Ryan moved to recommit to the Committee on Armed Services.",
+        "text": "Mr. Ryan moved to recommit to the Committee on Armed Services. (text: CR H5156)",
         "type": "Floor"
       },
       {
@@ -1088,7 +1088,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5153-5157)",
         "type": "Floor"
       },
       {
@@ -1756,7 +1756,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5029-5127)",
         "type": "Floor"
       },
       {
@@ -3341,8 +3341,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-24T04:09:19Z",
-  "updateDateIncludingText": "2026-07-24T04:09:19Z",
+  "updateDate": "2026-08-01T05:52:36Z",
+  "updateDateIncludingText": "2026-08-01T05:52:36Z",
   "id": "119-HR-8800",
   "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22T20:38:30Z"
