@@ -1617,7 +1617,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1968/summaries?format=json"
   },
   "title": "Full-Year Continuing Appropriations and Extensions Act, 2025",
@@ -1688,8 +1688,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-10T19:23:33Z",
-  "updateDateIncludingText": "2026-07-13T19:49:18Z",
+  "updateDate": "2026-08-03T15:15:40Z",
+  "updateDateIncludingText": "2026-08-03T15:15:40Z",
   "id": "119-HR-1968",
   "lastActionDate": "2025-03-15",
   "lastRecordedVoteDate": "2025-03-14T22:08:01Z"
