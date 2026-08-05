@@ -1,65 +1,20 @@
 {
   "actions": {
-    "count": 12,
-    "url": "https://api.congress.gov/v3/bill/119/s/766/actions?format=json",
+    "count": 5,
+    "url": "https://api.congress.gov/v3/bill/119/s/3977/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-03-18",
-        "committees": [
-          {
-            "name": "Small Business and Entrepreneurship Committee",
-            "systemCode": "sssb00",
-            "url": "https://api.congress.gov/v3/committee/senate/sssb00?format=json"
-          }
-        ],
+        "actionDate": "2026-08-03",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Small Business and Entrepreneurship. Hearings held.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H15000",
-        "actionDate": "2025-12-15",
-        "actionTime": "16:19:07",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-12-15",
-        "actionTime": "16:06:15",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-12-15",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-12-11",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S8693-8694; text: CR S8693-8694)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4412; text: CR S4412)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2025-12-11",
+            "date": "2026-08-03",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -195,132 +150,81 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/766",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/3977",
             "question": "Pass with Unanimous Consent",
-            "id": "119-S-766-1"
+            "id": "119-S-3977-1"
           }
         ]
       },
       {
-        "actionDate": "2025-11-03",
+        "actionDate": "2026-03-04",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 254.",
+        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 347.",
         "type": "Calendars"
       },
       {
-        "actionDate": "2025-11-03",
-        "committees": [
-          {
-            "name": "Homeland Security and Governmental Affairs Committee",
-            "systemCode": "ssga00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
-          }
-        ],
+        "actionDate": "2026-03-03",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Homeland Security and Governmental Affairs. Reported by Senator Paul without amendment. Without written report.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2025-07-30",
-        "committees": [
-          {
-            "name": "Homeland Security and Governmental Affairs Committee",
-            "systemCode": "ssga00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2025-02-27",
-        "committees": [
-          {
-            "name": "Homeland Security and Governmental Affairs Committee",
-            "systemCode": "ssga00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-        "type": "IntroReferral"
+        "text": "Introduced in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+        "type": "Calendars"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-02-27",
+  "introducedDate": "2026-03-03",
   "latestAction": {
-    "actionDate": "2026-03-18",
-    "text": "Committee on Small Business and Entrepreneurship. Hearings held."
+    "actionDate": "2026-08-03",
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4412; text: CR S4412)"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/766",
-  "number": "766",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3977",
+  "number": "3977",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/766/summaries?format=json"
-  },
-  "title": "Billion Dollar Boondoggle Act of 2025",
+  "title": "Bankruptcy Threshold Adjustment Act of 2026",
   "titles": {
     "titles": [
       {
-        "title": "Billion Dollar Boondoggle Act of 2025",
+        "title": "Bankruptcy Threshold Adjustment Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-03-19T11:03:26Z"
+        "updateDate": "2026-08-04T10:58:34Z"
       },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Billion Dollar Boondoggle Act of 2025",
+        "title": "Bankruptcy Threshold Adjustment Act of 2026",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2025-12-12T06:08:16Z"
+        "updateDate": "2026-08-04T06:23:31Z"
       },
       {
-        "billTextVersionCode": "RS",
-        "billTextVersionName": "Reported to Senate",
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Billion Dollar Boondoggle Act of 2025",
-        "titleType": "Short Title(s) as Reported to Senate",
-        "titleTypeCode": 103,
-        "updateDate": "2025-11-05T03:53:12Z"
+        "title": "Bankruptcy Threshold Adjustment Act of 2026",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-03-06T03:53:21Z"
       },
       {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "Billion Dollar Boondoggle Act of 2025",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-03-07T16:23:21Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to require an annual report of taxpayer-funded projects that are over budget and behind schedule.",
+        "title": "A bill to amend title 11, United States Code, to modify certain bankruptcy eligibility requirements, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-07T16:18:20Z"
+        "updateDate": "2026-03-04T12:35:18Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-04T20:01:49Z",
-  "updateDateIncludingText": "2026-08-04T20:01:49Z",
-  "id": "119-S-766",
-  "lastActionDate": "2026-03-18",
-  "lastRecordedVoteDate": "2025-12-11"
+  "updateDate": "2026-08-04T15:49:54Z",
+  "updateDateIncludingText": "2026-08-04T15:49:54Z",
+  "id": "119-S-3977",
+  "lastActionDate": "2026-08-03",
+  "lastRecordedVoteDate": "2026-08-03"
 }
