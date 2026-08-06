@@ -639,7 +639,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1722/summaries?format=json"
   },
   "title": "Billion Dollar Boondoggle Act",
@@ -700,8 +700,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-04T20:02:58Z",
-  "updateDateIncludingText": "2026-08-04T20:02:58Z",
+  "updateDate": "2026-08-05T12:10:38Z",
+  "updateDateIncludingText": "2026-08-05T12:10:38Z",
   "id": "119-HR-1722",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-22"

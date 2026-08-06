@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 23,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/hr/6500/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-04",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to measure considered in Senate. (CR S4415)",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-03",
         "sourceSystem": {
@@ -847,8 +855,8 @@
   "congress": 119,
   "introducedDate": "2025-12-09",
   "latestAction": {
-    "actionDate": "2026-08-03",
-    "text": "Motion to proceed to measure considered in Senate. (CR S4414)"
+    "actionDate": "2026-08-04",
+    "text": "Motion to proceed to measure considered in Senate. (CR S4415)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6500",
   "number": "6500",
@@ -926,9 +934,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-04T15:53:38Z",
-  "updateDateIncludingText": "2026-08-04T15:53:38Z",
+  "updateDate": "2026-08-05T17:59:28Z",
+  "updateDateIncludingText": "2026-08-05T17:59:28Z",
   "id": "119-HR-6500",
-  "lastActionDate": "2026-08-03",
+  "lastActionDate": "2026-08-04",
   "lastRecordedVoteDate": "2026-08-03T22:43:03Z"
 }
