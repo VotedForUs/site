@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hr/2069/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-21",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-20",
@@ -584,9 +592,8 @@
   "congress": 119,
   "introducedDate": "2025-03-11",
   "latestAction": {
-    "actionDate": "2026-07-20",
-    "actionTime": "16:53:24",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-21",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2069",
   "number": "2069",
@@ -644,9 +651,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:25Z",
-  "updateDateIncludingText": "2026-07-22T07:33:38Z",
+  "updateDate": "2026-08-06T21:26:38Z",
+  "updateDateIncludingText": "2026-08-06T21:26:38Z",
   "id": "119-HR-2069",
-  "lastActionDate": "2026-07-20",
+  "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-20"
 }

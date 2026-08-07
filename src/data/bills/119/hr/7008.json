@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 22,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/7008/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-05",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2026-07-23",
         "sourceSystem": {
@@ -1207,8 +1215,8 @@
   "congress": 119,
   "introducedDate": "2026-01-12",
   "latestAction": {
-    "actionDate": "2026-07-23",
-    "text": "Received in the Senate."
+    "actionDate": "2026-08-05",
+    "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7008",
   "number": "7008",
@@ -1276,9 +1284,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-29T19:42:45Z",
-  "updateDateIncludingText": "2026-07-29T19:42:45Z",
+  "updateDate": "2026-08-06T10:56:45Z",
+  "updateDateIncludingText": "2026-08-06T10:56:45Z",
   "id": "119-HR-7008",
-  "lastActionDate": "2026-07-23",
+  "lastActionDate": "2026-08-05",
   "lastRecordedVoteDate": "2026-07-22T20:52:10Z"
 }
