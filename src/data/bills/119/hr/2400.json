@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/2400/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-05",
+        "committees": [
+          {
+            "name": "Indian Affairs Committee",
+            "systemCode": "slia00",
+            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Indian Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-06-03",
         "committees": [
@@ -696,8 +711,8 @@
   "congress": 119,
   "introducedDate": "2025-03-27",
   "latestAction": {
-    "actionDate": "2026-06-03",
-    "text": "Committee on Indian Affairs. Hearings held."
+    "actionDate": "2026-08-05",
+    "text": "Committee on Indian Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2400",
   "number": "2400",
@@ -775,9 +790,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-04T10:56:32Z",
-  "updateDateIncludingText": "2026-07-13T20:07:41Z",
+  "updateDate": "2026-08-06T10:56:50Z",
+  "updateDateIncludingText": "2026-08-06T10:56:50Z",
   "id": "119-HR-2400",
-  "lastActionDate": "2026-06-03",
+  "lastActionDate": "2026-08-05",
   "lastRecordedVoteDate": "2025-12-15"
 }
