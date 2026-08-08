@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 11,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/6332/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-06",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-07-14",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-13",
@@ -584,9 +614,8 @@
   "congress": 119,
   "introducedDate": "2025-12-01",
   "latestAction": {
-    "actionDate": "2026-07-13",
-    "actionTime": "15:44:33",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-08-06",
+    "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6332",
   "number": "6332",
@@ -600,25 +629,35 @@
   "titles": {
     "titles": [
       {
+        "title": "To designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-15T13:09:45Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-15T13:08:26Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-12-02T11:03:23Z"
-      },
-      {
-        "title": "To designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-02T09:05:32Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-14T18:40:16Z",
-  "updateDateIncludingText": "2026-07-14T18:40:16Z",
+  "updateDate": "2026-08-07T10:57:01Z",
+  "updateDateIncludingText": "2026-08-07T10:57:01Z",
   "id": "119-HR-6332",
-  "lastActionDate": "2026-07-13",
+  "lastActionDate": "2026-08-06",
   "lastRecordedVoteDate": "2026-07-13"
 }

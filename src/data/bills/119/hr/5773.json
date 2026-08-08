@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 11,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/5773/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-06",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-04-15",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-14",
@@ -584,9 +614,8 @@
   "congress": 119,
   "introducedDate": "2025-10-17",
   "latestAction": {
-    "actionDate": "2026-04-14",
-    "actionTime": "16:00:48",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-08-06",
+    "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5773",
   "number": "5773",
@@ -596,9 +625,25 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/5773/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the \"Bernie Bluestein Post Office Building\".",
+  "title": "To designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the Bernie Bluestein Post Office Building.",
   "titles": {
     "titles": [
+      {
+        "title": "To designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the Bernie Bluestein Post Office Building.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:28:05Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the \"Bernie Bluestein Post Office Building\".",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T14:43:25Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -616,19 +661,13 @@
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-10-22T03:48:15Z"
-      },
-      {
-        "title": "To designate the facility of the United States Postal Service at 1300 East Northwest Highway in Palatine, Illinois, as the \"Bernie Bluestein Post Office Building\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-18T08:05:35Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-16T03:38:23Z",
-  "updateDateIncludingText": "2026-04-16T06:33:31Z",
+  "updateDate": "2026-08-07T10:57:03Z",
+  "updateDateIncludingText": "2026-08-07T10:57:03Z",
   "id": "119-HR-5773",
-  "lastActionDate": "2026-04-14",
+  "lastActionDate": "2026-08-06",
   "lastRecordedVoteDate": "2026-04-14"
 }
