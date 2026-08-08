@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 11,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/3350/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-06",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-07-13",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-29",
@@ -584,9 +614,8 @@
   "congress": 119,
   "introducedDate": "2025-05-13",
   "latestAction": {
-    "actionDate": "2026-06-29",
-    "actionTime": "15:30:23",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-08-06",
+    "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3350",
   "number": "3350",
@@ -603,7 +632,7 @@
         "title": "To designate the facility of the United States Postal Service located at 340 East 1st Street in Tustin, California, as the \"Ursula Ellen Kennedy Post Office Building\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-01T03:53:28Z"
+        "updateDate": "2026-07-17T23:31:06Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -626,9 +655,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-06T21:26:28Z",
-  "updateDateIncludingText": "2026-07-13T20:14:49Z",
+  "updateDate": "2026-08-07T10:57:07Z",
+  "updateDateIncludingText": "2026-08-07T10:57:07Z",
   "id": "119-HR-3350",
-  "lastActionDate": "2026-06-29",
+  "lastActionDate": "2026-08-06",
   "lastRecordedVoteDate": "2026-06-29"
 }

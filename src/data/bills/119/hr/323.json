@@ -1,7 +1,7 @@
 {
   "actions": {
     "count": 13,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1706/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/323/actions?format=json",
     "actions": [
       {
         "actionDate": "2026-08-06",
@@ -19,7 +19,7 @@
         "type": "Committee"
       },
       {
-        "actionDate": "2026-04-15",
+        "actionDate": "2025-12-10",
         "committees": [
           {
             "name": "Homeland Security and Governmental Affairs Committee",
@@ -35,8 +35,8 @@
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2026-04-14",
-        "actionTime": "15:41:47",
+        "actionDate": "2025-12-09",
+        "actionTime": "17:07:20",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -46,23 +46,25 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-04-14",
-        "actionTime": "15:41:45",
+        "actionDate": "2025-12-09",
+        "actionTime": "17:07:00",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H2848)",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5093)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-14",
+            "date": "2025-12-09",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {
+              "G000596": "vv",
+              "L000578": "vv",
               "A000055": "vv",
               "B001257": "vv",
               "B000490": "vv",
@@ -499,58 +501,57 @@
               "F000484": "vv",
               "W000831": "vv",
               "G000606": "vv",
-              "V000139": "vv",
-              "M001245": "vv"
+              "V000139": "vv"
             },
             "result": "passed",
             "votePartyTotal": [
               {
                 "voteParty": "Republican",
-                "yeaTotal": 221,
+                "yeaTotal": 223,
                 "nayTotal": 0,
                 "presentTotal": 0,
                 "notVotingTotal": 0
               },
               {
                 "voteParty": "Democrat",
-                "yeaTotal": 217,
+                "yeaTotal": 216,
                 "nayTotal": 0,
                 "presentTotal": 0,
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/1706",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/323",
             "question": "Voice Vote",
-            "id": "119-HR-1706-1"
+            "id": "119-HR-323-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-14",
-        "actionTime": "15:34:46",
+        "actionDate": "2025-12-09",
+        "actionTime": "17:00:40",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1706.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 323.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-14",
-        "actionTime": "15:34:44",
+        "actionDate": "2025-12-09",
+        "actionTime": "17:00:38",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H2848-2849)",
+        "text": "Considered under suspension of the rules. (consideration: CR H5093-5094)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-04-14",
-        "actionTime": "15:34:28",
+        "actionDate": "2025-12-09",
+        "actionTime": "17:00:26",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -560,7 +561,7 @@
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2025-12-02",
+        "actionDate": "2025-04-30",
         "committees": [
           {
             "name": "Oversight and Government Reform Committee",
@@ -572,12 +573,12 @@
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported by the Yeas and Nays: 38 - 2.",
+        "text": "Ordered to be Reported by the Yeas and Nays: 23 - 15.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2025-12-02",
+        "actionDate": "2025-04-30",
         "committees": [
           {
             "name": "Oversight and Government Reform Committee",
@@ -594,7 +595,7 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2025-02-27",
+        "actionDate": "2025-01-09",
         "committees": [
           {
             "name": "Oversight and Government Reform Committee",
@@ -612,62 +613,62 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-02-27",
+  "introducedDate": "2025-01-09",
   "latestAction": {
     "actionDate": "2026-08-06",
     "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1706",
-  "number": "1706",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/323",
+  "number": "323",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1706/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/323/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the William J. Donovan Post Office Building.",
+  "title": "To designate the facility of the United States Postal Service located at 80 Prospect Street in Avon, New York, as the Officer Anthony Mazurkiewicz Memorial Post Office Building.",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the William J. Donovan Post Office Building.",
+        "title": "To designate the facility of the United States Postal Service located at 80 Prospect Street in Avon, New York, as the Officer Anthony Mazurkiewicz Memorial Post Office Building.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:27:51Z"
+        "updateDate": "2026-07-18T00:05:29Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the \"William J. Donovan Post Office Building\".",
+        "title": "To designate the facility of the United States Postal Service located at 80 Prospect Street in Avon, New York, as the \"Officer Anthony Mazurkiewicz Memorial Post Office Building\".",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-07-10T19:58:20Z"
+        "updateDate": "2026-07-10T14:58:28Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the William J. Donovan Post Office Building.",
+        "title": "To designate the facility of the United States Postal Service located at 80 Prospect Street in Avon, New York, as the Officer Anthony Mazurkiewicz Memorial Post Office Building.",
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-04-16T03:38:22Z"
+        "updateDate": "2025-12-11T05:53:20Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the \"William J. Donovan Post Office Building\".",
+        "title": "To designate the facility of the United States Postal Service located at 80 Prospect Street in Avon, New York, as the \"Officer Anthony Mazurkiewicz Memorial Post Office Building\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-19T15:18:23Z"
+        "updateDate": "2025-02-08T09:03:20Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-07T10:57:10Z",
-  "updateDateIncludingText": "2026-08-07T10:57:10Z",
-  "id": "119-HR-1706",
+  "updateDate": "2026-08-07T10:57:12Z",
+  "updateDateIncludingText": "2026-08-07T10:57:12Z",
+  "id": "119-HR-323",
   "lastActionDate": "2026-08-06",
-  "lastRecordedVoteDate": "2026-04-14"
+  "lastRecordedVoteDate": "2025-12-09"
 }

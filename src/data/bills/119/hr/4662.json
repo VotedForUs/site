@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 11,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/4662/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-06",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-07-13",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-29",
@@ -584,9 +614,8 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-06-29",
-    "actionTime": "15:24:48",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-08-06",
+    "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4662",
   "number": "4662",
@@ -603,7 +632,15 @@
         "title": "To designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-01T03:53:28Z"
+        "updateDate": "2026-07-18T00:02:38Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\".",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-18T00:02:37Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -614,21 +651,13 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To designate the facility of the United States Postal Service located at 6444 San Fernando Road in Glendale, California, as the \"Paul Ignatius Post Office\".",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-08-06T04:49:01Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-06T21:25:53Z",
-  "updateDateIncludingText": "2026-07-13T18:46:54Z",
+  "updateDate": "2026-08-07T10:57:05Z",
+  "updateDateIncludingText": "2026-08-07T10:57:05Z",
   "id": "119-HR-4662",
-  "lastActionDate": "2026-06-29",
+  "lastActionDate": "2026-08-06",
   "lastRecordedVoteDate": "2026-06-29"
 }
