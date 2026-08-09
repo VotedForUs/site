@@ -736,6 +736,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To promote responsible geothermal energy development on public lands, and for other purposes.",
+        "titleType": "Official Titles as Amended by House",
+        "titleTypeCode": 7,
+        "updateDate": "2026-08-08T11:02:11Z"
+      },
+      {
         "title": "Geothermal Energy Advancement Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -756,9 +766,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Geothermal Energy Advancement Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To promote responsible geothermal energy development on public lands, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-06-04T03:08:35Z"
       },
       {
@@ -766,9 +776,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To promote responsible geothermal energy development on public lands, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Geothermal Energy Advancement Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-06-04T03:08:35Z"
       },
       {
@@ -800,8 +810,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-30T10:56:41Z",
-  "updateDateIncludingText": "2026-07-30T16:27:18Z",
+  "updateDate": "2026-08-08T11:02:11Z",
+  "updateDateIncludingText": "2026-08-08T15:04:35Z",
   "id": "119-HR-5631",
   "lastActionDate": "2026-07-29",
   "lastRecordedVoteDate": "2026-06-02"

@@ -688,6 +688,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To ban the sale of products with a high concentration of sodium nitrite to individuals, and for other purposes.",
+        "titleType": "Official Titles as Amended by House",
+        "titleTypeCode": 7,
+        "updateDate": "2026-08-08T11:16:14Z"
+      },
+      {
         "title": "To ban the sale of products with a high concentration of sodium nitrite to individuals, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -734,8 +744,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-10T20:39:16Z",
-  "updateDateIncludingText": "2026-07-13T19:44:42Z",
+  "updateDate": "2026-08-08T11:16:14Z",
+  "updateDateIncludingText": "2026-08-08T15:18:45Z",
   "id": "119-HR-1442",
   "lastActionDate": "2025-07-16",
   "lastRecordedVoteDate": "2025-04-29T21:29:01Z"

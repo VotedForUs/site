@@ -1,50 +1,20 @@
 {
   "actions": {
-    "count": 11,
-    "url": "https://api.congress.gov/v3/bill/119/s/719/actions?format=json",
+    "count": 6,
+    "url": "https://api.congress.gov/v3/bill/119/s/4850/actions?format=json",
     "actions": [
       {
-        "actionCode": "H15000",
-        "actionDate": "2025-12-15",
-        "actionTime": "16:18:56",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-12-15",
-        "actionTime": "16:06:13",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-12-15",
+        "actionDate": "2026-08-07",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-12-11",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S8689; text: CR S8689)",
+        "text": "Passed Senate without amendment by Unanimous Consent.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2025-12-11",
+            "date": "2026-08-07",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
@@ -180,133 +150,95 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/719",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4850",
             "question": "Pass with Unanimous Consent",
-            "id": "119-S-719-1"
+            "id": "119-S-4850-1"
           }
         ]
       },
       {
-        "actionDate": "2025-05-12",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 76.",
-        "type": "Calendars"
-      },
-      {
-        "actionDate": "2025-05-12",
+        "actionDate": "2026-08-07",
         "committees": [
           {
-            "name": "Indian Affairs Committee",
-            "systemCode": "slia00",
-            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Indian Affairs. Reported by Senator Murkowski without amendment. With written report No. 119-23.",
-        "type": "Committee"
+        "text": "Senate Committee on the Judiciary discharged by Unanimous Consent.",
+        "type": "Discharge"
       },
       {
-        "actionDate": "2025-03-05",
+        "actionDate": "2026-06-22",
         "committees": [
           {
-            "name": "Indian Affairs Committee",
-            "systemCode": "slia00",
-            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Indian Affairs. Ordered to be reported without amendment favorably.",
-        "type": "Committee"
-      },
-      {
-        "actionDate": "2025-02-25",
-        "committees": [
-          {
-            "name": "Indian Affairs Committee",
-            "systemCode": "slia00",
-            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Read twice and referred to the Committee on Indian Affairs.",
+        "text": "Read twice and referred to the Committee on the Judiciary.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-02-25",
+  "introducedDate": "2026-06-22",
   "latestAction": {
-    "actionDate": "2025-12-15",
-    "actionTime": "16:18:56",
-    "text": "Held at the desk."
+    "actionDate": "2026-08-07",
+    "text": "Passed Senate without amendment by Unanimous Consent."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/719",
-  "number": "719",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4850",
+  "number": "4850",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/719/summaries?format=json"
-  },
-  "title": "Tribal Forest Protection Act Amendments Act of 2025",
+  "title": "Diversity Jurisdiction Inflation Adjustment Act",
   "titles": {
     "titles": [
       {
-        "title": "Tribal Forest Protection Act Amendments Act of 2025",
+        "title": "Diversity Jurisdiction Inflation Adjustment Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-12-16T12:03:15Z"
+        "updateDate": "2026-08-08T16:48:22Z"
       },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Tribal Forest Protection Act Amendments Act of 2025",
+        "title": "Diversity Jurisdiction Inflation Adjustment Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2025-12-12T06:08:16Z"
-      },
-      {
-        "billTextVersionCode": "RS",
-        "billTextVersionName": "Reported to Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Tribal Forest Protection Act Amendments Act of 2025",
-        "titleType": "Short Title(s) as Reported to Senate",
-        "titleTypeCode": 103,
-        "updateDate": "2025-05-14T04:23:20Z"
+        "updateDate": "2026-08-08T07:38:21Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Tribal Forest Protection Act Amendments Act of 2025",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-03-04T15:23:22Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to amend the Tribal Forest Protection Act of 2004 to improve that Act, and for other purposes.",
+        "title": "A bill to amend title 28, United States Code, to adjust thresholds relating to jurisdiction for inflation.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-04T15:18:35Z"
+        "updateDate": "2026-06-25T04:33:31Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Diversity Jurisdiction Inflation Adjustment Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-06-25T04:23:27Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-08T19:26:19Z",
-  "updateDateIncludingText": "2026-08-08T19:26:19Z",
-  "id": "119-S-719",
-  "lastActionDate": "2025-12-15",
-  "lastRecordedVoteDate": "2025-12-11"
+  "updateDate": "2026-08-08T16:48:22Z",
+  "updateDateIncludingText": "2026-08-08T16:48:22Z",
+  "id": "119-S-4850",
+  "lastActionDate": "2026-08-07",
+  "lastRecordedVoteDate": "2026-08-07"
 }

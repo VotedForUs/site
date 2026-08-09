@@ -1,8 +1,198 @@
 {
   "actions": {
-    "count": 29,
+    "count": 35,
     "url": "https://api.congress.gov/v3/bill/119/hr/6500/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-08",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-08-08T07:58:39Z",
+            "rollNumber": 228,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.xml",
+            "votes": {
+              "A000382": "Yea",
+              "B001230": "Yea",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Yea",
+              "B001243": "Yea",
+              "B001277": "Yea",
+              "B001303": "Yea",
+              "B001288": "Yea",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Yea",
+              "C001047": "Yea",
+              "C001075": "Nay",
+              "C001035": "Yea",
+              "C001088": "Yea",
+              "C001056": "Yea",
+              "C001113": "Yea",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Yea",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Yea",
+              "D000563": "Yea",
+              "E000295": "Yea",
+              "F000479": "Yea",
+              "F000463": "Yea",
+              "G000574": "Yea",
+              "G000555": "Yea",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Yea",
+              "H001089": "Yea",
+              "H001046": "Yea",
+              "H000273": "Yea",
+              "H001042": "Yea",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Yea",
+              "J000312": "Yea",
+              "K000384": "Nay",
+              "K000377": "Yea",
+              "K000393": "Yea",
+              "K000394": "Yea",
+              "K000383": "Yea",
+              "K000367": "Yea",
+              "L000575": "Not Voting",
+              "L000577": "Yea",
+              "L000570": "Yea",
+              "L000571": "Yea",
+              "M000133": "Nay",
+              "M001198": "Yea",
+              "M000355": "Not Voting",
+              "M001243": "Yea",
+              "M001176": "Yea",
+              "M001244": "Yea",
+              "M000934": "Yea",
+              "M001242": "Yea",
+              "M001153": "Yea",
+              "M001169": "Yea",
+              "M001111": "Yea",
+              "O000174": "Yea",
+              "P000145": "Yea",
+              "P000603": "Nay",
+              "P000595": "Yea",
+              "R000122": "Yea",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Yea",
+              "R000605": "Yea",
+              "S000033": "Nay",
+              "S001194": "Yea",
+              "S001150": "Yea",
+              "S001227": "Yea",
+              "S000148": "Yea",
+              "S001217": "Yea",
+              "S001184": "Yea",
+              "S001181": "Yea",
+              "S001232": "Yea",
+              "S001208": "Yea",
+              "S001203": "Yea",
+              "S001198": "Yea",
+              "T000250": "Yea",
+              "T000476": "Not Voting",
+              "T000278": "Yea",
+              "V000128": "Yea",
+              "W000805": "Yea",
+              "W000790": "Yea",
+              "W000817": "Nay",
+              "W000800": "Yea",
+              "W000802": "Yea",
+              "W000437": "Yea",
+              "W000779": "Yea",
+              "Y000064": "Yea"
+            },
+            "result": "passed",
+            "senateCount": {
+              "yeas": 90,
+              "nays": 6,
+              "present": 1,
+              "absent": 3
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 42,
+                "nayTotal": 3,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 47,
+                "nayTotal": 2,
+                "presentTotal": 1,
+                "notVotingTotal": 3
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 1,
+                "nayTotal": 1,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.xml",
+            "question": "On Passage of the Bill H.R. 6500",
+            "id": "119-HR-6500-4"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 90 - 6. Record Vote Number: 228.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-08-07",
+        "committees": [
+          {
+            "name": "Appropriations Committee",
+            "systemCode": "ssap00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssap00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion by Senator Thune to commit to Senate Committee on Appropriations with instructions to report back forthwith with the following amendment SA 6740 fell when cloture on amendment SA 6732 was invoked in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-08-07",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "SA 6738 fell when cloture invoked SA 6732.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-08-07",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-08-07",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Measure laid before Senate by unanimous consent.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-05",
         "sourceSystem": {
@@ -1047,8 +1237,8 @@
   "congress": 119,
   "introducedDate": "2025-12-09",
   "latestAction": {
-    "actionDate": "2026-08-05",
-    "text": "Cloture motion on the measure presented in Senate. (CR S4449)"
+    "actionDate": "2026-08-08",
+    "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 90 - 6. Record Vote Number: 228."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6500",
   "number": "6500",
@@ -1058,9 +1248,31 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/6500/summaries?format=json"
   },
-  "title": "AGOA Extension Act",
+  "title": "Continuing Appropriations and Extensions Act, 2027",
   "titles": {
     "titles": [
+      {
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
+        "titleType": "Official Titles as Amended by Senate",
+        "titleTypeCode": 8,
+        "updateDate": "2026-08-08T15:26:44Z"
+      },
+      {
+        "title": "Continuing Appropriations and Extensions Act, 2027",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-08-08T13:08:30Z"
+      },
+      {
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
+        "title": "Continuing Appropriations and Extensions Act, 2027",
+        "titleType": "Short Title(s) from Engrossed Amendment Senate bill text",
+        "titleTypeCode": 250,
+        "updateDate": "2026-08-08T13:08:27Z"
+      },
       {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
@@ -1110,12 +1322,6 @@
         "updateDate": "2025-12-10T09:23:22Z"
       },
       {
-        "title": "AGOA Extension Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-10T09:23:22Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To extend duty-free treatment provided with respect to imports from certain countries in Africa under the African Growth and Opportunity Act, to extend customs user fees, and for other purposes.",
@@ -1126,9 +1332,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-07T11:08:39Z",
-  "updateDateIncludingText": "2026-08-07T11:08:39Z",
+  "updateDate": "2026-08-08T16:48:41Z",
+  "updateDateIncludingText": "2026-08-08T20:48:27Z",
   "id": "119-HR-6500",
-  "lastActionDate": "2026-08-05",
-  "lastRecordedVoteDate": "2026-08-05"
+  "lastActionDate": "2026-08-08",
+  "lastRecordedVoteDate": "2026-08-08T07:58:39Z"
 }
