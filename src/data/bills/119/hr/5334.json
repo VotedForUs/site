@@ -1,8 +1,167 @@
 {
   "actions": {
-    "count": 23,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/5334/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-07",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-08-07T17:23:02Z",
+            "rollNumber": 224,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.xml",
+            "votes": {
+              "A000382": "Yea",
+              "B001230": "Yea",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Yea",
+              "B001243": "Not Voting",
+              "B001277": "Yea",
+              "B001303": "Nay",
+              "B001288": "Yea",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Yea",
+              "C001047": "Yea",
+              "C001075": "Yea",
+              "C001035": "Yea",
+              "C001088": "Yea",
+              "C001056": "Yea",
+              "C001113": "Yea",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Yea",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Yea",
+              "D000563": "Yea",
+              "E000295": "Yea",
+              "F000479": "Yea",
+              "F000463": "Yea",
+              "G000574": "Yea",
+              "G000555": "Yea",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Nay",
+              "H001089": "Yea",
+              "H001046": "Yea",
+              "H000273": "Yea",
+              "H001042": "Nay",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Yea",
+              "J000312": "Yea",
+              "K000384": "Yea",
+              "K000377": "Yea",
+              "K000393": "Yea",
+              "K000394": "Yea",
+              "K000383": "Yea",
+              "K000367": "Yea",
+              "L000575": "Yea",
+              "L000577": "Yea",
+              "L000570": "Yea",
+              "L000571": "Not Voting",
+              "M000133": "Nay",
+              "M001198": "Yea",
+              "M000355": "Not Voting",
+              "M001243": "Yea",
+              "M001176": "Yea",
+              "M001244": "Yea",
+              "M000934": "Yea",
+              "M001242": "Yea",
+              "M001153": "Yea",
+              "M001169": "Yea",
+              "M001111": "Yea",
+              "O000174": "Nay",
+              "P000145": "Nay",
+              "P000603": "Nay",
+              "P000595": "Yea",
+              "R000122": "Yea",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Yea",
+              "R000605": "Yea",
+              "S000033": "Nay",
+              "S001194": "Yea",
+              "S001150": "Yea",
+              "S001227": "Yea",
+              "S000148": "Yea",
+              "S001217": "Yea",
+              "S001184": "Yea",
+              "S001181": "Yea",
+              "S001232": "Yea",
+              "S001208": "Yea",
+              "S001203": "Yea",
+              "S001198": "Yea",
+              "T000250": "Yea",
+              "T000476": "Yea",
+              "T000278": "Yea",
+              "V000128": "Yea",
+              "W000805": "Yea",
+              "W000790": "Yea",
+              "W000817": "Nay",
+              "W000800": "Nay",
+              "W000802": "Yea",
+              "W000437": "Yea",
+              "W000779": "Nay",
+              "Y000064": "Yea"
+            },
+            "result": "passed",
+            "senateCount": {
+              "yeas": 86,
+              "nays": 11,
+              "present": "",
+              "absent": 3
+            },
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 36,
+                "nayTotal": 9,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 49,
+                "nayTotal": 1,
+                "presentTotal": 0,
+                "notVotingTotal": 3
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 1,
+                "nayTotal": 1,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.xml",
+            "question": "On Passage of the Bill H.R. 5334",
+            "id": "119-HR-5334-4"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11. Record Vote Number: 224.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-08-07",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-07-29",
         "sourceSystem": {
@@ -972,8 +1131,8 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-07-29",
-    "text": "Measure laid before Senate by motion. (consideration: CR S4323)"
+    "actionDate": "2026-08-07",
+    "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11. Record Vote Number: 224."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
   "number": "5334",
@@ -986,6 +1145,14 @@
   "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
   "titles": {
     "titles": [
+      {
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "An act to impose sanctions and other measures with respect to the Russian Federation, as championed by the late Senator Lindsey O. Graham, and for other purposes.",
+        "titleType": "Official Titles as Amended by Senate",
+        "titleTypeCode": 8,
+        "updateDate": "2026-08-08T15:26:46Z"
+      },
       {
         "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
         "titleType": "Display Title",
@@ -1025,9 +1192,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Internal Revenue Code of 1986 to allow early childhood educators to take the educator expense deduction, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Supporting Early-childhood Educators’ Deductions Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-04-29T05:08:27Z"
       },
       {
@@ -1045,9 +1212,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Supporting Early-childhood Educators’ Deductions Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend the Internal Revenue Code of 1986 to allow early childhood educators to take the educator expense deduction, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-04-29T05:08:27Z"
       },
       {
@@ -1055,7 +1222,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "SEED Act",
+        "title": "Supporting Early-childhood Educators’ Deductions Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-10T06:08:23Z"
@@ -1065,7 +1232,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Supporting Early-childhood Educators’ Deductions Act",
+        "title": "SEED Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-10T06:08:23Z"
@@ -1097,9 +1264,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-08T03:17:48Z",
-  "updateDateIncludingText": "2026-08-08T06:18:22Z",
+  "updateDate": "2026-08-08T16:48:41Z",
+  "updateDateIncludingText": "2026-08-09T16:27:33Z",
   "id": "119-HR-5334",
-  "lastActionDate": "2026-07-29",
-  "lastRecordedVoteDate": "2026-07-29T22:53:00Z"
+  "lastActionDate": "2026-08-07",
+  "lastRecordedVoteDate": "2026-08-07T17:23:02Z"
 }
