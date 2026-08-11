@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4547)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -746,7 +746,7 @@
   "introducedDate": "2025-03-11",
   "latestAction": {
     "actionDate": "2026-08-07",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4547)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2069",
   "number": "2069",
@@ -759,6 +759,16 @@
   "title": "Stop Secret Spending Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Stop Secret Spending Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-08-11T05:38:23Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -804,8 +814,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-08T16:37:38Z",
-  "updateDateIncludingText": "2026-08-08T16:37:38Z",
+  "updateDate": "2026-08-11T05:38:23Z",
+  "updateDateIncludingText": "2026-08-11T05:48:40Z",
   "id": "119-HR-2069",
   "lastActionDate": "2026-08-07",
   "lastRecordedVoteDate": "2026-08-07"

@@ -159,7 +159,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S4538-4540)",
         "type": "Floor"
       },
       {
@@ -1264,8 +1264,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-08T16:48:41Z",
-  "updateDateIncludingText": "2026-08-09T16:27:33Z",
+  "updateDate": "2026-08-10T18:34:46Z",
+  "updateDateIncludingText": "2026-08-10T18:34:46Z",
   "id": "119-HR-5334",
   "lastActionDate": "2026-08-07",
   "lastRecordedVoteDate": "2026-08-07T17:23:02Z"

@@ -159,7 +159,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+        "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4556)",
         "type": "Floor"
       },
       {
@@ -167,7 +167,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S4556)",
         "type": "Floor"
       },
       {
@@ -216,8 +216,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-08T16:37:26Z",
-  "updateDateIncludingText": "2026-08-08T16:37:26Z",
+  "updateDate": "2026-08-10T18:33:07Z",
+  "updateDateIncludingText": "2026-08-10T18:33:07Z",
   "id": "119-S-5271",
   "lastActionDate": "2026-08-08",
   "lastRecordedVoteDate": "2026-08-08T08:52:29Z"
