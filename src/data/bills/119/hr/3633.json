@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+        "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4557)",
         "type": "Floor"
       },
       {
@@ -16,7 +16,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S4557)",
         "type": "Floor"
       },
       {
@@ -809,7 +809,7 @@
   "introducedDate": "2025-05-29",
   "latestAction": {
     "actionDate": "2026-08-08",
-    "text": "Cloture motion on the motion to proceed to the measure presented in Senate."
+    "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4557)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
   "number": "3633",
@@ -935,8 +935,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-08T16:37:36Z",
-  "updateDateIncludingText": "2026-08-08T16:37:36Z",
+  "updateDate": "2026-08-10T18:19:49Z",
+  "updateDateIncludingText": "2026-08-10T18:19:49Z",
   "id": "119-HR-3633",
   "lastActionDate": "2026-08-08",
   "lastRecordedVoteDate": "2025-07-17T19:30:31Z"

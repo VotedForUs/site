@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4551-4552)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -865,7 +865,7 @@
   "introducedDate": "2025-02-13",
   "latestAction": {
     "actionDate": "2026-08-07",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4551-4552)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1276",
   "number": "1276",
@@ -905,8 +905,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-08T16:37:39Z",
-  "updateDateIncludingText": "2026-08-08T16:37:39Z",
+  "updateDate": "2026-08-10T18:04:27Z",
+  "updateDateIncludingText": "2026-08-11T05:48:38Z",
   "id": "119-HR-1276",
   "lastActionDate": "2026-08-07",
   "lastRecordedVoteDate": "2026-08-07"

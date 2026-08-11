@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4551)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -849,7 +849,7 @@
   "introducedDate": "2025-03-18",
   "latestAction": {
     "actionDate": "2026-08-07",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4551)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2196",
   "number": "2196",
@@ -862,6 +862,16 @@
   "title": "National Emergency Medical Services Memorial Extension Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "National Emergency Medical Services Memorial Extension Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-08-11T05:53:23Z"
+      },
       {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
@@ -919,8 +929,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-08T16:37:38Z",
-  "updateDateIncludingText": "2026-08-08T16:37:38Z",
+  "updateDate": "2026-08-11T05:53:23Z",
+  "updateDateIncludingText": "2026-08-11T05:53:23Z",
   "id": "119-HR-2196",
   "lastActionDate": "2026-08-07",
   "lastRecordedVoteDate": "2026-08-07"

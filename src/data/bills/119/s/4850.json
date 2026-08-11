@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4550-4551; text: CR S4551)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -192,7 +192,7 @@
   "introducedDate": "2026-06-22",
   "latestAction": {
     "actionDate": "2026-08-07",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4550-4551; text: CR S4551)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4850",
   "number": "4850",
@@ -205,7 +205,7 @@
         "title": "Diversity Jurisdiction Inflation Adjustment Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-08-08T16:48:22Z"
+        "updateDate": "2026-08-10T17:33:28Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -236,8 +236,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-08T16:48:22Z",
-  "updateDateIncludingText": "2026-08-08T16:48:22Z",
+  "updateDate": "2026-08-10T17:59:42Z",
+  "updateDateIncludingText": "2026-08-10T17:59:42Z",
   "id": "119-S-4850",
   "lastActionDate": "2026-08-07",
   "lastRecordedVoteDate": "2026-08-07"

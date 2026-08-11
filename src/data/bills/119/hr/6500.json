@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 35,
+    "count": 33,
     "url": "https://api.congress.gov/v3/bill/119/hr/6500/actions?format=json",
     "actions": [
       {
@@ -174,23 +174,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "SA 6738 fell when cloture invoked SA 6732.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-08-07",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Considered by Senate.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-08-07",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Measure laid before Senate by unanimous consent.",
+        "text": "Considered by Senate. (consideration: CR S4542, S4546-4547, S4553-4555)",
         "type": "Floor"
       },
       {
@@ -1332,8 +1316,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-08T16:48:41Z",
-  "updateDateIncludingText": "2026-08-08T20:48:27Z",
+  "updateDate": "2026-08-10T18:28:28Z",
+  "updateDateIncludingText": "2026-08-10T18:28:28Z",
   "id": "119-HR-6500",
   "lastActionDate": "2026-08-08",
   "lastRecordedVoteDate": "2026-08-08T07:58:39Z"
