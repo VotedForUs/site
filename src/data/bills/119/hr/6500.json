@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 33,
+    "count": 34,
     "url": "https://api.congress.gov/v3/bill/119/hr/6500/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-08",
         "recordedVotes": [
@@ -1221,8 +1229,8 @@
   "congress": 119,
   "introducedDate": "2025-12-09",
   "latestAction": {
-    "actionDate": "2026-08-08",
-    "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 90 - 6. Record Vote Number: 228."
+    "actionDate": "2026-08-10",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6500",
   "number": "6500",
@@ -1316,9 +1324,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-10T18:28:28Z",
-  "updateDateIncludingText": "2026-08-10T18:28:28Z",
+  "updateDate": "2026-08-11T13:50:06Z",
+  "updateDateIncludingText": "2026-08-11T13:50:06Z",
   "id": "119-HR-6500",
-  "lastActionDate": "2026-08-08",
+  "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-08T07:58:39Z"
 }

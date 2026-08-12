@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/2069/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-07",
         "sourceSystem": {
@@ -745,8 +753,8 @@
   "congress": 119,
   "introducedDate": "2025-03-11",
   "latestAction": {
-    "actionDate": "2026-08-07",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4547)"
+    "actionDate": "2026-08-10",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2069",
   "number": "2069",
@@ -814,9 +822,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-11T05:38:23Z",
-  "updateDateIncludingText": "2026-08-11T05:48:40Z",
+  "updateDate": "2026-08-11T20:28:47Z",
+  "updateDateIncludingText": "2026-08-12T06:03:36Z",
   "id": "119-HR-2069",
-  "lastActionDate": "2026-08-07",
+  "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-07"
 }

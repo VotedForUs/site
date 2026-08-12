@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 5,
+    "count": 8,
     "url": "https://api.congress.gov/v3/bill/119/s/3977/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:11:26",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:02:30",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-03",
         "sourceSystem": {
@@ -177,8 +207,8 @@
   "congress": 119,
   "introducedDate": "2026-03-03",
   "latestAction": {
-    "actionDate": "2026-08-03",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4412; text: CR S4412)"
+    "actionDate": "2026-08-10",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3977",
   "number": "3977",
@@ -191,7 +221,7 @@
         "title": "Bankruptcy Threshold Adjustment Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-08-04T10:58:34Z"
+        "updateDate": "2026-08-11T11:03:19Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -222,9 +252,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-07T18:55:56Z",
-  "updateDateIncludingText": "2026-08-07T18:55:56Z",
+  "updateDate": "2026-08-11T11:03:19Z",
+  "updateDateIncludingText": "2026-08-11T11:03:19Z",
   "id": "119-S-3977",
-  "lastActionDate": "2026-08-03",
+  "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-03"
 }
