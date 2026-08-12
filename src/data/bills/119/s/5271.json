@@ -198,6 +198,10 @@
   "number": "5271",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/5271/summaries?format=json"
+  },
   "title": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
   "titles": {
     "titles": [
@@ -216,8 +220,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-10T18:33:07Z",
-  "updateDateIncludingText": "2026-08-10T18:33:07Z",
+  "updateDate": "2026-08-11T21:02:38Z",
+  "updateDateIncludingText": "2026-08-11T21:02:38Z",
   "id": "119-S-5271",
   "lastActionDate": "2026-08-08",
   "lastRecordedVoteDate": "2026-08-08T08:52:29Z"

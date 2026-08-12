@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 7,
+    "count": 10,
     "url": "https://api.congress.gov/v3/bill/119/s/1838/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:10:39",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:02:23",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-06",
         "sourceSystem": {
@@ -199,8 +229,8 @@
   "congress": 119,
   "introducedDate": "2025-05-21",
   "latestAction": {
-    "actionDate": "2026-08-06",
-    "text": "Passed Senate with an amendment by Voice Vote. (text of amendment in the nature of a substitute: CR S4495-4496)"
+    "actionDate": "2026-08-10",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1838",
   "number": "1838",
@@ -213,7 +243,7 @@
         "title": "DeOndra Dixon INCLUDE Project Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-08-08T15:33:22Z"
+        "updateDate": "2026-08-11T11:03:18Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -244,9 +274,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-08T15:33:22Z",
-  "updateDateIncludingText": "2026-08-08T15:33:22Z",
+  "updateDate": "2026-08-11T11:03:18Z",
+  "updateDateIncludingText": "2026-08-11T11:03:18Z",
   "id": "119-S-1838",
-  "lastActionDate": "2026-08-06",
+  "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-06"
 }

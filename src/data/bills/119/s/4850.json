@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 6,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/4850/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:11:39",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:02:32",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-07",
         "sourceSystem": {
@@ -191,8 +221,8 @@
   "congress": 119,
   "introducedDate": "2026-06-22",
   "latestAction": {
-    "actionDate": "2026-08-07",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4550-4551; text: CR S4551)"
+    "actionDate": "2026-08-10",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4850",
   "number": "4850",
@@ -205,7 +235,7 @@
         "title": "Diversity Jurisdiction Inflation Adjustment Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-08-10T17:33:28Z"
+        "updateDate": "2026-08-11T11:03:19Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -236,9 +266,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-10T17:59:42Z",
-  "updateDateIncludingText": "2026-08-10T17:59:42Z",
+  "updateDate": "2026-08-11T11:03:19Z",
+  "updateDateIncludingText": "2026-08-11T11:03:19Z",
   "id": "119-S-4850",
-  "lastActionDate": "2026-08-07",
+  "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-07"
 }

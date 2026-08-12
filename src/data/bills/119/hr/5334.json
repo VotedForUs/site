@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 26,
+    "count": 27,
     "url": "https://api.congress.gov/v3/bill/119/hr/5334/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-08-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-07",
         "recordedVotes": [
@@ -1131,8 +1139,8 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-08-07",
-    "text": "Passed Senate with an amendment and an amendment to the Title by Yea-Nay Vote. 86 - 11. Record Vote Number: 224."
+    "actionDate": "2026-08-10",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
   "number": "5334",
@@ -1264,9 +1272,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-10T18:34:46Z",
-  "updateDateIncludingText": "2026-08-10T18:34:46Z",
+  "updateDate": "2026-08-11T13:47:33Z",
+  "updateDateIncludingText": "2026-08-11T13:47:33Z",
   "id": "119-HR-5334",
-  "lastActionDate": "2026-08-07",
+  "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-07T17:23:02Z"
 }
