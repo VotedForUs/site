@@ -1265,6 +1265,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027",
+        "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 151,
+        "updateDate": "2026-08-13T13:23:41Z"
+      },
+      {
         "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1309,8 +1319,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T22:41:29Z",
-  "updateDateIncludingText": "2026-07-23T22:41:29Z",
+  "updateDate": "2026-08-13T13:23:41Z",
+  "updateDateIncludingText": "2026-08-13T13:23:41Z",
   "id": "119-HR-8469",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-15T14:26:35Z"

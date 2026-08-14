@@ -653,14 +653,24 @@
     "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/9770/summaries?format=json"
   },
-  "title": "Making continuing appropriations for fiscal year 2027, and for other purposes.",
+  "title": "Continuing Appropriations Act, 2027",
   "titles": {
     "titles": [
       {
-        "title": "Making continuing appropriations for fiscal year 2027, and for other purposes.",
+        "title": "Continuing Appropriations Act, 2027",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-23T03:38:22Z"
+        "updateDate": "2026-08-13T13:08:40Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Continuing Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-08-13T13:08:39Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -691,8 +701,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-29T15:33:03Z",
-  "updateDateIncludingText": "2026-07-29T15:33:03Z",
+  "updateDate": "2026-08-13T13:08:40Z",
+  "updateDateIncludingText": "2026-08-13T21:18:46Z",
   "id": "119-HR-9770",
   "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22T02:14:39Z"

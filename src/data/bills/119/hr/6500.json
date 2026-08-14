@@ -1244,6 +1244,22 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
+        "title": "Surface Transportation Extension Act of 2026",
+        "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
+        "titleTypeCode": 254,
+        "updateDate": "2026-08-13T13:23:41Z"
+      },
+      {
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
+        "title": "Continuing Appropriations Act, 2027",
+        "titleType": "Short Title(s) from Engrossed Amendment Senate for portions of this bill",
+        "titleTypeCode": 254,
+        "updateDate": "2026-08-13T13:23:41Z"
+      },
+      {
         "chamberCode": "S",
         "chamberName": "Senate",
         "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
@@ -1324,8 +1340,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-12T14:46:35Z",
-  "updateDateIncludingText": "2026-08-12T14:46:35Z",
+  "updateDate": "2026-08-13T14:36:06Z",
+  "updateDateIncludingText": "2026-08-13T21:18:44Z",
   "id": "119-HR-6500",
   "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-08T07:58:39Z"
