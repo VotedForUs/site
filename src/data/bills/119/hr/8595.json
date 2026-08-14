@@ -1894,6 +1894,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Safeguard American Voter Eligibility Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-08-13T13:08:40Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "SAVE America Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-08-13T13:08:40Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "National Security, Department  of State, and Related Programs Appropriations Act, 2027",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-08-13T13:08:40Z"
+      },
+      {
         "title": "Making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1928,8 +1958,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-10T14:14:20Z",
-  "updateDateIncludingText": "2026-08-10T14:14:20Z",
+  "updateDate": "2026-08-13T13:08:40Z",
+  "updateDateIncludingText": "2026-08-13T21:18:47Z",
   "id": "119-HR-8595",
   "lastActionDate": "2026-07-29",
   "lastRecordedVoteDate": "2026-07-15T21:12:51Z"
