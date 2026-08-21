@@ -1,0 +1,243 @@
+---
+import type { VotedCardProps } from '../../types/votedCard';
+
+export type Props = VotedCardProps;
+
+const {
+  party,
+  imageUrl,
+  voteTitle,
+  legislationIdentifier,
+  legislationType,
+  billTitle,
+  displayName,
+  memberSubtitle,
+  voteVerb,
+  emoji,
+  actionLabel,
+} = Astro.props;
+---
+
+<article
+  class="card fluid-text-container"
+  itemscope
+  itemtype="https://schema.org/VoteAction"
+>
+  <div class="card-content">
+    <section class="vote-action">
+      <div class="legislator-block">
+        <div
+          class="legislator-person"
+          itemprop="agent"
+          itemscope
+          itemtype="https://schema.org/Person"
+        >
+          <figure class="legislator-image">
+            <img
+              src={imageUrl}
+              alt={`Photo of ${displayName}`}
+              itemprop="image"
+              width="200"
+              height="200"
+            />
+          </figure>
+          <div class="legislator-identity">
+            <p class="legislator-line"><span itemprop="name">{displayName}</span></p>
+            <p class="legislator-meta">{memberSubtitle}</p>
+            <span hidden itemprop="affiliation" itemscope itemtype="https://schema.org/Organization">
+              <span itemprop="name">{party}</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <p class="vote-verb">{voteVerb}</p>
+      <p class="vote-cast">{emoji && <><span class="cast-emoji" aria-hidden="true">{emoji}</span> </>}<strong itemprop="actionOption">{actionLabel}</strong></p>
+      <p class="vote-question" itemprop="name">{voteTitle}</p>
+      <p
+        id="bill-name-ref"
+        class="bill-title"
+        itemprop="name"
+        style={`--title-chars: ${billTitle.length}`}
+      >{billTitle}</p>
+      <span hidden itemprop="subjectOf" itemscope itemtype="https://schema.org/Legislation">
+        <span itemprop="legislationIdentifier">{legislationIdentifier}</span>
+        <span itemprop="legislationType">{legislationType}</span>
+      </span>
+    </section>
+  </div>
+
+  <footer class="brand">VotedFor.Us</footer>
+</article>
+
+<style>
+  @import '../../layouts/global.css';
+
+  .card {
+    --card-red: #b22234;
+    --card-border-blue: 6px;
+    --card-border-red: 9px;
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    background: #ffffff;
+    color: #111111;
+    overflow: hidden;
+    padding: 64px 64px 72px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr;
+    container-type: inline-size;
+    container-name: voted-card;
+    box-shadow:
+      inset 0 0 0 var(--card-border-blue) var(--flag-blue),
+      inset 0 0 0 var(--card-border-red) var(--card-red);
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    min-height: 0;
+    width: 100%;
+  }
+
+  .vote-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .card-content p {
+    margin: 0;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+
+  .legislator-block {
+    width: 100%;
+    text-align: center;
+  }
+
+  .legislator-person {
+    --name-font-size: clamp(2rem, 6vw, 4.5rem);
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: clamp(1rem, 2.5cqi, 2rem);
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: start;
+  }
+
+  .legislator-image {
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  .legislator-image img {
+    display: block;
+    width: clamp(5.5rem, 18cqi, 9rem);
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 0.12em;
+    box-shadow:
+      0 0.04em 0.12em rgb(0 0 0 / 0.12),
+      0 0 0 0.04em rgb(0 0 0 / 0.06);
+  }
+
+  .legislator-identity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    min-width: 0;
+    text-align: start;
+  }
+
+  .legislator-line {
+    /* Wrap only when the person cluster hits the card edge (no early em cap) */
+    min-width: 0;
+
+    [itemprop="name"] {
+      font-size: var(--name-font-size);
+      line-height: 1.15;
+      overflow-wrap: break-word;
+      text-wrap: pretty;
+    }
+  }
+
+  .legislator-meta {
+    font-size: clamp(1.25rem, 5vw, 2.25rem);
+    line-height: 1.2;
+    color: #444;
+  }
+
+  .vote-verb,
+  .vote-question {
+    letter-spacing: 0.05em;
+    color: #444;
+    text-transform: uppercase;
+  }
+
+  .vote-cast {
+    font-size: clamp(3rem, 8cqi, 7rem);
+    line-height: 1.1;
+  }
+
+  .vote-cast strong {
+    font-weight: 800;
+  }
+
+  .cast-emoji {
+    display: inline-block;
+    font-size: .8em;
+    line-height: 1;
+    vertical-align: -0.05em;
+  }
+
+  .bill-title {
+    /* Larger by default; shrinks as --title-chars grows */
+    --title-chars: 40;
+    font-size: clamp(3rem, calc(220cqi / (var(--title-chars) + 4)), 4.5rem);
+    line-height: 1.2;
+    color: #444;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .brand {
+    /* Sit on the red band (inside blue) so the blue ring stays unbroken */
+    --brand-stroke: 3px;
+    position: absolute;
+    bottom: var(--card-border-blue);
+    left: 50%;
+    translate: -50% 0;
+    z-index: 2;
+    width: max-content;
+    max-width: calc(100% - 4rem);
+    margin: 0;
+    padding: 0.3em 1.25em 0.15em;
+    background: #ffffff;
+    color: #555;
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+    line-height: 1;
+    white-space: nowrap;
+    /* Red stroke only — curves up around text and joins the red inset line */
+    border: var(--brand-stroke) solid var(--card-red);
+    border-bottom: none;
+    border-radius: 1.1em 1.1em 0 0;
+  }
+</style>

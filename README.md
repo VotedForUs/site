@@ -163,7 +163,8 @@ npm run preview
 │   │   ├── BillVoteDetails.astro   # Detailed vote breakdown
 │   │   ├── Breadcrumbs.astro       # Navigation breadcrumbs
 │   │   ├── Legislator.astro        # Legislator profile
-│   │   └── LegislatorVote.astro    # Legislator vote record
+│   │   ├── Voted.astro             # Vote page one-liner
+│   │   └── social-cards/           # OG card UI + Storybook fixtures
 │   ├── content.config.ts    # Content collections configuration
 │   ├── data/                # Generated JSON data files
 │   │   ├── legislators.json

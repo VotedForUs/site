@@ -1,0 +1,26 @@
+---
+import VotedCard from './VotedCard.astro';
+import { toVotedCardProps } from '../../utils/legislatorVoteView.js';
+import { resolveLegislatorVoteViewFromFiles } from '../../utils/resolveLegislatorVoteViewFromFiles.js';
+import { DEFAULT_REAL_VOTE } from './votedRealVoteDefaults';
+import { votedSamples, type VotedSampleKey } from './votedSamples';
+
+interface Props {
+  /** Recorded vote id (defaults to {@link DEFAULT_REAL_VOTE}). */
+  voteId?: string;
+  /** Legislator bioguide id (defaults to {@link DEFAULT_REAL_VOTE}). */
+  bioguideId?: string;
+  /** Sample key used when the resolver returns not-found. */
+  fallback?: VotedSampleKey;
+}
+
+const {
+  voteId = DEFAULT_REAL_VOTE.voteId,
+  bioguideId = DEFAULT_REAL_VOTE.bioguideId,
+  fallback = 'medium',
+} = Astro.props;
+
+const result = await resolveLegislatorVoteViewFromFiles({ voteId, bioguideId });
+const cardProps = result.ok ? toVotedCardProps(result.view) : votedSamples[fallback];
+---
+<VotedCard {...cardProps} />
