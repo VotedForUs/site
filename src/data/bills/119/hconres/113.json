@@ -709,7 +709,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
+    "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/hconres/113/summaries?format=json"
   },
   "title": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036.",
@@ -740,8 +740,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-07-30T02:26:24Z",
-  "updateDateIncludingText": "2026-07-30T02:26:24Z",
+  "updateDate": "2026-08-20T22:41:40Z",
+  "updateDateIncludingText": "2026-08-20T22:41:40Z",
   "id": "119-HCONRES-113",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-22T20:59:10Z"
