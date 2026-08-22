@@ -1,8 +1,30 @@
 {
   "actions": {
-    "count": 4,
+    "count": 6,
     "url": "https://api.congress.gov/v3/bill/119/s/5123/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-08-20",
+        "actionTime": "10:03:01",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-08-20",
+        "actionTime": "10:03:00",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-07-30",
         "sourceSystem": {
@@ -169,8 +191,9 @@
   "congress": 119,
   "introducedDate": "2026-07-23",
   "latestAction": {
-    "actionDate": "2026-07-30",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-08-20",
+    "actionTime": "10:03:01",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5123",
   "number": "5123",
@@ -204,9 +227,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-03T03:24:41Z",
-  "updateDateIncludingText": "2026-08-03T03:24:41Z",
+  "updateDate": "2026-08-21T08:05:54Z",
+  "updateDateIncludingText": "2026-08-21T08:05:54Z",
   "id": "119-S-5123",
-  "lastActionDate": "2026-07-30",
+  "lastActionDate": "2026-08-20",
   "lastRecordedVoteDate": "2026-07-23"
 }
