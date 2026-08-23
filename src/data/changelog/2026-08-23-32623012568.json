@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-23",
+  "runId": "32623012568",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-S-2"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
