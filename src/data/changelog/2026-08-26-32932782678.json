@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-26",
+  "runId": "32932782678",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-SJRES-80"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
