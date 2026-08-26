@@ -1,5 +1,6 @@
 ---
 import type { VotedCardProps } from '../../types/votedCard';
+import { withBaseUrl } from '../../utils/withBaseUrl';
 
 export type Props = VotedCardProps;
 
@@ -16,6 +17,8 @@ const {
   emoji,
   actionLabel,
 } = Astro.props;
+
+const imageSrc = withBaseUrl(imageUrl, import.meta.env.BASE_URL);
 ---
 
 <article
@@ -34,7 +37,7 @@ const {
         >
           <figure class="legislator-image">
             <img
-              src={imageUrl}
+              src={imageSrc}
               alt={`Photo of ${displayName}`}
               itemprop="image"
               width="200"

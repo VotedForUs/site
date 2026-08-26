@@ -3,6 +3,7 @@
  * Legislator component - displays information about a legislator and their voting record
  */
 import { formatDate } from '../utils/formatDate';
+import { withBaseUrl } from '../utils/withBaseUrl';
 
 export interface LegislatorVoteRecord {
   voteId: string;
@@ -100,7 +101,7 @@ const partyClass = legislator.party?.toLowerCase() === 'democrat' ? 'party-democ
     <div class="legislator-image">
       {legislator.imageUrl && (
         <img 
-          src={legislator.imageUrl} 
+          src={withBaseUrl(legislator.imageUrl ?? '', import.meta.env.BASE_URL)} 
           alt={`Photo of ${legislator.name || legislator.nameTitle}`}
           loading="lazy"
           itemprop="image"

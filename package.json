@@ -29,7 +29,7 @@
     "benchmark:report": "tsx scripts/benchmark.ts --report"
   },
   "dependencies": {
-    "@votedforus/votes": "^1.1.11"
+    "@votedforus/votes": "^1.2.0"
   },
   "devDependencies": {
     "@drop-in/graffiti": "^4.30.0",

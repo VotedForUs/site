@@ -55,6 +55,14 @@ jobs:
           restore-keys: |
             congress-cache-${{ runner.os }}
 
+      - name: Restore legislator images
+        uses: actions/cache/restore@v5
+        with:
+          path: public/images/legislators/
+          key: legislator-images-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            legislator-images-${{ runner.os }}
+
       - name: Generate legislators
         run: npm run legislators:generate
         env:
@@ -74,10 +82,16 @@ jobs:
           path: .cache/
           key: congress-cache-${{ runner.os }}-${{ github.run_id }}
 
+      - name: Save legislator images
+        uses: actions/cache/save@v5
+        with:
+          path: public/images/legislators/
+          key: legislator-images-${{ runner.os }}-${{ github.run_id }}
+
       - name: Check for data changes
         id: check-changes
         run: |
-          if [ -z "$(git status --porcelain -- src/data/)" ]; then
+          if [ -z "$(git status --porcelain -- src/data/ public/images/legislators/)" ]; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -95,6 +109,7 @@ jobs:
           body-path: .github/pr-body.md
           add-paths: |
             src/data/**
+            public/images/legislators/**
           labels: data-update
 
       - name: Enable auto-merge on data update PR
