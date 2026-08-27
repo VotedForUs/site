@@ -215,6 +215,10 @@
   "number": "3977",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/3977/summaries?format=json"
+  },
   "title": "Bankruptcy Threshold Adjustment Act of 2026",
   "titles": {
     "titles": [
@@ -253,8 +257,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-12T12:19:21Z",
-  "updateDateIncludingText": "2026-08-12T12:19:21Z",
+  "updateDate": "2026-08-26T21:48:11Z",
+  "updateDateIncludingText": "2026-08-26T21:48:11Z",
   "id": "119-S-3977",
   "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-03"
