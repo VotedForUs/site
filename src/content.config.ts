@@ -248,6 +248,8 @@ function loadAllBills(): { bills: Array<{ id: string; [key: string]: unknown }>;
               votePartyTotal: item.vote.votePartyTotal,
               voteUrl: item.vote.voteUrl,
               question: item.vote.question,
+              recordType: item.vote.recordType,
+              membersAtAction: item.vote.membersAtAction,
               actionDate: item.actionDate,
               actionText: item.actionText,
               finalChamberVote,

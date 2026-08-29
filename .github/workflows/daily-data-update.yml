@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
+    inputs:
+      rebuild_from_cache:
+        description: Rebuild all bill JSON from the API cache (skips incremental voted-bills-sync)
+        type: boolean
+        default: false
 
 concurrency:
   group: daily-data-update
@@ -69,7 +74,12 @@ jobs:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
 
       - name: Generate bills
-        run: npm run voted-bills-sync:generate
+        run: |
+          if [ "${{ inputs.rebuild_from_cache }}" = "true" ]; then
+            npm run build-from-cache
+          else
+            npm run voted-bills-sync:generate
+          fi
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
 

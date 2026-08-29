@@ -760,6 +760,10 @@ export const senateRollCallVoteXmlSchema = z.object({
     })
 });
 
+export const voteRecordTypeSchema = z.enum(["roll-call", "unanimous-consent", "voice"]);
+
+export const voteCastSchema = z.enum(["Yea", "Nay", "Present", "Not Voting"]);
+
 export const chamberVoteSchema = z.record(z.string(), z.string());
 
 export const billChamberVotesSchema = z.object({
@@ -770,17 +774,22 @@ export const billChamberVotesSchema = z.object({
 export const houseVoteDataSchema = z.object({
     votes: chamberVoteSchema,
     result: z.string(),
-    votePartyTotal: z.array(houseVotePartyTotalSchema),
+    votePartyTotal: z.array(houseVotePartyTotalSchema).optional(),
     voteUrl: z.string(),
-    question: z.string()
+    question: z.string(),
+    recordType: voteRecordTypeSchema,
+    membersAtAction: z.array(z.string()).optional()
 });
 
 export const senateVoteDataSchema = z.object({
     votes: chamberVoteSchema,
     result: z.string(),
-    senateCount: senateRollCallVoteCountSchema,
+    senateCount: senateRollCallVoteCountSchema.optional(),
+    votePartyTotal: z.array(houseVotePartyTotalSchema).optional(),
     voteUrl: z.string(),
-    question: z.string()
+    question: z.string(),
+    recordType: voteRecordTypeSchema,
+    membersAtAction: z.array(z.string()).optional()
 });
 
 export const recordedVoteWithVotesSchema = recordedVoteSchema.and(z.object({
@@ -790,7 +799,9 @@ export const recordedVoteWithVotesSchema = recordedVoteSchema.and(z.object({
     senateCount: senateRollCallVoteCountSchema.optional(),
     votePartyTotal: z.array(houseVotePartyTotalSchema).optional(),
     voteUrl: z.string().optional(),
-    question: z.string().optional()
+    question: z.string().optional(),
+    recordType: voteRecordTypeSchema.optional(),
+    membersAtAction: z.array(z.string()).optional()
 }));
 
 export const billActionWithVotesSchema = billActionSchema.and(z.object({
