@@ -1,0 +1,248 @@
+{
+  "actions": {
+    "count": 9,
+    "url": "https://api.congress.gov/v3/bill/119/s/1112/actions?format=json",
+    "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2025-06-23",
+        "actionTime": "15:28:55",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2025-06-23",
+        "actionTime": "15:19:24",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-06-23",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-06-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate without amendment by Voice Vote. (text: CR S3460)",
+        "type": "Floor",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2025-06-18",
+            "rollNumber": 0,
+            "sessionNumber": 0,
+            "url": "",
+            "votes": {},
+            "result": "passed",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/1112",
+            "question": "Voice Vote",
+            "recordType": "voice",
+            "membersAtAction": [
+              "C000127",
+              "K000367",
+              "S000033",
+              "W000802",
+              "B001261",
+              "W000437",
+              "C001035",
+              "C001056",
+              "D000563",
+              "G000359",
+              "M000355",
+              "M001176",
+              "R000122",
+              "R000584",
+              "S001181",
+              "W000805",
+              "G000555",
+              "C001088",
+              "B001230",
+              "B001267",
+              "B001243",
+              "B001277",
+              "B001236",
+              "C001047",
+              "C001075",
+              "C000880",
+              "G000386",
+              "H001046",
+              "H001042",
+              "H001061",
+              "J000293",
+              "L000575",
+              "L000577",
+              "L000570",
+              "M000133",
+              "M000934",
+              "M001153",
+              "M001169",
+              "M001111",
+              "P000603",
+              "P000595",
+              "S001150",
+              "S000148",
+              "S001184",
+              "T000250",
+              "V000128",
+              "W000800",
+              "W000779",
+              "Y000064",
+              "S001194",
+              "C001095",
+              "D000622",
+              "W000817",
+              "K000383",
+              "D000618",
+              "C001096",
+              "F000463",
+              "M001190",
+              "C001098",
+              "K000384",
+              "B001288",
+              "G000574",
+              "S001198",
+              "E000295",
+              "T000476",
+              "R000605",
+              "K000393",
+              "H001076",
+              "C001113",
+              "B001303",
+              "B001299",
+              "M001198",
+              "B001305",
+              "R000608",
+              "C001114",
+              "S001203",
+              "H001079",
+              "S001208",
+              "K000394",
+              "S001217",
+              "H001089",
+              "K000377",
+              "L000571",
+              "T000278",
+              "H000273",
+              "H000601",
+              "P000145",
+              "O000174",
+              "W000790",
+              "B001319",
+              "S001227",
+              "F000479",
+              "R000618",
+              "A000382",
+              "S001232",
+              "M001242",
+              "M001243",
+              "J000312",
+              "H001104",
+              "M001244"
+            ],
+            "id": "119-S-1112-1"
+          }
+        ]
+      },
+      {
+        "actionDate": "2025-06-18",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Senate Committee on Energy and Natural Resources discharged by Unanimous Consent. (consideration: CR S3458)",
+        "type": "Discharge"
+      },
+      {
+        "actionDate": "2025-03-25",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2025-03-25",
+  "latestAction": {
+    "actionDate": "2025-06-23",
+    "actionTime": "15:28:55",
+    "text": "Held at the desk."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1112",
+  "number": "1112",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "Big Bend National Park Boundary Adjustment Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Big Bend National Park Boundary Adjustment Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-06-24T11:03:17Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Big Bend National Park Boundary Adjustment Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-06-19T03:38:14Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Big Bend National Park Boundary Adjustment Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-12T03:08:17Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to adjust the boundary of Big Bend National Park in the State of Texas, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-12T03:03:39Z"
+      }
+    ]
+  },
+  "type": "S",
+  "updateDate": "2026-03-24T12:48:03Z",
+  "updateDateIncludingText": "2026-07-18T20:47:33Z",
+  "id": "119-S-1112",
+  "lastActionDate": "2025-06-23",
+  "lastRecordedVoteDate": "2025-06-18"
+}
