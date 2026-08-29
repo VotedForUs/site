@@ -162,12 +162,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 50,
-              "nays": 46,
-              "present": "",
-              "absent": 4
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00195.xml",
+            "question": "On Cloture on the Motion to Proceed S. 4784",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -191,8 +188,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00195.xml",
-            "question": "On Cloture on the Motion to Proceed S. 4784",
+            "senateCount": {
+              "yeas": 50,
+              "nays": 46,
+              "present": "",
+              "absent": 4
+            },
             "id": "119-S-4784-1"
           }
         ],

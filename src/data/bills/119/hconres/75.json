@@ -459,6 +459,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll170.xml",
+            "question": "On Agreeing to the Resolution",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 210,
@@ -494,8 +497,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll170.xml",
-            "question": "On Agreeing to the Resolution",
             "id": "119-HCONRES-75-1"
           }
         ],

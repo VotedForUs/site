@@ -140,12 +140,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 47,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00096.xml",
+            "question": "On the Motion to Proceed S.J.Res. 12",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -169,8 +166,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00096.xml",
-            "question": "On the Motion to Proceed S.J.Res. 12",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 47,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-SJRES-12-1"
           }
         ],

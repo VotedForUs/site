@@ -460,6 +460,9 @@
               "Z000018": "Yea"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll019.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 6,
@@ -495,8 +498,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll019.xml",
-            "question": "On Passage",
             "id": "119-HR-2262-2"
           }
         ],
@@ -960,6 +961,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll018.xml",
+            "question": "On Motion to Recommit",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 213,
@@ -995,8 +999,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll018.xml",
-            "question": "On Motion to Recommit",
             "id": "119-HR-2262-1"
           }
         ],

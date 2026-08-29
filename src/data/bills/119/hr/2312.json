@@ -467,6 +467,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll021.xml",
+            "question": "On Motion to Recommit",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 215,
@@ -502,8 +505,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll021.xml",
-            "question": "On Motion to Recommit",
             "id": "119-HR-2312-1"
           }
         ],

@@ -510,6 +510,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll224.xml",
+            "question": "On Motion to Suspend the Rules and Concur in Senate Adt to House Adt to Senate Adt",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 32,
@@ -545,8 +548,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll224.xml",
-            "question": "On Motion to Suspend the Rules and Concur in Senate Adt to House Adt to Senate Adt",
             "id": "119-HR-6644-9"
           }
         ],
@@ -710,12 +711,9 @@
               "Y000064": "Not Voting"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 85,
-              "nays": 5,
-              "present": "",
-              "absent": 10
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00182.xml",
+            "question": "On the Motion (Motion to Concur in the House Amendment to the Senate Amendment to H.R. 6644 with an Amendment (SA 5823))",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -739,8 +737,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00182.xml",
-            "question": "On the Motion (Motion to Concur in the House Amendment to the Senate Amendment to H.R. 6644 with an Amendment (SA 5823))",
+            "senateCount": {
+              "yeas": 85,
+              "nays": 5,
+              "present": "",
+              "absent": 10
+            },
             "id": "119-HR-6644-8"
           }
         ],
@@ -885,12 +887,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 84,
-              "nays": 8,
-              "present": "",
-              "absent": 8
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00180.xml",
+            "question": "On the Cloture Motion H.R. 6644",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -914,8 +913,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00180.xml",
-            "question": "On the Cloture Motion H.R. 6644",
+            "senateCount": {
+              "yeas": 84,
+              "nays": 8,
+              "present": "",
+              "absent": 8
+            },
             "id": "119-HR-6644-7"
           }
         ],
@@ -1084,12 +1087,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 87,
-              "nays": 8,
-              "present": "",
-              "absent": 5
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00175.xml",
+            "question": "On the Motion to Proceed H.R. 6644",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -1113,8 +1113,12 @@
                 "notVotingTotal": 1
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00175.xml",
-            "question": "On the Motion to Proceed H.R. 6644",
+            "senateCount": {
+              "yeas": 87,
+              "nays": 8,
+              "present": "",
+              "absent": 5
+            },
             "id": "119-HR-6644-6"
           }
         ],
@@ -1264,12 +1268,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 89,
-              "nays": 10,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00053.xml",
+            "question": "On Passage of the Bill H.R. 6644",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -1293,8 +1294,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00053.xml",
-            "question": "On Passage of the Bill H.R. 6644",
+            "senateCount": {
+              "yeas": 89,
+              "nays": 10,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-HR-6644-5"
           }
         ],
@@ -1425,12 +1430,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 82,
-              "nays": 11,
-              "present": 1,
-              "absent": 6
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00052.xml",
+            "question": "On the Cloture Motion H.R. 6644",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -1454,8 +1456,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00052.xml",
-            "question": "On the Cloture Motion H.R. 6644",
+            "senateCount": {
+              "yeas": 82,
+              "nays": 11,
+              "present": 1,
+              "absent": 6
+            },
             "id": "119-HR-6644-4"
           }
         ],
@@ -1648,12 +1654,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 90,
-              "nays": 8,
-              "present": 1,
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00045.xml",
+            "question": "On the Motion to Proceed H.R. 6644",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -1677,8 +1680,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00045.xml",
-            "question": "On the Motion to Proceed H.R. 6644",
+            "senateCount": {
+              "yeas": 90,
+              "nays": 8,
+              "present": 1,
+              "absent": 1
+            },
             "id": "119-HR-6644-3"
           }
         ],
@@ -1817,12 +1824,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 84,
-              "nays": 6,
-              "present": 1,
-              "absent": 9
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00044.xml",
+            "question": "On Cloture on the Motion to Proceed H.R. 6644",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -1846,8 +1850,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00044.xml",
-            "question": "On Cloture on the Motion to Proceed H.R. 6644",
+            "senateCount": {
+              "yeas": 84,
+              "nays": 6,
+              "present": 1,
+              "absent": 9
+            },
             "id": "119-HR-6644-2"
           }
         ],
@@ -2374,6 +2382,9 @@
               "Z000018": "Nay"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll057.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 8,
@@ -2409,8 +2420,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll057.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-6644-1"
           }
         ],

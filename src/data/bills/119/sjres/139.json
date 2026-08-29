@@ -115,12 +115,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 46,
-              "nays": 52,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00110.xml",
+            "question": "On the Motion to Proceed S.J.Res. 139",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -144,8 +141,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00110.xml",
-            "question": "On the Motion to Proceed S.J.Res. 139",
+            "senateCount": {
+              "yeas": 46,
+              "nays": 52,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SJRES-139-1"
           }
         ],

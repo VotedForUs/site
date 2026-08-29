@@ -461,6 +461,9 @@
               "Z000018": "Nay"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll276.xml",
+            "question": "On Motion to Table",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 213,
@@ -496,8 +499,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll276.xml",
-            "question": "On Motion to Table",
             "id": "119-HRES-713-1"
           }
         ],

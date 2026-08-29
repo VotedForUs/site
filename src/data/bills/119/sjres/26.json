@@ -123,12 +123,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 15,
-              "nays": 83,
-              "present": 1,
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00166.xml",
+            "question": "On the Motion to Discharge S.J.Res. 26",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -152,8 +149,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00166.xml",
-            "question": "On the Motion to Discharge S.J.Res. 26",
+            "senateCount": {
+              "yeas": 15,
+              "nays": 83,
+              "present": 1,
+              "absent": 1
+            },
             "id": "119-SJRES-26-1"
           }
         ],

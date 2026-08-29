@@ -123,12 +123,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 47,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00108.xml",
+            "question": "On the Point of Order S.J.Res. 124",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -152,8 +149,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00108.xml",
-            "question": "On the Point of Order S.J.Res. 124",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 47,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SJRES-124-1"
           }
         ],

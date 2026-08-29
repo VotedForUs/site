@@ -123,12 +123,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 49,
-              "nays": 51,
-              "present": "",
-              "absent": ""
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00608.xml",
+            "question": "On the Motion to Discharge S.J.Res. 90",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -152,8 +149,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00608.xml",
-            "question": "On the Motion to Discharge S.J.Res. 90",
+            "senateCount": {
+              "yeas": 49,
+              "nays": 51,
+              "present": "",
+              "absent": ""
+            },
             "id": "119-SJRES-90-1"
           }
         ],

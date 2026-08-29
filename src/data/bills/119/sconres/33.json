@@ -448,6 +448,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll143.xml",
+            "question": "On Agreeing to the Resolution",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -483,8 +486,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll143.xml",
-            "question": "On Agreeing to the Resolution",
             "id": "119-SCONRES-33-3"
           }
         ],
@@ -714,12 +715,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 50,
-              "nays": 48,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00105.xml",
+            "question": "On the Concurrent Resolution S.Con.Res. 33",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -743,8 +741,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00105.xml",
-            "question": "On the Concurrent Resolution S.Con.Res. 33",
+            "senateCount": {
+              "yeas": 50,
+              "nays": 48,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SCONRES-33-2"
           }
         ],
@@ -882,12 +884,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 46,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00087.xml",
+            "question": "On the Motion to Proceed S.Con.Res. 33",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -911,8 +910,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00087.xml",
-            "question": "On the Motion to Proceed S.Con.Res. 33",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 46,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SCONRES-33-1"
           }
         ],

@@ -470,6 +470,9 @@
               "Z000018": "Nay"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll332.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 195,
@@ -505,8 +508,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll332.xml",
-            "question": "On Passage",
             "id": "119-HR-2550-1"
           }
         ],

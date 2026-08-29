@@ -123,12 +123,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 24,
-              "nays": 73,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00455.xml",
+            "question": "On the Motion to Discharge S.J.Res. 34",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -152,8 +149,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00455.xml",
-            "question": "On the Motion to Discharge S.J.Res. 34",
+            "senateCount": {
+              "yeas": 24,
+              "nays": 73,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-34-1"
           }
         ],

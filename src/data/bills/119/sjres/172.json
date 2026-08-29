@@ -122,12 +122,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 47,
-              "nays": 48,
-              "present": "",
-              "absent": 5
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00174.xml",
+            "question": "On the Motion to Discharge S.J.Res. 172",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -151,8 +148,12 @@
                 "notVotingTotal": 1
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00174.xml",
-            "question": "On the Motion to Discharge S.J.Res. 172",
+            "senateCount": {
+              "yeas": 47,
+              "nays": 48,
+              "present": "",
+              "absent": 5
+            },
             "id": "119-SJRES-172-1"
           }
         ],

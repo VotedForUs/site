@@ -146,12 +146,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 46,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00275.xml",
+            "question": "On the Joint Resolution S.J.Res. 55",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -175,8 +172,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00275.xml",
-            "question": "On the Joint Resolution S.J.Res. 55",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 46,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-55-6"
           }
         ],
@@ -307,12 +308,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 46,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00274.xml",
+            "question": "On the Point of Order S.J.Res. 55",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -336,8 +334,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00274.xml",
-            "question": "On the Point of Order S.J.Res. 55",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 46,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-55-5"
           }
         ],
@@ -468,12 +470,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 46,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00273.xml",
+            "question": "On the Point of Order S.J.Res. 55",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -497,8 +496,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00273.xml",
-            "question": "On the Point of Order S.J.Res. 55",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 46,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-55-4"
           }
         ],
@@ -629,12 +632,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 46,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00266.xml",
+            "question": "On the Motion to Table S.J.Res. 55",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -658,8 +658,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00266.xml",
-            "question": "On the Motion to Table S.J.Res. 55",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 46,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-55-3"
           }
         ],
@@ -806,12 +810,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 46,
-              "nays": 52,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00265.xml",
+            "question": "On the Motion to Table S.J.Res. 55",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -835,8 +836,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00265.xml",
-            "question": "On the Motion to Table S.J.Res. 55",
+            "senateCount": {
+              "yeas": 46,
+              "nays": 52,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SJRES-55-2"
           }
         ],
@@ -983,12 +988,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 53,
-              "nays": 46,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00264.xml",
+            "question": "On the Motion to Proceed S.J.Res. 55",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -1012,8 +1014,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00264.xml",
-            "question": "On the Motion to Proceed S.J.Res. 55",
+            "senateCount": {
+              "yeas": 53,
+              "nays": 46,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-SJRES-55-1"
           }
         ],
