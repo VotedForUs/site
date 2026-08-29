@@ -1,0 +1,285 @@
+{
+  "actions": {
+    "count": 11,
+    "url": "https://api.congress.gov/v3/bill/119/s/4472/actions?format=json",
+    "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:11:33",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-08-10",
+        "actionTime": "11:02:31",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-08-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-08-04",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate with an amendment by Voice Vote. (consideration: CR S4425-4426; text: CR S4425-4426)",
+        "type": "Floor",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-08-04",
+            "rollNumber": 0,
+            "sessionNumber": 0,
+            "url": "",
+            "votes": {},
+            "result": "passed",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4472",
+            "question": "Voice Vote",
+            "recordType": "voice",
+            "membersAtAction": [
+              "C000127",
+              "K000367",
+              "S000033",
+              "W000802",
+              "B001261",
+              "W000437",
+              "C001035",
+              "C001056",
+              "D000563",
+              "G000359",
+              "M000355",
+              "M001176",
+              "R000122",
+              "R000584",
+              "S001181",
+              "W000805",
+              "G000555",
+              "C001088",
+              "B001230",
+              "B001267",
+              "B001243",
+              "B001277",
+              "B001236",
+              "C001047",
+              "C001075",
+              "C000880",
+              "G000386",
+              "H001046",
+              "H001042",
+              "H001061",
+              "J000293",
+              "L000575",
+              "L000577",
+              "L000570",
+              "M000133",
+              "M000934",
+              "M001153",
+              "M001169",
+              "M001111",
+              "P000603",
+              "P000595",
+              "S001150",
+              "S000148",
+              "S001184",
+              "T000250",
+              "V000128",
+              "W000800",
+              "W000779",
+              "Y000064",
+              "S001194",
+              "C001095",
+              "D000622",
+              "W000817",
+              "K000383",
+              "D000618",
+              "C001096",
+              "F000463",
+              "M001190",
+              "C001098",
+              "K000384",
+              "B001288",
+              "G000574",
+              "S001198",
+              "E000295",
+              "T000476",
+              "R000605",
+              "K000393",
+              "H001076",
+              "C001113",
+              "B001303",
+              "B001299",
+              "M001198",
+              "B001305",
+              "R000608",
+              "C001114",
+              "S001203",
+              "H001079",
+              "S001208",
+              "K000394",
+              "S001217",
+              "H001089",
+              "K000377",
+              "L000571",
+              "T000278",
+              "H000273",
+              "H000601",
+              "P000145",
+              "O000174",
+              "W000790",
+              "B001319",
+              "S001227",
+              "F000479",
+              "R000618",
+              "A000382",
+              "S001232",
+              "M001242",
+              "M001243",
+              "J000312",
+              "H001104",
+              "M001244"
+            ],
+            "id": "119-S-4472-1"
+          }
+        ]
+      },
+      {
+        "actionDate": "2026-07-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 461.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-07-16",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Health, Education, Labor, and Pensions. Reported by Senator Cassidy with an amendment in the nature of a substitute. Without written report.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-06-17",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Health, Education, Labor, and Pensions. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-04-30",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2026-04-30",
+  "latestAction": {
+    "actionDate": "2026-08-10",
+    "actionTime": "11:11:33",
+    "text": "Held at the desk."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4472",
+  "number": "4472",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4472/summaries?format=json"
+  },
+  "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+  "titles": {
+    "titles": [
+      {
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-08-11T11:03:19Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2026-08-05T09:38:26Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-07-18T11:53:32Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-05-19T00:53:27Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize the provisions of such Act through fiscal year 2031, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-05-19T00:48:31Z"
+      }
+    ]
+  },
+  "type": "S",
+  "updateDate": "2026-08-12T12:18:58Z",
+  "updateDateIncludingText": "2026-08-12T12:18:58Z",
+  "id": "119-S-4472",
+  "lastActionDate": "2026-08-10",
+  "lastRecordedVoteDate": "2026-08-04"
+}

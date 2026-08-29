@@ -1,0 +1,281 @@
+{
+  "actions": {
+    "count": 11,
+    "url": "https://api.congress.gov/v3/bill/119/s/433/actions?format=json",
+    "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2025-07-15",
+        "actionTime": "12:12:33",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2025-07-15",
+        "actionTime": "12:05:06",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-07-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2025-07-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate with an amendment by Voice Vote. (consideration: CR S4339; text of amendment in the nature of a substitute: CR S4340-4341)",
+        "type": "Floor",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2025-07-14",
+            "rollNumber": 0,
+            "sessionNumber": 0,
+            "url": "",
+            "votes": {},
+            "result": "passed",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/433",
+            "question": "Voice Vote",
+            "recordType": "voice",
+            "membersAtAction": [
+              "C000127",
+              "K000367",
+              "S000033",
+              "W000802",
+              "B001261",
+              "W000437",
+              "C001035",
+              "C001056",
+              "D000563",
+              "G000359",
+              "M000355",
+              "M001176",
+              "R000122",
+              "R000584",
+              "S001181",
+              "W000805",
+              "G000555",
+              "C001088",
+              "B001230",
+              "B001267",
+              "B001243",
+              "B001277",
+              "B001236",
+              "C001047",
+              "C001075",
+              "C000880",
+              "G000386",
+              "H001046",
+              "H001042",
+              "H001061",
+              "J000293",
+              "L000575",
+              "L000577",
+              "L000570",
+              "M000133",
+              "M000934",
+              "M001153",
+              "M001169",
+              "M001111",
+              "P000603",
+              "P000595",
+              "S001150",
+              "S000148",
+              "S001184",
+              "T000250",
+              "V000128",
+              "W000800",
+              "W000779",
+              "Y000064",
+              "S001194",
+              "C001095",
+              "D000622",
+              "W000817",
+              "K000383",
+              "D000618",
+              "C001096",
+              "F000463",
+              "M001190",
+              "C001098",
+              "K000384",
+              "B001288",
+              "G000574",
+              "S001198",
+              "E000295",
+              "T000476",
+              "R000605",
+              "K000393",
+              "H001076",
+              "C001113",
+              "B001303",
+              "B001299",
+              "M001198",
+              "B001305",
+              "R000608",
+              "C001114",
+              "S001203",
+              "H001079",
+              "S001208",
+              "K000394",
+              "S001217",
+              "H001089",
+              "K000377",
+              "L000571",
+              "T000278",
+              "H000273",
+              "H000601",
+              "P000145",
+              "O000174",
+              "W000790",
+              "B001319",
+              "S001227",
+              "F000479",
+              "R000618",
+              "A000382",
+              "S001232",
+              "M001242",
+              "M001243",
+              "J000312",
+              "H001104",
+              "M001244"
+            ],
+            "id": "119-S-433-1"
+          }
+        ]
+      },
+      {
+        "actionDate": "2025-06-02",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 89.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2025-06-02",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment. With written report No. 119-27.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2025-03-12",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2025-02-05",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      }
+    ]
+  },
+  "congress": 119,
+  "introducedDate": "2025-02-05",
+  "latestAction": {
+    "actionDate": "2025-07-15",
+    "actionTime": "12:12:33",
+    "text": "Held at the desk."
+  },
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/433",
+  "number": "433",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "title": "National Manufacturing Advisory Council Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "National Manufacturing Advisory Council Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-17T11:31:33Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "National Manufacturing Advisory Council Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2025-07-15T07:08:20Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "National Manufacturing Advisory Council Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2025-06-04T03:23:26Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "National Manufacturing Advisory Council Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-07T16:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to require the Secretary of Commerce to establish the National Manufacturing Advisory Council within the Department of Commerce, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-07T16:18:20Z"
+      }
+    ]
+  },
+  "type": "S",
+  "updateDate": "2026-04-09T14:14:00Z",
+  "updateDateIncludingText": "2026-07-18T21:54:43Z",
+  "id": "119-S-433",
+  "lastActionDate": "2025-07-15",
+  "lastRecordedVoteDate": "2025-07-14"
+}
