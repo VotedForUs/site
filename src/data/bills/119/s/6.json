@@ -116,12 +116,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 47,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00011.xml",
+            "question": "On Cloture on the Motion to Proceed S. 6",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -145,8 +142,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00011.xml",
-            "question": "On Cloture on the Motion to Proceed S. 6",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 47,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-S-6-1"
           }
         ],

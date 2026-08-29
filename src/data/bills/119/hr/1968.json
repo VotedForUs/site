@@ -184,12 +184,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 54,
-              "nays": 46,
-              "present": "",
-              "absent": ""
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.xml",
+            "question": "On Passage of the Bill H.R. 1968",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -213,8 +210,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00133.xml",
-            "question": "On Passage of the Bill H.R. 1968",
+            "senateCount": {
+              "yeas": 54,
+              "nays": 46,
+              "present": "",
+              "absent": ""
+            },
             "id": "119-HR-1968-4"
           }
         ],
@@ -337,12 +338,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 62,
-              "nays": 38,
-              "present": "",
-              "absent": ""
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.xml",
+            "question": "On the Cloture Motion H.R. 1968",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -366,8 +364,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00128.xml",
-            "question": "On the Cloture Motion H.R. 1968",
+            "senateCount": {
+              "yeas": 62,
+              "nays": 38,
+              "present": "",
+              "absent": ""
+            },
             "id": "119-HR-1968-3"
           }
         ],
@@ -899,6 +901,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll070.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 1,
@@ -934,8 +939,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll070.xml",
-            "question": "On Passage",
             "id": "119-HR-1968-2"
           }
         ],
@@ -1400,6 +1403,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll069.xml",
+            "question": "On Motion to Recommit",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 216,
@@ -1435,8 +1441,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll069.xml",
-            "question": "On Motion to Recommit",
             "id": "119-HR-1968-1"
           }
         ],

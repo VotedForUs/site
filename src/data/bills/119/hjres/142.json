@@ -184,12 +184,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 49,
-              "nays": 47,
-              "present": "",
-              "absent": 4
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00037.xml",
+            "question": "On the Joint Resolution H.J.Res. 142",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -213,8 +210,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00037.xml",
-            "question": "On the Joint Resolution H.J.Res. 142",
+            "senateCount": {
+              "yeas": 49,
+              "nays": 47,
+              "present": "",
+              "absent": 4
+            },
             "id": "119-HJRES-142-3"
           }
         ],
@@ -353,12 +354,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 46,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00036.xml",
+            "question": "On the Motion to Proceed H.J.Res. 142",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -382,8 +380,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00036.xml",
-            "question": "On the Motion to Proceed H.J.Res. 142",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 46,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-HJRES-142-2"
           }
         ],
@@ -848,6 +850,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll056.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -883,8 +888,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll056.xml",
-            "question": "On Passage",
             "id": "119-HJRES-142-1"
           }
         ],

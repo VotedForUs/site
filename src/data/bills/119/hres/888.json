@@ -462,6 +462,9 @@
               "Z000018": "Yea"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll297.xml",
+            "question": "On Agreeing to the Resolution",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 3,
@@ -497,8 +500,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll297.xml",
-            "question": "On Agreeing to the Resolution",
             "id": "119-HRES-888-2"
           }
         ],
@@ -1030,6 +1031,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll293.xml",
+            "question": "On Motion to Refer",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 214,
@@ -1065,8 +1069,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll293.xml",
-            "question": "On Motion to Refer",
             "id": "119-HRES-888-1"
           }
         ],

@@ -115,12 +115,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 47,
-              "nays": 50,
-              "present": 1,
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00192.xml",
+            "question": "On the Motion to Proceed S.J.Res. 185",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -144,8 +141,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00192.xml",
-            "question": "On the Motion to Proceed S.J.Res. 185",
+            "senateCount": {
+              "yeas": 47,
+              "nays": 50,
+              "present": 1,
+              "absent": 2
+            },
             "id": "119-SJRES-185-2"
           }
         ],
@@ -282,12 +283,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 50,
-              "nays": 47,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00129.xml",
+            "question": "On the Motion to Discharge S.J.Res. 185",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -311,8 +309,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00129.xml",
-            "question": "On the Motion to Discharge S.J.Res. 185",
+            "senateCount": {
+              "yeas": 50,
+              "nays": 47,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-185-1"
           }
         ],

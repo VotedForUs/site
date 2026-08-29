@@ -123,12 +123,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 45,
-              "nays": 50,
-              "present": "",
-              "absent": 5
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00259.xml",
+            "question": "On the Motion to Discharge S.Res. 195",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -152,8 +149,12 @@
                 "notVotingTotal": 1
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00259.xml",
-            "question": "On the Motion to Discharge S.Res. 195",
+            "senateCount": {
+              "yeas": 45,
+              "nays": 50,
+              "present": "",
+              "absent": 5
+            },
             "id": "119-SRES-195-1"
           }
         ],

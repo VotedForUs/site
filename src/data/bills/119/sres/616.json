@@ -122,12 +122,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 44,
-              "nays": 50,
-              "present": "",
-              "absent": 6
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00179.xml",
+            "question": "On the Motion to Discharge S.Res. 616",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -151,8 +148,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00179.xml",
-            "question": "On the Motion to Discharge S.Res. 616",
+            "senateCount": {
+              "yeas": 44,
+              "nays": 50,
+              "present": "",
+              "absent": 6
+            },
             "id": "119-SRES-616-1"
           }
         ],

@@ -459,6 +459,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll132.xml",
+            "question": "On Agreeing to the Resolution",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -494,8 +497,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll132.xml",
-            "question": "On Agreeing to the Resolution",
             "id": "119-HRES-1182-1"
           }
         ],

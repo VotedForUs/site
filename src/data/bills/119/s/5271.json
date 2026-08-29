@@ -114,12 +114,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 46,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.xml",
+            "question": "On Cloture on the Motion to Proceed S. 5271",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -143,8 +140,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.xml",
-            "question": "On Cloture on the Motion to Proceed S. 5271",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 46,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-S-5271-1"
           }
         ],

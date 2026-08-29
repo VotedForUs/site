@@ -122,12 +122,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 49,
-              "nays": 50,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00118.xml",
+            "question": "On the Motion to Discharge S.J.Res. 163",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -151,8 +148,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00118.xml",
-            "question": "On the Motion to Discharge S.J.Res. 163",
+            "senateCount": {
+              "yeas": 49,
+              "nays": 50,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-SJRES-163-1"
           }
         ],

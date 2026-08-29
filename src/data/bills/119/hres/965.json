@@ -460,6 +460,9 @@
               "Z000018": "Nay"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll119.xml",
+            "question": "On Agreeing to the Resolution",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 207,
@@ -495,8 +498,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll119.xml",
-            "question": "On Agreeing to the Resolution",
             "id": "119-HRES-965-2"
           }
         ],
@@ -1019,6 +1020,9 @@
               "Z000018": "Nay"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll113.xml",
+            "question": "On Motion to Discharge",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 209,
@@ -1054,8 +1058,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll113.xml",
-            "question": "On Motion to Discharge",
             "id": "119-HRES-965-1"
           }
         ],

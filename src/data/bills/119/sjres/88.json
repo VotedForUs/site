@@ -146,12 +146,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 47,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00600.xml",
+            "question": "On the Joint Resolution S.J.Res. 88",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -175,8 +172,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00600.xml",
-            "question": "On the Joint Resolution S.J.Res. 88",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 47,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SJRES-88-1"
           }
         ],
