@@ -98,6 +98,8 @@ export type LegislatorVoteDisplayInput = {
   chamber: 'sen' | 'rep';
   state: string;
   district?: number;
+  /** Package `recordType`; drives UC/voice copy when the display cast is Yea. */
+  recordType?: string;
 };
 
 /**
@@ -107,7 +109,7 @@ export type LegislatorVoteDisplayInput = {
  * @returns Precomputed display strings.
  */
 export function buildLegislatorVoteDisplay(input: LegislatorVoteDisplayInput): LegislatorVoteDisplay {
-  const proc = proceduralVoteCastKind(input.voteCast);
+  const proc = proceduralVoteCastKind(input.voteCast, input.recordType);
   return {
     proc,
     emoji: castEmoji(input.voteCast, proc),

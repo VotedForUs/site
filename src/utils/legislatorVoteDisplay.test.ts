@@ -8,6 +8,23 @@ import {
   formatMemberSubtitle,
 } from './legislatorVoteDisplay.js';
 
+test('buildLegislatorVoteDisplay handles Yea plus recordType unanimous-consent', () => {
+  const display = buildLegislatorVoteDisplay({
+    voteCast: 'Yea',
+    recordType: 'unanimous-consent',
+    nameTitle: 'Sen. Bernie Sanders (VT)',
+    party: 'Independent',
+    stateName: 'Vermont',
+    chamber: 'sen',
+    state: 'VT',
+  });
+
+  assert.equal(display.proc, 'unanimous-consent');
+  assert.equal(display.emoji, '🤝');
+  assert.equal(display.actionLabel, 'Unanimous Consent');
+  assert.equal(display.voteVerb, 'joined');
+});
+
 test('buildLegislatorVoteDisplay handles procedural UC', () => {
   const display = buildLegislatorVoteDisplay({
     voteCast: 'UC',

@@ -1,8 +1,9 @@
 ---
 const { recordedVote, term, billType, billNumber, voteId } = Astro.props;
 import { getEntry } from 'astro:content';
+import { memberCastsForDisplay } from '../utils/memberCastsForDisplay.js';
 
-const votes = recordedVote?.votes || {};
+const votes = memberCastsForDisplay(recordedVote ?? {});
 const voteEntries = Object.entries(votes);
 const segment = voteId ?? recordedVote?.id?.toString().split('-').pop() ?? '';
 

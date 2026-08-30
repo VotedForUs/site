@@ -16,3 +16,9 @@ test('proceduralVoteCastKind: roll-call values are null', () => {
   assert.equal(proceduralVoteCastKind('Nay'), null);
   assert.equal(proceduralVoteCastKind(''), null);
 });
+
+test('proceduralVoteCastKind: recordType wins over Yea display cast', () => {
+  assert.equal(proceduralVoteCastKind('Yea', 'unanimous-consent'), 'unanimous-consent');
+  assert.equal(proceduralVoteCastKind('Yea', 'voice'), 'voice-vote');
+  assert.equal(proceduralVoteCastKind('Yea', 'roll-call'), null);
+});

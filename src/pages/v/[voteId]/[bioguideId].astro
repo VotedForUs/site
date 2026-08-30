@@ -6,13 +6,14 @@ import { getLimitedBillIds } from '../../../buildConfig';
 import { shouldBuildPage } from '../../../utils/buildManifest.js';
 import { resolveLegislatorVoteView } from '../../../utils/resolveLegislatorVoteViewAstro.js';
 import { toPageVotedProps } from '../../../utils/legislatorVoteView.js';
+import { memberIdsForDisplay } from '../../../utils/memberCastsForDisplay.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
   const allVotes = await getCollection('recordedVotes');
   const paths: { params: { voteId: string; bioguideId: string } }[] = [];
   for (const vote of allVotes.filter(v => limitedBillIds.has(v.data.billId))) {
-    for (const bioguideId of Object.keys(vote.data.votes ?? {})) {
+    for (const bioguideId of memberIdsForDisplay(vote.data)) {
       if (shouldBuildPage('legislator-votes-loader', `${bioguideId}-${vote.id}`)) {
         paths.push({ params: { voteId: vote.id, bioguideId } });
       }
