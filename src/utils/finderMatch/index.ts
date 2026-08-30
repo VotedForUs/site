@@ -47,13 +47,8 @@ export function isQueryable(q: string): boolean {
   return /[a-z0-9]/i.test(q);
 }
 
-/** Words too common in bill titles to carry information on their own. */
-export const TITLE_STOPWORDS = new Set([
-  'act', 'the', 'of', 'and', 'for', 'to', 'an', 'a', 'in', 'on', 'us', 'usa',
-]);
-
-/** Members narrow from two characters. Enforced in matchMembers, not callers. */
-export const MEMBER_MIN_QUERY_LENGTH = 2;
+/** Members narrow from the first character. Enforced in matchMembers, not callers. */
+export const MEMBER_MIN_QUERY_LENGTH = 1;
 
 const STATE_CODES = new Set([
   'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD',
@@ -141,7 +136,6 @@ export function matchBills(rows: BillRow[], query: string) {
   const qCompact = q.replace(/\s+/g, '');
   const hasDigit = /\d/.test(qCompact);
   const isNumeric = /^\d+$/.test(qCompact);
-  const words = q.split(' ').filter(Boolean);
   const ref = parseBillRef(query);
 
   // A bare type is a filter — the caller renders a chip per matched type.
@@ -151,7 +145,6 @@ export function matchBills(rows: BillRow[], query: string) {
     const idCompact = normalise(row.i).replace(/\s+/g, '');
     const displayCompact = normalise(row.t).replace(/\s+/g, '');
     const title = normalise(row.h);
-    const tokens = new Set(title.split(' '));
 
     if (idCompact === qCompact || displayCompact === qCompact || String(row.n) === qCompact) {
       buckets['exact-id'].push(row); continue;
@@ -171,16 +164,14 @@ export function matchBills(rows: BillRow[], query: string) {
     }
     // A numeric query stops at ids — years in titles swamp bill numbers.
     if (isNumeric) continue;
-    if (words.length === 1 && (TITLE_STOPWORDS.has(words[0]) || words[0].length < 3)) continue;
-    // One word matches a whole title token; a phrase matches as a substring.
-    if (words.length === 1 ? tokens.has(words[0]) : title.includes(q)) {
-      buckets['title-text'].push(row);
-    }
+    // Everything else matches the title as a substring, from the first
+    // character, so a part-typed word narrows instead of blanking the list.
+    if (title.includes(q)) buckets['title-text'].push(row);
   }
   return buckets;
 }
 
-/** Members bucketed by name, state and district. Empty below two characters. */
+/** Members bucketed by name, state and district. One character narrows. */
 export function matchMembers(rows: MemberRow[], query: string) {
   const buckets: Record<MemberMatchKind, MemberRow[]> = { name: [], state: [], district: [] };
   if (!isQueryable(query)) return buckets;
