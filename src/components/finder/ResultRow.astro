@@ -1,0 +1,45 @@
+---
+/**
+ * One result row — the shape, defined once.
+ *
+ * `VfuFinder.astro` renders it twice over: empty, inside a `<template>` the
+ * element clones per match, and filled, for the rows that ship in the HTML.
+ * Neither side redefines the markup.
+ *
+ * The title and its meta sit in one wrapper on purpose: a `<mark>` that is its
+ * own grid item paints as a bar across the row.
+ */
+interface Props {
+  kind: 'member' | 'bill';
+  href?: string;
+  title?: string;
+  meta?: string;
+  trailing?: string;
+  /** Member rows: the headshot path, or null for a member without one. */
+  headshot?: string | null;
+  /** Bill rows: the legislation identifier, e.g. `H.R. 2616`. */
+  id?: string;
+  exact?: boolean;
+}
+
+const { kind, href, title, meta, trailing, headshot, id, exact = false } = Astro.props;
+/** An empty row is the template's copy; a row with an href is a real result. */
+const blank = href === undefined;
+---
+
+<a class="result-row" href={href} data-exact={exact ? 'true' : undefined}>
+  {kind === 'member' ? (
+    <>
+      {(blank || headshot) && <img class="row-headshot" data-headshot src={headshot ?? undefined} alt="" loading="lazy" />}
+      {(blank || !headshot) && <span class="row-headshot" data-blank></span>}
+    </>
+  ) : (
+    <span class="row-id">{id}</span>
+  )}
+
+  <span class="row-main">
+    <span class="row-title">{title}</span>
+    <span class="row-meta">{meta}</span>
+  </span>
+  <span class="row-trailing">{trailing}</span>
+</a>

@@ -9,7 +9,6 @@ import {
   MATCH_KINDS,
   MEMBER_MATCH_KINDS,
   MEMBER_MIN_QUERY_LENGTH,
-  TITLE_STOPWORDS,
   billTypeMatches,
   countBuckets,
   extractCitations,
@@ -234,10 +233,19 @@ describe('alias — the authored nickname field', () => {
 });
 
 describe('title text', () => {
-  it('matches a single word as a whole word, not a substring', () => {
-    // "form" must not reach "Reform".
-    assert.deepEqual(ids(matchBills(bills, 'form')['title-text']), []);
-    assert.deepEqual(ids(matchBills(bills, 'reform')['title-text']), ['119-HR-3617']);
+  it('matches from the first character, so a part-typed word narrows', () => {
+    const counts = ['v', 've', 'vet', 'veterans'].map(
+      (q) => matchBills(bills, q)['title-text'].length,
+    );
+    assert.ok(counts[0] >= counts[1] && counts[1] >= counts[2] && counts[2] >= counts[3], counts.join(' → '));
+    assert.ok(counts[3] > 0, 'the finished word still matches');
+  });
+
+  it('matches a substring inside a word', () => {
+    // The cost of narrowing from the first character: "form" reaches both
+    // "Reforming" and "Reform", where the whole-word rule reached neither.
+    assert.deepEqual(ids(matchBills(bills, 'form')['title-text']), ['119-HR-9238', '119-HR-3617']);
+    assert.deepEqual(ids(matchBills(bills, 'reform')['title-text']), ['119-HR-9238', '119-HR-3617']);
   });
 
   it('matches a phrase as a substring', () => {
@@ -245,20 +253,14 @@ describe('title text', () => {
     assert.deepEqual(ids(matchBills(bills, 'business rural')['title-text']), ['119-HR-7788']);
   });
 
-  it('ignores a single word under three characters', () => {
-    assert.equal(countBuckets(matchBills(bills, 'or')).total, 0);
-    assert.equal(countBuckets(matchBills(bills, 'to')).total, 0);
+  it('matches a common word rather than blanking the list', () => {
+    // "act" is in most titles. Narrowing 739 rows to 507 is still a narrowing;
+    // rendering nothing at the third keystroke of "action" was not.
+    assert.ok(matchBills(bills, 'act')['title-text'].length > 0);
+    assert.ok(matchBills(bills, 'a')['title-text'].length >= matchBills(bills, 'ac')['title-text'].length);
   });
 
-  it('ignores a stopword typed alone', () => {
-    // "act" appeared in 93% of titles. A group that always matches informs nothing.
-    assert.equal(countBuckets(matchBills(bills, 'act')).total, 0);
-    for (const word of TITLE_STOPWORDS) {
-      assert.equal(countBuckets(matchBills(bills, word)).total, 0, word);
-    }
-  });
-
-  it('a stopword inside a phrase still matches', () => {
+  it('a phrase spanning a common word still matches', () => {
     assert.deepEqual(ids(matchBills(bills, 'files transparency act')['title-text']), ['119-HR-4405']);
   });
 
@@ -300,24 +302,25 @@ describe('empty and unqueryable input', () => {
   });
 });
 
-describe('member minimum length — two characters', () => {
-  it('is two, and lives in matchMembers so every caller inherits it', () => {
-    assert.equal(MEMBER_MIN_QUERY_LENGTH, 2);
+describe('member minimum length — one character', () => {
+  it('is one, and lives in matchMembers so every caller inherits it', () => {
+    assert.equal(MEMBER_MIN_QUERY_LENGTH, 1);
   });
 
-  it('renders no member rows for a single letter', () => {
-    // One letter matched 62% of member names when measured — not a query.
+  it('narrows from the first letter', () => {
     const buckets = matchMembers(members, 'r');
-    assert.equal(countBuckets(buckets).total, 0);
+    assert.ok(countBuckets(buckets).total > 0);
     assert.deepEqual(Object.keys(buckets), [...MEMBER_MATCH_KINDS]);
+    assert.ok(names(buckets.name).every((n) => n.toLowerCase().includes('r')));
   });
 
-  it('renders no member rows for a single digit either', () => {
-    assert.equal(countBuckets(matchMembers(members, '1')).total, 0);
+  it('a single digit reaches the districts of that number', () => {
+    const expected = members.filter((m) => m.d === 1).map((m) => m.n);
+    assert.deepEqual(names(matchMembers(members, '1').district), expected);
   });
 
-  it('narrows from the second character', () => {
-    assert.deepEqual(names(matchMembers(members, 'ry').name), ['Patrick Ryan']);
+  it('keeps narrowing as the query grows', () => {
+    assert.ok(names(matchMembers(members, 'ry').name).includes('Patrick Ryan'));
     assert.deepEqual(names(matchMembers(members, 'ryan').name), ['Patrick Ryan']);
   });
 });
