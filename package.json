@@ -19,7 +19,7 @@
     "voted-bills-sync:generate": "vfu voted-bills-sync -o src/data",
     "build-from-cache": "vfu build-from-cache -o src/data",
     "generate-change-summary": "vfu generate-change-summary --data-dir src/data --changelog-dir src/data/changelog",
-    "test": "node --test --experimental-test-coverage --import tsx src/**/*.test.ts scripts/**/*.test.ts",
+    "test": "node --test --experimental-test-coverage --import tsx \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
     "test:types": "astro check",
     "social-cards": "tsx utils/generate-social-cards.ts",
     "storybook": "storybook dev -p 6006",
