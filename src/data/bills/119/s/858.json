@@ -1,176 +1,12 @@
 {
   "actions": {
-    "count": 20,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5366/actions?format=json",
+    "count": 18,
+    "url": "https://api.congress.gov/v3/bill/119/s/858/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-08-10",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-08-07",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4547)",
-        "type": "Floor",
-        "recordedVotes": [
-          {
-            "chamber": "Senate",
-            "congress": 119,
-            "date": "2026-08-07",
-            "rollNumber": 0,
-            "sessionNumber": 0,
-            "url": "",
-            "votes": {},
-            "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/5366",
-            "question": "Pass with Unanimous Consent",
-            "recordType": "unanimous-consent",
-            "membersAtAction": [
-              "C000127",
-              "K000367",
-              "S000033",
-              "W000802",
-              "B001261",
-              "W000437",
-              "C001035",
-              "C001056",
-              "D000563",
-              "G000359",
-              "M000355",
-              "M001176",
-              "R000122",
-              "R000584",
-              "S001181",
-              "W000805",
-              "G000555",
-              "C001088",
-              "B001230",
-              "B001267",
-              "B001243",
-              "B001277",
-              "B001236",
-              "C001047",
-              "C001075",
-              "C000880",
-              "G000386",
-              "H001046",
-              "H001042",
-              "H001061",
-              "J000293",
-              "L000575",
-              "L000577",
-              "L000570",
-              "M000133",
-              "M000934",
-              "M001153",
-              "M001169",
-              "M001111",
-              "P000603",
-              "P000595",
-              "S001150",
-              "S000148",
-              "S001184",
-              "T000250",
-              "V000128",
-              "W000800",
-              "W000779",
-              "Y000064",
-              "S001194",
-              "C001095",
-              "D000622",
-              "W000817",
-              "K000383",
-              "D000618",
-              "C001096",
-              "F000463",
-              "M001190",
-              "C001098",
-              "K000384",
-              "B001288",
-              "G000574",
-              "S001198",
-              "E000295",
-              "T000476",
-              "R000605",
-              "K000393",
-              "H001076",
-              "C001113",
-              "B001303",
-              "B001299",
-              "M001198",
-              "B001305",
-              "R000608",
-              "C001114",
-              "S001203",
-              "H001079",
-              "S001208",
-              "K000394",
-              "S001217",
-              "H001089",
-              "K000377",
-              "L000571",
-              "T000278",
-              "H000273",
-              "H000601",
-              "P000145",
-              "O000174",
-              "W000790",
-              "B001319",
-              "S001227",
-              "F000479",
-              "R000618",
-              "A000382",
-              "S001232",
-              "M001242",
-              "M001243",
-              "J000312",
-              "H001104",
-              "M001244"
-            ],
-            "id": "119-HR-5366-2"
-          }
-        ]
-      },
-      {
-        "actionDate": "2026-08-07",
-        "committees": [
-          {
-            "name": "Finance Committee",
-            "systemCode": "ssfi00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssfi00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Senate Committee on Finance discharged by Unanimous Consent.",
-        "type": "Discharge"
-      },
-      {
-        "actionDate": "2026-04-28",
-        "committees": [
-          {
-            "name": "Finance Committee",
-            "systemCode": "ssfi00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssfi00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Received in the Senate and Read twice and referred to the Committee on Finance.",
-        "type": "IntroReferral"
-      },
-      {
         "actionCode": "H38310",
-        "actionDate": "2026-04-27",
-        "actionTime": "16:15:13",
+        "actionDate": "2026-08-31",
+        "actionTime": "15:46:43",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -180,25 +16,25 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-04-27",
-        "actionTime": "16:15:09",
+        "actionDate": "2026-08-31",
+        "actionTime": "15:46:16",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3107-3108)",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-04-27",
+            "date": "2026-08-31",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/5366",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/858",
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
@@ -641,221 +477,207 @@
               "V000139",
               "M001245"
             ],
-            "id": "119-HR-5366-1"
+            "id": "119-S-858-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-04-27",
-        "actionTime": "15:55:01",
+        "actionDate": "2026-08-31",
+        "actionTime": "15:32:43",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5366.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on S. 858.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-04-27",
-        "actionTime": "15:54:58",
+        "actionDate": "2026-08-31",
+        "actionTime": "15:32:42",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3107-3110)",
+        "text": "Considered under suspension of the rules.",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-04-27",
-        "actionTime": "15:54:41",
+        "actionDate": "2026-08-31",
+        "actionTime": "15:32:28",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Smith (MO) moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Westerman moved to suspend the rules and pass the bill.",
         "type": "Floor"
       },
       {
-        "actionCode": "H12410",
-        "actionDate": "2026-04-09",
-        "calendarNumber": {
-          "calendar": "U00525"
-        },
+        "actionCode": "H15000",
+        "actionDate": "2026-03-27",
+        "actionTime": "09:09:06",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 525.",
-        "type": "Calendars"
+        "text": "Held at the desk.",
+        "type": "Floor"
       },
       {
-        "actionCode": "H12200",
-        "actionDate": "2026-04-09",
-        "committees": [
-          {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
-          }
-        ],
+        "actionCode": "H14000",
+        "actionDate": "2026-03-27",
+        "actionTime": "09:04:19",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-605.",
-        "type": "Committee"
+        "text": "Received in the House.",
+        "type": "Floor"
       },
       {
-        "actionCode": "H19000",
+        "actionDate": "2026-03-27",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-25",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate with an amendment by Unanimous Consent. (text of amendment in the nature of a substitute: CR S1605)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-03-25",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Measure laid before Senate by unanimous consent. (consideration: CR S1605)",
+        "type": "Floor"
+      },
+      {
         "actionDate": "2026-03-25",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
           }
         ],
         "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
+          "name": "Senate"
         },
-        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 43 - 0.",
+        "text": "Senate Committee on Energy and Natural Resources discharged by Unanimous Consent.",
+        "type": "Discharge"
+      },
+      {
+        "actionDate": "2025-12-17",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
         "type": "Committee"
       },
       {
-        "actionCode": "H15001",
-        "actionDate": "2026-03-25",
+        "actionDate": "2025-12-09",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "National Parks Subcommittee",
+            "systemCode": "sseg04",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg04?format=json"
           }
         ],
         "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
+          "name": "Senate"
         },
-        "text": "Committee Consideration and Mark-up Session Held",
+        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
         "type": "Committee"
       },
       {
-        "actionCode": "H11100",
-        "actionDate": "2025-09-15",
+        "actionDate": "2025-03-05",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
           }
         ],
         "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
+          "name": "Senate"
         },
-        "text": "Referred to the House Committee on Ways and Means.",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-09-15",
+  "introducedDate": "2025-03-05",
   "latestAction": {
-    "actionDate": "2026-08-10",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-08-31",
+    "actionTime": "15:46:43",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5366",
-  "number": "5366",
-  "originChamber": "House",
-  "originChamberCode": "H",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/858",
+  "number": "858",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/5366/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/s/858/summaries?format=json"
   },
-  "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
+  "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "ENR",
-        "billTextVersionName": "Enrolled Bill",
-        "chamberCode": "J",
-        "chamberName": "Joint",
-        "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
-        "titleType": "Short Titles from ENR (Enrolled) bill text",
-        "titleTypeCode": 147,
-        "updateDate": "2026-08-11T05:53:23Z"
-      },
-      {
-        "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
+        "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:40:46Z"
+        "updateDate": "2026-03-28T11:03:19Z"
       },
       {
-        "billTextVersionCode": "RFS",
-        "billTextVersionName": "Referred in Senate",
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
-        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
-        "titleTypeCode": 255,
-        "updateDate": "2026-05-01T06:53:28Z"
+        "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2026-03-26T06:38:22Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Internal Revenue Code of 1986 to codify and extend the rules for personal casualty losses arising from major disasters and the rules for the exclusion from gross income of compensation for losses or damages resulting from certain wildfires.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-29T05:08:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-04-29T05:08:27Z"
-      },
-      {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
-        "titleType": "Short Title(s) as Reported to House",
-        "titleTypeCode": 102,
-        "updateDate": "2026-04-10T06:08:23Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Federal Disaster Tax Relief Act of 2025",
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-11-26T05:23:19Z"
+        "updateDate": "2025-03-27T01:53:18Z"
       },
       {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To amend the Internal Revenue Code of 1986 to codify and extend the rules for personal casualty losses arising from major disasters and the rules for the exclusion from gross income of compensation for losses or damages resulting from certain wildfires.",
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to authorize the National Medal of Honor Museum Foundation to establish a commemorative work on the National Mall to honor the extraordinary acts of valor, selfless service, and sacrifice displayed by Medal of Honor recipients.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-11-26T05:18:19Z"
+        "updateDate": "2025-03-27T01:48:25Z"
       }
     ]
   },
-  "type": "HR",
-  "updateDate": "2026-08-31T19:31:15Z",
-  "updateDateIncludingText": "2026-08-31T19:31:15Z",
-  "id": "119-HR-5366",
-  "lastActionDate": "2026-08-10",
-  "lastRecordedVoteDate": "2026-08-07"
+  "type": "S",
+  "updateDate": "2026-09-01T08:05:46Z",
+  "updateDateIncludingText": "2026-09-01T08:05:46Z",
+  "id": "119-S-858",
+  "lastActionDate": "2026-08-31",
+  "lastRecordedVoteDate": "2026-08-31"
 }
