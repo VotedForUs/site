@@ -616,6 +616,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Kayleigh’s Law Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend title 18, United States Code, to provide for the issuance of natural lifetime injunctions for certain victims.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
         "title": "Kayleigh’s Law Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -650,8 +670,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-01T08:05:47Z",
-  "updateDateIncludingText": "2026-09-01T08:05:47Z",
+  "updateDate": "2026-09-02T02:38:21Z",
+  "updateDateIncludingText": "2026-09-02T09:18:28Z",
   "id": "119-HR-8481",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31"

@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 14,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1869/actions?format=json",
+    "count": 6,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1504/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
-        "actionDate": "2026-08-31",
-        "actionTime": "17:14:29",
+        "actionDate": "2026-09-01",
+        "actionTime": "15:22:32",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,25 +16,25 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-08-31",
-        "actionTime": "17:14:26",
+        "actionDate": "2026-09-01",
+        "actionTime": "15:22:24",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and agree to the resolution Agreed to by voice vote.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-08-31",
+            "date": "2026-09-01",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/1869",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hres/1504",
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
@@ -477,25 +477,25 @@
               "V000139",
               "M001245"
             ],
-            "id": "119-HR-1869-1"
+            "id": "119-HRES-1504-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-08-31",
-        "actionTime": "17:01:42",
+        "actionDate": "2026-09-01",
+        "actionTime": "15:10:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1869.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H. Res. 1504.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-08-31",
-        "actionTime": "17:01:24",
+        "actionDate": "2026-09-01",
+        "actionTime": "15:10:16",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -505,174 +505,49 @@
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-08-31",
-        "actionTime": "17:01:04",
+        "actionDate": "2026-09-01",
+        "actionTime": "15:10:15",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Schmidt moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Guest moved to suspend the rules and agree to the resolution.",
         "type": "Floor"
-      },
-      {
-        "actionCode": "H12410",
-        "actionDate": "2026-08-27",
-        "calendarNumber": {
-          "calendar": "U00683"
-        },
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Placed on the Union Calendar, Calendar No. 683.",
-        "type": "Calendars"
-      },
-      {
-        "actionCode": "H12200",
-        "actionDate": "2026-08-27",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Reported (Amended) by the Committee on Judiciary. H. Rept. 119-782.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H19000",
-        "actionDate": "2026-06-03",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 23 - 0.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H15001",
-        "actionDate": "2026-06-03",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Committee Consideration and Mark-up Session Held",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2025-03-05",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Referred to the House Committee on the Judiciary.",
-        "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-03-05",
+  "introducedDate": "2026-09-01",
   "latestAction": {
-    "actionDate": "2026-08-31",
-    "actionTime": "17:14:29",
+    "actionDate": "2026-09-01",
+    "actionTime": "15:22:32",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1869",
-  "number": "1869",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1504",
+  "number": "1504",
   "originChamber": "House",
   "originChamberCode": "H",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/1869/summaries?format=json"
-  },
-  "title": "Protecting American Industry and Labor from International Trade Crimes Act of 2026",
+  "title": "Resolution recommending that the House of Representatives find Michael Joseph in contempt of Congress for refusal to comply with subpoenas duly issued by the Committee on Ethics.",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Protecting American Industry and Labor from International Trade Crimes Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-09-02T02:38:21Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To strengthen the Department of Justice’s enforcement against trade-related crimes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-09-02T02:38:21Z"
-      },
-      {
-        "title": "Protecting American Industry and Labor from International Trade Crimes Act of 2026",
+        "title": "Resolution recommending that the House of Representatives find Michael Joseph in contempt of Congress for refusal to comply with subpoenas duly issued by the Committee on Ethics.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-08-28T04:38:43Z"
+        "updateDate": "2026-09-02T08:06:23Z"
       },
       {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Protecting American Industry and Labor from International Trade Crimes Act of 2026",
-        "titleType": "Short Title(s) as Reported to House",
-        "titleTypeCode": 102,
-        "updateDate": "2026-08-28T04:38:42Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Protecting American Industry and Labor from International Trade Crimes Act of 2025",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-03-21T10:53:19Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To strengthen the Department of Justice's enforcement against trade-related crimes.",
+        "title": "Resolution recommending that the House of Representatives find Michael Joseph in contempt of Congress for refusal to comply with subpoenas duly issued by the Committee on Ethics.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-03-21T10:48:23Z"
+        "updateDate": "2026-09-02T08:06:23Z"
       }
     ]
   },
-  "type": "HR",
-  "updateDate": "2026-09-02T02:38:21Z",
-  "updateDateIncludingText": "2026-09-02T09:33:27Z",
-  "id": "119-HR-1869",
-  "lastActionDate": "2026-08-31",
-  "lastRecordedVoteDate": "2026-08-31"
+  "type": "HRES",
+  "updateDate": "2026-09-02T08:06:23Z",
+  "updateDateIncludingText": "2026-09-02T08:06:23Z",
+  "id": "119-HRES-1504",
+  "lastActionDate": "2026-09-01",
+  "lastRecordedVoteDate": "2026-09-01"
 }

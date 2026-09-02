@@ -586,24 +586,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To make revisions in title 51, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To make revisions in title 51, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To make revisions in title 51, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-09-10T05:18:27Z"
-      },
-      {
-        "title": "To make revisions in title 51, United States Code, as necessary to keep the title current, and to make technical amendments to improve the United States Code.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-09-09T08:05:56Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-01T08:05:39Z",
-  "updateDateIncludingText": "2026-09-01T08:05:39Z",
+  "updateDate": "2026-09-02T02:38:21Z",
+  "updateDateIncludingText": "2026-09-02T09:48:30Z",
   "id": "119-HR-5174",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31"
