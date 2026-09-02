@@ -769,6 +769,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "LACA",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Local Access to Courts Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
         "title": "LACA",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -821,8 +841,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-01T08:06:04Z",
-  "updateDateIncludingText": "2026-09-01T08:06:04Z",
+  "updateDate": "2026-09-02T02:38:21Z",
+  "updateDateIncludingText": "2026-09-02T02:38:21Z",
   "id": "119-S-32",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31T23:11:54Z"

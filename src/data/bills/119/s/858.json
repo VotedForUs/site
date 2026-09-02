@@ -641,6 +641,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
         "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -675,8 +685,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-01T08:05:46Z",
-  "updateDateIncludingText": "2026-09-01T08:05:46Z",
+  "updateDate": "2026-09-02T02:38:21Z",
+  "updateDateIncludingText": "2026-09-02T02:38:21Z",
   "id": "119-S-858",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31"

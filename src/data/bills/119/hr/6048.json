@@ -599,21 +599,41 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/6048/summaries?format=json"
   },
-  "title": "NDO Fairness Act",
+  "title": "NDO Fairness Act of 2025",
   "titles": {
     "titles": [
+      {
+        "title": "NDO Fairness Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "NDO Fairness Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-02T02:38:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend title 18, United States Code, to modify delayed notice requirements, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-02T02:38:20Z"
+      },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "NDO Fairness Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-11-20T05:53:20Z"
-      },
-      {
-        "title": "NDO Fairness Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
         "updateDate": "2025-11-20T05:53:20Z"
       },
       {
@@ -627,8 +647,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-01T08:06:07Z",
-  "updateDateIncludingText": "2026-09-01T08:06:07Z",
+  "updateDate": "2026-09-02T02:38:21Z",
+  "updateDateIncludingText": "2026-09-02T09:48:27Z",
   "id": "119-HR-6048",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31"

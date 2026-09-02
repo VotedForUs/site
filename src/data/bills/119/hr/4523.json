@@ -586,24 +586,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-02T02:38:21Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-07-31T04:33:30Z"
-      },
-      {
-        "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-18T11:10:53Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-01T08:05:57Z",
-  "updateDateIncludingText": "2026-09-01T08:05:57Z",
+  "updateDate": "2026-09-02T02:38:21Z",
+  "updateDateIncludingText": "2026-09-02T10:18:23Z",
   "id": "119-HR-4523",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31"
