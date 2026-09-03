@@ -506,7 +506,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 210 - 208 (Roll no. 288).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 210 - 208 (Roll no. 288). (text: CR H5368)",
         "type": "Floor"
       },
       {
@@ -1012,7 +1012,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5387-5389)",
         "type": "Floor"
       },
       {
@@ -1045,7 +1045,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H5368-5377)",
         "type": "Floor"
       },
       {
@@ -1109,7 +1109,17 @@
         "title": "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-01T08:06:04Z"
+        "updateDate": "2026-09-03T03:23:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-03T03:23:19Z"
       },
       {
         "title": "Providing for consideration of the bill (H.R. 1501) to amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes; providing for consideration of the bill (H.R. 9436) to amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective; providing for consideration of the resolution (H. Res. 1490) providing for the condemnation and denouncement of socialism in all its forms, and for other purposes; providing for consideration of the bill (H.R. 4795) to amend the Higher Education Act of 1965 to prohibit an institution that participates in a nonexpressive commercial boycott of Israel from being eligible for certain funds under that Act, to require an institution that participates in certain programs under that Act to certify that students are not unreasonably obstructed from participating in academic programs in Israel, and for other purposes; and relating to consideration of motions to suspend the rules.",
@@ -1120,8 +1130,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-09-02T08:06:30Z",
-  "updateDateIncludingText": "2026-09-02T08:06:30Z",
+  "updateDate": "2026-09-03T08:05:35Z",
+  "updateDateIncludingText": "2026-09-03T10:33:20Z",
   "id": "119-HRES-1499",
   "lastActionDate": "2026-09-01",
   "lastRecordedVoteDate": "2026-09-01T18:21:14Z"

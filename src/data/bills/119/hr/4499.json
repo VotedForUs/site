@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5275-5280)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +500,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5275-5281)",
         "type": "Floor"
       },
       {
@@ -586,24 +586,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To make technical amendments to update statutory references to provisions reclassified to title 34, United States Code, and to correct related technical errors.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-03T02:53:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To make technical amendments to update statutory references to provisions reclassified to title 34, United States Code, and to correct related technical errors.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-03T02:53:19Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To make technical amendments to update statutory references to provisions reclassified to title 34, United States Code, and to correct related technical errors.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2025-07-29T07:48:19Z"
-      },
-      {
-        "title": "To make technical amendments to update statutory references to provisions reclassified to title 34, United States Code, and to correct related technical errors.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-18T11:10:53Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-01T08:05:31Z",
-  "updateDateIncludingText": "2026-09-01T08:05:31Z",
+  "updateDate": "2026-09-03T02:53:19Z",
+  "updateDateIncludingText": "2026-09-03T09:33:26Z",
   "id": "119-HR-4499",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31"
