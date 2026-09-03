@@ -1,12 +1,12 @@
 {
   "actions": {
-    "count": 12,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1490/actions?format=json",
+    "count": 21,
+    "url": "https://api.congress.gov/v3/bill/119/hr/1501/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
-        "actionDate": "2026-09-01",
-        "actionTime": "17:48:38",
+        "actionDate": "2026-09-02",
+        "actionTime": "16:50:17",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,16 +16,16 @@
       },
       {
         "actionCode": "H37100",
-        "actionDate": "2026-09-01",
-        "actionTime": "17:48:36",
+        "actionDate": "2026-09-02",
+        "actionTime": "16:50:15",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-09-01T21:48:36Z",
-            "rollNumber": 289,
+            "date": "2026-09-02T20:50:15Z",
+            "rollNumber": 294,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll289.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll294.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -72,16 +72,17 @@
               "B001325": "Yea",
               "B001326": "Nay",
               "B001327": "Yea",
+              "B001328": "Nay",
               "C000059": "Yea",
               "C000537": "Nay",
               "C001039": "Yea",
               "C001051": "Yea",
               "C001053": "Yea",
               "C001055": "Nay",
-              "C001059": "Nay",
+              "C001059": "Yea",
               "C001061": "Nay",
               "C001063": "Yea",
-              "C001066": "Yea",
+              "C001066": "Nay",
               "C001067": "Nay",
               "C001068": "Nay",
               "C001069": "Nay",
@@ -98,7 +99,7 @@
               "C001116": "Yea",
               "C001117": "Nay",
               "C001118": "Yea",
-              "C001119": "Not Voting",
+              "C001119": "Nay",
               "C001120": "Yea",
               "C001121": "Nay",
               "C001123": "Nay",
@@ -146,7 +147,7 @@
               "F000450": "Yea",
               "F000454": "Nay",
               "F000459": "Yea",
-              "F000462": "Not Voting",
+              "F000462": "Nay",
               "F000466": "Yea",
               "F000468": "Nay",
               "F000469": "Yea",
@@ -159,7 +160,7 @@
               "F000477": "Nay",
               "F000478": "Yea",
               "F000480": "Yea",
-              "F000481": "Not Voting",
+              "F000481": "Nay",
               "F000482": "Yea",
               "F000483": "Nay",
               "F000484": "Yea",
@@ -171,7 +172,7 @@
               "G000565": "Yea",
               "G000568": "Yea",
               "G000576": "Yea",
-              "G000581": "Yea",
+              "G000581": "Nay",
               "G000583": "Nay",
               "G000585": "Nay",
               "G000586": "Nay",
@@ -182,13 +183,13 @@
               "G000593": "Yea",
               "G000597": "Yea",
               "G000598": "Nay",
-              "G000599": "Nay",
+              "G000599": "Not Voting",
               "G000600": "Yea",
               "G000601": "Yea",
               "G000602": "Nay",
               "G000603": "Yea",
-              "G000604": "Present",
-              "G000605": "Nay",
+              "G000604": "Nay",
+              "G000605": "Yea",
               "G000606": "Nay",
               "G000607": "Yea",
               "H000874": "Nay",
@@ -202,7 +203,7 @@
               "H001077": "Yea",
               "H001081": "Nay",
               "H001082": "Yea",
-              "H001085": "Present",
+              "H001085": "Nay",
               "H001086": "Yea",
               "H001090": "Nay",
               "H001091": "Yea",
@@ -252,7 +253,7 @@
               "L000491": "Yea",
               "L000557": "Nay",
               "L000560": "Nay",
-              "L000562": "Not Voting",
+              "L000562": "Nay",
               "L000566": "Yea",
               "L000582": "Nay",
               "L000583": "Yea",
@@ -298,7 +299,7 @@
               "M001214": "Nay",
               "M001215": "Yea",
               "M001216": "Not Voting",
-              "M001217": "Not Voting",
+              "M001217": "Nay",
               "M001218": "Yea",
               "M001220": "Nay",
               "M001222": "Yea",
@@ -316,15 +317,15 @@
               "M001234": "Nay",
               "M001235": "Yea",
               "M001236": "Yea",
-              "M001237": "Nay",
+              "M001237": "Yea",
               "M001238": "Nay",
               "M001239": "Yea",
-              "M001240": "Yea",
+              "M001240": "Not Voting",
               "M001241": "Nay",
               "M001245": "Nay",
               "M001246": "Nay",
               "N000002": "Nay",
-              "N000015": "Not Voting",
+              "N000015": "Nay",
               "N000026": "Yea",
               "N000188": "Nay",
               "N000189": "Yea",
@@ -335,9 +336,9 @@
               "O000086": "Yea",
               "O000172": "Nay",
               "O000173": "Nay",
-              "O000175": "Not Voting",
+              "O000175": "Yea",
               "O000176": "Nay",
-              "O000177": "Yea",
+              "O000177": "Not Voting",
               "P000034": "Nay",
               "P000048": "Yea",
               "P000197": "Nay",
@@ -390,7 +391,7 @@
               "S001195": "Yea",
               "S001196": "Yea",
               "S001199": "Yea",
-              "S001200": "Yea",
+              "S001200": "Nay",
               "S001201": "Nay",
               "S001205": "Nay",
               "S001211": "Nay",
@@ -436,7 +437,7 @@
               "V000133": "Yea",
               "V000134": "Yea",
               "V000135": "Yea",
-              "V000136": "Yea",
+              "V000136": "Nay",
               "V000138": "Nay",
               "V000139": "Yea",
               "W000187": "Nay",
@@ -458,34 +459,34 @@
               "W000831": "Nay",
               "Y000067": "Yea",
               "Z000018": "Yea",
-              "B001328": "Nay"
+              "W000832": "Nay"
             },
             "result": "passed",
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll289.xml",
-            "question": "On Agreeing to the Resolution",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll294.xml",
+            "question": "On Passage",
             "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
-                "notVotingTotal": 7,
+                "notVotingTotal": 8,
                 "party": {
                   "name": "Republican",
                   "type": "R"
                 },
                 "presentTotal": 0,
                 "voteParty": "R",
-                "yeaTotal": 211
+                "yeaTotal": 210
               },
               {
-                "nayTotal": 192,
-                "notVotingTotal": 11,
+                "nayTotal": 201,
+                "notVotingTotal": 6,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
-                "presentTotal": 2,
+                "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 8
+                "yeaTotal": 7
               },
               {
                 "nayTotal": 0,
@@ -499,42 +500,64 @@
                 "yeaTotal": 1
               }
             ],
-            "id": "119-HRES-1490-1"
+            "id": "119-HR-1501-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 192, 2 Present (Roll no. 289). (text: CR H5401-5402)",
+        "text": "On passage Passed by the Yeas and Nays: 218 - 201 (Roll no. 294).",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-09-02",
+        "actionTime": "16:41:09",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered as unfinished business.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-09-02",
+        "actionTime": "14:32:46",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 1501, the Chair put the question on passage and by voice vote, announced the ayes had prevailed. Mr. Huffman demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
         "type": "Floor"
       },
       {
         "actionCode": "H35000",
-        "actionDate": "2026-09-01",
-        "actionTime": "17:10:30",
+        "actionDate": "2026-09-02",
+        "actionTime": "14:31:48",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "The previous question was ordered pursuant to the rule on the resolution and the preamble.",
+        "text": "The previous question was ordered pursuant to the rule.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-09-01",
-        "actionTime": "16:19:46",
+        "actionDate": "2026-09-02",
+        "actionTime": "13:41:25",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with one hour of debate on H. Res. 1490.",
+        "text": "DEBATE - The House proceeded with one hour of debate on H.R. 1501.",
         "type": "Floor"
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-09-01",
-        "actionTime": "16:19:18",
+        "actionDate": "2026-09-02",
+        "actionTime": "13:39:47",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -544,13 +567,13 @@
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-09-01",
-        "actionTime": "16:19:13",
+        "actionDate": "2026-09-02",
+        "actionTime": "13:39:42",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1499. (consideration: CR H5401-5408)",
+        "text": "Considered under the provisions of rule H. Res. 1499.",
         "type": "Floor"
       },
       {
@@ -565,99 +588,195 @@
         "type": "Floor"
       },
       {
-        "actionCode": "H11100",
-        "actionDate": "2026-08-27",
+        "actionCode": "H12410",
+        "actionDate": "2026-06-09",
+        "calendarNumber": {
+          "calendar": "U00601"
+        },
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Placed on the Union Calendar, Calendar No. 601.",
+        "type": "Calendars"
+      },
+      {
+        "actionCode": "H12200",
+        "actionDate": "2026-06-09",
         "committees": [
           {
-            "name": "Financial Services Committee",
-            "systemCode": "hsba00",
-            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on House Administration, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
+        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-691.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-04-21",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 21 - 16.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2026-04-21",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H25000",
+        "actionDate": "2026-04-21",
+        "committees": [
+          {
+            "name": "Energy and Mineral Resources Subcommittee",
+            "systemCode": "hsii06",
+            "url": "https://api.congress.gov/v3/committee/house/hsii06?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee on Energy and Mineral Resources Discharged",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H21000",
+        "actionDate": "2026-02-24",
+        "committees": [
+          {
+            "name": "Energy and Mineral Resources Subcommittee",
+            "systemCode": "hsii06",
+            "url": "https://api.congress.gov/v3/committee/house/hsii06?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Hearings Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2026-02-17",
+        "committees": [
+          {
+            "name": "Energy and Mineral Resources Subcommittee",
+            "systemCode": "hsii06",
+            "url": "https://api.congress.gov/v3/committee/house/hsii06?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Energy and Mineral Resources.",
+        "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2026-08-27",
+        "actionDate": "2025-02-21",
         "committees": [
           {
-            "name": "Committee on House Administration",
-            "systemCode": "hsha00",
-            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on House Administration, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2026-08-27",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Submitted in House",
+        "text": "Referred to the House Committee on Natural Resources.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-08-27",
+  "introducedDate": "2025-02-21",
   "latestAction": {
-    "actionDate": "2026-09-01",
-    "actionTime": "17:48:38",
+    "actionDate": "2026-09-02",
+    "actionTime": "16:50:17",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1490",
-  "number": "1490",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1501",
+  "number": "1501",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1490/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/1501/summaries?format=json"
   },
-  "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+  "title": "Protecting Domestic Mining Act of 2025",
   "titles": {
     "titles": [
       {
-        "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+        "title": "Protecting Domestic Mining Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-03T02:53:20Z"
+        "updateDate": "2026-07-17T23:42:23Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-09-03T02:53:19Z"
+        "title": "Protecting Domestic Mining Act of 2025",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2026-06-10T07:23:24Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+        "title": "Protecting Domestic Mining Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-18T05:23:22Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the FAST Act to include certain mineral production activities as a covered project, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-08-28T08:48:41Z"
+        "updateDate": "2025-03-18T05:18:31Z"
       }
     ]
   },
-  "type": "HRES",
-  "updateDate": "2026-09-03T08:05:20Z",
-  "updateDateIncludingText": "2026-09-03T10:48:32Z",
-  "id": "119-HRES-1490",
-  "lastActionDate": "2026-09-01",
-  "lastRecordedVoteDate": "2026-09-01T21:48:36Z"
+  "type": "HR",
+  "updateDate": "2026-09-03T08:09:19Z",
+  "updateDateIncludingText": "2026-09-03T08:09:19Z",
+  "id": "119-HR-1501",
+  "lastActionDate": "2026-09-02",
+  "lastRecordedVoteDate": "2026-09-02T20:50:15Z"
 }

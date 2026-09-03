@@ -1,31 +1,20 @@
 {
   "actions": {
-    "count": 12,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1490/actions?format=json",
+    "count": 15,
+    "url": "https://api.congress.gov/v3/bill/119/hjres/1/actions?format=json",
     "actions": [
       {
-        "actionCode": "H38310",
-        "actionDate": "2026-09-01",
-        "actionTime": "17:48:38",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Motion to reconsider laid on the table Agreed to without objection.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H37100",
-        "actionDate": "2026-09-01",
-        "actionTime": "17:48:36",
+        "actionCode": "H37300",
+        "actionDate": "2026-09-02",
+        "actionTime": "16:35:33",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-09-01T21:48:36Z",
-            "rollNumber": 289,
+            "date": "2026-09-02T20:35:33Z",
+            "rollNumber": 293,
             "sessionNumber": 2,
-            "url": "https://clerk.house.gov/evs/2026/roll289.xml",
+            "url": "https://clerk.house.gov/evs/2026/roll293.xml",
             "votes": {
               "A000055": "Yea",
               "A000148": "Nay",
@@ -49,7 +38,7 @@
               "B001285": "Nay",
               "B001287": "Nay",
               "B001291": "Yea",
-              "B001292": "Nay",
+              "B001292": "Not Voting",
               "B001295": "Yea",
               "B001296": "Nay",
               "B001298": "Yea",
@@ -72,6 +61,7 @@
               "B001325": "Yea",
               "B001326": "Nay",
               "B001327": "Yea",
+              "B001328": "Nay",
               "C000059": "Yea",
               "C000537": "Nay",
               "C001039": "Yea",
@@ -80,8 +70,8 @@
               "C001055": "Nay",
               "C001059": "Nay",
               "C001061": "Nay",
-              "C001063": "Yea",
-              "C001066": "Yea",
+              "C001063": "Nay",
+              "C001066": "Nay",
               "C001067": "Nay",
               "C001068": "Nay",
               "C001069": "Nay",
@@ -98,7 +88,7 @@
               "C001116": "Yea",
               "C001117": "Nay",
               "C001118": "Yea",
-              "C001119": "Not Voting",
+              "C001119": "Nay",
               "C001120": "Yea",
               "C001121": "Nay",
               "C001123": "Nay",
@@ -146,7 +136,7 @@
               "F000450": "Yea",
               "F000454": "Nay",
               "F000459": "Yea",
-              "F000462": "Not Voting",
+              "F000462": "Nay",
               "F000466": "Yea",
               "F000468": "Nay",
               "F000469": "Yea",
@@ -159,7 +149,7 @@
               "F000477": "Nay",
               "F000478": "Yea",
               "F000480": "Yea",
-              "F000481": "Not Voting",
+              "F000481": "Nay",
               "F000482": "Yea",
               "F000483": "Nay",
               "F000484": "Yea",
@@ -171,23 +161,23 @@
               "G000565": "Yea",
               "G000568": "Yea",
               "G000576": "Yea",
-              "G000581": "Yea",
+              "G000581": "Nay",
               "G000583": "Nay",
               "G000585": "Nay",
               "G000586": "Nay",
               "G000587": "Nay",
               "G000589": "Yea",
               "G000591": "Yea",
-              "G000592": "Yea",
+              "G000592": "Nay",
               "G000593": "Yea",
               "G000597": "Yea",
               "G000598": "Nay",
-              "G000599": "Nay",
-              "G000600": "Yea",
+              "G000599": "Not Voting",
+              "G000600": "Nay",
               "G000601": "Yea",
               "G000602": "Nay",
               "G000603": "Yea",
-              "G000604": "Present",
+              "G000604": "Nay",
               "G000605": "Nay",
               "G000606": "Nay",
               "G000607": "Yea",
@@ -202,7 +192,7 @@
               "H001077": "Yea",
               "H001081": "Nay",
               "H001082": "Yea",
-              "H001085": "Present",
+              "H001085": "Nay",
               "H001086": "Yea",
               "H001090": "Nay",
               "H001091": "Yea",
@@ -243,7 +233,7 @@
               "K000398": "Yea",
               "K000399": "Yea",
               "K000400": "Nay",
-              "K000401": "Yea",
+              "K000401": "Nay",
               "K000402": "Nay",
               "K000403": "Yea",
               "K000405": "Yea",
@@ -252,7 +242,7 @@
               "L000491": "Yea",
               "L000557": "Nay",
               "L000560": "Nay",
-              "L000562": "Not Voting",
+              "L000562": "Nay",
               "L000566": "Yea",
               "L000582": "Nay",
               "L000583": "Yea",
@@ -276,7 +266,7 @@
               "M000687": "Nay",
               "M000871": "Yea",
               "M001136": "Yea",
-              "M001137": "Nay",
+              "M001137": "Not Voting",
               "M001143": "Nay",
               "M001157": "Not Voting",
               "M001160": "Nay",
@@ -298,7 +288,7 @@
               "M001214": "Nay",
               "M001215": "Yea",
               "M001216": "Not Voting",
-              "M001217": "Not Voting",
+              "M001217": "Nay",
               "M001218": "Yea",
               "M001220": "Nay",
               "M001222": "Yea",
@@ -319,12 +309,12 @@
               "M001237": "Nay",
               "M001238": "Nay",
               "M001239": "Yea",
-              "M001240": "Yea",
+              "M001240": "Not Voting",
               "M001241": "Nay",
               "M001245": "Nay",
               "M001246": "Nay",
               "N000002": "Nay",
-              "N000015": "Not Voting",
+              "N000015": "Nay",
               "N000026": "Yea",
               "N000188": "Nay",
               "N000189": "Yea",
@@ -335,7 +325,7 @@
               "O000086": "Yea",
               "O000172": "Nay",
               "O000173": "Nay",
-              "O000175": "Not Voting",
+              "O000175": "Yea",
               "O000176": "Nay",
               "O000177": "Yea",
               "P000034": "Nay",
@@ -390,7 +380,7 @@
               "S001195": "Yea",
               "S001196": "Yea",
               "S001199": "Yea",
-              "S001200": "Yea",
+              "S001200": "Nay",
               "S001201": "Nay",
               "S001205": "Nay",
               "S001211": "Nay",
@@ -436,7 +426,7 @@
               "V000133": "Yea",
               "V000134": "Yea",
               "V000135": "Yea",
-              "V000136": "Yea",
+              "V000136": "Nay",
               "V000138": "Nay",
               "V000139": "Yea",
               "W000187": "Nay",
@@ -458,11 +448,11 @@
               "W000831": "Nay",
               "Y000067": "Yea",
               "Z000018": "Yea",
-              "B001328": "Nay"
+              "W000832": "Nay"
             },
-            "result": "passed",
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll289.xml",
-            "question": "On Agreeing to the Resolution",
+            "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll293.xml",
+            "question": "On Motion to Suspend the Rules and Pass",
             "recordType": "roll-call",
             "votePartyTotal": [
               {
@@ -477,18 +467,18 @@
                 "yeaTotal": 211
               },
               {
-                "nayTotal": 192,
-                "notVotingTotal": 11,
+                "nayTotal": 205,
+                "notVotingTotal": 8,
                 "party": {
                   "name": "Democrat",
                   "type": "D"
                 },
-                "presentTotal": 2,
+                "presentTotal": 0,
                 "voteParty": "D",
-                "yeaTotal": 8
+                "yeaTotal": 1
               },
               {
-                "nayTotal": 0,
+                "nayTotal": 1,
                 "notVotingTotal": 0,
                 "party": {
                   "name": "Independent",
@@ -496,168 +486,195 @@
                 },
                 "presentTotal": 0,
                 "voteParty": "I",
-                "yeaTotal": 1
+                "yeaTotal": 0
               }
             ],
-            "id": "119-HRES-1490-1"
+            "id": "119-HJRES-1-1"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 192, 2 Present (Roll no. 289). (text: CR H5401-5402)",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H35000",
-        "actionDate": "2026-09-01",
-        "actionTime": "17:10:30",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "The previous question was ordered pursuant to the rule on the resolution and the preamble.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-09-01",
-        "actionTime": "16:19:46",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "DEBATE - The House proceeded with one hour of debate on H. Res. 1490.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H8D000",
-        "actionDate": "2026-09-01",
-        "actionTime": "16:19:18",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Rule provides for consideration of H.R. 1501, H.R. 9436, H. Res. 1490 and H.R. 4795. The resolution provides for consideration of H.R. 1501, H.R. 9436, H.Res. 1490, and H.R. 4795 under a closed rule with one hour of general debate on each measure. The resolution provides for a motion to recommit on H.R. 1501, H.R. 9436, and H.R. 4795.",
+        "text": "On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293).",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-09-01",
-        "actionTime": "16:19:13",
+        "actionDate": "2026-09-02",
+        "actionTime": "16:00:37",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1499. (consideration: CR H5401-5408)",
+        "text": "Considered as unfinished business.",
         "type": "Floor"
       },
       {
-        "actionCode": "H1L210",
-        "actionDate": "2026-08-31",
-        "actionTime": "19:51:08",
+        "actionCode": "H37220",
+        "actionDate": "2026-09-02",
+        "actionTime": "13:38:06",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Rules Committee Resolution H. Res. 1499 Reported to House. Rule provides for consideration of H.R. 1501, H.R. 9436, H. Res. 1490 and H.R. 4795. The resolution provides for consideration of H.R. 1501, H.R. 9436, H.Res. 1490, and H.R. 4795 under a closed rule with one hour of general debate on each measure. The resolution provides for a motion to recommit on H.R. 1501, H.R. 9436, and H.R. 4795.",
+        "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
         "type": "Floor"
       },
       {
-        "actionCode": "H11100",
-        "actionDate": "2026-08-27",
+        "actionCode": "H8D000",
+        "actionDate": "2026-09-02",
+        "actionTime": "12:30:28",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with one hour of debate on H.J. Res. 1.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30000",
+        "actionDate": "2026-09-02",
+        "actionTime": "12:30:26",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Considered under suspension of the rules.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H30300",
+        "actionDate": "2026-09-02",
+        "actionTime": "12:30:10",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Biggs (AZ) moved to suspend the rules and pass the resolution.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H12420",
+        "actionDate": "2026-07-06",
+        "calendarNumber": {
+          "calendar": "H00084"
+        },
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Placed on the House Calendar, Calendar No. 84.",
+        "type": "Calendars"
+      },
+      {
+        "actionCode": "H12200",
+        "actionDate": "2026-07-06",
         "committees": [
           {
-            "name": "Financial Services Committee",
-            "systemCode": "hsba00",
-            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "hsju00",
+            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on House Administration, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
+        "text": "Reported by the Committee on Judiciary. H. Rept. 119-732.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-06-03",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "hsju00",
+            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported by the Yeas and Nays: 15 - 8.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2026-06-03",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "hsju00",
+            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2026-08-27",
+        "actionDate": "2025-01-03",
         "committees": [
           {
-            "name": "Committee on House Administration",
-            "systemCode": "hsha00",
-            "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+            "name": "Judiciary Committee",
+            "systemCode": "hsju00",
+            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the Committee on House Administration, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "type": "IntroReferral"
-      },
-      {
-        "actionCode": "H11100",
-        "actionDate": "2026-08-27",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Submitted in House",
+        "text": "Referred to the House Committee on the Judiciary.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-08-27",
+  "introducedDate": "2025-01-03",
   "latestAction": {
-    "actionDate": "2026-09-01",
-    "actionTime": "17:48:38",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-02",
+    "actionTime": "16:35:33",
+    "text": "On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293)."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-resolution/1490",
-  "number": "1490",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/1",
+  "number": "1",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hres/1490/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hjres/1/summaries?format=json"
   },
-  "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+  "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices.",
   "titles": {
     "titles": [
       {
-        "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+        "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-03T02:53:20Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-09-03T02:53:19Z"
+        "updateDate": "2025-07-17T11:33:12Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes.",
+        "title": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-08-28T08:48:41Z"
+        "updateDate": "2025-01-07T14:38:19Z"
       }
     ]
   },
-  "type": "HRES",
-  "updateDate": "2026-09-03T08:05:20Z",
-  "updateDateIncludingText": "2026-09-03T10:48:32Z",
-  "id": "119-HRES-1490",
-  "lastActionDate": "2026-09-01",
-  "lastRecordedVoteDate": "2026-09-01T21:48:36Z"
+  "type": "HJRES",
+  "updateDate": "2026-09-03T08:06:33Z",
+  "updateDateIncludingText": "2026-09-03T08:06:33Z",
+  "id": "119-HJRES-1",
+  "lastActionDate": "2026-09-02",
+  "lastRecordedVoteDate": "2026-09-02T20:35:33Z"
 }

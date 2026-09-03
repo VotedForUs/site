@@ -506,7 +506,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 219 - 196 (Roll no. 291).",
+        "text": "On passage Passed by the Yeas and Nays: 219 - 196 (Roll no. 291). (text: CR H5395)",
         "type": "Floor"
       },
       {
@@ -1019,7 +1019,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5408-5409)",
         "type": "Floor"
       },
       {
@@ -1059,7 +1059,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mrs. Dingell moved to recommit to the Committee on Natural Resources.",
+        "text": "Mrs. Dingell moved to recommit to the Committee on Natural Resources. (text: CR H5401)",
         "type": "Floor"
       },
       {
@@ -1103,7 +1103,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1499.",
+        "text": "Considered under the provisions of rule H. Res. 1499. (consideration: CR H5395-5401)",
         "type": "Floor"
       },
       {
@@ -1219,6 +1219,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Northeast Lobsterman Protection Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-03T02:53:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-03T02:53:19Z"
+      },
+      {
         "title": "Northeast Lobsterman Protection Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1245,8 +1265,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-02T08:09:19Z",
-  "updateDateIncludingText": "2026-09-02T08:09:19Z",
+  "updateDate": "2026-09-03T08:05:46Z",
+  "updateDateIncludingText": "2026-09-03T10:18:28Z",
   "id": "119-HR-9436",
   "lastActionDate": "2026-09-01",
   "lastRecordedVoteDate": "2026-09-01T22:02:04Z"

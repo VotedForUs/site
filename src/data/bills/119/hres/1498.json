@@ -506,7 +506,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 413 - 2 (Roll no. 292).",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 413 - 2 (Roll no. 292). (text: CR H5389)",
         "type": "Floor"
       },
       {
@@ -517,7 +517,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5409-5410)",
         "type": "Floor"
       },
       {
@@ -561,7 +561,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Consideration initiated pursuant to a previous order.",
+        "text": "Consideration initiated pursuant to a previous order. (consideration: CR H5389-5393)",
         "type": "Floor"
       },
       {
@@ -625,7 +625,17 @@
         "title": "In the matter of allegations relating to Representative Chuck Edwards.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-08-29T08:05:55Z"
+        "updateDate": "2026-09-03T03:23:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "In the matter of allegations relating to Representative Chuck Edwards.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-03T03:23:19Z"
       },
       {
         "title": "In the matter of allegations relating to Representative Chuck Edwards.",
@@ -636,8 +646,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-09-02T08:06:39Z",
-  "updateDateIncludingText": "2026-09-02T08:06:39Z",
+  "updateDate": "2026-09-03T08:05:44Z",
+  "updateDateIncludingText": "2026-09-03T10:18:20Z",
   "id": "119-HRES-1498",
   "lastActionDate": "2026-09-01",
   "lastRecordedVoteDate": "2026-09-01T22:10:53Z"
