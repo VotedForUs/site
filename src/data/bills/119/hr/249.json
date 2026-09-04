@@ -15,7 +15,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 119-238.",
         "type": "Committee"
       },
       {
@@ -679,7 +679,7 @@
   "introducedDate": "2025-01-09",
   "latestAction": {
     "actionDate": "2025-12-09",
-    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held."
+    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 119-238."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/249",
   "number": "249",
@@ -719,8 +719,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T02:54:33Z",
-  "updateDateIncludingText": "2026-07-13T20:08:35Z",
+  "updateDate": "2026-09-03T10:56:27Z",
+  "updateDateIncludingText": "2026-09-03T10:56:27Z",
   "id": "119-HR-249",
   "lastActionDate": "2025-12-09",
   "lastRecordedVoteDate": "2025-05-13T23:03:03Z"
