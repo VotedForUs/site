@@ -201,7 +201,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 119-238.",
         "type": "Committee"
       },
       {
@@ -243,7 +243,7 @@
         "title": "Theodore Roosevelt National Park Wild Horses Protection Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-13T11:03:28Z"
+        "updateDate": "2026-09-03T11:03:20Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -274,8 +274,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-23T02:53:33Z",
-  "updateDateIncludingText": "2026-07-18T20:49:21Z",
+  "updateDate": "2026-09-03T11:03:20Z",
+  "updateDateIncludingText": "2026-09-03T11:03:20Z",
   "id": "119-S-1377",
   "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-11"
