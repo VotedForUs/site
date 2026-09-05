@@ -496,7 +496,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293).",
+        "text": "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293).",
         "type": "Floor"
       },
       {
@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5459-5460)",
         "type": "Floor"
       },
       {
@@ -540,7 +540,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5443-5451; text: CR H5443)",
         "type": "Floor"
       },
       {
@@ -642,7 +642,7 @@
   "latestAction": {
     "actionDate": "2026-09-02",
     "actionTime": "16:35:33",
-    "text": "On motion to suspend the rules and pass the resolution Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293)."
+    "text": "On motion to suspend the rules and pass Failed by the Yeas and Nays: (2/3 required): 212 - 206 (Roll no. 293)."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/1",
   "number": "1",
@@ -672,8 +672,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-09-03T08:06:33Z",
-  "updateDateIncludingText": "2026-09-03T08:06:33Z",
+  "updateDate": "2026-09-05T08:06:00Z",
+  "updateDateIncludingText": "2026-09-05T08:06:00Z",
   "id": "119-HJRES-1",
   "lastActionDate": "2026-09-02",
   "lastRecordedVoteDate": "2026-09-02T20:35:33Z"
