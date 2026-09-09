@@ -1818,7 +1818,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
+    "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/hr/6500/summaries?format=json"
   },
   "title": "Continuing Appropriations and Extensions Act, 2027",
@@ -1931,8 +1931,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-04T19:20:42Z",
-  "updateDateIncludingText": "2026-09-04T19:20:42Z",
+  "updateDate": "2026-09-08T12:58:54Z",
+  "updateDateIncludingText": "2026-09-08T12:58:54Z",
   "id": "119-HR-6500",
   "lastActionDate": "2026-09-02",
   "lastRecordedVoteDate": "2026-09-01T18:05:11Z"

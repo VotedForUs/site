@@ -622,7 +622,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 119-238.",
         "type": "Committee"
       },
       {
@@ -660,6 +660,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-03T11:03:20Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -668,12 +674,6 @@
         "titleType": "Short Titles from ENR (Enrolled) bill text",
         "titleTypeCode": 147,
         "updateDate": "2026-09-02T02:38:21Z"
-      },
-      {
-        "title": "Hershel ‘Woody' Williams National Medal of Honor Monument Location Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-28T11:03:19Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -704,8 +704,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-03T08:06:09Z",
-  "updateDateIncludingText": "2026-09-03T08:06:09Z",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:18:56Z",
   "id": "119-S-858",
   "lastActionDate": "2026-09-02",
   "lastRecordedVoteDate": "2026-08-31"

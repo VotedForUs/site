@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5266-5267)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +500,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5266-5268)",
         "type": "Floor"
       },
       {
@@ -647,8 +647,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-02T02:38:21Z",
-  "updateDateIncludingText": "2026-09-02T09:48:27Z",
+  "updateDate": "2026-09-08T17:17:53Z",
+  "updateDateIncludingText": "2026-09-08T17:17:53Z",
   "id": "119-HR-6048",
   "lastActionDate": "2026-08-31",
   "lastRecordedVoteDate": "2026-08-31"

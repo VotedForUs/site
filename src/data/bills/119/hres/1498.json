@@ -618,6 +618,10 @@
   "number": "1498",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hres/1498/summaries?format=json"
+  },
   "title": "In the matter of allegations relating to Representative Chuck Edwards.",
   "titles": {
     "titles": [
@@ -646,8 +650,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-09-03T08:05:44Z",
-  "updateDateIncludingText": "2026-09-03T10:18:20Z",
+  "updateDate": "2026-09-08T18:01:48Z",
+  "updateDateIncludingText": "2026-09-08T18:01:48Z",
   "id": "119-HRES-1498",
   "lastActionDate": "2026-09-01",
   "lastRecordedVoteDate": "2026-09-01T22:10:53Z"
