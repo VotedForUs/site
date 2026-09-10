@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 237 - 169 (Roll no. 295).",
+        "text": "On passage Passed by the Yeas and Nays: 237 - 169 (Roll no. 295). (text: CR H5483)",
         "type": "Floor"
       },
       {
@@ -551,7 +551,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1499.",
+        "text": "Considered under the provisions of rule H. Res. 1499. (consideration: CR H5483-5488)",
         "type": "Floor"
       },
       {
@@ -732,8 +732,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-04T08:09:19Z",
-  "updateDateIncludingText": "2026-09-04T10:04:50Z",
+  "updateDate": "2026-09-09T13:12:06Z",
+  "updateDateIncludingText": "2026-09-09T13:12:06Z",
   "id": "119-HR-4795",
   "lastActionDate": "2026-09-03",
   "lastRecordedVoteDate": "2026-09-03T14:25:40Z"
