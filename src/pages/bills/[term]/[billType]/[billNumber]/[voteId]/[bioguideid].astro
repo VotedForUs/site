@@ -11,6 +11,7 @@ import Layout from '../../../../../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { getLimitedBillIds } from '../../../../../../buildConfig';
 import { shouldBuildPage } from '../../../../../../utils/buildManifest.js';
+import { memberIdsForDisplay } from '../../../../../../utils/memberCastsForDisplay.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
@@ -28,7 +29,7 @@ export async function getStaticPaths() {
 
   for (const vote of allVotes.filter(v => limitedBillIds.has(v.data.billId))) {
     const [term, billType, billNumber, voteSegment] = vote.id.split('-');
-    for (const bioguideid of Object.keys(vote.data.votes ?? {})) {
+    for (const bioguideid of memberIdsForDisplay(vote.data)) {
       if (shouldBuildPage('legislator-votes-loader', `${bioguideid}-${vote.id}`)) {
         paths.push({
           params: { term, billType: billType.toLowerCase(), billNumber, voteId: voteSegment, bioguideid },

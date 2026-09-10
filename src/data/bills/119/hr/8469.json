@@ -1,8 +1,24 @@
 {
   "actions": {
-    "count": 28,
+    "count": 30,
     "url": "https://api.congress.gov/v3/bill/119/hr/8469/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 455.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-07-13",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2026-05-20",
         "sourceSystem": {
@@ -705,6 +721,7 @@
               "S001145",
               "S001183",
               "S001189",
+              "S001157",
               "S000185",
               "S001185",
               "S000344",
@@ -735,6 +752,7 @@
               "T000468",
               "H001068",
               "B001287",
+              "S001193",
               "B001285",
               "R000599",
               "T000472",
@@ -911,6 +929,7 @@
               "P000048",
               "J000304",
               "N000026",
+              "G000594",
               "V000134",
               "M001213",
               "O000086",
@@ -923,6 +942,7 @@
               "E000071",
               "B001313",
               "C001126",
+              "C001127",
               "F000474",
               "F000475",
               "R000579",
@@ -1071,9 +1091,7 @@
               "W000831",
               "G000606",
               "V000139",
-              "M001245",
-              "F000485",
-              "M001246"
+              "M001245"
             ],
             "id": "119-HR-8469-1"
           }
@@ -1235,8 +1253,8 @@
   "congress": 119,
   "introducedDate": "2026-04-23",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "text": "Received in the Senate."
+    "actionDate": "2026-07-14",
+    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 455."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8469",
   "number": "8469",
@@ -1304,9 +1322,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-13T13:23:41Z",
-  "updateDateIncludingText": "2026-08-13T13:23:41Z",
+  "updateDate": "2026-09-02T12:57:53Z",
+  "updateDateIncludingText": "2026-09-02T12:57:53Z",
   "id": "119-HR-8469",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-07-14",
   "lastRecordedVoteDate": "2026-05-15T14:26:35Z"
 }

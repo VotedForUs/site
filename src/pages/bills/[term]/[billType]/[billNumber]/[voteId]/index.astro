@@ -8,6 +8,7 @@ import { getEditorialVoteAction } from '../../../../../../utils/editorial.js';
 import { getLimitedBillIds } from '../../../../../../buildConfig';
 import { shouldBuildPage } from '../../../../../../utils/buildManifest.js';
 import type { LegislatorSmall } from '@votedforus/votes/types';
+import { memberCastsForDisplay } from '../../../../../../utils/memberCastsForDisplay.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
@@ -44,7 +45,7 @@ const billEntry = await getEntry('bills', billId);
 const billTitle = billEntry?.data ? getBestBillTitle(billEntry.data) : (vote.billTitle ?? '');
 
 const chamber = vote.chamber?.toLowerCase();
-const votesMap = vote.votes ?? {};
+const votesMap = memberCastsForDisplay(vote);
 
 const draftRows: {
   bioguideId: string;

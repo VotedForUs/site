@@ -14,6 +14,7 @@ import {
   type ResolveLegislatorVoteResult,
 } from './legislatorVoteView.js';
 import { legislatorSmallSchema } from '../types.zod.js';
+import { memberCastsForDisplay } from './memberCastsForDisplay.js';
 
 const SITE_SRC_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -81,11 +82,15 @@ function getLegislatorVoteIndex(): Map<string, LegislatorVoteRecord> {
             const voteNumber =
               voteIdSuffix != null && Number(voteIdSuffix) ? Number(voteIdSuffix) : actionIndex + 1;
             const voteId = typeof vote.id === 'string' ? vote.id : `${billId}-${voteNumber}`;
-            const memberVotes = vote.votes;
-            if (!memberVotes || typeof memberVotes !== 'object') return;
+            const memberVotes = memberCastsForDisplay({
+              votes: vote.votes as Record<string, string> | undefined,
+              membersAtAction: Array.isArray(vote.membersAtAction)
+                ? (vote.membersAtAction as string[])
+                : undefined,
+              recordType: typeof vote.recordType === 'string' ? vote.recordType : undefined,
+            });
 
             for (const [bioguideId, cast] of Object.entries(memberVotes)) {
-              if (typeof cast !== 'string') continue;
               index.set(`${bioguideId}-${voteId}`, {
                 bioguideId,
                 voteId,
@@ -98,6 +103,7 @@ function getLegislatorVoteIndex(): Map<string, LegislatorVoteRecord> {
                 rollNumber: Number(vote.rollNumber ?? 0),
                 chamber: String(vote.chamber ?? ''),
                 question: typeof vote.question === 'string' ? vote.question : undefined,
+                recordType: typeof vote.recordType === 'string' ? vote.recordType : undefined,
               });
             }
           });

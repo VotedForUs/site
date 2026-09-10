@@ -462,8 +462,6 @@
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
-              "M001190",
-              "G000359",
               "C000127",
               "K000367",
               "S000033",
@@ -473,6 +471,7 @@
               "C001035",
               "C001056",
               "D000563",
+              "G000359",
               "M000355",
               "M001176",
               "R000122",
@@ -520,6 +519,7 @@
               "D000618",
               "C001096",
               "F000463",
+              "M001190",
               "C001098",
               "K000384",
               "B001288",
@@ -2648,8 +2648,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T23:06:22Z",
-  "updateDateIncludingText": "2026-07-23T23:06:22Z",
+  "updateDate": "2026-09-08T19:31:27Z",
+  "updateDateIncludingText": "2026-09-08T19:31:27Z",
   "id": "119-HR-6938",
   "lastActionDate": "2026-01-23",
   "lastRecordedVoteDate": "2026-01-15T21:15:52Z"

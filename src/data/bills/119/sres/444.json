@@ -24,7 +24,6 @@
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
-              "G000359",
               "C000127",
               "K000367",
               "S000033",
@@ -34,6 +33,7 @@
               "C001035",
               "C001056",
               "D000563",
+              "G000359",
               "M000355",
               "M001176",
               "R000122",
@@ -81,6 +81,7 @@
               "D000618",
               "C001096",
               "F000463",
+              "M001190",
               "C001098",
               "K000384",
               "B001288",
@@ -122,8 +123,7 @@
               "M001243",
               "J000312",
               "H001104",
-              "M001244",
-              "A000383"
+              "M001244"
             ],
             "id": "119-SRES-444-1"
           }
@@ -171,6 +171,10 @@
   "number": "444",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sres/444/summaries?format=json"
+  },
   "title": "A resolution condemning the dictator of the People's Republic of China, Xi Jinping, for deceit, undermining prospects for peace and security, and orchestrating crimes against humanity.",
   "titles": {
     "titles": [
@@ -191,8 +195,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2026-06-30T14:02:21Z",
-  "updateDateIncludingText": "2026-06-30T14:02:21Z",
+  "updateDate": "2026-09-01T13:50:56Z",
+  "updateDateIncludingText": "2026-09-01T13:50:56Z",
   "id": "119-SRES-444",
   "lastActionDate": "2026-06-16",
   "lastRecordedVoteDate": "2026-06-16"

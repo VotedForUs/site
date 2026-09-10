@@ -54,7 +54,6 @@
             "question": "Pass with Unanimous Consent",
             "recordType": "unanimous-consent",
             "membersAtAction": [
-              "G000359",
               "C000127",
               "K000367",
               "S000033",
@@ -64,6 +63,7 @@
               "C001035",
               "C001056",
               "D000563",
+              "G000359",
               "M000355",
               "M001176",
               "R000122",
@@ -111,6 +111,7 @@
               "D000618",
               "C001096",
               "F000463",
+              "M001190",
               "C001098",
               "K000384",
               "B001288",
@@ -152,8 +153,7 @@
               "M001243",
               "J000312",
               "H001104",
-              "M001244",
-              "A000383"
+              "M001244"
             ],
             "id": "119-S-1377-1"
           }
@@ -201,7 +201,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 119-238.",
         "type": "Committee"
       },
       {
@@ -243,7 +243,7 @@
         "title": "Theodore Roosevelt National Park Wild Horses Protection Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-13T11:03:28Z"
+        "updateDate": "2026-09-03T11:03:20Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -274,8 +274,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-06-23T02:53:33Z",
-  "updateDateIncludingText": "2026-07-18T20:49:21Z",
+  "updateDate": "2026-09-08T18:09:59Z",
+  "updateDateIncludingText": "2026-09-08T18:09:59Z",
   "id": "119-S-1377",
   "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-11"

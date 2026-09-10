@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-05",
+  "runId": "33958885937",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HJRES-1",
+      "119-HR-1",
+      "119-HR-6500",
+      "119-HR-8800",
+      "119-HR-9237",
+      "119-S-2"
+    ],
+    "newLaws": [
+      "119-HR-6500"
+    ],
+    "withNewVotes": []
+  }
+}

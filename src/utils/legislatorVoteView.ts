@@ -22,6 +22,7 @@ export type LegislatorVoteRecord = {
   rollNumber: number;
   chamber: string;
   question?: string;
+  recordType?: string;
 };
 
 /** Normalized legislator fields used by vote views. */
@@ -49,6 +50,7 @@ export type LegislatorVoteView = {
     actionDate: string;
     chamber: string;
     question?: string;
+    recordType?: string;
   };
   bill: {
     title: string;
@@ -142,6 +144,7 @@ export function buildLegislatorVoteView(
       actionDate: vote.actionDate,
       chamber: vote.chamber,
       question: vote.question,
+      recordType: vote.recordType,
     },
     bill: {
       title: vote.billTitle,
@@ -157,6 +160,7 @@ export function buildLegislatorVoteView(
     },
     display: buildLegislatorVoteDisplay({
       voteCast: vote.vote,
+      recordType: vote.recordType,
       nameTitle,
       party,
       stateName,
@@ -230,6 +234,7 @@ export type PageVotedProps = {
   voteCast: string;
   voteTitle: string;
   billTitle: string;
+  recordType?: string;
 };
 
 /**
@@ -244,5 +249,6 @@ export function toPageVotedProps(view: LegislatorVoteView): PageVotedProps {
     voteCast: view.vote.cast,
     voteTitle: view.vote.title,
     billTitle: view.bill.title,
+    recordType: view.vote.recordType,
   };
 }

@@ -10,6 +10,7 @@ import * as path from 'path';
 
 import { legislatorSmallSchema, billWithActionsSchema, recordedVoteWithVotesSchema, recordedVoteSchema, changelogEntrySchema } from './types.zod';
 import { getBestBillTitle } from './utils/billTitle.js';
+import { memberCastsForDisplay } from './utils/memberCastsForDisplay.js';
 import { normalizeLegislatorForCollection } from './utils/normalizeLegislatorForCollection.js';
 
 
@@ -157,6 +158,7 @@ const legislatorVoteEntrySchema = recordedVoteSchema.pick({
   billTitle: z.string(),
   actionDate: z.string(),
   question: z.string().optional(),
+  recordType: z.enum(['roll-call', 'unanimous-consent', 'voice']).optional(),
 });
 
 interface VoteEntry extends RecordedVoteWithVotes {
@@ -248,6 +250,8 @@ function loadAllBills(): { bills: Array<{ id: string; [key: string]: unknown }>;
               votePartyTotal: item.vote.votePartyTotal,
               voteUrl: item.vote.voteUrl,
               question: item.vote.question,
+              recordType: item.vote.recordType,
+              membersAtAction: item.vote.membersAtAction,
               actionDate: item.actionDate,
               actionText: item.actionText,
               finalChamberVote,
@@ -341,11 +345,12 @@ const legislatorVotes = defineCollection({
       rollNumber: number;
       chamber: string;
       question?: string;
+      recordType?: 'roll-call' | 'unanimous-consent' | 'voice';
     }> = [];
 
     for (const voteEntry of votes) {
-      if (!voteEntry.votes) continue;
-      for (const [bioguideId, vote] of Object.entries(voteEntry.votes)) {
+      const casts = memberCastsForDisplay(voteEntry);
+      for (const [bioguideId, vote] of Object.entries(casts)) {
         entries.push({
           id: `${bioguideId}-${voteEntry.id}`,
           bioguideId,
@@ -361,6 +366,7 @@ const legislatorVotes = defineCollection({
           rollNumber: voteEntry.rollNumber,
           chamber: voteEntry.chamber,
           question: voteEntry.question,
+          recordType: voteEntry.recordType,
         });
       }
     }

@@ -359,6 +359,27 @@ describe('cascadeFromChangedBills', () => {
     assert.deepEqual(result.changedRecordedVotes, []);
     assert.deepEqual(result.changedLegislatorVotes, []);
   });
+
+  it('cascades UC membersAtAction as legislator vote ids', () => {
+    writeBill(tmpDir, '119', 'hr', '3', {
+      id: '119-HR-3',
+      actions: {
+        actions: [{
+          recordedVotes: [{
+            id: '119-HR-3-1',
+            recordType: 'unanimous-consent',
+            votes: {},
+            membersAtAction: ['C000127', 'S000033'],
+          }],
+        }],
+      },
+    });
+    const result = cascadeFromChangedBills(['119-HR-3'], [], tmpDir);
+    assert.deepEqual(result.changedLegislatorVotes.sort(), [
+      'C000127-119-HR-3-1',
+      'S000033-119-HR-3-1',
+    ]);
+  });
 });
 
 // ── main (integration) ─────────────────────────────────────────────────────

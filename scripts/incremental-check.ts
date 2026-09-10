@@ -34,6 +34,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { memberIdsForDisplay } from '../src/utils/memberCastsForDisplay.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC_DATA_DIR = path.join(ROOT, 'src', 'data');
@@ -282,7 +283,7 @@ export function cascadeFromChangedBills(
         const rvId = rv.id as string | undefined;
         if (!rvId) continue;
         rvIds.push(rvId);
-        for (const bioguideId of Object.keys(rv.votes ?? {})) {
+        for (const bioguideId of memberIdsForDisplay(rv)) {
           lvIds.push(`${bioguideId}-${rvId}`);
           legIds.push(bioguideId);
         }

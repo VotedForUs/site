@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/5366/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-09-03",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-09-03",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-08-10",
         "sourceSystem": {
@@ -41,6 +61,7 @@
               "C001035",
               "C001056",
               "D000563",
+              "G000359",
               "M000355",
               "M001176",
               "R000122",
@@ -88,6 +109,7 @@
               "D000618",
               "C001096",
               "F000463",
+              "M001190",
               "C001098",
               "K000384",
               "B001288",
@@ -129,9 +151,7 @@
               "M001243",
               "J000312",
               "H001104",
-              "M001244",
-              "A000383",
-              "G000608"
+              "M001244"
             ],
             "id": "119-HR-5366-2"
           }
@@ -269,6 +289,7 @@
               "S001145",
               "S001183",
               "S001189",
+              "S001157",
               "S000185",
               "S001185",
               "S000344",
@@ -299,6 +320,7 @@
               "T000468",
               "H001068",
               "B001287",
+              "S001193",
               "B001285",
               "R000599",
               "T000472",
@@ -475,6 +497,7 @@
               "P000048",
               "J000304",
               "N000026",
+              "G000594",
               "V000134",
               "M001213",
               "O000086",
@@ -487,6 +510,7 @@
               "E000071",
               "B001313",
               "C001126",
+              "C001127",
               "F000474",
               "F000475",
               "R000579",
@@ -635,9 +659,7 @@
               "W000831",
               "G000606",
               "V000139",
-              "M001245",
-              "F000485",
-              "M001246"
+              "M001245"
             ],
             "id": "119-HR-5366-1"
           }
@@ -762,8 +784,8 @@
   "congress": 119,
   "introducedDate": "2025-09-15",
   "latestAction": {
-    "actionDate": "2026-08-10",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-09-03",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5366",
   "number": "5366",
@@ -851,9 +873,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-11T10:56:17Z",
-  "updateDateIncludingText": "2026-08-11T10:56:17Z",
+  "updateDate": "2026-09-04T08:06:05Z",
+  "updateDateIncludingText": "2026-09-04T08:06:05Z",
   "id": "119-HR-5366",
-  "lastActionDate": "2026-08-10",
+  "lastActionDate": "2026-09-03",
   "lastRecordedVoteDate": "2026-08-07"
 }
