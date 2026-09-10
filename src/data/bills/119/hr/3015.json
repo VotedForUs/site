@@ -476,6 +476,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll278.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 3,
@@ -511,8 +514,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll278.xml",
-            "question": "On Passage",
             "id": "119-HR-3015-1"
           }
         ],
@@ -531,7 +532,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H4442-4443: 2)",
+        "text": "Considered as unfinished business. (consideration: CR H4442-4443)",
         "type": "Floor"
       },
       {
@@ -749,9 +750,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/3015/summaries?format=json"
   },
   "title": "National Coal Council Reestablishment Act",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "National Coal Council Reestablishment Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-09-23T04:23:15Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "National Coal Council Reestablishment Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-09-20T06:08:14Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2025-09-20T06:08:14Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "National Coal Council Reestablishment Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-07-04T02:23:18Z"
+      },
+      {
+        "title": "National Coal Council Reestablishment Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-05-08T04:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "National Coal Council Reestablishment Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-08T04:23:17Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To reestablish the National Coal Council in the Department of Energy to provide advice and recommendations to the Secretary of Energy on matters related to coal and the coal industry, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-05-08T04:18:21Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-09-24T12:48:40Z",
-  "updateDateIncludingText": "2025-09-24T12:48:40Z",
+  "updateDate": "2026-03-24T12:48:03Z",
+  "updateDateIncludingText": "2026-07-13T20:12:14Z",
   "id": "119-HR-3015",
   "lastActionDate": "2025-09-19",
   "lastRecordedVoteDate": "2025-09-18T20:43:52Z"

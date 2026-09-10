@@ -9,7 +9,7 @@
   "bioguideId": "I000056",
   "birthYear": "1953",
   "cosponsoredLegislation": {
-    "count": 2467,
+    "count": 2486,
     "url": "https://api.congress.gov/v3/member/I000056/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 389,
+    "count": 400,
     "url": "https://api.congress.gov/v3/member/I000056/sponsored-legislation"
   },
   "state": "California",
@@ -194,7 +194,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "I000056",
     "thomas": "01640",

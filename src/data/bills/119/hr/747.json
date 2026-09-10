@@ -474,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll220.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -509,8 +512,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll220.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-747-1"
           }
         ],
@@ -518,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 407 - 4 (Roll no. 220). (text: CR H3728-3729: 1)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 407 - 4 (Roll no. 220). (text: CR H3728-3729)",
         "type": "Floor"
       },
       {
@@ -529,7 +530,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3741-3742: 4)",
+        "text": "Considered as unfinished business. (consideration: CR H3741-3742)",
         "type": "Floor"
       },
       {
@@ -741,10 +742,70 @@
   "number": "747",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/747/summaries?format=json"
+  },
   "title": "Stop Chinese Fentanyl Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To impose sanctions with respect to Chinese producers of synthetic opioids and opioid precursors, to hold Chinese officials accountable for the spread of illicit fentanyl, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T11:53:23Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Stop Chinese Fentanyl Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-09-05T04:08:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Stop Chinese Fentanyl Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-09-04T02:08:18Z"
+      },
+      {
+        "title": "Stop Chinese Fentanyl Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-02-25T05:08:22Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Stop Chinese Fentanyl Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-02-25T05:08:19Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To impose sanctions with respect to Chinese producers of synthetic opioids and opioid precursors, to hold Chinese officials accountable for the spread of illicit fentanyl, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-02-25T05:03:30Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-09T00:11:26Z",
-  "updateDateIncludingText": "2025-10-09T00:11:26Z",
+  "updateDate": "2026-07-11T11:53:23Z",
+  "updateDateIncludingText": "2026-07-13T19:20:24Z",
   "id": "119-HR-747",
   "lastActionDate": "2025-09-03",
   "lastRecordedVoteDate": "2025-09-02T23:04:13Z"

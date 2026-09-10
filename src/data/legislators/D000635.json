@@ -9,7 +9,7 @@
   "bioguideId": "D000635",
   "birthYear": "1972",
   "cosponsoredLegislation": {
-    "count": 261,
+    "count": 367,
     "url": "https://api.congress.gov/v3/member/D000635/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 9,
+    "count": 17,
     "url": "https://api.congress.gov/v3/member/D000635/sponsored-legislation"
   },
   "state": "Oregon",
@@ -75,7 +75,7 @@
       "stateName": "Oregon"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "D000635",
     "fec": [
@@ -85,6 +85,9 @@
     "opensecrets": "N00054144",
     "wikipedia": "Maxine Dexter",
     "wikidata": "Q96777172",
+    "votesmart": 190844,
+    "ballotpedia": "Maxine Dexter",
+    "google_entity_id": "kg:/g/11f0x2q9dn",
     "twitter": "RepDexterOR",
     "facebook": "RepDexterOR",
     "instagram": "repdexteror"

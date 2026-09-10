@@ -9,7 +9,7 @@
   "bioguideId": "A000382",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 364,
+    "count": 497,
     "url": "https://api.congress.gov/v3/member/A000382/cosponsored-legislation"
   },
   "currentMember": true,
@@ -57,7 +57,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 50,
+    "count": 101,
     "url": "https://api.congress.gov/v3/member/A000382/sponsored-legislation"
   },
   "state": "Maryland",
@@ -82,6 +82,9 @@
     "opensecrets": "N00053033",
     "wikipedia": "Angela Alsobrooks",
     "wikidata": "Q58755148",
+    "votesmart": 212637,
+    "ballotpedia": "Angela Alsobrooks",
+    "google_entity_id": "kg:/g/11fhksj8jt",
     "facebook": "SenatorAlsobrooks",
     "instagram": "sen_alsobrooks"
   },

@@ -9,7 +9,7 @@
   "bioguideId": "C001119",
   "birthYear": "1972",
   "cosponsoredLegislation": {
-    "count": 2098,
+    "count": 2276,
     "url": "https://api.congress.gov/v3/member/C001119/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 114,
+    "count": 119,
     "url": "https://api.congress.gov/v3/member/C001119/sponsored-legislation"
   },
   "state": "Minnesota",
@@ -114,11 +114,12 @@
       "stateName": "Minnesota"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "C001119",
     "fec": [
-      "H6MN02131"
+      "H6MN02131",
+      "S6MN00499"
     ],
     "govtrack": 412789,
     "opensecrets": "N00037039",

@@ -474,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll219.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -509,8 +512,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll219.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-4216-1"
           }
         ],
@@ -518,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 395 - 20 (Roll no. 219). (text: CR H3727: 1)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 395 - 20 (Roll no. 219). (text: CR H3727)",
         "type": "Floor"
       },
       {
@@ -529,7 +530,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3741: 3)",
+        "text": "Considered as unfinished business. (consideration: CR H3741)",
         "type": "Floor"
       },
       {
@@ -644,9 +645,65 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/4216/summaries?format=json"
   },
   "title": "Made-in-America Defense Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Made-in-America Defense Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:01:55Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of State, in coordination with the Secretary of Defense, to carry out a review of the list of defense articles and services required to be transferred under the foreign military sales program as opposed to direct commercial sale (FMS-Only List).",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T17:08:23Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Made-in-America Defense Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-09-05T04:08:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Made-in-America Defense Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-09-04T02:08:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "FMS-Only List Review Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-07-16T07:23:23Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To direct the Secretary of State, in coordination with the Secretary of Defense, to carry out a review of the list of defense articles and services required to be transferred under the foreign military sales program as opposed to direct commercial sale (FMS-Only List).",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-07-16T07:18:30Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-09-11T01:26:15Z",
-  "updateDateIncludingText": "2025-09-11T01:26:15Z",
+  "updateDate": "2026-07-18T00:01:55Z",
+  "updateDateIncludingText": "2026-07-18T00:01:55Z",
   "id": "119-HR-4216",
   "lastActionDate": "2025-09-03",
   "lastRecordedVoteDate": "2025-09-02T22:57:03Z"

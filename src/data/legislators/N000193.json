@@ -9,7 +9,7 @@
   "bioguideId": "N000193",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 813,
+    "count": 870,
     "url": "https://api.congress.gov/v3/member/N000193/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 113,
+    "count": 121,
     "url": "https://api.congress.gov/v3/member/N000193/sponsored-legislation"
   },
   "state": "Iowa",
@@ -93,7 +93,7 @@
       "stateName": "Iowa"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "N000193",
     "fec": [

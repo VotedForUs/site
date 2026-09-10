@@ -9,7 +9,7 @@
   "bioguideId": "K000383",
   "birthYear": "1944",
   "cosponsoredLegislation": {
-    "count": 3104,
+    "count": 3206,
     "url": "https://api.congress.gov/v3/member/K000383/cosponsored-legislation"
   },
   "currentMember": true,
@@ -43,7 +43,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 457,
+    "count": 470,
     "url": "https://api.congress.gov/v3/member/K000383/sponsored-legislation"
   },
   "state": "Maine",

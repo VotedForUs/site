@@ -474,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll216.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 57,
@@ -509,8 +512,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll216.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-1917-1"
           }
         ],
@@ -518,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 360 - 57 (Roll no. 216). (text: CR H3543: 1)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 360 - 57 (Roll no. 216). (text: CR H3543)",
         "type": "Floor"
       },
       {
@@ -529,7 +530,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3545: 1)",
+        "text": "Considered as unfinished business. (consideration: CR H3545)",
         "type": "Floor"
       },
       {
@@ -562,7 +563,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3543-3544: 1)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3543-3544)",
         "type": "Floor"
       },
       {
@@ -725,9 +726,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/1917/summaries?format=json"
   },
   "title": "Great Lakes Mass Marking Program Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Great Lakes Mass Marking Program Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:00:30Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To establish the Great Lakes Mass Marking Program, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:28:27Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Great Lakes Mass Marking Program Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-25T02:23:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Great Lakes Mass Marking Program Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-07-24T02:08:22Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To establish the Great Lakes Mass Marking Program, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-07-23T14:13:10Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Great Lakes Mass Marking Program Act of 2025",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-07-22T04:53:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Great Lakes Mass Marking Program Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-13T04:23:27Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-08-14T09:21:14Z",
-  "updateDateIncludingText": "2025-08-14T09:21:14Z",
+  "updateDate": "2026-07-18T00:00:30Z",
+  "updateDateIncludingText": "2026-07-18T00:00:30Z",
   "id": "119-HR-1917",
   "lastActionDate": "2025-07-23",
   "lastRecordedVoteDate": "2025-07-22T20:57:07Z"

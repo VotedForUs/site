@@ -9,7 +9,7 @@
   "bioguideId": "B001299",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 1317,
+    "count": 1389,
     "url": "https://api.congress.gov/v3/member/B001299/cosponsored-legislation"
   },
   "currentMember": true,
@@ -77,7 +77,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 245,
+    "count": 270,
     "url": "https://api.congress.gov/v3/member/B001299/sponsored-legislation"
   },
   "state": "Indiana",

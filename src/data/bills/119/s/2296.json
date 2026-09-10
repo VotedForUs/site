@@ -146,12 +146,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 77,
-              "nays": 20,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00570.xml",
+            "question": "On Passage of the Bill S. 2296",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -175,8 +172,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00570.xml",
-            "question": "On Passage of the Bill S. 2296",
+            "senateCount": {
+              "yeas": 77,
+              "nays": 20,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-S-2296-3"
           }
         ],
@@ -425,12 +426,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 83,
-              "nays": 13,
-              "present": "",
-              "absent": 4
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00503.xml",
+            "question": "On the Motion to Proceed S. 2296",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -454,8 +452,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00503.xml",
-            "question": "On the Motion to Proceed S. 2296",
+            "senateCount": {
+              "yeas": 83,
+              "nays": 13,
+              "present": "",
+              "absent": 4
+            },
             "id": "119-S-2296-2"
           }
         ],
@@ -594,12 +596,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 84,
-              "nays": 14,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00500.xml",
+            "question": "On Cloture on the Motion to Proceed S. 2296",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -623,8 +622,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00500.xml",
-            "question": "On Cloture on the Motion to Proceed S. 2296",
+            "senateCount": {
+              "yeas": 84,
+              "nays": 14,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-S-2296-1"
           }
         ],

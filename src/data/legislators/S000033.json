@@ -9,7 +9,7 @@
   "bioguideId": "S000033",
   "birthYear": "1941",
   "cosponsoredLegislation": {
-    "count": 7832,
+    "count": 7927,
     "url": "https://api.congress.gov/v3/member/S000033/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1155,
+    "count": 1184,
     "url": "https://api.congress.gov/v3/member/S000033/sponsored-legislation"
   },
   "state": "Vermont",

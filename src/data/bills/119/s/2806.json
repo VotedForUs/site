@@ -124,12 +124,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 37,
-              "nays": 61,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00533.xml",
+            "question": "On Cloture on the Motion to Proceed S. 2806",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -153,8 +150,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00533.xml",
-            "question": "On Cloture on the Motion to Proceed S. 2806",
+            "senateCount": {
+              "yeas": 37,
+              "nays": 61,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-S-2806-1"
           }
         ],

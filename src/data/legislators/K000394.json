@@ -9,7 +9,7 @@
   "bioguideId": "K000394",
   "birthYear": "1982",
   "cosponsoredLegislation": {
-    "count": 1877,
+    "count": 2013,
     "url": "https://api.congress.gov/v3/member/K000394/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 174,
+    "count": 232,
     "url": "https://api.congress.gov/v3/member/K000394/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -130,7 +130,7 @@
       "S4NJ00466"
     ],
     "govtrack": 412797,
-    "wikipedia": "Andy Kim (politician)",
+    "wikipedia": "Andy Kim",
     "wikidata": "Q55639180",
     "opensecrets": "N00041370",
     "icpsr": 21937,

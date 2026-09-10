@@ -184,12 +184,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 70,
-              "nays": 28,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00151.xml",
+            "question": "On the Joint Resolution H.J.Res. 25",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -213,8 +210,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00151.xml",
-            "question": "On the Joint Resolution H.J.Res. 25",
+            "senateCount": {
+              "yeas": 70,
+              "nays": 28,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-HJRES-25-3"
           }
         ],
@@ -345,12 +346,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 70,
-              "nays": 28,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00150.xml",
+            "question": "On the Motion to Proceed H.J.Res. 25",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -374,8 +372,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00150.xml",
-            "question": "On the Motion to Proceed H.J.Res. 25",
+            "senateCount": {
+              "yeas": 70,
+              "nays": 28,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-HJRES-25-2"
           }
         ],
@@ -851,6 +853,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll071.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -886,8 +891,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll071.xml",
-            "question": "On Passage",
             "id": "119-HJRES-25-1"
           }
         ],

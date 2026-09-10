@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 24,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/hr/6387/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-27",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-22",
@@ -459,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll136.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 1,
@@ -494,8 +512,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll136.xml",
-            "question": "On Passage",
             "id": "119-HR-6387-2"
           }
         ],
@@ -503,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 220 - 198 (Roll no. 136).",
+        "text": "On passage Passed by the Yeas and Nays: 220 - 198 (Roll no. 136). (text: CR 4/21/2026 H3013)",
         "type": "Floor"
       },
       {
@@ -958,6 +974,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll135.xml",
+            "question": "On Motion to Recommit",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 213,
@@ -993,8 +1012,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll135.xml",
-            "question": "On Motion to Recommit",
             "id": "119-HR-6387-1"
           }
         ],
@@ -1013,7 +1030,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3064-3065)",
         "type": "Floor"
       },
       {
@@ -1248,9 +1265,8 @@
   "congress": 119,
   "introducedDate": "2025-12-03",
   "latestAction": {
-    "actionDate": "2026-04-22",
-    "actionTime": "17:17:58",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-27",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6387",
   "number": "6387",
@@ -1264,14 +1280,30 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
         "title": "FIRE Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-04-24T04:53:25Z"
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:37:35Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "FIRE Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-30T04:53:22Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Fire Improvement and Reforming Exceptional Events Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-30T04:53:22Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1294,6 +1326,16 @@
         "updateDate": "2026-04-24T04:53:25Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "FIRE Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-24T04:53:25Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -1314,15 +1356,9 @@
         "updateDate": "2026-04-10T03:38:21Z"
       },
       {
-        "title": "FIRE Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-12-06T04:23:20Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "FIRE Act",
+        "title": "Fire Improvement and Reforming Exceptional Events Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-12-06T04:23:20Z"
@@ -1330,7 +1366,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Fire Improvement and Reforming Exceptional Events Act",
+        "title": "FIRE Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-12-06T04:23:20Z"
@@ -1346,9 +1382,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-24T04:53:25Z",
-  "updateDateIncludingText": "2026-04-24T06:48:24Z",
+  "updateDate": "2026-07-17T23:37:35Z",
+  "updateDateIncludingText": "2026-07-17T23:37:35Z",
   "id": "119-HR-6387",
-  "lastActionDate": "2026-04-22",
+  "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-22T21:17:57Z"
 }

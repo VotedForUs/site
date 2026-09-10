@@ -9,7 +9,7 @@
   "bioguideId": "B001303",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 2360,
+    "count": 2446,
     "url": "https://api.congress.gov/v3/member/B001303/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 186,
+    "count": 219,
     "url": "https://api.congress.gov/v3/member/B001303/sponsored-legislation"
   },
   "state": "Delaware",
@@ -132,7 +132,7 @@
     ],
     "opensecrets": "N00038414",
     "maplight": 2201,
-    "google_entity_id": "kg:/g/11c3yvwbvn",
+    "google_entity_id": "kg:/g/11c328y56v",
     "cspan": 104772,
     "icpsr": 21706,
     "ballotpedia": "Lisa Blunt Rochester",

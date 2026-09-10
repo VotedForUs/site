@@ -9,7 +9,7 @@
   "bioguideId": "T000467",
   "birthYear": "1959",
   "cosponsoredLegislation": {
-    "count": 2376,
+    "count": 2444,
     "url": "https://api.congress.gov/v3/member/T000467/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 169,
+    "count": 180,
     "url": "https://api.congress.gov/v3/member/T000467/sponsored-legislation"
   },
   "state": "Pennsylvania",
@@ -146,7 +146,7 @@
       "stateName": "Pennsylvania"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "T000467",
     "thomas": "01952",

@@ -9,7 +9,7 @@
   "bioguideId": "W000804",
   "birthYear": "1959",
   "cosponsoredLegislation": {
-    "count": 2831,
+    "count": 2874,
     "url": "https://api.congress.gov/v3/member/W000804/cosponsored-legislation"
   },
   "currentMember": true,
@@ -54,7 +54,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 210,
+    "count": 212,
     "url": "https://api.congress.gov/v3/member/W000804/sponsored-legislation"
   },
   "state": "Virginia",
@@ -159,7 +159,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "W000804",
     "thomas": "01886",

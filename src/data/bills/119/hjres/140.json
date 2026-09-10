@@ -83,6 +83,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00084.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -183,12 +184,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 50,
-              "nays": 49,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00084.xml",
+            "question": "On the Joint Resolution H.J.Res. 140",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -212,8 +210,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00084.xml",
-            "question": "On the Joint Resolution H.J.Res. 140",
+            "senateCount": {
+              "yeas": 50,
+              "nays": 49,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-HJRES-140-4"
           }
         ],
@@ -251,6 +253,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00083.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -351,12 +354,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 49,
-              "present": "",
-              "absent": ""
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00083.xml",
+            "question": "On the Motion to Proceed H.J.Res. 140",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -380,8 +380,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00083.xml",
-            "question": "On the Motion to Proceed H.J.Res. 140",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 49,
+              "present": "",
+              "absent": ""
+            },
             "id": "119-HJRES-140-3"
           }
         ],
@@ -403,6 +407,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00082.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -503,12 +508,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 48,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00082.xml",
+            "question": "On the Motion to Table H.J.Res. 140",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -532,8 +534,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00082.xml",
-            "question": "On the Motion to Table H.J.Res. 140",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 48,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-HJRES-140-2"
           }
         ],
@@ -1024,6 +1030,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll038.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 1,
@@ -1059,8 +1068,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll038.xml",
-            "question": "On Passage",
             "id": "119-HJRES-140-1"
           }
         ],

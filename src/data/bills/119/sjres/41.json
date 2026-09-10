@@ -123,12 +123,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 27,
-              "nays": 70,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00454.xml",
+            "question": "On the Motion to Discharge S.J.Res. 41",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -152,8 +149,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00454.xml",
-            "question": "On the Motion to Discharge S.J.Res. 41",
+            "senateCount": {
+              "yeas": 27,
+              "nays": 70,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-41-1"
           }
         ],

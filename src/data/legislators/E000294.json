@@ -9,7 +9,7 @@
   "bioguideId": "E000294",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 1132,
+    "count": 1137,
     "url": "https://api.congress.gov/v3/member/E000294/cosponsored-legislation"
   },
   "currentMember": true,
@@ -145,7 +145,7 @@
       "stateName": "Minnesota"
     }
   ],
-  "updateDate": "2025-09-24T07:40:14Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "E000294",
     "fec": [

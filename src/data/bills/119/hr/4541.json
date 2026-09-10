@@ -483,6 +483,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll250.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 6,
@@ -518,8 +521,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll250.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-4541-1"
           }
         ],

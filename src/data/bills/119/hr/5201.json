@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/5201/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-22",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-21",
@@ -459,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll127.xml",
+            "question": "On Motion to Suspend the Rules and Pass",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 5,
@@ -494,8 +512,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll127.xml",
-            "question": "On Motion to Suspend the Rules and Pass",
             "id": "119-HR-5201-1"
           }
         ],
@@ -664,9 +680,8 @@
   "congress": 119,
   "introducedDate": "2025-09-08",
   "latestAction": {
-    "actionDate": "2026-04-21",
-    "actionTime": "15:36:27",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-22",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5201",
   "number": "5201",
@@ -680,14 +695,20 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To direct the Federal Communications Commission to publish a report on implementation of the Kari’s Law Act of 2017, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-23T03:53:24Z"
+        "title": "Kari's Law Reporting Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:36:35Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Kari's Law Reporting Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-28T06:08:33Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -700,6 +721,16 @@
         "updateDate": "2026-04-23T03:53:24Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Federal Communications Commission to publish a report on implementation of the Kari’s Law Act of 2017, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-23T03:53:24Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -708,12 +739,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-03-27T08:38:21Z"
-      },
-      {
-        "title": "Kari's Law Reporting Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-09-12T03:53:20Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -734,9 +759,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-23T03:53:24Z",
-  "updateDateIncludingText": "2026-04-23T06:48:29Z",
+  "updateDate": "2026-07-17T23:36:35Z",
+  "updateDateIncludingText": "2026-07-17T23:36:35Z",
   "id": "119-HR-5201",
-  "lastActionDate": "2026-04-21",
+  "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-21T19:36:26Z"
 }

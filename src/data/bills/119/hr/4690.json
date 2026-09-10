@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 28,
+    "count": 29,
     "url": "https://api.congress.gov/v3/bill/119/hr/4690/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-27",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-22",
@@ -459,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll134.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 1,
@@ -494,8 +512,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll134.xml",
-            "question": "On Passage",
             "id": "119-HR-4690-2"
           }
         ],
@@ -503,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 215 - 202 (Roll no. 134).",
+        "text": "On passage Passed by the Yeas and Nays: 215 - 202 (Roll no. 134). (text: CR H3057)",
         "type": "Floor"
       },
       {
@@ -958,6 +974,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll133.xml",
+            "question": "On Motion to Recommit",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 212,
@@ -993,8 +1012,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll133.xml",
-            "question": "On Motion to Recommit",
             "id": "119-HR-4690-1"
           }
         ],
@@ -1013,7 +1030,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H3062-3064)",
         "type": "Floor"
       },
       {
@@ -1053,7 +1070,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mrs. Sykes moved to recommit to the Committee on Energy and Commerce.",
+        "text": "Mrs. Sykes moved to recommit to the Committee on Energy and Commerce. (CR H3061)",
         "type": "Floor"
       },
       {
@@ -1097,7 +1114,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1189.",
+        "text": "Considered under the provisions of rule H. Res. 1189. (consideration: CR H3057-3061)",
         "type": "Floor"
       },
       {
@@ -1299,9 +1316,8 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-04-22",
-    "actionTime": "16:58:47",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-27",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4690",
   "number": "4690",
@@ -1315,14 +1331,28 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
         "title": "To amend the Energy Conservation and Production Act to repeal certain Federal building energy efficiency performance standards, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-24T04:53:25Z"
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-18T00:02:02Z"
+      },
+      {
+        "title": "Reliable Federal Infrastructure Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:02:02Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Reliable Federal Infrastructure Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-30T04:53:22Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1335,10 +1365,14 @@
         "updateDate": "2026-04-24T04:53:25Z"
       },
       {
-        "title": "Reliable Federal Infrastructure Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-02-05T08:38:24Z"
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Energy Conservation and Production Act to repeal certain Federal building energy efficiency performance standards, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-24T04:53:25Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -1357,21 +1391,13 @@
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-09-10T04:23:21Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To amend the Energy Conservation and Production Act to repeal certain Federal building energy efficiency performance standards, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2025-09-10T04:18:24Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-24T04:53:25Z",
-  "updateDateIncludingText": "2026-04-24T07:03:23Z",
+  "updateDate": "2026-07-18T00:02:02Z",
+  "updateDateIncludingText": "2026-07-18T00:02:02Z",
   "id": "119-HR-4690",
-  "lastActionDate": "2026-04-22",
+  "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-22T20:58:45Z"
 }

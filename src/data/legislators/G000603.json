@@ -9,7 +9,7 @@
   "bioguideId": "G000603",
   "birthYear": "1994",
   "cosponsoredLegislation": {
-    "count": 283,
+    "count": 321,
     "url": "https://api.congress.gov/v3/member/G000603/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 20,
+    "count": 25,
     "url": "https://api.congress.gov/v3/member/G000603/sponsored-legislation"
   },
   "state": "Texas",
@@ -75,7 +75,7 @@
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "G000603",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00054402",
     "wikipedia": "Brandon Gill",
     "wikidata": "Q124753679",
+    "ballotpedia": "Brandon Gill",
+    "google_entity_id": "kg:/g/11l7366d8s",
     "twitter": "repbrandongill",
     "facebook": "RepBrandonGill",
     "instagram": "repbrandongill"

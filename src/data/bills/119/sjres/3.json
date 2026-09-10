@@ -165,12 +165,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 70,
-              "nays": 27,
-              "present": "",
-              "absent": 3
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00102.xml",
+            "question": "On the Joint Resolution S.J.Res. 3",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -194,8 +191,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00102.xml",
-            "question": "On the Joint Resolution S.J.Res. 3",
+            "senateCount": {
+              "yeas": 70,
+              "nays": 27,
+              "present": "",
+              "absent": 3
+            },
             "id": "119-SJRES-3-2"
           }
         ],
@@ -326,12 +327,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 70,
-              "nays": 28,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00101.xml",
+            "question": "On the Motion to Proceed S.J.Res. 3",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -355,8 +353,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00101.xml",
-            "question": "On the Motion to Proceed S.J.Res. 3",
+            "senateCount": {
+              "yeas": 70,
+              "nays": 28,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SJRES-3-1"
           }
         ],

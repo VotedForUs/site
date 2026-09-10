@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/6472/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-09",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-03-04",
@@ -461,6 +476,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll082.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 71,
@@ -496,8 +514,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll082.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-6472-1"
           }
         ],
@@ -649,9 +665,8 @@
   "congress": 119,
   "introducedDate": "2025-12-04",
   "latestAction": {
-    "actionDate": "2026-03-04",
-    "actionTime": "14:21:29",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-03-09",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6472",
   "number": "6472",
@@ -665,14 +680,14 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Higher Education Act of 1965 to provide for in-state tuition rates for certain residents of Guam, the Commonwealth of the Northern Mariana Islands, American Samoa, and the United States Virgin Islands, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-03-06T06:23:22Z"
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Territorial Student Access to Higher Education Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-03-11T03:23:22Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -682,6 +697,16 @@
         "title": "Territorial Student Access to Higher Education Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
+        "updateDate": "2026-03-06T06:23:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Higher Education Act of 1965 to provide for in-state tuition rates for certain residents of Guam, the Commonwealth of the Northern Mariana Islands, American Samoa, and the United States Virgin Islands, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-06T06:23:22Z"
       },
       {
@@ -711,9 +736,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-06T06:23:23Z",
-  "updateDateIncludingText": "2026-03-06T06:23:22Z",
+  "updateDate": "2026-06-11T23:26:38Z",
+  "updateDateIncludingText": "2026-07-13T19:02:55Z",
   "id": "119-HR-6472",
-  "lastActionDate": "2026-03-04",
+  "lastActionDate": "2026-03-09",
   "lastRecordedVoteDate": "2026-03-04T19:21:28Z"
 }

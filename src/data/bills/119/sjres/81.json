@@ -146,12 +146,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 48,
-              "present": "",
-              "absent": ""
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00594.xml",
+            "question": "On the Joint Resolution S.J.Res. 81",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -175,8 +172,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00594.xml",
-            "question": "On the Joint Resolution S.J.Res. 81",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 48,
+              "present": "",
+              "absent": ""
+            },
             "id": "119-SJRES-81-1"
           }
         ],

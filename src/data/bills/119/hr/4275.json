@@ -474,6 +474,9 @@
               "Z000018": "Not Voting"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll218.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 12,
@@ -509,8 +512,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll218.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-4275-1"
           }
         ],
@@ -518,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 399 - 12 (Roll no. 218). (text: CR H3572-3617: 4)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 399 - 12 (Roll no. 218). (text: CR H3572-3617)",
         "type": "Floor"
       },
       {
@@ -529,7 +530,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3622-3623: 2)",
+        "text": "Considered as unfinished business. (consideration: CR H3622-3623)",
         "type": "Floor"
       },
       {
@@ -562,7 +563,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3572-3620: 4)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3572-3620)",
         "type": "Floor"
       },
       {
@@ -704,9 +705,75 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "title": "Coast Guard Authorization Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "title": "Coast Guard Authorization Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:03:09Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To authorize appropriations for the Coast Guard, to establish the Secretary of the Coast Guard, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-18T00:00:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To authorize appropriations for the Coast Guard, to establish the Secretary of the Coast Guard, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T17:08:27Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Coast Guard Authorization Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-25T02:23:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Coast Guard Authorization Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-07-24T03:38:21Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Coast Guard Authorization Act of 2025",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-07-23T04:38:25Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Coast Guard Authorization Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-07-04T02:23:18Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-08-29T15:45:51Z",
-  "updateDateIncludingText": "2025-08-29T15:45:51Z",
+  "updateDate": "2026-07-18T00:03:09Z",
+  "updateDateIncludingText": "2026-07-18T00:03:09Z",
   "id": "119-HR-4275",
   "lastActionDate": "2025-07-23",
   "lastRecordedVoteDate": "2025-07-23T20:09:13Z"

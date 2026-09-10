@@ -450,6 +450,9 @@
               "Z000018": "Nay"
             },
             "result": "rejected",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll072.xml",
+            "question": "On Motion to Suspend the Rules and Pass",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 132,
@@ -485,8 +488,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll072.xml",
-            "question": "On Motion to Suspend the Rules and Pass",
             "id": "119-S-2503-1"
           }
         ],

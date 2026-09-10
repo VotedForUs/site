@@ -474,6 +474,9 @@
               "Z000018": "Not Voting"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll214.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 12,
@@ -509,8 +512,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll214.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-3351-1"
           }
         ],
@@ -518,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 387 - 12 (Roll no. 214). (text: CR H3501-3502: 1)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 387 - 12 (Roll no. 214). (text: CR H3501-3502)",
         "type": "Floor"
       },
       {
@@ -529,7 +530,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3519-3520: 2)",
+        "text": "Considered as unfinished business. (consideration: CR H3519-3520)",
         "type": "Floor"
       },
       {
@@ -708,9 +709,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/3351/summaries?format=json"
   },
   "title": "Improving Access to Small Business Information Act",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Securities Exchange Act of 1934 to specify that actions of the Advocate for Small Business Capital Formation are not a collection of information under the Paperwork Reduction Act.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T01:13:29Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Improving Access to Small Business Information Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-24T01:53:22Z"
+      },
+      {
+        "title": "Improving Access to Small Business Information Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-23T14:12:40Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Improving Access to Small Business Information Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-07-23T02:08:21Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Improving Access to Small Business Information Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-06-04T05:53:17Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Securities Exchange Act of 1934 to specify that actions of the Advocate for Small Business Capital Formation are not a collection of information under the Paperwork Reduction Act.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-05-15T06:12:51Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Improving Access to Small Business Information Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-15T06:08:15Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-09T03:26:18Z",
-  "updateDateIncludingText": "2025-10-09T03:26:18Z",
+  "updateDate": "2026-07-18T00:00:23Z",
+  "updateDateIncludingText": "2026-07-18T00:00:23Z",
   "id": "119-HR-3351",
   "lastActionDate": "2025-07-22",
   "lastRecordedVoteDate": "2025-07-21T23:05:55Z"

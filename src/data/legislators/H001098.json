@@ -9,7 +9,7 @@
   "bioguideId": "H001098",
   "birthYear": "1991",
   "cosponsoredLegislation": {
-    "count": 218,
+    "count": 261,
     "url": "https://api.congress.gov/v3/member/H001098/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 21,
+    "count": 34,
     "url": "https://api.congress.gov/v3/member/H001098/sponsored-legislation"
   },
   "state": "Arizona",
@@ -89,7 +89,7 @@
       "stateName": "Arizona"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "H001098",
     "fec": [
@@ -98,7 +98,10 @@
     "govtrack": 456973,
     "opensecrets": "N00053795",
     "wikipedia": "Abraham Hamadeh",
-    "wikidata": "Q124307977"
+    "wikidata": "Q124307977",
+    "votesmart": 205532,
+    "ballotpedia": "Abraham Hamadeh",
+    "google_entity_id": "kg:/g/11rj4xtrgt"
   },
   "name": {
     "first": "Abraham",

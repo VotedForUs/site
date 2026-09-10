@@ -9,7 +9,7 @@
   "bioguideId": "M001198",
   "birthYear": "1960",
   "cosponsoredLegislation": {
-    "count": 1769,
+    "count": 1850,
     "url": "https://api.congress.gov/v3/member/M001198/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 504,
+    "count": 523,
     "url": "https://api.congress.gov/v3/member/M001198/sponsored-legislation"
   },
   "state": "Kansas",

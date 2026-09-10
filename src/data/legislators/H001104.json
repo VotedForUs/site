@@ -9,7 +9,7 @@
   "bioguideId": "H001104",
   "birthYear": "1967",
   "cosponsoredLegislation": {
-    "count": 116,
+    "count": 165,
     "url": "https://api.congress.gov/v3/member/H001104/cosponsored-legislation"
   },
   "currentMember": true,
@@ -58,7 +58,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 39,
+    "count": 82,
     "url": "https://api.congress.gov/v3/member/H001104/sponsored-legislation"
   },
   "state": "Ohio",
@@ -81,7 +81,9 @@
       "S6OH00304"
     ],
     "wikipedia": "Jon Husted",
-    "wikidata": "Q6270269"
+    "wikidata": "Q6270269",
+    "votesmart": 45796,
+    "ballotpedia": "Jon Husted"
   },
   "name": {
     "first": "Jon",

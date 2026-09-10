@@ -474,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll217.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 31,
@@ -509,8 +512,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll217.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-3357-1"
           }
         ],
@@ -529,7 +530,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3621-3622: 4)",
+        "text": "Considered as unfinished business. (consideration: CR H3621-3622)",
         "type": "Floor"
       },
       {
@@ -562,7 +563,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3508: 1)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3508)",
         "type": "Floor"
       },
       {
@@ -674,9 +675,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/3357/summaries?format=json"
   },
   "title": "Enhancing Multi-Class Share Disclosures Act",
+  "titles": {
+    "titles": [
+      {
+        "title": "Enhancing Multi-Class Share Disclosures Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:01:01Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Securities Exchange Act of 1934 to require issuers with a multi-class stock structure to make certain disclosures in any proxy or consent solicitation material, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T01:08:22Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Enhancing Multi-Class Share Disclosures Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-26T03:23:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Enhancing Multi-Class Share Disclosures Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-07-24T02:08:21Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Enhancing Multi-Class Share Disclosures Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-06-04T05:53:17Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Securities Exchange Act of 1934 to require issuers with a multi-class stock structure to make certain disclosures in any proxy or consent solicitation material, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-05-15T06:12:51Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Enhancing Multi-Class Share Disclosures Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-15T06:08:15Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-09T03:26:19Z",
-  "updateDateIncludingText": "2025-10-09T03:26:19Z",
+  "updateDate": "2026-07-18T00:01:01Z",
+  "updateDateIncludingText": "2026-07-18T00:01:01Z",
   "id": "119-HR-3357",
   "lastActionDate": "2025-07-24",
   "lastRecordedVoteDate": "2025-07-23T19:58:28Z"

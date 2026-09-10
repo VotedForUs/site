@@ -474,6 +474,9 @@
               "Z000018": "Not Voting"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll213.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -509,8 +512,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll213.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-3095-1"
           }
         ],
@@ -518,7 +519,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 278 - 121 (Roll no. 213). (text: CR H3493: 1)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 278 - 121 (Roll no. 213). (text: CR H3493)",
         "type": "Floor"
       },
       {
@@ -529,7 +530,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3519: 1)",
+        "text": "Considered as unfinished business. (consideration: CR H3519)",
         "type": "Floor"
       },
       {
@@ -562,7 +563,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3493-3495: 1)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3493-3495)",
         "type": "Floor"
       },
       {
@@ -644,9 +645,37 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/3095/summaries?format=json"
   },
   "title": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes.",
+  "titles": {
+    "titles": [
+      {
+        "title": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-11T01:54:09Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T01:53:21Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-05-09T03:48:21Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-07-26T20:26:15Z",
-  "updateDateIncludingText": "2025-07-26T20:26:15Z",
+  "updateDate": "2026-08-14T08:05:50Z",
+  "updateDateIncludingText": "2026-08-14T08:05:50Z",
   "id": "119-HR-3095",
   "lastActionDate": "2025-07-22",
   "lastRecordedVoteDate": "2025-07-21T22:58:33Z"

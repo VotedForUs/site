@@ -9,7 +9,7 @@
   "bioguideId": "W000809",
   "birthYear": "1957",
   "cosponsoredLegislation": {
-    "count": 1156,
+    "count": 1164,
     "url": "https://api.congress.gov/v3/member/W000809/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 61,
+    "count": 63,
     "url": "https://api.congress.gov/v3/member/W000809/sponsored-legislation"
   },
   "state": "Arkansas",
@@ -136,7 +136,7 @@
       "stateName": "Arkansas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "W000809",
     "thomas": "01991",

@@ -123,12 +123,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 39,
-              "nays": 56,
-              "present": 1,
-              "absent": 4
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00306.xml",
+            "question": "On the Motion to Discharge S.J.Res. 53",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -152,8 +149,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00306.xml",
-            "question": "On the Motion to Discharge S.J.Res. 53",
+            "senateCount": {
+              "yeas": 39,
+              "nays": 56,
+              "present": 1,
+              "absent": 4
+            },
             "id": "119-SJRES-53-1"
           }
         ],

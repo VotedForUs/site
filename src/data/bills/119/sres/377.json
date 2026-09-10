@@ -116,12 +116,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 44,
-              "present": "",
-              "absent": 5
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00517.xml",
+            "question": "On the Resolution S.Res. 377",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -145,8 +142,12 @@
                 "notVotingTotal": 1
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00517.xml",
-            "question": "On the Resolution S.Res. 377",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 44,
+              "present": "",
+              "absent": 5
+            },
             "id": "119-SRES-377-7"
           }
         ],
@@ -277,12 +278,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 53,
-              "nays": 43,
-              "present": "",
-              "absent": 4
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00516.xml",
+            "question": "On the Cloture Motion S.Res. 377",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -306,8 +304,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00516.xml",
-            "question": "On the Cloture Motion S.Res. 377",
+            "senateCount": {
+              "yeas": 53,
+              "nays": 43,
+              "present": "",
+              "absent": 4
+            },
             "id": "119-SRES-377-6"
           }
         ],
@@ -430,12 +432,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 45,
-              "nays": 53,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00515.xml",
+            "question": "On the Decision of the Chair S.Res. 377",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -459,8 +458,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00515.xml",
-            "question": "On the Decision of the Chair S.Res. 377",
+            "senateCount": {
+              "yeas": 45,
+              "nays": 53,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SRES-377-5"
           }
         ],
@@ -607,12 +610,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 47,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00513.xml",
+            "question": "On the Cloture Motion S.Res. 377",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -636,8 +636,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00513.xml",
-            "question": "On the Cloture Motion S.Res. 377",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 47,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-SRES-377-4"
           }
         ],
@@ -768,12 +772,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 52,
-              "nays": 47,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00513.xml",
+            "question": "On the Cloture Motion S.Res. 377",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -797,8 +798,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00513.xml",
-            "question": "On the Cloture Motion S.Res. 377",
+            "senateCount": {
+              "yeas": 52,
+              "nays": 47,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-SRES-377-3"
           }
         ],
@@ -945,12 +950,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 53,
-              "nays": 45,
-              "present": "",
-              "absent": 2
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00511.xml",
+            "question": "On the Motion to Proceed S.Res. 377",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -974,8 +976,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00511.xml",
-            "question": "On the Motion to Proceed S.Res. 377",
+            "senateCount": {
+              "yeas": 53,
+              "nays": 45,
+              "present": "",
+              "absent": 2
+            },
             "id": "119-SRES-377-2"
           }
         ],
@@ -1098,12 +1104,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 53,
-              "nays": 46,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00510.xml",
+            "question": "On the Motion to Table S.Res. 377",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -1127,8 +1130,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00510.xml",
-            "question": "On the Motion to Table S.Res. 377",
+            "senateCount": {
+              "yeas": 53,
+              "nays": 46,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-SRES-377-1"
           }
         ],

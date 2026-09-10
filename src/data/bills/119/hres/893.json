@@ -469,6 +469,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll302.xml",
+            "question": "On Motion to Refer",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 8,
@@ -504,8 +507,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll302.xml",
-            "question": "On Motion to Refer",
             "id": "119-HRES-893-1"
           }
         ],

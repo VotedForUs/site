@@ -9,7 +9,7 @@
   "bioguideId": "G000591",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 1099,
+    "count": 1150,
     "url": "https://api.congress.gov/v3/member/G000591/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 52,
+    "count": 55,
     "url": "https://api.congress.gov/v3/member/G000591/sponsored-legislation"
   },
   "state": "Mississippi",
@@ -105,7 +105,7 @@
       "stateName": "Mississippi"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "G000591",
     "fec": [
@@ -119,6 +119,7 @@
     "google_entity_id": "kg:/g/11fjx_n80p",
     "ballotpedia": "Michael Guest",
     "pictorial": 13126,
+    "votesmart": 179667,
     "twitter": "RepMichaelGuest",
     "twitter_id": 1081243468327018500,
     "facebook": "RepMichaelGuest"

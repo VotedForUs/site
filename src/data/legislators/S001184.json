@@ -9,7 +9,7 @@
   "bioguideId": "S001184",
   "birthYear": "1965",
   "cosponsoredLegislation": {
-    "count": 1875,
+    "count": 1912,
     "url": "https://api.congress.gov/v3/member/S001184/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 448,
+    "count": 468,
     "url": "https://api.congress.gov/v3/member/S001184/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -119,7 +119,7 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-03-08T10:32:38Z",
+  "updateDate": "2026-07-15T10:32:24Z",
   "id": {
     "bioguide": "S001184",
     "thomas": "02056",
@@ -162,7 +162,7 @@
     "end": "2029-01-03",
     "state": "SC",
     "class": 3,
-    "state_rank": "junior",
+    "state_rank": "senior",
     "party": "Republican",
     "url": "https://www.scott.senate.gov",
     "rss_url": "http://www.scott.senate.gov/rss.xml",

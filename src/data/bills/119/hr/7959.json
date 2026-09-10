@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/7959/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-28",
+        "committees": [
+          {
+            "name": "Finance Committee",
+            "systemCode": "ssfi00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssfi00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Finance.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-27",
@@ -458,6 +473,9 @@
               "Z000018": "Not Voting"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll138.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 9,
@@ -493,8 +511,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll138.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-7959-1"
           }
         ],
@@ -646,9 +662,8 @@
   "congress": 119,
   "introducedDate": "2026-03-17",
   "latestAction": {
-    "actionDate": "2026-04-27",
-    "actionTime": "19:01:37",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7959",
   "number": "7959",
@@ -662,14 +677,20 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Internal Revenue Code of 1986 to make improvements with respect to the treatment of whistleblowers, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-29T04:53:35Z"
+        "title": "IRS Whistleblower Program Improvement Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:41:12Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "IRS Whistleblower Program Improvement Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-01T06:53:28Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -682,6 +703,16 @@
         "updateDate": "2026-04-29T04:53:35Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to make improvements with respect to the treatment of whistleblowers, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-29T04:53:35Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -690,12 +721,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-10T06:08:23Z"
-      },
-      {
-        "title": "IRS Whistleblower Program Improvement Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-19T03:23:26Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -716,9 +741,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-29T04:53:35Z",
-  "updateDateIncludingText": "2026-04-29T07:18:41Z",
+  "updateDate": "2026-07-23T22:41:27Z",
+  "updateDateIncludingText": "2026-07-23T22:41:27Z",
   "id": "119-HR-7959",
-  "lastActionDate": "2026-04-27",
+  "lastActionDate": "2026-04-28",
   "lastRecordedVoteDate": "2026-04-27T23:01:36Z"
 }

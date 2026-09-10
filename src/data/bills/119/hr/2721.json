@@ -476,6 +476,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll269.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -511,8 +514,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll269.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-2721-1"
           }
         ],
@@ -727,9 +728,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/2721/summaries?format=json"
   },
   "title": "Honoring Our Heroes Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of Veterans Affairs to establish and carry out a pilot program to furnish a headstone or burial marker to veterans who died on or before November 1, 1990, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:28:20Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Honoring Our Heroes Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-09-19T02:53:13Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Honoring Our Heroes Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-09-18T04:23:15Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Honoring Our Heroes Act of 2025",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-09-16T09:53:17Z"
+      },
+      {
+        "title": "Honoring Our Heroes Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-30T12:51:58Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Honoring Our Heroes Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-04-17T10:08:17Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To direct the Secretary of Veterans Affairs to establish and carry out a pilot program to furnish a headstone or burial marker to veterans who died on or before November 1, 1990, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-04-17T10:03:21Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-02T18:26:13Z",
-  "updateDateIncludingText": "2025-10-02T18:26:13Z",
+  "updateDate": "2026-07-11T02:28:20Z",
+  "updateDateIncludingText": "2026-07-13T20:10:12Z",
   "id": "119-HR-2721",
   "lastActionDate": "2025-09-17",
   "lastRecordedVoteDate": "2025-09-16T18:50:44Z"

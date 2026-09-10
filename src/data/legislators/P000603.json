@@ -9,7 +9,7 @@
   "bioguideId": "P000603",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 1113,
+    "count": 1131,
     "url": "https://api.congress.gov/v3/member/P000603/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1095,
+    "count": 1111,
     "url": "https://api.congress.gov/v3/member/P000603/sponsored-legislation"
   },
   "state": "Kentucky",

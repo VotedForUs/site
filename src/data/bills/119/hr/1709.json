@@ -475,6 +475,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll191.xml",
+            "question": "On Motion to Suspend the Rules and Pass",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 10,
@@ -510,8 +513,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll191.xml",
-            "question": "On Motion to Suspend the Rules and Pass",
             "id": "119-HR-1709-1"
           }
         ],
@@ -519,7 +520,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 360 - 10 (Roll no. 191). (text: CR H3209-3210: 7)",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 360 - 10 (Roll no. 191). (text: CR H3209-3210)",
         "type": "Floor"
       },
       {
@@ -530,7 +531,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business. (consideration: CR H3230-3231: 4)",
+        "text": "Considered as unfinished business. (consideration: CR H3230-3231)",
         "type": "Floor"
       },
       {
@@ -563,7 +564,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3209-3211: 7)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3209-3211)",
         "type": "Floor"
       },
       {
@@ -675,9 +676,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/1709/summaries?format=json"
   },
   "title": "Understanding Cybersecurity of Mobile Networks Act",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Assistant Secretary of Commerce for Communications and Information to submit to Congress a report examining the cybersecurity of mobile service networks, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:58:20Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Understanding Cybersecurity of Mobile Networks Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-17T02:23:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Understanding Cybersecurity of Mobile Networks Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-07-16T04:08:22Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Understanding Cybersecurity of Mobile Networks Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-07-01T04:23:18Z"
+      },
+      {
+        "title": "Understanding Cybersecurity of Mobile Networks Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-03-06T10:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Understanding Cybersecurity of Mobile Networks Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-06T10:23:17Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To direct the Assistant Secretary of Commerce for Communications and Information to submit to Congress a report examining the cybersecurity of mobile service networks, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-06T10:18:38Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-07-17T14:46:09Z",
-  "updateDateIncludingText": "2025-07-17T14:46:09Z",
+  "updateDate": "2026-07-10T19:58:20Z",
+  "updateDateIncludingText": "2026-07-13T19:46:53Z",
   "id": "119-HR-1709",
   "lastActionDate": "2025-07-15",
   "lastRecordedVoteDate": "2025-07-14T22:56:48Z"

@@ -9,7 +9,7 @@
   "bioguideId": "H000874",
   "birthYear": "1939",
   "cosponsoredLegislation": {
-    "count": 4069,
+    "count": 4092,
     "url": "https://api.congress.gov/v3/member/H000874/cosponsored-legislation"
   },
   "currentMember": true,
@@ -324,7 +324,7 @@
       "stateName": "Maryland"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:29Z",
   "id": {
     "bioguide": "H000874",
     "thomas": "00566",

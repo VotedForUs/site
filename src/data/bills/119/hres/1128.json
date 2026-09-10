@@ -461,6 +461,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll102.xml",
+            "question": "On Agreeing to the Resolution, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -496,8 +499,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll102.xml",
-            "question": "On Agreeing to the Resolution, as Amended",
             "id": "119-HRES-1128-1"
           }
         ],

@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/5317/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-21",
+        "committees": [
+          {
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-20",
@@ -459,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll179.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -494,8 +512,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll179.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-5317-1"
           }
         ],
@@ -647,9 +663,8 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "actionTime": "13:16:04",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-21",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5317",
   "number": "5317",
@@ -662,6 +677,22 @@
   "title": "Community Bank Deposit Access Act of 2025",
   "titles": {
     "titles": [
+      {
+        "title": "Community Bank Deposit Access Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:57:28Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Community Bank Deposit Access Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-23T06:53:30Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -693,12 +724,6 @@
         "updateDate": "2025-11-05T03:53:12Z"
       },
       {
-        "title": "Community Bank Deposit Access Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-09-16T08:23:20Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Community Bank Deposit Access Act of 2025",
@@ -717,9 +742,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-22T04:23:39Z",
-  "updateDateIncludingText": "2026-05-22T07:49:21Z",
+  "updateDate": "2026-07-17T23:57:28Z",
+  "updateDateIncludingText": "2026-07-17T23:57:28Z",
   "id": "119-HR-5317",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-20T17:16:02Z"
 }

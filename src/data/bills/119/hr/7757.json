@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 12,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/7757/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-13",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-29",
@@ -460,6 +475,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll228.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 32,
@@ -495,8 +513,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll228.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-7757-1"
           }
         ],
@@ -601,9 +617,8 @@
   "congress": 119,
   "introducedDate": "2026-03-03",
   "latestAction": {
-    "actionDate": "2026-06-29",
-    "actionTime": "19:02:09",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-13",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7757",
   "number": "7757",
@@ -617,121 +632,171 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "SCREEN Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "SAFE BOTs Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Shielding Children’s Retinas from Egregious Exposure on the Net Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "KIDS Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Kids Internet and Digital Safety Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "AWARE Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "AI Warnings And Resources for Education Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Promoting a Safe Internet for Minors Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
         "title": "Assessing Safety Tools for Parents and Minors Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "No Fentanyl on Social Media Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Safe Social Media Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
         "title": "Kids Internet Safety Partnership Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Kids Online Safety Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "SCREEN Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "No Fentanyl on Social Media Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Promoting a Safe Internet for Minors Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Safe Social Media Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "SPY Kids Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Stop Profiling Youth and Kids Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "AWARE Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Safeguarding Adolescents From Exploitative BOTs Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Shielding Children’s Retinas from Egregious Exposure on the Net Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "KIDS Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Kids Internet and Digital Safety Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-15T13:08:24Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "AI Warnings And Resources for Education Act",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-07-15T13:08:24Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "SPY Kids Act",
+        "title": "Kids Online Safety Act",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
         "updateDate": "2026-07-01T03:53:27Z"
@@ -751,7 +816,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Kids Online Safety Act",
+        "title": "AI Warnings And Resources for Education Act",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
         "updateDate": "2026-07-01T03:53:27Z"
@@ -761,59 +826,17 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "SAFE BOTs Act",
+        "title": "SPY Kids Act",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
         "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To protect children and teens online, empower parents and strengthen families, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Safeguarding Adolescents From Exploitative BOTs Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-01T03:53:27Z"
-      },
-      {
-        "title": "KIDS Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-04T09:23:23Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "KIDS Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2026-03-04T09:23:18Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Kids Internet and Digital Safety Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2026-03-04T09:23:18Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-01T08:06:49Z",
-  "updateDateIncludingText": "2026-07-13T01:07:39Z",
+  "updateDate": "2026-07-29T20:36:31Z",
+  "updateDateIncludingText": "2026-07-30T16:27:18Z",
   "id": "119-HR-7757",
-  "lastActionDate": "2026-06-29",
+  "lastActionDate": "2026-07-13",
   "lastRecordedVoteDate": "2026-06-29T23:02:07Z"
 }

@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/5625/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-18",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-14",
@@ -459,6 +474,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll171.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 2,
@@ -494,8 +512,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll171.xml",
-            "question": "On Passage",
             "id": "119-HR-5625-1"
           }
         ],
@@ -669,9 +685,8 @@
   "congress": 119,
   "introducedDate": "2025-09-30",
   "latestAction": {
-    "actionDate": "2026-05-14",
-    "actionTime": "16:59:37",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-18",
+    "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5625",
   "number": "5625",
@@ -684,6 +699,22 @@
   "title": "Cashless Bail Reporting Act",
   "titles": {
     "titles": [
+      {
+        "title": "Cashless Bail Reporting Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:53:19Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Cashless Bail Reporting Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-20T03:08:30Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -715,12 +746,6 @@
         "updateDate": "2026-04-10T06:08:23Z"
       },
       {
-        "title": "Cashless Bail Reporting Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-10-04T10:23:14Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Cashless Bail Reporting Act",
@@ -739,9 +764,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-16T03:53:25Z",
-  "updateDateIncludingText": "2026-05-16T07:03:22Z",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z",
   "id": "119-HR-5625",
-  "lastActionDate": "2026-05-14",
+  "lastActionDate": "2026-05-18",
   "lastRecordedVoteDate": "2026-05-14T20:59:35Z"
 }

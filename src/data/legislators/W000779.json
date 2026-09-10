@@ -9,7 +9,7 @@
   "bioguideId": "W000779",
   "birthYear": "1949",
   "cosponsoredLegislation": {
-    "count": 8496,
+    "count": 8633,
     "url": "https://api.congress.gov/v3/member/W000779/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1891,
+    "count": 2033,
     "url": "https://api.congress.gov/v3/member/W000779/sponsored-legislation"
   },
   "state": "Oregon",

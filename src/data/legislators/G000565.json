@@ -9,7 +9,7 @@
   "bioguideId": "G000565",
   "birthYear": "1958",
   "cosponsoredLegislation": {
-    "count": 2668,
+    "count": 2720,
     "url": "https://api.congress.gov/v3/member/G000565/cosponsored-legislation"
   },
   "currentMember": true,
@@ -54,7 +54,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 369,
+    "count": 376,
     "url": "https://api.congress.gov/v3/member/G000565/sponsored-legislation"
   },
   "state": "Arizona",
@@ -139,7 +139,7 @@
       "stateName": "Arizona"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "G000565",
     "thomas": "01992",

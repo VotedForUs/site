@@ -9,7 +9,7 @@
   "bioguideId": "R000622",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 286,
+    "count": 403,
     "url": "https://api.congress.gov/v3/member/R000622/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 13,
+    "count": 16,
     "url": "https://api.congress.gov/v3/member/R000622/sponsored-legislation"
   },
   "state": "New York",
@@ -75,7 +75,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "R000622",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00049916",
     "wikipedia": "Josh Riley",
     "wikidata": "Q113988129",
+    "votesmart": 205997,
+    "ballotpedia": "Josh Riley",
     "facebook": "RepRileyNY",
     "instagram": "RepRileyNY"
   },

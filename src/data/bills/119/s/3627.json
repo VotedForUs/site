@@ -116,12 +116,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 47,
-              "nays": 45,
-              "present": "",
-              "absent": 8
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00012.xml",
+            "question": "On Cloture on the Motion to Proceed S. 3627",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -145,8 +142,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00012.xml",
-            "question": "On Cloture on the Motion to Proceed S. 3627",
+            "senateCount": {
+              "yeas": 47,
+              "nays": 45,
+              "present": "",
+              "absent": 8
+            },
             "id": "119-S-3627-1"
           }
         ],

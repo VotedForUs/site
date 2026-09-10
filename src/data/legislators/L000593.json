@@ -9,7 +9,7 @@
   "bioguideId": "L000593",
   "birthYear": "1978",
   "cosponsoredLegislation": {
-    "count": 1793,
+    "count": 1878,
     "url": "https://api.congress.gov/v3/member/L000593/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 122,
+    "count": 123,
     "url": "https://api.congress.gov/v3/member/L000593/sponsored-legislation"
   },
   "state": "California",
@@ -96,7 +96,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "L000593",
     "fec": [
@@ -110,6 +110,7 @@
     "icpsr": 21939,
     "google_entity_id": "kg:/g/11gfd5mdpc",
     "pictorial": 12963,
+    "ballotpedia": "Mike Levin",
     "twitter": "RepMikeLevin",
     "twitter_id": 1072134139560620000,
     "facebook": "RepMikeLevin",

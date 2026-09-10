@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 12,
+    "count": 13,
     "url": "https://api.congress.gov/v3/bill/119/hr/5362/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-21",
+        "committees": [
+          {
+            "name": "Veterans' Affairs Committee",
+            "systemCode": "ssva00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssva00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-16",
@@ -460,6 +475,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll248.xml",
+            "question": "On Motion to Suspend the Rules and Pass",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -495,8 +513,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll248.xml",
-            "question": "On Motion to Suspend the Rules and Pass",
             "id": "119-HR-5362-1"
           }
         ],
@@ -601,9 +617,8 @@
   "congress": 119,
   "introducedDate": "2025-09-15",
   "latestAction": {
-    "actionDate": "2026-07-16",
-    "actionTime": "10:51:04",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-21",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5362",
   "number": "5362",
@@ -643,9 +658,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:25Z",
-  "updateDateIncludingText": "2026-07-22T07:48:33Z",
+  "updateDate": "2026-08-06T21:23:09Z",
+  "updateDateIncludingText": "2026-08-06T21:23:09Z",
   "id": "119-HR-5362",
-  "lastActionDate": "2026-07-16",
+  "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-16T14:51:01Z"
 }

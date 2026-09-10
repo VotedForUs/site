@@ -9,7 +9,7 @@
   "bioguideId": "L000597",
   "birthYear": "1974",
   "cosponsoredLegislation": {
-    "count": 329,
+    "count": 371,
     "url": "https://api.congress.gov/v3/member/L000597/cosponsored-legislation"
   },
   "currentMember": true,
@@ -73,7 +73,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 42,
+    "count": 45,
     "url": "https://api.congress.gov/v3/member/L000597/sponsored-legislation"
   },
   "state": "Florida",
@@ -98,7 +98,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "L000597",
     "fec": [
@@ -111,6 +111,7 @@
     "google_entity_id": "kg:/g/11h3cbjvc3",
     "votesmart": 186114,
     "pictorial": 12996,
+    "ballotpedia": "Laurel Lee",
     "twitter": "RepLaurelLee",
     "twitter_id": 1608230657796227000,
     "facebook": "RepLaurelLee",

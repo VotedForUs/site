@@ -9,7 +9,7 @@
   "bioguideId": "B001301",
   "birthYear": "1947",
   "cosponsoredLegislation": {
-    "count": 1033,
+    "count": 1089,
     "url": "https://api.congress.gov/v3/member/B001301/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 104,
+    "count": 105,
     "url": "https://api.congress.gov/v3/member/B001301/sponsored-legislation"
   },
   "state": "Michigan",
@@ -106,7 +106,7 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "B001301",
     "govtrack": 412709,

@@ -476,6 +476,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll196.xml",
+            "question": "On Motion to Suspend the Rules and Pass",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 32,
@@ -511,8 +514,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll196.xml",
-            "question": "On Motion to Suspend the Rules and Pass",
             "id": "119-HR-1717-1"
           }
         ],
@@ -564,7 +565,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H3218-3220: 1)",
+        "text": "Considered under suspension of the rules. (consideration: CR H3218-3220)",
         "type": "Floor"
       },
       {
@@ -676,9 +677,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/1717/summaries?format=json"
   },
   "title": "Communications Security Act",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Federal Communications Commission to establish a council to make recommendations on ways to increase the security, reliability, and interoperability of communications networks, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T19:53:21Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Communications Security Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-18T03:23:18Z"
+      },
+      {
+        "title": "Communications Security Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-07-17T11:31:37Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Communications Security Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-07-17T02:38:21Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Communications Security Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-07-11T04:53:17Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Communications Security Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-03-19T15:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To direct the Federal Communications Commission to establish a council to make recommendations on ways to increase the security, reliability, and interoperability of communications networks, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-19T15:18:20Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-08-09T17:41:16Z",
-  "updateDateIncludingText": "2025-08-09T17:41:16Z",
+  "updateDate": "2026-07-10T19:53:21Z",
+  "updateDateIncludingText": "2026-07-13T19:46:58Z",
   "id": "119-HR-1717",
   "lastActionDate": "2025-07-16",
   "lastRecordedVoteDate": "2025-07-15T18:36:43Z"

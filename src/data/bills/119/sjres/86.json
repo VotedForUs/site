@@ -116,12 +116,9 @@
               "Y000064": "Nay"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 43,
-              "nays": 50,
-              "present": "",
-              "absent": 7
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00004.xml",
+            "question": "On the Motion to Proceed S.J.Res. 86",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -145,8 +142,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00004.xml",
-            "question": "On the Motion to Proceed S.J.Res. 86",
+            "senateCount": {
+              "yeas": 43,
+              "nays": 50,
+              "present": "",
+              "absent": 7
+            },
             "id": "119-SJRES-86-1"
           }
         ],

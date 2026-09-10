@@ -146,12 +146,9 @@
               "Y000064": "Nay"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 51,
-              "nays": 48,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00160.xml",
+            "question": "On the Joint Resolution S.J.Res. 37",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -175,8 +172,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00160.xml",
-            "question": "On the Joint Resolution S.J.Res. 37",
+            "senateCount": {
+              "yeas": 51,
+              "nays": 48,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-SJRES-37-1"
           }
         ],

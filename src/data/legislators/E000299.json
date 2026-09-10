@@ -9,7 +9,7 @@
   "bioguideId": "E000299",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 1467,
+    "count": 1542,
     "url": "https://api.congress.gov/v3/member/E000299/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 73,
+    "count": 80,
     "url": "https://api.congress.gov/v3/member/E000299/sponsored-legislation"
   },
   "state": "Texas",
@@ -105,7 +105,7 @@
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "E000299",
     "fec": [

@@ -9,7 +9,7 @@
   "bioguideId": "B000668",
   "birthYear": "1952",
   "cosponsoredLegislation": {
-    "count": 339,
+    "count": 357,
     "url": "https://api.congress.gov/v3/member/B000668/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 24,
+    "count": 31,
     "url": "https://api.congress.gov/v3/member/B000668/sponsored-legislation"
   },
   "state": "Oregon",
@@ -95,7 +95,7 @@
       "stateName": "Oregon"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "B000668",
     "fec": [
@@ -107,6 +107,8 @@
     "wikipedia": "Cliff Bentz",
     "google_entity_id": "kg:/m/0gfdsjb",
     "pictorial": 13216,
+    "votesmart": 102400,
+    "ballotpedia": "Cliff Bentz",
     "twitter": "RepBentz",
     "twitter_id": 1345788865911656400,
     "facebook": "RepBentz",

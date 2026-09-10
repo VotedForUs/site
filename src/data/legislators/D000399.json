@@ -9,7 +9,7 @@
   "bioguideId": "D000399",
   "birthYear": "1946",
   "cosponsoredLegislation": {
-    "count": 3753,
+    "count": 3808,
     "url": "https://api.congress.gov/v3/member/D000399/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 261,
+    "count": 266,
     "url": "https://api.congress.gov/v3/member/D000399/sponsored-legislation"
   },
   "state": "Texas",
@@ -224,7 +224,7 @@
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:19Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "D000399",
     "thomas": "00303",

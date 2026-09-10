@@ -476,6 +476,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll277.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -511,8 +514,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll277.xml",
-            "question": "On Passage",
             "id": "119-HR-3062-1"
           }
         ],
@@ -691,6 +692,142 @@
         },
         "text": "Ordered to be Reported by the Yeas and Nays: 28 - 23.",
         "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2025-06-25",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H23000",
+        "actionDate": "2025-06-05",
+        "committees": [
+          {
+            "name": "Energy Subcommittee",
+            "systemCode": "hsif03",
+            "url": "https://api.congress.gov/v3/committee/house/hsif03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Forwarded by Subcommittee to Full Committee (Amended) by the Yeas and Nays: 16 - 13.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H22000",
+        "actionDate": "2025-06-05",
+        "committees": [
+          {
+            "name": "Energy Subcommittee",
+            "systemCode": "hsif03",
+            "url": "https://api.congress.gov/v3/committee/house/hsif03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2025-06-03",
+        "committees": [
+          {
+            "name": "Energy Subcommittee",
+            "systemCode": "hsif03",
+            "url": "https://api.congress.gov/v3/committee/house/hsif03?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Energy.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2025-04-29",
+        "committees": [
+          {
+            "name": "Railroads, Pipelines, and Hazardous Materials Subcommittee",
+            "systemCode": "hspw14",
+            "url": "https://api.congress.gov/v3/committee/house/hspw14?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-04-29",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Transportation and Infrastructure, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-04-29",
+        "committees": [
+          {
+            "name": "Transportation and Infrastructure Committee",
+            "systemCode": "hspw00",
+            "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Transportation and Infrastructure, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-04-29",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Transportation and Infrastructure, and Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -709,9 +846,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/3062/summaries?format=json"
   },
   "title": "Promoting Cross-border Energy Infrastructure Act",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Promoting Cross-border Energy Infrastructure Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-09-23T04:23:15Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Promoting Cross-border Energy Infrastructure Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-09-20T06:08:14Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2025-09-20T06:08:14Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Promoting Cross-border Energy Infrastructure Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-07-04T02:23:18Z"
+      },
+      {
+        "title": "Promoting Cross-border Energy Infrastructure Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-05-13T05:23:29Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Promoting Cross-border Energy Infrastructure Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-05-13T05:23:27Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To establish a more uniform, transparent, and modern process to authorize the construction, connection, operation, and maintenance of international border-crossing facilities for the import and export of oil and natural gas and the transmission of electricity.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-05-13T05:18:50Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-09T03:26:16Z",
-  "updateDateIncludingText": "2025-10-09T03:26:16Z",
+  "updateDate": "2026-03-24T12:48:03Z",
+  "updateDateIncludingText": "2026-07-13T20:12:31Z",
   "id": "119-HR-3062",
   "lastActionDate": "2025-09-19",
   "lastRecordedVoteDate": "2025-09-18T20:35:10Z"

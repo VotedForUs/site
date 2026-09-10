@@ -116,12 +116,9 @@
               "Y000064": "Yea"
             },
             "result": "rejected",
-            "senateCount": {
-              "yeas": 54,
-              "nays": 45,
-              "present": "",
-              "absent": 1
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00022.xml",
+            "question": "On Cloture on the Motion to Proceed H.R. 23",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -145,8 +142,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00022.xml",
-            "question": "On Cloture on the Motion to Proceed H.R. 23",
+            "senateCount": {
+              "yeas": 54,
+              "nays": 45,
+              "present": "",
+              "absent": 1
+            },
             "id": "119-HR-23-2"
           }
         ],
@@ -648,6 +649,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll007.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -683,8 +687,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll007.xml",
-            "question": "On Passage",
             "id": "119-HR-23-1"
           }
         ],

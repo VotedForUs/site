@@ -9,7 +9,7 @@
   "bioguideId": "L000599",
   "birthYear": "1986",
   "cosponsoredLegislation": {
-    "count": 2034,
+    "count": 2284,
     "url": "https://api.congress.gov/v3/member/L000599/cosponsored-legislation"
   },
   "currentMember": true,
@@ -61,7 +61,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 166,
+    "count": 196,
     "url": "https://api.congress.gov/v3/member/L000599/sponsored-legislation"
   },
   "state": "New York",
@@ -86,7 +86,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "L000599",
     "fec": [
@@ -96,9 +96,10 @@
     "opensecrets": "N00051208",
     "wikidata": "Q105179052",
     "wikipedia": "Mike Lawler",
-    "google_entity_id": "kg:/g/11qwsdzzd6",
+    "google_entity_id": "kg:/g/11jfwsx5qv",
     "votesmart": 192271,
     "pictorial": 13185,
+    "ballotpedia": "Michael Lawler (New York)",
     "twitter": "RepMikeLawler",
     "twitter_id": 1590372047015886800,
     "facebook": "RepMikeLawler",

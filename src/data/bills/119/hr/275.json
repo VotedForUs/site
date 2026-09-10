@@ -486,6 +486,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2025/roll184.xml",
+            "question": "On Passage",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 0,
@@ -521,8 +524,6 @@
                 "yeaTotal": 0
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2025/roll184.xml",
-            "question": "On Passage",
             "id": "119-HR-275-1"
           }
         ],
@@ -724,6 +725,40 @@
         },
         "text": "Referred to the Subcommittee on Counterterrorism and Intelligence.",
         "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2025-01-19",
+        "committees": [
+          {
+            "name": "Border Security and Enforcement Subcommittee",
+            "systemCode": "hshm11",
+            "url": "https://api.congress.gov/v3/committee/house/hshm11?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Border Security and Enforcement.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-01-09",
+        "committees": [
+          {
+            "name": "Homeland Security Committee",
+            "systemCode": "hshm00",
+            "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Homeland Security.",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -742,9 +777,75 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/275/summaries?format=json"
   },
   "title": "Special Interest Alien Reporting Act of 2025",
+  "titles": {
+    "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Secretary of Homeland Security to publish on a monthly basis the number of special interest aliens encountered attempting to unlawfully enter the United States, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-11T02:23:20Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Special Interest Alien Reporting Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-07-02T01:23:18Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Special Interest Alien Reporting Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-06-28T02:38:20Z"
+      },
+      {
+        "title": "Special Interest Alien Reporting Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-06-18T05:23:18Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Special Interest Alien Reporting Act of 2025",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2025-06-18T05:23:17Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Special Interest Alien Reporting Act of 2024",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-02-06T01:08:15Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To require the Secretary of Homeland Security to publish on a monthly basis the number of special interest aliens encountered attempting to unlawfully enter the United States, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-02-06T01:03:29Z"
+      }
+    ]
+  },
   "type": "HR",
-  "updateDate": "2025-10-09T03:26:24Z",
-  "updateDateIncludingText": "2025-10-09T03:26:24Z",
+  "updateDate": "2026-07-11T02:23:20Z",
+  "updateDateIncludingText": "2026-07-13T20:10:25Z",
   "id": "119-HR-275",
   "lastActionDate": "2025-06-27",
   "lastRecordedVoteDate": "2025-06-26T19:36:46Z"

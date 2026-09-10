@@ -9,7 +9,7 @@
   "bioguideId": "C001039",
   "birthYear": "1988",
   "cosponsoredLegislation": {
-    "count": 672,
+    "count": 705,
     "url": "https://api.congress.gov/v3/member/C001039/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 68,
+    "count": 74,
     "url": "https://api.congress.gov/v3/member/C001039/sponsored-legislation"
   },
   "state": "Florida",
@@ -95,7 +95,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "C001039",
     "fec": [
@@ -107,6 +107,8 @@
     "wikipedia": "Kat Cammack",
     "google_entity_id": "kg:/g/11fsp_lppx",
     "pictorial": 12984,
+    "votesmart": 191306,
+    "ballotpedia": "Kat Cammack",
     "twitter": "RepKatCammack",
     "twitter_id": 1344325638983987200,
     "facebook": "RepKatCammack",

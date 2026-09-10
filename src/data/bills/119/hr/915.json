@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/915/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-13",
+        "committees": [
+          {
+            "name": "Small Business and Entrepreneurship Committee",
+            "systemCode": "sssb00",
+            "url": "https://api.congress.gov/v3/committee/senate/sssb00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-24",
@@ -460,6 +475,9 @@
               "Z000018": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll226.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 4,
@@ -495,8 +513,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll226.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-915-1"
           }
         ],
@@ -648,9 +664,8 @@
   "congress": 119,
   "introducedDate": "2025-02-04",
   "latestAction": {
-    "actionDate": "2026-06-24",
-    "actionTime": "17:17:18",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-13",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/915",
   "number": "915",
@@ -667,7 +682,17 @@
         "title": "Small Business Technological Advancement Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-26T04:53:22Z"
+        "updateDate": "2026-07-17T23:57:16Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Small Business Technological Advancement Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-15T13:08:23Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -718,9 +743,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-07T20:30:52Z",
-  "updateDateIncludingText": "2026-07-07T20:30:52Z",
+  "updateDate": "2026-07-23T23:06:24Z",
+  "updateDateIncludingText": "2026-07-23T23:06:24Z",
   "id": "119-HR-915",
-  "lastActionDate": "2026-06-24",
+  "lastActionDate": "2026-07-13",
   "lastRecordedVoteDate": "2026-06-24T21:17:16Z"
 }

@@ -9,7 +9,7 @@
   "bioguideId": "V000131",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 2503,
+    "count": 2558,
     "url": "https://api.congress.gov/v3/member/V000131/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 123,
+    "count": 124,
     "url": "https://api.congress.gov/v3/member/V000131/sponsored-legislation"
   },
   "state": "Texas",
@@ -139,7 +139,7 @@
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "govtrack": 412579,
     "bioguide": "V000131",

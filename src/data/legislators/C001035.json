@@ -9,7 +9,7 @@
   "bioguideId": "C001035",
   "birthYear": "1952",
   "cosponsoredLegislation": {
-    "count": 6575,
+    "count": 6633,
     "url": "https://api.congress.gov/v3/member/C001035/cosponsored-legislation"
   },
   "currentMember": true,
@@ -43,7 +43,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1195,
+    "count": 1208,
     "url": "https://api.congress.gov/v3/member/C001035/sponsored-legislation"
   },
   "state": "Maine",

@@ -8,7 +8,7 @@
   },
   "bioguideId": "K000404",
   "cosponsoredLegislation": {
-    "count": 109,
+    "count": 141,
     "url": "https://api.congress.gov/v3/member/K000404/cosponsored-legislation"
   },
   "currentMember": true,
@@ -67,7 +67,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 14,
+    "count": 19,
     "url": "https://api.congress.gov/v3/member/K000404/sponsored-legislation"
   },
   "state": "Northern Mariana Islands",
@@ -81,7 +81,7 @@
       "stateName": "Northern Mariana Islands"
     }
   ],
-  "updateDate": "2025-09-24T07:40:19Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "K000404",
     "fec": [
@@ -90,6 +90,7 @@
     "govtrack": 456999,
     "wikipedia": "Kimberlyn King-Hinds",
     "wikidata": "Q130942218",
+    "google_entity_id": "kg:/g/11ldv50j57",
     "twitter": "RepKimKingHinds",
     "facebook": "61571529818077",
     "instagram": "RepKimKingHinds"

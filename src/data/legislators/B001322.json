@@ -9,7 +9,7 @@
   "bioguideId": "B001322",
   "birthYear": "1975",
   "cosponsoredLegislation": {
-    "count": 159,
+    "count": 183,
     "url": "https://api.congress.gov/v3/member/B001322/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 14,
+    "count": 25,
     "url": "https://api.congress.gov/v3/member/B001322/sponsored-legislation"
   },
   "state": "Washington",
@@ -75,7 +75,7 @@
       "stateName": "Washington"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "B001322",
     "fec": [
@@ -85,6 +85,7 @@
     "opensecrets": "N00033716",
     "wikipedia": "Michael Baumgartner",
     "wikidata": "Q6828508",
+    "votesmart": 126301,
     "twitter": "repbaumgartner",
     "facebook": "RepBaumgartner",
     "instagram": "repbaumgartner"

@@ -9,7 +9,7 @@
   "bioguideId": "S001220",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 202,
+    "count": 219,
     "url": "https://api.congress.gov/v3/member/S001220/cosponsored-legislation"
   },
   "currentMember": true,
@@ -73,7 +73,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 27,
+    "count": 31,
     "url": "https://api.congress.gov/v3/member/S001220/sponsored-legislation"
   },
   "state": "Alabama",
@@ -98,7 +98,7 @@
       "stateName": "Alabama"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "S001220",
     "fec": [

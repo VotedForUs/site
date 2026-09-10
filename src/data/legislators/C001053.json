@@ -9,7 +9,7 @@
   "bioguideId": "C001053",
   "birthYear": "1949",
   "cosponsoredLegislation": {
-    "count": 3255,
+    "count": 3260,
     "url": "https://api.congress.gov/v3/member/C001053/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 227,
+    "count": 229,
     "url": "https://api.congress.gov/v3/member/C001053/sponsored-legislation"
   },
   "state": "Oklahoma",
@@ -176,7 +176,7 @@
       "stateName": "Oklahoma"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "C001053",
     "thomas": "01742",

@@ -146,12 +146,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 50,
-              "nays": 38,
-              "present": "",
-              "absent": 12
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00238.xml",
+            "question": "On the Joint Resolution S.J.Res. 7",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -175,8 +172,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00238.xml",
-            "question": "On the Joint Resolution S.J.Res. 7",
+            "senateCount": {
+              "yeas": 50,
+              "nays": 38,
+              "present": "",
+              "absent": 12
+            },
             "id": "119-SJRES-7-2"
           }
         ],
@@ -315,12 +316,9 @@
               "Y000064": "Yea"
             },
             "result": "passed",
-            "senateCount": {
-              "yeas": 53,
-              "nays": 47,
-              "present": "",
-              "absent": ""
-            },
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00235.xml",
+            "question": "On the Motion to Proceed S.J.Res. 7",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "voteParty": "D",
@@ -344,8 +342,12 @@
                 "notVotingTotal": 0
               }
             ],
-            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00235.xml",
-            "question": "On the Motion to Proceed S.J.Res. 7",
+            "senateCount": {
+              "yeas": 53,
+              "nays": 47,
+              "present": "",
+              "absent": ""
+            },
             "id": "119-SJRES-7-1"
           }
         ],

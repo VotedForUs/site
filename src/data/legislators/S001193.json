@@ -1,18 +1,11 @@
 {
-  "addressInformation": {
-    "city": "Washington",
-    "district": "DC",
-    "officeAddress": "174 Cannon House Office Building",
-    "phoneNumber": "(202) 225-5065",
-    "zipCode": 20515
-  },
   "bioguideId": "S001193",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 3313,
+    "count": 3323,
     "url": "https://api.congress.gov/v3/member/S001193/cosponsored-legislation"
   },
-  "currentMember": true,
+  "currentMember": false,
   "depiction": {
     "attribution": "Image courtesy of the Member",
     "imageUrl": "/images/legislators/S001193.jpg"
@@ -23,7 +16,6 @@
   "honorificName": "Mr.",
   "invertedOrderName": "Swalwell, Eric",
   "lastName": "Swalwell",
-  "officialWebsiteUrl": "https://swalwell.house.gov",
   "partyHistory": [
     {
       "partyAbbreviation": "D",
@@ -51,7 +43,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 107,
+    "count": 108,
     "url": "https://api.congress.gov/v3/member/S001193/sponsored-legislation"
   },
   "state": "California",
@@ -120,13 +112,14 @@
       "chamber": "House of Representatives",
       "congress": 119,
       "district": 14,
+      "endYear": 2026,
       "memberType": "Representative",
       "startYear": 2025,
       "stateCode": "CA",
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-04-15T11:45:35Z",
   "id": {
     "govtrack": 412514,
     "bioguide": "S001193",
@@ -143,14 +136,7 @@
     "icpsr": 21306,
     "wikidata": "Q3466996",
     "google_entity_id": "kg:/m/0ncq55g",
-    "pictorial": 12928,
-    "twitter": "RepSwalwell",
-    "facebook": "CongressmanEricSwalwell",
-    "youtube": "ericswalwell",
-    "youtube_id": "UCKvwsFNGD4sDkE_9g-2ft0w",
-    "instagram": "repswalwell",
-    "instagram_id": 338799200,
-    "twitter_id": 942156122
+    "pictorial": 12928
   },
   "name": {
     "first": "Eric",
@@ -164,7 +150,7 @@
   "latest_term": {
     "type": "rep",
     "start": "2025-01-03",
-    "end": "2027-01-03",
+    "end": "2026-04-14",
     "state": "CA",
     "district": 14,
     "party": "Democrat",

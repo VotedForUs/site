@@ -9,7 +9,7 @@
   "bioguideId": "P000622",
   "birthYear": "1972",
   "cosponsoredLegislation": {
-    "count": 67,
+    "count": 106,
     "url": "https://api.congress.gov/v3/member/P000622/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 13,
+    "count": 18,
     "url": "https://api.congress.gov/v3/member/P000622/sponsored-legislation"
   },
   "state": "Florida",
@@ -83,7 +83,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "P000622",
     "fec": [

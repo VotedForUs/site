@@ -9,12 +9,12 @@
   "bioguideId": "L000562",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 4411,
+    "count": 4524,
     "url": "https://api.congress.gov/v3/member/L000562/cosponsored-legislation"
   },
   "currentMember": true,
   "depiction": {
-    "attribution": "Image, Congressional Pictorial Directory, 109th.",
+    "attribution": "Image courtesy of the Member",
     "imageUrl": "/images/legislators/L000562.jpg"
   },
   "directOrderName": "Stephen F. Lynch",
@@ -54,7 +54,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 251,
+    "count": 254,
     "url": "https://api.congress.gov/v3/member/L000562/sponsored-legislation"
   },
   "state": "Massachusetts",
@@ -189,7 +189,7 @@
       "stateName": "Massachusetts"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "L000562",
     "thomas": "01686",

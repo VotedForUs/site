@@ -9,7 +9,7 @@
   "bioguideId": "P000621",
   "birthYear": "1956",
   "cosponsoredLegislation": {
-    "count": 161,
+    "count": 228,
     "url": "https://api.congress.gov/v3/member/P000621/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 9,
+    "count": 13,
     "url": "https://api.congress.gov/v3/member/P000621/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -75,7 +75,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "P000621",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00055613",
     "wikipedia": "Nellie Pou",
     "wikidata": "Q6990132",
+    "votesmart": 15181,
+    "ballotpedia": "Nellie Pou",
     "twitter": "caohouse",
     "facebook": "CAOHouseofReps",
     "instagram": "housecreativeservices"

@@ -9,7 +9,7 @@
   "bioguideId": "G000604",
   "birthYear": "1986",
   "cosponsoredLegislation": {
-    "count": 222,
+    "count": 339,
     "url": "https://api.congress.gov/v3/member/G000604/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 8,
+    "count": 13,
     "url": "https://api.congress.gov/v3/member/G000604/sponsored-legislation"
   },
   "state": "New Hampshire",
@@ -75,7 +75,7 @@
       "stateName": "New Hampshire"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "G000604",
     "fec": [
@@ -85,6 +85,9 @@
     "opensecrets": "N00055218",
     "wikipedia": "Maggie Goodlander",
     "wikidata": "Q126718734",
+    "google_entity_id": "kg:/g/11c31t9glt",
+    "votesmart": 218522,
+    "ballotpedia": "Maggie Goodlander",
     "twitter": "RepGoodlander",
     "facebook": "61571606604866",
     "instagram": "repgoodlander"

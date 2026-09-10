@@ -9,7 +9,7 @@
   "bioguideId": "B001321",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 145,
+    "count": 199,
     "url": "https://api.congress.gov/v3/member/B001321/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 31,
+    "count": 51,
     "url": "https://api.congress.gov/v3/member/B001321/sponsored-legislation"
   },
   "state": "Michigan",
@@ -75,7 +75,7 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "B001321",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00049596",
     "wikipedia": "Tom Barrett (Michigan politician)",
     "wikidata": "Q18684588",
+    "votesmart": 153540,
+    "ballotpedia": "Tom Barrett (Michigan)",
     "twitter": "reptombarrett",
     "facebook": "RepTomBarrett"
   },

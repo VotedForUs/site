@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 24,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/hr/7613/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-15",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38800",
         "actionDate": "2026-04-14",
@@ -471,6 +486,9 @@
               "F000485": "Yea"
             },
             "result": "passed",
+            "voteUrl": "https://clerk.house.gov/evs/2026/roll110.xml",
+            "question": "On Motion to Suspend the Rules and Pass, as Amended",
+            "recordType": "roll-call",
             "votePartyTotal": [
               {
                 "nayTotal": 9,
@@ -506,8 +524,6 @@
                 "yeaTotal": 1
               }
             ],
-            "voteUrl": "https://clerk.house.gov/evs/2026/roll110.xml",
-            "question": "On Motion to Suspend the Rules and Pass, as Amended",
             "id": "119-HR-7613-1"
           }
         ],
@@ -761,9 +777,8 @@
   "congress": 119,
   "introducedDate": "2026-02-20",
   "latestAction": {
-    "actionDate": "2026-04-14",
-    "actionTime": "19:59:37",
-    "text": "The title of the measure was amended. Agreed to without objection."
+    "actionDate": "2026-04-15",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7613",
   "number": "7613",
@@ -780,7 +795,37 @@
         "title": "ALERT Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-04-16T03:38:23Z"
+        "updateDate": "2026-07-17T23:28:33Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Airspace Location and Enhanced Risk Transparency Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-18T02:53:23Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "ALERT Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-18T02:53:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Airspace Location and Enhanced Risk Transparency Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-16T03:38:22Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -798,16 +843,6 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "ALERT Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-04-16T03:38:22Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Airspace Location and Enhanced Risk Transparency Act of 2026",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-04-16T03:38:22Z"
@@ -843,7 +878,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "ALERT Act",
+        "title": "Airspace Location and Enhanced Risk Transparency Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-03-10T06:23:32Z"
@@ -851,7 +886,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Airspace Location and Enhanced Risk Transparency Act of 2026",
+        "title": "ALERT Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-03-10T06:23:32Z"
@@ -867,9 +902,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-16T03:38:23Z",
-  "updateDateIncludingText": "2026-04-16T07:18:33Z",
+  "updateDate": "2026-07-17T23:28:33Z",
+  "updateDateIncludingText": "2026-07-17T23:28:33Z",
   "id": "119-HR-7613",
-  "lastActionDate": "2026-04-14",
+  "lastActionDate": "2026-04-15",
   "lastRecordedVoteDate": "2026-04-14T23:59:34Z"
 }
