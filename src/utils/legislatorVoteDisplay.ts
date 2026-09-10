@@ -79,6 +79,25 @@ export function voteVerbLabel(proc: ProceduralVoteCastKind | null): string {
   return 'voted';
 }
 
+/**
+ * The tag for one member's cast, and the kind of vote it came from.
+ *
+ * A vote with no roll call has no per-member position on the record, but every
+ * member could have demanded one, so not demanding it is consent: the tag reads
+ * Yea. That is only defensible while the kind is named with it, so `kind` is
+ * non-null exactly when the caller must render it beside the tag. The stored
+ * `UC` and `vv` never come back out.
+ *
+ * @param voteCast - Raw vote cast string from the roll.
+ * @returns The tag to render, and the kind that has to accompany it.
+ */
+export function castTag(voteCast: string): { label: string; kind: string | null } {
+  const proc = proceduralVoteCastKind(voteCast);
+  return proc
+    ? { label: 'Yea', kind: actionOptionLabel(voteCast, proc) }
+    : { label: voteCast, kind: null };
+}
+
 /** Precomputed display strings for a legislator vote view. */
 export type LegislatorVoteDisplay = {
   proc: ProceduralVoteCastKind | null;
