@@ -4,6 +4,7 @@ import {
   actionOptionLabel,
   buildLegislatorVoteDisplay,
   castEmoji,
+  castTag,
   displayNameFromNameTitle,
   formatMemberSubtitle,
 } from './legislatorVoteDisplay.js';
@@ -51,4 +52,21 @@ test('formatMemberSubtitle formats senate and house lines', () => {
     formatMemberSubtitle('Democrat', 'New York', 'rep', 'NY', 8),
     'Democrat, New York, NY-8',
   );
+});
+
+test('castTag reports a roll-call cast as it stands, with no kind to name', () => {
+  assert.deepEqual(castTag('Yea'), { label: 'Yea', kind: null });
+  assert.deepEqual(castTag('Nay'), { label: 'Nay', kind: null });
+});
+
+test('castTag reads a vote with no roll call as a Yea and names the kind with it', () => {
+  assert.deepEqual(castTag('UC'), { label: 'Yea', kind: 'Unanimous Consent' });
+  assert.deepEqual(castTag('vv'), { label: 'Yea', kind: 'Voice Vote' });
+});
+
+test('castTag never hands back the stored value for those two', () => {
+  for (const stored of ['UC', 'vv']) {
+    const tag = castTag(stored);
+    assert.ok(!`${tag.label}${tag.kind}`.includes(stored), stored);
+  }
 });

@@ -6,9 +6,9 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "astro dev",
-    "build": "tsx scripts/incremental-check.ts && astro build && npm run _cache:merge && npm run _cache:save",
+    "build": "npm run finder:index && tsx scripts/incremental-check.ts && astro build && npm run _cache:merge && npm run _cache:save",
     "build:test": "BILLS_PER_TYPE_LIMIT=40 npm run build",
-    "build:full": "FORCE_FULL_REBUILD=true astro build && npm run _cache:save",
+    "build:full": "npm run finder:index && FORCE_FULL_REBUILD=true astro build && npm run _cache:save",
     "_cache:merge": "[ -d dist-cache ] && rsync -a --ignore-existing dist-cache/ dist/ || true",
     "_cache:save": "mkdir -p dist-cache && cp -r dist/. dist-cache/ && [ -f .current-digests.json ] && cp .current-digests.json dist-cache/.astro-manifest.json || true",
     "preview": "astro preview",
@@ -20,6 +20,8 @@
     "build-from-cache": "vfu build-from-cache -o src/data",
     "generate-change-summary": "vfu generate-change-summary --data-dir src/data --changelog-dir src/data/changelog",
     "test": "node --test --experimental-test-coverage --import tsx \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
+    "finder:index": "tsx scripts/build-finder-index.ts",
+    "predev": "npm run finder:index",
     "test:types": "astro check",
     "social-cards": "tsx utils/generate-social-cards.ts",
     "storybook": "storybook dev -p 6006",
@@ -29,7 +31,7 @@
     "benchmark:report": "tsx scripts/benchmark.ts --report"
   },
   "dependencies": {
-    "@votedforus/votes": "^1.2.0"
+    "@votedforus/votes": "^2.0.0"
   },
   "devDependencies": {
     "@drop-in/graffiti": "^4.30.0",
