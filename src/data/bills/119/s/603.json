@@ -202,6 +202,10 @@
   "number": "603",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/603/summaries?format=json"
+  },
   "title": "A bill to designate the General George C. Marshall House in the Commonwealth of Virginia, as an affiliated area of the National Park System, and for other purposes.",
   "titles": {
     "titles": [
@@ -222,8 +226,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:18:57Z",
+  "updateDate": "2026-09-09T20:10:43Z",
+  "updateDateIncludingText": "2026-09-09T20:10:43Z",
   "id": "119-S-603",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20"

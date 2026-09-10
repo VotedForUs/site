@@ -225,6 +225,10 @@
   "number": "2398",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2398/summaries?format=json"
+  },
   "title": "Kay Hagan Tick Reauthorization Act",
   "titles": {
     "titles": [
@@ -273,8 +277,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-12T12:21:35Z",
-  "updateDateIncludingText": "2026-08-12T12:21:35Z",
+  "updateDate": "2026-09-09T19:15:53Z",
+  "updateDateIncludingText": "2026-09-09T19:15:53Z",
   "id": "119-S-2398",
   "lastActionDate": "2026-08-10",
   "lastRecordedVoteDate": "2026-08-06"
