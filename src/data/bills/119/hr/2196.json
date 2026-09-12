@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 25,
+    "count": 27,
     "url": "https://api.congress.gov/v3/bill/119/hr/2196/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-09-03",
@@ -835,8 +855,8 @@
   "congress": 119,
   "introducedDate": "2025-03-18",
   "latestAction": {
-    "actionDate": "2026-09-03",
-    "text": "Presented to President."
+    "actionDate": "2026-09-11",
+    "text": "Signed by President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2196",
   "number": "2196",
@@ -916,9 +936,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:19:01Z",
+  "updateDate": "2026-09-11T19:41:43Z",
+  "updateDateIncludingText": "2026-09-11T19:41:43Z",
   "id": "119-HR-2196",
-  "lastActionDate": "2026-09-03",
+  "lastActionDate": "2026-09-11",
   "lastRecordedVoteDate": "2026-08-07"
 }
