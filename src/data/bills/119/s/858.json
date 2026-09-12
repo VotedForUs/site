@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 20,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/s/858/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-104.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-104.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-09-02",
@@ -645,9 +685,15 @@
   "congress": 119,
   "introducedDate": "2025-03-05",
   "latestAction": {
-    "actionDate": "2026-09-02",
-    "text": "Presented to President."
+    "actionDate": "2026-09-10",
+    "text": "Became Public Law No: 119-104."
   },
+  "laws": [
+    {
+      "number": "119-104",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/858",
   "number": "858",
   "originChamber": "Senate",
@@ -704,9 +750,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:18:56Z",
+  "updateDate": "2026-09-11T19:40:14Z",
+  "updateDateIncludingText": "2026-09-11T19:40:14Z",
   "id": "119-S-858",
-  "lastActionDate": "2026-09-02",
+  "lastActionDate": "2026-09-10",
   "lastRecordedVoteDate": "2026-08-31"
 }
