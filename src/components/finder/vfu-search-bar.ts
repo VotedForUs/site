@@ -21,7 +21,10 @@ type Row = 'state' | 'type' | 'status';
 const ROW_MODES: Record<Row, Mode> = { state: 'members', type: 'bills', status: 'bills' };
 
 export class VfuSearchBar extends HTMLElement {
-  static observedAttributes = ['mode'];
+  // `query` is observed as well as `mode` because the finder seeds it: a
+  // parent's connectedCallback runs before its children upgrade, so a property
+  // set there would land on an element that has not found its input yet.
+  static observedAttributes = ['mode', 'query'];
 
   #input!: HTMLInputElement;
   #frame = 0;
@@ -31,8 +34,8 @@ export class VfuSearchBar extends HTMLElement {
   }
   set mode(value: Mode) { this.setAttribute('mode', value); }
 
-  get query(): string { return this.#input?.value ?? ''; }
-  set query(value: string) { if (this.#input) this.#input.value = value; }
+  get query(): string { return this.#input?.value ?? this.getAttribute('query') ?? ''; }
+  set query(value: string) { this.setAttribute('query', value); }
 
   /** Read off the pressed chips rather than mirrored in a field of its own. */
   get filters(): Filters {
@@ -64,6 +67,10 @@ export class VfuSearchBar extends HTMLElement {
       chip.setAttribute('aria-pressed', String(chip.getAttribute('aria-pressed') !== 'true'));
       this.#emit('filter');
     });
+    // Attributes set before this element upgraded were skipped by the guard in
+    // attributeChangedCallback — a parent's connectedCallback runs first, so
+    // the finder has usually seeded `query` by now. Apply whatever is there.
+    this.#update();
     if (this.hasAttribute('autofocus')) this.#input.focus();
   }
 
@@ -101,6 +108,10 @@ export class VfuSearchBar extends HTMLElement {
   #update() {
     const copy = MODE_COPY[this.mode];
     this.#input.placeholder = copy.placeholder;
+    const seeded = this.getAttribute('query');
+    if (seeded != null && seeded !== this.#input.value && document.activeElement !== this.#input) {
+      this.#input.value = seeded;
+    }
     this.querySelector('.field-submit')!.textContent = copy.button;
     this.querySelector('.mode-hint')!.textContent = copy.hint;
 

@@ -1,115 +1,106 @@
 ---
-import VotePartyTotalUI from './VotePartyTotalUI.astro';
-import EditorialVoteActionLink from './EditorialVoteActionLink.astro';
-import { isVotePassed } from '@votedforus/votes';
-import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
-import { formatVoteForAgainst } from '../utils/formatVoteForAgainst';
-import { getEditorialVoteAction } from '../utils/editorial.js';
-
-export interface Props {
-  actions: BillActionWithVotes[];
-  term: string;
-  billType: string;
-  billNumber: string;
-  /**
-   * Optional fallback list of vote-entry ids (from the recordedVotes collection),
-   * used only when a row's vote lacks an `id`. The vote's own `id` is the source of truth
-   * to avoid index-mismatch bugs when multiple votes share a date.
-   */
-  voteIds?: string[];
-}
-
-const { actions, term, billType, billNumber, voteIds } = Astro.props;
-
-const voteRows: { vote: RecordedVoteWithVotes; actionDate: string; actionText?: string }[] = [];
-for (const action of actions) {
-  if (!action.recordedVotes) continue;
-  for (const vote of action.recordedVotes) {
-    voteRows.push({
-      vote,
-      actionDate: action.actionDate,
-      actionText: action.text,
-    });
-  }
-}
-voteRows.sort((a, b) =>
-  new Date(a.vote.date || a.actionDate).getTime() - new Date(b.vote.date || b.actionDate).getTime()
-);
-
 /**
- * Resolve the per-vote URL segment and full vote id for a row.
- * Prefers the vote's own `id` (always set by the votes loader) so links remain stable
- * regardless of how voteRows are sorted relative to {@link Props.voteIds}.
+ * The list of recorded votes, on a bill or on one member's record.
+ *
+ * Both variants are the same rows — `ResultRow.astro`, like every other list
+ * on the site — with the member variant adding what that member did. The
+ * chamber leads in its own line, the question is the title, and the result
+ * trails.
+ *
+ * On a vote with no roll call, the member's position still reads **Yea**: any
+ * member may demand a recorded vote, so not demanding one is consent to the
+ * outcome. That claim is only defensible while the kind of vote is named with
+ * it, so the kind chip and the cast tag are rendered together, always. The
+ * stored values `UC` and `vv` never reach the page.
  */
-function resolveVoteIdAndSegment(vote: RecordedVoteWithVotes, index: number): { fullVoteId: string; segment: string } {
-  const ownId = (vote as { id?: string }).id;
-  const fallbackId = voteIds?.[index];
-  const fullVoteId = ownId ?? fallbackId ?? `${term}-${billType.toUpperCase()}-${billNumber}-${index + 1}`;
-  const segment = String(fullVoteId.split('-').pop() ?? index + 1);
-  return { fullVoteId, segment };
+import ResultGroup from './ResultGroup.astro';
+import ResultRow from './ResultRow.astro';
+import { isVotePassed } from '@votedforus/votes';
+import { getEditorialVoteAction } from '../utils/editorial.js';
+import { castTag } from '../utils/legislatorVoteDisplay.js';
+import { votePath, voteMemberPath } from '../utils/voteLinks.js';
+import { formatVoteForAgainst } from '../utils/formatVoteForAgainst';
+
+/** One recorded vote, as the `recordedVotes` collection stores it. */
+export type VoteTableVote = {
+  id: string;
+  chamber?: string;
+  question?: string;
+  result?: string;
+  date?: string;
+  actionDate?: string;
+  actionText?: string;
+  rollNumber?: number;
+  votes?: Record<string, string>;
+  votePartyTotal?: unknown;
+  finalChamberVote?: boolean;
+};
+
+interface Props {
+  votes: VoteTableVote[];
+  /** `bill` lists every vote on a bill; `member` adds what one member did. */
+  variant?: 'bill' | 'member';
+  /** Required by the member variant, ignored by the bill variant. */
+  bioguideId?: string;
+  /** The vote the page is currently showing. */
+  selectedVoteId?: string;
+  label?: string;
 }
+
+const { votes, variant = 'bill', bioguideId, selectedVoteId, label = 'recorded votes' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const rows = votes.map((vote) => {
+  const cast = variant === 'member' && bioguideId ? vote.votes?.[bioguideId] : undefined;
+  const tag = cast ? castTag(cast) : null;
+  return {
+    vote,
+    href: variant === 'member' && bioguideId
+      ? voteMemberPath(vote.id, bioguideId, base)
+      : votePath(vote.id, base) ?? undefined,
+    question: getEditorialVoteAction(vote.id) ?? vote.question,
+    date: (vote.actionDate ?? vote.date ?? '').slice(0, 10),
+    passed: isVotePassed(vote.result),
+    forAgainst: formatVoteForAgainst(vote as Parameters<typeof formatVoteForAgainst>[0]),
+    // A vote with no roll call reads as a Yea by consent, with the kind named
+    // beside it — never the stored `UC` or `vv`. See castTag().
+    castLabel: tag?.label,
+    kindLabel: tag?.kind ?? null,
+  };
+});
 ---
 
-{voteRows.length > 0 && (
-  <>
-    <h2>Recorded Votes ({voteRows.length})</h2>
-    <action-table class="tbl vote-table" sort="Vote Number" direction="ascending" store="vote-table">
-    <table class="vote-table">
-      <thead>
-        <tr>
-          <th>Vote Number</th>
-          <th>Date</th>
-          <th no-sort>Action</th>
-          <th no-sort>Vote</th>
-          <th no-sort>Final chamber vote</th>
-        </tr>
-      </thead>
-      <tbody>
-        {voteRows.map(({ vote, actionDate, actionText }, index) => {
-          const { fullVoteId, segment } = resolveVoteIdAndSegment(vote, index);
-          const voteHref = `/bills/${term}/${billType}/${billNumber}/${segment}`;
-          const passed = isVotePassed(vote.result);
-          const voteNumber = vote.voteNumber ?? (Number(segment) || index + 1);
-          const isFinalChamberVote = (vote as { finalChamberVote?: boolean }).finalChamberVote ?? false;
-          const forAgainst = formatVoteForAgainst(vote);
-          const question = getEditorialVoteAction(fullVoteId) ?? vote.question;
-          return (
-            <tr>
-              <td class="nowrap" data-sort={voteNumber}>{voteNumber}<EditorialVoteActionLink voteId={fullVoteId} action={vote.question} /></td>
-              <td class="nowrap">{actionDate}</td>
-              <td>
-                {question && <span class="vote-question">{question}</span>}
-                {actionText && <span class="action-text">{actionText}</span>}
-                <VotePartyTotalUI votePartyTotal={vote.votePartyTotal} />
-              </td>
-              <td class:list={['nowrap', passed ? 'vote-passed' : 'vote-not-passed']}>
-                <a href={voteHref}>
-                  <span class="result">{vote.result}</span>
-                  {forAgainst && (
-                    <>
-                      <br />
-                      <span class="vote">{forAgainst}</span>
-                    </>
-                  )}
-                </a>
-              </td>
-              <td class="nowrap final-chamber-vote-cell">
-                {isFinalChamberVote ? 'Yes' : '—'}
-              </td>
-            </tr>
-          );
-        })}
-      </tbody>
-    </table>
-    </action-table>
-    <style>
-      .vote-table .nowrap { white-space: nowrap; }
-      .vote-table .vote-passed { background-color: #d4edda; }
-      .vote-table .vote-not-passed { background-color: #f8d7da; }
-      .vote-table td:nth-child(3) .vote-party-totals { display: block; margin-top: 0.25em; }
-      .vote-table .vote { font-size: 0.9em; color: var(--color-fg-muted, #666); }
-      .vote-table .vote-question { display: block; font-weight: 600; }
-      .vote-table .action-text { display: block; font-size: 0.85em; color: var(--color-fg-muted, #666); margin-top: 0.15em; }
-    </style>
-  </>
+{rows.length > 0 && (
+  <ResultGroup label={label} count={rows.length}>
+    {rows.map(({ vote, href, question, date, passed, forAgainst, castLabel, kindLabel }) => (
+      <ResultRow href={href} selected={vote.id === selectedVoteId}>
+        <Fragment slot="lead">
+          <span class="vote-lead">
+            <span class="vote-chamber">{vote.chamber}</span>
+            {/* A vote with no roll call carries roll 0, which names nothing. */}
+            {vote.rollNumber ? <span class="vote-roll">{`roll ${vote.rollNumber}`}</span> : null}
+          </span>
+        </Fragment>
+
+        <Fragment slot="title">{question}</Fragment>
+
+        <Fragment slot="meta">
+          {[vote.actionText, date].filter(Boolean).join(' · ')}
+        </Fragment>
+
+        <Fragment slot="trailing">
+          {castLabel && (
+            <span class="cast-tag" data-cast={castLabel.toLowerCase()}>{castLabel}</span>
+          )}
+          {kindLabel && <span class="kind-chip">{kindLabel}</span>}
+          {!castLabel && (
+            <>
+              <span class="vote-result">{passed ? 'passed' : 'failed'}</span>
+              {forAgainst && <span class="kind-chip">{forAgainst}</span>}
+            </>
+          )}
+        </Fragment>
+      </ResultRow>
+    ))}
+  </ResultGroup>
 )}

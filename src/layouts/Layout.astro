@@ -1,5 +1,6 @@
 ---
 import { SEO } from 'astro-seo';
+import { ClientRouter } from 'astro:transitions';
 import { getBreadcrumbsFromPath } from '../utils/breadcrumbs';
 import { seoConfig } from '../../utils/seoConfig';
 import PageError from '../components/PageError.astro';
@@ -20,6 +21,11 @@ export interface Props {
   error?: Error | null;
   /** Optional heading for the error view (e.g. "Bill page error"). Default: "Page error" */
   errorTitle?: string;
+  /**
+   * Labels for path segments only this page can name — a bioguide id is not a
+   * member's name until something looks it up. Keyed by the segment itself.
+   */
+  breadcrumbLabels?: Record<string, string>;
 }
 
 const {
@@ -32,10 +38,11 @@ const {
   redirect,
   error = null,
   errorTitle,
+  breadcrumbLabels,
 } = Astro.props;
 
 const descriptionResolved = description ?? seoConfig.description;
-const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, { pageTitle: title });
+const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, { pageTitle: title, labels: breadcrumbLabels });
 
 const ogImageUrl = socialCardPath
   ? `${seoConfig.baseURL}${socialCardPath}`
@@ -51,6 +58,14 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    {/*
+      Every destination on this site is a prerendered document, and every
+      drill-down is a navigation to one. ClientRouter fetches that document and
+      swaps in the part that differs, so picking a member changes the URL and
+      the record below it without reloading the page — no partial routes, no
+      second renderer, and the server stays the only thing that renders a page.
+    */}
+    <ClientRouter />
     <SEO
       title={title.replace('"', '')}
       description={descriptionResolved}
@@ -228,7 +243,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       <nav>
         <a href={import.meta.env.BASE_URL}>Home</a>
         <a href={`${import.meta.env.BASE_URL}bills/119`}>Bills</a>
-        <a href={`${import.meta.env.BASE_URL}legislators`}>Legislators</a>
+        <a href={`${import.meta.env.BASE_URL}members`}>Members</a>
         <a href={`${import.meta.env.BASE_URL}about`}>About</a>
       </nav>
     </header>

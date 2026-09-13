@@ -134,7 +134,7 @@ export function filterBills(rows: BillRow[], filters: Filters): BillRow[] {
 
 /** The prerendered page a row links to. Selecting a result is a navigation. */
 export function memberHref(row: MemberRow, base = '/'): string {
-  return joinBase(base, `/legislators/${row.b}`);
+  return joinBase(base, `/members/${row.b}`);
 }
 
 export function billHref(row: BillRow, base = '/'): string {

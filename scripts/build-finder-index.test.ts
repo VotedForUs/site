@@ -8,9 +8,11 @@
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert';
 import {
+  DRILLDOWN_BUDGET_GZIP_BYTES,
   FinderIndexError,
   INDEX_BUDGET_GZIP_BYTES,
   countCasts,
+  toVoteIndex,
   measure,
   recordedVotesOf,
   toBillRow,
@@ -117,7 +119,7 @@ describe('countCasts', () => {
 
 describe('toMemberRow', () => {
   it('builds a representative row', () => {
-    assert.deepEqual(toMemberRow(member(), 'A000055', 412), {
+    assert.deepEqual(toMemberRow(member(), 'A000055', 412, true), {
       b: 'A000055', n: 'Robert B. Aderholt', s: 'AL', p: 'R', c: 'house', v: 412, d: 4, i: 1,
     });
   });
@@ -127,6 +129,7 @@ describe('toMemberRow', () => {
       member({ latest_term: { type: 'sen', state: 'CA', party: 'Democrat' } }),
       'S001150',
       492,
+      true,
     );
     assert.equal(row?.c, 'senate');
     assert.equal(row?.d, undefined);
@@ -134,11 +137,11 @@ describe('toMemberRow', () => {
   });
 
   it('leaves out a member who has never cast a recorded vote', () => {
-    assert.equal(toMemberRow(member(), 'A000055', 0), null);
+    assert.equal(toMemberRow(member(), 'A000055', 0, true), null);
   });
 
   it('reads the display name when `name` is an object', () => {
-    assert.equal(toMemberRow(member(), 'A000055', 1)?.n, 'Robert B. Aderholt');
+    assert.equal(toMemberRow(member(), 'A000055', 1, true)?.n, 'Robert B. Aderholt');
   });
 
   it('falls back to directOrderName for a member not yet in the legislator YAML', () => {
@@ -152,27 +155,28 @@ describe('toMemberRow', () => {
       },
       'F000485',
       3,
+      false,
     );
     assert.equal(row?.n, 'Clay Fuller');
     assert.equal(row?.s, 'GA');
     assert.equal(row?.d, 14);
-    assert.equal(row?.i, undefined, 'no depiction means no headshot claim');
+    assert.equal(row?.i, undefined, 'no held portrait means no headshot claim');
   });
 
   it('throws when the image field holds the official website instead of a headshot', () => {
     assert.throws(
-      () => toMemberRow(member({ depiction: undefined, imageUrl: 'https://aderholt.house.gov' }), 'A000055', 1),
+      () => toMemberRow(member({ depiction: undefined, imageUrl: 'https://aderholt.house.gov' }), 'A000055', 1, true),
       FinderIndexError,
     );
   });
 
   it('throws when no field carries a name', () => {
-    assert.throws(() => toMemberRow(member({ name: undefined }), 'A000055', 1), FinderIndexError);
+    assert.throws(() => toMemberRow(member({ name: undefined }), 'A000055', 1, true), FinderIndexError);
   });
 
   it('throws on a state that is not a two-letter code', () => {
     assert.throws(
-      () => toMemberRow(member({ latest_term: { type: 'rep', state: 'Alabama', party: 'Republican' } }), 'A000055', 1),
+      () => toMemberRow(member({ latest_term: { type: 'rep', state: 'Alabama', party: 'Republican' } }), 'A000055', 1, true),
       FinderIndexError,
     );
   });
@@ -188,5 +192,73 @@ describe('index size', () => {
 
   it('has a budget the build enforces', () => {
     assert.equal(INDEX_BUDGET_GZIP_BYTES, 60 * 1024);
+  });
+});
+
+describe('toVoteIndex', () => {
+  const twoVotes = bill({
+    actions: {
+      actions: [
+        {
+          actionDate: '2026-02-12',
+          text: 'On motion to recommit Failed by the Yeas and Nays: 211 - 218.',
+          recordedVotes: [{
+            id: '999-HR-26-1', chamber: 'House', rollNumber: 279, question: 'On Motion to Recommit',
+            result: 'Failed', votes: { A000055: 'Yea', B000490: 'Nay' },
+          }],
+        },
+        {
+          actionDate: '2026-02-13',
+          text: 'Passed Senate without amendment by Unanimous Consent.',
+          recordedVotes: [{
+            id: '999-HR-26-2', chamber: 'Senate', rollNumber: 0, question: 'On Passage',
+            result: 'Passed', votes: { S001150: 'UC' },
+          }],
+        },
+      ],
+    },
+  } as Partial<RawBill>);
+
+  it('carries what a vote is, without any per-member data', () => {
+    const { votes } = toVoteIndex([twoVotes]);
+    assert.equal(votes.length, 2);
+    assert.deepEqual(votes[0], {
+      i: '999-HR-26-1', b: '999-HR-26', c: 'house', r: 279,
+      q: 'On Motion to Recommit',
+      x: 'On motion to recommit Failed by the Yeas and Nays: 211 - 218.',
+      s: 'Failed', d: '2026-02-12',
+    });
+    assert.ok(!JSON.stringify(votes).includes('A000055'), 'no member appears in the shared file');
+  });
+
+  it('drops the roll number when there was no roll call', () => {
+    const { votes } = toVoteIndex([twoVotes]);
+    assert.equal(votes[1].r, undefined);
+  });
+
+  it('records each cast as a position in that same vote list', () => {
+    const { votes, casts } = toVoteIndex([twoVotes]);
+    assert.deepEqual(casts.get('A000055'), [[0, 'Yea']]);
+    assert.deepEqual(casts.get('S001150'), [[1, 'UC']]);
+    // The position is the whole reference: it has to resolve against `votes`.
+    const [index, cast] = casts.get('S001150')![0];
+    assert.equal(votes[index].i, '999-HR-26-2');
+    assert.equal(cast, 'UC');
+  });
+
+  it('leaves the stored cast alone — reading it as Yea is a display decision', () => {
+    const { casts } = toVoteIndex([twoVotes]);
+    assert.equal(casts.get('S001150')![0][1], 'UC');
+  });
+
+  it('throws rather than emitting a vote it cannot identify or date', () => {
+    const noId = bill({ actions: { actions: [{ actionDate: '2026-01-01', recordedVotes: [{ votes: {} }] }] } } as Partial<RawBill>);
+    assert.throws(() => toVoteIndex([noId]), FinderIndexError);
+    const noDate = bill({ actions: { actions: [{ recordedVotes: [{ id: '999-HR-26-1', votes: {} }] }] } } as Partial<RawBill>);
+    assert.throws(() => toVoteIndex([noDate]), FinderIndexError);
+  });
+
+  it('has a budget for what opening one record costs', () => {
+    assert.equal(DRILLDOWN_BUDGET_GZIP_BYTES, 48 * 1024);
   });
 });
