@@ -94,7 +94,7 @@ export class VfuFinder extends HTMLElement {
     this.#state.mode = mode === 'bills' ? 'bills' : 'members';
     this.#state.query = params?.get('q') ?? this.getAttribute('initial-query') ?? '';
     this.#bar.setAttribute('mode', this.#state.mode);
-    if (this.#state.query) this.#bar.query = this.#state.query;
+    if (this.#state.query) this.#bar.setAttribute('query', this.#state.query);
 
     this.addEventListener('vfu:query', e => {
       this.#state = (e as CustomEvent).detail as FinderState;
@@ -121,7 +121,7 @@ export class VfuFinder extends HTMLElement {
     };
     this.#bar?.setAttribute('mode', this.#state.mode);
     this.#bar?.clearFilters();
-    if (this.#bar) this.#bar.query = this.#state.query;
+    this.#bar?.setAttribute('query', this.#state.query);
     void this.#run();
   };
 

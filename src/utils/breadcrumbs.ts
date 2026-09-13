@@ -4,6 +4,8 @@
  */
 
 import { BILL_TYPES } from '@votedforus/votes/types';
+import { parseBillSegment } from './voteLinks.js';
+import { formatLegislationIdentifier } from './billLegislationFormat.js';
 
 export interface BreadcrumbItem {
   label: string;
@@ -34,10 +36,13 @@ function parseVoteId(voteId: string): { congress: string; billType: string; bill
  * /v/[voteId]/[bioguideId] gets the same structure as /bills/[term]/[billType]/[billNumber]/[voteId]/[bioguideId] (labels and full URL hrefs).
  * @param pathname - e.g. "/bills/119/hr/1" or "/v/119-HR-1-1/B000944"
  * @param options.pageTitle - Used as the label for the last (current) crumb when provided
+ * @param options.labels - Labels for segments only the page can name, keyed by
+ * the segment itself (a bioguide id, say, which is not a name until a page
+ * looks it up)
  */
 export function getBreadcrumbsFromPath(
   pathname: string,
-  options?: { pageTitle?: string }
+  options?: { pageTitle?: string; labels?: Record<string, string> }
 ): BreadcrumbItem[] {
   const segments = pathname.split('/').filter(Boolean);
   if (segments.length === 0) {
@@ -80,7 +85,7 @@ export function getBreadcrumbsFromPath(
     if (isLast && pageTitle) {
       label = pageTitle;
     } else {
-      label = labelForSegment(segments, i);
+      label = options?.labels?.[segments[i]] ?? labelForSegment(segments, i);
     }
     crumbs.push({ label, href });
   }
@@ -93,7 +98,7 @@ function labelForSegment(segments: string[], index: number): string {
 
   if (index === 0) {
     if (seg === 'bills') return 'Bills';
-    if (seg === 'legislators') return 'Legislators';
+    if (seg === 'members') return 'Members';
     if (seg === 'about') return 'About';
     return seg.charAt(0).toUpperCase() + seg.slice(1);
   }
@@ -106,10 +111,18 @@ function labelForSegment(segments: string[], index: number): string {
     if (index === 5) return seg; // bioguideid on vote page
   }
 
-  if (segments[0] === 'legislators' && index === 1) {
-    if (seg === 'senate') return 'Senate';
-    if (seg === 'house') return 'House';
-    return seg; // bioguideId fallback when no pageTitle
+  if (segments[0] === 'members') {
+    if (index === 1) {
+      if (seg === 'senate') return 'Senate';
+      if (seg === 'house') return 'House';
+      return seg; // bioguideId, unless the page passed a name for it
+    }
+    // /members/{bioguide}/{term}/{billId}
+    if (index === 2 && /^\d+$/.test(seg)) return `${seg}th Congress`;
+    if (index === 3) {
+      const bill = parseBillSegment(seg);
+      return bill ? formatLegislationIdentifier(bill.billType, bill.billNumber) : seg;
+    }
   }
 
   return seg;

@@ -1,53 +1,41 @@
 ---
 /**
- * Dynamic route for individual legislator pages
- * URL: /legislators/[bioguideid]
+ * One member's record: who they are and the bills they have voted on.
+ * URL: /members/[bioguideid] — 606 pages, one per member with a recorded cast.
  */
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import Legislator from '../../components/Legislator.astro';
-import type { LegislatorVoteRecord } from '../../components/Legislator.astro';
+import MemberRecord from '../../components/MemberRecord.astro';
+import { groupMemberBills } from '../../utils/memberRecord.js';
 import { LEGISLATORS_LIMIT } from '../../buildConfig';
 import { shouldBuildPage } from '../../utils/buildManifest.js';
+import { localHeadshot } from '../../utils/headshot.js';
 
 export async function getStaticPaths() {
   const legislators = await getCollection('legislators');
   const limited = LEGISLATORS_LIMIT ? legislators.slice(0, LEGISLATORS_LIMIT) : legislators;
-  
   return limited
-    .filter(l => shouldBuildPage('legislators-loader', l.id))
-    .map((legislator) => ({
-      params: { bioguideid: legislator.id },
-      props: { legislator },
-    }));
+    .filter((l) => shouldBuildPage('legislators-loader', l.id))
+    .map((legislator) => ({ params: { bioguideid: legislator.id }, props: { legislator } }));
 }
 
 const { bioguideid } = Astro.params;
 const { legislator } = Astro.props;
 
-// Get all votes for this legislator from the legislatorVotes collection
-const allLegislatorVotes = await getCollection('legislatorVotes');
-const votes: LegislatorVoteRecord[] = allLegislatorVotes
-  .filter(entry => entry.data.bioguideId === bioguideid)
-  .map(entry => ({
-    voteId: entry.data.voteId,
-    voteNumber: entry.data.voteNumber,
-    billId: entry.data.billId,
-    billType: entry.data.billType,
-    billNumber: entry.data.billNumber,
-    congress: entry.data.congress,
-    billTitle: entry.data.billTitle,
-    vote: entry.data.vote,
-    actionDate: entry.data.actionDate,
-    rollNumber: entry.data.rollNumber,
-    chamber: entry.data.chamber,
-    question: entry.data.question,
-  }));
+const votes = await getCollection('legislatorVotes');
+const bills = groupMemberBills(votes.filter((v) => v.data.bioguideId === bioguideid).map((v) => v.data));
 
-const pageTitle = `${legislator.data.nameTitle} - Voting Record`;
-const pageDescription = `View the voting record and information for ${legislator.data.nameTitle}`;
+const name = legislator.data.nameTitle;
+// The collection's `imageUrl` is a congress.gov URL for members whose portrait
+// was never downloaded. Rendering it would hotlink congress.gov on every view,
+// so the page shows a portrait only when we hold one.
+const member = { ...legislator.data, imageUrl: localHeadshot(legislator.id) ?? undefined };
 ---
 
-<Layout title={pageTitle} description={pageDescription}>
-  <Legislator legislator={legislator} votes={votes} />
+<Layout
+  title={`${name} — voting record`}
+  description={`Every bill ${name} has cast a recorded vote on.`}
+  breadcrumbLabels={{ [bioguideid as string]: name }}
+>
+  <MemberRecord member={member} bills={bills} />
 </Layout>

@@ -3,7 +3,7 @@ import Layout from '../../../../../layouts/Layout.astro';
 import { getEntry, getCollection } from 'astro:content';
 import { getBestBillTitle, getBillSourceTitle } from '../../../../../utils/billTitle.js';
 import EditorialTitleLink from '../../../../../components/EditorialTitleLink.astro';
-import VoteTable from '../../../../../components/VoteTable.astro';
+import VoteTable, { type VoteTableVote } from '../../../../../components/VoteTable.astro';
 import ActionsTable from '../../../../../components/ActionsTable.astro';
 import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
 import { applyBillsPerTypeLimit } from '../../../../../buildConfig';
@@ -29,6 +29,7 @@ let bill: { type: string; number: string; congress: number; title?: string; upda
 let actions: BillActionWithVotes[] = [];
 let actionsWithFinalChamberVote: BillActionWithVotes[] = [];
 let voteIds: string[] = [];
+let voteRows: VoteTableVote[] = [];
 let pageTitle = 'Bill';
 let displayTitle = '';
 let billSourceTitle: string | undefined;
@@ -62,6 +63,9 @@ try {
     .filter((e) => e.data.billId === resolvedBillId)
     .sort((a, b) => a.data.voteNumber - b.data.voteNumber);
   voteIds = billVoteEntries.map((e) => e.id);
+  // The vote list reads the recordedVotes collection directly: the same rows
+  // a member's record renders, from the same source.
+  voteRows = billVoteEntries.map((e) => ({ id: e.id, ...e.data }));
   const voteMetaByVoteId = new Map(
     billVoteEntries.map((e) => [e.id, { finalChamberVote: !!e.data.finalChamberVote, voteNumber: e.data.voteNumber }])
   );
@@ -106,7 +110,7 @@ try {
         <p><strong>Latest Action:</strong> {bill.latestAction.text} ({bill.latestAction.actionDate})</p>
       )}
 
-      <VoteTable actions={actionsWithFinalChamberVote} term={term} billType={billType} billNumber={billNumber} voteIds={voteIds} />
+      <VoteTable votes={voteRows} variant="bill" />
       <ActionsTable actions={actions} term={term} billType={billType} billNumber={billNumber} />
     </>
   )}

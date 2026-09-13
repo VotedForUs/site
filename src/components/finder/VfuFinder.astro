@@ -18,8 +18,8 @@
  */
 import './finder.css';
 import VfuSearchBar from './VfuSearchBar.astro';
-import ResultGroup from './ResultGroup.astro';
-import ResultRow from './ResultRow.astro';
+import ResultGroup from '../ResultGroup.astro';
+import ResultRow from '../ResultRow.astro';
 import {
   allGroupLabel, footerLine, memberHref, memberMeta, statusChips, stateChips, type Mode,
 } from './finderView';
@@ -80,14 +80,16 @@ const initial = mode === 'members' && !query ? members ?? [] : [];
       <Fragment>
         <ResultGroup label={allGroupLabel('members')} count={initial.length}>
           {initial.map((row) => (
-            <ResultRow
-              kind="member"
-              href={memberHref(row, base)}
-              title={row.n}
-              meta={memberMeta(row)}
-              trailing={`${row.v} ${row.v === 1 ? 'vote' : 'votes'}`}
-              headshot={row.i ? `${base.replace(/\/$/, '')}/images/legislators/${row.b}.jpg` : null}
-            />
+            <ResultRow href={memberHref(row, base)}>
+              <Fragment slot="lead">
+                {row.i
+                  ? <img class="row-headshot" data-headshot src={`${base.replace(/\/$/, '')}/images/legislators/${row.b}.jpg`} alt="" loading="lazy" />
+                  : <span class="row-headshot" data-blank />}
+              </Fragment>
+              <Fragment slot="title">{row.n}</Fragment>
+              <Fragment slot="meta">{memberMeta(row)}</Fragment>
+              <Fragment slot="trailing">{`${row.v} ${row.v === 1 ? 'vote' : 'votes'}`}</Fragment>
+            </ResultRow>
           ))}
         </ResultGroup>
         <p class="result-foot">{footerLine(initial.length, 'members')}</p>
@@ -109,7 +111,7 @@ const initial = mode === 'members' && !query ? members ?? [] : [];
     <h3>Bill search is unavailable right now.</h3>
     <p>The list of bills did not load. Every page it would have found is still reachable from the two hubs.</p>
     <div class="form-actions">
-      <a href={withBaseUrl('/legislators', base)}>All members</a>
+      <a href={withBaseUrl('/members', base)}>All members</a>
       <a href={withBaseUrl('/bills/119', base)}>All bills</a>
     </div>
   </div>
@@ -117,8 +119,25 @@ const initial = mode === 'members' && !query ? members ?? [] : [];
   <!-- The shapes the element clones per result — the same components the rows
        above are built from, rendered empty. -->
   <template data-template="group"><ResultGroup /></template>
-  <template data-template="member-row"><ResultRow kind="member" /></template>
-  <template data-template="bill-row"><ResultRow kind="bill" /></template>
+  {/*
+    Both headshot elements are here and the element drops one as it fills the
+    row — a member either has a portrait or does not. They are grid items now
+    that the lead has no wrapper, so the removal has to happen before the row
+    is attached, which is what `vfu-finder.ts` does.
+  */}
+  <template data-template="member-row">
+    <ResultRow>
+      <Fragment slot="lead">
+        <img class="row-headshot" data-headshot alt="" loading="lazy" />
+        <span class="row-headshot" data-blank />
+      </Fragment>
+    </ResultRow>
+  </template>
+  <template data-template="bill-row">
+    <ResultRow>
+      <Fragment slot="lead"><span class="row-id" /></Fragment>
+    </ResultRow>
+  </template>
 </vfu-finder>
 
 <script>

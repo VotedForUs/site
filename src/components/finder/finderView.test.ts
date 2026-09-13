@@ -97,7 +97,7 @@ describe('the group before anything is typed', () => {
 
 describe('a row links to a prerendered page', () => {
   it('links a member to their page', () => {
-    assert.equal(memberHref(members[0]), `/legislators/${members[0].b}`);
+    assert.equal(memberHref(members[0]), `/members/${members[0].b}`);
   });
 
   it('links a bill to its page, congress and type from the id', () => {
@@ -107,7 +107,7 @@ describe('a row links to a prerendered page', () => {
 
   it('carries a deployment base', () => {
     assert.equal(billHref(bills.find(b => b.i === '119-HR-1')!, '/site/'), '/site/bills/119/hr/1');
-    assert.equal(memberHref(members[0], '/site/'), `/site/legislators/${members[0].b}`);
+    assert.equal(memberHref(members[0], '/site/'), `/site/members/${members[0].b}`);
   });
 });
 
