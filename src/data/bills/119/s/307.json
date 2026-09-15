@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/s/307/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-09-14",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-09-14",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-08-31",
@@ -504,7 +524,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 376 - 8 (Roll no. 284).",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 376 - 8 (Roll no. 284). (text: CR H5268-5269)",
         "type": "Floor"
       },
       {
@@ -515,7 +535,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5347)",
         "type": "Floor"
       },
       {
@@ -548,7 +568,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5268-5270)",
         "type": "Floor"
       },
       {
@@ -753,9 +773,8 @@
   "congress": 119,
   "introducedDate": "2025-01-29",
   "latestAction": {
-    "actionDate": "2026-08-31",
-    "actionTime": "18:57:45",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-14",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/307",
   "number": "307",
@@ -813,9 +832,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-02T02:38:21Z",
-  "updateDateIncludingText": "2026-09-02T02:38:21Z",
+  "updateDate": "2026-09-15T08:05:20Z",
+  "updateDateIncludingText": "2026-09-15T08:05:20Z",
   "id": "119-S-307",
-  "lastActionDate": "2026-08-31",
+  "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-08-31T22:57:43Z"
 }
