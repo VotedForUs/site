@@ -1,12 +1,12 @@
 {
   "actions": {
     "count": 17,
-    "url": "https://api.congress.gov/v3/bill/119/s/283/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/6893/actions?format=json",
     "actions": [
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-14",
-        "actionTime": "15:31:36",
+        "actionTime": "17:55:30",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -17,7 +17,7 @@
       {
         "actionCode": "H37300",
         "actionDate": "2026-09-14",
-        "actionTime": "15:31:25",
+        "actionTime": "17:55:27",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -34,7 +34,7 @@
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/283",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/6893",
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
@@ -477,25 +477,25 @@
               "V000139",
               "M001245"
             ],
-            "id": "119-S-283-2"
+            "id": "119-HR-6893-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
         "actionDate": "2026-09-14",
-        "actionTime": "15:25:26",
+        "actionTime": "17:45:08",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on S. 283.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 6893.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
         "actionDate": "2026-09-14",
-        "actionTime": "15:25:22",
+        "actionTime": "17:45:04",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -506,7 +506,7 @@
       {
         "actionCode": "H30300",
         "actionDate": "2026-09-14",
-        "actionTime": "15:25:09",
+        "actionTime": "17:45:01",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -515,282 +515,195 @@
         "type": "Floor"
       },
       {
-        "actionCode": "H15000",
-        "actionDate": "2025-07-15",
-        "actionTime": "12:12:27",
+        "actionCode": "H12410",
+        "actionDate": "2026-08-20",
+        "calendarNumber": {
+          "calendar": "U00664"
+        },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2025-07-15",
-        "actionTime": "12:05:05",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-07-15",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2025-07-14",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4341; text: CR S4341-4342)",
-        "type": "Floor",
-        "recordedVotes": [
-          {
-            "chamber": "Senate",
-            "congress": 119,
-            "date": "2025-07-14",
-            "rollNumber": 0,
-            "sessionNumber": 0,
-            "url": "",
-            "votes": {},
-            "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/283",
-            "question": "Pass with Unanimous Consent",
-            "recordType": "unanimous-consent",
-            "membersAtAction": [
-              "C000127",
-              "K000367",
-              "S000033",
-              "W000802",
-              "B001261",
-              "W000437",
-              "C001035",
-              "C001056",
-              "D000563",
-              "G000359",
-              "M000355",
-              "M001176",
-              "R000122",
-              "R000584",
-              "S001181",
-              "W000805",
-              "G000555",
-              "C001088",
-              "B001230",
-              "B001267",
-              "B001243",
-              "B001277",
-              "B001236",
-              "C001047",
-              "C001075",
-              "C000880",
-              "G000386",
-              "H001046",
-              "H001042",
-              "H001061",
-              "J000293",
-              "L000575",
-              "L000577",
-              "L000570",
-              "M000133",
-              "M000934",
-              "M001153",
-              "M001169",
-              "M001111",
-              "P000603",
-              "P000595",
-              "S001150",
-              "S000148",
-              "S001184",
-              "T000250",
-              "V000128",
-              "W000800",
-              "W000779",
-              "Y000064",
-              "S001194",
-              "C001095",
-              "D000622",
-              "W000817",
-              "K000383",
-              "D000618",
-              "C001096",
-              "F000463",
-              "M001190",
-              "C001098",
-              "K000384",
-              "B001288",
-              "G000574",
-              "S001198",
-              "E000295",
-              "T000476",
-              "R000605",
-              "K000393",
-              "H001076",
-              "C001113",
-              "B001303",
-              "B001299",
-              "M001198",
-              "B001305",
-              "R000608",
-              "C001114",
-              "S001203",
-              "H001079",
-              "S001208",
-              "K000394",
-              "S001217",
-              "H001089",
-              "K000377",
-              "L000571",
-              "T000278",
-              "H000273",
-              "H000601",
-              "P000145",
-              "O000174",
-              "W000790",
-              "B001319",
-              "S001227",
-              "F000479",
-              "R000618",
-              "A000382",
-              "S001232",
-              "M001242",
-              "M001243",
-              "J000312",
-              "H001104",
-              "M001244"
-            ],
-            "id": "119-S-283-1"
-          }
-        ]
-      },
-      {
-        "actionDate": "2025-05-21",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 86.",
+        "text": "Placed on the Union Calendar, Calendar No. 664.",
         "type": "Calendars"
       },
       {
-        "actionDate": "2025-05-21",
+        "actionCode": "H12200",
+        "actionDate": "2026-08-20",
         "committees": [
           {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
-          "name": "Senate"
+          "code": 2,
+          "name": "House floor actions"
         },
-        "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz without amendment. With written report No. 119-24.",
+        "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-763.",
         "type": "Committee"
       },
       {
-        "actionDate": "2025-02-05",
+        "actionCode": "H19000",
+        "actionDate": "2026-07-15",
         "committees": [
           {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
-          "name": "Senate"
+          "code": 1,
+          "name": "House committee actions"
         },
-        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported without amendment favorably.",
+        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.",
         "type": "Committee"
       },
       {
-        "actionDate": "2025-01-28",
+        "actionCode": "H15001",
+        "actionDate": "2026-07-15",
         "committees": [
           {
-            "name": "Commerce, Science, and Transportation Committee",
-            "systemCode": "sscm00",
-            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
-          "name": "Senate"
+          "code": 1,
+          "name": "House committee actions"
         },
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H25000",
+        "actionDate": "2026-07-15",
+        "committees": [
+          {
+            "name": "Water, Wildlife and Fisheries Subcommittee",
+            "systemCode": "hsii13",
+            "url": "https://api.congress.gov/v3/committee/house/hsii13?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee on Water, Wildlife and Fisheries Discharged",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H21000",
+        "actionDate": "2026-03-26",
+        "committees": [
+          {
+            "name": "Water, Wildlife and Fisheries Subcommittee",
+            "systemCode": "hsii13",
+            "url": "https://api.congress.gov/v3/committee/house/hsii13?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Hearings Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2026-03-19",
+        "committees": [
+          {
+            "name": "Water, Wildlife and Fisheries Subcommittee",
+            "systemCode": "hsii13",
+            "url": "https://api.congress.gov/v3/committee/house/hsii13?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Water, Wildlife and Fisheries.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2025-12-18",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Natural Resources.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-01-28",
+  "introducedDate": "2025-12-18",
   "latestAction": {
     "actionDate": "2026-09-14",
-    "actionTime": "15:31:36",
+    "actionTime": "17:55:30",
     "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/283",
-  "number": "283",
-  "originChamber": "Senate",
-  "originChamberCode": "S",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6893",
+  "number": "6893",
+  "originChamber": "House",
+  "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/283/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/6893/summaries?format=json"
   },
-  "title": "Illegal Red Snapper and Tuna Enforcement Act",
+  "title": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act",
   "titles": {
     "titles": [
       {
-        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act",
+        "titleType": "Short Title(s) as Reported to House",
+        "titleTypeCode": 102,
+        "updateDate": "2026-08-21T05:38:42Z"
+      },
+      {
+        "title": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2025-07-17T11:31:37Z"
+        "updateDate": "2026-07-17T23:43:39Z"
       },
       {
-        "billTextVersionCode": "ES",
-        "billTextVersionName": "Engrossed in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Illegal Red Snapper and Tuna Enforcement Act",
-        "titleType": "Short Title(s) as Passed Senate",
-        "titleTypeCode": 105,
-        "updateDate": "2025-07-15T07:23:22Z"
-      },
-      {
-        "billTextVersionCode": "RS",
-        "billTextVersionName": "Reported to Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Illegal Red Snapper and Tuna Enforcement Act",
-        "titleType": "Short Title(s) as Reported to Senate",
-        "titleTypeCode": 103,
-        "updateDate": "2025-05-24T03:38:19Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-02-04T15:23:19Z"
+        "updateDate": "2026-01-29T05:23:17Z"
       },
       {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to require the Under Secretary of Commerce for Standards and Technology and the Administrator of National Oceanic and Atmospheric Administration to develop a standard methodology for identifying the country of origin of seafood to support enforcement against illegal, unreported, and unregulated fishing, and for other purposes.",
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To reauthorize the Chesapeake Bay Office of the National Oceanic and Atmospheric Administration, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-02-04T15:18:20Z"
+        "updateDate": "2026-01-29T05:18:20Z"
       }
     ]
   },
-  "type": "S",
-  "updateDate": "2026-09-15T08:05:42Z",
-  "updateDateIncludingText": "2026-09-15T08:05:42Z",
-  "id": "119-S-283",
+  "type": "HR",
+  "updateDate": "2026-09-15T08:05:37Z",
+  "updateDateIncludingText": "2026-09-15T08:05:37Z",
+  "id": "119-HR-6893",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"
 }
