@@ -622,6 +622,19 @@
         }
       ],
       "text": "The text of HR 910 is contained in the text of S. 1071, which became Public Law 119-60."
+    },
+    {
+      "links": [
+        {
+          "name": "HR 910",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/910"
+        },
+        {
+          "name": "S. 1071",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071"
+        }
+      ],
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/HR/910\" target=\"_blank\">H.R.910</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/S/1071\" target=\"_blank\">S.1071</a>, which became Public Law 119-60."
     }
   ],
   "number": "910",
@@ -699,8 +712,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T22:58:23Z",
-  "updateDateIncludingText": "2026-07-19T00:09:58Z",
+  "updateDate": "2026-09-15T14:46:05Z",
+  "updateDateIncludingText": "2026-09-15T14:46:05Z",
   "id": "119-HR-910",
   "lastActionDate": "2025-06-24",
   "lastRecordedVoteDate": "2025-06-23"

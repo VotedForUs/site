@@ -667,6 +667,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Safe Beaches, Safe Swimmers Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To ensure continuity of staffing at Federal beaches, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -701,8 +721,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:05:33Z",
-  "updateDateIncludingText": "2026-09-15T08:05:33Z",
+  "updateDate": "2026-09-16T06:08:24Z",
+  "updateDateIncludingText": "2026-09-16T10:18:30Z",
   "id": "119-HR-5063",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

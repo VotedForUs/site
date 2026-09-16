@@ -1,8 +1,31 @@
 {
   "actions": {
-    "count": 13,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/hr/2466/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 599.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-09-14",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Homeland Security and Governmental Affairs. Reported by Senator Paul without amendment. Without written report.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-08-06",
         "committees": [
@@ -601,8 +624,8 @@
   "congress": 119,
   "introducedDate": "2025-03-27",
   "latestAction": {
-    "actionDate": "2026-08-06",
-    "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
+    "actionDate": "2026-09-14",
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 599."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2466",
   "number": "2466",
@@ -652,9 +675,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-12T17:05:21Z",
-  "updateDateIncludingText": "2026-08-12T17:05:21Z",
+  "updateDate": "2026-09-15T10:56:41Z",
+  "updateDateIncludingText": "2026-09-15T10:56:41Z",
   "id": "119-HR-2466",
-  "lastActionDate": "2026-08-06",
+  "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2025-12-09"
 }

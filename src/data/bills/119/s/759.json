@@ -626,6 +626,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Modernizing Access to Our Public Oceans Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-16T06:08:22Z"
+      },
+      {
         "title": "Modernizing Access to Our Public Oceans Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -670,8 +680,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-15T08:06:03Z",
-  "updateDateIncludingText": "2026-09-15T08:06:03Z",
+  "updateDate": "2026-09-16T06:08:22Z",
+  "updateDateIncludingText": "2026-09-16T06:08:22Z",
   "id": "119-S-759",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

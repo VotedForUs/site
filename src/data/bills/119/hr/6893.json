@@ -667,6 +667,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To reauthorize the Chesapeake Bay Office of the National Oceanic and Atmospheric Administration, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -701,8 +721,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:05:37Z",
-  "updateDateIncludingText": "2026-09-15T08:05:37Z",
+  "updateDate": "2026-09-16T06:08:23Z",
+  "updateDateIncludingText": "2026-09-16T09:48:29Z",
   "id": "119-HR-6893",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

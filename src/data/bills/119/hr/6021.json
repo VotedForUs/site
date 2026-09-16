@@ -661,6 +661,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Archie Cavanaugh Migratory Bird Treaty Clarification Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To clarify the treatment of authentic Alaska Native articles of handicraft containing nonedible migratory bird parts under the Migratory Bird Treaty Act, and for other purposes.",
+        "titleType": "Official Titles as Amended by House",
+        "titleTypeCode": 7,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To clarify the treatment of authentic Alaska Native articles of handicraft containing nonedible migratory bird parts under the Migratory Bird Treaty Act, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
         "title": "Archie Cavanaugh Migratory Bird Treaty Clarification Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -695,8 +725,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:06:16Z",
-  "updateDateIncludingText": "2026-09-15T08:06:16Z",
+  "updateDate": "2026-09-16T06:08:23Z",
+  "updateDateIncludingText": "2026-09-16T10:33:30Z",
   "id": "119-HR-6021",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

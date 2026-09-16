@@ -701,6 +701,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Indian Health Service Emergency Claims Parity Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Indian Health Care Improvement Act to modify the notification requirement for emergency contract health services for certain beneficiaries, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -735,8 +755,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:05:48Z",
-  "updateDateIncludingText": "2026-09-15T08:05:48Z",
+  "updateDate": "2026-09-16T06:08:23Z",
+  "updateDateIncludingText": "2026-09-16T10:33:29Z",
   "id": "119-HR-8658",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

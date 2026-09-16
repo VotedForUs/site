@@ -667,11 +667,41 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "AWRC Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Water Resources Research Act of 1984 to reauthorize the water resources research and technology institutes program, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Advancing Water Research and Collaboration Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "AWRC Act of 2025",
+        "title": "Advancing Water Research and Collaboration Act of 2025",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-08-21T05:38:42Z"
@@ -681,7 +711,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Advancing Water Research and Collaboration Act of 2025",
+        "title": "AWRC Act of 2025",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-08-21T05:38:42Z"
@@ -695,7 +725,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "AWRC Act of 2025",
+        "title": "Advancing Water Research and Collaboration Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-04-08T12:23:26Z"
@@ -703,7 +733,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Advancing Water Research and Collaboration Act of 2025",
+        "title": "AWRC Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-04-08T12:23:26Z"
@@ -719,8 +749,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:06:06Z",
-  "updateDateIncludingText": "2026-09-15T08:06:06Z",
+  "updateDate": "2026-09-16T06:08:24Z",
+  "updateDateIncludingText": "2026-09-16T10:18:28Z",
   "id": "119-HR-7889",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

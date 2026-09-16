@@ -667,6 +667,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "National Oceanic and Atmospheric Administration Sexual Harassment and Assault Prevention Improvements Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the National Defense Authorization Act for Fiscal Year 2017 to address sexual harassment and sexual assault involving National Oceanic and Atmospheric Administration personnel, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:25Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -701,8 +721,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:05:50Z",
-  "updateDateIncludingText": "2026-09-15T08:05:50Z",
+  "updateDate": "2026-09-16T06:08:25Z",
+  "updateDateIncludingText": "2026-09-16T10:04:41Z",
   "id": "119-HR-2406",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

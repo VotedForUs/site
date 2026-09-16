@@ -717,6 +717,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Local Communities & Bird Habitat Stewardship Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of the Interior to establish the Urban Bird Treaty Program.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
         "title": "Local Communities & Bird Habitat Stewardship Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -751,8 +771,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:06:07Z",
-  "updateDateIncludingText": "2026-09-15T08:06:07Z",
+  "updateDate": "2026-09-16T06:08:24Z",
+  "updateDateIncludingText": "2026-09-16T10:18:31Z",
   "id": "119-HR-3276",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14T23:10:34Z"
