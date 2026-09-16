@@ -667,6 +667,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "National Park System Long-Term Lease Investment Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To authorize the Secretary of the Interior to extend certain leases within units of the National Park System without opening the lease to bidding.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -701,8 +721,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:05:45Z",
-  "updateDateIncludingText": "2026-09-15T08:05:45Z",
+  "updateDate": "2026-09-16T06:08:24Z",
+  "updateDateIncludingText": "2026-09-16T09:33:33Z",
   "id": "119-HR-4931",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

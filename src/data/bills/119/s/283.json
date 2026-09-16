@@ -744,6 +744,14 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EAH",
+        "billTextVersionName": "Engrossed Amendment House",
+        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "titleType": "Short Title(s) from Engrossed Amendment House bill text",
+        "titleTypeCode": 252,
+        "updateDate": "2026-09-16T06:08:22Z"
+      },
+      {
         "title": "Illegal Red Snapper and Tuna Enforcement Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -788,8 +796,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-15T08:05:42Z",
-  "updateDateIncludingText": "2026-09-15T08:05:42Z",
+  "updateDate": "2026-09-16T06:08:22Z",
+  "updateDateIncludingText": "2026-09-16T10:04:29Z",
   "id": "119-S-283",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

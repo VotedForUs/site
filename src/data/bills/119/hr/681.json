@@ -1,8 +1,31 @@
 {
   "actions": {
-    "count": 20,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/681/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 555.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-09-14",
+        "committees": [
+          {
+            "name": "Indian Affairs Committee",
+            "systemCode": "slia00",
+            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Indian Affairs. Reported by Senator Armstrong for Senator Murkowski without amendment. With written report No. 119-136.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-05-20",
         "committees": [
@@ -692,8 +715,8 @@
   "congress": 119,
   "introducedDate": "2025-01-23",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "text": "Committee on Indian Affairs. Ordered to be reported without amendment favorably."
+    "actionDate": "2026-09-14",
+    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 555."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/681",
   "number": "681",
@@ -741,9 +764,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-17T20:20:38Z",
-  "updateDateIncludingText": "2026-08-17T20:20:38Z",
+  "updateDate": "2026-09-15T10:56:44Z",
+  "updateDateIncludingText": "2026-09-15T10:56:44Z",
   "id": "119-HR-681",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-03-03"
 }

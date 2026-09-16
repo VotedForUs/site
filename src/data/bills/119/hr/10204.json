@@ -586,6 +586,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Legislative Branch Agencies Clarification Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To modify the appointment and removal process for certain legislative branch officers, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:24Z"
+      },
+      {
         "title": "Legislative Branch Agencies Clarification Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -610,8 +630,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:06:17Z",
-  "updateDateIncludingText": "2026-09-15T08:06:17Z",
+  "updateDate": "2026-09-16T06:08:25Z",
+  "updateDateIncludingText": "2026-09-16T10:18:31Z",
   "id": "119-HR-10204",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

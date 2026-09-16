@@ -650,40 +650,60 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Northern Nevada Economic Development and Conservation Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Fernley Economic Development Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Elko Economic Development Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Pershing County Economic Development and Conservation Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for transfer of ownership of certain Federal lands in northern Nevada, to authorize the disposal of certain Federal lands in northern Nevada for economic development, to promote conservation in northern Nevada, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:23Z"
+      },
+      {
         "title": "Northern Nevada Economic Development and Conservation Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
         "updateDate": "2026-09-11T04:08:23Z"
-      },
-      {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Fernley Economic Development Act",
-        "titleType": "Short Title(s) as Reported to House for portions of this bill",
-        "titleTypeCode": 107,
-        "updateDate": "2026-09-11T04:08:22Z"
-      },
-      {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Elko Economic Development Act",
-        "titleType": "Short Title(s) as Reported to House for portions of this bill",
-        "titleTypeCode": 107,
-        "updateDate": "2026-09-11T04:08:22Z"
-      },
-      {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Pershing County Economic Development and Conservation Act",
-        "titleType": "Short Title(s) as Reported to House for portions of this bill",
-        "titleTypeCode": 107,
-        "updateDate": "2026-09-11T04:08:22Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -696,12 +716,34 @@
         "updateDate": "2026-09-11T04:08:22Z"
       },
       {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "Northern Nevada Economic Development and Conservation Act of 2025",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2025-05-24T03:38:19Z"
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Fernley Economic Development Act",
+        "titleType": "Short Title(s) as Reported to House for portions of this bill",
+        "titleTypeCode": 107,
+        "updateDate": "2026-09-11T04:08:22Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Elko Economic Development Act",
+        "titleType": "Short Title(s) as Reported to House for portions of this bill",
+        "titleTypeCode": 107,
+        "updateDate": "2026-09-11T04:08:22Z"
+      },
+      {
+        "billTextVersionCode": "RH",
+        "billTextVersionName": "Reported in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Pershing County Economic Development and Conservation Act",
+        "titleType": "Short Title(s) as Reported to House for portions of this bill",
+        "titleTypeCode": 107,
+        "updateDate": "2026-09-11T04:08:22Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -725,6 +767,14 @@
         "title": "Pershing County Economic Development and Conservation Act",
         "titleType": "Short Title(s) as Introduced for portions of this bill",
         "titleTypeCode": 106,
+        "updateDate": "2025-05-24T03:38:19Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Northern Nevada Economic Development and Conservation Act of 2025",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
         "updateDate": "2025-05-24T03:38:19Z"
       },
       {
@@ -738,8 +788,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:05:34Z",
-  "updateDateIncludingText": "2026-09-15T08:05:34Z",
+  "updateDate": "2026-09-16T06:08:24Z",
+  "updateDateIncludingText": "2026-09-16T10:33:31Z",
   "id": "119-HR-2317",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"

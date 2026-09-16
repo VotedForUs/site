@@ -552,6 +552,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Common Cents Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-16T06:08:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of the Treasury to stop minting the penny, to require cash transactions to be rounded up or down to the nearest 5 cents, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-16T06:08:25Z"
+      },
+      {
         "title": "Common Cents Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -576,8 +596,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T08:06:18Z",
-  "updateDateIncludingText": "2026-09-15T08:06:18Z",
+  "updateDate": "2026-09-16T08:09:00Z",
+  "updateDateIncludingText": "2026-09-16T09:48:36Z",
   "id": "119-HR-10167",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-09-14"
