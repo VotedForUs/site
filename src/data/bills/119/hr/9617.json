@@ -684,6 +684,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Coordinating and Harnessing America’s Recovery of Minerals Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "CHARM Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Solid Waste Disposal Act to direct the Administrator of the Environmental Protection Agency to coordinate a National Critical Mineral Recovery Strategy, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -712,7 +742,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "CHARM Act",
+        "title": "Coordinating and Harnessing America’s Recovery of Minerals Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-07-10T10:23:20Z"
@@ -720,7 +750,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Coordinating and Harnessing America’s Recovery of Minerals Act",
+        "title": "CHARM Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-07-10T10:23:20Z"
@@ -736,8 +766,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:42Z",
-  "updateDateIncludingText": "2026-09-16T08:09:42Z",
+  "updateDate": "2026-09-17T05:23:26Z",
+  "updateDateIncludingText": "2026-09-17T09:48:25Z",
   "id": "119-HR-9617",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

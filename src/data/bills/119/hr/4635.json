@@ -657,7 +657,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 890 East 152nd Street in Cleveland, Ohio, as the \"Technical Sergeant Alma Gladys Minter Post Office Building\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T16:23:22Z"
       },
@@ -667,7 +667,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 890 East 152nd Street in Cleveland, Ohio, as the Technical Sergeant Alma Gladys Minter Post Office Building.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-16T03:38:23Z"
       }
@@ -675,7 +675,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:37Z",
-  "updateDateIncludingText": "2026-09-15T10:56:37Z",
+  "updateDateIncludingText": "2026-09-17T04:18:26Z",
   "id": "119-HR-4635",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 417 - 7 (Roll no. 302).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 417 - 7 (Roll no. 302). (text: CR H5605)",
         "type": "Floor"
       },
       {
@@ -551,7 +551,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5605-5608)",
         "type": "Floor"
       },
       {
@@ -667,6 +667,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require certain supervisory agencies to assess their technological capabilities, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
         "title": "Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -701,8 +721,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:09Z",
-  "updateDateIncludingText": "2026-09-16T08:09:09Z",
+  "updateDate": "2026-09-17T08:05:34Z",
+  "updateDateIncludingText": "2026-09-17T09:48:26Z",
   "id": "119-HR-8278",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-16T02:03:09Z"

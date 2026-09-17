@@ -684,6 +684,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Load Forecasting Enhancement Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Federal Energy Regulatory Commission to establish regional joint boards to study electric load forecasting, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -718,8 +738,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:26Z",
-  "updateDateIncludingText": "2026-09-16T08:09:26Z",
+  "updateDate": "2026-09-17T05:23:26Z",
+  "updateDateIncludingText": "2026-09-17T10:18:28Z",
   "id": "119-HR-9332",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

@@ -718,6 +718,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Combating Illicit Xylazine Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To prohibit certain uses of xylazine, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -752,8 +772,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:03Z",
-  "updateDateIncludingText": "2026-09-16T08:09:03Z",
+  "updateDate": "2026-09-17T04:38:39Z",
+  "updateDateIncludingText": "2026-09-17T09:48:36Z",
   "id": "119-HR-1266",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hconres/93/actions?format=json",
     "actions": [
       {
@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307).",
+        "text": "On agreeing to the resolution Agreed to by the Yeas and Nays: 220 - 204 (Roll no. 307). (text: CR H5609)",
         "type": "Floor"
       },
       {
@@ -562,7 +562,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered pursuant to a previous order of the House",
+        "text": "Considered pursuant to a previous order of the House (consideration: CR H5609-5615)",
         "type": "Floor"
       },
       {
@@ -619,9 +619,8 @@
   "congress": 119,
   "introducedDate": "2026-04-28",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "actionTime": "22:32:09",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-16",
+    "text": "Received in the Senate and referred to the Committee on Foreign Relations."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/93",
   "number": "93",
@@ -638,7 +637,17 @@
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:46:07Z"
+        "updateDate": "2026-09-17T05:23:28Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:25Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -651,8 +660,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-09-16T08:09:17Z",
-  "updateDateIncludingText": "2026-09-16T08:09:17Z",
+  "updateDate": "2026-09-17T10:56:38Z",
+  "updateDateIncludingText": "2026-09-17T10:56:38Z",
   "id": "119-HCONRES-93",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-16T02:32:08Z"

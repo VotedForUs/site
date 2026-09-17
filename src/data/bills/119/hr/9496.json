@@ -616,6 +616,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "End Tax Penalties on American Hostages Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to postpone tax deadlines and reimburse paid late fees for United States nationals who are unlawfully or wrongfully detained or held hostage abroad, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:25Z"
+      },
+      {
         "title": "End Tax Penalties on American Hostages Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -650,8 +670,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:11Z",
-  "updateDateIncludingText": "2026-09-16T08:09:11Z",
+  "updateDate": "2026-09-17T05:23:25Z",
+  "updateDateIncludingText": "2026-09-17T10:18:25Z",
   "id": "119-HR-9496",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

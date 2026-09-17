@@ -683,6 +683,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Diesel Emissions Reduction Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Energy Policy Act of 2005 to reauthorize the diesel emissions reduction program.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -717,8 +737,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:28Z",
-  "updateDateIncludingText": "2026-09-16T08:09:28Z",
+  "updateDate": "2026-09-17T04:38:39Z",
+  "updateDateIncludingText": "2026-09-17T10:18:33Z",
   "id": "119-HR-2140",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-16T02:11:33Z"

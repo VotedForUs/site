@@ -2689,9 +2689,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Housing for the 21st Century Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To increase the supply of housing in America, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-02-12T04:08:23Z"
       },
       {
@@ -2699,9 +2699,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To increase the supply of housing in America, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Housing for the 21st Century Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-02-12T04:08:23Z"
       },
       {
@@ -2741,8 +2741,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-10T20:06:24Z",
-  "updateDateIncludingText": "2026-09-10T20:06:24Z",
+  "updateDate": "2026-09-16T18:13:00Z",
+  "updateDateIncludingText": "2026-09-16T18:13:00Z",
   "id": "119-HR-6644",
   "lastActionDate": "2026-07-11",
   "lastRecordedVoteDate": "2026-06-23T23:26:36Z"

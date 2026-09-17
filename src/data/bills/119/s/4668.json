@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 8,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/4668/actions?format=json",
     "actions": [
       {
@@ -271,8 +271,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-15T11:08:27Z",
-  "updateDateIncludingText": "2026-09-15T11:08:27Z",
+  "updateDate": "2026-09-16T11:03:40Z",
+  "updateDateIncludingText": "2026-09-16T11:03:40Z",
   "id": "119-S-4668",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15T22:25:00Z"

@@ -1,8 +1,168 @@
 {
   "actions": {
-    "count": 30,
+    "count": 32,
     "url": "https://api.congress.gov/v3/bill/119/hr/3633/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion by Senator Tillis to reconsider the vote by which cloture on the motion to proceed to the measure was not invoked (Record Vote No. 234) entered in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-09-15",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-09-15T19:08:40Z",
+            "rollNumber": 234,
+            "sessionNumber": 2,
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.xml",
+            "votes": {
+              "A000382": "Nay",
+              "B001230": "Nay",
+              "B001299": "Yea",
+              "B001261": "Yea",
+              "B001267": "Nay",
+              "B001243": "Yea",
+              "B001277": "Nay",
+              "B001303": "Nay",
+              "B001288": "Nay",
+              "B001236": "Yea",
+              "B001319": "Yea",
+              "B001305": "Yea",
+              "C000127": "Nay",
+              "C001047": "Yea",
+              "C001075": "Yea",
+              "C001035": "Nay",
+              "C001088": "Not Voting",
+              "C001056": "Yea",
+              "C001113": "Nay",
+              "C001095": "Yea",
+              "C001096": "Yea",
+              "C000880": "Yea",
+              "C001098": "Yea",
+              "C001114": "Yea",
+              "D000618": "Yea",
+              "D000622": "Nay",
+              "D000563": "Nay",
+              "E000295": "Yea",
+              "F000479": "Nay",
+              "F000463": "Yea",
+              "G000574": "Nay",
+              "G000555": "Nay",
+              "G000386": "Yea",
+              "H000601": "Yea",
+              "H001076": "Nay",
+              "H001089": "Nay",
+              "H001046": "Nay",
+              "H000273": "Nay",
+              "H001042": "Nay",
+              "H001061": "Yea",
+              "H001104": "Yea",
+              "H001079": "Yea",
+              "J000293": "Yea",
+              "J000312": "Yea",
+              "K000384": "Nay",
+              "K000377": "Nay",
+              "K000393": "Yea",
+              "K000394": "Nay",
+              "K000383": "Nay",
+              "K000367": "Nay",
+              "L000575": "Yea",
+              "L000577": "Yea",
+              "L000570": "Nay",
+              "L000571": "Yea",
+              "M000133": "Nay",
+              "M001198": "Yea",
+              "M000355": "Yea",
+              "M001243": "Yea",
+              "M001176": "Nay",
+              "M001244": "Yea",
+              "M000934": "Nay",
+              "M001242": "Yea",
+              "M001153": "Yea",
+              "M001169": "Nay",
+              "M001111": "Nay",
+              "O000174": "Nay",
+              "P000145": "Nay",
+              "P000603": "Yea",
+              "P000595": "Nay",
+              "R000122": "Nay",
+              "R000618": "Yea",
+              "R000584": "Yea",
+              "R000608": "Nay",
+              "R000605": "Yea",
+              "S000033": "Nay",
+              "S001194": "Nay",
+              "S001150": "Nay",
+              "S001227": "Yea",
+              "S000148": "Nay",
+              "S001217": "Yea",
+              "S001184": "Yea",
+              "S001181": "Nay",
+              "S001232": "Yea",
+              "S001208": "Nay",
+              "S001203": "Nay",
+              "S001198": "Yea",
+              "T000250": "Yea",
+              "T000476": "Nay",
+              "T000278": "Yea",
+              "V000128": "Nay",
+              "W000805": "Nay",
+              "W000790": "Nay",
+              "W000817": "Nay",
+              "W000800": "Nay",
+              "W000802": "Nay",
+              "W000437": "Yea",
+              "W000779": "Nay",
+              "Y000064": "Yea"
+            },
+            "result": "rejected",
+            "voteUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.xml",
+            "question": "On Cloture on the Motion to Proceed H.R. 3633",
+            "recordType": "roll-call",
+            "votePartyTotal": [
+              {
+                "voteParty": "D",
+                "yeaTotal": 0,
+                "nayTotal": 44,
+                "presentTotal": 0,
+                "notVotingTotal": 1
+              },
+              {
+                "voteParty": "R",
+                "yeaTotal": 49,
+                "nayTotal": 4,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              },
+              {
+                "voteParty": "I",
+                "yeaTotal": 0,
+                "nayTotal": 2,
+                "presentTotal": 0,
+                "notVotingTotal": 0
+              }
+            ],
+            "senateCount": {
+              "yeas": 49,
+              "nays": 50,
+              "present": "",
+              "absent": 1
+            },
+            "id": "119-HR-3633-2"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 234.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-08-08",
         "sourceSystem": {
@@ -809,8 +969,8 @@
   "congress": 119,
   "introducedDate": "2025-05-29",
   "latestAction": {
-    "actionDate": "2026-08-08",
-    "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S4557)"
+    "actionDate": "2026-09-15",
+    "text": "Motion by Senator Tillis to reconsider the vote by which cloture on the motion to proceed to the measure was not invoked (Record Vote No. 234) entered in Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
   "number": "3633",
@@ -828,16 +988,6 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Digital Asset Market Clarity Act",
-        "titleType": "Short Title(s) as Reported to Senate",
-        "titleTypeCode": 103,
-        "updateDate": "2026-06-03T05:08:25Z"
-      },
-      {
-        "billTextVersionCode": "RS",
-        "billTextVersionName": "Reported to Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
         "title": "Lummis-Gillibrand Responsible Financial Innovation Act of 2026",
         "titleType": "Short Title(s) as Reported to Senate for portions of this bill",
         "titleTypeCode": 108,
@@ -847,6 +997,16 @@
         "title": "Digital Asset Market Clarity Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
+        "updateDate": "2026-06-03T05:08:25Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Digital Asset Market Clarity Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
         "updateDate": "2026-06-03T05:08:25Z"
       },
       {
@@ -863,7 +1023,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To provide for a system of regulation of the offer and sale of digital commodities by the Securities and Exchange Commission and the Commodity Futures Trading Commission, to amend the Federal Reserve Act to prohibit the Federal reserve banks from offering certain products or services directly to an individual, to prohibit the use of central bank digital currency for monetary policy, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-09-22T17:38:16Z"
       },
@@ -936,9 +1096,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-07T10:56:17Z",
-  "updateDateIncludingText": "2026-09-07T10:56:17Z",
+  "updateDate": "2026-09-16T11:08:26Z",
+  "updateDateIncludingText": "2026-09-16T11:08:26Z",
   "id": "119-HR-3633",
-  "lastActionDate": "2026-08-08",
-  "lastRecordedVoteDate": "2025-07-17T19:30:31Z"
+  "lastActionDate": "2026-09-15",
+  "lastRecordedVoteDate": "2026-09-15T19:08:40Z"
 }

@@ -616,6 +616,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Taxpayer Advocate Participation Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to authorize the National Taxpayer Advocate to appear as amicus curiae in Federal tax cases, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
         "title": "Taxpayer Advocate Participation Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -650,8 +670,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:21Z",
-  "updateDateIncludingText": "2026-09-16T08:09:21Z",
+  "updateDate": "2026-09-17T05:23:26Z",
+  "updateDateIncludingText": "2026-09-17T10:18:27Z",
   "id": "119-HR-9498",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

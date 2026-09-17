@@ -650,7 +650,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 86 Main Street in Haverstraw, New York, as the \"Paul Piperato Post Office Building\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T15:08:26Z"
       },
@@ -660,7 +660,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 86 Main Street in Haverstraw, New York, as the Paul Piperato Post Office Building.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-11T04:08:21Z"
       },
@@ -676,7 +676,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:43Z",
-  "updateDateIncludingText": "2026-09-15T10:56:43Z",
+  "updateDateIncludingText": "2026-09-17T04:18:32Z",
   "id": "119-HR-1009",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2025-12-09"

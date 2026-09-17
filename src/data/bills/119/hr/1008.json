@@ -650,7 +650,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 298 Route 292 in Holmes, New York, as the \"Sheriff Adrian \"Butch\" Anderson Post Office Building\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T15:08:26Z"
       },
@@ -660,7 +660,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 298 Route 292 in Holmes, New York, as the Sheriff Adrian Butch Anderson Post Office Building.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-11T04:08:20Z"
       },
@@ -676,7 +676,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:43Z",
-  "updateDateIncludingText": "2026-09-15T10:56:43Z",
+  "updateDateIncludingText": "2026-09-17T04:33:46Z",
   "id": "119-HR-1008",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2025-12-09"
