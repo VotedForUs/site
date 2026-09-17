@@ -650,7 +650,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 80 Prospect Street in Avon, New York, as the \"Officer Anthony Mazurkiewicz Memorial Post Office Building\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T14:58:28Z"
       },
@@ -660,7 +660,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 80 Prospect Street in Avon, New York, as the Officer Anthony Mazurkiewicz Memorial Post Office Building.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-11T05:53:20Z"
       },
@@ -676,7 +676,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:44Z",
-  "updateDateIncludingText": "2026-09-15T10:56:44Z",
+  "updateDateIncludingText": "2026-09-17T04:18:33Z",
   "id": "119-HR-323",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2025-12-09"

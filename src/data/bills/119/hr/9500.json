@@ -637,6 +637,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Tax Relief for Fraud Victims Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to repeal the limitation on deductions for personal casualty losses and to provide for increased taxpayer relief with respect to theft losses involving fraud, deceit, or misrepresentation.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:25Z"
+      },
+      {
         "title": "Tax Relief for Fraud Victims Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -661,8 +681,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:05Z",
-  "updateDateIncludingText": "2026-09-16T08:09:05Z",
+  "updateDate": "2026-09-17T05:23:26Z",
+  "updateDateIncludingText": "2026-09-17T09:48:24Z",
   "id": "119-HR-9500",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-16T02:15:14Z"

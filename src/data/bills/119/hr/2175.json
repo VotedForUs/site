@@ -650,7 +650,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 130 South Patterson Avenue in Santa Barbara, California, as the \"Brigadier General Frederick R. Lopez Post Office Building\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T14:58:28Z"
       },
@@ -660,7 +660,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 130 South Patterson Avenue in Santa Barbara, California, as the Brigadier General Frederick R. Lopez Post Office Building.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-11T03:53:20Z"
       },
@@ -676,7 +676,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:41Z",
-  "updateDateIncludingText": "2026-09-15T10:56:41Z",
+  "updateDateIncludingText": "2026-09-17T04:33:37Z",
   "id": "119-HR-2175",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2025-12-09"

@@ -649,7 +649,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the \"Officer Zane T. Coolidge Post Office\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T01:08:24Z"
       },
@@ -659,7 +659,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the Officer Zane T. Coolidge Post Office.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-16T03:38:23Z"
       },
@@ -675,7 +675,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:39Z",
-  "updateDateIncludingText": "2026-09-15T10:56:39Z",
+  "updateDateIncludingText": "2026-09-17T04:33:31Z",
   "id": "119-HR-3393",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

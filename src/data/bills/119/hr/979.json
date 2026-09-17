@@ -718,6 +718,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "AM Radio for Every Vehicle Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Secretary of Transportation to issue a rule requiring access to AM broadcast stations in motor vehicles, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
         "title": "AM Radio for Every Vehicle Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -752,8 +772,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:38Z",
-  "updateDateIncludingText": "2026-09-16T08:09:38Z",
+  "updateDate": "2026-09-17T05:23:26Z",
+  "updateDateIncludingText": "2026-09-17T10:18:27Z",
   "id": "119-HR-979",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

@@ -649,7 +649,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 2407 State Route 71, Suite 1, in Spring Lake, New Jersey, as the \"James J. Howard Post Office\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T20:38:22Z"
       },
@@ -659,7 +659,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 2407 State Route 71, Suite 1, in Spring Lake, New Jersey, as the James J. Howard Post Office.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-16T03:38:23Z"
       },
@@ -675,7 +675,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:42Z",
-  "updateDateIncludingText": "2026-09-15T10:56:42Z",
+  "updateDateIncludingText": "2026-09-17T04:33:27Z",
   "id": "119-HR-1431",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

@@ -684,6 +684,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Environmental Monitoring and Remediation Technology Assessment Initiative Authorization Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "EMRTAI Authorization Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:25Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To establish a program for the recovery of critical materials from contaminated sites, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:25Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -712,7 +742,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "EMRTAI Authorization Act of 2026",
+        "title": "Environmental Monitoring and Remediation Technology Assessment Initiative Authorization Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-07-10T10:23:21Z"
@@ -720,7 +750,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Environmental Monitoring and Remediation Technology Assessment Initiative Authorization Act of 2026",
+        "title": "EMRTAI Authorization Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-07-10T10:23:21Z"
@@ -736,8 +766,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:20Z",
-  "updateDateIncludingText": "2026-09-16T08:09:20Z",
+  "updateDate": "2026-09-17T05:23:25Z",
+  "updateDateIncludingText": "2026-09-17T10:18:25Z",
   "id": "119-HR-9616",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

@@ -684,6 +684,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Tyler’s Law",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of Health and Human Services to issue guidance on whether hospital emergency departments should implement fentanyl testing as a routine procedure for patients experiencing an overdose, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -718,8 +738,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:30Z",
-  "updateDateIncludingText": "2026-09-16T08:09:30Z",
+  "updateDate": "2026-09-17T04:38:39Z",
+  "updateDateIncludingText": "2026-09-17T10:18:32Z",
   "id": "119-HR-2004",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

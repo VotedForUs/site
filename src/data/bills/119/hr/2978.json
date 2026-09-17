@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 414 - 7 (Roll no. 301).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 414 - 7 (Roll no. 301). (text: CR H5602-5603)",
         "type": "Floor"
       },
       {
@@ -551,7 +551,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5602-5605)",
         "type": "Floor"
       },
       {
@@ -671,6 +671,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "GUARD Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Guarding Unprotected Aging Retirees from Deception Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To permit State, local, and Tribal law enforcement agencies that receive eligible Federal grant funds to use such funds for investigating elder financial fraud, pig butchering, and general financial fraud, and to clarify that Federal law enforcement agencies may assist State, local, and Tribal law enforcement agencies in the use of tracing tools for blockchain and related technology, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
         "title": "GUARD Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -703,8 +733,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:06Z",
-  "updateDateIncludingText": "2026-09-16T08:09:06Z",
+  "updateDate": "2026-09-17T08:05:32Z",
+  "updateDateIncludingText": "2026-09-17T10:18:36Z",
   "id": "119-HR-2978",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-16T01:57:55Z"

@@ -649,7 +649,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 10660 Page Avenue in Fairfax, Virginia, as the \"Congressman Gerald E. Connolly Post Office Building\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-15T13:08:26Z"
       },
@@ -665,7 +665,7 @@
   },
   "type": "HR",
   "updateDate": "2026-09-15T10:56:34Z",
-  "updateDateIncludingText": "2026-09-15T10:56:34Z",
+  "updateDateIncludingText": "2026-09-17T04:33:33Z",
   "id": "119-HR-6332",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-07-13"

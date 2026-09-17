@@ -616,6 +616,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Protecting Taxpayers from Ghost Preparers Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to apply tax return preparation penalties to improperly altered returns, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T05:23:26Z"
+      },
+      {
         "title": "Protecting Taxpayers from Ghost Preparers Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -650,8 +670,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:35Z",
-  "updateDateIncludingText": "2026-09-16T08:09:35Z",
+  "updateDate": "2026-09-17T05:23:26Z",
+  "updateDateIncludingText": "2026-09-17T10:03:51Z",
   "id": "119-HR-9499",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

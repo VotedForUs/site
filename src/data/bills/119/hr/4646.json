@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 424 - 0 (Roll no. 303).",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 424 - 0 (Roll no. 303). (text: CR H5608)",
         "type": "Floor"
       },
       {
@@ -551,7 +551,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5608-5609)",
         "type": "Floor"
       },
       {
@@ -718,6 +718,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Whistleblower Protection Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To clarify that whistleblower protections described in section 4712 of title 41, United States Code, apply to any contract funded from amounts appropriated to the Department of Housing and Urban Development, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-17T04:38:39Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -752,8 +772,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T08:09:22Z",
-  "updateDateIncludingText": "2026-09-16T08:09:22Z",
+  "updateDate": "2026-09-17T08:05:44Z",
+  "updateDateIncludingText": "2026-09-17T10:18:38Z",
   "id": "119-HR-4646",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-16T02:06:58Z"
