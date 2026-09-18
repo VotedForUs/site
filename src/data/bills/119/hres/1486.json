@@ -529,7 +529,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H5651-5654; text: CR H5651-5653)",
         "type": "Floor"
       },
       {
@@ -618,8 +618,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-09-16T08:08:55Z",
-  "updateDateIncludingText": "2026-09-16T08:08:55Z",
+  "updateDate": "2026-09-18T08:07:01Z",
+  "updateDateIncludingText": "2026-09-18T08:07:01Z",
   "id": "119-HRES-1486",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15T20:47:01Z"

@@ -792,7 +792,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To amend the Federal Funding Accountability and Transparency Act of 2006 to ensure that other transaction agreements are reported to USAspending.gov, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-22T05:38:24Z"
       },
@@ -821,8 +821,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-11T19:41:29Z",
-  "updateDateIncludingText": "2026-09-11T19:41:29Z",
+  "updateDate": "2026-09-17T19:32:57Z",
+  "updateDateIncludingText": "2026-09-17T19:32:57Z",
   "id": "119-HR-2069",
   "lastActionDate": "2026-09-11",
   "lastRecordedVoteDate": "2026-08-07"

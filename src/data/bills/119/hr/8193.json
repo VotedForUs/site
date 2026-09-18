@@ -593,14 +593,34 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/8193/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 189 East Main Street in Xenia, Ohio, as the \"Gilman 'Gil' Whitney Post Office Building\".",
+  "title": "To designate the facility of the United States Postal Service located at 189 East Main Street in Xenia, Ohio, as the \"Gil Whitney Post Office Building\".",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 189 East Main Street in Xenia, Ohio, as the \"Gilman 'Gil' Whitney Post Office Building\".",
+        "title": "To designate the facility of the United States Postal Service located at 189 East Main Street in Xenia, Ohio, as the \"Gil Whitney Post Office Building\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:43:03Z"
+        "updateDate": "2026-09-18T05:23:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the facility of the United States Postal Service located at 189 East Main Street in Xenia, Ohio, as the \"Gil Whitney Post Office Building\".",
+        "titleType": "Official Titles as Amended by House",
+        "titleTypeCode": 7,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the facility of the United States Postal Service located at 189 East Main Street in Xenia, Ohio, as the \"Gil Whitney Post Office Building\".",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:20Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -613,8 +633,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:07:53Z",
-  "updateDateIncludingText": "2026-09-17T08:07:53Z",
+  "updateDate": "2026-09-18T05:23:22Z",
+  "updateDateIncludingText": "2026-09-18T09:48:36Z",
   "id": "119-HR-8193",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

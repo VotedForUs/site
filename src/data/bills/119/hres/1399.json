@@ -587,24 +587,24 @@
   "number": "1399",
   "originChamber": "House",
   "originChamberCode": "H",
-  "title": "Directing the Committee on Ethics to preserve and publicly release records relating to .monetary settlements involving acts of sexual harassment.",
+  "title": "Directing the Committee on Ethics to preserve and publicly release records relating to monetary settlements involving acts of sexual harassment.",
   "titles": {
     "titles": [
       {
-        "title": "Directing the Committee on Ethics to preserve and publicly release records relating to .monetary settlements involving acts of sexual harassment.",
+        "title": "Directing the Committee on Ethics to preserve and publicly release records relating to monetary settlements involving acts of sexual harassment.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-07T04:53:30Z"
+        "updateDate": "2026-09-17T15:38:25Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Directing the Committee on Ethics to preserve and publicly release records relating to .monetary settlements involving acts of sexual harassment.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "title": "Directing the Committee on Ethics to preserve and publicly release records relating to monetary settlements involving acts of sexual harassment.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-07-07T04:53:28Z"
+        "updateDate": "2026-09-17T15:38:25Z"
       },
       {
         "title": "Directing the Committee on Ethics to preserve and publicly release records relating to monetary settlements involving acts of sexual harassment.",
@@ -615,8 +615,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-20T14:47:06Z",
-  "updateDateIncludingText": "2026-07-20T14:47:06Z",
+  "updateDate": "2026-09-17T15:38:25Z",
+  "updateDateIncludingText": "2026-09-18T01:48:54Z",
   "id": "119-HRES-1399",
   "lastActionDate": "2026-06-30",
   "lastRecordedVoteDate": "2026-06-30T21:47:27Z"

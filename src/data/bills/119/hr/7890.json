@@ -616,6 +616,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Science of Reading Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Elementary and Secondary Education Act of 1965 to exclude certain instructional approaches from comprehensive literacy instruction, to prioritize certain funds to promote the use of evidence-based literacy instruction and supports aligned to the science of reading, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -650,8 +670,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:08:13Z",
-  "updateDateIncludingText": "2026-09-17T08:08:13Z",
+  "updateDate": "2026-09-18T05:23:20Z",
+  "updateDateIncludingText": "2026-09-18T09:48:37Z",
   "id": "119-HR-7890",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

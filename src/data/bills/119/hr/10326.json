@@ -625,6 +625,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "PROOF Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-18T05:23:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Preventing Rip-offs and Obtaining Oversight of Funds Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-18T05:23:21Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To enhance information-sharing capabilities between Federal law enforcement and State agencies to detect, investigate, and prosecute fraud in certain Federal programs, and to protect individual privacy.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:21Z"
+      },
+      {
         "title": "PROOF Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -657,8 +687,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:08:05Z",
-  "updateDateIncludingText": "2026-09-17T08:08:05Z",
+  "updateDate": "2026-09-18T05:23:21Z",
+  "updateDateIncludingText": "2026-09-18T09:33:49Z",
   "id": "119-HR-10326",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16T22:43:57Z"

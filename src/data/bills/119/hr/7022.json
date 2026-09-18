@@ -1,12 +1,42 @@
 {
   "actions": {
-    "count": 14,
-    "url": "https://api.congress.gov/v3/bill/119/hr/7834/actions?format=json",
+    "count": 19,
+    "url": "https://api.congress.gov/v3/bill/119/hr/7022/actions?format=json",
     "actions": [
       {
-        "actionCode": "H38310",
         "actionDate": "2026-09-16",
-        "actionTime": "15:24:42",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-04-21",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H38310",
+        "actionDate": "2026-04-20",
+        "actionTime": "16:22:14",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -16,25 +46,25 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-09-16",
-        "actionTime": "15:24:30",
+        "actionDate": "2026-04-20",
+        "actionTime": "16:22:11",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H2970)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-09-16",
+            "date": "2026-04-20",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/7834",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/7022",
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
@@ -477,98 +507,98 @@
               "V000139",
               "M001245"
             ],
-            "id": "119-HR-7834-1"
+            "id": "119-HR-7022-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-09-16",
-        "actionTime": "15:14:54",
+        "actionDate": "2026-04-20",
+        "actionTime": "16:13:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 7834.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 7022.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-09-16",
-        "actionTime": "15:14:53",
+        "actionDate": "2026-04-20",
+        "actionTime": "16:13:16",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H2970-2971)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-09-16",
-        "actionTime": "15:14:38",
+        "actionDate": "2026-04-20",
+        "actionTime": "16:13:04",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Ms. Lee (FL) moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Allen moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-09-08",
+        "actionDate": "2026-04-15",
         "calendarNumber": {
-          "calendar": "U00703"
+          "calendar": "U00534"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 703.",
+        "text": "Placed on the Union Calendar, Calendar No. 534.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2026-09-08",
+        "actionDate": "2026-04-15",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Judiciary. H. Rept. 119-804.",
+        "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-616.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2026-07-15",
+        "actionDate": "2026-03-25",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 24 - 0.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 52 - 0.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2026-07-15",
+        "actionDate": "2026-03-25",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
           }
         ],
         "sourceSystem": {
@@ -579,100 +609,160 @@
         "type": "Committee"
       },
       {
-        "actionCode": "H11100",
-        "actionDate": "2026-03-05",
+        "actionCode": "H23000",
+        "actionDate": "2026-01-15",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "hsju00",
-            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+            "name": "Communications and Technology Subcommittee",
+            "systemCode": "hsif16",
+            "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H22000",
+        "actionDate": "2026-01-15",
+        "committees": [
+          {
+            "name": "Communications and Technology Subcommittee",
+            "systemCode": "hsif16",
+            "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2026-01-12",
+        "committees": [
+          {
+            "name": "Communications and Technology Subcommittee",
+            "systemCode": "hsif16",
+            "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Communications and Technology.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-01-12",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on the Judiciary.",
+        "text": "Referred to the House Committee on Energy and Commerce.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-03-05",
+  "introducedDate": "2026-01-12",
   "latestAction": {
     "actionDate": "2026-09-16",
-    "actionTime": "15:24:42",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7834",
-  "number": "7834",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7022",
+  "number": "7022",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/7834/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/7022/summaries?format=json"
   },
-  "title": "Safe Cloud Storage Act",
+  "title": "Mystic Alerts Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Safe Cloud Storage Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-09-18T05:23:20Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To limit liability for certain entities storing child sexual abuse material for law enforcement agencies, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-09-18T05:23:20Z"
-      },
-      {
-        "title": "Safe Cloud Storage Act",
+        "title": "Mystic Alerts Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-09T14:52:52Z"
+        "updateDate": "2026-07-17T23:35:23Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To limit liability for certain entities storing child sexual abuse material for law enforcement agencies, and for other purposes.",
+        "title": "To provide for the transmission of emergency alerts by satellite, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-09-09T14:52:52Z"
+        "updateDate": "2026-07-17T23:30:36Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Mystic Alerts Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-23T03:53:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Mystic Alerts Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-04-22T03:38:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for the transmission of emergency alerts by satellite, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-22T03:38:22Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Safe Cloud Storage Act",
+        "title": "Mystic Alerts Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-09-09T06:53:24Z"
+        "updateDate": "2026-04-16T12:38:20Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Safe Cloud Storage Act",
+        "title": "Mystic Alerts Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2026-03-26T04:58:22Z"
+        "updateDate": "2026-02-02T22:08:16Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T05:23:20Z",
-  "updateDateIncludingText": "2026-09-18T10:04:08Z",
-  "id": "119-HR-7834",
+  "updateDate": "2026-09-17T10:56:40Z",
+  "updateDateIncludingText": "2026-09-17T10:56:40Z",
+  "id": "119-HR-7022",
   "lastActionDate": "2026-09-16",
-  "lastRecordedVoteDate": "2026-09-16"
+  "lastRecordedVoteDate": "2026-04-20"
 }

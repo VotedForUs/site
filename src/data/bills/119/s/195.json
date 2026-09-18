@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5666-5667)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +500,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5666-5667)",
         "type": "Floor"
       },
       {
@@ -744,6 +744,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "American Music Tourism Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-18T05:23:19Z"
+      },
+      {
         "title": "American Music Tourism Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -788,8 +798,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-16T08:09:15Z",
-  "updateDateIncludingText": "2026-09-16T08:09:15Z",
+  "updateDate": "2026-09-18T05:23:19Z",
+  "updateDateIncludingText": "2026-09-18T05:23:19Z",
   "id": "119-S-195",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15"

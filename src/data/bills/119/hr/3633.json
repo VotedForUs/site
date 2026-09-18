@@ -160,7 +160,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 234.",
+        "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 234. (CR S4706)",
         "type": "Floor"
       },
       {
@@ -1096,8 +1096,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T11:08:26Z",
-  "updateDateIncludingText": "2026-09-16T11:08:26Z",
+  "updateDate": "2026-09-17T17:09:18Z",
+  "updateDateIncludingText": "2026-09-17T17:09:18Z",
   "id": "119-HR-3633",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15T19:08:40Z"

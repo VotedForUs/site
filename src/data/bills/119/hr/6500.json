@@ -1887,9 +1887,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "AGOA Extension Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To extend duty-free treatment provided with respect to imports from certain countries in Africa under the African Growth and Opportunity Act, to extend customs user fees, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-01-14T03:23:16Z"
       },
       {
@@ -1897,9 +1897,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To extend duty-free treatment provided with respect to imports from certain countries in Africa under the African Growth and Opportunity Act, to extend customs user fees, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "AGOA Extension Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-01-14T03:23:16Z"
       },
       {
@@ -1931,8 +1931,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-10T16:27:49Z",
-  "updateDateIncludingText": "2026-09-10T16:27:49Z",
+  "updateDate": "2026-09-17T19:31:17Z",
+  "updateDateIncludingText": "2026-09-17T19:31:17Z",
   "id": "119-HR-6500",
   "lastActionDate": "2026-09-02",
   "lastRecordedVoteDate": "2026-09-01T18:05:11Z"

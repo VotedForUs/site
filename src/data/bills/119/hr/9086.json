@@ -569,6 +569,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Foreign Service Modernization Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Foreign Service Act of 1980 to modify and improve that Act.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
         "title": "Foreign Service Modernization Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -593,8 +613,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:08:20Z",
-  "updateDateIncludingText": "2026-09-17T08:08:20Z",
+  "updateDate": "2026-09-18T05:23:20Z",
+  "updateDateIncludingText": "2026-09-18T09:48:34Z",
   "id": "119-HR-9086",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

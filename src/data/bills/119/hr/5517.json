@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/5517/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 628.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -635,8 +643,7 @@
   "introducedDate": "2025-09-19",
   "latestAction": {
     "actionDate": "2026-09-16",
-    "actionTime": "11:51:43",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 628."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5517",
   "number": "5517",
@@ -649,6 +656,16 @@
   "title": "Northern Border Security Enhancement and Review Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Northern Border Security Enhancement and Review Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -704,8 +721,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T10:27:29Z",
-  "updateDateIncludingText": "2026-09-17T10:27:29Z",
+  "updateDate": "2026-09-18T05:23:20Z",
+  "updateDateIncludingText": "2026-09-18T05:23:20Z",
   "id": "119-HR-5517",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

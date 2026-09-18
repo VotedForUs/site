@@ -4,6 +4,21 @@
     "url": "https://api.congress.gov/v3/bill/119/hconres/93/actions?format=json",
     "actions": [
       {
+        "actionDate": "2026-09-16",
+        "committees": [
+          {
+            "name": "Foreign Relations Committee",
+            "systemCode": "ssfr00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and referred to the Committee on Foreign Relations.",
+        "type": "IntroReferral"
+      },
+      {
         "actionCode": "H38310",
         "actionDate": "2026-09-15",
         "actionTime": "22:32:09",
@@ -518,7 +533,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5826-5827)",
         "type": "Floor"
       },
       {
@@ -660,9 +675,9 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-09-17T10:56:38Z",
-  "updateDateIncludingText": "2026-09-17T10:56:38Z",
+  "updateDate": "2026-09-17T16:32:04Z",
+  "updateDateIncludingText": "2026-09-18T01:48:49Z",
   "id": "119-HCONRES-93",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16T02:32:08Z"
 }

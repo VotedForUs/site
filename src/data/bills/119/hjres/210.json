@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 13,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hjres/210/actions?format=json",
     "actions": [
       {
@@ -515,7 +515,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 216 - 211 (Roll no. 306).",
+        "text": "On passage Passed by the Yeas and Nays: 216 - 211 (Roll no. 306). (text: CR H5680)",
         "type": "Floor"
       },
       {
@@ -526,7 +526,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5825-5826)",
         "type": "Floor"
       },
       {
@@ -581,7 +581,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1530.",
+        "text": "Considered under the provisions of rule H. Res. 1530. (consideration: CR H5680-5682)",
         "type": "Floor"
       },
       {
@@ -658,8 +658,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-09-17T05:23:28Z",
-  "updateDateIncludingText": "2026-09-17T10:33:27Z",
+  "updateDate": "2026-09-17T16:30:52Z",
+  "updateDateIncludingText": "2026-09-18T01:48:53Z",
   "id": "119-HJRES-210",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16T02:22:06Z"

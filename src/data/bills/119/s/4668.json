@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 9,
+    "count": 10,
     "url": "https://api.congress.gov/v3/bill/119/s/4668/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to measure considered in Senate.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-15",
         "recordedVotes": [
@@ -152,7 +160,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 74 - 24. Record Vote Number: 235.",
+        "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 74 - 24. Record Vote Number: 235. (CR S4715-4716)",
         "type": "Floor"
       },
       {
@@ -222,8 +230,8 @@
   "congress": 119,
   "introducedDate": "2026-06-02",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 74 - 24. Record Vote Number: 235."
+    "actionDate": "2026-09-16",
+    "text": "Motion to proceed to measure considered in Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4668",
   "number": "4668",
@@ -240,7 +248,7 @@
         "title": "Protect College Sports Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-16T11:03:40Z"
+        "updateDate": "2026-09-17T11:03:28Z"
       },
       {
         "billTextVersionCode": "RS",
@@ -271,9 +279,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-16T11:03:40Z",
-  "updateDateIncludingText": "2026-09-16T11:03:40Z",
+  "updateDate": "2026-09-17T17:10:29Z",
+  "updateDateIncludingText": "2026-09-17T17:10:29Z",
   "id": "119-S-4668",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-15T22:25:00Z"
 }

@@ -759,6 +759,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Billion Dollar Boondoggle Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-18T05:23:19Z"
+      },
+      {
         "title": "Billion Dollar Boondoggle Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -803,8 +813,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-17T08:08:14Z",
-  "updateDateIncludingText": "2026-09-17T08:08:14Z",
+  "updateDate": "2026-09-18T05:23:19Z",
+  "updateDateIncludingText": "2026-09-18T05:34:53Z",
   "id": "119-S-766",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

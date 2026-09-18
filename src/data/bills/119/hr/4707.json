@@ -634,14 +634,14 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/4707/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 1019 Avenue H in Fort Madison, Iowa, as the Martin L. Graber Post Office.",
+  "title": "To designate the facility of the United States Postal Service located at 1019 Avenue H in Fort Madison, Iowa, as the \"Martin L. Graber Post Office\".",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 1019 Avenue H in Fort Madison, Iowa, as the Martin L. Graber Post Office.",
+        "title": "To designate the facility of the United States Postal Service located at 1019 Avenue H in Fort Madison, Iowa, as the \"Martin L. Graber Post Office\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:01:32Z"
+        "updateDate": "2026-09-18T05:23:22Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -657,25 +657,15 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To designate the facility of the United States Postal Service located at 1019 Avenue H in Fort Madison, Iowa, as the \"Martin L. Graber Post Office\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T16:23:25Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 1019 Avenue H in Fort Madison, Iowa, as the Martin L. Graber Post Office.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-16T03:38:23Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T10:56:38Z",
-  "updateDateIncludingText": "2026-09-15T10:56:38Z",
+  "updateDate": "2026-09-18T05:23:22Z",
+  "updateDateIncludingText": "2026-09-18T05:23:22Z",
   "id": "119-HR-4707",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

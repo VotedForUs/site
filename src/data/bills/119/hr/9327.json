@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/9327/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -601,8 +609,7 @@
   "introducedDate": "2026-06-18",
   "latestAction": {
     "actionDate": "2026-09-16",
-    "actionTime": "11:33:28",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9327",
   "number": "9327",
@@ -698,8 +705,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:07:39Z",
-  "updateDateIncludingText": "2026-09-17T10:04:00Z",
+  "updateDate": "2026-09-18T08:06:51Z",
+  "updateDateIncludingText": "2026-09-18T08:06:51Z",
   "id": "119-HR-9327",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

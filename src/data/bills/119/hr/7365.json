@@ -589,7 +589,17 @@
         "title": "To designate the facility of the United States Postal Service located at 1225 Kempsville Road in Virginia Beach, Virginia, as the \"Colonel Edward Shames Post Office Building\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:35:55Z"
+        "updateDate": "2026-09-18T05:23:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the facility of the United States Postal Service located at 1225 Kempsville Road in Virginia Beach, Virginia, as the \"Colonel Edward Shames Post Office Building\".",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:20Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -602,8 +612,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:08:16Z",
-  "updateDateIncludingText": "2026-09-17T08:08:16Z",
+  "updateDate": "2026-09-18T05:23:22Z",
+  "updateDateIncludingText": "2026-09-18T09:48:38Z",
   "id": "119-HR-7365",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"
