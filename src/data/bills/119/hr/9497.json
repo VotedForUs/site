@@ -701,6 +701,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Water Resources Development Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To provide for improvements to the rivers and harbors of the United States, to provide for the conservation and development of water and related resources, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -735,8 +755,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:08:18Z",
-  "updateDateIncludingText": "2026-09-17T08:08:18Z",
+  "updateDate": "2026-09-18T05:23:20Z",
+  "updateDateIncludingText": "2026-09-18T09:48:27Z",
   "id": "119-HR-9497",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16T22:58:41Z"

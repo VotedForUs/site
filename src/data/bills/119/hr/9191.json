@@ -616,6 +616,26 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "National Fossil Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend chapter 3 of title 36, United States Code, to designate the American mastodon as the national fossil mammal and the Tyrannosaurus rex as the national fossil dinosaur of the United States, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
         "title": "National Fossil Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -650,8 +670,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:07:40Z",
-  "updateDateIncludingText": "2026-09-17T08:07:40Z",
+  "updateDate": "2026-09-18T05:23:20Z",
+  "updateDateIncludingText": "2026-09-18T09:33:37Z",
   "id": "119-HR-9191",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

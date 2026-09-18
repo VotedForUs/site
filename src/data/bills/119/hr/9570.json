@@ -586,24 +586,34 @@
   "titles": {
     "titles": [
       {
+        "title": "To designate the facility of the United States Postal Service located at 117 West Lovett Street in Charlotte, Michigan, as the \"Francis C. Flaherty Post Office Building\".",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-18T05:23:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To designate the facility of the United States Postal Service located at 117 West Lovett Street in Charlotte, Michigan, as the \"Francis C. Flaherty Post Office Building\".",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To designate the facility of the United States Postal Service located at 117 West Lovett Street in Charlotte, Michigan, as the \"Francis C. Flaherty Post Office Building\".",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
         "updateDate": "2026-07-06T13:33:45Z"
-      },
-      {
-        "title": "To designate the facility of the United States Postal Service located at 117 West Lovett Street in Charlotte, Michigan, as the \"Francis C. Flaherty Post Office Building\".",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-03T08:06:14Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:07:40Z",
-  "updateDateIncludingText": "2026-09-17T08:07:40Z",
+  "updateDate": "2026-09-18T05:23:22Z",
+  "updateDateIncludingText": "2026-09-18T09:18:32Z",
   "id": "119-HR-9570",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

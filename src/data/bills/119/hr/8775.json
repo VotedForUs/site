@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hr/8775/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -571,8 +579,7 @@
   "introducedDate": "2026-05-12",
   "latestAction": {
     "actionDate": "2026-09-16",
-    "actionTime": "12:44:24",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8775",
   "number": "8775",
@@ -630,8 +637,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T08:07:30Z",
-  "updateDateIncludingText": "2026-09-17T10:18:39Z",
+  "updateDate": "2026-09-17T10:56:37Z",
+  "updateDateIncludingText": "2026-09-18T01:48:48Z",
   "id": "119-HR-8775",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

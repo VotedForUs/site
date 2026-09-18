@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 22,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/979/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 622.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-15",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5668-5669)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5667-5670)",
         "type": "Floor"
       },
       {
@@ -702,9 +710,8 @@
   "congress": 119,
   "introducedDate": "2025-02-05",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "actionTime": "19:06:12",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-16",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 622."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/979",
   "number": "979",
@@ -717,6 +724,16 @@
   "title": "AM Radio for Every Vehicle Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "AM Radio for Every Vehicle Act of 2025",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-09-18T05:23:20Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -772,9 +789,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T05:23:26Z",
-  "updateDateIncludingText": "2026-09-17T10:18:27Z",
+  "updateDate": "2026-09-18T05:23:20Z",
+  "updateDateIncludingText": "2026-09-18T05:23:20Z",
   "id": "119-HR-979",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-15"
 }

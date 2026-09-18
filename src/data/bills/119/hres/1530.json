@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 214 - 211 (Roll no. 300).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 214 - 211 (Roll no. 300). (text: CR H5646)",
         "type": "Floor"
       },
       {
@@ -1003,7 +1003,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 214 - 208 (Roll no. 299).",
+        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 214 - 208 (Roll no. 299). (consideration: CR H5654-5655)",
         "type": "Floor"
       },
       {
@@ -1014,7 +1014,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5654-5656)",
         "type": "Floor"
       },
       {
@@ -1047,7 +1047,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H5646-5651)",
         "type": "Floor"
       },
       {
@@ -1132,8 +1132,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-09-17T05:23:28Z",
-  "updateDateIncludingText": "2026-09-17T11:18:25Z",
+  "updateDate": "2026-09-17T15:41:22Z",
+  "updateDateIncludingText": "2026-09-18T01:48:53Z",
   "id": "119-HRES-1530",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-15T21:28:02Z"

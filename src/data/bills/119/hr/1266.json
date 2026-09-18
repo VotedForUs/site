@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/1266/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 623.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-15",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5671-5672)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5671-5673)",
         "type": "Floor"
       },
       {
@@ -702,9 +710,8 @@
   "congress": 119,
   "introducedDate": "2025-02-12",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "actionTime": "19:24:44",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-16",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 623."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1266",
   "number": "1266",
@@ -772,9 +779,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T04:38:39Z",
-  "updateDateIncludingText": "2026-09-17T09:48:36Z",
+  "updateDate": "2026-09-17T16:04:18Z",
+  "updateDateIncludingText": "2026-09-18T01:48:46Z",
   "id": "119-HR-1266",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-15"
 }
