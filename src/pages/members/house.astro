@@ -12,9 +12,10 @@ try {
 }
 ---
 
-<Layout title="House of Representatives - Congressional Vote Analysis" description="Current members of the United States House of Representatives">
-  <h2>United States House of Representatives</h2>
-  <p>Current members of the House of Representatives ({representatives.length} members)</p>
-
-  <LegislatorList legislators={representatives} />
+<Layout title="House — VotedFor.Us" description="Current members of the United States House of Representatives">
+  <section class="section stack">
+    <h1>United States House of Representatives</h1>
+    <p>{representatives.length} current representatives. Each name opens that member’s recorded votes.</p>
+    <LegislatorList legislators={representatives} />
+  </section>
 </Layout>

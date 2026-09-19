@@ -1,13 +1,37 @@
 ---
+/**
+ * Members hub: the two chambers. Individual records live at /members/[id].
+ */
 import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
 const base = import.meta.env.BASE_URL;
+const senators = await getCollection('senators');
+const representatives = await getCollection('representatives');
 ---
 
-<Layout title="Members - Congressional Vote Analysis" description="Browse current members of Congress by chamber">
-  <h2>Members</h2>
-  <p>View current members of Congress by chamber.</p>
-  <ul>
-    <li><a href={`${base}members/senate`}>Senate</a> - Current senators</li>
-    <li><a href={`${base}members/house`}>House of Representatives</a> - Current representatives</li>
-  </ul>
+<Layout
+  title="Members — VotedFor.Us"
+  description="Browse current members of Congress by chamber, then open a voting record."
+>
+  <section class="section stack">
+    <h1>Members</h1>
+    <p>
+      Current members of the 119th Congress, grouped by chamber. Each name
+      opens that member’s recorded votes.
+    </p>
+    <ul>
+      <li>
+        <a href={`${base}members/senate`}>Senate</a>
+        {' '}— {senators.length} senators
+      </li>
+      <li>
+        <a href={`${base}members/house`}>House of Representatives</a>
+        {' '}— {representatives.length} representatives
+      </li>
+    </ul>
+    <p>
+      <a href={base}>Find a member by name or state</a>
+    </p>
+  </section>
 </Layout>

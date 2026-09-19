@@ -12,9 +12,10 @@ try {
 }
 ---
 
-<Layout title="Senate - Congressional Vote Analysis" description="Current members of the United States Senate">
-  <h2>United States Senate</h2>
-  <p>Current members of the United States Senate ({senators.length} members)</p>
-
-  <LegislatorList legislators={senators} />
+<Layout title="Senate — VotedFor.Us" description="Current members of the United States Senate">
+  <section class="section stack">
+    <h1>United States Senate</h1>
+    <p>{senators.length} current senators. Each name opens that member’s recorded votes.</p>
+    <LegislatorList legislators={senators} />
+  </section>
 </Layout>
