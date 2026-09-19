@@ -21,7 +21,7 @@
  * the `selected` attribute or the path tells the element what to open.
  */
 import { castTag } from '../utils/legislatorVoteDisplay.js';
-import { parseMemberBillPath, parseVoteId } from '../utils/voteLinks.js';
+import { parseMemberBillPath, parseVoteId, voteMemberPath } from '../utils/voteLinks.js';
 
 /** One vote, as `votes.json` stores it. */
 type VoteRow = {
@@ -33,6 +33,7 @@ type VoteRow = {
   x?: string;
   s?: string;
   d: string;
+  k?: 'unanimous-consent' | 'voice';
 };
 
 type Casts = Array<[number, string]>;
@@ -189,7 +190,7 @@ export class VfuMemberRecord extends HTMLElement {
 
   #voteRow(vote: VoteRow, cast: string): HTMLElement {
     const node = this.#clone('vote-row') as HTMLAnchorElement;
-    node.href = `${this.base.replace(/\/$/, '')}/v/${vote.i}/${this.bioguide}`;
+    node.href = voteMemberPath(vote.i, this.bioguide, this.base);
 
     node.querySelector('.vote-chamber')!.textContent = vote.c === 'senate' ? 'Senate' : 'House';
     const roll = node.querySelector('.vote-roll') as HTMLElement;
@@ -201,7 +202,7 @@ export class VfuMemberRecord extends HTMLElement {
 
     // A vote with no roll call reads as a Yea by consent, with the kind named
     // beside it — the same rule, and the same function, as the server uses.
-    const tag = castTag(cast);
+    const tag = castTag(cast, vote.k);
     const castEl = node.querySelector('.cast-tag') as HTMLElement;
     castEl.textContent = tag.label;
     castEl.dataset.cast = tag.label.toLowerCase();

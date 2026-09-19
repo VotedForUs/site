@@ -60,6 +60,9 @@ test('toVotedCardProps maps card fields', () => {
   assert.equal(props.displayName, 'Sen. Bernie Sanders');
   assert.equal(props.actionLabel, 'Nay');
   assert.equal(props.voteVerb, 'voted');
+  assert.equal(props.schemaActionOption, 'Nay');
+  assert.equal(props.bioguideId, 'S000033');
+  assert.equal(props.billUrl, '/bills/119/sjres/3');
 });
 
 test('toPageVotedProps maps page fields', () => {

@@ -15,6 +15,7 @@ import {
   parseVoteId,
   votePath,
   voteMemberPath,
+  parseVoteMemberPath,
 } from './voteLinks.js';
 
 describe('parseVoteId', () => {
@@ -50,7 +51,14 @@ describe('paths', () => {
   });
 
   it('keeps the legislator×vote path in one function', () => {
-    assert.equal(voteMemberPath('119-HR-2616-184', 'S001188'), '/v/119-HR-2616-184/S001188');
+    assert.equal(voteMemberPath('119-HR-2616-184', 'S001188'), '/bills/119/hr/2616/184/S001188');
+  });
+
+  it('reads that path back', () => {
+    assert.deepEqual(parseVoteMemberPath('/bills/119/hr/2616/184/S001188'), {
+      term: '119', billType: 'hr', billNumber: '2616', voteId: '184', bioguideId: 'S001188',
+    });
+    assert.equal(parseVoteMemberPath('/bills/119/hr/2616/184'), null);
   });
 
   it('carries a deployment base', () => {
@@ -80,7 +88,7 @@ describe('parseMemberBillPath', () => {
   });
 
   it('is null on the member page itself, and elsewhere on the site', () => {
-    for (const path of ['/members/R000579', '/members', '/', '/bills/119/hr/2616', '/v/119-HR-2616-184/S001188']) {
+    for (const path of ['/members/R000579', '/members', '/', '/bills/119/hr/2616', '/bills/119/hr/2616/184/S001188']) {
       assert.equal(parseMemberBillPath(path), null, path);
     }
   });

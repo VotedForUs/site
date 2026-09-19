@@ -88,11 +88,12 @@ export function voteVerbLabel(proc: ProceduralVoteCastKind | null): string {
  * non-null exactly when the caller must render it beside the tag. The stored
  * `UC` and `vv` never come back out.
  *
- * @param voteCast - Raw vote cast string from the roll.
+ * @param voteCast - Raw or display cast (`Yea`, or leftover `UC` / `vv`).
+ * @param recordType - Package `recordType` when the caller has it.
  * @returns The tag to render, and the kind that has to accompany it.
  */
-export function castTag(voteCast: string): { label: string; kind: string | null } {
-  const proc = proceduralVoteCastKind(voteCast);
+export function castTag(voteCast: string, recordType?: string): { label: string; kind: string | null } {
+  const proc = proceduralVoteCastKind(voteCast, recordType);
   return proc
     ? { label: 'Yea', kind: actionOptionLabel(voteCast, proc) }
     : { label: voteCast, kind: null };

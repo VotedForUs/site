@@ -84,4 +84,17 @@ describe('memberVotesOnBill', () => {
     const all = memberVotesOnBill([senateRoll, { ...senateRoll, id: 'v4', actionDate: '2026-09-09' }], 'S001188', '119-HR-1');
     assert.deepEqual(all.map((v) => v.id), ['v4', 'v2']);
   });
+
+  it('keeps a member who only appears on membersAtAction', () => {
+    const consent = {
+      id: 'v-uc',
+      billId: '119-HR-1',
+      chamber: 'Senate',
+      actionDate: '2026-03-04',
+      recordType: 'unanimous-consent',
+      votes: {},
+      membersAtAction: ['S001188'],
+    };
+    assert.deepEqual(memberVotesOnBill([houseRoll, consent], 'S001188', '119-HR-1').map((v) => v.id), ['v-uc']);
+  });
 });

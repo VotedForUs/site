@@ -32,6 +32,8 @@ export type VoteTableVote = {
   actionText?: string;
   rollNumber?: number;
   votes?: Record<string, string>;
+  recordType?: string;
+  membersAtAction?: string[];
   votePartyTotal?: unknown;
   finalChamberVote?: boolean;
 };
@@ -51,8 +53,10 @@ const { votes, variant = 'bill', bioguideId, selectedVoteId, label = 'recorded v
 const base = import.meta.env.BASE_URL;
 
 const rows = votes.map((vote) => {
-  const cast = variant === 'member' && bioguideId ? vote.votes?.[bioguideId] : undefined;
-  const tag = cast ? castTag(cast) : null;
+  const cast = variant === 'member' && bioguideId
+    ? (vote.votes?.[bioguideId] ?? (vote.membersAtAction?.includes(bioguideId) ? 'Yea' : undefined))
+    : undefined;
+  const tag = cast ? castTag(cast, vote.recordType) : null;
   return {
     vote,
     href: variant === 'member' && bioguideId

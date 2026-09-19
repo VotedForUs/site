@@ -106,9 +106,41 @@ describe('countCasts', () => {
     assert.equal(casts.get('Z000001'), undefined);
   });
 
-  it('counts nothing from a vote with no per-member roll', () => {
+  it('counts nothing from a vote with no per-member roll and no membership list', () => {
     const casts = countCasts([bill({ actions: { actions: [{ recordedVotes: [{ votes: {} }] }] } } as Partial<RawBill>)]);
     assert.equal(casts.size, 0);
+  });
+
+  it('counts membersAtAction on a unanimous-consent vote with an empty votes map', () => {
+    const casts = countCasts([bill({
+      actions: {
+        actions: [{
+          recordedVotes: [{
+            recordType: 'unanimous-consent',
+            votes: {},
+            membersAtAction: ['C000127', 'S000033'],
+          }],
+        }],
+      },
+    } as Partial<RawBill>)]);
+    assert.equal(casts.get('C000127'), 1);
+    assert.equal(casts.get('S000033'), 1);
+    assert.equal(casts.size, 2);
+  });
+
+  it('counts membersAtAction on a voice vote', () => {
+    const casts = countCasts([bill({
+      actions: {
+        actions: [{
+          recordedVotes: [{
+            recordType: 'voice',
+            votes: {},
+            membersAtAction: ['A000055'],
+          }],
+        }],
+      },
+    } as Partial<RawBill>)]);
+    assert.equal(casts.get('A000055'), 1);
   });
 
   it('reads recorded votes out of every action', () => {
@@ -212,7 +244,8 @@ describe('toVoteIndex', () => {
           text: 'Passed Senate without amendment by Unanimous Consent.',
           recordedVotes: [{
             id: '999-HR-26-2', chamber: 'Senate', rollNumber: 0, question: 'On Passage',
-            result: 'Passed', votes: { S001150: 'UC' },
+            result: 'Passed', recordType: 'unanimous-consent', votes: {},
+            membersAtAction: ['S001150'],
           }],
         },
       ],
@@ -228,27 +261,54 @@ describe('toVoteIndex', () => {
       x: 'On motion to recommit Failed by the Yeas and Nays: 211 - 218.',
       s: 'Failed', d: '2026-02-12',
     });
+    assert.equal(votes[0].k, undefined);
     assert.ok(!JSON.stringify(votes).includes('A000055'), 'no member appears in the shared file');
   });
 
-  it('drops the roll number when there was no roll call', () => {
+  it('drops the roll number when there was no roll call and records the kind', () => {
     const { votes } = toVoteIndex([twoVotes]);
     assert.equal(votes[1].r, undefined);
+    assert.equal(votes[1].k, 'unanimous-consent');
   });
 
   it('records each cast as a position in that same vote list', () => {
     const { votes, casts } = toVoteIndex([twoVotes]);
     assert.deepEqual(casts.get('A000055'), [[0, 'Yea']]);
-    assert.deepEqual(casts.get('S001150'), [[1, 'UC']]);
-    // The position is the whole reference: it has to resolve against `votes`.
+    assert.deepEqual(casts.get('S001150'), [[1, 'Yea']]);
     const [index, cast] = casts.get('S001150')![0];
     assert.equal(votes[index].i, '999-HR-26-2');
-    assert.equal(cast, 'UC');
+    assert.equal(cast, 'Yea');
   });
 
-  it('leaves the stored cast alone — reading it as Yea is a display decision', () => {
-    const { casts } = toVoteIndex([twoVotes]);
-    assert.equal(casts.get('S001150')![0][1], 'UC');
+  it('writes Yea from membersAtAction and never stores UC or vv', () => {
+    const { votes, casts } = toVoteIndex([twoVotes]);
+    assert.equal(casts.get('S001150')![0][1], 'Yea');
+    assert.equal(votes[1].k, 'unanimous-consent');
+    assert.ok(!JSON.stringify(casts.get('S001150')).includes('UC'));
+    assert.ok(!JSON.stringify(votes).includes('UC'));
+    assert.ok(!JSON.stringify(votes).includes('vv'));
+  });
+
+  it('builds voice-vote rows from membersAtAction and ignores an empty votes map', () => {
+    const voice = bill({
+      actions: {
+        actions: [{
+          actionDate: '2026-03-01',
+          text: 'Agreed to by voice vote.',
+          recordedVotes: [{
+            id: '999-HR-26-3', chamber: 'House', rollNumber: 0, question: 'On Motion to Suspend',
+            result: 'Passed', recordType: 'voice', votes: {},
+            membersAtAction: ['A000055', 'B000490'],
+          }],
+        }],
+      },
+    } as Partial<RawBill>);
+    const { votes, casts } = toVoteIndex([voice]);
+    assert.equal(votes.length, 1);
+    assert.equal(votes[0].k, 'voice');
+    assert.deepEqual(casts.get('A000055'), [[0, 'Yea']]);
+    assert.deepEqual(casts.get('B000490'), [[0, 'Yea']]);
+    assert.equal(Object.keys(voice.actions?.actions?.[0].recordedVotes?.[0].votes ?? {}).length, 0);
   });
 
   it('throws rather than emitting a vote it cannot identify or date', () => {

@@ -16,9 +16,17 @@ const {
   voteVerb,
   emoji,
   actionLabel,
+  bioguideId,
+  voteDate,
+  billUrl,
+  schemaActionOption,
+  schemaDescription,
 } = Astro.props;
 
 const imageSrc = withBaseUrl(imageUrl, import.meta.env.BASE_URL);
+const position = schemaActionOption ?? actionLabel;
+const description = schemaDescription ?? voteTitle;
+const jobTitle = memberSubtitle;
 ---
 
 <article
@@ -47,6 +55,11 @@ const imageSrc = withBaseUrl(imageUrl, import.meta.env.BASE_URL);
           <div class="legislator-identity">
             <p class="legislator-line"><span itemprop="name">{displayName}</span></p>
             <p class="legislator-meta">{memberSubtitle}</p>
+            {bioguideId && <meta itemprop="identifier" content={bioguideId} />}
+            <meta itemprop="jobTitle" content={jobTitle} />
+            {bioguideId && (
+              <link itemprop="sameAs" href={`https://bioguide.congress.gov/search/bio/${bioguideId}`} />
+            )}
             <span hidden itemprop="affiliation" itemscope itemtype="https://schema.org/Organization">
               <span itemprop="name">{party}</span>
             </span>
@@ -55,17 +68,22 @@ const imageSrc = withBaseUrl(imageUrl, import.meta.env.BASE_URL);
       </div>
 
       <p class="vote-verb">{voteVerb}</p>
-      <p class="vote-cast">{emoji && <><span class="cast-emoji" aria-hidden="true">{emoji}</span> </>}<strong itemprop="actionOption">{actionLabel}</strong></p>
+      <p class="vote-cast">{emoji && <><span class="cast-emoji" aria-hidden="true">{emoji}</span> </>}<strong>{actionLabel}</strong></p>
+      <meta itemprop="actionOption" content={position} />
+      <meta itemprop="actionStatus" content="CompletedAction" />
+      <meta itemprop="description" content={description} />
+      {voteDate && <meta itemprop="startTime" content={voteDate} />}
       <p class="vote-question" itemprop="name">{voteTitle}</p>
       <p
         id="bill-name-ref"
         class="bill-title"
-        itemprop="name"
         style={`--title-chars: ${billTitle.length}`}
       >{billTitle}</p>
-      <span hidden itemprop="subjectOf" itemscope itemtype="https://schema.org/Legislation">
+      <span hidden itemprop="object" itemscope itemtype="https://schema.org/Legislation">
+        <span itemprop="name">{billTitle}</span>
         <span itemprop="legislationIdentifier">{legislationIdentifier}</span>
         <span itemprop="legislationType">{legislationType}</span>
+        {billUrl && <link itemprop="url" href={billUrl} />}
       </span>
     </section>
   </div>

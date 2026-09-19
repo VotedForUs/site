@@ -32,6 +32,7 @@ import { displayName, normalizeLegislatorForCollection } from '../src/utils/norm
 import { extractCitations, type BillRow, type MemberRow } from '../src/utils/finderMatch/index.js';
 import { getEditorialVoteAction } from '../src/utils/editorial.js';
 import { heldHeadshots } from '../src/utils/headshot.js';
+import { memberCastsForDisplay, memberIdsForDisplay } from '../src/utils/memberCastsForDisplay.js';
 
 /** Combined gzipped budget for both files. Over it, the fetch stops being free. */
 export const INDEX_BUDGET_GZIP_BYTES = 60 * 1024;
@@ -58,6 +59,8 @@ export type RawRecordedVote = {
   result?: string;
   date?: string;
   votes?: Record<string, string>;
+  recordType?: string;
+  membersAtAction?: string[];
 };
 export type RawBill = {
   id?: string;
@@ -84,6 +87,9 @@ export class FinderIndexError extends Error {
  * and shared by every member drill-down, so it is keyed as tightly as the
  * finder rows.
  */
+/** Package `recordType` values that have no per-member roll. */
+export type VoteRowKind = 'unanimous-consent' | 'voice';
+
 export type VoteRow = {
   i: string;   // vote id — names its own bill: 119-HR-2616-184
   b: string;   // bill id
@@ -93,7 +99,20 @@ export type VoteRow = {
   x?: string;  // the action text beneath it
   s?: string;  // result
   d: string;   // date
+  /** Present only on UC/voice — omitted on roll calls to keep the file small. */
+  k?: VoteRowKind;
 };
+
+/**
+ * Index kind from package `recordType`. Roll calls omit the field.
+ *
+ * @param recordType - Package `recordType`
+ * @returns Kind for {@link VoteRow.k}, or undefined for a roll call
+ */
+function voteRowKind(recordType?: string): VoteRowKind | undefined {
+  if (recordType === 'unanimous-consent' || recordType === 'voice') return recordType;
+  return undefined;
+}
 
 /**
  * One member's casts, as `[index into votes.json, cast]`.
@@ -129,7 +148,8 @@ export function toVoteIndex(bills: RawBill[]): { votes: VoteRow[]; casts: Map<st
         if (!date) throw new FinderIndexError(`${id}: no date`);
 
         const index = votes.length;
-        votes.push({
+        const kind = voteRowKind(rv.recordType);
+        const row: VoteRow = {
           i: id,
           b: billId,
           c: String(rv.chamber).toLowerCase() === 'senate' ? 'senate' : 'house',
@@ -139,9 +159,13 @@ export function toVoteIndex(bills: RawBill[]): { votes: VoteRow[]; casts: Map<st
           x: action.text,
           s: rv.result,
           d: date,
-        });
+        };
+        if (kind) row.k = kind;
+        votes.push(row);
 
-        for (const [bioguideId, cast] of Object.entries(rv.votes ?? {})) {
+        // Consent votes have an empty `votes` map; membership is membersAtAction.
+        // Display cast is Yea — never the old UC/vv literals.
+        for (const [bioguideId, cast] of Object.entries(memberCastsForDisplay(rv))) {
           const list = casts.get(bioguideId) ?? [];
           list.push([index, cast]);
           casts.set(bioguideId, list);
@@ -154,15 +178,16 @@ export function toVoteIndex(bills: RawBill[]): { votes: VoteRow[]; casts: Map<st
 
 /**
  * Casts per member across every bill — the count the member row shows, and the
- * test for whether a member belongs in the index at all. Counted from the
- * per-member `votes` map, which is what the `legislatorVotes` collection is
- * built from, so the two never disagree.
+ * test for whether a member belongs in the index at all.
+ *
+ * Roll calls count ids in `votes`. UC/voice count `membersAtAction` via
+ * {@link memberIdsForDisplay}, so a member who only consented is still named.
  */
 export function countCasts(bills: RawBill[]): Map<string, number> {
   const casts = new Map<string, number>();
   for (const bill of bills) {
     for (const rv of recordedVotesOf(bill)) {
-      for (const bioguideId of Object.keys(rv.votes ?? {})) {
+      for (const bioguideId of memberIdsForDisplay(rv)) {
         casts.set(bioguideId, (casts.get(bioguideId) ?? 0) + 1);
       }
     }

@@ -261,3 +261,27 @@ paths from `dist-cache/`.
 | `npm run build:test` | Same pipeline with `BILLS_PER_TYPE_LIMIT=2 LEGISLATORS_LIMIT=20` |
 | `npm run build:full` | Force full rebuild (`FORCE_FULL_REBUILD=true`), replace cache |
 | `FORCE_FULL_REBUILD=true npm run build` | Equivalent to `build:full` |
+
+---
+
+## Page families as of 2026-09-19 (redesign Phase 4)
+
+`/v/[voteId]/[bioguideId]` is deleted. The legislator×vote family is now
+`/bills/[term]/[billType]/[billNumber]/[voteId]/[bioguideId]` — one prerendered
+page per display cast (`memberIdsForDisplay`, including UC/voice
+`membersAtAction`). Those pages are the share target (`og:image` + schema.org).
+
+Approximate static set on current data (finder index 2026-09-19):
+
+| Family | Count |
+|--------|------:|
+| Finder (`/`) | 1 |
+| `/members/[bioguideid]` | ~610 |
+| `/bills/…/[billNumber]` | 735 |
+| `/bills/…/[voteId]` | 1,191 |
+| `/bills/…/[voteId]/[bioguideId]` | one per display cast (~210k+; was ~347k with fabricated UC/vv) |
+
+Wall-clock for `build:full` plus one typical increment has **not** been
+re-measured since this family moved. Run both after the first complete card
+build and replace any stale figures above this section. Incremental skip still
+keys card pages as `legislator-votes-loader` + `{bioguideId}-{voteId}`.

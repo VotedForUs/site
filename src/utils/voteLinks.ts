@@ -54,11 +54,41 @@ export function votePath(voteId: string, base = '/'): string | null {
 /**
  * One member's cast on one vote — the share target and the card's own URL.
  *
- * This is the path that moves under `/bills/…` when the canonical URL change
- * lands; every caller goes with it because none of them builds it themselves.
+ * Canonical: `/bills/{term}/{type}/{number}/{vote}/{bioguide}`.
+ *
+ * @param voteId - Recorded vote id (`119-HR-2616-184`)
+ * @param bioguideId - Member id
+ * @param base - Deployment base
+ * @returns Canonical card path
  */
 export function voteMemberPath(voteId: string, bioguideId: string, base = '/'): string {
-  return withBaseUrl(`/v/${voteId}/${bioguideId}`, base);
+  const ref = parseVoteId(voteId);
+  if (!ref) return withBaseUrl(`/bills/${voteId}/${bioguideId}`, base);
+  return withBaseUrl(
+    `/bills/${ref.term}/${ref.billType}/${ref.billNumber}/${ref.voteNumber}/${bioguideId}`,
+    base,
+  );
+}
+
+/**
+ * Read a bill-path card URL back: `/bills/119/hr/2616/184/S001188`.
+ *
+ * @param pathname - Location pathname
+ * @returns Path parts, or null when this is not a card URL
+ */
+export function parseVoteMemberPath(
+  pathname: string,
+): { term: string; billType: string; billNumber: string; voteId: string; bioguideId: string } | null {
+  const match = /\/bills\/(\d+)\/([a-z]+)\/(\d+)\/(\d+)\/([A-Za-z0-9]+)\/?$/.exec(pathname);
+  return match
+    ? {
+        term: match[1],
+        billType: match[2],
+        billNumber: match[3],
+        voteId: match[4],
+        bioguideId: match[5],
+      }
+    : null;
 }
 
 /**

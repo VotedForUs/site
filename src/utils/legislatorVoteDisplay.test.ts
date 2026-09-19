@@ -81,6 +81,12 @@ test('castTag reads a vote with no roll call as a Yea and names the kind with it
   assert.deepEqual(castTag('vv'), { label: 'Yea', kind: 'Voice Vote' });
 });
 
+test('castTag names the kind from recordType when the stored cast is already Yea', () => {
+  assert.deepEqual(castTag('Yea', 'unanimous-consent'), { label: 'Yea', kind: 'Unanimous Consent' });
+  assert.deepEqual(castTag('Yea', 'voice'), { label: 'Yea', kind: 'Voice Vote' });
+  assert.deepEqual(castTag('Yea', 'roll-call'), { label: 'Yea', kind: null });
+});
+
 test('castTag never hands back the stored value for those two', () => {
   for (const stored of ['UC', 'vv']) {
     const tag = castTag(stored);

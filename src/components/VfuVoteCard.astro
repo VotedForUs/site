@@ -1,0 +1,89 @@
+---
+/**
+ * Native dialog over a roll or member record. Card markup is a light-DOM child.
+ */
+import VotedCard from './social-cards/VotedCard.astro';
+import type { VotedCardProps } from '../types/votedCard';
+
+interface Props {
+  /** Start open (canonical card page). */
+  open?: boolean;
+  voteId: string;
+  bioguideId: string;
+  context: 'member' | 'bill';
+  closeHref: string;
+  prevHref?: string | null;
+  nextHref?: string | null;
+  shareUrl: string;
+  card: VotedCardProps;
+}
+
+const {
+  open = false,
+  voteId,
+  bioguideId,
+  context,
+  closeHref,
+  prevHref,
+  nextHref,
+  shareUrl,
+  card,
+} = Astro.props;
+---
+
+<vfu-vote-card
+  vote-id={voteId}
+  bioguide-id={bioguideId}
+  context={context}
+  close-href={closeHref}
+  share-url={shareUrl}
+  open={open ? '' : undefined}
+>
+  <dialog class="vote-card-dialog">
+    <form method="dialog">
+      <button type="submit" command="close" value="close">Close</button>
+    </form>
+    <nav class="vote-card-nav" aria-label="Adjacent votes">
+      {prevHref ? <a data-prev href={prevHref}>Previous</a> : <span>Previous</span>}
+      {nextHref ? <a data-next href={nextHref}>Next</a> : <span>Next</span>}
+    </nav>
+    <VotedCard {...card} />
+    <label class="vote-card-share">
+      <span>Share vote</span>
+      <input data-share type="text" readonly value={shareUrl} />
+      <button type="button" data-copy>Copy</button>
+    </label>
+  </dialog>
+</vfu-vote-card>
+
+<script>
+  import './vfu-vote-card';
+</script>
+
+<style>
+  .vote-card-dialog {
+    border: 1px solid var(--fg-2);
+    background: var(--bg);
+    color: var(--fg);
+    padding: var(--pad-m, 1rem);
+    max-width: min(40rem, 100vw);
+  }
+
+  .vote-card-dialog::backdrop {
+    background: rgb(0 0 0 / 0.45);
+  }
+
+  .vote-card-nav,
+  .vote-card-share {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--pad-s, 0.75rem);
+    align-items: center;
+    margin-block: var(--vs-xs, 0.5rem);
+  }
+
+  .vote-card-share input {
+    flex: 1 1 12rem;
+    min-width: 0;
+  }
+</style>

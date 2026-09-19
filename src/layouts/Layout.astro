@@ -21,6 +21,8 @@ export interface Props {
   error?: Error | null;
   /** Optional heading for the error view (e.g. "Bill page error"). Default: "Page error" */
   errorTitle?: string;
+  /** Absolute or root-relative canonical URL for this page. */
+  canonical?: string;
   /**
    * Labels for path segments only this page can name — a bioguide id is not a
    * member's name until something looks it up. Keyed by the segment itself.
@@ -39,6 +41,7 @@ const {
   error = null,
   errorTitle,
   breadcrumbLabels,
+  canonical,
 } = Astro.props;
 
 const descriptionResolved = description ?? seoConfig.description;
@@ -94,6 +97,9 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     {redirect && <meta http-equiv="refresh" content={`0; url=${redirect}`} />}
+    {canonical && (
+      <link rel="canonical" href={canonical.startsWith('http') ? canonical : `${seoConfig.baseURL}${canonical}`} />
+    )}
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script type="module" defer src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/@colinaut/action-table/dist/action-table.css" />
