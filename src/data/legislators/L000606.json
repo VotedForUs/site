@@ -9,7 +9,7 @@
   "bioguideId": "L000606",
   "birthYear": "1953",
   "cosponsoredLegislation": {
-    "count": 450,
+    "count": 338,
     "url": "https://api.congress.gov/v3/member/L000606/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 9,
+    "count": 5,
     "url": "https://api.congress.gov/v3/member/L000606/sponsored-legislation"
   },
   "state": "New York",
@@ -75,7 +75,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "L000606",
     "fec": [
@@ -85,8 +85,6 @@
     "opensecrets": "N00054136",
     "wikipedia": "George Latimer (New York politician)",
     "wikidata": "Q5544169",
-    "votesmart": 44173,
-    "ballotpedia": "George Latimer (New York)",
     "twitter": "RepGLatimer",
     "facebook": "61571201977917",
     "instagram": "repglatimer"

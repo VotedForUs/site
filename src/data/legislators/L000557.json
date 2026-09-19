@@ -9,7 +9,7 @@
   "bioguideId": "L000557",
   "birthYear": "1948",
   "cosponsoredLegislation": {
-    "count": 4355,
+    "count": 4274,
     "url": "https://api.congress.gov/v3/member/L000557/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 262,
+    "count": 255,
     "url": "https://api.congress.gov/v3/member/L000557/sponsored-legislation"
   },
   "state": "Connecticut",
@@ -214,7 +214,7 @@
       "stateName": "Connecticut"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "L000557",
     "thomas": "01583",

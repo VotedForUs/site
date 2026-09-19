@@ -9,7 +9,7 @@
   "bioguideId": "R000605",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 1920,
+    "count": 1845,
     "url": "https://api.congress.gov/v3/member/R000605/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 405,
+    "count": 388,
     "url": "https://api.congress.gov/v3/member/R000605/sponsored-legislation"
   },
   "state": "South Dakota",

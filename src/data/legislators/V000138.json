@@ -9,7 +9,7 @@
   "bioguideId": "V000138",
   "birthYear": "1975",
   "cosponsoredLegislation": {
-    "count": 1002,
+    "count": 801,
     "url": "https://api.congress.gov/v3/member/V000138/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 66,
+    "count": 49,
     "url": "https://api.congress.gov/v3/member/V000138/sponsored-legislation"
   },
   "state": "Virginia",
@@ -89,7 +89,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:35Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "V000138",
     "fec": [
@@ -99,9 +99,6 @@
     "opensecrets": "N00054112",
     "wikipedia": "Eugene Vindman",
     "wikidata": "Q112610369",
-    "google_entity_id": "kg:/g/11s1y2g_4c",
-    "votesmart": 216844,
-    "ballotpedia": "Eugene Vindman",
     "twitter": "RepVindman",
     "facebook": "CongressmanEugeneVindman",
     "instagram": "repvindman"

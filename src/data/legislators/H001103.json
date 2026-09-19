@@ -9,7 +9,7 @@
   "bioguideId": "H001103",
   "birthYear": "1991",
   "cosponsoredLegislation": {
-    "count": 211,
+    "count": 164,
     "url": "https://api.congress.gov/v3/member/H001103/cosponsored-legislation"
   },
   "currentMember": true,
@@ -73,7 +73,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 29,
+    "count": 27,
     "url": "https://api.congress.gov/v3/member/H001103/sponsored-legislation"
   },
   "state": "Puerto Rico",
@@ -87,7 +87,7 @@
       "stateName": "Puerto Rico"
     }
   ],
-  "updateDate": "2026-08-31T07:40:35Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "H001103",
     "fec": [
@@ -97,8 +97,6 @@
     "opensecrets": "N00052286",
     "wikipedia": "Pablo Hernández Rivera",
     "wikidata": "Q130997176",
-    "google_entity_id": "kg:/g/11k9b2cmvf",
-    "ballotpedia": "Pablo Jose Hernandez Rivera",
     "twitter": "reppablojose",
     "facebook": "61569891687422",
     "instagram": "reppablojose"

@@ -9,7 +9,7 @@
   "bioguideId": "M001216",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 417,
+    "count": 363,
     "url": "https://api.congress.gov/v3/member/M001216/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 53,
+    "count": 47,
     "url": "https://api.congress.gov/v3/member/M001216/sponsored-legislation"
   },
   "state": "Florida",
@@ -85,7 +85,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "M001216",
     "fec": [
@@ -98,7 +98,6 @@
     "votesmart": 209085,
     "pictorial": 12988,
     "google_entity_id": "kg:/g/11lkx217y6",
-    "ballotpedia": "Cory Mills",
     "twitter": "RepMillsPress",
     "facebook": "100089218152197",
     "instagram": "repcorymills"

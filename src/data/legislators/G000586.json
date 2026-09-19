@@ -9,7 +9,7 @@
   "bioguideId": "G000586",
   "birthYear": "1956",
   "cosponsoredLegislation": {
-    "count": 2600,
+    "count": 2428,
     "url": "https://api.congress.gov/v3/member/G000586/cosponsored-legislation"
   },
   "currentMember": true,
@@ -85,7 +85,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 73,
+    "count": 67,
     "url": "https://api.congress.gov/v3/member/G000586/sponsored-legislation"
   },
   "state": "Illinois",
@@ -130,7 +130,7 @@
       "stateName": "Illinois"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "G000586",
     "fec": [

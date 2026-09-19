@@ -9,7 +9,7 @@
   "bioguideId": "S001225",
   "birthYear": "1976",
   "cosponsoredLegislation": {
-    "count": 709,
+    "count": 625,
     "url": "https://api.congress.gov/v3/member/S001225/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 24,
+    "count": 21,
     "url": "https://api.congress.gov/v3/member/S001225/sponsored-legislation"
   },
   "state": "Illinois",
@@ -85,7 +85,7 @@
       "stateName": "Illinois"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "S001225",
     "fec": [
@@ -98,7 +98,6 @@
     "votesmart": 204339,
     "pictorial": 13049,
     "google_entity_id": "kg:/g/11pd33ph93",
-    "ballotpedia": "Eric Sorensen",
     "twitter": "RepEricSorensen",
     "twitter_id": 1611441794704674800,
     "instagram": "repericsorensen"

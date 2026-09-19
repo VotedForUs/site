@@ -9,7 +9,7 @@
   "bioguideId": "H001093",
   "birthYear": "1976",
   "cosponsoredLegislation": {
-    "count": 489,
+    "count": 439,
     "url": "https://api.congress.gov/v3/member/H001093/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 69,
+    "count": 59,
     "url": "https://api.congress.gov/v3/member/H001093/sponsored-legislation"
   },
   "state": "Indiana",
@@ -85,7 +85,7 @@
       "stateName": "Indiana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "H001093",
     "fec": [
@@ -98,7 +98,6 @@
     "google_entity_id": "kg:/g/11b81xpwnd",
     "votesmart": 149614,
     "pictorial": 13058,
-    "ballotpedia": "Erin Houchin",
     "twitter": "RepHouchin",
     "twitter_id": 1603694348725526500,
     "facebook": "RepHouchin",

@@ -9,7 +9,7 @@
   "bioguideId": "M001220",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 684,
+    "count": 627,
     "url": "https://api.congress.gov/v3/member/M001220/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 48,
+    "count": 41,
     "url": "https://api.congress.gov/v3/member/M001220/sponsored-legislation"
   },
   "state": "Kentucky",
@@ -76,7 +76,7 @@
       "stateName": "Kentucky"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "M001220",
     "fec": [
@@ -88,7 +88,6 @@
     "wikipedia": "Morgan McGarvey",
     "votesmart": 139826,
     "pictorial": 13065,
-    "ballotpedia": "Morgan McGarvey",
     "twitter": "RepMcGarvey",
     "twitter_id": 1610300298303787000,
     "facebook": "RepMcGarvey",

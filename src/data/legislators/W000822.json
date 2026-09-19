@@ -9,7 +9,7 @@
   "bioguideId": "W000822",
   "birthYear": "1945",
   "cosponsoredLegislation": {
-    "count": 4118,
+    "count": 3978,
     "url": "https://api.congress.gov/v3/member/W000822/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 205,
+    "count": 194,
     "url": "https://api.congress.gov/v3/member/W000822/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -116,7 +116,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "W000822",
     "fec": [
@@ -134,7 +134,6 @@
     "cspan": 79091,
     "icpsr": 21538,
     "pictorial": 13161,
-    "ballotpedia": "Bonnie Watson Coleman",
     "twitter": "RepBonnie",
     "facebook": "RepBonnie",
     "youtube_id": "UCrxEaX0VKZKwg3930du2D5A",

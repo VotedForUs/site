@@ -9,7 +9,7 @@
   "bioguideId": "P000197",
   "birthYear": "1940",
   "cosponsoredLegislation": {
-    "count": 5087,
+    "count": 5069,
     "url": "https://api.congress.gov/v3/member/P000197/cosponsored-legislation"
   },
   "currentMember": true,
@@ -290,7 +290,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-12-06T08:30:18Z",
   "id": {
     "bioguide": "P000197",
     "thomas": "00905",

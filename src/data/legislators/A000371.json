@@ -9,7 +9,7 @@
   "bioguideId": "A000371",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 1840,
+    "count": 1819,
     "url": "https://api.congress.gov/v3/member/A000371/cosponsored-legislation"
   },
   "currentMember": true,
@@ -71,7 +71,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 92,
+    "count": 91,
     "url": "https://api.congress.gov/v3/member/A000371/sponsored-legislation"
   },
   "state": "California",
@@ -136,7 +136,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:17Z",
   "id": {
     "bioguide": "A000371",
     "fec": [

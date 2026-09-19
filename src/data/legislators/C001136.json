@@ -9,7 +9,7 @@
   "bioguideId": "C001136",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 227,
+    "count": 167,
     "url": "https://api.congress.gov/v3/member/C001136/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 15,
+    "count": 11,
     "url": "https://api.congress.gov/v3/member/C001136/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -90,7 +90,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "C001136",
     "fec": [
@@ -100,8 +100,6 @@
     "opensecrets": "N00026951",
     "wikipedia": "Herb Conaway",
     "wikidata": "Q14596151",
-    "votesmart": 24716,
-    "ballotpedia": "Herbert Conaway Jr.",
     "twitter": "RepHerbConaway"
   },
   "name": {

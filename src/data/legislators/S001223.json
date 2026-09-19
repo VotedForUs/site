@@ -9,7 +9,7 @@
   "bioguideId": "S001223",
   "birthYear": "1986",
   "cosponsoredLegislation": {
-    "count": 511,
+    "count": 450,
     "url": "https://api.congress.gov/v3/member/S001223/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 62,
+    "count": 57,
     "url": "https://api.congress.gov/v3/member/S001223/sponsored-legislation"
   },
   "state": "Ohio",
@@ -88,7 +88,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "S001223",
     "fec": [
@@ -100,7 +100,6 @@
     "wikipedia": "Emilia Sykes",
     "votesmart": 152164,
     "pictorial": 13207,
-    "ballotpedia": "Emilia Sykes",
     "twitter": "RepEmiliaSykes",
     "twitter_id": 1611527835742519300,
     "facebook": "repemiliasykes",

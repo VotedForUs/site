@@ -9,7 +9,7 @@
   "bioguideId": "M000934",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 3850,
+    "count": 3811,
     "url": "https://api.congress.gov/v3/member/M000934/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 788,
+    "count": 764,
     "url": "https://api.congress.gov/v3/member/M000934/sponsored-legislation"
   },
   "state": "Kansas",

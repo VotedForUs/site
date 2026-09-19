@@ -9,7 +9,7 @@
   "bioguideId": "F000481",
   "birthYear": "1985",
   "cosponsoredLegislation": {
-    "count": 363,
+    "count": 242,
     "url": "https://api.congress.gov/v3/member/F000481/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 23,
+    "count": 15,
     "url": "https://api.congress.gov/v3/member/F000481/sponsored-legislation"
   },
   "state": "Alabama",
@@ -75,7 +75,7 @@
       "stateName": "Alabama"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "F000481",
     "fec": [
@@ -85,8 +85,6 @@
     "opensecrets": "N00053909",
     "wikipedia": "Shomari Figures",
     "wikidata": "Q129431158",
-    "votesmart": 212889,
-    "ballotpedia": "Shomari Figures",
     "twitter": "repscfigures",
     "facebook": "congressman.shomari.figures",
     "instagram": "repscfigures"

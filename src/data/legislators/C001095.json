@@ -9,7 +9,7 @@
   "bioguideId": "C001095",
   "birthYear": "1977",
   "cosponsoredLegislation": {
-    "count": 1959,
+    "count": 1914,
     "url": "https://api.congress.gov/v3/member/C001095/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 578,
+    "count": 552,
     "url": "https://api.congress.gov/v3/member/C001095/sponsored-legislation"
   },
   "state": "Arkansas",

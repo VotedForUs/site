@@ -9,7 +9,7 @@
   "bioguideId": "M001199",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 1220,
+    "count": 1195,
     "url": "https://api.congress.gov/v3/member/M001199/cosponsored-legislation"
   },
   "currentMember": true,
@@ -54,7 +54,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 157,
+    "count": 149,
     "url": "https://api.congress.gov/v3/member/M001199/sponsored-legislation"
   },
   "state": "Florida",
@@ -109,7 +109,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "M001199",
     "govtrack": 412698,

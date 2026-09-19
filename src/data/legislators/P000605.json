@@ -9,7 +9,7 @@
   "bioguideId": "P000605",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 1629,
+    "count": 1605,
     "url": "https://api.congress.gov/v3/member/P000605/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 340,
+    "count": 311,
     "url": "https://api.congress.gov/v3/member/P000605/sponsored-legislation"
   },
   "state": "Pennsylvania",
@@ -126,14 +126,14 @@
       "stateName": "Pennsylvania"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "govtrack": 412569,
     "bioguide": "P000605",
     "thomas": "02157",
     "cspan": 79873,
     "votesmart": 59980,
-    "wikipedia": "Scott Perry",
+    "wikipedia": "Scott Perry (politician)",
     "fec": [
       "H2PA04135"
     ],

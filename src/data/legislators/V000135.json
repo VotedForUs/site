@@ -9,7 +9,7 @@
   "bioguideId": "V000135",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 688,
+    "count": 585,
     "url": "https://api.congress.gov/v3/member/V000135/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 62,
+    "count": 57,
     "url": "https://api.congress.gov/v3/member/V000135/sponsored-legislation"
   },
   "state": "Wisconsin",
@@ -76,7 +76,7 @@
       "stateName": "Wisconsin"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "V000135",
     "fec": [
@@ -86,7 +86,7 @@
     "opensecrets": "N00046843",
     "wikidata": "Q115155627",
     "wikipedia": "Derrick Van Orden",
-    "google_entity_id": "kg:/g/11c0xnmrvx",
+    "google_entity_id": "kg:/g/11j5bmd2d3",
     "ballotpedia": "Derrick Van Orden",
     "votesmart": 192343,
     "pictorial": 13324,

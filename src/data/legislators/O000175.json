@@ -9,7 +9,7 @@
   "bioguideId": "O000175",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 685,
+    "count": 656,
     "url": "https://api.congress.gov/v3/member/O000175/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 208,
+    "count": 198,
     "url": "https://api.congress.gov/v3/member/O000175/sponsored-legislation"
   },
   "state": "Tennessee",
@@ -84,7 +84,7 @@
       "stateName": "Tennessee"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "O000175",
     "fec": [

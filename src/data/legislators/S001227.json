@@ -9,7 +9,7 @@
   "bioguideId": "S001227",
   "birthYear": "1975",
   "cosponsoredLegislation": {
-    "count": 404,
+    "count": 375,
     "url": "https://api.congress.gov/v3/member/S001227/cosponsored-legislation"
   },
   "currentMember": true,
@@ -72,7 +72,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 124,
+    "count": 106,
     "url": "https://api.congress.gov/v3/member/S001227/sponsored-legislation"
   },
   "state": "Missouri",

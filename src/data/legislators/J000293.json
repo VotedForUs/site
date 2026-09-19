@@ -9,7 +9,7 @@
   "bioguideId": "J000293",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 1334,
+    "count": 1326,
     "url": "https://api.congress.gov/v3/member/J000293/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 610,
+    "count": 595,
     "url": "https://api.congress.gov/v3/member/J000293/sponsored-legislation"
   },
   "state": "Wisconsin",
@@ -118,7 +118,7 @@
       "stateName": "Wisconsin"
     }
   ],
-  "updateDate": "2026-08-13T11:00:46Z",
+  "updateDate": "2026-03-08T10:31:35Z",
   "id": {
     "bioguide": "J000293",
     "thomas": "02086",

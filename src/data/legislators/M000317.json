@@ -9,7 +9,7 @@
   "bioguideId": "M000317",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 1131,
+    "count": 1085,
     "url": "https://api.congress.gov/v3/member/M000317/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 138,
+    "count": 131,
     "url": "https://api.congress.gov/v3/member/M000317/sponsored-legislation"
   },
   "state": "New York",
@@ -104,7 +104,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "M000317",
     "fec": [
@@ -116,8 +116,6 @@
     "wikipedia": "Nicole Malliotakis",
     "google_entity_id": "kg:/m/0g5817m",
     "pictorial": 13179,
-    "votesmart": 127929,
-    "ballotpedia": "Nicole Malliotakis",
     "twitter": "RepMalliotakis",
     "twitter_id": 1344750588026900500,
     "facebook": "RepNicole"

@@ -9,7 +9,7 @@
   "bioguideId": "W000830",
   "birthYear": "1974",
   "cosponsoredLegislation": {
-    "count": 280,
+    "count": 196,
     "url": "https://api.congress.gov/v3/member/W000830/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 21,
+    "count": 8,
     "url": "https://api.congress.gov/v3/member/W000830/sponsored-legislation"
   },
   "state": "California",
@@ -75,7 +75,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-30T21:12:36Z",
   "id": {
     "bioguide": "W000830",
     "fec": [
@@ -85,8 +85,6 @@
     "opensecrets": "N00052205",
     "wikipedia": "George T. Whitesides",
     "wikidata": "Q3511804",
-    "votesmart": 213585,
-    "ballotpedia": "George Whitesides",
     "twitter": "Rep_Whitesides",
     "facebook": "repwhitesides",
     "instagram": "repwhitesides"

@@ -9,7 +9,7 @@
   "bioguideId": "O000086",
   "birthYear": "1951",
   "cosponsoredLegislation": {
-    "count": 890,
+    "count": 838,
     "url": "https://api.congress.gov/v3/member/O000086/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 65,
+    "count": 57,
     "url": "https://api.congress.gov/v3/member/O000086/sponsored-legislation"
   },
   "state": "Utah",
@@ -95,7 +95,7 @@
       "stateName": "Utah"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:17Z",
   "id": {
     "bioguide": "O000086",
     "fec": [

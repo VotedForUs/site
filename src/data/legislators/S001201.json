@@ -9,7 +9,7 @@
   "bioguideId": "S001201",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 2832,
+    "count": 2708,
     "url": "https://api.congress.gov/v3/member/S001201/cosponsored-legislation"
   },
   "currentMember": true,
@@ -84,7 +84,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 85,
+    "count": 77,
     "url": "https://api.congress.gov/v3/member/S001201/sponsored-legislation"
   },
   "state": "New York",
@@ -139,7 +139,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "S001201",
     "govtrack": 412717,

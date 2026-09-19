@@ -9,13 +9,13 @@
   "bioguideId": "M001244",
   "birthYear": "1975",
   "cosponsoredLegislation": {
-    "count": 212,
+    "count": 156,
     "url": "https://api.congress.gov/v3/member/M001244/cosponsored-legislation"
   },
   "currentMember": true,
   "depiction": {
     "attribution": "Official U.S. Senate Photo",
-    "imageUrl": "/images/legislators/M001244.jpg"
+    "imageUrl": "https://www.congress.gov/img/member/https://bioguide.congress.gov/photo/695d82c8550dfb80c3063bee.jpg"
   },
   "directOrderName": "Ashley Moody",
   "firstName": "Ashley",
@@ -58,7 +58,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 62,
+    "count": 33,
     "url": "https://api.congress.gov/v3/member/M001244/sponsored-legislation"
   },
   "state": "Florida",
@@ -72,7 +72,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-07-18T10:31:53Z",
+  "updateDate": "2026-03-08T10:32:02Z",
   "id": {
     "bioguide": "M001244",
     "lis": "S439",
@@ -81,10 +81,7 @@
       "S6FL00640"
     ],
     "wikipedia": "Ashley Moody",
-    "wikidata": "Q58333626",
-    "votesmart": 183198,
-    "ballotpedia": "Ashley B. Moody",
-    "google_entity_id": "kg:/g/11gzrp7jtr"
+    "wikidata": "Q58333626"
   },
   "name": {
     "first": "Ashley",

@@ -9,7 +9,7 @@
   "bioguideId": "M001184",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 871,
+    "count": 853,
     "url": "https://api.congress.gov/v3/member/M001184/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 124,
+    "count": 115,
     "url": "https://api.congress.gov/v3/member/M001184/sponsored-legislation"
   },
   "state": "Kentucky",
@@ -145,7 +145,7 @@
       "stateName": "Kentucky"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "M001184",
     "govtrack": 412503,

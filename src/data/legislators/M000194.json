@@ -9,7 +9,7 @@
   "bioguideId": "M000194",
   "birthYear": "1977",
   "cosponsoredLegislation": {
-    "count": 1019,
+    "count": 986,
     "url": "https://api.congress.gov/v3/member/M000194/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 210,
+    "count": 183,
     "url": "https://api.congress.gov/v3/member/M000194/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -95,7 +95,7 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "M000194",
     "fec": [

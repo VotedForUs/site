@@ -9,7 +9,7 @@
   "bioguideId": "T000480",
   "birthYear": "1984",
   "cosponsoredLegislation": {
-    "count": 925,
+    "count": 898,
     "url": "https://api.congress.gov/v3/member/T000480/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 39,
+    "count": 38,
     "url": "https://api.congress.gov/v3/member/T000480/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -110,14 +110,14 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "T000480",
     "fec": [
       "H8SC04250"
     ],
     "govtrack": 412815,
-    "wikipedia": "William Timmons",
+    "wikipedia": "William Timmons (politician)",
     "wikidata": "Q28837296",
     "opensecrets": "N00042715",
     "google_entity_id": "kg:/g/11g6ns21_f",

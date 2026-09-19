@@ -9,7 +9,7 @@
   "bioguideId": "G000599",
   "birthYear": "1976",
   "cosponsoredLegislation": {
-    "count": 1378,
+    "count": 1241,
     "url": "https://api.congress.gov/v3/member/G000599/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 66,
+    "count": 53,
     "url": "https://api.congress.gov/v3/member/G000599/sponsored-legislation"
   },
   "state": "New York",
@@ -88,7 +88,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "G000599",
     "fec": [

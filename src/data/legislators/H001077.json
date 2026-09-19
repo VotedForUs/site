@@ -9,7 +9,7 @@
   "bioguideId": "H001077",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 1085,
+    "count": 1066,
     "url": "https://api.congress.gov/v3/member/H001077/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 163,
+    "count": 155,
     "url": "https://api.congress.gov/v3/member/H001077/sponsored-legislation"
   },
   "state": "Louisiana",
@@ -106,7 +106,7 @@
       "stateName": "Louisiana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:15Z",
   "id": {
     "bioguide": "H001077",
     "govtrack": 412705,

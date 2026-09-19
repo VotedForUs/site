@@ -9,7 +9,7 @@
   "bioguideId": "J000295",
   "birthYear": "1957",
   "cosponsoredLegislation": {
-    "count": 1843,
+    "count": 1806,
     "url": "https://api.congress.gov/v3/member/J000295/cosponsored-legislation"
   },
   "currentMember": true,
@@ -54,7 +54,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 141,
+    "count": 137,
     "url": "https://api.congress.gov/v3/member/J000295/sponsored-legislation"
   },
   "state": "Ohio",
@@ -129,7 +129,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "govtrack": 412566,
     "bioguide": "J000295",

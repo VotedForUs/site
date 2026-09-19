@@ -9,7 +9,7 @@
   "bioguideId": "T000488",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 1583,
+    "count": 1363,
     "url": "https://api.congress.gov/v3/member/T000488/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 67,
+    "count": 57,
     "url": "https://api.congress.gov/v3/member/T000488/sponsored-legislation"
   },
   "state": "Michigan",
@@ -85,7 +85,7 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "T000488",
     "fec": [

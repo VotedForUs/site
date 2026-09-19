@@ -9,7 +9,7 @@
   "bioguideId": "H001052",
   "birthYear": "1957",
   "cosponsoredLegislation": {
-    "count": 1915,
+    "count": 1887,
     "url": "https://api.congress.gov/v3/member/H001052/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 50,
+    "count": 48,
     "url": "https://api.congress.gov/v3/member/H001052/sponsored-legislation"
   },
   "state": "Maryland",
@@ -145,7 +145,7 @@
       "stateName": "Maryland"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "H001052",
     "thomas": "02026",

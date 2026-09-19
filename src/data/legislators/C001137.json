@@ -9,7 +9,7 @@
   "bioguideId": "C001137",
   "birthYear": "1967",
   "cosponsoredLegislation": {
-    "count": 132,
+    "count": 98,
     "url": "https://api.congress.gov/v3/member/C001137/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 11,
+    "count": 5,
     "url": "https://api.congress.gov/v3/member/C001137/sponsored-legislation"
   },
   "state": "Colorado",
@@ -75,7 +75,7 @@
       "stateName": "Colorado"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "C001137",
     "fec": [
@@ -85,9 +85,6 @@
     "opensecrets": "N00028132",
     "wikipedia": "Jeff Crank",
     "wikidata": "Q27663361",
-    "google_entity_id": "kg:/g/11c5b6072s",
-    "votesmart": 66946,
-    "ballotpedia": "Jeff Crank",
     "twitter": "RepJeffCrank",
     "facebook": "RepJeffCrank",
     "instagram": "repjeffcrank"
