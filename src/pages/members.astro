@@ -4,21 +4,23 @@
  */
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { bioguideIdsWithCasts } from '../utils/memberRecord.js';
 
 const base = import.meta.env.BASE_URL;
-const senators = await getCollection('senators');
-const representatives = await getCollection('representatives');
+const withCasts = bioguideIdsWithCasts((await getCollection('legislatorVotes')).map((v) => v.data));
+const senators = (await getCollection('senators')).filter((s) => withCasts.has(s.id));
+const representatives = (await getCollection('representatives')).filter((r) => withCasts.has(r.id));
 ---
 
 <Layout
   title="Members — VotedFor.Us"
-  description="Browse current members of Congress by chamber, then open a voting record."
+  description="Browse members of the 119th who have a recorded vote, by chamber."
 >
   <section class="section stack">
     <h1>Members</h1>
     <p>
-      Current members of the 119th Congress, grouped by chamber. Each name
-      opens that member’s recorded votes.
+      Members of the 119th with a recorded vote, grouped by chamber. Each name
+      opens that member’s record.
     </p>
     <ul>
       <li>

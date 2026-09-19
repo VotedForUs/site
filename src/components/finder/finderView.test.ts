@@ -154,7 +154,7 @@ describe('empty state', () => {
     const state = emptyState('members', 'veterens', 0);
     assert.equal(state.title, 'Nothing matches “veterens”.');
     assert.ok(state.body.includes('never corrected'));
-    assert.equal(state.otherLabel, null);
+    assert.equal(state.otherLabel, 'Clear the search');
   });
 
   it('offers the other mode when it has matches', () => {

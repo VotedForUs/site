@@ -3,7 +3,7 @@
  */
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert';
-import { groupMemberBills, memberVotesOnBill, type MemberVoteEntry } from './memberRecord.js';
+import { bioguideIdsWithCasts, groupMemberBills, memberVotesOnBill, type MemberVoteEntry } from './memberRecord.js';
 
 const entry = (over: Partial<MemberVoteEntry> = {}): MemberVoteEntry => ({
   bioguideId: 'R000579',
@@ -96,5 +96,17 @@ describe('memberVotesOnBill', () => {
       membersAtAction: ['S001188'],
     };
     assert.deepEqual(memberVotesOnBill([houseRoll, consent], 'S001188', '119-HR-1').map((v) => v.id), ['v-uc']);
+  });
+});
+
+describe('bioguideIdsWithCasts', () => {
+  it('uniques ids and drops blanks', () => {
+    const ids = bioguideIdsWithCasts([
+      { bioguideId: 'A000001' },
+      { bioguideId: 'A000001' },
+      { bioguideId: 'B000001' },
+      { bioguideId: '' },
+    ]);
+    assert.deepEqual([...ids].sort(), ['A000001', 'B000001']);
   });
 });

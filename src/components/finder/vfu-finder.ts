@@ -376,9 +376,15 @@ export class VfuFinder extends HTMLElement {
     if (otherLabel) {
       other.textContent = otherLabel;
       other.onclick = () => {
-        const swapped: Mode = this.#state.mode === 'members' ? 'bills' : 'members';
-        this.#state = { ...this.#state, mode: swapped, reason: 'mode' };
-        this.#bar?.setAttribute('mode', swapped);
+        if (otherCount === 0) {
+          this.#state = { ...this.#state, query: '', filters: emptyFilters(), reason: 'query' };
+          this.#bar?.setAttribute('query', '');
+          this.#bar?.clearFilters();
+        } else {
+          const swapped: Mode = this.#state.mode === 'members' ? 'bills' : 'members';
+          this.#state = { ...this.#state, mode: swapped, reason: 'mode' };
+          this.#bar?.setAttribute('mode', swapped);
+        }
         void this.#run();
       };
     }

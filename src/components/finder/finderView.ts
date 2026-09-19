@@ -199,7 +199,11 @@ export function emptyState(mode: Mode, query: string, otherCount: number) {
   const other = mode === 'members'
     ? `${otherCount} ${otherCount === 1 ? 'bill' : 'bills'}`
     : `${otherCount} ${otherCount === 1 ? 'member' : 'members'}`;
-  return { title, body, otherLabel: both ? null : `See ${other} matching “${query}”` };
+  return {
+    title,
+    body,
+    otherLabel: both ? 'Clear the search' : `See ${other} matching “${query}”`,
+  };
 }
 
 /** "48 bills · every match in the document". Every match renders; there is no page. */

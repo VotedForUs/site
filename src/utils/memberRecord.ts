@@ -67,6 +67,23 @@ export type BillVote = {
 };
 
 /**
+ * Bioguide ids that appear in the legislator-vote index.
+ *
+ * Finder rows and `/members/[id]` use the same set: a page exists only when
+ * there is at least one display cast (roll-call map or consent membership).
+ *
+ * @param entries - `legislatorVotes` rows, or anything with a bioguide id
+ * @returns Unique ids that have a cast
+ */
+export function bioguideIdsWithCasts(entries: Iterable<{ bioguideId: string }>): Set<string> {
+  const ids = new Set<string>();
+  for (const entry of entries) {
+    if (entry.bioguideId) ids.add(entry.bioguideId);
+  }
+  return ids;
+}
+
+/**
  * The votes on one bill that a member actually cast on, newest first.
  *
  * Their casts are the chamber filter: a senator is not in a House roll's map,
@@ -74,6 +91,11 @@ export type BillVote = {
  * both chambers this Congress keep the votes from each. UC/voice use
  * {@link memberCastsForDisplay}, so consent membership counts. Nothing here
  * reads a member's current chamber, which is what would get those five wrong.
+ *
+ * @param votes - Recorded votes on any bill
+ * @param bioguideId - Member to keep
+ * @param billId - Bill to keep
+ * @returns That member's votes on that bill, newest first
  */
 export function memberVotesOnBill<T extends BillVote>(votes: T[], bioguideId: string, billId: string): T[] {
   return votes

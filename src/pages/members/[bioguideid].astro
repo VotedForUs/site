@@ -6,14 +6,22 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import MemberRecord from '../../components/MemberRecord.astro';
-import { groupMemberBills } from '../../utils/memberRecord.js';
+import { bioguideIdsWithCasts, groupMemberBills } from '../../utils/memberRecord.js';
 import { LEGISLATORS_LIMIT } from '../../buildConfig';
 import { shouldBuildPage } from '../../utils/buildManifest.js';
 import { localHeadshot } from '../../utils/headshot.js';
 
+/**
+ * One page per member who has a display cast — the same set as the finder.
+ *
+ * @returns Paths and legislator props for those ids
+ */
 export async function getStaticPaths() {
   const legislators = await getCollection('legislators');
-  const limited = LEGISLATORS_LIMIT ? legislators.slice(0, LEGISLATORS_LIMIT) : legislators;
+  const votes = await getCollection('legislatorVotes');
+  const withCasts = bioguideIdsWithCasts(votes.map((v) => v.data));
+  const named = legislators.filter((l) => withCasts.has(l.id));
+  const limited = LEGISLATORS_LIMIT ? named.slice(0, LEGISLATORS_LIMIT) : named;
   return limited
     .filter((l) => shouldBuildPage('legislators-loader', l.id))
     .map((legislator) => ({ params: { bioguideid: legislator.id }, props: { legislator } }));
