@@ -225,6 +225,10 @@
   "number": "2934",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2934/summaries?format=json"
+  },
   "title": "Protecting Americans from Russian Litigation Act of 2025",
   "titles": {
     "titles": [
@@ -273,8 +277,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-10T11:51:27Z",
-  "updateDateIncludingText": "2026-08-10T11:51:27Z",
+  "updateDate": "2026-09-18T18:51:46Z",
+  "updateDateIncludingText": "2026-09-18T18:51:46Z",
   "id": "119-S-2934",
   "lastActionDate": "2026-05-04",
   "lastRecordedVoteDate": "2026-04-28"

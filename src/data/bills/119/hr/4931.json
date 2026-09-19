@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/4931/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-14",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5562)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5562-5563)",
         "type": "Floor"
       },
       {
@@ -651,9 +659,8 @@
   "congress": 119,
   "introducedDate": "2025-08-08",
   "latestAction": {
-    "actionDate": "2026-09-14",
-    "actionTime": "15:54:12",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-15",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4931",
   "number": "4931",
@@ -682,7 +689,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To authorize the Secretary of the Interior to extend certain leases within units of the National Park System without opening the lease to bidding.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-09-16T06:08:24Z"
       },
@@ -721,9 +728,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T06:08:24Z",
-  "updateDateIncludingText": "2026-09-16T09:33:33Z",
+  "updateDate": "2026-09-18T14:05:37Z",
+  "updateDateIncludingText": "2026-09-18T14:05:37Z",
   "id": "119-HR-4931",
-  "lastActionDate": "2026-09-14",
+  "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-14"
 }

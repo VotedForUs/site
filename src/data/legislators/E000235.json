@@ -9,7 +9,7 @@
   "bioguideId": "E000235",
   "birthYear": "1959",
   "cosponsoredLegislation": {
-    "count": 429,
+    "count": 394,
     "url": "https://api.congress.gov/v3/member/E000235/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 43,
+    "count": 37,
     "url": "https://api.congress.gov/v3/member/E000235/sponsored-legislation"
   },
   "state": "Mississippi",
@@ -76,7 +76,7 @@
       "stateName": "Mississippi"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "E000235",
     "fec": [
@@ -89,7 +89,6 @@
     "votesmart": 202526,
     "pictorial": 13127,
     "google_entity_id": "kg:/g/11nfmh8y4w",
-    "ballotpedia": "Mike Ezell",
     "twitter": "RepEzell",
     "twitter_id": 1602788004749344800,
     "facebook": "repezell",

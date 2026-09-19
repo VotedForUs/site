@@ -9,7 +9,7 @@
   "bioguideId": "P000609",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 719,
+    "count": 689,
     "url": "https://api.congress.gov/v3/member/P000609/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 113,
+    "count": 110,
     "url": "https://api.congress.gov/v3/member/P000609/sponsored-legislation"
   },
   "state": "Alabama",
@@ -133,7 +133,7 @@
       "stateName": "Alabama"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "P000609",
     "fec": [
@@ -144,7 +144,7 @@
     "thomas": "02221",
     "maplight": 2064,
     "wikidata": "Q17386504",
-    "wikipedia": "Gary Palmer",
+    "wikipedia": "Gary Palmer (politician)",
     "google_entity_id": "kg:/m/0115nklq",
     "votesmart": 146274,
     "cspan": 76094,

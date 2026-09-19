@@ -9,7 +9,7 @@
   "bioguideId": "B001319",
   "birthYear": "1982",
   "cosponsoredLegislation": {
-    "count": 718,
+    "count": 649,
     "url": "https://api.congress.gov/v3/member/B001319/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 61,
+    "count": 49,
     "url": "https://api.congress.gov/v3/member/B001319/sponsored-legislation"
   },
   "state": "Alabama",

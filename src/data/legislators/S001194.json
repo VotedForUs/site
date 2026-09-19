@@ -9,7 +9,7 @@
   "bioguideId": "S001194",
   "birthYear": "1972",
   "cosponsoredLegislation": {
-    "count": 2362,
+    "count": 2296,
     "url": "https://api.congress.gov/v3/member/S001194/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 726,
+    "count": 681,
     "url": "https://api.congress.gov/v3/member/S001194/sponsored-legislation"
   },
   "state": "Hawaii",

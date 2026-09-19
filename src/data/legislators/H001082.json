@@ -9,7 +9,7 @@
   "bioguideId": "H001082",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 728,
+    "count": 712,
     "url": "https://api.congress.gov/v3/member/H001082/cosponsored-legislation"
   },
   "currentMember": true,
@@ -26,6 +26,7 @@
   "leadership": [
     {
       "congress": 119,
+      "current": true,
       "type": "Republican Policy Committee Chairman"
     }
   ],
@@ -66,7 +67,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 71,
+    "count": 69,
     "url": "https://api.congress.gov/v3/member/H001082/sponsored-legislation"
   },
   "state": "Oklahoma",
@@ -121,12 +122,11 @@
       "stateName": "Oklahoma"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:15Z",
   "id": {
     "bioguide": "H001082",
     "fec": [
-      "H8OK01157",
-      "S6OK04247"
+      "H8OK01157"
     ],
     "govtrack": 412748,
     "wikipedia": "Kevin Hern",

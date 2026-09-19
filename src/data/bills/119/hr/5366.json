@@ -812,7 +812,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/5366/summaries?format=json"
   },
   "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
@@ -893,8 +893,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T19:33:39Z",
-  "updateDateIncludingText": "2026-09-17T19:33:39Z",
+  "updateDate": "2026-09-18T19:12:06Z",
+  "updateDateIncludingText": "2026-09-18T19:12:06Z",
   "id": "119-HR-5366",
   "lastActionDate": "2026-09-11",
   "lastRecordedVoteDate": "2026-08-07"

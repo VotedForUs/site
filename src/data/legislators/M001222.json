@@ -9,7 +9,7 @@
   "bioguideId": "M001222",
   "birthYear": "1988",
   "cosponsoredLegislation": {
-    "count": 454,
+    "count": 412,
     "url": "https://api.congress.gov/v3/member/M001222/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 45,
+    "count": 39,
     "url": "https://api.congress.gov/v3/member/M001222/sponsored-legislation"
   },
   "state": "Ohio",
@@ -88,7 +88,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "M001222",
     "fec": [
@@ -101,7 +101,6 @@
     "votesmart": 206947,
     "pictorial": 13201,
     "google_entity_id": "kg:/g/11gtz3n8gr",
-    "ballotpedia": "Max Miller",
     "twitter": "repmaxmiller",
     "facebook": "CongressmanMaxMiller",
     "instagram": "repmaxmiller",

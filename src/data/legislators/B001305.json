@@ -9,7 +9,7 @@
   "bioguideId": "B001305",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 2015,
+    "count": 1937,
     "url": "https://api.congress.gov/v3/member/B001305/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 276,
+    "count": 252,
     "url": "https://api.congress.gov/v3/member/B001305/sponsored-legislation"
   },
   "state": "North Carolina",

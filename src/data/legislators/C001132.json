@@ -9,7 +9,7 @@
   "bioguideId": "C001132",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 1010,
+    "count": 970,
     "url": "https://api.congress.gov/v3/member/C001132/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 54,
+    "count": 50,
     "url": "https://api.congress.gov/v3/member/C001132/sponsored-legislation"
   },
   "state": "Arizona",
@@ -93,7 +93,7 @@
       "stateName": "Arizona"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:17Z",
   "id": {
     "bioguide": "C001132",
     "fec": [

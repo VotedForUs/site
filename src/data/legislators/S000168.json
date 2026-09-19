@@ -9,7 +9,7 @@
   "bioguideId": "S000168",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 1345,
+    "count": 1271,
     "url": "https://api.congress.gov/v3/member/S000168/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 73,
+    "count": 70,
     "url": "https://api.congress.gov/v3/member/S000168/sponsored-legislation"
   },
   "state": "Florida",
@@ -99,7 +99,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "S000168",
     "fec": [
@@ -112,7 +112,6 @@
     "google_entity_id": "kg:/g/1hb_g7r18",
     "votesmart": 182300,
     "pictorial": 13008,
-    "ballotpedia": "Maria Elvira Salazar",
     "twitter": "RepMariaSalazar",
     "twitter_id": 1325928411689349000,
     "facebook": "RepMariaSalazar",

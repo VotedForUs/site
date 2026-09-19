@@ -9,7 +9,7 @@
   "bioguideId": "F000476",
   "birthYear": "1997",
   "cosponsoredLegislation": {
-    "count": 993,
+    "count": 875,
     "url": "https://api.congress.gov/v3/member/F000476/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 46,
+    "count": 39,
     "url": "https://api.congress.gov/v3/member/F000476/sponsored-legislation"
   },
   "state": "Florida",
@@ -84,7 +84,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2026-03-03T17:54:08Z",
   "id": {
     "bioguide": "F000476",
     "fec": [
@@ -97,7 +97,6 @@
     "google_entity_id": "kg:/g/11p01k7h4b",
     "votesmart": 209096,
     "pictorial": 12991,
-    "ballotpedia": "Maxwell Alejandro Frost",
     "twitter": "RepMaxwellFrost",
     "twitter_id": 1608494113174823000,
     "facebook": "RepMaxwellFrost",

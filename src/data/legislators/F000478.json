@@ -9,7 +9,7 @@
   "bioguideId": "F000478",
   "birthYear": "1985",
   "cosponsoredLegislation": {
-    "count": 424,
+    "count": 366,
     "url": "https://api.congress.gov/v3/member/F000478/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 32,
+    "count": 29,
     "url": "https://api.congress.gov/v3/member/F000478/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -85,17 +85,16 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "F000478",
     "fec": [
-      "H2SC07280",
-      "S6SC04403"
+      "H2SC07280"
     ],
     "govtrack": 456938,
     "opensecrets": "N00049165",
     "wikidata": "Q96015883",
-    "wikipedia": "Russell Fry",
+    "wikipedia": "Russell Fry (politician)",
     "google_entity_id": "kg:/g/11f0r9q6_r",
     "votesmart": 157265,
     "pictorial": 13247,

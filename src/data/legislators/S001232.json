@@ -9,7 +9,7 @@
   "bioguideId": "S001232",
   "birthYear": "1985",
   "cosponsoredLegislation": {
-    "count": 337,
+    "count": 266,
     "url": "https://api.congress.gov/v3/member/S001232/cosponsored-legislation"
   },
   "currentMember": true,
@@ -58,7 +58,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 93,
+    "count": 63,
     "url": "https://api.congress.gov/v3/member/S001232/sponsored-legislation"
   },
   "state": "Montana",
@@ -81,11 +81,8 @@
     ],
     "govtrack": 456966,
     "opensecrets": "N00053174",
-    "wikipedia": "Tim Sheehy",
-    "wikidata": "Q124433916",
-    "votesmart": 215303,
-    "ballotpedia": "Tim Sheehy",
-    "google_entity_id": "kg:/g/11f_jbs1jf"
+    "wikipedia": "Tim Sheehy (American politician)",
+    "wikidata": "Q124433916"
   },
   "name": {
     "first": "Tim",

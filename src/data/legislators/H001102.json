@@ -9,7 +9,7 @@
   "bioguideId": "H001102",
   "birthYear": "1966",
   "cosponsoredLegislation": {
-    "count": 202,
+    "count": 170,
     "url": "https://api.congress.gov/v3/member/H001102/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 17,
+    "count": 13,
     "url": "https://api.congress.gov/v3/member/H001102/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -75,7 +75,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "H001102",
     "fec": [
@@ -86,9 +86,6 @@
     "opensecrets": "N00035491",
     "wikipedia": "Mark Harris (North Carolina politician)",
     "wikidata": "Q55622212",
-    "votesmart": 146230,
-    "ballotpedia": "Mark Harris (North Carolina)",
-    "google_entity_id": "kg:/g/11f6156x_t",
     "twitter": "RepMarkHarrisNC",
     "facebook": "RepMarkHarris",
     "instagram": "repmarkharris"

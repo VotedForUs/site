@@ -9,7 +9,7 @@
   "bioguideId": "Z000018",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 714,
+    "count": 701,
     "url": "https://api.congress.gov/v3/member/Z000018/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 57,
+    "count": 56,
     "url": "https://api.congress.gov/v3/member/Z000018/sponsored-legislation"
   },
   "state": "Montana",
@@ -117,7 +117,7 @@
       "stateName": "Montana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "Z000018",
     "fec": [
@@ -132,7 +132,6 @@
     "google_entity_id": "kg:/m/0gkz1jg",
     "votesmart": 104073,
     "pictorial": 13128,
-    "ballotpedia": "Ryan Zinke",
     "twitter": "RepRyanZinke",
     "facebook": "RepRyanZinke",
     "instagram": "RepRyanZinke"

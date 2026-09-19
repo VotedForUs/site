@@ -9,7 +9,7 @@
   "bioguideId": "M001136",
   "birthYear": "1966",
   "cosponsoredLegislation": {
-    "count": 488,
+    "count": 484,
     "url": "https://api.congress.gov/v3/member/M001136/cosponsored-legislation"
   },
   "currentMember": true,
@@ -81,7 +81,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 71,
+    "count": 70,
     "url": "https://api.congress.gov/v3/member/M001136/sponsored-legislation"
   },
   "state": "Michigan",
@@ -116,7 +116,7 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "M001136",
     "fec": [

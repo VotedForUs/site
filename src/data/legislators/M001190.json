@@ -1,11 +1,18 @@
 {
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "330 Hart Senate Office Building  Washington, DC 20510",
+    "phoneNumber": "(202) 224-4721",
+    "zipCode": 20515
+  },
   "bioguideId": "M001190",
   "birthYear": "1977",
   "cosponsoredLegislation": {
-    "count": 1596,
+    "count": 1597,
     "url": "https://api.congress.gov/v3/member/M001190/cosponsored-legislation"
   },
-  "currentMember": false,
+  "currentMember": true,
   "depiction": {
     "attribution": "<p>Official U.S. Senate Photo</p>",
     "imageUrl": "/images/legislators/M001190.jpg"
@@ -15,6 +22,7 @@
   "honorificName": "Mr.",
   "invertedOrderName": "Mullin, Markwayne",
   "lastName": "Mullin",
+  "officialWebsiteUrl": "https://www.mullin.senate.gov/",
   "partyHistory": [
     {
       "partyAbbreviation": "R",
@@ -118,14 +126,13 @@
     {
       "chamber": "Senate",
       "congress": 119,
-      "endYear": 2026,
       "memberType": "Senator",
       "startYear": 2025,
       "stateCode": "OK",
       "stateName": "Oklahoma"
     }
   ],
-  "updateDate": "2026-03-24T12:44:29Z",
+  "updateDate": "2026-03-08T10:32:07Z",
   "id": {
     "govtrack": 412568,
     "bioguide": "M001190",
@@ -144,7 +151,12 @@
     "icpsr": 21355,
     "wikidata": "Q3448772",
     "google_entity_id": "kg:/m/0lq78pn",
-    "pictorial": 13425
+    "pictorial": 13425,
+    "twitter": "SenMullin",
+    "twitter_id": 1060370282,
+    "facebook": "RepMullin",
+    "youtube_id": "UCLQlm-cbGbJj9baZC6oFsag",
+    "instagram": "senmullin"
   },
   "name": {
     "first": "Markwayne",
@@ -158,7 +170,7 @@
   "latest_term": {
     "type": "sen",
     "start": "2023-01-03",
-    "end": "2026-03-23",
+    "end": "2027-01-03",
     "state": "OK",
     "class": 2,
     "state_rank": "junior",

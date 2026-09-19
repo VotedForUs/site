@@ -9,7 +9,7 @@
   "bioguideId": "S000185",
   "birthYear": "1947",
   "cosponsoredLegislation": {
-    "count": 4535,
+    "count": 4474,
     "url": "https://api.congress.gov/v3/member/S000185/cosponsored-legislation"
   },
   "currentMember": true,
@@ -238,7 +238,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "S000185",
     "thomas": "01037",

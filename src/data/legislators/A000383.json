@@ -2,16 +2,12 @@
   "addressInformation": {
     "city": "Washington",
     "district": "DC",
-    "officeAddress": "330 Hart Senate Office Building  Washington, DC 20510",
+    "officeAddress": "G12 Dirksen Senate Office Building  Washington, DC 20510",
     "phoneNumber": "(202) 224-4721",
     "zipCode": 20510
   },
   "bioguideId": "A000383",
   "birthYear": "1962",
-  "cosponsoredLegislation": {
-    "count": 31,
-    "url": "https://api.congress.gov/v3/member/A000383/cosponsored-legislation"
-  },
   "currentMember": true,
   "directOrderName": "Alan Armstrong",
   "firstName": "Alan",
@@ -38,10 +34,6 @@
       "startDate": "2026-03-25T08:45:00Z"
     }
   ],
-  "sponsoredLegislation": {
-    "count": 2,
-    "url": "https://api.congress.gov/v3/member/A000383/sponsored-legislation"
-  },
   "state": "Oklahoma",
   "terms": [
     {
@@ -53,38 +45,5 @@
       "stateName": "Oklahoma"
     }
   ],
-  "updateDate": "2026-04-28T10:30:22Z",
-  "id": {
-    "bioguide": "A000383",
-    "lis": "S440",
-    "govtrack": 457040,
-    "wikipedia": "Alan S. Armstrong",
-    "wikidata": "Q138781196",
-    "ballotpedia": "Alan Armstrong",
-    "votesmart": 237497
-  },
-  "name": {
-    "first": "Alan",
-    "last": "Armstrong",
-    "official_full": "Alan Armstrong"
-  },
-  "bio": {
-    "gender": "M",
-    "birthday": "1962-07-11"
-  },
-  "latest_term": {
-    "type": "sen",
-    "start": "2026-03-24",
-    "end": "2027-01-03",
-    "how": "appointment",
-    "state": "OK",
-    "class": 2,
-    "party": "Republican",
-    "state_rank": "junior",
-    "url": "https://www.armstrong.senate.gov",
-    "address": "330 Hart Senate Office Building Washington DC 20510",
-    "office": "330 Hart Senate Office Building",
-    "phone": "202-224-4721",
-    "fax": "202-228-0380"
-  }
+  "updateDate": "2026-03-26T10:30:18Z"
 }

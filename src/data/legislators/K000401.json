@@ -9,7 +9,7 @@
   "bioguideId": "K000401",
   "birthYear": "1985",
   "cosponsoredLegislation": {
-    "count": 295,
+    "count": 266,
     "url": "https://api.congress.gov/v3/member/K000401/cosponsored-legislation"
   },
   "currentMember": true,
@@ -26,12 +26,6 @@
   "officialWebsiteUrl": "https://kiley.house.gov",
   "partyHistory": [
     {
-      "partyAbbreviation": "I",
-      "partyName": "Independent",
-      "startYear": 2026
-    },
-    {
-      "endYear": 2026,
       "partyAbbreviation": "R",
       "partyName": "Republican",
       "startYear": 2023
@@ -66,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 44,
+    "count": 41,
     "url": "https://api.congress.gov/v3/member/K000401/sponsored-legislation"
   },
   "state": "California",
@@ -91,7 +85,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:17Z",
   "id": {
     "bioguide": "K000401",
     "fec": [
@@ -126,21 +120,7 @@
     "end": "2027-01-03",
     "state": "CA",
     "district": 3,
-    "party": "Independent",
-    "caucus": "Republican",
-    "party_affiliations": [
-      {
-        "start": "2025-01-03",
-        "end": "2026-03-08",
-        "party": "Republican"
-      },
-      {
-        "start": "2026-03-09",
-        "end": "2027-01-03",
-        "party": "Independent",
-        "caucus": "Republican"
-      }
-    ],
+    "party": "Republican",
     "url": "https://kiley.house.gov",
     "address": "2445 Rayburn House Office Building Washington DC 20515-0503",
     "office": "2445 Rayburn House Office Building",

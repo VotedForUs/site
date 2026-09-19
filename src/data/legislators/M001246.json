@@ -2,28 +2,17 @@
   "addressInformation": {
     "city": "Washington",
     "district": "DC",
-    "officeAddress": "1427 Longworth House Office Building",
-    "phoneNumber": "(202) 225-5034",
     "zipCode": 20515
   },
   "bioguideId": "M001246",
   "birthYear": "1977",
-  "cosponsoredLegislation": {
-    "count": 103,
-    "url": "https://api.congress.gov/v3/member/M001246/cosponsored-legislation"
-  },
   "currentMember": true,
-  "depiction": {
-    "attribution": "Image courtesy of the Member",
-    "imageUrl": "/images/legislators/M001246.jpg"
-  },
   "directOrderName": "Analilia Mejia",
   "district": 11,
   "firstName": "Analilia",
   "honorificName": "Ms.",
   "invertedOrderName": "Mejia, Analilia",
   "lastName": "Mejia",
-  "officialWebsiteUrl": "https://mejia.house.gov/",
   "partyHistory": [
     {
       "partyAbbreviation": "D",
@@ -53,37 +42,5 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2026-08-31T07:40:35Z",
-  "id": {
-    "bioguide": "M001246",
-    "fec": [
-      "H6NJ11286"
-    ],
-    "govtrack": 457042,
-    "wikipedia": "Analilia Mejia",
-    "wikidata": "Q138142530",
-    "ballotpedia": "Analilia Mejia"
-  },
-  "name": {
-    "first": "Analilia",
-    "last": "Mejia",
-    "official_full": "Analilia Mejia"
-  },
-  "bio": {
-    "gender": "F",
-    "birthday": "1977-08-19"
-  },
-  "latest_term": {
-    "type": "rep",
-    "start": "2026-04-20",
-    "end": "2027-01-03",
-    "state": "NJ",
-    "district": 11,
-    "party": "Democrat",
-    "address": "1427 Longworth House Office Building Washington DC 20515-3011",
-    "office": "1427 Longworth House Office Building",
-    "phone": "202-225-5034",
-    "fax": "202-225-3186",
-    "url": "https://mejia.house.gov"
-  }
+  "updateDate": "2026-04-21T15:03:10Z"
 }

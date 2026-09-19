@@ -9,7 +9,7 @@
   "bioguideId": "C001113",
   "birthYear": "1964",
   "cosponsoredLegislation": {
-    "count": 2322,
+    "count": 2210,
     "url": "https://api.congress.gov/v3/member/C001113/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 709,
+    "count": 640,
     "url": "https://api.congress.gov/v3/member/C001113/sponsored-legislation"
   },
   "state": "Nevada",

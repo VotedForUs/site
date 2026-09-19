@@ -9,7 +9,7 @@
   "bioguideId": "B001327",
   "birthYear": "1990",
   "cosponsoredLegislation": {
-    "count": 301,
+    "count": 261,
     "url": "https://api.congress.gov/v3/member/B001327/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 21,
+    "count": 18,
     "url": "https://api.congress.gov/v3/member/B001327/sponsored-legislation"
   },
   "state": "Pennsylvania",
@@ -90,7 +90,7 @@
       "stateName": "Pennsylvania"
     }
   ],
-  "updateDate": "2026-08-31T07:40:35Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "B001327",
     "fec": [
@@ -100,9 +100,6 @@
     "opensecrets": "N00053588",
     "wikipedia": "Rob Bresnahan",
     "wikidata": "Q130963821",
-    "google_entity_id": "kg:/g/11l388y1tr",
-    "votesmart": 214735,
-    "ballotpedia": "Rob Bresnahan Jr.",
     "twitter": "RepBresnahan",
     "facebook": "RepBresnahan",
     "instagram": "RepBresnahan"

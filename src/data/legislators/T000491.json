@@ -9,7 +9,7 @@
   "bioguideId": "T000491",
   "birthYear": "1982",
   "cosponsoredLegislation": {
-    "count": 317,
+    "count": 266,
     "url": "https://api.congress.gov/v3/member/T000491/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 15,
+    "count": 11,
     "url": "https://api.congress.gov/v3/member/T000491/sponsored-legislation"
   },
   "state": "California",
@@ -75,7 +75,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "T000491",
     "fec": [
@@ -84,10 +84,7 @@
     "govtrack": 456980,
     "opensecrets": "N00053582",
     "wikipedia": "Derek Tran",
-    "wikidata": "Q131339671",
-    "google_entity_id": "kg:/g/11vbwrj3mq",
-    "votesmart": 213645,
-    "ballotpedia": "Derek Tran"
+    "wikidata": "Q131339671"
   },
   "name": {
     "first": "Derek",

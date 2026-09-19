@@ -9,7 +9,7 @@
   "bioguideId": "E000246",
   "birthYear": "1960",
   "cosponsoredLegislation": {
-    "count": 523,
+    "count": 471,
     "url": "https://api.congress.gov/v3/member/E000246/cosponsored-legislation"
   },
   "currentMember": true,
@@ -76,7 +76,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "E000246",
     "fec": [
@@ -89,7 +89,6 @@
     "google_entity_id": "kg:/g/11ghxw1t29",
     "votesmart": 166600,
     "pictorial": 13140,
-    "ballotpedia": "Chuck Edwards",
     "twitter": "RepEdwards",
     "twitter_id": 1602748099792879600,
     "facebook": "RepChuckEdwards",

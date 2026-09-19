@@ -9,7 +9,7 @@
   "bioguideId": "H001067",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 1688,
+    "count": 1663,
     "url": "https://api.congress.gov/v3/member/H001067/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 144,
+    "count": 143,
     "url": "https://api.congress.gov/v3/member/H001067/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -126,7 +126,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "govtrack": 412550,
     "bioguide": "H001067",

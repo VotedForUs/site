@@ -9,7 +9,7 @@
   "bioguideId": "K000385",
   "birthYear": "1956",
   "cosponsoredLegislation": {
-    "count": 2776,
+    "count": 2721,
     "url": "https://api.congress.gov/v3/member/K000385/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 160,
+    "count": 158,
     "url": "https://api.congress.gov/v3/member/K000385/sponsored-legislation"
   },
   "state": "Illinois",
@@ -139,7 +139,7 @@
       "stateName": "Illinois"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "K000385",
     "thomas": "02190",
@@ -147,8 +147,7 @@
     "votesmart": 33384,
     "wikipedia": "Robin Kelly",
     "fec": [
-      "H2IL02172",
-      "S6IL00474"
+      "H2IL02172"
     ],
     "opensecrets": "N00035215",
     "ballotpedia": "Robin Kelly",

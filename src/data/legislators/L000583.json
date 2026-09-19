@@ -9,7 +9,7 @@
   "bioguideId": "L000583",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 1066,
+    "count": 1044,
     "url": "https://api.congress.gov/v3/member/L000583/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 75,
+    "count": 74,
     "url": "https://api.congress.gov/v3/member/L000583/sponsored-legislation"
   },
   "state": "Georgia",
@@ -116,7 +116,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "L000583",
     "fec": [

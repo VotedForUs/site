@@ -9,7 +9,7 @@
   "bioguideId": "R000618",
   "birthYear": "1964",
   "cosponsoredLegislation": {
-    "count": 770,
+    "count": 678,
     "url": "https://api.congress.gov/v3/member/R000618/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 142,
+    "count": 110,
     "url": "https://api.congress.gov/v3/member/R000618/sponsored-legislation"
   },
   "state": "Nebraska",

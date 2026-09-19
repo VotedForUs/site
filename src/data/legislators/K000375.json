@@ -9,7 +9,7 @@
   "bioguideId": "K000375",
   "birthYear": "1952",
   "cosponsoredLegislation": {
-    "count": 2932,
+    "count": 2840,
     "url": "https://api.congress.gov/v3/member/K000375/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 172,
+    "count": 166,
     "url": "https://api.congress.gov/v3/member/K000375/sponsored-legislation"
   },
   "state": "Massachusetts",
@@ -149,7 +149,7 @@
       "stateName": "Massachusetts"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "K000375",
     "thomas": "02025",
@@ -160,7 +160,7 @@
       "H0MA10082"
     ],
     "cspan": 61856,
-    "wikipedia": "Bill Keating",
+    "wikipedia": "Bill Keating (politician)",
     "house_history": 16570,
     "maplight": 1446,
     "icpsr": 21140,

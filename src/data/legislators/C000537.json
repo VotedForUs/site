@@ -9,7 +9,7 @@
   "bioguideId": "C000537",
   "birthYear": "1940",
   "cosponsoredLegislation": {
-    "count": 2782,
+    "count": 2770,
     "url": "https://api.congress.gov/v3/member/C000537/cosponsored-legislation"
   },
   "currentMember": true,
@@ -89,7 +89,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 123,
+    "count": 121,
     "url": "https://api.congress.gov/v3/member/C000537/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -264,7 +264,7 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "C000537",
     "thomas": "00208",

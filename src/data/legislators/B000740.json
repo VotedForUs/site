@@ -9,7 +9,7 @@
   "bioguideId": "B000740",
   "birthYear": "1973",
   "cosponsoredLegislation": {
-    "count": 802,
+    "count": 758,
     "url": "https://api.congress.gov/v3/member/B000740/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 84,
+    "count": 79,
     "url": "https://api.congress.gov/v3/member/B000740/sponsored-legislation"
   },
   "state": "Oklahoma",
@@ -109,7 +109,7 @@
       "stateName": "Oklahoma"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "B000740",
     "fec": [
@@ -122,7 +122,6 @@
     "google_entity_id": "kg:/g/11h2hmkrv8",
     "ballotpedia": "Stephanie Bice",
     "pictorial": 13214,
-    "votesmart": 152294,
     "twitter": "RepBice",
     "twitter_id": 1344260196227555300,
     "facebook": "RepStephanieBice"

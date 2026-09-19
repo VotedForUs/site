@@ -620,6 +620,11 @@
     "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held. With printed Hearing: S.Hrg. 119-238."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/186",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/HR/186\" target=\"_blank\">H.R.186</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/S/858\" target=\"_blank\">S.858</a>, which became Public Law 119-104."
+    }
+  ],
   "number": "186",
   "originChamber": "House",
   "originChamberCode": "H",
@@ -636,7 +641,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To authorize the National Medal of Honor Museum Foundation to establish a commemorative work on the National Mall to honor the extraordinary acts of valor, selfless service, and sacrifice displayed by Medal of Honor recipients.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T19:38:29Z"
       },
@@ -685,8 +690,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-09-18T15:00:09Z",
+  "updateDateIncludingText": "2026-09-18T15:00:09Z",
   "id": "119-HR-186",
   "lastActionDate": "2025-12-09",
   "lastRecordedVoteDate": "2025-01-22T00:01:23Z"

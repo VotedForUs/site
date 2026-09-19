@@ -9,7 +9,7 @@
   "bioguideId": "E000300",
   "birthYear": "1986",
   "cosponsoredLegislation": {
-    "count": 245,
+    "count": 182,
     "url": "https://api.congress.gov/v3/member/E000300/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 23,
+    "count": 20,
     "url": "https://api.congress.gov/v3/member/E000300/sponsored-legislation"
   },
   "state": "Colorado",
@@ -75,7 +75,7 @@
       "stateName": "Colorado"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "E000300",
     "fec": [
@@ -85,9 +85,6 @@
     "opensecrets": "N00053312",
     "wikipedia": "Gabe Evans",
     "wikidata": "Q115458993",
-    "google_entity_id": "kg:/g/11rzqxsg01",
-    "votesmart": 206217,
-    "ballotpedia": "Gabe Evans",
     "twitter": "repgabeevans",
     "facebook": "RepGabeEvans",
     "instagram": "RepGabeEvans"

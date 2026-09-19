@@ -9,7 +9,7 @@
   "bioguideId": "H001099",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 246,
+    "count": 189,
     "url": "https://api.congress.gov/v3/member/H001099/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 5,
+    "count": 2,
     "url": "https://api.congress.gov/v3/member/H001099/sponsored-legislation"
   },
   "state": "Florida",
@@ -75,7 +75,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "H001099",
     "fec": [
@@ -85,8 +85,6 @@
     "opensecrets": "N00033076",
     "wikipedia": "Mike Haridopolos",
     "wikidata": "Q6847137",
-    "votesmart": 53952,
-    "ballotpedia": "Mike Haridopolos",
     "twitter": "repharidopolos"
   },
   "name": {

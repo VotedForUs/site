@@ -9,7 +9,7 @@
   "bioguideId": "C001061",
   "birthYear": "1944",
   "cosponsoredLegislation": {
-    "count": 4317,
+    "count": 4239,
     "url": "https://api.congress.gov/v3/member/C001061/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 233,
+    "count": 225,
     "url": "https://api.congress.gov/v3/member/C001061/sponsored-legislation"
   },
   "state": "Missouri",
@@ -166,7 +166,7 @@
       "stateName": "Missouri"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "C001061",
     "thomas": "01790",

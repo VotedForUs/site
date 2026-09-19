@@ -9,7 +9,7 @@
   "bioguideId": "G000602",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 281,
+    "count": 254,
     "url": "https://api.congress.gov/v3/member/G000602/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 19,
+    "count": 12,
     "url": "https://api.congress.gov/v3/member/G000602/sponsored-legislation"
   },
   "state": "New York",
@@ -75,20 +75,16 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "G000602",
     "fec": [
-      "H4NY04158",
-      "H2NY04244"
+      "H4NY04158"
     ],
     "govtrack": 457010,
     "opensecrets": "N00050425",
     "wikipedia": "Laura Gillen",
     "wikidata": "Q131105202",
-    "google_entity_id": "kg:/g/11sqq7tb5k",
-    "votesmart": 208621,
-    "ballotpedia": "Laura Gillen",
     "twitter": "RepLauraGillen",
     "facebook": "replauragillen",
     "instagram": "replauragillen"

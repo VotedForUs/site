@@ -9,7 +9,7 @@
   "bioguideId": "V000128",
   "birthYear": "1959",
   "cosponsoredLegislation": {
-    "count": 6912,
+    "count": 6736,
     "url": "https://api.congress.gov/v3/member/V000128/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 628,
+    "count": 567,
     "url": "https://api.congress.gov/v3/member/V000128/sponsored-legislation"
   },
   "state": "Maryland",

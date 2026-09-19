@@ -9,7 +9,7 @@
   "bioguideId": "R000619",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 367,
+    "count": 305,
     "url": "https://api.congress.gov/v3/member/R000619/cosponsored-legislation"
   },
   "currentMember": true,
@@ -71,7 +71,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 20,
+    "count": 14,
     "url": "https://api.congress.gov/v3/member/R000619/sponsored-legislation"
   },
   "state": "Ohio",
@@ -96,7 +96,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-12-15T15:01:47Z",
   "id": {
     "bioguide": "R000619",
     "fec": [

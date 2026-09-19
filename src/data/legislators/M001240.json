@@ -9,7 +9,7 @@
   "bioguideId": "M001240",
   "birthYear": "1994",
   "cosponsoredLegislation": {
-    "count": 269,
+    "count": 209,
     "url": "https://api.congress.gov/v3/member/M001240/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 19,
+    "count": 14,
     "url": "https://api.congress.gov/v3/member/M001240/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -89,7 +89,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "M001240",
     "fec": [
@@ -99,8 +99,6 @@
     "opensecrets": "N00054055",
     "wikipedia": "Addison McDowell",
     "wikidata": "Q130979819",
-    "votesmart": 213685,
-    "ballotpedia": "Addison McDowell",
     "twitter": "RepMcDowell",
     "facebook": "RepMcDowell",
     "instagram": "repmcdowell"

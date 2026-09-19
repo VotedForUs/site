@@ -9,7 +9,7 @@
   "bioguideId": "C000880",
   "birthYear": "1951",
   "cosponsoredLegislation": {
-    "count": 4429,
+    "count": 4379,
     "url": "https://api.congress.gov/v3/member/C000880/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 623,
+    "count": 618,
     "url": "https://api.congress.gov/v3/member/C000880/sponsored-legislation"
   },
   "state": "Idaho",
