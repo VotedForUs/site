@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/1958/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-19",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-03-18",
@@ -672,9 +687,8 @@
   "congress": 119,
   "introducedDate": "2025-03-06",
   "latestAction": {
-    "actionDate": "2026-03-18",
-    "actionTime": "17:28:31",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-03-19",
+    "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1958",
   "number": "1958",
@@ -688,14 +702,14 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Immigration and Nationality Act to clarify that aliens who have been convicted of defrauding the United States Government or the unlawful receipt of public benefits are inadmissible and deportable.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-03-20T01:53:27Z"
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Deporting Fraudsters Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-03-21T03:53:21Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -708,10 +722,14 @@
         "updateDate": "2026-03-20T01:53:27Z"
       },
       {
-        "title": "Deporting Fraudsters Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-01-28T06:23:16Z"
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Immigration and Nationality Act to clarify that aliens who have been convicted of defrauding the United States Government or the unlawful receipt of public benefits are inadmissible and deportable.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-03-20T01:53:27Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -721,6 +739,12 @@
         "title": "Deporting Fraudsters Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
+        "updateDate": "2026-01-28T06:23:16Z"
+      },
+      {
+        "title": "Deporting Fraudsters Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
         "updateDate": "2026-01-28T06:23:16Z"
       },
       {
@@ -742,9 +766,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-20T01:53:27Z",
-  "updateDateIncludingText": "2026-03-20T01:53:27Z",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z",
   "id": "119-HR-1958",
-  "lastActionDate": "2026-03-18",
+  "lastActionDate": "2026-03-19",
   "lastRecordedVoteDate": "2026-03-18T21:28:30Z"
 }

@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/7726/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-04",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-03",
@@ -1199,9 +1214,8 @@
   "congress": 119,
   "introducedDate": "2026-02-26",
   "latestAction": {
-    "actionDate": "2026-06-03",
-    "actionTime": "17:09:20",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-04",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7726",
   "number": "7726",
@@ -1214,6 +1228,16 @@
   "title": "Stop Child Care Scams Act of 2026",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Stop Child Care Scams Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-09T05:23:22Z"
+      },
       {
         "title": "Stop Child Care Scams Act of 2026",
         "titleType": "Display Title",
@@ -1269,9 +1293,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-05T08:05:36Z",
-  "updateDateIncludingText": "2026-06-05T08:48:31Z",
+  "updateDate": "2026-07-23T23:06:21Z",
+  "updateDateIncludingText": "2026-07-23T23:06:21Z",
   "id": "119-HR-7726",
-  "lastActionDate": "2026-06-03",
+  "lastActionDate": "2026-06-04",
   "lastRecordedVoteDate": "2026-06-03T21:09:19Z"
 }

@@ -1,0 +1,81 @@
+---
+// TODO: delete or move to a dev-only path before deploying. This is the visual
+// design playground for the OG/social card. See .cursor/social-cards.md.
+//
+// Query params work in `astro dev`. At build time this page is prerendered with
+// default real-data ids (no SSR adapter required).
+export const prerender = true;
+
+import '../layouts/global.css';
+import VotedCard from '../components/social-cards/VotedCard.astro';
+import VotedFromResolver from '../components/social-cards/VotedFromResolver.astro';
+import { DEFAULT_REAL_VOTE } from '../components/social-cards/votedRealVoteDefaults';
+import { votedSamples, type VotedSampleKey } from '../components/social-cards/votedSamples';
+
+const voteId = Astro.url.searchParams.get('voteId');
+const bioguideId = Astro.url.searchParams.get('bioguideId');
+const requestedCase = Astro.url.searchParams.get('case');
+
+const sampleKey =
+  requestedCase && requestedCase in votedSamples
+    ? (requestedCase as VotedSampleKey)
+    : 'long-both';
+
+const usingSampleOnly = requestedCase !== null && !(voteId && bioguideId);
+
+const resolvedVoteId = voteId ?? DEFAULT_REAL_VOTE.voteId;
+const resolvedBioguideId = bioguideId ?? DEFAULT_REAL_VOTE.bioguideId;
+
+const pageLabel = usingSampleOnly
+  ? sampleKey
+  : `${resolvedVoteId}/${resolvedBioguideId}`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Social card design - {pageLabel}</title>
+  </head>
+  <body>
+    {!usingSampleOnly && (
+      <p class="dev-note">
+        Real data: {resolvedVoteId} / {resolvedBioguideId}
+      </p>
+    )}
+    {usingSampleOnly ? (
+      <VotedCard {...votedSamples[sampleKey]} />
+    ) : (
+      <VotedFromResolver
+        voteId={resolvedVoteId}
+        bioguideId={resolvedBioguideId}
+        fallback={sampleKey}
+      />
+    )}
+  </body>
+</html>
+
+<style>
+  :global(body) {
+    margin: 0;
+    background: #2a2a2a;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .dev-note {
+    position: fixed;
+    top: 0.75rem;
+    left: 0.75rem;
+    margin: 0;
+    padding: 0.35rem 0.6rem;
+    font: 0.875rem/1.2 system-ui, sans-serif;
+    color: #eee;
+    background: rgb(0 0 0 / 0.55);
+    border-radius: 0.25rem;
+  }
+</style>

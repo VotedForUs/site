@@ -15,7 +15,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Read twice and referred to the Committee on the Judiciary.",
+        "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
         "type": "IntroReferral"
       },
       {
@@ -663,7 +663,7 @@
   "introducedDate": "2025-04-10",
   "latestAction": {
     "actionDate": "2026-05-13",
-    "text": "Read twice and referred to the Committee on the Judiciary."
+    "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2853",
   "number": "2853",
@@ -676,6 +676,12 @@
   "title": "Combating Organized Retail Crime Act of 2025",
   "titles": {
     "titles": [
+      {
+        "title": "Combating Organized Retail Crime Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:01:22Z"
+      },
       {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
@@ -691,9 +697,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To combat organized crime involving the illegal acquisition of retail goods and cargo for the purpose of selling those illegally obtained goods through physical and online retail marketplaces.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Combating Organized Retail Crime Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-05-14T02:38:27Z"
       },
       {
@@ -701,16 +707,10 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Combating Organized Retail Crime Act of 2025",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To combat organized crime involving the illegal acquisition of retail goods and cargo for the purpose of selling those illegally obtained goods through physical and online retail marketplaces.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-05-14T02:38:27Z"
-      },
-      {
-        "title": "Combating Organized Retail Crime Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-01-31T05:53:17Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -741,8 +741,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-15T03:08:24Z",
-  "updateDateIncludingText": "2026-05-15T03:08:24Z",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z",
   "id": "119-HR-2853",
   "lastActionDate": "2026-05-13",
   "lastRecordedVoteDate": "2026-05-12T23:13:41Z"

@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/2616/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-21",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-20",
@@ -1199,9 +1214,8 @@
   "congress": 119,
   "introducedDate": "2025-04-03",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "actionTime": "17:22:10",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-21",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2616",
   "number": "2616",
@@ -1218,7 +1232,17 @@
         "title": "Stopping Indoctrination and Protecting Kids Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-05-22T04:23:40Z"
+        "updateDate": "2026-07-17T23:43:28Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Stopping Indoctrination and Protecting Kids Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-23T06:53:30Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1287,9 +1311,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-22T04:23:40Z",
-  "updateDateIncludingText": "2026-05-22T07:49:19Z",
+  "updateDate": "2026-07-23T22:41:28Z",
+  "updateDateIncludingText": "2026-07-23T22:41:28Z",
   "id": "119-HR-2616",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-20T21:22:08Z"
 }

@@ -15,6 +15,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00217.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -46,6 +47,7 @@
               "F000463": "Yea",
               "G000574": "Nay",
               "G000555": "Nay",
+              "G000608": "Yea",
               "G000386": "Yea",
               "H000601": "Yea",
               "H001076": "Nay",
@@ -191,6 +193,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00214.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -222,6 +225,7 @@
               "F000463": "Yea",
               "G000574": "Not Voting",
               "G000555": "Nay",
+              "G000608": "Not Voting",
               "G000386": "Yea",
               "H000601": "Yea",
               "H001076": "Nay",
@@ -509,6 +513,10 @@
   "number": "817",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/sres/817/summaries?format=json"
+  },
   "title": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
   "titles": {
     "titles": [
@@ -527,8 +535,8 @@
     ]
   },
   "type": "SRES",
-  "updateDate": "2026-08-03T03:58:18Z",
-  "updateDateIncludingText": "2026-08-03T03:58:18Z",
+  "updateDate": "2026-08-03T17:50:30Z",
+  "updateDateIncludingText": "2026-08-03T17:50:30Z",
   "id": "119-SRES-817",
   "lastActionDate": "2026-07-30",
   "lastRecordedVoteDate": "2026-07-30T18:27:48Z"

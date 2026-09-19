@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/4294/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-18",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-03-17",
@@ -700,9 +715,8 @@
   "congress": 119,
   "introducedDate": "2025-07-07",
   "latestAction": {
-    "actionDate": "2026-03-17",
-    "actionTime": "15:37:36",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-03-18",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4294",
   "number": "4294",
@@ -716,11 +730,37 @@
   "titles": {
     "titles": [
       {
+        "title": "MAWS Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-18T00:03:33Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "MAWS Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-03-21T03:53:21Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Mitigation Action and Watermen Support Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-03-21T03:53:21Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "MAWS Act of 2026",
+        "title": "Mitigation Action and Watermen Support Act of 2026",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-03-19T03:23:25Z"
@@ -740,23 +780,17 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Mitigation Action and Watermen Support Act of 2026",
+        "title": "MAWS Act of 2026",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-03-19T03:23:25Z"
-      },
-      {
-        "title": "MAWS Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-02-24T05:23:23Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Mitigation Action and Watermen Support Act of 2026",
+        "title": "MAWS Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-02-24T05:23:22Z"
@@ -766,7 +800,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "MAWS Act of 2026",
+        "title": "Mitigation Action and Watermen Support Act of 2026",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-02-24T05:23:22Z"
@@ -798,9 +832,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-19T03:23:25Z",
-  "updateDateIncludingText": "2026-03-19T03:23:25Z",
+  "updateDate": "2026-07-18T00:03:33Z",
+  "updateDateIncludingText": "2026-07-18T00:03:33Z",
   "id": "119-HR-4294",
-  "lastActionDate": "2026-03-17",
+  "lastActionDate": "2026-03-18",
   "lastRecordedVoteDate": "2026-03-17T19:37:35Z"
 }

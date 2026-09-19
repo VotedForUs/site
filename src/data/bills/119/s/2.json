@@ -1204,6 +1204,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00163.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -1630,6 +1631,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00153.xml",
             "votes": {
               "A000382": "Yea",
+              "A000383": "Nay",
               "B001230": "Yea",
               "B001299": "Nay",
               "B001261": "Nay",
@@ -1790,6 +1792,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00147.xml",
             "votes": {
               "A000382": "Yea",
+              "A000383": "Nay",
               "B001230": "Yea",
               "B001299": "Nay",
               "B001261": "Nay",
@@ -1950,6 +1953,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00141.xml",
             "votes": {
               "A000382": "Yea",
+              "A000383": "Nay",
               "B001230": "Yea",
               "B001299": "Nay",
               "B001261": "Nay",
@@ -2110,6 +2114,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00137.xml",
             "votes": {
               "A000382": "Yea",
+              "A000383": "Nay",
               "B001230": "Yea",
               "B001299": "Nay",
               "B001261": "Nay",
@@ -2279,6 +2284,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00136.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",

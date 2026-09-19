@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/8466/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-09",
+        "committees": [
+          {
+            "name": "Homeland Security and Governmental Affairs Committee",
+            "systemCode": "ssga00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-08",
@@ -629,9 +644,8 @@
   "congress": 119,
   "introducedDate": "2026-04-23",
   "latestAction": {
-    "actionDate": "2026-06-08",
-    "actionTime": "18:57:20",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-09",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8466",
   "number": "8466",
@@ -645,11 +659,45 @@
   "titles": {
     "titles": [
       {
+        "title": "TRUE Accountability Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:46:14Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To require certain agencies to develop plans for internal control in the event of an emergency or crisis, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:39:47Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Taxpayer Resources Used in Emergencies Accountability Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-13T05:53:29Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "TRUE Accountability Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-13T05:53:29Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "TRUE Accountability Act",
+        "title": "Taxpayer Resources Used in Emergencies Accountability Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-06-10T05:38:24Z"
@@ -659,7 +707,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Taxpayer Resources Used in Emergencies Accountability Act",
+        "title": "TRUE Accountability Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-06-10T05:38:24Z"
@@ -677,39 +725,25 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "TRUE Accountability Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2026-04-28T05:53:24Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
         "title": "Taxpayer Resources Used in Emergencies Accountability Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-04-28T05:53:24Z"
       },
       {
-        "title": "TRUE Accountability Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-04-28T05:53:24Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "To require certain agencies to develop plans for internal control in the event of an emergency or crisis, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-04-28T05:48:27Z"
+        "title": "TRUE Accountability Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2026-04-28T05:53:24Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-10T08:06:09Z",
-  "updateDateIncludingText": "2026-06-10T09:33:31Z",
+  "updateDate": "2026-07-17T23:46:14Z",
+  "updateDateIncludingText": "2026-07-18T22:24:46Z",
   "id": "119-HR-8466",
-  "lastActionDate": "2026-06-08",
+  "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-08T22:57:18Z"
 }
