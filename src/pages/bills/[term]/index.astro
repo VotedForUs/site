@@ -22,17 +22,21 @@ const { term } = Astro.params;
 const { bills } = Astro.props;
 const congressionalTerm = parseInt(term);
 
-const pageTitle = `${congressionalTerm}th Congress - Bills with Votes`;
+const pageTitle = `${congressionalTerm}th Congress — bills with recorded votes`;
+const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title={pageTitle}>
-  <h1>{congressionalTerm}th Congress - Bills with Votes</h1>
-  
-  <p>Total bills: {bills.length}</p>
-  
-  {bills.length > 0 ? (
-    <BillsTable bills={bills} />
-  ) : (
-    <p>No bills found for the {congressionalTerm}th Congress.</p>
-  )}
+<Layout title={pageTitle} description={`Every bill of the ${congressionalTerm}th Congress that has a recorded floor vote.`}>
+  <section class="section stack">
+    <h1>{congressionalTerm}th Congress</h1>
+    <p>{bills.length} bills with a recorded vote, grouped by what happened to them.</p>
+    {bills.length > 0 ? (
+      <BillsTable bills={bills} />
+    ) : (
+      <div class="form-actions">
+        <p>No bills of the {congressionalTerm}th have a recorded vote yet.</p>
+        <a href={base}>Find a member or a bill</a>
+      </div>
+    )}
+  </section>
 </Layout>

@@ -1,0 +1,49 @@
+---
+/**
+ * One member's record: who they are and the bills they have voted on.
+ * URL: /members/[bioguideid] — 606 pages, one per member with a recorded cast.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import MemberRecord from '../../components/MemberRecord.astro';
+import { bioguideIdsWithCasts, groupMemberBills } from '../../utils/memberRecord.js';
+import { LEGISLATORS_LIMIT } from '../../buildConfig';
+import { shouldBuildPage } from '../../utils/buildManifest.js';
+import { localHeadshot } from '../../utils/headshot.js';
+
+/**
+ * One page per member who has a display cast — the same set as the finder.
+ *
+ * @returns Paths and legislator props for those ids
+ */
+export async function getStaticPaths() {
+  const legislators = await getCollection('legislators');
+  const votes = await getCollection('legislatorVotes');
+  const withCasts = bioguideIdsWithCasts(votes.map((v) => v.data));
+  const named = legislators.filter((l) => withCasts.has(l.id));
+  const limited = LEGISLATORS_LIMIT ? named.slice(0, LEGISLATORS_LIMIT) : named;
+  return limited
+    .filter((l) => shouldBuildPage('legislators-loader', l.id))
+    .map((legislator) => ({ params: { bioguideid: legislator.id }, props: { legislator } }));
+}
+
+const { bioguideid } = Astro.params;
+const { legislator } = Astro.props;
+
+const votes = await getCollection('legislatorVotes');
+const bills = groupMemberBills(votes.filter((v) => v.data.bioguideId === bioguideid).map((v) => v.data));
+
+const name = legislator.data.nameTitle;
+// The collection's `imageUrl` is a congress.gov URL for members whose portrait
+// was never downloaded. Rendering it would hotlink congress.gov on every view,
+// so the page shows a portrait only when we hold one.
+const member = { ...legislator.data, imageUrl: localHeadshot(legislator.id) ?? undefined };
+---
+
+<Layout
+  title={`${name} — voting record`}
+  description={`Every bill ${name} has cast a recorded vote on.`}
+  breadcrumbLabels={{ [bioguideid as string]: name }}
+>
+  <MemberRecord member={member} bills={bills} />
+</Layout>

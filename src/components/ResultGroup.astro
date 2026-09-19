@@ -1,0 +1,22 @@
+---
+/**
+ * One labelled, counted group of result rows — the heading shape that goes
+ * with `ResultRow.astro`, for the same two uses: rendered with its rows, and
+ * rendered empty inside a `<template>` the finder clones per query.
+ */
+import './results.css';
+interface Props {
+  label?: string;
+  count?: number;
+}
+
+const { label, count } = Astro.props;
+---
+
+<section class="result-group">
+  <h3 class="group-label">
+    <span data-label>{label}</span>
+    <span data-count>{count}</span>
+  </h3>
+  <div data-rows><slot /></div>
+</section>

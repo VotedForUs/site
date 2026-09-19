@@ -1,5 +1,115 @@
-@import "@drop-in/graffiti";
+/**
+ * votedfor.us theme.
+ *
+ * Graffiti's `standard` bundle: core + utilities + layouts, 88.5 KB. The
+ * component layer is deliberately NOT imported — we own every component. Never
+ * load `components` / `utilities` / `layouts` as standalone stylesheets: each
+ * flattens the forced-colors block to bare `:root` and pins `--primary` to
+ * LinkText on every display, silently. Only `index`, `core`, `minimal` and
+ * `standard` are safe alone.
+ *
+ * Everything below is a token override at `:root`, never a parallel stylesheet.
+ * Retinting anywhere else silently fails: Graffiti derives the 216
+ * `--<hue>-opaque-N` tokens and both alpha scales at `:root`, so a container
+ * override misses every `.fill` variant. Scope only at `:root`, or on a class
+ * whose name contains `theme-`.
+ */
+@import "@drop-in/graffiti/standard";
 
 :root {
-	--flag-blue: #2E5090;
+	/* ── Palette ────────────────────────────────────────────────────────────
+	 * Old Glory Blue and Old Glory Red. Set the palette anchor AND the
+	 * semantic token: the derived scales read `--blue` / `--red`, so setting
+	 * only `--primary` leaves every `.fill` variant on Graffiti's default hue.
+	 * 10.3:1 and 6.6:1 on white — neither needs a darkened text variant.
+	 * Red means error. Nothing decorative, and nay rows stay neutral.
+	 */
+	--blue: #3c3b6e;
+	--red: #b22234;
+	/* The semantic tokens carry the same colour in light. Graffiti ships
+	 * `color-scheme: light dark`, so a reader on a dark OS gets the dark end
+	 * without a toggle: there the two flag colours sit at 2.2:1 and 3.4:1 on
+	 * near-black, which is a wordmark and a nav that cannot be read. The dark
+	 * end lifts each toward the page ink rather than choosing a second brand
+	 * colour — the anchors above are untouched, so every derived scale still
+	 * reads the flag hex.
+	 */
+	--primary: light-dark(#3c3b6e, color-mix(in oklab, #3c3b6e, #fff 58%));
+	--error: light-dark(#b22234, color-mix(in oklab, #b22234, #fff 42%));
+
+	/* The wordmark's single-colour treatment: favicons, single-colour print,
+	 * small OG cards. One literal value, not a light-dark() pair — those three
+	 * contexts carry their own ground, so it does not follow the theme. It
+	 * lives here so `SiteName` reads a token instead of declaring a hex. Do not
+	 * use it as a text colour on the dark theme — 1.4:1 on near-black.
+	 */
+	--wordmark-mono: #313131;
+
+	/* ── Ground and ink ────────────────────────────────────────────────────
+	 * Page is the cream; surfaces (field, header, card) are white on top of
+	 * it. Only the light end is retinted — the dark end stays Graffiti's, so
+	 * the dark theme keeps its own contrast.
+	 */
+	--bg-light: #f6f4ee;
+	--fg-light: #111;
+	--surface: light-dark(#fff, #111);
+
+	/* Text levels, with their contrast on white:
+	 * --fg          #111     field text, 18.9:1
+	 * --fg-strong   #3d3a33  idle chip text, 10.6:1
+	 * --fg-muted    #55534d  narrow-by labels, 7.6:1 — the smallest type
+	 * --fg-subtle   #6b6b68  placeholder, 5.4:1
+	 * Graffiti's own `--fg-N` are alpha steps off `--fg`, not opaque levels,
+	 * so the three warm greys are named rather than pushed into that scale.
+	 */
+	--fg-strong: light-dark(#3d3a33, #e6e2d6);
+	--fg-muted: light-dark(#55534d, #cfcbbf);
+	--fg-subtle: light-dark(#6b6b68, #b0aca1);
+
+	/* Rule colour. `--fg-2` is what every `--border-N` resolves through, and
+	 * it is the lightest tan that holds 3:1 against white for a non-text
+	 * boundary — the idle chip and control border. Was #b8b3a4 at 2.1:1.
+	 */
+	--fg-2: #8f8a79;
+
+	/* ── Radii ─────────────────────────────────────────────────────────────
+	 * Square corners. Six declarations and zero rule overrides, because every
+	 * radius in the library resolves through this scale.
+	 */
+	--br-xs: 0;
+	--br-s: 0;
+	--br-m: 0;
+	--br-l: 0;
+	--br-xl: 0;
+	--br-xxl: 0;
+
+	/* ── Type ──────────────────────────────────────────────────────────────
+	 * Public Sans reads as government-issue and its figures are even, which
+	 * is the real requirement — tallies sit in columns and get compared.
+	 * JetBrains Mono carries ids, urls, rolls and dates. Playfair Display is
+	 * the wordmark only; SiteName sets it locally.
+	 */
+	--font-sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+	--font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+	/* The scale, not the sizes: the designs' fixed px are the desktop end of
+	 * Graffiti's fluid steps. Body sits at --fl 0 (16px); h1 at --fl 5 lands
+	 * on the designs' 34px at the wide end.
+	 */
+	--font-size-min: 16;
+	--font-size-max: 16;
+	--font-ratio-min: 1.14;
+	--font-ratio-max: 1.1625;
+
+	/* ── Focus and highlight ───────────────────────────────────────────────
+	 * Never hand-roll a focus ring; every control on a real element inherits
+	 * this one. 8.5:1 against the page.
+	 */
+	--focus-ring: 2px solid var(--primary);
+	--focus-ring-offset: 2px;
+
+	/* Matched-text highlight. Retint the hue — never restyle <mark>; the nine
+	 * alpha steps derive from this one value.
+	 */
+	--highlighter: oklch(0.9 0.15 92);
 }

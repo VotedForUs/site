@@ -8,7 +8,10 @@ import { getEditorialVoteAction } from '../../../../../../utils/editorial.js';
 import { getLimitedBillIds } from '../../../../../../buildConfig';
 import { shouldBuildPage } from '../../../../../../utils/buildManifest.js';
 import type { LegislatorSmall } from '@votedforus/votes/types';
-import { memberCastsForDisplay } from '../../../../../../utils/memberCastsForDisplay.js';
+import { memberCastsForDisplay, isConsentMembershipVote } from '../../../../../../utils/memberCastsForDisplay.js';
+import { toVoteRollRow } from '../../../../../../utils/voteRollRows.js';
+import { proceduralVoteKindFromRecordType } from '../../../../../../utils/voteCastKind.js';
+import { actionOptionLabel } from '../../../../../../utils/legislatorVoteDisplay.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
@@ -44,53 +47,32 @@ const billId = vote.billId;
 const billEntry = await getEntry('bills', billId);
 const billTitle = billEntry?.data ? getBestBillTitle(billEntry.data) : (vote.billTitle ?? '');
 
-const chamber = vote.chamber?.toLowerCase();
+const chamber = vote.chamber?.toLowerCase() ?? '';
 const votesMap = memberCastsForDisplay(vote);
+const consent = isConsentMembershipVote(vote);
+const proc = proceduralVoteKindFromRecordType(vote.recordType);
+const kindLabel = proc ? actionOptionLabel('Yea', proc) : null;
 
-const draftRows: {
-  bioguideId: string;
-  leg: LegislatorSmall | undefined;
-  vote: string;
-}[] = [];
-
+const rows = [];
 for (const [bioguideId, voteCast] of Object.entries(votesMap)) {
   const legEntry = await getEntry('legislators', bioguideId);
-  draftRows.push({
-    bioguideId,
-    leg: legEntry?.data as LegislatorSmall | undefined,
-    vote: voteCast as string,
-  });
-}
-
-const rows: { bioguideId: string; stateDistrict: string; name: string; lastName: string; party: string; vote: string }[] = [];
-
-for (const r of draftRows) {
-  const leg = r.leg;
-  const state = leg?.state ?? '';
-  const district = leg?.district != null ? `-${leg.district}` : '';
-  const seatSuffix = leg?.stateRank === 'senior' ? '-s1' : leg?.stateRank === 'junior' ? '-s2' : '';
-  const stateDistrict =
-    chamber === 'senate'
-      ? (state.length > 0 ? `${state}${seatSuffix}` : r.bioguideId)
-      : `${state}${district}`;
-  rows.push({
-    bioguideId: r.bioguideId,
-    stateDistrict,
-    name: leg?.name ?? leg?.nameTitle ?? r.bioguideId,
-    lastName: leg?.lastName ?? '',
-    party: leg?.party ?? '',
-    vote: r.vote,
-  });
+  rows.push(toVoteRollRow(bioguideId, voteCast, legEntry?.data as LegislatorSmall | undefined, chamber));
 }
 
 const voteTitle = question ?? `Vote ${voteId}`;
 const pageTitle = `${voteTitle} - ${billTitle}`;
+const rollLine = [
+  vote.chamber,
+  vote.rollNumber ? `Roll #${vote.rollNumber}` : kindLabel,
+  vote.result,
+  vote.finalChamberVote ? 'Final chamber vote' : null,
+].filter(Boolean).join(' · ');
 ---
 
 <Layout title={pageTitle}>
   <h1>{voteTitle}<EditorialVoteActionLink voteId={fullVoteId} action={vote.question} /></h1>
   <p><strong>Bill:</strong> {billTitle}</p>
-  <p><strong>Chamber:</strong> {vote.chamber} — Roll #{vote.rollNumber} · {vote.result}{vote.finalChamberVote && <strong> · Final chamber vote</strong>}</p>
+  <p><strong>Chamber:</strong> {rollLine}</p>
   {vote.voteUrl && <p><a href={vote.voteUrl} target="_blank" rel="noopener noreferrer">View on official site</a></p>}
 
   <h2>Votes ({rows.length})</h2>
@@ -98,9 +80,8 @@ const pageTitle = `${voteTitle} - ${billTitle}`;
     rows={rows}
     stateHeader={chamber === 'senate' ? 'Seat' : 'District'}
     sortGroupName={`vr-${fullVoteId}`}
-    term={term}
-    billType={billType}
-    billNumber={billNumber}
-    voteId={voteId}
+    voteId={fullVoteId}
+    consent={consent}
+    kindLabel={kindLabel}
   />
 </Layout>
