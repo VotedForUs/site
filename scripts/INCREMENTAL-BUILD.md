@@ -225,12 +225,18 @@ by older cached versions. Only pages absent from the new build are restored.
 
 **2. Save cache and manifest (`_cache:save`):**
 ```bash
+rm -rf dist-cache
 mkdir -p dist-cache
 cp -r dist/. dist-cache/
 cp .current-digests.json dist-cache/.astro-manifest.json
 ```
-`dist-cache/` is updated to the complete new site output. The manifest is
-promoted so the next run can diff against it.
+`dist-cache/` is **replaced** by the complete new site output. A merge-copy
+left deleted families (the old `/v/` pages) in the cache, and the next
+incremental `_cache:merge` would put them back. The manifest is promoted so
+the next run can diff against it.
+
+`build:full` also runs `_check:no-legacy-v` so a leftover `dist/v` or
+`dist-cache/v` fails the build.
 
 ---
 

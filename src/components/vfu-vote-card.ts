@@ -21,12 +21,16 @@ export class VfuVoteCard extends HTMLElement {
     return this.getAttribute('close-href') ?? '';
   }
 
+  /**
+   * Bind native dialog close, share-copy, and member-context stepping.
+   */
   connectedCallback() {
     const dialog = this.querySelector('dialog');
     if (!dialog) return;
     this.#dialog = dialog;
     dialog.addEventListener('close', this.#onClose);
     this.querySelector('[data-copy]')?.addEventListener('click', this.#onCopy);
+    this.addEventListener('click', this.#onStep);
     if (this.hasAttribute('open') && !dialog.open) {
       dialog.showModal();
     }
@@ -35,13 +39,38 @@ export class VfuVoteCard extends HTMLElement {
   disconnectedCallback() {
     this.#dialog?.removeEventListener('close', this.#onClose);
     this.querySelector('[data-copy]')?.removeEventListener('click', this.#onCopy);
+    this.removeEventListener('click', this.#onStep);
   }
 
+  /**
+   * Bill context: return to the roll. Member context: the parent owns the URL.
+   */
   #onClose = () => {
+    if (this.getAttribute('context') === 'member') {
+      this.dispatchEvent(new CustomEvent('vfu-vote-close', { bubbles: true }));
+      return;
+    }
     const href = this.closeHref;
     if (href && href !== window.location.pathname) {
       window.history.pushState(null, '', href);
     }
+  };
+
+  /**
+   * On the member path, prev/next stay on this document.
+   *
+   * @param event - Click inside the dialog
+   */
+  #onStep = (event: MouseEvent) => {
+    if (this.getAttribute('context') !== 'member') return;
+    if (event.button !== 0 || event.metaKey || event.ctrlKey) return;
+    const link = (event.target as Element | null)?.closest?.('[data-prev], [data-next]');
+    if (!(link instanceof HTMLAnchorElement) || !link.getAttribute('href')) return;
+    event.preventDefault();
+    this.dispatchEvent(new CustomEvent('vfu-vote-step', {
+      bubbles: true,
+      detail: { href: link.getAttribute('href') },
+    }));
   };
 
   #onCopy = async () => {

@@ -59,3 +59,8 @@ export const UnanimousConsent = meta.story({
 export const NoBills = meta.story({
   args: { member: representative, bills: [] },
 });
+
+/** In-place card over a selected bill — prev/next stay on this member. */
+export const VoteCardOpen = meta.story({
+  args: { member: representative, bills, selected: 'hr-7008', selectedVote: '280', index: memberIndex },
+});

@@ -35,6 +35,8 @@ export const OpenOverMember = meta.story({
     bioguideId: 'R000579',
     context: 'member',
     closeHref: '/members/R000579/119/hr-2616',
+    prevHref: '/members/R000579/119/hr-2616/183',
+    nextHref: '/members/R000579/119/hr-1/190',
     shareUrl: 'https://votedfor.us/bills/119/hr/2616/184/R000579',
     card: votedSamples.short,
   },

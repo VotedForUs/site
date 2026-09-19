@@ -20,8 +20,14 @@
  * cold load of one of those links is served this same page by a rewrite, and
  * the `selected` attribute or the path tells the element what to open.
  */
+import { applyMemberVoteCard, memberVoteCardFields } from '../utils/memberVoteCard.js';
 import { castTag } from '../utils/legislatorVoteDisplay.js';
-import { parseMemberBillPath, parseVoteId, voteMemberPath } from '../utils/voteLinks.js';
+import {
+  memberVotePath,
+  parseMemberBillPath,
+  parseMemberVotePath,
+  parseVoteId,
+} from '../utils/voteLinks.js';
 
 /** One vote, as `votes.json` stores it. */
 type VoteRow = {
@@ -46,11 +52,24 @@ export class VfuMemberRecord extends HTMLElement {
   #data: Promise<{ votes: VoteRow[]; casts: Casts }> | null = null;
   /** The row lifted out of the list, so closing can put it back. */
   #liftedFrom: { row: HTMLElement; next: ChildNode | null } | null = null;
+  #billVotes: Array<{ vote: VoteRow; cast: string }> = [];
+  #card: HTMLElement | null = null;
+  #silentCardClose = false;
 
   get bioguide(): string { return this.getAttribute('bioguide') ?? ''; }
   get base(): string { return this.getAttribute('base') || '/'; }
   get indexBase(): string { return this.getAttribute('index-base') || '/finder/'; }
   get memberName(): string { return this.getAttribute('member-name') ?? ''; }
+  get nameTitle(): string { return this.getAttribute('name-title') ?? ''; }
+  get party(): string { return this.getAttribute('party') ?? ''; }
+  get stateName(): string { return this.getAttribute('state-name') ?? ''; }
+  get chamber(): 'sen' | 'rep' { return this.getAttribute('chamber') === 'sen' ? 'sen' : 'rep'; }
+  get state(): string { return this.getAttribute('state') ?? ''; }
+  get district(): number | undefined {
+    const raw = this.getAttribute('district');
+    return raw == null || raw === '' ? undefined : Number(raw);
+  }
+  get shareOrigin(): string { return this.getAttribute('share-origin') ?? 'https://votedfor.us'; }
 
   connectedCallback() {
     const bills = this.querySelector<HTMLElement>('[data-bills]');
@@ -62,16 +81,25 @@ export class VfuMemberRecord extends HTMLElement {
     this.#votes = selection.querySelector('[data-votes]') as HTMLElement;
 
     this.#bills.addEventListener('click', this.#onBillClick);
+    this.#votes.addEventListener('click', this.#onVoteClick);
     this.#selection.querySelector<HTMLAnchorElement>('[data-back]')?.addEventListener('click', this.#onBack as EventListener);
+    this.#card = this.querySelector('vfu-vote-card');
+    this.#card?.addEventListener('vfu-vote-close', this.#onCardClose);
+    this.#card?.addEventListener('vfu-vote-step', this.#onCardStep);
     window.addEventListener('popstate', this.#onPopState);
 
     // A shared link, or a story: open it without a click.
-    const initial = this.getAttribute('selected') ?? parseMemberBillPath(window.location.pathname)?.segment;
-    if (initial) void this.#open(initial, { push: false });
+    const votePath = parseMemberVotePath(window.location.pathname);
+    const billPath = parseMemberBillPath(window.location.pathname);
+    const initial = this.getAttribute('selected') ?? votePath?.segment ?? billPath?.segment;
+    const voteNumber = this.getAttribute('selected-vote') ?? votePath?.voteNumber;
+    if (initial) void this.#open(initial, { push: false, openVoteNumber: voteNumber });
   }
 
   disconnectedCallback() {
     window.removeEventListener('popstate', this.#onPopState);
+    this.#card?.removeEventListener('vfu-vote-close', this.#onCardClose);
+    this.#card?.removeEventListener('vfu-vote-step', this.#onCardStep);
   }
 
   #onBillClick = (event: MouseEvent) => {
@@ -89,7 +117,34 @@ export class VfuMemberRecord extends HTMLElement {
     this.#close({ push: true });
   };
 
+  #onVoteClick = (event: MouseEvent) => {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const row = (event.target as HTMLElement).closest<HTMLElement>('[data-vote-id]');
+    if (!row?.dataset.voteId) return;
+    event.preventDefault();
+    this.#showCard(row.dataset.voteId, { push: true });
+  };
+
+  #onCardClose = () => {
+    if (this.#silentCardClose) return;
+    const href = this.#card?.getAttribute('close-href');
+    if (href) this.#pushUrl(href);
+  };
+
+  #onCardStep = (event: Event) => {
+    const href = (event as CustomEvent<{ href?: string }>).detail?.href;
+    const parsed = href ? parseMemberVotePath(href) : null;
+    if (!parsed) return;
+    const match = this.#billVotes.find((entry) => parseVoteId(entry.vote.i)?.voteNumber === parsed.voteNumber);
+    if (match) this.#showCard(match.vote.i, { push: true });
+  };
+
   #onPopState = () => {
+    const votePath = parseMemberVotePath(window.location.pathname);
+    if (votePath) {
+      void this.#open(votePath.segment, { push: false, openVoteNumber: votePath.voteNumber });
+      return;
+    }
     const segment = parseMemberBillPath(window.location.pathname)?.segment;
     if (segment) void this.#open(segment, { push: false });
     else this.#close({ push: false });
@@ -118,7 +173,14 @@ export class VfuMemberRecord extends HTMLElement {
     return script?.textContent ? (JSON.parse(script.textContent) as T[]) : null;
   }
 
-  async #open(segment: string, { push }: { push: boolean }) {
+  /**
+   * Fold the bill list to `segment` and optionally open that bill's card.
+   *
+   * @param segment - `hr-2616` style bill id
+   * @param options.push - Whether to push the member×bill URL
+   * @param options.openVoteNumber - Trailing vote number to open in place
+   */
+  async #open(segment: string, { push, openVoteNumber }: { push: boolean; openVoteNumber?: string | null }) {
     const row = this.#bills.querySelector<HTMLElement>(`.result-row[data-segment="${cssEscape(segment)}"]`);
     if (!row) return; // not a bill this member voted on
 
@@ -139,6 +201,7 @@ export class VfuMemberRecord extends HTMLElement {
       // the later number is the later vote.
       .sort((a, b) => (a.vote.d === b.vote.d ? voteNumber(b.vote.i) - voteNumber(a.vote.i) : (a.vote.d < b.vote.d ? 1 : -1)));
 
+    this.#billVotes = rows;
     this.#lift(row, href);
     this.#votes.replaceChildren(this.#group(rows));
     this.#bills.hidden = true;
@@ -146,14 +209,68 @@ export class VfuMemberRecord extends HTMLElement {
 
     if (push) this.#pushUrl(href);
     this.#focusSelection();
+
+    if (openVoteNumber) {
+      const match = rows.find((entry) => parseVoteId(entry.vote.i)?.voteNumber === openVoteNumber);
+      if (match) this.#showCard(match.vote.i, { push: false });
+      else this.#hideCard();
+    } else {
+      this.#hideCard();
+    }
   }
 
   #close({ push }: { push: boolean }) {
+    this.#hideCard();
+    this.#billVotes = [];
     this.#restore();
     this.#votes.replaceChildren();
     this.#selection.hidden = true;
     this.#bills.hidden = false;
     if (push) this.#pushUrl(`${this.base.replace(/\/$/, '')}/members/${this.bioguide}`);
+  }
+
+  /**
+   * Fill and open the in-place card for one of this member's votes on the selected bill.
+   *
+   * @param voteId - Recorded vote id
+   * @param options.push - Whether to push the member-context card URL
+   */
+  #showCard(voteId: string, { push }: { push: boolean }) {
+    const index = this.#billVotes.findIndex((entry) => entry.vote.i === voteId);
+    if (index < 0 || !this.#card) return;
+    const { vote, cast } = this.#billVotes[index];
+    const billTitle = this.#selectedBill.querySelector('.row-title')?.textContent?.trim() ?? '';
+    const fields = memberVoteCardFields({
+      voteId,
+      bioguideId: this.bioguide,
+      voteCast: cast,
+      recordType: vote.k,
+      voteTitle: vote.q,
+      billTitle,
+      nameTitle: this.nameTitle,
+      party: this.party,
+      stateName: this.stateName,
+      chamber: this.chamber,
+      state: this.state,
+      district: this.district,
+      prevVoteId: this.#billVotes[index - 1]?.vote.i ?? null,
+      nextVoteId: this.#billVotes[index + 1]?.vote.i ?? null,
+      shareOrigin: this.shareOrigin,
+      base: this.base,
+    });
+    applyMemberVoteCard(this.#card, fields);
+    const dialog = this.#card.querySelector('dialog');
+    if (dialog && !dialog.open) dialog.showModal();
+    if (push) this.#pushUrl(memberVotePath(voteId, this.bioguide, this.base));
+  }
+
+  /** Close the dialog without treating it as a user dismiss. */
+  #hideCard() {
+    const dialog = this.#card?.querySelector('dialog');
+    if (!dialog?.open) return;
+    this.#silentCardClose = true;
+    dialog.close();
+    this.#silentCardClose = false;
   }
 
   /**
@@ -190,7 +307,8 @@ export class VfuMemberRecord extends HTMLElement {
 
   #voteRow(vote: VoteRow, cast: string): HTMLElement {
     const node = this.#clone('vote-row') as HTMLAnchorElement;
-    node.href = voteMemberPath(vote.i, this.bioguide, this.base);
+    node.href = memberVotePath(vote.i, this.bioguide, this.base);
+    node.dataset.voteId = vote.i;
 
     node.querySelector('.vote-chamber')!.textContent = vote.c === 'senate' ? 'Senate' : 'House';
     const roll = node.querySelector('.vote-roll') as HTMLElement;

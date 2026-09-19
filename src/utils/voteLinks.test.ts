@@ -16,6 +16,8 @@ import {
   votePath,
   voteMemberPath,
   parseVoteMemberPath,
+  memberVotePath,
+  parseMemberVotePath,
 } from './voteLinks.js';
 
 describe('parseVoteId', () => {
@@ -93,7 +95,30 @@ describe('parseMemberBillPath', () => {
     }
   });
 
-  it('does not match a vote under a bill — that is the card, not this', () => {
+  it('does not match a vote under a bill — that is the in-place card', () => {
     assert.equal(parseMemberBillPath('/members/R000579/119/hr-2616/184'), null);
+  });
+});
+
+describe('memberVotePath', () => {
+  it('builds the in-place card URL from the vote id', () => {
+    assert.equal(memberVotePath('119-HR-2616-184', 'R000579'), '/members/R000579/119/hr-2616/184');
+    assert.equal(memberVotePath('119-S-306-1', 'S000033'), '/members/S000033/119/s-306/1');
+  });
+
+  it('reads that path back', () => {
+    assert.deepEqual(parseMemberVotePath('/members/R000579/119/hr-2616/184'), {
+      bioguideId: 'R000579', term: '119', segment: 'hr-2616', voteNumber: '184',
+    });
+    assert.equal(parseMemberVotePath('/members/R000579/119/hr-2616'), null);
+    assert.equal(parseMemberVotePath('/bills/119/hr/2616/184/R000579'), null);
+  });
+
+  it('round-trips and carries a deployment base', () => {
+    const path = memberVotePath('119-HR-2616-184', 'R000579', '/site/');
+    assert.equal(path, '/site/members/R000579/119/hr-2616/184');
+    assert.deepEqual(parseMemberVotePath(path), {
+      bioguideId: 'R000579', term: '119', segment: 'hr-2616', voteNumber: '184',
+    });
   });
 });

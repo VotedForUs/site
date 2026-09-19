@@ -6,25 +6,30 @@ import { defineConfig } from 'astro/config';
 const base = process.env.BASE_URL ?? '/';
 
 /**
- * The member drill-down rewrite, in dev.
+ * The member drill-down rewrite, in `astro dev` and `astro preview`.
  *
  * A member's votes on one bill live at /members/{bioguide}/{term}/{billId},
  * which is not a document — there would be 267,511 of them. In production
  * `public/_redirects` tells Cloudflare Pages to serve that member's own page
  * for any deeper path, and `vfu-member-record` reads the path and opens the
- * bill. `_redirects` is a hosting feature, so the dev server needs the same
+ * bill. `_redirects` is a hosting feature, so the local servers need the same
  * rewrite or those URLs 404 locally and only locally.
+ *
+ * @param {{ middlewares: { use: (fn: Function) => void } }} server
  */
+function applyMemberDrillDownRewrite(server) {
+  server.middlewares.use((req, _res, next) => {
+    const match = /^(\/members\/[A-Za-z0-9]+)\/\d+\/[a-z]+-\d+(?:\/\d+)?\/?(\?.*)?$/.exec(req.url ?? '');
+    if (match) req.url = match[1];
+    next();
+  });
+}
+
 /** @type {import('vite').Plugin} */
 const memberDrillDownRewrite = {
   name: 'vfu-member-drilldown-rewrite',
-  configureServer(server) {
-    server.middlewares.use((req, _res, next) => {
-      const match = /^(\/members\/[A-Za-z0-9]+)\/\d+\/[a-z]+-\d+\/?(\?.*)?$/.exec(req.url ?? '');
-      if (match) req.url = match[1];
-      next();
-    });
-  },
+  configureServer: applyMemberDrillDownRewrite,
+  configurePreviewServer: applyMemberDrillDownRewrite,
 };
 
 // https://astro.build/config

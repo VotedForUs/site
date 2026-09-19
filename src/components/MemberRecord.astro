@@ -14,11 +14,13 @@
  */
 import ResultGroup from './ResultGroup.astro';
 import ResultRow from './ResultRow.astro';
-import { castTag, displayNameFromNameTitle, formatMemberSubtitle } from '../utils/legislatorVoteDisplay.js';
+import VfuVoteCard from './VfuVoteCard.astro';
+import { buildLegislatorVoteDisplay, castTag, displayNameFromNameTitle, formatMemberSubtitle } from '../utils/legislatorVoteDisplay.js';
 import { stateNameFromCode } from '../utils/stateNames.js';
 import { formatLegislationIdentifier } from '../utils/billLegislationFormat.js';
 import { billSegment, memberBillPath, memberPath } from '../utils/voteLinks.js';
 import { withBaseUrl } from '../utils/withBaseUrl.js';
+import { seoConfig } from '../../utils/seoConfig';
 
 /** One bill this member has voted on, resolved by the route. */
 export type MemberBill = {
@@ -53,30 +55,50 @@ interface Props {
   bills: MemberBill[];
   /** Open on this bill (a `hr-2616` segment) — a story, or a shared URL. */
   selected?: string;
+  /** Open the in-place card for this vote number on `selected`. */
+  selectedVote?: string;
   /** Vote data in place of the fetch — Storybook and tests. */
   index?: { votes: unknown[]; casts: Array<[number, string]> };
 }
 
-const { member, bills, selected, index } = Astro.props;
+const { member, bills, selected, selectedVote, index } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
 const chamber = member.type === 'sen' ? 'sen' : 'rep';
+const stateName = stateNameFromCode(member.state ?? '');
 const name = displayNameFromNameTitle(member.nameTitle);
 const subtitle = formatMemberSubtitle(
   member.party ?? '',
-  stateNameFromCode(member.state ?? ''),
+  stateName,
   chamber,
   member.state ?? '',
   member.district,
 );
+const cardDisplay = buildLegislatorVoteDisplay({
+  voteCast: 'Yea',
+  nameTitle: member.nameTitle,
+  party: member.party ?? '',
+  stateName,
+  chamber,
+  state: member.state ?? '',
+  district: member.district,
+});
 ---
 
 <vfu-member-record
   bioguide={member.bioguide}
   member-name={name}
+  name-title={member.nameTitle}
+  party={member.party ?? ''}
+  state-name={stateName}
+  chamber={chamber}
+  state={member.state ?? ''}
+  district={member.district != null ? String(member.district) : undefined}
+  share-origin={seoConfig.baseURL}
   base={base}
   index-base={withBaseUrl('/finder/', base)}
   selected={selected}
+  selected-vote={selectedVote}
 >
   <header class="selection-bar">
     {member.imageUrl && (
@@ -141,7 +163,7 @@ const subtitle = formatMemberSubtitle(
   {/* The shapes the element fills — the same components the rows above use. */}
   <template data-template="group"><ResultGroup /></template>
   <template data-template="vote-row">
-    <ResultRow>
+    <ResultRow data-astro-prefetch="false">
       <Fragment slot="lead">
         <span class="vote-lead">
           <span class="vote-chamber"></span>
@@ -154,6 +176,33 @@ const subtitle = formatMemberSubtitle(
       </Fragment>
     </ResultRow>
   </template>
+
+  <VfuVoteCard
+    voteId=""
+    bioguideId={member.bioguide}
+    context="member"
+    closeHref={memberPath(member.bioguide, base)}
+    shareUrl=""
+    card={{
+      nameTitle: member.nameTitle,
+      party: member.party ?? '',
+      stateName,
+      chamber,
+      state: member.state ?? '',
+      district: member.district,
+      imageUrl: member.imageUrl ?? '',
+      voteCast: 'Yea',
+      voteTitle: '',
+      legislationIdentifier: '',
+      legislationType: '',
+      billTitle: '',
+      displayName: cardDisplay.displayName,
+      memberSubtitle: cardDisplay.memberSubtitle,
+      voteVerb: cardDisplay.voteVerb,
+      emoji: cardDisplay.emoji,
+      actionLabel: cardDisplay.actionLabel,
+    }}
+  />
 </vfu-member-record>
 
 <script>

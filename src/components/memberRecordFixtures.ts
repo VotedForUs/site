@@ -10,6 +10,7 @@ import type { VoteTableVote } from './VoteTable.astro';
 type VoteRow = {
   i: string; b: string; c: 'house' | 'senate'; r?: number;
   q: string; x?: string; s?: string; d: string;
+  k?: 'unanimous-consent' | 'voice';
 };
 
 export const representative: MemberRecordMember = {
@@ -138,7 +139,7 @@ const voteIndex: VoteRow[] = [
   {
     i: '119-HR-1722-1', b: '119-HR-1722', c: 'house',
     q: 'On Passage', x: 'On passage Agreed to by voice vote.',
-    s: 'Passed', d: '2026-07-22',
+    s: 'Passed', d: '2026-07-22', k: 'voice',
   },
   {
     i: '119-HR-1-190', b: '119-HR-1', c: 'house', r: 190,
@@ -148,7 +149,7 @@ const voteIndex: VoteRow[] = [
   {
     i: '119-S-4465-1', b: '119-S-4465', c: 'senate',
     q: 'On Passage', x: 'Passed Senate without amendment by Unanimous Consent.',
-    s: 'Passed', d: '2026-08-20',
+    s: 'Passed', d: '2026-08-20', k: 'unanimous-consent',
   },
 ];
 

@@ -93,12 +93,45 @@ export function parseVoteMemberPath(
 
 /**
  * Read a member×bill path back: `/members/R000579/119/hr-2616` names the bill
- * a shared link opens on that member's page. The vote under it belongs to the
- * card, not here, so a fourth segment is not one of these.
+ * a shared link opens on that member's page. A fourth segment is the in-place
+ * card — see {@link parseMemberVotePath}.
  */
 export function parseMemberBillPath(pathname: string): { bioguideId: string; term: string; segment: string } | null {
   const match = /\/members\/([A-Za-z0-9]+)\/(\d+)\/([a-z]+-\d+)\/?$/.exec(pathname);
   return match ? { bioguideId: match[1], term: match[2], segment: match[3] } : null;
+}
+
+/**
+ * The in-place card over a member's record: `/members/{bio}/{term}/{type}-{n}/{vote}`.
+ * Share/og still use {@link voteMemberPath}; this URL is the client route.
+ *
+ * @param voteId - Recorded vote id (`119-HR-2616-184`)
+ * @param bioguideId - Member id
+ * @param base - Deployment base
+ * @returns Member-context card path
+ */
+export function memberVotePath(voteId: string, bioguideId: string, base = '/'): string {
+  const ref = parseVoteId(voteId);
+  if (!ref) return memberPath(bioguideId, base);
+  return withBaseUrl(
+    `/members/${bioguideId}/${ref.term}/${billSegment(ref.billType, ref.billNumber)}/${ref.voteNumber}`,
+    base,
+  );
+}
+
+/**
+ * Read a member-context card URL back: `/members/R000579/119/hr-2616/184`.
+ *
+ * @param pathname - Location pathname
+ * @returns Path parts, or null when this is not a member card URL
+ */
+export function parseMemberVotePath(
+  pathname: string,
+): { bioguideId: string; term: string; segment: string; voteNumber: string } | null {
+  const match = /\/members\/([A-Za-z0-9]+)\/(\d+)\/([a-z]+-\d+)\/(\d+)\/?$/.exec(pathname);
+  return match
+    ? { bioguideId: match[1], term: match[2], segment: match[3], voteNumber: match[4] }
+    : null;
 }
 
 export function memberPath(bioguideId: string, base = '/'): string {

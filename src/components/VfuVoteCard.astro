@@ -44,10 +44,12 @@ const {
       <button type="submit" command="close" value="close">Close</button>
     </form>
     <nav class="vote-card-nav" aria-label="Adjacent votes">
-      {prevHref ? <a data-prev href={prevHref}>Previous</a> : <span>Previous</span>}
-      {nextHref ? <a data-next href={nextHref}>Next</a> : <span>Next</span>}
+      <a data-prev href={prevHref ?? undefined} hidden={!prevHref}>Previous</a>
+      <a data-next href={nextHref ?? undefined} hidden={!nextHref}>Next</a>
     </nav>
-    <VotedCard {...card} />
+    <div class="vote-card-face">
+      <VotedCard {...card} />
+    </div>
     <label class="vote-card-share">
       <span>Share vote</span>
       <input data-share type="text" readonly value={shareUrl} />
@@ -85,5 +87,17 @@ const {
   .vote-card-share input {
     flex: 1 1 12rem;
     min-width: 0;
+  }
+
+  /* VotedCard is a 1200×630 OG face. Scale it to the dialog without changing the capture size. */
+  .vote-card-face {
+    width: min(36rem, calc(100vw - 3rem));
+    aspect-ratio: 1200 / 630;
+    overflow: hidden;
+  }
+
+  .vote-card-face :global(article) {
+    transform: scale(calc(min(36rem, 100vw - 3rem) / 1200px));
+    transform-origin: top left;
   }
 </style>
