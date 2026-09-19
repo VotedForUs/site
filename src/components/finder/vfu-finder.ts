@@ -65,6 +65,32 @@ async function fetchRows<T>(url: string): Promise<T[]> {
   if (!response.ok) throw new Error(`${url}: ${response.status}`);
   return response.json() as Promise<T[]>;
 }
+/**
+ * Turn a headshot that failed to load into the blank the row would have had.
+ *
+ * `i` in the index decides which members get a portrait, and a member without
+ * one gets the blank element rather than an image — the row must never carry a
+ * broken picture. A load can still fail for reasons the index cannot know
+ * about: a request cancelled mid-flight, a reader offline, a portrait removed
+ * from `public/images/legislators`. An `<img>` never retries, so without this
+ * the broken glyph stays for the life of the page — the same wrong row, in by
+ * a different door.
+ *
+ * Dropping `src` is what removes the glyph: an image with no source renders
+ * nothing at all. The class is already the blank's, and `data-blank` marks it
+ * as one.
+ */
+function blankHeadshot(img: HTMLImageElement): void {
+  img.removeAttribute('src');
+  img.removeAttribute('loading');
+  img.setAttribute('data-blank', '');
+}
+
+/** A load that already failed: finished, with no picture to show for it. */
+function headshotFailed(img: HTMLImageElement): boolean {
+  return img.hasAttribute('src') && img.complete && img.naturalWidth === 0;
+}
+
 type FinderState = { mode: Mode; query: string; filters: Filters; reason?: QueryReason };
 /** One labelled, counted result group. `kind` is the bill match kind. */
 type Group<T> = { key: string; label: string; rows: T[]; kind?: MatchKind };
@@ -102,6 +128,14 @@ export class VfuFinder extends HTMLElement {
     });
     window.addEventListener('popstate', this.#onPopState);
 
+    // `error` does not bubble, so this listens in the capture phase, and on
+    // the element rather than the row, so every row rendered later is covered
+    // by the one listener.
+    this.addEventListener('error', this.#onHeadshotError, true);
+    // The rows in the page were loading before this element upgraded. Anything
+    // that failed in that window has had its one `error` event already.
+    this.#blankFailedHeadshots();
+
     // The opening view is in the page already. Only render if the URL asks for
     // something else — a seeded query, or the bills side.
     const prerendered = !!this.#results.querySelector('.result-row');
@@ -110,6 +144,21 @@ export class VfuFinder extends HTMLElement {
 
   disconnectedCallback() {
     window.removeEventListener('popstate', this.#onPopState);
+    this.removeEventListener('error', this.#onHeadshotError, true);
+  }
+
+  #onHeadshotError = (event: Event) => {
+    const target = event.target;
+    if (target instanceof HTMLImageElement && target.hasAttribute('data-headshot')) {
+      blankHeadshot(target);
+    }
+  };
+
+  /** Sweep rows already in the page for loads that failed before we listened. */
+  #blankFailedHeadshots(): void {
+    for (const img of this.querySelectorAll<HTMLImageElement>('img[data-headshot]')) {
+      if (headshotFailed(img)) blankHeadshot(img);
+    }
   }
 
   #onPopState = () => {
