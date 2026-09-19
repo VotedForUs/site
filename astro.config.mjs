@@ -15,7 +15,7 @@ const base = process.env.BASE_URL ?? '/';
  * bill. `_redirects` is a hosting feature, so the local servers need the same
  * rewrite or those URLs 404 locally and only locally.
  *
- * @param {{ middlewares: { use: (fn: Function) => void } }} server
+ * @param {import('vite').ViteDevServer | import('vite').PreviewServer} server
  */
 function applyMemberDrillDownRewrite(server) {
   server.middlewares.use((req, _res, next) => {

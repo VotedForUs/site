@@ -235,8 +235,16 @@ left deleted families (the old `/v/` pages) in the cache, and the next
 incremental `_cache:merge` would put them back. The manifest is promoted so
 the next run can diff against it.
 
+`_cache:merge` is a no-op when `FORCE_FULL_REBUILD=true`, so a full rebuild
+cannot copy leftover `/v/` pages back in. `_cache:save` hard-links on Linux
+(`cp -al`) so the replace does not need a second copy of the site on disk.
+
 `build:full` also runs `_check:no-legacy-v` so a leftover `dist/v` or
 `dist-cache/v` fails the build.
+
+GitHub Actions skips restoring `dist-cache/` on a dispatched full rebuild.
+The hosted runner has ~14 GB of disk; the previous cache plus a new 200k-page
+`dist/` will not both fit. That is what killed run 35426241038.
 
 ---
 
@@ -265,8 +273,8 @@ paths from `dist-cache/`.
 |--------|-------------|
 | `npm run build` | Full incremental build pipeline (check → build → merge → save) |
 | `npm run build:test` | Same pipeline with `BILLS_PER_TYPE_LIMIT=2 LEGISLATORS_LIMIT=20` |
-| `npm run build:full` | Force full rebuild (`FORCE_FULL_REBUILD=true`), replace cache |
-| `FORCE_FULL_REBUILD=true npm run build` | Equivalent to `build:full` |
+| `npm run build:full` | Force full rebuild (`FORCE_FULL_REBUILD=true`), skip merge, replace cache |
+| `FORCE_FULL_REBUILD=true npm run build` | Same emit as `build:full`; still runs incremental-check first |
 
 ---
 
