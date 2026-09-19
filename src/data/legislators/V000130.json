@@ -9,7 +9,7 @@
   "bioguideId": "V000130",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 3102,
+    "count": 3171,
     "url": "https://api.congress.gov/v3/member/V000130/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 86,
+    "count": 92,
     "url": "https://api.congress.gov/v3/member/V000130/sponsored-legislation"
   },
   "state": "California",
@@ -144,7 +144,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "govtrack": 412522,
     "bioguide": "V000130",

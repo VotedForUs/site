@@ -9,7 +9,7 @@
   "bioguideId": "W000790",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 1211,
+    "count": 1292,
     "url": "https://api.congress.gov/v3/member/W000790/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 229,
+    "count": 287,
     "url": "https://api.congress.gov/v3/member/W000790/sponsored-legislation"
   },
   "state": "Georgia",

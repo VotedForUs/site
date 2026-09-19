@@ -9,7 +9,7 @@
   "bioguideId": "M001215",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 1173,
+    "count": 1218,
     "url": "https://api.congress.gov/v3/member/M001215/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 122,
+    "count": 134,
     "url": "https://api.congress.gov/v3/member/M001215/sponsored-legislation"
   },
   "state": "Iowa",
@@ -104,7 +104,7 @@
       "stateName": "Iowa"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "M001215",
     "fec": [

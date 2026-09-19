@@ -9,7 +9,7 @@
   "bioguideId": "D000618",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 2458,
+    "count": 2529,
     "url": "https://api.congress.gov/v3/member/D000618/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 624,
+    "count": 644,
     "url": "https://api.congress.gov/v3/member/D000618/sponsored-legislation"
   },
   "state": "Montana",

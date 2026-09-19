@@ -9,7 +9,7 @@
   "bioguideId": "L000601",
   "birthYear": "1976",
   "cosponsoredLegislation": {
-    "count": 899,
+    "count": 973,
     "url": "https://api.congress.gov/v3/member/L000601/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 41,
+    "count": 49,
     "url": "https://api.congress.gov/v3/member/L000601/sponsored-legislation"
   },
   "state": "Ohio",
@@ -85,7 +85,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "L000601",
     "fec": [
@@ -98,6 +98,7 @@
     "votesmart": 186237,
     "google_entity_id": "kg:/g/11rn585y5q",
     "pictorial": 13195,
+    "ballotpedia": "Greg Landsman",
     "twitter": "repgreglandsman",
     "facebook": "RepGregLandsman",
     "instagram": "repgreglandsman"

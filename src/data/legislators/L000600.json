@@ -9,7 +9,7 @@
   "bioguideId": "L000600",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 583,
+    "count": 677,
     "url": "https://api.congress.gov/v3/member/L000600/cosponsored-legislation"
   },
   "currentMember": true,
@@ -73,7 +73,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 73,
+    "count": 81,
     "url": "https://api.congress.gov/v3/member/L000600/sponsored-legislation"
   },
   "state": "New York",
@@ -98,7 +98,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "L000600",
     "fec": [
@@ -111,6 +111,7 @@
     "google_entity_id": "kg:/g/11g119yyj8",
     "votesmart": 208663,
     "pictorial": 13191,
+    "ballotpedia": "Nick Langworthy",
     "twitter": "RepLangworthy",
     "facebook": "RepLangworthy",
     "instagram": "replangworthy"

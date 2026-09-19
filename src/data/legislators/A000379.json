@@ -9,7 +9,7 @@
   "bioguideId": "A000379",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 330,
+    "count": 383,
     "url": "https://api.congress.gov/v3/member/A000379/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 45,
+    "count": 54,
     "url": "https://api.congress.gov/v3/member/A000379/sponsored-legislation"
   },
   "state": "Missouri",
@@ -85,7 +85,7 @@
       "stateName": "Missouri"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "A000379",
     "fec": [
@@ -94,9 +94,10 @@
     "govtrack": 456909,
     "opensecrets": "N00049617",
     "wikidata": "Q115137637",
-    "wikipedia": "Mark Alford (politician)",
+    "wikipedia": "Mark Alford",
     "votesmart": 205858,
     "pictorial": 13118,
+    "ballotpedia": "Mark Alford",
     "twitter": "RepMarkAlford",
     "facebook": "100089595940547",
     "instagram": "RepMarkAlford",

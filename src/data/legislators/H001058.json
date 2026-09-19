@@ -9,7 +9,7 @@
   "bioguideId": "H001058",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 1675,
+    "count": 1726,
     "url": "https://api.congress.gov/v3/member/H001058/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 168,
+    "count": 177,
     "url": "https://api.congress.gov/v3/member/H001058/sponsored-legislation"
   },
   "state": "Michigan",
@@ -136,7 +136,7 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "H001058",
     "thomas": "02028",

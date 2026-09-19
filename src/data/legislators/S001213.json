@@ -9,7 +9,7 @@
   "bioguideId": "S001213",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 603,
+    "count": 618,
     "url": "https://api.congress.gov/v3/member/S001213/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 90,
+    "count": 99,
     "url": "https://api.congress.gov/v3/member/S001213/sponsored-legislation"
   },
   "state": "Wisconsin",
@@ -96,7 +96,7 @@
       "stateName": "Wisconsin"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "S001213",
     "fec": [

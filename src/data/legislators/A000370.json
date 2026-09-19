@@ -9,7 +9,7 @@
   "bioguideId": "A000370",
   "birthYear": "1946",
   "cosponsoredLegislation": {
-    "count": 2330,
+    "count": 2407,
     "url": "https://api.congress.gov/v3/member/A000370/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 176,
+    "count": 185,
     "url": "https://api.congress.gov/v3/member/A000370/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -139,7 +139,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2025-09-24T07:40:14Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "A000370",
     "thomas": "02201",

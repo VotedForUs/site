@@ -9,7 +9,7 @@
   "bioguideId": "B001295",
   "birthYear": "1960",
   "cosponsoredLegislation": {
-    "count": 1617,
+    "count": 1666,
     "url": "https://api.congress.gov/v3/member/B001295/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 137,
+    "count": 140,
     "url": "https://api.congress.gov/v3/member/B001295/sponsored-legislation"
   },
   "state": "Illinois",
@@ -125,7 +125,7 @@
       "stateName": "Illinois"
     }
   ],
-  "updateDate": "2025-09-24T07:40:14Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "B001295",
     "fec": [

@@ -9,7 +9,7 @@
   "bioguideId": "K000399",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 565,
+    "count": 692,
     "url": "https://api.congress.gov/v3/member/K000399/cosponsored-legislation"
   },
   "currentMember": true,
@@ -83,7 +83,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 74,
+    "count": 82,
     "url": "https://api.congress.gov/v3/member/K000399/sponsored-legislation"
   },
   "state": "Virginia",
@@ -108,7 +108,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:19Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "K000399",
     "fec": [
@@ -121,6 +121,7 @@
     "google_entity_id": "kg:/g/11gbjlv65q",
     "votesmart": 186387,
     "pictorial": 13301,
+    "ballotpedia": "Jennifer Kiggans",
     "twitter": "RepJenKiggans",
     "facebook": "repjenkiggans",
     "instagram": "repjenkiggans",

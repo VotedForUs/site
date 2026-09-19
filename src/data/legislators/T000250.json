@@ -9,7 +9,7 @@
   "bioguideId": "T000250",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 2796,
+    "count": 2803,
     "url": "https://api.congress.gov/v3/member/T000250/cosponsored-legislation"
   },
   "currentMember": true,
@@ -70,7 +70,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1036,
+    "count": 1076,
     "url": "https://api.congress.gov/v3/member/T000250/sponsored-legislation"
   },
   "state": "South Dakota",

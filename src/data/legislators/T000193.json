@@ -9,7 +9,7 @@
   "bioguideId": "T000193",
   "birthYear": "1948",
   "cosponsoredLegislation": {
-    "count": 5505,
+    "count": 5580,
     "url": "https://api.congress.gov/v3/member/T000193/cosponsored-legislation"
   },
   "currentMember": true,
@@ -62,7 +62,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 255,
+    "count": 256,
     "url": "https://api.congress.gov/v3/member/T000193/sponsored-legislation"
   },
   "state": "Mississippi",
@@ -237,7 +237,7 @@
       "stateName": "Mississippi"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "T000193",
     "thomas": "01151",

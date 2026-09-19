@@ -9,7 +9,7 @@
   "bioguideId": "D000617",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 3213,
+    "count": 3333,
     "url": "https://api.congress.gov/v3/member/D000617/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 149,
+    "count": 154,
     "url": "https://api.congress.gov/v3/member/D000617/sponsored-legislation"
   },
   "state": "Washington",
@@ -149,7 +149,7 @@
       "stateName": "Washington"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "D000617",
     "govtrack": 412505,

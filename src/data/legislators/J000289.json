@@ -9,7 +9,7 @@
   "bioguideId": "J000289",
   "birthYear": "1964",
   "cosponsoredLegislation": {
-    "count": 1317,
+    "count": 1323,
     "url": "https://api.congress.gov/v3/member/J000289/cosponsored-legislation"
   },
   "currentMember": true,
@@ -156,7 +156,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "J000289",
     "thomas": "01868",
@@ -169,7 +169,7 @@
     "cspan": 1022879,
     "wikipedia": "Jim Jordan",
     "house_history": 16067,
-    "ballotpedia": "Jim Jordan",
+    "ballotpedia": "Jim Jordan (Ohio)",
     "maplight": 711,
     "icpsr": 20738,
     "wikidata": "Q186215",

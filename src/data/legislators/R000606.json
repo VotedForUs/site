@@ -9,7 +9,7 @@
   "bioguideId": "R000606",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 3673,
+    "count": 3730,
     "url": "https://api.congress.gov/v3/member/R000606/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 124,
+    "count": 144,
     "url": "https://api.congress.gov/v3/member/R000606/sponsored-legislation"
   },
   "state": "Maryland",
@@ -106,7 +106,7 @@
       "stateName": "Maryland"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "R000606",
     "govtrack": 412708,

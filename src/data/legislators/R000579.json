@@ -9,7 +9,7 @@
   "bioguideId": "R000579",
   "birthYear": "1982",
   "cosponsoredLegislation": {
-    "count": 567,
+    "count": 611,
     "url": "https://api.congress.gov/v3/member/R000579/cosponsored-legislation"
   },
   "currentMember": true,
@@ -78,7 +78,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 37,
+    "count": 41,
     "url": "https://api.congress.gov/v3/member/R000579/sponsored-legislation"
   },
   "state": "New York",
@@ -113,7 +113,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "R000579",
     "fec": [

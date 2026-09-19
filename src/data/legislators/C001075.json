@@ -9,7 +9,7 @@
   "bioguideId": "C001075",
   "birthYear": "1957",
   "cosponsoredLegislation": {
-    "count": 2475,
+    "count": 2519,
     "url": "https://api.congress.gov/v3/member/C001075/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 684,
+    "count": 727,
     "url": "https://api.congress.gov/v3/member/C001075/sponsored-legislation"
   },
   "state": "Louisiana",

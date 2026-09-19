@@ -9,7 +9,7 @@
   "bioguideId": "G000606",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 153,
+    "count": 424,
     "url": "https://api.congress.gov/v3/member/G000606/cosponsored-legislation"
   },
   "currentMember": true,
@@ -44,7 +44,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 6,
+    "count": 11,
     "url": "https://api.congress.gov/v3/member/G000606/sponsored-legislation"
   },
   "state": "Arizona",
@@ -59,7 +59,7 @@
       "stateName": "Arizona"
     }
   ],
-  "updateDate": "2025-11-21T08:40:18Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "G000606",
     "fec": [
@@ -69,7 +69,8 @@
     "wikipedia": "Adelita Grijalva",
     "wikidata": "Q134612342",
     "ballotpedia": "Adelita Grijalva",
-    "house_history": 36507227802
+    "house_history": 36507227802,
+    "votesmart": 196554
   },
   "name": {
     "first": "Adelita",
@@ -88,7 +89,7 @@
     "state": "AZ",
     "district": 7,
     "party": "Democrat",
-    "url": "https://grijalva.house.gov/",
+    "url": "https://grijalva.house.gov",
     "address": "1203 Longworth House Office Building Washington DC 20515-0307",
     "office": "1203 Longworth House Office Building",
     "phone": "202-225-2435"

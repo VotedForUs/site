@@ -9,7 +9,7 @@
   "bioguideId": "G000593",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 734,
+    "count": 767,
     "url": "https://api.congress.gov/v3/member/G000593/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 54,
+    "count": 57,
     "url": "https://api.congress.gov/v3/member/G000593/sponsored-legislation"
   },
   "state": "Florida",
@@ -99,7 +99,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "G000593",
     "fec": [

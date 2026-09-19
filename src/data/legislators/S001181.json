@@ -9,7 +9,7 @@
   "bioguideId": "S001181",
   "birthYear": "1947",
   "cosponsoredLegislation": {
-    "count": 4213,
+    "count": 4357,
     "url": "https://api.congress.gov/v3/member/S001181/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1162,
+    "count": 1255,
     "url": "https://api.congress.gov/v3/member/S001181/sponsored-legislation"
   },
   "state": "New Hampshire",

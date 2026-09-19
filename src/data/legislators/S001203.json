@@ -9,7 +9,7 @@
   "bioguideId": "S001203",
   "birthYear": "1958",
   "cosponsoredLegislation": {
-    "count": 2737,
+    "count": 2827,
     "url": "https://api.congress.gov/v3/member/S001203/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 331,
+    "count": 357,
     "url": "https://api.congress.gov/v3/member/S001203/sponsored-legislation"
   },
   "state": "Minnesota",

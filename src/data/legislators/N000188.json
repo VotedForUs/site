@@ -9,7 +9,7 @@
   "bioguideId": "N000188",
   "birthYear": "1958",
   "cosponsoredLegislation": {
-    "count": 1806,
+    "count": 1850,
     "url": "https://api.congress.gov/v3/member/N000188/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 104,
+    "count": 108,
     "url": "https://api.congress.gov/v3/member/N000188/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -126,7 +126,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2025-09-24T07:40:14Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "N000188",
     "thomas": "02202",

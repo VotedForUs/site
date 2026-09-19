@@ -9,7 +9,7 @@
   "bioguideId": "S001198",
   "birthYear": "1964",
   "cosponsoredLegislation": {
-    "count": 1762,
+    "count": 1819,
     "url": "https://api.congress.gov/v3/member/S001198/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 529,
+    "count": 549,
     "url": "https://api.congress.gov/v3/member/S001198/sponsored-legislation"
   },
   "state": "Alaska",

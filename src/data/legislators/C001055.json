@@ -9,7 +9,7 @@
   "bioguideId": "C001055",
   "birthYear": "1952",
   "cosponsoredLegislation": {
-    "count": 3020,
+    "count": 3127,
     "url": "https://api.congress.gov/v3/member/C001055/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 132,
+    "count": 138,
     "url": "https://api.congress.gov/v3/member/C001055/sponsored-legislation"
   },
   "state": "Hawaii",
@@ -126,7 +126,7 @@
       "stateName": "Hawaii"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "C001055",
     "fec": [

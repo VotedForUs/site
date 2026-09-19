@@ -9,7 +9,7 @@
   "bioguideId": "C001114",
   "birthYear": "1960",
   "cosponsoredLegislation": {
-    "count": 896,
+    "count": 972,
     "url": "https://api.congress.gov/v3/member/C001114/cosponsored-legislation"
   },
   "currentMember": true,
@@ -80,7 +80,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 190,
+    "count": 212,
     "url": "https://api.congress.gov/v3/member/C001114/sponsored-legislation"
   },
   "state": "Utah",
@@ -145,7 +145,7 @@
     "govtrack": 412740,
     "opensecrets": "N00041221",
     "votesmart": 123390,
-    "wikipedia": "John Curtis (Utah politician)",
+    "wikipedia": "John Curtis",
     "wikidata": "Q6253810",
     "ballotpedia": "John Curtis (Utah)",
     "google_entity_id": "kg:/m/0bmdhtb",

@@ -9,7 +9,7 @@
   "bioguideId": "N000189",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 1542,
+    "count": 1570,
     "url": "https://api.congress.gov/v3/member/N000189/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 165,
+    "count": 168,
     "url": "https://api.congress.gov/v3/member/N000189/sponsored-legislation"
   },
   "state": "Washington",
@@ -125,7 +125,7 @@
       "stateName": "Washington"
     }
   ],
-  "updateDate": "2025-09-24T07:40:14Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "N000189",
     "fec": [

@@ -9,7 +9,7 @@
   "bioguideId": "A000381",
   "birthYear": "1992",
   "cosponsoredLegislation": {
-    "count": 427,
+    "count": 547,
     "url": "https://api.congress.gov/v3/member/A000381/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 26,
+    "count": 32,
     "url": "https://api.congress.gov/v3/member/A000381/sponsored-legislation"
   },
   "state": "Arizona",
@@ -75,7 +75,7 @@
       "stateName": "Arizona"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "A000381",
     "fec": [
@@ -85,6 +85,9 @@
     "opensecrets": "N00052497",
     "wikipedia": "Yassamin Ansari",
     "wikidata": "Q122226202",
+    "votesmart": 201437,
+    "ballotpedia": "Yassamin Ansari",
+    "google_entity_id": "kg:/g/11l246bt1h",
     "twitter": "RepYassAnsari",
     "facebook": "RepYassAnsari",
     "instagram": "RepYassAnsari"

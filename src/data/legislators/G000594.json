@@ -1,18 +1,11 @@
 {
-  "addressInformation": {
-    "city": "Washington",
-    "district": "DC",
-    "officeAddress": "2239 Rayburn House Office Building",
-    "phoneNumber": "(202) 225-4511",
-    "zipCode": 20515
-  },
   "bioguideId": "G000594",
   "birthYear": "1980",
   "cosponsoredLegislation": {
     "count": 529,
     "url": "https://api.congress.gov/v3/member/G000594/cosponsored-legislation"
   },
-  "currentMember": true,
+  "currentMember": false,
   "depiction": {
     "attribution": "Image courtesy of the Member",
     "imageUrl": "/images/legislators/G000594.jpg"
@@ -23,7 +16,6 @@
   "honorificName": "Mr.",
   "invertedOrderName": "Gonzales, Tony",
   "lastName": "Gonzales",
-  "officialWebsiteUrl": "https://gonzales.house.gov",
   "partyHistory": [
     {
       "partyAbbreviation": "R",
@@ -98,13 +90,14 @@
       "chamber": "House of Representatives",
       "congress": 119,
       "district": 23,
+      "endYear": 2026,
       "memberType": "Representative",
       "startYear": 2025,
       "stateCode": "TX",
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-04-15T19:41:13Z",
   "id": {
     "bioguide": "G000594",
     "fec": [
@@ -116,9 +109,8 @@
     "google_entity_id": "kg:/g/11fs52clcr",
     "wikipedia": "Tony Gonzales",
     "pictorial": 13280,
-    "twitter": "RepTonyGonzales",
-    "twitter_id": 1343627416120533000,
-    "facebook": "RepTonyGonzales"
+    "votesmart": 188225,
+    "ballotpedia": "Tony Gonzales"
   },
   "name": {
     "first": "Ernest",
@@ -134,7 +126,7 @@
   "latest_term": {
     "type": "rep",
     "start": "2025-01-03",
-    "end": "2027-01-03",
+    "end": "2026-04-14",
     "state": "TX",
     "district": 23,
     "party": "Republican",

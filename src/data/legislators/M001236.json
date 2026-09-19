@@ -9,7 +9,7 @@
   "bioguideId": "M001236",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 222,
+    "count": 290,
     "url": "https://api.congress.gov/v3/member/M001236/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 23,
+    "count": 31,
     "url": "https://api.congress.gov/v3/member/M001236/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -75,7 +75,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "M001236",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00053948",
     "wikipedia": "Tim Moore (North Carolina politician)",
     "wikidata": "Q7804002",
+    "votesmart": 41316,
+    "ballotpedia": "Timothy K. Moore",
     "twitter": "RepTimMooreNC",
     "facebook": "CongressmanTimMoore",
     "instagram": "reptimmoore"

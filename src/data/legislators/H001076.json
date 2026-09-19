@@ -9,7 +9,7 @@
   "bioguideId": "H001076",
   "birthYear": "1958",
   "cosponsoredLegislation": {
-    "count": 2440,
+    "count": 2512,
     "url": "https://api.congress.gov/v3/member/H001076/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 364,
+    "count": 415,
     "url": "https://api.congress.gov/v3/member/H001076/sponsored-legislation"
   },
   "state": "New Hampshire",

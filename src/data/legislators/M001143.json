@@ -9,7 +9,7 @@
   "bioguideId": "M001143",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 6864,
+    "count": 6952,
     "url": "https://api.congress.gov/v3/member/M001143/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 170,
+    "count": 173,
     "url": "https://api.congress.gov/v3/member/M001143/sponsored-legislation"
   },
   "state": "Minnesota",
@@ -194,7 +194,7 @@
       "stateName": "Minnesota"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "M001143",
     "thomas": "01653",
