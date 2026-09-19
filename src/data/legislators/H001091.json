@@ -9,7 +9,7 @@
   "bioguideId": "H001091",
   "birthYear": "1983",
   "cosponsoredLegislation": {
-    "count": 883,
+    "count": 923,
     "url": "https://api.congress.gov/v3/member/H001091/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 84,
+    "count": 95,
     "url": "https://api.congress.gov/v3/member/H001091/sponsored-legislation"
   },
   "state": "Iowa",
@@ -104,7 +104,7 @@
       "stateName": "Iowa"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "H001091",
     "fec": [

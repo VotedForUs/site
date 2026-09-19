@@ -9,7 +9,7 @@
   "bioguideId": "S001183",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 1497,
+    "count": 1523,
     "url": "https://api.congress.gov/v3/member/S001183/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 181,
+    "count": 190,
     "url": "https://api.congress.gov/v3/member/S001183/sponsored-legislation"
   },
   "state": "Arizona",
@@ -145,7 +145,7 @@
       "stateName": "Arizona"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "S001183",
     "thomas": "01994",

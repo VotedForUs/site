@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/6047/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-02",
+        "committees": [
+          {
+            "name": "Veterans' Affairs Committee",
+            "systemCode": "ssva00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssva00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-21",
@@ -687,9 +702,8 @@
   "congress": 119,
   "introducedDate": "2025-11-17",
   "latestAction": {
-    "actionDate": "2026-05-21",
-    "actionTime": "18:20:49",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-02",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6047",
   "number": "6047",
@@ -702,6 +716,22 @@
   "title": "Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026",
   "titles": {
     "titles": [
+      {
+        "title": "Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:57:18Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-04T03:08:35Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -721,12 +751,6 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-03T05:08:25Z"
-      },
-      {
-        "title": "Sharri Briley and Eric Edmundson Veterans Benefits Expansion Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-04-03T05:38:27Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -757,9 +781,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-03T05:08:25Z",
-  "updateDateIncludingText": "2026-06-03T10:18:40Z",
+  "updateDate": "2026-07-23T22:41:30Z",
+  "updateDateIncludingText": "2026-07-23T22:41:30Z",
   "id": "119-HR-6047",
-  "lastActionDate": "2026-05-21",
+  "lastActionDate": "2026-06-02",
   "lastRecordedVoteDate": "2026-05-21T22:20:47Z"
 }

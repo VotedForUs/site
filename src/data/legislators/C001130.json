@@ -9,7 +9,7 @@
   "bioguideId": "C001130",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 909,
+    "count": 975,
     "url": "https://api.congress.gov/v3/member/C001130/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 42,
+    "count": 43,
     "url": "https://api.congress.gov/v3/member/C001130/sponsored-legislation"
   },
   "state": "Texas",
@@ -76,11 +76,12 @@
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:19Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "C001130",
     "fec": [
-      "H2TX30178"
+      "H2TX30178",
+      "S6TX00552"
     ],
     "govtrack": 456944,
     "opensecrets": "N00049840",
@@ -89,6 +90,7 @@
     "google_entity_id": "kg:/g/11j90m9942",
     "votesmart": 188486,
     "pictorial": 13287,
+    "ballotpedia": "Jasmine Crockett",
     "twitter": "RepJasmine",
     "twitter_id": 1609974443631157200,
     "facebook": "RepJasmine",

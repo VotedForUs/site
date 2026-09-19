@@ -9,7 +9,7 @@
   "bioguideId": "P000614",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 2048,
+    "count": 2119,
     "url": "https://api.congress.gov/v3/member/P000614/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 165,
+    "count": 180,
     "url": "https://api.congress.gov/v3/member/P000614/sponsored-legislation"
   },
   "state": "New Hampshire",
@@ -105,11 +105,12 @@
       "stateName": "New Hampshire"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "P000614",
     "fec": [
-      "H8NH01210"
+      "H8NH01210",
+      "S6NH00141"
     ],
     "govtrack": 412795,
     "wikipedia": "Chris Pappas (American politician)",

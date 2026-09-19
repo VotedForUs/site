@@ -9,7 +9,7 @@
   "bioguideId": "A000148",
   "birthYear": "1988",
   "cosponsoredLegislation": {
-    "count": 946,
+    "count": 992,
     "url": "https://api.congress.gov/v3/member/A000148/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 23,
+    "count": 25,
     "url": "https://api.congress.gov/v3/member/A000148/sponsored-legislation"
   },
   "state": "Massachusetts",
@@ -86,7 +86,7 @@
       "stateName": "Massachusetts"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "A000148",
     "fec": [
@@ -98,6 +98,8 @@
     "wikipedia": "Jake Auchincloss",
     "google_entity_id": "kg:/g/11f0xw2_p4",
     "pictorial": 13078,
+    "votesmart": 173832,
+    "ballotpedia": "Jake Auchincloss",
     "twitter": "RepAuchincloss",
     "twitter_id": 1330278736554582000,
     "facebook": "RepAuchincloss",

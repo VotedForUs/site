@@ -9,7 +9,7 @@
   "bioguideId": "W000831",
   "birthYear": "1982",
   "cosponsoredLegislation": {
-    "count": 212,
+    "count": 352,
     "url": "https://api.congress.gov/v3/member/W000831/cosponsored-legislation"
   },
   "currentMember": true,
@@ -54,7 +54,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 10,
+    "count": 21,
     "url": "https://api.congress.gov/v3/member/W000831/sponsored-legislation"
   },
   "state": "Virginia",
@@ -69,7 +69,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "W000831",
     "fec": [
@@ -78,7 +78,8 @@
     "govtrack": 457036,
     "wikipedia": "James Walkinshaw",
     "wikidata": "Q135132001",
-    "ballotpedia": "James Walkinshaw"
+    "ballotpedia": "James Walkinshaw",
+    "votesmart": 196546
   },
   "name": {
     "first": "James",
@@ -97,7 +98,7 @@
     "state": "VA",
     "district": 11,
     "party": "Democrat",
-    "url": "https://walkinshaw.house.gov/",
+    "url": "https://walkinshaw.house.gov",
     "address": "2265 Rayburn House Office Building Washington DC 20515-4611",
     "office": "2265 Rayburn House Office Building",
     "phone": "202-225-1492"

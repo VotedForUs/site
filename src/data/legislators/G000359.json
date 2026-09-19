@@ -1,18 +1,12 @@
 {
-  "addressInformation": {
-    "city": "Washington",
-    "district": "DC",
-    "officeAddress": "211 Russell Senate Office Building  Washington, DC 20510",
-    "phoneNumber": "(202) 224-5972",
-    "zipCode": 20515
-  },
   "bioguideId": "G000359",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 3609,
+    "count": 3644,
     "url": "https://api.congress.gov/v3/member/G000359/cosponsored-legislation"
   },
-  "currentMember": true,
+  "currentMember": false,
+  "deathYear": "2026",
   "depiction": {
     "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
     "imageUrl": "/images/legislators/G000359.jpg"
@@ -22,7 +16,6 @@
   "honorificName": "Mr.",
   "invertedOrderName": "Graham, Lindsey",
   "lastName": "Graham",
-  "officialWebsiteUrl": "https://www.lgraham.senate.gov/",
   "partyHistory": [
     {
       "partyAbbreviation": "R",
@@ -50,7 +43,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 757,
+    "count": 774,
     "url": "https://api.congress.gov/v3/member/G000359/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -197,13 +190,14 @@
     {
       "chamber": "Senate",
       "congress": 119,
+      "endYear": 2026,
       "memberType": "Senator",
       "startYear": 2025,
       "stateCode": "SC",
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-03-08T10:31:17Z",
+  "updateDate": "2026-07-14T20:00:31Z",
   "id": {
     "bioguide": "G000359",
     "thomas": "00452",
@@ -223,12 +217,7 @@
     "icpsr": 29566,
     "wikidata": "Q22212",
     "google_entity_id": "kg:/m/01_pdg",
-    "pictorial": 13440,
-    "twitter": "GrahamBlog",
-    "facebook": "USSenatorLindseyGraham",
-    "youtube": "USSenLindseyGraham",
-    "youtube_id": "UClLGZMA5Ei2Z8fR1PLEx6yQ",
-    "twitter_id": 14845376
+    "pictorial": 13440
   },
   "name": {
     "first": "Lindsey",
@@ -243,7 +232,7 @@
   "latest_term": {
     "type": "sen",
     "start": "2021-01-03",
-    "end": "2027-01-03",
+    "end": "2026-07-11",
     "state": "SC",
     "class": 2,
     "state_rank": "senior",

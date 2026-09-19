@@ -9,7 +9,7 @@
   "bioguideId": "S000522",
   "birthYear": "1953",
   "cosponsoredLegislation": {
-    "count": 7623,
+    "count": 7648,
     "url": "https://api.congress.gov/v3/member/S000522/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 936,
+    "count": 947,
     "url": "https://api.congress.gov/v3/member/S000522/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -298,7 +298,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:29Z",
   "id": {
     "bioguide": "S000522",
     "thomas": "01071",

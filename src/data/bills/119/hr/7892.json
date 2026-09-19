@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/7892/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-06-11",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-06-10",
@@ -671,9 +686,8 @@
   "congress": 119,
   "introducedDate": "2026-03-12",
   "latestAction": {
-    "actionDate": "2026-06-10",
-    "actionTime": "16:10:16",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-06-11",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7892",
   "number": "7892",
@@ -686,6 +700,22 @@
   "title": "No Aid for Ghost Students Act of 2026",
   "titles": {
     "titles": [
+      {
+        "title": "No Aid for Ghost Students Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:41:07Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "No Aid for Ghost Students Act of 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-16T15:08:44Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -717,12 +747,6 @@
         "updateDate": "2026-05-27T04:53:25Z"
       },
       {
-        "title": "No Aid for Ghost Students Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-03-13T08:23:26Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "No Aid for Ghost Students Act of 2026",
@@ -741,9 +765,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-12T05:23:26Z",
-  "updateDateIncludingText": "2026-06-12T09:48:29Z",
+  "updateDate": "2026-07-23T23:06:21Z",
+  "updateDateIncludingText": "2026-07-23T23:06:21Z",
   "id": "119-HR-7892",
-  "lastActionDate": "2026-06-10",
+  "lastActionDate": "2026-06-11",
   "lastRecordedVoteDate": "2026-06-10T20:10:15Z"
 }

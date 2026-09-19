@@ -9,7 +9,7 @@
   "bioguideId": "T000460",
   "birthYear": "1951",
   "cosponsoredLegislation": {
-    "count": 4350,
+    "count": 4419,
     "url": "https://api.congress.gov/v3/member/T000460/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 360,
+    "count": 366,
     "url": "https://api.congress.gov/v3/member/T000460/sponsored-legislation"
   },
   "state": "California",
@@ -204,7 +204,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "T000460",
     "thomas": "01593",
@@ -215,7 +215,7 @@
       "H8CA01109"
     ],
     "cspan": 57872,
-    "wikipedia": "Mike Thompson (California politician)",
+    "wikipedia": "Mike Thompson",
     "maplight": 489,
     "icpsr": 29901,
     "house_history": 23200,

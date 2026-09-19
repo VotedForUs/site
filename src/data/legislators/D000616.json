@@ -9,7 +9,7 @@
   "bioguideId": "D000616",
   "birthYear": "1964",
   "cosponsoredLegislation": {
-    "count": 1498,
+    "count": 1520,
     "url": "https://api.congress.gov/v3/member/D000616/cosponsored-legislation"
   },
   "currentMember": true,
@@ -136,7 +136,7 @@
       "stateName": "Tennessee"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "D000616",
     "thomas": "02062",

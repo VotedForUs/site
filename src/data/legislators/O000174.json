@@ -9,7 +9,7 @@
   "bioguideId": "O000174",
   "birthYear": "1987",
   "cosponsoredLegislation": {
-    "count": 773,
+    "count": 830,
     "url": "https://api.congress.gov/v3/member/O000174/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 216,
+    "count": 225,
     "url": "https://api.congress.gov/v3/member/O000174/sponsored-legislation"
   },
   "state": "Georgia",

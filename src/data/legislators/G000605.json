@@ -9,7 +9,7 @@
   "bioguideId": "G000605",
   "birthYear": "1977",
   "cosponsoredLegislation": {
-    "count": 130,
+    "count": 148,
     "url": "https://api.congress.gov/v3/member/G000605/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 7,
+    "count": 8,
     "url": "https://api.congress.gov/v3/member/G000605/sponsored-legislation"
   },
   "state": "California",
@@ -75,7 +75,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "G000605",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00050061",
     "wikipedia": "Adam Gray",
     "wikidata": "Q3000097",
+    "votesmart": 138552,
+    "ballotpedia": "Adam Gray",
     "twitter": "RepAdamGrayCA",
     "facebook": "repadamgrayca",
     "instagram": "repadamgrayca"

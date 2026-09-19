@@ -9,7 +9,7 @@
   "bioguideId": "N000147",
   "birthYear": "1937",
   "cosponsoredLegislation": {
-    "count": 17036,
+    "count": 17494,
     "url": "https://api.congress.gov/v3/member/N000147/cosponsored-legislation"
   },
   "currentMember": true,
@@ -62,7 +62,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1117,
+    "count": 1144,
     "url": "https://api.congress.gov/v3/member/N000147/sponsored-legislation"
   },
   "state": "District of Columbia",
@@ -229,7 +229,7 @@
       "stateName": "District of Columbia"
     }
   ],
-  "updateDate": "2025-12-06T08:30:20Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "N000147",
     "thomas": "00868",

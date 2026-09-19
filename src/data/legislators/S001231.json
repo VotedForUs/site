@@ -9,7 +9,7 @@
   "bioguideId": "S001231",
   "birthYear": "1977",
   "cosponsoredLegislation": {
-    "count": 447,
+    "count": 633,
     "url": "https://api.congress.gov/v3/member/S001231/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 4,
+    "count": 11,
     "url": "https://api.congress.gov/v3/member/S001231/sponsored-legislation"
   },
   "state": "California",
@@ -75,7 +75,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "S001231",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00052195",
     "wikipedia": "Lateefah Simon",
     "wikidata": "Q6495426",
+    "votesmart": 213551,
+    "ballotpedia": "Lateefah Simon",
     "twitter": "RepLSimon",
     "facebook": "RepLSimon",
     "instagram": "RepLSimon"

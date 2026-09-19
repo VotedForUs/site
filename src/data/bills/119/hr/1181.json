@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 24,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/hr/1181/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-15",
+        "committees": [
+          {
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-14",
@@ -505,7 +520,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 221 - 201 (Roll no. 240).",
+        "text": "On passage Passed by the Yeas and Nays: 221 - 201 (Roll no. 240). (text: CR H4441-4442)",
         "type": "Floor"
       },
       {
@@ -1017,7 +1032,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H4451-4452)",
         "type": "Floor"
       },
       {
@@ -1057,7 +1072,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Frost moved to recommit to the Committee on Financial Services.",
+        "text": "Mr. Frost moved to recommit to the Committee on Financial Services. (CR H4445)",
         "type": "Floor"
       },
       {
@@ -1101,7 +1116,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1423.",
+        "text": "Considered under the provisions of rule H. Res. 1423. (consideration: CR H4441-4445)",
         "type": "Floor"
       },
       {
@@ -1240,9 +1255,8 @@
   "congress": 119,
   "introducedDate": "2025-02-11",
   "latestAction": {
-    "actionDate": "2026-07-14",
-    "actionTime": "17:33:34",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-15",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1181",
   "number": "1181",
@@ -1255,6 +1269,36 @@
   "title": "Protecting Privacy in Purchases Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Protecting Privacy in Purchases Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-17T15:23:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Protecting Privacy in Purchases Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-16T13:23:36Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To prohibit payment card networks and covered entities from requiring the use of or assigning merchant category codes that distinguish a firearms retailer from general-merchandise retailer or sporting-goods retailer, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-16T13:23:36Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -1290,9 +1334,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-15T08:09:20Z",
-  "updateDateIncludingText": "2026-07-15T08:09:20Z",
+  "updateDate": "2026-08-20T22:41:39Z",
+  "updateDateIncludingText": "2026-08-20T22:41:39Z",
   "id": "119-HR-1181",
-  "lastActionDate": "2026-07-14",
+  "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-07-14T21:33:33Z"
 }

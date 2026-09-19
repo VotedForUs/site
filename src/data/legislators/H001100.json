@@ -9,7 +9,7 @@
   "bioguideId": "H001100",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 158,
+    "count": 197,
     "url": "https://api.congress.gov/v3/member/H001100/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 17,
+    "count": 26,
     "url": "https://api.congress.gov/v3/member/H001100/sponsored-legislation"
   },
   "state": "Colorado",
@@ -75,7 +75,7 @@
       "stateName": "Colorado"
     }
   ],
-  "updateDate": "2025-09-24T07:40:14Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "H001100",
     "fec": [
@@ -83,8 +83,10 @@
     ],
     "govtrack": 456982,
     "opensecrets": "N00053367",
-    "wikipedia": "Jeff Hurd (politician)",
+    "wikipedia": "Jeff Hurd",
     "wikidata": "Q131101500",
+    "votesmart": 217034,
+    "ballotpedia": "Jeff Hurd",
     "twitter": "RepJeffHurd",
     "facebook": "61571570223582",
     "instagram": "repjeffhurd",

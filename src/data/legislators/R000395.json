@@ -9,7 +9,7 @@
   "bioguideId": "R000395",
   "birthYear": "1937",
   "cosponsoredLegislation": {
-    "count": 2902,
+    "count": 2903,
     "url": "https://api.congress.gov/v3/member/R000395/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 145,
+    "count": 146,
     "url": "https://api.congress.gov/v3/member/R000395/sponsored-legislation"
   },
   "state": "Kentucky",
@@ -294,7 +294,7 @@
       "stateName": "Kentucky"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:29Z",
   "id": {
     "bioguide": "R000395",
     "thomas": "00977",

@@ -9,7 +9,7 @@
   "bioguideId": "S001176",
   "birthYear": "1965",
   "cosponsoredLegislation": {
-    "count": 983,
+    "count": 981,
     "url": "https://api.congress.gov/v3/member/S001176/cosponsored-legislation"
   },
   "currentMember": true,
@@ -196,7 +196,7 @@
       "stateName": "Louisiana"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "S001176",
     "thomas": "01892",

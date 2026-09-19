@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/8365/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-18",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-14",
@@ -1199,9 +1214,8 @@
   "congress": 119,
   "introducedDate": "2026-04-20",
   "latestAction": {
-    "actionDate": "2026-05-14",
-    "actionTime": "17:11:18",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-18",
+    "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8365",
   "number": "8365",
@@ -1214,6 +1228,30 @@
   "title": "Monitor Accountability Act",
   "titles": {
     "titles": [
+      {
+        "title": "Monitor Accountability Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:53:13Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To provide for conditions on the appointment of monitors by courts, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-17T23:47:15Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Monitor Accountability Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-20T03:08:30Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -1245,33 +1283,19 @@
         "updateDate": "2026-05-05T05:38:23Z"
       },
       {
-        "title": "Monitor Accountability Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-05-05T05:38:23Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Monitor Accountability Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2026-04-21T08:23:25Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To provide for conditions on the appointment of monitors by courts, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-04-21T08:19:10Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-16T03:53:24Z",
-  "updateDateIncludingText": "2026-05-16T07:48:21Z",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z",
   "id": "119-HR-8365",
-  "lastActionDate": "2026-05-14",
+  "lastActionDate": "2026-05-18",
   "lastRecordedVoteDate": "2026-05-14T21:11:16Z"
 }

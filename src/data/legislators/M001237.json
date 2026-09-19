@@ -9,7 +9,7 @@
   "bioguideId": "M001237",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 293,
+    "count": 341,
     "url": "https://api.congress.gov/v3/member/M001237/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 13,
+    "count": 18,
     "url": "https://api.congress.gov/v3/member/M001237/sponsored-legislation"
   },
   "state": "Michigan",
@@ -75,7 +75,7 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "M001237",
     "fec": [
@@ -85,6 +85,9 @@
     "opensecrets": "N00054163",
     "wikipedia": "Kristen McDonald Rivet",
     "wikidata": "Q115227000",
+    "google_entity_id": "kg:/g/11swd0vjj8",
+    "votesmart": 199213,
+    "ballotpedia": "Kristen McDonald Rivet",
     "twitter": "repkmr",
     "facebook": "repmcdonaldrivet",
     "instagram": "repmcdonaldrivet"

@@ -9,7 +9,7 @@
   "bioguideId": "H001042",
   "birthYear": "1947",
   "cosponsoredLegislation": {
-    "count": 4985,
+    "count": 5116,
     "url": "https://api.congress.gov/v3/member/H001042/cosponsored-legislation"
   },
   "currentMember": true,
@@ -43,7 +43,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 740,
+    "count": 804,
     "url": "https://api.congress.gov/v3/member/H001042/sponsored-legislation"
   },
   "state": "Hawaii",

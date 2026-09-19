@@ -9,7 +9,7 @@
   "bioguideId": "S001189",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 1611,
+    "count": 1643,
     "url": "https://api.congress.gov/v3/member/S001189/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 80,
+    "count": 89,
     "url": "https://api.congress.gov/v3/member/S001189/sponsored-legislation"
   },
   "state": "Georgia",
@@ -145,7 +145,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:13Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "S001189",
     "thomas": "02009",
@@ -156,7 +156,7 @@
       "H0GA08099"
     ],
     "cspan": 623344,
-    "wikipedia": "Austin Scott (politician)",
+    "wikipedia": "Austin Scott",
     "ballotpedia": "Austin Scott",
     "maplight": 1429,
     "icpsr": 21123,

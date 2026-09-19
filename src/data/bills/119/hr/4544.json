@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/4544/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-21",
+        "committees": [
+          {
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-20",
@@ -665,9 +680,8 @@
   "congress": 119,
   "introducedDate": "2025-07-17",
   "latestAction": {
-    "actionDate": "2026-05-20",
-    "actionTime": "13:13:01",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-21",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4544",
   "number": "4544",
@@ -680,6 +694,22 @@
   "title": "American Access to Banking Act",
   "titles": {
     "titles": [
+      {
+        "title": "American Access to Banking Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:57:26Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "American Access to Banking Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-23T06:38:25Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -719,12 +749,6 @@
         "updateDate": "2025-07-19T07:08:21Z"
       },
       {
-        "title": "American Access to Banking Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-19T07:08:21Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To direct certain Federal banking and credit union agencies to promote the formation of de novo regulated institutions through the review of application processes, the review of capital raising by de novo regulated institutions, and the establishment of various outreach programs, and for other purposes.",
@@ -735,9 +759,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-22T04:08:30Z",
-  "updateDateIncludingText": "2026-05-22T07:49:20Z",
+  "updateDate": "2026-07-17T23:57:26Z",
+  "updateDateIncludingText": "2026-07-17T23:57:26Z",
   "id": "119-HR-4544",
-  "lastActionDate": "2026-05-20",
+  "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-20T17:12:59Z"
 }

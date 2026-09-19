@@ -9,7 +9,7 @@
   "bioguideId": "M001234",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 184,
+    "count": 240,
     "url": "https://api.congress.gov/v3/member/M001234/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 12,
+    "count": 17,
     "url": "https://api.congress.gov/v3/member/M001234/sponsored-legislation"
   },
   "state": "Minnesota",
@@ -75,7 +75,7 @@
       "stateName": "Minnesota"
     }
   ],
-  "updateDate": "2025-09-24T07:40:19Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "M001234",
     "fec": [
@@ -85,6 +85,9 @@
     "opensecrets": "N00053930",
     "wikipedia": "Kelly Morrison",
     "wikidata": "Q58416636",
+    "votesmart": 183781,
+    "ballotpedia": "Kelly Morrison",
+    "google_entity_id": "kg:/g/11gzs6zmll",
     "twitter": "kellymorrisonmn",
     "facebook": "repkellymorrison",
     "instagram": "kellymorrisonmn"

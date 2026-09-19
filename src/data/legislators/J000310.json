@@ -9,7 +9,7 @@
   "bioguideId": "J000310",
   "birthYear": "1966",
   "cosponsoredLegislation": {
-    "count": 347,
+    "count": 450,
     "url": "https://api.congress.gov/v3/member/J000310/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 19,
+    "count": 25,
     "url": "https://api.congress.gov/v3/member/J000310/sponsored-legislation"
   },
   "state": "Texas",
@@ -75,7 +75,7 @@
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "J000310",
     "fec": [
@@ -85,6 +85,9 @@
     "opensecrets": "N00052806",
     "wikipedia": "Julie Johnson (politician)",
     "wikidata": "Q64753063",
+    "votesmart": 177532,
+    "ballotpedia": "Julie Johnson",
+    "google_entity_id": "kg:/g/11h3qrpcmw",
     "twitter": "RepJulieJohnson",
     "facebook": "61569064997067",
     "instagram": "repjuliejohnson"

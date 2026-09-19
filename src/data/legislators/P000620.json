@@ -9,7 +9,7 @@
   "bioguideId": "P000620",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 833,
+    "count": 909,
     "url": "https://api.congress.gov/v3/member/P000620/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 53,
+    "count": 72,
     "url": "https://api.congress.gov/v3/member/P000620/sponsored-legislation"
   },
   "state": "Colorado",
@@ -85,7 +85,7 @@
       "stateName": "Colorado"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "P000620",
     "fec": [
@@ -97,6 +97,7 @@
     "wikipedia": "Brittany Pettersen",
     "votesmart": 138744,
     "pictorial": 12973,
+    "ballotpedia": "Brittany Pettersen",
     "twitter": "reppettersen",
     "facebook": "repbrittanypettersen",
     "instagram": "reppettersen"

@@ -9,7 +9,7 @@
   "bioguideId": "D000530",
   "birthYear": "1984",
   "cosponsoredLegislation": {
-    "count": 924,
+    "count": 1042,
     "url": "https://api.congress.gov/v3/member/D000530/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 46,
+    "count": 58,
     "url": "https://api.congress.gov/v3/member/D000530/sponsored-legislation"
   },
   "state": "Pennsylvania",
@@ -88,7 +88,7 @@
       "stateName": "Pennsylvania"
     }
   ],
-  "updateDate": "2025-09-24T07:40:19Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "D000530",
     "fec": [
@@ -101,6 +101,7 @@
     "votesmart": 202954,
     "pictorial": 13237,
     "google_entity_id": "kg:/g/11qgyjrb66",
+    "ballotpedia": "Chris Deluzio",
     "twitter": "RepDeluzio",
     "twitter_id": 1608934316779921400,
     "facebook": "RepChrisDeluzio",

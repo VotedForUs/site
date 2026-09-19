@@ -9,7 +9,7 @@
   "bioguideId": "N000190",
   "birthYear": "1953",
   "cosponsoredLegislation": {
-    "count": 1981,
+    "count": 2025,
     "url": "https://api.congress.gov/v3/member/N000190/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 174,
+    "count": 178,
     "url": "https://api.congress.gov/v3/member/N000190/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -106,11 +106,12 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "N000190",
     "fec": [
-      "H8SC05158"
+      "H8SC05158",
+      "S6SC04445"
     ],
     "govtrack": 412738,
     "opensecrets": "N00027783",

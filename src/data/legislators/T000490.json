@@ -9,7 +9,7 @@
   "bioguideId": "T000490",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 150,
+    "count": 189,
     "url": "https://api.congress.gov/v3/member/T000490/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 28,
+    "count": 34,
     "url": "https://api.congress.gov/v3/member/T000490/sponsored-legislation"
   },
   "state": "Ohio",
@@ -89,7 +89,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "T000490",
     "fec": [
@@ -99,6 +99,8 @@
     "opensecrets": "N00054098",
     "wikipedia": "David Taylor (Ohio politician)",
     "wikidata": "Q131123679",
+    "votesmart": 213920,
+    "ballotpedia": "David Taylor (Ohio)",
     "twitter": "RepDaveTaylor",
     "facebook": "61571224837800",
     "instagram": "repdavetaylor"

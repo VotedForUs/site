@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 26,
+    "count": 27,
     "url": "https://api.congress.gov/v3/bill/119/hr/1681/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-04-21",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-04-20",
@@ -784,9 +799,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-04-20",
-    "actionTime": "19:00:36",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-04-21",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1681",
   "number": "1681",
@@ -800,14 +814,20 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To require the Assistant Secretary of Commerce for Communications and Information to establish an interagency strike force to ensure that certain Federal land management agencies, including the organizational units of such agencies, prioritize the review of requests for communications use authorizations, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-22T03:38:21Z"
+        "title": "Expediting Federal Broadband Deployment Reviews Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:35:04Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Expediting Federal Broadband Deployment Reviews Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-04-23T03:53:24Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -820,6 +840,16 @@
         "updateDate": "2026-04-22T03:38:21Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To require the Assistant Secretary of Commerce for Communications and Information to establish an interagency strike force to ensure that certain Federal land management agencies, including the organizational units of such agencies, prioritize the review of requests for communications use authorizations, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-04-22T03:38:21Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -828,12 +858,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-03-27T08:53:24Z"
-      },
-      {
-        "title": "Expediting Federal Broadband Deployment Reviews Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-20T09:23:23Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -854,9 +878,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-04-22T03:38:21Z",
-  "updateDateIncludingText": "2026-04-22T06:48:30Z",
+  "updateDate": "2026-07-17T23:35:04Z",
+  "updateDateIncludingText": "2026-07-17T23:35:04Z",
   "id": "119-HR-1681",
-  "lastActionDate": "2026-04-20",
+  "lastActionDate": "2026-04-21",
   "lastRecordedVoteDate": "2026-04-20T23:00:35Z"
 }

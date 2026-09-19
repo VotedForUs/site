@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 25,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/556/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-03-19",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-03-18",
@@ -1254,9 +1269,8 @@
   "congress": 119,
   "introducedDate": "2025-01-16",
   "latestAction": {
-    "actionDate": "2026-03-18",
-    "actionTime": "17:21:52",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-03-19",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/556",
   "number": "556",
@@ -1270,14 +1284,14 @@
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To prohibit the Secretary of the Interior and the Secretary of Agriculture from prohibiting the use of lead ammunition or tackle on certain Federal land or water under the jurisdiction of the Secretary of the Interior and the Secretary of Agriculture, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-03-20T02:08:23Z"
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Protecting Access for Hunters and Anglers Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-03-21T04:23:22Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1287,6 +1301,16 @@
         "title": "Protecting Access for Hunters and Anglers Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
+        "updateDate": "2026-03-20T02:08:23Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To prohibit the Secretary of the Interior and the Secretary of Agriculture from prohibiting the use of lead ammunition or tackle on certain Federal land or water under the jurisdiction of the Secretary of the Interior and the Secretary of Agriculture, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-20T02:08:23Z"
       },
       {
@@ -1324,9 +1348,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-03-20T02:08:23Z",
-  "updateDateIncludingText": "2026-03-20T02:08:23Z",
+  "updateDate": "2026-06-11T23:26:43Z",
+  "updateDateIncludingText": "2026-07-13T18:55:32Z",
   "id": "119-HR-556",
-  "lastActionDate": "2026-03-18",
+  "lastActionDate": "2026-03-19",
   "lastRecordedVoteDate": "2026-03-18T21:21:50Z"
 }

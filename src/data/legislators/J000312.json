@@ -9,7 +9,7 @@
   "bioguideId": "J000312",
   "birthYear": "1951",
   "cosponsoredLegislation": {
-    "count": 229,
+    "count": 302,
     "url": "https://api.congress.gov/v3/member/J000312/cosponsored-legislation"
   },
   "currentMember": true,
@@ -52,7 +52,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 9,
+    "count": 17,
     "url": "https://api.congress.gov/v3/member/J000312/sponsored-legislation"
   },
   "state": "West Virginia",

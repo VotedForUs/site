@@ -9,7 +9,7 @@
   "bioguideId": "I000058",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 588,
+    "count": 639,
     "url": "https://api.congress.gov/v3/member/I000058/cosponsored-legislation"
   },
   "currentMember": true,
@@ -93,11 +93,12 @@
       "stateName": "Maryland"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "I000058",
     "fec": [
-      "H2MD04315"
+      "H2MD04315",
+      "H2MD04232"
     ],
     "govtrack": 456905,
     "opensecrets": "N00033749",
@@ -106,6 +107,7 @@
     "google_entity_id": "kg:/g/11bxfgrf12",
     "votesmart": 166279,
     "pictorial": 13087,
+    "ballotpedia": "Glenn Ivey",
     "twitter": "RepGlennIvey",
     "twitter_id": 1610111693836664800,
     "facebook": "RepGlennIvey",

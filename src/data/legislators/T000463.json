@@ -9,7 +9,7 @@
   "bioguideId": "T000463",
   "birthYear": "1960",
   "cosponsoredLegislation": {
-    "count": 2137,
+    "count": 2151,
     "url": "https://api.congress.gov/v3/member/T000463/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 189,
+    "count": 193,
     "url": "https://api.congress.gov/v3/member/T000463/sponsored-legislation"
   },
   "state": "Ohio",
@@ -189,7 +189,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2025-09-24T07:40:14Z",
+  "updateDate": "2026-08-31T07:40:31Z",
   "id": {
     "bioguide": "T000463",
     "thomas": "01741",
@@ -202,7 +202,7 @@
     ],
     "cspan": 1003607,
     "wikipedia": "Mike Turner",
-    "ballotpedia": "Michael R. Turner",
+    "ballotpedia": "Michael Turner (Ohio)",
     "maplight": 496,
     "icpsr": 20342,
     "house_history": 23206,

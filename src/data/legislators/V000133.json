@@ -9,7 +9,7 @@
   "bioguideId": "V000133",
   "birthYear": "1953",
   "cosponsoredLegislation": {
-    "count": 2044,
+    "count": 2121,
     "url": "https://api.congress.gov/v3/member/V000133/cosponsored-legislation"
   },
   "currentMember": true,
@@ -57,7 +57,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 167,
+    "count": 170,
     "url": "https://api.congress.gov/v3/member/V000133/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -102,7 +102,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "V000133",
     "fec": [

@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/6260/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-18",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "ssju00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-14",
@@ -1199,9 +1214,8 @@
   "congress": 119,
   "introducedDate": "2025-11-21",
   "latestAction": {
-    "actionDate": "2026-05-14",
-    "actionTime": "16:47:06",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-18",
+    "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6260",
   "number": "6260",
@@ -1214,6 +1228,22 @@
   "title": "Keeping Violent Offenders Off Our Streets Act of 2025",
   "titles": {
     "titles": [
+      {
+        "title": "Keeping Violent Offenders Off Our Streets Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:53:07Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Keeping Violent Offenders Off Our Streets Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-05-20T03:08:30Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -1233,12 +1263,6 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-05-16T03:53:24Z"
-      },
-      {
-        "title": "Keeping Violent Offenders Off Our Streets Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-04-10T06:08:24Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -1269,9 +1293,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-16T03:53:24Z",
-  "updateDateIncludingText": "2026-05-16T07:48:21Z",
+  "updateDate": "2026-08-10T11:51:27Z",
+  "updateDateIncludingText": "2026-08-10T11:51:27Z",
   "id": "119-HR-6260",
-  "lastActionDate": "2026-05-14",
+  "lastActionDate": "2026-05-18",
   "lastRecordedVoteDate": "2026-05-14T20:47:04Z"
 }

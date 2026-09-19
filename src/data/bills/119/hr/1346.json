@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/1346/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-05-14",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-05-13",
@@ -1146,9 +1161,8 @@
   "congress": 119,
   "introducedDate": "2025-02-13",
   "latestAction": {
-    "actionDate": "2026-05-13",
-    "actionTime": "18:26:59",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-05-14",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1346",
   "number": "1346",
@@ -1158,9 +1172,15 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/1346/summaries?format=json"
   },
-  "title": "Nationwide Consumer and Fuel Retailer Choice Act of 2025",
+  "title": "To amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes.",
   "titles": {
     "titles": [
+      {
+        "title": "To amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-07-17T23:51:16Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -1170,12 +1190,6 @@
         "titleType": "Official Titles from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-05-15T03:08:23Z"
-      },
-      {
-        "title": "Nationwide Consumer and Fuel Retailer Choice Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-17T11:33:22Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1196,9 +1210,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-05-15T03:08:23Z",
-  "updateDateIncludingText": "2026-05-15T07:33:30Z",
+  "updateDate": "2026-07-23T22:41:28Z",
+  "updateDateIncludingText": "2026-07-23T22:41:28Z",
   "id": "119-HR-1346",
-  "lastActionDate": "2026-05-13",
+  "lastActionDate": "2026-05-14",
   "lastRecordedVoteDate": "2026-05-13T22:26:57Z"
 }

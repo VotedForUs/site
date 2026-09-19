@@ -9,7 +9,7 @@
   "bioguideId": "F000482",
   "birthYear": "1968",
   "cosponsoredLegislation": {
-    "count": 90,
+    "count": 134,
     "url": "https://api.congress.gov/v3/member/F000482/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 13,
+    "count": 16,
     "url": "https://api.congress.gov/v3/member/F000482/sponsored-legislation"
   },
   "state": "North Dakota",
@@ -73,7 +73,7 @@
       "stateName": "North Dakota"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "F000482",
     "fec": [
@@ -83,6 +83,9 @@
     "opensecrets": "N00054800",
     "wikipedia": "Julie Fedorchak",
     "wikidata": "Q37824664",
+    "votesmart": 144276,
+    "ballotpedia": "Julie Fedorchak",
+    "google_entity_id": "kg:/g/11f06k2mb2",
     "twitter": "RepFedorchak",
     "facebook": "RepJulieFedorchak",
     "instagram": "RepJulieFedorchak"

@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/6955/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-22",
+        "committees": [
+          {
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-21",
@@ -505,7 +520,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 270 - 155, 1 Present (Roll no. 271).",
+        "text": "On passage Passed by the Yeas and Nays: 270 - 155, 1 Present (Roll no. 271). (text of amendment in the nature of a substitute: CR H4708-4722)",
         "type": "Floor"
       },
       {
@@ -1017,7 +1032,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5018-5019)",
         "type": "Floor"
       },
       {
@@ -1057,7 +1072,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Ms. Garcia (TX) moved to recommit to the Committee on Financial Services.",
+        "text": "Ms. Garcia (TX) moved to recommit to the Committee on Financial Services. (text: CR H4731)",
         "type": "Floor"
       },
       {
@@ -1101,7 +1116,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1438.",
+        "text": "Considered under the provisions of rule H. Res. 1438. (consideration: CR H4707-4731)",
         "type": "Floor"
       },
       {
@@ -1201,9 +1216,8 @@
   "congress": 119,
   "introducedDate": "2026-01-07",
   "latestAction": {
-    "actionDate": "2026-07-21",
-    "actionTime": "22:06:17",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-22",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6955",
   "number": "6955",
@@ -1216,6 +1230,36 @@
   "title": "Main Street Capital Access Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Main Street Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-25T04:38:22Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Main Street Capital Access Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-25T04:38:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To make improvements to the Federal banking laws, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-23T03:38:22Z"
+      },
       {
         "title": "Main Street Capital Access Act",
         "titleType": "Display Title",
@@ -1233,16 +1277,6 @@
         "updateDate": "2026-07-23T03:38:22Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To make improvements to the Federal banking laws, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-07-23T03:38:22Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To make improvements to the Federal banking laws, and for other purposes.",
@@ -1255,7 +1289,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Main Street Act",
+        "title": "Main Street Capital Access Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-21T06:38:31Z"
@@ -1265,7 +1299,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Main Street Capital Access Act",
+        "title": "Main Street Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-04-21T06:38:31Z"
@@ -1281,9 +1315,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T03:38:22Z",
-  "updateDateIncludingText": "2026-07-23T07:33:19Z",
+  "updateDate": "2026-08-20T22:41:40Z",
+  "updateDateIncludingText": "2026-08-20T22:41:40Z",
   "id": "119-HR-6955",
-  "lastActionDate": "2026-07-21",
+  "lastActionDate": "2026-07-22",
   "lastRecordedVoteDate": "2026-07-22T02:06:13Z"
 }

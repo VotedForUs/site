@@ -9,7 +9,7 @@
   "bioguideId": "B001325",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 218,
+    "count": 298,
     "url": "https://api.congress.gov/v3/member/B001325/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 11,
+    "count": 16,
     "url": "https://api.congress.gov/v3/member/B001325/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -75,7 +75,7 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "B001325",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00054222",
     "wikipedia": "Sheri Biggs",
     "wikidata": "Q130979821",
+    "votesmart": 216183,
+    "ballotpedia": "Sheri Biggs",
     "twitter": "repsheribiggs",
     "facebook": "RepSheriBiggs",
     "instagram": "RepSheriBiggs"

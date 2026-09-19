@@ -9,7 +9,7 @@
   "bioguideId": "H001046",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 3232,
+    "count": 3323,
     "url": "https://api.congress.gov/v3/member/H001046/cosponsored-legislation"
   },
   "currentMember": true,
@@ -61,7 +61,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 533,
+    "count": 659,
     "url": "https://api.congress.gov/v3/member/H001046/sponsored-legislation"
   },
   "state": "New Mexico",

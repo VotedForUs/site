@@ -9,7 +9,7 @@
   "bioguideId": "C001129",
   "birthYear": "1967",
   "cosponsoredLegislation": {
-    "count": 362,
+    "count": 392,
     "url": "https://api.congress.gov/v3/member/C001129/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 25,
+    "count": 30,
     "url": "https://api.congress.gov/v3/member/C001129/sponsored-legislation"
   },
   "state": "Georgia",
@@ -85,11 +85,12 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "C001129",
     "fec": [
-      "H4GA10071"
+      "H4GA10071",
+      "S6GA00390"
     ],
     "govtrack": 456895,
     "opensecrets": "N00035370",
@@ -98,6 +99,7 @@
     "wikidata": "Q115806750",
     "pictorial": 13019,
     "google_entity_id": "kg:/g/11nnr438zm",
+    "ballotpedia": "Mike Collins (Georgia)",
     "twitter": "RepMikeCollins",
     "twitter_id": 1601030771124408300,
     "facebook": "RepMikeCollinsGA",

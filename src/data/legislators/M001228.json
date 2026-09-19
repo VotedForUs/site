@@ -9,7 +9,7 @@
   "bioguideId": "M001228",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 180,
+    "count": 208,
     "url": "https://api.congress.gov/v3/member/M001228/cosponsored-legislation"
   },
   "currentMember": true,
@@ -77,7 +77,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 37,
+    "count": 41,
     "url": "https://api.congress.gov/v3/member/M001228/sponsored-legislation"
   },
   "state": "Utah",
@@ -102,7 +102,7 @@
       "stateName": "Utah"
     }
   ],
-  "updateDate": "2025-09-24T07:40:19Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "M001228",
     "fec": [

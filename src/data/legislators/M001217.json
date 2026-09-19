@@ -9,7 +9,7 @@
   "bioguideId": "M001217",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 753,
+    "count": 809,
     "url": "https://api.congress.gov/v3/member/M001217/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 34,
+    "count": 38,
     "url": "https://api.congress.gov/v3/member/M001217/sponsored-legislation"
   },
   "state": "Florida",
@@ -85,7 +85,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2025-09-24T07:40:18Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "M001217",
     "fec": [
@@ -97,6 +97,7 @@
     "wikipedia": "Jared Moskowitz",
     "votesmart": 138155,
     "pictorial": 13004,
+    "ballotpedia": "Jared Moskowitz",
     "twitter": "RepMoskowitz",
     "twitter_id": 1610009027743830000,
     "facebook": "RepMoskowitz",

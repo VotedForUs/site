@@ -9,7 +9,7 @@
   "bioguideId": "R000122",
   "birthYear": "1949",
   "cosponsoredLegislation": {
-    "count": 4931,
+    "count": 5008,
     "url": "https://api.congress.gov/v3/member/R000122/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1258,
+    "count": 1289,
     "url": "https://api.congress.gov/v3/member/R000122/sponsored-legislation"
   },
   "state": "Rhode Island",

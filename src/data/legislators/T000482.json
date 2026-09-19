@@ -9,7 +9,7 @@
   "bioguideId": "T000482",
   "birthYear": "1973",
   "cosponsoredLegislation": {
-    "count": 1557,
+    "count": 1621,
     "url": "https://api.congress.gov/v3/member/T000482/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 73,
+    "count": 75,
     "url": "https://api.congress.gov/v3/member/T000482/sponsored-legislation"
   },
   "state": "Massachusetts",
@@ -105,7 +105,7 @@
       "stateName": "Massachusetts"
     }
   ],
-  "updateDate": "2025-09-24T07:40:15Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "T000482",
     "fec": [

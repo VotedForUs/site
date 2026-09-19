@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 11,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/hr/139/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-07-15",
+        "committees": [
+          {
+            "name": "Commerce, Science, and Transportation Committee",
+            "systemCode": "sscm00",
+            "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-07-14",
@@ -505,7 +520,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 308 - 117 (Roll no. 238).",
+        "text": "On passage Passed by the Yeas and Nays: 308 - 117 (Roll no. 238). (consideration: CR H4445-4446)",
         "type": "Floor"
       },
       {
@@ -549,7 +564,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1423.",
+        "text": "Considered under the provisions of rule H. Res. 1423. (consideration: CR H4445-4452)",
         "type": "Floor"
       },
       {
@@ -585,9 +600,8 @@
   "congress": 119,
   "introducedDate": "2025-01-03",
   "latestAction": {
-    "actionDate": "2026-07-14",
-    "actionTime": "17:18:52",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-15",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/139",
   "number": "139",
@@ -600,6 +614,36 @@
   "title": "Sunshine Protection Act of 2025",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Sunshine Protection Act of 2025",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-17T15:23:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Sunshine Protection Act of 2025",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-07-16T13:23:36Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To make daylight savings time permanent, and for other purposes.",
+        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-16T13:23:36Z"
+      },
       {
         "title": "Sunshine Protection Act of 2025",
         "titleType": "Display Title",
@@ -625,9 +669,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-15T08:07:50Z",
-  "updateDateIncludingText": "2026-07-15T08:07:50Z",
+  "updateDate": "2026-08-20T22:41:39Z",
+  "updateDateIncludingText": "2026-08-20T22:41:39Z",
   "id": "119-HR-139",
-  "lastActionDate": "2026-07-14",
+  "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-07-14T21:18:51Z"
 }

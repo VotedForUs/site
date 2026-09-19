@@ -9,7 +9,7 @@
   "bioguideId": "V000139",
   "birthYear": "1983",
   "cosponsoredLegislation": {
-    "count": 26,
+    "count": 77,
     "url": "https://api.congress.gov/v3/member/V000139/cosponsored-legislation"
   },
   "currentMember": true,
@@ -23,6 +23,7 @@
   "honorificName": "Mr.",
   "invertedOrderName": "Van Epps, Matt",
   "lastName": "Van Epps",
+  "officialWebsiteUrl": "https://vanepps.house.gov",
   "partyHistory": [
     {
       "partyAbbreviation": "R",
@@ -41,7 +42,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1,
+    "count": 7,
     "url": "https://api.congress.gov/v3/member/V000139/sponsored-legislation"
   },
   "state": "Tennessee",
@@ -56,7 +57,7 @@
       "stateName": "Tennessee"
     }
   ],
-  "updateDate": "2025-12-05T14:29:00Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "V000139",
     "fec": [
@@ -66,7 +67,8 @@
     "wikipedia": "Matt Van Epps",
     "wikidata": "Q136749822",
     "ballotpedia": "Matt Van Epps",
-    "house_history": 36507227933
+    "house_history": 36507227933,
+    "google_entity_id": "kg:/g/11yfbrb4jl"
   },
   "name": {
     "first": "Matt",
@@ -84,7 +86,7 @@
     "state": "TN",
     "district": 7,
     "party": "Republican",
-    "url": "https://vanepps.house.gov/",
+    "url": "https://vanepps.house.gov",
     "address": "2446 Rayburn House Office Building Washington DC 20515-4207",
     "office": "2446 Rayburn House Office Building",
     "phone": "202-225-2811"

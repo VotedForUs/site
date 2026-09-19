@@ -4,6 +4,21 @@
     "url": "https://api.congress.gov/v3/bill/119/hr/8823/actions?format=json",
     "actions": [
       {
+        "actionDate": "2026-07-21",
+        "committees": [
+          {
+            "name": "Health, Education, Labor, and Pensions Committee",
+            "systemCode": "sshr00",
+            "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+        "type": "IntroReferral"
+      },
+      {
         "actionCode": "H38310",
         "actionDate": "2026-07-20",
         "actionTime": "19:10:27",
@@ -619,9 +634,8 @@
   "congress": 119,
   "introducedDate": "2026-05-14",
   "latestAction": {
-    "actionDate": "2026-07-20",
-    "actionTime": "19:10:28",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-07-21",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8823",
   "number": "8823",
@@ -634,6 +648,16 @@
   "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-07-24T03:53:20Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -679,9 +703,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-22T05:38:24Z",
-  "updateDateIncludingText": "2026-07-22T07:18:31Z",
+  "updateDate": "2026-08-01T05:26:54Z",
+  "updateDateIncludingText": "2026-08-01T05:26:54Z",
   "id": "119-HR-8823",
-  "lastActionDate": "2026-07-20",
+  "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-20T23:10:26Z"
 }

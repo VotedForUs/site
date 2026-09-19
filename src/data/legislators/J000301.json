@@ -9,7 +9,7 @@
   "bioguideId": "J000301",
   "birthYear": "1976",
   "cosponsoredLegislation": {
-    "count": 710,
+    "count": 730,
     "url": "https://api.congress.gov/v3/member/J000301/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 132,
+    "count": 134,
     "url": "https://api.congress.gov/v3/member/J000301/sponsored-legislation"
   },
   "state": "South Dakota",
@@ -91,7 +91,7 @@
       "stateName": "South Dakota"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "J000301",
     "fec": [

@@ -9,7 +9,7 @@
   "bioguideId": "M001214",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 730,
+    "count": 783,
     "url": "https://api.congress.gov/v3/member/M001214/cosponsored-legislation"
   },
   "currentMember": true,
@@ -99,7 +99,7 @@
       "stateName": "Indiana"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "M001214",
     "fec": [
@@ -111,6 +111,8 @@
     "wikipedia": "Frank J. Mrvan",
     "google_entity_id": "kg:/g/11gtz3tlbh",
     "pictorial": 13050,
+    "votesmart": 113775,
+    "ballotpedia": "Frank Mrvan (Indiana congressional member)",
     "twitter": "RepMrvan",
     "twitter_id": 1346205046036377600,
     "facebook": "RepMrvan"

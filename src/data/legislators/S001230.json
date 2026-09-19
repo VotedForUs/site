@@ -9,7 +9,7 @@
   "bioguideId": "S001230",
   "birthYear": "1986",
   "cosponsoredLegislation": {
-    "count": 297,
+    "count": 377,
     "url": "https://api.congress.gov/v3/member/S001230/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 25,
+    "count": 38,
     "url": "https://api.congress.gov/v3/member/S001230/sponsored-legislation"
   },
   "state": "Virginia",
@@ -75,7 +75,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:35Z",
   "id": {
     "bioguide": "S001230",
     "fec": [
@@ -85,6 +85,9 @@
     "opensecrets": "N00054085",
     "wikipedia": "Suhas Subramanyam",
     "wikidata": "Q83250082",
+    "votesmart": 186400,
+    "ballotpedia": "Suhas Subramanyam",
+    "google_entity_id": "kg:/g/11dxq46slq",
     "twitter": "RepSuhas",
     "facebook": "RepSuhasSubramanyam",
     "instagram": "repsuhas"

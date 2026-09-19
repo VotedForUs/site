@@ -9,7 +9,7 @@
   "bioguideId": "C001116",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 523,
+    "count": 551,
     "url": "https://api.congress.gov/v3/member/C001116/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 75,
+    "count": 78,
     "url": "https://api.congress.gov/v3/member/C001116/sponsored-legislation"
   },
   "state": "Georgia",
@@ -99,7 +99,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:16Z",
+  "updateDate": "2026-08-31T07:40:32Z",
   "id": {
     "bioguide": "C001116",
     "fec": [
@@ -111,6 +111,8 @@
     "wikipedia": "Andrew Clyde",
     "google_entity_id": "kg:/g/11j32tm4v4",
     "pictorial": 13018,
+    "votesmart": 189770,
+    "ballotpedia": "Andrew Clyde",
     "twitter": "Rep_Clyde",
     "twitter_id": 1357017361568694300,
     "facebook": "RepresentativeClyde",

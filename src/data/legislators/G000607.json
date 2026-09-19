@@ -2,16 +2,27 @@
   "addressInformation": {
     "city": "Washington",
     "district": "DC",
+    "officeAddress": "408 Cannon House Office Building",
+    "phoneNumber": "(202) 225-3076",
     "zipCode": 20515
   },
   "bioguideId": "G000607",
+  "birthYear": "1981",
+  "cosponsoredLegislation": {
+    "count": 43,
+    "url": "https://api.congress.gov/v3/member/G000607/cosponsored-legislation"
+  },
   "currentMember": true,
+  "depiction": {
+    "imageUrl": "/images/legislators/G000607.jpg"
+  },
   "directOrderName": "James Gallagher",
   "district": 1,
   "firstName": "James",
   "honorificName": "Mr.",
   "invertedOrderName": "Gallagher, James",
   "lastName": "Gallagher",
+  "officialWebsiteUrl": "https://gallagher.house.gov",
   "partyHistory": [
     {
       "partyAbbreviation": "R",
@@ -29,6 +40,10 @@
       "startDate": "2026-06-10T04:00:00Z"
     }
   ],
+  "sponsoredLegislation": {
+    "count": 6,
+    "url": "https://api.congress.gov/v3/member/G000607/sponsored-legislation"
+  },
   "state": "California",
   "terms": [
     {
@@ -41,5 +56,32 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-06-11T07:30:23Z"
+  "updateDate": "2026-08-31T07:40:35Z",
+  "id": {
+    "bioguide": "G000607",
+    "fec": [
+      "H6CA01285"
+    ],
+    "govtrack": 457043
+  },
+  "name": {
+    "first": "James",
+    "last": "Gallagher",
+    "official_full": "James Gallagher"
+  },
+  "bio": {
+    "gender": "M",
+    "birthday": "1981-03-07"
+  },
+  "latest_term": {
+    "type": "rep",
+    "start": "2026-06-10",
+    "end": "2027-01-03",
+    "state": "CA",
+    "district": 1,
+    "party": "Republican",
+    "address": "408 Cannon House Office Building Washington DC 20515-0501",
+    "office": "408 Cannon House Office Building",
+    "phone": "202-225-3076"
+  }
 }

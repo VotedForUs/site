@@ -1219,6 +1219,36 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Department of Homeland Security Appropriations Act, 2026",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-04-24T23:42:36Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Further Additional Continuing Appropriations Act, 2026",
+        "titleType": "Short Title(s) for portions of this bill from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 256,
+        "updateDate": "2026-04-24T23:42:36Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Department of Homeland Security Appropriations Act, 2026",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-03-11T03:23:22Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",

@@ -9,7 +9,7 @@
   "bioguideId": "S001218",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 1462,
+    "count": 1605,
     "url": "https://api.congress.gov/v3/member/S001218/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 50,
+    "count": 55,
     "url": "https://api.congress.gov/v3/member/S001218/sponsored-legislation"
   },
   "state": "New Mexico",
@@ -99,7 +99,7 @@
       "stateName": "New Mexico"
     }
   ],
-  "updateDate": "2025-09-24T07:40:17Z",
+  "updateDate": "2026-08-31T07:40:33Z",
   "id": {
     "bioguide": "S001218",
     "fec": [

@@ -9,7 +9,7 @@
   "bioguideId": "S001217",
   "birthYear": "1952",
   "cosponsoredLegislation": {
-    "count": 1702,
+    "count": 1774,
     "url": "https://api.congress.gov/v3/member/S001217/cosponsored-legislation"
   },
   "currentMember": true,
@@ -49,7 +49,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 623,
+    "count": 673,
     "url": "https://api.congress.gov/v3/member/S001217/sponsored-legislation"
   },
   "state": "Florida",

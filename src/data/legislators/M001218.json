@@ -9,7 +9,7 @@
   "bioguideId": "M001218",
   "birthYear": "1968",
   "cosponsoredLegislation": {
-    "count": 496,
+    "count": 556,
     "url": "https://api.congress.gov/v3/member/M001218/cosponsored-legislation"
   },
   "currentMember": true,
@@ -68,7 +68,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 49,
+    "count": 57,
     "url": "https://api.congress.gov/v3/member/M001218/sponsored-legislation"
   },
   "state": "Georgia",
@@ -93,7 +93,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "M001218",
     "fec": [
@@ -106,6 +106,7 @@
     "votesmart": 189765,
     "pictorial": 13015,
     "google_entity_id": "kg:/g/11h4hhl04s",
+    "ballotpedia": "Rich McCormick",
     "twitter": "RepMcCormick",
     "twitter_id": 1610689483929780200,
     "facebook": "100089135203690",

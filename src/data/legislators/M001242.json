@@ -9,7 +9,7 @@
   "bioguideId": "M001242",
   "birthYear": "1967",
   "cosponsoredLegislation": {
-    "count": 158,
+    "count": 207,
     "url": "https://api.congress.gov/v3/member/M001242/cosponsored-legislation"
   },
   "currentMember": true,
@@ -58,7 +58,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 27,
+    "count": 36,
     "url": "https://api.congress.gov/v3/member/M001242/sponsored-legislation"
   },
   "state": "Ohio",
@@ -83,6 +83,9 @@
     "opensecrets": "N00048437",
     "wikipedia": "Bernie Moreno",
     "wikidata": "Q124858476",
+    "votesmart": 201791,
+    "ballotpedia": "Bernie Moreno",
+    "google_entity_id": "kg:/g/11r97h3rzn",
     "twitter": "berniemoreno",
     "instagram": "Berniemorenoforohio"
   },

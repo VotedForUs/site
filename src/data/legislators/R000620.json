@@ -9,7 +9,7 @@
   "bioguideId": "R000620",
   "birthYear": "1974",
   "cosponsoredLegislation": {
-    "count": 160,
+    "count": 182,
     "url": "https://api.congress.gov/v3/member/R000620/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 10,
+    "count": 15,
     "url": "https://api.congress.gov/v3/member/R000620/sponsored-legislation"
   },
   "state": "California",
@@ -89,7 +89,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2025-09-24T07:40:12Z",
+  "updateDate": "2026-08-31T07:40:30Z",
   "id": {
     "bioguide": "R000620",
     "fec": [
@@ -99,6 +99,9 @@
     "opensecrets": "N00054215",
     "wikipedia": "Luz Rivas",
     "wikidata": "Q54861699",
+    "votesmart": 178070,
+    "ballotpedia": "Luz Maria Rivas",
+    "google_entity_id": "kg:/g/11f66696qy",
     "twitter": "RepLuzRivas",
     "facebook": "congresswomanluzrivas",
     "instagram": "RepLuzRivas"

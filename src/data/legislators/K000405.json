@@ -9,7 +9,7 @@
   "bioguideId": "K000405",
   "birthYear": "1986",
   "cosponsoredLegislation": {
-    "count": 65,
+    "count": 78,
     "url": "https://api.congress.gov/v3/member/K000405/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 3,
+    "count": 6,
     "url": "https://api.congress.gov/v3/member/K000405/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -75,7 +75,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2025-09-24T07:40:20Z",
+  "updateDate": "2026-08-31T07:40:34Z",
   "id": {
     "bioguide": "K000405",
     "fec": [
@@ -85,6 +85,8 @@
     "opensecrets": "N00053743",
     "wikipedia": "Brad Knott",
     "wikidata": "Q130979816",
+    "votesmart": 213703,
+    "ballotpedia": "Brad Knott",
     "twitter": "RepKnott",
     "facebook": "61571474013264",
     "instagram": "repknott"

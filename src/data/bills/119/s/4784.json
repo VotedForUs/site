@@ -63,6 +63,7 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00195.xml",
             "votes": {
               "A000382": "Nay",
+              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -94,6 +95,7 @@
               "F000463": "Yea",
               "G000574": "Nay",
               "G000555": "Nay",
+              "G000608": "Yea",
               "G000386": "Yea",
               "H000601": "Yea",
               "H001076": "Nay",
