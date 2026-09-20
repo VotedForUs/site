@@ -1392,7 +1392,7 @@
             },
             "result": "passed",
             "voteUrl": "https://clerk.house.gov/evs/2025/roll050.xml",
-            "question": "On Agreeing to the Resolution, as Amended",
+            "question": "On Agreeing to the Resolution, As Amended",
             "recordType": "roll-call",
             "votePartyTotal": [
               {
@@ -1618,7 +1618,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T14:58:29Z"
       },
@@ -1631,8 +1631,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-09-08T19:31:27Z",
-  "updateDateIncludingText": "2026-09-08T19:31:27Z",
+  "updateDate": "2026-09-19T23:18:25Z",
+  "updateDateIncludingText": "2026-09-19T23:18:25Z",
   "id": "119-HCONRES-14",
   "lastActionDate": "2025-05-20",
   "lastRecordedVoteDate": "2025-04-10T15:11:09Z"

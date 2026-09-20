@@ -660,7 +660,17 @@
         "title": "DLARA",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:57:52Z"
+        "updateDate": "2026-09-19T23:41:05Z"
+      },
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Disaster Loan Accountability and Reform Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-06-30T05:23:24Z"
       },
       {
         "billTextVersionCode": "PCS",
@@ -673,32 +683,12 @@
         "updateDate": "2026-06-30T05:23:24Z"
       },
       {
-        "billTextVersionCode": "PCS",
-        "billTextVersionName": "Placed on Calendar Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Disaster Loan Accountability and Reform Act",
-        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
-        "titleTypeCode": 152,
-        "updateDate": "2026-06-30T05:23:24Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Disaster Loan Accountability and Reform Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-25T04:23:30Z"
-      },
-      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To improve accountability in the disaster loan program of the Small Business Administration, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-25T04:23:30Z"
       },
@@ -713,6 +703,16 @@
         "updateDate": "2026-06-25T04:23:30Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Disaster Loan Accountability and Reform Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-25T04:23:30Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -735,7 +735,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Disaster Loan Accountability and Reform Act",
+        "title": "DLARA",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-07-15T04:23:22Z"
@@ -743,7 +743,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "DLARA",
+        "title": "Disaster Loan Accountability and Reform Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-07-15T04:23:22Z"
@@ -759,8 +759,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T19:31:27Z",
-  "updateDateIncludingText": "2026-09-08T19:31:27Z",
+  "updateDate": "2026-09-19T23:41:05Z",
+  "updateDateIncludingText": "2026-09-19T23:41:05Z",
   "id": "119-HR-4238",
   "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-23"

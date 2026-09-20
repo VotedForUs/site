@@ -848,7 +848,7 @@
         "title": "Investing in All of America Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:00:21Z"
+        "updateDate": "2026-09-19T23:33:10Z"
       },
       {
         "billTextVersionCode": "ENR",
@@ -876,7 +876,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To amend the Small Business Investment Act of 1958 to exclude from the limit on leverage certain amounts invested in smaller enterprises located in rural or low-income areas and small businesses in critical technology areas, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-03T04:38:20Z"
       },
@@ -919,8 +919,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:08:35Z",
-  "updateDateIncludingText": "2026-09-08T18:09:24Z",
+  "updateDate": "2026-09-19T23:33:10Z",
+  "updateDateIncludingText": "2026-09-19T23:33:10Z",
   "id": "119-HR-2066",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-04-15"

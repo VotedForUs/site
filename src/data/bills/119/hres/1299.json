@@ -609,7 +609,7 @@
         "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:57:13Z"
+        "updateDate": "2026-09-19T23:40:33Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -617,7 +617,7 @@
         "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:57:13Z"
+        "updateDate": "2026-09-19T23:40:33Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -625,15 +625,15 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Providing for the concurrence by the House in the Senate amendment to H.R. 6644, with amendment.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-03T05:23:26Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-17T23:57:13Z",
-  "updateDateIncludingText": "2026-07-19T00:18:20Z",
+  "updateDate": "2026-09-19T23:40:33Z",
+  "updateDateIncludingText": "2026-09-19T23:40:33Z",
   "id": "119-HRES-1299",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20T17:04:28Z"

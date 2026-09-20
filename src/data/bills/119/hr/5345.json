@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/5345/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-17",
         "sourceSystem": {
@@ -756,8 +764,8 @@
   "congress": 119,
   "introducedDate": "2025-09-15",
   "latestAction": {
-    "actionDate": "2026-09-17",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-09-18",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5345",
   "number": "5345",
@@ -835,9 +843,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T16:25:35Z",
-  "updateDateIncludingText": "2026-09-18T16:25:35Z",
+  "updateDate": "2026-09-19T10:56:17Z",
+  "updateDateIncludingText": "2026-09-19T10:56:17Z",
   "id": "119-HR-5345",
-  "lastActionDate": "2026-09-17",
+  "lastActionDate": "2026-09-18",
   "lastRecordedVoteDate": "2026-09-17"
 }

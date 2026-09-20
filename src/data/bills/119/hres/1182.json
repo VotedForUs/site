@@ -635,7 +635,7 @@
         "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:37:56Z"
+        "updateDate": "2026-09-19T23:20:33Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -643,7 +643,7 @@
         "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:34:48Z"
+        "updateDate": "2026-09-19T23:16:54Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -651,15 +651,15 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Expressing support for rural communities across the United States as stewards of the environment, major suppliers of United States energy resources, critical providers of food production and manufacturing capacity, and drivers of national economic stability, and recognizing the work of the House of Representatives in the 119th Congress in support of those vital communities.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-24T04:53:25Z"
       }
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-17T23:37:56Z",
-  "updateDateIncludingText": "2026-07-19T00:17:18Z",
+  "updateDate": "2026-09-19T23:20:33Z",
+  "updateDateIncludingText": "2026-09-19T23:20:33Z",
   "id": "119-HRES-1182",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-22T20:39:50Z"

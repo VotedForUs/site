@@ -2209,7 +2209,7 @@
         "title": "Farm, Food, and National Security Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:46:20Z"
+        "updateDate": "2026-09-19T23:30:03Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -2217,7 +2217,7 @@
         "title": "To provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:36:08Z"
+        "updateDate": "2026-09-19T23:18:30Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -2234,9 +2234,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Farm, Food, and National Security Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-05-20T06:08:44Z"
       },
       {
@@ -2244,9 +2244,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Farm, Food, and National Security Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-05-20T06:08:44Z"
       },
       {
@@ -2278,8 +2278,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-14T14:05:43Z",
-  "updateDateIncludingText": "2026-08-14T14:05:43Z",
+  "updateDate": "2026-09-19T23:33:53Z",
+  "updateDateIncludingText": "2026-09-19T23:33:53Z",
   "id": "119-HR-7567",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-04-30T15:14:59Z"

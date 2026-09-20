@@ -848,7 +848,7 @@
         "title": "Medal of Sacrifice Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:58:33Z"
+        "updateDate": "2026-09-19T23:41:37Z"
       },
       {
         "billTextVersionCode": "ENR",
@@ -876,7 +876,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To establish a medal of service for law enforcement officers and first responders.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-02-04T04:08:18Z"
       },
@@ -919,8 +919,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:58:33Z",
-  "updateDateIncludingText": "2026-07-17T23:58:33Z",
+  "updateDate": "2026-09-19T23:41:37Z",
+  "updateDateIncludingText": "2026-09-19T23:41:37Z",
   "id": "119-HR-3497",
   "lastActionDate": "2026-05-28",
   "lastRecordedVoteDate": "2026-05-11"

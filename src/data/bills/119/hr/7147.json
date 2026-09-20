@@ -476,7 +476,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00074.xml",
             "votes": {
               "A000382": "Nay",
-              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -646,7 +645,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00071.xml",
             "votes": {
               "A000382": "Nay",
-              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -3162,7 +3160,7 @@
         "title": "Homeland Security and Further Additional Continuing Appropriations Act, 2026.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:47:04Z"
+        "updateDate": "2026-09-19T23:30:46Z"
       },
       {
         "billTextVersionCode": "ENR",
@@ -3232,7 +3230,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Making further consolidated appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-01-24T03:53:24Z"
       },
@@ -3255,8 +3253,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T19:31:27Z",
-  "updateDateIncludingText": "2026-09-08T19:31:27Z",
+  "updateDate": "2026-09-19T23:30:46Z",
+  "updateDateIncludingText": "2026-09-19T23:30:46Z",
   "id": "119-HR-7147",
   "lastActionDate": "2026-04-30",
   "lastRecordedVoteDate": "2026-04-02"

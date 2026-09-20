@@ -652,7 +652,7 @@
         "title": "No Tax Dollars for Terrorists Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:04:32Z"
+        "updateDate": "2026-09-19T23:06:42Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -660,7 +660,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To require a strategy to oppose foreign assistance by foreign countries and nongovernmental organizations to the Taliban, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T02:43:23Z"
       },
@@ -721,8 +721,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:04:32Z",
-  "updateDateIncludingText": "2026-07-18T00:04:33Z",
+  "updateDate": "2026-09-19T23:06:42Z",
+  "updateDateIncludingText": "2026-09-19T23:06:42Z",
   "id": "119-HR-260",
   "lastActionDate": "2026-02-10",
   "lastRecordedVoteDate": "2025-06-23"

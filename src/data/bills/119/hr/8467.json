@@ -618,7 +618,7 @@
         "title": "ZOMBIE Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:45:15Z"
+        "updateDate": "2026-09-19T23:28:42Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -626,7 +626,7 @@
         "title": "To reform the Payment Integrity Information Act of 2019 to ensure executive agencies focus on fraud prevention, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:39:03Z"
+        "updateDate": "2026-09-19T23:21:41Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -654,7 +654,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To reform the Payment Integrity Information Act of 2019 to ensure executive agencies focus on fraud prevention, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-12T05:23:26Z"
       },
@@ -677,8 +677,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:45:15Z",
-  "updateDateIncludingText": "2026-07-18T22:24:47Z",
+  "updateDate": "2026-09-19T23:28:42Z",
+  "updateDateIncludingText": "2026-09-19T23:28:42Z",
   "id": "119-HR-8467",
   "lastActionDate": "2026-06-11",
   "lastRecordedVoteDate": "2026-06-10"

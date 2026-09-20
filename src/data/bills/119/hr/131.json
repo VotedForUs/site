@@ -1447,7 +1447,7 @@
         "title": "Finish the Arkansas Valley Conduit Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:04:24Z"
+        "updateDate": "2026-09-19T23:06:37Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1455,7 +1455,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To make certain modifications to the repayment for the Arkansas Valley Conduit in the State of Colorado.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T16:38:24Z"
       },
@@ -1518,8 +1518,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-09-19T23:06:37Z",
+  "updateDateIncludingText": "2026-09-19T23:06:37Z",
   "id": "119-HR-131",
   "lastActionDate": "2026-01-08",
   "lastRecordedVoteDate": "2026-01-08T20:24:05Z"

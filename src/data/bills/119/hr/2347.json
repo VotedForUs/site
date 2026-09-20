@@ -642,7 +642,7 @@
         "title": "Survivor Justice Tax Prevention Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:41:04Z"
+        "updateDate": "2026-09-19T23:24:07Z"
       },
       {
         "billTextVersionCode": "PCS",
@@ -670,7 +670,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To amend the Internal Revenue Code of 1986 to exclude from gross income any damages, other than punitive damages, received on account of any sexual acts or sexual contact.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-29T04:53:35Z"
       },
@@ -703,8 +703,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:41:04Z",
-  "updateDateIncludingText": "2026-07-17T23:41:04Z",
+  "updateDate": "2026-09-19T23:24:07Z",
+  "updateDateIncludingText": "2026-09-19T23:24:07Z",
   "id": "119-HR-2347",
   "lastActionDate": "2026-07-14",
   "lastRecordedVoteDate": "2026-04-27"

@@ -691,6 +691,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Tyler’s Law",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:41:25Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -731,12 +737,6 @@
         "updateDate": "2026-09-16T06:08:25Z"
       },
       {
-        "title": "Tyler’s Law",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:58:20Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Tyler’s Law",
@@ -755,8 +755,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T05:23:21Z",
-  "updateDateIncludingText": "2026-09-18T05:23:21Z",
+  "updateDate": "2026-09-19T23:41:25Z",
+  "updateDateIncludingText": "2026-09-19T23:41:25Z",
   "id": "119-HR-2004",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-15"

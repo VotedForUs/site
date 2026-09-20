@@ -632,6 +632,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Billion Dollar Boondoggle Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:10:42Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -640,12 +646,6 @@
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2026-07-28T01:38:21Z"
-      },
-      {
-        "title": "Billion Dollar Boondoggle Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-24T03:53:21Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -663,7 +663,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To require an annual report of taxpayer-funded projects that are over budget and behind schedule.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-24T03:53:21Z"
       },
@@ -686,8 +686,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-05T12:10:38Z",
-  "updateDateIncludingText": "2026-08-05T12:10:38Z",
+  "updateDate": "2026-09-19T23:10:42Z",
+  "updateDateIncludingText": "2026-09-19T23:10:42Z",
   "id": "119-HR-1722",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-22"

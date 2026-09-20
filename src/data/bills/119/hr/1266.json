@@ -725,6 +725,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Combating Illicit Xylazine Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:32:46Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -755,12 +761,6 @@
         "updateDate": "2026-09-16T06:08:25Z"
       },
       {
-        "title": "Combating Illicit Xylazine Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:02:27Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Combating Illicit Xylazine Act",
@@ -779,8 +779,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T16:04:18Z",
-  "updateDateIncludingText": "2026-09-18T01:48:46Z",
+  "updateDate": "2026-09-19T23:32:46Z",
+  "updateDateIncludingText": "2026-09-19T23:32:46Z",
   "id": "119-HR-1266",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-15"

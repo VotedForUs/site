@@ -3274,6 +3274,30 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-09-19T23:35:58Z"
+      },
+      {
+        "title": "National Defense Authorization Act for Fiscal Year 2027",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:35:58Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Military Chaplains Modernization Act of 2026",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-08-25T06:23:51Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -3299,7 +3323,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-08-25T06:23:51Z"
       },
@@ -3312,30 +3336,6 @@
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2026-08-25T06:23:51Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Military Chaplains Modernization Act of 2026",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-08-25T06:23:51Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To authorize appropriations for fiscal year 2027 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:52:06Z"
-      },
-      {
-        "title": "National Defense Authorization Act for Fiscal Year 2027",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:52:06Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -3358,8 +3358,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T10:56:29Z",
-  "updateDateIncludingText": "2026-09-15T10:56:29Z",
+  "updateDate": "2026-09-19T23:35:58Z",
+  "updateDateIncludingText": "2026-09-19T23:35:58Z",
   "id": "119-HR-8800",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-07-22T20:38:30Z"

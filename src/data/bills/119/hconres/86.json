@@ -23,7 +23,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00184.xml",
             "votes": {
               "A000382": "Yea",
-              "A000383": "Nay",
               "B001230": "Yea",
               "B001299": "Nay",
               "B001261": "Nay",
@@ -837,7 +836,7 @@
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:43:40Z"
+        "updateDate": "2026-09-19T23:27:07Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -845,7 +844,7 @@
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:34:49Z"
+        "updateDate": "2026-09-19T23:16:55Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -853,15 +852,15 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-05T05:38:26Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-09-16T08:09:17Z",
-  "updateDateIncludingText": "2026-09-16T08:09:17Z",
+  "updateDate": "2026-09-19T23:27:07Z",
+  "updateDateIncludingText": "2026-09-19T23:27:07Z",
   "id": "119-HCONRES-86",
   "lastActionDate": "2026-06-24",
   "lastRecordedVoteDate": "2026-06-23T19:43:27Z"
