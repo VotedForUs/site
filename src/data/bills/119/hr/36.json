@@ -630,7 +630,7 @@
         "title": "MEGOBARI Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:05:58Z"
+        "updateDate": "2026-09-19T23:07:38Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -638,7 +638,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To counter the influence of the Chinese Communist Party, the Iranian Regime, and the Russian Federation in the nation of Georgia.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T00:38:37Z"
       },
@@ -667,7 +667,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "MEGOBARI Act",
+        "title": "Mobilizing and Enhancing Georgia’s Options for Building Accountability, Resilience, and Independence Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-05-07T04:23:17Z"
@@ -677,7 +677,7 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Mobilizing and Enhancing Georgia’s Options for Building Accountability, Resilience, and Independence Act",
+        "title": "MEGOBARI Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
         "updateDate": "2025-05-07T04:23:17Z"
@@ -693,7 +693,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Mobilizing and Enhancing Georgia’s Options for Building Accountability, Resilience, and Independence Act",
+        "title": "MEGOBARI Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-01-31T03:38:17Z"
@@ -701,7 +701,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "MEGOBARI Act",
+        "title": "Mobilizing and Enhancing Georgia’s Options for Building Accountability, Resilience, and Independence Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-01-31T03:38:17Z"
@@ -709,8 +709,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:05:58Z",
-  "updateDateIncludingText": "2026-07-18T00:05:58Z",
+  "updateDate": "2026-09-19T23:07:38Z",
+  "updateDateIncludingText": "2026-09-19T23:07:38Z",
   "id": "119-HR-36",
   "lastActionDate": "2025-05-06",
   "lastRecordedVoteDate": "2025-05-05T22:59:03Z"

@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment favorably.",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
         "type": "Committee"
       },
       {
@@ -631,8 +631,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T10:56:38Z",
-  "updateDateIncludingText": "2026-09-18T10:56:38Z",
+  "updateDate": "2026-09-19T10:56:18Z",
+  "updateDateIncludingText": "2026-09-19T10:56:18Z",
   "id": "119-HR-837",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2025-02-05"

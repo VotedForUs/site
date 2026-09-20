@@ -593,6 +593,20 @@
   "titles": {
     "titles": [
       {
+        "title": "Ending Predator Access to Union Power Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:34:20Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Labor-Management Reporting and Disclosure Act of 1959 to provide that individuals who have been convicted of sex offenses against minors may not serve in certain positions.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-09-19T23:34:20Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -613,20 +627,6 @@
         "updateDate": "2026-09-17T04:38:40Z"
       },
       {
-        "title": "Ending Predator Access to Union Power Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:50:25Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To amend the Labor-Management Reporting and Disclosure Act of 1959 to provide that individuals who have been convicted of sex offenses against minors may not serve in certain positions.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:50:25Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Ending Predator Access to Union Power Act",
@@ -637,8 +637,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T10:56:37Z",
-  "updateDateIncludingText": "2026-09-18T01:48:48Z",
+  "updateDate": "2026-09-19T23:34:20Z",
+  "updateDateIncludingText": "2026-09-19T23:34:20Z",
   "id": "119-HR-8775",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16"

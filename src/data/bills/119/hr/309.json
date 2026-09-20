@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/309/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-14",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5582-5583)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5582-5584)",
         "type": "Floor"
       },
       {
@@ -651,9 +659,8 @@
   "congress": 119,
   "introducedDate": "2025-01-09",
   "latestAction": {
-    "actionDate": "2026-09-14",
-    "actionTime": "17:44:17",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-15",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/309",
   "number": "309",
@@ -666,6 +673,12 @@
   "title": "National Law Enforcement Officers Remembrance, Support, and Community Outreach Act",
   "titles": {
     "titles": [
+      {
+        "title": "National Law Enforcement Officers Remembrance, Support, and Community Outreach Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:07:46Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -682,15 +695,9 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To authorize the Secretary of the Interior to provide funding for the National Law Enforcement Museum, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-09-16T06:08:25Z"
-      },
-      {
-        "title": "National Law Enforcement Officers Remembrance, Support, and Community Outreach Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-08-21T05:38:43Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -721,9 +728,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T06:08:25Z",
-  "updateDateIncludingText": "2026-09-16T09:33:37Z",
+  "updateDate": "2026-09-19T23:07:46Z",
+  "updateDateIncludingText": "2026-09-19T23:07:46Z",
   "id": "119-HR-309",
-  "lastActionDate": "2026-09-14",
+  "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-14"
 }

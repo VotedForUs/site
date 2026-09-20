@@ -699,7 +699,7 @@
         "title": "Mystic Alerts Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:35:23Z"
+        "updateDate": "2026-09-19T23:17:37Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -707,7 +707,7 @@
         "title": "To provide for the transmission of emergency alerts by satellite, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:30:36Z"
+        "updateDate": "2026-09-19T23:12:15Z"
       },
       {
         "billTextVersionCode": "RFS",
@@ -760,8 +760,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T10:56:40Z",
-  "updateDateIncludingText": "2026-09-17T10:56:40Z",
+  "updateDate": "2026-09-19T23:17:37Z",
+  "updateDateIncludingText": "2026-09-19T23:17:37Z",
   "id": "119-HR-7022",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-04-20"

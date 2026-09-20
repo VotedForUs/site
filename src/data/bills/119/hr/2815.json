@@ -900,7 +900,7 @@
         "title": "Cape Fox Land Entitlement Finalization Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:49:20Z"
+        "updateDate": "2026-09-19T23:33:13Z"
       },
       {
         "billTextVersionCode": "ENR",
@@ -928,7 +928,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To provide equitable treatment for the people of the Village Corporation established for the Native Village of Saxman, Alaska, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-17T04:23:23Z"
       },
@@ -971,8 +971,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:18:55Z",
+  "updateDate": "2026-09-19T23:33:13Z",
+  "updateDateIncludingText": "2026-09-19T23:33:13Z",
   "id": "119-HR-2815",
   "lastActionDate": "2026-05-19",
   "lastRecordedVoteDate": "2026-02-26"

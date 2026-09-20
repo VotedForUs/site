@@ -657,6 +657,20 @@
   "titles": {
     "titles": [
       {
+        "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:29:30Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-09-19T23:22:15Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -665,20 +679,6 @@
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2026-07-24T03:38:21Z"
-      },
-      {
-        "title": "Pre-Payment Fraud Prevention and Treasury Data Access Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:45:51Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:39:38Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -696,7 +696,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To establish governmentwide requirements for pre-payment fraud prevention actions, to provide the U.S. Treasury appropriate data resources, to facilitate participation in governmentwide anti-fraud data sharing, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-10T05:38:24Z"
       },
@@ -711,8 +711,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-04T12:41:18Z",
-  "updateDateIncludingText": "2026-08-04T12:41:18Z",
+  "updateDate": "2026-09-19T23:29:30Z",
+  "updateDateIncludingText": "2026-09-19T23:29:30Z",
   "id": "119-HR-8463",
   "lastActionDate": "2026-06-09",
   "lastRecordedVoteDate": "2026-06-08"

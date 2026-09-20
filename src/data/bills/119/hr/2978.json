@@ -678,6 +678,12 @@
   "titles": {
     "titles": [
       {
+        "title": "GUARD Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:40:47Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -708,15 +714,9 @@
         "updateDate": "2026-09-17T04:38:39Z"
       },
       {
-        "title": "GUARD Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:57:29Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "GUARD Act",
+        "title": "Guarding Unprotected Aging Retirees from Deception Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-05-07T04:23:16Z"
@@ -724,7 +724,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Guarding Unprotected Aging Retirees from Deception Act",
+        "title": "GUARD Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-05-07T04:23:16Z"
@@ -740,8 +740,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T16:25:06Z",
-  "updateDateIncludingText": "2026-09-18T01:48:46Z",
+  "updateDate": "2026-09-19T23:40:47Z",
+  "updateDateIncludingText": "2026-09-19T23:40:47Z",
   "id": "119-HR-2978",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16T01:57:55Z"

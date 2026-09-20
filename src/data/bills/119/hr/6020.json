@@ -634,14 +634,14 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/6020/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the Staff Sergeant Jose Dueñez Jr. Post Office Building.",
+  "title": "To designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the \"Staff Sergeant Jose Dueñez Jr. Post Office Building\".",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the Staff Sergeant Jose Dueñez Jr. Post Office Building.",
+        "title": "To designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the \"Staff Sergeant Jose Dueñez Jr. Post Office Building\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:28:11Z"
+        "updateDate": "2026-09-19T23:10:39Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -654,16 +654,6 @@
         "updateDate": "2026-07-11T14:23:24Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the Staff Sergeant Jose Dueñez Jr. Post Office Building.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-16T03:38:22Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To designate the facility of the United States Postal Service located at 14855 South Van Dyke Road in Plainfield, Illinois, as the \"Staff Sergeant Jose Dueñez Jr. Post Office Building\".",
@@ -674,8 +664,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T10:56:36Z",
-  "updateDateIncludingText": "2026-09-17T04:18:38Z",
+  "updateDate": "2026-09-19T23:10:39Z",
+  "updateDateIncludingText": "2026-09-19T23:10:39Z",
   "id": "119-HR-6020",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

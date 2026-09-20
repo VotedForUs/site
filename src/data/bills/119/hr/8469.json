@@ -1268,6 +1268,18 @@
   "titles": {
     "titles": [
       {
+        "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:39:37Z"
+      },
+      {
+        "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-09-19T23:22:21Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -1276,18 +1288,6 @@
         "titleType": "Short Titles for portions of this bill from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 151,
         "updateDate": "2026-08-13T13:23:41Z"
-      },
-      {
-        "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:09:21Z"
-      },
-      {
-        "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:39:42Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1305,7 +1305,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Making appropriations for military construction, the Department of Veterans Affairs, and related agencies for the fiscal year ending September 30, 2027, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-05-22T02:38:25Z"
       },
@@ -1322,8 +1322,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-02T12:57:53Z",
-  "updateDateIncludingText": "2026-09-15T16:27:28Z",
+  "updateDate": "2026-09-19T23:39:37Z",
+  "updateDateIncludingText": "2026-09-19T23:39:37Z",
   "id": "119-HR-8469",
   "lastActionDate": "2026-07-14",
   "lastRecordedVoteDate": "2026-05-15T14:26:35Z"

@@ -634,14 +634,14 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/1706/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the William J. Donovan Post Office Building.",
+  "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the \"William J. Donovan Post Office Building\".",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the William J. Donovan Post Office Building.",
+        "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the \"William J. Donovan Post Office Building\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:27:51Z"
+        "updateDate": "2026-09-19T23:10:29Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -654,16 +654,6 @@
         "updateDate": "2026-07-10T19:58:20Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the William J. Donovan Post Office Building.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-16T03:38:22Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To designate the facility of the United States Postal Service located at 1200 William Street, Room 200, in Buffalo, New York, as the \"William J. Donovan Post Office Building\".",
@@ -674,8 +664,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T10:56:42Z",
-  "updateDateIncludingText": "2026-09-17T04:33:50Z",
+  "updateDate": "2026-09-19T23:10:29Z",
+  "updateDateIncludingText": "2026-09-19T23:10:29Z",
   "id": "119-HR-1706",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

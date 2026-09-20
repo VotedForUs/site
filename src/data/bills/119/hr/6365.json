@@ -38,7 +38,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
         "type": "Committee"
       },
       {
@@ -798,8 +798,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T10:56:34Z",
-  "updateDateIncludingText": "2026-09-18T10:56:34Z",
+  "updateDate": "2026-09-19T10:56:17Z",
+  "updateDateIncludingText": "2026-09-19T10:56:17Z",
   "id": "119-HR-6365",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-03-03"

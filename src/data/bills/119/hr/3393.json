@@ -634,14 +634,14 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/3393/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the Officer Zane T. Coolidge Post Office.",
+  "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the \"Officer Zane T. Coolidge Post Office\".",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the Officer Zane T. Coolidge Post Office.",
+        "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the \"Officer Zane T. Coolidge Post Office\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:28:56Z"
+        "updateDate": "2026-09-19T23:11:01Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -654,16 +654,6 @@
         "updateDate": "2026-07-11T01:08:24Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the Officer Zane T. Coolidge Post Office.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-16T03:38:23Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To designate the facility of the United States Postal Service located at 12208 North 19th Avenue in Phoenix, Arizona, as the \"Officer Zane T. Coolidge Post Office\".",
@@ -674,8 +664,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T10:56:39Z",
-  "updateDateIncludingText": "2026-09-17T04:33:31Z",
+  "updateDate": "2026-09-19T23:11:01Z",
+  "updateDateIncludingText": "2026-09-19T23:11:01Z",
   "id": "119-HR-3393",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

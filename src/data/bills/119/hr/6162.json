@@ -677,7 +677,7 @@
         "title": "Albuquerque Indian School Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:35:57Z"
+        "updateDate": "2026-09-19T23:18:16Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -695,7 +695,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To transfer certain Federal land into trust for certain Indian Pueblos in the State of New Mexico, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-04T03:08:35Z"
       },
@@ -728,8 +728,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T23:06:19Z",
-  "updateDateIncludingText": "2026-07-23T23:06:19Z",
+  "updateDate": "2026-09-19T23:18:16Z",
+  "updateDateIncludingText": "2026-09-19T23:18:16Z",
   "id": "119-HR-6162",
   "lastActionDate": "2026-06-03",
   "lastRecordedVoteDate": "2026-06-02"

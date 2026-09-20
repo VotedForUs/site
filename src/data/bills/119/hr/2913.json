@@ -737,6 +737,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Ukraine Support Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:35:40Z"
+      },
+      {
         "billTextVersionCode": "PCS",
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
@@ -745,12 +751,6 @@
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2026-07-25T04:38:23Z"
-      },
-      {
-        "title": "Ukraine Support Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:02:24Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -768,7 +768,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To authorize support for Ukraine, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-09T05:23:22Z"
       },
@@ -791,8 +791,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T19:31:27Z",
-  "updateDateIncludingText": "2026-09-08T19:31:27Z",
+  "updateDate": "2026-09-19T23:35:40Z",
+  "updateDateIncludingText": "2026-09-19T23:35:40Z",
   "id": "119-HR-2913",
   "lastActionDate": "2026-07-20",
   "lastRecordedVoteDate": "2026-06-05T00:09:08Z"

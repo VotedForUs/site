@@ -699,7 +699,17 @@
         "title": "CLEAN Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:36:50Z"
+        "updateDate": "2026-09-19T23:19:18Z"
+      },
+      {
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Committing Leases for Energy Access Now Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2026-06-09T05:23:22Z"
       },
       {
         "billTextVersionCode": "RFS",
@@ -712,32 +722,12 @@
         "updateDate": "2026-06-09T05:23:22Z"
       },
       {
-        "billTextVersionCode": "RFS",
-        "billTextVersionName": "Referred in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "Committing Leases for Energy Access Now Act",
-        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
-        "titleTypeCode": 255,
-        "updateDate": "2026-06-09T05:23:22Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Committing Leases for Energy Access Now Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-06-04T03:08:36Z"
-      },
-      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To amend the Geothermal Steam Act of 1970 to increase the frequency of lease sales, to require replacement sales, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-06-04T03:08:36Z"
       },
@@ -752,6 +742,16 @@
         "updateDate": "2026-06-04T03:08:36Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Committing Leases for Energy Access Now Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-06-04T03:08:36Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -774,7 +774,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Committing Leases for Energy Access Now Act",
+        "title": "CLEAN Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-03-21T04:08:23Z"
@@ -782,7 +782,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "CLEAN Act",
+        "title": "Committing Leases for Energy Access Now Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-03-21T04:08:23Z"
@@ -798,8 +798,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-09-19T23:19:18Z",
+  "updateDateIncludingText": "2026-09-19T23:19:18Z",
   "id": "119-HR-1687",
   "lastActionDate": "2026-07-15",
   "lastRecordedVoteDate": "2026-06-02"

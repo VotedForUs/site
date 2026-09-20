@@ -650,17 +650,7 @@
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-24T03:38:21Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-07-24T03:38:20Z"
+        "updateDate": "2026-09-19T23:22:02Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -668,13 +658,23 @@
         "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:39:27Z"
+        "updateDate": "2026-09-19T23:22:02Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-24T03:38:20Z"
       }
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-09-16T08:09:17Z",
-  "updateDateIncludingText": "2026-09-16T08:09:17Z",
+  "updateDate": "2026-09-19T23:22:02Z",
+  "updateDateIncludingText": "2026-09-19T23:22:02Z",
   "id": "119-HCONRES-89",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2026-07-23T14:25:10Z"

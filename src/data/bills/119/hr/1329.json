@@ -1308,7 +1308,7 @@
         "title": "Smithsonian American Women’s History Museum Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:58:19Z"
+        "updateDate": "2026-09-19T23:41:24Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1316,7 +1316,7 @@
         "title": "To permit the Smithsonian American Women's History Museum to be located within the Reserve of the National Mall, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-17T23:39:11Z"
+        "updateDate": "2026-09-19T23:21:46Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -1339,8 +1339,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-23T22:41:30Z",
-  "updateDateIncludingText": "2026-07-23T22:41:30Z",
+  "updateDate": "2026-09-19T23:41:24Z",
+  "updateDateIncludingText": "2026-09-19T23:41:24Z",
   "id": "119-HR-1329",
   "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-21T22:00:13Z"

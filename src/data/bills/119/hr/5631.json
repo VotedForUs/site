@@ -745,6 +745,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Geothermal Energy Advancement Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:41:20Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -753,12 +759,6 @@
         "titleType": "Official Titles as Amended by House",
         "titleTypeCode": 7,
         "updateDate": "2026-08-08T11:02:11Z"
-      },
-      {
-        "title": "Geothermal Energy Advancement Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:58:12Z"
       },
       {
         "billTextVersionCode": "RFS",
@@ -819,8 +819,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T10:56:34Z",
-  "updateDateIncludingText": "2026-09-18T10:56:34Z",
+  "updateDate": "2026-09-19T23:41:20Z",
+  "updateDateIncludingText": "2026-09-19T23:41:20Z",
   "id": "119-HR-5631",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-06-02"

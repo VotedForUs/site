@@ -634,14 +634,14 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/6995/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 825 Highway 198 in Beaumont, Mississippi, as the Jeremy Malone Post Office.",
+  "title": "To designate the facility of the United States Postal Service located at 825 Highway 198 in Beaumont, Mississippi, as the \"Jeremy Malone Post Office\".",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 825 Highway 198 in Beaumont, Mississippi, as the Jeremy Malone Post Office.",
+        "title": "To designate the facility of the United States Postal Service located at 825 Highway 198 in Beaumont, Mississippi, as the \"Jeremy Malone Post Office\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:28:46Z"
+        "updateDate": "2026-09-19T23:10:56Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -654,16 +654,6 @@
         "updateDate": "2026-07-11T12:38:31Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 825 Highway 198 in Beaumont, Mississippi, as the Jeremy Malone Post Office.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-04-16T03:38:23Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To designate the facility of the United States Postal Service located at 825 Highway 198 in Beaumont, Mississippi, as the \"Jeremy Malone Post Office\".",
@@ -674,8 +664,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T10:56:33Z",
-  "updateDateIncludingText": "2026-09-17T04:33:44Z",
+  "updateDate": "2026-09-19T23:10:56Z",
+  "updateDateIncludingText": "2026-09-19T23:10:56Z",
   "id": "119-HR-6995",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2026-04-14"

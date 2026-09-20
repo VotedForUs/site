@@ -677,7 +677,7 @@
         "title": "To reauthorize the Kay Hagan Tick Act, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-22T05:38:26Z"
+        "updateDate": "2026-09-19T23:40:54Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -685,7 +685,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To reauthorize the Kay Hagan Tick Act, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-22T05:38:24Z"
       },
@@ -700,8 +700,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-20T22:41:38Z",
-  "updateDateIncludingText": "2026-08-20T22:41:38Z",
+  "updateDate": "2026-09-19T23:40:54Z",
+  "updateDateIncludingText": "2026-09-19T23:40:54Z",
   "id": "119-HR-4348",
   "lastActionDate": "2026-07-21",
   "lastRecordedVoteDate": "2026-07-20"
