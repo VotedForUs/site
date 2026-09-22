@@ -8,6 +8,7 @@ import {
 } from './legislatorVoteDisplay.js';
 import { stateNameFromCode } from './stateNames.js';
 import type { VotedCardProps } from '../types/votedCard.js';
+import { billPath } from './voteLinks.js';
 
 /** Raw legislator vote row from the `legislatorVotes` collection. */
 export type LegislatorVoteRecord = {
@@ -225,6 +226,13 @@ export function toVotedCardProps(view: LegislatorVoteView): VotedCardProps {
     voteVerb: view.display.voteVerb,
     emoji: view.display.emoji,
     actionLabel: view.display.actionLabel,
+    bioguideId: view.ids.bioguideId,
+    voteDate: view.vote.actionDate,
+    schemaActionOption: view.display.proc ? 'Yea' : view.vote.cast,
+    schemaDescription: view.display.proc
+      ? view.display.actionLabel
+      : view.vote.title,
+    billUrl: billPath(view.ids.billId.split('-')[0] ?? '', view.bill.type, view.bill.number),
   };
 }
 

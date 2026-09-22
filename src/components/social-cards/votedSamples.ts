@@ -156,6 +156,50 @@ export const votedSamples = {
     billTitle: 'Youth Poisoning Protection Act',
   }),
 
+  present: votedCardSample({
+    nameTitle: 'Sen. Bernie Sanders (VT)',
+    party: 'Independent',
+    stateName: 'Vermont',
+    chamber: 'sen',
+    state: 'VT',
+    imageUrl: '/images/legislators/S000033.jpg',
+    voteCast: 'Present',
+    voteTitle: 'On the Motion to Proceed',
+    legislationIdentifier: 'S. 550',
+    legislationType: 'act',
+    billTitle: 'A bill to provide for the equitable settlement of certain Indian land disputes regarding land in Illinois, and for other purposes.',
+  }),
+
+  'not-voting': votedCardSample({
+    nameTitle: 'Rep. Mike Johnson (LA-4)',
+    party: 'Republican',
+    stateName: 'Louisiana',
+    chamber: 'rep',
+    state: 'LA',
+    district: 4,
+    imageUrl: '/images/legislators/J000299.jpg',
+    voteCast: 'Not Voting',
+    voteTitle: 'On Passage',
+    legislationIdentifier: 'H.R. 3486',
+    legislationType: 'act',
+    billTitle: 'Stop Illegal Entry Act of 2025',
+  }),
+
+  'missing-headshot': votedCardSample({
+    nameTitle: 'Rep. Clay Fuller (GA-14)',
+    party: 'Republican',
+    stateName: 'Georgia',
+    chamber: 'rep',
+    state: 'GA',
+    district: 14,
+    imageUrl: '',
+    voteCast: 'Yea',
+    voteTitle: 'On Passage',
+    legislationIdentifier: 'H.R. 1',
+    legislationType: 'act',
+    billTitle: 'One Big Beautiful Bill Act',
+  }),
+
   // House Rep, recorded No. Bill 119-HR-3486 (real title via getBestBillTitle).
   'house-no': votedCardSample({
     nameTitle: 'Rep. Hakeem Jeffries (NY-8)',
