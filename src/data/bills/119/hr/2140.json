@@ -690,6 +690,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Diesel Emissions Reduction Act of 2025",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-09-22T05:38:23Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -744,8 +754,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-17T16:27:29Z",
-  "updateDateIncludingText": "2026-09-18T01:48:42Z",
+  "updateDate": "2026-09-22T05:38:23Z",
+  "updateDateIncludingText": "2026-09-22T05:38:23Z",
   "id": "119-HR-2140",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16T02:11:33Z"

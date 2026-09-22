@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 24,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/5366/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-108.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-11",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-108.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-09-11",
@@ -805,8 +825,14 @@
   "introducedDate": "2025-09-15",
   "latestAction": {
     "actionDate": "2026-09-11",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-108."
   },
+  "laws": [
+    {
+      "number": "119-108",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5366",
   "number": "5366",
   "originChamber": "House",
@@ -893,8 +919,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:23:44Z",
-  "updateDateIncludingText": "2026-09-19T23:23:44Z",
+  "updateDate": "2026-09-21T17:56:36Z",
+  "updateDateIncludingText": "2026-09-21T17:56:36Z",
   "id": "119-HR-5366",
   "lastActionDate": "2026-09-11",
   "lastRecordedVoteDate": "2026-08-07"
