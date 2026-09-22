@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 37,
+    "count": 41,
     "url": "https://api.congress.gov/v3/bill/119/hr/5334/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-111.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-111.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-09-17",
@@ -1710,9 +1750,15 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-09-17",
-    "text": "Presented to President."
+    "actionDate": "2026-09-18",
+    "text": "Became Public Law No: 119-111."
   },
+  "laws": [
+    {
+      "number": "119-111",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
   "number": "5334",
   "originChamber": "House",
@@ -1843,9 +1889,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:23:24Z",
-  "updateDateIncludingText": "2026-09-19T23:23:24Z",
+  "updateDate": "2026-09-21T17:05:08Z",
+  "updateDateIncludingText": "2026-09-21T17:05:08Z",
   "id": "119-HR-5334",
-  "lastActionDate": "2026-09-17",
+  "lastActionDate": "2026-09-18",
   "lastRecordedVoteDate": "2026-09-16T22:28:20Z"
 }

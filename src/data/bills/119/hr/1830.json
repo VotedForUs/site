@@ -635,14 +635,14 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/1830/summaries?format=json"
   },
-  "title": "To designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the Commander Delbert Austin Olson Post Office.",
+  "title": "To designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the \"Commander Delbert Austin Olson Post Office\".",
   "titles": {
     "titles": [
       {
-        "title": "To designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the Commander Delbert Austin Olson Post Office.",
+        "title": "To designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the \"Commander Delbert Austin Olson Post Office\".",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-10T14:58:30Z"
+        "updateDate": "2026-09-17T21:43:21Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -655,16 +655,6 @@
         "updateDate": "2026-07-10T14:58:28Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the Commander Delbert Austin Olson Post Office.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2025-12-11T03:53:21Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To designate the facility of the United States Postal Service located at 840 Front Street in Casselton, North Dakota, as the \"Commander Delbert Austin Olson Post Office\".",
@@ -675,8 +665,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-15T10:56:42Z",
-  "updateDateIncludingText": "2026-09-17T04:33:20Z",
+  "updateDate": "2026-09-22T08:05:46Z",
+  "updateDateIncludingText": "2026-09-22T08:05:46Z",
   "id": "119-HR-1830",
   "lastActionDate": "2026-09-14",
   "lastRecordedVoteDate": "2025-12-09"

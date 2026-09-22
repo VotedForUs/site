@@ -725,6 +725,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Combating Illicit Xylazine Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-09-22T05:38:23Z"
+      },
+      {
         "title": "Combating Illicit Xylazine Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -779,8 +789,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:32:46Z",
-  "updateDateIncludingText": "2026-09-19T23:32:46Z",
+  "updateDate": "2026-09-22T05:38:23Z",
+  "updateDateIncludingText": "2026-09-22T05:38:23Z",
   "id": "119-HR-1266",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-15"
