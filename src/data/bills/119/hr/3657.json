@@ -36,7 +36,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4746-4747)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -939,8 +939,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T08:06:35Z",
-  "updateDateIncludingText": "2026-09-18T08:06:35Z",
+  "updateDate": "2026-09-22T15:26:33Z",
+  "updateDateIncludingText": "2026-09-22T15:26:33Z",
   "id": "119-HR-3657",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-09-16"

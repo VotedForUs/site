@@ -745,6 +745,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Geothermal Energy Advancement Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-09-23T04:53:20Z"
+      },
+      {
         "title": "Geothermal Energy Advancement Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -819,8 +829,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:41:20Z",
-  "updateDateIncludingText": "2026-09-19T23:41:20Z",
+  "updateDate": "2026-09-23T04:53:20Z",
+  "updateDateIncludingText": "2026-09-23T04:53:20Z",
   "id": "119-HR-5631",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-06-02"

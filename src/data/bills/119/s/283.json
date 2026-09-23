@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/s/283/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-15",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on House action received in Senate and at desk: House amendment to Senate bill.",
+        "type": "Floor"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-14",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5557-5558)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5557-5558)",
         "type": "Floor"
       },
       {
@@ -728,9 +736,8 @@
   "congress": 119,
   "introducedDate": "2025-01-28",
   "latestAction": {
-    "actionDate": "2026-09-14",
-    "actionTime": "15:31:36",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-15",
+    "text": "Message on House action received in Senate and at desk: House amendment to Senate bill."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/283",
   "number": "283",
@@ -744,18 +751,18 @@
   "titles": {
     "titles": [
       {
+        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-16T10:58:26Z"
+      },
+      {
         "billTextVersionCode": "EAH",
         "billTextVersionName": "Engrossed Amendment House",
         "title": "Illegal Red Snapper and Tuna Enforcement Act",
         "titleType": "Short Title(s) from Engrossed Amendment House bill text",
         "titleTypeCode": 252,
         "updateDate": "2026-09-16T06:08:22Z"
-      },
-      {
-        "title": "Illegal Red Snapper and Tuna Enforcement Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-17T11:31:37Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -796,9 +803,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-16T06:08:22Z",
-  "updateDateIncludingText": "2026-09-16T10:04:29Z",
+  "updateDate": "2026-09-22T16:02:45Z",
+  "updateDateIncludingText": "2026-09-22T16:02:45Z",
   "id": "119-S-283",
-  "lastActionDate": "2026-09-14",
+  "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-14"
 }

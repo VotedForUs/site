@@ -734,6 +734,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Gateway Partnership Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-09-23T04:38:26Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -748,9 +758,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Gateway Partnership Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To authorize the Secretary of the Interior to enter into an agreement with the Gateway Arch Park Foundation to host private events in Gateway Arch National Park buildings, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-18T03:08:21Z"
       },
       {
@@ -758,10 +768,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To authorize the Secretary of the Interior to enter into an agreement with the Gateway Arch Park Foundation to host private events in Gateway Arch National Park buildings, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Gateway Partnership Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-18T03:08:21Z"
+      },
+      {
+        "title": "Gateway Partnership Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-03-03T06:23:21Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -771,12 +787,6 @@
         "title": "Gateway Partnership Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-03-03T06:23:21Z"
-      },
-      {
-        "title": "Gateway Partnership Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
         "updateDate": "2026-03-03T06:23:21Z"
       },
       {
@@ -798,8 +808,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-22T08:05:52Z",
-  "updateDateIncludingText": "2026-09-22T08:05:52Z",
+  "updateDate": "2026-09-23T04:38:26Z",
+  "updateDateIncludingText": "2026-09-23T04:48:39Z",
   "id": "119-HR-5254",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-03-16"
