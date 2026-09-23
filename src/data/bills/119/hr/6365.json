@@ -734,6 +734,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Wintergreen Emergency Egress Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-09-23T04:38:26Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -748,9 +758,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Wintergreen Emergency Egress Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To require the Secretary of the Interior to issue a right-of-way for an emergency exit on certain National Park Service land in the State of Virginia, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-05T03:23:23Z"
       },
       {
@@ -758,9 +768,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To require the Secretary of the Interior to issue a right-of-way for an emergency exit on certain National Park Service land in the State of Virginia, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Wintergreen Emergency Egress Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-05T03:23:23Z"
       },
       {
@@ -798,8 +808,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T10:56:17Z",
-  "updateDateIncludingText": "2026-09-19T10:56:17Z",
+  "updateDate": "2026-09-23T04:38:26Z",
+  "updateDateIncludingText": "2026-09-23T04:48:35Z",
   "id": "119-HR-6365",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-03-03"

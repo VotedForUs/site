@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/7834/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -600,9 +608,8 @@
   "congress": 119,
   "introducedDate": "2026-03-05",
   "latestAction": {
-    "actionDate": "2026-09-16",
-    "actionTime": "15:24:42",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-17",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7834",
   "number": "7834",
@@ -670,9 +677,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T05:23:20Z",
-  "updateDateIncludingText": "2026-09-18T10:04:08Z",
+  "updateDate": "2026-09-22T22:26:19Z",
+  "updateDateIncludingText": "2026-09-22T22:26:19Z",
   "id": "119-HR-7834",
-  "lastActionDate": "2026-09-16",
+  "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-09-16"
 }

@@ -36,7 +36,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Voice Vote.",
+        "text": "Passed Senate without amendment by Voice Vote. (consideration: CR S4746)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -891,8 +891,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:37:01Z",
-  "updateDateIncludingText": "2026-09-19T23:37:01Z",
+  "updateDate": "2026-09-22T15:25:42Z",
+  "updateDateIncludingText": "2026-09-22T15:25:42Z",
   "id": "119-HR-7250",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-09-16"

@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/s/759/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-09-22",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-09-22",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-14",
@@ -22,7 +42,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5559)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +520,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5559-5560)",
         "type": "Floor"
       },
       {
@@ -610,9 +630,8 @@
   "congress": 119,
   "introducedDate": "2025-02-26",
   "latestAction": {
-    "actionDate": "2026-09-14",
-    "actionTime": "15:35:37",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-22",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/759",
   "number": "759",
@@ -680,9 +699,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-16T06:08:22Z",
-  "updateDateIncludingText": "2026-09-16T06:08:22Z",
+  "updateDate": "2026-09-23T08:05:51Z",
+  "updateDateIncludingText": "2026-09-23T08:05:51Z",
   "id": "119-S-759",
-  "lastActionDate": "2026-09-14",
+  "lastActionDate": "2026-09-22",
   "lastRecordedVoteDate": "2026-09-14"
 }

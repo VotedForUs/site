@@ -207,7 +207,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to measure considered in Senate.",
+        "text": "Motion to proceed to measure considered in Senate. (CR S4743)",
         "type": "Floor"
       },
       {
@@ -486,8 +486,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-21T20:54:12Z",
-  "updateDateIncludingText": "2026-09-21T20:54:12Z",
+  "updateDate": "2026-09-22T15:24:35Z",
+  "updateDateIncludingText": "2026-09-22T15:24:35Z",
   "id": "119-S-4668",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-09-17T16:53:44Z"
