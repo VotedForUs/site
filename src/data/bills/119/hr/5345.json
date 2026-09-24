@@ -779,6 +779,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Improving Social Security’s Service to Victims of Identity Theft Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-24T03:08:20Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -793,9 +803,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Improving Social Security’s Service to Victims of Identity Theft Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend title VII of the Social Security Act to provide for a single point of contact at the Social Security Administration for individuals who are victims of identity theft.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-03T04:38:20Z"
       },
       {
@@ -803,9 +813,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend title VII of the Social Security Act to provide for a single point of contact at the Social Security Administration for individuals who are victims of identity theft.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Improving Social Security’s Service to Victims of Identity Theft Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-03T04:38:20Z"
       },
       {
@@ -843,8 +853,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-21T14:04:48Z",
-  "updateDateIncludingText": "2026-09-21T14:04:48Z",
+  "updateDate": "2026-09-24T03:08:20Z",
+  "updateDateIncludingText": "2026-09-24T03:08:20Z",
   "id": "119-HR-5345",
   "lastActionDate": "2026-09-18",
   "lastRecordedVoteDate": "2026-09-17"

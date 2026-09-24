@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 20,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/9340/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -517,7 +525,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5958-5959)",
         "type": "Floor"
       },
       {
@@ -718,9 +726,8 @@
   "congress": 119,
   "introducedDate": "2026-06-18",
   "latestAction": {
-    "actionDate": "2026-09-16",
-    "actionTime": "18:53:50",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-17",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9340",
   "number": "9340",
@@ -788,9 +795,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T08:05:45Z",
-  "updateDateIncludingText": "2026-09-18T09:48:40Z",
+  "updateDate": "2026-09-23T17:26:47Z",
+  "updateDateIncludingText": "2026-09-23T17:26:47Z",
   "id": "119-HR-9340",
-  "lastActionDate": "2026-09-16",
+  "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-09-16T22:53:48Z"
 }

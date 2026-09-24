@@ -1,8 +1,24 @@
 {
   "actions": {
-    "count": 13,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/9576/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-22",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 679.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-09-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+        "type": "Calendars"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -507,7 +523,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 352 - 72 (Roll no. 309).",
+        "text": "On passage Passed by the Yeas and Nays: 352 - 72 (Roll no. 309). (text of amendment in the nature of a substitute: CR H5941)",
         "type": "Floor"
       },
       {
@@ -518,7 +534,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5956-5957)",
         "type": "Floor"
       },
       {
@@ -573,7 +589,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1530.",
+        "text": "Considered under the provisions of rule H. Res. 1530. (consideration: CR H5941-5947)",
         "type": "Floor"
       },
       {
@@ -609,9 +625,8 @@
   "congress": 119,
   "introducedDate": "2026-07-02",
   "latestAction": {
-    "actionDate": "2026-09-16",
-    "actionTime": "18:37:31",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-22",
+    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 679."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9576",
   "number": "9576",
@@ -624,6 +639,16 @@
   "title": "National Fraud Enforcement Division Act of 2026",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "National Fraud Enforcement Division Act of 2026",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-09-24T03:08:19Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -669,9 +694,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T05:23:20Z",
-  "updateDateIncludingText": "2026-09-18T09:48:38Z",
+  "updateDate": "2026-09-24T03:08:19Z",
+  "updateDateIncludingText": "2026-09-24T03:08:19Z",
   "id": "119-HR-9576",
-  "lastActionDate": "2026-09-16",
+  "lastActionDate": "2026-09-22",
   "lastRecordedVoteDate": "2026-09-16T22:37:27Z"
 }
