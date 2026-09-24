@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hjres/213/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -507,7 +515,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On passage Passed by the Yeas and Nays: 214 - 208 (Roll no. 311).",
+        "text": "On passage Passed by the Yeas and Nays: 214 - 208 (Roll no. 311). (text: CR H5953)",
         "type": "Floor"
       },
       {
@@ -518,7 +526,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5958)",
         "type": "Floor"
       },
       {
@@ -573,7 +581,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under the provisions of rule H. Res. 1530.",
+        "text": "Considered under the provisions of rule H. Res. 1530. (consideration: CR H5953-5956)",
         "type": "Floor"
       },
       {
@@ -620,9 +628,8 @@
   "congress": 119,
   "introducedDate": "2026-08-10",
   "latestAction": {
-    "actionDate": "2026-09-16",
-    "actionTime": "18:50:09",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-17",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/213",
   "number": "213",
@@ -662,9 +669,9 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-09-18T05:23:22Z",
-  "updateDateIncludingText": "2026-09-18T10:03:57Z",
+  "updateDate": "2026-09-23T16:26:36Z",
+  "updateDateIncludingText": "2026-09-23T16:26:36Z",
   "id": "119-HJRES-213",
-  "lastActionDate": "2026-09-16",
+  "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-09-16T22:50:06Z"
 }

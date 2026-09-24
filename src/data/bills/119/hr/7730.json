@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/7730/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5939-5940)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5939-5941)",
         "type": "Floor"
       },
       {
@@ -600,9 +608,8 @@
   "congress": 119,
   "introducedDate": "2026-02-26",
   "latestAction": {
-    "actionDate": "2026-09-16",
-    "actionTime": "15:43:46",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-17",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7730",
   "number": "7730",
@@ -670,9 +677,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T05:23:21Z",
-  "updateDateIncludingText": "2026-09-18T09:48:40Z",
+  "updateDate": "2026-09-23T17:24:21Z",
+  "updateDateIncludingText": "2026-09-23T17:24:21Z",
   "id": "119-HR-7730",
-  "lastActionDate": "2026-09-16",
+  "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2026-09-16"
 }
