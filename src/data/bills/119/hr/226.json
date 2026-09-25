@@ -1,20 +1,42 @@
 {
   "actions": {
-    "count": 15,
-    "url": "https://api.congress.gov/v3/bill/119/hr/9327/actions?format=json",
+    "count": 11,
+    "url": "https://api.congress.gov/v3/bill/119/hr/226/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-09-16",
+        "actionDate": "2026-09-23",
+        "committees": [
+          {
+            "name": "Indian Affairs Committee",
+            "systemCode": "slia00",
+            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+          }
+        ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Received in the Senate.",
+        "text": "Committee on Indian Affairs. Hearings held.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2025-02-05",
+        "committees": [
+          {
+            "name": "Indian Affairs Committee",
+            "systemCode": "slia00",
+            "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Indian Affairs.",
         "type": "IntroReferral"
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2026-09-16",
-        "actionTime": "11:33:28",
+        "actionDate": "2025-02-04",
+        "actionTime": "16:37:33",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -24,28 +46,35 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-09-16",
-        "actionTime": "11:33:25",
+        "actionDate": "2025-02-04",
+        "actionTime": "16:37:32",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5895)",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H447-448)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-09-16",
+            "date": "2025-02-04",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/9327",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/226",
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
+              "T000489",
+              "G000551",
+              "C001078",
+              "G000590",
+              "S001207",
+              "G000596",
+              "L000578",
               "A000055",
               "B001257",
               "B000490",
@@ -477,149 +506,79 @@
               "S001230",
               "B001322",
               "R000621",
-              "M001235",
-              "P000622",
-              "F000484",
-              "W000831",
-              "G000606",
-              "V000139",
-              "M001245"
+              "M001235"
             ],
-            "id": "119-HR-9327-1"
+            "id": "119-HR-226-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-09-16",
-        "actionTime": "11:27:24",
+        "actionDate": "2025-02-04",
+        "actionTime": "16:27:38",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 9327.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 226.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-09-16",
-        "actionTime": "11:27:23",
+        "actionDate": "2025-02-04",
+        "actionTime": "16:27:36",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H5895-5896)",
+        "text": "Considered under suspension of the rules. (consideration: CR H447-449)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-09-16",
-        "actionTime": "11:27:08",
+        "actionDate": "2025-02-04",
+        "actionTime": "16:27:21",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Van Epps moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mr. Westerman moved to suspend the rules and pass the bill.",
         "type": "Floor"
       },
       {
-        "actionCode": "H12410",
-        "actionDate": "2026-09-10",
-        "calendarNumber": {
-          "calendar": "U00711"
-        },
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Placed on the Union Calendar, Calendar No. 711.",
-        "type": "Calendars"
-      },
-      {
-        "actionCode": "H12200",
-        "actionDate": "2026-09-10",
-        "committees": [
-          {
-            "name": "Homeland Security Committee",
-            "systemCode": "hshm00",
-            "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Reported by the Committee on Homeland Security. H. Rept. 119-812.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H19000",
-        "actionDate": "2026-06-24",
-        "committees": [
-          {
-            "name": "Homeland Security Committee",
-            "systemCode": "hshm00",
-            "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Ordered to be Reported by the Yeas and Nays: 30 - 0.",
-        "type": "Committee"
-      },
-      {
-        "actionCode": "H15001",
-        "actionDate": "2026-06-24",
-        "committees": [
-          {
-            "name": "Homeland Security Committee",
-            "systemCode": "hshm00",
-            "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
-          }
-        ],
-        "sourceSystem": {
-          "code": 1,
-          "name": "House committee actions"
-        },
-        "text": "Committee Consideration and Mark-up Session Held",
-        "type": "Committee"
-      },
-      {
         "actionCode": "H11100",
-        "actionDate": "2026-06-18",
+        "actionDate": "2025-01-07",
         "committees": [
           {
-            "name": "Homeland Security Committee",
-            "systemCode": "hshm00",
-            "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Homeland Security.",
+        "text": "Referred to the House Committee on Natural Resources.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-06-18",
+  "introducedDate": "2025-01-07",
   "latestAction": {
-    "actionDate": "2026-09-16",
-    "text": "Received in the Senate."
+    "actionDate": "2026-09-23",
+    "text": "Committee on Indian Affairs. Hearings held."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9327",
-  "number": "9327",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/226",
+  "number": "226",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/hr/9327/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/hr/226/summaries?format=json"
   },
-  "title": "PEARL Act",
+  "title": "Eastern Band of Cherokee Historic Lands Reacquisition Act",
   "titles": {
     "titles": [
       {
@@ -627,87 +586,59 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Providing Emotional Assistance with Relief and Love Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-09-17T04:38:39Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "PEARL Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-09-17T04:38:39Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To establish in U.S. Customs and Border Protection a pilot program to adopt dogs from local animal shelters to be trained as support dogs, and for other purposes.",
+        "title": "To take certain Federal lands in Tennessee into trust for the benefit of the Eastern Band of Cherokee Indians.",
         "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
-        "updateDate": "2026-09-17T04:38:39Z"
+        "updateDate": "2026-07-11T03:23:17Z"
       },
       {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
+        "billTextVersionCode": "RFS",
+        "billTextVersionName": "Referred in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Eastern Band of Cherokee Historic Lands Reacquisition Act",
+        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
+        "titleTypeCode": 255,
+        "updateDate": "2025-02-08T05:08:17Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "PEARL Act",
-        "titleType": "Short Title(s) as Reported to House",
-        "titleTypeCode": 102,
-        "updateDate": "2026-09-11T04:08:21Z"
+        "title": "Eastern Band of Cherokee Historic Lands Reacquisition Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-02-06T04:38:18Z"
       },
       {
-        "billTextVersionCode": "RH",
-        "billTextVersionName": "Reported in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Providing Emotional Assistance with Relief and Love Act",
-        "titleType": "Short Title(s) as Reported to House",
-        "titleTypeCode": 102,
-        "updateDate": "2026-09-11T04:08:21Z"
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "Eastern Band of Cherokee Historic Lands Reacquisition Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
+        "updateDate": "2025-02-01T06:23:18Z"
       },
       {
-        "title": "PEARL Act",
+        "title": "Eastern Band of Cherokee Historic Lands Reacquisition Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-19T08:23:33Z"
+        "updateDate": "2025-02-01T06:23:18Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Providing Emotional Assistance with Relief and Love Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2026-06-19T08:23:31Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "PEARL Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
-        "updateDate": "2026-06-19T08:23:31Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To establish in U.S. Customs and Border Protection a pilot program to adopt dogs from local animal shelters to be trained as support dogs, and for other purposes.",
+        "title": "To take certain Federal lands in Tennessee into trust for the benefit of the Eastern Band of Cherokee Indians.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-06-19T08:18:56Z"
+        "updateDate": "2025-02-01T06:18:35Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-25T10:26:17Z",
-  "updateDateIncludingText": "2026-09-25T10:26:17Z",
-  "id": "119-HR-9327",
-  "lastActionDate": "2026-09-16",
-  "lastRecordedVoteDate": "2026-09-16"
+  "updateDate": "2026-09-24T10:56:56Z",
+  "updateDateIncludingText": "2026-09-24T10:56:56Z",
+  "id": "119-HR-226",
+  "lastActionDate": "2026-09-23",
+  "lastRecordedVoteDate": "2025-02-04"
 }
