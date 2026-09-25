@@ -754,7 +754,17 @@
         "title": "Illegal Red Snapper and Tuna Enforcement Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-16T10:58:26Z"
+        "updateDate": "2026-09-25T10:58:20Z"
+      },
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Illegal Red Snapper and Tuna Enforcement Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-25T02:53:18Z"
       },
       {
         "billTextVersionCode": "EAH",
@@ -803,8 +813,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-22T16:02:45Z",
-  "updateDateIncludingText": "2026-09-22T16:02:45Z",
+  "updateDate": "2026-09-25T02:53:18Z",
+  "updateDateIncludingText": "2026-09-25T02:53:18Z",
   "id": "119-S-283",
   "lastActionDate": "2026-09-15",
   "lastRecordedVoteDate": "2026-09-14"
