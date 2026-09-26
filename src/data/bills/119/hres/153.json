@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 9,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/hres/153/actions?format=json",
     "actions": [
       {
@@ -598,7 +598,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Expressing condolences to the families, friends, and loved ones of the victims of the crash of American Eagle Flight 5342 and PAT 25, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T21:23:19Z"
       },
@@ -613,8 +613,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-09-02T21:46:30Z",
-  "updateDateIncludingText": "2026-09-02T21:46:30Z",
+  "updateDate": "2026-09-25T15:25:25Z",
+  "updateDateIncludingText": "2026-09-25T15:25:25Z",
   "id": "119-HRES-153",
   "lastActionDate": "2025-03-03",
   "lastRecordedVoteDate": "2025-03-03"

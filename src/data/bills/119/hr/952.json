@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/952/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-22",
         "sourceSystem": {
@@ -731,8 +739,8 @@
   "congress": 119,
   "introducedDate": "2025-02-04",
   "latestAction": {
-    "actionDate": "2026-09-22",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4882-4883)"
+    "actionDate": "2026-09-24",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/952",
   "number": "952",
@@ -810,9 +818,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-24T10:56:27Z",
-  "updateDateIncludingText": "2026-09-24T10:56:27Z",
+  "updateDate": "2026-09-25T10:57:00Z",
+  "updateDateIncludingText": "2026-09-25T10:57:00Z",
   "id": "119-HR-952",
-  "lastActionDate": "2026-09-22",
+  "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-22"
 }

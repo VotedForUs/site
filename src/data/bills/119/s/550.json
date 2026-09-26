@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 19,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/s/550/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-09-22",
@@ -748,8 +768,8 @@
   "congress": 119,
   "introducedDate": "2025-02-12",
   "latestAction": {
-    "actionDate": "2026-09-22",
-    "text": "Presented to President."
+    "actionDate": "2026-09-25",
+    "text": "Signed by President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/550",
   "number": "550",
@@ -779,9 +799,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-23T08:05:51Z",
-  "updateDateIncludingText": "2026-09-23T08:05:51Z",
+  "updateDate": "2026-09-25T21:12:28Z",
+  "updateDateIncludingText": "2026-09-25T21:12:28Z",
   "id": "119-S-550",
-  "lastActionDate": "2026-09-22",
+  "lastActionDate": "2026-09-25",
   "lastRecordedVoteDate": "2026-09-14"
 }
