@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 22,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/9340/actions?format=json",
     "actions": [
       {
@@ -757,6 +757,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Ratepayer Protection Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-09-26T07:53:20Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -811,8 +821,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-24T10:56:49Z",
-  "updateDateIncludingText": "2026-09-24T10:56:49Z",
+  "updateDate": "2026-09-26T07:53:20Z",
+  "updateDateIncludingText": "2026-09-26T07:53:20Z",
   "id": "119-HR-9340",
   "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-16T22:53:48Z"

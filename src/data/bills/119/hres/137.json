@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 14,
+    "count": 16,
     "url": "https://api.congress.gov/v3/bill/119/hres/137/actions?format=json",
     "actions": [
       {
@@ -655,7 +655,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Resolution designating the House Press Gallery (Rooms H–315, H–316, H–317, H–318, and H–319 of the United States Capitol) as the \"Frederick Douglass Press Gallery\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T21:28:22Z"
       },
@@ -684,8 +684,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-11T21:28:22Z",
-  "updateDateIncludingText": "2026-07-19T00:19:12Z",
+  "updateDate": "2026-09-25T16:27:41Z",
+  "updateDateIncludingText": "2026-09-25T16:27:41Z",
   "id": "119-HRES-137",
   "lastActionDate": "2025-06-09",
   "lastRecordedVoteDate": "2025-06-09"
