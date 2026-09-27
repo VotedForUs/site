@@ -160,7 +160,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Measure laid before Senate by unanimous consent.",
+        "text": "Measure laid before Senate by unanimous consent. (consideration: CR S4962-4969)",
         "type": "Floor"
       },
       {
@@ -848,8 +848,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-09-25T10:56:56Z",
-  "updateDateIncludingText": "2026-09-25T10:56:56Z",
+  "updateDate": "2026-09-26T10:56:33Z",
+  "updateDateIncludingText": "2026-09-26T10:56:33Z",
   "id": "119-HCONRES-89",
   "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-24T18:41:06Z"

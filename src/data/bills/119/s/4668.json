@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "The committee substitute withdrawn by Voice Vote.",
+        "text": "The committee substitute tabled by Voice Vote.",
         "type": "Floor"
       },
       {
@@ -629,7 +629,7 @@
   "introducedDate": "2026-06-02",
   "latestAction": {
     "actionDate": "2026-09-24",
-    "text": "The committee substitute withdrawn by Voice Vote."
+    "text": "The committee substitute tabled by Voice Vote."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4668",
   "number": "4668",
@@ -643,10 +643,10 @@
   "titles": {
     "titles": [
       {
-        "title": "Protect College Sports Act of 2026",
+        "title": "A bill to protect the name, image, and likeness rights of, and provide protections for, student athletes and to promote fair competition among intercollegiate athletics, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-25T11:03:24Z"
+        "updateDate": "2026-09-27T10:56:16Z"
       },
       {
         "billTextVersionCode": "RS",
@@ -677,8 +677,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-25T21:08:08Z",
-  "updateDateIncludingText": "2026-09-25T21:08:08Z",
+  "updateDate": "2026-09-27T11:03:26Z",
+  "updateDateIncludingText": "2026-09-27T11:03:26Z",
   "id": "119-S-4668",
   "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-24T16:42:08Z"

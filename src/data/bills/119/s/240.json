@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 18,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/s/240/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Senate agreed to the House amendment to S. 240 by Unanimous Consent. (consideration: CR S5020)",
+        "type": "ResolvingDifferences"
+      },
       {
         "actionDate": "2026-09-15",
         "sourceSystem": {
@@ -736,8 +744,8 @@
   "congress": 119,
   "introducedDate": "2025-01-24",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "text": "Message on House action received in Senate and at desk: House amendment to Senate bill."
+    "actionDate": "2026-09-24",
+    "text": "Senate agreed to the House amendment to S. 240 by Unanimous Consent. (consideration: CR S5020)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/240",
   "number": "240",
@@ -754,7 +762,7 @@
         "title": "Crow Tribe Water Rights Settlement Amendments Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-25T10:58:20Z"
+        "updateDate": "2026-09-26T11:03:20Z"
       },
       {
         "billTextVersionCode": "ENR",
@@ -813,9 +821,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-25T02:53:18Z",
-  "updateDateIncludingText": "2026-09-25T02:53:18Z",
+  "updateDate": "2026-09-26T11:03:20Z",
+  "updateDateIncludingText": "2026-09-26T11:03:20Z",
   "id": "119-S-240",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-14"
 }
