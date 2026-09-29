@@ -754,6 +754,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Reversionary Interest Conveyance Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-29T05:23:24Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -818,8 +828,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-25T10:57:00Z",
-  "updateDateIncludingText": "2026-09-25T10:57:00Z",
+  "updateDate": "2026-09-29T05:23:24Z",
+  "updateDateIncludingText": "2026-09-29T05:23:24Z",
   "id": "119-HR-952",
   "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-22"

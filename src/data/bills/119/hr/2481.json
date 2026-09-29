@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/2481/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-23",
         "sourceSystem": {
@@ -742,8 +750,8 @@
   "congress": 119,
   "introducedDate": "2025-03-31",
   "latestAction": {
-    "actionDate": "2026-09-23",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4902)"
+    "actionDate": "2026-09-24",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2481",
   "number": "2481",
@@ -756,6 +764,16 @@
   "title": "Romance Scam Prevention Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Romance Scam Prevention Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-29T05:23:24Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -821,9 +839,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-24T15:44:05Z",
-  "updateDateIncludingText": "2026-09-24T15:44:05Z",
+  "updateDate": "2026-09-29T05:23:24Z",
+  "updateDateIncludingText": "2026-09-29T05:23:24Z",
   "id": "119-HR-2481",
-  "lastActionDate": "2026-09-23",
+  "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-23"
 }

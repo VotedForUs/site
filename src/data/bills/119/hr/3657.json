@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 28,
+    "count": 30,
     "url": "https://api.congress.gov/v3/bill/119/hr/3657/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-112.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-112.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-09-25",
@@ -871,8 +891,14 @@
   "introducedDate": "2025-05-29",
   "latestAction": {
     "actionDate": "2026-09-25",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-112."
   },
+  "laws": [
+    {
+      "number": "119-112",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3657",
   "number": "3657",
   "originChamber": "House",
@@ -959,8 +985,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-25T21:11:56Z",
-  "updateDateIncludingText": "2026-09-25T21:11:56Z",
+  "updateDate": "2026-09-28T16:41:00Z",
+  "updateDateIncludingText": "2026-09-28T16:41:00Z",
   "id": "119-HR-3657",
   "lastActionDate": "2026-09-25",
   "lastRecordedVoteDate": "2026-09-16"

@@ -777,6 +777,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Critical Infrastructure Manufacturing Feasibility Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-29T05:23:24Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -841,8 +851,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-25T10:57:00Z",
-  "updateDateIncludingText": "2026-09-25T10:57:00Z",
+  "updateDate": "2026-09-29T05:23:24Z",
+  "updateDateIncludingText": "2026-09-29T05:23:24Z",
   "id": "119-HR-1721",
   "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-23"
