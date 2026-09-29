@@ -643,10 +643,30 @@
   "titles": {
     "titles": [
       {
-        "title": "A bill to protect the name, image, and likeness rights of, and provide protections for, student athletes and to promote fair competition among intercollegiate athletics, and for other purposes.",
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Protect College Sports Act of 2026",
+        "titleType": "Short Title(s) as Passed Senate",
+        "titleTypeCode": 105,
+        "updateDate": "2026-09-29T10:38:22Z"
+      },
+      {
+        "billTextVersionCode": "ES",
+        "billTextVersionName": "Engrossed in Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "HBCU Sports Media and Connectivity Program",
+        "titleType": "Short Title(s) as Passed Senate for portions of this bill",
+        "titleTypeCode": 110,
+        "updateDate": "2026-09-29T10:38:22Z"
+      },
+      {
+        "title": "Protect College Sports Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-27T10:56:16Z"
+        "updateDate": "2026-09-27T11:03:26Z"
       },
       {
         "billTextVersionCode": "RS",
@@ -677,8 +697,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-27T11:03:26Z",
-  "updateDateIncludingText": "2026-09-27T11:03:26Z",
+  "updateDate": "2026-09-29T10:38:22Z",
+  "updateDateIncludingText": "2026-09-29T11:48:21Z",
   "id": "119-S-4668",
   "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-24T16:42:08Z"

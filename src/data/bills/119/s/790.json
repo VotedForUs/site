@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 21,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/790/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-117.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-117.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-09-25",
@@ -776,8 +796,14 @@
   "introducedDate": "2025-02-27",
   "latestAction": {
     "actionDate": "2026-09-25",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-117."
   },
+  "laws": [
+    {
+      "number": "119-117",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/790",
   "number": "790",
   "originChamber": "Senate",
@@ -806,8 +832,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-25T21:13:02Z",
-  "updateDateIncludingText": "2026-09-25T21:13:02Z",
+  "updateDate": "2026-09-28T16:42:29Z",
+  "updateDateIncludingText": "2026-09-28T16:42:29Z",
   "id": "119-S-790",
   "lastActionDate": "2026-09-25",
   "lastRecordedVoteDate": "2026-09-14"
