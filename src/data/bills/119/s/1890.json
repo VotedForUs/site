@@ -225,6 +225,10 @@
   "number": "1890",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/1890/summaries?format=json"
+  },
   "title": "Carla Walker Act",
   "titles": {
     "titles": [
@@ -273,8 +277,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-10T11:51:27Z",
-  "updateDateIncludingText": "2026-08-10T11:51:27Z",
+  "updateDate": "2026-09-29T19:44:45Z",
+  "updateDateIncludingText": "2026-09-29T19:44:45Z",
   "id": "119-S-1890",
   "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-10"

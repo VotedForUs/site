@@ -225,6 +225,10 @@
   "number": "3966",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/3966/summaries?format=json"
+  },
   "title": "TREY'S Law",
   "titles": {
     "titles": [
@@ -301,8 +305,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-10T11:51:27Z",
-  "updateDateIncludingText": "2026-08-10T11:51:27Z",
+  "updateDate": "2026-09-29T20:50:26Z",
+  "updateDateIncludingText": "2026-09-29T20:50:26Z",
   "id": "119-S-3966",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-20"

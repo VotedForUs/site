@@ -1,56 +1,26 @@
 {
   "actions": {
-    "count": 9,
-    "url": "https://api.congress.gov/v3/bill/119/s/2074/actions?format=json",
+    "count": 8,
+    "url": "https://api.congress.gov/v3/bill/119/s/4395/actions?format=json",
     "actions": [
       {
-        "actionCode": "H15000",
-        "actionDate": "2026-03-16",
-        "actionTime": "15:06:10",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2026-03-16",
-        "actionTime": "15:00:33",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-03-16",
+        "actionDate": "2026-09-28",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-03-05",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S877-878; text: CR S877-878)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5122-5123; text: CR S5123)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2026-03-05",
+            "date": "2026-09-28",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/2074",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4395",
             "question": "Pass with Unanimous Consent",
             "recordType": "unanimous-consent",
             "membersAtAction": [
@@ -155,12 +125,20 @@
               "H001104",
               "M001244"
             ],
-            "id": "119-S-2074-1"
+            "id": "119-S-4395-1"
           }
         ]
       },
       {
-        "actionDate": "2026-03-05",
+        "actionDate": "2026-09-22",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 672.",
+        "type": "Calendars"
+      },
+      {
+        "actionDate": "2026-09-22",
         "committees": [
           {
             "name": "Banking, Housing, and Urban Affairs Committee",
@@ -171,11 +149,26 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent.",
-        "type": "Discharge"
+        "text": "Committee on Banking, Housing, and Urban Affairs. Reported by Senator Scott SC, without amendment. Without written report.",
+        "type": "Committee"
       },
       {
-        "actionDate": "2025-06-12",
+        "actionDate": "2026-09-17",
+        "committees": [
+          {
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Banking, Housing, and Urban Affairs. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-04-27",
         "committees": [
           {
             "name": "Banking, Housing, and Urban Affairs Committee",
@@ -192,61 +185,66 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2025-06-12",
+  "introducedDate": "2026-04-27",
   "latestAction": {
-    "actionDate": "2026-03-16",
-    "actionTime": "15:06:10",
-    "text": "Held at the desk."
+    "actionDate": "2026-09-28",
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5122-5123; text: CR S5123)"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2074",
-  "number": "2074",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4395",
+  "number": "4395",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/2074/summaries?format=json"
-  },
-  "title": "Servicemembers’ Credit Monitoring Enhancement Act",
+  "title": "A bill to reauthorize the Terrorism Risk Insurance Act of 2002, and for other purposes.",
   "titles": {
     "titles": [
       {
-        "title": "Servicemembers’ Credit Monitoring Enhancement Act",
+        "title": "Terrorism Risk Insurance Program Reauthorization Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-03-17T11:03:20Z"
+        "updateDate": "2026-09-30T11:03:20Z"
       },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Servicemembers’ Credit Monitoring Enhancement Act",
+        "title": "Terrorism Risk Insurance Program Reauthorization Act of 2026",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2026-03-06T04:08:20Z"
+        "updateDate": "2026-09-29T10:38:21Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Terrorism Risk Insurance Program Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-09-24T03:08:19Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Servicemembers’ Credit Monitoring Enhancement Act",
+        "title": "Terrorism Risk Insurance Program Reauthorization Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2025-06-26T06:53:18Z"
+        "updateDate": "2026-05-06T04:23:25Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to amend the Fair Credit Reporting Act to expand the definition of an active duty military consumer for purposes of certain credit monitoring requirements, and for other purposes.",
+        "title": "A bill to reauthorize the Terrorism Risk Insurance Act of 2002, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2025-06-26T06:48:23Z"
+        "updateDate": "2026-05-06T04:18:29Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-29T16:30:41Z",
-  "updateDateIncludingText": "2026-09-29T16:30:41Z",
-  "id": "119-S-2074",
-  "lastActionDate": "2026-03-16",
-  "lastRecordedVoteDate": "2026-03-05"
+  "updateDate": "2026-09-30T10:56:25Z",
+  "updateDateIncludingText": "2026-09-30T10:56:25Z",
+  "id": "119-S-4395",
+  "lastActionDate": "2026-09-28",
+  "lastRecordedVoteDate": "2026-09-28"
 }
