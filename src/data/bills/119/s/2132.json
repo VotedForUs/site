@@ -225,6 +225,10 @@
   "number": "2132",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2132/summaries?format=json"
+  },
   "title": "CLEAR Path Act",
   "titles": {
     "titles": [
@@ -301,8 +305,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-19T23:20:57Z",
-  "updateDateIncludingText": "2026-09-19T23:20:57Z",
+  "updateDate": "2026-09-29T20:39:59Z",
+  "updateDateIncludingText": "2026-09-29T20:39:59Z",
   "id": "119-S-2132",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-21"

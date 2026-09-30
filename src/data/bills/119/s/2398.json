@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/s/2398/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-09-29",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-09-29",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-15",
@@ -728,9 +748,8 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "actionTime": "19:13:55",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-29",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2398",
   "number": "2398",
@@ -798,9 +817,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-18T05:08:20Z",
-  "updateDateIncludingText": "2026-09-18T05:34:54Z",
+  "updateDate": "2026-09-30T08:05:46Z",
+  "updateDateIncludingText": "2026-09-30T08:05:46Z",
   "id": "119-S-2398",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-09-29",
   "lastRecordedVoteDate": "2026-09-15"
 }
