@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 20,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/2306/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-30",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-07-21",
         "committees": [
@@ -690,8 +705,8 @@
   "congress": 119,
   "introducedDate": "2025-03-24",
   "latestAction": {
-    "actionDate": "2026-07-21",
-    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held."
+    "actionDate": "2026-09-30",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2306",
   "number": "2306",
@@ -730,7 +745,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To reauthorize the Adams Memorial Commission, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-11T03:53:20Z"
       },
@@ -769,9 +784,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-10-01T10:57:20Z",
+  "updateDateIncludingText": "2026-10-01T10:57:20Z",
   "id": "119-HR-2306",
-  "lastActionDate": "2026-07-21",
+  "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2025-12-09"
 }

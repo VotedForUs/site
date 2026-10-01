@@ -1,58 +1,28 @@
 {
   "actions": {
-    "count": 11,
-    "url": "https://api.congress.gov/v3/bill/119/s/4394/actions?format=json",
+    "count": 9,
+    "url": "https://api.congress.gov/v3/bill/119/s/2273/actions?format=json",
     "actions": [
       {
-        "actionCode": "H15000",
-        "actionDate": "2026-06-15",
-        "actionTime": "10:50:05",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2026-06-15",
-        "actionTime": "10:32:53",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-06-12",
+        "actionDate": "2026-09-30",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-06-10",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate with an amendment by Voice Vote. (consideration: CR S2724, S2727; text of amendment in the nature of a substitute: CR S2724)",
+        "text": "Passed Senate without amendment by Unanimous Consent.",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2026-06-10",
+            "date": "2026-09-30",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4394",
-            "question": "Voice Vote",
-            "recordType": "voice",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/2273",
+            "question": "Pass with Unanimous Consent",
+            "recordType": "unanimous-consent",
             "membersAtAction": [
               "C000127",
               "K000367",
@@ -155,131 +125,145 @@
               "H001104",
               "M001244"
             ],
-            "id": "119-S-4394-1"
+            "id": "119-S-2273-1"
           }
         ]
       },
       {
-        "actionDate": "2026-05-19",
+        "actionDate": "2026-07-23",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 414.",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 483.",
         "type": "Calendars"
       },
       {
-        "actionDate": "2026-05-19",
+        "actionDate": "2026-07-23",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "ssju00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on the Judiciary. Reported by Senator Grassley with an amendment in the nature of a substitute. Without written report.",
+        "text": "Committee on Energy and Natural Resources. Reported by Senator Lee without amendment. Without written report.",
         "type": "Committee"
       },
       {
-        "actionDate": "2026-05-14",
+        "actionDate": "2025-12-17",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "ssju00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on the Judiciary. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
         "type": "Committee"
       },
       {
-        "actionDate": "2026-04-27",
+        "actionDate": "2025-12-02",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "ssju00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+            "name": "Public Lands, Forests, and Mining Subcommittee",
+            "systemCode": "sseg03",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg03?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Read twice and referred to the Committee on the Judiciary.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-237.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2025-07-14",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-04-27",
+  "introducedDate": "2025-07-14",
   "latestAction": {
-    "actionDate": "2026-06-15",
-    "actionTime": "10:50:05",
-    "text": "Held at the desk."
+    "actionDate": "2026-09-30",
+    "text": "Passed Senate without amendment by Unanimous Consent."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4394",
-  "number": "4394",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2273",
+  "number": "2273",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
     "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/4394/summaries?format=json"
+    "url": "https://api.congress.gov/v3/bill/119/s/2273/summaries?format=json"
   },
-  "title": "Promoting Police Leadership Act",
+  "title": "Wyoming Education Trust Modernization Act",
   "titles": {
     "titles": [
-      {
-        "title": "Promoting Police Leadership Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-06-13T11:03:28Z"
-      },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Promoting Police Leadership Act",
+        "title": "Wyoming Education Trust Modernization Act",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2026-06-11T03:08:22Z"
+        "updateDate": "2026-10-01T11:08:22Z"
+      },
+      {
+        "title": "Wyoming Education Trust Modernization Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-10-01T11:03:22Z"
       },
       {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Promoting Police Leadership Act",
+        "title": "Wyoming Education Trust Modernization Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
-        "updateDate": "2026-05-21T20:38:27Z"
+        "updateDate": "2026-07-25T04:28:22Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "Promoting Police Leadership Act",
+        "title": "Wyoming Education Trust Modernization Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2026-05-05T05:38:22Z"
+        "updateDate": "2025-07-25T02:23:21Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to amend the Omnibus Crime Control and Safe Streets Act of 1968 to improve the COPS program with respect to training command-level personnel, and for other purposes.",
+        "title": "A bill to amend the Act of July 10, 1890, to modify certain provisions relating to the disposal of public land in the State of Wyoming for educational purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-05-05T05:33:29Z"
+        "updateDate": "2025-07-25T02:18:22Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-30T15:35:27Z",
-  "updateDateIncludingText": "2026-09-30T15:35:27Z",
-  "id": "119-S-4394",
-  "lastActionDate": "2026-06-15",
-  "lastRecordedVoteDate": "2026-06-10"
+  "updateDate": "2026-10-01T11:08:22Z",
+  "updateDateIncludingText": "2026-10-01T11:48:24Z",
+  "id": "119-S-2273",
+  "lastActionDate": "2026-09-30",
+  "lastRecordedVoteDate": "2026-09-30"
 }

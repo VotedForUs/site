@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/677/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-30",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-02-12",
         "committees": [
@@ -628,8 +643,8 @@
   "congress": 119,
   "introducedDate": "2025-01-23",
   "latestAction": {
-    "actionDate": "2026-02-12",
-    "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held."
+    "actionDate": "2026-09-30",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/677",
   "number": "677",
@@ -648,7 +663,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To establish a process to expedite the review of appeals of certain decisions by the Department of the Interior.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T12:58:24Z"
       },
@@ -657,7 +672,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Expedited Appeals Review Act",
+        "title": "EARA",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-05-17T02:53:19Z"
@@ -667,7 +682,7 @@
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "EARA",
+        "title": "Expedited Appeals Review Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2025-05-17T02:53:19Z"
@@ -745,9 +760,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-10-01T10:57:22Z",
+  "updateDateIncludingText": "2026-10-01T10:57:22Z",
   "id": "119-HR-677",
-  "lastActionDate": "2026-02-12",
+  "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2025-05-13"
 }

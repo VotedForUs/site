@@ -1,26 +1,26 @@
 {
   "actions": {
     "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/hr/9496/actions?format=json",
+    "url": "https://api.congress.gov/v3/bill/119/hr/1190/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-09-30",
+        "actionDate": "2026-09-29",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5185)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2026-09-30",
+            "date": "2026-09-29",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/9496",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/1190",
             "question": "Pass with Unanimous Consent",
             "recordType": "unanimous-consent",
             "membersAtAction": [
@@ -125,44 +125,44 @@
               "H001104",
               "M001244"
             ],
-            "id": "119-HR-9496-2"
+            "id": "119-HR-1190-2"
           }
         ]
       },
       {
-        "actionDate": "2026-09-30",
+        "actionDate": "2026-09-29",
         "committees": [
           {
-            "name": "Finance Committee",
-            "systemCode": "ssfi00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssfi00?format=json"
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Senate Committee on Finance discharged by Unanimous Consent.",
+        "text": "Senate Committee on Banking, Housing, and Urban Affairs discharged by Unanimous Consent.",
         "type": "Discharge"
       },
       {
-        "actionDate": "2026-09-16",
+        "actionDate": "2025-06-24",
         "committees": [
           {
-            "name": "Finance Committee",
-            "systemCode": "ssfi00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssfi00?format=json"
+            "name": "Banking, Housing, and Urban Affairs Committee",
+            "systemCode": "ssbk00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Received in the Senate and Read twice and referred to the Committee on Finance.",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
         "type": "IntroReferral"
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:37:37",
+        "actionDate": "2025-06-23",
+        "actionTime": "17:24:21",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -172,28 +172,32 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:37:36",
+        "actionDate": "2025-06-23",
+        "actionTime": "17:24:18",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5683-5684)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H2873-2874)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-09-15",
+            "date": "2025-06-23",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/9496",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/1190",
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
+              "G000590",
+              "S001207",
+              "G000596",
+              "L000578",
               "A000055",
               "B001257",
               "B000490",
@@ -627,104 +631,100 @@
               "R000621",
               "M001235",
               "P000622",
-              "F000484",
-              "W000831",
-              "G000606",
-              "V000139",
-              "M001245"
+              "F000484"
             ],
-            "id": "119-HR-9496-1"
+            "id": "119-HR-1190-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:28:54",
+        "actionDate": "2025-06-23",
+        "actionTime": "17:12:41",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 9496.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1190.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:28:53",
+        "actionDate": "2025-06-23",
+        "actionTime": "17:12:39",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H5683-5685)",
+        "text": "Considered under suspension of the rules. (consideration: CR H2873-2875)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:28:38",
+        "actionDate": "2025-06-23",
+        "actionTime": "17:12:26",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Smith (MO) moved to suspend the rules and pass the bill, as amended.",
+        "text": "Mrs. Wagner moved to suspend the rules and pass the bill, as amended.",
         "type": "Floor"
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-09-08",
+        "actionDate": "2025-06-03",
         "calendarNumber": {
-          "calendar": "U00697"
+          "calendar": "U00092"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 697.",
+        "text": "Placed on the Union Calendar, Calendar No. 92.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2026-09-08",
+        "actionDate": "2025-06-03",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-797.",
+        "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-122.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2026-07-01",
+        "actionDate": "2025-05-20",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 40 - 0.",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 51 - 0.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2026-07-01",
+        "actionDate": "2025-05-20",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
@@ -736,108 +736,108 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2026-06-29",
+        "actionDate": "2025-02-11",
         "committees": [
           {
-            "name": "Ways and Means Committee",
-            "systemCode": "hswm00",
-            "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+            "name": "Financial Services Committee",
+            "systemCode": "hsba00",
+            "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
           }
         ],
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Referred to the House Committee on Ways and Means.",
+        "text": "Referred to the House Committee on Financial Services.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-06-29",
+  "introducedDate": "2025-02-11",
   "latestAction": {
-    "actionDate": "2026-09-30",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-09-29",
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5185)"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9496",
-  "number": "9496",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1190",
+  "number": "1190",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
-    "url": "https://api.congress.gov/v3/bill/119/hr/9496/summaries?format=json"
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/1190/summaries?format=json"
   },
-  "title": "End Tax Penalties on American Hostages Act",
+  "title": "Expanding Access to Capital for Rural Job Creators Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Securities Exchange Act of 1934 to expand access to capital for rural-area small businesses, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-07-10T16:53:24Z"
+      },
       {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "End Tax Penalties on American Hostages Act",
+        "title": "Expanding Access to Capital for Rural Job Creators Act",
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
-        "updateDate": "2026-09-23T04:53:20Z"
+        "updateDate": "2025-06-26T06:53:19Z"
       },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "End Tax Penalties on American Hostages Act",
+        "title": "Expanding Access to Capital for Rural Job Creators Act",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
-        "updateDate": "2026-09-17T05:23:25Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Internal Revenue Code of 1986 to postpone tax deadlines and reimburse paid late fees for United States nationals who are unlawfully or wrongfully detained or held hostage abroad, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-09-17T05:23:25Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To amend the Internal Revenue Code of 1986 to postpone tax deadlines and reimburse paid late fees for United States nationals who are unlawfully or wrongfully detained or held hostage abroad, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-09-09T14:53:03Z"
-      },
-      {
-        "title": "End Tax Penalties on American Hostages Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-09-09T14:53:03Z"
+        "updateDate": "2025-06-25T03:08:15Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "End Tax Penalties on American Hostages Act",
+        "title": "Expanding Access to Capital for Rural Job Creators Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-09-09T06:53:24Z"
+        "updateDate": "2025-06-04T07:08:19Z"
+      },
+      {
+        "title": "Expanding Access to Capital for Rural Job Creators Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-03-13T05:23:25Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "End Tax Penalties on American Hostages Act",
+        "title": "Expanding Access to Capital for Rural Job Creators Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2026-06-30T08:23:21Z"
+        "updateDate": "2025-03-13T05:23:21Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Securities Exchange Act of 1934 to expand access to capital for rural-area small businesses, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-03-13T05:18:37Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-01T10:57:05Z",
-  "updateDateIncludingText": "2026-10-01T10:57:05Z",
-  "id": "119-HR-9496",
-  "lastActionDate": "2026-09-30",
-  "lastRecordedVoteDate": "2026-09-30"
+  "updateDate": "2026-10-01T10:57:22Z",
+  "updateDateIncludingText": "2026-10-01T10:57:22Z",
+  "id": "119-HR-1190",
+  "lastActionDate": "2026-09-29",
+  "lastRecordedVoteDate": "2026-09-29"
 }
