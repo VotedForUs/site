@@ -1,56 +1,26 @@
 {
   "actions": {
-    "count": 9,
-    "url": "https://api.congress.gov/v3/bill/119/s/4850/actions?format=json",
+    "count": 8,
+    "url": "https://api.congress.gov/v3/bill/119/s/5045/actions?format=json",
     "actions": [
       {
-        "actionCode": "H15000",
-        "actionDate": "2026-08-10",
-        "actionTime": "11:11:39",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Held at the desk.",
-        "type": "Floor"
-      },
-      {
-        "actionCode": "H14000",
-        "actionDate": "2026-08-10",
-        "actionTime": "11:02:32",
-        "sourceSystem": {
-          "code": 2,
-          "name": "House floor actions"
-        },
-        "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-08-10",
+        "actionDate": "2026-09-29",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-08-07",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S4550-4551; text: CR S4551)",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5148-5150; text: CR S5149-5150)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "Senate",
             "congress": 119,
-            "date": "2026-08-07",
+            "date": "2026-09-29",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/4850",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/s/5045",
             "question": "Pass with Unanimous Consent",
             "recordType": "unanimous-consent",
             "membersAtAction": [
@@ -155,98 +125,126 @@
               "H001104",
               "M001244"
             ],
-            "id": "119-S-4850-1"
+            "id": "119-S-5045-1"
           }
         ]
       },
       {
-        "actionDate": "2026-08-07",
-        "committees": [
-          {
-            "name": "Judiciary Committee",
-            "systemCode": "ssju00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
-          }
-        ],
+        "actionDate": "2026-09-16",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Senate Committee on the Judiciary discharged by Unanimous Consent.",
-        "type": "Discharge"
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 620.",
+        "type": "Calendars"
       },
       {
-        "actionDate": "2026-06-22",
+        "actionDate": "2026-09-16",
         "committees": [
           {
-            "name": "Judiciary Committee",
-            "systemCode": "ssju00",
-            "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
           }
         ],
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Read twice and referred to the Committee on the Judiciary.",
+        "text": "Committee on Environment and Public Works. Reported by Senator Capito without amendment. Without written report.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-09-16",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Environment and Public Works. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
+      {
+        "actionDate": "2026-07-21",
+        "committees": [
+          {
+            "name": "Environment and Public Works Committee",
+            "systemCode": "ssev00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssev00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice and referred to the Committee on Environment and Public Works.",
         "type": "IntroReferral"
       }
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-06-22",
+  "introducedDate": "2026-07-21",
   "latestAction": {
-    "actionDate": "2026-08-10",
-    "actionTime": "11:11:39",
-    "text": "Held at the desk."
+    "actionDate": "2026-09-29",
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5148-5150; text: CR S5149-5150)"
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4850",
-  "number": "4850",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5045",
+  "number": "5045",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "summaries": {
-    "count": 1,
-    "url": "https://api.congress.gov/v3/bill/119/s/4850/summaries?format=json"
-  },
-  "title": "Diversity Jurisdiction Inflation Adjustment Act",
+  "title": "Wildfire Emissions Prevention Act of 2026",
   "titles": {
     "titles": [
       {
-        "title": "Diversity Jurisdiction Inflation Adjustment Act",
+        "title": "Wildfire Emissions Prevention Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-08-11T11:03:19Z"
+        "updateDate": "2026-10-01T11:03:24Z"
       },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Diversity Jurisdiction Inflation Adjustment Act",
+        "title": "Wildfire Emissions Prevention Act of 2026",
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
-        "updateDate": "2026-08-08T07:38:21Z"
+        "updateDate": "2026-09-30T05:53:20Z"
+      },
+      {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Wildfire Emissions Prevention Act of 2026",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-09-18T05:08:20Z"
       },
       {
         "billTextVersionCode": "IS",
         "billTextVersionName": "Introduced in Senate",
-        "title": "A bill to amend title 28, United States Code, to adjust thresholds relating to jurisdiction for inflation.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-06-25T04:33:31Z"
-      },
-      {
-        "billTextVersionCode": "IS",
-        "billTextVersionName": "Introduced in Senate",
-        "title": "Diversity Jurisdiction Inflation Adjustment Act",
+        "title": "Wildfire Emissions Prevention Act of 2026",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2026-06-25T04:23:27Z"
+        "updateDate": "2026-07-25T04:38:24Z"
+      },
+      {
+        "billTextVersionCode": "IS",
+        "billTextVersionName": "Introduced in Senate",
+        "title": "A bill to amend the Clean Air Act to modify the handling of air quality monitoring with respect to prescribed fires, and for other purposes.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2026-07-25T04:33:48Z"
       }
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-30T15:49:27Z",
-  "updateDateIncludingText": "2026-09-30T15:49:27Z",
-  "id": "119-S-4850",
-  "lastActionDate": "2026-08-10",
-  "lastRecordedVoteDate": "2026-08-07"
+  "updateDate": "2026-10-01T11:03:24Z",
+  "updateDateIncludingText": "2026-10-01T11:03:24Z",
+  "id": "119-S-5045",
+  "lastActionDate": "2026-09-29",
+  "lastRecordedVoteDate": "2026-09-29"
 }

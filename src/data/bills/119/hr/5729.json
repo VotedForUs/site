@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/5729/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-30",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-07-21",
         "committees": [
@@ -681,8 +696,8 @@
   "congress": 119,
   "introducedDate": "2025-10-10",
   "latestAction": {
-    "actionDate": "2026-07-21",
-    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held."
+    "actionDate": "2026-09-30",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5729",
   "number": "5729",
@@ -721,7 +736,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To authorize direct emergency acquisition flexibilities for the National Park Service for the purpose of retaining, vetting, approving, and expediting contractor approval for the clearing, rebuilding, maintenance, and improvement of the Grand Canyon grounds that have been impacted by the Dragon Bravo Fire.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-03-18T03:08:22Z"
       },
@@ -760,9 +775,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-10-01T10:57:14Z",
+  "updateDateIncludingText": "2026-10-01T10:57:14Z",
   "id": "119-HR-5729",
-  "lastActionDate": "2026-07-21",
+  "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-03-16"
 }

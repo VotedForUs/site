@@ -1,133 +1,23 @@
 {
   "actions": {
-    "count": 19,
-    "url": "https://api.congress.gov/v3/bill/119/hr/9496/actions?format=json",
+    "count": 20,
+    "url": "https://api.congress.gov/v3/bill/119/hr/5349/actions?format=json",
     "actions": [
       {
         "actionDate": "2026-09-30",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
-        "type": "Floor",
-        "recordedVotes": [
-          {
-            "chamber": "Senate",
-            "congress": 119,
-            "date": "2026-09-30",
-            "rollNumber": 0,
-            "sessionNumber": 0,
-            "url": "",
-            "votes": {},
-            "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/9496",
-            "question": "Pass with Unanimous Consent",
-            "recordType": "unanimous-consent",
-            "membersAtAction": [
-              "C000127",
-              "K000367",
-              "S000033",
-              "W000802",
-              "B001261",
-              "W000437",
-              "C001035",
-              "C001056",
-              "D000563",
-              "G000359",
-              "M000355",
-              "M001176",
-              "R000122",
-              "R000584",
-              "S001181",
-              "W000805",
-              "G000555",
-              "C001088",
-              "B001230",
-              "B001267",
-              "B001243",
-              "B001277",
-              "B001236",
-              "C001047",
-              "C001075",
-              "C000880",
-              "G000386",
-              "H001046",
-              "H001042",
-              "H001061",
-              "J000293",
-              "L000575",
-              "L000577",
-              "L000570",
-              "M000133",
-              "M000934",
-              "M001153",
-              "M001169",
-              "M001111",
-              "P000603",
-              "P000595",
-              "S001150",
-              "S000148",
-              "S001184",
-              "T000250",
-              "V000128",
-              "W000800",
-              "W000779",
-              "Y000064",
-              "S001194",
-              "C001095",
-              "D000622",
-              "W000817",
-              "K000383",
-              "D000618",
-              "C001096",
-              "F000463",
-              "M001190",
-              "C001098",
-              "K000384",
-              "B001288",
-              "G000574",
-              "S001198",
-              "E000295",
-              "T000476",
-              "R000605",
-              "K000393",
-              "H001076",
-              "C001113",
-              "B001303",
-              "B001299",
-              "M001198",
-              "B001305",
-              "R000608",
-              "C001114",
-              "S001203",
-              "H001079",
-              "S001208",
-              "K000394",
-              "S001217",
-              "H001089",
-              "K000377",
-              "L000571",
-              "T000278",
-              "H000273",
-              "H000601",
-              "P000145",
-              "O000174",
-              "W000790",
-              "B001319",
-              "S001227",
-              "F000479",
-              "R000618",
-              "A000382",
-              "S001232",
-              "M001242",
-              "M001243",
-              "J000312",
-              "H001104",
-              "M001244"
-            ],
-            "id": "119-HR-9496-2"
-          }
-        ]
+        "text": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-09-30",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Measure laid before Senate by unanimous consent.",
+        "type": "Floor"
       },
       {
         "actionDate": "2026-09-30",
@@ -145,7 +35,7 @@
         "type": "Discharge"
       },
       {
-        "actionDate": "2026-09-16",
+        "actionDate": "2025-12-02",
         "committees": [
           {
             "name": "Finance Committee",
@@ -161,8 +51,8 @@
       },
       {
         "actionCode": "H38310",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:37:37",
+        "actionDate": "2025-12-01",
+        "actionTime": "17:41:53",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -172,28 +62,30 @@
       },
       {
         "actionCode": "H37300",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:37:36",
+        "actionDate": "2025-12-01",
+        "actionTime": "17:41:51",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5683-5684)",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4942-4944)",
         "type": "Floor",
         "recordedVotes": [
           {
             "chamber": "House",
             "congress": 119,
-            "date": "2026-09-15",
+            "date": "2025-12-01",
             "rollNumber": 0,
             "sessionNumber": 0,
             "url": "",
             "votes": {},
             "result": "passed",
-            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/9496",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/5349",
             "question": "Voice Vote",
             "recordType": "voice",
             "membersAtAction": [
+              "G000596",
+              "L000578",
               "A000055",
               "B001257",
               "B000490",
@@ -629,40 +521,38 @@
               "P000622",
               "F000484",
               "W000831",
-              "G000606",
-              "V000139",
-              "M001245"
+              "G000606"
             ],
-            "id": "119-HR-9496-1"
+            "id": "119-HR-5349-1"
           }
         ]
       },
       {
         "actionCode": "H8D000",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:28:54",
+        "actionDate": "2025-12-01",
+        "actionTime": "17:28:58",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 9496.",
+        "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 5349.",
         "type": "Floor"
       },
       {
         "actionCode": "H30000",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:28:53",
+        "actionDate": "2025-12-01",
+        "actionTime": "17:28:56",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules. (consideration: CR H5683-5685)",
+        "text": "Considered under suspension of the rules. (consideration: CR H4942-4944)",
         "type": "Floor"
       },
       {
         "actionCode": "H30300",
-        "actionDate": "2026-09-15",
-        "actionTime": "20:28:38",
+        "actionDate": "2025-12-01",
+        "actionTime": "17:28:32",
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
@@ -672,20 +562,20 @@
       },
       {
         "actionCode": "H12410",
-        "actionDate": "2026-09-08",
+        "actionDate": "2025-10-03",
         "calendarNumber": {
-          "calendar": "U00697"
+          "calendar": "U00287"
         },
         "sourceSystem": {
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Placed on the Union Calendar, Calendar No. 697.",
+        "text": "Placed on the Union Calendar, Calendar No. 287.",
         "type": "Calendars"
       },
       {
         "actionCode": "H12200",
-        "actionDate": "2026-09-08",
+        "actionDate": "2025-10-03",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -697,12 +587,12 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-797.",
+        "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-335.",
         "type": "Committee"
       },
       {
         "actionCode": "H19000",
-        "actionDate": "2026-07-01",
+        "actionDate": "2025-09-17",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -714,12 +604,12 @@
           "code": 1,
           "name": "House committee actions"
         },
-        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 40 - 0.",
+        "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 40 - 0.",
         "type": "Committee"
       },
       {
         "actionCode": "H15001",
-        "actionDate": "2026-07-01",
+        "actionDate": "2025-09-17",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -736,7 +626,7 @@
       },
       {
         "actionCode": "H11100",
-        "actionDate": "2026-06-29",
+        "actionDate": "2025-09-15",
         "committees": [
           {
             "name": "Ways and Means Committee",
@@ -754,90 +644,104 @@
     ]
   },
   "congress": 119,
-  "introducedDate": "2026-06-29",
+  "introducedDate": "2025-09-15",
   "latestAction": {
     "actionDate": "2026-09-30",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent."
   },
-  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9496",
-  "number": "9496",
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5349",
+  "number": "5349",
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
-    "url": "https://api.congress.gov/v3/bill/119/hr/9496/summaries?format=json"
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/5349/summaries?format=json"
   },
-  "title": "End Tax Penalties on American Hostages Act",
+  "title": "TAS Act",
   "titles": {
     "titles": [
       {
-        "billTextVersionCode": "RFS",
-        "billTextVersionName": "Referred in Senate",
-        "chamberCode": "S",
-        "chamberName": "Senate",
-        "title": "End Tax Penalties on American Hostages Act",
-        "titleType": "Short Titles from RFS (Referred to Senate) bill text",
-        "titleTypeCode": 255,
-        "updateDate": "2026-09-23T04:53:20Z"
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
+        "title": "TAS Act",
+        "titleType": "Short Title(s) from Engrossed Amendment Senate bill text",
+        "titleTypeCode": 250,
+        "updateDate": "2026-10-01T11:08:22Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "End Tax Penalties on American Hostages Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-09-17T05:23:25Z"
+        "billTextVersionCode": "EAS",
+        "billTextVersionName": "Engrossed Amendment Senate",
+        "title": "Taxpayer Assistance and Service Act",
+        "titleType": "Short Title(s) from Engrossed Amendment Senate bill text",
+        "titleTypeCode": 250,
+        "updateDate": "2026-10-01T11:08:22Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend the Internal Revenue Code of 1986 to postpone tax deadlines and reimburse paid late fees for United States nationals who are unlawfully or wrongfully detained or held hostage abroad, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2026-09-17T05:23:25Z"
-      },
-      {
-        "billTextVersionCode": "IH",
-        "billTextVersionName": "Introduced in House",
-        "title": "To amend the Internal Revenue Code of 1986 to postpone tax deadlines and reimburse paid late fees for United States nationals who are unlawfully or wrongfully detained or held hostage abroad, and for other purposes.",
-        "titleType": "Official Title as Introduced",
-        "titleTypeCode": 6,
-        "updateDate": "2026-09-09T14:53:03Z"
-      },
-      {
-        "title": "End Tax Penalties on American Hostages Act",
+        "title": "TAS Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-09T14:53:03Z"
+        "updateDate": "2026-10-01T11:08:22Z"
+      },
+      {
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "To improve services provided to taxpayers by the Internal Revenue Service.",
+        "titleType": "Official Titles as Amended by Senate",
+        "titleTypeCode": 8,
+        "updateDate": "2026-10-01T10:57:15Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend the Internal Revenue Code of 1986 to improve services provided to taxpayers by the Internal Revenue Service by providing greater judicial review.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2025-12-03T04:38:19Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Tax Court Improvement Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-12-03T04:38:19Z"
       },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "End Tax Penalties on American Hostages Act",
+        "title": "Tax Court Improvement Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2026-09-09T06:53:24Z"
+        "updateDate": "2025-10-04T04:53:17Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "End Tax Penalties on American Hostages Act",
+        "title": "Tax Court Improvement Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
-        "updateDate": "2026-06-30T08:23:21Z"
+        "updateDate": "2025-09-16T08:23:18Z"
+      },
+      {
+        "billTextVersionCode": "IH",
+        "billTextVersionName": "Introduced in House",
+        "title": "To amend the Internal Revenue Code of 1986 to improve services provided to taxpayers by the Internal Revenue Service by providing greater judicial review.",
+        "titleType": "Official Title as Introduced",
+        "titleTypeCode": 6,
+        "updateDate": "2025-09-16T08:18:27Z"
       }
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-01T10:57:05Z",
-  "updateDateIncludingText": "2026-10-01T10:57:05Z",
-  "id": "119-HR-9496",
+  "updateDate": "2026-10-01T11:08:29Z",
+  "updateDateIncludingText": "2026-10-01T11:33:24Z",
+  "id": "119-HR-5349",
   "lastActionDate": "2026-09-30",
-  "lastRecordedVoteDate": "2026-09-30"
+  "lastRecordedVoteDate": "2025-12-01"
 }

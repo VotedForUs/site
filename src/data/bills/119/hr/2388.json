@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 24,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/hr/2388/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-28",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-24",
         "sourceSystem": {
@@ -831,8 +839,8 @@
   "congress": 119,
   "introducedDate": "2025-03-26",
   "latestAction": {
-    "actionDate": "2026-09-24",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5020)"
+    "actionDate": "2026-09-28",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2388",
   "number": "2388",
@@ -920,9 +928,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-29T11:41:18Z",
-  "updateDateIncludingText": "2026-09-29T11:41:18Z",
+  "updateDate": "2026-10-01T11:51:15Z",
+  "updateDateIncludingText": "2026-10-01T11:51:15Z",
   "id": "119-HR-2388",
-  "lastActionDate": "2026-09-24",
+  "lastActionDate": "2026-09-28",
   "lastRecordedVoteDate": "2026-09-24"
 }

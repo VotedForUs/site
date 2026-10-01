@@ -1,8 +1,164 @@
 {
   "actions": {
-    "count": 9,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hr/10159/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-29",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5186)",
+        "type": "Floor",
+        "recordedVotes": [
+          {
+            "chamber": "Senate",
+            "congress": 119,
+            "date": "2026-09-29",
+            "rollNumber": 0,
+            "sessionNumber": 0,
+            "url": "",
+            "votes": {},
+            "result": "passed",
+            "voteUrl": "https://www.congress.gov/bill/119th-congress/hr/10159",
+            "question": "Pass with Unanimous Consent",
+            "recordType": "unanimous-consent",
+            "membersAtAction": [
+              "C000127",
+              "K000367",
+              "S000033",
+              "W000802",
+              "B001261",
+              "W000437",
+              "C001035",
+              "C001056",
+              "D000563",
+              "G000359",
+              "M000355",
+              "M001176",
+              "R000122",
+              "R000584",
+              "S001181",
+              "W000805",
+              "G000555",
+              "C001088",
+              "B001230",
+              "B001267",
+              "B001243",
+              "B001277",
+              "B001236",
+              "C001047",
+              "C001075",
+              "C000880",
+              "G000386",
+              "H001046",
+              "H001042",
+              "H001061",
+              "J000293",
+              "L000575",
+              "L000577",
+              "L000570",
+              "M000133",
+              "M000934",
+              "M001153",
+              "M001169",
+              "M001111",
+              "P000603",
+              "P000595",
+              "S001150",
+              "S000148",
+              "S001184",
+              "T000250",
+              "V000128",
+              "W000800",
+              "W000779",
+              "Y000064",
+              "S001194",
+              "C001095",
+              "D000622",
+              "W000817",
+              "K000383",
+              "D000618",
+              "C001096",
+              "F000463",
+              "M001190",
+              "C001098",
+              "K000384",
+              "B001288",
+              "G000574",
+              "S001198",
+              "E000295",
+              "T000476",
+              "R000605",
+              "K000393",
+              "H001076",
+              "C001113",
+              "B001303",
+              "B001299",
+              "M001198",
+              "B001305",
+              "R000608",
+              "C001114",
+              "S001203",
+              "H001079",
+              "S001208",
+              "K000394",
+              "S001217",
+              "H001089",
+              "K000377",
+              "L000571",
+              "T000278",
+              "H000273",
+              "H000601",
+              "P000145",
+              "O000174",
+              "W000790",
+              "B001319",
+              "S001227",
+              "F000479",
+              "R000618",
+              "A000382",
+              "S001232",
+              "M001242",
+              "M001243",
+              "J000312",
+              "H001104",
+              "M001244"
+            ],
+            "id": "119-HR-10159-2"
+          }
+        ]
+      },
+      {
+        "actionDate": "2026-09-29",
+        "committees": [
+          {
+            "name": "Armed Services Committee",
+            "systemCode": "ssas00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Senate Committee on Armed Services discharged by Unanimous Consent.",
+        "type": "Discharge"
+      },
+      {
+        "actionDate": "2026-09-15",
+        "committees": [
+          {
+            "name": "Armed Services Committee",
+            "systemCode": "ssas00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate and Read twice and referred to the Committee on Armed Services.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-14",
@@ -22,7 +178,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5544)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +656,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5544-5545)",
         "type": "Floor"
       },
       {
@@ -536,9 +692,8 @@
   "congress": 119,
   "introducedDate": "2026-08-27",
   "latestAction": {
-    "actionDate": "2026-09-14",
-    "actionTime": "14:59:48",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-29",
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5186)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10159",
   "number": "10159",
@@ -563,7 +718,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To authorize the Secretary of the Army to convey to the State of North Carolina a certain parcel of real property located at Fort Bragg, North Carolina, on which the State shall construct a veterans’ State home, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-09-16T06:08:24Z"
       },
@@ -578,9 +733,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-16T06:08:25Z",
-  "updateDateIncludingText": "2026-09-16T10:33:34Z",
+  "updateDate": "2026-10-01T10:57:02Z",
+  "updateDateIncludingText": "2026-10-01T10:57:02Z",
   "id": "119-HR-10159",
-  "lastActionDate": "2026-09-14",
-  "lastRecordedVoteDate": "2026-09-14"
+  "lastActionDate": "2026-09-29",
+  "lastRecordedVoteDate": "2026-09-29"
 }

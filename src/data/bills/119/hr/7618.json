@@ -1,8 +1,23 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/7618/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-09-30",
+        "committees": [
+          {
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
+        "type": "Committee"
+      },
       {
         "actionDate": "2026-07-21",
         "committees": [
@@ -729,8 +744,8 @@
   "congress": 119,
   "introducedDate": "2026-02-20",
   "latestAction": {
-    "actionDate": "2026-07-21",
-    "text": "Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held."
+    "actionDate": "2026-09-30",
+    "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7618",
   "number": "7618",
@@ -808,9 +823,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:38:33Z",
-  "updateDateIncludingText": "2026-09-19T23:38:33Z",
+  "updateDate": "2026-10-01T10:57:11Z",
+  "updateDateIncludingText": "2026-10-01T10:57:11Z",
   "id": "119-HR-7618",
-  "lastActionDate": "2026-07-21",
+  "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-06-03T18:08:12Z"
 }
