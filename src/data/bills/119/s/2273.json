@@ -217,6 +217,12 @@
   "titles": {
     "titles": [
       {
+        "title": "Wyoming Education Trust Modernization Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-10-02T11:03:20Z"
+      },
+      {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
         "chamberCode": "S",
@@ -225,12 +231,6 @@
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2026-10-01T11:08:22Z"
-      },
-      {
-        "title": "Wyoming Education Trust Modernization Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-10-01T11:03:22Z"
       },
       {
         "billTextVersionCode": "RS",
@@ -261,8 +261,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-01T11:08:22Z",
-  "updateDateIncludingText": "2026-10-01T11:48:24Z",
+  "updateDate": "2026-10-02T11:03:20Z",
+  "updateDateIncludingText": "2026-10-02T11:03:20Z",
   "id": "119-S-2273",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

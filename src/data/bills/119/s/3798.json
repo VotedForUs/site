@@ -194,9 +194,15 @@
   "number": "3798",
   "originChamber": "Senate",
   "originChamberCode": "S",
-  "title": "Safe Access to Cash Act of 2026",
+  "title": "A bill to amend title 18, United States Code, to establish criminal offenses with respect to violations involving ATMs, regardless of whether the ATM is located on the physical premises of a financial institution, and for other purposes.",
   "titles": {
     "titles": [
+      {
+        "title": "Safe Access to Cash Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-10-02T11:03:21Z"
+      },
       {
         "billTextVersionCode": "ES",
         "billTextVersionName": "Engrossed in Senate",
@@ -206,12 +212,6 @@
         "titleType": "Short Title(s) as Passed Senate",
         "titleTypeCode": 105,
         "updateDate": "2026-10-01T11:08:21Z"
-      },
-      {
-        "title": "Safe Access to Cash Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-10-01T11:03:23Z"
       },
       {
         "billTextVersionCode": "RS",
@@ -242,8 +242,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-01T11:08:21Z",
-  "updateDateIncludingText": "2026-10-01T11:33:22Z",
+  "updateDate": "2026-10-02T10:56:49Z",
+  "updateDateIncludingText": "2026-10-02T10:56:49Z",
   "id": "119-S-3798",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"
