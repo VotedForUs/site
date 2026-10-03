@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5226)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -834,7 +834,7 @@
   "introducedDate": "2025-12-03",
   "latestAction": {
     "actionDate": "2026-09-30",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5226)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6380",
   "number": "6380",
@@ -920,8 +920,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-01T10:57:13Z",
-  "updateDateIncludingText": "2026-10-01T10:57:13Z",
+  "updateDate": "2026-10-02T14:22:37Z",
+  "updateDateIncludingText": "2026-10-02T14:22:37Z",
   "id": "119-HR-6380",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

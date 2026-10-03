@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5299)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -757,7 +757,7 @@
   "introducedDate": "2026-04-16",
   "latestAction": {
     "actionDate": "2026-09-30",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5299)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8352",
   "number": "8352",
@@ -835,8 +835,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-01T10:57:08Z",
-  "updateDateIncludingText": "2026-10-01T10:57:08Z",
+  "updateDate": "2026-10-02T15:08:51Z",
+  "updateDateIncludingText": "2026-10-02T15:08:51Z",
   "id": "119-HR-8352",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

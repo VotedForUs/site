@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure withdrawn in Senate.",
+        "text": "Motion to proceed to consideration of measure withdrawn in Senate. (CR S5199)",
         "type": "Floor"
       },
       {
@@ -168,7 +168,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S5199)",
         "type": "Floor"
       },
       {
@@ -935,7 +935,7 @@
   "introducedDate": "2026-06-18",
   "latestAction": {
     "actionDate": "2026-09-30",
-    "text": "Motion to proceed to consideration of measure withdrawn in Senate."
+    "text": "Motion to proceed to consideration of measure withdrawn in Senate. (CR S5199)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9340",
   "number": "9340",
@@ -1013,8 +1013,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-01T11:08:29Z",
-  "updateDateIncludingText": "2026-10-01T11:08:29Z",
+  "updateDate": "2026-10-02T15:39:58Z",
+  "updateDateIncludingText": "2026-10-02T15:39:58Z",
   "id": "119-HR-9340",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30T17:45:52Z"

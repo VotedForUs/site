@@ -3257,6 +3257,36 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
+        "title": "To authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2025-09-25T04:38:16Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-09-25T04:38:16Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "SAFE Research Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2025-09-25T04:38:16Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
         "title": "Securing American Funding and Expertise from Adversarial Research Exploitation Act of 2025",
         "titleType": "Short Title(s) as Passed House for portions of this bill",
         "titleTypeCode": 109,
@@ -3283,34 +3313,10 @@
         "updateDate": "2025-09-25T04:38:16Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2025-09-25T04:38:16Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
         "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2025-09-25T04:38:16Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "SAFE Research Act",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2025-09-25T04:38:16Z"
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-08-20T04:23:22Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -3323,15 +3329,9 @@
         "updateDate": "2025-08-20T04:23:22Z"
       },
       {
-        "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-08-20T04:23:22Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Streamlining Procurement for Effective Execution and Delivery Act of 2025",
+        "title": "SPEED Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-06-13T12:23:17Z"
@@ -3339,7 +3339,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "SPEED Act",
+        "title": "Streamlining Procurement for Effective Execution and Delivery Act of 2025",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-06-13T12:23:17Z"
@@ -3355,8 +3355,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T19:31:27Z",
-  "updateDateIncludingText": "2026-09-08T19:31:27Z",
+  "updateDate": "2026-10-02T19:58:54Z",
+  "updateDateIncludingText": "2026-10-02T19:58:54Z",
   "id": "119-HR-3838",
   "lastActionDate": "2025-09-30",
   "lastRecordedVoteDate": "2025-09-10T21:56:37Z"
