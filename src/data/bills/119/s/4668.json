@@ -799,7 +799,7 @@
     "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/4668/summaries?format=json"
   },
-  "title": "A bill to protect the name, image, and likeness rights of, and provide protections for, student athletes and to promote fair competition among intercollegiate athletics, and for other purposes.",
+  "title": "Protect College Sports Act of 2026",
   "titles": {
     "titles": [
       {
@@ -857,8 +857,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-30T10:56:24Z",
-  "updateDateIncludingText": "2026-09-30T10:56:24Z",
+  "updateDate": "2026-10-02T21:07:40Z",
+  "updateDateIncludingText": "2026-10-02T21:07:40Z",
   "id": "119-S-4668",
   "lastActionDate": "2026-09-28",
   "lastRecordedVoteDate": "2026-09-29T02:02:10Z"

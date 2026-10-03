@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+        "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S5241)",
         "type": "Floor"
       },
       {
@@ -16,7 +16,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "text": "Motion to proceed to consideration of measure made in Senate. (CR S5241)",
         "type": "Floor"
       },
       {
@@ -641,7 +641,7 @@
   "introducedDate": "2025-03-25",
   "latestAction": {
     "actionDate": "2026-09-30",
-    "text": "Cloture motion on the motion to proceed to the measure presented in Senate."
+    "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S5241)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
   "number": "2347",
@@ -719,8 +719,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-01T10:57:20Z",
-  "updateDateIncludingText": "2026-10-01T10:57:20Z",
+  "updateDate": "2026-10-02T19:59:31Z",
+  "updateDateIncludingText": "2026-10-02T19:59:31Z",
   "id": "119-HR-2347",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-04-27"

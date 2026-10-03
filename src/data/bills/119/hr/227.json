@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5298)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -804,7 +804,7 @@
   "introducedDate": "2025-01-07",
   "latestAction": {
     "actionDate": "2026-09-30",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5298)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/227",
   "number": "227",
@@ -882,8 +882,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-01T10:57:23Z",
-  "updateDateIncludingText": "2026-10-01T10:57:23Z",
+  "updateDate": "2026-10-02T15:04:06Z",
+  "updateDateIncludingText": "2026-10-02T15:04:06Z",
   "id": "119-HR-227",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"
