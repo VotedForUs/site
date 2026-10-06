@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 25,
+    "count": 28,
     "url": "https://api.congress.gov/v3/bill/119/s/4668/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-10-05",
+        "actionTime": "16:54:13",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-10-05",
+        "actionTime": "16:32:12",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-28",
         "recordedVotes": [
@@ -788,8 +818,9 @@
   "congress": 119,
   "introducedDate": "2026-06-02",
   "latestAction": {
-    "actionDate": "2026-09-28",
-    "text": "Passed Senate with an amendment by Yea-Nay Vote. 77 - 22. Record Vote Number: 250. (text: CR S5044-5063)"
+    "actionDate": "2026-10-05",
+    "actionTime": "16:54:13",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4668",
   "number": "4668",
@@ -806,7 +837,7 @@
         "title": "Protect College Sports Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-09-30T11:03:20Z"
+        "updateDate": "2026-10-06T11:03:21Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -857,9 +888,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-02T21:07:40Z",
-  "updateDateIncludingText": "2026-10-02T21:07:40Z",
+  "updateDate": "2026-10-06T11:29:47Z",
+  "updateDateIncludingText": "2026-10-06T11:29:47Z",
   "id": "119-S-4668",
-  "lastActionDate": "2026-09-28",
+  "lastActionDate": "2026-10-05",
   "lastRecordedVoteDate": "2026-09-29T02:02:10Z"
 }

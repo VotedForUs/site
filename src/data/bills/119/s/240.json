@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 21,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/240/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-09-28",
         "sourceSystem": {
@@ -752,8 +772,8 @@
   "congress": 119,
   "introducedDate": "2025-01-24",
   "latestAction": {
-    "actionDate": "2026-09-28",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-10-05",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/240",
   "number": "240",
@@ -829,9 +849,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-30T11:03:19Z",
-  "updateDateIncludingText": "2026-09-30T11:03:19Z",
+  "updateDate": "2026-10-06T08:05:20Z",
+  "updateDateIncludingText": "2026-10-06T08:05:20Z",
   "id": "119-S-240",
-  "lastActionDate": "2026-09-28",
+  "lastActionDate": "2026-10-05",
   "lastRecordedVoteDate": "2026-09-14"
 }
