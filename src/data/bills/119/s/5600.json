@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 3,
+    "count": 6,
     "url": "https://api.congress.gov/v3/bill/119/s/5600/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-10-05",
+        "actionTime": "16:55:22",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-10-05",
+        "actionTime": "16:32:15",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-29",
         "sourceSystem": {
@@ -134,8 +164,9 @@
   "congress": 119,
   "introducedDate": "2026-09-29",
   "latestAction": {
-    "actionDate": "2026-09-29",
-    "text": "Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Voice Vote. (consideration: CR S5185-5186; text: CR S5185-5186)"
+    "actionDate": "2026-10-05",
+    "actionTime": "16:55:22",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5600",
   "number": "5600",
@@ -148,7 +179,7 @@
         "title": "Dennis John Benigno Traumatic Brain Injury Program Reauthorization Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-10-02T11:03:22Z"
+        "updateDate": "2026-10-06T11:03:21Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -169,9 +200,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-02T11:03:22Z",
-  "updateDateIncludingText": "2026-10-02T11:03:22Z",
+  "updateDate": "2026-10-06T11:33:20Z",
+  "updateDateIncludingText": "2026-10-06T11:33:20Z",
   "id": "119-S-5600",
-  "lastActionDate": "2026-09-29",
+  "lastActionDate": "2026-10-05",
   "lastRecordedVoteDate": "2026-09-29"
 }

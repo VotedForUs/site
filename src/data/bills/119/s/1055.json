@@ -1,14 +1,44 @@
 {
   "actions": {
-    "count": 9,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/s/1055/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-10-05",
+        "actionTime": "16:50:14",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-10-05",
+        "actionTime": "16:31:57",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-30",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5298; text: CR S5298)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -202,8 +232,9 @@
   "congress": 119,
   "introducedDate": "2025-03-13",
   "latestAction": {
-    "actionDate": "2026-09-30",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-10-05",
+    "actionTime": "16:50:14",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1055",
   "number": "1055",
@@ -220,7 +251,7 @@
         "title": "Indian Health Service Emergency Claims Parity Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-10-02T11:03:19Z"
+        "updateDate": "2026-10-06T11:03:20Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -261,9 +292,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-02T11:03:19Z",
-  "updateDateIncludingText": "2026-10-02T11:03:19Z",
+  "updateDate": "2026-10-06T12:26:16Z",
+  "updateDateIncludingText": "2026-10-06T12:26:16Z",
   "id": "119-S-1055",
-  "lastActionDate": "2026-09-30",
+  "lastActionDate": "2026-10-05",
   "lastRecordedVoteDate": "2026-09-30"
 }
