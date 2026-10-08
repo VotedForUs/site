@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-08",
+  "runId": "37777994825",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-S-2933"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}

@@ -4,14 +4,6 @@
     "url": "https://api.congress.gov/v3/bill/119/s/2933/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-09-24",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
         "actionCode": "H15000",
         "actionDate": "2026-09-24",
         "actionTime": "14:38:42",
@@ -31,6 +23,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-09-24",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -233,7 +233,8 @@
   "introducedDate": "2025-09-29",
   "latestAction": {
     "actionDate": "2026-09-24",
-    "text": "Message on Senate action sent to the House."
+    "actionTime": "14:38:42",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2933",
   "number": "2933",
@@ -259,8 +260,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-02T18:27:21Z",
-  "updateDateIncludingText": "2026-10-02T18:27:21Z",
+  "updateDate": "2026-10-08T11:33:36Z",
+  "updateDateIncludingText": "2026-10-08T11:33:36Z",
   "id": "119-S-2933",
   "lastActionDate": "2026-09-24",
   "lastRecordedVoteDate": "2026-09-23"
