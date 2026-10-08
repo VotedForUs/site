@@ -1,0 +1,242 @@
+/**
+ * The finder's own component layer: field group, type toggle, narrow-by rows,
+ * result rows, empty state and callout. Graffiti's component layer is not
+ * imported, so every one of these is ours.
+ *
+ * Loaded as a plain stylesheet rather than an Astro <style> block because the
+ * custom elements render into light DOM at runtime, where Astro's scoping
+ * attribute never reaches.
+ *
+ * Four measurements below have no token in the scale — they come from the
+ * design's specification table and are declared once, here, instead of being
+ * repeated as literals in rules.
+ */
+vfu-finder {
+  --finder-max: 860px;        /* field group max width */
+  --toggle-members: 118px;    /* holds through four-digit counts */
+  --toggle-bills: 106px;      /* … so a count never moves the row */
+  --narrow-label: 108px;      /* narrow-by label column */
+
+  display: block;
+  max-width: var(--finder-max);
+}
+
+/* ── Field group ───────────────────────────────────────────────────────────
+   Input and button are one control: a single rule around the pair with a
+   hairline dividing them, so the seam does not read as two controls. */
+vfu-search-bar {
+  display: block;
+}
+
+vfu-search-bar .finder-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--vs-s);
+}
+
+vfu-search-bar .field-group {
+  display: flex;
+  border: 2px solid var(--primary);
+  background: var(--surface);
+}
+
+vfu-search-bar .field-group:focus-within {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-ring-offset);
+}
+
+vfu-search-bar .field-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 0;
+  background: none;
+  font-family: var(--font-mono);
+  color: var(--fg);
+  padding: var(--pad-s) var(--pad-m);
+  --fl: 1;
+  font-size: var(--fluid-type);
+}
+
+vfu-search-bar .field-input:focus {
+  outline: none; /* the group carries the ring, so the pair stays one control */
+}
+
+vfu-search-bar .field-input::placeholder {
+  color: var(--fg-subtle);
+}
+
+vfu-search-bar .field-submit {
+  flex: 0 0 auto;
+  border: 0;
+  border-inline-start: 1px solid var(--border-2);
+  background: var(--primary-opaque-1, var(--bg-2));
+  color: var(--primary);
+  font-family: var(--font-sans);
+  font-weight: 800;
+  padding: var(--pad-s) var(--pad-l);
+  cursor: pointer;
+}
+
+vfu-search-bar .field-submit:hover {
+  background: var(--primary-opaque-2, var(--bg-3));
+}
+
+vfu-search-bar .field-submit:active {
+  background: var(--primary);
+  color: var(--bg);
+}
+
+/* ── Type toggle ───────────────────────────────────────────────────────────
+   Real radios in a fieldset: native arrow keys, a form value, one tab stop. */
+vfu-search-bar .type-toggle {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--pad-s);
+}
+
+vfu-search-bar .type-toggle legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+vfu-search-bar .type-option {
+  display: inline-flex;
+  gap: var(--pad-xs);
+  justify-content: center;
+  align-items: baseline;
+  border: 1px solid var(--fg-2);
+  background: var(--surface);
+  color: var(--fg-strong);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: var(--pad-xs) var(--pad-s);
+  cursor: pointer;
+}
+
+vfu-search-bar .type-option[data-mode='members'] { min-width: var(--toggle-members); }
+vfu-search-bar .type-option[data-mode='bills'] { min-width: var(--toggle-bills); }
+
+vfu-search-bar .type-option:has(input:checked) {
+  background: var(--fg);
+  border-color: var(--fg);
+  color: var(--bg);
+}
+
+vfu-search-bar .type-option:has(input:focus-visible) {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-ring-offset);
+}
+
+vfu-search-bar .type-option input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+vfu-search-bar .mode-hint {
+  flex: 1 1 100%;
+  margin: 0;
+  color: var(--fg-muted);
+  font-size: 0.8125rem;
+}
+
+/* ── Narrow-by rows ───────────────────────────────────────────────────────
+   Chips wrap rather than scroll: a hidden chip is a filter no one will find. */
+vfu-search-bar .narrow-row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--pad-s);
+}
+
+vfu-search-bar .narrow-label {
+  flex: 0 0 var(--narrow-label);
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--fg-muted);
+}
+
+vfu-search-bar .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pad-xs);
+}
+
+.finder-chip {
+  border: 1px solid var(--fg-2);
+  background: var(--surface);
+  color: var(--fg-strong);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  padding: var(--pad-xs) var(--pad-s);
+  cursor: pointer;
+}
+
+.finder-chip[aria-pressed='true'] {
+  background: var(--fg);
+  border-color: var(--fg);
+  color: var(--bg);
+}
+
+/* ── Results ──────────────────────────────────────────────────────────────*/
+vfu-finder .finder-results {
+  margin-block-start: var(--vs-m);
+}
+
+/* ── Empty state and callout ──────────────────────────────────────────────
+   An empty state always offers an action; a failed index is a callout with
+   the hub links, never a silent field. */
+vfu-finder .finder-empty,
+vfu-finder .finder-callout {
+  border-inline-start: 3px solid var(--primary);
+  padding: var(--pad-m);
+  background: var(--surface);
+}
+
+vfu-finder .finder-callout {
+  border-inline-start-color: var(--error);
+}
+
+vfu-finder .finder-empty h3,
+vfu-finder .finder-callout h3 {
+  margin: 0 0 var(--pad-xs);
+}
+
+vfu-finder .finder-empty p,
+vfu-finder .finder-callout p {
+  margin: 0 0 var(--pad-s);
+  color: var(--fg-strong);
+}
+
+vfu-finder [aria-busy='true'] {
+  opacity: 0.6;
+}
+
+/* ── Under 560px ──────────────────────────────────────────────────────────
+   The button drops below the field at full width, the two type buttons split
+   the row, and each narrow-by label sits above its chips. */
+@media (max-width: 560px) {
+  vfu-search-bar .field-group { flex-direction: column; }
+  vfu-search-bar .field-submit { border-inline-start: 0; border-block-start: 1px solid var(--border-2); }
+  vfu-search-bar .type-option { flex: 1 1 0; min-width: 0; }
+  vfu-search-bar .narrow-row { flex-direction: column; align-items: stretch; gap: var(--pad-xs); }
+  vfu-search-bar .narrow-label { flex-basis: auto; }
+}
+
+/* A class that sets `display` outranks the UA rule for [hidden], so the rows
+   and panels that toggle need it restated. Last in the file, so it wins the
+   tie against the layout rules above. */
+vfu-finder [hidden],
+vfu-search-bar [hidden] {
+  display: none;
+}

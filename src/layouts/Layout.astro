@@ -1,9 +1,11 @@
 ---
 import { SEO } from 'astro-seo';
+import { ClientRouter } from 'astro:transitions';
 import { getBreadcrumbsFromPath } from '../utils/breadcrumbs';
 import { seoConfig } from '../../utils/seoConfig';
 import PageError from '../components/PageError.astro';
 import SiteName from '../components/SiteName.astro';
+import './global.css';
 
 export interface Props {
   title: string;
@@ -19,6 +21,13 @@ export interface Props {
   error?: Error | null;
   /** Optional heading for the error view (e.g. "Bill page error"). Default: "Page error" */
   errorTitle?: string;
+  /** Absolute or root-relative canonical URL for this page. */
+  canonical?: string;
+  /**
+   * Labels for path segments only this page can name — a bioguide id is not a
+   * member's name until something looks it up. Keyed by the segment itself.
+   */
+  breadcrumbLabels?: Record<string, string>;
 }
 
 const {
@@ -31,10 +40,12 @@ const {
   redirect,
   error = null,
   errorTitle,
+  breadcrumbLabels,
+  canonical,
 } = Astro.props;
 
 const descriptionResolved = description ?? seoConfig.description;
-const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, { pageTitle: title });
+const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, { pageTitle: title, labels: breadcrumbLabels });
 
 const ogImageUrl = socialCardPath
   ? `${seoConfig.baseURL}${socialCardPath}`
@@ -50,6 +61,14 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    {/*
+      Every destination on this site is a prerendered document, and every
+      drill-down is a navigation to one. ClientRouter fetches that document and
+      swaps in the part that differs, so picking a member changes the URL and
+      the record below it without reloading the page — no partial routes, no
+      second renderer, and the server stays the only thing that renders a page.
+    */}
+    <ClientRouter />
     <SEO
       title={title.replace('"', '')}
       description={descriptionResolved}
@@ -78,7 +97,10 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     {redirect && <meta http-equiv="refresh" content={`0; url=${redirect}`} />}
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    {canonical && (
+      <link rel="canonical" href={canonical.startsWith('http') ? canonical : `${seoConfig.baseURL}${canonical}`} />
+    )}
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script type="module" defer src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/@colinaut/action-table/dist/action-table.css" />
     <style is:global>
@@ -98,36 +120,20 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     </style>
     <style>
       :root {
-        --primary-color: #2E5090;
-        --secondary-color: #1C89D1;
+        /* Legacy aliases. The chrome below still reads these; pointing them
+           at the theme keeps it on-palette until those rules are rewritten to
+           read the tokens directly. */
+        --primary-color: var(--primary);
+        --secondary-color: var(--error);
         --primary-opposite: oklch(from var(--primary-color) clamp(0, (0.6 - l) * 1000, 1) 0 h);
         --secondary-opposite: oklch(from var(--secondary-color) clamp(0, (0.6 - l) * 1000, 1) 0 h);
       }
-      @import './global.css';
-      
- 
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-      .noto-sans-vfu {
-        font-family: "Noto Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 900;
-        font-style: normal;
-        font-variation-settings:
-          "wdth" 100;
-      }
-      body {
-        font-family: "Noto Sans", sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #fafafa;
-        color: var(--primary-color);
-        line-height: 1.6;
-      }
 
+      /* Header is a white surface with the page's own rule beneath it. */
       header {
-        background: #0a3161;
-        color: white;
-        padding: 1rem;
+        background: var(--surface);
+        border-block-end: 3px solid var(--fg);
+        padding: var(--pad-m);
       }
       
       .header-title {
@@ -147,12 +153,6 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
         font-size: 1.5rem;
       }
       
-      header p {
-        margin: 0 0 1rem 0;
-        opacity: 0.9;
-        font-size: 0.9rem;
-      }
-      
       header nav {
         display: flex;
         gap: 1rem;
@@ -160,16 +160,15 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       }
       
       header nav a {
-        color: var(--primary-opposite);
+        color: var(--primary);
         text-decoration: none;
         padding: 0.25rem 0.5rem;
-        border-radius: 4px;
+        border-radius: var(--br-s);
         transition: background-color 0.2s;
       }
       
       header nav a:hover {
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: sepia(90%);
+        background: var(--primary-opaque-1);
       }
       
       main {
@@ -184,7 +183,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       }
 
       .breadcrumbs a {
-        color: #1a5fb4;
+        color: var(--primary);
         text-decoration: none;
       }
 
@@ -193,7 +192,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       }
 
       .breadcrumbs span {
-        color: #5e5c64;
+        color: var(--fg-muted);
       }
 
       footer {
@@ -212,11 +211,11 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       
       /* Global link styles */
       a {
-        color: #1a5fb4;
+        color: var(--primary);
       }
       
       a:hover {
-        color: #0d3a7a;
+        color: var(--primary-opaque-7);
       }
       
       /* Table styles */
@@ -247,11 +246,10 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       <div class="header-title">
         <SiteName />
       </div>
-      <p>{descriptionResolved}</p>
       <nav>
         <a href={import.meta.env.BASE_URL}>Home</a>
         <a href={`${import.meta.env.BASE_URL}bills/119`}>Bills</a>
-        <a href={`${import.meta.env.BASE_URL}legislators`}>Legislators</a>
+        <a href={`${import.meta.env.BASE_URL}members`}>Members</a>
         <a href={`${import.meta.env.BASE_URL}about`}>About</a>
       </nav>
     </header>

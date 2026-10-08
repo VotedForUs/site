@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import LegislatorList from '../../components/LegislatorList.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { bioguideIdsWithCasts } from '../../utils/memberRecord.js';
+
+let senators: CollectionEntry<'senators'>[] = [];
+
+try {
+  const votes = await getCollection('legislatorVotes');
+  const withCasts = bioguideIdsWithCasts(votes.map((v) => v.data));
+  senators = (await getCollection('senators')).filter((s) => withCasts.has(s.id));
+} catch (error) {
+  console.error('Error loading senators:', error);
+}
+---
+
+<Layout title="Senate — VotedFor.Us" description="Senators of the 119th who have a recorded vote on this site">
+  <section class="section stack">
+    <h1>United States Senate</h1>
+    <p>{senators.length} senators with a recorded vote. Each name opens that member’s record.</p>
+    <LegislatorList legislators={senators} />
+  </section>
+</Layout>

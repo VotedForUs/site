@@ -56,7 +56,11 @@ jobs:
       # Tier 2: Restore dist cache (production only — isolated from CI test builds).
       # Contains the previous build's HTML output + .astro-manifest.json for
       # the incremental-check script to diff against.
+      # Skip on a full rebuild: ubuntu-latest has ~14 GB disk, and the old
+      # cache plus a new 200k-page dist will not both fit. Merge is skipped
+      # anyway when FORCE_FULL_REBUILD is set.
       - name: Restore dist cache
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.force_full_rebuild != true }}
         uses: actions/cache@v5
         with:
           path: dist-cache/
@@ -75,13 +79,23 @@ jobs:
           FORCE_FULL_REBUILD: ${{ inputs.force_full_rebuild || 'false' }}
         run: npx tsx scripts/incremental-check.ts
 
-      # `npm run build` runs incremental-check again; it must see the same
-      # FORCE_FULL_REBUILD as the step above or the checkbox has no effect.
+      # Incremental: `npm run build` (check → astro → merge cache → save).
+      # Full rebuild: finder index + astro only. Do not restore or copy
+      # dist-cache during emit — that is what filled the 14 GB runner last time.
       - name: Build site
         env:
           FORCE_FULL_REBUILD: ${{ inputs.force_full_rebuild || 'false' }}
-          NODE_OPTIONS: '--max-old-space-size=6144'
-        run: npm run build
+          NODE_OPTIONS: '--max-old-space-size=8192'
+        run: |
+          df -h
+          if [ "$FORCE_FULL_REBUILD" = "true" ]; then
+            npm run finder:index
+            npx astro build
+            test ! -d dist/v
+          else
+            npm run build
+          fi
+          df -h
 
       # Merge pages from the previous build that were NOT regenerated this build.
       # --ignore-existing ensures we never overwrite freshly-built pages.
@@ -91,15 +105,17 @@ jobs:
             rsync -a --ignore-existing dist-cache/ dist/
           fi
 
-      # Update dist-cache with the new build output and save the source-file
-      # manifest so the NEXT run's incremental-check can diff against it.
+      # Replace dist-cache with this run's complete dist. A merge-copy left
+      # deleted families (old /v/ HTML) in the Actions cache for the next rsync.
       - name: Update dist-cache and save manifest
         run: |
+          rm -rf dist-cache
           mkdir -p dist-cache
-          cp -r dist/. dist-cache/
+          cp -al dist/. dist-cache/ || cp -a dist/. dist-cache/
           if [ -f .current-digests.json ]; then
             cp .current-digests.json dist-cache/.astro-manifest.json
           fi
+          test ! -d dist/v && test ! -d dist-cache/v
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5

@@ -58,3 +58,7 @@ collections:
     fields:
       - { label: Bill ID, name: billId, widget: string }
       - { label: Title, name: title, widget: string, required: false }
+      # Optional, per bill, forever. Both feed the finder's alias match: the
+      # short form people actually type ("obbb"), not initials of the title.
+      - { label: Nickname, name: nickname, widget: string, required: false, hint: "What people call this bill when they search for it, e.g. obbb" }
+      - { label: Abbreviation, name: abbreviation, widget: string, required: false, hint: "A short form of the title, if it has one" }
