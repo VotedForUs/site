@@ -731,6 +731,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Strengthening America’s Turning Point Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -795,8 +805,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T10:56:58Z",
-  "updateDateIncludingText": "2026-10-02T10:56:58Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-1550",
   "lastActionDate": "2026-09-29",
   "lastRecordedVoteDate": "2026-09-29"

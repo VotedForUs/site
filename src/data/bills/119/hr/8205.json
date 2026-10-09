@@ -822,6 +822,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -842,9 +852,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize the provisions of such Act through fiscal year 2031, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-07-24T03:53:21Z"
       },
       {
@@ -852,9 +862,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize the provisions of such Act through fiscal year 2031, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-07-24T03:53:21Z"
       },
       {
@@ -886,8 +896,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-30T10:56:25Z",
-  "updateDateIncludingText": "2026-09-30T10:56:25Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-8205",
   "lastActionDate": "2026-09-28",
   "lastRecordedVoteDate": "2026-09-28"

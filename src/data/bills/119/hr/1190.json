@@ -771,6 +771,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Expanding Access to Capital for Rural Job Creators Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:53:20Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -835,8 +845,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T10:56:58Z",
-  "updateDateIncludingText": "2026-10-02T10:56:58Z",
+  "updateDate": "2026-10-09T03:53:20Z",
+  "updateDateIncludingText": "2026-10-09T03:53:20Z",
   "id": "119-HR-1190",
   "lastActionDate": "2026-09-29",
   "lastRecordedVoteDate": "2026-09-29"

@@ -880,6 +880,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Southcentral Foundation Land Transfer Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -954,8 +964,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T10:56:54Z",
-  "updateDateIncludingText": "2026-10-02T10:56:54Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-3620",
   "lastActionDate": "2026-09-29",
   "lastRecordedVoteDate": "2026-09-29"

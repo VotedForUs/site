@@ -749,6 +749,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Bankruptcy Threshold Adjustment Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -803,8 +813,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-30T10:56:26Z",
-  "updateDateIncludingText": "2026-10-03T04:18:40Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-7730",
   "lastActionDate": "2026-09-28",
   "lastRecordedVoteDate": "2026-09-28"

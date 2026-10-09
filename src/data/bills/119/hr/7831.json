@@ -860,6 +860,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "License to Drill Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:53:20Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -934,8 +944,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T14:28:23Z",
-  "updateDateIncludingText": "2026-10-02T14:28:23Z",
+  "updateDate": "2026-10-09T03:53:20Z",
+  "updateDateIncludingText": "2026-10-09T03:53:20Z",
   "id": "119-HR-7831",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

@@ -854,6 +854,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -928,8 +938,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-06T11:41:27Z",
-  "updateDateIncludingText": "2026-10-06T11:41:27Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:48:51Z",
   "id": "119-HR-2388",
   "lastActionDate": "2026-09-28",
   "lastRecordedVoteDate": "2026-09-24"

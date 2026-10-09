@@ -707,6 +707,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Common Cents Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -761,8 +771,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-30T10:56:22Z",
-  "updateDateIncludingText": "2026-09-30T10:56:22Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-10167",
   "lastActionDate": "2026-09-28",
   "lastRecordedVoteDate": "2026-09-28"

@@ -752,6 +752,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:26Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -782,9 +792,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To extend and authorize annual appropriations for the United States Commission on International Religious Freedom through December 31, 2028.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-06-10T05:38:25Z"
       },
       {
@@ -792,9 +802,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To extend and authorize annual appropriations for the United States Commission on International Religious Freedom through December 31, 2028.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-06-10T05:38:25Z"
       },
       {
@@ -816,8 +826,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T10:56:58Z",
-  "updateDateIncludingText": "2026-10-02T10:56:58Z",
+  "updateDate": "2026-10-09T03:38:26Z",
+  "updateDateIncludingText": "2026-10-09T03:48:55Z",
   "id": "119-HR-1744",
   "lastActionDate": "2026-09-29",
   "lastRecordedVoteDate": "2026-09-29"

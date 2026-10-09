@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 20,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/766/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-10-07",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-120.",
+        "type": "President"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-10-07",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-07",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-09-29",
@@ -763,15 +793,15 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-09-29",
-    "text": "Presented to President."
+    "actionDate": "2026-10-07",
+    "text": "Became Public Law No: 119-120."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/766",
   "number": "766",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/766/summaries?format=json"
   },
   "title": "Billion Dollar Boondoggle Act of 2025",
@@ -832,9 +862,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-30T08:05:46Z",
-  "updateDateIncludingText": "2026-09-30T08:05:46Z",
+  "updateDate": "2026-10-08T17:34:43Z",
+  "updateDateIncludingText": "2026-10-08T17:34:43Z",
   "id": "119-S-766",
-  "lastActionDate": "2026-09-29",
+  "lastActionDate": "2026-10-07",
   "lastRecordedVoteDate": "2026-09-16"
 }
