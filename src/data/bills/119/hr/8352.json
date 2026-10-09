@@ -771,6 +771,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Criminal History Access Act of 2026",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "title": "Criminal History Access Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -799,9 +809,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Criminal History Access Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To authorize peace officer standards and training agencies to access criminal history records, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-05-14T02:38:27Z"
       },
       {
@@ -809,9 +819,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To authorize peace officer standards and training agencies to access criminal history records, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Criminal History Access Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-05-14T02:38:27Z"
       },
       {
@@ -835,8 +845,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T15:08:51Z",
-  "updateDateIncludingText": "2026-10-02T15:08:51Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:48:53Z",
   "id": "119-HR-8352",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

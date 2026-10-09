@@ -837,6 +837,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Mystic Alerts Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:53:20Z"
+      },
+      {
         "title": "Mystic Alerts Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -865,9 +875,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Mystic Alerts Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To provide for the transmission of emergency alerts by satellite, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-04-22T03:38:22Z"
       },
       {
@@ -875,9 +885,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To provide for the transmission of emergency alerts by satellite, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Mystic Alerts Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-04-22T03:38:22Z"
       },
       {
@@ -901,8 +911,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T14:41:44Z",
-  "updateDateIncludingText": "2026-10-02T14:41:44Z",
+  "updateDate": "2026-10-09T03:53:20Z",
+  "updateDateIncludingText": "2026-10-09T03:53:20Z",
   "id": "119-HR-7022",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

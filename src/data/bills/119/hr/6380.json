@@ -848,6 +848,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Chiricahua National Park Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To redesignate the Chiricahua National Monument in the State of Arizona as Chiricahua National Park, and for other purposes",
@@ -870,16 +880,6 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Chiricahua National Park Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-03-18T03:08:22Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
         "title": "To redesignate the Chiricahua National Monument in the State of Arizona as Chiricahua National Park, and for other purposes.",
         "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
@@ -889,6 +889,16 @@
         "title": "Chiricahua National Park Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
+        "updateDate": "2026-03-18T03:08:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Chiricahua National Park Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-18T03:08:22Z"
       },
       {
@@ -920,8 +930,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T14:22:37Z",
-  "updateDateIncludingText": "2026-10-02T14:22:37Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:48:54Z",
   "id": "119-HR-6380",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

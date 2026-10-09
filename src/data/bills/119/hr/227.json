@@ -818,6 +818,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Clergy Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "title": "Clergy Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -838,9 +848,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Clergy Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To allow a period in which members of the clergy may revoke their exemption from Social Security coverage, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-04-29T05:08:27Z"
       },
       {
@@ -848,9 +858,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To allow a period in which members of the clergy may revoke their exemption from Social Security coverage, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Clergy Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-04-29T05:08:27Z"
       },
       {
@@ -882,8 +892,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-05T20:25:56Z",
-  "updateDateIncludingText": "2026-10-05T20:25:56Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:48:53Z",
   "id": "119-HR-227",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

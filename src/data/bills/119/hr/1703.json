@@ -856,6 +856,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Choices for Increased Mobility Act of 2026",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "title": "Choices for Increased Mobility Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -876,9 +886,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Choices for Increased Mobility Act of 2026",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To amend title XVIII of the Social Security Act to clarify payment rules for manual wheelchairs under part B of the Medicare program.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-07-22T05:53:17Z"
       },
       {
@@ -886,9 +896,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To amend title XVIII of the Social Security Act to clarify payment rules for manual wheelchairs under part B of the Medicare program.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Choices for Increased Mobility Act of 2026",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-07-22T05:53:17Z"
       },
       {
@@ -920,8 +930,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T15:05:30Z",
-  "updateDateIncludingText": "2026-10-02T15:05:30Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-1703",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

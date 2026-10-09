@@ -764,6 +764,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Skills-Based Federal Contracting Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -784,6 +794,16 @@
         "updateDate": "2026-02-26T07:53:29Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To amend title 41, United States Code, to prohibit minimum educational requirements for proposed contractor personnel in certain contract solicitations, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-02-25T03:53:21Z"
+      },
+      {
         "title": "Skills-Based Federal Contracting Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -797,16 +817,6 @@
         "title": "Skills-Based Federal Contracting Act of 2025",
         "titleType": "Short Title(s) as Passed House",
         "titleTypeCode": 104,
-        "updateDate": "2026-02-25T03:53:21Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "To amend title 41, United States Code, to prohibit minimum educational requirements for proposed contractor personnel in certain contract solicitations, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
         "updateDate": "2026-02-25T03:53:21Z"
       },
       {
@@ -828,8 +838,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T14:50:34Z",
-  "updateDateIncludingText": "2026-10-02T14:50:34Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-5235",
   "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-30"

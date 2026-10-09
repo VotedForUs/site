@@ -771,6 +771,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Claiming Age Clarity Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-10-09T03:38:25Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -785,9 +795,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Claiming Age Clarity Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To require the Social Security Administration to make changes to the social security terminology used in the rules, regulation, guidance, or other materials of the Administration.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-03T04:38:19Z"
       },
       {
@@ -795,9 +805,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To require the Social Security Administration to make changes to the social security terminology used in the rules, regulation, guidance, or other materials of the Administration.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Claiming Age Clarity Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-03T04:38:19Z"
       },
       {
@@ -835,8 +845,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-02T10:56:53Z",
-  "updateDateIncludingText": "2026-10-02T10:56:53Z",
+  "updateDate": "2026-10-09T03:38:25Z",
+  "updateDateIncludingText": "2026-10-09T03:38:25Z",
   "id": "119-HR-5284",
   "lastActionDate": "2026-09-29",
   "lastRecordedVoteDate": "2026-09-29"
