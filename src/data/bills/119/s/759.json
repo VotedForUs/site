@@ -684,7 +684,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/759/summaries?format=json"
   },
   "title": "Modernizing Access to Our Public Oceans Act",
@@ -745,8 +745,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-28T16:42:15Z",
-  "updateDateIncludingText": "2026-09-28T16:42:15Z",
+  "updateDate": "2026-10-13T12:59:17Z",
+  "updateDateIncludingText": "2026-10-13T12:59:17Z",
   "id": "119-S-759",
   "lastActionDate": "2026-09-25",
   "lastRecordedVoteDate": "2026-09-14"
