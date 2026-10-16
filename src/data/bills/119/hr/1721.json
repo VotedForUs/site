@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/1721/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-09-24",
         "sourceSystem": {
@@ -762,8 +782,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-09-24",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-10-14",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1721",
   "number": "1721",
@@ -776,6 +796,12 @@
   "title": "Critical Infrastructure Manufacturing Feasibility Act",
   "titles": {
     "titles": [
+      {
+        "title": "Critical Infrastructure Manufacturing Feasibility Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-10-15T16:07:28Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -827,12 +853,6 @@
         "updateDate": "2025-04-25T06:23:18Z"
       },
       {
-        "title": "Critical Infrastructure Manufacturing Feasibility Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-03-06T10:23:20Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Critical Infrastructure Manufacturing Feasibility Act",
@@ -851,9 +871,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-29T05:23:24Z",
-  "updateDateIncludingText": "2026-09-29T05:23:24Z",
+  "updateDate": "2026-10-15T16:07:28Z",
+  "updateDateIncludingText": "2026-10-15T16:07:28Z",
   "id": "119-HR-1721",
-  "lastActionDate": "2026-09-24",
+  "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-23"
 }

@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 19,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/2481/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-09-24",
         "sourceSystem": {
@@ -750,8 +770,8 @@
   "congress": 119,
   "introducedDate": "2025-03-31",
   "latestAction": {
-    "actionDate": "2026-09-24",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-10-14",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2481",
   "number": "2481",
@@ -764,6 +784,12 @@
   "title": "Romance Scam Prevention Act",
   "titles": {
     "titles": [
+      {
+        "title": "Romance Scam Prevention Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-10-15T16:07:29Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -815,12 +841,6 @@
         "updateDate": "2025-06-13T05:53:16Z"
       },
       {
-        "title": "Romance Scam Prevention Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-04-03T13:59:04Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Romance Scam Prevention Act",
@@ -839,9 +859,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-05T21:14:04Z",
-  "updateDateIncludingText": "2026-10-05T21:14:04Z",
+  "updateDate": "2026-10-15T16:07:29Z",
+  "updateDateIncludingText": "2026-10-15T16:07:29Z",
   "id": "119-HR-2481",
-  "lastActionDate": "2026-09-24",
+  "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-23"
 }

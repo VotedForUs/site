@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 21,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/4467/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-09-24",
         "sourceSystem": {
@@ -793,8 +813,8 @@
   "congress": 119,
   "introducedDate": "2025-07-16",
   "latestAction": {
-    "actionDate": "2026-09-24",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-10-14",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4467",
   "number": "4467",
@@ -807,6 +827,12 @@
   "title": "Vicksburg National Military Park Boundary Modification Act",
   "titles": {
     "titles": [
+      {
+        "title": "Vicksburg National Military Park Boundary Modification Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-10-15T16:07:31Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -848,12 +874,6 @@
         "updateDate": "2026-01-15T10:53:14Z"
       },
       {
-        "title": "Vicksburg National Military Park Boundary Modification Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-07-26T03:23:26Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "Vicksburg National Military Park Boundary Modification Act",
@@ -872,9 +892,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-05T12:39:34Z",
-  "updateDateIncludingText": "2026-10-05T12:39:34Z",
+  "updateDate": "2026-10-15T16:07:31Z",
+  "updateDateIncludingText": "2026-10-15T16:07:31Z",
   "id": "119-HR-4467",
-  "lastActionDate": "2026-09-24",
+  "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-22"
 }

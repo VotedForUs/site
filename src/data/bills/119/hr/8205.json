@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 22,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/hr/8205/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-28",
         "sourceSystem": {
@@ -807,8 +815,8 @@
   "congress": 119,
   "introducedDate": "2026-04-06",
   "latestAction": {
-    "actionDate": "2026-09-28",
-    "text": "Passed Senate without amendment by Voice Vote. (consideration: CR S5120)"
+    "actionDate": "2026-10-14",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8205",
   "number": "8205",
@@ -896,9 +904,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-09T03:38:25Z",
-  "updateDateIncludingText": "2026-10-09T03:38:25Z",
+  "updateDate": "2026-10-15T10:56:19Z",
+  "updateDateIncludingText": "2026-10-15T10:56:19Z",
   "id": "119-HR-8205",
-  "lastActionDate": "2026-09-28",
+  "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-28"
 }
