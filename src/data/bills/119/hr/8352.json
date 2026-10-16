@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/8352/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-30",
         "sourceSystem": {
@@ -756,8 +764,8 @@
   "congress": 119,
   "introducedDate": "2026-04-16",
   "latestAction": {
-    "actionDate": "2026-09-30",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5299)"
+    "actionDate": "2026-10-14",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8352",
   "number": "8352",
@@ -845,9 +853,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-09T03:38:25Z",
-  "updateDateIncludingText": "2026-10-09T03:48:53Z",
+  "updateDate": "2026-10-15T10:56:19Z",
+  "updateDateIncludingText": "2026-10-15T10:56:19Z",
   "id": "119-HR-8352",
-  "lastActionDate": "2026-09-30",
+  "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-30"
 }

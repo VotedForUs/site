@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/5284/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-29",
         "sourceSystem": {
@@ -756,8 +764,8 @@
   "congress": 119,
   "introducedDate": "2025-09-10",
   "latestAction": {
-    "actionDate": "2026-09-29",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5184)"
+    "actionDate": "2026-10-14",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5284",
   "number": "5284",
@@ -845,9 +853,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-09T03:38:25Z",
-  "updateDateIncludingText": "2026-10-09T03:38:25Z",
+  "updateDate": "2026-10-15T14:37:26Z",
+  "updateDateIncludingText": "2026-10-15T14:37:26Z",
   "id": "119-HR-5284",
-  "lastActionDate": "2026-09-29",
+  "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-29"
 }

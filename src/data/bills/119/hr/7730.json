@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/7730/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-28",
         "sourceSystem": {
@@ -734,8 +742,8 @@
   "congress": 119,
   "introducedDate": "2026-02-26",
   "latestAction": {
-    "actionDate": "2026-09-28",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5123)"
+    "actionDate": "2026-10-14",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7730",
   "number": "7730",
@@ -813,9 +821,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-09T03:38:25Z",
-  "updateDateIncludingText": "2026-10-09T03:38:25Z",
+  "updateDate": "2026-10-15T10:56:20Z",
+  "updateDateIncludingText": "2026-10-15T10:56:20Z",
   "id": "119-HR-7730",
-  "lastActionDate": "2026-09-28",
+  "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-28"
 }

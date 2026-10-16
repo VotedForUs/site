@@ -1,8 +1,36 @@
 {
   "actions": {
-    "count": 27,
+    "count": 30,
     "url": "https://api.congress.gov/v3/bill/119/hr/3620/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-10-15",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-10-15",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
+      {
+        "actionDate": "2026-10-14",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-29",
         "sourceSystem": {
@@ -865,8 +893,8 @@
   "congress": 119,
   "introducedDate": "2025-05-29",
   "latestAction": {
-    "actionDate": "2026-09-29",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5144)"
+    "actionDate": "2026-10-15",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3620",
   "number": "3620",
@@ -964,9 +992,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-09T03:38:25Z",
-  "updateDateIncludingText": "2026-10-09T03:38:25Z",
+  "updateDate": "2026-10-16T08:05:23Z",
+  "updateDateIncludingText": "2026-10-16T08:05:23Z",
   "id": "119-HR-3620",
-  "lastActionDate": "2026-09-29",
+  "lastActionDate": "2026-10-15",
   "lastRecordedVoteDate": "2026-09-29"
 }
