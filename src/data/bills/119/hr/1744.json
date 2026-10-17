@@ -753,7 +753,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 2,
+    "count": 3,
     "url": "https://api.congress.gov/v3/bill/119/hr/1744/summaries?format=json"
   },
   "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
@@ -834,8 +834,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-15T10:56:20Z",
-  "updateDateIncludingText": "2026-10-15T10:56:20Z",
+  "updateDate": "2026-10-16T18:56:16Z",
+  "updateDateIncludingText": "2026-10-16T18:56:16Z",
   "id": "119-HR-1744",
   "lastActionDate": "2026-10-14",
   "lastRecordedVoteDate": "2026-09-29"
