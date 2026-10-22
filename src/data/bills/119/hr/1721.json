@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 22,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/1721/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-10-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-127.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-127.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-10-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-10-14",
@@ -782,9 +822,15 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-10-14",
-    "text": "Presented to President."
+    "actionDate": "2026-10-20",
+    "text": "Became Public Law No: 119-127."
   },
+  "laws": [
+    {
+      "number": "119-127",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1721",
   "number": "1721",
   "originChamber": "House",
@@ -871,9 +917,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-15T16:07:28Z",
-  "updateDateIncludingText": "2026-10-15T16:07:28Z",
+  "updateDate": "2026-10-21T20:54:37Z",
+  "updateDateIncludingText": "2026-10-21T20:54:37Z",
   "id": "119-HR-1721",
-  "lastActionDate": "2026-10-14",
+  "lastActionDate": "2026-10-20",
   "lastRecordedVoteDate": "2026-09-23"
 }
