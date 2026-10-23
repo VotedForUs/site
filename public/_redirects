@@ -1,0 +1,11 @@
+# Cloudflare Pages rewrites, applied in order.
+#
+# A member's bills and their votes on one of them are the same screen: 606
+# prerendered member pages, and the combinations rendered in place from
+# /finder/votes.json plus that member's cast file. Building them instead would
+# be 267,511 documents — see FINDER-DRILLDOWN-AMENDMENT.md.
+#
+# So a deep member URL is served that member's own page, status 200, and
+# `vfu-member-record` reads the path and opens the bill. With scripting off the
+# reader lands on the member's record rather than on nothing.
+/members/:bioguide/*  /members/:bioguide  200

@@ -74,7 +74,7 @@ export function resolveLegislatorLine(
   const slug = entry.id;
   return {
     label: d.nameTitle ?? d.name ?? bioguideId,
-    href: `${base}legislators/${slug}`,
+    href: `${base}members/${slug}`,
     party: d.party ?? '',
     state: d.state ?? '',
   };

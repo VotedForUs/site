@@ -73,10 +73,14 @@ function chamberToLegType(chamber: unknown, memberType: unknown): string | undef
 /**
  * Resolves a single display name string from varied API shapes.
  *
+ * Exported because callers outside the collection need the same fallback: a
+ * member seated too recently to appear in the legislator YAML has no `name`
+ * object, only `directOrderName`.
+ *
  * @param leg - Raw legislator record
  * @returns Display name, or empty string if none found
  */
-function displayName(leg: Loose): string {
+export function displayName(leg: Loose): string {
   const name = leg['name'];
   if (typeof name === 'string') return name;
   if (name && typeof name === 'object' && name !== null && 'official_full' in name) {

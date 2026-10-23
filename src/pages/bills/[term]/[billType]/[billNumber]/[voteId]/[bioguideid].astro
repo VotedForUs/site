@@ -1,17 +1,29 @@
 ---
 /**
- * Redirect page: alias for /v/[voteId]/[bioguideId].
- *
- * - meta refresh redirects browsers to the canonical short URL
- * - disableIndexing=true prevents search engines from indexing this duplicate
- * - socialCardPath mirrors the canonical page so social crawlers that don't
- *   follow meta refresh still get the correct OG image
+ * Canonical member×vote page: the roll with the card dialog open.
+ * og:image and schema.org VoteAction live here.
  */
 import Layout from '../../../../../../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
+import EditorialVoteActionLink from '../../../../../../components/EditorialVoteActionLink.astro';
+import VoteRoll from '../../../../../../components/VoteRoll.astro';
+import VfuVoteCard from '../../../../../../components/VfuVoteCard.astro';
+import { getEntry, getCollection } from 'astro:content';
+import { getBestBillTitle } from '../../../../../../utils/billTitle.js';
+import { getEditorialVoteAction } from '../../../../../../utils/editorial.js';
 import { getLimitedBillIds } from '../../../../../../buildConfig';
 import { shouldBuildPage } from '../../../../../../utils/buildManifest.js';
-import { memberIdsForDisplay } from '../../../../../../utils/memberCastsForDisplay.js';
+import type { LegislatorSmall } from '@votedforus/votes/types';
+import { memberCastsForDisplay, isConsentMembershipVote, memberIdsForDisplay } from '../../../../../../utils/memberCastsForDisplay.js';
+import { toVoteRollRow } from '../../../../../../utils/voteRollRows.js';
+import { proceduralVoteKindFromRecordType } from '../../../../../../utils/voteCastKind.js';
+import { actionOptionLabel } from '../../../../../../utils/legislatorVoteDisplay.js';
+import { addVoteRollSortOrders } from '../../../../../../utils/voteRollSortOrders.js';
+import { buildStateGroups, liftHomeState } from '../../../../../../utils/voteRollView.js';
+import { resolveLegislatorVoteView } from '../../../../../../utils/resolveLegislatorVoteViewAstro.js';
+import { toVotedCardProps } from '../../../../../../utils/legislatorVoteView.js';
+import { voteMemberPath, votePath } from '../../../../../../utils/voteLinks.js';
+import { localHeadshot } from '../../../../../../utils/headshot.js';
+import { seoConfig } from '../../../../../../../utils/seoConfig';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
@@ -24,7 +36,6 @@ export async function getStaticPaths() {
       voteId: string;
       bioguideid: string;
     };
-    props: { canonicalVoteId: string };
   }[] = [];
 
   for (const vote of allVotes.filter(v => limitedBillIds.has(v.data.billId))) {
@@ -32,8 +43,13 @@ export async function getStaticPaths() {
     for (const bioguideid of memberIdsForDisplay(vote.data)) {
       if (shouldBuildPage('legislator-votes-loader', `${bioguideid}-${vote.id}`)) {
         paths.push({
-          params: { term, billType: billType.toLowerCase(), billNumber, voteId: voteSegment, bioguideid },
-          props: { canonicalVoteId: vote.id },
+          params: {
+            term,
+            billType: billType.toLowerCase(),
+            billNumber,
+            voteId: voteSegment,
+            bioguideid,
+          },
         });
       }
     }
@@ -41,18 +57,91 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { bioguideid } = Astro.params;
-const { canonicalVoteId } = Astro.props;
+const { term, billType, billNumber, voteId, bioguideid } = Astro.params;
+const normalizedBillType = (billType ?? '').toUpperCase();
+const fullVoteId = `${term}-${normalizedBillType}-${billNumber}-${voteId}`;
+const bioguide = bioguideid as string;
 
-const canonicalUrl = `${import.meta.env.BASE_URL}v/${canonicalVoteId}/${bioguideid}`;
-const socialCardPath = `/social-cards/v/${canonicalVoteId}/${bioguideid}.png`;
+const voteEntry = await getEntry('recordedVotes', fullVoteId);
+if (!voteEntry) {
+  throw new Error(`Vote not found: ${fullVoteId}`);
+}
+
+const vote = voteEntry.data;
+const question = getEditorialVoteAction(fullVoteId) ?? vote.question;
+const billEntry = await getEntry('bills', vote.billId);
+const billTitle = billEntry?.data ? getBestBillTitle(billEntry.data) : (vote.billTitle ?? '');
+const chamber = vote.chamber?.toLowerCase() ?? '';
+const votesMap = memberCastsForDisplay(vote);
+const consent = isConsentMembershipVote(vote);
+const proc = proceduralVoteKindFromRecordType(vote.recordType);
+const kindLabel = proc ? actionOptionLabel('Yea', proc) : null;
+
+const rows = [];
+for (const [id, voteCast] of Object.entries(votesMap)) {
+  const legEntry = await getEntry('legislators', id);
+  rows.push(toVoteRollRow(id, voteCast, legEntry?.data as LegislatorSmall | undefined, chamber));
+}
+
+const selected = rows.find((r) => r.bioguideId === bioguide);
+const homeState = selected?.stateDistrict.replace(/-.*$/, '') ?? '';
+const orderedIds = liftHomeState(buildStateGroups(addVoteRollSortOrders(rows)), homeState)
+  .flatMap((g) => g.rows.map((r) => r.bioguideId));
+const index = orderedIds.indexOf(bioguide);
+const prevId = index > 0 ? orderedIds[index - 1] : undefined;
+const nextId = index >= 0 && index < orderedIds.length - 1 ? orderedIds[index + 1] : undefined;
+
+const result = await resolveLegislatorVoteView({ voteId: fullVoteId, bioguideId: bioguide });
+if (!result.ok) {
+  throw new Error(`Legislator vote not found (${result.reason}): ${bioguide}/${fullVoteId}`);
+}
+
+const card = toVotedCardProps(result.view);
+const portrait = localHeadshot(bioguide);
+if (portrait) card.imageUrl = portrait;
+
+const voteTitle = question ?? `Vote ${voteId}`;
+const pageTitle = result.view.page.title;
+const sharePath = voteMemberPath(fullVoteId, bioguide);
+const rollPath = votePath(fullVoteId) ?? '';
+const rollLine = [
+  vote.chamber,
+  vote.rollNumber ? `Roll #${vote.rollNumber}` : kindLabel,
+  vote.result,
+].filter(Boolean).join(' · ');
 ---
 
 <Layout
-  title={`${canonicalVoteId}/${bioguideid}`}
-  socialCardPath={socialCardPath}
-  disableIndexing={true}
-  redirect={canonicalUrl}
+  title={pageTitle}
+  socialCardPath={result.view.page.socialCardPath}
+  canonical={`${seoConfig.baseURL}${sharePath}`}
+  breadcrumbLabels={{ [bioguide]: result.view.legislator.nameTitle }}
 >
-  <p>Redirecting to <a href={canonicalUrl}>{canonicalUrl}</a>…</p>
+  <h1>{voteTitle}<EditorialVoteActionLink voteId={fullVoteId} action={vote.question} /></h1>
+  <p><strong>Bill:</strong> {billTitle}</p>
+  <p><strong>Chamber:</strong> {rollLine}</p>
+
+  <h2>Votes ({rows.length})</h2>
+  <VoteRoll
+    rows={rows}
+    stateHeader={chamber === 'senate' ? 'Seat' : 'District'}
+    sortGroupName={`vr-${fullVoteId}`}
+    voteId={fullVoteId}
+    homeState={homeState}
+    consent={consent}
+    kindLabel={kindLabel}
+    selectedBioguideId={bioguide}
+  />
+
+  <VfuVoteCard
+    open
+    voteId={fullVoteId}
+    bioguideId={bioguide}
+    context="bill"
+    closeHref={rollPath}
+    prevHref={prevId ? voteMemberPath(fullVoteId, prevId) : null}
+    nextHref={nextId ? voteMemberPath(fullVoteId, nextId) : null}
+    shareUrl={`${seoConfig.baseURL}${sharePath}`}
+    card={card}
+  />
 </Layout>

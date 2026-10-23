@@ -1,0 +1,254 @@
+---
+/**
+ * A member's record: who they are, and the bills they have voted on.
+ *
+ * The identity and the bill list are server-rendered — 606 pages, one per
+ * member, arriving as HTML. Picking a bill does not leave the page:
+ * `vfu-member-record.ts` folds the list to that bill and renders their votes
+ * on it in place, from `votes.json` and the member's own cast file. The URL is
+ * pushed, so it is still a link someone can send.
+ *
+ * The component owns no routing and loads no data; the route hands it resolved
+ * props, which is what lets it have a story per state with no collection
+ * access.
+ */
+import ResultGroup from './ResultGroup.astro';
+import ResultRow from './ResultRow.astro';
+import VfuVoteCard from './VfuVoteCard.astro';
+import { buildLegislatorVoteDisplay, castTag, displayNameFromNameTitle, formatMemberSubtitle } from '../utils/legislatorVoteDisplay.js';
+import { stateNameFromCode } from '../utils/stateNames.js';
+import { formatLegislationIdentifier } from '../utils/billLegislationFormat.js';
+import { billSegment, memberBillPath, memberPath } from '../utils/voteLinks.js';
+import { withBaseUrl } from '../utils/withBaseUrl.js';
+import { seoConfig } from '../../utils/seoConfig';
+
+/** One bill this member has voted on, resolved by the route. */
+export type MemberBill = {
+  billId: string;
+  term: string | number;
+  billType: string;
+  billNumber: string | number;
+  title: string;
+  /** The date of their most recent vote on it — the list is sorted by this. */
+  date: string;
+  /** Their cast on that most recent vote. */
+  cast: string;
+  /** How many of the bill's votes they cast on. */
+  votes: number;
+};
+
+/** The member, as `LegislatorSmall` gives them. */
+export type MemberRecordMember = {
+  bioguide: string;
+  nameTitle: string;
+  name?: string;
+  party?: string;
+  state?: string;
+  district?: number;
+  type?: string;
+  imageUrl?: string;
+};
+
+interface Props {
+  member: MemberRecordMember;
+  /** Newest first. */
+  bills: MemberBill[];
+  /** Open on this bill (a `hr-2616` segment) — a story, or a shared URL. */
+  selected?: string;
+  /** Open the in-place card for this vote number on `selected`. */
+  selectedVote?: string;
+  /** Vote data in place of the fetch — Storybook and tests. */
+  index?: { votes: unknown[]; casts: Array<[number, string]> };
+}
+
+const { member, bills, selected, selectedVote, index } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const chamber = member.type === 'sen' ? 'sen' : 'rep';
+const stateName = stateNameFromCode(member.state ?? '');
+const name = displayNameFromNameTitle(member.nameTitle);
+const subtitle = formatMemberSubtitle(
+  member.party ?? '',
+  stateName,
+  chamber,
+  member.state ?? '',
+  member.district,
+);
+const cardDisplay = buildLegislatorVoteDisplay({
+  voteCast: 'Yea',
+  nameTitle: member.nameTitle,
+  party: member.party ?? '',
+  stateName,
+  chamber,
+  state: member.state ?? '',
+  district: member.district,
+});
+---
+
+<vfu-member-record
+  bioguide={member.bioguide}
+  member-name={name}
+  name-title={member.nameTitle}
+  party={member.party ?? ''}
+  state-name={stateName}
+  chamber={chamber}
+  state={member.state ?? ''}
+  district={member.district != null ? String(member.district) : undefined}
+  share-origin={seoConfig.baseURL}
+  base={base}
+  index-base={withBaseUrl('/finder/', base)}
+  selected={selected}
+  selected-vote={selectedVote}
+>
+  <header class="selection-bar">
+    {member.imageUrl && (
+      <img class="member-headshot" src={withBaseUrl(member.imageUrl, base)} alt="" loading="lazy" />
+    )}
+    <div class="selection-main">
+      <h1>{name}</h1>
+      <p class="selection-meta">{subtitle}</p>
+    </div>
+    <p class="selection-count">{`${bills.length} ${bills.length === 1 ? 'bill' : 'bills'}`}</p>
+  </header>
+
+  {/* The selection: folded out of the list above, filled in place. */}
+  <div data-selection hidden>
+    <nav class="selection-crumb">
+      <a data-back href={memberPath(member.bioguide, base)}>{`← all bills ${name} voted on`}</a>
+    </nav>
+    <div data-selected-bill></div>
+    <div data-votes></div>
+  </div>
+
+  <div data-bills>
+    <ResultGroup label="bills voted on" count={bills.length}>
+      {/*
+        The row keeps a real href — it is a real URL someone can copy — but it
+        never navigates, because the element opens the bill in place. So it opts
+        out of prefetch: fetching that page would pull this same page again.
+      */}
+      {bills.map((bill) => {
+        const tag = castTag(bill.cast);
+        return (
+          <ResultRow
+            href={memberBillPath(member.bioguide, bill.term, bill.billType, bill.billNumber, base)}
+            data-bill={bill.billId}
+            data-segment={billSegment(bill.billType, bill.billNumber)}
+            data-astro-prefetch="false"
+          >
+            <Fragment slot="lead">
+              <span class="row-id">{formatLegislationIdentifier(bill.billType, String(bill.billNumber))}</span>
+            </Fragment>
+            <Fragment slot="title">{bill.title}</Fragment>
+            <Fragment slot="meta">
+              {`${bill.votes} ${bill.votes === 1 ? 'vote' : 'votes'} · last ${bill.date}`}
+            </Fragment>
+            <Fragment slot="trailing">
+              <span class="cast-tag" data-cast={tag.label.toLowerCase()}>{tag.label}</span>
+              {tag.kind && <span class="kind-chip">{tag.kind}</span>}
+            </Fragment>
+          </ResultRow>
+        );
+      })}
+    </ResultGroup>
+  </div>
+
+  {index && (
+    <>
+      <script type="application/json" data-member-index="votes" set:html={JSON.stringify(index.votes)} />
+      <script type="application/json" data-member-index="casts" set:html={JSON.stringify(index.casts)} />
+    </>
+  )}
+
+  {/* The shapes the element fills — the same components the rows above use. */}
+  <template data-template="group"><ResultGroup /></template>
+  <template data-template="vote-row">
+    <ResultRow data-astro-prefetch="false">
+      <Fragment slot="lead">
+        <span class="vote-lead">
+          <span class="vote-chamber"></span>
+          <span class="vote-roll" hidden></span>
+        </span>
+      </Fragment>
+      <Fragment slot="trailing">
+        <span class="cast-tag"></span>
+        <span class="kind-chip" hidden></span>
+      </Fragment>
+    </ResultRow>
+  </template>
+
+  <VfuVoteCard
+    voteId=""
+    bioguideId={member.bioguide}
+    context="member"
+    closeHref={memberPath(member.bioguide, base)}
+    shareUrl=""
+    card={{
+      nameTitle: member.nameTitle,
+      party: member.party ?? '',
+      stateName,
+      chamber,
+      state: member.state ?? '',
+      district: member.district,
+      imageUrl: member.imageUrl ?? '',
+      voteCast: 'Yea',
+      voteTitle: '',
+      legislationIdentifier: '',
+      legislationType: '',
+      billTitle: '',
+      displayName: cardDisplay.displayName,
+      memberSubtitle: cardDisplay.memberSubtitle,
+      voteVerb: cardDisplay.voteVerb,
+      emoji: cardDisplay.emoji,
+      actionLabel: cardDisplay.actionLabel,
+    }}
+  />
+</vfu-member-record>
+
+<script>
+  import './vfu-member-record';
+</script>
+
+<style>
+  .selection-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--pad-m);
+    padding-block-end: var(--pad-m);
+    border-block-end: 3px solid var(--fg);
+    margin-block-end: var(--vs-m);
+  }
+
+  .selection-bar h1 {
+    margin: 0;
+  }
+
+  .member-headshot {
+    inline-size: 4rem;
+    block-size: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+    background: var(--bg-2);
+  }
+
+  .selection-main {
+    flex: 1 1 auto;
+  }
+
+  .selection-meta {
+    margin: 0;
+    color: var(--fg-muted);
+  }
+
+  .selection-count,
+  .selection-crumb {
+    margin: 0 0 var(--pad-s);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--fg-muted);
+  }
+
+  [hidden] {
+    display: none;
+  }
+</style>

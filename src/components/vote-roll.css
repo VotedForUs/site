@@ -1,0 +1,115 @@
+/**
+ * Owned vote-roll table. Tokens only — Graffiti has no sticky or sortable table.
+ */
+vfu-vote-roll {
+  display: block;
+}
+
+.vote-roll-find {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--pad-xs, 0.5rem) var(--pad-s, 0.75rem);
+  margin-block-end: var(--vs-s, 1rem);
+}
+
+.vote-roll-find span {
+  font-weight: 650;
+}
+
+.vote-roll-find input {
+  flex: 1 1 12rem;
+  min-width: 0;
+  padding: var(--pad-xs, 0.4rem) var(--pad-s, 0.65rem);
+  border: 1px solid var(--fg-2);
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+}
+
+.vote-roll-find input:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.vote-roll-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vote-roll-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg);
+  border-block-end: 1px solid var(--fg-2);
+  text-align: left;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: var(--pad-xs, 0.4rem) var(--pad-s, 0.65rem);
+}
+
+.vote-roll-table th button {
+  appearance: none;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.vote-roll-table th button:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.vote-roll-table [aria-sort='ascending'] button::after {
+  content: ' ▲';
+}
+
+.vote-roll-table [aria-sort='descending'] button::after {
+  content: ' ▼';
+}
+
+.vote-roll-table td {
+  padding: var(--pad-xs, 0.55rem) var(--pad-s, 0.65rem);
+  border-block-end: 1px solid var(--fg-2);
+  vertical-align: baseline;
+}
+
+.vote-roll-group th {
+  padding: var(--pad-s, 0.75rem) var(--pad-s, 0.65rem) var(--pad-xs, 0.35rem);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  border-block-end: 0;
+}
+
+.vote-roll-name {
+  color: var(--primary);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.vote-roll-name:hover {
+  text-decoration: underline;
+}
+
+.vote-roll-table tr[aria-current='true'] {
+  background: var(--primary-opaque-1, var(--bg));
+}
+
+.vote-roll-table tr[hidden],
+.vote-roll-group[hidden] {
+  display: none;
+}
+
+.vote-roll-kind {
+  margin: 0 0 var(--vs-s, 1rem);
+  color: var(--fg-muted);
+}

@@ -1,0 +1,45 @@
+---
+/**
+ * One result row — the shape every list on the site uses: the finder's member
+ * and bill results, the votes on a bill, and the votes of one member.
+ *
+ * Three columns, and every list fills them with its own content: a lead (a
+ * headshot, a bill id, a chamber), the title and its meta line, and a trailing
+ * region for status. There is one grid here and one set of hover, focus and
+ * selected states, rather than a hand-built row per list.
+ *
+ * The lead has no wrapper of its own: whatever is slotted in *is* the first
+ * grid column. That is one element saved on every row, which at 606 rows is
+ * worth having — so a lead must slot exactly one element.
+ *
+ * The title and meta share a single grid item on purpose: a `<mark>` that is
+ * its own item paints as a bar across the row.
+ */
+import './results.css';
+interface Props {
+  href?: string;
+  /** The row the page is currently showing. */
+  selected?: boolean;
+  /** The one exact match in a finder group. */
+  exact?: boolean;
+  /** Anything else — `data-*` a list needs to find its own rows again. */
+  [key: string]: unknown;
+}
+
+const { href, selected = false, exact = false, ...rest } = Astro.props;
+---
+
+<a
+  class="result-row"
+  href={href}
+  data-exact={exact ? 'true' : undefined}
+  aria-current={selected ? 'page' : undefined}
+  {...rest}
+>
+  <slot name="lead" />
+  <span class="row-main">
+    <span class="row-title"><slot name="title" /></span>
+    <span class="row-meta"><slot name="meta" /></span>
+  </span>
+  <span class="row-trailing"><slot name="trailing" /></span>
+</a>

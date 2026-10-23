@@ -1,0 +1,146 @@
+---
+/**
+ * The finder: a search bar over a results region.
+ *
+ * Everything that is the same for every reader is rendered here — the bar, the
+ * corpus counts, the narrow-by chips, the callout for an index that fails to
+ * load, and, in the default members mode, **the members themselves**. All 606
+ * rows ship in the HTML, so the list is there before any script runs and still
+ * there with scripting off.
+ *
+ * `vfu-finder.ts` adds what only the browser can: it narrows the list per
+ * keystroke, recounts the chips, and writes the URL.
+ *
+ * The member index rides along inline, so narrowing costs no network. Bills
+ * are the only thing still fetched, and only for a reader who searches them.
+ *
+ * Rows are links to prerendered pages. Selecting a result is a navigation.
+ */
+import './finder.css';
+import VfuSearchBar from './VfuSearchBar.astro';
+import ResultGroup from '../ResultGroup.astro';
+import ResultRow from '../ResultRow.astro';
+import {
+  allGroupLabel, footerLine, memberHref, memberMeta, statusChips, stateChips, type Mode,
+} from './finderView';
+import { readFinderIndex, type FinderIndex } from '../../utils/finderIndex';
+import { withBaseUrl } from '../../utils/withBaseUrl';
+
+interface Props {
+  /** Which side of the toggle starts selected. */
+  mode?: Mode;
+  /** Seed query. On a prerendered page the element reads the live URL instead. */
+  query?: string;
+  /** Write `?q=` and `?type=` as the reader searches. `/find` only. */
+  urlState?: boolean;
+  autofocus?: boolean;
+  /** An index in place of the built one — Storybook and tests. */
+  index?: FinderIndex;
+  /** Where `bills.json` lives. Overridden only to test the failure path. */
+  indexBase?: string;
+}
+
+const { mode = 'members', query = '', urlState = false, autofocus = false, index, indexBase } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+// Either half may be missing on disk, and neither depends on the other.
+const built = readFinderIndex();
+const members = index?.members ?? built.members;
+const bills = index?.bills ?? built.bills;
+// The opening view: every member, in the group the element would have built.
+const initial = mode === 'members' && !query ? members ?? [] : [];
+---
+
+<vfu-finder
+  initial-mode={mode}
+  initial-query={query}
+  index-base={indexBase ?? withBaseUrl('/finder/', base)}
+  base={base}
+  url-state={urlState ? '' : undefined}
+>
+  <VfuSearchBar
+    mode={mode}
+    query={query}
+    memberCount={members?.length}
+    billCount={bills?.length}
+    stateChips={members ? stateChips(members) : []}
+    statusChips={bills ? statusChips(bills) : []}
+    autofocus={autofocus}
+  />
+
+  {members && (
+    <script type="application/json" data-finder-index="members" set:html={JSON.stringify(members)} />
+  )}
+  {index && (
+    <script type="application/json" data-finder-index="bills" set:html={JSON.stringify(index.bills)} />
+  )}
+
+  <div class="finder-results" aria-live="polite">
+    {initial.length > 0 && (
+      <Fragment>
+        <ResultGroup label={allGroupLabel('members')} count={initial.length}>
+          {initial.map((row) => (
+            <ResultRow href={memberHref(row, base)}>
+              <Fragment slot="lead">
+                {row.i
+                  ? <img class="row-headshot" data-headshot src={`${base.replace(/\/$/, '')}/images/legislators/${row.b}.jpg`} alt="" loading="lazy" />
+                  : <span class="row-headshot" data-blank />}
+              </Fragment>
+              <Fragment slot="title">{row.n}</Fragment>
+              <Fragment slot="meta">{memberMeta(row)}</Fragment>
+              <Fragment slot="trailing">{`${row.v} ${row.v === 1 ? 'vote' : 'votes'}`}</Fragment>
+            </ResultRow>
+          ))}
+        </ResultGroup>
+        <p class="result-foot">{footerLine(initial.length, 'members')}</p>
+      </Fragment>
+    )}
+  </div>
+
+  <p class="result-foot" data-finder-note hidden></p>
+
+  <div class="finder-empty" data-finder-empty hidden>
+    <h3 data-empty-title></h3>
+    <p data-empty-body></p>
+    <div class="form-actions">
+      <button type="button" class="finder-action" data-empty-other></button>
+    </div>
+  </div>
+
+  <div class="finder-callout" data-finder-failed hidden>
+    <h3>Bill search is unavailable right now.</h3>
+    <p>The list of bills did not load. Every page it would have found is still reachable from the two hubs.</p>
+    <div class="form-actions">
+      <a href={withBaseUrl('/members', base)}>All members</a>
+      <a href={withBaseUrl('/bills/119', base)}>All bills</a>
+    </div>
+  </div>
+
+  <!-- The shapes the element clones per result — the same components the rows
+       above are built from, rendered empty. -->
+  <template data-template="group"><ResultGroup /></template>
+  {/*
+    Both headshot elements are here and the element drops one as it fills the
+    row — a member either has a portrait or does not. They are grid items now
+    that the lead has no wrapper, so the removal has to happen before the row
+    is attached, which is what `vfu-finder.ts` does.
+  */}
+  <template data-template="member-row">
+    <ResultRow>
+      <Fragment slot="lead">
+        <img class="row-headshot" data-headshot alt="" loading="lazy" />
+        <span class="row-headshot" data-blank />
+      </Fragment>
+    </ResultRow>
+  </template>
+  <template data-template="bill-row">
+    <ResultRow>
+      <Fragment slot="lead"><span class="row-id" /></Fragment>
+    </ResultRow>
+  </template>
+</vfu-finder>
+
+<script>
+  import './vfu-search-bar';
+  import './vfu-finder';
+</script>

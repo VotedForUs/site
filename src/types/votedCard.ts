@@ -38,6 +38,19 @@ export type VotedCardProps = {
   emoji: string;
   /** Human-readable action option (cast or procedural label). */
   actionLabel: string;
+  /** Bioguide id for Person identifier / sameAs. */
+  bioguideId?: string;
+  /** ISO date of the vote (`startTime`). */
+  voteDate?: string;
+  /** Bill page URL for Legislation.url. */
+  billUrl?: string;
+  /**
+   * schema.org `actionOption` — the position (Yea / Nay / …).
+   * Consent votes are Yea; the visible `actionLabel` may still name the kind.
+   */
+  schemaActionOption?: string;
+  /** schema.org `description` — vote kind on consent votes, otherwise the question. */
+  schemaDescription?: string;
 };
 
 /** Raw card fields before display strings are attached. */

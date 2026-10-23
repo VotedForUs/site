@@ -22,7 +22,7 @@ const { legislators } = Astro.props;
     if (!legislator) return null;
     return (
       <li>
-        <a href={`${import.meta.env.BASE_URL}legislators/${entry.id}`}>{legislator.nameTitle ?? 'N/A'} ({legislator.party ?? 'N/A'})</a>
+        <a href={`${import.meta.env.BASE_URL}members/${entry.id}`}>{legislator.nameTitle ?? 'N/A'} ({legislator.party ?? 'N/A'})</a>
       </li>
     );
   })}

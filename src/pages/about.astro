@@ -1,7 +1,100 @@
 ---
+/**
+ * Where the record comes from, what is included, and what the site does
+ * with votes that have no per-member roll.
+ */
 import Layout from '../layouts/Layout.astro';
+
+const base = import.meta.env.BASE_URL;
 ---
 
-<Layout title="About - VotedFor.Us">
-    🗳️4🧑‍🤝‍🧑 VotedFor.Us
+<Layout
+  title="About — VotedFor.Us"
+  description="Where votedfor.us gets its data, which votes appear, and how unanimous consent and voice votes are shown."
+>
+  <section class="section stack about">
+    <h1>About</h1>
+    <p class="lede">The votes, as the record has them.</p>
+
+    <p>
+      VotedFor.Us is an unofficial record of floor votes in the 119th Congress.
+      It is not a government site and has no official standing. The source is
+      <a href="https://www.congress.gov">Congress.gov</a>. This site displays
+      that record. It does not invent, filter, or rewrite who voted.
+    </p>
+
+    <h2>Which bills appear</h2>
+    <p>
+      A bill is on this site when it has at least one recorded vote. Bills that
+      have only been referred to committee, and bills with no floor vote we
+      count, are not listed. “Recorded” here means one of three chamber actions:
+    </p>
+    <ul>
+      <li>
+        <strong>Roll call.</strong> Yeas and nays were taken. The roll names
+        each member and the cast Congress published.
+      </li>
+      <li>
+        <strong>Unanimous consent.</strong> The chamber agreed without a roll
+        call. Congress publishes the outcome, not a per-member map.
+      </li>
+      <li>
+        <strong>Voice vote.</strong> The chamber acted by voice. Counted only
+        when the action does not say someone demanded the yeas and nays — that
+        demand is a later roll call, and that roll is the record.
+      </li>
+    </ul>
+
+    <h2>Consent is shown as Yea</h2>
+    <p>
+      Any member may demand a recorded vote. Not demanding one is consent to
+      the outcome. For unanimous consent and voice votes the site still names
+      who was serving in that chamber that day, and the card reads as a Yea.
+      The vote kind is always named beside that position. A bare “voted Yea”
+      without the kind would overstate the record.
+    </p>
+    <p>
+      The underlying data keeps those votes’ member maps empty and lists
+      membership separately. The Yea is a display inference, stated here, not
+      a cast Congress published.
+    </p>
+
+    <h2>Passed, rejected, and bill state</h2>
+    <ul>
+      <li><strong>Passed</strong> — the official result indicates agreement (passed, agreed to, confirmed, or passed by unanimous consent).</li>
+      <li><strong>Rejected</strong> — failed, rejected, or a voice vote where the noes prevailed.</li>
+      <li><strong>Became law</strong> — signed or became public law.</li>
+      <li><strong>Failed</strong> — failed of passage, vetoed, or a rejected motion that ends the path.</li>
+      <li><strong>In progress</strong> — anything else.</li>
+    </ul>
+
+    <h2>What changes</h2>
+    <p>
+      Data is regenerated from Congress.gov. Each update is listed on the
+      <a href={`${base}changelog`}>changelog</a>.
+    </p>
+
+    <nav class="form-actions">
+      <a href={base}>Find a member or a bill</a>
+      <a href={`${base}bills/119`}>All bills of the 119th</a>
+      <a href={`${base}members`}>All members</a>
+    </nav>
+  </section>
 </Layout>
+
+<style>
+  .about .lede {
+    margin: 0;
+    color: var(--fg-muted);
+    max-width: 42rem;
+  }
+
+  .about p,
+  .about li {
+    max-width: 42rem;
+  }
+
+  .about ul {
+    padding-inline-start: 1.2em;
+  }
+</style>

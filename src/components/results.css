@@ -1,0 +1,159 @@
+/**
+ * Result rows and their groups — the one list shape on the site, shared by the
+ * finder, a bill's recorded votes and a member's record.
+ *
+ * Loaded by `ResultRow.astro` and `ResultGroup.astro`, so any page that renders
+ * a row gets the styles with it, including the rows a custom element builds at
+ * runtime in light DOM.
+ */
+
+.result-group {
+  margin-block-end: var(--vs-m);
+}
+
+.group-label {
+  display: flex;
+  gap: var(--pad-xs);
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--fg-muted);
+  margin-block-end: var(--pad-xs);
+}
+
+/*
+ * Rows are skipped for layout and paint until they are near the viewport.
+ * A member's record is 545 rows and the finder opens on 606; laying all of
+ * them out costs ~150 ms every time the list is shown or a page carrying one
+ * is swapped in. With this it is ~7 ms, and a full list performs like a list
+ * of fifty. `auto` in the intrinsic size means the browser keeps each row's
+ * real height once it has seen it; the 92px is only the guess it starts from,
+ * measured off the rows themselves.
+ */
+.result-row {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 92px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--pad-s) var(--pad-m);
+  align-items: center;
+  padding: var(--pad-s);
+  border-block-end: 1px solid var(--border-1);
+  color: inherit;
+  text-decoration: none;
+}
+
+.result-row:hover,
+.result-row:focus-visible {
+  background: var(--bg-1);
+}
+
+.result-row .row-headshot {
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  object-fit: cover;
+  border-radius: 50%; /* one of the five circles the theme keeps */
+  background: var(--bg-2);
+}
+
+.result-row .row-id {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: var(--pad-xs) var(--pad-s);
+  border: 1px solid var(--fg-2);
+}
+
+.result-row[data-exact='true'] .row-id {
+  background: var(--fg);
+  border-color: var(--fg);
+  color: var(--bg);
+}
+
+/* The title and its meta share one grid item, so a <mark> inside the title
+   never becomes an item of its own and paints as a bar across the row. Being
+   one item, they need their own stack. */
+.row-main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--pad-xs);
+  min-width: 0;
+}
+
+.row-title {
+  font-weight: 600;
+}
+
+.row-meta {
+  color: var(--fg-muted);
+  font-size: 0.8125rem;
+}
+
+.row-trailing {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+  text-align: end;
+  white-space: nowrap;
+}
+
+.result-foot,
+.finder-action {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--fg-muted);
+}
+
+.finder-action {
+  background: none;
+  border: 1px solid var(--fg-2);
+  padding: var(--pad-xs) var(--pad-s);
+  cursor: pointer;
+  color: var(--fg-strong);
+}
+
+/* ── Vote rows ────────────────────────────────────────────────────────────
+   The chamber is a line of its own in the primary colour rather than another
+   clause in the muted meta: which chamber voted is the first thing a reader
+   needs, and it disappears inside the meta line. */
+.vote-chamber {
+  display: block;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.vote-roll {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--fg-muted);
+}
+
+/* A cast and the kind of vote it was travel together — see `VoteTable.astro`. */
+.cast-tag {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: var(--pad-xs) var(--pad-s);
+  border: 1px solid var(--fg-2);
+}
+
+.cast-tag[data-cast='yea'] { border-color: var(--primary); color: var(--primary); }
+.cast-tag[data-cast='nay'] { border-color: var(--fg-2); color: var(--fg-strong); }
+
+.kind-chip {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--fg-muted);
+  margin-block-start: var(--pad-xs);
+}
+
+.vote-result {
+  display: block;
+  font-weight: 600;
+}
+
+.result-row[aria-current='page'] {
+  background: var(--bg-1);
+  box-shadow: inset 3px 0 0 0 var(--primary);
+}

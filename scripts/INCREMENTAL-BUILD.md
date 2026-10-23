@@ -225,12 +225,26 @@ by older cached versions. Only pages absent from the new build are restored.
 
 **2. Save cache and manifest (`_cache:save`):**
 ```bash
+rm -rf dist-cache
 mkdir -p dist-cache
 cp -r dist/. dist-cache/
 cp .current-digests.json dist-cache/.astro-manifest.json
 ```
-`dist-cache/` is updated to the complete new site output. The manifest is
-promoted so the next run can diff against it.
+`dist-cache/` is **replaced** by the complete new site output. A merge-copy
+left deleted families (the old `/v/` pages) in the cache, and the next
+incremental `_cache:merge` would put them back. The manifest is promoted so
+the next run can diff against it.
+
+`_cache:merge` is a no-op when `FORCE_FULL_REBUILD=true`, so a full rebuild
+cannot copy leftover `/v/` pages back in. `_cache:save` hard-links on Linux
+(`cp -al`) so the replace does not need a second copy of the site on disk.
+
+`build:full` also runs `_check:no-legacy-v` so a leftover `dist/v` or
+`dist-cache/v` fails the build.
+
+GitHub Actions skips restoring `dist-cache/` on a dispatched full rebuild.
+The hosted runner has ~14 GB of disk; the previous cache plus a new 200k-page
+`dist/` will not both fit. That is what killed run 35426241038.
 
 ---
 
@@ -259,5 +273,29 @@ paths from `dist-cache/`.
 |--------|-------------|
 | `npm run build` | Full incremental build pipeline (check → build → merge → save) |
 | `npm run build:test` | Same pipeline with `BILLS_PER_TYPE_LIMIT=2 LEGISLATORS_LIMIT=20` |
-| `npm run build:full` | Force full rebuild (`FORCE_FULL_REBUILD=true`), replace cache |
-| `FORCE_FULL_REBUILD=true npm run build` | Equivalent to `build:full` |
+| `npm run build:full` | Force full rebuild (`FORCE_FULL_REBUILD=true`), skip merge, replace cache |
+| `FORCE_FULL_REBUILD=true npm run build` | Same emit as `build:full`; still runs incremental-check first |
+
+---
+
+## Page families as of 2026-09-19 (redesign Phase 4)
+
+`/v/[voteId]/[bioguideId]` is deleted. The legislator×vote family is now
+`/bills/[term]/[billType]/[billNumber]/[voteId]/[bioguideId]` — one prerendered
+page per display cast (`memberIdsForDisplay`, including UC/voice
+`membersAtAction`). Those pages are the share target (`og:image` + schema.org).
+
+Approximate static set on current data (finder index 2026-09-19):
+
+| Family | Count |
+|--------|------:|
+| Finder (`/`) | 1 |
+| `/members/[bioguideid]` | ~610 |
+| `/bills/…/[billNumber]` | 735 |
+| `/bills/…/[voteId]` | 1,191 |
+| `/bills/…/[voteId]/[bioguideId]` | one per display cast (~210k+; was ~347k with fabricated UC/vv) |
+
+Wall-clock for `build:full` plus one typical increment has **not** been
+re-measured since this family moved. Run both after the first complete card
+build and replace any stale figures above this section. Incremental skip still
+keys card pages as `legislator-votes-loader` + `{bioguideId}-{voteId}`.
