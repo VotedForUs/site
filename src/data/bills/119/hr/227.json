@@ -885,7 +885,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/227/summaries?format=json"
   },
   "title": "Clergy Act",
@@ -966,8 +966,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-21T20:53:19Z",
-  "updateDateIncludingText": "2026-10-21T20:53:19Z",
+  "updateDate": "2026-10-22T20:16:35Z",
+  "updateDateIncludingText": "2026-10-22T20:16:35Z",
   "id": "119-HR-227",
   "lastActionDate": "2026-10-20",
   "lastRecordedVoteDate": "2026-09-30"

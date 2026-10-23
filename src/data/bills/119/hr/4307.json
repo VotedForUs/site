@@ -816,7 +816,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/4307/summaries?format=json"
   },
   "title": "Enhancing Detection of Human Trafficking Act",
@@ -887,8 +887,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-21T20:56:40Z",
-  "updateDateIncludingText": "2026-10-21T20:56:40Z",
+  "updateDate": "2026-10-22T15:42:37Z",
+  "updateDateIncludingText": "2026-10-22T15:42:37Z",
   "id": "119-HR-4307",
   "lastActionDate": "2026-10-20",
   "lastRecordedVoteDate": "2026-09-30"
