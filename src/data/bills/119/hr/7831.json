@@ -927,7 +927,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/7831/summaries?format=json"
   },
   "title": "License to Drill Act",
@@ -1018,8 +1018,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-21T20:58:16Z",
-  "updateDateIncludingText": "2026-10-21T20:58:16Z",
+  "updateDate": "2026-10-22T12:36:26Z",
+  "updateDateIncludingText": "2026-10-22T12:36:26Z",
   "id": "119-HR-7831",
   "lastActionDate": "2026-10-20",
   "lastRecordedVoteDate": "2026-09-30"
