@@ -53,7 +53,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
         "type": "Committee"
       },
       {
@@ -756,7 +756,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To provide for the conveyance of certain Federal land in Chequamegon-Nicolet National Forest, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T00:08:24Z"
       },
@@ -799,8 +799,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-10-23T10:56:19Z",
+  "updateDateIncludingText": "2026-10-23T10:56:19Z",
   "id": "119-HR-3937",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2025-07-22T20:48:49Z"

@@ -53,7 +53,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
         "type": "Committee"
       },
       {
@@ -641,7 +641,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To require the Secretary of Agriculture to convey certain lands within the Apache-Sitgreaves National Forest, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T19:38:26Z"
       },
@@ -684,8 +684,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-10-23T10:56:20Z",
+  "updateDateIncludingText": "2026-10-23T10:56:20Z",
   "id": "119-HR-1829",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2025-05-13"

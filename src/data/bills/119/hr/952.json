@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/952/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-10-22",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-22",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-10-14",
@@ -207,7 +227,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
         "type": "Committee"
       },
       {
@@ -759,8 +779,8 @@
   "congress": 119,
   "introducedDate": "2025-02-04",
   "latestAction": {
-    "actionDate": "2026-10-14",
-    "text": "Presented to President."
+    "actionDate": "2026-10-22",
+    "text": "Signed by President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/952",
   "number": "952",
@@ -848,9 +868,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-15T16:07:27Z",
-  "updateDateIncludingText": "2026-10-15T16:07:27Z",
+  "updateDate": "2026-10-23T13:37:39Z",
+  "updateDateIncludingText": "2026-10-23T13:37:39Z",
   "id": "119-HR-952",
-  "lastActionDate": "2026-10-14",
+  "lastActionDate": "2026-10-22",
   "lastRecordedVoteDate": "2026-09-22"
 }
