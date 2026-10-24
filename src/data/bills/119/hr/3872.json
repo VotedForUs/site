@@ -53,7 +53,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
         "type": "Committee"
       },
       {
@@ -777,8 +777,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-30T20:18:25Z",
-  "updateDateIncludingText": "2026-09-30T20:18:25Z",
+  "updateDate": "2026-10-23T10:56:19Z",
+  "updateDateIncludingText": "2026-10-23T10:56:19Z",
   "id": "119-HR-3872",
   "lastActionDate": "2026-09-17",
   "lastRecordedVoteDate": "2025-12-15"

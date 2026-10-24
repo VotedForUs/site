@@ -53,7 +53,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held.",
+        "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
         "type": "Committee"
       },
       {
@@ -641,7 +641,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Accurately Counting Risk Elimination Solutions Act",
+        "title": "ACRES Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2026-07-25T04:38:22Z"
@@ -651,7 +651,7 @@
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "ACRES Act",
+        "title": "Accurately Counting Risk Elimination Solutions Act",
         "titleType": "Short Title(s) as Reported to Senate",
         "titleTypeCode": 103,
         "updateDate": "2026-07-25T04:38:22Z"
@@ -662,14 +662,14 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To require that the Secretary of Agriculture and the Secretary of the Interior submit accurate reports regarding hazardous fuels reduction activities, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T19:08:27Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "ACRES Act",
+        "title": "Accurately Counting Risk Elimination Solutions Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-04T09:08:17Z"
@@ -677,7 +677,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Accurately Counting Risk Elimination Solutions Act",
+        "title": "ACRES Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-02-04T09:08:17Z"
@@ -739,8 +739,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-10-23T10:56:21Z",
+  "updateDateIncludingText": "2026-10-23T10:56:21Z",
   "id": "119-HR-204",
   "lastActionDate": "2026-07-23",
   "lastRecordedVoteDate": "2025-01-21"
