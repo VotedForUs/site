@@ -735,7 +735,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/2403/summaries?format=json"
   },
   "title": "Retire through Ownership Act",
@@ -796,8 +796,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-20T13:49:20Z",
-  "updateDateIncludingText": "2026-10-20T13:49:20Z",
+  "updateDate": "2026-10-26T14:23:23Z",
+  "updateDateIncludingText": "2026-10-26T14:23:23Z",
   "id": "119-S-2403",
   "lastActionDate": "2026-10-15",
   "lastRecordedVoteDate": "2026-09-16T23:05:16Z"

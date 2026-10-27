@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 22,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/hr/952/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-10-22",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-135.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-22",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-135.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-10-22",
@@ -780,8 +800,14 @@
   "introducedDate": "2025-02-04",
   "latestAction": {
     "actionDate": "2026-10-22",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-135."
   },
+  "laws": [
+    {
+      "number": "119-135",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/952",
   "number": "952",
   "originChamber": "House",
@@ -868,8 +894,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-23T13:37:39Z",
-  "updateDateIncludingText": "2026-10-23T13:37:39Z",
+  "updateDate": "2026-10-26T20:22:43Z",
+  "updateDateIncludingText": "2026-10-26T20:22:43Z",
   "id": "119-HR-952",
   "lastActionDate": "2026-10-22",
   "lastRecordedVoteDate": "2026-09-22"
