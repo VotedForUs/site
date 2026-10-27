@@ -826,7 +826,7 @@
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/283/summaries?format=json"
   },
   "title": "Illegal Red Snapper and Tuna Enforcement Act",
@@ -895,8 +895,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-16T16:51:47Z",
-  "updateDateIncludingText": "2026-10-16T16:51:47Z",
+  "updateDate": "2026-10-26T14:44:10Z",
+  "updateDateIncludingText": "2026-10-26T14:44:10Z",
   "id": "119-S-283",
   "lastActionDate": "2026-10-15",
   "lastRecordedVoteDate": "2026-09-14"

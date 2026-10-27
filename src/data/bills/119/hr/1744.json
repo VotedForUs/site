@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 18,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/1744/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-10-26",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-10-26",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-10-14",
         "sourceSystem": {
@@ -745,8 +765,8 @@
   "congress": 119,
   "introducedDate": "2025-02-27",
   "latestAction": {
-    "actionDate": "2026-10-14",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-10-26",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1744",
   "number": "1744",
@@ -834,9 +854,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-16T18:56:16Z",
-  "updateDateIncludingText": "2026-10-16T18:56:16Z",
+  "updateDate": "2026-10-27T08:05:33Z",
+  "updateDateIncludingText": "2026-10-27T08:05:33Z",
   "id": "119-HR-1744",
-  "lastActionDate": "2026-10-14",
+  "lastActionDate": "2026-10-26",
   "lastRecordedVoteDate": "2026-09-29"
 }
