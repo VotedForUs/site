@@ -780,6 +780,12 @@
   "titles": {
     "titles": [
       {
+        "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-10-28T19:43:13Z"
+      },
+      {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
         "chamberCode": "J",
@@ -808,12 +814,6 @@
         "titleType": "Short Titles from RFS (Referred to Senate) bill text",
         "titleTypeCode": 255,
         "updateDate": "2026-06-13T05:53:28Z"
-      },
-      {
-        "title": "United States Commission on International Religious Freedom Reauthorization Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-06-10T05:38:26Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -854,8 +854,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-27T08:05:33Z",
-  "updateDateIncludingText": "2026-10-27T08:05:33Z",
+  "updateDate": "2026-10-28T19:43:13Z",
+  "updateDateIncludingText": "2026-10-28T19:43:13Z",
   "id": "119-HR-1744",
   "lastActionDate": "2026-10-26",
   "lastRecordedVoteDate": "2026-09-29"
