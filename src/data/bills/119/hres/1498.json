@@ -637,7 +637,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "In the matter of allegations relating to Representative Chuck Edwards.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-09-03T03:23:19Z"
       },
@@ -650,8 +650,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-09-08T18:01:48Z",
-  "updateDateIncludingText": "2026-09-08T18:01:48Z",
+  "updateDate": "2026-10-31T02:42:04Z",
+  "updateDateIncludingText": "2026-10-31T02:42:04Z",
   "id": "119-HRES-1498",
   "lastActionDate": "2026-09-01",
   "lastRecordedVoteDate": "2026-09-01T22:10:53Z"
