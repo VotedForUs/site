@@ -22,7 +22,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00080.xml",
             "votes": {
               "A000382": "Yea",
-              "A000383": "Nay",
               "B001230": "Yea",
               "B001299": "Nay",
               "B001261": "Nay",
@@ -231,7 +230,7 @@
   },
   "type": "SJRES",
   "updateDate": "2026-04-16T15:21:20Z",
-  "updateDateIncludingText": "2026-04-16T15:21:20Z",
+  "updateDateIncludingText": "2026-10-31T16:28:03Z",
   "id": "119-SJRES-32",
   "lastActionDate": "2026-04-15",
   "lastRecordedVoteDate": "2026-04-15T23:08:45Z"
