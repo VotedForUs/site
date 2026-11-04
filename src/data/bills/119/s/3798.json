@@ -225,6 +225,10 @@
   "number": "3798",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/3798/summaries?format=json"
+  },
   "title": "Safe Access to Cash Act of 2026",
   "titles": {
     "titles": [
@@ -273,8 +277,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-07T11:41:02Z",
-  "updateDateIncludingText": "2026-10-07T11:41:02Z",
+  "updateDate": "2026-11-03T21:29:10Z",
+  "updateDateIncludingText": "2026-11-03T21:29:10Z",
   "id": "119-S-3798",
   "lastActionDate": "2026-10-05",
   "lastRecordedVoteDate": "2026-09-30"

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "runId": "41839562831",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HR-2316",
+      "119-HR-3937",
+      "119-S-1071",
+      "119-S-2296",
+      "119-S-3798",
+      "119-S-911"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}
