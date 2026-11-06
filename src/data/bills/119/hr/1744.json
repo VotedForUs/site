@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 22,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/hr/1744/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-11-03",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-137.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-11-03",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-137.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-11-03",
@@ -786,8 +806,14 @@
   "introducedDate": "2025-02-27",
   "latestAction": {
     "actionDate": "2026-11-03",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-137."
   },
+  "laws": [
+    {
+      "number": "119-137",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1744",
   "number": "1744",
   "originChamber": "House",
@@ -874,8 +900,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-04T15:19:23Z",
-  "updateDateIncludingText": "2026-11-04T15:19:23Z",
+  "updateDate": "2026-11-05T13:49:05Z",
+  "updateDateIncludingText": "2026-11-05T13:49:05Z",
   "id": "119-HR-1744",
   "lastActionDate": "2026-11-03",
   "lastRecordedVoteDate": "2026-09-29"

@@ -874,7 +874,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T15:43:29Z"
       },
@@ -889,8 +889,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-08-11T17:44:38Z",
-  "updateDateIncludingText": "2026-08-11T17:44:38Z",
+  "updateDate": "2026-11-05T22:04:33Z",
+  "updateDateIncludingText": "2026-11-05T22:04:33Z",
   "id": "119-HJRES-35",
   "lastActionDate": "2025-03-14",
   "lastRecordedVoteDate": "2025-02-27T18:03:50Z"
