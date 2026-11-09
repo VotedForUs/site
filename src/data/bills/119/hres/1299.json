@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 12,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/hres/1299/actions?format=json",
     "actions": [
       {
