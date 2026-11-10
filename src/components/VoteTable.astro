@@ -18,7 +18,7 @@ import ResultRow from './ResultRow.astro';
 import { isVotePassed } from '@votedforus/votes';
 import { getEditorialVoteAction } from '../utils/editorial.js';
 import { castTag } from '../utils/legislatorVoteDisplay.js';
-import { votePath, voteMemberPath } from '../utils/voteLinks.js';
+import { votePath, voteCardPath } from '../utils/voteLinks.js';
 import { formatVoteForAgainst } from '../utils/formatVoteForAgainst';
 
 /** One recorded vote, as the `recordedVotes` collection stores it. */
@@ -60,7 +60,7 @@ const rows = votes.map((vote) => {
   return {
     vote,
     href: variant === 'member' && bioguideId
-      ? voteMemberPath(vote.id, bioguideId, base)
+      ? voteCardPath(vote.id, bioguideId, base)
       : votePath(vote.id, base) ?? undefined,
     question: getEditorialVoteAction(vote.id) ?? vote.question,
     date: (vote.actionDate ?? vote.date ?? '').slice(0, 10),

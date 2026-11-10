@@ -16,9 +16,10 @@
  * The selected bill row is *moved* out of the list rather than re-rendered, so
  * the bill's markup has exactly one definition and it is the server's.
  *
- * The URL is pushed on every selection, so a chosen bill is still a link. A
- * cold load of one of those links is served this same page by a rewrite, and
- * the `selected` attribute or the path tells the element what to open.
+ * The URL is pushed on every selection, so a chosen bill is still a link:
+ * `?bill=119-hr-2616`, and `&vote=184` with the card open. Both are this same
+ * document with a query string, so a cold load works on any static host, and
+ * the `selected` attribute or the query tells the element what to open.
  */
 import { applyMemberVoteCard, memberVoteCardFields } from '../utils/memberVoteCard.js';
 import { castTag } from '../utils/legislatorVoteDisplay.js';
@@ -89,8 +90,8 @@ export class VfuMemberRecord extends HTMLElement {
     window.addEventListener('popstate', this.#onPopState);
 
     // A shared link, or a story: open it without a click.
-    const votePath = parseMemberVotePath(window.location.pathname);
-    const billPath = parseMemberBillPath(window.location.pathname);
+    const votePath = parseMemberVotePath(currentHref());
+    const billPath = parseMemberBillPath(currentHref());
     const initial = this.getAttribute('selected') ?? votePath?.segment ?? billPath?.segment;
     const voteNumber = this.getAttribute('selected-vote') ?? votePath?.voteNumber;
     if (initial) void this.#open(initial, { push: false, openVoteNumber: voteNumber });
@@ -140,12 +141,12 @@ export class VfuMemberRecord extends HTMLElement {
   };
 
   #onPopState = () => {
-    const votePath = parseMemberVotePath(window.location.pathname);
+    const votePath = parseMemberVotePath(currentHref());
     if (votePath) {
       void this.#open(votePath.segment, { push: false, openVoteNumber: votePath.voteNumber });
       return;
     }
-    const segment = parseMemberBillPath(window.location.pathname)?.segment;
+    const segment = parseMemberBillPath(currentHref())?.segment;
     if (segment) void this.#open(segment, { push: false });
     else this.#close({ push: false });
   };
@@ -256,6 +257,7 @@ export class VfuMemberRecord extends HTMLElement {
       prevVoteId: this.#billVotes[index - 1]?.vote.i ?? null,
       nextVoteId: this.#billVotes[index + 1]?.vote.i ?? null,
       shareOrigin: this.shareOrigin,
+      shareStubs: this.hasAttribute('share-stubs'),
       base: this.base,
     });
     applyMemberVoteCard(this.#card, fields);
@@ -335,7 +337,7 @@ export class VfuMemberRecord extends HTMLElement {
   }
 
   #pushUrl(href: string) {
-    if (href && href !== window.location.pathname) window.history.pushState(null, '', href);
+    if (href && href !== currentHref()) window.history.pushState(null, '', href);
   }
 
   /** Moving the reader down the page is the navigation they asked for. */
@@ -343,6 +345,11 @@ export class VfuMemberRecord extends HTMLElement {
     const heading = this.#selection.querySelector<HTMLElement>('.group-label');
     heading?.scrollIntoView({ block: 'nearest', behavior: 'auto' });
   }
+}
+
+/** Where the reader is, as the link helpers read it: path and query. */
+function currentHref(): string {
+  return window.location.pathname + window.location.search;
 }
 
 /** The trailing number of a vote id, for ordering a single day's votes. */

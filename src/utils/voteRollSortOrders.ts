@@ -9,6 +9,10 @@ export interface VoteRollRow {
   lastName: string;
   party: string;
   vote: string;
+  /** Name with title and seat, as the card face needs it: "Sen. Bernard Sanders (VT)". */
+  nameTitle?: string;
+  /** Public path of the portrait we hold for this member; absent when there is none. */
+  imageUrl?: string | null;
 }
 
 /**

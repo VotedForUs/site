@@ -12,6 +12,7 @@ import { memberCastsForDisplay, isConsentMembershipVote } from '../../../../../.
 import { toVoteRollRow } from '../../../../../../utils/voteRollRows.js';
 import { proceduralVoteKindFromRecordType } from '../../../../../../utils/voteCastKind.js';
 import { actionOptionLabel } from '../../../../../../utils/legislatorVoteDisplay.js';
+import { localHeadshot } from '../../../../../../utils/headshot.js';
 
 export async function getStaticPaths() {
   const limitedBillIds = await getLimitedBillIds();
@@ -56,7 +57,10 @@ const kindLabel = proc ? actionOptionLabel('Yea', proc) : null;
 const rows = [];
 for (const [bioguideId, voteCast] of Object.entries(votesMap)) {
   const legEntry = await getEntry('legislators', bioguideId);
-  rows.push(toVoteRollRow(bioguideId, voteCast, legEntry?.data as LegislatorSmall | undefined, chamber));
+  rows.push({
+    ...toVoteRollRow(bioguideId, voteCast, legEntry?.data as LegislatorSmall | undefined, chamber),
+    imageUrl: localHeadshot(bioguideId),
+  });
 }
 
 const voteTitle = question ?? `Vote ${voteId}`;
@@ -83,5 +87,9 @@ const rollLine = [
     voteId={fullVoteId}
     consent={consent}
     kindLabel={kindLabel}
+    voteTitle={voteTitle}
+    billTitle={billTitle}
+    chamber={chamber === 'senate' ? 'sen' : 'rep'}
+    recordType={vote.recordType}
   />
 </Layout>

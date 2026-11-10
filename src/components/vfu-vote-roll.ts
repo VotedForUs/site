@@ -1,11 +1,19 @@
 /**
- * `<vfu-vote-roll>` — sort and find-a-member on the prerendered table.
+ * `<vfu-vote-roll>` — sort, find-a-member, and the card, on the prerendered table.
  *
  * The server emits state-grouped rows. This element reorders them and hides
  * group headers for the other sorts. Filtering never removes a row from the
  * document: it only sets `hidden`.
+ *
+ * It also opens one member's card over the roll. A member's cast on a vote is
+ * not a page — there are about 350,000 of them — so a name fills the single
+ * dialog from its own row and the URL becomes `?member={bioguide}`. That URL
+ * is this same document, so it reloads and shares on any static host.
  */
 import { rowMatchesQuery } from '../utils/voteRollView.js';
+import { applyVoteCard, rollVoteCardFields } from '../utils/memberVoteCard.js';
+import { stateNameFromCode } from '../utils/stateNames.js';
+import { parseVoteCardMember, voteCardPath } from '../utils/voteLinks.js';
 
 type SortKey = 'state' | 'name' | 'party' | 'cast';
 
@@ -19,21 +27,141 @@ const ORDER_ATTR: Record<SortKey, string> = {
 export class VfuVoteRoll extends HTMLElement {
   #table!: HTMLTableElement;
   #filter!: HTMLInputElement | null;
+  #card: HTMLElement | null = null;
+  /** True while this element closes the dialog itself, so close is not a dismissal. */
+  #silentCardClose = false;
 
-  /** Wire sort buttons and the find field. */
+  get voteId(): string { return this.getAttribute('vote-id') ?? ''; }
+  get base(): string { return this.getAttribute('base') || '/'; }
+
+  /** Wire sort buttons, the find field and the card, then open what the URL names. */
   connectedCallback() {
     const table = this.querySelector('table');
     if (!table) return;
     this.#table = table;
     this.#filter = this.querySelector('[data-filter]');
+    this.#card = this.querySelector('vfu-vote-card');
     this.#table.addEventListener('click', this.#onSortClick);
+    this.#table.addEventListener('click', this.#onNameClick);
     this.#filter?.addEventListener('input', this.#onFilter);
+    this.#card?.addEventListener('vfu-vote-close', this.#onCardClose);
+    this.#card?.addEventListener('vfu-vote-step', this.#onCardStep);
+    window.addEventListener('popstate', this.#onPopState);
+
+    // A shared link, or a story: open it without a click.
+    const initial = this.getAttribute('selected') ?? parseVoteCardMember(window.location.search);
+    if (initial) this.#showCard(initial, { push: false, reveal: true });
   }
 
   /** Drop listeners when the roll leaves the document. */
   disconnectedCallback() {
     this.#table?.removeEventListener('click', this.#onSortClick);
+    this.#table?.removeEventListener('click', this.#onNameClick);
     this.#filter?.removeEventListener('input', this.#onFilter);
+    this.#card?.removeEventListener('vfu-vote-close', this.#onCardClose);
+    this.#card?.removeEventListener('vfu-vote-step', this.#onCardStep);
+    window.removeEventListener('popstate', this.#onPopState);
+  }
+
+  #onNameClick = (event: MouseEvent) => {
+    // Let the reader open it in a new tab, or use the keyboard modifiers.
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('a.vote-roll-name[data-bioguide]');
+    if (!link || !this.#card) return;
+    event.preventDefault();
+    this.#showCard(link.dataset.bioguide as string, { push: true });
+  };
+
+  /** The reader dismissed the card: the URL goes back to the roll. */
+  #onCardClose = () => {
+    this.#markCurrent(null);
+    if (this.#silentCardClose) return;
+    this.#pushUrl(window.location.pathname);
+  };
+
+  #onCardStep = (event: Event) => {
+    const href = (event as CustomEvent<{ href?: string }>).detail?.href;
+    const member = href ? parseVoteCardMember(href) : null;
+    if (member) this.#showCard(member, { push: true });
+  };
+
+  #onPopState = () => {
+    const member = parseVoteCardMember(window.location.search);
+    if (member) this.#showCard(member, { push: false });
+    else this.#hideCard();
+  };
+
+  /**
+   * Fill the dialog from one member's row and open it.
+   *
+   * Prev and next are the rows either side in the order the reader is looking
+   * at, skipping any the find field has hidden.
+   *
+   * @param bioguideId - Member whose cast to show
+   * @param options.push - Whether to push the `?member=` URL
+   * @param options.reveal - Scroll the row into view (a cold load of a shared link)
+   */
+  #showCard(bioguideId: string, { push, reveal = false }: { push: boolean; reveal?: boolean }) {
+    if (!this.#card) return;
+    const row = this.#table.querySelector<HTMLTableRowElement>(`[data-row][data-bioguide="${cssEscape(bioguideId)}"]`);
+    if (!row) return; // not a member of this roll
+
+    const visible = [...this.#table.querySelectorAll<HTMLTableRowElement>('[data-row]')]
+      .filter((r) => !r.hidden || r === row);
+    const index = visible.indexOf(row);
+    const chamber = this.getAttribute('chamber') === 'sen' ? 'sen' : 'rep';
+    const [state = '', seat = ''] = (row.dataset.stateDistrict ?? '').split('-');
+    const district = chamber === 'rep' && /^\d+$/.test(seat) ? Number(seat) : undefined;
+
+    applyVoteCard(this.#card, rollVoteCardFields({
+      voteId: this.voteId,
+      bioguideId,
+      voteCast: row.dataset.vote ?? '',
+      recordType: this.getAttribute('record-type') ?? undefined,
+      voteTitle: this.getAttribute('vote-title') ?? '',
+      billTitle: this.getAttribute('bill-title') ?? '',
+      nameTitle: row.dataset.nameTitle ?? row.dataset.name ?? '',
+      party: row.dataset.party ?? '',
+      stateName: stateNameFromCode(state),
+      chamber,
+      state,
+      district,
+      imageUrl: row.dataset.image ?? null,
+      prevBioguideId: visible[index - 1]?.dataset.bioguide ?? null,
+      nextBioguideId: visible[index + 1]?.dataset.bioguide ?? null,
+      shareOrigin: this.getAttribute('share-origin') ?? window.location.origin,
+      shareStubs: this.hasAttribute('share-stubs'),
+      base: this.base,
+    }));
+
+    this.#markCurrent(row);
+    if (reveal) row.scrollIntoView({ block: 'center', behavior: 'auto' });
+    const dialog = this.#card.querySelector('dialog');
+    if (dialog && !dialog.open) dialog.showModal();
+    if (push) this.#pushUrl(voteCardPath(this.voteId, bioguideId, this.base));
+  }
+
+  /** Close the dialog without treating it as the reader dismissing it. */
+  #hideCard() {
+    const dialog = this.#card?.querySelector('dialog');
+    if (!dialog?.open) return;
+    this.#silentCardClose = true;
+    dialog.close();
+    this.#silentCardClose = false;
+  }
+
+  /** Mark the row the card is open on, and only that row. */
+  #markCurrent(row: HTMLTableRowElement | null) {
+    for (const current of this.#table.querySelectorAll('[data-row][aria-current]')) {
+      if (current !== row) current.removeAttribute('aria-current');
+    }
+    row?.setAttribute('aria-current', 'true');
+  }
+
+  #pushUrl(href: string) {
+    if (href && href !== window.location.pathname + window.location.search) {
+      window.history.pushState(null, '', href);
+    }
   }
 
   #onSortClick = (event: MouseEvent) => {

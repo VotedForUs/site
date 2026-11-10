@@ -1,6 +1,10 @@
 ---
 /**
- * The full roll for one recorded vote. Bill path only.
+ * The full roll for one recorded vote, and the card that opens over it.
+ *
+ * One member's cast on this vote is not a page of its own — there are about
+ * 350,000 of those. A name opens the card in place: `vfu-vote-roll` fills the
+ * one dialog below from the row and puts `?member=` in the URL.
  *
  * Default view is state-grouped, with the reader's delegation first when
  * `homeState` is set. Sort and find-a-member are added by `vfu-vote-roll`.
@@ -8,9 +12,14 @@
  */
 import type { VoteRollRow } from '../utils/voteRollSortOrders';
 import { addVoteRollSortOrders } from '../utils/voteRollSortOrders';
-import { voteMemberPath } from '../utils/voteLinks.js';
+import { voteCardPath, votePath } from '../utils/voteLinks.js';
+import { buildLegislatorVoteDisplay } from '../utils/legislatorVoteDisplay.js';
+import { stateNameFromCode } from '../utils/stateNames.js';
+import { SHARE_STUBS_ALL } from '../shareConfig.js';
+import { seoConfig } from '../../utils/seoConfig';
 import { buildStateGroups, liftHomeState } from '../utils/voteRollView.js';
 import LegislatorVoteRow from './VoteRollRow.astro';
+import VfuVoteCard from './VfuVoteCard.astro';
 import './vote-roll.css';
 
 interface Props {
@@ -28,8 +37,16 @@ interface Props {
   consent?: boolean;
   /** Visible vote kind for a consent roll (Unanimous Consent / Voice Vote). */
   kindLabel?: string | null;
-  /** Bioguide of the row the card is open on. */
+  /** Bioguide of the row the card is open on — stories; pages read the URL. */
   selectedBioguideId?: string;
+  /** The question voted on, as the card names it. */
+  voteTitle?: string;
+  /** The bill's display title, as the card names it. */
+  billTitle?: string;
+  /** Which chamber's members these are. */
+  chamber?: 'sen' | 'rep';
+  /** Package `recordType`; makes a consent vote's card name its kind. */
+  recordType?: string;
 }
 
 const {
@@ -41,14 +58,43 @@ const {
   consent = false,
   kindLabel = null,
   selectedBioguideId,
+  voteTitle = '',
+  billTitle = '',
+  chamber = 'rep',
+  recordType,
 } = Astro.props;
 
 const withOrders = addVoteRollSortOrders(rows);
 const groups = liftHomeState(buildStateGroups(withOrders), homeState);
 const base = import.meta.env.BASE_URL;
+
+// The dialog is rendered once with a member in it so every slot exists; the
+// element overwrites all of it before the dialog is ever shown.
+const first = withOrders[0];
+const firstState = first?.stateDistrict.replace(/-.*$/, '') ?? '';
+const shell = buildLegislatorVoteDisplay({
+  voteCast: first?.vote ?? 'Yea',
+  nameTitle: first?.nameTitle ?? first?.name ?? '',
+  party: first?.party ?? '',
+  stateName: stateNameFromCode(firstState),
+  chamber,
+  state: firstState,
+  recordType,
+});
 ---
 
-<vfu-vote-roll data-sort-group={sortGroupName}>
+<vfu-vote-roll
+  data-sort-group={sortGroupName}
+  vote-id={voteId}
+  vote-title={voteTitle}
+  bill-title={billTitle}
+  chamber={chamber}
+  record-type={recordType}
+  base={base}
+  share-origin={seoConfig.baseURL}
+  share-stubs={SHARE_STUBS_ALL ? '' : undefined}
+  selected={selectedBioguideId}
+>
   {kindLabel && (
     <p class="vote-roll-kind">{kindLabel} · {rows.length} members · Yea by consent</p>
   )}
@@ -88,7 +134,7 @@ const base = import.meta.env.BASE_URL;
           {groupRows.map((r) => (
             <LegislatorVoteRow
               row={r}
-              memberHref={voteMemberPath(voteId, r.bioguideId, base)}
+              memberHref={voteCardPath(voteId, r.bioguideId, base)}
               selected={r.bioguideId === selectedBioguideId}
             />
           ))}
@@ -96,6 +142,34 @@ const base = import.meta.env.BASE_URL;
       ))}
     </tbody>
   </table>
+
+  {first && (
+    <VfuVoteCard
+      voteId={voteId}
+      bioguideId={first.bioguideId}
+      closeHref={votePath(voteId, base) ?? ''}
+      shareUrl=""
+      card={{
+        nameTitle: first.nameTitle ?? first.name,
+        party: first.party,
+        stateName: stateNameFromCode(firstState),
+        chamber,
+        state: firstState,
+        imageUrl: first.imageUrl ?? '',
+        voteCast: first.vote,
+        voteTitle,
+        legislationIdentifier: '',
+        legislationType: '',
+        billTitle,
+        displayName: shell.displayName,
+        memberSubtitle: shell.memberSubtitle,
+        voteVerb: shell.voteVerb,
+        emoji: shell.emoji,
+        actionLabel: shell.actionLabel,
+        bioguideId: first.bioguideId,
+      }}
+    />
+  )}
 </vfu-vote-roll>
 
 <script>

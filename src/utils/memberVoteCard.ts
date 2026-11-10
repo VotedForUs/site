@@ -1,19 +1,24 @@
 /**
- * Fields for the in-place vote dialog on a member record.
+ * Fields for the in-place vote dialog, and the function that writes them.
  *
- * The share URL is always the canonical `/bills/…/{bio}` path (og:image).
- * Prev/next and close stay on the member client route.
+ * The dialog opens in two places: over a member's record (their votes on one
+ * bill) and over a vote's roll (every member's cast on it). The card face is
+ * the same; what differs is where prev, next and close lead, and whether the
+ * member's identity has to be written too — on a member's page it is already
+ * in the markup, on a roll it changes with every row.
  */
 import { buildLegislatorVoteDisplay } from './legislatorVoteDisplay.js';
 import {
   memberBillPath,
   memberVotePath,
   parseVoteId,
-  voteMemberPath,
+  voteCardPath,
+  votePath,
+  voteShareUrl,
 } from './voteLinks.js';
 
-/** Inputs needed to fill one member-context card. */
-export type MemberVoteCardInput = {
+/** What both contexts need to describe one cast. */
+type CastInput = {
   voteId: string;
   bioguideId: string;
   voteCast: string;
@@ -26,14 +31,38 @@ export type MemberVoteCardInput = {
   chamber: 'sen' | 'rep';
   state: string;
   district?: number;
+  shareOrigin: string;
+  /** True when a share stub exists for every cast — see `src/shareConfig.ts`. */
+  shareStubs?: boolean;
+  base?: string;
+};
+
+/** Inputs needed to fill one member-context card. */
+export type MemberVoteCardInput = CastInput & {
   prevVoteId?: string | null;
   nextVoteId?: string | null;
-  shareOrigin: string;
-  base?: string;
+};
+
+/** Inputs needed to fill one roll-context card. */
+export type RollVoteCardInput = CastInput & {
+  prevBioguideId?: string | null;
+  nextBioguideId?: string | null;
+  /** Public path of the member's portrait, or null when none is held. */
+  imageUrl: string | null;
+};
+
+/** The member on the card face. Written only where it changes per card. */
+export type VoteCardIdentity = {
+  bioguideId: string;
+  displayName: string;
+  memberSubtitle: string;
+  party: string;
+  imageUrl: string | null;
 };
 
 /** Values written into the dialog shell and {@link VotedCard} slots. */
 export type MemberVoteCardFields = {
+  voteId: string;
   voteVerb: string;
   emoji: string;
   actionLabel: string;
@@ -45,15 +74,11 @@ export type MemberVoteCardFields = {
   prevHref: string | null;
   nextHref: string | null;
   closeHref: string;
+  identity?: VoteCardIdentity;
 };
 
-/**
- * Derive dialog and card fields for one member×vote.
- *
- * @param input - Vote, member identity, and adjacent vote ids
- * @returns Strings and hrefs for {@link applyMemberVoteCard}
- */
-export function memberVoteCardFields(input: MemberVoteCardInput): MemberVoteCardFields {
+/** The parts of the card that do not depend on where it is open. */
+function castFields(input: CastInput) {
   const display = buildLegislatorVoteDisplay({
     voteCast: input.voteCast,
     nameTitle: input.nameTitle,
@@ -64,18 +89,36 @@ export function memberVoteCardFields(input: MemberVoteCardInput): MemberVoteCard
     district: input.district,
     recordType: input.recordType,
   });
-  const origin = input.shareOrigin.replace(/\/$/, '');
+  return {
+    display,
+    fields: {
+      voteId: input.voteId,
+      voteVerb: display.voteVerb,
+      emoji: display.emoji,
+      actionLabel: display.actionLabel,
+      voteTitle: input.voteTitle,
+      billTitle: input.billTitle,
+      schemaActionOption: display.proc ? 'Yea' : display.actionLabel,
+      schemaDescription: display.proc ? display.actionLabel : input.voteTitle,
+      shareUrl: voteShareUrl(input.voteId, input.bioguideId, {
+        origin: input.shareOrigin,
+        stubs: input.shareStubs ?? false,
+      }),
+    },
+  };
+}
+
+/**
+ * Derive dialog and card fields for one member×vote, opened on the member's page.
+ *
+ * @param input - Vote, member identity, and adjacent vote ids
+ * @returns Strings and hrefs for {@link applyVoteCard}
+ */
+export function memberVoteCardFields(input: MemberVoteCardInput): MemberVoteCardFields {
   const base = input.base ?? '/';
   const ref = parseVoteId(input.voteId);
   return {
-    voteVerb: display.voteVerb,
-    emoji: display.emoji,
-    actionLabel: display.actionLabel,
-    voteTitle: input.voteTitle,
-    billTitle: input.billTitle,
-    schemaActionOption: display.proc ? 'Yea' : display.actionLabel,
-    schemaDescription: display.proc ? display.actionLabel : input.voteTitle,
-    shareUrl: `${origin}${voteMemberPath(input.voteId, input.bioguideId)}`,
+    ...castFields(input).fields,
     prevHref: input.prevVoteId ? memberVotePath(input.prevVoteId, input.bioguideId, base) : null,
     nextHref: input.nextVoteId ? memberVotePath(input.nextVoteId, input.bioguideId, base) : null,
     closeHref: ref
@@ -85,12 +128,37 @@ export function memberVoteCardFields(input: MemberVoteCardInput): MemberVoteCard
 }
 
 /**
+ * Derive dialog and card fields for one member×vote, opened on the vote's roll.
+ * Prev and next step through the roll's members; close returns to the roll.
+ *
+ * @param input - Vote, member identity, and adjacent member ids
+ * @returns Strings, hrefs and the member identity for {@link applyVoteCard}
+ */
+export function rollVoteCardFields(input: RollVoteCardInput): MemberVoteCardFields {
+  const base = input.base ?? '/';
+  const { display, fields } = castFields(input);
+  return {
+    ...fields,
+    prevHref: input.prevBioguideId ? voteCardPath(input.voteId, input.prevBioguideId, base) : null,
+    nextHref: input.nextBioguideId ? voteCardPath(input.voteId, input.nextBioguideId, base) : null,
+    closeHref: votePath(input.voteId, base) ?? '',
+    identity: {
+      bioguideId: input.bioguideId,
+      displayName: display.displayName,
+      memberSubtitle: display.memberSubtitle,
+      party: input.party,
+      imageUrl: input.imageUrl,
+    },
+  };
+}
+
+/**
  * Write {@link MemberVoteCardFields} into a dialog that already has the card markup.
  *
  * @param root - `vfu-vote-card` or an ancestor that contains it
- * @param fields - Output of {@link memberVoteCardFields}
+ * @param fields - Output of {@link memberVoteCardFields} or {@link rollVoteCardFields}
  */
-export function applyMemberVoteCard(root: ParentNode, fields: MemberVoteCardFields): void {
+export function applyVoteCard(root: ParentNode, fields: MemberVoteCardFields): void {
   setText(root, '[data-field="vote-verb"]', fields.voteVerb);
   setText(root, '[data-field="action-label"]', fields.actionLabel);
   setText(root, '[data-field="vote-title"]', fields.voteTitle);
@@ -106,6 +174,7 @@ export function applyMemberVoteCard(root: ParentNode, fields: MemberVoteCardFiel
   }
   setMeta(root, '[data-field="action-option"]', fields.schemaActionOption);
   setMeta(root, '[data-field="description"]', fields.schemaDescription);
+  if (fields.identity) applyIdentity(root, fields.identity);
 
   const share = root.querySelector<HTMLInputElement>('[data-share]');
   if (share) share.value = fields.shareUrl;
@@ -115,21 +184,44 @@ export function applyMemberVoteCard(root: ParentNode, fields: MemberVoteCardFiel
     : root.querySelector('vfu-vote-card');
   host?.setAttribute('share-url', fields.shareUrl);
   host?.setAttribute('close-href', fields.closeHref);
-  host?.setAttribute('vote-id', parseVoteIdFromShare(fields.shareUrl));
+  host?.setAttribute('vote-id', fields.voteId);
+  if (fields.identity) host?.setAttribute('bioguide-id', fields.identity.bioguideId);
 
   setNavHref(root, '[data-prev]', fields.prevHref);
   setNavHref(root, '[data-next]', fields.nextHref);
 }
 
+/** The name the member page has always imported this under. */
+export const applyMemberVoteCard = applyVoteCard;
+
 /**
- * Pull the vote id out of a canonical share URL's last two segments.
+ * Write the member onto the card face: name, subtitle, portrait and the
+ * schema.org Person fields that name them.
  *
- * @param shareUrl - `https://votedfor.us/bills/119/hr/2616/184/R000579`
- * @returns Recorded vote id, or empty
+ * @param root - Search root
+ * @param identity - The member this card is about
  */
-function parseVoteIdFromShare(shareUrl: string): string {
-  const match = /\/bills\/(\d+)\/([a-z]+)\/(\d+)\/(\d+)\//i.exec(shareUrl);
-  return match ? `${match[1]}-${match[2].toUpperCase()}-${match[3]}-${match[4]}` : '';
+function applyIdentity(root: ParentNode, identity: VoteCardIdentity): void {
+  setText(root, '[data-field="display-name"]', identity.displayName);
+  setText(root, '[data-field="subtitle"]', identity.memberSubtitle);
+  setText(root, '[data-field="party"]', identity.party);
+  setMeta(root, '[data-field="identifier"]', identity.bioguideId);
+  setMeta(root, '[data-field="job-title"]', identity.memberSubtitle);
+  root.querySelector('[data-field="same-as"]')
+    ?.setAttribute('href', `https://bioguide.congress.gov/search/bio/${identity.bioguideId}`);
+
+  const image = root.querySelector<HTMLImageElement>('[data-field="image"]');
+  const blank = root.querySelector<HTMLElement>('[data-field="image-fallback"]');
+  if (image) {
+    if (identity.imageUrl) {
+      // Clear first: the previous member's portrait must not show while this one loads.
+      image.removeAttribute('src');
+      image.src = identity.imageUrl;
+      image.alt = `Photo of ${identity.displayName}`;
+    }
+    image.hidden = !identity.imageUrl;
+  }
+  if (blank) blank.hidden = Boolean(identity.imageUrl);
 }
 
 /**

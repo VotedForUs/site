@@ -1,28 +1,29 @@
 /**
- * `<vfu-vote-card>` — URL state and share-copy for the native vote dialog.
+ * `<vfu-vote-card>` — the native vote dialog, and its share-copy.
  *
- * Open and close are native (`showModal` / `command="close"`). This element
- * keeps the address bar in sync and copies the share URL.
+ * Open and close are native (`showModal` / `command="close"`). The element
+ * that opened it — `vfu-member-record` or `vfu-vote-roll` — fills the card and
+ * owns the address bar; this one reports close and prev/next as events.
  */
 export class VfuVoteCard extends HTMLElement {
   #dialog: HTMLDialogElement | null = null;
 
   /**
-   * @returns Canonical share URL for this member×vote
+   * @returns Share URL for this member×vote
    */
   get shareUrl(): string {
     return this.getAttribute('share-url') ?? '';
   }
 
   /**
-   * @returns Page to show when the dialog closes (the roll, or the member bill)
+   * @returns URL the opener returns to when the dialog closes
    */
   get closeHref(): string {
     return this.getAttribute('close-href') ?? '';
   }
 
   /**
-   * Bind native dialog close, share-copy, and member-context stepping.
+   * Bind native dialog close, share-copy, and stepping.
    */
   connectedCallback() {
     const dialog = this.querySelector('dialog');
@@ -43,27 +44,20 @@ export class VfuVoteCard extends HTMLElement {
   }
 
   /**
-   * Bill context: return to the roll. Member context: the parent owns the URL.
+   * The dialog closed. Whoever opened it owns the URL — the member record or
+   * the roll — so this only says so.
    */
   #onClose = () => {
-    if (this.getAttribute('context') === 'member') {
-      this.dispatchEvent(new CustomEvent('vfu-vote-close', { bubbles: true }));
-      return;
-    }
-    const href = this.closeHref;
-    if (href && href !== window.location.pathname) {
-      window.history.pushState(null, '', href);
-    }
+    this.dispatchEvent(new CustomEvent('vfu-vote-close', { bubbles: true }));
   };
 
   /**
-   * On the member path, prev/next stay on this document.
+   * Prev and next stay on this document: the parent refills the card.
    *
    * @param event - Click inside the dialog
    */
   #onStep = (event: MouseEvent) => {
-    if (this.getAttribute('context') !== 'member') return;
-    if (event.button !== 0 || event.metaKey || event.ctrlKey) return;
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const link = (event.target as Element | null)?.closest?.('[data-prev], [data-next]');
     if (!(link instanceof HTMLAnchorElement) || !link.getAttribute('href')) return;
     event.preventDefault();

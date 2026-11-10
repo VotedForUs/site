@@ -2,8 +2,9 @@
 /**
  * One legislator on a recorded vote, as a table row.
  *
- * The name is the link to the canonical member×vote URL. Opening the card is
- * the row invoker's job (`command="show-modal"`), added by the roll.
+ * The name links to this roll with the member named in the query, which is
+ * the URL `vfu-vote-roll` opens their card from. The row carries what the card
+ * face needs beyond the visible cells, so opening one costs no request.
  */
 import type { VoteRollRowWithOrders } from '../utils/voteRollSortOrders';
 import { partyAbbrev } from '../utils/voteRollDisplay';
@@ -12,7 +13,7 @@ import { stateRollGroupKey } from '../utils/voteRollDisplay';
 interface Props {
   /** Row with sort-order ranks. */
   row: VoteRollRowWithOrders;
-  /** Href to this member's vote page. */
+  /** This roll, with the member named in the query. */
   memberHref: string;
   /** When true, this is the row the card is open on. */
   selected?: boolean;
@@ -28,6 +29,8 @@ const pAbbr = partyAbbrev(r.party);
   data-state-group={stateRollGroupKey(r.stateDistrict)}
   data-state-district={r.stateDistrict}
   data-name={r.name}
+  data-name-title={r.nameTitle ?? r.name}
+  data-image={r.imageUrl || undefined}
   data-last-name={r.lastName}
   data-party={r.party}
   data-vote={r.vote}
@@ -39,7 +42,7 @@ const pAbbr = partyAbbrev(r.party);
 >
   <td>{r.stateDistrict}</td>
   <td>
-    <a class="vote-roll-name" href={memberHref} data-bioguide={r.bioguideId}>{r.name}</a>
+    <a class="vote-roll-name" href={memberHref} data-bioguide={r.bioguideId} data-astro-prefetch="false">{r.name}</a>
   </td>
   <td><span title={r.party}>{pAbbr}</span></td>
   <td>{r.vote}</td>

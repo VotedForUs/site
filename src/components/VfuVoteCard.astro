@@ -6,11 +6,10 @@ import VotedCard from './social-cards/VotedCard.astro';
 import type { VotedCardProps } from '../types/votedCard';
 
 interface Props {
-  /** Start open (canonical card page). */
+  /** Start open — stories only; pages open it from the URL. */
   open?: boolean;
   voteId: string;
   bioguideId: string;
-  context: 'member' | 'bill';
   closeHref: string;
   prevHref?: string | null;
   nextHref?: string | null;
@@ -22,7 +21,6 @@ const {
   open = false,
   voteId,
   bioguideId,
-  context,
   closeHref,
   prevHref,
   nextHref,
@@ -34,7 +32,6 @@ const {
 <vfu-vote-card
   vote-id={voteId}
   bioguide-id={bioguideId}
-  context={context}
   close-href={closeHref}
   share-url={shareUrl}
   open={open ? '' : undefined}

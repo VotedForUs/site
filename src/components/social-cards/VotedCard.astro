@@ -45,28 +45,31 @@ const jobTitle = memberSubtitle;
           itemtype="https://schema.org/Person"
         >
           <figure class="legislator-image">
-            {imageUrl ? (
-              <img
-                src={imageSrc}
-                alt={`Photo of ${displayName}`}
-                itemprop="image"
-                width="200"
-                height="200"
-              />
-            ) : (
-              <div class="legislator-image-fallback" aria-hidden="true"></div>
-            )}
+            {/*
+              Both are always in the markup, one hidden: on a vote's roll the
+              card is refilled per member, and some members have no portrait.
+            */}
+            <img
+              src={imageUrl ? imageSrc : undefined}
+              alt={imageUrl ? `Photo of ${displayName}` : ''}
+              itemprop="image"
+              width="200"
+              height="200"
+              data-field="image"
+              hidden={!imageUrl}
+            />
+            <div class="legislator-image-fallback" data-field="image-fallback" aria-hidden="true" hidden={Boolean(imageUrl)}></div>
           </figure>
           <div class="legislator-identity">
             <p class="legislator-line"><span itemprop="name" data-field="display-name">{displayName}</span></p>
             <p class="legislator-meta" data-field="subtitle">{memberSubtitle}</p>
-            {bioguideId && <meta itemprop="identifier" content={bioguideId} />}
-            <meta itemprop="jobTitle" content={jobTitle} />
+            {bioguideId && <meta itemprop="identifier" data-field="identifier" content={bioguideId} />}
+            <meta itemprop="jobTitle" data-field="job-title" content={jobTitle} />
             {bioguideId && (
-              <link itemprop="sameAs" href={`https://bioguide.congress.gov/search/bio/${bioguideId}`} />
+              <link itemprop="sameAs" data-field="same-as" href={`https://bioguide.congress.gov/search/bio/${bioguideId}`} />
             )}
             <span hidden itemprop="affiliation" itemscope itemtype="https://schema.org/Organization">
-              <span itemprop="name">{party}</span>
+              <span itemprop="name" data-field="party">{party}</span>
             </span>
           </div>
         </div>
@@ -186,6 +189,9 @@ const jobTitle = memberSubtitle;
 
   .legislator-image-fallback {
     background: var(--fg-2, #8f8a79);
+  }
+  .legislator-image [hidden] {
+    display: none;
   }
 
   .legislator-identity {

@@ -30,6 +30,7 @@ export function toVoteRollRow(
     bioguideId,
     stateDistrict,
     name: leg?.name ?? leg?.nameTitle ?? bioguideId,
+    nameTitle: leg?.nameTitle ?? leg?.name ?? bioguideId,
     lastName: leg?.lastName ?? '',
     party: leg?.party ?? '',
     vote: voteCast,
