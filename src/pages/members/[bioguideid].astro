@@ -14,24 +14,34 @@ import { localHeadshot } from '../../utils/headshot.js';
 /**
  * One page per member who has a display cast — the same set as the finder.
  *
- * @returns Paths and legislator props for those ids
+ * The casts are bucketed by member here, once. Reading the collection in the
+ * page body instead means every one of the 600 pages loads and filters all
+ * 360,000 casts — two seconds a page, twenty minutes a build.
+ *
+ * @returns Paths, with each member and the bills they voted on as props
  */
 export async function getStaticPaths() {
   const legislators = await getCollection('legislators');
-  const votes = await getCollection('legislatorVotes');
-  const withCasts = bioguideIdsWithCasts(votes.map((v) => v.data));
+  const votes = (await getCollection('legislatorVotes')).map((v) => v.data);
+  const withCasts = bioguideIdsWithCasts(votes);
+  const byMember = new Map<string, typeof votes>();
+  for (const vote of votes) {
+    const list = byMember.get(vote.bioguideId);
+    if (list) list.push(vote);
+    else byMember.set(vote.bioguideId, [vote]);
+  }
   const named = legislators.filter((l) => withCasts.has(l.id));
   const limited = LEGISLATORS_LIMIT ? named.slice(0, LEGISLATORS_LIMIT) : named;
   return limited
     .filter((l) => shouldBuildPage('legislators-loader', l.id))
-    .map((legislator) => ({ params: { bioguideid: legislator.id }, props: { legislator } }));
+    .map((legislator) => ({
+      params: { bioguideid: legislator.id },
+      props: { legislator, bills: groupMemberBills(byMember.get(legislator.id) ?? []) },
+    }));
 }
 
 const { bioguideid } = Astro.params;
-const { legislator } = Astro.props;
-
-const votes = await getCollection('legislatorVotes');
-const bills = groupMemberBills(votes.filter((v) => v.data.bioguideId === bioguideid).map((v) => v.data));
+const { legislator, bills } = Astro.props;
 
 const name = legislator.data.nameTitle;
 // The collection's `imageUrl` is a congress.gov URL for members whose portrait
