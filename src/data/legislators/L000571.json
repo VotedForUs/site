@@ -9,7 +9,7 @@
   "bioguideId": "L000571",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 2270,
+    "count": 2181,
     "url": "https://api.congress.gov/v3/member/L000571/cosponsored-legislation"
   },
   "currentMember": true,
@@ -53,7 +53,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 248,
+    "count": 237,
     "url": "https://api.congress.gov/v3/member/L000571/sponsored-legislation"
   },
   "state": "Wyoming",

@@ -9,7 +9,7 @@
   "bioguideId": "F000477",
   "birthYear": "1956",
   "cosponsoredLegislation": {
-    "count": 834,
+    "count": 704,
     "url": "https://api.congress.gov/v3/member/F000477/cosponsored-legislation"
   },
   "currentMember": true,
@@ -73,7 +73,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 45,
+    "count": 28,
     "url": "https://api.congress.gov/v3/member/F000477/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -98,7 +98,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "F000477",
     "fec": [
@@ -110,7 +110,6 @@
     "wikipedia": "Valerie Foushee",
     "votesmart": 93091,
     "pictorial": 13133,
-    "ballotpedia": "Valerie Foushee",
     "twitter": "ValerieFoushee",
     "twitter_id": 1611471154732060700,
     "facebook": "RepValerieFoushee",

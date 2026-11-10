@@ -9,7 +9,7 @@
   "bioguideId": "T000476",
   "birthYear": "1960",
   "cosponsoredLegislation": {
-    "count": 2666,
+    "count": 2574,
     "url": "https://api.congress.gov/v3/member/T000476/cosponsored-legislation"
   },
   "currentMember": true,
@@ -43,7 +43,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 684,
+    "count": 672,
     "url": "https://api.congress.gov/v3/member/T000476/sponsored-legislation"
   },
   "state": "North Carolina",

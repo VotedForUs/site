@@ -9,7 +9,7 @@
   "bioguideId": "A000372",
   "birthYear": "1951",
   "cosponsoredLegislation": {
-    "count": 1383,
+    "count": 1360,
     "url": "https://api.congress.gov/v3/member/A000372/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 72,
+    "count": 71,
     "url": "https://api.congress.gov/v3/member/A000372/sponsored-legislation"
   },
   "state": "Georgia",
@@ -129,7 +129,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "A000372",
     "fec": [

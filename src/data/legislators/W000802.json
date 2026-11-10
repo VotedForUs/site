@@ -9,7 +9,7 @@
   "bioguideId": "W000802",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 4924,
+    "count": 4807,
     "url": "https://api.congress.gov/v3/member/W000802/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 778,
+    "count": 745,
     "url": "https://api.congress.gov/v3/member/W000802/sponsored-legislation"
   },
   "state": "Rhode Island",

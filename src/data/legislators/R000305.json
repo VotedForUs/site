@@ -9,7 +9,7 @@
   "bioguideId": "R000305",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 1842,
+    "count": 1675,
     "url": "https://api.congress.gov/v3/member/R000305/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 90,
+    "count": 75,
     "url": "https://api.congress.gov/v3/member/R000305/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -99,7 +99,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "R000305",
     "fec": [
@@ -112,7 +112,6 @@
     "google_entity_id": "kg:/m/02b3x2",
     "ballotpedia": "Deborah Ross",
     "pictorial": 13131,
-    "votesmart": 41560,
     "twitter": "RepDeborahRoss",
     "twitter_id": 1348683154815656000,
     "facebook": "RepDeborahRoss",

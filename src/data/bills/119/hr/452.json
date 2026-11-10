@@ -716,18 +716,18 @@
   "titles": {
     "titles": [
       {
-        "title": "Miracle on Ice Congressional Gold Medal Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:05:22Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To award 3 Congressional Gold Medals to the members of the 1980 U.S. Olympic Men's Ice Hockey Team, in recognition of their extraordinary achievement at the 1980 Winter Olympics where, being comprised of amateur collegiate players, they defeated the dominant Soviet hockey team in the historic \"Miracle on Ice\", revitalizing American morale at the height of the Cold War, inspiring generations and transforming the sport of hockey in the United States.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-18T00:05:22Z"
+        "updateDate": "2026-09-19T23:07:17Z"
+      },
+      {
+        "title": "Miracle on Ice Congressional Gold Medal Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:07:17Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -735,7 +735,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To award 3 Congressional Gold Medals to the members of the 1980 U.S. Olympic Men’s Ice Hockey Team, in recognition of their extraordinary achievement at the 1980 Winter Olympics where, being comprised of amateur collegiate players, they defeated the dominant Soviet hockey team in the historic \"Miracle on Ice\", revitalizing American morale at the height of the Cold War, inspiring generations and transforming the sport of hockey in the United States.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T16:38:23Z"
       },
@@ -788,8 +788,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:05:22Z",
-  "updateDateIncludingText": "2026-07-18T00:05:22Z",
+  "updateDate": "2026-09-19T23:07:17Z",
+  "updateDateIncludingText": "2026-09-19T23:07:17Z",
   "id": "119-HR-452",
   "lastActionDate": "2025-12-12",
   "lastRecordedVoteDate": "2025-04-28"

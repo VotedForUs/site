@@ -9,7 +9,7 @@
   "bioguideId": "A000380",
   "birthYear": "1987",
   "cosponsoredLegislation": {
-    "count": 657,
+    "count": 567,
     "url": "https://api.congress.gov/v3/member/A000380/cosponsored-legislation"
   },
   "currentMember": true,
@@ -61,7 +61,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 27,
+    "count": 23,
     "url": "https://api.congress.gov/v3/member/A000380/sponsored-legislation"
   },
   "state": "Rhode Island",
@@ -86,7 +86,7 @@
       "stateName": "Rhode Island"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "A000380",
     "fec": [
@@ -98,8 +98,6 @@
     "wikidata": "Q118901875",
     "ballotpedia": "Gabe Amo",
     "pictorial": 13239,
-    "google_entity_id": "kg:/g/11gbhzs7wg",
-    "votesmart": 212295,
     "twitter": "RepGabeAmo",
     "facebook": "61553581414066",
     "instagram": "repgabeamo"

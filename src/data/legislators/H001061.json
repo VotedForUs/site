@@ -9,7 +9,7 @@
   "bioguideId": "H001061",
   "birthYear": "1957",
   "cosponsoredLegislation": {
-    "count": 2038,
+    "count": 2008,
     "url": "https://api.congress.gov/v3/member/H001061/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 507,
+    "count": 493,
     "url": "https://api.congress.gov/v3/member/H001061/sponsored-legislation"
   },
   "state": "North Dakota",

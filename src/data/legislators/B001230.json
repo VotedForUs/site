@@ -9,7 +9,7 @@
   "bioguideId": "B001230",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 6885,
+    "count": 6781,
     "url": "https://api.congress.gov/v3/member/B001230/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 756,
+    "count": 724,
     "url": "https://api.congress.gov/v3/member/B001230/sponsored-legislation"
   },
   "state": "Wisconsin",

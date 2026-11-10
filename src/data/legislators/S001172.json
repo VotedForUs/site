@@ -9,7 +9,7 @@
   "bioguideId": "S001172",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 1800,
+    "count": 1756,
     "url": "https://api.congress.gov/v3/member/S001172/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 137,
+    "count": 135,
     "url": "https://api.congress.gov/v3/member/S001172/sponsored-legislation"
   },
   "state": "Nebraska",
@@ -156,7 +156,7 @@
       "stateName": "Nebraska"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "S001172",
     "thomas": "01860",

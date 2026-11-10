@@ -9,7 +9,7 @@
   "bioguideId": "H001089",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 970,
+    "count": 941,
     "url": "https://api.congress.gov/v3/member/H001089/cosponsored-legislation"
   },
   "currentMember": true,
@@ -58,7 +58,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 348,
+    "count": 338,
     "url": "https://api.congress.gov/v3/member/H001089/sponsored-legislation"
   },
   "state": "Missouri",

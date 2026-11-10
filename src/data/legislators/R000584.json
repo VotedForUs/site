@@ -9,7 +9,7 @@
   "bioguideId": "R000584",
   "birthYear": "1943",
   "cosponsoredLegislation": {
-    "count": 2865,
+    "count": 2815,
     "url": "https://api.congress.gov/v3/member/R000584/cosponsored-legislation"
   },
   "currentMember": true,
@@ -43,7 +43,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 649,
+    "count": 632,
     "url": "https://api.congress.gov/v3/member/R000584/sponsored-legislation"
   },
   "state": "Idaho",

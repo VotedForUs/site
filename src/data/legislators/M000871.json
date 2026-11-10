@@ -9,7 +9,7 @@
   "bioguideId": "M000871",
   "birthYear": "1976",
   "cosponsoredLegislation": {
-    "count": 1177,
+    "count": 1103,
     "url": "https://api.congress.gov/v3/member/M000871/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 76,
+    "count": 69,
     "url": "https://api.congress.gov/v3/member/M000871/sponsored-legislation"
   },
   "state": "Kansas",
@@ -86,7 +86,7 @@
       "stateName": "Kansas"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "M000871",
     "fec": [
@@ -98,8 +98,6 @@
     "wikipedia": "Tracey Mann",
     "google_entity_id": "kg:/g/11hcbb5b38",
     "pictorial": 13059,
-    "votesmart": 125007,
-    "ballotpedia": "Tracey Mann",
     "twitter": "RepMann",
     "twitter_id": 1345825008887722000,
     "facebook": "Congressman-Tracey-Mann-105522931489227",

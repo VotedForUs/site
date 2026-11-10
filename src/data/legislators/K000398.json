@@ -9,7 +9,7 @@
   "bioguideId": "K000398",
   "birthYear": "1968",
   "cosponsoredLegislation": {
-    "count": 744,
+    "count": 643,
     "url": "https://api.congress.gov/v3/member/K000398/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 60,
+    "count": 51,
     "url": "https://api.congress.gov/v3/member/K000398/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -89,7 +89,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "K000398",
     "fec": [

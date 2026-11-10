@@ -9,7 +9,7 @@
   "bioguideId": "S001221",
   "birthYear": "1982",
   "cosponsoredLegislation": {
-    "count": 708,
+    "count": 627,
     "url": "https://api.congress.gov/v3/member/S001221/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 61,
+    "count": 36,
     "url": "https://api.congress.gov/v3/member/S001221/sponsored-legislation"
   },
   "state": "Michigan",
@@ -88,7 +88,7 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "S001221",
     "fec": [
@@ -101,7 +101,6 @@
     "votesmart": 191584,
     "pictorial": 13096,
     "google_entity_id": "kg:/g/11j2tyrlxq",
-    "ballotpedia": "Hillary Scholten",
     "twitter": "RepScholten",
     "facebook": "100089476625799",
     "instagram": "RepScholten"

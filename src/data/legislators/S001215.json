@@ -9,7 +9,7 @@
   "bioguideId": "S001215",
   "birthYear": "1983",
   "cosponsoredLegislation": {
-    "count": 1537,
+    "count": 1473,
     "url": "https://api.congress.gov/v3/member/S001215/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 128,
+    "count": 113,
     "url": "https://api.congress.gov/v3/member/S001215/sponsored-legislation"
   },
   "state": "Michigan",
@@ -109,12 +109,11 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:15Z",
   "id": {
     "bioguide": "S001215",
     "fec": [
-      "H8MI11254",
-      "S6MI00426"
+      "H8MI11254"
     ],
     "govtrack": 412786,
     "wikipedia": "Haley Stevens",

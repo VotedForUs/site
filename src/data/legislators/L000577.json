@@ -9,7 +9,7 @@
   "bioguideId": "L000577",
   "birthYear": "1971",
   "cosponsoredLegislation": {
-    "count": 1797,
+    "count": 1751,
     "url": "https://api.congress.gov/v3/member/L000577/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 2110,
+    "count": 2073,
     "url": "https://api.congress.gov/v3/member/L000577/sponsored-legislation"
   },
   "state": "Utah",

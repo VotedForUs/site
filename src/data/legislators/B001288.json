@@ -9,7 +9,7 @@
   "bioguideId": "B001288",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 4308,
+    "count": 4107,
     "url": "https://api.congress.gov/v3/member/B001288/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1044,
+    "count": 965,
     "url": "https://api.congress.gov/v3/member/B001288/sponsored-legislation"
   },
   "state": "New Jersey",
@@ -118,7 +118,7 @@
       "stateName": "New Jersey"
     }
   ],
-  "updateDate": "2026-06-30T10:30:36Z",
+  "updateDate": "2026-03-08T10:30:36Z",
   "id": {
     "bioguide": "B001288",
     "lis": "S370",

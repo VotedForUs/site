@@ -9,7 +9,7 @@
   "bioguideId": "W000788",
   "birthYear": "1978",
   "cosponsoredLegislation": {
-    "count": 1996,
+    "count": 1896,
     "url": "https://api.congress.gov/v3/member/W000788/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 160,
+    "count": 144,
     "url": "https://api.congress.gov/v3/member/W000788/sponsored-legislation"
   },
   "state": "Georgia",
@@ -86,7 +86,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "W000788",
     "fec": [
@@ -99,7 +99,6 @@
     "google_entity_id": "kg:/g/11fctqx0jy",
     "ballotpedia": "Nikema Williams",
     "pictorial": 13014,
-    "votesmart": 176751,
     "twitter": "RepNikema",
     "twitter_id": 1345461797361504300,
     "facebook": "RepNikemaWilliams",

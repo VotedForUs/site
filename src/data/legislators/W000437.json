@@ -9,7 +9,7 @@
   "bioguideId": "W000437",
   "birthYear": "1951",
   "cosponsoredLegislation": {
-    "count": 4522,
+    "count": 4469,
     "url": "https://api.congress.gov/v3/member/W000437/cosponsored-legislation"
   },
   "currentMember": true,
@@ -53,7 +53,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 760,
+    "count": 747,
     "url": "https://api.congress.gov/v3/member/W000437/sponsored-legislation"
   },
   "state": "Mississippi",

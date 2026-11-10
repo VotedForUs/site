@@ -9,7 +9,7 @@
   "bioguideId": "T000468",
   "birthYear": "1950",
   "cosponsoredLegislation": {
-    "count": 4481,
+    "count": 4363,
     "url": "https://api.congress.gov/v3/member/T000468/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 251,
+    "count": 235,
     "url": "https://api.congress.gov/v3/member/T000468/sponsored-legislation"
   },
   "state": "Nevada",
@@ -145,7 +145,7 @@
       "stateName": "Nevada"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "T000468",
     "thomas": "01940",

@@ -9,7 +9,7 @@
   "bioguideId": "F000471",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 542,
+    "count": 507,
     "url": "https://api.congress.gov/v3/member/F000471/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 79,
+    "count": 71,
     "url": "https://api.congress.gov/v3/member/F000471/sponsored-legislation"
   },
   "state": "Wisconsin",
@@ -95,7 +95,7 @@
       "stateName": "Wisconsin"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:17Z",
   "id": {
     "bioguide": "F000471",
     "fec": [

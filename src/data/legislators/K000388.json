@@ -9,7 +9,7 @@
   "bioguideId": "K000388",
   "birthYear": "1966",
   "cosponsoredLegislation": {
-    "count": 1062,
+    "count": 1046,
     "url": "https://api.congress.gov/v3/member/K000388/cosponsored-legislation"
   },
   "currentMember": true,
@@ -116,7 +116,7 @@
       "stateName": "Mississippi"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "K000388",
     "thomas": "02294",

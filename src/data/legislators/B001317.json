@@ -9,7 +9,7 @@
   "bioguideId": "B001317",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 482,
+    "count": 453,
     "url": "https://api.congress.gov/v3/member/B001317/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 46,
+    "count": 45,
     "url": "https://api.congress.gov/v3/member/B001317/sponsored-legislation"
   },
   "state": "Oklahoma",
@@ -85,7 +85,7 @@
       "stateName": "Oklahoma"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "B001317",
     "fec": [

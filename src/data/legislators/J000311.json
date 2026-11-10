@@ -9,7 +9,7 @@
   "bioguideId": "J000311",
   "birthYear": "1988",
   "cosponsoredLegislation": {
-    "count": 117,
+    "count": 103,
     "url": "https://api.congress.gov/v3/member/J000311/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 9,
+    "count": 7,
     "url": "https://api.congress.gov/v3/member/J000311/sponsored-legislation"
   },
   "state": "Georgia",
@@ -75,7 +75,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "J000311",
     "fec": [
@@ -85,9 +85,6 @@
     "opensecrets": "N00055118",
     "wikipedia": "Brian Jack",
     "wikidata": "Q86493775",
-    "votesmart": 215141,
-    "ballotpedia": "Brian Jack",
-    "google_entity_id": "kg:/g/11f4kg7dlk",
     "twitter": "RepBrianJack",
     "facebook": "RepBrianJack",
     "instagram": "repbrianjack"

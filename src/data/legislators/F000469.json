@@ -9,7 +9,7 @@
   "bioguideId": "F000469",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 658,
+    "count": 623,
     "url": "https://api.congress.gov/v3/member/F000469/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 50,
+    "count": 48,
     "url": "https://api.congress.gov/v3/member/F000469/sponsored-legislation"
   },
   "state": "Idaho",
@@ -105,7 +105,7 @@
       "stateName": "Idaho"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:15Z",
   "id": {
     "bioguide": "F000469",
     "fec": [
@@ -133,7 +133,7 @@
   },
   "bio": {
     "gender": "M",
-    "birthday": "1962-03-09"
+    "birthday": "1973-07-19"
   },
   "latest_term": {
     "type": "rep",

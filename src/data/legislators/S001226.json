@@ -9,7 +9,7 @@
   "bioguideId": "S001226",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 1271,
+    "count": 1120,
     "url": "https://api.congress.gov/v3/member/S001226/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 61,
+    "count": 52,
     "url": "https://api.congress.gov/v3/member/S001226/sponsored-legislation"
   },
   "state": "Oregon",
@@ -85,7 +85,7 @@
       "stateName": "Oregon"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "S001226",
     "fec": [

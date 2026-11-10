@@ -9,7 +9,7 @@
   "bioguideId": "P000145",
   "birthYear": "1973",
   "cosponsoredLegislation": {
-    "count": 2194,
+    "count": 2012,
     "url": "https://api.congress.gov/v3/member/P000145/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 616,
+    "count": 516,
     "url": "https://api.congress.gov/v3/member/P000145/sponsored-legislation"
   },
   "state": "California",

@@ -9,7 +9,7 @@
   "bioguideId": "S000510",
   "birthYear": "1965",
   "cosponsoredLegislation": {
-    "count": 5028,
+    "count": 4961,
     "url": "https://api.congress.gov/v3/member/S000510/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 237,
+    "count": 232,
     "url": "https://api.congress.gov/v3/member/S000510/sponsored-legislation"
   },
   "state": "Washington",
@@ -214,7 +214,7 @@
       "stateName": "Washington"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "S000510",
     "thomas": "01528",

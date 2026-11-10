@@ -9,7 +9,7 @@
   "bioguideId": "K000377",
   "birthYear": "1964",
   "cosponsoredLegislation": {
-    "count": 1280,
+    "count": 1152,
     "url": "https://api.congress.gov/v3/member/K000377/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 290,
+    "count": 237,
     "url": "https://api.congress.gov/v3/member/K000377/sponsored-legislation"
   },
   "state": "Arizona",

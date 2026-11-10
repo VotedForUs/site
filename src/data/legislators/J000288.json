@@ -9,7 +9,7 @@
   "bioguideId": "J000288",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 6070,
+    "count": 5903,
     "url": "https://api.congress.gov/v3/member/J000288/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 258,
+    "count": 255,
     "url": "https://api.congress.gov/v3/member/J000288/sponsored-legislation"
   },
   "state": "Georgia",
@@ -170,7 +170,7 @@
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "J000288",
     "thomas": "01843",

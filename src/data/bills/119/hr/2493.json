@@ -725,7 +725,7 @@
         "title": "Improving Care in Rural America Reauthorization Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:36:18Z"
+        "updateDate": "2026-09-19T23:18:42Z"
       },
       {
         "billTextVersionCode": "PCS",
@@ -753,7 +753,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To reauthorize certain programs regarding rural health care.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-23T03:53:24Z"
       },
@@ -786,8 +786,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:36:18Z",
-  "updateDateIncludingText": "2026-07-17T23:36:18Z",
+  "updateDate": "2026-09-19T23:18:42Z",
+  "updateDateIncludingText": "2026-09-19T23:18:42Z",
   "id": "119-HR-2493",
   "lastActionDate": "2026-04-22",
   "lastRecordedVoteDate": "2026-04-21T19:44:16Z"

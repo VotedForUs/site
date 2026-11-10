@@ -9,7 +9,7 @@
   "bioguideId": "H001096",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 542,
+    "count": 505,
     "url": "https://api.congress.gov/v3/member/H001096/cosponsored-legislation"
   },
   "currentMember": true,
@@ -72,7 +72,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 133,
+    "count": 124,
     "url": "https://api.congress.gov/v3/member/H001096/sponsored-legislation"
   },
   "state": "Wyoming",
@@ -95,12 +95,11 @@
       "stateName": "Wyoming"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "H001096",
     "fec": [
-      "H2WY00166",
-      "S6WY00209"
+      "H2WY00166"
     ],
     "govtrack": 456951,
     "opensecrets": "N00049197",

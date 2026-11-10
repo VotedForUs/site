@@ -9,7 +9,7 @@
   "bioguideId": "D000626",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 868,
+    "count": 833,
     "url": "https://api.congress.gov/v3/member/D000626/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 155,
+    "count": 153,
     "url": "https://api.congress.gov/v3/member/D000626/sponsored-legislation"
   },
   "state": "Ohio",
@@ -116,7 +116,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "D000626",
     "thomas": "02296",

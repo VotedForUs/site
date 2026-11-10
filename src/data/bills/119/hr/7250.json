@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 26,
+    "count": 30,
     "url": "https://api.congress.gov/v3/bill/119/hr/7250/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-113.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-113.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-09-17",
@@ -36,7 +76,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Voice Vote.",
+        "text": "Passed Senate without amendment by Voice Vote. (consideration: CR S4746)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -850,9 +890,15 @@
   "congress": 119,
   "introducedDate": "2026-01-27",
   "latestAction": {
-    "actionDate": "2026-09-17",
-    "text": "Presented to President."
+    "actionDate": "2026-09-25",
+    "text": "Became Public Law No: 119-113."
   },
+  "laws": [
+    {
+      "number": "119-113",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7250",
   "number": "7250",
   "originChamber": "House",
@@ -868,7 +914,7 @@
         "title": "To reauthorize the Fort Peck Reservation Rural Water System Act of 2000.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:53:15Z"
+        "updateDate": "2026-09-19T23:37:01Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -891,9 +937,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T08:06:35Z",
-  "updateDateIncludingText": "2026-09-18T08:06:35Z",
+  "updateDate": "2026-09-30T16:47:40Z",
+  "updateDateIncludingText": "2026-09-30T16:47:40Z",
   "id": "119-HR-7250",
-  "lastActionDate": "2026-09-17",
+  "lastActionDate": "2026-09-25",
   "lastRecordedVoteDate": "2026-09-16"
 }

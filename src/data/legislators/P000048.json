@@ -9,7 +9,7 @@
   "bioguideId": "P000048",
   "birthYear": "1977",
   "cosponsoredLegislation": {
-    "count": 909,
+    "count": 827,
     "url": "https://api.congress.gov/v3/member/P000048/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 162,
+    "count": 155,
     "url": "https://api.congress.gov/v3/member/P000048/sponsored-legislation"
   },
   "state": "Texas",
@@ -104,7 +104,7 @@
       "stateName": "Texas"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "P000048",
     "fec": [
@@ -116,8 +116,6 @@
     "wikipedia": "August Pfluger",
     "google_entity_id": "kg:/g/11f3szpd4x",
     "pictorial": 13268,
-    "votesmart": 188165,
-    "ballotpedia": "August Pfluger",
     "twitter": "RepPfluger",
     "twitter_id": 1341120751399809000,
     "facebook": "RepAugustPfluger",

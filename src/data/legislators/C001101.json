@@ -9,7 +9,7 @@
   "bioguideId": "C001101",
   "birthYear": "1963",
   "cosponsoredLegislation": {
-    "count": 1850,
+    "count": 1849,
     "url": "https://api.congress.gov/v3/member/C001101/cosponsored-legislation"
   },
   "currentMember": true,
@@ -39,7 +39,7 @@
     }
   ],
   "middleName": "M.",
-  "officialWebsiteUrl": "https://katherineclark.house.gov",
+  "officialWebsiteUrl": "https://katherineclark.house.gov/index.cfm/home",
   "partyHistory": [
     {
       "partyAbbreviation": "D",
@@ -154,7 +154,7 @@
       "stateName": "Massachusetts"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "C001101",
     "thomas": "02196",

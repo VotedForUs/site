@@ -9,7 +9,7 @@
   "bioguideId": "M001239",
   "birthYear": "1968",
   "cosponsoredLegislation": {
-    "count": 298,
+    "count": 248,
     "url": "https://api.congress.gov/v3/member/M001239/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 22,
+    "count": 18,
     "url": "https://api.congress.gov/v3/member/M001239/sponsored-legislation"
   },
   "state": "Virginia",
@@ -90,7 +90,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:35Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "M001239",
     "fec": [
@@ -101,9 +101,6 @@
     "opensecrets": "N00045930",
     "wikipedia": "John McGuire (Virginia politician)",
     "wikidata": "Q47545631",
-    "votesmart": 176388,
-    "ballotpedia": "John McGuire",
-    "google_entity_id": "kg:/g/11f3w6hjlp",
     "twitter": "RepJohnMcGuire",
     "facebook": "RepJohnMcGuire",
     "instagram": "repjohnmcguire"

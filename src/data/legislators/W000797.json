@@ -9,7 +9,7 @@
   "bioguideId": "W000797",
   "birthYear": "1966",
   "cosponsoredLegislation": {
-    "count": 4494,
+    "count": 4378,
     "url": "https://api.congress.gov/v3/member/W000797/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 183,
+    "count": 172,
     "url": "https://api.congress.gov/v3/member/W000797/sponsored-legislation"
   },
   "state": "Florida",
@@ -175,7 +175,7 @@
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "W000797",
     "thomas": "01777",

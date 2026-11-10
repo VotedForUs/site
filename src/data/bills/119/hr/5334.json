@@ -1,8 +1,48 @@
 {
   "actions": {
-    "count": 37,
+    "count": 41,
     "url": "https://api.congress.gov/v3/bill/119/hr/5334/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-111.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-111.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-18",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-09-17",
@@ -605,7 +645,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.xml",
             "votes": {
               "A000382": "Yea",
-              "A000383": "Yea",
               "B001230": "Yea",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -637,7 +676,6 @@
               "F000463": "Yea",
               "G000574": "Yea",
               "G000555": "Yea",
-              "G000608": "Yea",
               "G000386": "Yea",
               "H000601": "Yea",
               "H001076": "Nay",
@@ -775,7 +813,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00213.xml",
             "votes": {
               "A000382": "Yea",
-              "A000383": "Yea",
               "B001230": "Yea",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -807,7 +844,6 @@
               "F000463": "Yea",
               "G000574": "Not Voting",
               "G000555": "Yea",
-              "G000608": "Not Voting",
               "G000386": "Yea",
               "H000601": "Yea",
               "H001076": "Nay",
@@ -937,7 +973,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00212.xml",
             "votes": {
               "A000382": "Yea",
-              "A000383": "Yea",
               "B001230": "Yea",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -969,7 +1004,6 @@
               "F000463": "Yea",
               "G000574": "Yea",
               "G000555": "Yea",
-              "G000608": "Not Voting",
               "G000386": "Yea",
               "H000601": "Yea",
               "H001076": "Nay",
@@ -1716,9 +1750,15 @@
   "congress": 119,
   "introducedDate": "2025-09-11",
   "latestAction": {
-    "actionDate": "2026-09-17",
-    "text": "Presented to President."
+    "actionDate": "2026-09-18",
+    "text": "Became Public Law No: 119-111."
   },
+  "laws": [
+    {
+      "number": "119-111",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
   "number": "5334",
   "originChamber": "House",
@@ -1731,18 +1771,18 @@
   "titles": {
     "titles": [
       {
+        "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:23:24Z"
+      },
+      {
         "chamberCode": "S",
         "chamberName": "Senate",
         "title": "An act to impose sanctions and other measures with respect to the Russian Federation, as championed by the late Senator Lindsey O. Graham, and for other purposes.",
         "titleType": "Official Titles as Amended by Senate",
         "titleTypeCode": 8,
         "updateDate": "2026-08-08T15:26:46Z"
-      },
-      {
-        "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-08-08T03:17:45Z"
       },
       {
         "billTextVersionCode": "EAS",
@@ -1849,9 +1889,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-18T08:06:36Z",
-  "updateDateIncludingText": "2026-09-18T08:06:36Z",
+  "updateDate": "2026-11-04T17:28:27Z",
+  "updateDateIncludingText": "2026-11-04T17:28:27Z",
   "id": "119-HR-5334",
-  "lastActionDate": "2026-09-17",
+  "lastActionDate": "2026-09-18",
   "lastRecordedVoteDate": "2026-09-16T22:28:20Z"
 }

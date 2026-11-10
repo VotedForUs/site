@@ -9,7 +9,7 @@
   "bioguideId": "R000621",
   "birthYear": "1985",
   "cosponsoredLegislation": {
-    "count": 401,
+    "count": 298,
     "url": "https://api.congress.gov/v3/member/R000621/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 13,
+    "count": 11,
     "url": "https://api.congress.gov/v3/member/R000621/sponsored-legislation"
   },
   "state": "Washington",
@@ -75,7 +75,7 @@
       "stateName": "Washington"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "R000621",
     "fec": [
@@ -84,10 +84,7 @@
     "govtrack": 457030,
     "opensecrets": "N00054078",
     "wikipedia": "Emily Randall",
-    "wikidata": "Q60473885",
-    "votesmart": 183038,
-    "ballotpedia": "Emily Randall",
-    "google_entity_id": "kg:/g/11gyb032d1"
+    "wikidata": "Q60473885"
   },
   "name": {
     "first": "Emily",

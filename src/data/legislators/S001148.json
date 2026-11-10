@@ -9,7 +9,7 @@
   "bioguideId": "S001148",
   "birthYear": "1950",
   "cosponsoredLegislation": {
-    "count": 2238,
+    "count": 2219,
     "url": "https://api.congress.gov/v3/member/S001148/cosponsored-legislation"
   },
   "currentMember": true,
@@ -63,7 +63,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 160,
+    "count": 159,
     "url": "https://api.congress.gov/v3/member/S001148/sponsored-legislation"
   },
   "state": "Idaho",
@@ -208,7 +208,7 @@
       "stateName": "Idaho"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "S001148",
     "thomas": "01590",

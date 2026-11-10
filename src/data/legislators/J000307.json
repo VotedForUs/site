@@ -9,7 +9,7 @@
   "bioguideId": "J000307",
   "birthYear": "1981",
   "cosponsoredLegislation": {
-    "count": 300,
+    "count": 260,
     "url": "https://api.congress.gov/v3/member/J000307/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 65,
+    "count": 59,
     "url": "https://api.congress.gov/v3/member/J000307/sponsored-legislation"
   },
   "state": "Michigan",
@@ -85,12 +85,11 @@
       "stateName": "Michigan"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "J000307",
     "fec": [
-      "H2MI10150",
-      "S8MI00372"
+      "H2MI10150"
     ],
     "govtrack": 456907,
     "opensecrets": "N00041550",

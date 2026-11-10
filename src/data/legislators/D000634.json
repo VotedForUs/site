@@ -9,7 +9,7 @@
   "bioguideId": "D000634",
   "birthYear": "1967",
   "cosponsoredLegislation": {
-    "count": 166,
+    "count": 139,
     "url": "https://api.congress.gov/v3/member/D000634/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 26,
+    "count": 21,
     "url": "https://api.congress.gov/v3/member/D000634/sponsored-legislation"
   },
   "state": "Montana",
@@ -75,7 +75,7 @@
       "stateName": "Montana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "D000634",
     "fec": [
@@ -85,9 +85,6 @@
     "opensecrets": "N00041283",
     "wikipedia": "Troy Downing",
     "wikidata": "Q103158011",
-    "google_entity_id": "kg:/g/11m_kv__8j",
-    "votesmart": 178611,
-    "ballotpedia": "Troy Downing",
     "twitter": "reptroydowning",
     "facebook": "reptroydowning",
     "instagram": "reptroydowning"

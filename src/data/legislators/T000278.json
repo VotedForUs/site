@@ -9,7 +9,7 @@
   "bioguideId": "T000278",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 705,
+    "count": 635,
     "url": "https://api.congress.gov/v3/member/T000278/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 313,
+    "count": 305,
     "url": "https://api.congress.gov/v3/member/T000278/sponsored-legislation"
   },
   "state": "Alabama",
@@ -99,7 +99,7 @@
     "pictorial": 13365,
     "twitter": "SenTuberville",
     "twitter_id": 1345739193721487400,
-    "facebook": "SenatorTuberville",
+    "facebook": "RogerMarshallMD",
     "instagram": "sentuberville"
   },
   "name": {

@@ -9,7 +9,7 @@
   "bioguideId": "W000812",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 1629,
+    "count": 1594,
     "url": "https://api.congress.gov/v3/member/W000812/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 136,
+    "count": 129,
     "url": "https://api.congress.gov/v3/member/W000812/sponsored-legislation"
   },
   "state": "Missouri",
@@ -126,7 +126,7 @@
       "stateName": "Missouri"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2026-01-08T19:47:12Z",
   "id": {
     "govtrack": 412548,
     "bioguide": "W000812",

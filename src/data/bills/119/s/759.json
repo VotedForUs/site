@@ -1,8 +1,68 @@
 {
   "actions": {
-    "count": 17,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/759/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-116.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-116.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-25",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-09-22",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-09-22",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-14",
@@ -22,7 +82,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H5559)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +560,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5559-5560)",
         "type": "Floor"
       },
       {
@@ -610,16 +670,21 @@
   "congress": 119,
   "introducedDate": "2025-02-26",
   "latestAction": {
-    "actionDate": "2026-09-14",
-    "actionTime": "15:35:37",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-25",
+    "text": "Became Public Law No: 119-116."
   },
+  "laws": [
+    {
+      "number": "119-116",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/759",
   "number": "759",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/759/summaries?format=json"
   },
   "title": "Modernizing Access to Our Public Oceans Act",
@@ -680,9 +745,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-16T06:08:22Z",
-  "updateDateIncludingText": "2026-09-16T06:08:22Z",
+  "updateDate": "2026-10-13T12:59:17Z",
+  "updateDateIncludingText": "2026-10-13T12:59:17Z",
   "id": "119-S-759",
-  "lastActionDate": "2026-09-14",
+  "lastActionDate": "2026-09-25",
   "lastRecordedVoteDate": "2026-09-14"
 }

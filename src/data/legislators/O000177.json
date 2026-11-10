@@ -9,7 +9,7 @@
   "bioguideId": "O000177",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 163,
+    "count": 131,
     "url": "https://api.congress.gov/v3/member/O000177/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 19,
+    "count": 16,
     "url": "https://api.congress.gov/v3/member/O000177/sponsored-legislation"
   },
   "state": "Missouri",
@@ -90,7 +90,7 @@
       "stateName": "Missouri"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "O000177",
     "fec": [
@@ -101,9 +101,6 @@
     "opensecrets": "N00030025",
     "wikipedia": "Bob Onder",
     "wikidata": "Q27064117",
-    "google_entity_id": "kg:/g/11c1tl91ch",
-    "votesmart": 66719,
-    "ballotpedia": "Bob Onder",
     "twitter": "RepBobOnder",
     "facebook": "RepBobOnder",
     "instagram": "repbobonder"

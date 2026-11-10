@@ -9,7 +9,7 @@
   "bioguideId": "M001235",
   "birthYear": "1980",
   "cosponsoredLegislation": {
-    "count": 137,
+    "count": 119,
     "url": "https://api.congress.gov/v3/member/M001235/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 19,
+    "count": 15,
     "url": "https://api.congress.gov/v3/member/M001235/sponsored-legislation"
   },
   "state": "West Virginia",
@@ -89,7 +89,7 @@
       "stateName": "West Virginia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "M001235",
     "fec": [
@@ -99,7 +99,6 @@
     "opensecrets": "N00051965",
     "wikipedia": "Riley Moore",
     "wikidata": "Q93769958",
-    "google_entity_id": "kg:/g/11c506zp3v",
     "twitter": "RepRileyMoore",
     "instagram": "reprileymoore"
   },

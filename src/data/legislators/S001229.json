@@ -9,7 +9,7 @@
   "bioguideId": "S001229",
   "birthYear": "1965",
   "cosponsoredLegislation": {
-    "count": 211,
+    "count": 171,
     "url": "https://api.congress.gov/v3/member/S001229/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 18,
+    "count": 13,
     "url": "https://api.congress.gov/v3/member/S001229/sponsored-legislation"
   },
   "state": "Indiana",
@@ -75,7 +75,7 @@
       "stateName": "Indiana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "S001229",
     "fec": [
@@ -85,8 +85,6 @@
     "opensecrets": "N00054651",
     "wikipedia": "Jefferson Shreve",
     "wikidata": "Q130979817",
-    "votesmart": 148154,
-    "ballotpedia": "Jefferson Shreve",
     "twitter": "repshreve",
     "facebook": "RepJeffersonShreve",
     "instagram": "repshreve"

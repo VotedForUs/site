@@ -9,7 +9,7 @@
   "bioguideId": "K000391",
   "birthYear": "1973",
   "cosponsoredLegislation": {
-    "count": 2636,
+    "count": 2478,
     "url": "https://api.congress.gov/v3/member/K000391/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 168,
+    "count": 161,
     "url": "https://api.congress.gov/v3/member/K000391/sponsored-legislation"
   },
   "state": "Illinois",
@@ -115,7 +115,7 @@
       "stateName": "Illinois"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:15Z",
   "id": {
     "bioguide": "K000391",
     "govtrack": 412701,
@@ -124,8 +124,7 @@
     "google_entity_id": "kg:/g/11c5m7lxtk",
     "votesmart": 117519,
     "fec": [
-      "H6IL08147",
-      "S6IL00482"
+      "H6IL08147"
     ],
     "opensecrets": "N00033240",
     "maplight": 2213,

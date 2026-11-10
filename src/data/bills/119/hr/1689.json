@@ -616,7 +616,7 @@
         "title": "To require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:32:37Z"
+        "updateDate": "2026-09-19T23:14:24Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -624,7 +624,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To require the Secretary of Homeland Security to designate Haiti for temporary protected status.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-04-17T03:53:22Z"
       },
@@ -639,8 +639,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-17T23:32:37Z",
-  "updateDateIncludingText": "2026-07-30T16:27:18Z",
+  "updateDate": "2026-09-19T23:14:24Z",
+  "updateDateIncludingText": "2026-09-19T23:14:24Z",
   "id": "119-HR-1689",
   "lastActionDate": "2026-04-21",
   "lastRecordedVoteDate": "2026-04-16T18:22:01Z"

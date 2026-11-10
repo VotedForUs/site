@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "runId": "40683737499",
+  "legislators": {
+    "added": [],
+    "updated": [],
+    "removed": []
+  },
+  "bills": {
+    "added": [],
+    "updated": [
+      "119-HCONRES-58",
+      "119-HR-1721",
+      "119-HR-2388",
+      "119-HR-2481",
+      "119-HR-7831",
+      "119-S-1049",
+      "119-S-4784"
+    ],
+    "newLaws": [],
+    "withNewVotes": []
+  }
+}

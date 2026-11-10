@@ -9,7 +9,7 @@
   "bioguideId": "B001318",
   "birthYear": "1968",
   "cosponsoredLegislation": {
-    "count": 833,
+    "count": 747,
     "url": "https://api.congress.gov/v3/member/B001318/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 47,
+    "count": 40,
     "url": "https://api.congress.gov/v3/member/B001318/sponsored-legislation"
   },
   "state": "Vermont",
@@ -82,7 +82,7 @@
       "stateName": "Vermont"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "B001318",
     "fec": [

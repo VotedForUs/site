@@ -9,7 +9,7 @@
   "bioguideId": "F000463",
   "birthYear": "1951",
   "cosponsoredLegislation": {
-    "count": 1601,
+    "count": 1556,
     "url": "https://api.congress.gov/v3/member/F000463/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 350,
+    "count": 341,
     "url": "https://api.congress.gov/v3/member/F000463/sponsored-legislation"
   },
   "state": "Nebraska",

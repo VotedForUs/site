@@ -9,7 +9,7 @@
   "bioguideId": "H001066",
   "birthYear": "1973",
   "cosponsoredLegislation": {
-    "count": 1764,
+    "count": 1701,
     "url": "https://api.congress.gov/v3/member/H001066/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 119,
+    "count": 116,
     "url": "https://api.congress.gov/v3/member/H001066/sponsored-legislation"
   },
   "state": "Nevada",
@@ -115,7 +115,7 @@
       "stateName": "Nevada"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:15Z",
   "id": {
     "govtrack": 412559,
     "bioguide": "H001066",

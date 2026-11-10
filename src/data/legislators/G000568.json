@@ -9,7 +9,7 @@
   "bioguideId": "G000568",
   "birthYear": "1958",
   "cosponsoredLegislation": {
-    "count": 1244,
+    "count": 1204,
     "url": "https://api.congress.gov/v3/member/G000568/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 218,
+    "count": 213,
     "url": "https://api.congress.gov/v3/member/G000568/sponsored-legislation"
   },
   "state": "Virginia",
@@ -149,7 +149,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "G000568",
     "thomas": "02070",

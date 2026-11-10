@@ -9,7 +9,7 @@
   "bioguideId": "L000575",
   "birthYear": "1968",
   "cosponsoredLegislation": {
-    "count": 2414,
+    "count": 2342,
     "url": "https://api.congress.gov/v3/member/L000575/cosponsored-legislation"
   },
   "currentMember": true,
@@ -56,7 +56,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 676,
+    "count": 646,
     "url": "https://api.congress.gov/v3/member/L000575/sponsored-legislation"
   },
   "state": "Oklahoma",

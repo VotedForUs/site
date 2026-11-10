@@ -1,8 +1,68 @@
 {
   "actions": {
-    "count": 17,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/195/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-10-09",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-121.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-09",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-121.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-10-09",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-09",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-09-29",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-09-29",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-15",
@@ -728,10 +788,15 @@
   "congress": 119,
   "introducedDate": "2025-01-22",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "actionTime": "18:52:52",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-10-09",
+    "text": "Became Public Law No: 119-121."
   },
+  "laws": [
+    {
+      "number": "119-121",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/195",
   "number": "195",
   "originChamber": "Senate",
@@ -798,9 +863,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-18T05:23:19Z",
-  "updateDateIncludingText": "2026-09-18T05:23:19Z",
+  "updateDate": "2026-10-13T18:07:11Z",
+  "updateDateIncludingText": "2026-10-13T18:07:11Z",
   "id": "119-S-195",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-10-09",
   "lastRecordedVoteDate": "2026-09-15"
 }

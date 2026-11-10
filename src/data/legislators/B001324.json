@@ -9,7 +9,7 @@
   "bioguideId": "B001324",
   "birthYear": "1974",
   "cosponsoredLegislation": {
-    "count": 504,
+    "count": 381,
     "url": "https://api.congress.gov/v3/member/B001324/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 31,
+    "count": 23,
     "url": "https://api.congress.gov/v3/member/B001324/sponsored-legislation"
   },
   "state": "Missouri",
@@ -75,20 +75,16 @@
       "stateName": "Missouri"
     }
   ],
-  "updateDate": "2026-07-07T07:35:21Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "B001324",
     "fec": [
-      "H4MO01134",
-      "S4MO00250"
+      "H4MO01134"
     ],
     "govtrack": 456997,
     "opensecrets": "N00053042",
     "wikipedia": "Wesley Bell",
     "wikidata": "Q23806350",
-    "google_entity_id": "kg:/g/11g234cdqy",
-    "votesmart": 217416,
-    "ballotpedia": "Wesley Bell",
     "twitter": "RepWesleyBellMO",
     "facebook": "61571538239904"
   },

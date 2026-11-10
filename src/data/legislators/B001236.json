@@ -9,7 +9,7 @@
   "bioguideId": "B001236",
   "birthYear": "1950",
   "cosponsoredLegislation": {
-    "count": 4246,
+    "count": 4202,
     "url": "https://api.congress.gov/v3/member/B001236/cosponsored-legislation"
   },
   "currentMember": true,
@@ -50,7 +50,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 404,
+    "count": 399,
     "url": "https://api.congress.gov/v3/member/B001236/sponsored-legislation"
   },
   "state": "Arkansas",

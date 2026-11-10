@@ -9,7 +9,7 @@
   "bioguideId": "T000478",
   "birthYear": "1961",
   "cosponsoredLegislation": {
-    "count": 1853,
+    "count": 1772,
     "url": "https://api.congress.gov/v3/member/T000478/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 233,
+    "count": 221,
     "url": "https://api.congress.gov/v3/member/T000478/sponsored-legislation"
   },
   "state": "New York",
@@ -114,7 +114,7 @@
       "stateName": "New York"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "T000478",
     "fec": [

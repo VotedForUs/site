@@ -9,7 +9,7 @@
   "bioguideId": "F000446",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 817,
+    "count": 783,
     "url": "https://api.congress.gov/v3/member/F000446/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 103,
+    "count": 101,
     "url": "https://api.congress.gov/v3/member/F000446/sponsored-legislation"
   },
   "state": "Iowa",
@@ -95,7 +95,7 @@
       "stateName": "Iowa"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "F000446",
     "fec": [

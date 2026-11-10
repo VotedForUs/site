@@ -9,7 +9,7 @@
   "bioguideId": "M001233",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 217,
+    "count": 184,
     "url": "https://api.congress.gov/v3/member/M001233/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 16,
+    "count": 13,
     "url": "https://api.congress.gov/v3/member/M001233/sponsored-legislation"
   },
   "state": "Indiana",
@@ -89,7 +89,7 @@
       "stateName": "Indiana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "M001233",
     "fec": [
@@ -99,8 +99,6 @@
     "opensecrets": "N00054523",
     "wikipedia": "Mark Messmer",
     "wikidata": "Q6768869",
-    "ballotpedia": "Mark Messmer",
-    "votesmart": 102958,
     "facebook": "CongressmanMessmer",
     "instagram": "HouseRepublicans"
   },

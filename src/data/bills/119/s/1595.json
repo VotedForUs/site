@@ -222,6 +222,11 @@
     "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1595",
+  "notes": [
+    {
+      "text": "The text of <a href=\"https://www.congress.gov/bill/119/S/1595\" target=\"_blank\">S.1595</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/S/1071\" target=\"_blank\">S.1071</a>, which became Public Law 119-60."
+    }
+  ],
   "number": "1595",
   "originChamber": "Senate",
   "originChamberCode": "S",
@@ -305,8 +310,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-10T11:51:27Z",
-  "updateDateIncludingText": "2026-08-10T11:51:27Z",
+  "updateDate": "2026-09-24T22:04:24Z",
+  "updateDateIncludingText": "2026-09-24T22:04:24Z",
   "id": "119-S-1595",
   "lastActionDate": "2025-08-01",
   "lastRecordedVoteDate": "2025-07-29"

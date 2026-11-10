@@ -9,7 +9,7 @@
   "bioguideId": "C001056",
   "birthYear": "1952",
   "cosponsoredLegislation": {
-    "count": 4080,
+    "count": 4016,
     "url": "https://api.congress.gov/v3/member/C001056/cosponsored-legislation"
   },
   "currentMember": true,
@@ -55,7 +55,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1646,
+    "count": 1588,
     "url": "https://api.congress.gov/v3/member/C001056/sponsored-legislation"
   },
   "state": "Texas",

@@ -9,7 +9,7 @@
   "bioguideId": "B001282",
   "birthYear": "1973",
   "cosponsoredLegislation": {
-    "count": 1735,
+    "count": 1707,
     "url": "https://api.congress.gov/v3/member/B001282/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 222,
+    "count": 218,
     "url": "https://api.congress.gov/v3/member/B001282/sponsored-legislation"
   },
   "state": "Kentucky",
@@ -126,17 +126,16 @@
       "stateName": "Kentucky"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "govtrack": 412541,
     "bioguide": "B001282",
     "thomas": "02131",
     "cspan": 61848,
     "votesmart": 117290,
-    "wikipedia": "Andy Barr",
+    "wikipedia": "Andy Barr (American politician)",
     "fec": [
-      "H0KY06104",
-      "S6KY00286"
+      "H0KY06104"
     ],
     "opensecrets": "N00031233",
     "ballotpedia": "Andy Barr",

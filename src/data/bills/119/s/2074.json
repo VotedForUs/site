@@ -202,6 +202,10 @@
   "number": "2074",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/2074/summaries?format=json"
+  },
   "title": "Servicemembers’ Credit Monitoring Enhancement Act",
   "titles": {
     "titles": [
@@ -240,8 +244,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-03-17T11:29:12Z",
-  "updateDateIncludingText": "2026-07-18T20:55:16Z",
+  "updateDate": "2026-09-29T16:30:41Z",
+  "updateDateIncludingText": "2026-09-29T16:30:41Z",
   "id": "119-S-2074",
   "lastActionDate": "2026-03-16",
   "lastRecordedVoteDate": "2026-03-05"

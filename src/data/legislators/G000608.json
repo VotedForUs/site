@@ -2,16 +2,11 @@
   "addressInformation": {
     "city": "Washington",
     "district": "DC",
-    "officeAddress": "211 Russell Senate Office Building  Washington, DC 20510",
+    "officeAddress": "B33 Russell Senate Office Building  Washington, DC 20510",
     "phoneNumber": "(202) 224-5972",
     "zipCode": 20510
   },
   "bioguideId": "G000608",
-  "birthYear": "1964",
-  "cosponsoredLegislation": {
-    "count": 49,
-    "url": "https://api.congress.gov/v3/member/G000608/cosponsored-legislation"
-  },
   "currentMember": true,
   "directOrderName": "Darline Graham",
   "firstName": "Darline",
@@ -36,10 +31,6 @@
       "startDate": "2026-07-14T20:45:00Z"
     }
   ],
-  "sponsoredLegislation": {
-    "count": 3,
-    "url": "https://api.congress.gov/v3/member/G000608/sponsored-legislation"
-  },
   "state": "South Carolina",
   "terms": [
     {
@@ -51,35 +42,5 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-08-04T10:31:25Z",
-  "id": {
-    "bioguide": "G000608",
-    "lis": "S441",
-    "govtrack": 457044,
-    "wikipedia": "Darline Graham Nordone",
-    "wikidata": "Q140537772"
-  },
-  "name": {
-    "first": "Darline",
-    "last": "Graham Nordone",
-    "official_full": "Darline Graham"
-  },
-  "bio": {
-    "gender": "F",
-    "birthday": "1964-06-12"
-  },
-  "latest_term": {
-    "type": "sen",
-    "start": "2026-07-14",
-    "end": "2027-01-03",
-    "how": "appointment",
-    "state": "SC",
-    "class": 2,
-    "state_rank": "junior",
-    "party": "Republican",
-    "address": "B33 Russell Senate Office Building Washington DC 20510",
-    "office": "B33 Russell Senate Office Building",
-    "phone": "202-224-5972",
-    "url": "https://www.dgraham.senate.gov"
-  }
+  "updateDate": "2026-07-15T10:31:13Z"
 }

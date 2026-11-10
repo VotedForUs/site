@@ -9,7 +9,7 @@
   "bioguideId": "C001072",
   "birthYear": "1974",
   "cosponsoredLegislation": {
-    "count": 6353,
+    "count": 6164,
     "url": "https://api.congress.gov/v3/member/C001072/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 171,
+    "count": 170,
     "url": "https://api.congress.gov/v3/member/C001072/sponsored-legislation"
   },
   "state": "Indiana",
@@ -165,7 +165,7 @@
       "stateName": "Indiana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "C001072",
     "thomas": "01889",

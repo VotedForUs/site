@@ -15,7 +15,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00164.xml",
             "votes": {
               "A000382": "Nay",
-              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -971,7 +970,7 @@
         "title": "Fallen Servicemembers Religious Heritage Restoration Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:43:36Z"
+        "updateDate": "2026-09-19T23:27:02Z"
       },
       {
         "billTextVersionCode": "EAH",
@@ -1020,8 +1019,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-07-23T22:41:28Z",
-  "updateDateIncludingText": "2026-07-23T22:41:28Z",
+  "updateDate": "2026-09-19T23:27:02Z",
+  "updateDateIncludingText": "2026-09-19T23:27:02Z",
   "id": "119-S-1318",
   "lastActionDate": "2026-06-05",
   "lastRecordedVoteDate": "2026-06-05T09:05:36Z"

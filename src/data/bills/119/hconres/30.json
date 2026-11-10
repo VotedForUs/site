@@ -617,6 +617,10 @@
   "number": "30",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hconres/30/summaries?format=json"
+  },
   "title": "Expressing support for local law enforcement officers.",
   "titles": {
     "titles": [
@@ -632,7 +636,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Expressing support for local law enforcement officers.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T15:13:20Z"
       },
@@ -647,8 +651,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-08-10T11:51:27Z",
-  "updateDateIncludingText": "2026-08-10T11:51:27Z",
+  "updateDate": "2026-09-28T16:01:09Z",
+  "updateDateIncludingText": "2026-09-28T16:01:09Z",
   "id": "119-HCONRES-30",
   "lastActionDate": "2025-05-20",
   "lastRecordedVoteDate": "2025-05-13T22:55:20Z"

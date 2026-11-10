@@ -606,7 +606,7 @@
         "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish American community.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:53:58Z"
+        "updateDate": "2026-09-19T23:37:38Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -614,7 +614,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Calling on elected officials and civil society leaders to counter antisemitism and educate the public on the contributions of the Jewish American community.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T21:08:21Z"
       },
@@ -629,8 +629,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-17T23:53:58Z",
-  "updateDateIncludingText": "2026-07-19T00:21:16Z",
+  "updateDate": "2026-09-19T23:37:38Z",
+  "updateDateIncludingText": "2026-09-19T23:37:38Z",
   "id": "119-HRES-352",
   "lastActionDate": "2025-05-14",
   "lastRecordedVoteDate": "2025-05-14T21:36:22Z"

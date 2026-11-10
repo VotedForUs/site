@@ -9,7 +9,7 @@
   "bioguideId": "S001185",
   "birthYear": "1965",
   "cosponsoredLegislation": {
-    "count": 3212,
+    "count": 3119,
     "url": "https://api.congress.gov/v3/member/S001185/cosponsored-legislation"
   },
   "currentMember": true,
@@ -54,7 +54,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 123,
+    "count": 120,
     "url": "https://api.congress.gov/v3/member/S001185/sponsored-legislation"
   },
   "state": "Alabama",
@@ -139,7 +139,7 @@
       "stateName": "Alabama"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "S001185",
     "thomas": "01988",

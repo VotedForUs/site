@@ -9,7 +9,7 @@
   "bioguideId": "M001227",
   "birthYear": "1972",
   "cosponsoredLegislation": {
-    "count": 910,
+    "count": 813,
     "url": "https://api.congress.gov/v3/member/M001227/cosponsored-legislation"
   },
   "currentMember": true,
@@ -73,7 +73,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 49,
+    "count": 45,
     "url": "https://api.congress.gov/v3/member/M001227/sponsored-legislation"
   },
   "state": "Virginia",
@@ -98,7 +98,7 @@
       "stateName": "Virginia"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "M001227",
     "fec": [

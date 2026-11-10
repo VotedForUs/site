@@ -83,7 +83,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00084.xml",
             "votes": {
               "A000382": "Nay",
-              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -253,7 +252,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00083.xml",
             "votes": {
               "A000382": "Nay",
-              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -407,7 +405,6 @@
             "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00082.xml",
             "votes": {
               "A000382": "Nay",
-              "A000383": "Yea",
               "B001230": "Nay",
               "B001299": "Yea",
               "B001261": "Yea",
@@ -1212,7 +1209,7 @@
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Public Land Order No. 7917 for Withdrawal of Federal Lands; Cook, Lake, and Saint Louis Counties, MN.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-17T23:33:55Z"
+        "updateDate": "2026-09-19T23:15:53Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -1220,7 +1217,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Public Land Order No. 7917 for Withdrawal of Federal Lands; Cook, Lake, and Saint Louis Counties, MN.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-01-23T03:53:17Z"
       },
@@ -1235,8 +1232,8 @@
     ]
   },
   "type": "HJRES",
-  "updateDate": "2026-07-17T23:33:55Z",
-  "updateDateIncludingText": "2026-07-17T23:33:55Z",
+  "updateDate": "2026-09-19T23:15:53Z",
+  "updateDateIncludingText": "2026-09-19T23:15:53Z",
   "id": "119-HJRES-140",
   "lastActionDate": "2026-04-27",
   "lastRecordedVoteDate": "2026-04-16T16:02:32Z"

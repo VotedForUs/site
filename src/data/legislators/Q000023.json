@@ -9,7 +9,7 @@
   "bioguideId": "Q000023",
   "birthYear": "1958",
   "cosponsoredLegislation": {
-    "count": 3812,
+    "count": 3683,
     "url": "https://api.congress.gov/v3/member/Q000023/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 196,
+    "count": 192,
     "url": "https://api.congress.gov/v3/member/Q000023/sponsored-legislation"
   },
   "state": "Illinois",
@@ -155,7 +155,7 @@
       "stateName": "Illinois"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "Q000023",
     "thomas": "01967",

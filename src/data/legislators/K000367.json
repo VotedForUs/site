@@ -9,7 +9,7 @@
   "bioguideId": "K000367",
   "birthYear": "1960",
   "cosponsoredLegislation": {
-    "count": 5687,
+    "count": 5550,
     "url": "https://api.congress.gov/v3/member/K000367/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1431,
+    "count": 1407,
     "url": "https://api.congress.gov/v3/member/K000367/sponsored-legislation"
   },
   "state": "Minnesota",

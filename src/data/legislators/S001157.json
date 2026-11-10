@@ -1,12 +1,18 @@
 {
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "468 Cannon House Office Building",
+    "phoneNumber": "(202) 225-2939",
+    "zipCode": 20515
+  },
   "bioguideId": "S001157",
   "birthYear": "1945",
   "cosponsoredLegislation": {
-    "count": 3547,
+    "count": 3538,
     "url": "https://api.congress.gov/v3/member/S001157/cosponsored-legislation"
   },
-  "currentMember": false,
-  "deathYear": "2026",
+  "currentMember": true,
   "depiction": {
     "attribution": "Congressional Pictorial Directory",
     "imageUrl": "/images/legislators/S001157.jpg"
@@ -17,6 +23,7 @@
   "honorificName": "Mr.",
   "invertedOrderName": "Scott, David",
   "lastName": "Scott",
+  "officialWebsiteUrl": "https://davidscott.house.gov/",
   "partyHistory": [
     {
       "partyAbbreviation": "D",
@@ -44,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 116,
+    "count": 115,
     "url": "https://api.congress.gov/v3/member/S001157/sponsored-legislation"
   },
   "state": "Georgia",
@@ -163,14 +170,13 @@
       "chamber": "House of Representatives",
       "congress": 119,
       "district": 13,
-      "endYear": 2026,
       "memberType": "Representative",
       "startYear": 2025,
       "stateCode": "GA",
       "stateName": "Georgia"
     }
   ],
-  "updateDate": "2026-04-23T10:59:01Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "S001157",
     "thomas": "01722",
@@ -188,7 +194,13 @@
     "house_history": 22574,
     "wikidata": "Q132071",
     "google_entity_id": "kg:/m/0255r4",
-    "pictorial": 13022
+    "pictorial": 13022,
+    "twitter": "RepDavidScott",
+    "facebook": "113303673339",
+    "youtube": "RepDavidScott",
+    "youtube_id": "UCgf28zRkLSqAUiPuJhGdF0w",
+    "twitter_id": 168673083,
+    "instagram": "RepDavidScott"
   },
   "name": {
     "first": "David",
@@ -202,7 +214,7 @@
   "latest_term": {
     "type": "rep",
     "start": "2025-01-03",
-    "end": "2026-04-21",
+    "end": "2027-01-03",
     "state": "GA",
     "district": 13,
     "party": "Democrat",

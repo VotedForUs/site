@@ -9,7 +9,7 @@
   "bioguideId": "M001232",
   "birthYear": "1964",
   "cosponsoredLegislation": {
-    "count": 440,
+    "count": 345,
     "url": "https://api.congress.gov/v3/member/M001232/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 29,
+    "count": 21,
     "url": "https://api.congress.gov/v3/member/M001232/sponsored-legislation"
   },
   "state": "Maryland",
@@ -75,7 +75,7 @@
       "stateName": "Maryland"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "M001232",
     "fec": [
@@ -83,11 +83,8 @@
     ],
     "govtrack": 456993,
     "opensecrets": "N00053899",
-    "wikipedia": "April McClain Delaney",
+    "wikipedia": "April McClain-Delaney",
     "wikidata": "Q125935301",
-    "google_entity_id": "kg:/g/11fym2333d",
-    "votesmart": 214608,
-    "ballotpedia": "April McClain-Delaney",
     "twitter": "RepAprilDelaney",
     "facebook": "RepAprilDelaney",
     "instagram": "repaprildelaney"

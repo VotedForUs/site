@@ -9,7 +9,7 @@
   "bioguideId": "F000459",
   "birthYear": "1962",
   "cosponsoredLegislation": {
-    "count": 1504,
+    "count": 1457,
     "url": "https://api.congress.gov/v3/member/F000459/cosponsored-legislation"
   },
   "currentMember": true,
@@ -64,7 +64,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 51,
+    "count": 49,
     "url": "https://api.congress.gov/v3/member/F000459/sponsored-legislation"
   },
   "state": "Tennessee",
@@ -149,7 +149,7 @@
       "stateName": "Tennessee"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "F000459",
     "thomas": "02061",

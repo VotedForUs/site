@@ -9,7 +9,7 @@
   "bioguideId": "B001313",
   "birthYear": "1975",
   "cosponsoredLegislation": {
-    "count": 1011,
+    "count": 953,
     "url": "https://api.congress.gov/v3/member/B001313/cosponsored-legislation"
   },
   "currentMember": true,
@@ -82,7 +82,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 45,
+    "count": 35,
     "url": "https://api.congress.gov/v3/member/B001313/sponsored-legislation"
   },
   "state": "Ohio",
@@ -117,7 +117,7 @@
       "stateName": "Ohio"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:17Z",
   "id": {
     "bioguide": "B001313",
     "fec": [
@@ -129,8 +129,6 @@
     "wikidata": "Q107863952",
     "pictorial": 13205,
     "google_entity_id": "kg:/g/11pqpwbhlx",
-    "votesmart": 161622,
-    "ballotpedia": "Shontel Brown",
     "twitter": "RepShontelBrown",
     "twitter_id": 1456381091598700500,
     "mastodon": "@RepShontelBrown@mastodon.social",

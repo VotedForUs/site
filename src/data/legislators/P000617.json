@@ -9,7 +9,7 @@
   "bioguideId": "P000617",
   "birthYear": "1974",
   "cosponsoredLegislation": {
-    "count": 1863,
+    "count": 1798,
     "url": "https://api.congress.gov/v3/member/P000617/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 156,
+    "count": 144,
     "url": "https://api.congress.gov/v3/member/P000617/sponsored-legislation"
   },
   "state": "Massachusetts",
@@ -105,7 +105,7 @@
       "stateName": "Massachusetts"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:15Z",
   "id": {
     "bioguide": "P000617",
     "fec": [

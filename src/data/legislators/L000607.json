@@ -9,7 +9,7 @@
   "bioguideId": "L000607",
   "birthYear": "1970",
   "cosponsoredLegislation": {
-    "count": 176,
+    "count": 139,
     "url": "https://api.congress.gov/v3/member/L000607/cosponsored-legislation"
   },
   "currentMember": true,
@@ -74,7 +74,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 17,
+    "count": 12,
     "url": "https://api.congress.gov/v3/member/L000607/sponsored-legislation"
   },
   "state": "California",
@@ -89,7 +89,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "L000607",
     "fec": [
@@ -99,8 +99,6 @@
     "opensecrets": "N00054265",
     "wikipedia": "Sam Liccardo",
     "wikidata": "Q16731481",
-    "votesmart": 70450,
-    "ballotpedia": "Sam Liccardo",
     "twitter": "repliccardo",
     "instagram": "repliccardo"
   },

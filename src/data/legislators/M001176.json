@@ -9,7 +9,7 @@
   "bioguideId": "M001176",
   "birthYear": "1956",
   "cosponsoredLegislation": {
-    "count": 5019,
+    "count": 4825,
     "url": "https://api.congress.gov/v3/member/M001176/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 1266,
+    "count": 1201,
     "url": "https://api.congress.gov/v3/member/M001176/sponsored-legislation"
   },
   "state": "Oregon",

@@ -9,7 +9,7 @@
   "bioguideId": "B001315",
   "birthYear": "1977",
   "cosponsoredLegislation": {
-    "count": 968,
+    "count": 872,
     "url": "https://api.congress.gov/v3/member/B001315/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 34,
+    "count": 33,
     "url": "https://api.congress.gov/v3/member/B001315/sponsored-legislation"
   },
   "state": "Illinois",
@@ -85,7 +85,7 @@
       "stateName": "Illinois"
     }
   ],
-  "updateDate": "2026-08-31T07:40:33Z",
+  "updateDate": "2025-09-24T07:40:18Z",
   "id": {
     "bioguide": "B001315",
     "fec": [
@@ -98,7 +98,6 @@
     "votesmart": 204328,
     "pictorial": 13045,
     "google_entity_id": "kg:/g/11rxhx_k14",
-    "ballotpedia": "Nikki Budzinski",
     "twitter": "RepNikkiB",
     "twitter_id": 1603476713995911200,
     "facebook": "RepNikkiBudzinski",

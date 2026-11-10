@@ -741,37 +741,7 @@
         "title": "To reauthorize the Young Women’s Breast Health Education and Awareness Requires Learning Young Act of 2009.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-07-22T05:38:26Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "SCREENS for Cancer Act of 2025",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-22T05:38:24Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Screening for Communities to Receive Early and Equitable Needed Services for Cancer Act of 2025",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-22T05:38:24Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "EARLY Act Reauthorization of 2025",
-        "titleType": "Short Title(s) as Passed House for portions of this bill",
-        "titleTypeCode": 109,
-        "updateDate": "2026-07-22T05:38:24Z"
+        "updateDate": "2026-09-19T23:40:08Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -779,8 +749,38 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To reauthorize the Young Women’s Breast Health Education and Awareness Requires Learning Young Act of 2009.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "SCREENS for Cancer Act of 2025",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Screening for Communities to Receive Early and Equitable Needed Services for Cancer Act of 2025",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-07-22T05:38:24Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "EARLY Act Reauthorization of 2025",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
         "updateDate": "2026-07-22T05:38:24Z"
       },
       {
@@ -798,7 +798,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Screening for Communities to Receive Early and Equitable Needed Services for Cancer Act of 2025",
+        "title": "EARLY Act Reauthorization of 2025",
         "titleType": "Short Title(s) as Reported to House for portions of this bill",
         "titleTypeCode": 107,
         "updateDate": "2026-07-14T13:28:38Z"
@@ -808,7 +808,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "EARLY Act Reauthorization of 2025",
+        "title": "Screening for Communities to Receive Early and Equitable Needed Services for Cancer Act of 2025",
         "titleType": "Short Title(s) as Reported to House for portions of this bill",
         "titleTypeCode": 107,
         "updateDate": "2026-07-14T13:28:38Z"
@@ -832,8 +832,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-08-20T22:41:41Z",
-  "updateDateIncludingText": "2026-08-20T22:41:41Z",
+  "updateDate": "2026-09-19T23:40:08Z",
+  "updateDateIncludingText": "2026-09-19T23:40:08Z",
   "id": "119-HR-4541",
   "lastActionDate": "2026-07-27",
   "lastRecordedVoteDate": "2026-07-20T23:03:22Z"

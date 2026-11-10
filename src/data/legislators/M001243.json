@@ -9,7 +9,7 @@
   "bioguideId": "M001243",
   "birthYear": "1965",
   "cosponsoredLegislation": {
-    "count": 378,
+    "count": 182,
     "url": "https://api.congress.gov/v3/member/M001243/cosponsored-legislation"
   },
   "currentMember": true,
@@ -61,7 +61,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 78,
+    "count": 40,
     "url": "https://api.congress.gov/v3/member/M001243/sponsored-legislation"
   },
   "state": "Pennsylvania",
@@ -86,7 +86,6 @@
     "opensecrets": "N00050244",
     "wikipedia": "Dave McCormick",
     "wikidata": "Q5234544",
-    "ballotpedia": "David McCormick (Pennsylvania)",
     "facebook": "SenMcCormickPA",
     "instagram": "senmccormickpa",
     "youtube": "@SenMcCormickPA"

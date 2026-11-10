@@ -9,7 +9,7 @@
   "bioguideId": "B001243",
   "birthYear": "1952",
   "cosponsoredLegislation": {
-    "count": 4895,
+    "count": 4777,
     "url": "https://api.congress.gov/v3/member/B001243/cosponsored-legislation"
   },
   "currentMember": true,
@@ -41,7 +41,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 810,
+    "count": 779,
     "url": "https://api.congress.gov/v3/member/B001243/sponsored-legislation"
   },
   "state": "Tennessee",

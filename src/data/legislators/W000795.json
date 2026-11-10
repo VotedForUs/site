@@ -9,7 +9,7 @@
   "bioguideId": "W000795",
   "birthYear": "1947",
   "cosponsoredLegislation": {
-    "count": 4761,
+    "count": 4688,
     "url": "https://api.congress.gov/v3/member/W000795/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 347,
+    "count": 335,
     "url": "https://api.congress.gov/v3/member/W000795/sponsored-legislation"
   },
   "state": "South Carolina",
@@ -186,7 +186,7 @@
       "stateName": "South Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:12Z",
   "id": {
     "bioguide": "W000795",
     "thomas": "01688",
@@ -197,7 +197,7 @@
       "H2SC02059"
     ],
     "cspan": 1002567,
-    "wikipedia": "Joe Wilson",
+    "wikipedia": "Joe Wilson (American politician)",
     "ballotpedia": "Joe Wilson",
     "maplight": 519,
     "icpsr": 20138,

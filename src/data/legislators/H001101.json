@@ -9,7 +9,7 @@
   "bioguideId": "H001101",
   "birthYear": "1987",
   "cosponsoredLegislation": {
-    "count": 313,
+    "count": 214,
     "url": "https://api.congress.gov/v3/member/H001101/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 30,
+    "count": 16,
     "url": "https://api.congress.gov/v3/member/H001101/sponsored-legislation"
   },
   "state": "North Carolina",
@@ -75,7 +75,7 @@
       "stateName": "North Carolina"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "H001101",
     "fec": [
@@ -85,8 +85,6 @@
     "opensecrets": "N00050144",
     "wikipedia": "Pat Harrigan",
     "wikidata": "Q131179069",
-    "votesmart": 202557,
-    "ballotpedia": "Pat Harrigan",
     "twitter": "RepPatHarrigan",
     "facebook": "RepPatHarrigan",
     "instagram": "RepPatHarrigan"

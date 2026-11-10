@@ -9,7 +9,7 @@
   "bioguideId": "M001238",
   "birthYear": "1990",
   "cosponsoredLegislation": {
-    "count": 640,
+    "count": 507,
     "url": "https://api.congress.gov/v3/member/M001238/cosponsored-legislation"
   },
   "currentMember": true,
@@ -59,7 +59,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 10,
+    "count": 6,
     "url": "https://api.congress.gov/v3/member/M001238/sponsored-legislation"
   },
   "state": "Delaware",
@@ -73,7 +73,7 @@
       "stateName": "Delaware"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:19Z",
   "id": {
     "bioguide": "M001238",
     "fec": [
@@ -83,8 +83,6 @@
     "opensecrets": "N00052698",
     "wikipedia": "Sarah McBride",
     "wikidata": "Q17011236",
-    "votesmart": 195142,
-    "ballotpedia": "Sarah McBride",
     "facebook": "CongresswomanSarahMcBride",
     "instagram": "congresswomansarahmcbride"
   },

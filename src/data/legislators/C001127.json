@@ -1,11 +1,18 @@
 {
+  "addressInformation": {
+    "city": "Washington",
+    "district": "DC",
+    "officeAddress": "2442 Rayburn House Office Building",
+    "phoneNumber": "(202) 225-1313",
+    "zipCode": 20515
+  },
   "bioguideId": "C001127",
   "birthYear": "1979",
   "cosponsoredLegislation": {
-    "count": 1292,
+    "count": 1273,
     "url": "https://api.congress.gov/v3/member/C001127/cosponsored-legislation"
   },
-  "currentMember": false,
+  "currentMember": true,
   "depiction": {
     "attribution": "Image courtesy of the Member",
     "imageUrl": "/images/legislators/C001127.jpg"
@@ -16,6 +23,7 @@
   "honorificName": "Mrs.",
   "invertedOrderName": "Cherfilus-McCormick, Sheila",
   "lastName": "Cherfilus-McCormick",
+  "officialWebsiteUrl": "https://cherfilus-mccormick.house.gov/",
   "partyHistory": [
     {
       "partyAbbreviation": "D",
@@ -70,7 +78,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 45,
+    "count": 41,
     "url": "https://api.congress.gov/v3/member/C001127/sponsored-legislation"
   },
   "state": "Florida",
@@ -99,14 +107,13 @@
       "chamber": "House of Representatives",
       "congress": 119,
       "district": 20,
-      "endYear": 2026,
       "memberType": "Representative",
       "startYear": 2025,
       "stateCode": "FL",
       "stateName": "Florida"
     }
   ],
-  "updateDate": "2026-04-22T11:18:26Z",
+  "updateDate": "2025-09-24T07:40:17Z",
   "id": {
     "bioguide": "C001127",
     "fec": [
@@ -118,8 +125,7 @@
     "wikidata": "Q109560948",
     "pictorial": 13001,
     "google_entity_id": "kg:/g/11j8p2mk08",
-    "votesmart": 182285,
-    "ballotpedia": "Sheila Cherfilus-McCormick"
+    "facebook": "congresswomanSCM"
   },
   "name": {
     "first": "Sheila",
@@ -133,7 +139,7 @@
   "latest_term": {
     "type": "rep",
     "start": "2025-01-03",
-    "end": "2026-04-21",
+    "end": "2027-01-03",
     "state": "FL",
     "district": 20,
     "party": "Democrat",

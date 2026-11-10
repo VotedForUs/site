@@ -9,7 +9,7 @@
   "bioguideId": "F000483",
   "birthYear": "1966",
   "cosponsoredLegislation": {
-    "count": 326,
+    "count": 272,
     "url": "https://api.congress.gov/v3/member/F000483/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 11,
+    "count": 9,
     "url": "https://api.congress.gov/v3/member/F000483/sponsored-legislation"
   },
   "state": "California",
@@ -75,7 +75,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:34Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "F000483",
     "fec": [
@@ -85,8 +85,6 @@
     "opensecrets": "N00052209",
     "wikipedia": "Laura Friedman",
     "wikidata": "Q6498920",
-    "votesmart": 111792,
-    "ballotpedia": "Laura Friedman",
     "twitter": "RepFriedmanCA",
     "facebook": "RepLauraFriedman",
     "instagram": "RepLauraFriedman"

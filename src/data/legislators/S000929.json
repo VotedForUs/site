@@ -9,7 +9,7 @@
   "bioguideId": "S000929",
   "birthYear": "1978",
   "cosponsoredLegislation": {
-    "count": 314,
+    "count": 301,
     "url": "https://api.congress.gov/v3/member/S000929/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 47,
+    "count": 44,
     "url": "https://api.congress.gov/v3/member/S000929/sponsored-legislation"
   },
   "state": "Indiana",
@@ -95,7 +95,7 @@
       "stateName": "Indiana"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "S000929",
     "fec": [

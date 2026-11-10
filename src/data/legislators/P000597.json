@@ -9,7 +9,7 @@
   "bioguideId": "P000597",
   "birthYear": "1955",
   "cosponsoredLegislation": {
-    "count": 4870,
+    "count": 4726,
     "url": "https://api.congress.gov/v3/member/P000597/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 180,
+    "count": 179,
     "url": "https://api.congress.gov/v3/member/P000597/sponsored-legislation"
   },
   "state": "Maine",
@@ -155,7 +155,7 @@
       "stateName": "Maine"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "P000597",
     "thomas": "01927",

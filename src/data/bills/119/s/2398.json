@@ -1,8 +1,68 @@
 {
   "actions": {
-    "count": 17,
+    "count": 23,
     "url": "https://api.congress.gov/v3/bill/119/s/2398/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-09-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-118.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-118.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-09-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-09-30",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-09-29",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-09-29",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-15",
@@ -728,16 +788,21 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-09-15",
-    "actionTime": "19:13:55",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-09-30",
+    "text": "Became Public Law No: 119-118."
   },
+  "laws": [
+    {
+      "number": "119-118",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2398",
   "number": "2398",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/2398/summaries?format=json"
   },
   "title": "Kay Hagan Tick Reauthorization Act",
@@ -798,9 +863,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-18T05:08:20Z",
-  "updateDateIncludingText": "2026-09-18T05:34:54Z",
+  "updateDate": "2026-10-26T15:38:23Z",
+  "updateDateIncludingText": "2026-10-26T15:38:23Z",
   "id": "119-S-2398",
-  "lastActionDate": "2026-09-15",
+  "lastActionDate": "2026-09-30",
   "lastRecordedVoteDate": "2026-09-15"
 }

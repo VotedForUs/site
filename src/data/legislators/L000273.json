@@ -9,7 +9,7 @@
   "bioguideId": "L000273",
   "birthYear": "1959",
   "cosponsoredLegislation": {
-    "count": 872,
+    "count": 825,
     "url": "https://api.congress.gov/v3/member/L000273/cosponsored-legislation"
   },
   "currentMember": true,
@@ -69,7 +69,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 103,
+    "count": 97,
     "url": "https://api.congress.gov/v3/member/L000273/sponsored-legislation"
   },
   "state": "New Mexico",
@@ -104,7 +104,7 @@
       "stateName": "New Mexico"
     }
   ],
-  "updateDate": "2026-08-31T07:40:32Z",
+  "updateDate": "2025-09-24T07:40:16Z",
   "id": {
     "bioguide": "L000273",
     "fec": [
@@ -113,11 +113,9 @@
     "opensecrets": "N00044559",
     "govtrack": 456835,
     "wikidata": "Q96054905",
-    "wikipedia": "Teresa Leger Fernández",
+    "wikipedia": "Teresa Leger Fernandez",
     "google_entity_id": "kg:/g/11h_x7n8f5",
     "pictorial": 13164,
-    "votesmart": 189882,
-    "ballotpedia": "Teresa Leger Fernandez",
     "twitter": "RepTeresaLF",
     "twitter_id": 1345147845926670300,
     "mastodon": "@RepTeresaLF@mastodon.social",

@@ -1,8 +1,68 @@
 {
   "actions": {
-    "count": 19,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/s/2403/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-10-15",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-124.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-15",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-124.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-10-15",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-10-15",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-09-16",
@@ -507,7 +567,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 401 - 14 (Roll no. 314).",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 401 - 14 (Roll no. 314). (text: CR H5905)",
         "type": "Floor"
       },
       {
@@ -518,7 +578,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H5960)",
         "type": "Floor"
       },
       {
@@ -551,7 +611,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H5905-5906)",
         "type": "Floor"
       },
       {
@@ -661,21 +721,36 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-09-16",
-    "actionTime": "19:05:18",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-10-15",
+    "text": "Became Public Law No: 119-124."
   },
+  "laws": [
+    {
+      "number": "119-124",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2403",
   "number": "2403",
   "originChamber": "Senate",
   "originChamberCode": "S",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/s/2403/summaries?format=json"
   },
   "title": "Retire through Ownership Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Retire through Ownership Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-09-23T06:53:22Z"
+      },
       {
         "title": "Retire through Ownership Act",
         "titleType": "Display Title",
@@ -721,9 +796,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-17T08:08:10Z",
-  "updateDateIncludingText": "2026-09-17T08:08:10Z",
+  "updateDate": "2026-10-26T14:23:23Z",
+  "updateDateIncludingText": "2026-10-26T14:23:23Z",
   "id": "119-S-2403",
-  "lastActionDate": "2026-09-16",
+  "lastActionDate": "2026-10-15",
   "lastRecordedVoteDate": "2026-09-16T23:05:16Z"
 }

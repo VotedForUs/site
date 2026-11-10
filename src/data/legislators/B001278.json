@@ -9,7 +9,7 @@
   "bioguideId": "B001278",
   "birthYear": "1954",
   "cosponsoredLegislation": {
-    "count": 4132,
+    "count": 4014,
     "url": "https://api.congress.gov/v3/member/B001278/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 292,
+    "count": 280,
     "url": "https://api.congress.gov/v3/member/B001278/sponsored-legislation"
   },
   "state": "Oregon",
@@ -136,7 +136,7 @@
       "stateName": "Oregon"
     }
   ],
-  "updateDate": "2026-08-31T07:40:30Z",
+  "updateDate": "2025-09-24T07:40:13Z",
   "id": {
     "bioguide": "B001278",
     "thomas": "02092",

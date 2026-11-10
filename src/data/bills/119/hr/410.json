@@ -896,18 +896,18 @@
   "titles": {
     "titles": [
       {
+        "title": "Alaska Native Vietnam Era Veterans Land Allotment Extension Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-09-19T23:07:50Z"
+      },
+      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "To extend the Alaska Native Vietnam era veterans land allotment program, and for other purposes.",
         "titleType": "Official Title as Introduced",
         "titleTypeCode": 6,
-        "updateDate": "2026-07-18T00:06:18Z"
-      },
-      {
-        "title": "Alaska Native Vietnam Era Veterans Land Allotment Extension Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2026-07-18T00:06:18Z"
+        "updateDate": "2026-09-19T23:07:50Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -915,7 +915,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To extend the Alaska Native Vietnam era veterans land allotment program, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T17:23:21Z"
       },
@@ -970,8 +970,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:19:10Z",
+  "updateDate": "2026-09-19T23:07:50Z",
+  "updateDateIncludingText": "2026-09-19T23:07:50Z",
   "id": "119-HR-410",
   "lastActionDate": "2025-12-26",
   "lastRecordedVoteDate": "2025-12-16"

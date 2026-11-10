@@ -9,7 +9,7 @@
   "bioguideId": "C001108",
   "birthYear": "1972",
   "cosponsoredLegislation": {
-    "count": 615,
+    "count": 609,
     "url": "https://api.congress.gov/v3/member/C001108/cosponsored-legislation"
   },
   "currentMember": true,
@@ -51,7 +51,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 51,
+    "count": 48,
     "url": "https://api.congress.gov/v3/member/C001108/sponsored-legislation"
   },
   "state": "Kentucky",
@@ -116,7 +116,7 @@
       "stateName": "Kentucky"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "C001108",
     "govtrack": 412676,
@@ -125,7 +125,7 @@
       "H6KY01110"
     ],
     "cspan": 76619,
-    "wikipedia": "James Comer",
+    "wikipedia": "James Comer (politician)",
     "ballotpedia": "James Comer Jr.",
     "google_entity_id": "kg:/m/0j65cf0",
     "wikidata": "Q6131602",

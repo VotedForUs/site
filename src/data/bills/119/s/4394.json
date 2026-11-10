@@ -225,6 +225,10 @@
   "number": "4394",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4394/summaries?format=json"
+  },
   "title": "Promoting Police Leadership Act",
   "titles": {
     "titles": [
@@ -273,8 +277,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-08-10T11:51:27Z",
-  "updateDateIncludingText": "2026-08-10T11:51:27Z",
+  "updateDate": "2026-09-30T15:35:27Z",
+  "updateDateIncludingText": "2026-09-30T15:35:27Z",
   "id": "119-S-4394",
   "lastActionDate": "2026-06-15",
   "lastRecordedVoteDate": "2026-06-10"

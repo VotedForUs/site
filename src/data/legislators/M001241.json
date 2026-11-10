@@ -9,7 +9,7 @@
   "bioguideId": "M001241",
   "birthYear": "1976",
   "cosponsoredLegislation": {
-    "count": 370,
+    "count": 304,
     "url": "https://api.congress.gov/v3/member/M001241/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 30,
+    "count": 18,
     "url": "https://api.congress.gov/v3/member/M001241/sponsored-legislation"
   },
   "state": "California",
@@ -75,7 +75,7 @@
       "stateName": "California"
     }
   ],
-  "updateDate": "2026-08-31T07:40:31Z",
+  "updateDate": "2025-09-24T07:40:14Z",
   "id": {
     "bioguide": "M001241",
     "fec": [
@@ -84,10 +84,7 @@
     "govtrack": 456981,
     "opensecrets": "N00040866",
     "wikipedia": "Dave Min",
-    "wikidata": "Q31213321",
-    "votesmart": 179392,
-    "ballotpedia": "Dave Min",
-    "google_entity_id": "kg:/g/11fx8l8rg9"
+    "wikidata": "Q31213321"
   },
   "name": {
     "first": "Dave",

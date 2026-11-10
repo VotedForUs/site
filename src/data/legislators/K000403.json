@@ -9,7 +9,7 @@
   "bioguideId": "K000403",
   "birthYear": "1969",
   "cosponsoredLegislation": {
-    "count": 143,
+    "count": 110,
     "url": "https://api.congress.gov/v3/member/K000403/cosponsored-legislation"
   },
   "currentMember": true,
@@ -60,7 +60,7 @@
     }
   ],
   "sponsoredLegislation": {
-    "count": 36,
+    "count": 31,
     "url": "https://api.congress.gov/v3/member/K000403/sponsored-legislation"
   },
   "state": "Utah",
@@ -75,7 +75,7 @@
       "stateName": "Utah"
     }
   ],
-  "updateDate": "2026-08-31T07:40:35Z",
+  "updateDate": "2025-09-24T07:40:20Z",
   "id": {
     "bioguide": "K000403",
     "fec": [
@@ -83,9 +83,8 @@
     ],
     "govtrack": 457025,
     "opensecrets": "N00043086",
-    "wikipedia": "Mike Kennedy",
+    "wikipedia": "Mike Kennedy (politician)",
     "wikidata": "Q16730723",
-    "votesmart": 137469,
     "twitter": "repmikekennedy",
     "facebook": "RepMikeKennedy",
     "instagram": "repmikekennedy"
