@@ -5,6 +5,28 @@ import { defineConfig } from 'astro/config';
 // Defaults to '/' so local dev works at http://localhost:4321/
 const base = process.env.BASE_URL ?? '/';
 
+/**
+ * Routes that exist only under `astro dev`.
+ *
+ * `/social-card-capture` renders one share card and nothing else, at exactly
+ * 1200×630, for `npm run social-cards` to screenshot. It is injected here
+ * rather than kept in `src/pages/` so no build can ever emit it.
+ */
+/** @type {import('astro').AstroIntegration} */
+const devOnlyRoutes = {
+  name: 'vfu-dev-only-routes',
+  hooks: {
+    'astro:config:setup': ({ command, injectRoute }) => {
+      if (command !== 'dev') return;
+      injectRoute({
+        pattern: '/social-card-capture',
+        entrypoint: './src/dev/social-card-capture.astro',
+        prerender: false,
+      });
+    },
+  },
+};
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://votedfor.us',
@@ -12,6 +34,7 @@ export default defineConfig({
   outDir: './dist',
   cacheDir: './.astro',
   output: 'static',
+  integrations: [devOnlyRoutes],
   devToolbar: {
     enabled: false,
   },

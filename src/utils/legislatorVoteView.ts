@@ -157,7 +157,7 @@ export function buildLegislatorVoteView(
     legislator: legislatorView,
     page: {
       title: `${nameTitle} - ${vote.billType} ${vote.billNumber}`,
-      socialCardPath: `/social-cards/v/${voteId}/${bioguideId}.png`,
+      socialCardPath: `/social-cards/${voteId}/${bioguideId}.png`,
     },
     display: buildLegislatorVoteDisplay({
       voteCast: vote.vote,

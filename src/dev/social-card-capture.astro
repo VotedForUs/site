@@ -1,0 +1,118 @@
+---
+/**
+ * One share card and nothing else, at exactly 1200×630, for
+ * `npm run social-cards` to screenshot. Dev only: `astro.config.mjs` injects
+ * this route under `astro dev`, so no build emits it.
+ *
+ *   /social-card-capture?voteId=119-HR-1-3&bioguideId=A000382   one cast
+ *   /social-card-capture?default                                the site's default image
+ *
+ * A cast that does not resolve is a 404, never a sample card: the generator
+ * must fail rather than save a picture of the wrong vote.
+ */
+import '../layouts/global.css';
+import SiteName from '../components/SiteName.astro';
+import VotedCard from '../components/social-cards/VotedCard.astro';
+import { toVotedCardProps } from '../utils/legislatorVoteView.js';
+import { resolveLegislatorVoteViewFromFiles } from '../utils/resolveLegislatorVoteViewFromFiles.js';
+import { localHeadshot } from '../utils/headshot.js';
+import { seoConfig } from '../../utils/seoConfig';
+
+const params = Astro.url.searchParams;
+const voteId = params.get('voteId');
+const bioguideId = params.get('bioguideId');
+const isDefault = params.has('default');
+
+let card = null;
+if (!isDefault) {
+  if (!voteId || !bioguideId) return new Response('voteId and bioguideId are required', { status: 400 });
+  const result = await resolveLegislatorVoteViewFromFiles({ voteId, bioguideId });
+  if (!result.ok) return new Response(`No cast for ${voteId} / ${bioguideId}`, { status: 404 });
+  // Only a portrait we hold: the collection's URL can be congress.gov's, and a
+  // card must not depend on another site being up when it is drawn.
+  card = { ...toVotedCardProps(result.view), imageUrl: localHeadshot(bioguideId) ?? '' };
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Social card capture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {card ? (
+      <VotedCard {...card} />
+    ) : (
+      <div class="default-card">
+        <SiteName size="hero" />
+        <p class="default-tagline">{seoConfig.description.replace(/\s*Data from Congress\.gov\.?$/, '')}</p>
+        <p class="default-source">Data from Congress.gov</p>
+      </div>
+    )}
+  </body>
+</html>
+
+<style is:global>
+  /* The card is always the light treatment, whatever the machine drawing it prefers. */
+  html {
+    color-scheme: light;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #ffffff;
+  }
+</style>
+
+<style>
+  .default-card {
+    --primary: var(--blue);
+    --error: var(--red);
+    width: 1200px;
+    height: 630px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    background: #ffffff;
+    color: #111111;
+    font-family: var(--font-sans, 'Public Sans', sans-serif);
+    box-shadow:
+      inset 0 0 0 6px var(--primary),
+      inset 0 0 0 9px var(--error);
+  }
+
+  .default-card :global(.sitename) {
+    font-size: 124px;
+    line-height: 1;
+  }
+
+  .default-tagline {
+    margin: 0;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .default-source {
+    margin: 0;
+    font-family: var(--font-mono, 'JetBrains Mono', monospace);
+    font-size: 22px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #55534d;
+  }
+</style>

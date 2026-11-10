@@ -13,7 +13,7 @@ export interface Props {
   ogTitle?: string;
   image?: { url: string; alt: string };
   disableIndexing?: boolean;
-  /** Path to social card image (e.g. /social-cards/v/119-HR-4405-1/B000944.png). When set, used as og:image with 1200×628. */
+  /** Path to social card image (e.g. /social-cards/119-HR-4405-1/B000944.png). When set, used as og:image at 1200×630. */
   socialCardPath?: string;
   /** When set, adds a meta-refresh redirect to this URL. Use with disableIndexing=true. */
   redirect?: string;
@@ -47,11 +47,12 @@ const {
 const descriptionResolved = description ?? seoConfig.description;
 const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, { pageTitle: title, labels: breadcrumbLabels });
 
-const ogImageUrl = socialCardPath
-  ? `${seoConfig.baseURL}${socialCardPath}`
-  : image?.url ?? seoConfig.image.url;
+// Always absolute: a link preview is fetched by another site's crawler, which
+// has nothing to resolve a relative path against.
+const absolute = (url: string) => (/^https?:\/\//.test(url) ? url : `${seoConfig.baseURL}${url}`);
+const ogImageUrl = absolute(socialCardPath ?? image?.url ?? seoConfig.image.url);
 const ogImageWidth = socialCardPath ? 1200 : seoConfig.image.width;
-const ogImageHeight = socialCardPath ? 628 : seoConfig.image.height;
+const ogImageHeight = socialCardPath ? 630 : seoConfig.image.height;
 const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoConfig.image.alt);
 ---
 

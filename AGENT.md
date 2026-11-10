@@ -74,7 +74,7 @@ Vote content selection and synthesis live in the votes package (`CongressApi`, C
 |-------|--------|
 | `/social-card-design` | OG design playground (`noindex`). Not the Puppeteer capture URL. See `.cursor/social-cards.md`. |
 
-**Do not expect:** `/congress/…`, root `/house`/`/senate`, or `/social-card-voted` (capture route **missing**; generator still targets it).
+**Do not expect:** `/congress/…`, root `/house`/`/senate`, `/v/…`, `/legislators/…`, or any social-card route in a build (`/social-card-capture` exists under `astro dev` only).
 
 ## Data & content collections
 
@@ -139,18 +139,26 @@ Note: `Breadcrumbs.astro` is **misnamed** (renders vote UI). Layout nav crumbs c
 
 **Invariant:** page copy and OG card props must share `legislatorVoteView` / `toVotedCardProps` — do not invent a second string builder for the generator.
 
-## Social cards (status)
+## Social cards
 
-Plans: `.cursor/social-cards.md` (finish), `.cursor/site-cleanup.md` (cleanup — done).
+A share card is a 1200×630 PNG of one member's cast on one vote, drawn from the
+same `VotedCard` the dialog shows.
 
-| Done | Not done |
-|------|----------|
-| `VotedCard`, view layer, Storybook, `/social-card-design`, Layout `socialCardPath`, small PNGs in `public/social-cards/v/` | `/social-card-voted` capture route, generator reconnect, PNG existence CI, digests |
+| Piece | Where |
+|-------|-------|
+| Capture route | `src/dev/social-card-capture.astro` — `/social-card-capture?voteId=…&bioguideId=…` or `?default`. Injected by `astro.config.mjs` under `astro dev` only; no build emits it. A cast that does not resolve is a 404, never a sample. |
+| Generator | `scripts/generate-social-cards.ts` (`npm run social-cards`) — starts `astro dev`, screenshots each cast in `SHARE_SAMPLE`, plus the site default. About ten seconds. Output is committed; CI and deploy never run a browser. |
+| Which casts | `SHARE_SAMPLE` in `src/shareConfig.ts` — the same list the share stubs use. Six casts while the card design is still moving. |
+| Output | `public/social-cards/{voteId}/{bioguideId}.png` and `public/social-card-default.png` (the site-wide `og:image`). |
+| Launch | `SOCIAL_CARDS_BASE=https://…` points every stub's `og:image` at an image host, and `SHARE_STUBS=all` writes a stub per cast. Drawing all ~360,000 images and standing up that host are not done. |
 
 ```bash
-npm run storybook          # card stories
-npm run social-cards       # Puppeteer — currently 404s on /social-card-voted
+npm run social-cards                          # sample + default
+npm run social-cards -- 119-HR-1-3/A000382    # one cast
+npm run storybook                             # card stories
 ```
+
+Puppeteer needs a Chrome: its own download, or `PUPPETEER_EXECUTABLE_PATH`.
 
 ## Scripts
 
@@ -165,7 +173,7 @@ npm run social-cards       # Puppeteer — currently 404s on /social-card-voted
 | `npm run test:types` | `astro check` |
 | `npm run storybook` | Storybook on `:6006` |
 
-Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `BASE_URL`, `SHARE_STUBS` (`all` = a stub for every cast).
+Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `BASE_URL`, `SHARE_STUBS` (`all` = a stub for every cast), `SOCIAL_CARDS_BASE` (where card images are served from, when not this site).
 
 ## Build / deploy
 
@@ -186,7 +194,7 @@ Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `B
 1. Trust **this file + source** over README for routes and `src/data/` layout.
 2. Do not `file:`-link votes; use GitHub Packages.
 3. Image root is `/images/legislators/{BIOGUIDE}.jpg`, not `/img/member/`.
-4. Social-card generator is **broken** until Phase 1 in `.cursor/social-cards.md`.
+4. After changing `VotedCard`, re-run `npm run social-cards` and commit the PNGs — nothing regenerates them for you.
 5. `.cursor/vote-roll-handoff.md` is **obsolete** (references deleted pages/assets).
 6. Commits: Gitmoji format (see `.cursor/rules/gitmoji-commits.mdc`).
 7. Confirm before large refactors; prefer multiple-choice questions when asking the human.

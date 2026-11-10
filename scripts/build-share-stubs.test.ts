@@ -75,10 +75,16 @@ describe('stubsFor', () => {
 
   it('uses the cast’s own card where one exists, the site image otherwise', () => {
     const stubs = [...stubsFor(bills, members, { origin, hasImage: (voteId) => voteId === '119-HR-1-3' })];
-    assert.equal(stubs[0].image, 'https://votedfor.us/social-cards/v/119-HR-1-3/A000382.png');
+    assert.equal(stubs[0].image, 'https://votedfor.us/social-cards/119-HR-1-3/A000382.png');
     assert.equal(stubs[0].ownImage, true);
     assert.equal(stubs[1].ownImage, false);
-    assert.doesNotMatch(stubs[1].image, /social-cards/);
+    assert.equal(stubs[1].image, 'https://votedfor.us/social-card-default.png');
+  });
+
+  it('points every cast at the image host once one is configured', () => {
+    const stubs = [...stubsFor(bills, members, { origin, hasImage: () => true, imageBase: 'https://cards.votedfor.us' })];
+    assert.equal(stubs[1].image, 'https://cards.votedfor.us/social-cards/119-HR-1-9/R000579.png');
+    assert.equal(stubs[1].ownImage, true);
   });
 
   it('is limited to the sample when one is given', () => {
@@ -94,14 +100,14 @@ describe('renderStub', () => {
     bioguideId: 'A000382',
     title: 'Sen. Angela D. Alsobrooks voted Nay',
     description: 'On "Passage" <of> H.R. 1 & more',
-    image: 'https://votedfor.us/social-cards/v/119-HR-1-3/A000382.png',
+    image: 'https://votedfor.us/social-cards/119-HR-1-3/A000382.png',
     ownImage: true,
   };
   const html = renderStub(stub, { origin, base: '/' });
 
   it('carries the tags a link preview reads', () => {
     assert.match(html, /<meta property="og:title" content="Sen\. Angela D\. Alsobrooks voted Nay">/);
-    assert.match(html, /<meta property="og:image" content="https:\/\/votedfor\.us\/social-cards\/v\/119-HR-1-3\/A000382\.png">/);
+    assert.match(html, /<meta property="og:image" content="https:\/\/votedfor\.us\/social-cards\/119-HR-1-3\/A000382\.png">/);
     assert.match(html, /<meta property="og:url" content="https:\/\/votedfor\.us\/bills\/119\/hr\/1\/3\/A000382">/);
     assert.match(html, /<link rel="canonical" href="https:\/\/votedfor\.us\/bills\/119\/hr\/1\/3\/A000382">/);
     assert.match(html, /summary_large_image/);
@@ -128,10 +134,10 @@ describe('renderStub', () => {
     assert.match(based, /rel="canonical" href="https:\/\/votedfor\.us\/bills\/119\/hr\/1\/3\/A000382"/);
   });
 
-  it('claims a small card when the image is only the site default', () => {
-    const plain = renderStub({ ...stub, image: 'https://votedfor.us/favicon.svg', ownImage: false }, { origin, base: '/' });
-    assert.match(plain, /<meta name="twitter:card" content="summary">/);
-    assert.doesNotMatch(plain, /og:image:width/);
+  it('declares the 1200×630 size for the default image too', () => {
+    const plain = renderStub({ ...stub, image: 'https://votedfor.us/social-card-default.png', ownImage: false }, { origin, base: '/' });
+    assert.match(plain, /og:image:width" content="1200"/);
+    assert.match(plain, /summary_large_image/);
   });
 });
 

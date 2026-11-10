@@ -32,7 +32,13 @@ import { memberCastsForDisplay } from '../src/utils/memberCastsForDisplay.js';
 import { normalizeLegislatorForCollection } from '../src/utils/normalizeLegislatorForCollection.js';
 import { stateNameFromCode } from '../src/utils/stateNames.js';
 import { voteCardPath, voteSharePath } from '../src/utils/voteLinks.js';
-import { SHARE_SAMPLE, SHARE_STUBS_ALL } from '../src/shareConfig.js';
+import {
+  DEFAULT_CARD_PATH,
+  SHARE_SAMPLE,
+  SHARE_STUBS_ALL,
+  SOCIAL_CARDS_BASE,
+  cardImagePath,
+} from '../src/shareConfig.js';
 import { seoConfig } from '../utils/seoConfig.js';
 import { readBills, type RawBill } from './build-finder-index.js';
 
@@ -48,7 +54,7 @@ export type ShareStub = {
   description: string;
   /** Absolute URL of the preview image. */
   image: string;
-  /** True when `image` is this cast's own 1200×630 card rather than the site default. */
+  /** True when `image` is this cast's own card rather than the site default. */
   ownImage: boolean;
 };
 
@@ -71,11 +77,6 @@ export function escapeHtml(value: string): string {
   return value.replace(/[&<>"']/g, (c) => ESCAPES[c]);
 }
 
-/** Where a cast's own card image lives, relative to the site root. */
-export function cardImagePath(voteId: string, bioguideId: string): string {
-  return `/social-cards/v/${voteId}/${bioguideId}.png`;
-}
-
 /**
  * The stub document.
  *
@@ -94,9 +95,8 @@ export function renderStub(stub: ShareStub, options: { origin: string; base: str
   const target = voteCardPath(stub.voteId, stub.bioguideId, options.base);
   const t = escapeHtml(stub.title);
   const d = escapeHtml(stub.description);
-  const size = stub.ownImage
-    ? '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
-    : '';
+  // Both a cast's own card and the site default are 1200×630.
+  const size = '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">';
   return [
     `<!doctype html><html lang="en"><head><meta charset="utf-8">${STUB_MARKER}`,
     `<title>${t}</title>`,
@@ -108,7 +108,7 @@ export function renderStub(stub: ShareStub, options: { origin: string; base: str
     `<meta property="og:title" content="${t}">`,
     `<meta property="og:description" content="${d}">`,
     `<meta property="og:image" content="${escapeHtml(stub.image)}">${size}`,
-    `<meta name="twitter:card" content="${stub.ownImage ? 'summary_large_image' : 'summary'}">`,
+    '<meta name="twitter:card" content="summary_large_image">',
     `<meta http-equiv="refresh" content="0; url=${escapeHtml(target)}">`,
     `<script>location.replace(${JSON.stringify(target).replace(/</g, '\\u003c')})</script>`,
     `</head><body><p><a href="${escapeHtml(target)}">${t}</a></p></body></html>`,
@@ -123,14 +123,21 @@ export function renderStub(stub: ShareStub, options: { origin: string; base: str
  * @param members - Member fields by bioguide id
  * @param options.origin - Site origin for absolute image URLs
  * @param options.hasImage - Whether a cast has its own card image
+ * @param options.imageBase - Where card images are served from; the site origin when unset
  * @param options.only - When set, only these `voteId/bioguideId` keys are yielded
  */
 export function* stubsFor(
   bills: RawBill[],
   members: Map<string, StubMember>,
-  options: { origin: string; hasImage: (voteId: string, bioguideId: string) => boolean; only?: Set<string> },
+  options: {
+    origin: string;
+    hasImage: (voteId: string, bioguideId: string) => boolean;
+    imageBase?: string | null;
+    only?: Set<string>;
+  },
 ): Generator<ShareStub> {
   const origin = options.origin.replace(/\/$/, '');
+  const imageBase = options.imageBase ?? origin;
   for (const bill of bills) {
     const billTitle = getBestBillTitle(bill as Parameters<typeof getBestBillTitle>[0]);
     const identifier = formatLegislationIdentifier(String(bill.type).toLowerCase(), String(bill.number));
@@ -158,7 +165,9 @@ export function* stubsFor(
             bioguideId,
             title: `${display.displayName} ${display.voteVerb} ${display.actionLabel}`,
             description: `${question} · ${billTitle} (${identifier})`,
-            image: `${origin}${ownImage ? cardImagePath(vote.id, bioguideId) : seoConfig.image.url}`,
+            image: ownImage
+              ? `${imageBase}${cardImagePath(vote.id, bioguideId)}`
+              : `${origin}${DEFAULT_CARD_PATH}`,
             ownImage,
           };
         }
@@ -244,7 +253,11 @@ function main() {
   const started = Date.now();
   const stubs = stubsFor(readBills(dataDir), readStubMembers(dataDir), {
     origin: seoConfig.baseURL,
-    hasImage: (voteId, bioguideId) => fs.existsSync(path.join(publicDir, cardImagePath(voteId, bioguideId))),
+    // Served from elsewhere, every cast has one; served from here, only the files we hold.
+    hasImage: SOCIAL_CARDS_BASE
+      ? () => true
+      : (voteId, bioguideId) => fs.existsSync(path.join(publicDir, cardImagePath(voteId, bioguideId))),
+    imageBase: SOCIAL_CARDS_BASE,
     only: SHARE_STUBS_ALL ? undefined : new Set(SHARE_SAMPLE.map((s) => `${s.voteId}/${s.bioguideId}`)),
   });
   const { count, bytes } = writeStubs(stubs, {

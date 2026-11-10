@@ -25,7 +25,7 @@
     "share:stubs": "tsx scripts/build-share-stubs.ts",
     "predev": "npm run finder:index",
     "test:types": "astro check",
-    "social-cards": "tsx utils/generate-social-cards.ts",
+    "social-cards": "tsx scripts/generate-social-cards.ts",
     "storybook": "storybook dev -p 6006",
     "analyze-bill-titles": "tsx scripts/analyze-bill-titles.ts",
     "benchmark:cold": "tsx scripts/benchmark.ts --scenario cold",

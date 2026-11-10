@@ -41,7 +41,7 @@ test('buildLegislatorVoteView assembles layered data', () => {
   assert.equal(view.legislator.party, 'Independent');
   assert.equal(view.legislator.stateName, 'Vermont');
   assert.equal(view.bill.legislationIdentifier, 'S.J. Res. 3');
-  assert.equal(view.page.socialCardPath, '/social-cards/v/119-SJRES-3-2/S000033.png');
+  assert.equal(view.page.socialCardPath, '/social-cards/119-SJRES-3-2/S000033.png');
   assert.equal(view.display.actionLabel, 'Nay');
 });
 
