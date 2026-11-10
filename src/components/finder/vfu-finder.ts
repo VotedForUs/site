@@ -377,7 +377,7 @@ export class VfuFinder extends HTMLElement {
       other.textContent = otherLabel;
       other.onclick = () => {
         if (otherCount === 0) {
-          this.#state = { ...this.#state, query: '', filters: emptyFilters(), reason: 'query' };
+          this.#state = { ...this.#state, query: '', filters: emptyFilters(), reason: 'submit' };
           this.#bar?.setAttribute('query', '');
           this.#bar?.clearFilters();
         } else {
