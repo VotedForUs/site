@@ -278,24 +278,41 @@ paths from `dist-cache/`.
 
 ---
 
-## Page families as of 2026-09-19 (redesign Phase 4)
+## Page families as of 2026-11-09
 
-`/v/[voteId]/[bioguideId]` is deleted. The legislator×vote family is now
-`/bills/[term]/[billType]/[billNumber]/[voteId]/[bioguideId]` — one prerendered
-page per display cast (`memberIdsForDisplay`, including UC/voice
-`membersAtAction`). Those pages are the share target (`og:image` + schema.org).
+Only identities are prerendered. One member's cast on one vote is **not** a
+page: the roll page opens the card in place from `?member={bioguide}`, and a
+member's votes on a bill open on the member page from `?bill=`. The
+`/bills/…/[voteId]/[bioguideId]` route is deleted — it rendered the whole roll
+into every one of ~351,000 pages (217 KB each, 67 GB, a two-hour build that
+filled the Actions runner's disk).
 
-Approximate static set on current data (finder index 2026-09-19):
+Measured `build:full`, 2026-11-09, 757 bills / 1,246 votes:
 
 | Family | Count |
 |--------|------:|
 | Finder (`/`) | 1 |
 | `/members/[bioguideid]` | ~610 |
-| `/bills/…/[billNumber]` | 735 |
-| `/bills/…/[voteId]` | 1,191 |
-| `/bills/…/[voteId]/[bioguideId]` | one per display cast (~210k+; was ~347k with fabricated UC/vv) |
+| `/bills/…/[billNumber]` | 757 |
+| `/bills/…/[voteId]` | 1,246 |
+| Hubs, about, changelog | ~245 |
+| **Total** | **2,857 pages · 439 MB · 3 min 41 s** |
 
-Wall-clock for `build:full` plus one typical increment has **not** been
-re-measured since this family moved. Run both after the first complete card
-build and replace any stale figures above this section. Incremental skip still
-keys card pages as `legislator-votes-loader` + `{bioguideId}-{voteId}`.
+### Share stubs are not Astro pages
+
+`scripts/build-share-stubs.ts` runs after `astro build` (and after the cache
+merge) and writes `dist/bills/…/[voteId]/[bioguideId]/index.html`: ~1.3 KB of
+link-preview tags plus a hand-off to the `?member=` URL. `src/shareConfig.ts`
+decides which casts get one:
+
+| `SHARE_STUBS` | Stubs | Cost |
+|---|---|---|
+| unset (default, dev and CI) | the sample list, 6 casts | under a second |
+| `all` (launch) | every cast, 360,393 | 16 s to write, +472 MB of content — but 360k files occupy ~3 GB of 4 KB disk blocks and a 1.4 GB tar, so upload and deploy are what slow down, not the write |
+
+A stub replaces an earlier stub but refuses to overwrite any other file, so a
+stale `dist-cache/` holding the old 217 KB pages fails loudly: run
+`npm run build:full` once.
+
+The `legislator-votes-loader` digests in the manifest no longer gate any page
+family; the collection is still read by the member pages.

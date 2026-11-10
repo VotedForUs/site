@@ -79,7 +79,10 @@ jobs:
           FORCE_FULL_REBUILD: ${{ inputs.force_full_rebuild || 'false' }}
         run: npx tsx scripts/incremental-check.ts
 
-      # Incremental: `npm run build` (check → astro → merge cache → save).
+      # Share stubs (scripts/build-share-stubs.ts) are written after Astro in
+      # both paths. They cover the sample in src/shareConfig.ts unless
+      # SHARE_STUBS=all is set here, which is a launch-time switch.
+      # Incremental: `npm run build` (check → astro → merge cache → stubs → save).
       # Full rebuild: finder index + astro only. Do not restore or copy
       # dist-cache during emit — that is what filled the 14 GB runner last time.
       - name: Build site
@@ -91,6 +94,7 @@ jobs:
           if [ "$FORCE_FULL_REBUILD" = "true" ]; then
             npm run finder:index
             npx astro build
+            npm run share:stubs
             test ! -d dist/v
           else
             npm run build

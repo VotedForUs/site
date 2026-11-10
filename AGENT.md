@@ -39,7 +39,11 @@ Vote content selection and synthesis live in the votes package (`CongressApi`, C
 
 ### Owned by site (presentation)
 
-1. **Canonical legislator×vote URL** — `/v/{voteId}/{bioguideId}`. Legacy path under `/bills/.../[voteId]/[bioguideid]` **redirects** here.
+1. **Only identities are pages** — a bill, a vote (its roll), a member. A combination is the identity's page plus a query string, opened in place by a custom element, because static hosting serves no other deep link:
+   - one member's cast on a vote → `/bills/{term}/{type}/{n}/{vote}?member={bioguide}` (`vfu-vote-roll` opens the card)
+   - one member's votes on a bill → `/members/{bioguide}?bill={term}-{type}-{n}` (`vfu-member-record`), plus `&vote={n}` for the card
+   Never add a prerendered route per member×vote or member×bill: that was 351,000 pages and a 67 GB build. Build every such URL with `src/utils/voteLinks.ts`.
+   - **Share stubs** — `/bills/{term}/{type}/{n}/{vote}/{bioguide}` is a ~1 KB file written by `scripts/build-share-stubs.ts` (not Astro) holding the link-preview tags and a hand-off to the `?member=` URL. Which casts get one is `src/shareConfig.ts`: a small sample by default, every cast under `SHARE_STUBS=all` (launch only).
 2. **Editorial overlays** — optional display tweaks in `src/content/editorial/` (titles, vote-action copy, acronyms); they refine presentation, they do not invent votes.
 3. **UI grouping** — e.g. `BillsTable` groups using `getBillState` from votes; grouping is presentation over data already on disk.
 
@@ -55,13 +59,12 @@ Vote content selection and synthesis live in the votes package (`CongressApi`, C
 | `/bills/[term]` | `bills/[term]/index.astro` | Term bill list |
 | `/bills/[term]/[billType]` | `…/[billType]/index.astro` | Bills of that type |
 | `/bills/[term]/[billType]/[billNumber]` | `…/[billNumber]/index.astro` | Bill detail + votes + actions |
-| `/bills/…/[voteId]` | `…/[voteId]/index.astro` | Single recorded vote + `VoteRoll` |
-| `/bills/…/[voteId]/[bioguideid]` | `…/[bioguideid].astro` | Redirect alias → `/v/…` |
-| `/v/[voteId]/[bioguideId]` | `v/[voteId]/[bioguideId].astro` | Canonical one-liner vote page + OG path |
-| `/legislators` | `legislators.astro` | Hub |
-| `/legislators/senate` | `legislators/senate.astro` | Senate roster |
-| `/legislators/house` | `legislators/house.astro` | House roster |
-| `/legislators/[bioguideid]` | `legislators/[bioguideid].astro` | Profile + history |
+| `/bills/…/[voteId]` | `…/[voteId]/index.astro` | Single recorded vote + `VoteRoll`; `?member=` opens that member's card in place |
+| `/bills/…/[voteId]/[bioguide]` | *(no route)* — `scripts/build-share-stubs.ts` | Share stub: preview tags + hand-off to `?member=` |
+| `/members` | `members.astro` | Hub |
+| `/members/senate` | `members/senate.astro` | Senate roster |
+| `/members/house` | `members/house.astro` | House roster |
+| `/members/[bioguideid]` | `members/[bioguideid].astro` | Member record; `?bill=` and `&vote=` open in place |
 | `/changelog` | `changelog.astro` | Data-update index |
 | `/changelog/[id]` | `changelog/[id].astro` | One update |
 
@@ -154,14 +157,15 @@ npm run social-cards       # Puppeteer — currently 404s on /social-card-voted
 | Script | Purpose |
 |--------|---------|
 | `npm run dev` | Astro dev server |
-| `npm run build` | Incremental check → Astro build → merge/save `dist-cache` |
-| `npm run build:full` | `FORCE_FULL_REBUILD=true` full build |
+| `npm run build` | Finder index → incremental check → Astro build → merge cache → share stubs → save `dist-cache` |
+| `npm run build:full` | `FORCE_FULL_REBUILD=true` full build — about 2,900 pages, under four minutes |
+| `npm run share:stubs` | Write share stubs into an existing `dist/` |
 | `npm run build:test` | Limited bills (`BILLS_PER_TYPE_LIMIT=40`) |
 | `npm test` | Node test runner + coverage (`src/**/*.test.ts`, `scripts/**/*.test.ts`) |
 | `npm run test:types` | `astro check` |
 | `npm run storybook` | Storybook on `:6006` |
 
-Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `BASE_URL`.
+Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `BASE_URL`, `SHARE_STUBS` (`all` = a stub for every cast).
 
 ## Build / deploy
 
