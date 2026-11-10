@@ -11,6 +11,7 @@ import {
   MATCH_KINDS,
   MEMBER_MATCH_KINDS,
   normalise,
+  normaliseWithMap,
   type BillRow,
   type MatchKind,
   type MemberMatchKind,
@@ -173,14 +174,24 @@ export function billWhy(kind: MatchKind, row: BillRow, query: string): string {
   return matched ? `known as “${matched}”` : GROUP_LABELS.alias;
 }
 
-/** The three pieces of a title around the matched text, for a single <mark>. */
+/**
+ * The three pieces of a title around the matched text, for a single <mark>.
+ *
+ * The match is found in the normalised text — punctuation gone, accents
+ * folded — and marked in the original, so the positions go through
+ * {@link normaliseWithMap}. Without that, every character normalising dropped
+ * before the match shifted the mark left by one.
+ */
 export function highlight(text: string, query: string): { pre: string; hit: string; post: string } {
-  const q = normalise(query).trim();
-  if (!q) return { pre: text, hit: '', post: '' };
-  const i = normalise(text).indexOf(q);
-  if (i < 0) return { pre: text, hit: '', post: '' };
-  // normalise collapses runs, so map back by walking the raw string.
-  return { pre: text.slice(0, i), hit: text.slice(i, i + q.length), post: text.slice(i + q.length) };
+  const none = { pre: text, hit: '', post: '' };
+  const q = normalise(query);
+  if (!q) return none;
+  const { norm, map } = normaliseWithMap(text);
+  const at = norm.indexOf(q);
+  if (at < 0) return none;
+  const start = map[at];
+  const end = map[at + q.length - 1] + 1;
+  return { pre: text.slice(0, start), hit: text.slice(start, end), post: text.slice(end) };
 }
 
 /** An empty state always offers an action — here, the other mode. */
@@ -192,9 +203,9 @@ export function emptyState(mode: Mode, query: string, otherCount: number) {
       ? `No member matches “${query}”.`
       : `No bill matches “${query}”.`;
   const body = both
-    ? 'The typed characters are matched exactly as written, in order, and the spelling is never corrected. Shortening the query is the fastest way to widen it.'
+    ? 'Words are matched as written and the spelling is never corrected. Shortening the query is the fastest way to widen it.'
     : mode === 'members'
-      ? 'Member search covers names, states, and districts. It does not search the text of bills — a bill about a person will not appear here.'
+      ? 'Member search covers names, states, and districts (“tx-18”). It does not search the text of bills — a bill about a person will not appear here.'
       : 'Bill search covers ids, titles, and the short names bills are known by. It does not search sponsors — a bill introduced by a member with this name will not appear here.';
   const other = mode === 'members'
     ? `${otherCount} ${otherCount === 1 ? 'bill' : 'bills'}`

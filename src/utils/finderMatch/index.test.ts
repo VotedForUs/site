@@ -18,7 +18,11 @@ import {
   matchMembers,
   memberGroupOrder,
   normalise,
+  normaliseWithMap,
   parseBillRef,
+  parseSeat,
+  stateCodesForQuery,
+  type MemberRow,
   searchBills,
   type BillRow,
   type MatchKind,
@@ -382,5 +386,123 @@ describe('countBuckets', () => {
     const { per, total } = countBuckets(matchBills(bills, 'hr 26'));
     assert.deepEqual(per, { 'exact-id': 1, 'id-contains': 2, 'id-in-title': 0, alias: 0, 'title-text': 0 });
     assert.equal(total, 3);
+  });
+});
+
+const roster: MemberRow[] = [
+  { b: 'S000148', n: 'Charles E. Schumer', s: 'NY', p: 'D', c: 'senate', v: 500, k: 'chuck' },
+  { b: 'O000172', n: 'Alexandria Ocasio-Cortez', s: 'NY', d: 14, p: 'D', c: 'house', v: 600 },
+  { b: 'S001156', n: 'Linda T. Sánchez', s: 'CA', d: 38, p: 'D', c: 'house', v: 600 },
+  { b: 'L000614', n: 'Erica Lee Carter', s: 'TX', d: 18, p: 'D', c: 'house', v: 20 },
+  { b: 'C001056', n: 'John Cornyn', s: 'TX', p: 'R', c: 'senate', v: 500 },
+  { b: 'F000450', n: 'Virginia Foxx', s: 'NC', d: 5, p: 'R', c: 'house', v: 600 },
+  { b: 'K000384', n: 'Tim Kaine', s: 'VA', p: 'D', c: 'senate', v: 500 },
+  { b: 'A000370', n: 'Alma S. Adams', s: 'NC', d: 12, p: 'D', c: 'house', v: 600 },
+];
+const bio = (rows: MemberRow[]) => rows.map(r => r.b);
+
+describe('accents', () => {
+  it('folds them, because nobody types them', () => {
+    assert.equal(normalise('Linda T. Sánchez'), 'linda t sanchez');
+    assert.equal(normalise('Ben Ray Luján'), 'ben ray lujan');
+    assert.deepEqual(bio(matchMembers(roster, 'sanchez').name), ['S001156']);
+  });
+
+  it('still matches when the reader does type them', () => {
+    assert.deepEqual(bio(matchMembers(roster, 'Sánchez').name), ['S001156']);
+  });
+});
+
+describe('normaliseWithMap', () => {
+  it('agrees with normalise', () => {
+    for (const text of ['S. 1071', '  “Chuy” García — Jr. ', 'H. Con. Res. 14', '', '...', 'a  b']) {
+      assert.equal(normaliseWithMap(text).norm, normalise(text), JSON.stringify(text));
+    }
+  });
+
+  it('says where each normalised character came from', () => {
+    const text = 'O. Graham';
+    const { norm, map } = normaliseWithMap(text);
+    assert.equal(norm, 'o graham');
+    assert.equal(map.length, norm.length);
+    assert.equal(text[map[norm.indexOf('graham')]], 'G');
+  });
+});
+
+describe('states by name', () => {
+  it('reads a whole name as its code', () => {
+    assert.deepEqual(stateCodesForQuery('Texas'), ['TX']);
+    assert.deepEqual(stateCodesForQuery('new york'), ['NY']);
+    assert.deepEqual(stateCodesForQuery('ny'), ['NY']);
+  });
+
+  it('reads the start of a name as every state it could be', () => {
+    assert.deepEqual(stateCodesForQuery('new').sort(), ['NH', 'NJ', 'NM', 'NY']);
+    assert.deepEqual(stateCodesForQuery('north').sort(), ['MP', 'NC', 'ND']); // Northern Mariana Islands too
+  });
+
+  it('does not take a one- or two-letter fragment for a name', () => {
+    assert.deepEqual(stateCodesForQuery('t'), []);
+    assert.deepEqual(stateCodesForQuery('te'), []);
+  });
+
+  it('“virginia” is Virginia, not West Virginia', () => {
+    assert.deepEqual(stateCodesForQuery('virginia'), ['VA']);
+    assert.deepEqual(stateCodesForQuery('west virginia'), ['WV']);
+  });
+
+  it('puts the delegation in the state group and keeps a same-named member', () => {
+    const texas = matchMembers(roster, 'texas');
+    assert.deepEqual(bio(texas.state), ['L000614', 'C001056']);
+    const virginia = matchMembers(roster, 'virginia');
+    assert.deepEqual(bio(virginia.state), ['K000384']);
+    assert.deepEqual(bio(virginia.name), ['F000450']);
+  });
+
+  it('leads with the state only when it is said in full', () => {
+    assert.equal(memberGroupOrder('texas')[0], 'state');
+    assert.equal(memberGroupOrder('TX')[0], 'state');
+    assert.equal(memberGroupOrder('tex')[0], 'name');
+  });
+});
+
+describe('a seat', () => {
+  it('is read however it is written', () => {
+    for (const q of ['tx-18', 'TX 18', 'tx18', 'Texas 18', 'texas-18']) {
+      assert.deepEqual(parseSeat(q), { state: 'TX', district: 18 }, q);
+    }
+    assert.deepEqual(parseSeat('new york 14'), { state: 'NY', district: 14 });
+  });
+
+  it('is not a bare number, a bare state, or a bill', () => {
+    for (const q of ['18', 'tx', 'hr 18', 'zz 18', 'tex 18']) assert.equal(parseSeat(q), null, q);
+  });
+
+  it('finds the House member for that district and nobody else', () => {
+    const found = matchMembers(roster, 'tx-18');
+    assert.deepEqual(bio(found.district), ['L000614']);
+    assert.deepEqual(found.state, []);
+    assert.deepEqual(found.name, []);
+    assert.equal(memberGroupOrder('tx-18')[0], 'district');
+  });
+
+  it('never matches a senator, who has no district', () => {
+    assert.deepEqual(matchMembers(roster, 'ny 14').district.map(r => r.c), ['house']);
+  });
+});
+
+describe('what a member goes by', () => {
+  it('finds a member by the name they use', () => {
+    assert.deepEqual(bio(matchMembers(roster, 'chuck').name), ['S000148']);
+    assert.deepEqual(bio(matchMembers(roster, 'chuck schumer').name), ['S000148']);
+  });
+
+  it('finds a name whose words are typed apart or out of order', () => {
+    assert.deepEqual(bio(matchMembers(roster, 'ocasio alexandria').name), ['O000172']);
+    assert.deepEqual(bio(matchMembers(roster, 'alma adams').name), ['A000370']);
+  });
+
+  it('needs every word', () => {
+    assert.deepEqual(matchMembers(roster, 'chuck cornyn').name, []);
   });
 });

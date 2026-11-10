@@ -143,6 +143,26 @@ describe('highlight', () => {
     });
   });
 
+  it('marks the right characters when punctuation comes before the match', () => {
+    // Normalising drops the period after "O"; the mark must not shift left for it.
+    assert.deepEqual(highlight('Lindsey O. Graham Sanctioning Russia Act of 2026', 'of 2026'), {
+      pre: 'Lindsey O. Graham Sanctioning Russia Act ', hit: 'of 2026', post: '',
+    });
+    assert.deepEqual(highlight('H. Con. Res. 14 — a budget', 'budget'), {
+      pre: 'H. Con. Res. 14 — a ', hit: 'budget', post: '',
+    });
+  });
+
+  it('marks an accented name from an unaccented query', () => {
+    assert.deepEqual(highlight('Linda T. Sánchez', 'sanchez'), { pre: 'Linda T. ', hit: 'Sánchez', post: '' });
+  });
+
+  it('marks across punctuation the query left out', () => {
+    assert.deepEqual(highlight('Alexandria Ocasio-Cortez', 'ocasio cortez'), {
+      pre: 'Alexandria ', hit: 'Ocasio-Cortez', post: '',
+    });
+  });
+
   it('returns the whole string when nothing matched', () => {
     assert.deepEqual(highlight('Midnight Rules', 'zzz'), { pre: 'Midnight Rules', hit: '', post: '' });
     assert.deepEqual(highlight('Midnight Rules', ''), { pre: 'Midnight Rules', hit: '', post: '' });

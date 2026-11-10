@@ -18,6 +18,8 @@ import {
   toBillRow,
   toMemberRow,
   type RawBill,
+  knownAs,
+  memberSortKey,
 } from './build-finder-index.js';
 
 const bill = (over: Partial<RawBill> = {}): RawBill => ({
@@ -320,5 +322,38 @@ describe('toVoteIndex', () => {
 
   it('has a budget for what opening one record costs', () => {
     assert.equal(DRILLDOWN_BUDGET_GZIP_BYTES, 48 * 1024);
+  });
+});
+
+describe('knownAs', () => {
+  it('carries the name a member uses when the display name does not have it', () => {
+    assert.equal(knownAs({ nickName: 'Chuck', firstName: 'Charles' }, 'Charles E. Schumer'), 'chuck');
+    assert.equal(knownAs({ nickName: 'Bernie', firstName: 'Bernie' }, 'Bernard Sanders'), 'bernie');
+  });
+
+  it('is empty when the display name already says it, which is nearly always', () => {
+    assert.equal(knownAs({ firstName: 'Patrick' }, 'Patrick Ryan'), '');
+    assert.equal(knownAs({ nickName: 'Chuy', firstName: 'Jesús' }, 'Jesús G. "Chuy" García'), '');
+    assert.equal(knownAs({}, 'Patrick Ryan'), '');
+  });
+
+  it('drops initials — "J." would match every J', () => {
+    assert.equal(knownAs({ firstName: 'J.', nickName: 'JD Vance' }, 'J. D. Vance'), 'jd');
+  });
+});
+
+describe('memberSortKey', () => {
+  it('files a member under their surname, accents folded', () => {
+    const keys = [
+      memberSortKey({ lastName: 'Schumer' }, 'Charles E. Schumer'),
+      memberSortKey({ lastName: 'García' }, 'Jesús G. "Chuy" García'),
+      memberSortKey({ lastName: 'Adams' }, 'Alma S. Adams'),
+      memberSortKey({ lastName: 'Garcia' }, 'Robert Garcia'),
+    ];
+    assert.deepEqual([...keys].sort().map(k => k.split(' ')[0]), ['adams', 'garcia', 'garcia', 'schumer']);
+  });
+
+  it('falls back to the display name when no surname is recorded', () => {
+    assert.equal(memberSortKey({}, 'Patrick Ryan'), 'patrick ryan');
   });
 });

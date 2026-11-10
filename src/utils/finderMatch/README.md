@@ -20,7 +20,7 @@ every row ships to every reader.
 
 ```ts
 // members.json
-{ b: bioguideId, n: name, s: 'NY', d: 18, p: 'D', c: 'house', v: 412, i: 1 }
+{ b: bioguideId, n: name, s: 'NY', d: 18, p: 'D', c: 'house', v: 412, i: 1, k: 'chuck' }
 
 // bills.json
 { i: '119-HR-2616', t: 'H.R. 2616', n: 2616, y: 'hr', h: 'Preserving Patient Access…',
@@ -104,8 +104,31 @@ unreachable.
 
 ## Member matching
 
-Three buckets — name, state, district. Names keep **substring** matching: a
-partial surname is the common case.
+Three buckets — name, state, district.
+
+**Names** keep substring matching: a partial surname is the common case. When
+the query is not in the name as typed, every word of it has to be somewhere in
+the name or in `k` — what the member goes by that the display name does not
+say, taken from congress.gov's `nickName` and `firstName`. That is how
+"chuck schumer" finds Charles E. Schumer. Only ten or so rows carry a `k`; it
+is data, not a table of nicknames we maintain.
+
+**Accents fold** in `normalise`, for bills and members alike: nobody types
+them, so "sanchez" has to find Sánchez. `normaliseWithMap` returns the same
+string plus where each character came from, which is what lets `highlight`
+mark the original text — Sánchez, accent intact — from a match found in the
+folded one.
+
+**States** match by code ("tx"), by name ("texas"), and by the start of a name
+once three letters are typed ("new" is four states). Two letters are left to
+the codes: "ne" is Nebraska, not most of "new".
+
+**A seat** — "tx-18", "TX 18", "ny14", "texas 18" — is one district's House
+members and nothing else. `parseSeat` needs a whole state, code or name, in
+front of the number.
+
+The members file is sorted by surname, so the unfiltered list reads as a
+roster.
 
 `MEMBER_MIN_QUERY_LENGTH` is one: the first character already narrows. The
 guard lives in `matchMembers`, not in the component, so every caller inherits
@@ -117,9 +140,11 @@ overridden: the finder renders the whole membership before anything is typed,
 so a first letter narrowing 606 rows to 375 is a reduction the reader can see
 happening, not a wall of rows out of nowhere.
 
-`memberGroupOrder` puts the state group first when the query is a state code,
-and the name group still renders below it rather than being hidden: `ny` is
-both a state and a fragment of several names.
+`memberGroupOrder` puts the state group first when the query is a state said
+in full — a code or a whole name — and the name group still renders below it
+rather than being hidden: `ny` is both a state and a fragment of several
+names, and "virginia" is also Virginia Foxx. A partial name ("mar") leads with
+names, because it is as likely a Mark as a Maryland.
 
 Callers apply the narrow-by chips themselves — neither match function takes a
 `filters` argument. Chips intersect with the query; they never replace it, and

@@ -4,12 +4,16 @@
  * why each rule is shaped the way it is.
  */
 import { BILL_TYPES } from '@votedforus/votes/types';
+import { STATE_AND_TERRITORY_NAMES } from '../stateNames.js';
 
 export { BILL_TYPES };
 
 export type MemberRow = {
   b: string; n: string; s: string; d?: number;
   p: string; c: 'house' | 'senate'; v: number; i?: 0 | 1;
+  // Names the member goes by that the display name does not contain:
+  // "Chuck" for Charles E. Schumer. Absent for most rows.
+  k?: string;
 };
 
 export type BillRow = {
@@ -34,13 +38,54 @@ const TYPE_SPACED: Record<string, string> = {
   hjres: 'h j res', sjres: 's j res',
 };
 
-/** Lowercase, strip punctuation (em and en dashes included), collapse spaces. */
+const PUNCTUATION = /[.,'’"“”()\[\]{}:;!?\/\\\-\u2014\u2013]/;
+const COMBINING_MARKS = /[\u0300-\u036f]/g;
+
+/** One character as the matcher sees it: lowercase, accents folded off. */
+function foldChar(c: string): string {
+  return c.toLowerCase().normalize('NFD').replace(COMBINING_MARKS, '');
+}
+
+/**
+ * {@link normalise}, plus where each normalised character came from.
+ *
+ * Normalising drops punctuation and collapses spaces, so a position in the
+ * normalised string is not a position in the original: "S. 1071" is "s 1071".
+ * `map[i]` is the index in `text` of the character that produced `norm[i]`,
+ * which is what lets a match found in one be marked in the other.
+ */
+export function normaliseWithMap(text: string): { norm: string; map: number[] } {
+  let norm = '';
+  const map: number[] = [];
+  let pendingSpace = -1; // raw index of a separator waiting for the next word
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (/\s/.test(c) || PUNCTUATION.test(c)) {
+      if (norm && pendingSpace < 0) pendingSpace = i;
+      continue;
+    }
+    const folded = foldChar(c);
+    if (!folded) continue; // a bare combining mark belongs to the letter before it
+    if (pendingSpace >= 0) {
+      norm += ' ';
+      map.push(pendingSpace);
+      pendingSpace = -1;
+    }
+    for (const f of folded) {
+      norm += f;
+      map.push(i);
+    }
+  }
+  return { norm, map };
+}
+
+/**
+ * Lowercase, fold accents, strip punctuation (em and en dashes included),
+ * collapse spaces. Accents fold because nobody types them: "sanchez" has to
+ * find Sánchez, and "garcia" García.
+ */
 export function normalise(s: string): string {
-  return s
-    .toLowerCase()
-    .replace(/[.,'’"“”()\[\]{}:;!?\/\\\-\u2014\u2013]+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
+  return normaliseWithMap(s).norm;
 }
 
 export function isQueryable(q: string): boolean {
@@ -58,6 +103,49 @@ const STATE_CODES = new Set([
 
 export function isStateCode(q: string): boolean {
   return STATE_CODES.has(q.trim().toUpperCase());
+}
+
+/** Every state and territory by its normalised name: ["new york", "NY"]. */
+const STATE_NAMES: ReadonlyArray<readonly [string, string]> = Object.entries(STATE_AND_TERRITORY_NAMES)
+  .filter(([code]) => STATE_CODES.has(code))
+  .map(([code, name]) => [normalise(name), code] as const);
+
+/** A state name has to be this far typed before it counts: "ne" is a code, not most of "new". */
+const STATE_NAME_MIN_PREFIX = 3;
+
+/** The code a whole state name spells, or null: "new york" -> "NY". */
+function stateCodeForName(q: string): string | null {
+  return STATE_NAMES.find(([name]) => name === q)?.[1] ?? null;
+}
+
+/**
+ * The states a member query names — by code ("tx"), by name ("texas"), or by
+ * the start of a name ("new" is four states, and all four are right).
+ *
+ * @returns State codes, [] when the query names no state
+ */
+export function stateCodesForQuery(query: string): string[] {
+  if (isStateCode(query)) return [query.trim().toUpperCase()];
+  const q = normalise(query);
+  if (q.length < STATE_NAME_MIN_PREFIX) return [];
+  return STATE_NAMES.filter(([name]) => name.startsWith(q)).map(([, code]) => code);
+}
+
+/** True when the query is a state, said in full: a code or a whole name. */
+export function isWholeState(query: string): boolean {
+  return isStateCode(query) || stateCodeForName(normalise(query)) !== null;
+}
+
+/**
+ * A House seat, as people write one: "tx-18", "TX 18", "ny14", "texas 18".
+ *
+ * @returns The state code and district number, or null when the query is not a seat
+ */
+export function parseSeat(query: string): { state: string; district: number } | null {
+  const m = /^([a-z][a-z ]*?) ?(\d{1,2})$/.exec(normalise(query));
+  if (!m) return null;
+  const state = isStateCode(m[1]) ? m[1].toUpperCase() : stateCodeForName(m[1]);
+  return state ? { state, district: Number(m[2]) } : null;
 }
 
 /**
@@ -178,21 +266,46 @@ export function matchMembers(rows: MemberRow[], query: string) {
 
   const q = normalise(query);
   if (q.length < MEMBER_MIN_QUERY_LENGTH) return buckets;
-  const asState = isStateCode(query) ? query.trim().toUpperCase() : null;
+  const seat = parseSeat(query);
+  const states = new Set(stateCodesForQuery(query));
   const asNumber = /^\d+$/.test(q) ? Number(q) : null;
+  const words = q.split(' ');
 
   for (const row of rows) {
-    if (asState && row.s === asState) { buckets.state.push(row); continue; }
+    if (seat) {
+      // A seat names one district; no name has a number in it.
+      if (row.c === 'house' && row.s === seat.state && row.d === seat.district) buckets.district.push(row);
+      continue;
+    }
+    if (states.has(row.s)) { buckets.state.push(row); continue; }
     if (asNumber !== null && row.d === asNumber) { buckets.district.push(row); continue; }
-    // Names keep substring matching: a partial surname is the common case.
-    if (normalise(row.n).includes(q)) buckets.name.push(row);
+    if (matchesName(row, q, words)) buckets.name.push(row);
   }
   return buckets;
 }
 
-/** State group first when the query is a state code — name matches still render. */
+/**
+ * Names keep substring matching — a partial surname is the common case. When
+ * the query is not in the name as typed, every word of it has to be somewhere
+ * in the name or in what the member goes by, so "chuck schumer" finds
+ * Charles E. Schumer and "ocasio alexandria" still finds her.
+ */
+function matchesName(row: MemberRow, q: string, words: string[]): boolean {
+  const name = normalise(row.n);
+  if (name.includes(q)) return true;
+  if (words.length < 2 && !row.k) return false;
+  const known = row.k ? `${name} ${normalise(row.k)}` : name;
+  return words.every(word => known.includes(word));
+}
+
+/**
+ * The state group leads when the query is a state said in full — a code or a
+ * whole name. A partial name ("mar") is as likely a Mark as a Maryland, so
+ * names lead and the delegation follows. A seat has only its district.
+ */
 export function memberGroupOrder(query: string): MemberMatchKind[] {
-  return isStateCode(query) ? ['state', 'name', 'district'] : ['name', 'state', 'district'];
+  if (parseSeat(query)) return ['district', 'name', 'state'];
+  return isWholeState(query) ? ['state', 'name', 'district'] : ['name', 'state', 'district'];
 }
 
 export function countBuckets<K extends string>(buckets: Record<K, unknown[]>) {

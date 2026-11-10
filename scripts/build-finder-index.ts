@@ -29,7 +29,7 @@ import { getBillState } from '@votedforus/votes';
 import { getBestBillTitle, getEditorialBillAliases } from '../src/utils/billTitle.js';
 import { formatLegislationIdentifier } from '../src/utils/billLegislationFormat.js';
 import { displayName, normalizeLegislatorForCollection } from '../src/utils/normalizeLegislatorForCollection.js';
-import { extractCitations, type BillRow, type MemberRow } from '../src/utils/finderMatch/index.js';
+import { extractCitations, normalise, type BillRow, type MemberRow } from '../src/utils/finderMatch/index.js';
 import { getEditorialVoteAction } from '../src/utils/editorial.js';
 import { heldHeadshots } from '../src/utils/headshot.js';
 import { memberCastsForDisplay, memberIdsForDisplay } from '../src/utils/memberCastsForDisplay.js';
@@ -245,6 +245,38 @@ export function toBillRow(bill: RawBill): BillRow {
  * congress.gov URL instead of a downloaded portrait, and trusting the field
  * gave 55 rows a 404 and 55 pages a hotlink to congress.gov.
  */
+/**
+ * What a member goes by that their display name does not already say: the
+ * `nickName` and `firstName` congress.gov records ("Chuck", "Bernie").
+ * Search reads it; nothing displays it.
+ *
+ * @param raw - Raw legislator file
+ * @param displayed - The name the row shows
+ * @returns Space-joined names, or '' when the display name covers them all
+ */
+export function knownAs(raw: Record<string, unknown>, displayed: string): string {
+  const shown = normalise(displayed).split(' ');
+  const extra: string[] = [];
+  for (const field of ['nickName', 'firstName']) {
+    const value = raw[field];
+    if (typeof value !== 'string') continue;
+    for (const word of normalise(value).split(' ')) {
+      // An initial is not a name: "J." would match every J.
+      if (word.length > 1 && !shown.includes(word) && !extra.includes(word)) extra.push(word);
+    }
+  }
+  return extra.join(' ');
+}
+
+/**
+ * Sort key that files a member under their surname, the way a roster is read:
+ * "schumer charles e schumer". Accents fold, so García sits with Garcia.
+ */
+export function memberSortKey(raw: Record<string, unknown>, displayed: string): string {
+  const last = typeof raw.lastName === 'string' ? raw.lastName : '';
+  return `${normalise(last)} ${normalise(displayed)}`.trim();
+}
+
 export function toMemberRow(raw: Record<string, unknown>, fromFile: string, casts: number, hasHeadshot: boolean): MemberRow | null {
   if (casts <= 0) return null;
   const leg = normalizeLegislatorForCollection(raw, fromFile);
@@ -276,6 +308,8 @@ export function toMemberRow(raw: Record<string, unknown>, fromFile: string, cast
     c: leg.type === 'sen' ? 'senate' : 'house',
     v: casts,
   };
+  const known = knownAs(raw, row.n);
+  if (known) row.k = known;
   if (leg.type === 'rep' && typeof leg.district === 'number') row.d = leg.district;
   if (hasHeadshot) row.i = 1;
   return row;
@@ -308,15 +342,24 @@ export function buildIndexes(dataDir = DATA_DIR): { bills: BillRow[]; members: M
   const held = heldHeadshots();
   const legislatorsDir = path.join(dataDir, 'legislators');
   const members: MemberRow[] = [];
+  const sortKeys = new Map<string, string>();
   if (fs.existsSync(legislatorsDir)) {
     for (const file of fs.readdirSync(legislatorsDir).filter(f => f.endsWith('.json'))) {
       const fromFile = path.basename(file, '.json');
       const raw = JSON.parse(fs.readFileSync(path.join(legislatorsDir, file), 'utf8')) as Record<string, unknown>;
       const row = toMemberRow(raw, fromFile, casts.get(fromFile) ?? 0, held.has(fromFile));
-      if (row) members.push(row);
+      if (row) {
+        members.push(row);
+        sortKeys.set(row.b, memberSortKey(raw, row.n));
+      }
     }
   }
-  members.sort((a, b) => a.n.localeCompare(b.n));
+  // By surname: the unfiltered list is a roster, and a roster is read that way.
+  members.sort((a, b) => {
+    const ka = sortKeys.get(a.b) as string;
+    const kb = sortKeys.get(b.b) as string;
+    return ka < kb ? -1 : ka > kb ? 1 : a.b.localeCompare(b.b);
+  });
   return { bills, members };
 }
 
