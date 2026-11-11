@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 25,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/3857/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-10",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Star Print ordered on the reported bill, by unanimous consent.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-17",
         "sourceSystem": {
@@ -23,7 +31,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
+        "text": "Committee on Energy and Natural Resources. Reported by Senator Lee without amendment. Without written report.",
         "type": "Committee"
       },
       {
@@ -742,8 +750,8 @@
   "congress": 119,
   "introducedDate": "2025-06-10",
   "latestAction": {
-    "actionDate": "2026-09-17",
-    "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 661."
+    "actionDate": "2026-11-10",
+    "text": "Star Print ordered on the reported bill, by unanimous consent."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3857",
   "number": "3857",
@@ -831,9 +839,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-30T15:33:46Z",
-  "updateDateIncludingText": "2026-09-30T15:33:46Z",
+  "updateDate": "2026-11-11T11:57:03Z",
+  "updateDateIncludingText": "2026-11-11T11:57:03Z",
   "id": "119-HR-3857",
-  "lastActionDate": "2026-09-17",
+  "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2025-12-10"
 }
