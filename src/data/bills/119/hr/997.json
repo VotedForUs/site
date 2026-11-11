@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 22,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/hr/997/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-11-09",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-11-09",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-10-14",
         "sourceSystem": {
@@ -809,8 +829,8 @@
   "congress": 119,
   "introducedDate": "2025-02-05",
   "latestAction": {
-    "actionDate": "2026-10-14",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-11-09",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/997",
   "number": "997",
@@ -823,6 +843,12 @@
   "title": "National Taxpayer Advocate Enhancement Act of 2025",
   "titles": {
     "titles": [
+      {
+        "title": "National Taxpayer Advocate Enhancement Act of 2025",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2026-11-10T14:13:57Z"
+      },
       {
         "billTextVersionCode": "ENR",
         "billTextVersionName": "Enrolled Bill",
@@ -874,12 +900,6 @@
         "updateDate": "2025-03-28T11:23:18Z"
       },
       {
-        "title": "National Taxpayer Advocate Enhancement Act of 2025",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
-        "updateDate": "2025-02-08T06:23:21Z"
-      },
-      {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
         "title": "National Taxpayer Advocate Enhancement Act of 2025",
@@ -898,9 +918,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-15T10:56:21Z",
-  "updateDateIncludingText": "2026-10-15T10:56:21Z",
+  "updateDate": "2026-11-10T14:13:57Z",
+  "updateDateIncludingText": "2026-11-10T14:13:57Z",
   "id": "119-HR-997",
-  "lastActionDate": "2026-10-14",
+  "lastActionDate": "2026-11-09",
   "lastRecordedVoteDate": "2026-09-28"
 }
