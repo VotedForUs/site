@@ -7,7 +7,15 @@
  */
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert';
+import * as fs from 'node:fs';
+import * as os from 'node:os';
+import * as path from 'node:path';
+import { fixtureBill, fixtureBillNoVotes, makeDataDir } from './fixtures/dataDir.js';
 import {
+  buildIndexes,
+  formatFinderReport,
+  readBills,
+  writeFinderIndex,
   DRILLDOWN_BUDGET_GZIP_BYTES,
   FinderIndexError,
   INDEX_BUDGET_GZIP_BYTES,
@@ -355,5 +363,142 @@ describe('memberSortKey', () => {
 
   it('falls back to the display name when no surname is recorded', () => {
     assert.equal(memberSortKey({}, 'Patrick Ryan'), 'patrick ryan');
+  });
+});
+
+describe('readBills', () => {
+  it('reads every bill file under bills/{congress}/{type}/', () => {
+    const { dataDir, cleanup } = makeDataDir();
+    assert.deepEqual(readBills(dataDir).map(b => b.id).sort(), ['999-HR-26', '999-S-5']);
+    cleanup();
+  });
+
+  it('ignores anything that is not a congress directory, a type directory or a JSON file', () => {
+    const { dataDir, cleanup } = makeDataDir();
+    fs.mkdirSync(path.join(dataDir, 'bills', 'drafts'));
+    fs.writeFileSync(path.join(dataDir, 'bills', '999', 'README.md'), 'not a type directory');
+    fs.writeFileSync(path.join(dataDir, 'bills', '999', 'hr', 'notes.txt'), 'not a bill');
+    assert.equal(readBills(dataDir).length, 2);
+    cleanup();
+  });
+
+  it('is empty when there is no bills directory', () => {
+    assert.deepEqual(readBills(path.join(os.tmpdir(), 'vfu-no-such-dir')), []);
+  });
+});
+
+describe('buildIndexes', () => {
+  it('orders bills newest first', () => {
+    const { dataDir, cleanup } = makeDataDir();
+    assert.deepEqual(buildIndexes(dataDir, undefined, new Set()).bills.map(b => b.i), ['999-HR-26', '999-S-5']);
+    cleanup();
+  });
+
+  it('breaks a tie on date by bill id', () => {
+    const sameDay = { ...fixtureBillNoVotes, lastActionDate: fixtureBill.lastActionDate };
+    const { dataDir, cleanup } = makeDataDir([fixtureBill, sameDay]);
+    assert.deepEqual(buildIndexes(dataDir, undefined, new Set()).bills.map(b => b.i), ['999-HR-26', '999-S-5']);
+    cleanup();
+  });
+
+  it('lists members by surname and leaves out anyone who never cast a recorded vote', () => {
+    const { dataDir, cleanup } = makeDataDir();
+    const { members } = buildIndexes(dataDir, undefined, new Set());
+    assert.deepEqual(members.map(m => m.n), ['Robert B. Aderholt', 'Patrick Ryan', 'Bernard Sanders']);
+    assert.ok(!members.some(m => m.b === 'N000000'));
+    cleanup();
+  });
+
+  it('counts a voice vote as a cast and carries what the member goes by', () => {
+    const { dataDir, cleanup } = makeDataDir();
+    const { members } = buildIndexes(dataDir, undefined, new Set());
+    assert.equal(members.find(m => m.b === 'S000033')?.v, 1);
+    assert.equal(members.find(m => m.b === 'R000579')?.k, 'pat');
+    cleanup();
+  });
+
+  it('marks a portrait only for a member whose file is held', () => {
+    const { dataDir, cleanup } = makeDataDir();
+    const { members } = buildIndexes(dataDir, undefined, new Set(['R000579']));
+    assert.deepEqual(members.map(m => m.i), [undefined, 1, undefined]);
+    cleanup();
+  });
+
+  it('has no members when there is no legislators directory', () => {
+    const { dataDir, cleanup } = makeDataDir([fixtureBill], {});
+    fs.rmSync(path.join(dataDir, 'legislators'), { recursive: true });
+    assert.deepEqual(buildIndexes(dataDir, undefined, new Set()).members, []);
+    cleanup();
+  });
+});
+
+describe('writeFinderIndex', () => {
+  const write = (over: Parameters<typeof writeFinderIndex>[0] = {}) => {
+    const fixture = makeDataDir();
+    const outDir = path.join(fixture.root, 'public', 'finder');
+    return { ...fixture, outDir, run: () => writeFinderIndex({ dataDir: fixture.dataDir, outDir, held: new Set(), ...over }) };
+  };
+  const json = (file: string) => JSON.parse(fs.readFileSync(file, 'utf8'));
+
+  it('writes the two index files, the vote index, and a casts file per member', () => {
+    const { outDir, run, cleanup } = write();
+    const report = run();
+    assert.deepEqual([report.members, report.bills, report.votes], [3, 2, 2]);
+    assert.equal(json(path.join(outDir, 'members.json')).length, 3);
+    assert.equal(json(path.join(outDir, 'bills.json')).length, 2);
+    assert.deepEqual(json(path.join(outDir, 'votes.json')).map((v: { i: string }) => v.i), ['999-HR-26-1', '999-HR-26-2']);
+    assert.deepEqual(fs.readdirSync(path.join(outDir, 'members')).sort(), ['A000055.json', 'R000579.json', 'S000033.json']);
+    cleanup();
+  });
+
+  it('records each member’s casts as positions in votes.json', () => {
+    const { outDir, run, cleanup } = write();
+    run();
+    assert.deepEqual(json(path.join(outDir, 'members', 'R000579.json')), [[0, 'No']]);
+    assert.deepEqual(json(path.join(outDir, 'members', 'S000033.json')), [[1, 'Yea']]);
+    cleanup();
+  });
+
+  it('clears casts files left by an earlier run', () => {
+    const { outDir, run, cleanup } = write();
+    fs.mkdirSync(path.join(outDir, 'members'), { recursive: true });
+    fs.writeFileSync(path.join(outDir, 'members', 'GONE0001.json'), '[]');
+    run();
+    assert.ok(!fs.existsSync(path.join(outDir, 'members', 'GONE0001.json')));
+    cleanup();
+  });
+
+  it('reports sizes the way the reader pays for them', () => {
+    const { run, cleanup } = write();
+    const report = run();
+    assert.deepEqual(report.files.map(f => [f.name, f.rows]), [['members.json', 3], ['bills.json', 2]]);
+    assert.equal(report.indexGzip, report.files[0].gzip + report.files[1].gzip);
+    assert.equal(report.drilldownGzip, report.votesGzip + report.largestCastsGzip);
+    assert.ok(report.votesBytes > report.votesGzip / 2);
+    cleanup();
+  });
+
+  it('fails the build when the index outgrows its budget', () => {
+    const { run, cleanup } = write({ indexBudget: 10 });
+    assert.throws(run, (err: unknown) => err instanceof FinderIndexError && /over the 0\.0 KB budget/.test(err.message));
+    cleanup();
+  });
+
+  it('fails the build when opening one record outgrows its budget', () => {
+    const { run, cleanup } = write({ drilldownBudget: 10 });
+    assert.throws(run, (err: unknown) => err instanceof FinderIndexError && /opening a record costs/.test(err.message));
+    cleanup();
+  });
+
+  it('prints one line per file and one per budget', () => {
+    const { run, cleanup } = write();
+    const lines = formatFinderReport(run()).split('\n');
+    assert.equal(lines.length, 5);
+    assert.match(lines[0], /^finder index: members\.json — 3 rows, /);
+    assert.match(lines[1], /^finder index: bills\.json — 2 rows, /);
+    assert.match(lines[2], /gzipped combined, budget 60\.0 KB$/);
+    assert.match(lines[3], /^drill-down: votes\.json — 2 rows, .* 3 member files, largest /);
+    assert.match(lines[4], /budget 48\.0 KB$/);
+    cleanup();
   });
 });

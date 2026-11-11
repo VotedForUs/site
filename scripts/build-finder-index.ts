@@ -333,13 +333,22 @@ export function readBills(dataDir = DATA_DIR): RawBill[] {
   return bills;
 }
 
-/** Both indexes, ordered the way the finder renders them. */
-export function buildIndexes(dataDir = DATA_DIR): { bills: BillRow[]; members: MemberRow[] } {
-  const rawBills = readBills(dataDir);
+/**
+ * Both indexes, ordered the way the finder renders them.
+ *
+ * @param dataDir - `src/data`
+ * @param rawBills - Bill files, when the caller has already read them
+ * @param held - Bioguide ids with a portrait on disk
+ * @returns Bill rows newest first, member rows by surname
+ */
+export function buildIndexes(
+  dataDir = DATA_DIR,
+  rawBills: RawBill[] = readBills(dataDir),
+  held: ReadonlySet<string> = heldHeadshots(),
+): { bills: BillRow[]; members: MemberRow[] } {
   const bills = rawBills.map(toBillRow).sort((a, b) => (a.d < b.d ? 1 : a.d > b.d ? -1 : a.i.localeCompare(b.i)));
 
   const casts = countCasts(rawBills);
-  const held = heldHeadshots();
   const legislatorsDir = path.join(dataDir, 'legislators');
   const members: MemberRow[] = [];
   const sortKeys = new Map<string, string>();
@@ -375,64 +384,120 @@ export function measure(files: Record<string, string>) {
 
 const kb = (n: number) => `${(n / 1024).toFixed(1)} KB`;
 
-async function main() {
-  const { bills, members } = buildIndexes();
-  const { votes, casts } = toVoteIndex(readBills());
+/** What one run of the index build wrote, and what it weighs. */
+export type FinderIndexReport = {
+  members: number;
+  bills: number;
+  votes: number;
+  /** `members.json` and `bills.json`, bytes and gzipped bytes each. */
+  files: Array<{ name: string; rows: number; bytes: number; gzip: number }>;
+  /** Both index files gzipped — what the search field costs. */
+  indexGzip: number;
+  votesBytes: number;
+  votesGzip: number;
+  /** The largest single member's casts file, gzipped. */
+  largestCastsGzip: number;
+  /** `votes.json` plus the largest casts file — what the first record opened costs. */
+  drilldownGzip: number;
+};
+
+/**
+ * Write the finder's files: `members.json`, `bills.json`, `votes.json` and
+ * one casts file per member.
+ *
+ * @param options.dataDir - `src/data`
+ * @param options.outDir - `public/finder`
+ * @param options.held - Bioguide ids with a portrait on disk
+ * @param options.indexBudget - Gzipped ceiling for the two index files
+ * @param options.drilldownBudget - Gzipped ceiling for opening one record
+ * @returns What was written and its sizes
+ * @throws FinderIndexError when either budget is exceeded — after writing, so the files can be inspected
+ */
+export function writeFinderIndex(options: {
+  dataDir?: string;
+  outDir?: string;
+  held?: ReadonlySet<string>;
+  indexBudget?: number;
+  drilldownBudget?: number;
+} = {}): FinderIndexReport {
+  const dataDir = options.dataDir ?? DATA_DIR;
+  const outDir = options.outDir ?? OUT_DIR;
+  const indexBudget = options.indexBudget ?? INDEX_BUDGET_GZIP_BYTES;
+  const drilldownBudget = options.drilldownBudget ?? DRILLDOWN_BUDGET_GZIP_BYTES;
+
+  const rawBills = readBills(dataDir);
+  const { bills, members } = buildIndexes(dataDir, rawBills, options.held);
+  const { votes, casts } = toVoteIndex(rawBills);
 
   const files = {
     'members.json': JSON.stringify(members),
     'bills.json': JSON.stringify(bills),
   };
 
-  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.mkdirSync(outDir, { recursive: true });
   for (const [name, json] of Object.entries(files)) {
-    fs.writeFileSync(path.join(OUT_DIR, name), json);
+    fs.writeFileSync(path.join(outDir, name), json);
   }
 
   // The drill-down's own files: the shared vote index, and one file per member.
   const votesJson = JSON.stringify(votes);
-  fs.writeFileSync(path.join(OUT_DIR, 'votes.json'), votesJson);
+  fs.writeFileSync(path.join(outDir, 'votes.json'), votesJson);
 
-  const membersDir = path.join(OUT_DIR, 'members');
+  const membersDir = path.join(outDir, 'members');
   fs.rmSync(membersDir, { recursive: true, force: true });
   fs.mkdirSync(membersDir, { recursive: true });
-  let largestCasts = 0;
+  let largestCastsGzip = 0;
   for (const row of members) {
     const json = JSON.stringify(casts.get(row.b) ?? []);
-    largestCasts = Math.max(largestCasts, gzipSync(json).length);
+    largestCastsGzip = Math.max(largestCastsGzip, gzipSync(json).length);
     fs.writeFileSync(path.join(membersDir, `${row.b}.json`), json);
   }
 
   const { per, gzip } = measure(files);
-  const rows = { 'members.json': members.length, 'bills.json': bills.length };
-  for (const f of per) {
-    console.log(`finder index: ${f.name} — ${rows[f.name as keyof typeof rows]} rows, ${kb(f.bytes)} (${kb(f.gzip)} gzipped)`);
-  }
-  console.log(`finder index: ${kb(gzip)} gzipped combined, budget ${kb(INDEX_BUDGET_GZIP_BYTES)}`);
-
-  // What a reader pays to open one member's record, rather than to search.
+  const rows: Record<string, number> = { 'members.json': members.length, 'bills.json': bills.length };
   const votesGzip = gzipSync(votesJson).length;
-  console.log(
-    `drill-down: votes.json — ${votes.length} rows, ${kb(Buffer.byteLength(votesJson))} (${kb(votesGzip)} gzipped)` +
-    ` · ${members.length} member files, largest ${kb(largestCasts)} gzipped`,
-  );
-  console.log(`drill-down: ${kb(votesGzip + largestCasts)} gzipped for the first record opened, budget ${kb(DRILLDOWN_BUDGET_GZIP_BYTES)}`);
+  const report: FinderIndexReport = {
+    members: members.length,
+    bills: bills.length,
+    votes: votes.length,
+    files: per.map(f => ({ ...f, rows: rows[f.name] })),
+    indexGzip: gzip,
+    votesBytes: Buffer.byteLength(votesJson),
+    votesGzip,
+    largestCastsGzip,
+    drilldownGzip: votesGzip + largestCastsGzip,
+  };
 
-  if (gzip > INDEX_BUDGET_GZIP_BYTES) {
+  if (report.indexGzip > indexBudget) {
     throw new FinderIndexError(
-      `index is ${kb(gzip)} gzipped, over the ${kb(INDEX_BUDGET_GZIP_BYTES)} budget — drop a field before adding one`,
+      `index is ${kb(report.indexGzip)} gzipped, over the ${kb(indexBudget)} budget — drop a field before adding one`,
     );
   }
-  if (votesGzip + largestCasts > DRILLDOWN_BUDGET_GZIP_BYTES) {
+  if (report.drilldownGzip > drilldownBudget) {
     throw new FinderIndexError(
-      `opening a record costs ${kb(votesGzip + largestCasts)} gzipped, over the ${kb(DRILLDOWN_BUDGET_GZIP_BYTES)} budget`,
+      `opening a record costs ${kb(report.drilldownGzip)} gzipped, over the ${kb(drilldownBudget)} budget`,
     );
   }
+  return report;
+}
+
+/** The lines the build prints: sizes against their budgets. */
+export function formatFinderReport(report: FinderIndexReport): string {
+  return [
+    ...report.files.map(f => `finder index: ${f.name} — ${f.rows} rows, ${kb(f.bytes)} (${kb(f.gzip)} gzipped)`),
+    `finder index: ${kb(report.indexGzip)} gzipped combined, budget ${kb(INDEX_BUDGET_GZIP_BYTES)}`,
+    // What a reader pays to open one member's record, rather than to search.
+    `drill-down: votes.json — ${report.votes} rows, ${kb(report.votesBytes)} (${kb(report.votesGzip)} gzipped)` +
+      ` · ${report.members} member files, largest ${kb(report.largestCastsGzip)} gzipped`,
+    `drill-down: ${kb(report.drilldownGzip)} gzipped for the first record opened, budget ${kb(DRILLDOWN_BUDGET_GZIP_BYTES)}`,
+  ].join('\n');
 }
 
 if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
-  main().catch((err: unknown) => {
+  try {
+    console.log(formatFinderReport(writeFinderIndex()));
+  } catch (err: unknown) {
     console.error(err instanceof Error ? err.message : err);
     process.exit(1);
-  });
+  }
 }
