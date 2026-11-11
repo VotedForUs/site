@@ -1,0 +1,171 @@
+---
+/**
+ * Share cards and nothing else, at exactly 1200×630, for
+ * `npm run social-cards` to screenshot. Dev only: `astro.config.mjs` injects
+ * this route under `astro dev`, so no build emits it.
+ *
+ *   /social-card-capture?voteId=119-HR-1-3                        every cast on a vote
+ *   /social-card-capture?voteId=119-HR-1-3&bioguideId=A000382     one cast, to look at
+ *   /social-card-capture?default                                  the site's default image
+ *
+ * A vote has up to 435 casts and there are 360,000 in all, so the page is
+ * loaded once per vote, not once per cast. The server resolves every member's
+ * card here, through the same `legislatorVoteView` the site's pages use; the
+ * page shows the first, and `window.vfuShowCast(bioguideId)` swaps another in
+ * with the function that fills the card dialog. Nothing is derived in the
+ * browser.
+ *
+ * A vote or cast that does not resolve is a 404, never a sample card: the
+ * generator must fail rather than save a picture of the wrong vote.
+ */
+import '../layouts/global.css';
+import SiteName from '../components/SiteName.astro';
+import VotedCard from '../components/social-cards/VotedCard.astro';
+import { toVotedCardProps } from '../utils/legislatorVoteView.js';
+import {
+  listVoteMembersFromFiles,
+  resolveLegislatorVoteViewFromFiles,
+} from '../utils/resolveLegislatorVoteViewFromFiles.js';
+import { localHeadshot } from '../utils/headshot.js';
+import type { VotedCardProps } from '../types/votedCard.js';
+import { seoConfig } from '../../utils/seoConfig';
+
+const params = Astro.url.searchParams;
+const voteId = params.get('voteId');
+const only = params.get('bioguideId');
+const isDefault = params.has('default');
+
+const cards: VotedCardProps[] = [];
+if (!isDefault) {
+  if (!voteId) return new Response('voteId is required', { status: 400 });
+  const members = only ? [only] : listVoteMembersFromFiles(voteId);
+  for (const bioguideId of members) {
+    const result = await resolveLegislatorVoteViewFromFiles({ voteId, bioguideId });
+    // A cast whose member has no legislator file has no card, and no stub either.
+    if (!result.ok) continue;
+    // Only a portrait we hold: the collection's URL can be congress.gov's, and a
+    // card must not depend on another site being up when it is drawn.
+    cards.push({ ...toVotedCardProps(result.view), bioguideId, imageUrl: localHeadshot(bioguideId) ?? '' });
+  }
+  if (!cards.length) {
+    return new Response(only ? `No cast for ${voteId} / ${only}` : `No casts for ${voteId}`, { status: 404 });
+  }
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Social card capture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {cards.length ? (
+      <>
+        <VotedCard {...cards[0]} />
+        <script type="application/json" id="capture-cards" set:html={JSON.stringify(cards).replace(/</g, '\\u003c')} />
+      </>
+    ) : (
+      <div class="default-card">
+        <SiteName size="hero" />
+        <p class="default-tagline">{seoConfig.description.replace(/\s*Data from Congress\.gov\.?$/, '')}</p>
+        <p class="default-source">Data from Congress.gov</p>
+      </div>
+    )}
+  </body>
+</html>
+
+<script>
+  import { applyVoteCard, cardFieldsFromProps } from '../utils/memberVoteCard.js';
+  import type { VotedCardProps } from '../types/votedCard.js';
+
+  declare global {
+    interface Window {
+      /** Put one member's cast on the card. Resolves false when they have none on this vote. */
+      vfuShowCast?: (bioguideId: string) => Promise<boolean>;
+      /** The members this page can show, in order. */
+      vfuCasts?: string[];
+    }
+  }
+
+  const source = document.getElementById('capture-cards');
+  const cards: VotedCardProps[] = source ? JSON.parse(source.textContent ?? '[]') : [];
+  const byMember = new Map(cards.map((card) => [card.bioguideId ?? '', card]));
+
+  window.vfuCasts = [...byMember.keys()];
+  window.vfuShowCast = async (bioguideId) => {
+    const card = byMember.get(bioguideId);
+    if (!card) return false;
+    applyVoteCard(document.body, cardFieldsFromProps(card));
+    // The portrait decides nothing about layout, but it has to be painted.
+    const image = document.querySelector<HTMLImageElement>('[data-field="image"]');
+    if (image && !image.hidden && image.getAttribute('src')) await image.decode();
+    // Nothing waits on an animation frame here: a page that is not in front
+    // may never be given one, and the screenshot paints a fresh frame itself.
+    return true;
+  };
+</script>
+
+<style is:global>
+  /* The card is always the light treatment, whatever the machine drawing it prefers. */
+  html {
+    color-scheme: light;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #ffffff;
+  }
+</style>
+
+<style>
+  .default-card {
+    --primary: var(--blue);
+    --error: var(--red);
+    width: 1200px;
+    height: 630px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    background: #ffffff;
+    color: #111111;
+    font-family: var(--font-sans, 'Public Sans', sans-serif);
+    box-shadow:
+      inset 0 0 0 6px var(--primary),
+      inset 0 0 0 9px var(--error);
+  }
+
+  .default-card :global(.sitename) {
+    font-size: 124px;
+    line-height: 1;
+  }
+
+  .default-tagline {
+    margin: 0;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .default-source {
+    margin: 0;
+    font-family: var(--font-mono, 'JetBrains Mono', monospace);
+    font-size: 22px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #55534d;
+  }
+</style>

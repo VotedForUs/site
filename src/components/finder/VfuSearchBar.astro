@@ -1,0 +1,90 @@
+---
+/**
+ * The search bar: the field group, the type toggle and the narrow-by rows.
+ *
+ * All of it is server-rendered — the chip rows included, counted from the
+ * built index — so the bar is HTML before any script runs. `vfu-search-bar.ts`
+ * only adds behaviour to what is already here: it swaps the mode-dependent
+ * copy, fills the type row per query, and reports what the reader typed.
+ */
+import type { Chip, Mode } from './finderView';
+import { MODE_COPY } from './finderView';
+
+interface Props {
+  mode?: Mode;
+  query?: string;
+  memberCount?: number;
+  billCount?: number;
+  /** Narrow-by rows, counted once from the whole index. */
+  stateChips?: Chip[];
+  /** Per query, so normally empty — the finder fills this row after a search. */
+  typeChips?: Chip[];
+  statusChips?: Chip[];
+  autofocus?: boolean;
+  /** The index is in flight. */
+  busy?: boolean;
+}
+
+const {
+  mode = 'members',
+  query = '',
+  memberCount,
+  billCount,
+  stateChips = [],
+  typeChips = [],
+  statusChips = [],
+  autofocus = false,
+  busy = false,
+} = Astro.props;
+
+const copy = MODE_COPY[mode];
+const counts: Record<Mode, number | undefined> = { members: memberCount, bills: billCount };
+
+/** Row order is fixed — state, type, status — so a row never moves when it fills. */
+const rows = [
+  { kind: 'state', label: 'narrow by state', chips: stateChips, modes: ['members'] },
+  { kind: 'type', label: 'narrow by type', chips: typeChips, modes: ['bills'] },
+  { kind: 'status', label: 'narrow by status', chips: statusChips, modes: ['bills'] },
+] as const;
+---
+
+<vfu-search-bar mode={mode} autofocus={autofocus ? '' : undefined}>
+  <form class="finder-form" role="search" aria-busy={busy ? 'true' : 'false'} novalidate>
+    <div class="field-group">
+      <input
+        class="field-input"
+        type="search"
+        name="q"
+        value={query}
+        placeholder={copy.placeholder}
+        aria-label="Search"
+        autocomplete="off"
+        enterkeyhint="search"
+      />
+      <button class="field-submit" type="submit">{copy.button}</button>
+    </div>
+
+    <fieldset class="type-toggle">
+      <legend>What to search</legend>
+      {(['members', 'bills'] as Mode[]).map((value) => (
+        <label class="type-option" data-mode={value}>
+          <input type="radio" name="mode" value={value} checked={mode === value} />
+          <span>{value}</span>
+          <span class="type-count" data-count={value}>{counts[value]}</span>
+        </label>
+      ))}
+      <p class="mode-hint">{copy.hint}</p>
+    </fieldset>
+
+    {rows.map((row) => (
+      <div class="narrow-row" data-row={row.kind} hidden={!row.chips.length || !row.modes.includes(mode as never)}>
+        <span class="narrow-label">{row.label}</span>
+        <div class="chips">
+          {row.chips.map((chip) => (
+            <button type="button" class="finder-chip" value={chip.value} aria-pressed="false">{chip.label}</button>
+          ))}
+        </div>
+      </div>
+    ))}
+  </form>
+</vfu-search-bar>

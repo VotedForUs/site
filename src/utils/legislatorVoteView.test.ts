@@ -41,7 +41,7 @@ test('buildLegislatorVoteView assembles layered data', () => {
   assert.equal(view.legislator.party, 'Independent');
   assert.equal(view.legislator.stateName, 'Vermont');
   assert.equal(view.bill.legislationIdentifier, 'S.J. Res. 3');
-  assert.equal(view.page.socialCardPath, '/social-cards/v/119-SJRES-3-2/S000033.png');
+  assert.equal(view.page.socialCardPath, '/social-cards/119-SJRES-3-2/S000033.png');
   assert.equal(view.display.actionLabel, 'Nay');
 });
 
@@ -60,6 +60,9 @@ test('toVotedCardProps maps card fields', () => {
   assert.equal(props.displayName, 'Sen. Bernie Sanders');
   assert.equal(props.actionLabel, 'Nay');
   assert.equal(props.voteVerb, 'voted');
+  assert.equal(props.schemaActionOption, 'Nay');
+  assert.equal(props.bioguideId, 'S000033');
+  assert.equal(props.billUrl, '/bills/119/sjres/3');
 });
 
 test('toPageVotedProps maps page fields', () => {

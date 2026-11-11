@@ -71,6 +71,28 @@ export function getEditorialBillTitle(congress: string, billType: string, billNu
 }
 
 /**
+ * Read the authored aliases for a bill — the optional `nickname` and
+ * `abbreviation` fields on the same editorial entry as the title.
+ * File: content/editorial/bill-titles/{congress}-{billType}-{number}.json
+ *
+ * Both fields are optional forever: most bills have neither, and an empty
+ * array is the normal result, not a missing value.
+ */
+export function getEditorialBillAliases(congress: string, billType: string, billNumber: string | number): string[] {
+  const billId = `${congress}-${billType.toUpperCase()}-${billNumber}`;
+  const p = path.join(BILL_TITLES_DIR(), `${billId}.json`);
+  if (!fs.existsSync(p)) return [];
+  try {
+    const data = JSON.parse(fs.readFileSync(p, 'utf8')) as { nickname?: unknown; abbreviation?: unknown };
+    return [data.nickname, data.abbreviation]
+      .filter((v): v is string => typeof v === 'string' && v.trim() !== '')
+      .map(v => v.trim());
+  } catch {
+    return [];
+  }
+}
+
+/**
  * Gets the best human-readable title for a bill.
  * Priority:
  * 1. Editorial bill title

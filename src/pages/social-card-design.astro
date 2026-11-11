@@ -1,10 +1,13 @@
 ---
-// TODO: delete or move to a dev-only path before deploying. This is the visual
-// design playground for the OG/social card. See .cursor/social-cards.md.
-//
-// Query params work in `astro dev`. At build time this page is prerendered with
-// default real-data ids (no SSR adapter required).
+/**
+ * Dev playground for the OG card. Storybook owns the same cases in CI.
+ * Production must not ship this URL.
+ */
 export const prerender = true;
+
+if (import.meta.env.PROD) {
+  return Astro.redirect('/404');
+}
 
 import '../layouts/global.css';
 import VotedCard from '../components/social-cards/VotedCard.astro';
