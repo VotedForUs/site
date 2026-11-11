@@ -28,9 +28,9 @@ jobs:
       contents: read
       packages: read
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
           cache: npm
@@ -46,7 +46,7 @@ jobs:
       # Uses run-ID key + prefix restore so we always get the most recent warm cache.
       # The digest comparison inside loaders handles entry-level freshness.
       - name: Restore Astro data-store cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: .astro/
           key: astro-data-prod-${{ runner.os }}-${{ github.run_id }}
@@ -61,7 +61,7 @@ jobs:
       # anyway when FORCE_FULL_REBUILD is set.
       - name: Restore dist cache
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.force_full_rebuild != true }}
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: dist-cache/
           key: astro-dist-prod-${{ runner.os }}-${{ github.run_id }}

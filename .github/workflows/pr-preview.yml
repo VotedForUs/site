@@ -1,0 +1,146 @@
+name: PR Preview
+
+# A live copy of the site for every pull request, at
+#   https://votedforus.github.io/site-previews/pr-preview/pr-<number>/
+# rebuilt on every push and removed when the pull request closes.
+#
+# GitHub Pages serves one site per repository and this one serves
+# votedfor.us, so previews are published to the gh-pages branch of
+# VotedForUs/site-previews. Setup, once:
+#   1. That repository exists, and its Pages source is the gh-pages branch.
+#   2. The PERSONAL_TOKEN secret can push to it.
+#
+# A preview is a full build with three differences from production:
+#   - the bill and legislator data is whatever is on main, not the branch's;
+#   - the share-card images for SHARE_SAMPLE_BILLS (src/shareConfig.ts) are
+#     drawn here, on every run — the step summary reports how long that took
+#     and what the same rate means for every cast;
+#   - it is marked noindex and its absolute URLs point at the preview.
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+# A newer push replaces an older build; closing cancels a build in flight.
+concurrency:
+  group: pr-preview-${{ github.event.number }}
+  cancel-in-progress: true
+
+env:
+  PREVIEW_REPO: VotedForUs/site-previews
+  PREVIEW_ORIGIN: https://votedforus.github.io
+  PREVIEW_BASE: /site-previews/pr-preview/pr-${{ github.event.number }}/
+
+jobs:
+  preview:
+    # A fork's pull request gets no secrets, and the daily data pull requests
+    # merge themselves within minutes of opening.
+    if: >-
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !startsWith(github.head_ref, 'data/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+      pull-requests: write # the sticky comment that carries the preview link
+
+    steps:
+      - uses: actions/checkout@v7
+
+      # Fail in seconds, with the reason, rather than after a ten-minute build.
+      - name: Check the preview repository is reachable
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          if ! gh api "repos/$PREVIEW_REPO" --silent; then
+            echo "::error::$PREVIEW_REPO does not exist, or the PERSONAL_TOKEN secret cannot see it. See the header of .github/workflows/pr-preview.yml."
+            exit 1
+          fi
+
+      - name: Use the bill data on main
+        if: github.event.action != 'closed'
+        run: |
+          git fetch --depth=1 origin main
+          rm -rf src/data public/images/legislators
+          git checkout FETCH_HEAD -- src/data public/images/legislators
+
+      - uses: actions/setup-node@v7
+        if: github.event.action != 'closed'
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          registry-url: https://npm.pkg.github.com
+          scope: '@votedforus'
+
+      - name: Restore the browser Puppeteer draws with
+        if: github.event.action != 'closed'
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: github.event.action != 'closed'
+        run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
+      # The cards carry an emoji beside the cast; without a colour emoji font
+      # it is drawn as an empty box.
+      - name: Install the browser and an emoji font
+        if: github.event.action != 'closed'
+        run: |
+          npx puppeteer browsers install chrome
+          sudo apt-get install -y --no-install-recommends fonts-noto-color-emoji
+
+      - name: Draw the sample share cards
+        if: github.event.action != 'closed'
+        run: npm run social-cards
+
+      # A full build, never an incremental one: a preview has no previous
+      # build of its own to merge with.
+      - name: Build the site
+        if: github.event.action != 'closed'
+        env:
+          BASE_URL: ${{ env.PREVIEW_BASE }}
+          SITE_URL: ${{ env.PREVIEW_ORIGIN }}
+          SITE_NOINDEX: 'true'
+          FORCE_FULL_REBUILD: 'true'
+          NODE_OPTIONS: '--max-old-space-size=8192'
+        run: |
+          started=$(date +%s)
+          npm run finder:index
+          npx astro build
+          npm run share:stubs
+          {
+            echo "### Site build"
+            echo
+            echo "- **Pages:** $(find dist -name '*.html' | wc -l)"
+            echo "- **Size:** $(du -sh dist | cut -f1)"
+            echo "- **Time:** $(( $(date +%s) - started ))s"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # Deploys on open and push, removes on close, and keeps one comment on
+      # the pull request up to date with the link.
+      - name: Publish or remove the preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: dist
+          deploy-repository: ${{ env.PREVIEW_REPO }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          pages-base-url: votedforus.github.io/site-previews
+
+      # Pages runs a branch through Jekyll unless told not to, and Jekyll
+      # drops every directory that starts with an underscore — _astro/ is
+      # where the site's CSS and scripts are.
+      - name: Keep Jekyll away from the previews
+        if: github.event.action != 'closed'
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          if ! gh api "repos/$PREVIEW_REPO/contents/.nojekyll?ref=gh-pages" --silent 2>/dev/null; then
+            gh api -X PUT "repos/$PREVIEW_REPO/contents/.nojekyll" \
+              -f message='Serve the previews as they are built' -f content='' -f branch=gh-pages --silent
+          fi

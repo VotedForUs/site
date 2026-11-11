@@ -43,7 +43,7 @@ Vote content selection and synthesis live in the votes package (`CongressApi`, C
    - one member's cast on a vote → `/bills/{term}/{type}/{n}/{vote}?member={bioguide}` (`vfu-vote-roll` opens the card)
    - one member's votes on a bill → `/members/{bioguide}?bill={term}-{type}-{n}` (`vfu-member-record`), plus `&vote={n}` for the card
    Never add a prerendered route per member×vote or member×bill: that was 351,000 pages and a 67 GB build. Build every such URL with `src/utils/voteLinks.ts`.
-   - **Share stubs** — `/bills/{term}/{type}/{n}/{vote}/{bioguide}` is a ~1 KB file written by `scripts/build-share-stubs.ts` (not Astro) holding the link-preview tags and a hand-off to the `?member=` URL. Which casts get one is `src/shareConfig.ts`: a small sample by default, every cast under `SHARE_STUBS=all` (launch only).
+   - **Share stubs** — `/bills/{term}/{type}/{n}/{vote}/{bioguide}` is a ~1 KB file written by `scripts/build-share-stubs.ts` (not Astro) holding the link-preview tags and a hand-off to the `?member=` URL. Which casts get one is `src/shareConfig.ts`: every cast on `SHARE_SAMPLE_BILLS` by default, every cast there is under `SHARE_STUBS=all` (launch only). A card shares its stub where one was built and the `?member=` URL otherwise.
 2. **Editorial overlays** — optional display tweaks in `src/content/editorial/` (titles, vote-action copy, acronyms); they refine presentation, they do not invent votes.
 3. **UI grouping** — e.g. `BillsTable` groups using `getBillState` from votes; grouping is presentation over data already on disk.
 
@@ -146,19 +146,38 @@ same `VotedCard` the dialog shows.
 
 | Piece | Where |
 |-------|-------|
-| Capture route | `src/dev/social-card-capture.astro` — `/social-card-capture?voteId=…&bioguideId=…` or `?default`. Injected by `astro.config.mjs` under `astro dev` only; no build emits it. A cast that does not resolve is a 404, never a sample. |
-| Generator | `scripts/generate-social-cards.ts` (`npm run social-cards`) — starts `astro dev`, screenshots each cast in `SHARE_SAMPLE`, plus the site default. About ten seconds. Output is committed; CI and deploy never run a browser. |
-| Which casts | `SHARE_SAMPLE` in `src/shareConfig.ts` — the same list the share stubs use. Six casts while the card design is still moving. |
-| Output | `public/social-cards/{voteId}/{bioguideId}.png` and `public/social-card-default.png` (the site-wide `og:image`). |
-| Launch | `SOCIAL_CARDS_BASE=https://…` points every stub's `og:image` at an image host, and `SHARE_STUBS=all` writes a stub per cast. Drawing all ~360,000 images and standing up that host are not done. |
+| Which casts | `SHARE_SAMPLE_BILLS` in `src/shareConfig.ts` — a list of bill ids. Every member's cast on every recorded vote on those bills gets a share stub **and** a card image (about 2,000 today). Add a bill id to widen the sample. |
+| Capture route | `src/dev/social-card-capture.astro` — `/social-card-capture?voteId=…` (a whole vote), `&bioguideId=…` (one cast, to look at) or `?default`. Injected by `astro.config.mjs` under `astro dev` only; no build emits it. The server resolves every card through `legislatorVoteView`; `window.vfuShowCast(id)` swaps one in. A vote that does not resolve is a 404, never a sample. |
+| Generator | `scripts/generate-social-cards.ts` (`npm run social-cards`) — starts Astro's dev server in-process, loads each vote once, and screenshots each member. Prints the rate and what it means for all ~360,000 casts. About 10 a second on 2 CPUs. |
+| Output | `public/social-cards/{voteId}/{bioguideId}.png` — **git-ignored**, drawn by the PR preview workflow on every run. `public/social-card-default.png` (the site-wide `og:image`) is committed. |
+| Launch | `SOCIAL_CARDS_BASE=https://…` points every stub's `og:image` at an image host, and `SHARE_STUBS=all` writes a stub per cast. Drawing all the images and standing up that host are not done. |
 
 ```bash
-npm run social-cards                          # sample + default
+npm run social-cards                          # every cast on the sample bills + the default
+npm run social-cards -- 119-HR-4405           # one bill
 npm run social-cards -- 119-HR-1-3/A000382    # one cast
+npm run social-cards -- --default             # only the default image
 npm run storybook                             # card stories
 ```
 
 Puppeteer needs a Chrome: its own download, or `PUPPETEER_EXECUTABLE_PATH`.
+Do not edit files under `src/` while the generator runs.
+
+## PR previews
+
+`.github/workflows/pr-preview.yml` publishes every pull request to
+`https://votedforus.github.io/site-previews/pr-preview/pr-<number>/` with
+`rossjrw/pr-preview-action`, rebuilds it on every push and removes it when the
+pull request closes. GitHub Pages serves one site per repository, so previews
+go to the `gh-pages` branch of `VotedForUs/site-previews` using the
+`PERSONAL_TOKEN` secret.
+
+A preview is a full build that differs from production in three ways: it uses
+the `src/data` and legislator portraits on `main`; it draws the sample share
+cards; and it sets `BASE_URL`, `SITE_URL` and `SITE_NOINDEX=true`. Because a
+preview lives under a path, **every internal link must go through
+`withBaseUrl` / `voteLinks.ts`** — a root-relative `href="/bills/…"` works in
+production and 404s in every preview.
 
 ## Scripts
 
@@ -173,7 +192,7 @@ Puppeteer needs a Chrome: its own download, or `PUPPETEER_EXECUTABLE_PATH`.
 | `npm run test:types` | `astro check` |
 | `npm run storybook` | Storybook on `:6006` |
 
-Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `BASE_URL`, `SHARE_STUBS` (`all` = a stub for every cast), `SOCIAL_CARDS_BASE` (where card images are served from, when not this site).
+Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `BASE_URL`, `SITE_URL` (origin for absolute URLs; default `https://votedfor.us`), `SITE_NOINDEX` (`true` = every page noindex), `SHARE_STUBS` (`all` = a stub for every cast), `SOCIAL_CARDS_BASE` (where card images are served from, when not this site).
 
 ## Build / deploy
 
@@ -194,7 +213,7 @@ Env knobs: `FORCE_FULL_REBUILD`, `BILLS_PER_TYPE_LIMIT`, `LEGISLATORS_LIMIT`, `B
 1. Trust **this file + source** over README for routes and `src/data/` layout.
 2. Do not `file:`-link votes; use GitHub Packages.
 3. Image root is `/images/legislators/{BIOGUIDE}.jpg`, not `/img/member/`.
-4. After changing `VotedCard`, re-run `npm run social-cards` and commit the PNGs — nothing regenerates them for you.
+4. Card images are not committed. After changing `VotedCard`, look at the PR preview, or run `npm run social-cards -- <voteId>/<bioguide>` locally.
 5. `.cursor/vote-roll-handoff.md` is **obsolete** (references deleted pages/assets).
 6. Commits: Gitmoji format (see `.cursor/rules/gitmoji-commits.mdc`).
 7. Confirm before large refactors; prefer multiple-choice questions when asking the human.
