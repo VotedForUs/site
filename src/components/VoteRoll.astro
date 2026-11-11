@@ -15,7 +15,7 @@ import { addVoteRollSortOrders } from '../utils/voteRollSortOrders';
 import { voteCardPath, votePath } from '../utils/voteLinks.js';
 import { buildLegislatorVoteDisplay } from '../utils/legislatorVoteDisplay.js';
 import { stateNameFromCode } from '../utils/stateNames.js';
-import { SHARE_STUBS_ALL } from '../shareConfig.js';
+import { SHARE_STUB_SCOPE } from '../shareConfig.js';
 import { seoConfig } from '../../utils/seoConfig';
 import { buildStateGroups, liftHomeState } from '../utils/voteRollView.js';
 import LegislatorVoteRow from './VoteRollRow.astro';
@@ -92,7 +92,7 @@ const shell = buildLegislatorVoteDisplay({
   record-type={recordType}
   base={base}
   share-origin={seoConfig.baseURL}
-  share-stubs={SHARE_STUBS_ALL ? '' : undefined}
+  share-stub-scope={SHARE_STUB_SCOPE}
   selected={selectedBioguideId}
 >
   {kindLabel && (

@@ -13,11 +13,11 @@
  * Astro does not render these. There are about 350,000 casts; a template
  * string per cast is seconds of work where a route was two hours.
  *
- * Which casts get one is `src/shareConfig.ts`: the sample by default, every
- * cast under `SHARE_STUBS=all`.
+ * Which casts get one is `src/shareConfig.ts`: every cast on the sample bills
+ * by default, every cast there is under `SHARE_STUBS=all`.
  *
  * ```bash
- * npm run share:stubs                  # the sample, into dist/
+ * npm run share:stubs                  # the sample bills, into dist/
  * SHARE_STUBS=all npm run share:stubs  # every cast
  * ```
  */
@@ -32,9 +32,10 @@ import { memberCastsForDisplay } from '../src/utils/memberCastsForDisplay.js';
 import { normalizeLegislatorForCollection } from '../src/utils/normalizeLegislatorForCollection.js';
 import { stateNameFromCode } from '../src/utils/stateNames.js';
 import { voteCardPath, voteSharePath } from '../src/utils/voteLinks.js';
+import { withBaseUrl } from '../src/utils/withBaseUrl.js';
 import {
   DEFAULT_CARD_PATH,
-  SHARE_SAMPLE,
+  SHARE_SAMPLE_BILLS,
   SHARE_STUBS_ALL,
   SOCIAL_CARDS_BASE,
   cardImagePath,
@@ -86,12 +87,12 @@ export function escapeHtml(value: string): string {
  *
  * @param stub - What the preview says
  * @param options.origin - Site origin for absolute URLs
- * @param options.base - Deployment base for the hand-off
+ * @param options.base - Deployment base, for the hand-off and the stub's own URL
  * @returns A complete HTML document
  */
 export function renderStub(stub: ShareStub, options: { origin: string; base: string }): string {
   const origin = options.origin.replace(/\/$/, '');
-  const shareUrl = `${origin}${voteSharePath(stub.voteId, stub.bioguideId)}`;
+  const shareUrl = `${origin}${voteSharePath(stub.voteId, stub.bioguideId, options.base)}`;
   const target = voteCardPath(stub.voteId, stub.bioguideId, options.base);
   const t = escapeHtml(stub.title);
   const d = escapeHtml(stub.description);
@@ -115,30 +116,43 @@ export function renderStub(stub: ShareStub, options: { origin: string; base: str
   ].join('');
 }
 
+/** A bill's id as the sample list spells it: `119-HR-4405`. */
+export function billIdOf(bill: RawBill): string {
+  return bill.id ?? `${bill.congress}-${String(bill.type).toUpperCase()}-${bill.number}`;
+}
+
 /**
  * Every cast in the data, as stubs. A generator, because under
  * `SHARE_STUBS=all` there are about 350,000 and none needs to outlive its write.
  *
+ * The card-image generator enumerates casts through this too, so a cast has
+ * an image exactly when it has a stub.
+ *
  * @param bills - Raw bill files
  * @param members - Member fields by bioguide id
  * @param options.origin - Site origin for absolute image URLs
+ * @param options.base - Deployment base, when the site is not at the origin's root
  * @param options.hasImage - Whether a cast has its own card image
- * @param options.imageBase - Where card images are served from; the site origin when unset
- * @param options.only - When set, only these `voteId/bioguideId` keys are yielded
+ * @param options.imageBase - Where card images are served from; this site when unset
+ * @param options.bills - When set, only casts on these bill ids are yielded
  */
 export function* stubsFor(
   bills: RawBill[],
   members: Map<string, StubMember>,
   options: {
     origin: string;
+    base?: string;
     hasImage: (voteId: string, bioguideId: string) => boolean;
     imageBase?: string | null;
-    only?: Set<string>;
+    bills?: ReadonlySet<string>;
   },
 ): Generator<ShareStub> {
   const origin = options.origin.replace(/\/$/, '');
-  const imageBase = options.imageBase ?? origin;
+  // Images on this site sit under its base; images on a host of their own do not.
+  const imageBase = options.imageBase ?? `${origin}${withBaseUrl('/', options.base).replace(/\/$/, '')}`;
+  const defaultImage = `${origin}${withBaseUrl(DEFAULT_CARD_PATH, options.base)}`;
   for (const bill of bills) {
+    if (options.bills && !options.bills.has(billIdOf(bill))) continue;
     const billTitle = getBestBillTitle(bill as Parameters<typeof getBestBillTitle>[0]);
     const identifier = formatLegislationIdentifier(String(bill.type).toLowerCase(), String(bill.number));
     for (const action of bill.actions?.actions ?? []) {
@@ -146,7 +160,6 @@ export function* stubsFor(
         if (!vote.id) continue;
         const question = getEditorialVoteAction(vote.id) ?? vote.question ?? action.text ?? 'Recorded vote';
         for (const [bioguideId, cast] of Object.entries(memberCastsForDisplay(vote))) {
-          if (options.only && !options.only.has(`${vote.id}/${bioguideId}`)) continue;
           const member = members.get(bioguideId);
           if (!member) continue; // a cast by someone with no legislator file has no card either
           const display = buildLegislatorVoteDisplay({
@@ -165,9 +178,7 @@ export function* stubsFor(
             bioguideId,
             title: `${display.displayName} ${display.voteVerb} ${display.actionLabel}`,
             description: `${question} · ${billTitle} (${identifier})`,
-            image: ownImage
-              ? `${imageBase}${cardImagePath(vote.id, bioguideId)}`
-              : `${origin}${DEFAULT_CARD_PATH}`,
+            image: ownImage ? `${imageBase}${cardImagePath(vote.id, bioguideId)}` : defaultImage,
             ownImage,
           };
         }
@@ -243,32 +254,71 @@ function writeStubFile(file: string, html: string): void {
   }
 }
 
-function main() {
-  const outDir = path.join(REPO_ROOT, 'dist');
-  if (!fs.existsSync(outDir)) {
-    throw new Error('dist/ does not exist — share stubs are written into a finished build');
+/** What one run of the stub build is told. */
+export type ShareStubBuild = {
+  /** A finished build to write into. */
+  outDir: string;
+  /** `src/data` — bills and legislators. */
+  dataDir: string;
+  /** `public/` — where locally drawn card images are looked for. */
+  publicDir: string;
+  /** Site origin for absolute URLs. */
+  origin: string;
+  /** Deployment base. */
+  base: string;
+  /** True to write a stub for every cast; otherwise only `sampleBills`. */
+  all: boolean;
+  /** Bill ids whose casts get a stub when `all` is false. */
+  sampleBills: readonly string[];
+  /** Absolute URL card images are served from, when not this site. */
+  imageBase: string | null;
+};
+
+/**
+ * Write the share stubs for one build.
+ *
+ * @param build - Where to read, where to write, and which casts
+ * @returns How many stubs were written, how many have their own image, and the bytes
+ * @throws When `outDir` does not exist: stubs go into a finished build
+ */
+export function buildShareStubs(build: ShareStubBuild): { count: number; bytes: number; withImage: number } {
+  if (!fs.existsSync(build.outDir)) {
+    throw new Error(`${build.outDir} does not exist — share stubs are written into a finished build`);
   }
-  const publicDir = path.join(REPO_ROOT, 'public');
-  const dataDir = path.join(REPO_ROOT, 'src', 'data');
-  const started = Date.now();
-  const stubs = stubsFor(readBills(dataDir), readStubMembers(dataDir), {
-    origin: seoConfig.baseURL,
+  let withImage = 0;
+  const stubs = stubsFor(readBills(build.dataDir), readStubMembers(build.dataDir), {
+    origin: build.origin,
+    base: build.base,
     // Served from elsewhere, every cast has one; served from here, only the files we hold.
-    hasImage: SOCIAL_CARDS_BASE
-      ? () => true
-      : (voteId, bioguideId) => fs.existsSync(path.join(publicDir, cardImagePath(voteId, bioguideId))),
-    imageBase: SOCIAL_CARDS_BASE,
-    only: SHARE_STUBS_ALL ? undefined : new Set(SHARE_SAMPLE.map((s) => `${s.voteId}/${s.bioguideId}`)),
+    hasImage: (voteId, bioguideId) => {
+      const has = build.imageBase !== null
+        || fs.existsSync(path.join(build.publicDir, cardImagePath(voteId, bioguideId)));
+      if (has) withImage += 1;
+      return has;
+    },
+    imageBase: build.imageBase,
+    bills: build.all ? undefined : new Set(build.sampleBills),
   });
-  const { count, bytes } = writeStubs(stubs, {
-    outDir,
+  const written = writeStubs(stubs, { outDir: build.outDir, origin: build.origin, base: build.base });
+  return { ...written, withImage };
+}
+
+function main() {
+  const started = Date.now();
+  const { count, bytes, withImage } = buildShareStubs({
+    outDir: path.join(REPO_ROOT, 'dist'),
+    dataDir: path.join(REPO_ROOT, 'src', 'data'),
+    publicDir: path.join(REPO_ROOT, 'public'),
     origin: seoConfig.baseURL,
     base: process.env.BASE_URL ?? '/',
+    all: SHARE_STUBS_ALL,
+    sampleBills: SHARE_SAMPLE_BILLS,
+    imageBase: SOCIAL_CARDS_BASE,
   });
   const seconds = ((Date.now() - started) / 1000).toFixed(1);
   console.log(
-    `share stubs: ${count} written (${SHARE_STUBS_ALL ? 'every cast' : 'sample'}), ` +
-    `${(bytes / 1024 / 1024).toFixed(1)} MB, ${seconds}s`,
+    `share stubs: ${count} written (${SHARE_STUBS_ALL ? 'every cast' : `${SHARE_SAMPLE_BILLS.length} sample bills`}), ` +
+    `${withImage} with their own card image, ${(bytes / 1024 / 1024).toFixed(1)} MB, ${seconds}s`,
   );
 }
 

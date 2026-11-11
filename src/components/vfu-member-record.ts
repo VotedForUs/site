@@ -257,7 +257,7 @@ export class VfuMemberRecord extends HTMLElement {
       prevVoteId: this.#billVotes[index - 1]?.vote.i ?? null,
       nextVoteId: this.#billVotes[index + 1]?.vote.i ?? null,
       shareOrigin: this.shareOrigin,
-      shareStubs: this.hasAttribute('share-stubs'),
+      shareStubScope: this.getAttribute('share-stub-scope') ?? '',
       base: this.base,
     });
     applyMemberVoteCard(this.#card, fields);

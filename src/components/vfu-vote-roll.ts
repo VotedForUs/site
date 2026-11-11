@@ -130,7 +130,7 @@ export class VfuVoteRoll extends HTMLElement {
       prevBioguideId: visible[index - 1]?.dataset.bioguide ?? null,
       nextBioguideId: visible[index + 1]?.dataset.bioguide ?? null,
       shareOrigin: this.getAttribute('share-origin') ?? window.location.origin,
-      shareStubs: this.hasAttribute('share-stubs'),
+      shareStubScope: this.getAttribute('share-stub-scope') ?? '',
       base: this.base,
     }));
 

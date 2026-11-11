@@ -307,7 +307,7 @@ decides which casts get one:
 
 | `SHARE_STUBS` | Stubs | Cost |
 |---|---|---|
-| unset (default, dev and CI) | the sample list, 6 casts | under a second |
+| unset (default) | every cast on `SHARE_SAMPLE_BILLS`, 1,999 today | under a second |
 | `all` (launch) | every cast, 360,393 | 16 s to write, +472 MB of content — but 360k files occupy ~3 GB of 4 KB disk blocks and a 1.4 GB tar, so upload and deploy are what slow down, not the write |
 
 A stub replaces an earlier stub but refuses to overwrite any other file, so a

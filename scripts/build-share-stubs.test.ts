@@ -9,7 +9,10 @@ import * as os from 'node:os';
 import * as path from 'node:path';
 import {
   STUB_MARKER,
+  billIdOf,
+  buildShareStubs,
   escapeHtml,
+  readStubMembers,
   renderStub,
   stubsFor,
   writeStubs,
@@ -17,6 +20,7 @@ import {
   type StubMember,
 } from './build-share-stubs.js';
 import type { RawBill } from './build-finder-index.js';
+import { makeDataDir } from './fixtures/dataDir.js';
 
 const members = new Map<string, StubMember>([
   ['A000382', { nameTitle: 'Sen. Angela D. Alsobrooks (MD)', party: 'Democrat', state: 'MD', chamber: 'sen' }],
@@ -87,10 +91,33 @@ describe('stubsFor', () => {
     assert.equal(stubs[1].ownImage, true);
   });
 
-  it('is limited to the sample when one is given', () => {
-    const only = new Set(['119-HR-1-9/R000579']);
-    const stubs = [...stubsFor(bills, members, { origin, hasImage: none, only })];
-    assert.deepEqual(stubs.map((s) => s.bioguideId), ['R000579']);
+  it('is limited to the sample bills when a list is given — every cast on them, none off them', () => {
+    const other: RawBill = { ...bills[0], id: '119-S-5', type: 'S', number: 5 };
+    const stubs = [...stubsFor([...bills, other], members, { origin, hasImage: none, bills: new Set(['119-HR-1']) })];
+    assert.deepEqual(stubs.map((s) => `${s.voteId}/${s.bioguideId}`), ['119-HR-1-3/A000382', '119-HR-1-9/R000579']);
+    assert.deepEqual([...stubsFor(bills, members, { origin, hasImage: none, bills: new Set(['119-S-99']) })], []);
+  });
+
+  it('puts this site’s images under its deployment base, and an image host’s at its root', () => {
+    const here = [...stubsFor(bills, members, { origin, base: '/previews/pr-7/', hasImage: (v) => v === '119-HR-1-3' })];
+    assert.equal(here[0].image, 'https://votedfor.us/previews/pr-7/social-cards/119-HR-1-3/A000382.png');
+    assert.equal(here[1].image, 'https://votedfor.us/previews/pr-7/social-card-default.png');
+    const hosted = [...stubsFor(bills, members, {
+      origin, base: '/previews/pr-7/', hasImage: () => true, imageBase: 'https://cards.votedfor.us',
+    })];
+    assert.equal(hosted[0].image, 'https://cards.votedfor.us/social-cards/119-HR-1-3/A000382.png');
+  });
+
+  it('skips a recorded vote with no id rather than inventing one', () => {
+    const noId: RawBill = { ...bills[0], actions: { actions: [{ recordedVotes: [{ votes: { A000382: 'Yea' } }] }] } };
+    assert.deepEqual([...stubsFor([noId], members, { origin, hasImage: none })], []);
+  });
+});
+
+describe('billIdOf', () => {
+  it('reads the id, or builds it the way the sample list spells one', () => {
+    assert.equal(billIdOf({ id: '119-HR-1', congress: 119, type: 'HR', number: 1 }), '119-HR-1');
+    assert.equal(billIdOf({ congress: 119, type: 'hconres', number: '73' }), '119-HCONRES-73');
   });
 });
 
@@ -128,10 +155,11 @@ describe('renderStub', () => {
     assert.ok(Buffer.byteLength(html) < 1500, `${Buffer.byteLength(html)} bytes`);
   });
 
-  it('carries a deployment base into the hand-off but not into the canonical URL', () => {
+  it('carries a deployment base into the hand-off and into its own URL', () => {
     const based = renderStub(stub, { origin, base: '/site/' });
     assert.match(based, /url=\/site\/bills\/119\/hr\/1\/3\?member=A000382/);
-    assert.match(based, /rel="canonical" href="https:\/\/votedfor\.us\/bills\/119\/hr\/1\/3\/A000382"/);
+    assert.match(based, /rel="canonical" href="https:\/\/votedfor\.us\/site\/bills\/119\/hr\/1\/3\/A000382"/);
+    assert.match(based, /og:url" content="https:\/\/votedfor\.us\/site\/bills\/119\/hr\/1\/3\/A000382"/);
   });
 
   it('declares the 1200×630 size for the default image too', () => {
@@ -170,5 +198,87 @@ describe('writeStubs', () => {
     assert.throws(() => writeStubs([stub], { outDir, origin, base: '/' }), /not a share stub/);
     assert.match(fs.readFileSync(file(outDir), 'utf8'), /A real page/);
     fs.rmSync(outDir, { recursive: true });
+  });
+});
+
+describe('readStubMembers', () => {
+  it('reads every legislator file into the fields a stub title needs', () => {
+    const { dataDir, cleanup } = makeDataDir();
+    const read = readStubMembers(dataDir);
+    assert.deepEqual([...read.keys()].sort(), ['A000055', 'N000000', 'R000579', 'S000033']);
+    assert.deepEqual(read.get('R000579'), {
+      nameTitle: 'Rep. Patrick Ryan (NY-18)', party: 'Democrat', state: 'NY', chamber: 'rep', district: 18,
+    });
+    assert.equal(read.get('S000033')?.chamber, 'sen');
+    assert.equal(read.get('S000033')?.district, undefined);
+    cleanup();
+  });
+
+  it('is empty when there is no legislators directory', () => {
+    assert.equal(readStubMembers(path.join(os.tmpdir(), 'vfu-no-such-dir')).size, 0);
+  });
+});
+
+describe('buildShareStubs', () => {
+  const build = (root: string, dataDir: string, over: Partial<Parameters<typeof buildShareStubs>[0]> = {}) => ({
+    outDir: path.join(root, 'dist'),
+    dataDir,
+    publicDir: path.join(root, 'public'),
+    origin,
+    base: '/',
+    all: false,
+    sampleBills: ['999-HR-26'],
+    imageBase: null,
+    ...over,
+  });
+
+  it('refuses to run without a finished build to write into', () => {
+    const { root, dataDir, cleanup } = makeDataDir();
+    assert.throws(() => buildShareStubs(build(root, dataDir)), /does not exist/);
+    cleanup();
+  });
+
+  it('writes a stub for every cast on the sample bills that has a legislator file', () => {
+    const { root, dataDir, cleanup } = makeDataDir();
+    fs.mkdirSync(path.join(root, 'dist'));
+    const result = buildShareStubs(build(root, dataDir));
+    // Three with files on the roll call and the voice vote; Z999999 has no file.
+    assert.equal(result.count, 3);
+    assert.equal(result.withImage, 0);
+    assert.ok(result.bytes > 0);
+    assert.ok(fs.existsSync(path.join(root, 'dist/bills/999/hr/26/1/A000055/index.html')));
+    assert.ok(fs.existsSync(path.join(root, 'dist/bills/999/hr/26/2/S000033/index.html')));
+    assert.ok(!fs.existsSync(path.join(root, 'dist/bills/999/hr/26/1/Z999999')));
+    cleanup();
+  });
+
+  it('writes none when the sample names no bill in the data, and all of them under `all`', () => {
+    const { root, dataDir, cleanup } = makeDataDir();
+    fs.mkdirSync(path.join(root, 'dist'));
+    assert.equal(buildShareStubs(build(root, dataDir, { sampleBills: ['119-HR-1'] })).count, 0);
+    assert.equal(buildShareStubs(build(root, dataDir, { sampleBills: [], all: true })).count, 3);
+    cleanup();
+  });
+
+  it('gives a cast its own image only where the PNG has been drawn', () => {
+    const { root, dataDir, cleanup } = makeDataDir();
+    fs.mkdirSync(path.join(root, 'dist'));
+    fs.mkdirSync(path.join(root, 'public/social-cards/999-HR-26-1'), { recursive: true });
+    fs.writeFileSync(path.join(root, 'public/social-cards/999-HR-26-1/A000055.png'), '');
+    const result = buildShareStubs(build(root, dataDir));
+    assert.equal(result.withImage, 1);
+    const drawn = fs.readFileSync(path.join(root, 'dist/bills/999/hr/26/1/A000055/index.html'), 'utf8');
+    const undrawn = fs.readFileSync(path.join(root, 'dist/bills/999/hr/26/1/R000579/index.html'), 'utf8');
+    assert.match(drawn, /og:image" content="https:\/\/votedfor\.us\/social-cards\/999-HR-26-1\/A000055\.png"/);
+    assert.match(undrawn, /og:image" content="https:\/\/votedfor\.us\/social-card-default\.png"/);
+    cleanup();
+  });
+
+  it('takes every cast to have an image once an image host is configured', () => {
+    const { root, dataDir, cleanup } = makeDataDir();
+    fs.mkdirSync(path.join(root, 'dist'));
+    const result = buildShareStubs(build(root, dataDir, { imageBase: 'https://cards.votedfor.us' }));
+    assert.equal(result.withImage, 3);
+    cleanup();
   });
 });

@@ -131,23 +131,53 @@ export function parseVoteSharePath(
 /**
  * The absolute URL the card offers for sharing.
  *
- * With a stub behind every cast it is the stub, whose tags give the link a
+ * Where a stub was built for the cast it is the stub, whose tags give the link a
  * preview. Without, it is the in-place card URL: it has no preview of its own,
  * but it always resolves, which a path with no file behind it would not.
  *
  * @param voteId - Recorded vote id
  * @param bioguideId - Member id
  * @param options.origin - Site origin (`https://votedfor.us`)
- * @param options.stubs - True when a stub is built for every cast
+ * @param options.stubs - True when a stub was built for this cast
+ * @param options.base - Deployment base
  * @returns Absolute share URL
  */
 export function voteShareUrl(
   voteId: string,
   bioguideId: string,
-  options: { origin: string; stubs: boolean },
+  options: { origin: string; stubs: boolean; base?: string },
 ): string {
   const origin = options.origin.replace(/\/$/, '');
-  return `${origin}${options.stubs ? voteSharePath(voteId, bioguideId) : voteCardPath(voteId, bioguideId)}`;
+  const base = options.base ?? '/';
+  return `${origin}${options.stubs ? voteSharePath(voteId, bioguideId, base) : voteCardPath(voteId, bioguideId, base)}`;
+}
+
+/**
+ * The bill a recorded vote belongs to: `119-HR-2616-184` is on `119-HR-2616`.
+ *
+ * @param voteId - Recorded vote id
+ * @returns Bill id, upper-cased the way bill files spell it; null when unreadable
+ */
+export function billIdOfVote(voteId: string): string | null {
+  const ref = parseVoteId(voteId);
+  return ref && `${ref.term}-${ref.billType.toUpperCase()}-${ref.billNumber}`;
+}
+
+/**
+ * Whether a share stub was built for a vote's casts.
+ *
+ * The scope is what the build was told to write stubs for, as a string an
+ * element can carry in an attribute: `*` for every cast, otherwise the bill
+ * ids, space-separated (`119-HR-4405 119-S-5`). Empty means none.
+ *
+ * @param scope - Stub scope from `src/shareConfig.ts`
+ * @param voteId - Recorded vote id
+ * @returns True when this vote's casts each have a stub
+ */
+export function stubsCover(scope: string, voteId: string): boolean {
+  if (scope.trim() === '*') return true;
+  const billId = billIdOfVote(voteId);
+  return billId !== null && scope.split(/\s+/).includes(billId);
 }
 
 export function memberPath(bioguideId: string, base = '/'): string {

@@ -25,21 +25,27 @@ function billTypeLabel(seg: string): string {
  * @param options.labels - Labels for segments only the page can name, keyed by
  * the segment itself (a bioguide id, say, which is not a name until a page
  * looks it up)
+ * @param options.base - Deployment base (`import.meta.env.BASE_URL`). Its
+ * segments are not crumbs: a preview at `/site-previews/pr-preview/pr-7/` has
+ * the same trail as the site at `/`, with every link under the base.
  */
 export function getBreadcrumbsFromPath(
   pathname: string,
-  options?: { pageTitle?: string; labels?: Record<string, string> }
+  options?: { pageTitle?: string; labels?: Record<string, string>; base?: string }
 ): BreadcrumbItem[] {
-  const segments = pathname.split('/').filter(Boolean);
+  const base = (options?.base ?? '/').replace(/\/+$/, '');
+  const within = base && (pathname === base || pathname.startsWith(`${base}/`)) ? pathname.slice(base.length) : pathname;
+  const segments = within.split('/').filter(Boolean);
+  const home = { label: 'Home', href: `${base}/` };
   if (segments.length === 0) {
-    return [{ label: 'Home', href: '/' }];
+    return [home];
   }
 
-  const crumbs: BreadcrumbItem[] = [{ label: 'Home', href: '/' }];
+  const crumbs: BreadcrumbItem[] = [home];
   const pageTitle = options?.pageTitle;
 
   for (let i = 0; i < segments.length; i++) {
-    const href = '/' + segments.slice(0, i + 1).join('/');
+    const href = `${base}/` + segments.slice(0, i + 1).join('/');
     const isLast = i === segments.length - 1;
     let label: string;
 

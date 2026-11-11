@@ -21,7 +21,7 @@ import { formatLegislationIdentifier } from '../utils/billLegislationFormat.js';
 import { billSegment, memberBillPath, memberPath } from '../utils/voteLinks.js';
 import { withBaseUrl } from '../utils/withBaseUrl.js';
 import { seoConfig } from '../../utils/seoConfig';
-import { SHARE_STUBS_ALL } from '../shareConfig.js';
+import { SHARE_STUB_SCOPE } from '../shareConfig.js';
 
 /** One bill this member has voted on, resolved by the route. */
 export type MemberBill = {
@@ -98,7 +98,7 @@ const cardDisplay = buildLegislatorVoteDisplay({
   share-origin={seoConfig.baseURL}
   base={base}
   index-base={withBaseUrl('/finder/', base)}
-  share-stubs={SHARE_STUBS_ALL ? '' : undefined}
+  share-stub-scope={SHARE_STUB_SCOPE}
   selected={selected}
   selected-vote={selectedVote}
 >

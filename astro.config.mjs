@@ -29,7 +29,8 @@ const devOnlyRoutes = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://votedfor.us',
+  // SITE_URL moves the origin for a PR preview; see utils/seoConfig.ts.
+  site: process.env.SITE_URL?.replace(/\/+$/, '') || 'https://votedfor.us',
   base,
   outDir: './dist',
   cacheDir: './.astro',

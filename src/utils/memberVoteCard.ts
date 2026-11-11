@@ -8,10 +8,12 @@
  * in the markup, on a roll it changes with every row.
  */
 import { buildLegislatorVoteDisplay } from './legislatorVoteDisplay.js';
+import type { VotedCardProps } from '../types/votedCard.js';
 import {
   memberBillPath,
   memberVotePath,
   parseVoteId,
+  stubsCover,
   voteCardPath,
   votePath,
   voteShareUrl,
@@ -32,8 +34,8 @@ type CastInput = {
   state: string;
   district?: number;
   shareOrigin: string;
-  /** True when a share stub exists for every cast — see `src/shareConfig.ts`. */
-  shareStubs?: boolean;
+  /** What stubs the build wrote — `SHARE_STUB_SCOPE` from `src/shareConfig.ts`. */
+  shareStubScope?: string;
   base?: string;
 };
 
@@ -102,7 +104,8 @@ function castFields(input: CastInput) {
       schemaDescription: display.proc ? display.actionLabel : input.voteTitle,
       shareUrl: voteShareUrl(input.voteId, input.bioguideId, {
         origin: input.shareOrigin,
-        stubs: input.shareStubs ?? false,
+        stubs: stubsCover(input.shareStubScope ?? '', input.voteId),
+        base: input.base ?? '/',
       }),
     },
   };
@@ -148,6 +151,38 @@ export function rollVoteCardFields(input: RollVoteCardInput): MemberVoteCardFiel
       memberSubtitle: display.memberSubtitle,
       party: input.party,
       imageUrl: input.imageUrl,
+    },
+  };
+}
+
+/**
+ * Card fields straight from finished {@link VotedCardProps} — the share-card
+ * capture page, where the server has already resolved every string and the
+ * card stands alone: no dialog, so nothing to step to, close or share.
+ *
+ * @param props - One cast's card props, as `toVotedCardProps` builds them
+ * @returns Fields for {@link applyVoteCard}
+ */
+export function cardFieldsFromProps(props: VotedCardProps): MemberVoteCardFields {
+  return {
+    voteId: '',
+    voteVerb: props.voteVerb,
+    emoji: props.emoji,
+    actionLabel: props.actionLabel,
+    voteTitle: props.voteTitle,
+    billTitle: props.billTitle,
+    schemaActionOption: props.schemaActionOption ?? props.actionLabel,
+    schemaDescription: props.schemaDescription ?? props.voteTitle,
+    shareUrl: '',
+    prevHref: null,
+    nextHref: null,
+    closeHref: '',
+    identity: {
+      bioguideId: props.bioguideId ?? '',
+      displayName: props.displayName,
+      memberSubtitle: props.memberSubtitle,
+      party: props.party,
+      imageUrl: props.imageUrl || null,
     },
   };
 }

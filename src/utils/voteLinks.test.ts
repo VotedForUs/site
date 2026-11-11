@@ -19,6 +19,8 @@ import {
   voteSharePath,
   parseVoteSharePath,
   voteShareUrl,
+  billIdOfVote,
+  stubsCover,
   memberVotePath,
   parseMemberVotePath,
 } from './voteLinks.js';
@@ -166,5 +168,42 @@ describe('memberVotePath', () => {
     assert.deepEqual(parseMemberVotePath(path), {
       bioguideId: 'R000579', term: '119', segment: 'hr-2616', voteNumber: '184',
     });
+  });
+});
+
+describe('stubsCover', () => {
+  it('names the bill a vote is on', () => {
+    assert.equal(billIdOfVote('119-HR-2616-184'), '119-HR-2616');
+    assert.equal(billIdOfVote('119-hconres-73-1'), '119-HCONRES-73');
+    assert.equal(billIdOfVote('nonsense'), null);
+  });
+
+  it('covers every vote under *, and only the listed bills otherwise', () => {
+    assert.equal(stubsCover('*', '119-HR-2616-184'), true);
+    assert.equal(stubsCover('119-S-5 119-HR-2616', '119-HR-2616-184'), true);
+    assert.equal(stubsCover('119-S-5', '119-HR-2616-184'), false);
+  });
+
+  it('does not take a bill for one whose number merely starts the same', () => {
+    assert.equal(stubsCover('119-HR-26', '119-HR-2616-184'), false);
+  });
+
+  it('covers nothing when no stubs were built, or the vote id cannot be read', () => {
+    assert.equal(stubsCover('', '119-HR-2616-184'), false);
+    assert.equal(stubsCover('119-HR-2616', 'nonsense'), false);
+  });
+});
+
+describe('voteShareUrl under a deployment base', () => {
+  it('puts the base into both forms', () => {
+    const options = { origin: 'https://votedforus.github.io', base: '/site-previews/pr-preview/pr-7/' };
+    assert.equal(
+      voteShareUrl('119-HR-2616-184', 'S001188', { ...options, stubs: true }),
+      'https://votedforus.github.io/site-previews/pr-preview/pr-7/bills/119/hr/2616/184/S001188',
+    );
+    assert.equal(
+      voteShareUrl('119-HR-2616-184', 'S001188', { ...options, stubs: false }),
+      'https://votedforus.github.io/site-previews/pr-preview/pr-7/bills/119/hr/2616/184?member=S001188',
+    );
   });
 });

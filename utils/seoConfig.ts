@@ -1,8 +1,14 @@
 /**
  * Default SEO configuration for VotedFor.Us.
+ *
+ * `SITE_URL` moves the origin every absolute URL is built from — canonical
+ * links, share links, `og:image`. A PR preview sets it to its own host, so a
+ * link shared from a preview previews the preview, not production.
  */
+export const SITE_ORIGIN: string = process.env.SITE_URL?.replace(/\/+$/, '') || 'https://votedfor.us';
+
 export const seoConfig = {
-  baseURL: 'https://votedfor.us',
+  baseURL: SITE_ORIGIN,
   description:
     'US Legislator votes. Just the votes. Data from Congress.gov.',
   type: 'website' as const,

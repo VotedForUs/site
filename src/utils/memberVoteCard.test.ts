@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert';
-import { memberVoteCardFields, rollVoteCardFields } from './memberVoteCard.js';
+import { cardFieldsFromProps, memberVoteCardFields, rollVoteCardFields } from './memberVoteCard.js';
 
 describe('memberVoteCardFields', () => {
   it('shares the in-place card URL and keeps nav on the member page', () => {
@@ -91,10 +91,28 @@ describe('rollVoteCardFields', () => {
     });
   });
 
-  it('shares the stub once every cast has one', () => {
+  it('shares the stub where one was built for the vote’s bill, or for every cast', () => {
+    for (const shareStubScope of ['*', '119-S-5 119-HR-1']) {
+      assert.equal(
+        rollVoteCardFields({ ...input, shareStubScope }).shareUrl,
+        'https://votedfor.us/bills/119/hr/1/3/A000382',
+        shareStubScope,
+      );
+    }
     assert.equal(
-      rollVoteCardFields({ ...input, shareStubs: true }).shareUrl,
-      'https://votedfor.us/bills/119/hr/1/3/A000382',
+      rollVoteCardFields({ ...input, shareStubScope: '119-S-5' }).shareUrl,
+      'https://votedfor.us/bills/119/hr/1/3?member=A000382',
+    );
+  });
+
+  it('shares a URL under the deployment base', () => {
+    assert.equal(
+      rollVoteCardFields({ ...input, base: '/previews/pr-7/', shareStubScope: '*' }).shareUrl,
+      'https://votedfor.us/previews/pr-7/bills/119/hr/1/3/A000382',
+    );
+    assert.equal(
+      rollVoteCardFields({ ...input, base: '/previews/pr-7/' }).shareUrl,
+      'https://votedfor.us/previews/pr-7/bills/119/hr/1/3?member=A000382',
     );
   });
 
@@ -103,5 +121,43 @@ describe('rollVoteCardFields', () => {
     assert.equal(fields.actionLabel, 'Voice Vote');
     assert.equal(fields.schemaActionOption, 'Yea');
     assert.equal(fields.identity?.imageUrl, null);
+  });
+});
+
+describe('cardFieldsFromProps', () => {
+  const props = {
+    nameTitle: 'Sen. Bernard Sanders (VT)', party: 'Independent', stateName: 'Vermont', chamber: 'sen' as const,
+    state: 'VT', imageUrl: '/images/legislators/S000033.jpg', voteCast: 'Nay', voteTitle: 'On the Joint Resolution',
+    legislationIdentifier: 'S.J. Res. 3', legislationType: 'joint resolution', billTitle: 'A joint resolution',
+    displayName: 'Sen. Bernard Sanders', memberSubtitle: 'Independent, Vermont Senator', voteVerb: 'voted',
+    emoji: '👎', actionLabel: 'Nay', bioguideId: 'S000033',
+  };
+
+  it('passes the server’s strings through untouched — nothing is re-derived', () => {
+    const fields = cardFieldsFromProps(props);
+    assert.equal(fields.voteVerb, 'voted');
+    assert.equal(fields.actionLabel, 'Nay');
+    assert.equal(fields.emoji, '👎');
+    assert.equal(fields.billTitle, 'A joint resolution');
+    assert.deepEqual(fields.identity, {
+      bioguideId: 'S000033', displayName: 'Sen. Bernard Sanders',
+      memberSubtitle: 'Independent, Vermont Senator', party: 'Independent',
+      imageUrl: '/images/legislators/S000033.jpg',
+    });
+  });
+
+  it('is a card with nowhere to go: no share link, no prev, next or close', () => {
+    const fields = cardFieldsFromProps(props);
+    assert.deepEqual([fields.shareUrl, fields.prevHref, fields.nextHref, fields.closeHref], ['', null, null, '']);
+  });
+
+  it('prefers the schema fields a consent vote carries, and reads no portrait as none', () => {
+    const fields = cardFieldsFromProps({
+      ...props, imageUrl: '', actionLabel: 'Voice Vote', schemaActionOption: 'Yea', schemaDescription: 'Voice Vote',
+    });
+    assert.equal(fields.schemaActionOption, 'Yea');
+    assert.equal(fields.schemaDescription, 'Voice Vote');
+    assert.equal(fields.identity?.imageUrl, null);
+    assert.equal(cardFieldsFromProps(props).schemaDescription, 'On the Joint Resolution');
   });
 });

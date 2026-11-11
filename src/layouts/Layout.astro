@@ -3,6 +3,7 @@ import { SEO } from 'astro-seo';
 import { ClientRouter } from 'astro:transitions';
 import { getBreadcrumbsFromPath } from '../utils/breadcrumbs';
 import { seoConfig } from '../../utils/seoConfig';
+import { withBaseUrl } from '../utils/withBaseUrl.js';
 import PageError from '../components/PageError.astro';
 import SiteName from '../components/SiteName.astro';
 import './global.css';
@@ -35,7 +36,8 @@ const {
   description,
   ogTitle,
   image,
-  disableIndexing = false,
+  // A PR preview is a copy of the site: SITE_NOINDEX keeps it out of search.
+  disableIndexing = process.env.SITE_NOINDEX === 'true',
   socialCardPath,
   redirect,
   error = null,
@@ -45,11 +47,17 @@ const {
 } = Astro.props;
 
 const descriptionResolved = description ?? seoConfig.description;
-const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, { pageTitle: title, labels: breadcrumbLabels });
+const breadcrumbs = getBreadcrumbsFromPath(Astro.url.pathname, {
+  pageTitle: title,
+  labels: breadcrumbLabels,
+  base: import.meta.env.BASE_URL,
+});
 
 // Always absolute: a link preview is fetched by another site's crawler, which
-// has nothing to resolve a relative path against.
-const absolute = (url: string) => (/^https?:\/\//.test(url) ? url : `${seoConfig.baseURL}${url}`);
+// has nothing to resolve a relative path against. Root-relative paths are
+// this site's own, so they sit under its deployment base.
+const absolute = (url: string) =>
+  /^https?:\/\//.test(url) ? url : `${seoConfig.baseURL}${withBaseUrl(url, import.meta.env.BASE_URL)}`;
 const ogImageUrl = absolute(socialCardPath ?? image?.url ?? seoConfig.image.url);
 const ogImageWidth = socialCardPath ? 1200 : seoConfig.image.width;
 const ogImageHeight = socialCardPath ? 630 : seoConfig.image.height;
@@ -99,7 +107,7 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     {redirect && <meta http-equiv="refresh" content={`0; url=${redirect}`} />}
     {canonical && (
-      <link rel="canonical" href={canonical.startsWith('http') ? canonical : `${seoConfig.baseURL}${canonical}`} />
+      <link rel="canonical" href={absolute(canonical)} />
     )}
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script type="module" defer src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>

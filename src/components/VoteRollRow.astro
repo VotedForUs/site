@@ -9,6 +9,7 @@
 import type { VoteRollRowWithOrders } from '../utils/voteRollSortOrders';
 import { partyAbbrev } from '../utils/voteRollDisplay';
 import { stateRollGroupKey } from '../utils/voteRollDisplay';
+import { withBaseUrl } from '../utils/withBaseUrl.js';
 
 interface Props {
   /** Row with sort-order ranks. */
@@ -30,7 +31,7 @@ const pAbbr = partyAbbrev(r.party);
   data-state-district={r.stateDistrict}
   data-name={r.name}
   data-name-title={r.nameTitle ?? r.name}
-  data-image={r.imageUrl || undefined}
+  data-image={r.imageUrl ? withBaseUrl(r.imageUrl, import.meta.env.BASE_URL) : undefined}
   data-last-name={r.lastName}
   data-party={r.party}
   data-vote={r.vote}
