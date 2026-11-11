@@ -47,3 +47,6 @@ public/finder/
 design_handoff_finder
 # share-card images — drawn by `npm run social-cards`, never committed
 public/social-cards/
+
+# Wrangler (Cloudflare) local state
+.wrangler/

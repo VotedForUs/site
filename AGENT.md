@@ -165,19 +165,24 @@ Do not edit files under `src/` while the generator runs.
 
 ## PR previews
 
-`.github/workflows/pr-preview.yml` publishes every pull request to
-`https://votedforus.github.io/site-previews/pr-preview/pr-<number>/` with
-`rossjrw/pr-preview-action`, rebuilds it on every push and removes it when the
-pull request closes. GitHub Pages serves one site per repository, so previews
-go to the `gh-pages` branch of `VotedForUs/site-previews` using the
-`PERSONAL_TOKEN` secret.
+`.github/workflows/pr-preview.yml` publishes every pull request as a
+Cloudflare **Worker Preview** at
+`https://pr-<number>-votedforus-site.<account>.workers.dev`, rebuilds it on
+every push, and deletes it when the pull request closes. `wrangler.jsonc`
+describes the Worker: no code, just the files in `dist/`. GitHub Pages serves
+one site per repository and has no per-branch environments, so production
+stays on Pages (`deploy-site.yml`) and only previews are on Cloudflare.
 
-A preview is a full build that differs from production in three ways: it uses
-the `src/data` and legislator portraits on `main`; it draws the sample share
-cards; and it sets `BASE_URL`, `SITE_URL` and `SITE_NOINDEX=true`. Because a
-preview lives under a path, **every internal link must go through
-`withBaseUrl` / `voteLinks.ts`** — a root-relative `href="/bills/…"` works in
-production and 404s in every preview.
+- Secrets: `CLOUDFLARE_API_TOKEN` (edit Workers Scripts) and `CLOUDFLARE_ACCOUNT_ID`.
+- A preview uses the `src/data` and legislator portraits on `main`, draws the
+  sample share cards, and sets `SITE_URL` to its own address and
+  `SITE_NOINDEX=true`.
+- Cloudflare's free plan allows 20,000 files per preview and 100 previews; a
+  preview is about 8,000 files. `SHARE_STUBS=all` (360,000 stubs) will not fit.
+- Worker Previews are in open beta.
+
+The site also builds under a sub-path (`BASE_URL`), and that is tested: keep
+**every internal link going through `withBaseUrl` / `voteLinks.ts`**.
 
 ## Scripts
 
