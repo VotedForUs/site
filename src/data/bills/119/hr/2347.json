@@ -1,8 +1,24 @@
 {
   "actions": {
-    "count": 24,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/2347/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-11",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Cloture motion on the measure presented in Senate.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-11-11",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-10",
         "committees": [
@@ -975,8 +991,8 @@
   "congress": 119,
   "introducedDate": "2025-03-25",
   "latestAction": {
-    "actionDate": "2026-11-10",
-    "text": "Motion by Senator Thune to commit to Senate Committee on Finance with instructions to report back forthwith with the following amendment (SA 6888) made in Senate."
+    "actionDate": "2026-11-11",
+    "text": "Cloture motion on the measure presented in Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
   "number": "2347",
@@ -1054,9 +1070,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-11T12:08:54Z",
-  "updateDateIncludingText": "2026-11-11T12:08:54Z",
+  "updateDate": "2026-11-12T12:08:47Z",
+  "updateDateIncludingText": "2026-11-12T12:08:47Z",
   "id": "119-HR-2347",
-  "lastActionDate": "2026-11-10",
+  "lastActionDate": "2026-11-11",
   "lastRecordedVoteDate": "2026-11-11T02:11:59Z"
 }
