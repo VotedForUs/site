@@ -507,7 +507,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On agreeing to the resolution Agreed to by recorded vote: 215 - 209 (Roll no. 319).",
+        "text": "On agreeing to the resolution Agreed to by recorded vote: 215 - 209 (Roll no. 319). (text: CR H6122-6123)",
         "type": "Floor"
       },
       {
@@ -1003,7 +1003,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 213 - 207 (Roll no. 318).",
+        "text": "On ordering the previous question Agreed to by the Yeas and Nays: 213 - 207 (Roll no. 318). (consideration: CR H6133)",
         "type": "Floor"
       },
       {
@@ -1014,7 +1014,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H6133-6134)",
         "type": "Floor"
       },
       {
@@ -1047,7 +1047,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H6122-6126)",
         "type": "Floor"
       },
       {
@@ -1111,7 +1111,17 @@
         "title": "Providing for consideration of the bill (H.R. 1013) to amend the Federal securities laws to enhance 403(b) plans, and for other purposes.",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-11-10T14:15:01Z"
+        "updateDate": "2026-11-12T05:23:37Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Providing for consideration of the bill (H.R. 1013) to amend the Federal securities laws to enhance 403(b) plans, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-11-12T05:23:36Z"
       },
       {
         "title": "Providing for consideration of the bill (H.R. 1013) to amend the Federal securities laws to enhance 403(b) plans, and for other purposes.",
@@ -1122,8 +1132,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-11-11T09:07:21Z",
-  "updateDateIncludingText": "2026-11-11T09:07:21Z",
+  "updateDate": "2026-11-12T15:24:19Z",
+  "updateDateIncludingText": "2026-11-12T15:24:19Z",
   "id": "119-HRES-1650",
   "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-11-10T23:20:53Z"
