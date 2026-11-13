@@ -1,14 +1,22 @@
 {
   "actions": {
-    "count": 19,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/4930/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-10",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5525)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -754,8 +762,8 @@
   "congress": 119,
   "introducedDate": "2025-08-08",
   "latestAction": {
-    "actionDate": "2026-11-10",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-11-12",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4930",
   "number": "4930",
@@ -795,9 +803,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-11T11:57:01Z",
-  "updateDateIncludingText": "2026-11-11T11:57:01Z",
+  "updateDate": "2026-11-13T11:56:55Z",
+  "updateDateIncludingText": "2026-11-13T11:56:55Z",
   "id": "119-HR-4930",
-  "lastActionDate": "2026-11-10",
+  "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2026-11-10"
 }

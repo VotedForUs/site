@@ -554,7 +554,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Issa moved to refer to the Judiciary.",
+        "text": "Mr. Issa moved to refer to the Judiciary. (CR H6132)",
         "type": "Floor"
       },
       {
@@ -565,7 +565,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as privileged matter.",
+        "text": "Considered as privileged matter. (consideration: CR H6126-6133; text: CR H6126-6132)",
         "type": "Floor"
       },
       {
@@ -610,8 +610,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-11-11T09:07:05Z",
-  "updateDateIncludingText": "2026-11-11T09:07:05Z",
+  "updateDate": "2026-11-12T15:27:51Z",
+  "updateDateIncludingText": "2026-11-12T15:27:51Z",
   "id": "119-HRES-1655",
   "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-11-10T23:02:41Z"

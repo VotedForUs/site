@@ -1,14 +1,44 @@
 {
   "actions": {
-    "count": 6,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/2434/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-11-12",
+        "actionTime": "13:42:33",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-11-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-11-12",
+        "actionTime": "13:12:58",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-10",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5562; text: CR S5562)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -162,8 +192,9 @@
   "congress": 119,
   "introducedDate": "2025-07-24",
   "latestAction": {
-    "actionDate": "2026-11-10",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-11-12",
+    "actionTime": "13:42:33",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2434",
   "number": "2434",
@@ -193,9 +224,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-11T11:57:02Z",
-  "updateDateIncludingText": "2026-11-11T13:03:33Z",
+  "updateDate": "2026-11-13T11:56:55Z",
+  "updateDateIncludingText": "2026-11-13T11:56:55Z",
   "id": "119-S-2434",
-  "lastActionDate": "2026-11-10",
+  "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2026-11-10"
 }
