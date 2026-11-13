@@ -626,9 +626,19 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To direct the Secretary of Commerce, acting through the Assistant Secretary of Commerce for Communications and Information, to conduct a study of the national security risks posed by consumer routers, modems, and devices that combine a modem and router, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T23:43:22Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Removing Our Unsecure Technologies to Ensure Reliability and Security Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2025-04-30T04:08:18Z"
       },
       {
         "billTextVersionCode": "EH",
@@ -641,21 +651,11 @@
         "updateDate": "2025-04-30T04:08:18Z"
       },
       {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Removing Our Unsecure Technologies to Ensure Reliability and Security Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2025-04-30T04:08:18Z"
-      },
-      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Removing Our Unsecure Technologies to Ensure Reliability and Security Act",
+        "title": "ROUTERS Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2025-04-25T03:38:17Z"
@@ -665,7 +665,7 @@
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "ROUTERS Act",
+        "title": "Removing Our Unsecure Technologies to Ensure Reliability and Security Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
         "updateDate": "2025-04-25T03:38:17Z"
@@ -703,8 +703,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-11T23:43:22Z",
-  "updateDateIncludingText": "2026-07-18T22:26:21Z",
+  "updateDate": "2026-11-12T20:55:00Z",
+  "updateDateIncludingText": "2026-11-12T20:55:00Z",
   "id": "119-HR-866",
   "lastActionDate": "2025-04-29",
   "lastRecordedVoteDate": "2025-04-28"

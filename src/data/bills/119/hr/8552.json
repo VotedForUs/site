@@ -1,14 +1,22 @@
 {
   "actions": {
-    "count": 16,
+    "count": 17,
     "url": "https://api.congress.gov/v3/bill/119/hr/8552/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-11",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Voice Vote.",
+        "text": "Passed Senate without amendment by Voice Vote. (consideration: CR S5572)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -736,8 +744,8 @@
   "congress": 119,
   "introducedDate": "2026-04-28",
   "latestAction": {
-    "actionDate": "2026-11-11",
-    "text": "Passed Senate without amendment by Voice Vote."
+    "actionDate": "2026-11-12",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8552",
   "number": "8552",
@@ -750,6 +758,16 @@
   "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-11-13T08:08:34Z"
+      },
       {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
@@ -795,9 +813,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-12T11:56:38Z",
-  "updateDateIncludingText": "2026-11-12T11:56:38Z",
+  "updateDate": "2026-11-13T11:56:44Z",
+  "updateDateIncludingText": "2026-11-13T11:56:44Z",
   "id": "119-HR-8552",
-  "lastActionDate": "2026-11-11",
+  "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2026-11-11"
 }

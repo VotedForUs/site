@@ -8,7 +8,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Cloture motion on the measure presented in Senate.",
+        "text": "Cloture motion on the measure presented in Senate. (CR S5568)",
         "type": "Floor"
       },
       {
@@ -16,7 +16,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Considered by Senate.",
+        "text": "Considered by Senate. (consideration: CR S5567-5568)",
         "type": "Floor"
       },
       {
@@ -39,7 +39,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Measure laid before Senate by motion.",
+        "text": "Measure laid before Senate by motion. (CR S5383-5393)",
         "type": "Floor"
       },
       {
@@ -191,7 +191,7 @@
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 62 - 21. Record Vote Number: 258.",
+        "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 62 - 21. Record Vote Number: 258. (CR S5383-5393)",
         "type": "Floor"
       },
       {
@@ -992,7 +992,7 @@
   "introducedDate": "2025-03-25",
   "latestAction": {
     "actionDate": "2026-11-11",
-    "text": "Cloture motion on the measure presented in Senate."
+    "text": "Cloture motion on the measure presented in Senate. (CR S5568)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
   "number": "2347",
@@ -1070,8 +1070,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-12T12:08:47Z",
-  "updateDateIncludingText": "2026-11-12T12:08:47Z",
+  "updateDate": "2026-11-13T12:09:27Z",
+  "updateDateIncludingText": "2026-11-13T12:09:27Z",
   "id": "119-HR-2347",
   "lastActionDate": "2026-11-11",
   "lastRecordedVoteDate": "2026-11-11T02:11:59Z"

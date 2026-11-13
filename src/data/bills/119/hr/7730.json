@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/7730/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-11-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-11-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-11-05",
@@ -762,8 +782,8 @@
   "congress": 119,
   "introducedDate": "2026-02-26",
   "latestAction": {
-    "actionDate": "2026-11-05",
-    "text": "Presented to President."
+    "actionDate": "2026-11-10",
+    "text": "Signed by President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7730",
   "number": "7730",
@@ -841,9 +861,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-06T09:06:18Z",
-  "updateDateIncludingText": "2026-11-06T09:06:18Z",
+  "updateDate": "2026-11-12T17:44:21Z",
+  "updateDateIncludingText": "2026-11-12T17:44:21Z",
   "id": "119-HR-7730",
-  "lastActionDate": "2026-11-05",
+  "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-09-28"
 }

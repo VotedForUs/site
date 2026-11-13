@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 8,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/3589/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-11-12",
+        "actionTime": "13:42:39",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-11-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-11-12",
+        "actionTime": "13:12:59",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-09",
         "sourceSystem": {
@@ -185,8 +215,9 @@
   "congress": 119,
   "introducedDate": "2026-01-07",
   "latestAction": {
-    "actionDate": "2026-11-09",
-    "text": "Passed Senate with an amendment by Voice Vote. (consideration: CR S5376-5377; text: CR S5376-5377)"
+    "actionDate": "2026-11-12",
+    "actionTime": "13:42:39",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3589",
   "number": "3589",
@@ -199,7 +230,7 @@
         "title": "RISE Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-11-10T11:58:23Z"
+        "updateDate": "2026-11-13T12:03:36Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -268,9 +299,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-10T21:09:35Z",
-  "updateDateIncludingText": "2026-11-10T21:09:35Z",
+  "updateDate": "2026-11-13T12:03:36Z",
+  "updateDateIncludingText": "2026-11-13T12:03:36Z",
   "id": "119-S-3589",
-  "lastActionDate": "2026-11-09",
+  "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2026-11-09"
 }

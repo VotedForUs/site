@@ -691,6 +691,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-11-13T07:08:32Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -745,8 +755,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-11T11:57:03Z",
-  "updateDateIncludingText": "2026-11-11T13:03:59Z",
+  "updateDate": "2026-11-13T07:08:33Z",
+  "updateDateIncludingText": "2026-11-13T07:19:31Z",
   "id": "119-HR-3978",
   "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-11-10T00:00:01Z"
