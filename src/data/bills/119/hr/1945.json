@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 25,
+    "count": 27,
     "url": "https://api.congress.gov/v3/bill/119/hr/1945/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-11-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-141.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-11-10",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-141.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-11-10",
@@ -834,8 +854,14 @@
   "introducedDate": "2025-03-06",
   "latestAction": {
     "actionDate": "2026-11-10",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-141."
   },
+  "laws": [
+    {
+      "number": "119-141",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1945",
   "number": "1945",
   "originChamber": "House",
@@ -912,8 +938,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-12T15:05:48Z",
-  "updateDateIncludingText": "2026-11-12T15:05:48Z",
+  "updateDate": "2026-11-13T14:23:36Z",
+  "updateDateIncludingText": "2026-11-13T14:23:36Z",
   "id": "119-HR-1945",
   "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-09-29"
