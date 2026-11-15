@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/5284/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-11-12",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-11-12",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-10-14",
         "sourceSystem": {
@@ -764,8 +784,8 @@
   "congress": 119,
   "introducedDate": "2025-09-10",
   "latestAction": {
-    "actionDate": "2026-10-14",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-11-12",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5284",
   "number": "5284",
@@ -853,9 +873,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-10-15T14:37:26Z",
-  "updateDateIncludingText": "2026-10-15T14:37:26Z",
+  "updateDate": "2026-11-13T09:06:22Z",
+  "updateDateIncludingText": "2026-11-13T09:06:22Z",
   "id": "119-HR-5284",
-  "lastActionDate": "2026-10-14",
+  "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2026-09-29"
 }

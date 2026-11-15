@@ -612,11 +612,6 @@
     "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 418."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1352",
-  "notes": [
-    {
-      "text": "The text of <a href=\"https://www.congress.gov/bill/119/HR/1352\" target=\"_blank\">H.R.1352</a> is contained in the text of <a href=\"https://www.congress.gov/bill/119/S/603\" target=\"_blank\">S.603</a>, which became Public Law 119-115."
-    }
-  ],
   "number": "1352",
   "originChamber": "House",
   "originChamberCode": "H",
@@ -654,8 +649,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-29T20:30:04Z",
-  "updateDateIncludingText": "2026-09-29T20:30:04Z",
+  "updateDate": "2026-11-14T00:25:31Z",
+  "updateDateIncludingText": "2026-11-14T00:25:31Z",
   "id": "119-HR-1352",
   "lastActionDate": "2026-05-20",
   "lastRecordedVoteDate": "2026-05-19"
