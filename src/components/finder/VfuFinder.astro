@@ -20,8 +20,9 @@ import './finder.css';
 import VfuSearchBar from './VfuSearchBar.astro';
 import ResultGroup from '../ResultGroup.astro';
 import ResultRow from '../ResultRow.astro';
+import MemberResultRow from '../MemberResultRow.astro';
 import {
-  allGroupLabel, footerLine, memberHref, memberMeta, statusChips, stateChips, type Mode,
+  allGroupLabel, footerLine, statusChips, stateChips, type Mode,
 } from './finderView';
 import { readFinderIndex, type FinderIndex } from '../../utils/finderIndex';
 import { withBaseUrl } from '../../utils/withBaseUrl';
@@ -79,18 +80,7 @@ const initial = mode === 'members' && !query ? members ?? [] : [];
     {initial.length > 0 && (
       <Fragment>
         <ResultGroup label={allGroupLabel('members')} count={initial.length}>
-          {initial.map((row) => (
-            <ResultRow href={memberHref(row, base)}>
-              <Fragment slot="lead">
-                {row.i
-                  ? <img class="row-headshot" data-headshot src={`${base.replace(/\/$/, '')}/images/legislators/${row.b}.jpg`} alt="" loading="lazy" />
-                  : <span class="row-headshot" data-blank />}
-              </Fragment>
-              <Fragment slot="title">{row.n}</Fragment>
-              <Fragment slot="meta">{memberMeta(row)}</Fragment>
-              <Fragment slot="trailing">{`${row.v} ${row.v === 1 ? 'vote' : 'votes'}`}</Fragment>
-            </ResultRow>
-          ))}
+          {initial.map((row) => <MemberResultRow row={row} base={base} />)}
         </ResultGroup>
         <p class="result-foot">{footerLine(initial.length, 'members')}</p>
       </Fragment>
@@ -130,6 +120,10 @@ const initial = mode === 'members' && !query ? members ?? [] : [];
       <Fragment slot="lead">
         <img class="row-headshot" data-headshot alt="" loading="lazy" />
         <span class="row-headshot" data-blank />
+      </Fragment>
+      <Fragment slot="trailing">
+        <span class="status-tag" />
+        <span class="row-count" />
       </Fragment>
     </ResultRow>
   </template>

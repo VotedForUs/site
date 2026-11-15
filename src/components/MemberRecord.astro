@@ -22,6 +22,8 @@ import { billSegment, memberBillPath, memberPath } from '../utils/voteLinks.js';
 import { withBaseUrl } from '../utils/withBaseUrl.js';
 import { seoConfig } from '../../utils/seoConfig';
 import { SHARE_STUB_SCOPE } from '../shareConfig.js';
+import { formatDate } from '../utils/formatDate';
+import { MEMBER_STATUS_LABELS, type MemberStatus } from '../utils/finderMatch/index.js';
 
 /** One bill this member has voted on, resolved by the route. */
 export type MemberBill = {
@@ -48,6 +50,8 @@ export type MemberRecordMember = {
   district?: number;
   type?: string;
   imageUrl?: string;
+  /** Whether they hold a seat today. Left out, no label is shown. */
+  status?: MemberStatus;
 };
 
 interface Props {
@@ -108,7 +112,12 @@ const cardDisplay = buildLegislatorVoteDisplay({
     )}
     <div class="selection-main">
       <h1>{name}</h1>
-      <p class="selection-meta">{subtitle}</p>
+      <p class="selection-meta">
+        {member.status && (
+          <span class="status-tag" data-status={member.status}>{MEMBER_STATUS_LABELS[member.status]}</span>
+        )}
+        {subtitle}
+      </p>
     </div>
     <p class="selection-count">{`${bills.length} ${bills.length === 1 ? 'bill' : 'bills'}`}</p>
   </header>
@@ -143,7 +152,7 @@ const cardDisplay = buildLegislatorVoteDisplay({
             </Fragment>
             <Fragment slot="title">{bill.title}</Fragment>
             <Fragment slot="meta">
-              {`${bill.votes} ${bill.votes === 1 ? 'vote' : 'votes'} · last ${bill.date}`}
+              {`${bill.votes} ${bill.votes === 1 ? 'vote' : 'votes'} · last ${formatDate(bill.date)}`}
             </Fragment>
             <Fragment slot="trailing">
               <span class="cast-tag" data-cast={tag.label.toLowerCase()}>{tag.label}</span>
@@ -237,6 +246,10 @@ const cardDisplay = buildLegislatorVoteDisplay({
   }
 
   .selection-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--pad-xs) var(--pad-s);
     margin: 0;
     color: var(--fg-muted);
   }

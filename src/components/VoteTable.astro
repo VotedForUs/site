@@ -20,6 +20,7 @@ import { getEditorialVoteAction } from '../utils/editorial.js';
 import { castTag } from '../utils/legislatorVoteDisplay.js';
 import { votePath, voteCardPath } from '../utils/voteLinks.js';
 import { formatVoteForAgainst } from '../utils/formatVoteForAgainst';
+import { formatDate } from '../utils/formatDate';
 
 /** One recorded vote, as the `recordedVotes` collection stores it. */
 export type VoteTableVote = {
@@ -51,6 +52,8 @@ interface Props {
 
 const { votes, variant = 'bill', bioguideId, selectedVoteId, label = 'recorded votes' } = Astro.props;
 const base = import.meta.env.BASE_URL;
+/** A written-out day, or nothing — never the `N/A` a missing date formats to. */
+const formatDay = (day: string) => (day ? formatDate(day) : '');
 
 const rows = votes.map((vote) => {
   const cast = variant === 'member' && bioguideId
@@ -63,7 +66,7 @@ const rows = votes.map((vote) => {
       ? voteCardPath(vote.id, bioguideId, base)
       : votePath(vote.id, base) ?? undefined,
     question: getEditorialVoteAction(vote.id) ?? vote.question,
-    date: (vote.actionDate ?? vote.date ?? '').slice(0, 10),
+    date: formatDay((vote.actionDate ?? vote.date ?? '').slice(0, 10)),
     passed: isVotePassed(vote.result),
     forAgainst: formatVoteForAgainst(vote as Parameters<typeof formatVoteForAgainst>[0]),
     // A vote with no roll call reads as a Yea by consent, with the kind named

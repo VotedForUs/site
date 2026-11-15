@@ -10,6 +10,7 @@ import { bioguideIdsWithCasts, groupMemberBills } from '../../utils/memberRecord
 import { LEGISLATORS_LIMIT } from '../../buildConfig';
 import { shouldBuildPage } from '../../utils/buildManifest.js';
 import { localHeadshot } from '../../utils/headshot.js';
+import { readMemberStatus } from '../../utils/finderIndex';
 
 /**
  * One page per member who has a display cast — the same set as the finder.
@@ -47,7 +48,11 @@ const name = legislator.data.nameTitle;
 // The collection's `imageUrl` is a congress.gov URL for members whose portrait
 // was never downloaded. Rendering it would hotlink congress.gov on every view,
 // so the page shows a portrait only when we hold one.
-const member = { ...legislator.data, imageUrl: localHeadshot(legislator.id) ?? undefined };
+const member = {
+  ...legislator.data,
+  imageUrl: localHeadshot(legislator.id) ?? undefined,
+  status: readMemberStatus(legislator.id) ?? undefined,
+};
 ---
 
 <Layout

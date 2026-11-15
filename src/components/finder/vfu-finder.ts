@@ -32,6 +32,8 @@ import {
   type BillRow,
   type MatchKind,
   type MemberRow,
+  MEMBER_STATUS_LABELS,
+  memberStatus,
 } from '../../utils/finderMatch/index.js';
 import {
   emptyFilters,
@@ -313,7 +315,12 @@ export class VfuFinder extends HTMLElement {
     if (row.i) { headshot.src = `${this.base.replace(/\/$/, '')}/images/legislators/${row.b}.jpg`; blank.remove(); }
     else headshot.remove();
 
-    this.#fill(node, row.n, query, memberMeta(row), `${row.v} ${row.v === 1 ? 'vote' : 'votes'}`);
+    this.#fill(node, row.n, query, memberMeta(row));
+    const status = memberStatus(row);
+    const tag = node.querySelector('.status-tag') as HTMLElement;
+    tag.dataset.status = status;
+    tag.textContent = MEMBER_STATUS_LABELS[status];
+    node.querySelector('.row-count')!.textContent = `${row.v} ${row.v === 1 ? 'vote' : 'votes'}`;
     return node;
   }
 
@@ -332,7 +339,7 @@ export class VfuFinder extends HTMLElement {
    * The title, its match and the two supporting lines. The whole title stays
    * inside one grid item: a bare <mark> would paint across the row.
    */
-  #fill(node: HTMLElement, title: string, query: string, meta: string, trailing: string) {
+  #fill(node: HTMLElement, title: string, query: string, meta: string, trailing?: string) {
     const line = node.querySelector('.row-title')!;
     const { pre, hit, post } = highlight(title, query);
     line.textContent = pre;
@@ -342,7 +349,8 @@ export class VfuFinder extends HTMLElement {
       line.append(mark, post);
     }
     node.querySelector('.row-meta')!.textContent = meta;
-    node.querySelector('.row-trailing')!.textContent = trailing;
+    // A member row's trailing region is built from its template instead.
+    if (trailing != null) node.querySelector('.row-trailing')!.textContent = trailing;
   }
 
   #clone(name: string): HTMLElement {

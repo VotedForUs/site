@@ -1,24 +1,35 @@
 ---
+/**
+ * The House roster: every representative with a recorded vote, by surname.
+ *
+ * The rows are the finder's own — read from the index it is built from, so a
+ * member appears here exactly when the finder can find them, and says
+ * current or former in both places.
+ */
 import Layout from '../../layouts/Layout.astro';
-import LegislatorList from '../../components/LegislatorList.astro';
-import { getCollection, type CollectionEntry } from 'astro:content';
-import { bioguideIdsWithCasts } from '../../utils/memberRecord.js';
+import ResultGroup from '../../components/ResultGroup.astro';
+import MemberResultRow from '../../components/MemberResultRow.astro';
+import { readFinderIndex } from '../../utils/finderIndex';
+import { memberStatus } from '../../utils/finderMatch/index.js';
 
-let representatives: CollectionEntry<'representatives'>[] = [];
-
-try {
-  const votes = await getCollection('legislatorVotes');
-  const withCasts = bioguideIdsWithCasts(votes.map((v) => v.data));
-  representatives = (await getCollection('representatives')).filter((r) => withCasts.has(r.id));
-} catch (error) {
-  console.error('Error loading representatives:', error);
-}
+const base = import.meta.env.BASE_URL;
+const members = (readFinderIndex().members ?? []).filter((row) => row.c === 'house');
+const former = members.filter((row) => memberStatus(row) === 'former').length;
 ---
 
-<Layout title="House — VotedFor.Us" description="Representatives of the 119th who have a recorded vote on this site">
+<Layout title="House — VotedFor.Us" description="Representatives of the 119th Congress who have a recorded vote on this site">
   <section class="section stack">
     <h1>United States House of Representatives</h1>
-    <p>{representatives.length} representatives with a recorded vote. Each name opens that member’s record.</p>
-    <LegislatorList legislators={representatives} />
+    <p>
+      {members.length} representatives with a recorded vote in the 119th Congress{former > 0 && `, ${former} of whom no longer hold a seat`}.
+      Each name opens that member’s record.
+    </p>
+    {members.length > 0
+      ? (
+        <ResultGroup label="representatives" count={members.length}>
+          {members.map((row) => <MemberResultRow row={row} base={base} />)}
+        </ResultGroup>
+      )
+      : <p>The roster is unavailable right now. <a href={base}>Search for a member</a> instead.</p>}
   </section>
 </Layout>

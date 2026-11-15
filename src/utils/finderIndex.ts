@@ -11,7 +11,7 @@
  */
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import type { BillRow, MemberRow } from './finderMatch/index.js';
+import { memberStatus, type BillRow, type MemberRow, type MemberStatus } from './finderMatch/index.js';
 
 /** Both collections, as a story or a test supplies them. */
 export type FinderIndex = { members: MemberRow[]; bills: BillRow[] };
@@ -46,3 +46,23 @@ export function readFinderCounts(publicDir?: string): { members: number; bills: 
   const { members, bills } = readFinderIndex(publicDir);
   return members && bills ? { members: members.length, bills: bills.length } : null;
 }
+
+/**
+ * Current or former, for one member — the index is the one place that decides
+ * it, so a member's own page says what their row in the finder says.
+ *
+ * @returns null when the index is not built or does not hold the member
+ */
+export function readMemberStatus(bioguideId: string, publicDir?: string): MemberStatus | null {
+  const members = readFinderIndex(publicDir).members;
+  if (!members) return null;
+  let byId = statuses.get(members);
+  if (!byId) {
+    byId = new Map(members.map(member => [member.b, memberStatus(member)]));
+    statuses.set(members, byId);
+  }
+  return byId.get(bioguideId) ?? null;
+}
+
+/** One lookup table per parsed index — 606 pages each ask for one member. */
+const statuses = new WeakMap<MemberRow[], Map<string, MemberStatus>>();

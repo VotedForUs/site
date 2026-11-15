@@ -14,6 +14,22 @@ export type MemberRow = {
   // Names the member goes by that the display name does not contain:
   // "Chuck" for Charles E. Schumer. Absent for most rows.
   k?: string;
+  // Set for a member who no longer holds a seat. Most do, so the flag marks
+  // the exception and the index stays the size it was.
+  f?: 1;
+};
+
+export type MemberStatus = 'current' | 'former';
+
+/** Whether a member holds a seat today. Every row is one or the other. */
+export function memberStatus(row: Pick<MemberRow, 'f'>): MemberStatus {
+  return row.f ? 'former' : 'current';
+}
+
+/** The word shown for a status, on every list and page that names a member. */
+export const MEMBER_STATUS_LABELS: Record<MemberStatus, string> = {
+  current: 'Current',
+  former: 'Former',
 };
 
 export type BillRow = {

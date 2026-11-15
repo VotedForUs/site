@@ -45,6 +45,7 @@ const bill = (over: Partial<RawBill> = {}): RawBill => ({
 /** The Congress.gov + legislator-YAML shape, with every lookalike field present. */
 const member = (over: Record<string, unknown> = {}): Record<string, unknown> => ({
   bioguideId: 'A000055',
+  currentMember: true,
   name: { official_full: 'Robert B. Aderholt', last: 'Aderholt' },
   depiction: { imageUrl: '/images/legislators/A000055.jpg' },
   latest_term: { type: 'rep', state: 'AL', district: 4, party: 'Republican', url: 'https://aderholt.house.gov' },
@@ -176,6 +177,13 @@ describe('toMemberRow', () => {
     assert.equal(row?.c, 'senate');
     assert.equal(row?.d, undefined);
     assert.equal(row?.p, 'D');
+  });
+
+  it('flags a member who is not seated, and leaves a seated one unflagged', () => {
+    assert.equal(toMemberRow(member(), 'A000055', 1, true)?.f, undefined);
+    assert.equal(toMemberRow(member({ currentMember: false }), 'A000055', 1, true)?.f, 1);
+    // A record with no flag at all is one held for a cast, not a seat.
+    assert.equal(toMemberRow(member({ currentMember: undefined }), 'A000055', 1, true)?.f, 1);
   });
 
   it('leaves out a member who has never cast a recorded vote', () => {

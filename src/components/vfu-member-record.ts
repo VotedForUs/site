@@ -21,6 +21,7 @@
  * document with a query string, so a cold load works on any static host, and
  * the `selected` attribute or the query tells the element what to open.
  */
+import { formatDate } from '../utils/formatDate';
 import { applyMemberVoteCard, memberVoteCardFields } from '../utils/memberVoteCard.js';
 import { castTag } from '../utils/legislatorVoteDisplay.js';
 import {
@@ -318,7 +319,7 @@ export class VfuMemberRecord extends HTMLElement {
     if (vote.r) { roll.textContent = `roll ${vote.r}`; roll.hidden = false; }
 
     node.querySelector('.row-title')!.textContent = vote.q;
-    node.querySelector('.row-meta')!.textContent = [vote.x, vote.d].filter(Boolean).join(' · ');
+    node.querySelector('.row-meta')!.textContent = [vote.x, vote.d && formatDate(vote.d)].filter(Boolean).join(' · ');
 
     // A vote with no roll call reads as a Yea by consent, with the kind named
     // beside it — the same rule, and the same function, as the server uses.

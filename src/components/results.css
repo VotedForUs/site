@@ -97,6 +97,33 @@
   white-space: nowrap;
 }
 
+/* ── Member status ────────────────────────────────────────────────────────
+   Every member carries one: seated now, or not. Current is the quiet default
+   and former is the one drawn in outline, because it is the one a reader
+   needs to notice before reading a record as today's. */
+.status-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: var(--pad-xs) var(--pad-s);
+  border: 1px solid transparent;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+.status-tag[data-status='former'] {
+  border-color: var(--fg-2);
+  color: var(--fg-strong);
+}
+
+.row-trailing .row-count {
+  display: block;
+  margin-block-start: var(--pad-xs);
+}
+
 .result-foot,
 .finder-action {
   font-family: var(--font-mono);
@@ -156,4 +183,113 @@
 .result-row[aria-current='page'] {
   background: var(--bg-1);
   box-shadow: inset 3px 0 0 0 var(--primary);
+}
+
+/* ── List navigation ──────────────────────────────────────────────────────
+   Links between sibling lists — a congress's bills by type. They look like
+   the finder's chips because they do the same job, but they are links: each
+   one is a page, and the one being read is marked. */
+.list-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pad-xs);
+}
+
+.list-nav a {
+  border: 1px solid var(--fg-2);
+  background: var(--surface);
+  color: var(--fg-strong);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  padding: var(--pad-xs) var(--pad-s);
+  text-decoration: none;
+}
+
+.list-nav a:hover,
+.list-nav a:focus-visible {
+  border-color: var(--fg);
+}
+
+.list-nav a[aria-current='page'] {
+  background: var(--fg);
+  border-color: var(--fg);
+  color: var(--bg);
+}
+
+.list-nav-count {
+  opacity: 0.7;
+}
+
+.list-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pad-xs) var(--pad-m);
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+}
+
+.list-jump a {
+  color: var(--fg-strong);
+}
+
+/* A jumped-to group lands with some air above its label. */
+.list-group {
+  scroll-margin-block-start: var(--vs-m);
+}
+
+/* ── Record head ──────────────────────────────────────────────────────────
+   The top of a page about one thing — a bill here; a member's page has the
+   same shape. What it is called, one muted line of what it is, and a count. */
+.record-head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--pad-m);
+  padding-block-end: var(--pad-m);
+  border-block-end: 3px solid var(--fg);
+  margin-block-end: var(--vs-m);
+}
+
+.record-head h1 {
+  margin: 0;
+  text-wrap: balance;
+}
+
+.record-head .row-id {
+  flex: none;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  padding: var(--pad-xs) var(--pad-s);
+  border: 1px solid var(--fg);
+  background: var(--fg);
+  color: var(--bg);
+  white-space: nowrap;
+}
+
+.record-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--pad-xs);
+}
+
+.record-meta {
+  margin: 0;
+  color: var(--fg-muted);
+}
+
+.record-count {
+  flex: none;
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .record-head { flex-wrap: wrap; }
+  .record-main { flex-basis: 100%; order: 3; }
+  .record-count { margin-inline-start: auto; }
 }

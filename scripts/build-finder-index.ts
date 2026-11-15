@@ -312,6 +312,9 @@ export function toMemberRow(raw: Record<string, unknown>, fromFile: string, cast
   if (known) row.k = known;
   if (leg.type === 'rep' && typeof leg.district === 'number') row.d = leg.district;
   if (hasHeadshot) row.i = 1;
+  // Congress.gov says who is seated. A record without the flag is one we only
+  // hold because of a cast, not a seat, so it reads as former too.
+  if (raw['currentMember'] !== true) row.f = 1;
   return row;
 }
 
