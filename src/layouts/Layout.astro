@@ -110,23 +110,6 @@ const ogImageAlt = socialCardPath ? `${title} social card` : (image?.alt ?? seoC
       <link rel="canonical" href={absolute(canonical)} />
     )}
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <script type="module" defer src="https://unpkg.com/@colinaut/action-table/dist/index.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/@colinaut/action-table/dist/action-table.css" />
-    <style is:global>
-      /* action-table overrides (single place). If overrides don't apply, use a linked CSS file after the library link instead. */
-      action-table { --td-options-bg: transparent; }
-      action-table td span {
-        padding: 0 !important;
-        margin: 0 !important;
-        background-color: transparent !important;
-        border: none !important;
-      }
-      .bill-title-link {
-        text-wrap: balance;
-        display: inline-block;
-        width: 90%;
-      }
-    </style>
     <style>
       :root {
         /* Legacy aliases. The chrome below still reads these; pointing them

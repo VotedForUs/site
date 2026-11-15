@@ -1,13 +1,23 @@
 ---
+/**
+ * One bill: what it is, where it stands, the votes recorded on it, and
+ * everything that has happened to it.
+ * URL: /bills/[term]/[billType]/[billNumber]
+ */
 import Layout from '../../../../../layouts/Layout.astro';
 import { getEntry, getCollection } from 'astro:content';
+import { getBillState, isVotePassed } from '@votedforus/votes';
+import type { BillActionWithVotes } from '@votedforus/votes/types';
 import { getBestBillTitle, getBillSourceTitle } from '../../../../../utils/billTitle.js';
 import EditorialTitleLink from '../../../../../components/EditorialTitleLink.astro';
 import VoteTable, { type VoteTableVote } from '../../../../../components/VoteTable.astro';
-import ActionsTable from '../../../../../components/ActionsTable.astro';
-import type { BillActionWithVotes, RecordedVoteWithVotes } from '@votedforus/votes/types';
+import BillTimeline from '../../../../../components/BillTimeline.astro';
 import { applyBillsPerTypeLimit } from '../../../../../buildConfig';
 import { shouldBuildPage } from '../../../../../utils/buildManifest.js';
+import { BILL_STATUS_LABELS, typePrefix } from '../../../../../utils/billList.js';
+import { formatLegislationIdentifier, formatLegislationTypeLabel } from '../../../../../utils/billLegislationFormat.js';
+import { formatDate } from '../../../../../utils/formatDate';
+import { formatVoteForAgainst } from '../../../../../utils/formatVoteForAgainst';
 
 export async function getStaticPaths() {
   const allBills = await getCollection('bills');
@@ -22,17 +32,34 @@ export async function getStaticPaths() {
     }));
 }
 
+/** The parts of a bill this page reads. */
+type BillData = {
+  type: string;
+  number: string;
+  congress: number;
+  title?: string;
+  introducedDate?: string;
+  originChamber?: string;
+  legislationUrl?: string;
+  lastActionDate?: string;
+  latestAction?: { text: string; actionDate: string };
+  laws?: Array<{ number?: string; type?: string }>;
+  actions?: { actions?: BillActionWithVotes[] };
+  [key: string]: unknown;
+};
+
 const { term, billType, billNumber } = Astro.params;
 
 let pageError: Error | null = null;
-let bill: { type: string; number: string; congress: number; title?: string; updateDate?: string; latestAction?: { text: string; actionDate: string }; actions?: { actions?: BillActionWithVotes[] }; [key: string]: unknown } | null = null;
+let bill: BillData | null = null;
 let actions: BillActionWithVotes[] = [];
-let actionsWithFinalChamberVote: BillActionWithVotes[] = [];
-let voteIds: string[] = [];
 let voteRows: VoteTableVote[] = [];
+let voteLabels: Record<string, string> = {};
 let pageTitle = 'Bill';
+let identifier = '';
 let displayTitle = '';
 let billSourceTitle: string | undefined;
+let facts: string[] = [];
 
 try {
   const congressionalTerm = parseInt(term);
@@ -53,74 +80,144 @@ try {
     throw new Error(`Bill not found: ${normalizedBillType} ${billNumber} in Congress ${congressionalTerm}`);
   }
 
-  bill = billEntry.data;
+  bill = billEntry.data as BillData;
   const resolvedBillId = billEntry.id ?? billId;
+  identifier = formatLegislationIdentifier(billType, String(billNumber));
   displayTitle = getBestBillTitle(bill);
   billSourceTitle = getBillSourceTitle(congressionalTerm, normalizedBillType, billNumber);
   actions = bill.actions?.actions || [];
 
+  // The vote list reads the recordedVotes collection directly: the same rows
+  // a member's record renders, from the same source.
   const billVoteEntries = (await getCollection('recordedVotes'))
     .filter((e) => e.data.billId === resolvedBillId)
     .sort((a, b) => a.data.voteNumber - b.data.voteNumber);
-  voteIds = billVoteEntries.map((e) => e.id);
-  // The vote list reads the recordedVotes collection directly: the same rows
-  // a member's record renders, from the same source.
   voteRows = billVoteEntries.map((e) => ({ id: e.id, ...e.data }));
-  const voteMetaByVoteId = new Map(
-    billVoteEntries.map((e) => [e.id, { finalChamberVote: !!e.data.finalChamberVote, voteNumber: e.data.voteNumber }])
-  );
-  function enrichVoteWithMeta(
-    vote: RecordedVoteWithVotes,
-    meta: { finalChamberVote: boolean; voteNumber: number } | undefined
-  ) {
-    const idNum = vote.id ? Number(vote.id.split('-').pop()) : NaN;
-    return {
-      ...vote,
-      finalChamberVote: meta?.finalChamberVote ?? false,
-      voteNumber: meta?.voteNumber ?? (Number.isNaN(idNum) ? undefined : idNum),
-    };
-  }
-  actionsWithFinalChamberVote = (bill.actions?.actions ?? []).map((action) => {
-    const recordedVotes = action.recordedVotes?.map((vote) =>
-      enrichVoteWithMeta(vote, voteMetaByVoteId.get(vote.id ?? ''))
-    );
-    return { ...action, recordedVotes };
-  });
+  // What the timeline calls each vote: the outcome, and the tally when a roll
+  // was called.
+  voteLabels = Object.fromEntries(billVoteEntries.map((e) => {
+    const tally = formatVoteForAgainst(e.data as Parameters<typeof formatVoteForAgainst>[0]);
+    const outcome = isVotePassed(e.data.result) ? 'passed' : 'failed';
+    return [e.id, `${e.data.chamber ?? 'Recorded'} vote: ${outcome}${tally ? ` ${tally}` : ''} →`];
+  }));
 
-  pageTitle = `${bill.type} ${bill.number} - ${congressionalTerm}th Congress`;
+  // One muted line under the title: what kind of thing this is and where it stands.
+  const state = getBillState(bill as Parameters<typeof getBillState>[0]);
+  const law = bill.laws?.[0];
+  // H.R. and S. are labelled "act" for the sentence a vote card writes; on
+  // its own page a measure that may never pass is a bill.
+  const typeLabel = formatLegislationTypeLabel(billType);
+  const kind = typeLabel === 'act' ? 'bill' : typeLabel;
+  facts = [
+    `${congressionalTerm}th Congress`,
+    bill.originChamber ? `${bill.originChamber} ${kind}` : kind,
+    law?.number ? `${BILL_STATUS_LABELS[state]} — ${law.type ?? 'Public Law'} ${law.number}` : (BILL_STATUS_LABELS[state] ?? state),
+  ];
+
+  pageTitle = `${identifier} — ${displayTitle}`;
 } catch (err) {
   pageError = err instanceof Error ? err : new Error(String(err));
   pageTitle = 'Error';
 }
+
+const lastActionDate = bill?.lastActionDate ?? bill?.latestAction?.actionDate;
 ---
 
-<Layout title={pageTitle} error={pageError} errorTitle="Bill page error">
+<Layout
+  title={pageTitle}
+  description={bill ? `${identifier}, ${term}th Congress: ${displayTitle}. Every recorded vote on it and how each member voted.` : undefined}
+  error={pageError}
+  errorTitle="Bill page error"
+  breadcrumbLabels={bill ? { [billType]: typePrefix(billType), [billNumber]: identifier } : undefined}
+>
   {bill && (
     <>
-      <h1>{bill.type} {bill.number}<EditorialTitleLink congress={bill.congress} type={bill.type} number={bill.number} /></h1>
-      <p><strong>Congress:</strong> {bill.congress}th</p>
-      <p>
-        <strong>Title:</strong> {displayTitle}
-        {billSourceTitle && displayTitle !== billSourceTitle && (
-          <small class="original-title">Original title: {billSourceTitle}</small>
-        )}
-      </p>
-      {bill.updateDate && <p><strong>Updated:</strong> {bill.updateDate}</p>}
-      {bill.latestAction && (
-        <p><strong>Latest Action:</strong> {bill.latestAction.text} ({bill.latestAction.actionDate})</p>
-      )}
+      <header class="record-head">
+        <span class="row-id">{identifier}</span>
+        <div class="record-main">
+          <h1>{displayTitle}<EditorialTitleLink congress={bill.congress} type={bill.type} number={bill.number} /></h1>
+          <p class="record-meta">{facts.join(' · ')}</p>
+        </div>
+        <p class="record-count">{`${voteRows.length} ${voteRows.length === 1 ? 'vote' : 'votes'}`}</p>
+      </header>
 
-      <VoteTable votes={voteRows} variant="bill" />
-      <ActionsTable actions={actions} term={term} billType={billType} billNumber={billNumber} />
+      <dl class="bill-facts">
+        {bill.latestAction && (
+          <div>
+            <dt>latest action</dt>
+            <dd>
+              {bill.latestAction.text}
+              {lastActionDate && <time class="fact-date" datetime={lastActionDate}>{formatDate(lastActionDate)}</time>}
+            </dd>
+          </div>
+        )}
+        {bill.introducedDate && (
+          <div>
+            <dt>introduced</dt>
+            <dd><time datetime={bill.introducedDate}>{formatDate(bill.introducedDate)}</time></dd>
+          </div>
+        )}
+        {billSourceTitle && displayTitle !== billSourceTitle && (
+          <div>
+            <dt>official title</dt>
+            <dd>{billSourceTitle}</dd>
+          </div>
+        )}
+        {bill.legislationUrl && (
+          <div>
+            <dt>source</dt>
+            <dd><a href={bill.legislationUrl} rel="noopener">{identifier} on Congress.gov</a></dd>
+          </div>
+        )}
+      </dl>
+
+      {voteRows.length > 0
+        ? <VoteTable votes={voteRows} variant="bill" />
+        : <p>No recorded vote on this bill yet.</p>}
+      <BillTimeline actions={actions} voteLabels={voteLabels} />
     </>
   )}
 </Layout>
 
 <style>
-  .original-title {
+  .bill-facts {
+    display: grid;
+    gap: var(--pad-s);
+    margin: 0 0 var(--vs-m);
+  }
+
+  .bill-facts > div {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: var(--pad-m);
+    align-items: baseline;
+  }
+
+  .bill-facts dt {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--fg-muted);
+  }
+
+  .bill-facts dd {
+    margin: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .bill-facts time {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--fg-muted);
+  }
+
+  .bill-facts .fact-date {
     display: block;
-    font-size: 0.8em;
-    color: var(--color-fg-muted, #666);
-    margin-top: 0.2em;
+  }
+
+  @media (max-width: 560px) {
+    .bill-facts > div { grid-template-columns: 1fr; gap: 0; }
   }
 </style>

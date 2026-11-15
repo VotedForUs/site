@@ -1,0 +1,58 @@
+---
+/**
+ * The bills of one congress — all of them, or one type — grouped by what
+ * happened to them.
+ *
+ * Three things, top to bottom: the links between the lists (all, then each
+ * type), a line of jump links to the groups with their counts, and the groups
+ * themselves. The rows are the finder's, so the page is the same list a
+ * reader would get by searching, laid out to be read rather than queried.
+ *
+ * Nothing here sorts or filters in the browser. A reader who wants one bill
+ * has the finder; a reader who is here wants the whole list.
+ */
+import './results.css';
+import ResultGroup from './ResultGroup.astro';
+import BillResultRow from './BillResultRow.astro';
+import { groupByStatus, typeLinks } from '../utils/billList.js';
+import type { BillRow } from '../utils/finderMatch/index.js';
+
+interface Props {
+  /** Every bill of the congress — what the type links are counted from. */
+  termRows: BillRow[];
+  /** The bills this page lists. */
+  rows: BillRow[];
+  term: string | number;
+  /** The type this page shows; omitted on the whole-congress page. */
+  type?: string;
+}
+
+const { termRows, rows, term, type } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const links = typeLinks(termRows, term, base, type);
+const groups = groupByStatus(rows);
+---
+
+<nav class="list-nav" aria-label="Bills by type">
+  {links.map((link) => (
+    <a href={link.href} aria-current={link.current ? 'page' : undefined}>
+      {link.label} <span class="list-nav-count">{link.count}</span>
+    </a>
+  ))}
+</nav>
+
+{groups.length > 1 && (
+  <p class="list-jump">
+    {groups.map((group) => (
+      <a href={`#${group.status}`}>{`${group.label} ${group.rows.length}`}</a>
+    ))}
+  </p>
+)}
+
+{groups.map((group) => (
+  <div id={group.status} class="list-group">
+    <ResultGroup label={group.label} count={group.rows.length}>
+      {group.rows.map((row) => <BillResultRow row={row} base={base} />)}
+    </ResultGroup>
+  </div>
+))}

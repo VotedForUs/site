@@ -45,7 +45,7 @@ Vote content selection and synthesis live in the votes package (`CongressApi`, C
    Never add a prerendered route per member×vote or member×bill: that was 351,000 pages and a 67 GB build. Build every such URL with `src/utils/voteLinks.ts`.
    - **Share stubs** — `/bills/{term}/{type}/{n}/{vote}/{bioguide}` is a ~1 KB file written by `scripts/build-share-stubs.ts` (not Astro) holding the link-preview tags and a hand-off to the `?member=` URL. Which casts get one is `src/shareConfig.ts`: every cast on `SHARE_SAMPLE_BILLS` by default, every cast there is under `SHARE_STUBS=all` (launch only). A card shares its stub where one was built and the `?member=` URL otherwise.
 2. **Editorial overlays** — optional display tweaks in `src/content/editorial/` (titles, vote-action copy, acronyms); they refine presentation, they do not invent votes.
-3. **UI grouping** — e.g. `BillsTable` groups using `getBillState` from votes; grouping is presentation over data already on disk.
+3. **UI grouping** — e.g. `BillList` groups by the bill state (`getBillState` from votes) that the finder index already carries; grouping is presentation over data already on disk.
 
 ## Routes (`src/pages/`)
 
@@ -114,11 +114,11 @@ npm run generate-change-summary
 
 | Component | Role |
 |-----------|------|
-| `BillsTable.astro` | Bills grouped by bill state |
-| `VoteTable.astro` / `ActionsTable.astro` | Votes list / actions timeline |
+| `BillList.astro` / `BillResultRow.astro` | A congress's bills (all or one type), grouped by bill state, from the finder index |
+| `VoteTable.astro` / `BillTimeline.astro` | Votes list / actions timeline (`billTimeline.ts` folds duplicate reports) |
 | `VoteRoll.astro` / `VoteRollRow.astro` | Sortable roll-call UI |
 | `Voted.astro` | Page one-liner (not the OG card) |
-| `Legislator.astro` / `LegislatorList.astro` | Profile / roster |
+| `MemberRecord.astro` / `MemberResultRow.astro` | Member page / one member row (finder and rosters), with the Current/Former tag |
 | `SiteName.astro` | Brand wordmark |
 | `social-cards/VotedCard.astro` | 1200×630 OG card UI |
 | `social-cards/VotedFromResolver.astro` | Disk resolve → card props |
