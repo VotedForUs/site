@@ -1,48 +1,64 @@
 ---
+/**
+ * One type of bill in one congress that has a recorded vote.
+ * URL: /bills/[term]/[billType]
+ *
+ * The paths come from the bills collection, which is what the incremental
+ * build tracks; the rows come from the finder index, so the list and the
+ * search field never disagree about what a bill is called or where it stands.
+ */
 import Layout from '../../../../layouts/Layout.astro';
-import BillsTable from '../../../../components/BillsTable.astro';
+import BillList from '../../../../components/BillList.astro';
 import { getCollection } from 'astro:content';
 import { getBuildManifest } from '../../../../utils/buildManifest.js';
+import { readFinderIndex } from '../../../../utils/finderIndex';
+import { billsOfTerm, typePrefix } from '../../../../utils/billList.js';
+import { withBaseUrl } from '../../../../utils/withBaseUrl';
 
 export async function getStaticPaths() {
   const allBills = await getCollection('bills');
-  const manifest = getBuildManifest();
-  const changedBillIds = manifest?.changedIds['bills-loader'];
-  const pathMap = new Map<string, typeof allBills>();
+  const changedBillIds = getBuildManifest()?.changedIds['bills-loader'];
+  const lists = new Map<string, typeof allBills>();
   for (const bill of allBills) {
     if (!bill.data.congress || !bill.data.type) continue;
     const key = `${bill.data.congress}:::${bill.data.type.toLowerCase()}`;
-    const existing = pathMap.get(key) ?? [];
-    existing.push(bill);
-    pathMap.set(key, existing);
+    const list = lists.get(key);
+    if (list) list.push(bill);
+    else lists.set(key, [bill]);
   }
-  return [...pathMap.entries()]
+  return [...lists.entries()]
     .filter(([, bills]) => !changedBillIds || bills.some(b => changedBillIds.has(b.id)))
-    .map(([key, bills]) => {
-      const [congress, billType] = key.split(':::');
-      return {
-        params: { term: congress, billType },
-        props: { bills: bills.filter(b => (b.data.actions?.actions?.length ?? 0) > 0) },
-      };
+    .map(([key]) => {
+      const [term, billType] = key.split(':::');
+      return { params: { term, billType } };
     });
 }
 
 const { term, billType } = Astro.params;
-const { bills } = Astro.props;
-const normalizedBillType = billType.toUpperCase();
-const congressionalTerm = parseInt(term);
-
-const pageTitle = `${normalizedBillType} Bills - ${congressionalTerm}th Congress`;
+const congress = parseInt(term);
+const base = import.meta.env.BASE_URL;
+const termRows = billsOfTerm(readFinderIndex().bills ?? [], term);
+const rows = billsOfTerm(termRows, term, billType);
+const prefix = typePrefix(billType);
 ---
 
-<Layout title={pageTitle}>
-  <h1>{normalizedBillType} Bills - {congressionalTerm}th Congress</h1>
-  
-  <p>Total bills with votes: {bills.length}</p>
-  
-  {bills.length > 0 ? (
-    <BillsTable bills={bills} />
-  ) : (
-    <p>No bills found for the {congressionalTerm}th Congress.</p>
-  )}
+<Layout
+  title={`${prefix} bills — ${congress}th Congress`}
+  description={`${prefix} bills of the ${congress}th Congress that have a recorded vote.`}
+  breadcrumbLabels={{ [billType]: prefix }}
+>
+  <section class="section stack">
+    <h1>{prefix} — {congress}th Congress</h1>
+    {rows.length > 0 ? (
+      <Fragment>
+        <p>{rows.length} with a recorded vote, grouped by what happened to them. Newest action first.</p>
+        <BillList termRows={termRows} rows={rows} term={term} type={billType} />
+      </Fragment>
+    ) : (
+      <div class="form-actions">
+        <p>No {prefix} of the {congress}th has a recorded vote.</p>
+        <a href={withBaseUrl(`/bills/${term}`, base)}>All bills of the {congress}th</a>
+      </div>
+    )}
+  </section>
 </Layout>

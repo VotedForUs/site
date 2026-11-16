@@ -1,11 +1,14 @@
 /**
- * Analyzes bill titles from generated data/bills (API only, no editorial).
- * Computes effective title: best of Popular / Short Title / bill.title, then
- * cleanDisapprovalTitle, then applyAcronyms. Outputs analysis and report.
+ * Analyzes bill titles from `src/data/bills` (API only, no editorial) and
+ * writes `docs/bill-title-shortening.md`: how long the titles are, which
+ * prefixes and phrases repeat, and so which shortening rules would pay.
  *
- * Run from repo root: npx tsx packages/site/scripts/analyze-bill-titles.ts
- * Or from packages/site: npx tsx scripts/analyze-bill-titles.ts
- * Requires packages/site/src/data/bills to exist (generate via site:bills:generate:*).
+ * Effective title = best of Popular / Short Title / bill.title, then
+ * cleanDisapprovalTitle, applyAcronyms and shortenBillTitleBoilerplate.
+ *
+ * ```bash
+ * npm run analyze-bill-titles
+ * ```
  */
 
 import * as fs from 'node:fs';
@@ -15,21 +18,36 @@ import { cleanDisapprovalTitle } from '../src/utils/cleanDisapprovalTitle.js';
 import { applyAcronyms, type AcronymEntry } from '../src/utils/applyAcronyms.js';
 import { shortenBillTitleBoilerplate } from '../src/utils/shortenBillTitleBoilerplate.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const SITE_ROOT = path.resolve(__dirname, '..');
+const SITE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BILLS_DIR = path.join(SITE_ROOT, 'src', 'data', 'bills');
 const ACRONYMS_PATH = path.join(SITE_ROOT, 'src', 'content', 'editorial', 'acronyms.json');
+const REPORT_PATH = path.join(SITE_ROOT, 'docs', 'bill-title-shortening.md');
 
-type BillTitleEntry = { title?: string; titleType?: string; updateDate?: string };
-type BillFromData = {
+export type BillTitleEntry = { title?: string; titleType?: string; updateDate?: string };
+export type BillFromData = {
   title?: string;
   titles?: { titles?: BillTitleEntry[] };
 };
 
-function loadAcronyms(): AcronymEntry[] {
+/** What one run counted. */
+export type TitleAnalysis = {
+  total: number;
+  unique: number;
+  byPrefix: Map<string, number>;
+  phraseCounts: Map<string, number>;
+  lengthBuckets: Map<string, number>;
+};
+
+/**
+ * The editorial acronym list, or none when the file is missing or unreadable.
+ *
+ * @param file - `acronyms.json`
+ * @returns Acronym entries
+ */
+export function loadAcronyms(file = ACRONYMS_PATH): AcronymEntry[] {
   try {
-    if (fs.existsSync(ACRONYMS_PATH)) {
-      const data = JSON.parse(fs.readFileSync(ACRONYMS_PATH, 'utf8')) as { acronyms?: AcronymEntry[] };
+    if (fs.existsSync(file)) {
+      const data = JSON.parse(fs.readFileSync(file, 'utf8')) as { acronyms?: AcronymEntry[] };
       return Array.isArray(data?.acronyms) ? data.acronyms : [];
     }
   } catch {
@@ -41,7 +59,7 @@ function loadAcronyms(): AcronymEntry[] {
 /**
  * Best title from API data only (no editorial): Popular Titles > newest Short Title > bill.title.
  */
-function getEffectiveTitleFromApiOnly(bill: BillFromData): string {
+export function getEffectiveTitleFromApiOnly(bill: BillFromData): string {
   const defaultTitle = bill.title?.trim() || 'Untitled Bill';
   const titles = bill.titles?.titles;
   if (!titles?.length) return defaultTitle;
@@ -60,17 +78,23 @@ function getEffectiveTitleFromApiOnly(bill: BillFromData): string {
   return defaultTitle;
 }
 
-function collectAllTitles(): string[] {
+/**
+ * The effective title of every bill file under a bills directory.
+ *
+ * @param billsDir - `src/data/bills`
+ * @param acronyms - Acronyms to substitute
+ * @returns One cleaned title per readable bill file
+ */
+export function collectAllTitles(billsDir = BILLS_DIR, acronyms: AcronymEntry[] = loadAcronyms()): string[] {
   const out: string[] = [];
-  if (!fs.existsSync(BILLS_DIR)) return out;
+  if (!fs.existsSync(billsDir)) return out;
 
-  const acronyms = loadAcronyms();
-  const congressDirs = fs.readdirSync(BILLS_DIR, { withFileTypes: true })
+  const congressDirs = fs.readdirSync(billsDir, { withFileTypes: true })
     .filter((d) => d.isDirectory() && /^\d+$/.test(d.name))
     .map((d) => d.name);
 
   for (const congress of congressDirs) {
-    const congressPath = path.join(BILLS_DIR, congress);
+    const congressPath = path.join(billsDir, congress);
     const billTypeDirs = fs.readdirSync(congressPath, { withFileTypes: true })
       .filter((d) => d.isDirectory())
       .map((d) => d.name);
@@ -120,7 +144,8 @@ const PREFIX_PATTERNS = [
   'For other purposes',
 ];
 
-function getPrefix(title: string): string {
+/** The known boilerplate prefix a title opens with, else its first four words. */
+export function getPrefix(title: string): string {
   const t = title.trim();
   for (const p of PREFIX_PATTERNS) {
     if (t.startsWith(p)) return p;
@@ -140,7 +165,8 @@ const PHRASE_CANDIDATES = [
   'relating to "',
 ];
 
-function countPhrase(title: string, phrase: string): number {
+/** How many times a phrase occurs in a title, case-insensitively. */
+export function countPhrase(title: string, phrase: string): number {
   let count = 0;
   let idx = 0;
   const lower = title.toLowerCase();
@@ -152,13 +178,18 @@ function countPhrase(title: string, phrase: string): number {
   return count;
 }
 
-function runAnalysis(titles: string[]): {
-  total: number;
-  unique: number;
-  byPrefix: Map<string, number>;
-  phraseCounts: Map<string, number>;
-  lengthBuckets: Map<string, number>;
-} {
+/** The length bucket a title of `len` characters falls in. */
+export function lengthBucket(len: number): string {
+  return len <= 50 ? '1–50' : len <= 100 ? '51–100' : len <= 150 ? '101–150' : len <= 200 ? '151–200' : '200+';
+}
+
+/**
+ * Count prefixes, repeated phrases and lengths across a set of titles.
+ *
+ * @param titles - Effective titles
+ * @returns The counts
+ */
+export function runAnalysis(titles: string[]): TitleAnalysis {
   const byPrefix = new Map<string, number>();
   const phraseCounts = new Map<string, number>();
   const lengthBuckets = new Map<string, number>();
@@ -174,9 +205,7 @@ function runAnalysis(titles: string[]): {
       if (n > 0) phraseCounts.set(phrase, (phraseCounts.get(phrase) ?? 0) + n);
     }
 
-    const len = t.length;
-    const bucket =
-      len <= 50 ? '1–50' : len <= 100 ? '51–100' : len <= 150 ? '101–150' : len <= 200 ? '151–200' : '200+';
+    const bucket = lengthBucket(t.length);
     lengthBuckets.set(bucket, (lengthBuckets.get(bucket) ?? 0) + 1);
   }
 
@@ -189,11 +218,17 @@ function runAnalysis(titles: string[]): {
   };
 }
 
-function writeReport(_: string[], analysis: ReturnType<typeof runAnalysis>, reportPath: string): void {
+/**
+ * The report, as Markdown.
+ *
+ * @param analysis - Output of {@link runAnalysis}
+ * @returns The report's text
+ */
+export function renderReport(analysis: TitleAnalysis): string {
   const lines: string[] = [
     '# Bill title shortening analysis',
     '',
-    'Data source: `packages/site/src/data/bills` (API only, no editorial).',
+    'Data source: `src/data/bills` (API only, no editorial).',
     'Effective title = best of Popular / Short Title / bill.title → cleanDisapprovalTitle → applyAcronyms.',
     '',
     '## Summary',
@@ -245,36 +280,51 @@ function writeReport(_: string[], analysis: ReturnType<typeof runAnalysis>, repo
     ''
   );
 
+  return lines.join('\n');
+}
+
+/** The report written when there is no bill data to analyze. */
+export const EMPTY_REPORT = [
+  '# Bill title shortening analysis',
+  '',
+  'No data. Generate bill data first: `npm run voted-bills-sync:generate` or `npm run build-from-cache`.',
+  '',
+  'Data source: `src/data/bills` (API only, no editorial).',
+  '',
+].join('\n');
+
+/**
+ * Analyze every bill title and write the report.
+ *
+ * @param options.billsDir - `src/data/bills`
+ * @param options.reportPath - Where the Markdown report goes
+ * @param options.acronyms - Acronyms to substitute
+ * @returns How many titles were analyzed, and where the report was written
+ */
+export function analyzeBillTitles(options: {
+  billsDir?: string;
+  reportPath?: string;
+  acronyms?: AcronymEntry[];
+} = {}): { titles: number; reportPath: string; empty: boolean } {
+  const billsDir = options.billsDir ?? BILLS_DIR;
+  const reportPath = options.reportPath ?? REPORT_PATH;
   fs.mkdirSync(path.dirname(reportPath), { recursive: true });
-  fs.writeFileSync(reportPath, lines.join('\n'), 'utf8');
-}
 
-function main(): void {
-  const repoRoot = path.resolve(SITE_ROOT, '..', '..');
-  const reportPath = path.join(repoRoot, 'docs', 'bill-title-shortening.md');
-
-  if (!fs.existsSync(BILLS_DIR)) {
-    console.error(`Bills directory not found: ${BILLS_DIR}`);
-    console.error('Generate it first, e.g.: npm run site:bills:generate:hr (or build-from-cache).');
-    const emptyReport = [
-      '# Bill title shortening analysis',
-      '',
-      'No data. Generate bill data first:',
-      '`npm run site:bills:generate:hr` (or other bill types) or `npm run site:bills:build-from-cache`.',
-      '',
-      'Data source: `packages/site/src/data/bills` (API only, no editorial).',
-      '',
-    ].join('\n');
-    fs.mkdirSync(path.dirname(reportPath), { recursive: true });
-    fs.writeFileSync(reportPath, emptyReport, 'utf8');
-    console.log(`Wrote empty report to ${reportPath}`);
-    return;
+  if (!fs.existsSync(billsDir)) {
+    fs.writeFileSync(reportPath, EMPTY_REPORT, 'utf8');
+    return { titles: 0, reportPath, empty: true };
   }
-
-  const titles = collectAllTitles();
-  const analysis = runAnalysis(titles);
-  writeReport(titles, analysis, reportPath);
-  console.log(`Analyzed ${titles.length} titles. Report written to ${reportPath}`);
+  const titles = collectAllTitles(billsDir, options.acronyms ?? loadAcronyms());
+  fs.writeFileSync(reportPath, renderReport(runAnalysis(titles)), 'utf8');
+  return { titles: titles.length, reportPath, empty: false };
 }
 
-main();
+if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
+  const result = analyzeBillTitles();
+  if (result.empty) {
+    console.error(`Bills directory not found: ${BILLS_DIR}`);
+    console.log(`Wrote empty report to ${result.reportPath}`);
+  } else {
+    console.log(`Analyzed ${result.titles} titles. Report written to ${result.reportPath}`);
+  }
+}

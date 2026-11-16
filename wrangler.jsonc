@@ -1,0 +1,18 @@
+{
+  // Cloudflare hosts the pull-request previews of this site
+  // (.github/workflows/pr-preview.yml). There is no Worker code: Cloudflare
+  // serves the built files in dist/ as they are. Production is still GitHub
+  // Pages (deploy-site.yml) and does not read this file.
+  "name": "votedforus-site",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    // /bills/119 serves /bills/119/index.html, as GitHub Pages does.
+    "html_handling": "auto-trailing-slash",
+    // An unknown path serves dist/404.html with a 404 status.
+    "not_found_handling": "404-page"
+  },
+  // Required for `wrangler preview`; empty because a preview needs no
+  // settings of its own.
+  "previews": {}
+}

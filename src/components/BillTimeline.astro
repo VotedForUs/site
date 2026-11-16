@@ -1,0 +1,133 @@
+---
+/**
+ * What happened to a bill, newest first, a day at a time.
+ *
+ * Each line says who acted and what they did; a line where a vote was
+ * recorded links to that vote. The dates are written out, and the two reports
+ * Congress.gov makes of most actions are folded into one — see
+ * `billTimeline.ts`.
+ *
+ * It is a list, not a table: there is nothing to sort, and a table of five
+ * columns does not fit a phone.
+ */
+import './results.css';
+import { groupByDay, timelineOf, type TimelineAction } from '../utils/billTimeline.js';
+import { formatDate, formatTime } from '../utils/formatDate';
+import { votePath } from '../utils/voteLinks.js';
+
+interface Props {
+  actions: TimelineAction[];
+  /** What to call a vote in its link, by vote id — "passed 215 - 214". */
+  voteLabels?: Record<string, string>;
+}
+
+const { actions, voteLabels = {} } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const entries = timelineOf(actions);
+const days = groupByDay(entries);
+---
+
+{entries.length > 0 && (
+  <section class="result-group timeline">
+    <h3 class="group-label">
+      <span>timeline</span>
+      <span>{entries.length}</span>
+    </h3>
+    <ol class="timeline-days">
+      {days.map((day) => (
+        <li class="timeline-day">
+          <time class="timeline-date" datetime={day.date}>{formatDate(day.date)}</time>
+          <ul class="timeline-entries">
+            {day.entries.map((entry) => (
+              <li class="timeline-entry">
+                <span class="timeline-actor">
+                  {entry.actor ?? ''}
+                  {entry.time && <span class="timeline-time">{formatTime(entry.time)}</span>}
+                </span>
+                <span class="timeline-text">
+                  {entry.text}
+                  {entry.voteIds.map((id) => {
+                    const href = votePath(id, base);
+                    return href && (
+                      <a class="timeline-vote" href={href}>{voteLabels[id] ?? 'recorded vote'}</a>
+                    );
+                  })}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+    </ol>
+  </section>
+)}
+
+<style>
+  .timeline-days,
+  .timeline-entries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .timeline-day {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: var(--pad-xs) var(--pad-m);
+    padding: var(--pad-s);
+    border-block-end: 1px solid var(--border-1);
+  }
+
+  .timeline-date {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--fg-strong);
+    padding-block-start: 0.2em;
+  }
+
+  .timeline-entries {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pad-s);
+    min-width: 0;
+  }
+
+  .timeline-entry {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: var(--pad-xs) var(--pad-m);
+  }
+
+  .timeline-actor {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.8125rem;
+  }
+
+  .timeline-time {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    color: var(--fg-muted);
+  }
+
+  .timeline-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .timeline-vote {
+    display: block;
+    inline-size: fit-content;
+    margin-block-start: var(--pad-xs);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--primary);
+  }
+
+  @media (max-width: 560px) {
+    .timeline-day { grid-template-columns: 1fr; }
+    .timeline-entry { grid-template-columns: 4.5rem 1fr; }
+  }
+</style>

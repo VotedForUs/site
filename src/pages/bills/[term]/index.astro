@@ -1,38 +1,51 @@
 ---
+/**
+ * Every bill of one congress that has a recorded vote.
+ * URL: /bills/[term]
+ *
+ * The paths come from the bills collection, which is what the incremental
+ * build tracks; the rows come from the finder index, so the list and the
+ * search field never disagree about what a bill is called or where it stands.
+ */
 import Layout from '../../../layouts/Layout.astro';
-import BillsTable from '../../../components/BillsTable.astro';
+import BillList from '../../../components/BillList.astro';
 import { getCollection } from 'astro:content';
 import { getBuildManifest } from '../../../utils/buildManifest.js';
+import { readFinderIndex } from '../../../utils/finderIndex';
+import { billsOfTerm } from '../../../utils/billList.js';
 
 export async function getStaticPaths() {
   const allBills = await getCollection('bills');
-  const manifest = getBuildManifest();
-  // Rebuild term index if no manifest (full build) or any bill in that term changed
-  const changedBillIds = manifest?.changedIds['bills-loader'];
+  // Rebuild a term's list on a full build, or when any bill in it changed.
+  const changedBillIds = getBuildManifest()?.changedIds['bills-loader'];
   const terms = [...new Set(allBills.map(bill => String(bill.data.congress)))];
   return terms
     .filter(term => !changedBillIds || allBills.some(b => String(b.data.congress) === term && changedBillIds.has(b.id)))
-    .map(term => ({
-      params: { term },
-      props: { bills: allBills.filter(b => String(b.data.congress) === term) },
-    }));
+    .map(term => ({ params: { term } }));
 }
 
 const { term } = Astro.params;
-const { bills } = Astro.props;
-const congressionalTerm = parseInt(term);
-
-const pageTitle = `${congressionalTerm}th Congress - Bills with Votes`;
+const congress = parseInt(term);
+const base = import.meta.env.BASE_URL;
+const rows = billsOfTerm(readFinderIndex().bills ?? [], term);
 ---
 
-<Layout title={pageTitle}>
-  <h1>{congressionalTerm}th Congress - Bills with Votes</h1>
-  
-  <p>Total bills: {bills.length}</p>
-  
-  {bills.length > 0 ? (
-    <BillsTable bills={bills} />
-  ) : (
-    <p>No bills found for the {congressionalTerm}th Congress.</p>
-  )}
+<Layout
+  title={`${congress}th Congress — bills with recorded votes`}
+  description={`Every bill of the ${congress}th Congress that has a recorded floor vote.`}
+>
+  <section class="section stack">
+    <h1>{congress}th Congress</h1>
+    {rows.length > 0 ? (
+      <Fragment>
+        <p>{rows.length} bills with a recorded vote, grouped by what happened to them. Newest action first.</p>
+        <BillList termRows={rows} rows={rows} term={term} />
+      </Fragment>
+    ) : (
+      <div class="form-actions">
+        <p>No bills of the {congress}th have a recorded vote yet.</p>
+        <a href={base}>Search bills</a>
+      </div>
+    )}
+  </section>
 </Layout>

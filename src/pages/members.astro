@@ -1,0 +1,39 @@
+---
+/**
+ * Members hub: the two chambers. Individual records live at /members/[id].
+ */
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { bioguideIdsWithCasts } from '../utils/memberRecord.js';
+
+const base = import.meta.env.BASE_URL;
+const withCasts = bioguideIdsWithCasts((await getCollection('legislatorVotes')).map((v) => v.data));
+const senators = (await getCollection('senators')).filter((s) => withCasts.has(s.id));
+const representatives = (await getCollection('representatives')).filter((r) => withCasts.has(r.id));
+---
+
+<Layout
+  title="Members — VotedFor.Us"
+  description="Browse members of the 119th who have a recorded vote, by chamber."
+>
+  <section class="section stack">
+    <h1>Members</h1>
+    <p>
+      Members of the 119th with a recorded vote, grouped by chamber. Each name
+      opens that member’s record.
+    </p>
+    <ul>
+      <li>
+        <a href={`${base}members/senate`}>Senate</a>
+        {' '}— {senators.length} senators
+      </li>
+      <li>
+        <a href={`${base}members/house`}>House of Representatives</a>
+        {' '}— {representatives.length} representatives
+      </li>
+    </ul>
+    <p>
+      <a href={base}>Find a member by name or state</a>
+    </p>
+  </section>
+</Layout>

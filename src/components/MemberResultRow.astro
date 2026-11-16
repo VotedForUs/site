@@ -1,0 +1,35 @@
+---
+/**
+ * One member, as a result row: portrait, name, where they sit, whether they
+ * still do, and how many votes we hold for them.
+ *
+ * The finder's opening list and the two chamber rosters are the same rows, so
+ * they are the same component. `vfu-finder.ts` builds this shape again in the
+ * browser from the `member-row` template — change one and change the other.
+ */
+import ResultRow from './ResultRow.astro';
+import { memberHref, memberMeta } from './finder/finderView';
+import { MEMBER_STATUS_LABELS, memberStatus, type MemberRow } from '../utils/finderMatch/index.js';
+
+interface Props {
+  row: MemberRow;
+  base?: string;
+}
+
+const { row, base = import.meta.env.BASE_URL } = Astro.props;
+const status = memberStatus(row);
+---
+
+<ResultRow href={memberHref(row, base)}>
+  <Fragment slot="lead">
+    {row.i
+      ? <img class="row-headshot" data-headshot src={`${base.replace(/\/$/, '')}/images/legislators/${row.b}.jpg`} alt="" loading="lazy" />
+      : <span class="row-headshot" data-blank />}
+  </Fragment>
+  <Fragment slot="title">{row.n}</Fragment>
+  <Fragment slot="meta">{memberMeta(row)}</Fragment>
+  <Fragment slot="trailing">
+    <span class="status-tag" data-status={status}>{MEMBER_STATUS_LABELS[status]}</span>
+    <span class="row-count">{`${row.v} ${row.v === 1 ? 'vote' : 'votes'}`}</span>
+  </Fragment>
+</ResultRow>
