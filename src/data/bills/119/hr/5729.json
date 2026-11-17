@@ -734,6 +734,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "North Rim Restoration Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-11-17T06:23:35Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -748,9 +758,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "North Rim Restoration Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To authorize direct emergency acquisition flexibilities for the National Park Service for the purpose of retaining, vetting, approving, and expediting contractor approval for the clearing, rebuilding, maintenance, and improvement of the Grand Canyon grounds that have been impacted by the Dragon Bravo Fire.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2026-03-18T03:08:22Z"
       },
       {
@@ -758,9 +768,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To authorize direct emergency acquisition flexibilities for the National Park Service for the purpose of retaining, vetting, approving, and expediting contractor approval for the clearing, rebuilding, maintenance, and improvement of the Grand Canyon grounds that have been impacted by the Dragon Bravo Fire.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "North Rim Restoration Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2026-03-18T03:08:22Z"
       },
       {
@@ -798,8 +808,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-13T11:56:53Z",
-  "updateDateIncludingText": "2026-11-13T11:56:53Z",
+  "updateDate": "2026-11-17T06:23:35Z",
+  "updateDateIncludingText": "2026-11-17T06:23:35Z",
   "id": "119-HR-5729",
   "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2026-03-16"

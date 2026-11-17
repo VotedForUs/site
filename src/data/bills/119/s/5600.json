@@ -4,6 +4,14 @@
     "url": "https://api.congress.gov/v3/bill/119/s/5600/actions?format=json",
     "actions": [
       {
+        "actionDate": "2026-10-05",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
         "actionCode": "H15000",
         "actionDate": "2026-10-05",
         "actionTime": "16:55:22",
@@ -23,14 +31,6 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
-        "type": "Floor"
-      },
-      {
-        "actionDate": "2026-10-05",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -165,8 +165,7 @@
   "introducedDate": "2026-09-29",
   "latestAction": {
     "actionDate": "2026-10-05",
-    "actionTime": "16:55:22",
-    "text": "Held at the desk."
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5600",
   "number": "5600",
@@ -179,7 +178,7 @@
         "title": "Dennis John Benigno Traumatic Brain Injury Program Reauthorization Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-10-07T11:03:18Z"
+        "updateDate": "2026-11-17T12:03:43Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -200,8 +199,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-10-08T13:51:05Z",
-  "updateDateIncludingText": "2026-10-08T13:51:05Z",
+  "updateDate": "2026-11-17T12:03:43Z",
+  "updateDateIncludingText": "2026-11-17T12:03:43Z",
   "id": "119-S-5600",
   "lastActionDate": "2026-10-05",
   "lastRecordedVoteDate": "2026-09-29"

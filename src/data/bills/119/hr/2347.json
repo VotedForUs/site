@@ -1,8 +1,31 @@
 {
   "actions": {
-    "count": 26,
+    "count": 28,
     "url": "https://api.congress.gov/v3/bill/119/hr/2347/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Considered by Senate. (consideration: CR S5679)",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-11-16",
+        "committees": [
+          {
+            "name": "Finance Committee",
+            "systemCode": "ssfi00",
+            "url": "https://api.congress.gov/v3/committee/senate/ssfi00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion by Senator Thune to commit to Senate Committee on Finance with instructions to report back forthwith with the following amendment (SA 6888) fell when cloture was invoked on amendment SA 6883 in Senate.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-11",
         "sourceSystem": {
@@ -991,8 +1014,8 @@
   "congress": 119,
   "introducedDate": "2025-03-25",
   "latestAction": {
-    "actionDate": "2026-11-11",
-    "text": "Cloture motion on the measure presented in Senate. (CR S5568)"
+    "actionDate": "2026-11-16",
+    "text": "Considered by Senate. (consideration: CR S5679)"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
   "number": "2347",
@@ -1070,9 +1093,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-14T12:08:57Z",
-  "updateDateIncludingText": "2026-11-14T12:08:57Z",
+  "updateDate": "2026-11-17T14:13:24Z",
+  "updateDateIncludingText": "2026-11-17T14:13:24Z",
   "id": "119-HR-2347",
-  "lastActionDate": "2026-11-11",
+  "lastActionDate": "2026-11-16",
   "lastRecordedVoteDate": "2026-11-11T02:11:59Z"
 }
