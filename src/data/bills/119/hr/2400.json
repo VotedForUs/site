@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 25,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/2400/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-09-30",
         "sourceSystem": {
@@ -728,8 +736,8 @@
   "congress": 119,
   "introducedDate": "2025-03-27",
   "latestAction": {
-    "actionDate": "2026-09-30",
-    "text": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S5297-5298)"
+    "actionDate": "2026-11-16",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2400",
   "number": "2400",
@@ -825,9 +833,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-12T21:21:49Z",
-  "updateDateIncludingText": "2026-11-12T21:21:49Z",
+  "updateDate": "2026-11-17T11:56:54Z",
+  "updateDateIncludingText": "2026-11-17T11:56:54Z",
   "id": "119-HR-2400",
-  "lastActionDate": "2026-09-30",
+  "lastActionDate": "2026-11-16",
   "lastRecordedVoteDate": "2025-12-15"
 }

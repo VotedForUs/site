@@ -1,14 +1,22 @@
 {
   "actions": {
-    "count": 6,
+    "count": 7,
     "url": "https://api.congress.gov/v3/bill/119/s/432/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-12",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5668; text: CR S5669)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -162,8 +170,8 @@
   "congress": 119,
   "introducedDate": "2025-02-05",
   "latestAction": {
-    "actionDate": "2026-11-12",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-11-16",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/432",
   "number": "432",
@@ -176,7 +184,7 @@
         "title": "Fort Ontario Holocaust Refugee Shelter National Historical Park Establishment Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-11-13T11:58:39Z"
+        "updateDate": "2026-11-17T12:03:42Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -207,9 +215,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-13T11:58:39Z",
-  "updateDateIncludingText": "2026-11-13T13:03:34Z",
+  "updateDate": "2026-11-17T12:03:42Z",
+  "updateDateIncludingText": "2026-11-17T12:03:42Z",
   "id": "119-S-432",
-  "lastActionDate": "2026-11-12",
+  "lastActionDate": "2026-11-16",
   "lastRecordedVoteDate": "2026-11-12"
 }

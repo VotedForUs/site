@@ -1,14 +1,22 @@
 {
   "actions": {
-    "count": 9,
+    "count": 10,
     "url": "https://api.congress.gov/v3/bill/119/s/2887/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-12",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5668; text: CR S5668-5669)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -200,8 +208,8 @@
   "congress": 119,
   "introducedDate": "2025-09-18",
   "latestAction": {
-    "actionDate": "2026-11-12",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-11-16",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2887",
   "number": "2887",
@@ -214,7 +222,7 @@
         "title": "Route 66 National Historic Trail Designation Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-11-13T11:58:39Z"
+        "updateDate": "2026-11-17T12:03:43Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -255,9 +263,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-13T11:58:39Z",
-  "updateDateIncludingText": "2026-11-13T13:03:38Z",
+  "updateDate": "2026-11-17T12:03:43Z",
+  "updateDateIncludingText": "2026-11-17T12:03:43Z",
   "id": "119-S-2887",
-  "lastActionDate": "2026-11-12",
+  "lastActionDate": "2026-11-16",
   "lastRecordedVoteDate": "2026-11-12"
 }

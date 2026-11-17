@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 18,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/2876/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-16",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 717.",
+        "type": "Calendars"
+      },
       {
         "actionDate": "2025-12-16",
         "sourceSystem": {
@@ -660,8 +668,8 @@
   "congress": 119,
   "introducedDate": "2025-04-10",
   "latestAction": {
-    "actionDate": "2025-12-16",
-    "text": "Received in the Senate."
+    "actionDate": "2026-11-16",
+    "text": "Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 717."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2876",
   "number": "2876",
@@ -690,7 +698,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To confirm the use of certain non-Federal land in Salt Lake City, Utah, for public purposes, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2025-12-17T04:23:22Z"
       },
@@ -729,9 +737,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-06-22T21:06:24Z",
-  "updateDateIncludingText": "2026-07-13T20:11:19Z",
+  "updateDate": "2026-11-17T11:56:53Z",
+  "updateDateIncludingText": "2026-11-17T11:56:53Z",
   "id": "119-HR-2876",
-  "lastActionDate": "2025-12-16",
+  "lastActionDate": "2026-11-16",
   "lastRecordedVoteDate": "2025-12-15"
 }
