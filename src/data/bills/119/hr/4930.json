@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 20,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/4930/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E20000",
+        "actionDate": "2026-11-17",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Presented to President.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "28000",
+        "actionDate": "2026-11-17",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Presented to President.",
+        "type": "President"
+      },
       {
         "actionDate": "2026-11-12",
         "sourceSystem": {
@@ -762,8 +782,8 @@
   "congress": 119,
   "introducedDate": "2025-08-08",
   "latestAction": {
-    "actionDate": "2026-11-12",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-11-17",
+    "text": "Presented to President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4930",
   "number": "4930",
@@ -803,9 +823,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-13T11:56:55Z",
-  "updateDateIncludingText": "2026-11-13T11:56:55Z",
+  "updateDate": "2026-11-18T09:05:49Z",
+  "updateDateIncludingText": "2026-11-18T09:05:49Z",
   "id": "119-HR-4930",
-  "lastActionDate": "2026-11-12",
+  "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-10"
 }

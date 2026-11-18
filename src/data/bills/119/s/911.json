@@ -225,6 +225,10 @@
   "number": "911",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/911/summaries?format=json"
+  },
   "title": "Chief Herbert D. Proffitt Act of 2025",
   "titles": {
     "titles": [
@@ -273,8 +277,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-03T21:05:39Z",
-  "updateDateIncludingText": "2026-11-03T21:05:39Z",
+  "updateDate": "2026-11-17T17:05:49Z",
+  "updateDateIncludingText": "2026-11-17T17:05:49Z",
   "id": "119-S-911",
   "lastActionDate": "2025-08-01",
   "lastRecordedVoteDate": "2025-07-29"

@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 24,
+    "count": 25,
     "url": "https://api.congress.gov/v3/bill/119/hr/2302/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-16",
         "sourceSystem": {
@@ -829,8 +837,8 @@
   "congress": 119,
   "introducedDate": "2025-03-24",
   "latestAction": {
-    "actionDate": "2026-11-16",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5701)"
+    "actionDate": "2026-11-17",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2302",
   "number": "2302",
@@ -918,9 +926,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-17T14:14:53Z",
-  "updateDateIncludingText": "2026-11-17T14:14:53Z",
+  "updateDate": "2026-11-18T11:57:04Z",
+  "updateDateIncludingText": "2026-11-18T11:57:04Z",
   "id": "119-HR-2302",
-  "lastActionDate": "2026-11-16",
+  "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-16"
 }

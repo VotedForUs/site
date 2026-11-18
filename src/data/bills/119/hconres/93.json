@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 15,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/hconres/93/actions?format=json",
     "actions": [
       {
@@ -675,8 +675,8 @@
     ]
   },
   "type": "HCONRES",
-  "updateDate": "2026-09-22T21:23:30Z",
-  "updateDateIncludingText": "2026-09-22T21:23:30Z",
+  "updateDate": "2026-11-17T19:16:38Z",
+  "updateDateIncludingText": "2026-11-17T19:16:38Z",
   "id": "119-HCONRES-93",
   "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-09-16T02:32:08Z"

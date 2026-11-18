@@ -1,8 +1,52 @@
 {
   "actions": {
-    "count": 26,
+    "count": 31,
     "url": "https://api.congress.gov/v3/bill/119/hr/2400/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H41931",
+        "actionDate": "2026-11-17",
+        "actionTime": "17:23:56",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Motion to reconsider laid on the table Agreed to without objection.",
+        "type": "ResolvingDifferences"
+      },
+      {
+        "actionCode": "H41610",
+        "actionDate": "2026-11-17",
+        "actionTime": "17:23:55",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "On motion that the House suspend the rules and agree to the Senate amendment Agreed to by voice vote.",
+        "type": "ResolvingDifferences"
+      },
+      {
+        "actionCode": "H8D000",
+        "actionDate": "2026-11-17",
+        "actionTime": "17:20:04",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "DEBATE - The House proceeded with 40 minutes of debate on the motion to suspend the rules and agree to the Senate amendment to H.R. 2400.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H40140",
+        "actionDate": "2026-11-17",
+        "actionTime": "17:19:50",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Mr. Westerman moved that the House suspend the rules and agree to the Senate amendment.",
+        "type": "ResolvingDifferences"
+      },
       {
         "actionDate": "2026-11-16",
         "sourceSystem": {
@@ -736,8 +780,9 @@
   "congress": 119,
   "introducedDate": "2025-03-27",
   "latestAction": {
-    "actionDate": "2026-11-16",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-11-17",
+    "actionTime": "17:23:56",
+    "text": "Motion to reconsider laid on the table Agreed to without objection."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2400",
   "number": "2400",
@@ -833,9 +878,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-17T11:56:54Z",
-  "updateDateIncludingText": "2026-11-17T11:56:54Z",
+  "updateDate": "2026-11-18T09:07:00Z",
+  "updateDateIncludingText": "2026-11-18T09:07:00Z",
   "id": "119-HR-2400",
-  "lastActionDate": "2026-11-16",
+  "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2025-12-15"
 }

@@ -783,6 +783,10 @@
   "number": "8322",
   "originChamber": "House",
   "originChamberCode": "H",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/hr/8322/summaries?format=json"
+  },
   "title": "To amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978 through April 30, 2026, and for other purposes.",
   "titles": {
     "titles": [
@@ -811,8 +815,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:25:36Z",
-  "updateDateIncludingText": "2026-09-19T23:25:36Z",
+  "updateDate": "2026-11-18T13:54:07Z",
+  "updateDateIncludingText": "2026-11-18T13:54:07Z",
   "id": "119-HR-8322",
   "lastActionDate": "2026-04-18",
   "lastRecordedVoteDate": "2026-04-17"

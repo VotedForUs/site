@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/7834/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-16",
         "sourceSystem": {
@@ -732,8 +740,8 @@
   "congress": 119,
   "introducedDate": "2026-03-05",
   "latestAction": {
-    "actionDate": "2026-11-16",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5701)"
+    "actionDate": "2026-11-17",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7834",
   "number": "7834",
@@ -801,9 +809,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-17T14:15:13Z",
-  "updateDateIncludingText": "2026-11-17T14:15:13Z",
+  "updateDate": "2026-11-18T11:56:57Z",
+  "updateDateIncludingText": "2026-11-18T11:56:57Z",
   "id": "119-HR-7834",
-  "lastActionDate": "2026-11-16",
+  "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-16"
 }
