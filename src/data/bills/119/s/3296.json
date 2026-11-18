@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 8,
+    "count": 11,
     "url": "https://api.congress.gov/v3/bill/119/s/3296/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-11-17",
+        "actionTime": "12:10:49",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-11-17",
+        "actionTime": "12:10:27",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-11-17",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-16",
         "sourceSystem": {
@@ -185,8 +215,9 @@
   "congress": 119,
   "introducedDate": "2025-12-02",
   "latestAction": {
-    "actionDate": "2026-11-16",
-    "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5701; text: CR S5701)"
+    "actionDate": "2026-11-17",
+    "actionTime": "12:10:49",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3296",
   "number": "3296",
@@ -199,7 +230,7 @@
         "title": "Improving Access to Workers’ Compensation for Injured Federal Workers Act of 2025",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-11-17T11:58:45Z"
+        "updateDate": "2026-11-18T12:03:39Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -240,9 +271,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-17T14:14:21Z",
-  "updateDateIncludingText": "2026-11-17T15:03:49Z",
+  "updateDate": "2026-11-18T12:28:48Z",
+  "updateDateIncludingText": "2026-11-18T12:28:48Z",
   "id": "119-S-3296",
-  "lastActionDate": "2026-11-16",
+  "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-16"
 }

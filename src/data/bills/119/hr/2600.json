@@ -633,7 +633,7 @@
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "ASCEND Act",
+        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2026-02-27T01:08:23Z"
@@ -643,7 +643,7 @@
         "billTextVersionName": "Placed on Calendar Senate",
         "chamberCode": "S",
         "chamberName": "Senate",
-        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
+        "title": "ASCEND Act",
         "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
         "titleTypeCode": 152,
         "updateDate": "2026-02-27T01:08:23Z"
@@ -653,18 +653,8 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
-        "updateDate": "2026-02-26T07:38:15Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
         "title": "To require the Administrator of the National Aeronautics and Space Administration to establish a program to identify, evaluate, acquire, and disseminate commercial Earth remote sensing data and imagery in order to satisfy the scientific, operational, and educational requirements of the Administration, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-02-26T07:38:15Z"
       },
@@ -679,6 +669,16 @@
         "updateDate": "2026-02-26T07:38:15Z"
       },
       {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-02-26T07:38:15Z"
+      },
+      {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
         "chamberCode": "H",
@@ -701,7 +701,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
+        "title": "ASCEND Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-04-25T03:38:17Z"
@@ -709,7 +709,7 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "ASCEND Act",
+        "title": "Accessing Satellite Capabilities to Enable New Discoveries Act",
         "titleType": "Short Title(s) as Introduced",
         "titleTypeCode": 101,
         "updateDate": "2025-04-25T03:38:17Z"
@@ -725,8 +725,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:03:40Z",
-  "updateDateIncludingText": "2026-07-18T00:03:40Z",
+  "updateDate": "2026-11-17T18:22:24Z",
+  "updateDateIncludingText": "2026-11-17T18:22:24Z",
   "id": "119-HR-2600",
   "lastActionDate": "2026-02-24",
   "lastRecordedVoteDate": "2026-02-23"

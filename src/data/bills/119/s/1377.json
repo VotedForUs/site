@@ -1,8 +1,59 @@
 {
   "actions": {
-    "count": 11,
+    "count": 14,
     "url": "https://api.congress.gov/v3/bill/119/s/1377/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H21000",
+        "actionDate": "2026-09-16",
+        "committees": [
+          {
+            "name": "Federal Lands Subcommittee",
+            "systemCode": "hsii10",
+            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee Hearings Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-09-10",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on Natural Resources.",
+        "type": "IntroReferral"
+      },
+      {
+        "actionCode": "H11000",
+        "actionDate": "2026-09-10",
+        "committees": [
+          {
+            "name": "Federal Lands Subcommittee",
+            "systemCode": "hsii10",
+            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Referred to the Subcommittee on Federal Lands.",
+        "type": "Committee"
+      },
       {
         "actionCode": "H15000",
         "actionDate": "2026-06-15",
@@ -224,9 +275,8 @@
   "congress": 119,
   "introducedDate": "2025-04-09",
   "latestAction": {
-    "actionDate": "2026-06-15",
-    "actionTime": "10:49:32",
-    "text": "Held at the desk."
+    "actionDate": "2026-09-16",
+    "text": "Subcommittee Hearings Held"
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1377",
   "number": "1377",
@@ -239,6 +289,16 @@
   "title": "Theodore Roosevelt National Park Wild Horses Protection Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "RFH",
+        "billTextVersionName": "Referred in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Theodore Roosevelt National Park Wild Horses Protection Act",
+        "titleType": "Short Titles from RFH (Referred to House) bill text",
+        "titleTypeCode": 257,
+        "updateDate": "2026-09-11T04:08:22Z"
+      },
       {
         "title": "Theodore Roosevelt National Park Wild Horses Protection Act",
         "titleType": "Display Title",
@@ -274,9 +334,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:09:59Z",
+  "updateDate": "2026-11-18T09:07:10Z",
+  "updateDateIncludingText": "2026-11-18T09:07:10Z",
   "id": "119-S-1377",
-  "lastActionDate": "2026-06-15",
+  "lastActionDate": "2026-09-16",
   "lastRecordedVoteDate": "2026-06-11"
 }

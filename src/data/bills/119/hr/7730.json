@@ -816,7 +816,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/7730/summaries?format=json"
   },
   "title": "Bankruptcy Threshold Adjustment Act",
@@ -887,8 +887,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-13T14:24:14Z",
-  "updateDateIncludingText": "2026-11-13T14:24:14Z",
+  "updateDate": "2026-11-17T16:36:51Z",
+  "updateDateIncludingText": "2026-11-17T16:36:51Z",
   "id": "119-HR-7730",
   "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-09-28"

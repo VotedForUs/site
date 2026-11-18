@@ -1,8 +1,30 @@
 {
   "actions": {
-    "count": 10,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/s/2887/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-11-17",
+        "actionTime": "14:21:36",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-11-17",
+        "actionTime": "14:11:49",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-16",
         "sourceSystem": {
@@ -208,8 +230,9 @@
   "congress": 119,
   "introducedDate": "2025-09-18",
   "latestAction": {
-    "actionDate": "2026-11-16",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-11-17",
+    "actionTime": "14:21:36",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2887",
   "number": "2887",
@@ -263,9 +286,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-17T12:03:43Z",
-  "updateDateIncludingText": "2026-11-17T12:03:43Z",
+  "updateDate": "2026-11-18T09:06:53Z",
+  "updateDateIncludingText": "2026-11-18T09:06:53Z",
   "id": "119-S-2887",
-  "lastActionDate": "2026-11-16",
+  "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-12"
 }

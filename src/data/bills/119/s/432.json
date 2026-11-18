@@ -1,8 +1,30 @@
 {
   "actions": {
-    "count": 7,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/432/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-11-17",
+        "actionTime": "14:21:16",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-11-17",
+        "actionTime": "14:11:47",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-16",
         "sourceSystem": {
@@ -170,8 +192,9 @@
   "congress": 119,
   "introducedDate": "2025-02-05",
   "latestAction": {
-    "actionDate": "2026-11-16",
-    "text": "Message on Senate action sent to the House."
+    "actionDate": "2026-11-17",
+    "actionTime": "14:21:16",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/432",
   "number": "432",
@@ -215,9 +238,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-17T12:03:42Z",
-  "updateDateIncludingText": "2026-11-17T12:03:42Z",
+  "updateDate": "2026-11-18T09:06:51Z",
+  "updateDateIncludingText": "2026-11-18T09:06:51Z",
   "id": "119-S-432",
-  "lastActionDate": "2026-11-16",
+  "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-12"
 }

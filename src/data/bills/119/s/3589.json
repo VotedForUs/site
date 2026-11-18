@@ -15,14 +15,6 @@
         "type": "Floor"
       },
       {
-        "actionDate": "2026-11-12",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
         "actionCode": "H14000",
         "actionDate": "2026-11-12",
         "actionTime": "13:12:59",
@@ -31,6 +23,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-11-12",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -299,8 +299,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-13T12:03:36Z",
-  "updateDateIncludingText": "2026-11-13T12:03:36Z",
+  "updateDate": "2026-11-18T12:27:39Z",
+  "updateDateIncludingText": "2026-11-18T12:27:39Z",
   "id": "119-S-3589",
   "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2026-11-09"
