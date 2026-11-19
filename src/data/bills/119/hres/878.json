@@ -1126,19 +1126,9 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "Disapproving the behavior of Representative Jesús G. \"Chuy\" García of Illinois.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-10T14:58:28Z"
-      },
-      {
-        "billTextVersionCode": "EH",
-        "billTextVersionName": "Engrossed in House",
-        "chamberCode": "H",
-        "chamberName": "House",
-        "title": "Disapproving the behavior of Representative Jesús G. Chuy García of Illinois.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
-        "updateDate": "2025-11-20T05:53:20Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1151,8 +1141,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-07-10T14:58:30Z",
-  "updateDateIncludingText": "2026-07-13T18:33:51Z",
+  "updateDate": "2026-11-19T11:55:44Z",
+  "updateDateIncludingText": "2026-11-19T11:55:44Z",
   "id": "119-HRES-878",
   "lastActionDate": "2025-11-18",
   "lastRecordedVoteDate": "2025-11-18T20:12:19Z"

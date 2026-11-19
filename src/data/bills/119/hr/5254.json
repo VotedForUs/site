@@ -1,14 +1,22 @@
 {
   "actions": {
-    "count": 26,
+    "count": 27,
     "url": "https://api.congress.gov/v3/bill/119/hr/5254/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-17",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5709)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -851,8 +859,8 @@
   "congress": 119,
   "introducedDate": "2025-09-10",
   "latestAction": {
-    "actionDate": "2026-11-17",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-11-18",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5254",
   "number": "5254",
@@ -940,9 +948,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-18T11:57:00Z",
-  "updateDateIncludingText": "2026-11-18T11:57:00Z",
+  "updateDate": "2026-11-19T11:57:03Z",
+  "updateDateIncludingText": "2026-11-19T11:57:03Z",
   "id": "119-HR-5254",
-  "lastActionDate": "2026-11-17",
+  "lastActionDate": "2026-11-18",
   "lastRecordedVoteDate": "2026-11-17"
 }

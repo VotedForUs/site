@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 17,
+    "count": 18,
     "url": "https://api.congress.gov/v3/bill/119/hr/7954/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-11-17",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H6236-6237)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H6236-6238)",
         "type": "Floor"
       },
       {
@@ -651,9 +659,8 @@
   "congress": 119,
   "introducedDate": "2026-03-17",
   "latestAction": {
-    "actionDate": "2026-11-17",
-    "actionTime": "16:17:03",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-11-18",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/7954",
   "number": "7954",
@@ -666,6 +673,26 @@
   "title": "Don Young Doug LaMalfa Indian Buffalo Management Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Don Young Doug LaMalfa Indian Buffalo Management Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-11-19T04:38:40Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To assist Tribal governments in the management of buffalo and buffalo habitat and the reestablishment of buffalo on Indian land.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-11-19T04:38:40Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -701,9 +728,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-18T09:07:13Z",
-  "updateDateIncludingText": "2026-11-18T09:07:13Z",
+  "updateDate": "2026-11-19T11:56:59Z",
+  "updateDateIncludingText": "2026-11-19T14:34:29Z",
   "id": "119-HR-7954",
-  "lastActionDate": "2026-11-17",
+  "lastActionDate": "2026-11-18",
   "lastRecordedVoteDate": "2026-11-17"
 }

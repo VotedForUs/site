@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 18,
+    "count": 20,
     "url": "https://api.congress.gov/v3/bill/119/hr/3978/actions?format=json",
     "actions": [
       {
@@ -604,6 +604,40 @@
         "type": "Committee"
       },
       {
+        "actionCode": "H19000",
+        "actionDate": "2026-09-02",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported by the Yeas and Nays: 44 - 0.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2026-09-02",
+        "committees": [
+          {
+            "name": "Energy and Commerce Committee",
+            "systemCode": "hsif00",
+            "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
         "actionCode": "H23000",
         "actionDate": "2026-07-14",
         "committees": [
@@ -755,8 +789,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-14T17:31:06Z",
-  "updateDateIncludingText": "2026-11-14T17:31:06Z",
+  "updateDate": "2026-11-19T09:07:48Z",
+  "updateDateIncludingText": "2026-11-19T09:07:48Z",
   "id": "119-HR-3978",
   "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-11-10T00:00:01Z"

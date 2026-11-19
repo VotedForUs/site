@@ -1,6 +1,6 @@
 {
   "actions": {
-    "count": 9,
+    "count": 10,
     "url": "https://api.congress.gov/v3/bill/119/hres/1655/actions?format=json",
     "actions": [
       {
@@ -578,6 +578,23 @@
         },
         "text": "QUESTION OF THE PRIVILEGES OF THE HOUSE - Mr. Massie rose to a question of the privileges of the House and offered the resolution. The Chair directed the Clerk to report the resolution. Upon examination of the resolution, the Chair determined that the resolution did constitute a question of the privileges of the House.",
         "type": "Floor"
+      },
+      {
+        "actionCode": "H11100",
+        "actionDate": "2026-11-10",
+        "committees": [
+          {
+            "name": "Judiciary Committee",
+            "systemCode": "hsju00",
+            "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Referred to the House Committee on the Judiciary.",
+        "type": "IntroReferral"
       }
     ]
   },
@@ -612,8 +629,8 @@
     ]
   },
   "type": "HRES",
-  "updateDate": "2026-11-18T13:51:13Z",
-  "updateDateIncludingText": "2026-11-18T13:51:13Z",
+  "updateDate": "2026-11-19T09:07:34Z",
+  "updateDateIncludingText": "2026-11-19T09:07:34Z",
   "id": "119-HRES-1655",
   "lastActionDate": "2026-11-10",
   "lastRecordedVoteDate": "2026-11-10T23:02:41Z"

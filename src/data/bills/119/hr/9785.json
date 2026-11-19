@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 14,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/hr/9785/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-11-17",
@@ -22,7 +30,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.",
+        "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H6248-6249)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -500,7 +508,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered under suspension of the rules.",
+        "text": "Considered under suspension of the rules. (consideration: CR H6248-6250)",
         "type": "Floor"
       },
       {
@@ -600,9 +608,8 @@
   "congress": 119,
   "introducedDate": "2026-07-20",
   "latestAction": {
-    "actionDate": "2026-11-17",
-    "actionTime": "17:28:40",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-11-18",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9785",
   "number": "9785",
@@ -615,6 +622,36 @@
   "title": "South Dakota Water Feasibility Studies Act",
   "titles": {
     "titles": [
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "To direct the Secretary of the Interior to conduct studies to determine the feasibility of constructing projects to supply municipal, rural, and industrial water in certain parts of the Missouri River basin, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
+        "updateDate": "2026-11-19T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "South Dakota Water Feasibility Studies Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-11-19T04:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Western Dakota Regional Water System Feasibility Study Act",
+        "titleType": "Short Title(s) as Passed House for portions of this bill",
+        "titleTypeCode": 109,
+        "updateDate": "2026-11-19T04:38:39Z"
+      },
       {
         "billTextVersionCode": "RH",
         "billTextVersionName": "Reported in House",
@@ -652,17 +689,17 @@
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "Dakota Mainstem Water Supply Project Feasibility Study Act",
-        "titleType": "Short Title(s) as Introduced for portions of this bill",
-        "titleTypeCode": 106,
+        "title": "South Dakota Water Feasibility Studies Act",
+        "titleType": "Short Title(s) as Introduced",
+        "titleTypeCode": 101,
         "updateDate": "2026-07-22T05:38:23Z"
       },
       {
         "billTextVersionCode": "IH",
         "billTextVersionName": "Introduced in House",
-        "title": "South Dakota Water Feasibility Studies Act",
-        "titleType": "Short Title(s) as Introduced",
-        "titleTypeCode": 101,
+        "title": "Dakota Mainstem Water Supply Project Feasibility Study Act",
+        "titleType": "Short Title(s) as Introduced for portions of this bill",
+        "titleTypeCode": 106,
         "updateDate": "2026-07-22T05:38:23Z"
       },
       {
@@ -684,9 +721,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-18T09:06:39Z",
-  "updateDateIncludingText": "2026-11-18T09:06:39Z",
+  "updateDate": "2026-11-19T11:56:56Z",
+  "updateDateIncludingText": "2026-11-19T14:34:27Z",
   "id": "119-HR-9785",
-  "lastActionDate": "2026-11-17",
+  "lastActionDate": "2026-11-18",
   "lastRecordedVoteDate": "2026-11-17"
 }

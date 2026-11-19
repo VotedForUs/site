@@ -1,14 +1,22 @@
 {
   "actions": {
-    "count": 20,
+    "count": 21,
     "url": "https://api.congress.gov/v3/bill/119/hr/8454/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-17",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Unanimous Consent.",
+        "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5709)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -783,8 +791,8 @@
   "congress": 119,
   "introducedDate": "2026-04-22",
   "latestAction": {
-    "actionDate": "2026-11-17",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-11-18",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8454",
   "number": "8454",
@@ -824,9 +832,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-18T11:56:56Z",
-  "updateDateIncludingText": "2026-11-18T11:56:56Z",
+  "updateDate": "2026-11-19T11:56:58Z",
+  "updateDateIncludingText": "2026-11-19T11:56:58Z",
   "id": "119-HR-8454",
-  "lastActionDate": "2026-11-17",
+  "lastActionDate": "2026-11-18",
   "lastRecordedVoteDate": "2026-11-17"
 }
