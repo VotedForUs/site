@@ -852,6 +852,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Shingle Springs Band of Miwok Indians Land Transfer Act of 2025",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-11-19T04:43:38Z"
+      },
+      {
         "billTextVersionCode": "RS",
         "billTextVersionName": "Reported to Senate",
         "chamberCode": "S",
@@ -926,8 +936,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-18T11:57:04Z",
-  "updateDateIncludingText": "2026-11-18T11:57:04Z",
+  "updateDate": "2026-11-19T04:43:38Z",
+  "updateDateIncludingText": "2026-11-19T04:49:33Z",
   "id": "119-HR-2302",
   "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-16"

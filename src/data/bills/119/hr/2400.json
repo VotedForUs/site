@@ -22,7 +22,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "On motion that the House suspend the rules and agree to the Senate amendment Agreed to by voice vote.",
+        "text": "On motion that the House suspend the rules and agree to the Senate amendment Agreed to by voice vote. (text: CR H6247-6248)",
         "type": "ResolvingDifferences"
       },
       {
@@ -44,7 +44,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Mr. Westerman moved that the House suspend the rules and agree to the Senate amendment.",
+        "text": "Mr. Westerman moved that the House suspend the rules and agree to the Senate amendment. (consideration: CR H6247-6248)",
         "type": "ResolvingDifferences"
       },
       {
@@ -796,6 +796,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Pit River Land Transfer Act of 2026",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-11-19T04:43:37Z"
+      },
+      {
         "billTextVersionCode": "EAS",
         "billTextVersionName": "Engrossed Amendment Senate",
         "title": "Pit River Land Transfer Act of 2026",
@@ -878,8 +888,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-18T09:07:00Z",
-  "updateDateIncludingText": "2026-11-18T09:07:00Z",
+  "updateDate": "2026-11-19T09:06:30Z",
+  "updateDateIncludingText": "2026-11-19T09:06:30Z",
   "id": "119-HR-2400",
   "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2025-12-15"

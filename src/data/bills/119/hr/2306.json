@@ -743,6 +743,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "RS",
+        "billTextVersionName": "Reported to Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "Adams Memorial-Great American Heroes Act",
+        "titleType": "Short Title(s) as Reported to Senate",
+        "titleTypeCode": 103,
+        "updateDate": "2026-11-19T04:43:37Z"
+      },
+      {
         "billTextVersionCode": "RFS",
         "billTextVersionName": "Referred in Senate",
         "chamberCode": "S",
@@ -757,9 +767,9 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "Adams Memorial-Great American Heroes Act",
-        "titleType": "Short Title(s) as Passed House",
-        "titleTypeCode": 104,
+        "title": "To reauthorize the Adams Memorial Commission, and for other purposes.",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
+        "titleTypeCode": 259,
         "updateDate": "2025-12-11T03:53:20Z"
       },
       {
@@ -767,10 +777,16 @@
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
         "chamberName": "House",
-        "title": "To reauthorize the Adams Memorial Commission, and for other purposes.",
-        "titleType": "Official Title from EH (Engrossed in House) bill text",
-        "titleTypeCode": 259,
+        "title": "Adams Memorial-Great American Heroes Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
         "updateDate": "2025-12-11T03:53:20Z"
+      },
+      {
+        "title": "Adams Memorial-Great American Heroes Act",
+        "titleType": "Display Title",
+        "titleTypeCode": 45,
+        "updateDate": "2025-11-01T03:38:13Z"
       },
       {
         "billTextVersionCode": "RH",
@@ -780,12 +796,6 @@
         "title": "Adams Memorial-Great American Heroes Act",
         "titleType": "Short Title(s) as Reported to House",
         "titleTypeCode": 102,
-        "updateDate": "2025-11-01T03:38:13Z"
-      },
-      {
-        "title": "Adams Memorial-Great American Heroes Act",
-        "titleType": "Display Title",
-        "titleTypeCode": 45,
         "updateDate": "2025-11-01T03:38:13Z"
       },
       {
@@ -807,8 +817,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-13T11:56:59Z",
-  "updateDateIncludingText": "2026-11-13T11:56:59Z",
+  "updateDate": "2026-11-19T04:43:37Z",
+  "updateDateIncludingText": "2026-11-19T04:48:49Z",
   "id": "119-HR-2306",
   "lastActionDate": "2026-11-12",
   "lastRecordedVoteDate": "2025-12-09"

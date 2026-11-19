@@ -755,6 +755,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Safe Cloud Storage Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-11-19T04:53:41Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -809,8 +819,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-18T11:56:57Z",
-  "updateDateIncludingText": "2026-11-18T11:56:57Z",
+  "updateDate": "2026-11-19T04:53:41Z",
+  "updateDateIncludingText": "2026-11-19T04:53:41Z",
   "id": "119-HR-7834",
   "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-16"

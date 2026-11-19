@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 21,
+    "count": 22,
     "url": "https://api.congress.gov/v3/bill/119/hr/9237/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-18",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Received in the Senate.",
+        "type": "IntroReferral"
+      },
       {
         "actionCode": "H38310",
         "actionDate": "2026-11-11",
@@ -489,7 +497,7 @@
           "code": 2,
           "name": "House floor actions"
         },
-        "text": "Considered as unfinished business.",
+        "text": "Considered as unfinished business. (consideration: CR H6171)",
         "type": "Floor"
       },
       {
@@ -1171,9 +1179,8 @@
   "congress": 119,
   "introducedDate": "2026-06-10",
   "latestAction": {
-    "actionDate": "2026-11-11",
-    "actionTime": "14:46:12",
-    "text": "Motion to reconsider laid on the table Agreed to without objection."
+    "actionDate": "2026-11-18",
+    "text": "Received in the Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9237",
   "number": "9237",
@@ -1183,14 +1190,24 @@
     "count": 1,
     "url": "https://api.congress.gov/v3/bill/119/hr/9237/summaries?format=json"
   },
-  "title": "Take Care of America’s Veterans Act",
+  "title": "Take Care of America's Veterans Act",
   "titles": {
     "titles": [
       {
-        "title": "Take Care of America’s Veterans Act",
+        "title": "Take Care of America's Veterans Act",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-06-11T08:23:26Z"
+        "updateDate": "2026-11-19T10:38:39Z"
+      },
+      {
+        "billTextVersionCode": "EH",
+        "billTextVersionName": "Engrossed in House",
+        "chamberCode": "H",
+        "chamberName": "House",
+        "title": "Take Care of America's Veterans Act",
+        "titleType": "Short Title(s) as Passed House",
+        "titleTypeCode": 104,
+        "updateDate": "2026-11-19T10:38:37Z"
       },
       {
         "billTextVersionCode": "IH",
@@ -1227,9 +1244,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-12T09:06:28Z",
-  "updateDateIncludingText": "2026-11-12T09:06:28Z",
+  "updateDate": "2026-11-19T11:56:56Z",
+  "updateDateIncludingText": "2026-11-19T11:56:56Z",
   "id": "119-HR-9237",
-  "lastActionDate": "2026-11-11",
+  "lastActionDate": "2026-11-18",
   "lastRecordedVoteDate": "2026-11-11"
 }

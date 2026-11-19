@@ -683,6 +683,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "PCS",
+        "billTextVersionName": "Placed on Calendar Senate",
+        "chamberCode": "S",
+        "chamberName": "Senate",
+        "title": "University of Utah Research Park Act",
+        "titleType": "Short Title(s) from PCS (Placed on Senate Calendar) bill text",
+        "titleTypeCode": 152,
+        "updateDate": "2026-11-19T04:38:39Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -737,8 +747,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-17T11:56:53Z",
-  "updateDateIncludingText": "2026-11-17T11:56:53Z",
+  "updateDate": "2026-11-19T04:38:39Z",
+  "updateDateIncludingText": "2026-11-19T04:49:21Z",
   "id": "119-HR-2876",
   "lastActionDate": "2026-11-16",
   "lastRecordedVoteDate": "2025-12-15"
