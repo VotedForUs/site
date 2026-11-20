@@ -686,7 +686,7 @@
         "chamberCode": "H",
         "chamberName": "House",
         "title": "To reauthorize the United States Grain Standards Act, and for other purposes.",
-        "titleType": "Official Titles from EH (Engrossed in House) bill text",
+        "titleType": "Official Title from EH (Engrossed in House) bill text",
         "titleTypeCode": 259,
         "updateDate": "2026-07-11T16:28:20Z"
       },
@@ -749,8 +749,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-07-18T00:00:26Z",
-  "updateDateIncludingText": "2026-07-18T00:00:26Z",
+  "updateDate": "2026-11-19T14:34:11Z",
+  "updateDateIncludingText": "2026-11-19T14:34:11Z",
   "id": "119-HR-4550",
   "lastActionDate": "2025-11-04",
   "lastRecordedVoteDate": "2025-09-08"
