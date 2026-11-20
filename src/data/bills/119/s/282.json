@@ -1,8 +1,59 @@
 {
   "actions": {
-    "count": 12,
+    "count": 15,
     "url": "https://api.congress.gov/v3/bill/119/s/282/actions?format=json",
     "actions": [
+      {
+        "actionCode": "H19000",
+        "actionDate": "2026-11-18",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Ordered to be Reported (Amended) by Unanimous Consent.",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H15001",
+        "actionDate": "2026-11-18",
+        "committees": [
+          {
+            "name": "Natural Resources Committee",
+            "systemCode": "hsii00",
+            "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Committee Consideration and Mark-up Session Held",
+        "type": "Committee"
+      },
+      {
+        "actionCode": "H25000",
+        "actionDate": "2026-11-18",
+        "committees": [
+          {
+            "name": "Federal Lands Subcommittee",
+            "systemCode": "hsii10",
+            "url": "https://api.congress.gov/v3/committee/house/hsii10?format=json"
+          }
+        ],
+        "sourceSystem": {
+          "code": 1,
+          "name": "House committee actions"
+        },
+        "text": "Subcommittee on Federal Lands Discharged",
+        "type": "Committee"
+      },
       {
         "actionCode": "H21000",
         "actionDate": "2026-02-10",
@@ -245,8 +296,8 @@
   "congress": 119,
   "introducedDate": "2025-01-28",
   "latestAction": {
-    "actionDate": "2026-02-10",
-    "text": "Subcommittee Hearings Held"
+    "actionDate": "2026-11-18",
+    "text": "Ordered to be Reported (Amended) by Unanimous Consent."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/282",
   "number": "282",
@@ -300,9 +351,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-09-08T18:09:59Z",
-  "updateDateIncludingText": "2026-09-08T18:19:09Z",
+  "updateDate": "2026-11-20T09:08:25Z",
+  "updateDateIncludingText": "2026-11-20T09:08:25Z",
   "id": "119-S-282",
-  "lastActionDate": "2026-02-10",
+  "lastActionDate": "2026-11-18",
   "lastRecordedVoteDate": "2025-06-18"
 }
