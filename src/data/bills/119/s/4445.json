@@ -1,14 +1,44 @@
 {
   "actions": {
-    "count": 6,
+    "count": 9,
     "url": "https://api.congress.gov/v3/bill/119/s/4445/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-11-20",
+        "actionTime": "10:40:27",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-11-20",
+        "actionTime": "10:32:33",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-18",
         "sourceSystem": {
           "name": "Senate"
         },
-        "text": "Passed Senate without amendment by Voice Vote.",
+        "text": "Passed Senate without amendment by Voice Vote. (consideration: CR S5778; text: CR S5778)",
         "type": "Floor",
         "recordedVotes": [
           {
@@ -162,8 +192,8 @@
   "congress": 119,
   "introducedDate": "2026-04-30",
   "latestAction": {
-    "actionDate": "2026-11-18",
-    "text": "Passed Senate without amendment by Voice Vote."
+    "actionDate": "2026-11-20",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4445",
   "number": "4445",
@@ -176,7 +206,7 @@
         "title": "Veterans Protection from Fraud Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-11-19T11:58:43Z"
+        "updateDate": "2026-11-21T12:03:36Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -207,9 +237,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-19T11:58:43Z",
-  "updateDateIncludingText": "2026-11-19T14:49:18Z",
+  "updateDate": "2026-11-21T12:03:36Z",
+  "updateDateIncludingText": "2026-11-21T12:03:36Z",
   "id": "119-S-4445",
-  "lastActionDate": "2026-11-18",
+  "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-11-18"
 }
