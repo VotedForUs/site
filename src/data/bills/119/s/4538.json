@@ -1,8 +1,38 @@
 {
   "actions": {
-    "count": 9,
+    "count": 12,
     "url": "https://api.congress.gov/v3/bill/119/s/4538/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H15000",
+        "actionDate": "2026-11-20",
+        "actionTime": "10:40:36",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Held at the desk.",
+        "type": "Floor"
+      },
+      {
+        "actionCode": "H14000",
+        "actionDate": "2026-11-20",
+        "actionTime": "10:32:35",
+        "sourceSystem": {
+          "code": 2,
+          "name": "House floor actions"
+        },
+        "text": "Received in the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-19",
         "sourceSystem": {
@@ -200,8 +230,8 @@
   "congress": 119,
   "introducedDate": "2026-05-14",
   "latestAction": {
-    "actionDate": "2026-11-19",
-    "text": "Passed Senate without amendment by Unanimous Consent."
+    "actionDate": "2026-11-20",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4538",
   "number": "4538",
@@ -214,7 +244,7 @@
         "title": "Washington’s Trail—1753 National Historic Trail Feasibility Study Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
-        "updateDate": "2026-11-20T11:58:39Z"
+        "updateDate": "2026-11-21T12:03:36Z"
       },
       {
         "billTextVersionCode": "ES",
@@ -255,9 +285,9 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-20T11:58:39Z",
-  "updateDateIncludingText": "2026-11-20T14:03:39Z",
+  "updateDate": "2026-11-21T12:03:36Z",
+  "updateDateIncludingText": "2026-11-21T12:03:36Z",
   "id": "119-S-4538",
-  "lastActionDate": "2026-11-19",
+  "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-11-19"
 }

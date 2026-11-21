@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 23,
+    "count": 24,
     "url": "https://api.congress.gov/v3/bill/119/hr/4624/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-11-19",
         "sourceSystem": {
@@ -680,8 +688,8 @@
   "congress": 119,
   "introducedDate": "2025-07-23",
   "latestAction": {
-    "actionDate": "2026-11-19",
-    "text": "Passed Senate with an amendment by Unanimous Consent."
+    "actionDate": "2026-11-20",
+    "text": "Message on Senate action sent to the House."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4624",
   "number": "4624",
@@ -767,9 +775,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-20T12:08:52Z",
-  "updateDateIncludingText": "2026-11-20T14:03:47Z",
+  "updateDate": "2026-11-21T12:08:43Z",
+  "updateDateIncludingText": "2026-11-21T12:08:43Z",
   "id": "119-HR-4624",
-  "lastActionDate": "2026-11-19",
+  "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-03-24"
 }

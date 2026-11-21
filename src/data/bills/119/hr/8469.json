@@ -1,8 +1,16 @@
 {
   "actions": {
-    "count": 30,
+    "count": 31,
     "url": "https://api.congress.gov/v3/bill/119/hr/8469/actions?format=json",
     "actions": [
+      {
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Motion to proceed to consideration of measure made in Senate.",
+        "type": "Floor"
+      },
       {
         "actionDate": "2026-07-14",
         "sourceSystem": {
@@ -1253,8 +1261,8 @@
   "congress": 119,
   "introducedDate": "2026-04-23",
   "latestAction": {
-    "actionDate": "2026-07-14",
-    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 455."
+    "actionDate": "2026-11-20",
+    "text": "Motion to proceed to consideration of measure made in Senate."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8469",
   "number": "8469",
@@ -1322,9 +1330,9 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-09-19T23:39:37Z",
-  "updateDateIncludingText": "2026-09-19T23:39:37Z",
+  "updateDate": "2026-11-21T11:56:55Z",
+  "updateDateIncludingText": "2026-11-21T11:56:55Z",
   "id": "119-HR-8469",
-  "lastActionDate": "2026-07-14",
+  "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-05-15T14:26:35Z"
 }
