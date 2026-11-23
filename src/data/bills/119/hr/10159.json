@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 17,
+    "count": 19,
     "url": "https://api.congress.gov/v3/bill/119/hr/10159/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E30000",
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Signed by President.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E20000",
         "actionDate": "2026-11-20",
@@ -721,7 +741,7 @@
   "introducedDate": "2026-08-27",
   "latestAction": {
     "actionDate": "2026-11-20",
-    "text": "Presented to President."
+    "text": "Signed by President."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10159",
   "number": "10159",
@@ -761,8 +781,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-21T09:07:03Z",
-  "updateDateIncludingText": "2026-11-21T09:07:03Z",
+  "updateDate": "2026-11-23T14:09:08Z",
+  "updateDateIncludingText": "2026-11-23T14:09:08Z",
   "id": "119-HR-10159",
   "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-09-29"
