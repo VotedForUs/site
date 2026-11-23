@@ -1,24 +1,76 @@
+---
+/**
+ * The wordmark: VOTEDFOR★US, one word, caps, star for the separator.
+ *
+ * The star is the load-bearing element — it is what makes congress.gov's mark
+ * recognisable at a glance, and borrowing it places the site beside the
+ * source. Only the red is theirs: VOTEDFOR is set in a blue that is
+ * deliberately not in their palette, so the lockup cites the source without
+ * impersonating it.
+ *
+ * One lockup, two sizes, two colour treatments — there is no third size.
+ *
+ * Playfair Display is set locally on purpose: it is the wordmark face and
+ * nothing else on the site uses it, so it stays out of the theme's font tokens.
+ * It stands in for congress.gov's Didone, which ships as outlined paths with no
+ * recoverable font name.
+ */
+export type SiteNameSize = 'header' | 'hero';
+export type SiteNameVariant = 'colour' | 'mono';
 
-<div class="sitename"><span>V</span><span>o</span><span>t</span><span>e</span><span>d</span><span>F</span><span>o</span><span>r</span><span>U</span><span>s</span></div>
-
-<style is:global>
-@scope (.sitename) {
-    * {
-        font-size: clamp(3rem, 5vw, 9rem);
-        font-weight: 900;
-        line-height: 1;
-    }
-    span {
-        display: inline-block;
-        text-align: center;
-        background-image: url("/Flag_vertical_big_stars.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        paint-order: stroke fill;
-        -webkit-text-stroke: 1px var(--secondary-color);
-    }
+export interface Props {
+  /** header — 21px in site chrome · hero — 44px as a standalone mark. */
+  size?: SiteNameSize;
+  /** mono is the single-colour treatment: favicons, single-colour print, small OG cards. */
+  variant?: SiteNameVariant;
+  class?: string;
 }
+
+const { size = 'header', variant = 'colour', class: className } = Astro.props;
+---
+
+<span class:list={['sitename', 'fluid', `is-${size}`, `is-${variant}`, className]}>VOTEDFOR<span
+    class="sitename-star"
+    aria-hidden="true">&#9733;</span><span class="sitename-us">US</span></span>
+
+<style>
+  .sitename {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1;
+    white-space: nowrap;
+    color: var(--primary);
+  }
+
+  /* Both sizes are steps on the theme's fluid scale rather than pinned px:
+     --fl 2 is 21px in site chrome, --fl 7 is the 44px standalone mark. Graffiti resolves --fluid-type on headings, prose and
+     controls; `.fluid` is how it offers the same scale to any other element,
+     which a span needs. */
+  .is-header {
+    --fl: 2;
+    font-size: var(--fluid-type);
+  }
+
+  .is-hero {
+    --fl: 7;
+    font-size: var(--fluid-type);
+  }
+
+  .sitename-star {
+    font-size: 0.3em;
+    letter-spacing: 0;
+    padding: 0 0.06em;
+    color: var(--error);
+  }
+
+  .sitename-us {
+    color: var(--error);
+  }
+
+  .is-mono,
+  .is-mono .sitename-star,
+  .is-mono .sitename-us {
+    color: var(--wordmark-mono);
+  }
 </style>

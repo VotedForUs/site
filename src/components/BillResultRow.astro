@@ -1,0 +1,27 @@
+---
+/**
+ * One bill, as a result row: its number, the title it is known by, when it
+ * last moved, and how many recorded votes it has.
+ *
+ * The same row the finder builds for a bill result, rendered on the server for
+ * the bill lists. Status is not in the row: the lists group by it.
+ */
+import ResultRow from './ResultRow.astro';
+import { billHref } from './finder/finderView';
+import { formatDate } from '../utils/formatDate';
+import type { BillRow } from '../utils/finderMatch/index.js';
+
+interface Props {
+  row: BillRow;
+  base?: string;
+}
+
+const { row, base = import.meta.env.BASE_URL } = Astro.props;
+---
+
+<ResultRow href={billHref(row, base)}>
+  <Fragment slot="lead"><span class="row-id">{row.t}</span></Fragment>
+  <Fragment slot="title">{row.h}</Fragment>
+  <Fragment slot="meta">last action <time datetime={row.d}>{formatDate(row.d)}</time></Fragment>
+  <Fragment slot="trailing">{`${row.v} ${row.v === 1 ? 'vote' : 'votes'}`}</Fragment>
+</ResultRow>

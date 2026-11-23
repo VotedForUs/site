@@ -225,12 +225,26 @@ by older cached versions. Only pages absent from the new build are restored.
 
 **2. Save cache and manifest (`_cache:save`):**
 ```bash
+rm -rf dist-cache
 mkdir -p dist-cache
 cp -r dist/. dist-cache/
 cp .current-digests.json dist-cache/.astro-manifest.json
 ```
-`dist-cache/` is updated to the complete new site output. The manifest is
-promoted so the next run can diff against it.
+`dist-cache/` is **replaced** by the complete new site output. A merge-copy
+left deleted families (the old `/v/` pages) in the cache, and the next
+incremental `_cache:merge` would put them back. The manifest is promoted so
+the next run can diff against it.
+
+`_cache:merge` is a no-op when `FORCE_FULL_REBUILD=true`, so a full rebuild
+cannot copy leftover `/v/` pages back in. `_cache:save` hard-links on Linux
+(`cp -al`) so the replace does not need a second copy of the site on disk.
+
+`build:full` also runs `_check:no-legacy-v` so a leftover `dist/v` or
+`dist-cache/v` fails the build.
+
+GitHub Actions skips restoring `dist-cache/` on a dispatched full rebuild.
+The hosted runner has ~14 GB of disk; the previous cache plus a new 200k-page
+`dist/` will not both fit. That is what killed run 35426241038.
 
 ---
 
@@ -259,5 +273,46 @@ paths from `dist-cache/`.
 |--------|-------------|
 | `npm run build` | Full incremental build pipeline (check → build → merge → save) |
 | `npm run build:test` | Same pipeline with `BILLS_PER_TYPE_LIMIT=2 LEGISLATORS_LIMIT=20` |
-| `npm run build:full` | Force full rebuild (`FORCE_FULL_REBUILD=true`), replace cache |
-| `FORCE_FULL_REBUILD=true npm run build` | Equivalent to `build:full` |
+| `npm run build:full` | Force full rebuild (`FORCE_FULL_REBUILD=true`), skip merge, replace cache |
+| `FORCE_FULL_REBUILD=true npm run build` | Same emit as `build:full`; still runs incremental-check first |
+
+---
+
+## Page families as of 2026-11-09
+
+Only identities are prerendered. One member's cast on one vote is **not** a
+page: the roll page opens the card in place from `?member={bioguide}`, and a
+member's votes on a bill open on the member page from `?bill=`. The
+`/bills/…/[voteId]/[bioguideId]` route is deleted — it rendered the whole roll
+into every one of ~351,000 pages (217 KB each, 67 GB, a two-hour build that
+filled the Actions runner's disk).
+
+Measured `build:full`, 2026-11-09, 757 bills / 1,246 votes:
+
+| Family | Count |
+|--------|------:|
+| Finder (`/`) | 1 |
+| `/members/[bioguideid]` | ~610 |
+| `/bills/…/[billNumber]` | 757 |
+| `/bills/…/[voteId]` | 1,246 |
+| Hubs, about, changelog | ~245 |
+| **Total** | **2,857 pages · 439 MB · 3 min 41 s** |
+
+### Share stubs are not Astro pages
+
+`scripts/build-share-stubs.ts` runs after `astro build` (and after the cache
+merge) and writes `dist/bills/…/[voteId]/[bioguideId]/index.html`: ~1.3 KB of
+link-preview tags plus a hand-off to the `?member=` URL. `src/shareConfig.ts`
+decides which casts get one:
+
+| `SHARE_STUBS` | Stubs | Cost |
+|---|---|---|
+| unset (default) | every cast on `SHARE_SAMPLE_BILLS`, 1,999 today | under a second |
+| `all` (launch) | every cast, 360,393 | 16 s to write, +472 MB of content — but 360k files occupy ~3 GB of 4 KB disk blocks and a 1.4 GB tar, so upload and deploy are what slow down, not the write |
+
+A stub replaces an earlier stub but refuses to overwrite any other file, so a
+stale `dist-cache/` holding the old 217 KB pages fails loudly: run
+`npm run build:full` once.
+
+The `legislator-votes-loader` digests in the manifest no longer gate any page
+family; the collection is still read by the member pages.

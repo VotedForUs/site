@@ -22,11 +22,11 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
           cache: npm
@@ -53,7 +53,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Restore API cache
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: .cache/
           key: congress-cache-${{ runner.os }}-${{ github.run_id }}
@@ -61,7 +61,7 @@ jobs:
             congress-cache-${{ runner.os }}
 
       - name: Restore legislator images
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: public/images/legislators/
           key: legislator-images-${{ runner.os }}-${{ github.run_id }}
@@ -87,13 +87,13 @@ jobs:
         run: npm run generate-change-summary
 
       - name: Save API cache
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           path: .cache/
           key: congress-cache-${{ runner.os }}-${{ github.run_id }}
 
       - name: Save legislator images
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           path: public/images/legislators/
           key: legislator-images-${{ runner.os }}-${{ github.run_id }}

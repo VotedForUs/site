@@ -1,0 +1,198 @@
+name: PR Preview
+
+# A live copy of the site for every pull request, at
+#   https://pr-<number>-votedforus-site.<account>.workers.dev
+# rebuilt on every push and deleted when the pull request closes.
+#
+# Each one is a Cloudflare Worker Preview (wrangler.jsonc): an environment of
+# its own per pull request, served from the root of its own host. GitHub
+# Pages has no equivalent — one site per repository — so production stays on
+# Pages and previews live on Cloudflare.
+#
+# Needs two repository secrets: CLOUDFLARE_API_TOKEN (permission to edit
+# Workers Scripts) and CLOUDFLARE_ACCOUNT_ID.
+#
+# A preview is a full build with three differences from production:
+#   - the bill and legislator data is whatever is on main, not the branch's;
+#   - the share-card images for SHARE_SAMPLE_BILLS (src/shareConfig.ts) are
+#     drawn here, on every run — the step summary reports how long that took
+#     and what the same rate means for every cast;
+#   - it is marked noindex and its absolute URLs point at the preview.
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+# A newer push replaces an older build; closing cancels a build in flight.
+concurrency:
+  group: pr-preview-${{ github.event.number }}
+  cancel-in-progress: true
+
+env:
+  PREVIEW_NAME: pr-${{ github.event.number }}
+  WORKER_NAME: votedforus-site # `name` in wrangler.jsonc
+  WRANGLER_VERSION: '4.160.0'
+
+jobs:
+  preview:
+    # A fork's pull request gets no secrets, and the daily data pull requests
+    # merge themselves within minutes of opening.
+    if: >-
+      github.event.action != 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !startsWith(github.head_ref, 'data/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+      deployments: write # the "View deployment" button on the pull request
+      pull-requests: write # the comment that carries the preview link
+
+    steps:
+      - uses: actions/checkout@v7
+
+      # Fail in seconds, with the reason, rather than after a ten-minute
+      # build. The account's workers.dev subdomain is also the one part of a
+      # preview's address that is not known in advance, and the build needs
+      # the address for its absolute URLs.
+      - name: Check Cloudflare access and find the preview address
+        id: address
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::The CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repository secrets are both required."
+            exit 1
+          fi
+          response=$(curl --silent --show-error \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain")
+          subdomain=$(printf '%s' "$response" | jq -r '.result.subdomain // empty')
+          if [ -z "$subdomain" ]; then
+            echo "::error::Cloudflare did not return a workers.dev subdomain. Either the token cannot edit Workers Scripts on this account, or the account has not chosen its subdomain yet (Workers & Pages in the Cloudflare dashboard). Cloudflare said: $(printf '%s' "$response" | jq -c '.errors // .' | cut -c1-300)"
+            exit 1
+          fi
+          echo "origin=https://$PREVIEW_NAME-$WORKER_NAME.$subdomain.workers.dev" >> "$GITHUB_OUTPUT"
+
+      - name: Use the bill data on main
+        run: |
+          git fetch --depth=1 origin main
+          rm -rf src/data public/images/legislators
+          git checkout FETCH_HEAD -- src/data public/images/legislators
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          registry-url: https://npm.pkg.github.com
+          scope: '@votedforus'
+
+      - name: Restore the browser Puppeteer draws with
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
+      # The cards carry an emoji beside the cast; without a colour emoji font
+      # it is drawn as an empty box.
+      - name: Install the browser and an emoji font
+        run: |
+          npx puppeteer browsers install chrome
+          sudo apt-get install -y --no-install-recommends fonts-noto-color-emoji
+
+      - name: Draw the sample share cards
+        run: npm run social-cards
+
+      # A full build, never an incremental one: a preview has no previous
+      # build of its own to merge with.
+      - name: Build the site
+        env:
+          SITE_URL: ${{ steps.address.outputs.origin }}
+          SITE_NOINDEX: 'true'
+          FORCE_FULL_REBUILD: 'true'
+          NODE_OPTIONS: '--max-old-space-size=8192'
+        run: |
+          started=$(date +%s)
+          npm run finder:index
+          npx astro build
+          npm run share:stubs
+          {
+            echo "### Site build"
+            echo
+            echo "- **Pages:** $(find dist -name '*.html' | wc -l)"
+            echo "- **Files:** $(find dist -type f | wc -l) (Cloudflare's free plan allows 20,000)"
+            echo "- **Size:** $(du -sh dist | cut -f1)"
+            echo "- **Time:** $(( $(date +%s) - started ))s"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish the preview
+        id: deploy
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: ${{ env.WRANGLER_VERSION }}
+          command: preview --name ${{ env.PREVIEW_NAME }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          # The action installs Wrangler with npm, which reads this repo's .npmrc.
+          NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
+      # The build baked the address into its share links before the preview
+      # existed; if Cloudflare served it somewhere else they would all be wrong.
+      - name: Check the preview is where the build expected
+        env:
+          EXPECTED: ${{ steps.address.outputs.origin }}
+          ACTUAL: ${{ steps.deploy.outputs.preview-url }}
+        run: |
+          if [ "${ACTUAL%/}" != "$EXPECTED" ]; then
+            echo "::error::The preview is at $ACTUAL but the site was built for $EXPECTED."
+            exit 1
+          fi
+          curl --fail --silent --show-error --output /dev/null --retry 5 --retry-delay 5 --retry-all-errors "$EXPECTED/"
+          echo "### Preview: $EXPECTED" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Link the preview from the pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          URL: ${{ steps.address.outputs.origin }}
+        run: |
+          gh pr comment "${{ github.event.number }}" --edit-last --create-if-none --body \
+            "**Preview:** $URL
+
+          Built from \`${{ github.event.pull_request.head.sha }}\` with the data on \`main\`. Updated on every push; removed when this pull request closes."
+
+  cleanup:
+    if: >-
+      github.event.action == 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !startsWith(github.head_ref, 'data/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Delete the preview
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: ${{ env.WRANGLER_VERSION }}
+          command: preview delete --name ${{ env.PREVIEW_NAME }} --skip-confirmation
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Say so on the pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr comment "${{ github.event.number }}" --edit-last --create-if-none --body \
+            "**Preview removed:** this pull request is closed."

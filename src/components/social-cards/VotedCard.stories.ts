@@ -53,6 +53,18 @@ export const HouseNo = meta.story({
   args: votedSamples['house-no'],
 });
 
+export const Present = meta.story({
+  args: votedSamples.present,
+});
+
+export const NotVoting = meta.story({
+  args: votedSamples['not-voting'],
+});
+
+export const MissingHeadshot = meta.story({
+  args: votedSamples['missing-headshot'],
+});
+
 /** Real site data from resolver output (regenerate via generate-voted-resolved-fixtures.ts). */
 export const RealData = meta.story({
   args: votedResolvedFixtures.sandersSjres3Nay,

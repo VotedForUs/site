@@ -157,6 +157,21 @@ export async function resolveLegislatorVoteViewFromFiles(
 }
 
 /**
+ * Every member with a display cast on one vote, from on-disk JSON.
+ *
+ * @param voteId - Recorded vote id (`119-HR-1-3`)
+ * @returns Bioguide ids, sorted; empty when the vote is not in the data
+ */
+export function listVoteMembersFromFiles(voteId: string): string[] {
+  const suffix = `-${voteId}`;
+  const members: string[] = [];
+  for (const [key, record] of getLegislatorVoteIndex()) {
+    if (record.voteId === voteId && key.endsWith(suffix)) members.push(record.bioguideId);
+  }
+  return members.sort();
+}
+
+/**
  * Clears cached vote index (for tests).
  */
 export function clearLegislatorVoteFileIndexCache(): void {
