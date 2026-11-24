@@ -802,6 +802,16 @@
   "titles": {
     "titles": [
       {
+        "billTextVersionCode": "ENR",
+        "billTextVersionName": "Enrolled Bill",
+        "chamberCode": "J",
+        "chamberName": "Joint",
+        "title": "Setting Consumer Standards for Lithium-Ion Batteries Act",
+        "titleType": "Short Titles from ENR (Enrolled) bill text",
+        "titleTypeCode": 147,
+        "updateDate": "2026-11-24T06:38:42Z"
+      },
+      {
         "billTextVersionCode": "EH",
         "billTextVersionName": "Engrossed in House",
         "chamberCode": "H",
@@ -856,8 +866,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-21T11:57:01Z",
-  "updateDateIncludingText": "2026-11-21T11:57:01Z",
+  "updateDate": "2026-11-24T06:38:42Z",
+  "updateDateIncludingText": "2026-11-24T06:38:42Z",
   "id": "119-HR-973",
   "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-11-19"
