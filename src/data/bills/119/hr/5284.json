@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 24,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/5284/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-144.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-144.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-11-20",
@@ -805,8 +825,14 @@
   "introducedDate": "2025-09-10",
   "latestAction": {
     "actionDate": "2026-11-20",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-144."
   },
+  "laws": [
+    {
+      "number": "119-144",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5284",
   "number": "5284",
   "originChamber": "House",
@@ -893,8 +919,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-23T14:08:40Z",
-  "updateDateIncludingText": "2026-11-23T14:08:40Z",
+  "updateDate": "2026-11-24T14:48:35Z",
+  "updateDateIncludingText": "2026-11-24T14:48:35Z",
   "id": "119-HR-5284",
   "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-09-29"

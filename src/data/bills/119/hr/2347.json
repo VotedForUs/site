@@ -1509,6 +1509,16 @@
   "titles": {
     "titles": [
       {
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "title": "BAAJA",
+        "titleType": "Popular Titles",
+        "titleTypeCode": 30,
+        "updateDate": "2026-11-24T15:17:08Z"
+      },
+      {
         "title": "Bipartisan American Affordability and Jobs Act of 2026",
         "titleType": "Display Title",
         "titleTypeCode": 45,
@@ -1581,8 +1591,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-23T14:30:33Z",
-  "updateDateIncludingText": "2026-11-23T14:30:33Z",
+  "updateDate": "2026-11-24T15:17:08Z",
+  "updateDateIncludingText": "2026-11-24T15:17:08Z",
   "id": "119-HR-2347",
   "lastActionDate": "2026-11-19",
   "lastRecordedVoteDate": "2026-11-20T02:44:02Z"

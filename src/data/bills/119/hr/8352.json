@@ -1,8 +1,28 @@
 {
   "actions": {
-    "count": 24,
+    "count": 26,
     "url": "https://api.congress.gov/v3/bill/119/hr/8352/actions?format=json",
     "actions": [
+      {
+        "actionCode": "E40000",
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-145.",
+        "type": "President"
+      },
+      {
+        "actionCode": "36000",
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "code": 9,
+          "name": "Library of Congress"
+        },
+        "text": "Became Public Law No: 119-145.",
+        "type": "BecameLaw"
+      },
       {
         "actionCode": "E30000",
         "actionDate": "2026-11-20",
@@ -805,8 +825,14 @@
   "introducedDate": "2026-04-16",
   "latestAction": {
     "actionDate": "2026-11-20",
-    "text": "Signed by President."
+    "text": "Became Public Law No: 119-145."
   },
+  "laws": [
+    {
+      "number": "119-145",
+      "type": "Public Law"
+    }
+  ],
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8352",
   "number": "8352",
   "originChamber": "House",
@@ -893,8 +919,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-23T14:08:50Z",
-  "updateDateIncludingText": "2026-11-23T14:08:50Z",
+  "updateDate": "2026-11-24T14:48:53Z",
+  "updateDateIncludingText": "2026-11-24T14:48:53Z",
   "id": "119-HR-8352",
   "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-09-30"

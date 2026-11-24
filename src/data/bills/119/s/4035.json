@@ -4,14 +4,6 @@
     "url": "https://api.congress.gov/v3/bill/119/s/4035/actions?format=json",
     "actions": [
       {
-        "actionDate": "2026-11-20",
-        "sourceSystem": {
-          "name": "Senate"
-        },
-        "text": "Message on Senate action sent to the House.",
-        "type": "Floor"
-      },
-      {
         "actionCode": "H15000",
         "actionDate": "2026-11-20",
         "actionTime": "10:40:18",
@@ -31,6 +23,14 @@
           "name": "House floor actions"
         },
         "text": "Received in the House.",
+        "type": "Floor"
+      },
+      {
+        "actionDate": "2026-11-20",
+        "sourceSystem": {
+          "name": "Senate"
+        },
+        "text": "Message on Senate action sent to the House.",
         "type": "Floor"
       },
       {
@@ -201,7 +201,8 @@
   "introducedDate": "2026-03-10",
   "latestAction": {
     "actionDate": "2026-11-20",
-    "text": "Message on Senate action sent to the House."
+    "actionTime": "10:40:18",
+    "text": "Held at the desk."
   },
   "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4035",
   "number": "4035",
@@ -263,8 +264,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-21T12:08:42Z",
-  "updateDateIncludingText": "2026-11-21T12:08:42Z",
+  "updateDate": "2026-11-24T13:53:08Z",
+  "updateDateIncludingText": "2026-11-24T13:53:08Z",
   "id": "119-S-4035",
   "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2026-11-19"
