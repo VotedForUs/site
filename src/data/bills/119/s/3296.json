@@ -223,6 +223,10 @@
   "number": "3296",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/3296/summaries?format=json"
+  },
   "title": "Improving Access to Workers’ Compensation for Injured Federal Workers Act of 2025",
   "titles": {
     "titles": [
@@ -271,8 +275,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-11-18T12:28:48Z",
-  "updateDateIncludingText": "2026-11-18T12:28:48Z",
+  "updateDate": "2026-11-24T22:57:49Z",
+  "updateDateIncludingText": "2026-11-24T22:57:49Z",
   "id": "119-S-3296",
   "lastActionDate": "2026-11-17",
   "lastRecordedVoteDate": "2026-11-16"

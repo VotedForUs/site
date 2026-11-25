@@ -172,6 +172,10 @@
   "number": "4631",
   "originChamber": "Senate",
   "originChamberCode": "S",
+  "summaries": {
+    "count": 1,
+    "url": "https://api.congress.gov/v3/bill/119/s/4631/summaries?format=json"
+  },
   "title": "Expanding Whistleblower Protections for Contractors Act of 2026",
   "titles": {
     "titles": [
@@ -200,8 +204,8 @@
     ]
   },
   "type": "S",
-  "updateDate": "2026-05-28T19:59:56Z",
-  "updateDateIncludingText": "2026-07-18T21:56:54Z",
+  "updateDate": "2026-11-24T22:49:41Z",
+  "updateDateIncludingText": "2026-11-24T22:49:41Z",
   "id": "119-S-4631",
   "lastActionDate": "2026-05-21",
   "lastRecordedVoteDate": "2026-05-21"
