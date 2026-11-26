@@ -662,7 +662,7 @@
   "originChamber": "House",
   "originChamberCode": "H",
   "summaries": {
-    "count": 1,
+    "count": 2,
     "url": "https://api.congress.gov/v3/bill/119/hr/1520/summaries?format=json"
   },
   "title": "Charlotte Woodward Organ Transplant Discrimination Prevention Act",
@@ -741,8 +741,8 @@
     ]
   },
   "type": "HR",
-  "updateDate": "2026-11-21T12:08:42Z",
-  "updateDateIncludingText": "2026-11-21T12:08:42Z",
+  "updateDate": "2026-11-25T20:16:19Z",
+  "updateDateIncludingText": "2026-11-25T20:16:19Z",
   "id": "119-HR-1520",
   "lastActionDate": "2026-11-20",
   "lastRecordedVoteDate": "2025-06-23"
